@@ -2,10 +2,11 @@
 from zipfile import ZipFile
 from xml.etree import ElementTree
 
+filename = "05"
 nodes = 0
 connections = 0
 metanodes = 0
-with ZipFile('4.knwf') as zf:
+with ZipFile(filename+".knwf") as zf:
     for filename in zf.namelist():
         if filename.endswith("workflow.knime"):
             metanodes += 1
