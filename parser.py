@@ -31,10 +31,10 @@ with ZipFile(filename) as zf:
                                     inputs[(entry.attrib["value"])] += 1
                 muliopSet = set()
                 for node in inputs:
-                    if (inputs[node]>1):
+                    if inputs[node] > 1:
                         muliopSet.add(node)
                 for node in outputs:
-                    if (inputs[node]>1):
+                    if inputs[node] > 1:
                         muliopSet.add(node)
                 multop += len(muliopSet)
 
