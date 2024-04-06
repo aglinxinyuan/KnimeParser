@@ -7,11 +7,10 @@ from collections import Counter
 
 graph = Digraph()
 
-filename = "examples/02.knwf"
+filename = "examples/03.knwf"
 metanodes = dict()
 nodes = 0
 edges = []
-
 
 def parse(zf, filename):
     global nodes
@@ -24,14 +23,18 @@ def parse(zf, filename):
             if key == "nodes":
                 for node in child:
                     node_id = node.attrib["key"].split("_")[1]
-                    for entry in node:
-                        if entry.attrib["key"] == "node_settings_file":
-                            metafile = entry.attrib["value"]
-                            value = metafile.split("/")
-                            if value[1] == "workflow.knime":
-                                metanodes[node_id] = parse(zf, filename[:-14] + metafile)
+                    is_meta = False
+                    for entry in reversed(node):
+                        if entry.attrib["key"] == "node_is_meta" and entry.attrib["value"] == "true":
+                            is_meta = True
+                        elif entry.attrib["key"] == "node_settings_file":
+                            metafile = entry.attrib["value"].split("/")[0]
+                            if is_meta:
+                                meta_source, meta_dest = parse(zf, filename[:-14] + metafile + "/workflow.knime")
+                                if meta_source and meta_dest:
+                                    metanodes[node_id] = [meta_source, meta_dest]
                             else:
-                                name = value[0]
+                                name = metafile
                                 graph.node(name=node_id, label=name[:name.rfind(" ")])
                                 nodes += 1
             if key == "connections":
@@ -54,7 +57,6 @@ with ZipFile(filename) as zf:
     for filename in zf.namelist():
         if filename.count("/") == 1 and filename.endswith("workflow.knime"):
             parse(zf, filename)
-
 while metanodes.keys() & set(sum(edges, [])):
     for i, (source, dest) in enumerate(edges):
         if source in metanodes:
@@ -77,7 +79,6 @@ mult_op = {node for node in inputs | outputs if inputs[node] > 1 or outputs[node
 graph.attr(rankdir='LR')
 graph.render(filename="graph/" + str(randint(1000000, 9999999)), view=True)
 
-print("Metanodes:", len(metanodes))
 print("Operators:", nodes)
 print("Edges:", len(edges))
 print("Operators with multIO:", len(mult_op))
