@@ -7,7 +7,7 @@ from collections import Counter
 
 graph = Digraph()
 
-filename = "examples/03.knwf"
+filename = "examples/02.knwf"
 metanodes = dict()
 nodes = 0
 edges = []
