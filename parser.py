@@ -12,6 +12,7 @@ metanodes = dict()
 nodes = 0
 edges = []
 
+
 def parse(zf, filename):
     global nodes
     meta_inputs = []
