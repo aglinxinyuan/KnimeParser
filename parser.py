@@ -3,6 +3,7 @@ from zipfile import ZipFile
 from xml.etree import ElementTree
 from collections import Counter
 from graphviz import Digraph
+from random import randint
 
 graph = Digraph()
 
@@ -11,6 +12,7 @@ metanodes = 0
 multop = 0
 nodes = 0
 connections = 0
+
 
 def parse(zf, filename):
     global multop
@@ -31,8 +33,9 @@ def parse(zf, filename):
                             name = name[:name.rfind(" ")]
                             graph.node(name=node.attrib["key"].split("_")[1], label=name)
                         if entry.attrib["key"] == "node_is_meta":
-                            if entry.attrib["value"]=="true":
-                                print("meta", metafile)
+                            if entry.attrib["value"] == "true":
+                                print("meta")
+                                parse(zf, filename[:-14]+metafile)
                     nodes += 1
             if key == "connections":
                 for connection in child:
@@ -55,6 +58,7 @@ def parse(zf, filename):
                 muliopSet.add(node)
         multop += len(muliopSet)
 
+
 with ZipFile(filename) as zf:
     for filename in zf.namelist():
         if filename.endswith("workflow.knime") and filename.count("/") == 1:
@@ -62,7 +66,7 @@ with ZipFile(filename) as zf:
             parse(zf, filename)
 
 graph.attr(rankdir='LR')
-graph.render(view=True)
+graph.render(filename="graph/"+str(randint(1000000,9999999)), view=True)
 
 nodes = nodes - metanodes + 1
 #connections = connections - (metanodes - 1) * 2
