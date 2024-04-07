@@ -5,12 +5,12 @@ from graphviz import Digraph
 from random import randint
 from collections import Counter
 
-graph = Digraph()
-
 filename = "examples/02.knwf"
+
 metanodes = dict()
 nodes = 0
 edges = []
+graph = Digraph()
 
 
 def parse(zf, filename):
@@ -79,6 +79,8 @@ mult_op = {node for node in inputs | outputs if inputs[node] > 1 or outputs[node
 
 graph.attr(rankdir='LR')
 graph.render(filename="graph/" + str(randint(1000000, 9999999)), view=True)
+
+print(graph.source)
 
 print("Operators:", nodes)
 print("Edges:", len(edges))
