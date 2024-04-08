@@ -1,0 +1,247 @@
+digraph {
+	2 [label="Missing Value"]
+	3 [label="PNN Learner _DDA_"]
+	4 [label="Naive Bayes Learner"]
+	6 [label="Naive Bayes Predictor"]
+	8 [label="PNN Predictor"]
+	13 [label="Numeric Binner"]
+	14 [label="Column Filter"]
+	19 [label="Apriori _3_7_"]
+	20 [label="CSV Reader"]
+	21 [label="CSV Reader"]
+	27 [label="RProp MLP Learner"]
+	28 [label="MultiLayerPerceptron Predictor"]
+	29 [label=Scorer]
+	35 [label="Logistic Regression Learner"]
+	36 [label="Logistic Regression Predictor"]
+	37 [label="Call Workflow _Table Based_"]
+	38 [label="Number To String"]
+	40 [label="Color Manager"]
+	41 [label="Box Plot"]
+	42 [label="String To Number"]
+	43 [label=Partitioning]
+	44 [label=GroupBy]
+	64 [label="XGBoost Tree Ensemble Learner"]
+	23 [label="Decision Tree Learner"]
+	24 [label="Decision Tree Predictor"]
+	46 [label="Scorer _JavaScript_"]
+	47 [label="Equal Size Sampling"]
+	48 [label="Decision Tree Learner"]
+	49 [label="Decision Tree Predictor"]
+	50 [label="Scorer _JavaScript_"]
+	56 [label="Decision Tree Learner"]
+	57 [label="Decision Tree Predictor"]
+	58 [label="Scorer _JavaScript_"]
+	51 [label="Row Splitter"]
+	52 [label="Counting Loop Start"]
+	53 [label="Loop End"]
+	54 [label=Concatenate]
+	55 [label="Column Filter"]
+	60 [label=SMOTE]
+	61 [label="Decision Tree Learner"]
+	62 [label="Decision Tree Predictor"]
+	63 [label="Scorer _JavaScript_"]
+	46 [label="Scorer _JavaScript_"]
+	47 [label="Equal Size Sampling"]
+	50 [label="Scorer _JavaScript_"]
+	58 [label="Scorer _JavaScript_"]
+	51 [label="Row Splitter"]
+	52 [label="Counting Loop Start"]
+	53 [label="Loop End"]
+	54 [label=Concatenate]
+	55 [label="Column Filter"]
+	60 [label=SMOTE]
+	63 [label="Scorer _JavaScript_"]
+	64 [label="XGBoost Tree Ensemble Learner"]
+	65 [label="XGBoost Tree Ensemble Learner"]
+	66 [label="XGBoost Tree Ensemble Learner"]
+	67 [label="XGBoost Tree Ensemble Learner"]
+	68 [label="XGBoost Predictor"]
+	69 [label="XGBoost Predictor"]
+	70 [label="XGBoost Predictor"]
+	71 [label="XGBoost Predictor"]
+	73 [label="Double To Int"]
+	74 [label="Double To Int"]
+	75 [label="CSV Writer"]
+	76 [label="Column Filter"]
+	77 [label="CSV Reader"]
+	46 [label="Scorer _JavaScript_"]
+	47 [label="Equal Size Sampling"]
+	50 [label="Scorer _JavaScript_"]
+	58 [label="Scorer _JavaScript_"]
+	51 [label="Row Splitter"]
+	52 [label="Counting Loop Start"]
+	53 [label="Loop End"]
+	54 [label=Concatenate]
+	55 [label="Column Filter"]
+	60 [label=SMOTE]
+	63 [label="Scorer _JavaScript_"]
+	64 [label="Id3 _3_7_"]
+	65 [label="Id3 _3_7_"]
+	66 [label="Id3 _3_7_"]
+	67 [label="Id3 _3_7_"]
+	68 [label="Weka Predictor _3_7_"]
+	69 [label="Weka Predictor _3_7_"]
+	70 [label="Weka Predictor _3_7_"]
+	71 [label="Weka Predictor _3_7_"]
+	72 [label="Number To String"]
+	73 [label="Number To String"]
+	46 [label="Scorer _JavaScript_"]
+	47 [label="Equal Size Sampling"]
+	50 [label="Scorer _JavaScript_"]
+	58 [label="Scorer _JavaScript_"]
+	51 [label="Row Splitter"]
+	52 [label="Counting Loop Start"]
+	53 [label="Loop End"]
+	54 [label=Concatenate]
+	55 [label="Column Filter"]
+	60 [label=SMOTE]
+	63 [label="Scorer _JavaScript_"]
+	74 [label="Naive Bayes Learner"]
+	75 [label="Naive Bayes Learner"]
+	76 [label="Naive Bayes Learner"]
+	77 [label="Naive Bayes Learner"]
+	78 [label="Naive Bayes Predictor"]
+	79 [label="Naive Bayes Predictor"]
+	80 [label="Naive Bayes Predictor"]
+	81 [label="Naive Bayes Predictor"]
+	82 [label="ROC Curve"]
+	83 [label="Prediction Fusion"]
+	84 [label="Column Filter"]
+	85 [label="CSV Writer"]
+	86 [label="Random Forest Learner"]
+	87 [label="Random Forest Predictor"]
+	69 [label="Box Plot"]
+	70 [label="Conditional Box Plot"]
+	71 [label="Create Collection Column"]
+	72 [label=Normalizer]
+	73 [label="Column Filter"]
+	74 [label="Numeric Binner"]
+	75 [label="Column Filter"]
+	76 [label=Normalizer]
+	78 [label="Missing Value"]
+	79 [label="String To Number"]
+	80 [label=Histogram]
+	81 [label="PNN Learner _DDA_"]
+	82 [label="PNN Predictor"]
+	83 [label="Scorer _JavaScript_"]
+	51 -> 54
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 55
+	23 -> 24
+	24 -> 46
+	47 -> 48
+	48 -> 49
+	49 -> 50
+	56 -> 57
+	57 -> 58
+	55 -> 56
+	60 -> 61
+	61 -> 62
+	62 -> 63
+	51 -> 54
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 55
+	47 -> 65
+	55 -> 66
+	60 -> 74
+	64 -> 68
+	65 -> 69
+	66 -> 70
+	67 -> 71
+	68 -> 46
+	69 -> 50
+	69 -> 76
+	70 -> 58
+	71 -> 63
+	73 -> 71
+	74 -> 67
+	76 -> 75
+	51 -> 54
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 55
+	47 -> 65
+	55 -> 66
+	60 -> 67
+	64 -> 68
+	65 -> 69
+	66 -> 70
+	67 -> 71
+	68 -> 46
+	69 -> 50
+	70 -> 58
+	71 -> 63
+	72 -> 47
+	72 -> 64
+	72 -> 51
+	72 -> 60
+	73 -> 69
+	73 -> 68
+	73 -> 71
+	73 -> 70
+	51 -> 54
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 55
+	47 -> 75
+	55 -> 76
+	60 -> 77
+	74 -> 78
+	75 -> 79
+	76 -> 80
+	77 -> 81
+	78 -> 46
+	78 -> 83
+	79 -> 50
+	80 -> 82
+	80 -> 58
+	80 -> 84
+	81 -> 63
+	84 -> 85
+	2 -> 70
+	2 -> 69
+	2 -> 13
+	2 -> 80
+	4 -> 6
+	13 -> 42
+	14 -> 72
+	14 -> 43
+	20 -> 40
+	21 -> 78
+	21 -> 74
+	27 -> 28
+	28 -> 29
+	35 -> 36
+	38 -> 19
+	40 -> 2
+	42 -> 41
+	42 -> 73
+	42 -> 14
+	43 -> 44
+	43 -> 67
+	43 -> 66
+	43 -> 65
+	43 -> 65
+	43 -> 68
+	43 -> 27
+	43 -> 28
+	43 -> 81
+	43 -> 82
+	73 -> 38
+	74 -> 79
+	75 -> 76
+	76 -> 66
+	76 -> 67
+	76 -> 68
+	79 -> 75
+	81 -> 82
+	82 -> 83
+	rankdir=LR
+}

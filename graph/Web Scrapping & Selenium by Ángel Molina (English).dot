@@ -1,0 +1,64 @@
+digraph {
+	47 [label=Clicker]
+	49 [label="Text Sender"]
+	50 [label=Navigator]
+	51 [label="Web Interaction Start"]
+	52 [label=Clicker]
+	784 [label=Clicker]
+	785 [label=Clicker]
+	786 [label="Text Sender"]
+	804 [label=Clicker]
+	818 [label=Clicker]
+	825 [label="Content Retriever"]
+	826 [label="Row Filter"]
+	830 [label="Table Manipulator"]
+	835 [label="Column Appender"]
+	842 [label="Excel Writer"]
+	844 [label="Create Date_Time Range"]
+	845 [label="Column Appender"]
+	846 [label="Variable Creator"]
+	847 [label="Content Retriever"]
+	848 [label="Row Filter"]
+	849 [label="String Manipulation"]
+	850 [label="Cell Splitter"]
+	851 [label="Rule Engine"]
+	852 [label="Math Formula"]
+	853 [label="String To Number"]
+	854 [label="String Manipulation _Multi Column_"]
+	855 [label="Row Splitter"]
+	856 [label="String Manipulation _Multi Column_"]
+	857 [label=Concatenate]
+	858 [label=Sorter]
+	849 -> 850
+	850 -> 851
+	851 -> 853
+	852 -> 849
+	853 -> 852
+	854 -> 857
+	858 -> 854
+	858 -> 856
+	856 -> 857
+	857 -> 858
+	47 -> 52
+	49 -> 818
+	50 -> 47
+	51 -> 50
+	52 -> 786
+	784 -> 49
+	785 -> 804
+	786 -> 785
+	804 -> 784
+	818 -> 825
+	818 -> 847
+	825 -> 826
+	826 -> 835
+	830 -> 845
+	835 -> 830
+	844 -> 845
+	845 -> 842
+	846 -> 786
+	847 -> 848
+	848 -> 849
+	858 -> 835
+	rankdir=LR
+}

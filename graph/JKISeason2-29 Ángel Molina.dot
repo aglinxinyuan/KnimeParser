@@ -1,0 +1,35 @@
+digraph {
+	1 [label="CSV Reader"]
+	58 [label="String Manipulation"]
+	69 [label="Hierarchical Clustering _DistMatrix_"]
+	70 [label="Hierarchical Cluster Assigner"]
+	71 [label="Numeric Distances"]
+	78 [label="Row Splitter"]
+	81 [label="Column Appender"]
+	83 [label="Counter Generation"]
+	84 [label="Math Formula"]
+	85 [label=RowID]
+	86 [label="Constant Value Column"]
+	87 [label="Number to String"]
+	88 [label="Double to Integer"]
+	89 [label=RowID]
+	90 [label="String to Number"]
+	1 -> 78
+	58 -> 90
+	69 -> 70
+	71 -> 69
+	78 -> 81
+	78 -> 81
+	81 -> 83
+	83 -> 84
+	84 -> 85
+	85 -> 86
+	86 -> 88
+	87 -> 58
+	88 -> 87
+	89 -> 71
+	89 -> 70
+	89 -> 69
+	90 -> 89
+	rankdir=LR
+}

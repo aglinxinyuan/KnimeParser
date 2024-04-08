@@ -1,0 +1,45 @@
+digraph {
+	18 [label="Catch Errors _Data Ports_"]
+	22 [label="Table Creator"]
+	25 [label="Constant Value Column"]
+	26 [label="Constant Value Column"]
+	27 [label="Constant Value Column"]
+	48 [label="Extract Context Properties"]
+	62 [label="Table Creator"]
+	63 [label="OSM Boundary Map"]
+	64 [label="Table Row To Variable Loop Start"]
+	65 [label="Try _Variable Ports_"]
+	66 [label="Constant Value Column"]
+	67 [label="Path to String _Variable_"]
+	68 [label="Variable To Table Row"]
+	69 [label="Table Manipulator"]
+	72 [label="Loop End"]
+	73 [label="Table Row To Variable Loop Start"]
+	74 [label="Loop End"]
+	75 [label=Joiner]
+	76 [label="CSV Writer"]
+	77 [label="Table Manipulator"]
+	18 -> 25
+	18 -> 25
+	22 -> 18
+	25 -> 26
+	26 -> 66
+	27 -> 18
+	48 -> 67
+	62 -> 64
+	63 -> 27
+	64 -> 65
+	65 -> 63
+	65 -> 22
+	66 -> 74
+	67 -> 68
+	68 -> 69
+	69 -> 72
+	72 -> 75
+	73 -> 48
+	74 -> 73
+	74 -> 75
+	75 -> 77
+	77 -> 76
+	rankdir=LR
+}

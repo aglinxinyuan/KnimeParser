@@ -1,0 +1,27 @@
+digraph {
+	2 [label="Path to String"]
+	3 [label="List Files_Folders"]
+	4 [label="Image Reader _Table_"]
+	5 [label=Splitter]
+	6 [label="Column Renamer"]
+	7 [label="Gaussian Convolution"]
+	9 [label="Global Thresholder"]
+	10 [label="Connected Component Analysis"]
+	11 [label="Fill Holes"]
+	12 [label=Joiner]
+	13 [label="Image Viewer"]
+	14 [label="Labeling Properties"]
+	2 -> 4
+	3 -> 2
+	4 -> 5
+	4 -> 12
+	5 -> 6
+	6 -> 7
+	7 -> 9
+	9 -> 11
+	10 -> 14
+	10 -> 12
+	11 -> 10
+	12 -> 13
+	rankdir=LR
+}
