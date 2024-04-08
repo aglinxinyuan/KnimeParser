@@ -1,0 +1,111 @@
+digraph {
+	4 [label="PostgreSQL Connector"]
+	19 [label="Value Counter"]
+	24 [label=k_Means]
+	31 [label="Column Appender"]
+	32 [label="Column Filter"]
+	34 [label="Row Filter"]
+	51 [label=k_Means]
+	52 [label="Column Appender"]
+	62 [label="PostgreSQL Connector"]
+	63 [label="DB Insert"]
+	70 [label="End IF"]
+	76 [label="End IF"]
+	78 [label="Table Row To Variable Loop Start"]
+	87 [label=GroupBy]
+	93 [label="Math Formula"]
+	94 [label="Rule Engine"]
+	95 [label="Math Formula"]
+	96 [label="Math Formula"]
+	98 [label=Joiner]
+	99 [label="Math Formula"]
+	100 [label="Rule Engine"]
+	101 [label=GroupBy]
+	103 [label="Math Formula"]
+	106 [label=Joiner]
+	109 [label="Loop End"]
+	20 [label="Column Filter"]
+	44 [label="Rule_based Row Filter"]
+	45 [label=Normalizer]
+	77 [label="Rule_based Row Filter"]
+	79 [label="Row Filter"]
+	102 [label="Empty Table Switch"]
+	104 [label="Math Formula"]
+	49 [label="Column Filter"]
+	50 [label=Normalizer]
+	107 [label="Rule_based Row Filter"]
+	108 [label="Empty Table Switch"]
+	54 [label="Column Filter"]
+	56 [label="Constant Value Column"]
+	59 [label="Date_Time Input"]
+	60 [label="Column Filter"]
+	64 [label="String to Date_Time"]
+	113 [label="DB Table Selector"]
+	115 [label="DB Table Selector"]
+	116 [label="DB Reader"]
+	117 [label=Joiner]
+	118 [label="DB Reader"]
+	119 [label=GroupBy]
+	120 [label="Column Rename"]
+	121 [label="PMML Writer"]
+	122 [label="DB Insert"]
+	20 -> 45
+	44 -> 20
+	77 -> 102
+	79 -> 77
+	102 -> 104
+	104 -> 44
+	49 -> 50
+	107 -> 108
+	108 -> 49
+	54 -> 56
+	56 -> 60
+	59 -> 56
+	60 -> 64
+	4 -> 113
+	4 -> 115
+	4 -> 122
+	19 -> 78
+	24 -> 31
+	24 -> 121
+	24 -> 101
+	31 -> 106
+	32 -> 34
+	34 -> 107
+	34 -> 52
+	51 -> 52
+	51 -> 87
+	52 -> 98
+	62 -> 63
+	70 -> 76
+	76 -> 109
+	78 -> 79
+	87 -> 93
+	93 -> 95
+	94 -> 98
+	95 -> 96
+	96 -> 94
+	98 -> 54
+	99 -> 103
+	100 -> 106
+	101 -> 99
+	103 -> 100
+	106 -> 32
+	109 -> 63
+	102 -> 76
+	102 -> 31
+	102 -> 24
+	108 -> 51
+	108 -> 70
+	64 -> 70
+	113 -> 118
+	115 -> 116
+	116 -> 117
+	117 -> 119
+	118 -> 117
+	119 -> 120
+	120 -> 122
+	120 -> 79
+	120 -> 19
+	rankdir=LR
+}

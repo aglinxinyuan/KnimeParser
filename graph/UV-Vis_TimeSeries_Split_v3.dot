@@ -1,0 +1,31 @@
+digraph {
+	3 [label="String To Number"]
+	4 [label="CSV Writer"]
+	13 [label="Path to String _Variable_"]
+	14 [label="String Manipulation _Variable_"]
+	15 [label="String to Path _Variable_"]
+	17 [label="Variable Expressions"]
+	18 [label="CSV Reader"]
+	20 [label=Transpose]
+	21 [label="Chunk Loop Start"]
+	22 [label="Reference Column Filter"]
+	23 [label=Transpose]
+	24 [label="Row Filter"]
+	28 [label="Variable Loop End"]
+	3 -> 22
+	3 -> 24
+	4 -> 28
+	13 -> 17
+	14 -> 15
+	15 -> 4
+	17 -> 14
+	18 -> 3
+	18 -> 22
+	20 -> 21
+	21 -> 23
+	22 -> 4
+	22 -> 13
+	23 -> 22
+	24 -> 20
+	rankdir=LR
+}

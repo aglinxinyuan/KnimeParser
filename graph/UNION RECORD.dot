@@ -1,0 +1,19 @@
+digraph {
+	1 [label="Table Creator"]
+	3 [label=Transpose]
+	5 [label="Rule_based Row Splitter"]
+	6 [label="String Manipulation"]
+	7 [label="String Manipulation"]
+	8 [label=Joiner]
+	9 [label="Column Rename"]
+	10 [label="Column Rename"]
+	1 -> 3
+	3 -> 5
+	5 -> 9
+	5 -> 10
+	6 -> 8
+	7 -> 8
+	9 -> 6
+	10 -> 7
+	rankdir=LR
+}

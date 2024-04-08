@@ -1,0 +1,41 @@
+digraph {
+	17 [label="Hierarchical Clustering _DistMatrix_"]
+	19 [label="String Distances"]
+	20 [label="Hierarchical Cluster Assigner"]
+	21 [label=GroupBy]
+	25 [label="Chunk Loop Start"]
+	27 [label="Loop End"]
+	33 [label="Column Filter"]
+	35 [label="Recursive Loop Start"]
+	36 [label="Recursive Loop End"]
+	37 [label="Extract Table Dimension"]
+	38 [label="Extract Table Dimension"]
+	39 [label=Joiner]
+	40 [label="Rule Engine"]
+	41 [label="Table Column to Variable"]
+	45 [label=Shuffle]
+	46 [label="String Manipulation"]
+	48 [label="Table Reader"]
+	37 -> 39
+	38 -> 39
+	39 -> 40
+	40 -> 41
+	17 -> 20
+	19 -> 17
+	20 -> 21
+	21 -> 33
+	25 -> 17
+	25 -> 19
+	25 -> 20
+	27 -> 37
+	27 -> 36
+	27 -> 36
+	33 -> 27
+	35 -> 37
+	35 -> 45
+	41 -> 36
+	45 -> 25
+	46 -> 35
+	48 -> 46
+	rankdir=LR
+}

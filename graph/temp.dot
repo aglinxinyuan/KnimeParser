@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Random Numbers Generator"]
+	2 [label="Random Label Assigner"]
+	3 [label="Color Manager"]
+	10 [label="Scatter Plot"]
+	1 -> 2
+	2 -> 3
+	3 -> 10
+	rankdir=LR
+}

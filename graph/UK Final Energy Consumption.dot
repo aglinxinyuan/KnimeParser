@@ -1,0 +1,42 @@
+digraph {
+	1 [label="Read Excel Sheet Names _XLS_"]
+	2 [label="Row Filter"]
+	14 [label="Table Row To Variable Loop Start"]
+	15 [label="Loop End"]
+	16 [label="Excel Reader _XLS_"]
+	17 [label="Cell Splitter"]
+	18 [label="Column Filter"]
+	19 [label="Insert Column Header"]
+	20 [label="Column Filter"]
+	21 [label="File Reader"]
+	22 [label=Unpivoting]
+	23 [label="Column Rename"]
+	24 [label="String To Number"]
+	25 [label="Math Formula"]
+	29 [label=GroupBy]
+	34 [label="File Reader"]
+	35 [label=Joiner]
+	36 [label="Duplicate Row Filter"]
+	37 [label="Column Resorter"]
+	38 [label="Tableau Writer _Hyper_"]
+	1 -> 2
+	2 -> 14
+	14 -> 16
+	15 -> 19
+	16 -> 15
+	17 -> 18
+	18 -> 23
+	19 -> 20
+	20 -> 22
+	21 -> 19
+	22 -> 17
+	23 -> 24
+	24 -> 25
+	25 -> 35
+	34 -> 36
+	35 -> 37
+	36 -> 35
+	37 -> 38
+	37 -> 29
+	rankdir=LR
+}

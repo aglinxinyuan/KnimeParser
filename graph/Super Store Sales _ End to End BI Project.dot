@@ -1,0 +1,92 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=GroupBy]
+	3 [label=GroupBy]
+	4 [label="Column Rename"]
+	5 [label="Date_Time Difference"]
+	6 [label="Math Formula"]
+	7 [label="Math Formula"]
+	8 [label="Math Formula"]
+	9 [label="Column Rename"]
+	10 [label=GroupBy]
+	11 [label="Math Formula"]
+	12 [label="Column Filter"]
+	15 [label="Column Filter"]
+	17 [label="Extract Date_Time Fields"]
+	19 [label="Rule_based Row Splitter"]
+	20 [label="Rule_based Row Splitter"]
+	21 [label="Rule_based Row Splitter"]
+	22 [label="Rule_based Row Splitter"]
+	23 [label="Google Sheets Writer"]
+	24 [label="Google Authentication"]
+	25 [label="Google Sheets Connection"]
+	26 [label="Google Sheets Writer"]
+	27 [label="Google Sheets Writer"]
+	28 [label="Google Sheets Writer"]
+	29 [label="Google Sheets Writer"]
+	30 [label="Google Sheets Writer"]
+	31 [label="Google Sheets Writer"]
+	32 [label="Google Sheets Writer"]
+	33 [label="CSV Reader"]
+	34 [label="CSV Reader"]
+	35 [label="CSV Reader"]
+	38 [label=Concatenate]
+	39 [label=Concatenate]
+	40 [label="CSV Reader"]
+	41 [label="CSV Reader"]
+	42 [label="CSV Reader"]
+	43 [label="CSV Reader"]
+	44 [label="CSV Reader"]
+	47 [label="Duplicate Row Filter"]
+	48 [label="Rule_based Row Splitter"]
+	51 [label="Duplicate Row Filter"]
+	52 [label="Duplicate Row Filter"]
+	53 [label=Concatenate]
+	54 [label="Duplicate Row Filter"]
+	55 [label="Google Sheets Writer"]
+	1 -> 6
+	2 -> 23
+	3 -> 4
+	4 -> 5
+	5 -> 26
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 11
+	9 -> 15
+	9 -> 3
+	9 -> 2
+	10 -> 48
+	11 -> 10
+	12 -> 47
+	15 -> 21
+	17 -> 19
+	19 -> 22
+	19 -> 20
+	20 -> 31
+	20 -> 32
+	21 -> 17
+	21 -> 28
+	22 -> 30
+	22 -> 29
+	24 -> 25
+	25 -> 27
+	25 -> 26
+	25 -> 29
+	25 -> 28
+	25 -> 31
+	25 -> 30
+	33 -> 38
+	34 -> 39
+	35 -> 38
+	38 -> 39
+	47 -> 27
+	48 -> 51
+	48 -> 52
+	51 -> 53
+	52 -> 53
+	52 -> 12
+	53 -> 54
+	54 -> 55
+	rankdir=LR
+}

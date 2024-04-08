@@ -1,0 +1,24 @@
+digraph {
+	1 [label="Empty Table Creator"]
+	2 [label="R Snippet"]
+	3 [label="Tree Ensemble Learner"]
+	4 [label="Math Formula"]
+	5 [label="Math Formula"]
+	6 [label="Math Formula"]
+	7 [label="Math Formula"]
+	8 [label=Sorter]
+	9 [label=Sorter]
+	10 [label=Sorter]
+	11 [label=Sorter]
+	1 -> 2
+	2 -> 3
+	3 -> 7
+	3 -> 6
+	3 -> 5
+	3 -> 4
+	4 -> 11
+	5 -> 8
+	6 -> 9
+	7 -> 10
+	rankdir=LR
+}

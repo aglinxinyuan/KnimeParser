@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Table Reader"]
+	4 [label=GroupBy]
+	484 [label="R Snippet"]
+	485 [label=SMOTE]
+	486 [label=GroupBy]
+	487 [label=GroupBy]
+	1 -> 485
+	1 -> 4
+	1 -> 484
+	484 -> 487
+	485 -> 486
+	rankdir=LR
+}

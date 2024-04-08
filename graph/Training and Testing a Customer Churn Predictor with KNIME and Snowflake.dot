@@ -1,0 +1,35 @@
+digraph {
+	160 [label="Snowflake Connector"]
+	161 [label="DB Table Selector"]
+	162 [label="DB Reader"]
+	163 [label="DB Row Sampling"]
+	164 [label="H2O Local Context"]
+	165 [label="Table to H2O"]
+	167 [label="H2O Random Forest Learner"]
+	168 [label="DB Column Filter"]
+	169 [label="H2O Model to MOJO"]
+	170 [label="Snowflake H2O MOJO Predictor _Classification_"]
+	171 [label="DB Reader"]
+	172 [label="DB Column Filter"]
+	173 [label="Scorer _JavaScript_"]
+	174 [label="H2O MOJO Writer"]
+	181 [label="Table Reader"]
+	191 [label="DB Writer"]
+	160 -> 161
+	160 -> 191
+	161 -> 163
+	161 -> 170
+	162 -> 165
+	163 -> 168
+	164 -> 165
+	165 -> 167
+	167 -> 169
+	168 -> 162
+	169 -> 170
+	169 -> 174
+	170 -> 172
+	171 -> 173
+	172 -> 171
+	181 -> 191
+	rankdir=LR
+}

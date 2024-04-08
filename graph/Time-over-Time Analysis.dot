@@ -1,0 +1,23 @@
+digraph {
+	1 [label="Excel Reader"]
+	9 [label="Column Lagger"]
+	12 [label="Reference Row Filter"]
+	13 [label="Table Creator"]
+	18 [label="Column Renamer"]
+	19 [label="Excel Writer"]
+	21 [label="String Manipulation"]
+	22 [label="Table Row to Variable"]
+	23 [label="Math Formula _Multi Column_"]
+	24 [label="Column Filter"]
+	1 -> 12
+	9 -> 23
+	12 -> 24
+	13 -> 12
+	13 -> 21
+	18 -> 19
+	21 -> 22
+	22 -> 19
+	23 -> 18
+	24 -> 9
+	rankdir=LR
+}

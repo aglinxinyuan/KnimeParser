@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Cell Splitter"]
+	3 [label="Column Renamer"]
+	4 [label="Column Splitter"]
+	5 [label=GroupBy]
+	6 [label=GroupBy]
+	7 [label="Rule Engine"]
+	8 [label="String Manipulation"]
+	9 [label="String to Date_Time"]
+	10 [label="Extract Date_Time Fields"]
+	11 [label=GroupBy]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	4 -> 6
+	4 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	rankdir=LR
+}

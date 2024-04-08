@@ -1,0 +1,14 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Column Filter"]
+	3 [label="Row Filter"]
+	4 [label="Stacked Area Chart _JavaScript_"]
+	5 [label="Pie_Donut Chart _JavaScript_"]
+	6 [label="Color Manager"]
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	3 -> 4
+	6 -> 5
+	rankdir=LR
+}

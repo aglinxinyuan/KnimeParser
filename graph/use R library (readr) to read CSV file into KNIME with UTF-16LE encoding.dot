@@ -1,0 +1,52 @@
+digraph {
+	7 [label="Extract System Properties"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	54 [label="Table Column to Variable"]
+	55 [label="Table Row to Variable"]
+	56 [label="Extract Context Properties"]
+	57 [label="Variable to Table Row"]
+	58 [label="String to Path _Variable_"]
+	81 [label="Java Edit Variable _simple_"]
+	82 [label="Data Generator"]
+	84 [label="R Source _Table_"]
+	94 [label="String to Path _Variable_"]
+	95 [label="CSV Writer"]
+	97 [label="Constant Value Column"]
+	98 [label="Constant Value Column"]
+	99 [label="Constant Value Column"]
+	100 [label="Constant Value Column"]
+	101 [label="Constant Value Column"]
+	102 [label="Constant Value Column"]
+	103 [label="CSV Reader"]
+	104 [label="Constant Value Column"]
+	105 [label="Table Writer"]
+	106 [label="Table Reader"]
+	107 [label="Parquet Reader"]
+	7 -> 54
+	46 -> 55
+	47 -> 46
+	48 -> 47
+	54 -> 46
+	55 -> 58
+	56 -> 57
+	57 -> 48
+	70 -> 81
+	81 -> 94
+	82 -> 97
+	84 -> 105
+	84 -> 107
+	94 -> 95
+	95 -> 84
+	95 -> 103
+	97 -> 98
+	98 -> 99
+	99 -> 100
+	100 -> 101
+	101 -> 102
+	102 -> 104
+	104 -> 95
+	105 -> 106
+	rankdir=LR
+}

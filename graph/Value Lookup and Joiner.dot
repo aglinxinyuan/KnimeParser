@@ -1,0 +1,13 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	4 [label="Value Lookup"]
+	24 [label=Joiner]
+	26 [label="Table Creator"]
+	27 [label="Table Creator"]
+	1 -> 24
+	2 -> 4
+	26 -> 4
+	27 -> 24
+	rankdir=LR
+}

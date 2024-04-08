@@ -1,0 +1,18 @@
+digraph {
+	47 [label=Clicker]
+	48 [label="String Configuration"]
+	49 [label="Text Sender"]
+	50 [label=Navigator]
+	51 [label="Web Interaction Start"]
+	52 [label=Clicker]
+	782 [label="Content Retriever"]
+	783 [label="Row Filter"]
+	47 -> 49
+	48 -> 49
+	49 -> 52
+	50 -> 47
+	51 -> 50
+	52 -> 782
+	782 -> 783
+	rankdir=LR
+}

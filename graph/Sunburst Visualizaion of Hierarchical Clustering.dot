@@ -1,0 +1,110 @@
+digraph {
+	71 [label="Hierarchical Cluster View"]
+	109 [label="Document Vector"]
+	806 [label="Strings To Document"]
+	808 [label="Column Filter"]
+	812 [label="Table Reader"]
+	813 [label="WrappedNode Input"]
+	814 [label="WrappedNode Output"]
+	41 [label="Punctuation Erasure"]
+	42 [label="N Chars Filter"]
+	43 [label="Number Filter"]
+	44 [label="Case Converter"]
+	782 [label="Markup Tag Filter"]
+	784 [label="Stanford Lemmatizer"]
+	785 [label="WrappedNode Input"]
+	786 [label="WrappedNode Output"]
+	787 [label="Stop Word Filter"]
+	48 [label="Term To String"]
+	49 [label=GroupBy]
+	50 [label="Row Filter"]
+	51 [label="Reference Row Filter"]
+	65 [label=TF]
+	66 [label="Extract Table Dimension"]
+	67 [label="Java Edit Variable"]
+	68 [label="Bag Of Words Creator"]
+	109 [label="WrappedNode Input"]
+	110 [label="WrappedNode Output"]
+	55 [label="Color Manager"]
+	59 [label="Category To Class"]
+	69 [label="Distance Matrix Calculate"]
+	70 [label="Column Filter"]
+	72 [label="Hierarchical Clustering _DistMatrix_"]
+	73 [label="WrappedNode Input"]
+	74 [label="WrappedNode Output"]
+	75 [label="Hierarchical Cluster Assigner"]
+	824 [label="Column Rename"]
+	827 [label="Loop End _Column Append_"]
+	829 [label="Column Filter"]
+	830 [label=Joiner]
+	833 [label="WrappedNode Input"]
+	834 [label="WrappedNode Output"]
+	846 [label="String Replacer"]
+	847 [label="Number To String"]
+	851 [label="Table Row To Variable Loop Start"]
+	856 [label="Integer Input"]
+	852 [label="Empty Table Creator"]
+	853 [label="Counter Generation"]
+	855 [label="WrappedNode Output"]
+	856 [label="WrappedNode Input"]
+	857 [label="Math Formula _Variable_"]
+	858 [label="Column Resorter"]
+	847 [label="Sunburst Chart _JavaScript_"]
+	806 -> 808
+	808 -> 814
+	812 -> 806
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	44 -> 787
+	782 -> 41
+	784 -> 786
+	785 -> 782
+	787 -> 784
+	48 -> 49
+	48 -> 51
+	49 -> 50
+	50 -> 51
+	51 -> 65
+	65 -> 110
+	66 -> 67
+	67 -> 50
+	68 -> 48
+	109 -> 68
+	109 -> 66
+	55 -> 69
+	59 -> 55
+	69 -> 70
+	70 -> 74
+	70 -> 72
+	72 -> 74
+	73 -> 59
+	852 -> 853
+	853 -> 855
+	856 -> 857
+	857 -> 852
+	75 -> 824
+	824 -> 847
+	827 -> 830
+	829 -> 827
+	830 -> 858
+	833 -> 75
+	833 -> 75
+	833 -> 830
+	846 -> 829
+	847 -> 846
+	851 -> 75
+	856 -> 857
+	857 -> 851
+	858 -> 834
+	109 -> 845
+	842 -> 843
+	843 -> 844
+	844 -> 109
+	845 -> 846
+	845 -> 846
+	845 -> 71
+	845 -> 71
+	846 -> 847
+	rankdir=LR
+}

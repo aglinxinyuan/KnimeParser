@@ -1,0 +1,116 @@
+digraph {
+	6 [label="Table to R"]
+	7 [label="R To R"]
+	125 [label=Partitioning]
+	159 [label="PMML Writer"]
+	163 [label="Table Reader"]
+	164 [label="Column Filter"]
+	166 [label="Extract Column Header"]
+	167 [label="Column Combiner"]
+	181 [label="Table Writer"]
+	210 [label="Table Row to Variable"]
+	211 [label="Java Snippet _simple_"]
+	212 [label="Reference Column Filter"]
+	213 [label="Column Filter"]
+	217 [label="Extract Context Properties"]
+	218 [label="Java Edit Variable"]
+	221 [label="Variable to Table Row"]
+	223 [label="String to URI"]
+	224 [label="URI to Port"]
+	225 [label="URI Port to Variable"]
+	226 [label="File Reader"]
+	227 [label=GroupBy]
+	229 [label="Java Snippet _simple_"]
+	230 [label=Joiner]
+	231 [label="Number To String _PMML_"]
+	232 [label="Reference Column Filter"]
+	233 [label=Joiner]
+	254 [label="Table Writer"]
+	255 [label="Table Writer"]
+	13 [label=Statistics]
+	186 [label="Image Port Writer"]
+	217 [label="Extract Context Properties"]
+	218 [label="Java Edit Variable"]
+	252 [label="Excel Sheet Appender _XLS_"]
+	253 [label="Excel Sheet Appender _XLS_"]
+	254 [label="Excel Sheet Appender _XLS_"]
+	256 [label="Line Chart _JFreeChart_"]
+	257 [label="Row Sampling"]
+	399 [label="Missing Value"]
+	400 [label=RowID]
+	401 [label="Column Filter"]
+	402 [label="Extract System Properties"]
+	403 [label="Merge Variables"]
+	404 [label="Table Column to Variable"]
+	405 [label="Column Filter"]
+	13 [label=Statistics]
+	186 [label="Image Port Writer"]
+	217 [label="Extract Context Properties"]
+	218 [label="Java Edit Variable"]
+	252 [label="Excel Sheet Appender _XLS_"]
+	253 [label="Excel Sheet Appender _XLS_"]
+	254 [label="Excel Sheet Appender _XLS_"]
+	256 [label="Line Chart _JFreeChart_"]
+	257 [label="Row Sampling"]
+	13 -> 253
+	13 -> 252
+	13 -> 254
+	217 -> 218
+	218 -> 186
+	252 -> 253
+	253 -> 254
+	256 -> 186
+	257 -> 256
+	13 -> 253
+	13 -> 252
+	13 -> 254
+	217 -> 218
+	218 -> 186
+	252 -> 253
+	253 -> 254
+	256 -> 186
+	257 -> 256
+	6 -> 7
+	7 -> 217
+	125 -> 254
+	125 -> 181
+	159 -> 255
+	163 -> 164
+	163 -> 212
+	164 -> 229
+	164 -> 166
+	164 -> 212
+	166 -> 167
+	167 -> 210
+	210 -> 7
+	211 -> 6
+	212 -> 213
+	212 -> 232
+	213 -> 211
+	213 -> 258
+	213 -> 232
+	217 -> 403
+	218 -> 221
+	221 -> 223
+	223 -> 224
+	224 -> 225
+	225 -> 226
+	226 -> 405
+	227 -> 233
+	227 -> 406
+	229 -> 230
+	230 -> 233
+	231 -> 227
+	232 -> 230
+	233 -> 401
+	399 -> 159
+	399 -> 255
+	399 -> 125
+	400 -> 399
+	401 -> 400
+	402 -> 404
+	403 -> 218
+	404 -> 403
+	405 -> 231
+	rankdir=LR
+}

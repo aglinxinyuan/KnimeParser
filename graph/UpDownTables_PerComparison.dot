@@ -1,0 +1,27 @@
+digraph {
+	1 [label="CSV Reader"]
+	4 [label="Column Rename"]
+	5 [label="Rule_based Row Filter"]
+	6 [label="Rule_based Row Filter"]
+	7 [label="CSV Writer"]
+	8 [label="CSV Writer"]
+	9 [label="Column Filter"]
+	10 [label="Column Filter"]
+	11 [label="Column Rename"]
+	12 [label="Column Rename"]
+	13 [label="CSV Reader"]
+	14 [label="Row Filter"]
+	15 [label="CSV Writer"]
+	1 -> 4
+	4 -> 5
+	4 -> 6
+	5 -> 9
+	6 -> 10
+	9 -> 11
+	10 -> 12
+	11 -> 7
+	12 -> 8
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

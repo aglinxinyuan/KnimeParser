@@ -1,0 +1,28 @@
+digraph {
+	4 [label="DB Query Reader"]
+	5 [label="MySQL Connector"]
+	6 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	8 [label="String to Date_Time"]
+	9 [label="String Manipulation"]
+	10 [label="String to Date_Time"]
+	11 [label="String to Date_Time"]
+	13 [label="Duplicate Row Filter"]
+	14 [label="Duplicate Row Filter"]
+	15 [label="Duplicate Row Filter"]
+	16 [label=Joiner]
+	17 [label=Joiner]
+	4 -> 8
+	5 -> 4
+	6 -> 10
+	7 -> 11
+	8 -> 9
+	9 -> 15
+	10 -> 14
+	11 -> 13
+	13 -> 16
+	14 -> 16
+	15 -> 17
+	16 -> 17
+	rankdir=LR
+}

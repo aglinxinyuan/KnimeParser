@@ -1,0 +1,8 @@
+digraph {
+	1 [label="DB Connector"]
+	2 [label="DB Joiner"]
+	3 [label="DB Numeric_Binner"]
+	4 [label="JSON Reader"]
+	2 -> 3
+	rankdir=LR
+}

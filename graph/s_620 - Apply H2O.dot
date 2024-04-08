@@ -1,0 +1,107 @@
+digraph {
+	28 [label="Extract System Properties"]
+	47 [label="Create Folder"]
+	48 [label="String to Path _Variable_"]
+	49 [label="Java Edit Variable"]
+	50 [label="Merge Variables"]
+	51 [label="Table Column to Variable"]
+	52 [label="Create Folder"]
+	53 [label="Create Folder"]
+	61 [label="Extract Context Properties"]
+	86 [label="Create Local Big Data Environment"]
+	87 [label="Java Edit Variable _simple_"]
+	88 [label="String to Path _Variable_"]
+	2541 [label="Create File_Folder Variables"]
+	2624 [label="Row Filter"]
+	2625 [label="Table Row to Variable"]
+	2638 [label="List Files_Folders"]
+	92 [label="Spark SQL Query"]
+	498 [label="CSV Reader"]
+	501 [label=Sorter]
+	502 [label="Row Filter"]
+	503 [label="Column Filter"]
+	504 [label="Table Row to Variable"]
+	1800 [label="Spark Column Rename"]
+	1801 [label="Spark Column Filter"]
+	1863 [label="Hive to Spark"]
+	1864 [label="Column Rename"]
+	1866 [label="DB SQL Executor"]
+	1878 [label="Java Snippet _simple_"]
+	1879 [label="Spark H2O MOJO Predictor _Classification_"]
+	1880 [label="Spark to Hive"]
+	1881 [label="DB Reader"]
+	1888 [label="Table Row to Variable"]
+	1889 [label="Table Reader"]
+	1890 [label="Table Row to Variable"]
+	1891 [label="Table Reader"]
+	1895 [label="Table Row to Variable"]
+	1896 [label="Table Reader"]
+	1897 [label="Merge Variables"]
+	1899 [label="Spark Column Filter"]
+	2616 [label="DB Table Creator"]
+	2617 [label="DB Loader"]
+	2619 [label="Parquet Reader"]
+	2626 [label="Spark SQL Query"]
+	2637 [label="Create File_Folder Variables"]
+	2638 [label="Create File_Folder Variables"]
+	2639 [label="H2O MOJO Reader"]
+	2640 [label="Create File_Folder Variables"]
+	2641 [label="Java Edit Variable _simple_"]
+	28 -> 51
+	47 -> 52
+	48 -> 47
+	49 -> 87
+	50 -> 49
+	51 -> 50
+	52 -> 53
+	53 -> 86
+	61 -> 50
+	86 -> 2638
+	86 -> 2541
+	87 -> 88
+	88 -> 48
+	2624 -> 2625
+	2625 -> 2541
+	2638 -> 2624
+	0 -> 1863
+	0 -> 1866
+	0 -> 1880
+	0 -> 2617
+	0 -> 2617
+	92 -> 1899
+	498 -> 501
+	501 -> 502
+	502 -> 503
+	503 -> 504
+	504 -> 2637
+	1800 -> 1801
+	1801 -> 1880
+	1863 -> 92
+	1864 -> 1878
+	1866 -> 2616
+	1878 -> 2616
+	1879 -> 1800
+	1880 -> 1881
+	1888 -> 1897
+	1889 -> 1890
+	1889 -> 1896
+	1890 -> 1897
+	1891 -> 1895
+	1895 -> 1897
+	1896 -> 1888
+	1896 -> 1891
+	1897 -> 92
+	1899 -> 2626
+	1899 -> 1879
+	2616 -> 2617
+	2616 -> 2617
+	2617 -> 1863
+	2619 -> 1864
+	2626 -> 1879
+	2637 -> 2638
+	2637 -> 2640
+	2638 -> 1889
+	2639 -> 1879
+	2640 -> 2639
+	rankdir=LR
+}

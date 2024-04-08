@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Table Creator"]
+	68 [label="Bag Of Words Creator"]
+	72 [label="Strings To Document"]
+	135 [label="Term Vector"]
+	136 [label="Table Difference Finder"]
+	137 [label="Constant Value Column"]
+	138 [label="Term Vector"]
+	1 -> 72
+	68 -> 135
+	68 -> 137
+	72 -> 68
+	135 -> 136
+	137 -> 138
+	138 -> 136
+	rankdir=LR
+}

@@ -1,0 +1,55 @@
+digraph {
+	12 [label="Java Snippet _simple_"]
+	445 [label="CSV Reader"]
+	446 [label="Column Filter"]
+	447 [label="Pie_Donut Chart"]
+	450 [label="Number To String"]
+	452 [label="Color Manager"]
+	453 [label=GroupBy]
+	456 [label="Bar Chart"]
+	459 [label="Notched Boxplot _JFreechart_"]
+	460 [label=Sorter]
+	461 [label="Table Row to Variable"]
+	462 [label="Column Filter"]
+	463 [label=Transpose]
+	464 [label="Column Aggregator"]
+	465 [label="Color Manager"]
+	1284 [label="Image Writer"]
+	1288 [label="PNG Image to ImgPlus"]
+	2401 [label="Number To String _PMML_"]
+	2410 [label="CSS Editor"]
+	2412 [label="Image Writer _Port_"]
+	2413 [label="Image Writer _Port_"]
+	2414 [label="Renderer to Image"]
+	2415 [label="Image To Table"]
+	2416 [label="Table To Image"]
+	2417 [label="Image To Table"]
+	2418 [label="Renderer to Image"]
+	12 -> 462
+	445 -> 446
+	445 -> 2401
+	446 -> 450
+	450 -> 452
+	450 -> 453
+	450 -> 465
+	452 -> 447
+	453 -> 12
+	456 -> 2412
+	456 -> 2415
+	459 -> 2417
+	460 -> 459
+	461 -> 2410
+	462 -> 463
+	463 -> 464
+	464 -> 461
+	465 -> 456
+	1288 -> 1284
+	2401 -> 460
+	2410 -> 447
+	2414 -> 2416
+	2415 -> 2414
+	2416 -> 2413
+	2417 -> 2418
+	2418 -> 1288
+	rankdir=LR
+}

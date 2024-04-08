@@ -1,0 +1,49 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Spacy Model Selector"]
+	3 [label="Spacy Tokenizer"]
+	4 [label="Spacy NER"]
+	5 [label="Bag Of Words Creator"]
+	6 [label=DF]
+	7 [label="Tags To String"]
+	8 [label="Term To String"]
+	9 [label=GroupBy]
+	10 [label="Row Filter"]
+	11 [label=Sorter]
+	12 [label="Tag Cloud"]
+	13 [label="URL Encode"]
+	14 [label="Constant Value Column"]
+	15 [label="Row Filter"]
+	59 [label="Column Resorter"]
+	60 [label="Column Aggregator"]
+	61 [label="GET Request"]
+	204 [label="JSON Path"]
+	207 [label="Column Resorter"]
+	208 [label="Column Filter"]
+	209 [label=GroupBy]
+	210 [label="Table View"]
+	1 -> 3
+	2 -> 3
+	3 -> 4
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	11 -> 13
+	11 -> 210
+	13 -> 15
+	14 -> 59
+	15 -> 14
+	59 -> 60
+	60 -> 61
+	61 -> 204
+	204 -> 208
+	207 -> 209
+	208 -> 207
+	rankdir=LR
+}

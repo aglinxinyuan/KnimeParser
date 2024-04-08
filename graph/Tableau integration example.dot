@@ -1,0 +1,19 @@
+digraph {
+	2 [label=Partitioning]
+	3 [label="Decision Tree Learner"]
+	4 [label="Decision Tree Predictor"]
+	9 [label="File Reader"]
+	13 [label=Scorer]
+	14 [label="Tableau Writer"]
+	15 [label="Tableau Writer"]
+	16 [label="Send to Tableau Server"]
+	2 -> 3
+	2 -> 4
+	3 -> 4
+	4 -> 13
+	9 -> 16
+	9 -> 2
+	13 -> 15
+	13 -> 14
+	rankdir=LR
+}

@@ -1,0 +1,39 @@
+digraph {
+	424 [label=GroupBy]
+	425 [label="Lag Column"]
+	429 [label="Row Filter"]
+	430 [label=GroupBy]
+	431 [label=Sorter]
+	434 [label=Unpivot]
+	435 [label="Column Filter"]
+	437 [label="Column Expressions"]
+	438 [label="Column Filter"]
+	440 [label="Lag Column"]
+	441 [label="Column Expressions"]
+	442 [label="Table Reader"]
+	444 [label="Run Garbage Collector"]
+	446 [label="Column List Loop Start"]
+	447 [label="Loop End"]
+	448 [label="Run Garbage Collector"]
+	449 [label="Run Garbage Collector"]
+	425 -> 441
+	429 -> 435
+	430 -> 431
+	431 -> 440
+	431 -> 449
+	434 -> 448
+	434 -> 430
+	435 -> 447
+	435 -> 444
+	437 -> 438
+	438 -> 446
+	440 -> 425
+	441 -> 429
+	442 -> 437
+	444 -> 447
+	446 -> 434
+	447 -> 424
+	448 -> 430
+	449 -> 440
+	rankdir=LR
+}

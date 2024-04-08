@@ -1,0 +1,18 @@
+digraph {
+	2 [label=GroupBy]
+	3 [label=Sorter]
+	4 [label="Rule_based Row Filter"]
+	5 [label="Rule_based Row Filter"]
+	6 [label="Column Filter"]
+	448 [label="Table Writer"]
+	449 [label="Table Reader"]
+	450 [label="Java Snippet _simple_"]
+	2 -> 3
+	3 -> 4
+	5 -> 6
+	6 -> 448
+	449 -> 2
+	449 -> 450
+	449 -> 5
+	rankdir=LR
+}

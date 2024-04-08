@@ -1,0 +1,38 @@
+digraph {
+	42 [label="Column Rename"]
+	51 [label="List Files"]
+	52 [label="Image Reader _Table_"]
+	53 [label="CSV Reader"]
+	60 [label="Image Calculator"]
+	56 [label="String Manipulation"]
+	57 [label=Sorter]
+	59 [label=RowID]
+	60 [label="String To Number"]
+	86 [label="t_SNE _L_ Jonsson_"]
+	91 [label="Scatter Plot _Plotly_"]
+	92 [label="Color Manager"]
+	93 [label="Number To String"]
+	94 [label="Column Appender"]
+	95 [label=Normalizer]
+	97 [label="Image to DataRow"]
+	98 [label="Split Collection Column"]
+	99 [label="Constant Value Column Filter"]
+	56 -> 60
+	57 -> 59
+	60 -> 57
+	51 -> 56
+	52 -> 60
+	53 -> 42
+	59 -> 52
+	97 -> 98
+	98 -> 99
+	99 -> 95
+	51 -> 97
+	51 -> 93
+	86 -> 94
+	92 -> 94
+	93 -> 92
+	94 -> 91
+	95 -> 86
+	rankdir=LR
+}

@@ -1,0 +1,174 @@
+digraph {
+	1 [label="SAS7BDAT Reader"]
+	2 [label="SAS7BDAT Reader"]
+	3 [label="SAS7BDAT Reader"]
+	4 [label="SAS7BDAT Reader"]
+	5 [label=Joiner]
+	6 [label=Joiner]
+	7 [label=Joiner]
+	8 [label="Row Filter"]
+	9 [label="Numeric Binner"]
+	10 [label="Row Filter"]
+	11 [label="Column Filter"]
+	12 [label="Row Filter"]
+	13 [label="Numeric Binner"]
+	14 [label="Rule Engine"]
+	15 [label="Missing Value"]
+	16 [label="Math Formula"]
+	17 [label="Rule Engine"]
+	18 [label="Rule Engine"]
+	19 [label="Rule Engine"]
+	20 [label="Math Formula"]
+	21 [label="Rule Engine"]
+	22 [label="Rule Engine"]
+	23 [label="Rule Engine"]
+	24 [label="Rule Engine"]
+	25 [label="Rule Engine"]
+	26 [label="Rule Engine"]
+	27 [label="Rule Engine"]
+	28 [label="Rule Engine"]
+	29 [label="Rule Engine"]
+	33 [label="Rule Engine"]
+	47 [label="Column Filter"]
+	48 [label="Rule Engine"]
+	49 [label="Rule Engine"]
+	50 [label="Rule Engine"]
+	51 [label="Rule Engine"]
+	52 [label="Rule Engine"]
+	53 [label="Rule Engine"]
+	54 [label="Rule Engine"]
+	56 [label="Rule Engine"]
+	58 [label="Color Manager"]
+	68 [label="One to Many"]
+	69 [label=Normalizer]
+	85 [label="Column Appender"]
+	86 [label="ROC Curve"]
+	105 [label="Column Appender"]
+	106 [label="ROC Curve"]
+	57 [label=X_Partitioner]
+	59 [label="Decision Tree Learner"]
+	60 [label="Decision Tree Predictor"]
+	61 [label=X_Aggregator]
+	87 [label="Equal Size Sampling"]
+	104 [label="Scorer _JavaScript_"]
+	63 [label=X_Partitioner]
+	64 [label=X_Aggregator]
+	65 [label="Random Forest Learner"]
+	66 [label="Random Forest Predictor"]
+	88 [label="Equal Size Sampling"]
+	102 [label="Scorer _JavaScript_"]
+	103 [label="Excel Writer"]
+	91 [label="Equal Size Sampling"]
+	92 [label="Decision Tree Learner"]
+	93 [label="Decision Tree Predictor"]
+	94 [label=Partitioning]
+	101 [label="Scorer _JavaScript_"]
+	75 [label=X_Partitioner]
+	76 [label=X_Aggregator]
+	77 [label="Logistic Regression Learner"]
+	78 [label="Logistic Regression Predictor"]
+	90 [label="Equal Size Sampling"]
+	103 [label="Scorer _JavaScript_"]
+	70 [label=X_Partitioner]
+	71 [label=X_Aggregator]
+	72 [label="RProp MLP Learner"]
+	73 [label="MultiLayerPerceptron Predictor"]
+	89 [label="Equal Size Sampling"]
+	100 [label="Scorer _JavaScript_"]
+	95 [label=Partitioning]
+	96 [label="Equal Size Sampling"]
+	97 [label="Logistic Regression Learner"]
+	98 [label="Logistic Regression Predictor"]
+	99 [label="Scorer _JavaScript_"]
+	57 -> 60
+	57 -> 87
+	59 -> 60
+	60 -> 61
+	60 -> 104
+	87 -> 59
+	63 -> 88
+	63 -> 66
+	65 -> 66
+	65 -> 103
+	66 -> 64
+	66 -> 102
+	88 -> 65
+	91 -> 92
+	92 -> 93
+	93 -> 101
+	94 -> 93
+	94 -> 91
+	75 -> 90
+	75 -> 78
+	77 -> 78
+	78 -> 76
+	78 -> 103
+	90 -> 77
+	70 -> 73
+	70 -> 89
+	72 -> 73
+	73 -> 100
+	73 -> 71
+	89 -> 72
+	95 -> 98
+	95 -> 96
+	96 -> 97
+	97 -> 98
+	98 -> 99
+	1 -> 5
+	2 -> 5
+	3 -> 6
+	4 -> 7
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 12
+	11 -> 13
+	12 -> 11
+	13 -> 14
+	14 -> 17
+	15 -> 16
+	16 -> 20
+	17 -> 18
+	18 -> 19
+	19 -> 21
+	20 -> 47
+	21 -> 22
+	22 -> 26
+	23 -> 27
+	24 -> 29
+	25 -> 24
+	26 -> 25
+	27 -> 28
+	28 -> 33
+	29 -> 23
+	33 -> 48
+	47 -> 58
+	48 -> 49
+	49 -> 50
+	50 -> 51
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 56
+	56 -> 15
+	58 -> 57
+	58 -> 63
+	58 -> 94
+	58 -> 68
+	68 -> 69
+	69 -> 70
+	69 -> 75
+	69 -> 95
+	85 -> 86
+	105 -> 106
+	61 -> 85
+	64 -> 85
+	93 -> 105
+	76 -> 85
+	71 -> 85
+	98 -> 105
+	rankdir=LR
+}

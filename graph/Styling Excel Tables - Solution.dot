@@ -1,0 +1,25 @@
+digraph {
+	315 [label="Row Filter"]
+	319 [label="XLS Background Colorizer"]
+	320 [label="XLS Control Table Generator"]
+	323 [label="XLS Background Colorizer"]
+	325 [label="XLS Border Formatter"]
+	2260 [label="XLS Row and Column Sizer"]
+	2263 [label="Excel Writer"]
+	2264 [label="Table Reader"]
+	2265 [label="Table Reader"]
+	2266 [label="XLS Formatter _apply_"]
+	315 -> 2263
+	319 -> 323
+	320 -> 323
+	320 -> 2260
+	320 -> 325
+	320 -> 319
+	323 -> 325
+	325 -> 2260
+	2260 -> 2266
+	2263 -> 2266
+	2264 -> 320
+	2265 -> 315
+	rankdir=LR
+}

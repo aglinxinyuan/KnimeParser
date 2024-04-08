@@ -1,0 +1,28 @@
+digraph {
+	96 [label=QikProp]
+	106 [label="Run Maestro"]
+	138 [label="Row Sampling"]
+	140 [label="Row Sampling"]
+	146 [label="SDF Reader"]
+	153 [label="Rule_based Row Filter"]
+	155 [label="Glide Grid Reader"]
+	9687 [label=LigPrep]
+	9689 [label="Glide Ligand Docking"]
+	9690 [label="Glide Ligand Docking"]
+	9691 [label="Glide Ligand Docking"]
+	9692 [label="Glide XP Visualizer"]
+	96 -> 153
+	138 -> 9689
+	140 -> 9690
+	146 -> 9687
+	153 -> 9691
+	155 -> 9691
+	155 -> 9690
+	155 -> 9689
+	9687 -> 96
+	9689 -> 140
+	9690 -> 9692
+	9690 -> 106
+	9691 -> 138
+	rankdir=LR
+}

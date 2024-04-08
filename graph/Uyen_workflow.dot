@@ -1,0 +1,66 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="String Manipulation"]
+	3 [label=Statistics]
+	4 [label="Column Filter"]
+	5 [label="Row Filter"]
+	6 [label="Row Filter"]
+	7 [label="Random Forest Predictor"]
+	8 [label=Partitioning]
+	9 [label="Random Forest Learner"]
+	10 [label="Logistic Regression Learner"]
+	11 [label="Random Forest Predictor"]
+	13 [label=Scorer]
+	14 [label=Scorer]
+	15 [label="Logistic Regression Predictor"]
+	16 [label="Logistic Regression Predictor"]
+	17 [label=Scorer]
+	18 [label=Scorer]
+	19 [label="SVM Learner"]
+	20 [label="SVM Predictor"]
+	21 [label="SVM Predictor"]
+	22 [label=Scorer]
+	23 [label=Scorer]
+	24 [label="One to Many"]
+	25 [label="Decision Tree Learner"]
+	26 [label="Decision Tree Predictor"]
+	27 [label="Decision Tree Predictor"]
+	28 [label=Scorer]
+	29 [label=Scorer]
+	1 -> 3
+	1 -> 2
+	2 -> 5
+	4 -> 24
+	5 -> 6
+	6 -> 4
+	7 -> 14
+	8 -> 9
+	8 -> 10
+	8 -> 11
+	8 -> 15
+	8 -> 7
+	8 -> 25
+	8 -> 26
+	8 -> 27
+	8 -> 16
+	8 -> 19
+	8 -> 20
+	8 -> 21
+	9 -> 11
+	9 -> 7
+	10 -> 15
+	10 -> 16
+	11 -> 13
+	15 -> 18
+	16 -> 17
+	19 -> 21
+	19 -> 20
+	20 -> 23
+	21 -> 22
+	24 -> 8
+	25 -> 27
+	25 -> 26
+	26 -> 29
+	27 -> 28
+	rankdir=LR
+}

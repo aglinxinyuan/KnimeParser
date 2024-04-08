@@ -1,0 +1,34 @@
+digraph {
+	31 [label="Table Reader"]
+	20 [label="Row Filter"]
+	22 [label="Column Filter"]
+	23 [label="Strings To Document"]
+	14 [label="Number Filter"]
+	15 [label="Punctuation Erasure"]
+	17 [label="Case converter"]
+	18 [label="Snowball Stemmer"]
+	19 [label="Stop Word Filter"]
+	110 [label="Term co_occurrence counter"]
+	111 [label="Java Snippet"]
+	112 [label="Term to String"]
+	113 [label="Term to String"]
+	114 [label=GroupBy]
+	115 [label=Sorter]
+	116 [label="Bag Of Words Creator"]
+	20 -> 23
+	23 -> 22
+	14 -> 15
+	15 -> 19
+	17 -> 18
+	19 -> 17
+	31 -> 20
+	22 -> 14
+	18 -> 116
+	110 -> 112
+	111 -> 114
+	112 -> 113
+	113 -> 111
+	114 -> 115
+	116 -> 110
+	rankdir=LR
+}

@@ -1,0 +1,23 @@
+digraph {
+	14 [label="Table Creator"]
+	17 [label="Group Loop Start"]
+	19 [label="Row Filter"]
+	20 [label="Row Filter"]
+	21 [label=GroupBy]
+	23 [label="Column Appender"]
+	24 [label="Math Formula"]
+	25 [label="Row Splitter"]
+	26 [label="Loop End"]
+	27 [label="Column Filter"]
+	14 -> 27
+	17 -> 19
+	17 -> 20
+	19 -> 21
+	20 -> 23
+	21 -> 23
+	23 -> 24
+	24 -> 26
+	26 -> 25
+	27 -> 17
+	rankdir=LR
+}

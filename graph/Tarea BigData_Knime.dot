@@ -1,0 +1,32 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Rule_based Row Filter"]
+	4 [label="Column Filter"]
+	6 [label="Row Aggregator"]
+	7 [label="Pie Chart"]
+	8 [label="Number To String"]
+	9 [label="Pie Chart"]
+	10 [label="Number To String"]
+	11 [label="Rule_based Row Filter"]
+	12 [label="Column Filter"]
+	14 [label="Row Aggregator"]
+	15 [label="Row Filter"]
+	16 [label="Row Filter"]
+	17 [label=Sorter]
+	18 [label=Sorter]
+	1 -> 2
+	1 -> 11
+	2 -> 4
+	4 -> 15
+	6 -> 8
+	8 -> 7
+	10 -> 9
+	11 -> 12
+	12 -> 16
+	14 -> 10
+	15 -> 17
+	16 -> 18
+	17 -> 6
+	18 -> 14
+	rankdir=LR
+}

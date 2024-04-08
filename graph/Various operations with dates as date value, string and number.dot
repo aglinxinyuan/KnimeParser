@@ -1,0 +1,34 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String to Date_Time"]
+	6 [label="Rule Engine"]
+	7 [label="String Manipulation"]
+	8 [label="String Manipulation"]
+	9 [label="String Manipulation"]
+	10 [label="String Manipulation"]
+	11 [label="Rule Engine"]
+	12 [label="String Manipulation"]
+	13 [label="String to Date_Time"]
+	14 [label="String to Date_Time _legacy_"]
+	15 [label="String to Date_Time _legacy_"]
+	17 [label="Number To String _PMML_"]
+	18 [label="Date_Time to String"]
+	19 [label="String Manipulation"]
+	1641 [label="Extract Date_Time Fields"]
+	1 -> 2
+	2 -> 1641
+	6 -> 8
+	7 -> 6
+	8 -> 10
+	9 -> 13
+	9 -> 14
+	10 -> 11
+	11 -> 12
+	12 -> 9
+	13 -> 18
+	14 -> 15
+	17 -> 7
+	18 -> 19
+	1641 -> 17
+	rankdir=LR
+}

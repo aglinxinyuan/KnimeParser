@@ -1,0 +1,27 @@
+digraph {
+	43 [label=Partitioning]
+	44 [label="Python Script"]
+	46 [label="Python View"]
+	54 [label="Python View"]
+	59 [label="Gaussian Process Regression Learner _sklearn_"]
+	60 [label="Lasso Regression Learner _sklearn_"]
+	61 [label="Sklearn Regression Predictor"]
+	62 [label="Sklearn Regression Predictor"]
+	63 [label="Sklearn Classification Predictor"]
+	65 [label="Gaussian Process Classification Learner _sklearn_"]
+	67 [label="Python View"]
+	43 -> 65
+	43 -> 59
+	43 -> 63
+	43 -> 62
+	43 -> 61
+	43 -> 60
+	44 -> 43
+	59 -> 62
+	60 -> 61
+	61 -> 67
+	62 -> 46
+	63 -> 54
+	65 -> 63
+	rankdir=LR
+}

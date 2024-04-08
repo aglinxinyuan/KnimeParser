@@ -1,0 +1,42 @@
+digraph {
+	1 [label="HDFS Connector"]
+	2 [label="CSV Reader"]
+	3 [label="Strings To Document"]
+	4 [label="Document Viewer"]
+	5 [label="Case Converter"]
+	6 [label="Punctuation Erasure"]
+	7 [label="Number Filter"]
+	8 [label="Porter Stemmer"]
+	9 [label="Stop Word Filter"]
+	10 [label="Bag Of Words Creator"]
+	11 [label=TF]
+	12 [label=IDF]
+	13 [label="Column Expressions"]
+	14 [label="Document Vector"]
+	15 [label="Category To Class"]
+	16 [label=RowID]
+	17 [label="Numeric Distances"]
+	18 [label="Hierarchical Clustering _DistMatrix_"]
+	19 [label="Hierarchical Cluster View"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	16 -> 18
+	16 -> 19
+	17 -> 18
+	18 -> 19
+	rankdir=LR
+}

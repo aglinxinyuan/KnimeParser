@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Twitter API Connector"]
+	2 [label="Twitter Search"]
+	75 [label="Database Update"]
+	76 [label="Row Filter"]
+	77 [label="Column Filter"]
+	86 [label="Database Writer"]
+	88 [label="SQLite Connector"]
+	1 -> 2
+	2 -> 75
+	75 -> 76
+	76 -> 77
+	77 -> 86
+	88 -> 75
+	88 -> 86
+	rankdir=LR
+}

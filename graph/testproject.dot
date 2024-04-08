@@ -1,0 +1,18 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	3 [label="Color Manager"]
+	4 [label="Decision Tree Learner"]
+	5 [label="Decision Tree Predictor"]
+	6 [label="Color Appender"]
+	7 [label=Scorer]
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	3 -> 4
+	3 -> 6
+	4 -> 5
+	5 -> 7
+	6 -> 5
+	rankdir=LR
+}

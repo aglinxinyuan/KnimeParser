@@ -1,0 +1,193 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Extract Date_Time Fields"]
+	4 [label="Column Filter"]
+	8 [label="Rule Engine"]
+	9 [label="Column Filter"]
+	19 [label="Rule Engine"]
+	20 [label="Rule Engine"]
+	21 [label="Bar Chart"]
+	23 [label="Bar Chart"]
+	24 [label="Bar Chart"]
+	25 [label="Number To String"]
+	26 [label="Pie_Donut Chart"]
+	27 [label="Column Filter"]
+	29 [label="Linear Correlation"]
+	29 [label=Normalizer]
+	31 [label=Normalizer]
+	32 [label=Normalizer]
+	33 [label=Normalizer]
+	34 [label=Normalizer]
+	35 [label=Normalizer]
+	36 [label=Normalizer]
+	37 [label=Normalizer]
+	38 [label=Normalizer]
+	39 [label=Normalizer]
+	40 [label=Normalizer]
+	41 [label=Normalizer]
+	42 [label=Normalizer]
+	44 [label=Normalizer]
+	45 [label=Normalizer]
+	46 [label=Normalizer]
+	47 [label=Normalizer]
+	48 [label=Normalizer]
+	49 [label=Normalizer]
+	94 [label="CSV Reader"]
+	97 [label="Linear Regression Learner"]
+	98 [label="Regression Predictor"]
+	99 [label="Logistic Regression Learner"]
+	100 [label="Logistic Regression Predictor"]
+	106 [label="Numeric Scorer"]
+	107 [label="Scorer _JavaScript_"]
+	108 [label="Random Forest Learner"]
+	109 [label="Random Forest Predictor"]
+	110 [label="Tree Ensemble Statistics"]
+	111 [label="Scorer _JavaScript_"]
+	115 [label="RProp MLP Learner"]
+	116 [label="MultiLayerPerceptron Predictor"]
+	117 [label="Column Filter"]
+	120 [label="Decision Tree Learner"]
+	121 [label="Decision Tree Predictor"]
+	122 [label="Scorer _JavaScript_"]
+	123 [label="Column Filter"]
+	125 [label="Column Filter"]
+	126 [label="Rule Engine"]
+	29 [label=Normalizer]
+	31 [label=Normalizer]
+	32 [label=Normalizer]
+	33 [label=Normalizer]
+	34 [label=Normalizer]
+	35 [label=Normalizer]
+	36 [label=Normalizer]
+	37 [label=Normalizer]
+	38 [label=Normalizer]
+	39 [label=Normalizer]
+	40 [label=Normalizer]
+	41 [label=Normalizer]
+	43 [label=Normalizer]
+	44 [label=Normalizer]
+	45 [label=Normalizer]
+	46 [label=Normalizer]
+	47 [label=Normalizer]
+	48 [label=Normalizer]
+	49 [label=Normalizer]
+	128 [label="Rule Engine"]
+	129 [label="Parameter Optimization Loop Start"]
+	130 [label="Parameter Optimization Loop End"]
+	131 [label="Scorer _JavaScript_"]
+	132 [label=Scorer]
+	133 [label="Column Filter"]
+	134 [label="Rule Engine"]
+	135 [label="Scorer _JavaScript_"]
+	136 [label="Data Explorer"]
+	137 [label="Rank Correlation"]
+	29 -> 46
+	32 -> 35
+	33 -> 39
+	34 -> 40
+	35 -> 48
+	36 -> 31
+	37 -> 33
+	38 -> 47
+	39 -> 41
+	40 -> 36
+	41 -> 42
+	42 -> 38
+	44 -> 37
+	45 -> 32
+	46 -> 45
+	47 -> 34
+	48 -> 49
+	49 -> 44
+	29 -> 46
+	32 -> 35
+	33 -> 39
+	34 -> 40
+	35 -> 48
+	36 -> 43
+	37 -> 33
+	38 -> 47
+	39 -> 41
+	40 -> 36
+	41 -> 38
+	43 -> 31
+	44 -> 37
+	45 -> 32
+	46 -> 45
+	47 -> 34
+	48 -> 49
+	49 -> 44
+	1 -> 160
+	2 -> 3
+	3 -> 4
+	4 -> 25
+	8 -> 9
+	9 -> 29
+	19 -> 20
+	20 -> 140
+	20 -> 27
+	25 -> 8
+	27 -> 139
+	31 -> 19
+	94 -> 159
+	97 -> 98
+	98 -> 106
+	98 -> 134
+	99 -> 100
+	100 -> 135
+	108 -> 109
+	108 -> 110
+	109 -> 111
+	115 -> 116
+	116 -> 132
+	116 -> 131
+	117 -> 115
+	120 -> 121
+	121 -> 122
+	123 -> 120
+	125 -> 29
+	126 -> 128
+	31 -> 126
+	128 -> 142
+	129 -> 115
+	132 -> 130
+	133 -> 116
+	134 -> 107
+	139 -> 152
+	140 -> 143
+	141 -> 137
+	141 -> 136
+	141 -> 29
+	141 -> 24
+	141 -> 26
+	141 -> 21
+	141 -> 23
+	142 -> 151
+	143 -> 141
+	144 -> 123
+	145 -> 121
+	146 -> 108
+	147 -> 109
+	148 -> 117
+	149 -> 133
+	151 -> 149
+	151 -> 147
+	151 -> 145
+	151 -> 156
+	151 -> 154
+	152 -> 153
+	152 -> 155
+	152 -> 144
+	152 -> 146
+	152 -> 148
+	153 -> 97
+	154 -> 98
+	155 -> 99
+	156 -> 100
+	157 -> 2
+	158 -> 125
+	159 -> 158
+	160 -> 157
+	rankdir=LR
+}

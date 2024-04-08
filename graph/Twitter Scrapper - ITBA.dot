@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Twitter API Connector"]
+	2 [label="Twitter Search"]
+	4 [label="Column Filter"]
+	5 [label="Bar Chart"]
+	7 [label="String Manipulation"]
+	8 [label=GroupBy]
+	9 [label="Line Plot"]
+	1 -> 2
+	2 -> 4
+	4 -> 7
+	4 -> 5
+	7 -> 8
+	8 -> 9
+	rankdir=LR
+}

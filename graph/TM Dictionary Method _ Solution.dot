@@ -1,0 +1,92 @@
+digraph {
+	13 [label=Partitioning]
+	14 [label="Linear Regression Learner"]
+	15 [label="Regression Predictor"]
+	16 [label=TF]
+	25 [label="Missing Value"]
+	140 [label="Document Viewer"]
+	141 [label="POS Tagger"]
+	142 [label="Dictionary Tagger"]
+	143 [label="Wildcard Tagger"]
+	145 [label="Wildcard Tagger"]
+	146 [label="Dictionary Tagger"]
+	147 [label="Excel Reader"]
+	25 [label="Row Sampling"]
+	26 [label="Strings To Document"]
+	27 [label="Bag Of Words Creator"]
+	112 [label="Case Converter"]
+	117 [label="Document Viewer"]
+	119 [label="Kuhlen Stemmer"]
+	110 [label="Term To String"]
+	137 [label="Tags To String"]
+	140 [label="Document Data Extractor"]
+	141 [label="Bag Of Words Creator"]
+	143 [label=GroupBy]
+	145 [label="Missing Value"]
+	149 [label=Joiner]
+	150 [label=Pivoting]
+	150 [label=IDF]
+	140 [label=GroupBy]
+	141 [label="Tag Cloud"]
+	142 [label="Row Filter"]
+	156 [label="Math Formula"]
+	110 [label="Term To String"]
+	137 [label="Tags To String"]
+	140 [label="Document Data Extractor"]
+	141 [label="Bag Of Words Creator"]
+	158 [label=TF]
+	159 [label=IDF]
+	160 [label="Math Formula"]
+	162 [label="Excel Reader"]
+	164 [label=Concatenate]
+	165 [label=Joiner]
+	166 [label="Numeric Scorer"]
+	141 -> 142
+	142 -> 143
+	143 -> 146
+	145 -> 140
+	146 -> 145
+	149 -> 146
+	149 -> 145
+	149 -> 143
+	149 -> 142
+	25 -> 26
+	26 -> 27
+	145 -> 117
+	137 -> 141
+	110 -> 140
+	140 -> 137
+	141 -> 110
+	143 -> 149
+	145 -> 149
+	150 -> 145
+	140 -> 141
+	142 -> 140
+	110 -> 140
+	140 -> 137
+	141 -> 110
+	13 -> 15
+	13 -> 14
+	14 -> 15
+	15 -> 166
+	16 -> 150
+	25 -> 13
+	145 -> 141
+	145 -> 164
+	26 -> 141
+	145 -> 141
+	137 -> 16
+	149 -> 165
+	149 -> 164
+	150 -> 156
+	156 -> 150
+	137 -> 158
+	158 -> 159
+	159 -> 160
+	160 -> 153
+	162 -> 165
+	162 -> 25
+	164 -> 141
+	165 -> 25
+	rankdir=LR
+}

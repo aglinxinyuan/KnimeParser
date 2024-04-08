@@ -1,0 +1,153 @@
+digraph {
+	1 [label="Twitter API Connector"]
+	24 [label=Pivoting]
+	38 [label=RowID]
+	44 [label="Column Resorter"]
+	47 [label="Cell Replacer"]
+	48 [label=GroupBy]
+	50 [label="String to Date_Time"]
+	51 [label="Extract Date_Time Fields"]
+	52 [label="Modify Time"]
+	88 [label="SQLite Connector"]
+	5 [label="Strings To Document"]
+	7 [label="Tag Cloud"]
+	21 [label=Joiner]
+	51 [label=RowID]
+	108 [label="Column Filter"]
+	10 [label="Table Creator"]
+	13 [label=TF]
+	14 [label=GroupBy]
+	17 [label=Sorter]
+	18 [label="Row Filter"]
+	19 [label="Reference Row Filter"]
+	50 [label="Term to String"]
+	53 [label="Wildcard Tagger"]
+	54 [label="Tag Filter"]
+	55 [label="Bag Of Words Creator"]
+	56 [label="Document Data Extractor"]
+	111 [label="Domain Calculator"]
+	112 [label="Strings To Document"]
+	145 [label="R View _Table_"]
+	162 [label="Network Viewer"]
+	3 [label="Extract Column Header"]
+	5 [label="Recursive Loop Start"]
+	6 [label="Java Snippet"]
+	7 [label="Column Splitter"]
+	10 [label="Column Filter"]
+	11 [label="Recursive Loop End"]
+	12 [label="Java Edit Variable"]
+	13 [label="Extract Table Dimension"]
+	14 [label="Extract Column Header"]
+	15 [label=Transpose]
+	16 [label="Math Formula"]
+	17 [label="Cell Replacer"]
+	42 [label="String Replacer"]
+	43 [label=RowID]
+	45 [label="Column Rename"]
+	46 [label="Cell Splitter"]
+	177 [label="Image to Report"]
+	178 [label="Image to Report"]
+	191 [label="Data to Report"]
+	173 [label=GroupBy]
+	174 [label="Row Filter"]
+	175 [label="Row Filter"]
+	176 [label=Sorter]
+	195 [label="Column to Grid"]
+	197 [label="Image to Report"]
+	199 [label="Database Reader"]
+	82 [label="Twitter Users"]
+	146 [label=GroupBy]
+	153 [label="Object Inserter"]
+	158 [label=GroupBy]
+	159 [label=Sorter]
+	160 [label="Row Filter"]
+	161 [label="Reference Row Filter"]
+	165 [label="Row Filter"]
+	167 [label=Joiner]
+	169 [label="Multi Feature Inserter"]
+	200 [label="Object Inserter"]
+	202 [label="Try _Data Ports_"]
+	203 [label="Catch Errors _Data Ports_"]
+	172 [label="Reference Row Filter"]
+	173 [label="Table Reader"]
+	24 -> 47
+	38 -> 44
+	47 -> 38
+	48 -> 47
+	50 -> 50
+	44 -> 52
+	44 -> 24
+	52 -> 48
+	10 -> 53
+	13 -> 14
+	13 -> 19
+	14 -> 17
+	17 -> 18
+	18 -> 19
+	19 -> 56
+	53 -> 54
+	54 -> 55
+	55 -> 13
+	56 -> 50
+	5 -> 21
+	21 -> 108
+	44 -> 112
+	44 -> 5
+	108 -> 111
+	50 -> 7
+	50 -> 21
+	112 -> 53
+	42 -> 43
+	43 -> 42
+	45 -> 45
+	3 -> 6
+	5 -> 3
+	6 -> 7
+	7 -> 11
+	7 -> 10
+	10 -> 11
+	10 -> 13
+	11 -> 17
+	12 -> 11
+	13 -> 12
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 42
+	173 -> 175
+	174 -> 195
+	175 -> 176
+	176 -> 174
+	173 -> 172
+	82 -> 203
+	146 -> 161
+	158 -> 159
+	159 -> 160
+	160 -> 161
+	160 -> 202
+	160 -> 172
+	161 -> 167
+	165 -> 146
+	167 -> 153
+	169 -> 153
+	200 -> 169
+	202 -> 82
+	203 -> 169
+	203 -> 200
+	203 -> 167
+	172 -> 203
+	1 -> 165
+	44 -> 5
+	88 -> 199
+	111 -> 165
+	111 -> 197
+	111 -> 50
+	145 -> 177
+	162 -> 178
+	45 -> 145
+	195 -> 191
+	199 -> 173
+	199 -> 50
+	153 -> 162
+	rankdir=LR
+}

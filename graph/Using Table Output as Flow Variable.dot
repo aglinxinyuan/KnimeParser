@@ -1,0 +1,17 @@
+digraph {
+	7 [label=GroupBy]
+	8 [label=Sorter]
+	9 [label="Row Filter"]
+	10 [label="Column Filter"]
+	12 [label="Table Row to Variable"]
+	13 [label="Row Filter"]
+	14 [label="File Reader"]
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 12
+	12 -> 13
+	14 -> 7
+	14 -> 13
+	rankdir=LR
+}

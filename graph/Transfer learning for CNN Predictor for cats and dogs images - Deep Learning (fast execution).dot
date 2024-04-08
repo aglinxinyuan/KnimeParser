@@ -1,0 +1,54 @@
+digraph {
+	299 [label="DL Python Network Creator"]
+	300 [label="Keras Network Executor"]
+	301 [label="Keras Flatten Layer"]
+	302 [label="Keras Input Layer"]
+	303 [label="Keras Dense Layer"]
+	304 [label="Keras Dropout Layer"]
+	305 [label="Keras Dense Layer"]
+	306 [label="Keras Network Learner"]
+	307 [label="Keras Network Executor"]
+	309 [label=Scorer]
+	310 [label="Rule Engine"]
+	318 [label="Keras Network Executor"]
+	223 [label=Partitioning]
+	252 [label="Image Reader _Table_"]
+	255 [label=RowID]
+	259 [label="Image Resizer"]
+	265 [label="Image Calculator"]
+	266 [label="Column Filter"]
+	246 [label="Rule Engine"]
+	247 [label="Row Sampling"]
+	252 [label=Sorter]
+	285 [label="List Files_Folders"]
+	286 [label="Path to String"]
+	287 [label="Rule Engine"]
+	327 [label="Conda Environment Propagation"]
+	246 -> 287
+	247 -> 286
+	252 -> 246
+	285 -> 252
+	287 -> 247
+	252 -> 265
+	255 -> 266
+	259 -> 255
+	265 -> 259
+	266 -> 223
+	287 -> 252
+	299 -> 301
+	300 -> 306
+	301 -> 300
+	301 -> 318
+	302 -> 303
+	303 -> 304
+	304 -> 305
+	305 -> 306
+	306 -> 307
+	307 -> 310
+	310 -> 309
+	318 -> 307
+	326 -> 300
+	326 -> 318
+	327 -> 299
+	rankdir=LR
+}

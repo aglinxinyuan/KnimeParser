@@ -1,0 +1,32 @@
+digraph {
+	3 [label="Table Row To Variable Loop Start"]
+	4 [label="Excel Reader _XLS_"]
+	6 [label="Read Excel Sheet Names _XLS_"]
+	15 [label="H2 Connector"]
+	17 [label="DB Table Creator"]
+	18 [label="Variable Loop End"]
+	19 [label="DB Table Selector"]
+	20 [label="Variable Loop End"]
+	21 [label="Table Row To Variable Loop Start"]
+	22 [label="Excel Reader _XLS_ _deprecated_"]
+	23 [label="DB Table Selector"]
+	24 [label="DB Insert"]
+	3 -> 4
+	3 -> 17
+	4 -> 17
+	6 -> 3
+	6 -> 21
+	15 -> 24
+	15 -> 23
+	15 -> 19
+	15 -> 17
+	17 -> 18
+	18 -> 19
+	19 -> 21
+	20 -> 23
+	21 -> 22
+	21 -> 24
+	22 -> 24
+	24 -> 20
+	rankdir=LR
+}

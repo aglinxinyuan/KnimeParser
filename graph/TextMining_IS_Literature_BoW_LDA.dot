@@ -1,0 +1,40 @@
+digraph {
+	296 [label="Topic Extractor _Parallel LDA_"]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case Converter"]
+	42 [label="Stop Word Filter"]
+	43 [label="Tagged Document Viewer"]
+	45 [label="Stanford Lemmatizer"]
+	46 [label="Stanford Tagger"]
+	768 [label="Tag Cloud _JavaScript_"]
+	769 [label="Color Manager"]
+	771 [label="Strings To Document"]
+	774 [label=GroupBy]
+	775 [label=Sorter]
+	777 [label="Bar Chart"]
+	778 [label="Tableau Writer"]
+	779 [label="Excel Reader"]
+	780 [label="Send to Power BI"]
+	781 [label="Microsoft Authenticator"]
+	29 -> 30
+	30 -> 31
+	31 -> 42
+	33 -> 43
+	42 -> 46
+	45 -> 33
+	46 -> 45
+	296 -> 778
+	296 -> 769
+	296 -> 774
+	296 -> 780
+	33 -> 296
+	769 -> 768
+	771 -> 29
+	774 -> 775
+	775 -> 777
+	779 -> 771
+	781 -> 780
+	rankdir=LR
+}

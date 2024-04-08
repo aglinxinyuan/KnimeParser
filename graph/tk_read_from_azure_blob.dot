@@ -1,0 +1,16 @@
+digraph {
+	91 [label="Microsoft SQL Server Connector"]
+	3 [label="Excel Reader _XLS_"]
+	8 [label="DB Writer"]
+	10 [label="Python Script _1_1_"]
+	15 [label="Data Explorer"]
+	97 [label="Azure Blob Store File Picker"]
+	16 [label="Azure Blob Store Connection"]
+	0 -> 8
+	3 -> 10
+	3 -> 8
+	3 -> 15
+	97 -> 3
+	99 -> 97
+	rankdir=LR
+}

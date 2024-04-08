@@ -1,0 +1,40 @@
+digraph {
+	2 [label="DB Query Reader"]
+	3 [label="MySQL Connector"]
+	4 [label="String to Date_Time"]
+	5 [label="Extract Date_Time Fields"]
+	6 [label=GroupBy]
+	7 [label=Sorter]
+	8 [label="Rule Engine"]
+	9 [label="Line Plot"]
+	11 [label=GroupBy]
+	12 [label="Line Plot"]
+	13 [label="Row Filter"]
+	14 [label="Row Filter"]
+	15 [label="Row Filter"]
+	16 [label="Row Filter"]
+	17 [label="Line Plot"]
+	18 [label="Line Plot"]
+	19 [label="Line Plot"]
+	20 [label=GroupBy]
+	21 [label="Line Plot"]
+	2 -> 4
+	3 -> 2
+	4 -> 5
+	4 -> 11
+	4 -> 20
+	4 -> 21
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 13
+	8 -> 14
+	8 -> 15
+	8 -> 16
+	11 -> 12
+	13 -> 9
+	14 -> 17
+	15 -> 18
+	16 -> 19
+	rankdir=LR
+}

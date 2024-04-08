@@ -1,0 +1,19 @@
+digraph {
+	3 [label="Molecule Type Cast"]
+	4 [label="RDKit From Molecule"]
+	5 [label="FTP Connector"]
+	6 [label="CSV Reader"]
+	7 [label="RDKit From Molecule"]
+	8 [label="Molecule Type Cast"]
+	9 [label=Joiner]
+	10 [label="Table Writer"]
+	3 -> 8
+	3 -> 4
+	4 -> 9
+	5 -> 6
+	6 -> 3
+	7 -> 9
+	8 -> 7
+	9 -> 10
+	rankdir=LR
+}

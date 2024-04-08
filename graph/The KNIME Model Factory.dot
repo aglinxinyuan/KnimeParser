@@ -1,0 +1,424 @@
+digraph {
+	1 [label="Try _Variable Ports_"]
+	5 [label="Table Creator"]
+	15 [label="Table Reader"]
+	16 [label="Catch Errors _Data Ports_"]
+	17 [label="Empty Table Creator"]
+	63 [label="Table Creator"]
+	64 [label="Reference Row Splitter"]
+	2 [label="Table Row To Variable Loop Start"]
+	3 [label="Loop End"]
+	7 [label="Table Row to Variable"]
+	8 [label="Call Local Workflow"]
+	15 [label="Column Filter"]
+	14 [label="Column Filter"]
+	15 [label="Column Rename"]
+	18 [label="Cross Joiner"]
+	20 [label="Column Filter"]
+	18 [label="Row Splitter"]
+	19 [label="Row Splitter"]
+	20 [label=Concatenate]
+	15 [label="Column Filter"]
+	14 [label="Column Filter"]
+	15 [label="Column Rename"]
+	18 [label="Cross Joiner"]
+	20 [label="Column Filter"]
+	19 [label="Row Splitter"]
+	20 [label=Concatenate]
+	28 [label="Table Row to Variable"]
+	29 [label="Call Local Workflow"]
+	30 [label="Row Splitter"]
+	47 [label="Rule Engine Variable"]
+	49 [label="JSON to Table"]
+	50 [label="Table Row to Variable"]
+	7 [label="Table Row to Variable"]
+	8 [label="Call Local Workflow"]
+	13 [label="Variable to Table Column"]
+	14 [label="Table to JSON"]
+	15 [label="Column Filter"]
+	18 [label="Row Splitter"]
+	19 [label=Concatenate]
+	15 [label="Table Reader"]
+	16 [label="Row Filter"]
+	30 [label="String Manipulation"]
+	45 [label="CASE Switch Data _Start_"]
+	20 [label=Concatenate]
+	1 [label="JSON to Table"]
+	5 [label="Table to JSON"]
+	6 [label="Table Reader"]
+	9 [label="Column Rename"]
+	10 [label="Column Filter"]
+	11 [label="Column Appender"]
+	12 [label="Table Reader"]
+	13 [label="Row Filter"]
+	14 [label="Row Filter"]
+	15 [label="Reference Row Filter"]
+	16 [label="Reference Row Filter"]
+	17 [label="Reference Row Filter"]
+	11 [label="Column Appender"]
+	15 [label="Column Rename"]
+	20 [label="Column Filter"]
+	36 [label="Row Splitter"]
+	37 [label="Row Splitter"]
+	20 [label=Concatenate]
+	1 [label="JSON to Table"]
+	5 [label="Table to JSON"]
+	6 [label="Table Reader"]
+	7 [label="Row Filter"]
+	9 [label="Column Rename"]
+	10 [label="Column Filter"]
+	11 [label="Column Appender"]
+	11 [label="Column Appender"]
+	15 [label="Column Rename"]
+	20 [label="Column Filter"]
+	21 [label="Column Filter"]
+	36 [label="Row Splitter"]
+	37 [label="Row Splitter"]
+	15 [label="Column Filter"]
+	19 [label="Row Splitter"]
+	20 [label=Concatenate]
+	31 [label="Table Row to Variable"]
+	35 [label="Call Local Workflow"]
+	49 [label="Column Filter"]
+	29 [label="Call Local Workflow"]
+	30 [label="Row Splitter"]
+	18 [label="JSON to Table"]
+	19 [label="Column Rename"]
+	21 [label="Column Filter"]
+	22 [label="Variable to Table Column"]
+	23 [label="Time Generator"]
+	24 [label="Cross Joiner"]
+	25 [label="Constant Value Column"]
+	27 [label="Table Reader"]
+	28 [label=Concatenate]
+	29 [label="Table Writer"]
+	30 [label="Time to String"]
+	31 [label="JSON to Table"]
+	32 [label="Column Filter"]
+	34 [label="Cross Joiner"]
+	37 [label="Column Filter"]
+	38 [label="Constant Value Column"]
+	39 [label="Table Row to Variable"]
+	40 [label="Column Rename"]
+	37 [label="Table Row to Variable"]
+	14 [label="Column Filter"]
+	15 [label="Column Rename"]
+	17 [label="Table to JSON"]
+	19 [label="JSON to Table"]
+	20 [label="Column Filter"]
+	21 [label="Column Appender"]
+	39 [label="Column Filter"]
+	40 [label="Row Splitter"]
+	41 [label=Concatenate]
+	50 [label=Cache]
+	51 [label="Java Edit Variable"]
+	52 [label="IF Switch"]
+	53 [label="End IF"]
+	15 [label="Column Filter"]
+	14 [label="Column Filter"]
+	15 [label="Column Rename"]
+	17 [label="Table to JSON"]
+	18 [label="Cross Joiner"]
+	19 [label="JSON to Table"]
+	20 [label="Column Filter"]
+	19 [label="Row Splitter"]
+	20 [label=Concatenate]
+	28 [label="Table Row to Variable"]
+	29 [label="Call Local Workflow"]
+	30 [label="Row Splitter"]
+	27 [label="Variable to Table Column"]
+	34 [label="JSON to Table"]
+	35 [label=Unpivoting]
+	36 [label="Delete Files"]
+	37 [label="String to URI"]
+	38 [label="URL to File Path"]
+	39 [label="Row Filter"]
+	40 [label="String Manipulation"]
+	23 [label="Time Generator"]
+	32 [label="Time to String"]
+	33 [label="Table Reader"]
+	34 [label="Row Filter"]
+	36 [label="Row Filter"]
+	37 [label="Reference Row Filter"]
+	41 [label=Concatenate]
+	43 [label="Table Writer"]
+	46 [label="String Manipulation"]
+	47 [label="Table Row to Variable"]
+	47 [label="Column Filter"]
+	14 [label="Column Filter"]
+	15 [label="Column Rename"]
+	17 [label="Table to JSON"]
+	19 [label="JSON to Table"]
+	20 [label="Column Filter"]
+	21 [label="Column Appender"]
+	20 [label=Concatenate]
+	18 [label="JSON to Table"]
+	19 [label="Column Rename"]
+	22 [label="Variable to Table Column"]
+	23 [label="Time Generator"]
+	24 [label="Cross Joiner"]
+	25 [label="Constant Value Column"]
+	27 [label="Table Reader"]
+	28 [label=Concatenate]
+	29 [label="Table Writer"]
+	31 [label="Column Rename"]
+	32 [label="Time to String"]
+	34 [label="Table Row to Variable"]
+	35 [label="Column Filter"]
+	28 [label="Table Row to Variable"]
+	29 [label="Call Local Workflow"]
+	30 [label="Row Splitter"]
+	33 [label="Table Reader"]
+	34 [label="Row Filter"]
+	36 [label="Row Filter"]
+	37 [label="Reference Row Filter"]
+	41 [label=Concatenate]
+	43 [label="Table Writer"]
+	46 [label="String Manipulation"]
+	47 [label="Rule Engine Variable"]
+	48 [label="CASE Switch Variable _Start_"]
+	49 [label="CASE Switch Variable _End_"]
+	47 [label="Row Splitter"]
+	48 [label="Empty Table Switch"]
+	49 [label="End IF"]
+	51 [label="Reference Column Filter"]
+	58 [label="End IF"]
+	59 [label="End IF"]
+	50 [label=Cache]
+	51 [label="Java Edit Variable"]
+	52 [label=Cache]
+	1 -> 15
+	5 -> 1
+	15 -> 20
+	17 -> 64
+	17 -> 20
+	63 -> 64
+	14 -> 15
+	15 -> 18
+	20 -> 18
+	7 -> 18
+	20 -> 15
+	15 -> 20
+	17 -> 18
+	18 -> 20
+	19 -> 20
+	19 -> 7
+	19 -> 20
+	14 -> 15
+	15 -> 18
+	20 -> 18
+	15 -> 20
+	17 -> 29
+	19 -> 20
+	28 -> 29
+	29 -> 49
+	29 -> 15
+	30 -> 28
+	30 -> 20
+	30 -> 20
+	20 -> 20
+	49 -> 19
+	20 -> 36
+	7 -> 18
+	20 -> 15
+	13 -> 14
+	14 -> 18
+	15 -> 19
+	18 -> 19
+	18 -> 7
+	18 -> 13
+	15 -> 20
+	17 -> 30
+	1 -> 6
+	1 -> 11
+	1 -> 12
+	5 -> 10
+	6 -> 15
+	20 -> 5
+	11 -> 19
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	14 -> 20
+	14 -> 17
+	15 -> 20
+	17 -> 17
+	17 -> 11
+	15 -> 11
+	20 -> 11
+	10 -> 20
+	21 -> 20
+	36 -> 1
+	37 -> 20
+	37 -> 1
+	37 -> 20
+	1 -> 6
+	1 -> 11
+	5 -> 10
+	6 -> 7
+	7 -> 11
+	20 -> 5
+	11 -> 19
+	11 -> 21
+	15 -> 11
+	20 -> 11
+	10 -> 20
+	21 -> 20
+	36 -> 1
+	37 -> 20
+	37 -> 1
+	37 -> 20
+	15 -> 20
+	19 -> 49
+	19 -> 20
+	19 -> 31
+	31 -> 20
+	21 -> 15
+	49 -> 20
+	18 -> 18
+	18 -> 15
+	19 -> 40
+	21 -> 30
+	22 -> 19
+	19 -> 15
+	30 -> 25
+	25 -> 22
+	27 -> 28
+	28 -> 29
+	30 -> 27
+	30 -> 18
+	31 -> 32
+	32 -> 18
+	29 -> 37
+	37 -> 20
+	17 -> 39
+	17 -> 28
+	39 -> 29
+	40 -> 21
+	14 -> 15
+	15 -> 19
+	19 -> 21
+	20 -> 21
+	21 -> 17
+	29 -> 39
+	30 -> 41
+	30 -> 20
+	30 -> 37
+	29 -> 41
+	37 -> 29
+	17 -> 29
+	39 -> 18
+	39 -> 41
+	40 -> 20
+	41 -> 40
+	41 -> 19
+	20 -> 19
+	14 -> 15
+	15 -> 19
+	18 -> 17
+	19 -> 18
+	20 -> 18
+	15 -> 20
+	17 -> 29
+	19 -> 20
+	28 -> 29
+	29 -> 15
+	30 -> 28
+	30 -> 20
+	30 -> 20
+	19 -> 32
+	32 -> 36
+	10 -> 18
+	10 -> 37
+	29 -> 36
+	36 -> 37
+	36 -> 36
+	36 -> 18
+	37 -> 41
+	41 -> 43
+	49 -> 41
+	20 -> 36
+	29 -> 36
+	29 -> 36
+	21 -> 39
+	36 -> 27
+	37 -> 20
+	17 -> 36
+	39 -> 40
+	40 -> 37
+	49 -> 20
+	20 -> 20
+	14 -> 15
+	15 -> 19
+	19 -> 21
+	20 -> 21
+	21 -> 17
+	18 -> 18
+	18 -> 15
+	19 -> 32
+	22 -> 28
+	22 -> 18
+	19 -> 27
+	19 -> 15
+	30 -> 19
+	25 -> 22
+	27 -> 28
+	28 -> 29
+	29 -> 18
+	31 -> 25
+	32 -> 20
+	21 -> 31
+	10 -> 18
+	10 -> 37
+	29 -> 36
+	36 -> 37
+	36 -> 36
+	37 -> 41
+	41 -> 43
+	43 -> 49
+	49 -> 41
+	20 -> 36
+	20 -> 49
+	20 -> 1
+	17 -> 29
+	29 -> 36
+	28 -> 29
+	29 -> 40
+	30 -> 18
+	30 -> 20
+	49 -> 20
+	20 -> 20
+	20 -> 36
+	20 -> 20
+	20 -> 49
+	20 -> 40
+	20 -> 28
+	49 -> 20
+	20 -> 49
+	20 -> 19
+	52 -> 19
+	52 -> 40
+	1 -> 2
+	2 -> 15
+	20 -> 19
+	20 -> 45
+	19 -> 18
+	30 -> 18
+	45 -> 36
+	45 -> 52
+	45 -> 36
+	20 -> 58
+	20 -> 58
+	20 -> 40
+	20 -> 59
+	52 -> 53
+	52 -> 19
+	53 -> 18
+	20 -> 36
+	27 -> 3
+	20 -> 53
+	58 -> 19
+	59 -> 52
+	20 -> 59
+	rankdir=LR
+}

@@ -1,0 +1,52 @@
+digraph {
+	931 [label="Generic JavaScript View"]
+	1156 [label="Table Creator"]
+	1157 [label="Table Row to Variable"]
+	1164 [label="Merge Variables"]
+	1166 [label="CSS Editor"]
+	1167 [label="String Input"]
+	1168 [label="Integer Input"]
+	1171 [label="Math Formula _Variable_"]
+	1172 [label="WrappedNode Input"]
+	1173 [label="WrappedNode Output"]
+	1174 [label="Integer Input"]
+	1175 [label="Integer Input"]
+	1176 [label="Boolean Input"]
+	1177 [label="Merge Variables"]
+	1179 [label="Math Formula _Variable_"]
+	1180 [label="Math Formula _Variable_"]
+	1161 [label="WrappedNode Output"]
+	1170 [label="WrappedNode Input"]
+	308 [label="Text Output"]
+	1169 [label="String Input"]
+	1170 [label="String Input"]
+	1173 [label="CSS Editor"]
+	1174 [label="WrappedNode Input"]
+	1175 [label="WrappedNode Output"]
+	1159 [label="Text Output"]
+	1164 [label="CSS Editor"]
+	1165 [label="WrappedNode Input"]
+	1166 [label="WrappedNode Output"]
+	1169 [label="String Input"]
+	1170 [label="String Input"]
+	1156 -> 1157
+	1157 -> 1164
+	1164 -> 1177
+	1166 -> 1164
+	1167 -> 1177
+	1168 -> 1171
+	1171 -> 1167
+	1174 -> 1176
+	1175 -> 1179
+	1176 -> 1175
+	1177 -> 931
+	1179 -> 1180
+	1180 -> 1177
+	1169 -> 1170
+	1170 -> 1173
+	1173 -> 308
+	1164 -> 1159
+	1169 -> 1170
+	1170 -> 1164
+	rankdir=LR
+}

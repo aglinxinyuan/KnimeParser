@@ -1,0 +1,12 @@
+digraph {
+	1 [label="POST Request"]
+	2 [label=XPath]
+	3 [label="Data Generator"]
+	4 [label="Send to Tableau Server"]
+	6 [label="Table Row to Variable"]
+	1 -> 2
+	2 -> 6
+	3 -> 4
+	6 -> 4
+	rankdir=LR
+}

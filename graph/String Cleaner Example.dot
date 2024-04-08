@@ -1,0 +1,20 @@
+digraph {
+	2 [label="String Cleaner"]
+	4 [label="String Cleaner"]
+	5 [label="String Cleaner"]
+	6 [label="String Format Manager"]
+	7 [label="String Cleaner"]
+	8 [label="String Cleaner"]
+	9 [label="Table View"]
+	10 [label="Table View"]
+	12 [label="Table Reader"]
+	2 -> 4
+	4 -> 5
+	5 -> 7
+	6 -> 9
+	7 -> 8
+	8 -> 6
+	12 -> 10
+	12 -> 2
+	rankdir=LR
+}

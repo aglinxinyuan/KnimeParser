@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	3 [label="H2 Connector"]
+	4 [label="DB Writer"]
+	5 [label="DB Writer"]
+	6 [label="DB Query Reader"]
+	1 -> 4
+	2 -> 5
+	3 -> 4
+	3 -> 5
+	3 -> 6
+	4 -> 5
+	5 -> 6
+	rankdir=LR
+}

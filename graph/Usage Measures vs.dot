@@ -1,0 +1,160 @@
+digraph {
+	28 [label="Date Field Extractor"]
+	23 [label=GroupBy]
+	26 [label="Column Rename"]
+	27 [label=GroupBy]
+	28 [label=Joiner]
+	29 [label=Pivoting]
+	30 [label="Column Resorter"]
+	104 [label="Rule Engine"]
+	107 [label=Joiner]
+	108 [label=Pivoting]
+	47 [label="Time Field Extractor"]
+	6 [label="Column Rename"]
+	7 [label="Cell Splitter By Position"]
+	8 [label="Number To String"]
+	9 [label="Math Formula"]
+	11 [label="Math Formula"]
+	12 [label="Java Snippet"]
+	14 [label="Column Filter"]
+	15 [label="Java Snippet"]
+	17 [label="String to Date_Time"]
+	18 [label="String to Date_Time"]
+	19 [label="String To Number"]
+	20 [label="Double To Int"]
+	64 [label="Math Formula"]
+	65 [label="Math Formula"]
+	66 [label="Math Formula"]
+	67 [label="Math Formula"]
+	68 [label="Math Formula"]
+	69 [label="Math Formula"]
+	70 [label="Math Formula"]
+	71 [label="Math Formula"]
+	59 [label="Math Formula"]
+	60 [label="Math Formula"]
+	61 [label="Math Formula"]
+	62 [label="Math Formula"]
+	63 [label="Math Formula"]
+	71 [label="Math Formula"]
+	23 [label=GroupBy]
+	26 [label="Column Rename"]
+	27 [label=GroupBy]
+	28 [label=Joiner]
+	29 [label=Pivoting]
+	30 [label="Column Resorter"]
+	104 [label="Rule Engine"]
+	107 [label=Joiner]
+	108 [label=Pivoting]
+	103 [label=Joiner]
+	104 [label="File Reader"]
+	123 [label="Line Plot"]
+	124 [label=RowID]
+	105 [label=Pivoting]
+	106 [label="String Manipulation"]
+	109 [label="Column Rename _Regex_"]
+	118 [label="Cell Splitter By Position"]
+	119 [label="String To Number"]
+	120 [label="String to Date_Time"]
+	121 [label=Sorter]
+	127 [label="Math Formula"]
+	128 [label="Row Filter"]
+	129 [label="Rule_based Row Filter"]
+	130 [label="Lag Column"]
+	131 [label="Column Filter"]
+	132 [label=RowID]
+	133 [label="String Manipulation"]
+	134 [label="Row Filter"]
+	111 [label="Column Filter"]
+	113 [label="Column Selection"]
+	114 [label="WrappedNode Input"]
+	115 [label="WrappedNode Output"]
+	116 [label="Column Rename"]
+	110 [label="Lag Column"]
+	112 [label="Normalizer _PMML_"]
+	117 [label="Integer Input"]
+	118 [label="WrappedNode Input"]
+	119 [label="WrappedNode Output"]
+	140 [label="Linear Correlation"]
+	23 -> 29
+	23 -> 27
+	23 -> 104
+	27 -> 28
+	28 -> 107
+	29 -> 30
+	30 -> 28
+	104 -> 108
+	107 -> 26
+	108 -> 107
+	6 -> 8
+	7 -> 19
+	8 -> 7
+	9 -> 11
+	11 -> 20
+	12 -> 15
+	14 -> 17
+	15 -> 14
+	17 -> 18
+	19 -> 9
+	20 -> 12
+	18 -> 67
+	65 -> 66
+	66 -> 68
+	67 -> 65
+	68 -> 69
+	69 -> 70
+	71 -> 6
+	59 -> 60
+	60 -> 61
+	61 -> 62
+	62 -> 63
+	71 -> 59
+	23 -> 29
+	23 -> 27
+	23 -> 104
+	27 -> 28
+	28 -> 107
+	29 -> 30
+	30 -> 28
+	104 -> 108
+	107 -> 26
+	108 -> 107
+	105 -> 118
+	106 -> 105
+	118 -> 120
+	119 -> 121
+	120 -> 119
+	121 -> 109
+	127 -> 131
+	128 -> 127
+	129 -> 132
+	130 -> 129
+	131 -> 130
+	132 -> 133
+	133 -> 134
+	111 -> 116
+	113 -> 111
+	114 -> 113
+	114 -> 111
+	116 -> 115
+	110 -> 119
+	112 -> 110
+	117 -> 110
+	118 -> 112
+	28 -> 47
+	26 -> 103
+	47 -> 23
+	47 -> 23
+	47 -> 106
+	18 -> 28
+	63 -> 71
+	26 -> 103
+	103 -> 71
+	104 -> 6
+	124 -> 123
+	109 -> 138
+	138 -> 139
+	138 -> 124
+	139 -> 140
+	140 -> 128
+	rankdir=LR
+}

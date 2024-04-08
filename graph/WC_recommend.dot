@@ -1,0 +1,44 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Sampling"]
+	3 [label="Number To String"]
+	4 [label="Strings To Document"]
+	5 [label="Number Filter"]
+	6 [label="Punctuation Erasure"]
+	7 [label="Stop Word Filter"]
+	8 [label="Porter Stemmer"]
+	10 [label="Case Converter"]
+	11 [label="Bag Of Words Creator"]
+	12 [label=TF]
+	13 [label=IDF]
+	14 [label="Column Expressions"]
+	15 [label="Document Vector"]
+	16 [label="Category To Class"]
+	17 [label=Joiner]
+	18 [label="Tree Ensemble Learner"]
+	19 [label="Tree Ensemble Predictor"]
+	20 [label=Partitioning]
+	21 [label=Scorer]
+	1 -> 3
+	2 -> 4
+	2 -> 17
+	3 -> 2
+	4 -> 10
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 11
+	10 -> 5
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 20
+	18 -> 19
+	19 -> 21
+	20 -> 18
+	20 -> 19
+	rankdir=LR
+}

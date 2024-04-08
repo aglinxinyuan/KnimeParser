@@ -1,0 +1,14 @@
+digraph {
+	3 [label="String Widget"]
+	5 [label="Variable to Table Row"]
+	6 [label="Cell Splitter"]
+	7 [label="Table Row to Variable"]
+	8 [label=Ungroup]
+	9 [label="Table Creator"]
+	3 -> 5
+	5 -> 6
+	6 -> 7
+	6 -> 8
+	7 -> 9
+	rankdir=LR
+}

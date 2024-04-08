@@ -1,0 +1,137 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	35 [label=Joiner]
+	37 [label="Excel Writer"]
+	38 [label="Excel Reader"]
+	42 [label="Tags To String"]
+	51 [label="Strings To Document"]
+	63 [label="Number To String"]
+	64 [label="String To Number"]
+	33 [label="Dictionary Tagger"]
+	34 [label="Dictionary Tagger"]
+	35 [label="Dictionary Tagger"]
+	36 [label="Table Creator"]
+	37 [label="Table Creator"]
+	38 [label="Table Creator"]
+	39 [label="Tag Filter"]
+	40 [label="Bag Of Words Creator"]
+	41 [label=TF]
+	45 [label="Table Creator"]
+	46 [label="Dictionary Tagger"]
+	47 [label="Row Filter"]
+	48 [label="Column Filter"]
+	49 [label="Missing Value"]
+	50 [label="Excel Writer"]
+	144 [label="Reference Row Filter"]
+	145 [label="Table Creator"]
+	77 [label="Term To String"]
+	81 [label="Row Filter"]
+	83 [label=Concatenate]
+	92 [label="Tagged Document Viewer"]
+	79 [label="Row Filter"]
+	80 [label="Rule Engine _Dictionary_"]
+	81 [label="Table Creator"]
+	82 [label="Duplicate Row Filter"]
+	82 [label="Duplicate Row Filter"]
+	91 [label="Row Filter"]
+	94 [label="Rule Engine _Dictionary_"]
+	95 [label="Table Creator"]
+	80 [label="Row Filter"]
+	84 [label="Table Creator"]
+	85 [label="Rule Engine _Dictionary_"]
+	86 [label="Duplicate Row Filter"]
+	100 [label="String Manipulation"]
+	101 [label="String Manipulation"]
+	102 [label="Column Filter"]
+	103 [label="Column Filter"]
+	104 [label="Cell Splitter"]
+	105 [label="Cell Splitter"]
+	106 [label="Cell Splitter"]
+	107 [label="Column Filter"]
+	108 [label="Column Rename"]
+	112 [label="Excel Reader"]
+	113 [label="Excel Reader"]
+	114 [label=Joiner]
+	115 [label=Joiner]
+	117 [label="String Manipulation"]
+	118 [label="Excel Writer"]
+	120 [label="Duplicate Row Filter"]
+	121 [label="Reference Row Filter"]
+	122 [label="Table Creator"]
+	124 [label="Duplicate Row Filter"]
+	125 [label="Column Filter"]
+	126 [label="Duplicate Row Filter"]
+	127 [label="Duplicate Row Filter"]
+	128 [label=Pivoting]
+	129 [label=Joiner]
+	33 -> 46
+	34 -> 33
+	35 -> 39
+	36 -> 35
+	37 -> 33
+	38 -> 34
+	39 -> 47
+	39 -> 40
+	40 -> 41
+	45 -> 46
+	46 -> 35
+	47 -> 48
+	48 -> 49
+	49 -> 144
+	49 -> 50
+	145 -> 144
+	79 -> 82
+	81 -> 80
+	82 -> 80
+	82 -> 94
+	91 -> 82
+	95 -> 94
+	80 -> 86
+	84 -> 85
+	86 -> 85
+	1 -> 105
+	2 -> 121
+	35 -> 114
+	38 -> 128
+	38 -> 129
+	42 -> 77
+	51 -> 34
+	63 -> 117
+	64 -> 101
+	41 -> 42
+	77 -> 92
+	77 -> 100
+	81 -> 83
+	83 -> 115
+	80 -> 83
+	94 -> 83
+	85 -> 83
+	100 -> 79
+	100 -> 91
+	100 -> 80
+	100 -> 81
+	101 -> 51
+	102 -> 64
+	103 -> 108
+	104 -> 103
+	105 -> 106
+	106 -> 107
+	107 -> 104
+	108 -> 125
+	112 -> 127
+	113 -> 124
+	114 -> 115
+	115 -> 118
+	115 -> 120
+	117 -> 102
+	121 -> 126
+	122 -> 121
+	124 -> 35
+	125 -> 37
+	126 -> 35
+	127 -> 114
+	128 -> 129
+	129 -> 63
+	rankdir=LR
+}

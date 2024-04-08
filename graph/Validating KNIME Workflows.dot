@@ -1,0 +1,55 @@
+digraph {
+	25 [label="WrappedNode Output"]
+	27 [label="Empty Table Switch"]
+	29 [label="CASE Switch Data _End_"]
+	30 [label=Concatenate]
+	31 [label="Inject Variables _Data_"]
+	34 [label="Inject Variables _Data_"]
+	39 [label="Table Reader"]
+	33 [label="Rule Engine Variable"]
+	38 [label="Row Sampling"]
+	17 [label="Row Sampling"]
+	32 [label="Rule Engine Variable"]
+	43 [label="WrappedNode Input"]
+	4 [label="Table Reader"]
+	5 [label="Table Difference Checker"]
+	13 [label="IF Switch"]
+	15 [label="WrappedNode Output"]
+	17 [label="Row Sampling"]
+	18 [label="WrappedNode Input"]
+	19 [label="Testflow Configuration"]
+	22 [label="Math Formula"]
+	23 [label="Column Filter"]
+	24 [label="Row Filter"]
+	25 [label="Column Resorter"]
+	28 [label="Table Reader"]
+	40 [label="Table View _JavaScript_"]
+	38 -> 33
+	17 -> 32
+	27 -> 30
+	27 -> 17
+	27 -> 38
+	27 -> 34
+	29 -> 25
+	30 -> 31
+	31 -> 29
+	34 -> 29
+	39 -> 30
+	33 -> 34
+	32 -> 39
+	32 -> 31
+	43 -> 27
+	4 -> 5
+	13 -> 15
+	13 -> 5
+	13 -> 17
+	18 -> 13
+	15 -> 22
+	17 -> 38
+	22 -> 23
+	23 -> 25
+	24 -> 17
+	25 -> 24
+	28 -> 15
+	rankdir=LR
+}

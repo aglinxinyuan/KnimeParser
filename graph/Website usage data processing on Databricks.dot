@@ -1,0 +1,22 @@
+digraph {
+	7 [label="Create Databricks Environment"]
+	676 [label="DB Table Selector"]
+	708 [label="Spark GroupBy"]
+	2324 [label="DB Column Filter"]
+	2325 [label="Hive to Spark"]
+	2326 [label="Spark Missing Value"]
+	2347 [label="Spark Column Rename"]
+	2348 [label="Destroy Spark Context"]
+	2350 [label="Spark to Table"]
+	7 -> 2325
+	7 -> 676
+	7 -> 2348
+	676 -> 2324
+	708 -> 2347
+	2324 -> 2325
+	2325 -> 2326
+	2326 -> 708
+	2347 -> 2350
+	2350 -> 2348
+	rankdir=LR
+}

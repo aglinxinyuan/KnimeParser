@@ -1,0 +1,8 @@
+digraph {
+	5 [label="CSV Writer"]
+	10 [label="Row Filter"]
+	14 [label="CSV Reader"]
+	10 -> 5
+	14 -> 10
+	rankdir=LR
+}

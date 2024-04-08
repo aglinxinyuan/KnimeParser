@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String Manipulation _Multi Column_"]
+	6 [label="Missing Value"]
+	7 [label="String Manipulation _Multi Column_"]
+	10 [label="Column Merger"]
+	11 [label="String Manipulation _Multi Column_"]
+	12 [label="Missing Value"]
+	1 -> 2
+	1 -> 6
+	1 -> 10
+	6 -> 7
+	10 -> 12
+	12 -> 11
+	rankdir=LR
+}

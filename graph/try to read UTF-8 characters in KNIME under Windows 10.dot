@@ -1,0 +1,54 @@
+digraph {
+	3 [label="Extract Context Properties _deprecated_"]
+	7 [label="Extract System Properties"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	51 [label="Table Row to Variable _deprecated_"]
+	52 [label="Variable to Table Row _deprecated_"]
+	53 [label="Table Column to Variable _deprecated_"]
+	54 [label="Java Edit Variable _simple_"]
+	81 [label="Java Edit Variable _simple_"]
+	84 [label="R Source _Table_"]
+	97 [label="File Reader"]
+	98 [label="CSV Reader"]
+	99 [label="Excel Reader"]
+	100 [label="R Source _Table_"]
+	101 [label="Java Edit Variable _simple_"]
+	102 [label="CSV Reader"]
+	103 [label="R Source _Table_"]
+	104 [label="Java Edit Variable _simple_"]
+	105 [label="Python Script _Labs_"]
+	106 [label="Java Edit Variable _simple_"]
+	107 [label="String to Path _Variable_"]
+	108 [label="Merge Variables"]
+	109 [label="Parquet Reader"]
+	110 [label="Python Script _Labs_"]
+	111 [label="CSV Writer"]
+	112 [label="Python Script _Labs_"]
+	3 -> 52
+	7 -> 53
+	46 -> 51
+	47 -> 46
+	48 -> 47
+	52 -> 48
+	53 -> 54
+	54 -> 46
+	70 -> 101
+	70 -> 81
+	70 -> 104
+	70 -> 106
+	81 -> 84
+	81 -> 108
+	99 -> 111
+	101 -> 100
+	104 -> 103
+	104 -> 110
+	104 -> 111
+	105 -> 109
+	106 -> 107
+	107 -> 108
+	108 -> 105
+	111 -> 112
+	rankdir=LR
+}

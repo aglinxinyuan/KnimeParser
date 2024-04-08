@@ -1,0 +1,62 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label="String to Date_Time"]
+	5 [label="String To Number"]
+	6 [label="String Manipulation"]
+	7 [label="String Manipulation"]
+	10 [label="Duplicate Row Filter"]
+	16 [label="Duplicate Row Filter"]
+	28 [label="Bar Chart"]
+	29 [label="Number To String"]
+	30 [label=Sorter]
+	32 [label="Column Filter"]
+	33 [label="Rule Engine"]
+	35 [label="Rule Engine"]
+	37 [label=GroupBy]
+	40 [label="Bar Chart"]
+	45 [label=Sorter]
+	46 [label="Number To String"]
+	47 [label="Bar Chart"]
+	48 [label="Bar Chart"]
+	52 [label="Top k Row Filter"]
+	53 [label=Sorter]
+	54 [label="Top k Row Filter"]
+	55 [label="Number To String"]
+	56 [label=Sorter]
+	57 [label="Pie Chart"]
+	58 [label="Pie Chart"]
+	59 [label="Math Formula"]
+	60 [label="Line Plot"]
+	61 [label=GroupBy]
+	1 -> 10
+	2 -> 4
+	3 -> 16
+	4 -> 6
+	5 -> 37
+	5 -> 59
+	6 -> 5
+	7 -> 46
+	10 -> 7
+	16 -> 30
+	29 -> 28
+	30 -> 29
+	30 -> 32
+	32 -> 33
+	32 -> 35
+	33 -> 57
+	35 -> 58
+	37 -> 54
+	45 -> 48
+	46 -> 52
+	52 -> 53
+	52 -> 45
+	53 -> 47
+	54 -> 55
+	55 -> 56
+	56 -> 40
+	59 -> 61
+	61 -> 60
+	rankdir=LR
+}

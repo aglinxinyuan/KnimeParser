@@ -1,0 +1,52 @@
+digraph {
+	1 [label="Excel Reader"]
+	16 [label=Heatmap]
+	23 [label=GroupBy]
+	24 [label="Number To String"]
+	25 [label=Pivoting]
+	26 [label="Constant Value Column"]
+	29 [label="Column Resorter"]
+	30 [label="Missing Value"]
+	31 [label=Sorter]
+	2 [label=GroupBy]
+	3 [label=GroupBy]
+	11 [label="Chunk Loop Start"]
+	12 [label=Ungroup]
+	13 [label="Cross Joiner"]
+	14 [label="Rule_based Row Filter"]
+	15 [label="Loop End"]
+	17 [label="Table Row to Variable"]
+	18 [label="One Row to Many"]
+	19 [label="Column Filter"]
+	20 [label="Constant Value Column"]
+	21 [label="Column Filter"]
+	22 [label=Sorter]
+	32 [label="Column Rename"]
+	33 [label="Column Rename"]
+	2 -> 3
+	3 -> 32
+	11 -> 19
+	11 -> 17
+	12 -> 13
+	12 -> 13
+	13 -> 33
+	14 -> 20
+	15 -> 22
+	17 -> 20
+	18 -> 21
+	19 -> 12
+	20 -> 18
+	21 -> 15
+	32 -> 11
+	33 -> 14
+	1 -> 2
+	23 -> 31
+	24 -> 30
+	25 -> 29
+	26 -> 25
+	26 -> 23
+	29 -> 24
+	30 -> 16
+	22 -> 26
+	rankdir=LR
+}

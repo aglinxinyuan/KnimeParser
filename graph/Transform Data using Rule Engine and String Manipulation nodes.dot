@@ -1,0 +1,18 @@
+digraph {
+	4 [label="CSV Reader"]
+	5 [label="String Manipulation"]
+	8 [label="Rule Engine"]
+	9 [label=GroupBy]
+	10 [label="Row Filter"]
+	11 [label="Column Rename"]
+	12 [label=Sorter]
+	14 [label="Table View"]
+	4 -> 5
+	5 -> 8
+	8 -> 10
+	9 -> 11
+	10 -> 9
+	11 -> 12
+	12 -> 14
+	rankdir=LR
+}

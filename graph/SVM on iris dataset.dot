@@ -1,0 +1,18 @@
+digraph {
+	1 [label="SVM Learner"]
+	2 [label="SVM Predictor"]
+	4 [label=Partitioning]
+	9 [label="Scorer _JavaScript_"]
+	10 [label=Normalizer]
+	11 [label="Normalizer _Apply_"]
+	13 [label="Table Reader"]
+	1 -> 2
+	2 -> 9
+	4 -> 10
+	4 -> 11
+	10 -> 11
+	10 -> 1
+	11 -> 2
+	13 -> 4
+	rankdir=LR
+}

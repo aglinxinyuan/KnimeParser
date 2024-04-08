@@ -1,0 +1,48 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=k_Means]
+	3 [label=DBSCAN]
+	4 [label="Hierarchical Clustering"]
+	5 [label="Numeric Distances"]
+	6 [label="Entropy Scorer"]
+	7 [label="Entropy Scorer"]
+	8 [label="Entropy Scorer"]
+	9 [label="Color Manager"]
+	10 [label="Color Manager"]
+	11 [label="Shape Manager"]
+	12 [label="Scatter Matrix _local_"]
+	13 [label="Scatter Matrix _local_"]
+	14 [label="Color Manager"]
+	15 [label="Shape Manager"]
+	16 [label="Counting Loop Start"]
+	17 [label=k_Means]
+	18 [label="Entropy Scorer"]
+	19 [label="Loop End"]
+	1 [label="Counting Loop Start"]
+	2 [label="Loop End"]
+	1 -> 4
+	1 -> 2
+	1 -> 5
+	1 -> 9
+	1 -> 16
+	2 -> 7
+	2 -> 7
+	2 -> 10
+	3 -> 8
+	3 -> 8
+	3 -> 14
+	4 -> 6
+	4 -> 6
+	5 -> 3
+	9 -> 3
+	10 -> 11
+	11 -> 12
+	14 -> 15
+	15 -> 13
+	16 -> 17
+	17 -> 18
+	17 -> 18
+	18 -> 19
+	19 -> 1
+	rankdir=LR
+}

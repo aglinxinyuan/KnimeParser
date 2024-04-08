@@ -1,0 +1,41 @@
+digraph {
+	1 [label="PDF Parser"]
+	2 [label="Oscar tagger"]
+	3 [label="BoW creator"]
+	4 [label="Oscar Filter"]
+	5 [label="Document Viewer"]
+	6 [label="Abner tagger"]
+	7 [label="Abner Filter"]
+	8 [label="Document Data Extractor"]
+	9 [label="Term to Structure"]
+	12 [label="Molecule to RDKit"]
+	13 [label="Molecule Type Cast"]
+	14 [label="Column Filter"]
+	15 [label="Document Data Extractor"]
+	16 [label="Word Parser"]
+	19 [label="Find Murcko Scaffolds"]
+	27 [label="Color Manager"]
+	28 [label="Tags to String"]
+	29 [label="RDKit Interactive Table"]
+	30 [label=Sorter]
+	31 [label="Row Splitter"]
+	1 -> 8
+	2 -> 5
+	2 -> 3
+	3 -> 7
+	4 -> 28
+	6 -> 2
+	7 -> 4
+	8 -> 6
+	9 -> 15
+	12 -> 19
+	13 -> 12
+	14 -> 31
+	15 -> 14
+	19 -> 30
+	27 -> 9
+	28 -> 27
+	30 -> 29
+	31 -> 13
+	rankdir=LR
+}

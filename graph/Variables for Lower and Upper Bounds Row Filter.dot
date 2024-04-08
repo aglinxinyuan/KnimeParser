@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Integer Widget"]
+	3 [label="Integer Widget"]
+	4 [label="Merge Variables"]
+	5 [label="Row Filter"]
+	1 -> 5
+	2 -> 4
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

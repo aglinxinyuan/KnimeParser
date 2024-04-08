@@ -1,0 +1,26 @@
+digraph {
+	1 [label="CSV Reader"]
+	94 [label="CSV Reader"]
+	95 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Extract Date_Time Fields"]
+	4 [label="Column Filter"]
+	6 [label="Number To String"]
+	8 [label="Rule Engine"]
+	9 [label="Column Filter"]
+	19 [label="Rule Engine"]
+	25 [label="Missing Value"]
+	96 [label="Missing Value"]
+	97 [label="Missing Value"]
+	2 -> 3
+	3 -> 4
+	4 -> 6
+	6 -> 8
+	8 -> 9
+	9 -> 19
+	25 -> 2
+	1 -> 25
+	94 -> 99
+	95 -> 100
+	rankdir=LR
+}

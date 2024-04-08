@@ -1,0 +1,44 @@
+digraph {
+	8 [label="Row Filter"]
+	9 [label="Numeric Binner"]
+	10 [label="Value Counter"]
+	11 [label="Row Filter"]
+	12 [label="Column Filter"]
+	13 [label="Row Filter"]
+	14 [label="Numeric Binner"]
+	15 [label="Rule Engine"]
+	16 [label="Missing Value"]
+	17 [label="Math Formula"]
+	18 [label="Rule Engine"]
+	19 [label="Rule Engine"]
+	20 [label="Rule Engine"]
+	21 [label="Math Formula"]
+	22 [label="CSV Reader"]
+	23 [label="Numeric Binner"]
+	24 [label="Rule Engine"]
+	25 [label="Missing Value"]
+	26 [label="Double To Int"]
+	27 [label="Numeric Binner"]
+	28 [label="Data Explorer"]
+	8 -> 9
+	8 -> 10
+	9 -> 11
+	11 -> 13
+	12 -> 23
+	13 -> 12
+	14 -> 15
+	15 -> 18
+	16 -> 17
+	17 -> 21
+	18 -> 19
+	19 -> 20
+	20 -> 16
+	21 -> 24
+	22 -> 8
+	23 -> 27
+	24 -> 26
+	25 -> 28
+	26 -> 25
+	27 -> 14
+	rankdir=LR
+}

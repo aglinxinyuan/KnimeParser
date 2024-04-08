@@ -1,0 +1,32 @@
+digraph {
+	13 [label="Rule_based Row Filter"]
+	33 [label="CSV Reader"]
+	34 [label="Missing Value"]
+	35 [label="Double To Integer"]
+	36 [label="Column Filter"]
+	37 [label=GroupBy]
+	38 [label="Row Aggregator"]
+	39 [label="Row Aggregator"]
+	40 [label="Row Filter"]
+	41 [label=Sorter]
+	42 [label="Double To Integer"]
+	43 [label="Excel Writer"]
+	44 [label="Number To String"]
+	45 [label="Pie Chart"]
+	47 [label="Pie Chart"]
+	13 -> 36
+	33 -> 13
+	34 -> 35
+	35 -> 40
+	36 -> 34
+	37 -> 42
+	38 -> 44
+	39 -> 47
+	40 -> 41
+	41 -> 37
+	41 -> 39
+	41 -> 38
+	42 -> 43
+	44 -> 45
+	rankdir=LR
+}

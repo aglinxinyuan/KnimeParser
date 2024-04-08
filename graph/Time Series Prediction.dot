@@ -1,0 +1,63 @@
+digraph {
+	147 [label=Partitioning]
+	150 [label="Column Filter"]
+	153 [label="Math Formula"]
+	154 [label=GroupBy]
+	159 [label="Math Formula"]
+	160 [label="Row Filter"]
+	161 [label="Rule Engine"]
+	163 [label="Numeric Scorer"]
+	162 [label="Column Filter"]
+	163 [label=Joiner]
+	167 [label="Linear Regression Learner"]
+	168 [label="Regression Predictor"]
+	169 [label="Numeric Scorer"]
+	172 [label="Math Formula"]
+	173 [label="Math Formula"]
+	175 [label="Column Filter"]
+	209 [label="Math Formula"]
+	199 [label=Sorter]
+	205 [label=Concatenate]
+	206 [label="Column Rename _Regex_"]
+	208 [label="Column Filter"]
+	209 [label="Extract Column Header"]
+	210 [label="Table Row to Variable"]
+	216 [label="String to Date_Time"]
+	218 [label="Column Rename"]
+	212 [label="Lag Column"]
+	213 [label="Lag Column"]
+	214 [label="File Reader"]
+	215 [label="Line Plot _Plotly_"]
+	159 -> 159
+	160 -> 163
+	163 -> 160
+	147 -> 153
+	147 -> 167
+	147 -> 162
+	150 -> 163
+	153 -> 154
+	162 -> 147
+	167 -> 162
+	169 -> 159
+	169 -> 150
+	169 -> 169
+	172 -> 173
+	173 -> 175
+	199 -> 205
+	199 -> 208
+	205 -> 206
+	208 -> 205
+	208 -> 209
+	209 -> 216
+	206 -> 206
+	216 -> 218
+	218 -> 199
+	169 -> 172
+	175 -> 215
+	209 -> 213
+	206 -> 212
+	212 -> 209
+	213 -> 162
+	214 -> 216
+	rankdir=LR
+}

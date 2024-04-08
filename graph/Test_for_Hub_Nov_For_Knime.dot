@@ -1,0 +1,7 @@
+digraph {
+	1 [label="Conda Environment Propagation"]
+	2 [label="Python Script"]
+	3 [label="Conda Environment Propagation"]
+	1 -> 2
+	rankdir=LR
+}

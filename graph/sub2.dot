@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Container Input _JSON_"]
+	8 [label="JSON to Table"]
+	9 [label="Table Creator"]
+	12 [label="Column Appender"]
+	13 [label="Columns to JSON"]
+	14 [label="Container Output _JSON_"]
+	15 [label="Column Filter"]
+	1 -> 8
+	8 -> 12
+	9 -> 12
+	12 -> 15
+	13 -> 14
+	15 -> 13
+	rankdir=LR
+}

@@ -1,0 +1,82 @@
+digraph {
+	1 [label="H2 Connector"]
+	6 [label="File Reader"]
+	10 [label="Rule Engine"]
+	12 [label="Column Rename"]
+	18 [label="Java Snippet _simple_"]
+	19 [label="Missing Value"]
+	20 [label="Rule_based Row Filter"]
+	23 [label="Rule Engine"]
+	24 [label="Missing Value"]
+	25 [label="Rule_based Row Filter"]
+	26 [label="Rule_based Row Filter"]
+	27 [label="String Manipulation"]
+	28 [label="String Manipulation"]
+	29 [label="String Manipulation"]
+	30 [label="Rule_based Row Filter"]
+	31 [label=Joiner]
+	32 [label="String Manipulation"]
+	33 [label="Rule_based Row Filter"]
+	34 [label="Column Filter"]
+	35 [label="String Manipulation"]
+	36 [label="String Manipulation"]
+	37 [label=Concatenate]
+	38 [label="Column Filter"]
+	39 [label=Sorter]
+	42 [label=GroupBy]
+	43 [label="Column Filter"]
+	44 [label="Column Filter"]
+	45 [label=Concatenate]
+	46 [label=Sorter]
+	48 [label="Table Row To Variable Loop Start"]
+	49 [label="Variable Loop End"]
+	57 [label="DB SQL Executor"]
+	60 [label="String Manipulation"]
+	61 [label=GroupBy]
+	62 [label="DB Table Selector"]
+	63 [label="Rule_based Row Filter"]
+	64 [label="String Manipulation"]
+	65 [label=Sorter]
+	1 -> 57
+	1 -> 62
+	6 -> 12
+	10 -> 18
+	10 -> 63
+	12 -> 10
+	18 -> 19
+	19 -> 20
+	20 -> 23
+	23 -> 24
+	24 -> 25
+	24 -> 26
+	24 -> 30
+	24 -> 33
+	25 -> 35
+	26 -> 27
+	26 -> 44
+	27 -> 28
+	28 -> 29
+	29 -> 31
+	30 -> 61
+	31 -> 32
+	32 -> 38
+	33 -> 43
+	34 -> 37
+	35 -> 36
+	36 -> 34
+	37 -> 39
+	38 -> 37
+	39 -> 42
+	42 -> 45
+	43 -> 45
+	44 -> 45
+	45 -> 46
+	46 -> 60
+	48 -> 57
+	57 -> 49
+	60 -> 48
+	61 -> 31
+	63 -> 64
+	64 -> 65
+	rankdir=LR
+}

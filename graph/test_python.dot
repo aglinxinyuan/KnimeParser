@@ -1,0 +1,33 @@
+digraph {
+	1 [label="Table Creator"]
+	4 [label="Image Port Writer"]
+	5 [label="Python View"]
+	6 [label="Python Plot"]
+	7 [label="Image Port Writer"]
+	9 [label="Python Script _1_1_"]
+	11 [label="Python View"]
+	12 [label="Table Creator"]
+	13 [label=GroupBy]
+	14 [label="Rule Engine"]
+	15 [label=Ungroup]
+	16 [label="Python Script _1_1_"]
+	17 [label="Python Plot"]
+	18 [label="Image Port Writer"]
+	19 [label="Python Plot"]
+	20 [label="Image Output"]
+	1 -> 5
+	1 -> 6
+	1 -> 9
+	1 -> 11
+	1 -> 17
+	1 -> 16
+	1 -> 19
+	5 -> 4
+	6 -> 7
+	11 -> 18
+	11 -> 20
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

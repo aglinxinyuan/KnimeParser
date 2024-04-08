@@ -1,0 +1,135 @@
+digraph {
+	1 [label="File Reader"]
+	3 [label="Column Filter"]
+	6 [label="String to Date_Time"]
+	7 [label="Extract Date_Time Fields"]
+	18 [label="Rule Engine"]
+	2 [label="Data Explorer"]
+	8 [label="Column Resorter"]
+	9 [label="Column Filter"]
+	11 [label="Column Combiner"]
+	12 [label="Category To Number"]
+	13 [label=GroupBy]
+	14 [label="Row Filter"]
+	15 [label=GroupBy]
+	16 [label="Linear Correlation"]
+	17 [label=GroupBy]
+	19 [label="Column Filter"]
+	20 [label="Row Filter"]
+	21 [label="Linear Correlation"]
+	22 [label="Data Explorer"]
+	25 [label=Partitioning]
+	28 [label=GroupBy]
+	30 [label="Bar Chart"]
+	31 [label="Bar Chart"]
+	32 [label="Bar Chart"]
+	33 [label="Bar Chart"]
+	34 [label="Bar Chart"]
+	49 [label="Rule Engine"]
+	51 [label=Denormalizer]
+	52 [label="Column Filter"]
+	53 [label="MultiLayerPerceptron Predictor"]
+	56 [label="Row Filter"]
+	57 [label="RProp MLP Learner"]
+	59 [label=Partitioning]
+	60 [label="Normalizer _Apply_"]
+	61 [label=Normalizer]
+	62 [label="Column Filter"]
+	64 [label="Column Filter"]
+	65 [label="Column Rename"]
+	72 [label="Scorer _JavaScript_"]
+	36 [label=Normalizer]
+	37 [label="Normalizer _Apply_"]
+	38 [label=Partitioning]
+	39 [label="RProp MLP Learner"]
+	40 [label="MultiLayerPerceptron Predictor"]
+	41 [label="Column Filter"]
+	42 [label=Denormalizer]
+	44 [label="Row Filter"]
+	46 [label="Column Filter"]
+	63 [label="Column Filter"]
+	68 [label="Column Rename"]
+	71 [label="Scorer _JavaScript_"]
+	11 [label="Column Combiner"]
+	33 [label="Bar Chart"]
+	34 [label="Bar Chart"]
+	35 [label="Bar Chart"]
+	36 [label="Bar Chart"]
+	51 [label=Denormalizer]
+	53 [label="MultiLayerPerceptron Predictor"]
+	57 [label="RProp MLP Learner"]
+	59 [label=Partitioning]
+	60 [label="Normalizer _Apply_"]
+	61 [label=Normalizer]
+	64 [label="Column Filter"]
+	72 [label="Scorer _JavaScript_"]
+	35 [label="Rank Correlation"]
+	37 [label="Missing Value"]
+	8 -> 9
+	9 -> 15
+	9 -> 14
+	9 -> 2
+	9 -> 28
+	9 -> 19
+	9 -> 20
+	11 -> 12
+	12 -> 8
+	12 -> 17
+	14 -> 13
+	19 -> 16
+	19 -> 22
+	19 -> 25
+	20 -> 21
+	51 -> 64
+	52 -> 56
+	53 -> 51
+	56 -> 62
+	57 -> 53
+	59 -> 61
+	59 -> 60
+	60 -> 53
+	61 -> 60
+	61 -> 57
+	61 -> 51
+	62 -> 59
+	64 -> 65
+	65 -> 72
+	36 -> 37
+	36 -> 39
+	36 -> 42
+	37 -> 40
+	38 -> 36
+	38 -> 37
+	39 -> 40
+	40 -> 42
+	41 -> 44
+	42 -> 63
+	44 -> 46
+	46 -> 38
+	63 -> 68
+	68 -> 71
+	49 -> 73
+	49 -> 74
+	11 -> 37
+	11 -> 59
+	51 -> 64
+	53 -> 51
+	57 -> 53
+	59 -> 60
+	59 -> 61
+	60 -> 53
+	61 -> 60
+	61 -> 51
+	61 -> 57
+	64 -> 72
+	1 -> 37
+	3 -> 6
+	6 -> 7
+	7 -> 18
+	18 -> 34
+	18 -> 35
+	18 -> 32
+	18 -> 29
+	37 -> 3
+	rankdir=LR
+}

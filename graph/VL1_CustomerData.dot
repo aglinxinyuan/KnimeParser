@@ -1,0 +1,47 @@
+digraph {
+	3 [label="Date_Time Difference"]
+	4 [label="Data Explorer"]
+	10 [label=GroupBy]
+	11 [label=Joiner]
+	13 [label=GroupBy]
+	15 [label="SQLite Connector"]
+	18 [label="DB Reader"]
+	19 [label="CSV Reader"]
+	20 [label="DB Table Selector"]
+	22 [label="DB Table Selector"]
+	24 [label="DB Joiner"]
+	25 [label="Excel Reader"]
+	26 [label="Column Rename"]
+	27 [label=Histogram]
+	28 [label=Histogram]
+	29 [label="Color Manager"]
+	30 [label="Scatter Plot"]
+	31 [label="Row Filter"]
+	32 [label=Joiner]
+	34 [label=k_Means]
+	35 [label="Linear Correlation"]
+	36 [label=Normalizer]
+	3 -> 27
+	3 -> 28
+	3 -> 29
+	10 -> 13
+	11 -> 10
+	13 -> 26
+	15 -> 20
+	15 -> 22
+	18 -> 11
+	19 -> 4
+	19 -> 3
+	20 -> 24
+	22 -> 24
+	24 -> 18
+	25 -> 11
+	26 -> 32
+	29 -> 31
+	31 -> 30
+	31 -> 32
+	32 -> 35
+	32 -> 36
+	36 -> 34
+	rankdir=LR
+}

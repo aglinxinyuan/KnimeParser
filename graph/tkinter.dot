@@ -1,0 +1,13 @@
+digraph {
+	1 [label="Table Creator"]
+	52 [label="Column Filter"]
+	80 [label="Extract Table Spec"]
+	92 [label="Python Script _1_1_"]
+	93 [label="Table Column to Variable"]
+	1 -> 52
+	1 -> 80
+	80 -> 92
+	92 -> 93
+	93 -> 52
+	rankdir=LR
+}

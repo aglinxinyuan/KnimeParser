@@ -1,0 +1,14 @@
+digraph {
+	6 [label="Table Creator"]
+	7 [label="Cell Splitter"]
+	8 [label=Pivoting]
+	9 [label=Unpivoting]
+	10 [label="Missing Value"]
+	11 [label="Column Filter"]
+	6 -> 7
+	7 -> 9
+	8 -> 11
+	9 -> 8
+	11 -> 10
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Create File Name"]
+	8 [label="DB Writer"]
+	53 [label="Microsoft SQL Server Connector"]
+	54 [label="DB Row Filter"]
+	55 [label="DB Row Filter"]
+	56 [label="DB Connection Table Writer"]
+	57 [label="DB Connection Table Writer"]
+	58 [label="Variable to Table Column"]
+	59 [label="Create Date_Time Range"]
+	60 [label="Cross Joiner"]
+	61 [label="DB Column Filter"]
+	62 [label="DB Column Filter"]
+	63 [label="DB Query"]
+	64 [label="DB Column Rename"]
+	1 -> 58
+	2 -> 1
+	2 -> 58
+	8 -> 64
+	53 -> 8
+	54 -> 61
+	55 -> 62
+	58 -> 60
+	59 -> 60
+	60 -> 8
+	61 -> 56
+	62 -> 57
+	63 -> 55
+	63 -> 54
+	64 -> 63
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	2 [label=GroupBy]
+	3 [label="CSV Reader"]
+	4 [label="Excel Reader"]
+	5 [label=Joiner]
+	6 [label="Duplicate Row Filter"]
+	3 -> 5
+	4 -> 5
+	5 -> 2
+	5 -> 6
+	rankdir=LR
+}

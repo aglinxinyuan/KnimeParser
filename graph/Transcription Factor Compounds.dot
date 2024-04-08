@@ -1,0 +1,20 @@
+digraph {
+	2 [label="Row Filter"]
+	3 [label="Column Filter"]
+	4 [label="Duplicate Row Filter"]
+	7 [label="CSV Writer"]
+	8 [label="MySQL Connector"]
+	9 [label="DB Query Reader"]
+	10 [label="Column Filter"]
+	11 [label="Duplicate Row Filter"]
+	12 [label="CSV Writer"]
+	2 -> 3
+	2 -> 10
+	3 -> 4
+	4 -> 7
+	8 -> 9
+	9 -> 2
+	10 -> 11
+	11 -> 12
+	rankdir=LR
+}

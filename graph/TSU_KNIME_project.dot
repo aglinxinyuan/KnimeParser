@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Scatter Plot"]
+	4 [label="Pie Chart"]
+	5 [label="Bar Chart"]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	2 -> 5
+	rankdir=LR
+}

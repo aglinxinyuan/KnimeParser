@@ -1,0 +1,59 @@
+digraph {
+	1 [label="Python Script"]
+	2 [label="Table Creator"]
+	3 [label="Math Formula"]
+	4 [label="Column Expressions"]
+	5 [label="SVM Learner"]
+	7 [label="Table Row To Variable Loop Start"]
+	8 [label="Math Formula"]
+	9 [label="Column Filter"]
+	10 [label="Column Filter"]
+	11 [label="Cross Joiner"]
+	12 [label=Partitioning]
+	13 [label="SVM Predictor"]
+	14 [label=Scorer]
+	15 [label="Column Expressions"]
+	16 [label="Row Filter"]
+	17 [label="Column Filter"]
+	18 [label="Loop End"]
+	19 [label=Pivot]
+	20 [label="Python View"]
+	21 [label="Math Formula"]
+	22 [label="Math Formula"]
+	23 [label="Number To String"]
+	24 [label="Column Resorter"]
+	25 [label="SVM Predictor"]
+	26 [label="SVM Learner"]
+	27 [label=Scorer]
+	28 [label="Variable Creator"]
+	1 -> 12
+	2 -> 3
+	3 -> 4
+	4 -> 8
+	5 -> 13
+	7 -> 5
+	8 -> 9
+	8 -> 10
+	9 -> 11
+	10 -> 11
+	11 -> 7
+	12 -> 13
+	12 -> 5
+	12 -> 25
+	12 -> 26
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 21
+	19 -> 24
+	21 -> 22
+	22 -> 23
+	23 -> 19
+	24 -> 20
+	25 -> 27
+	26 -> 25
+	28 -> 26
+	rankdir=LR
+}

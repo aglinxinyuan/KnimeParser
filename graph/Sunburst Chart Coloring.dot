@@ -1,0 +1,13 @@
+digraph {
+	2 [label="Color Manager"]
+	3 [label=Unpivoting]
+	4 [label="Sunburst Chart"]
+	7 [label="Column Resorter"]
+	8 [label="Table Creator"]
+	2 -> 4
+	3 -> 2
+	7 -> 4
+	7 -> 3
+	8 -> 7
+	rankdir=LR
+}

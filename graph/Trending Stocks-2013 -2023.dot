@@ -1,0 +1,71 @@
+digraph {
+	1 [label="List Files_Folders"]
+	6 [label="Path to URI"]
+	7 [label="URL to File Path"]
+	9 [label="Rule_based Row Filter"]
+	105 [label="Line Plot"]
+	26 [label="String to Date_Time"]
+	27 [label="String to Date_Time"]
+	28 [label="String to Date_Time"]
+	29 [label=GroupBy]
+	30 [label="Extract Date_Time Fields"]
+	31 [label="Extract Date_Time Fields"]
+	32 [label=GroupBy]
+	33 [label="Extract Date_Time Fields"]
+	34 [label=GroupBy]
+	99 [label="Number To String"]
+	100 [label="Number To String"]
+	102 [label="Number To String"]
+	5 [label="CSV Reader"]
+	10 [label="CSV Reader"]
+	16 [label="CSV Reader"]
+	17 [label="Row Filter"]
+	18 [label="Table Row to Variable"]
+	19 [label="Row Filter"]
+	20 [label="Table Row to Variable"]
+	21 [label="Row Filter"]
+	22 [label="Table Row to Variable"]
+	23 [label="Column Filter"]
+	24 [label="Column Filter"]
+	25 [label="Column Filter"]
+	36 [label="Color Manager"]
+	37 [label="Color Manager"]
+	97 [label="Bar Chart"]
+	98 [label="Table Creator"]
+	101 [label="Bar Chart"]
+	103 [label="Bar Chart"]
+	104 [label="Color Manager"]
+	5 -> 23
+	10 -> 24
+	16 -> 25
+	17 -> 18
+	18 -> 5
+	19 -> 20
+	20 -> 10
+	21 -> 22
+	22 -> 16
+	26 -> 31
+	27 -> 30
+	28 -> 33
+	29 -> 99
+	30 -> 29
+	31 -> 32
+	32 -> 100
+	33 -> 34
+	34 -> 102
+	25 -> 26
+	25 -> 27
+	25 -> 28
+	36 -> 101
+	37 -> 97
+	98 -> 37
+	104 -> 103
+	1 -> 6
+	6 -> 7
+	7 -> 9
+	9 -> 17
+	102 -> 108
+	102 -> 108
+	102 -> 108
+	rankdir=LR
+}

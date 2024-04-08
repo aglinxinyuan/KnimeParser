@@ -1,0 +1,75 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="Missing Value"]
+	6 [label="Extract Missing Value Cause"]
+	8 [label="Rule Engine"]
+	9 [label="Extract Missing Value Cause"]
+	12 [label="Gradient Boosted Trees Learner"]
+	13 [label="Math Formula"]
+	16 [label=Concatenate]
+	20 [label="Cell Splitter"]
+	21 [label="Cell Splitter"]
+	22 [label="Column Filter"]
+	23 [label="Column Rename"]
+	27 [label=GroupBy]
+	28 [label="Rule Engine"]
+	29 [label="Linear Correlation"]
+	30 [label="String Manipulation"]
+	31 [label="String Manipulation"]
+	33 [label="Row Splitter"]
+	35 [label="Category To Number"]
+	38 [label="Column Resorter"]
+	40 [label="Gradient Boosted Trees Predictor"]
+	43 [label="Column Filter"]
+	44 [label="Column Filter"]
+	45 [label="Number To String"]
+	47 [label=X_Partitioner]
+	48 [label=X_Aggregator]
+	49 [label="Parameter Optimization Loop Start"]
+	51 [label=Scorer]
+	52 [label="Parameter Optimization Loop End"]
+	53 [label="Table Row to Variable"]
+	54 [label="Gradient Boosted Trees Learner"]
+	56 [label="Gradient Boosted Trees Predictor"]
+	57 [label="CSV Writer"]
+	58 [label="Column Filter"]
+	1 -> 16
+	2 -> 16
+	3 -> 8
+	8 -> 9
+	8 -> 13
+	12 -> 40
+	13 -> 30
+	16 -> 20
+	16 -> 6
+	20 -> 21
+	21 -> 22
+	22 -> 23
+	23 -> 28
+	23 -> 27
+	28 -> 3
+	30 -> 31
+	31 -> 35
+	33 -> 43
+	33 -> 44
+	35 -> 38
+	38 -> 33
+	40 -> 48
+	43 -> 56
+	44 -> 45
+	44 -> 29
+	45 -> 47
+	45 -> 54
+	47 -> 40
+	47 -> 12
+	48 -> 51
+	49 -> 47
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 56
+	56 -> 58
+	58 -> 57
+	rankdir=LR
+}

@@ -1,0 +1,91 @@
+digraph {
+	3 [label="N Chars Filter"]
+	4 [label="Porter Stemmer"]
+	5 [label="Punctuation Erasure"]
+	6 [label="Stop Word Filter"]
+	7 [label="POS Tagger"]
+	8 [label="Number Filter"]
+	12 [label="Category To Class"]
+	13 [label="Document Vector"]
+	55 [label="Color Manager"]
+	57 [label=Partitioning]
+	48 [label="Term To String"]
+	49 [label=GroupBy]
+	50 [label="Row Filter"]
+	51 [label="Reference Row Filter"]
+	65 [label=TF]
+	66 [label="Extract Table Dimension"]
+	67 [label="Java Edit Variable"]
+	68 [label="Bag Of Words Creator"]
+	96 [label="Decision Tree Learner"]
+	97 [label="Decision Tree Predictor"]
+	296 [label="Topic Extractor _Parallel LDA_"]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case Converter"]
+	35 [label="Stanford Lemmatizer"]
+	41 [label="Stanford Tagger"]
+	42 [label="Stop Word Filter"]
+	768 [label="Tag Cloud"]
+	769 [label="Color Manager"]
+	770 [label="Decision Tree Predictor"]
+	771 [label="Category To Class"]
+	773 [label=Partitioning]
+	774 [label="Color Manager"]
+	776 [label="Decision Tree Learner"]
+	777 [label="Scorer _JavaScript_"]
+	2 [label="Strings To Document"]
+	3 [label="Number To String"]
+	14 [label="Column Filter"]
+	15 [label="Excel Reader"]
+	779 [label="Scorer _JavaScript_"]
+	780 [label="Column Filter"]
+	781 [label="Column Filter"]
+	3 -> 6
+	5 -> 8
+	6 -> 7
+	7 -> 4
+	8 -> 3
+	48 -> 49
+	48 -> 51
+	49 -> 50
+	50 -> 51
+	51 -> 65
+	66 -> 67
+	67 -> 50
+	68 -> 48
+	29 -> 30
+	30 -> 31
+	31 -> 42
+	35 -> 29
+	41 -> 35
+	42 -> 33
+	2 -> 14
+	3 -> 2
+	15 -> 3
+	4 -> 66
+	12 -> 55
+	13 -> 12
+	55 -> 780
+	57 -> 97
+	57 -> 96
+	65 -> 13
+	96 -> 97
+	97 -> 777
+	296 -> 769
+	296 -> 771
+	33 -> 296
+	769 -> 768
+	770 -> 779
+	771 -> 774
+	773 -> 770
+	773 -> 776
+	774 -> 781
+	776 -> 770
+	778 -> 5
+	778 -> 41
+	780 -> 57
+	781 -> 773
+	rankdir=LR
+}

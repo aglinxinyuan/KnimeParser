@@ -1,0 +1,15 @@
+digraph {
+	1 [label=Wait___]
+	2 [label="Create File_Folder Variables"]
+	4 [label="Data Generator"]
+	6 [label="Path to String _Variable_"]
+	7 [label="Table Writer"]
+	8 [label="Table Reader"]
+	1 -> 8
+	2 -> 1
+	2 -> 6
+	2 -> 7
+	4 -> 7
+	6 -> 1
+	rankdir=LR
+}

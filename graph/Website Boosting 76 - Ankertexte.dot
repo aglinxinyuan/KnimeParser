@@ -1,0 +1,30 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	21 [label=Joiner]
+	23 [label="String Manipulation"]
+	29 [label="Column Rename"]
+	30 [label="Rule Engine"]
+	31 [label=Sorter]
+	33 [label="Color Manager"]
+	35 [label="Excel Writer"]
+	36 [label="CSV Writer"]
+	38 [label="Row Filter"]
+	39 [label="Row Filter"]
+	41 [label="Table View"]
+	42 [label="CSV Reader"]
+	43 [label="Excel Writer"]
+	44 [label="CSV Writer"]
+	1 -> 38
+	1 -> 23
+	2 -> 21
+	21 -> 29
+	23 -> 2
+	29 -> 30
+	30 -> 31
+	31 -> 33
+	38 -> 39
+	39 -> 41
+	42 -> 21
+	rankdir=LR
+}

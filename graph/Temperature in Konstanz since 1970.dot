@@ -1,0 +1,10 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Column Renamer"]
+	4 [label="Generic ECharts View"]
+	5 [label="Generic ECharts View"]
+	1 -> 3
+	3 -> 5
+	3 -> 4
+	rankdir=LR
+}

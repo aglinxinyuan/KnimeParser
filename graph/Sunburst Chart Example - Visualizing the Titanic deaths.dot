@@ -1,0 +1,25 @@
+digraph {
+	7 [label="Color Manager"]
+	11 [label="Numeric Binner"]
+	15 [label="String Manipulation"]
+	16 [label="String Manipulation"]
+	8 [label=GroupBy]
+	9 [label="JavaScript Sunburst Chart"]
+	14 [label="Column Resorter"]
+	17 [label="JavaScript Table View"]
+	18 [label="WrappedNode Input"]
+	19 [label="WrappedNode Output"]
+	23 [label="Table Reader"]
+	11 -> 7
+	15 -> 16
+	16 -> 11
+	8 -> 14
+	14 -> 9
+	17 -> 19
+	7 -> 17
+	7 -> 8
+	7 -> 20
+	7 -> 20
+	23 -> 15
+	rankdir=LR
+}

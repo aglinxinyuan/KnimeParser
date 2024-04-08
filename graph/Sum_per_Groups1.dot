@@ -1,0 +1,19 @@
+digraph {
+	76 [label="Table Creator"]
+	80 [label=GroupBy]
+	81 [label=Concatenate]
+	151 [label=Sorter]
+	152 [label="Column Expressions"]
+	153 [label="Table Creator"]
+	154 [label=Concatenate]
+	155 [label="Row Filter"]
+	76 -> 80
+	76 -> 81
+	80 -> 81
+	81 -> 151
+	151 -> 154
+	152 -> 155
+	153 -> 154
+	154 -> 152
+	rankdir=LR
+}

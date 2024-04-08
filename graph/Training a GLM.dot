@@ -1,0 +1,31 @@
+digraph {
+	21 [label="File Reader"]
+	25 [label="Extract Table Dimension"]
+	26 [label="Number To String _PMML_"]
+	27 [label="CSV Reader"]
+	28 [label=Partitioning]
+	31 [label="CSV Writer"]
+	32 [label="Column Filter"]
+	33 [label="Logistic Regression Learner"]
+	34 [label="Logistic Regression Predictor"]
+	35 [label="Missing Value"]
+	36 [label="Column Filter"]
+	37 [label="Number To String"]
+	38 [label="Logistic Regression Predictor"]
+	40 [label="Scorer _JavaScript_"]
+	21 -> 25
+	21 -> 26
+	26 -> 35
+	27 -> 37
+	28 -> 36
+	28 -> 38
+	32 -> 31
+	33 -> 34
+	33 -> 38
+	34 -> 32
+	35 -> 28
+	36 -> 33
+	37 -> 34
+	38 -> 40
+	rankdir=LR
+}

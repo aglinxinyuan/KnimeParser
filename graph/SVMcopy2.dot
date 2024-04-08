@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Partitioning]
+	3 [label="SVM Learner"]
+	4 [label="SVM Predictor"]
+	5 [label=Scorer]
+	6 [label="ROC Curve"]
+	7 [label="PMML Writer"]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	3 -> 4
+	3 -> 7
+	4 -> 5
+	4 -> 6
+	rankdir=LR
+}

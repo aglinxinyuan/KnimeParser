@@ -1,0 +1,35 @@
+digraph {
+	2 [label="Table Creator"]
+	3 [label="Strings To Document"]
+	6 [label="Group Loop Start"]
+	7 [label=Sorter]
+	1 [label=IDF]
+	2 [label=TF]
+	3 [label=TF]
+	4 [label="Bag Of Words Creator"]
+	14 [label=GroupBy]
+	15 [label="Row Filter"]
+	16 [label=RowID]
+	17 [label=GroupBy]
+	18 [label="Column Appender"]
+	19 [label="Column Filter"]
+	20 [label="Column Resorter"]
+	21 [label="Loop End"]
+	1 -> 2
+	2 -> 3
+	4 -> 1
+	2 -> 6
+	3 -> 4
+	6 -> 14
+	6 -> 17
+	7 -> 16
+	3 -> 7
+	14 -> 3
+	15 -> 18
+	16 -> 15
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	rankdir=LR
+}

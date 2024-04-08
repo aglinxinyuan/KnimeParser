@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Python View"]
+	4 [label="Column Filter"]
+	6 [label="Python View"]
+	7 [label=GroupBy]
+	1 -> 4
+	4 -> 6
+	4 -> 7
+	7 -> 2
+	rankdir=LR
+}
