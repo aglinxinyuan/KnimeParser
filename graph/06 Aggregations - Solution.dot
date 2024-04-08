@@ -1,0 +1,19 @@
+digraph {
+	16 [label=GroupBy]
+	20 [label="Excel Reader"]
+	25 [label=GroupBy]
+	26 [label=GroupBy]
+	28 [label=Pivoting]
+	19 [label="Excel Reader"]
+	20 [label="Math Formula"]
+	21 [label="Math Formula"]
+	22 [label="Rule Engine"]
+	19 -> 20
+	20 -> 21
+	21 -> 22
+	20 -> 25
+	20 -> 26
+	29 -> 28
+	29 -> 16
+	rankdir=LR
+}

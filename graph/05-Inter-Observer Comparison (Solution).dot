@@ -1,0 +1,28 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="Column Filter"]
+	3 [label="Row Filter"]
+	4 [label=Auto_Binner]
+	5 [label="Rule Engine"]
+	6 [label=GroupBy]
+	7 [label="String To Number"]
+	8 [label="Size Manager"]
+	9 [label="Scatter Plot _local_"]
+	10 [label="Linear Correlation"]
+	11 [label=Pivoting]
+	12 [label="Missing Value"]
+	13 [label="Edit Numeric Domain"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	7 -> 11
+	8 -> 9
+	10 -> 13
+	11 -> 12
+	12 -> 10
+	rankdir=LR
+}

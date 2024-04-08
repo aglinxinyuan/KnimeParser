@@ -1,0 +1,22 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Normalizer]
+	3 [label=k_Means]
+	4 [label=Denormalizer]
+	14 [label=Statistics]
+	27 [label="Category To Number"]
+	29 [label="Number To Category _Apply_"]
+	31 [label="Bar Chart"]
+	33 [label=Pivoting]
+	1 -> 27
+	1 -> 14
+	2 -> 4
+	2 -> 3
+	3 -> 4
+	4 -> 29
+	27 -> 29
+	27 -> 2
+	29 -> 33
+	33 -> 31
+	rankdir=LR
+}

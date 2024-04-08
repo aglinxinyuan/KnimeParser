@@ -1,0 +1,121 @@
+digraph {
+	1 [label="File Reader _Complex Format_"]
+	2 [label=GroupBy]
+	3 [label=Sorter]
+	4 [label="Row Filter"]
+	5 [label="Reference Row Filter"]
+	6 [label="Group Loop Start"]
+	7 [label="Row Filter"]
+	8 [label="Loop End"]
+	9 [label="RDKit Fingerprint"]
+	10 [label="Python Script"]
+	11 [label="Color Manager"]
+	12 [label="Scatter Plot"]
+	14 [label="Hierarchical Clustering _DistMatrix_"]
+	15 [label="Hierarchical Cluster Assigner"]
+	16 [label="RDKit From Molecule"]
+	17 [label="Renderer to Image"]
+	18 [label="Table View"]
+	19 [label="Create Bit Vector"]
+	20 [label="Bit Vector Distances"]
+	21 [label="Tile View"]
+	22 [label=RowID]
+	23 [label="Column Filter"]
+	24 [label="Column Filter"]
+	26 [label="Scatter Plot"]
+	27 [label="Color Manager"]
+	28 [label="Scatter Plot _Plotly_"]
+	30 [label=k_Medoids]
+	31 [label="Color Manager"]
+	32 [label="Scatter Plot"]
+	33 [label=DBSCAN]
+	34 [label="Color Manager"]
+	35 [label="Scatter Plot"]
+	36 [label="Tile View"]
+	37 [label=Sorter]
+	38 [label="Column Rename"]
+	39 [label="Column Resorter"]
+	40 [label="Scatter Plot"]
+	41 [label="MDS _DistMatrix_"]
+	42 [label="Distance Matrix Calculate"]
+	43 [label="Color Manager"]
+	44 [label="Scatter Plot"]
+	45 [label="RDKit Diversity Picker"]
+	46 [label="Constant Value Column"]
+	47 [label="Reference Row Filter"]
+	48 [label="Constant Value Column"]
+	49 [label=Concatenate]
+	50 [label="Color Manager"]
+	51 [label="Scatter Plot"]
+	52 [label="Python View"]
+	53 [label="Python View"]
+	54 [label="Python View"]
+	55 [label="Python View"]
+	56 [label="Python View"]
+	58 [label="Python View"]
+	59 [label="Python View"]
+	60 [label="Python View"]
+	1 -> 2
+	1 -> 5
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 16
+	9 -> 10
+	10 -> 22
+	11 -> 17
+	14 -> 15
+	15 -> 27
+	15 -> 21
+	15 -> 55
+	16 -> 9
+	17 -> 23
+	19 -> 20
+	19 -> 30
+	19 -> 15
+	19 -> 14
+	19 -> 33
+	19 -> 42
+	19 -> 54
+	20 -> 30
+	20 -> 14
+	20 -> 33
+	21 -> 18
+	22 -> 11
+	23 -> 19
+	23 -> 24
+	23 -> 37
+	23 -> 40
+	24 -> 28
+	24 -> 12
+	27 -> 26
+	30 -> 31
+	30 -> 56
+	31 -> 32
+	33 -> 34
+	33 -> 58
+	34 -> 35
+	37 -> 38
+	38 -> 39
+	39 -> 36
+	41 -> 43
+	41 -> 45
+	41 -> 47
+	42 -> 41
+	43 -> 44
+	43 -> 52
+	43 -> 53
+	45 -> 47
+	45 -> 46
+	46 -> 49
+	47 -> 48
+	48 -> 49
+	49 -> 50
+	49 -> 59
+	49 -> 60
+	50 -> 51
+	rankdir=LR
+}

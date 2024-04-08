@@ -1,0 +1,14 @@
+digraph {
+	278 [label="SQLite Connector"]
+	279 [label="DB Table Selector"]
+	280 [label="DB Table Selector"]
+	283 [label="DB Reader"]
+	285 [label="Table Reader"]
+	288 [label="Table Reader"]
+	290 [label="CSV Reader"]
+	291 [label="Excel Reader"]
+	278 -> 279
+	278 -> 280
+	279 -> 283
+	rankdir=LR
+}

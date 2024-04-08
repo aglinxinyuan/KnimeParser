@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	5 [label="Value Counter"]
+	6 [label=Breakpoint]
+	7 [label="Counting Loop Start"]
+	8 [label="Loop End"]
+	1 -> 7
+	5 -> 6
+	6 -> 8
+	7 -> 5
+	rankdir=LR
+}

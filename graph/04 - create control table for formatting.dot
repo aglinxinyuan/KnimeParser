@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="XLS Control Table Generator"]
+	3 [label="Rule Engine"]
+	4 [label="XLS Control Table Generator"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	rankdir=LR
+}

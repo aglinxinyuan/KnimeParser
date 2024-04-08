@@ -1,0 +1,146 @@
+digraph {
+	344 [label="Table to PDF"]
+	316 [label="Variable Creator"]
+	317 [label="Math Formula"]
+	318 [label="Math Formula"]
+	319 [label="Math Formula"]
+	320 [label="Math Formula"]
+	348 [label="JSON Path"]
+	349 [label="Constant Value Column"]
+	350 [label="String Manipulation"]
+	351 [label="Row Filter"]
+	339 [label="Image Reader _Table_"]
+	340 [label="Column Filter"]
+	341 [label="JSON Path"]
+	342 [label="Collection to String"]
+	343 [label="String Manipulation"]
+	344 [label="String to JSON"]
+	345 [label="JSON Path"]
+	346 [label="String Manipulation"]
+	347 [label=GroupBy]
+	358 [label="MongoDB Connector"]
+	359 [label="MongoDB Reader"]
+	360 [label="Variable Creator"]
+	361 [label="JSON Writer"]
+	377 [label="String Manipulation"]
+	380 [label="JSON Transformer"]
+	381 [label="Constant Value Column"]
+	382 [label="String to JSON"]
+	383 [label="String Manipulation"]
+	384 [label="String Manipulation"]
+	378 [label="String Manipulation _Variable_"]
+	379 [label="String to Path _Variable_"]
+	317 [label="Python Script"]
+	323 [label="String Manipulation"]
+	325 [label=Joiner]
+	326 [label="Chunk Loop Start"]
+	331 [label=RowID]
+	333 [label="Row Filter"]
+	334 [label="Loop End"]
+	335 [label="Column Expressions"]
+	336 [label="String Manipulation"]
+	346 [label="Chunk Loop Start"]
+	347 [label="Python Script"]
+	348 [label="Loop End"]
+	349 [label=RowID]
+	350 [label=RowID]
+	351 [label="Column Appender"]
+	352 [label="Column Rename"]
+	353 [label=RowID]
+	354 [label="Column Rename"]
+	355 [label="Math Formula"]
+	356 [label=GroupBy]
+	357 [label="Table Row to Variable"]
+	358 [label=Sorter]
+	359 [label=GroupBy]
+	360 [label="String Manipulation _Multi Column_"]
+	361 [label="Row Filter"]
+	363 [label="Create Folder"]
+	364 [label="String Manipulation _Variable_"]
+	365 [label="String to Path _Variable_"]
+	369 [label="Row Filter"]
+	373 [label="Cross Joiner"]
+	385 [label="Table Creator"]
+	386 [label=Joiner]
+	390 [label="JSON Path"]
+	391 [label="Duplicate Row Filter"]
+	394 [label="MongoDB Connector"]
+	395 [label="MongoDB Writer"]
+	396 [label="Chunk Loop Start"]
+	397 [label="Loop End"]
+	399 [label="Row Filter"]
+	316 -> 317
+	317 -> 318
+	318 -> 320
+	319 -> 348
+	320 -> 319
+	348 -> 317
+	350 -> 350
+	341 -> 342
+	342 -> 343
+	344 -> 341
+	346 -> 347
+	347 -> 339
+	347 -> 340
+	380 -> 384
+	381 -> 382
+	382 -> 381
+	383 -> 380
+	384 -> 383
+	317 -> 354
+	317 -> 335
+	317 -> 331
+	323 -> 326
+	323 -> 364
+	325 -> 333
+	326 -> 317
+	331 -> 373
+	333 -> 356
+	333 -> 355
+	335 -> 360
+	336 -> 346
+	346 -> 347
+	347 -> 350
+	347 -> 348
+	348 -> 346
+	350 -> 351
+	350 -> 352
+	351 -> 348
+	352 -> 351
+	339 -> 325
+	354 -> 325
+	355 -> 361
+	356 -> 357
+	357 -> 355
+	358 -> 373
+	359 -> 369
+	360 -> 336
+	361 -> 386
+	363 -> 326
+	364 -> 365
+	365 -> 363
+	369 -> 358
+	373 -> 334
+	385 -> 386
+	386 -> 359
+	350 -> 351
+	351 -> 399
+	339 -> 344
+	358 -> 359
+	359 -> 390
+	360 -> 359
+	361 -> 395
+	361 -> 397
+	380 -> 378
+	380 -> 361
+	378 -> 379
+	379 -> 361
+	334 -> 381
+	390 -> 391
+	391 -> 348
+	394 -> 395
+	396 -> 323
+	397 -> 346
+	399 -> 396
+	rankdir=LR
+}

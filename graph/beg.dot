@@ -1,0 +1,170 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Statistics]
+	3 [label="Linear Correlation"]
+	4 [label="Numeric Outliers"]
+	5 [label="Value Counter"]
+	6 [label="Heatmap _JavaScript_"]
+	7 [label="Python Script"]
+	8 [label=Statistics]
+	9 [label="Linear Correlation"]
+	10 [label="Numeric Outliers"]
+	11 [label="Value Counter"]
+	12 [label="Heatmap _JavaScript_"]
+	13 [label="Python Script"]
+	15 [label="Sunburst Chart"]
+	16 [label="Box Plot"]
+	19 [label=Histogram]
+	31 [label="Pie Chart"]
+	32 [label="Bar Chart"]
+	34 [label="Pie Chart"]
+	37 [label="Python View"]
+	39 [label="Python View"]
+	40 [label="Python View"]
+	41 [label="Python View"]
+	42 [label="Python View"]
+	43 [label="Python View"]
+	44 [label="Python View"]
+	45 [label="Python View"]
+	46 [label="Python View"]
+	47 [label="Python View"]
+	48 [label="Pie Chart"]
+	49 [label="Python View"]
+	50 [label="Python View"]
+	51 [label="Python View"]
+	52 [label="Python View"]
+	53 [label="Box Plot"]
+	54 [label=Histogram]
+	56 [label="Python View"]
+	57 [label="Python View"]
+	58 [label="Python View"]
+	59 [label="Python View"]
+	65 [label="Variable Creator"]
+	69 [label="Column Splitter"]
+	74 [label=k_Means]
+	81 [label="Gradient Boosted Trees Learner"]
+	82 [label="Gradient Boosted Trees Predictor"]
+	83 [label="Random Forest Learner"]
+	84 [label="Random Forest Predictor"]
+	96 [label="XGBoost Linear Model Learner"]
+	97 [label="XGBoost Predictor"]
+	98 [label="Cluster Assigner"]
+	100 [label=Scorer]
+	109 [label=Scorer]
+	111 [label=Scorer]
+	114 [label=Partitioning]
+	115 [label=Partitioning]
+	116 [label=Partitioning]
+	121 [label="Feature Selection Loop Start _1_1_"]
+	125 [label="Feature Selection Loop End"]
+	126 [label="Feature Selection Loop Start _1_1_"]
+	127 [label="Feature Selection Loop Start _1_1_"]
+	128 [label="Feature Selection Loop End"]
+	129 [label="Feature Selection Loop End"]
+	131 [label="Feature Selection Filter"]
+	134 [label="Random Forest Predictor"]
+	135 [label=Scorer]
+	139 [label=X_Partitioner]
+	140 [label=X_Aggregator]
+	141 [label="Parameter Optimization Loop Start"]
+	142 [label="Parameter Optimization Loop End"]
+	143 [label="Random Forest Learner"]
+	144 [label=Partitioning]
+	146 [label="Random Forest Predictor"]
+	147 [label=Scorer]
+	148 [label="ROC Curve"]
+	149 [label="Lift Chart _JavaScript_"]
+	150 [label=SMOTE]
+	151 [label="Table Row To Variable"]
+	152 [label="Random Forest Learner"]
+	154 [label="Model Writer"]
+	1 -> 3
+	1 -> 2
+	1 -> 5
+	1 -> 4
+	1 -> 7
+	3 -> 6
+	7 -> 13
+	7 -> 11
+	7 -> 10
+	7 -> 9
+	7 -> 8
+	9 -> 12
+	13 -> 15
+	13 -> 31
+	13 -> 16
+	13 -> 19
+	13 -> 45
+	13 -> 44
+	13 -> 47
+	13 -> 46
+	13 -> 41
+	13 -> 40
+	13 -> 43
+	13 -> 42
+	13 -> 37
+	13 -> 39
+	13 -> 32
+	13 -> 34
+	13 -> 57
+	13 -> 56
+	13 -> 59
+	13 -> 58
+	13 -> 53
+	13 -> 52
+	13 -> 54
+	13 -> 49
+	13 -> 48
+	13 -> 51
+	13 -> 50
+	13 -> 69
+	65 -> 57
+	65 -> 56
+	65 -> 59
+	65 -> 58
+	69 -> 74
+	74 -> 98
+	74 -> 121
+	74 -> 126
+	74 -> 127
+	74 -> 131
+	81 -> 82
+	82 -> 109
+	83 -> 84
+	84 -> 100
+	96 -> 97
+	97 -> 111
+	100 -> 125
+	109 -> 128
+	111 -> 129
+	114 -> 83
+	114 -> 84
+	115 -> 82
+	115 -> 81
+	116 -> 96
+	116 -> 97
+	121 -> 114
+	125 -> 131
+	126 -> 115
+	127 -> 116
+	131 -> 139
+	131 -> 144
+	134 -> 140
+	135 -> 142
+	139 -> 143
+	139 -> 134
+	140 -> 135
+	141 -> 139
+	142 -> 151
+	143 -> 134
+	144 -> 146
+	144 -> 150
+	146 -> 147
+	146 -> 148
+	146 -> 149
+	150 -> 152
+	151 -> 152
+	152 -> 146
+	152 -> 154
+	rankdir=LR
+}

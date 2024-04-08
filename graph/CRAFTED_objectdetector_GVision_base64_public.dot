@@ -1,0 +1,64 @@
+digraph {
+	9 [label="POST Request"]
+	48 [label="String Manipulation"]
+	402 [label="Row Filter"]
+	407 [label="MongoDB Connector"]
+	408 [label="MongoDB Writer"]
+	358 [label="MongoDB Connector"]
+	359 [label="MongoDB Reader"]
+	360 [label="Variable Creator"]
+	401 [label="JSON Path"]
+	428 [label="Row Filter"]
+	429 [label="Missing Value"]
+	430 [label="Duplicate Row Filter"]
+	429 [label="Base64 Encoder"]
+	430 [label="Files to Binary Objects"]
+	431 [label="String to URI"]
+	432 [label="Missing Value"]
+	207 [label="JSON Path"]
+	209 [label=Ungroup]
+	210 [label="JSON Path"]
+	403 [label="Math Formula"]
+	404 [label="Math Formula"]
+	405 [label="Math Formula"]
+	406 [label="Math Formula"]
+	410 [label="String Manipulation"]
+	411 [label="String to JSON"]
+	412 [label="Constant Value Column"]
+	413 [label="JSON Transformer"]
+	414 [label="String Manipulation"]
+	415 [label="Column Filter"]
+	416 [label="Row Filter"]
+	417 [label="Missing Value"]
+	358 -> 359
+	359 -> 401
+	360 -> 359
+	401 -> 428
+	428 -> 429
+	429 -> 430
+	429 -> 432
+	430 -> 429
+	431 -> 430
+	207 -> 416
+	209 -> 410
+	210 -> 417
+	403 -> 404
+	404 -> 405
+	405 -> 406
+	406 -> 414
+	410 -> 210
+	411 -> 413
+	412 -> 411
+	414 -> 412
+	415 -> 207
+	416 -> 209
+	417 -> 403
+	9 -> 415
+	48 -> 9
+	402 -> 48
+	407 -> 408
+	432 -> 431
+	432 -> 402
+	413 -> 408
+	rankdir=LR
+}

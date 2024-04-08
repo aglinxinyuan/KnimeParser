@@ -1,0 +1,21 @@
+digraph {
+	1 [label="Webpage Retriever"]
+	2 [label=XPath]
+	3 [label="Table Creator"]
+	4 [label="SQLite Connector"]
+	5 [label="DB Merge"]
+	6 [label="DB Connection Closer"]
+	7 [label="DB Connection Extractor"]
+	9 [label="DB Table Selector"]
+	10 [label="DB Reader"]
+	11 [label="SQLite Connector"]
+	1 -> 2
+	2 -> 5
+	3 -> 1
+	4 -> 5
+	5 -> 7
+	7 -> 6
+	9 -> 10
+	11 -> 9
+	rankdir=LR
+}

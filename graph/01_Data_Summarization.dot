@@ -1,0 +1,18 @@
+digraph {
+	2 [label="Data Explorer"]
+	3 [label=Statistics]
+	4 [label="CSV Reader"]
+	5 [label=GroupBy]
+	7 [label="Linear Correlation"]
+	8 [label="Rank Correlation"]
+	9 [label="Scatter Plot"]
+	10 [label="Color Manager"]
+	4 -> 5
+	4 -> 7
+	4 -> 2
+	4 -> 3
+	4 -> 8
+	4 -> 10
+	10 -> 9
+	rankdir=LR
+}

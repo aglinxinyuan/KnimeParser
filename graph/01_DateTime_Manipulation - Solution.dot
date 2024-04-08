@@ -1,0 +1,12 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Modify Date"]
+	4 [label="Extract Date_Time Fields"]
+	5 [label=GroupBy]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,30 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Unpivoting]
+	3 [label="Range Filter"]
+	4 [label="Range Filter"]
+	5 [label="Range Filter"]
+	6 [label=GroupBy]
+	7 [label=GroupBy]
+	8 [label=GroupBy]
+	9 [label="Column Rename"]
+	10 [label="Column Rename"]
+	11 [label="Column Rename"]
+	12 [label=Joiner]
+	13 [label=Joiner]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	2 -> 5
+	3 -> 6
+	4 -> 7
+	5 -> 8
+	6 -> 9
+	7 -> 10
+	8 -> 11
+	9 -> 12
+	10 -> 12
+	11 -> 13
+	12 -> 13
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="CSV Reader"]
+	3 [label="Column Rename"]
+	4 [label=Joiner]
+	5 [label="Row Filter"]
+	6 [label="CSV Writer"]
+	1 -> 4
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	rankdir=LR
+}

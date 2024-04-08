@@ -1,0 +1,117 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Missing Value Column Filter"]
+	4 [label="Number To String"]
+	5 [label="Missing Value"]
+	6 [label="Domain Calculator"]
+	7 [label=SMOTE]
+	13 [label="CSV Reader"]
+	14 [label="CSV Reader"]
+	15 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	7 [label=Partitioning]
+	8 [label="Tree Ensemble Learner"]
+	9 [label="Tree Ensemble Predictor"]
+	10 [label=Scorer]
+	11 [label="ROC Curve"]
+	12 [label="Tree Ensemble Predictor"]
+	17 [label="CSV Writer"]
+	18 [label="Column Filter"]
+	19 [label="Tree Ensemble Learner"]
+	27 [label=Statistics]
+	28 [label="Linear Correlation"]
+	16 [label="CSV Reader"]
+	17 [label="CSV Writer"]
+	18 [label="Column Filter"]
+	20 [label="Decision Tree Learner"]
+	21 [label="Decision Tree Predictor"]
+	22 [label=Partitioning]
+	23 [label=Scorer]
+	25 [label="Decision Tree Predictor"]
+	26 [label=Partitioning]
+	3 [label=X_Aggregator]
+	4 [label="K Nearest Neighbor"]
+	5 [label=Scorer]
+	16 [label="CSV Reader"]
+	19 [label=X_Partitioner]
+	21 [label=X_Partitioner]
+	23 [label="K Nearest Neighbor"]
+	27 [label="Constant Value Column"]
+	30 [label=X_Aggregator]
+	7 [label="SVM Predictor"]
+	70 [label="Parameter Optimization Loop End"]
+	71 [label="Parameter Optimization Loop Start"]
+	72 [label=Scorer]
+	73 [label="ROC Curve"]
+	75 [label=Partitioning]
+	76 [label="SVM Learner"]
+	3 [label="Missing Value Column Filter"]
+	4 [label="Number To String"]
+	5 [label="Missing Value"]
+	6 [label="Domain Calculator"]
+	16 [label="CSV Reader"]
+	17 [label="CSV Writer"]
+	18 [label="Column Filter"]
+	20 [label="Decision Tree Learner"]
+	21 [label="Decision Tree Predictor"]
+	22 [label=Partitioning]
+	23 [label=Scorer]
+	25 [label="Decision Tree Predictor"]
+	3 -> 4
+	4 -> 5
+	5 -> 3
+	7 -> 7
+	2 -> 12
+	7 -> 9
+	7 -> 8
+	8 -> 9
+	9 -> 11
+	9 -> 10
+	12 -> 18
+	18 -> 17
+	19 -> 12
+	16 -> 25
+	18 -> 17
+	20 -> 21
+	20 -> 25
+	21 -> 23
+	22 -> 20
+	22 -> 21
+	25 -> 18
+	26 -> 22
+	3 -> 5
+	4 -> 3
+	16 -> 27
+	19 -> 4
+	19 -> 4
+	21 -> 23
+	27 -> 23
+	7 -> 73
+	7 -> 72
+	71 -> 76
+	72 -> 70
+	75 -> 76
+	75 -> 7
+	76 -> 7
+	3 -> 4
+	4 -> 5
+	5 -> 3
+	16 -> 25
+	18 -> 17
+	20 -> 21
+	20 -> 25
+	21 -> 23
+	22 -> 20
+	22 -> 21
+	25 -> 18
+	1 -> 3
+	1 -> 3
+	1 -> 27
+	1 -> 28
+	7 -> 19
+	7 -> 35
+	7 -> 33
+	7 -> 31
+	7 -> 29
+	rankdir=LR
+}

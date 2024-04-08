@@ -1,0 +1,18 @@
+digraph {
+	7 [label="Table to JSON"]
+	10 [label="Table to JSON"]
+	125 [label="Generic JavaScript View"]
+	128 [label="Table Reader"]
+	129 [label="CSV Reader"]
+	130 [label="CSV Reader"]
+	131 [label="Table Row to Variable"]
+	132 [label="Table Row to Variable"]
+	7 -> 131
+	10 -> 132
+	128 -> 7
+	129 -> 10
+	130 -> 125
+	131 -> 132
+	132 -> 125
+	rankdir=LR
+}

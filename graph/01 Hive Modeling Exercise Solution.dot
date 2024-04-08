@@ -1,0 +1,25 @@
+digraph {
+	184 [label="DB Table Selector"]
+	185 [label="DB Column Filter"]
+	186 [label="DB Row Filter"]
+	187 [label="DB Row Filter"]
+	188 [label="DB Column Filter"]
+	190 [label="Number To String"]
+	193 [label="Decision Tree Predictor"]
+	194 [label="DB Reader"]
+	195 [label="Decision Tree Learner"]
+	196 [label="DB Reader"]
+	206 [label="Create Local Big Data Environment"]
+	184 -> 185
+	185 -> 187
+	185 -> 186
+	186 -> 194
+	187 -> 188
+	188 -> 196
+	190 -> 195
+	194 -> 190
+	195 -> 193
+	196 -> 193
+	206 -> 184
+	rankdir=LR
+}

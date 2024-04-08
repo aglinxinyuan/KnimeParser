@@ -1,0 +1,47 @@
+digraph {
+	1 [label="GeoFile Reader"]
+	2 [label="GeoFile Reader"]
+	3 [label="Row Filter"]
+	4 [label="Row Filter"]
+	5 [label="Math Formula"]
+	6 [label="Math Formula"]
+	7 [label="Road Network Distance Matrix"]
+	8 [label=Joiner]
+	9 [label=Joiner]
+	10 [label="Math Formula"]
+	11 [label=Pivot]
+	12 [label=RowID]
+	13 [label="Column Filter"]
+	14 [label="Column Filter"]
+	15 [label="Table to R"]
+	16 [label="Add Table To R"]
+	17 [label="Add Table To R"]
+	18 [label="R To R"]
+	19 [label="R to Table"]
+	20 [label="Timer Info"]
+	1 -> 3
+	1 -> 4
+	2 -> 7
+	3 -> 5
+	4 -> 6
+	5 -> 7
+	5 -> 13
+	5 -> 8
+	6 -> 7
+	6 -> 14
+	6 -> 9
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 15
+	13 -> 16
+	14 -> 17
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	rankdir=LR
+}

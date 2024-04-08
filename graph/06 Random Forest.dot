@@ -1,0 +1,23 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Partitioning]
+	3 [label="Random Forest Learner"]
+	4 [label="Random Forest Predictor"]
+	5 [label="Random Forest Learner"]
+	6 [label="Random Forest Predictor"]
+	7 [label="Scorer _JavaScript_"]
+	8 [label="Scorer _JavaScript_"]
+	9 [label=Concatenate]
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	2 -> 4
+	2 -> 5
+	3 -> 4
+	4 -> 7
+	5 -> 6
+	6 -> 8
+	7 -> 9
+	8 -> 9
+	rankdir=LR
+}

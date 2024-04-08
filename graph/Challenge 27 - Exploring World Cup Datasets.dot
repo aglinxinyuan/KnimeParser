@@ -1,0 +1,23 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Excel Reader"]
+	5 [label="String to Date_Time"]
+	8 [label="Date_Time_based Row Filter"]
+	10 [label="Duplicate Row Filter"]
+	14 [label="Missing Value"]
+	17 [label=Joiner]
+	18 [label=Joiner]
+	22 [label=Pivot]
+	1054 [label="Table View _JavaScript_"]
+	1 -> 5
+	3 -> 10
+	5 -> 8
+	8 -> 17
+	10 -> 18
+	10 -> 17
+	14 -> 1054
+	17 -> 18
+	18 -> 22
+	22 -> 14
+	rankdir=LR
+}

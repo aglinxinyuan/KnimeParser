@@ -1,0 +1,219 @@
+digraph {
+	3 [label="Feature Selection Filter"]
+	6 [label=Partitioning]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	12 [label="Feature Selection Loop End"]
+	14 [label="Table Row to Variable"]
+	23 [label="Decision Tree Learner"]
+	24 [label="Decision Tree Predictor"]
+	25 [label=Scorer]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	9 [label="CSV Reader"]
+	11 [label="Column Filter"]
+	13 [label="Rule Engine"]
+	14 [label="Row Filter"]
+	16 [label="Category To Number"]
+	18 [label="Rule Engine"]
+	23 [label="Decision Tree Learner"]
+	24 [label="Decision Tree Predictor"]
+	421 [label=Partitioning]
+	422 [label="Scorer _JavaScript_"]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	567 [label=SMOTE]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	567 [label=SMOTE]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	567 [label=SMOTE]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	567 [label=SMOTE]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	422 [label="Equal Size Sampling"]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	422 [label="Equal Size Sampling"]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	422 [label="Equal Size Sampling"]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	130 [label="Decision Tree Learner"]
+	132 [label="Decision Tree Predictor"]
+	138 [label="Scorer _JavaScript_"]
+	178 [label="PMML Writer"]
+	421 [label=Partitioning]
+	422 [label="Equal Size Sampling"]
+	1 [label="Bar Chart"]
+	2 [label="Bar Chart"]
+	3 [label="Bar Chart"]
+	4 [label="Bar Chart"]
+	5 [label="Bar Chart"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Bar Chart"]
+	6 -> 23
+	6 -> 24
+	8 -> 6
+	12 -> 3
+	14 -> 12
+	23 -> 24
+	24 -> 25
+	25 -> 14
+	9 -> 13
+	9 -> 18
+	14 -> 11
+	18 -> 14
+	23 -> 24
+	24 -> 422
+	421 -> 23
+	421 -> 24
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 567
+	567 -> 566
+	567 -> 130
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 567
+	567 -> 566
+	567 -> 130
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 567
+	567 -> 566
+	567 -> 130
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 567
+	567 -> 566
+	567 -> 130
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 422
+	422 -> 566
+	422 -> 130
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 422
+	422 -> 566
+	422 -> 130
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 422
+	422 -> 566
+	422 -> 130
+	130 -> 178
+	130 -> 132
+	132 -> 138
+	421 -> 132
+	421 -> 422
+	422 -> 566
+	422 -> 130
+	3 -> 563
+	562 -> 559
+	562 -> 3
+	562 -> 3
+	562 -> 564
+	562 -> 568
+	rankdir=LR
+}

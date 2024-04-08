@@ -1,0 +1,54 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Statistics]
+	3 [label="Missing Value"]
+	4 [label="Box Plot"]
+	5 [label="Numeric Outliers"]
+	6 [label="Number To String"]
+	7 [label=Partitioning]
+	8 [label="Logistic Regression Learner"]
+	9 [label="Logistic Regression Predictor"]
+	10 [label=Scorer]
+	13 [label="Decision Tree Learner"]
+	14 [label="Decision Tree Predictor"]
+	15 [label=Scorer]
+	16 [label=Scorer]
+	17 [label="Random Forest Learner"]
+	18 [label="Random Forest Predictor"]
+	19 [label="Tree Ensemble Learner"]
+	20 [label="Tree Ensemble Predictor"]
+	21 [label=Scorer]
+	24 [label="Linear Correlation"]
+	25 [label="Category To Number"]
+	26 [label="Bar Chart"]
+	27 [label="Bar Chart"]
+	28 [label="Line Plot"]
+	1 -> 2
+	1 -> 3
+	1 -> 4
+	1 -> 25
+	3 -> 5
+	5 -> 6
+	6 -> 7
+	6 -> 26
+	6 -> 27
+	6 -> 28
+	7 -> 8
+	7 -> 9
+	7 -> 17
+	7 -> 18
+	7 -> 13
+	7 -> 14
+	7 -> 19
+	7 -> 20
+	8 -> 9
+	9 -> 10
+	13 -> 14
+	14 -> 16
+	17 -> 18
+	18 -> 15
+	19 -> 20
+	20 -> 21
+	25 -> 24
+	rankdir=LR
+}

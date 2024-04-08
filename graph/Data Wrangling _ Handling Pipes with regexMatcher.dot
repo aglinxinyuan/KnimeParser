@@ -1,0 +1,31 @@
+digraph {
+	131 [label="Math Formula"]
+	141 [label="Variable Creator"]
+	154 [label="Table Creator"]
+	286 [label="String Manipulation"]
+	290 [label="Cross Joiner"]
+	291 [label="String Manipulation"]
+	293 [label="Row Filter"]
+	294 [label="Column Filter"]
+	295 [label=RowID]
+	296 [label="Table Column to Variable"]
+	298 [label="Rule_based Row Splitter"]
+	303 [label="Variable to Table Row"]
+	304 [label=Unpivoting]
+	305 [label="Column Rename"]
+	131 -> 290
+	131 -> 298
+	141 -> 303
+	154 -> 131
+	286 -> 293
+	290 -> 286
+	291 -> 290
+	293 -> 294
+	294 -> 295
+	295 -> 296
+	296 -> 298
+	303 -> 304
+	304 -> 305
+	305 -> 291
+	rankdir=LR
+}

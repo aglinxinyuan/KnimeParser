@@ -1,0 +1,14 @@
+digraph {
+	2 [label="PMML Reader"]
+	3 [label="Cluster Assigner"]
+	5 [label="Container Input _JSON_"]
+	6 [label="JSON to Table"]
+	12 [label="Table to JSON"]
+	13 [label="Container Output _JSON_"]
+	2 -> 3
+	3 -> 12
+	5 -> 6
+	6 -> 3
+	12 -> 13
+	rankdir=LR
+}

@@ -1,0 +1,34 @@
+digraph {
+	36 [label="Rule Engine"]
+	37 [label=GroupBy]
+	38 [label="CSV Reader"]
+	40 [label=GroupBy]
+	41 [label="Data Explorer"]
+	42 [label="Data Explorer"]
+	43 [label="Rule Engine"]
+	44 [label=GroupBy]
+	45 [label=GroupBy]
+	46 [label="CSV Reader"]
+	47 [label="Color Manager"]
+	48 [label="Color Manager"]
+	49 [label="Table View"]
+	50 [label="Table View"]
+	51 [label="CSV Reader"]
+	52 [label="Rule Engine"]
+	53 [label="Bar Chart"]
+	36 -> 37
+	36 -> 40
+	37 -> 41
+	38 -> 36
+	40 -> 42
+	43 -> 45
+	43 -> 44
+	44 -> 47
+	45 -> 48
+	46 -> 43
+	47 -> 49
+	48 -> 50
+	51 -> 52
+	52 -> 53
+	rankdir=LR
+}

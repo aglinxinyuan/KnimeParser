@@ -1,0 +1,48 @@
+digraph {
+	1 [label="CSV Reader"]
+	5 [label="Extract Date_Time Fields"]
+	6 [label="String Manipulation"]
+	7 [label=GroupBy]
+	8 [label="Chunk Loop Start"]
+	9 [label=Joiner]
+	10 [label="Column Filter"]
+	14 [label="String to Path"]
+	15 [label="Table Row To Variable Loop Start"]
+	16 [label="Create Folder"]
+	17 [label="Variable Loop End"]
+	18 [label=GroupBy]
+	19 [label="Number To String"]
+	20 [label="Table Row to Variable"]
+	23 [label="String Manipulation _Variable_"]
+	26 [label="URL to File Path"]
+	27 [label="Table Row to Variable"]
+	29 [label="Variable to Table Row"]
+	31 [label="CSV Writer"]
+	32 [label="String to Path _Variable_"]
+	33 [label="String to Date_Time"]
+	34 [label="Variable Loop End"]
+	1 -> 33
+	5 -> 6
+	6 -> 7
+	6 -> 9
+	6 -> 18
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 31
+	10 -> 20
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	18 -> 19
+	19 -> 14
+	20 -> 23
+	23 -> 29
+	26 -> 27
+	27 -> 32
+	29 -> 26
+	31 -> 34
+	32 -> 31
+	33 -> 5
+	rankdir=LR
+}

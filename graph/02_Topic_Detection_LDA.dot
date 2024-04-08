@@ -1,0 +1,63 @@
+digraph {
+	20 [label="Row Filter"]
+	128 [label="Column Filter"]
+	163 [label="Row Filter"]
+	164 [label="WrappedNode Input"]
+	165 [label="WrappedNode Output"]
+	166 [label="Strings To Document"]
+	175 [label="Table Reader"]
+	300 [label="Column Filter"]
+	301 [label="Column Filter"]
+	328 [label="Modifiable Term Filter"]
+	745 [label=GroupBy]
+	748 [label="WrappedNode Input"]
+	749 [label="WrappedNode Output"]
+	750 [label="Dictionary Tagger"]
+	751 [label="Bag Of Words Creator"]
+	751 [label="Color Manager"]
+	752 [label="Term to String"]
+	754 [label="WrappedNode Input"]
+	755 [label="WrappedNode Output"]
+	756 [label=Joiner]
+	112 [label="Case converter"]
+	113 [label="Snowball Stemmer"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	117 [label="WrappedNode Input"]
+	118 [label="WrappedNode Output"]
+	119 [label="Stop Word Filter"]
+	757 [label="Topic Extractor _Parallel LDA_"]
+	758 [label="Tag Cloud _JavaScript_"]
+	20 -> 166
+	128 -> 165
+	163 -> 128
+	166 -> 163
+	175 -> 20
+	300 -> 750
+	301 -> 750
+	328 -> 751
+	745 -> 749
+	748 -> 300
+	748 -> 301
+	750 -> 328
+	751 -> 745
+	751 -> 755
+	752 -> 756
+	754 -> 752
+	754 -> 756
+	756 -> 751
+	112 -> 113
+	113 -> 118
+	115 -> 119
+	116 -> 115
+	117 -> 116
+	119 -> 112
+	167 -> 755
+	748 -> 754
+	754 -> 758
+	755 -> 757
+	755 -> 748
+	757 -> 754
+	757 -> 748
+	rankdir=LR
+}

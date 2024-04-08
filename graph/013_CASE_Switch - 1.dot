@@ -1,0 +1,103 @@
+digraph {
+	1 [label="List Files"]
+	2 [label="Table Row To Variable Loop Start"]
+	3 [label="Excel Reader _XLS_"]
+	4 [label="Extract Table Dimension"]
+	5 [label="Rule Engine Variable"]
+	6 [label="CASE Switch Data _Start_"]
+	13 [label="CASE Switch Data _End_"]
+	18 [label="Loop End"]
+	19 [label="Column Auto Type Cast"]
+	20 [label="Line Plot"]
+	21 [label=GroupBy]
+	22 [label="Excel Writer _XLS_"]
+	7 [label=Unpivoting]
+	8 [label="Column Resorter"]
+	9 [label="Rule Engine"]
+	16 [label=Unpivoting]
+	17 [label="Column Resorter"]
+	10 [label="Rule Engine"]
+	11 [label="Rule Engine"]
+	14 [label=Unpivoting]
+	15 [label="Column Resorter"]
+	26 [label="Rule Engine"]
+	28 [label=Sorter]
+	29 [label="Table Row To Variable Loop Start"]
+	30 [label="List Files_Folders"]
+	31 [label="Excel Reader"]
+	7 [label=Unpivoting]
+	8 [label="Column Resorter"]
+	33 [label="Loop End"]
+	9 [label="Rule Engine"]
+	16 [label=Unpivoting]
+	17 [label="Column Resorter"]
+	35 [label="Extract Table Dimension"]
+	36 [label="CASE Switch Data _Start_"]
+	37 [label="Rule Engine Variable"]
+	38 [label="CASE Switch Data _End_"]
+	39 [label="Column Auto Type Cast"]
+	10 [label="Rule Engine"]
+	11 [label="Rule Engine"]
+	14 [label=Unpivoting]
+	15 [label="Column Resorter"]
+	41 [label=Sorter]
+	43 [label=GroupBy]
+	44 [label="Line Plot"]
+	45 [label="Rule Engine"]
+	46 [label="Excel Writer"]
+	47 [label="Column Filter"]
+	7 -> 8
+	9 -> 16
+	16 -> 17
+	10 -> 11
+	11 -> 14
+	14 -> 15
+	7 -> 8
+	9 -> 16
+	16 -> 17
+	10 -> 11
+	11 -> 14
+	14 -> 15
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	3 -> 4
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	6 -> 9
+	6 -> 10
+	13 -> 18
+	18 -> 19
+	19 -> 22
+	19 -> 21
+	21 -> 26
+	8 -> 13
+	17 -> 13
+	15 -> 13
+	26 -> 28
+	28 -> 20
+	29 -> 31
+	30 -> 29
+	31 -> 35
+	31 -> 35
+	31 -> 36
+	8 -> 38
+	33 -> 39
+	17 -> 38
+	35 -> 37
+	36 -> 7
+	36 -> 9
+	36 -> 10
+	37 -> 36
+	38 -> 33
+	39 -> 43
+	39 -> 47
+	15 -> 38
+	41 -> 44
+	43 -> 45
+	45 -> 41
+	47 -> 46
+	rankdir=LR
+}

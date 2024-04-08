@@ -1,0 +1,21 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Row Filter"]
+	3 [label="Microsoft SQL Server Connector"]
+	5 [label="Column Rename"]
+	6 [label="String To Number"]
+	7 [label="DB Insert"]
+	8 [label="DB Delete"]
+	9 [label="Column Filter"]
+	12 [label="String Manipulation _Multi Column_"]
+	1 -> 2
+	2 -> 9
+	3 -> 7
+	3 -> 8
+	5 -> 12
+	6 -> 7
+	6 -> 8
+	9 -> 5
+	12 -> 6
+	rankdir=LR
+}

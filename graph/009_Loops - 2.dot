@@ -1,0 +1,21 @@
+digraph {
+	1 [label="Group Loop Start"]
+	2 [label="Excel Reader _XLS_"]
+	5 [label="String Manipulation _Variable_"]
+	6 [label="String Manipulation _Variable_"]
+	7 [label="Excel Writer _XLS_"]
+	8 [label="Loop End"]
+	9 [label="Excel Reader"]
+	10 [label="Excel Writer"]
+	11 [label="Path to String _Variable_"]
+	12 [label="String to Path _Variable_"]
+	1 -> 8
+	1 -> 11
+	1 -> 10
+	5 -> 6
+	6 -> 12
+	9 -> 1
+	11 -> 5
+	12 -> 10
+	rankdir=LR
+}

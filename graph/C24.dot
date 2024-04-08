@@ -1,0 +1,33 @@
+digraph {
+	2 [label="Java Edit Variable"]
+	3 [label="CSV Reader"]
+	4 [label="String Manipulation"]
+	5 [label=GroupBy]
+	6 [label="String Manipulation _Variable_"]
+	7 [label="Variable Expressions"]
+	8 [label=GroupBy]
+	9 [label="Table Row to Variable"]
+	11 [label="POST Request"]
+	12 [label="JSON Path"]
+	13 [label="String to JSON"]
+	14 [label="JSON Path"]
+	15 [label=Ungroup]
+	16 [label="Column Filter"]
+	17 [label=Joiner]
+	2 -> 6
+	3 -> 4
+	4 -> 5
+	5 -> 8
+	5 -> 17
+	6 -> 7
+	7 -> 11
+	8 -> 9
+	9 -> 7
+	11 -> 12
+	12 -> 13
+	13 -> 16
+	14 -> 15
+	15 -> 17
+	16 -> 14
+	rankdir=LR
+}

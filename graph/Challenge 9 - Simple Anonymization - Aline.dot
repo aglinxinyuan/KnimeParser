@@ -1,0 +1,25 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label=Shuffle]
+	4 [label="Column List Loop Start"]
+	6 [label="Loop End _Column Append_"]
+	7 [label=RowID]
+	8 [label="Column Filter"]
+	9 [label="Column Rename _Regex_"]
+	10 [label="Linear Correlation"]
+	11 [label="Linear Correlation"]
+	12 [label="Table Difference Finder"]
+	1 -> 2
+	2 -> 4
+	2 -> 10
+	2 -> 12
+	3 -> 7
+	4 -> 3
+	6 -> 11
+	6 -> 12
+	7 -> 8
+	8 -> 6
+	11 -> 9
+	rankdir=LR
+}

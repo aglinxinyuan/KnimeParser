@@ -1,0 +1,14 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label=k_Means]
+	5 [label="Missing Value"]
+	6 [label=PCA]
+	7 [label="2D_3D Scatterplot"]
+	1 -> 2
+	2 -> 5
+	3 -> 6
+	5 -> 3
+	6 -> 7
+	rankdir=LR
+}

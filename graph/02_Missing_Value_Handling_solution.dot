@@ -1,0 +1,33 @@
+digraph {
+	76 [label="Column Auto Type Cast"]
+	77 [label="Missing Value Column Filter"]
+	78 [label="Rule Engine"]
+	79 [label="Missing Value"]
+	80 [label="Missing Value"]
+	82 [label="Missing Value _Apply_"]
+	84 [label="Reference Column Filter"]
+	86 [label="Missing Value _Apply_"]
+	87 [label="Rule Engine"]
+	88 [label="CSV Reader"]
+	23 [label="Rule Engine"]
+	24 [label=Partitioning]
+	26 [label="Column Filter"]
+	90 [label="Column Auto Type Cast"]
+	23 -> 26
+	26 -> 24
+	76 -> 77
+	77 -> 84
+	77 -> 80
+	78 -> 79
+	79 -> 76
+	79 -> 86
+	80 -> 82
+	84 -> 82
+	86 -> 90
+	87 -> 86
+	88 -> 23
+	24 -> 87
+	24 -> 78
+	90 -> 84
+	rankdir=LR
+}

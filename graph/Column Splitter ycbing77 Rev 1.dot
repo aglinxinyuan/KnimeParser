@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="String Manipulation _Multi Column_"]
+	3 [label="String Manipulation _Multi Column_"]
+	8 [label="Column Filter"]
+	9 [label="Cell Splitter"]
+	10 [label="Column List Loop Start"]
+	38 [label="Column Filter"]
+	40 [label="Column Rename"]
+	46 [label="Loop End _Column Append_"]
+	47 [label="Table Manipulator"]
+	48 [label="Row Filter"]
+	49 [label="Rule Engine"]
+	50 [label="Number To String"]
+	51 [label="Missing Value"]
+	52 [label=Joiner]
+	53 [label="Table Viewer"]
+	1 -> 2
+	1 -> 38
+	2 -> 3
+	3 -> 8
+	8 -> 10
+	9 -> 46
+	10 -> 9
+	38 -> 40
+	40 -> 52
+	46 -> 47
+	47 -> 48
+	48 -> 50
+	49 -> 52
+	50 -> 51
+	51 -> 49
+	52 -> 53
+	rankdir=LR
+}

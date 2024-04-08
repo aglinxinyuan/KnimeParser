@@ -1,0 +1,26 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label="Line Plot"]
+	4 [label="Numeric Outliers"]
+	5 [label="String Manipulation"]
+	6 [label="String To Number"]
+	7 [label=Partitioning]
+	8 [label="Linear Regression Learner"]
+	9 [label="Regression Predictor"]
+	10 [label="Linear Correlation"]
+	11 [label="CSV Reader"]
+	12 [label="Missing Value"]
+	1 -> 2
+	2 -> 5
+	4 -> 3
+	4 -> 7
+	5 -> 6
+	6 -> 4
+	7 -> 8
+	7 -> 9
+	8 -> 9
+	9 -> 10
+	11 -> 12
+	rankdir=LR
+}

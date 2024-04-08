@@ -1,0 +1,8 @@
+digraph {
+	15 [label="XLS Font Formatter"]
+	16 [label="XLS Formatter _apply_"]
+	17 [label="XLS Control Table from Cell Range"]
+	15 -> 16
+	17 -> 15
+	rankdir=LR
+}

@@ -1,0 +1,42 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Insert Column Header"]
+	3 [label="Table Creator"]
+	11 [label="File Reader"]
+	18 [label="Table Writer"]
+	19 [label="Random Label Assigner"]
+	21 [label=RowID]
+	22 [label="String Manipulation"]
+	5 [label="Row Splitter"]
+	12 [label=Partitioning]
+	14 [label="Random Matcher"]
+	15 [label="Column Filter"]
+	17 [label=Concatenate]
+	20 [label=RowID]
+	25 [label="Column Filter"]
+	26 [label="WrappedNode Input"]
+	27 [label="WrappedNode Output"]
+	30 [label="Constant Value Column"]
+	27 [label="Linear Correlation"]
+	5 -> 30
+	5 -> 25
+	12 -> 15
+	14 -> 17
+	15 -> 14
+	17 -> 27
+	20 -> 12
+	25 -> 14
+	26 -> 20
+	26 -> 5
+	30 -> 17
+	1 -> 2
+	2 -> 21
+	3 -> 2
+	11 -> 26
+	19 -> 26
+	21 -> 22
+	22 -> 19
+	26 -> 27
+	26 -> 18
+	rankdir=LR
+}

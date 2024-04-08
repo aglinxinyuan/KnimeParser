@@ -1,0 +1,13 @@
+digraph {
+	739 [label="Table Reader"]
+	742 [label="RProp MLP Learner"]
+	743 [label="MultiLayerPerceptron Predictor"]
+	744 [label=Partitioning]
+	745 [label=Scorer]
+	739 -> 744
+	742 -> 743
+	743 -> 745
+	744 -> 742
+	744 -> 743
+	rankdir=LR
+}

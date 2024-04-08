@@ -1,0 +1,37 @@
+digraph {
+	3 [label="Row Filter"]
+	4 [label=Joiner]
+	5 [label="String To Number"]
+	6 [label="Math Formula"]
+	7 [label="Math Formula"]
+	8 [label="Linear Regression Learner"]
+	9 [label=Histogram]
+	10 [label="Numeric Scorer"]
+	11 [label="Missing Value"]
+	12 [label="Regression Predictor"]
+	15 [label="Table Reader"]
+	16 [label="Table Reader"]
+	17 [label="Column Filter"]
+	18 [label="Rule_based Row Filter"]
+	19 [label="Counter Generation"]
+	20 [label=RowID]
+	21 [label="Table Writer"]
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 11
+	7 -> 9
+	8 -> 12
+	11 -> 8
+	11 -> 19
+	11 -> 17
+	12 -> 10
+	15 -> 4
+	16 -> 3
+	17 -> 18
+	18 -> 12
+	19 -> 20
+	20 -> 21
+	rankdir=LR
+}

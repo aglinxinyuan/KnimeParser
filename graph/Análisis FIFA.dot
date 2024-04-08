@@ -1,0 +1,59 @@
+digraph {
+	4 [label="Rule Engine"]
+	5 [label="Column Filter"]
+	6 [label="Missing Value"]
+	8 [label="File Reader"]
+	361 [label="Normalizer _PMML_"]
+	388 [label="Category To Number"]
+	3 [label="Color Manager"]
+	8 [label="Color Appender"]
+	60 [label="Decision Tree Learner"]
+	61 [label="Decision Tree Predictor"]
+	362 [label=X_Partitioner]
+	363 [label=X_Aggregator]
+	362 [label=X_Partitioner]
+	393 [label="Color Manager"]
+	394 [label="Random Forest Learner"]
+	395 [label="Color Appender"]
+	396 [label="Random Forest Predictor"]
+	397 [label=X_Aggregator]
+	362 [label=X_Partitioner]
+	363 [label=X_Aggregator]
+	384 [label="MultiLayerPerceptron Predictor"]
+	402 [label="RProp MLP Learner"]
+	403 [label="Column Splitter"]
+	403 [label="Scorer _JavaScript_"]
+	404 [label="Scorer _JavaScript_"]
+	405 [label="Scorer _JavaScript_"]
+	5 -> 6
+	6 -> 4
+	3 -> 8
+	3 -> 60
+	8 -> 61
+	60 -> 61
+	61 -> 363
+	362 -> 8
+	362 -> 3
+	362 -> 395
+	362 -> 393
+	393 -> 395
+	393 -> 394
+	394 -> 396
+	395 -> 396
+	396 -> 397
+	362 -> 403
+	362 -> 384
+	384 -> 363
+	363 -> 384
+	403 -> 362
+	4 -> 388
+	8 -> 5
+	361 -> 362
+	361 -> 362
+	361 -> 362
+	388 -> 361
+	363 -> 403
+	397 -> 404
+	363 -> 405
+	rankdir=LR
+}

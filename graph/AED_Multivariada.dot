@@ -1,0 +1,24 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Statistics]
+	3 [label="Column Filter"]
+	4 [label="Missing Value"]
+	5 [label="Color Manager"]
+	6 [label=Pivoting]
+	7 [label="Crosstab _local_"]
+	8 [label="Linear Correlation"]
+	9 [label="Bar Chart"]
+	10 [label="Conditional Box Plot _local_"]
+	11 [label="Scatter Plot"]
+	1 -> 3
+	1 -> 2
+	3 -> 4
+	4 -> 5
+	5 -> 7
+	5 -> 6
+	5 -> 8
+	5 -> 11
+	5 -> 10
+	6 -> 9
+	rankdir=LR
+}

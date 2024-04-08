@@ -1,0 +1,81 @@
+digraph {
+	4 [label="List Files_Folders"]
+	5 [label="Read Excel Sheet Names"]
+	6 [label="Row Filter"]
+	7 [label="Table Row To Variable Loop Start"]
+	10 [label="Excel Reader"]
+	11 [label="Loop End"]
+	17 [label="Table Row To Variable Loop Start"]
+	18 [label="Excel Reader"]
+	19 [label="List Files_Folders"]
+	20 [label="Path to String"]
+	26 [label="Loop End"]
+	28 [label="Reference Row Filter"]
+	24 [label="String Manipulation"]
+	25 [label="String Manipulation"]
+	31 [label=Concatenate]
+	32 [label="Missing Value"]
+	34 [label="Row Filter"]
+	51 [label="Loop End"]
+	52 [label="Table Row To Variable Loop Start"]
+	53 [label="Excel Reader"]
+	32 [label="Missing Value"]
+	34 [label="Row Filter"]
+	55 [label="Column Rename"]
+	56 [label=Concatenate]
+	57 [label=GroupBy]
+	58 [label=Rank]
+	59 [label="Row Filter"]
+	60 [label="String To Number"]
+	61 [label="Reference Row Filter"]
+	62 [label=GroupBy]
+	63 [label="Table Row To Variable Loop Start"]
+	64 [label="Row Filter"]
+	65 [label="Math Formula"]
+	66 [label="Loop End"]
+	67 [label=Rank]
+	68 [label=GroupBy]
+	69 [label="Row Filter"]
+	70 [label="Table View"]
+	24 -> 25
+	32 -> 34
+	32 -> 34
+	4 -> 52
+	5 -> 6
+	6 -> 7
+	6 -> 28
+	7 -> 10
+	10 -> 11
+	11 -> 31
+	17 -> 18
+	18 -> 26
+	19 -> 20
+	20 -> 24
+	26 -> 31
+	28 -> 17
+	25 -> 28
+	31 -> 32
+	34 -> 56
+	51 -> 32
+	52 -> 53
+	53 -> 51
+	34 -> 55
+	55 -> 56
+	56 -> 57
+	56 -> 61
+	57 -> 58
+	58 -> 59
+	59 -> 61
+	60 -> 62
+	60 -> 64
+	61 -> 60
+	62 -> 63
+	63 -> 64
+	64 -> 65
+	65 -> 66
+	66 -> 68
+	67 -> 69
+	68 -> 67
+	69 -> 70
+	rankdir=LR
+}

@@ -1,0 +1,19 @@
+digraph {
+	299 [label="CSV Reader"]
+	304 [label=k_Means]
+	305 [label="Color Manager"]
+	306 [label="Scatter Plot"]
+	307 [label="Color Manager"]
+	308 [label="Scatter Plot"]
+	309 [label=DBSCAN]
+	310 [label="Numeric Distances"]
+	299 -> 304
+	299 -> 309
+	299 -> 310
+	304 -> 305
+	305 -> 306
+	307 -> 308
+	309 -> 307
+	310 -> 309
+	rankdir=LR
+}

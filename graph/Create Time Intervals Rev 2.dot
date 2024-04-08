@@ -1,0 +1,49 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Duplicate Row Filter"]
+	21 [label="String Manipulation"]
+	22 [label="String to Date_Time"]
+	23 [label="Column Filter"]
+	24 [label="Date_Time Difference"]
+	25 [label="Moving Aggregator"]
+	26 [label="Column Expressions"]
+	27 [label="Column Filter"]
+	28 [label="Row Filter"]
+	29 [label=RowID]
+	30 [label=Joiner]
+	31 [label="Table Manipulator"]
+	82 [label="One Row to Many"]
+	83 [label="Math Formula"]
+	84 [label=Rank]
+	85 [label="Date_Time Shift"]
+	88 [label="Math Formula"]
+	89 [label="String to Number"]
+	90 [label="Date_Time to String"]
+	91 [label="Cell Splitter"]
+	92 [label="Table Manipulator"]
+	93 [label="Table View"]
+	1 -> 2
+	2 -> 21
+	21 -> 22
+	22 -> 23
+	23 -> 24
+	24 -> 25
+	25 -> 26
+	26 -> 27
+	26 -> 30
+	27 -> 28
+	28 -> 29
+	29 -> 30
+	30 -> 31
+	31 -> 89
+	82 -> 84
+	83 -> 82
+	84 -> 88
+	85 -> 90
+	88 -> 85
+	89 -> 83
+	90 -> 91
+	91 -> 92
+	92 -> 93
+	rankdir=LR
+}

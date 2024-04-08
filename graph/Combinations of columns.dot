@@ -1,0 +1,74 @@
+digraph {
+	3 [label="Table Creator"]
+	4 [label=Unpivoting]
+	5 [label="String Manipulation"]
+	6 [label=Pivoting]
+	12 [label="Python Script _1_1_ _deprecated_"]
+	16 [label="Table Row to Variable _deprecated_"]
+	20 [label="Column Filter"]
+	22 [label="Chunk Loop Start"]
+	7 [label="Extract Column Header"]
+	13 [label=Transpose]
+	15 [label="Column Rename"]
+	25 [label="Extract Table Dimension"]
+	26 [label="Table Row to Variable _deprecated_"]
+	28 [label="Math Formula"]
+	29 [label="Constant Value Column Filter"]
+	30 [label="Column Filter"]
+	43 [label="Column Filter"]
+	44 [label="Column Appender"]
+	45 [label="Column Aggregator"]
+	46 [label="Loop End _Column Append_"]
+	47 [label="Collection to String"]
+	48 [label="Column Filter"]
+	49 [label="Rule Engine"]
+	50 [label="Column Filter"]
+	52 [label="Constant Value Column Filter"]
+	54 [label="Rule Engine"]
+	56 [label="Column Aggregator"]
+	60 [label="Group Loop Start"]
+	61 [label="Loop End"]
+	62 [label="Reference Row Filter"]
+	63 [label="Reference Row Filter"]
+	64 [label="Missing Value"]
+	66 [label=Joiner]
+	7 -> 13
+	13 -> 15
+	15 -> 25
+	25 -> 28
+	28 -> 26
+	29 -> 30
+	30 -> 7
+	3 -> 4
+	4 -> 5
+	4 -> 6
+	6 -> 43
+	6 -> 48
+	6 -> 62
+	6 -> 66
+	12 -> 47
+	16 -> 20
+	20 -> 45
+	22 -> 16
+	26 -> 12
+	26 -> 12
+	43 -> 56
+	44 -> 49
+	44 -> 54
+	45 -> 44
+	46 -> 61
+	47 -> 22
+	48 -> 63
+	50 -> 46
+	52 -> 66
+	54 -> 50
+	56 -> 60
+	60 -> 29
+	60 -> 62
+	60 -> 63
+	61 -> 64
+	62 -> 20
+	63 -> 44
+	64 -> 52
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	264 [label="Simple File Reader"]
+	265 [label="Simple File Reader"]
+	305 [label=Concatenate]
+	306 [label="Cell Splitter"]
+	309 [label="Column Combiner"]
+	310 [label="Column Filter"]
+	311 [label="Column Rename"]
+	312 [label="Table Writer"]
+	313 [label="Math Formula"]
+	264 -> 305
+	265 -> 305
+	305 -> 309
+	306 -> 311
+	309 -> 306
+	310 -> 313
+	311 -> 310
+	313 -> 312
+	rankdir=LR
+}

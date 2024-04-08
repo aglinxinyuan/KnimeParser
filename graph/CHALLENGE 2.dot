@@ -1,0 +1,40 @@
+digraph {
+	2 [label="String to Date_Time"]
+	3 [label="Extract Date_Time Fields"]
+	4 [label=GroupBy]
+	5 [label="Chunk Loop Start"]
+	6 [label=Joiner]
+	7 [label=GroupBy]
+	8 [label="Chunk Loop Start"]
+	9 [label=Joiner]
+	10 [label="Table Row to Variable"]
+	14 [label="CSV Writer"]
+	16 [label="String Manipulation _Variable_"]
+	17 [label="String to Path _Variable_"]
+	18 [label="Loop End"]
+	19 [label="Loop End"]
+	20 [label="Column Filter"]
+	21 [label="CSV Reader"]
+	2 -> 3
+	3 -> 6
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	5 -> 19
+	6 -> 7
+	6 -> 9
+	7 -> 8
+	8 -> 9
+	8 -> 10
+	8 -> 18
+	9 -> 20
+	10 -> 9
+	10 -> 16
+	14 -> 18
+	16 -> 17
+	17 -> 14
+	18 -> 19
+	20 -> 14
+	21 -> 2
+	rankdir=LR
+}

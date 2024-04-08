@@ -1,0 +1,12 @@
+digraph {
+	2 [label="CSV Reader"]
+	4 [label="Missing Value"]
+	5 [label="Row Filter"]
+	6 [label="Rule Engine"]
+	8 [label="2D Density Plot _Plotly_"]
+	2 -> 4
+	4 -> 6
+	5 -> 8
+	6 -> 5
+	rankdir=LR
+}

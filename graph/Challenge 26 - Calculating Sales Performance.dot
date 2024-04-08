@@ -1,0 +1,21 @@
+digraph {
+	8 [label="Math Formula"]
+	9 [label="Lag Column"]
+	10 [label="Column List Loop Start"]
+	13 [label="String Manipulation _Variable_"]
+	15 [label="Column Filter"]
+	16 [label="Loop End _Column Append_"]
+	17 [label="CSV Reader"]
+	18 [label="Column Renamer"]
+	20 [label="Column Renamer"]
+	8 -> 13
+	8 -> 20
+	9 -> 8
+	10 -> 18
+	13 -> 20
+	15 -> 16
+	17 -> 10
+	18 -> 9
+	20 -> 15
+	rankdir=LR
+}

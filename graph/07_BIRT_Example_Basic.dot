@@ -1,0 +1,30 @@
+digraph {
+	9 [label="Row Filter"]
+	10 [label="Data to Report"]
+	11 [label="Column Filter"]
+	14 [label="Scatter Plot _JavaScript_"]
+	16 [label="Color Manager"]
+	17 [label="Image to Report"]
+	19 [label="CSV Reader"]
+	20 [label="Math Formula"]
+	21 [label="String To Number"]
+	22 [label="String To Number"]
+	23 [label="Math Formula"]
+	24 [label="Data to Report"]
+	25 [label="Bar Chart"]
+	26 [label="Bar Chart"]
+	9 -> 11
+	11 -> 22
+	11 -> 21
+	14 -> 17
+	16 -> 14
+	19 -> 16
+	19 -> 9
+	20 -> 10
+	20 -> 25
+	21 -> 20
+	22 -> 23
+	23 -> 24
+	23 -> 26
+	rankdir=LR
+}

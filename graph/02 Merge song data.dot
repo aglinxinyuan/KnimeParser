@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="List Files_Folders"]
+	3 [label="String Manipulation"]
+	4 [label="String To Number"]
+	5 [label="Column Filter"]
+	6 [label="Column Appender"]
+	7 [label="File Reader"]
+	9 [label=Joiner]
+	10 [label="Duplicate Row Filter"]
+	12 [label="Table Writer"]
+	13 [label="Column Renamer"]
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	7 -> 6
+	1 -> 9
+	8 -> 9
+	9 -> 13
+	10 -> 12
+	13 -> 10
+	rankdir=LR
+}

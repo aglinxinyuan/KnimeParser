@@ -1,0 +1,40 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Sampling"]
+	3 [label="Strings To Document"]
+	4 [label="Case Converter"]
+	5 [label="Punctuation Erasure"]
+	6 [label="Number Filter"]
+	7 [label="Porter Stemmer"]
+	8 [label="Stop Word Filter"]
+	9 [label="Bag Of Words Creator"]
+	10 [label=TF]
+	11 [label=IDF]
+	12 [label="Column Expressions"]
+	13 [label="Document Vector"]
+	14 [label="Category To Class"]
+	15 [label=RowID]
+	16 [label="Numeric Distances"]
+	17 [label="Hierarchical Clustering _DistMatrix_"]
+	18 [label="Hierarchical Cluster View"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 18
+	15 -> 17
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	rankdir=LR
+}

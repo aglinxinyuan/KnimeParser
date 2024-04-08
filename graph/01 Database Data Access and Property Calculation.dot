@@ -1,0 +1,20 @@
+digraph {
+	16 [label="Column Rename _Regex_"]
+	214 [label="SQLite Connector"]
+	216 [label="DB Table Selector"]
+	217 [label="DB Pivot"]
+	294 [label="Parallel Coordinates Plot"]
+	295 [label="Tile View"]
+	297 [label="Color Manager"]
+	305 [label="Interactive Range Slider Filter Widget"]
+	445 [label="Filter Apply"]
+	447 [label="Table Writer"]
+	214 -> 216
+	295 -> 445
+	297 -> 305
+	305 -> 295
+	305 -> 294
+	305 -> 445
+	445 -> 447
+	rankdir=LR
+}

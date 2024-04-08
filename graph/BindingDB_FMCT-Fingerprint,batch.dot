@@ -1,0 +1,83 @@
+digraph {
+	861 [label="Double Input"]
+	862 [label="Double Input"]
+	1143 [label="Table Reader"]
+	618 [label=Sorter]
+	619 [label="Row Filter"]
+	816 [label="RDKit Fingerprint"]
+	822 [label="Round Double"]
+	828 [label="RDKit From Molecule"]
+	830 [label=MolConverter]
+	831 [label="Column Filter"]
+	1090 [label="Molecule Type Cast"]
+	1094 [label="Column Resorter"]
+	1099 [label="Parallel Chunk Start"]
+	1103 [label="Parallel Chunk End"]
+	1110 [label="Chunk Loop Start"]
+	1112 [label="Loop End"]
+	1118 [label=Joiner]
+	1119 [label="Row Filter"]
+	1132 [label="Column Rename _Regex_"]
+	1133 [label="Loop End _Column Append_"]
+	1134 [label=RowID]
+	1135 [label=Joiner]
+	1141 [label=RowID]
+	1142 [label="Column Rename"]
+	1148 [label="RDKit From Molecule"]
+	1149 [label="RDKit From Molecule"]
+	1150 [label="RDKit From Molecule"]
+	1160 [label="Java Snippet _simple_"]
+	1164 [label="Column Rename"]
+	1166 [label="Table Creator"]
+	1167 [label="Chunk Loop Start"]
+	1171 [label=GroupBy]
+	1172 [label="Column Aggregator"]
+	1179 [label="Similarity Search"]
+	1185 [label="Missing Value"]
+	1187 [label="Rule_based Row Filter"]
+	1211 [label="SDF Reader"]
+	1212 [label="Interactive Table"]
+	618 -> 822
+	618 -> 1119
+	619 -> 1172
+	816 -> 1135
+	816 -> 1179
+	816 -> 1179
+	822 -> 1110
+	828 -> 816
+	828 -> 816
+	830 -> 828
+	830 -> 828
+	831 -> 1179
+	1090 -> 830
+	1094 -> 1112
+	1099 -> 1167
+	1110 -> 1134
+	1112 -> 1103
+	1118 -> 1142
+	1119 -> 822
+	1132 -> 1118
+	1133 -> 1132
+	1134 -> 1133
+	1135 -> 1141
+	1141 -> 1118
+	1142 -> 1094
+	1148 -> 1149
+	1149 -> 1150
+	1150 -> 1135
+	1160 -> 1171
+	1164 -> 1185
+	1166 -> 1148
+	1167 -> 1090
+	1171 -> 618
+	1172 -> 1164
+	1179 -> 619
+	1185 -> 1160
+	1187 -> 831
+	861 -> 1099
+	862 -> 1099
+	1143 -> 1099
+	1103 -> 1212
+	1211 -> 1099
+	rankdir=LR
+}

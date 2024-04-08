@@ -1,0 +1,160 @@
+digraph {
+	32 [label="Extract Table Dimension"]
+	57 [label="CSV Reader"]
+	6 [label="Column Filter"]
+	39 [label="String to Date_Time"]
+	46 [label="String Manipulation"]
+	47 [label="Cell Splitter"]
+	51 [label="Rule Engine"]
+	53 [label="String Manipulation _Multi Column_"]
+	54 [label="String To Number"]
+	55 [label="Rule Engine"]
+	56 [label="String Manipulation _Multi Column_"]
+	57 [label="String Manipulation _Multi Column_"]
+	58 [label="Python Script"]
+	60 [label="Interactive Table _local_"]
+	14 [label="Math Formula"]
+	15 [label="Missing Value Column Filter"]
+	24 [label=Statistics]
+	25 [label=Sorter]
+	26 [label="Column Filter"]
+	27 [label=Sorter]
+	28 [label="Row Filter"]
+	33 [label="Row Filter"]
+	77 [label="Row Filter"]
+	96 [label="Missing Value"]
+	101 [label="Missing Value"]
+	19 [label="Box Plot"]
+	20 [label="Box Plot"]
+	21 [label="Box Plot"]
+	22 [label="Box Plot"]
+	31 [label="Box Plot"]
+	32 [label="Box Plot"]
+	40 [label="Box Plot"]
+	41 [label="Box Plot"]
+	42 [label="Box Plot"]
+	33 [label="Interactive Pie chart _local_"]
+	34 [label="Color Manager"]
+	38 [label="Bar Chart"]
+	50 [label="Color Manager"]
+	51 [label="Interactive Histogram _local_"]
+	53 [label="Interactive Pie chart _local_"]
+	55 [label="Color Manager"]
+	57 [label="Interactive Histogram _local_"]
+	59 [label="Interactive Pie chart _local_"]
+	60 [label="Color Manager"]
+	61 [label="Color Manager"]
+	62 [label="Interactive Pie chart _local_"]
+	64 [label="Interactive Pie chart _local_"]
+	66 [label="Color Manager"]
+	67 [label="Color Manager"]
+	68 [label="Interactive Histogram _local_"]
+	71 [label="Interactive Histogram _local_"]
+	73 [label="Color Manager"]
+	74 [label="Color Manager"]
+	81 [label="Box Plot"]
+	82 [label="Interactive Histogram _local_"]
+	87 [label="Interactive Histogram _local_"]
+	88 [label="Color Manager"]
+	89 [label="Color Manager"]
+	90 [label="Interactive Histogram _local_"]
+	91 [label="Color Manager"]
+	92 [label="Interactive Pie chart _local_"]
+	93 [label="Color Manager"]
+	94 [label="Interactive Histogram _local_"]
+	97 [label="Box Plot"]
+	99 [label="Color Manager"]
+	100 [label="Color Manager"]
+	101 [label="Interactive Pie chart _local_"]
+	102 [label="Interactive Pie chart _local_"]
+	103 [label="Box Plot"]
+	106 [label="Interactive Pie chart _local_"]
+	107 [label="Box Plot"]
+	110 [label="Color Manager"]
+	111 [label="Interactive Pie chart _local_"]
+	113 [label="Box Plot"]
+	1 [label="Linear Correlation"]
+	2 [label="One_way ANOVA"]
+	3 [label="Scatter Matrix _local_"]
+	97 [label="Column Filter"]
+	40 [label="Date_Time Difference"]
+	55 [label="Python Script"]
+	69 [label="Column Expressions"]
+	73 [label="Rule Engine"]
+	76 [label="String Manipulation"]
+	84 [label="Numeric Binner"]
+	87 [label="Numeric Binner"]
+	90 [label="Numeric Binner"]
+	93 [label="Numeric Binner"]
+	98 [label="Numeric Binner"]
+	105 [label="Rule Engine"]
+	111 [label="Column Rename"]
+	2 [label="Linear Regression Learner"]
+	3 [label="Regression Predictor"]
+	4 [label="Numeric Scorer"]
+	1 [label="Random Forest Learner _Regression_"]
+	2 [label="Random Forest Predictor _Regression_"]
+	3 [label="Numeric Scorer"]
+	67 [label=Partitioning]
+	6 -> 46
+	39 -> 54
+	46 -> 53
+	47 -> 51
+	51 -> 55
+	53 -> 56
+	55 -> 39
+	56 -> 57
+	57 -> 6
+	54 -> 47
+	14 -> 25
+	24 -> 14
+	26 -> 27
+	28 -> 77
+	77 -> 101
+	96 -> 15
+	101 -> 96
+	34 -> 33
+	50 -> 51
+	55 -> 53
+	60 -> 59
+	15 -> 96
+	66 -> 64
+	67 -> 68
+	73 -> 57
+	74 -> 38
+	74 -> 38
+	88 -> 87
+	89 -> 90
+	91 -> 92
+	93 -> 94
+	99 -> 101
+	100 -> 102
+	110 -> 111
+	40 -> 84
+	55 -> 40
+	69 -> 73
+	73 -> 76
+	76 -> 105
+	84 -> 87
+	87 -> 90
+	90 -> 93
+	93 -> 98
+	98 -> 69
+	105 -> 111
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	2 -> 3
+	57 -> 6
+	57 -> 60
+	57 -> 32
+	54 -> 33
+	15 -> 55
+	97 -> 67
+	111 -> 96
+	67 -> 66
+	67 -> 66
+	67 -> 65
+	67 -> 65
+	rankdir=LR
+}

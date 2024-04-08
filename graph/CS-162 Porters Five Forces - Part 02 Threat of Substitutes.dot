@@ -1,0 +1,40 @@
+digraph {
+	1 [label="Customer Distributions"]
+	4 [label="Table Creator"]
+	5 [label="Customer Distributions"]
+	6 [label="Product Generator"]
+	7 [label="Simulate Market"]
+	8 [label="Customer Distributions"]
+	9 [label="Math Formula _Multi Column_"]
+	12 [label="Table Creator"]
+	13 [label="Feature Table To List"]
+	14 [label="Column Filter"]
+	15 [label="Column Filter"]
+	16 [label="Table Creator"]
+	17 [label="Simulate Market"]
+	18 [label="Feature Table To List"]
+	19 [label="Product Generator"]
+	20 [label=GroupBy]
+	21 [label="Row Filter"]
+	22 [label="Column Appender"]
+	1 -> 5
+	4 -> 8
+	5 -> 6
+	6 -> 7
+	6 -> 14
+	7 -> 22
+	8 -> 9
+	9 -> 22
+	12 -> 13
+	13 -> 6
+	14 -> 7
+	15 -> 17
+	16 -> 18
+	17 -> 21
+	18 -> 19
+	19 -> 17
+	19 -> 15
+	21 -> 20
+	22 -> 19
+	rankdir=LR
+}

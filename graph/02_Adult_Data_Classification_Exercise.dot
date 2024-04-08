@@ -1,0 +1,28 @@
+digraph {
+	160 [label="Normalizer _Apply_"]
+	161 [label=Partitioning]
+	162 [label="Normalizer _Apply_"]
+	165 [label=Partitioning]
+	166 [label=Normalizer]
+	168 [label="Rule Engine"]
+	169 [label="Rule Engine"]
+	18 [label="Cell Replacer _deprecated_"]
+	157 [label="Missing Value"]
+	159 [label="Category To Number"]
+	180 [label="CSV Reader"]
+	181 [label="Excel Reader"]
+	161 -> 160
+	161 -> 169
+	165 -> 161
+	165 -> 168
+	166 -> 162
+	166 -> 160
+	168 -> 166
+	169 -> 162
+	18 -> 157
+	157 -> 159
+	159 -> 165
+	180 -> 18
+	181 -> 18
+	rankdir=LR
+}

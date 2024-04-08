@@ -1,0 +1,31 @@
+digraph {
+	1 [label="GeoFile Reader"]
+	2 [label="Geospatial View"]
+	3 [label="Math Formula"]
+	4 [label="Euclidean Distance"]
+	5 [label=Joiner]
+	6 [label="Rule_based Row Filter"]
+	7 [label=GroupBy]
+	8 [label="Math Formula"]
+	9 [label=Joiner]
+	10 [label="Geospatial View"]
+	11 [label="Double Configuration"]
+	12 [label="Spatial Heatmap"]
+	13 [label="Timer Info"]
+	1 -> 3
+	1 -> 2
+	1 -> 12
+	3 -> 5
+	3 -> 4
+	3 -> 4
+	3 -> 9
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 13
+	11 -> 6
+	rankdir=LR
+}

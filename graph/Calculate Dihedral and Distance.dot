@@ -1,0 +1,76 @@
+digraph {
+	1 [label="SDF Reader"]
+	2 [label="Python Script"]
+	17 [label="RDKit From Molecule"]
+	18 [label="Conda Environment Propagation"]
+	1352 [label="Column Splitter"]
+	1360 [label="Chunk Loop Start"]
+	14 [label=Ungroup]
+	20 [label="Cell Splitter"]
+	1353 [label="Row Splitter"]
+	15 [label="Row Filter"]
+	1354 [label="Row Filter"]
+	1355 [label="Counter Generation"]
+	1356 [label=Sorter]
+	1357 [label=Sorter]
+	1358 [label="Column Filter"]
+	1362 [label="Counter Generation"]
+	1363 [label="Row Filter"]
+	1364 [label="Table Column to Variable"]
+	1365 [label=RowID]
+	1367 [label="Cell Splitter"]
+	1369 [label="String Manipulation"]
+	1371 [label="Table Manipulator"]
+	1373 [label="Row Splitter"]
+	1375 [label=Joiner]
+	1376 [label="Row Filter"]
+	1377 [label=RowID]
+	1378 [label=RowID]
+	1379 [label="Table Manipulator"]
+	1380 [label="Table Row to Variable"]
+	1381 [label="Math Formula _Variable_"]
+	1382 [label="Math Formula _Variable_"]
+	1383 [label="Merge Variables"]
+	1384 [label="Math Formula _Multi Column_"]
+	1385 [label="Column Filter"]
+	1386 [label="Loop End"]
+	15 -> 1355
+	1354 -> 1357
+	1355 -> 1356
+	1356 -> 1354
+	1357 -> 1358
+	14 -> 15
+	20 -> 14
+	1353 -> 1369
+	1353 -> 1362
+	1358 -> 1353
+	1362 -> 1363
+	1363 -> 1365
+	1364 -> 1373
+	1364 -> 1381
+	1365 -> 1364
+	1367 -> 1371
+	1369 -> 1367
+	1371 -> 1373
+	1373 -> 1376
+	1373 -> 1378
+	1375 -> 1379
+	1376 -> 1377
+	1377 -> 1375
+	1378 -> 1375
+	1379 -> 20
+	1380 -> 1383
+	1381 -> 1382
+	1382 -> 1383
+	1383 -> 1380
+	1 -> 1360
+	2 -> 1385
+	17 -> 2
+	18 -> 2
+	1352 -> 20
+	1352 -> 17
+	1360 -> 1352
+	1383 -> 17
+	1385 -> 1386
+	rankdir=LR
+}

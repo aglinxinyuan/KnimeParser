@@ -1,0 +1,60 @@
+digraph {
+	163 [label="Document Vector"]
+	20 [label="Row Filter"]
+	128 [label="Column Filter"]
+	133 [label="Table Reader"]
+	163 [label="Row Filter"]
+	164 [label="WrappedNode Input"]
+	165 [label="WrappedNode Output"]
+	166 [label="Strings To Document"]
+	33 [label="WrappedNode Input"]
+	34 [label="WrappedNode Output"]
+	35 [label="POS tagger"]
+	112 [label="Case converter"]
+	113 [label="Snowball Stemmer"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	117 [label="WrappedNode Input"]
+	118 [label="WrappedNode Output"]
+	120 [label="Tag Filter"]
+	139 [label="Stop Word Filter"]
+	10 [label="Bag of Words Creator"]
+	178 [label=TF]
+	181 [label="WrappedNode Input"]
+	182 [label="WrappedNode Output"]
+	182 [label=Partitioning]
+	10 [label="Bag Of Words Creator"]
+	178 [label=TF]
+	181 [label="WrappedNode Input"]
+	182 [label="WrappedNode Output"]
+	184 [label="Document Vector Applier"]
+	20 -> 166
+	128 -> 165
+	133 -> 20
+	163 -> 128
+	166 -> 163
+	33 -> 35
+	35 -> 34
+	112 -> 113
+	113 -> 120
+	115 -> 116
+	116 -> 139
+	117 -> 115
+	120 -> 118
+	139 -> 112
+	10 -> 178
+	178 -> 182
+	181 -> 10
+	10 -> 178
+	178 -> 182
+	181 -> 10
+	163 -> 184
+	164 -> 168
+	168 -> 169
+	169 -> 182
+	181 -> 163
+	182 -> 183
+	182 -> 181
+	183 -> 184
+	rankdir=LR
+}

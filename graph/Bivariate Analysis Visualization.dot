@@ -1,0 +1,26 @@
+digraph {
+	10 [label="Scatter Plot"]
+	77 [label="Column Filter"]
+	90 [label="Table Reader"]
+	91 [label="Scatter Plot _local_"]
+	92 [label="Scatter Plot _Plotly_"]
+	93 [label="Scatter Plot"]
+	94 [label="Line Plot"]
+	95 [label="Line Plot _Plotly_"]
+	96 [label="Line Plot"]
+	97 [label="Line Chart _JFreeChart_"]
+	98 [label=Sorter]
+	99 [label="Counter Generation"]
+	77 -> 10
+	77 -> 91
+	77 -> 92
+	77 -> 93
+	77 -> 98
+	90 -> 77
+	98 -> 99
+	99 -> 95
+	99 -> 96
+	99 -> 94
+	99 -> 97
+	rankdir=LR
+}

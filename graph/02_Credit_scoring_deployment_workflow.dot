@@ -1,0 +1,36 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="Model Reader"]
+	3 [label="XGBoost Predictor"]
+	13 [label="Rule_based Row Filter"]
+	161 [label="Rule Engine"]
+	162 [label="String to Number"]
+	227 [label="String to Number"]
+	229 [label="Row Filter"]
+	230 [label="Rule_based Row Filter"]
+	231 [label="Rule_based Row Filter"]
+	235 [label="Numeric Outliers _Apply_"]
+	236 [label="Numeric Outliers _Apply_"]
+	237 [label="Missing Value _Apply_"]
+	323 [label="Model Reader"]
+	324 [label="Model Reader"]
+	325 [label="Model Reader"]
+	327 [label="Table Writer"]
+	13 -> 230
+	161 -> 236
+	162 -> 161
+	227 -> 235
+	229 -> 162
+	230 -> 231
+	235 -> 237
+	236 -> 13
+	237 -> 229
+	1 -> 227
+	2 -> 3
+	3 -> 327
+	231 -> 3
+	326 -> 227
+	326 -> 227
+	326 -> 227
+	rankdir=LR
+}

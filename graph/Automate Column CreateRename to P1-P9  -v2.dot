@@ -1,0 +1,29 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Unpivoting]
+	3 [label="String Manipulation"]
+	6 [label="Rule Engine"]
+	8 [label="String to Date_Time"]
+	10 [label="Group Loop Start"]
+	11 [label="String Manipulation"]
+	12 [label="Loop End"]
+	13 [label="Column Filter"]
+	14 [label=Pivoting]
+	15 [label="Reference Column Resorter"]
+	16 [label="Duplicate Row Filter"]
+	17 [label="Column Rename _Regex_"]
+	1 -> 2
+	2 -> 6
+	3 -> 8
+	6 -> 3
+	8 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	13 -> 16
+	14 -> 15
+	15 -> 17
+	16 -> 15
+	rankdir=LR
+}

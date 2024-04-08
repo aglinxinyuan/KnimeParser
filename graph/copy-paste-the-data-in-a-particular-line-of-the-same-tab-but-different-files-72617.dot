@@ -1,0 +1,13 @@
+digraph {
+	1 [label="List Files_Folders"]
+	2 [label="Table Row To Variable Loop Start"]
+	3 [label="Excel Reader"]
+	4 [label="Table Cropper"]
+	5 [label="Loop End"]
+	6 [label="Excel Reader"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	4 [label="Constant Value Column"]
+	5 [label="Constant Value Column"]
+	6 [label=Concatenate]
+	7 [label=GroupBy]
+	8 [label="Column Renamer"]
+	9 [label="Math Formula"]
+	10 [label="Table Creator"]
+	11 [label=GroupBy]
+	12 [label="Math Formula"]
+	13 [label="Column Renamer"]
+	14 [label=Joiner]
+	15 [label="Rule Engine"]
+	16 [label="Column Rename _Regex_"]
+	17 [label="Math Formula"]
+	18 [label="Missing Value"]
+	1 -> 5
+	2 -> 4
+	4 -> 6
+	5 -> 6
+	6 -> 9
+	7 -> 8
+	8 -> 14
+	9 -> 7
+	10 -> 12
+	11 -> 13
+	12 -> 11
+	13 -> 16
+	14 -> 18
+	16 -> 14
+	17 -> 15
+	18 -> 17
+	rankdir=LR
+}

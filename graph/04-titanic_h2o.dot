@@ -1,0 +1,92 @@
+digraph {
+	5 [label="Data Explorer"]
+	7 [label=Partitioning]
+	8 [label="Decision Tree Learner"]
+	9 [label="Decision Tree Predictor"]
+	12 [label="ROC Curve _local_"]
+	30 [label=Normalizer]
+	53 [label="Scorer _JavaScript_"]
+	62 [label="One to Many"]
+	63 [label="Binary Classification Inspector"]
+	65 [label="Number To String"]
+	67 [label="Column Filter"]
+	68 [label="Missing Value"]
+	69 [label="Missing Value Column Filter"]
+	71 [label="CSV Reader"]
+	72 [label="Color Manager"]
+	73 [label="Scatter Plot"]
+	74 [label="Rule Engine"]
+	75 [label="Math Formula"]
+	76 [label="Math Formula"]
+	77 [label="String Manipulation"]
+	78 [label="Rule Engine"]
+	79 [label="Column Filter"]
+	86 [label=Joiner]
+	88 [label=Joiner]
+	89 [label=Joiner]
+	90 [label="Column Rename"]
+	91 [label="Column Rename"]
+	92 [label="Column Rename"]
+	93 [label="Column Rename"]
+	95 [label="Column Rename"]
+	96 [label=Joiner]
+	98 [label="Table to H2O"]
+	99 [label="H2O Local Context"]
+	100 [label="H2O AutoML Learner"]
+	101 [label="H2O Predictor _Classification_"]
+	103 [label="H2O Partitioning"]
+	104 [label="H2O Gradient Boosting Machine Learner"]
+	106 [label="H2O Model to MOJO"]
+	109 [label="H2O Predictor _Classification_"]
+	111 [label="H2O Partitioning"]
+	113 [label="H2O to Table"]
+	114 [label=Scorer]
+	115 [label=Scorer]
+	116 [label="H2O to Table"]
+	117 [label="ROC Curve"]
+	118 [label="H2O Binomial Scorer"]
+	86 -> 88
+	88 -> 89
+	89 -> 96
+	90 -> 86
+	91 -> 86
+	92 -> 88
+	93 -> 89
+	95 -> 96
+	7 -> 9
+	7 -> 8
+	8 -> 9
+	9 -> 12
+	9 -> 91
+	9 -> 53
+	62 -> 30
+	65 -> 69
+	65 -> 72
+	67 -> 68
+	68 -> 75
+	71 -> 5
+	71 -> 65
+	72 -> 73
+	72 -> 67
+	74 -> 7
+	74 -> 98
+	74 -> 62
+	75 -> 76
+	76 -> 77
+	77 -> 78
+	78 -> 79
+	79 -> 74
+	96 -> 63
+	98 -> 103
+	98 -> 111
+	100 -> 101
+	101 -> 113
+	104 -> 106
+	104 -> 109
+	109 -> 116
+	109 -> 118
+	113 -> 114
+	116 -> 117
+	116 -> 115
+	rankdir=LR
+}

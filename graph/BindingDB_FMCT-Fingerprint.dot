@@ -1,0 +1,46 @@
+digraph {
+	861 [label="Double Input"]
+	862 [label="Double Input"]
+	619 [label="Row Filter"]
+	620 [label="Column Filter"]
+	816 [label="RDKit Fingerprint"]
+	828 [label="RDKit From Molecule"]
+	831 [label="Column Filter"]
+	832 [label="Column Resorter"]
+	1165 [label=Sorter]
+	1167 [label="Round Double"]
+	1168 [label=GroupBy]
+	1177 [label="Row Filter"]
+	1178 [label=Sorter]
+	1179 [label="Similarity Search"]
+	1182 [label="Column Aggregator"]
+	1183 [label="Column Rename"]
+	1185 [label="Missing Value"]
+	1186 [label="Java Snippet _simple_"]
+	1187 [label="Rule_based Row Filter"]
+	868 [label=MarvinView]
+	876 [label="Table Reader"]
+	1208 [label=MarvinSketch]
+	619 -> 1178
+	620 -> 619
+	816 -> 1179
+	828 -> 816
+	831 -> 1179
+	1165 -> 1167
+	1167 -> 832
+	1168 -> 1165
+	1177 -> 1182
+	1178 -> 1177
+	1179 -> 620
+	1182 -> 1183
+	1183 -> 1185
+	1185 -> 1186
+	1186 -> 1168
+	1187 -> 831
+	861 -> 1187
+	862 -> 1187
+	832 -> 868
+	876 -> 1187
+	1208 -> 1187
+	rankdir=LR
+}

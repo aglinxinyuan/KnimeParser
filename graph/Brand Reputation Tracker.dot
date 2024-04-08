@@ -1,0 +1,115 @@
+digraph {
+	4 [label=Sorter]
+	6 [label=Pivoting]
+	8 [label="Column Filter"]
+	18 [label="Math Formula"]
+	19 [label="Math Formula"]
+	20 [label="Math Formula"]
+	21 [label="Math Formula"]
+	22 [label="Column Filter"]
+	24 [label="Math Formula"]
+	508 [label="Constant Value Column Filter"]
+	451 [label=Transpose]
+	460 [label="Extract Column Header"]
+	461 [label="Line Plot"]
+	462 [label="Color Manager"]
+	1 [label="Strings To Document"]
+	3 [label="Porter Stemmer"]
+	7 [label="Tag Filter"]
+	8 [label="Bag Of Words Creator"]
+	2 [label="Table Creator"]
+	4 [label="Dictionary Tagger"]
+	6 [label="Dictionary Tagger"]
+	7 [label="Table Creator"]
+	8 [label="Dictionary Tagger"]
+	9 [label="Dictionary Tagger"]
+	10 [label="Dictionary Tagger"]
+	11 [label="Dictionary Tagger"]
+	12 [label="Table Creator"]
+	13 [label="Dictionary Tagger"]
+	14 [label="Dictionary Tagger"]
+	15 [label="Table Creator"]
+	486 [label="Line Plot"]
+	488 [label="Twitter Search"]
+	496 [label=Normalizer]
+	498 [label="Row Filter"]
+	499 [label="CSV Reader"]
+	467 [label="Row Filter"]
+	479 [label="String to Date_Time"]
+	500 [label="Tika Language Detector"]
+	501 [label="Row Filter"]
+	503 [label="Duplicate Row Filter"]
+	9 [label=TF]
+	11 [label="Tags To String"]
+	12 [label=Pivoting]
+	16 [label="Missing Value"]
+	17 [label="Column Rename"]
+	20 [label="Extract Date_Time Fields"]
+	23 [label="Table Creator"]
+	24 [label=Concatenate]
+	25 [label="Row Filter"]
+	26 [label=GroupBy]
+	27 [label=Joiner]
+	29 [label="Row Filter"]
+	507 [label="Twitter API Connector"]
+	508 [label="Domain Calculator"]
+	18 -> 18
+	508 -> 20
+	20 -> 21
+	21 -> 22
+	22 -> 24
+	24 -> 508
+	2 -> 6
+	2 -> 4
+	4 -> 6
+	6 -> 8
+	7 -> 9
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 14
+	12 -> 10
+	12 -> 11
+	14 -> 13
+	13 -> 14
+	13 -> 13
+	1 -> 3
+	3 -> 4
+	7 -> 8
+	13 -> 7
+	467 -> 500
+	479 -> 11
+	500 -> 501
+	501 -> 479
+	9 -> 20
+	11 -> 29
+	12 -> 27
+	16 -> 17
+	20 -> 26
+	20 -> 12
+	23 -> 24
+	24 -> 25
+	25 -> 16
+	26 -> 27
+	27 -> 24
+	29 -> 9
+	4 -> 498
+	6 -> 461
+	6 -> 8
+	8 -> 460
+	508 -> 496
+	451 -> 508
+	460 -> 451
+	462 -> 461
+	8 -> 11
+	488 -> 467
+	496 -> 486
+	498 -> 6
+	499 -> 4
+	17 -> 1
+	17 -> 18
+	507 -> 488
+	508 -> 462
+	rankdir=LR
+}

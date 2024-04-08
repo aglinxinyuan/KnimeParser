@@ -1,0 +1,18 @@
+digraph {
+	2132 [label="Webpage Retriever"]
+	2133 [label=XPath]
+	2137 [label="String To Number"]
+	2155 [label="Create Date_Time Range"]
+	2156 [label="Constant Value Column"]
+	2157 [label="CSV Writer"]
+	2163 [label="CSV Reader"]
+	2166 [label="String to Date_Time"]
+	2132 -> 2133
+	2133 -> 2137
+	2137 -> 2157
+	2155 -> 2156
+	2156 -> 2132
+	2157 -> 2163
+	2163 -> 2166
+	rankdir=LR
+}

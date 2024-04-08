@@ -1,0 +1,52 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	5 [label="Excel Reader"]
+	6 [label="Extract Date_Time Fields"]
+	19 [label="String Manipulation"]
+	20 [label="String Manipulation"]
+	21 [label="Math Formula"]
+	22 [label="Rule Engine"]
+	23 [label="Math Formula"]
+	24 [label="String to Date_Time"]
+	26 [label="Table Editor"]
+	30 [label="DB Writer"]
+	35 [label=Joiner]
+	36 [label=Joiner]
+	37 [label=Joiner]
+	38 [label="Extract Date_Time Fields"]
+	39 [label="Excel Reader"]
+	40 [label="Excel Reader"]
+	41 [label="Table Reader"]
+	42 [label="CSV Reader"]
+	43 [label="SQLite Connector"]
+	41 [label="DB GroupBy"]
+	42 [label="DB GroupBy"]
+	43 [label="DB Table Selector"]
+	44 [label="DB Row Filter"]
+	45 [label="DB Row Filter"]
+	19 -> 20
+	20 -> 24
+	21 -> 22
+	22 -> 35
+	23 -> 21
+	24 -> 26
+	26 -> 37
+	35 -> 36
+	36 -> 30
+	37 -> 36
+	38 -> 35
+	39 -> 23
+	40 -> 38
+	41 -> 37
+	42 -> 19
+	43 -> 30
+	1 -> 2
+	5 -> 6
+	40 -> 43
+	43 -> 42
+	43 -> 41
+	43 -> 44
+	43 -> 45
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	6 [label="Scatter Plot _JavaScript_"]
+	7 [label="Data Generator"]
+	8 [label="Color Manager"]
+	592 [label="Box Plot _JavaScript_"]
+	593 [label="Conditional Box Plot _JavaScript_"]
+	7 -> 593
+	7 -> 592
+	7 -> 8
+	8 -> 6
+	rankdir=LR
+}

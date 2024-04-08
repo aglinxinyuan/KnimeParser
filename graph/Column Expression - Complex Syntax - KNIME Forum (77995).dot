@@ -1,0 +1,19 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Row Splitter"]
+	3 [label="Column Auto Type Cast"]
+	4 [label="Column Renamer _Dictionary_"]
+	5 [label="Table Transposer"]
+	6 [label="Column Expressions"]
+	7 [label="Table Writer"]
+	8 [label="Table Writer"]
+	1 -> 2
+	2 -> 3
+	2 -> 5
+	3 -> 4
+	4 -> 6
+	4 -> 7
+	5 -> 4
+	6 -> 8
+	rankdir=LR
+}

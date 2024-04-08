@@ -1,0 +1,44 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label=Joiner]
+	5 [label=Joiner]
+	6 [label="Column Filter"]
+	7 [label="Row Filter"]
+	8 [label="Python Script"]
+	9 [label="CSV Reader"]
+	11 [label="String to Date_Time"]
+	12 [label="Date_Time_based Row Filter"]
+	13 [label="UNIX Timestamp to Date_Time"]
+	16 [label="Python Script"]
+	18 [label="Date_Time_based Row Filter"]
+	19 [label=Joiner]
+	21 [label="Line Plot"]
+	22 [label=Normalizer]
+	23 [label="Python Script"]
+	26 [label="CSV Writer"]
+	54 [label="Python Script"]
+	55 [label="Create Table Structure"]
+	56 [label="Python Script"]
+	1 -> 5
+	2 -> 5
+	3 -> 4
+	4 -> 6
+	5 -> 4
+	6 -> 7
+	7 -> 13
+	9 -> 11
+	11 -> 12
+	12 -> 19
+	13 -> 16
+	16 -> 18
+	18 -> 23
+	19 -> 22
+	22 -> 21
+	23 -> 19
+	54 -> 56
+	55 -> 54
+	56 -> 26
+	rankdir=LR
+}

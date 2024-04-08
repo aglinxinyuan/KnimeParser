@@ -1,0 +1,67 @@
+digraph {
+	10 [label="Excel Reader"]
+	37 [label="Extract Date_Time Fields"]
+	44 [label="Duplicate Row Filter"]
+	54 [label="Table Manipulator"]
+	72 [label="Association Rule Learner"]
+	74 [label="Create Bit Vector"]
+	79 [label="One to Many"]
+	120 [label=Sorter]
+	121 [label="Row Filter"]
+	152 [label=Partitioning]
+	153 [label=Sorter]
+	154 [label=Sorter]
+	155 [label="Row Filter"]
+	156 [label="Row Filter"]
+	157 [label="Column Filter"]
+	158 [label="Column Filter"]
+	159 [label="Logistic Regression Learner"]
+	160 [label="Logistic Regression Predictor"]
+	161 [label=Scorer]
+	162 [label="Decision Tree Learner"]
+	163 [label="Decision Tree View"]
+	164 [label="Decision Tree Predictor"]
+	165 [label=Scorer]
+	166 [label="Row Filter"]
+	167 [label="Row Filter"]
+	168 [label="Linear Regression Learner"]
+	169 [label="Numeric Scorer"]
+	170 [label="Regression Predictor"]
+	171 [label="Row Filter"]
+	172 [label=Partitioning]
+	173 [label="Row Filter"]
+	10 -> 54
+	37 -> 173
+	44 -> 37
+	54 -> 44
+	74 -> 72
+	79 -> 74
+	120 -> 121
+	121 -> 79
+	152 -> 153
+	152 -> 154
+	153 -> 155
+	154 -> 156
+	155 -> 157
+	156 -> 158
+	157 -> 159
+	157 -> 162
+	158 -> 164
+	158 -> 160
+	159 -> 160
+	160 -> 161
+	162 -> 163
+	162 -> 164
+	164 -> 165
+	166 -> 167
+	167 -> 171
+	167 -> 120
+	167 -> 152
+	168 -> 170
+	170 -> 169
+	171 -> 172
+	172 -> 168
+	172 -> 170
+	173 -> 166
+	rankdir=LR
+}

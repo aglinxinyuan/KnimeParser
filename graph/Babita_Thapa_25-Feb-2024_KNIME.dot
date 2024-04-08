@@ -1,0 +1,33 @@
+digraph {
+	1 [label="Excel Reader"]
+	5 [label="Math Formula"]
+	6 [label=GroupBy]
+	7 [label=Auto_Binner]
+	8 [label="Column Filter"]
+	9 [label="Date_Time Difference"]
+	10 [label="Cell Replacer _deprecated_"]
+	12 [label="Cell Replacer _deprecated_"]
+	13 [label="Cell Replacer _deprecated_"]
+	14 [label="Table Creator"]
+	15 [label="Table Creator"]
+	16 [label="Column Resorter"]
+	17 [label="Column Aggregator"]
+	18 [label="Excel Writer"]
+	20 [label="Column Rename _deprecated_"]
+	1 -> 8
+	5 -> 6
+	6 -> 20
+	7 -> 13
+	8 -> 9
+	9 -> 5
+	10 -> 12
+	12 -> 16
+	13 -> 10
+	14 -> 13
+	14 -> 10
+	15 -> 12
+	16 -> 17
+	17 -> 18
+	20 -> 7
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	1 [label="Image Reader"]
+	3 [label="Median Filter"]
+	4 [label="Global Thresholder"]
+	7 [label=Joiner]
+	8 [label="Image Segment Features"]
+	10 [label="CSV Writer"]
+	11 [label="Morphological Image Operations"]
+	12 [label="Connected Component Analysis"]
+	55 [label="Structuring Element Creator"]
+	1 -> 3
+	1 -> 7
+	3 -> 4
+	4 -> 11
+	7 -> 8
+	8 -> 10
+	11 -> 12
+	12 -> 7
+	55 -> 11
+	rankdir=LR
+}

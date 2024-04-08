@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Create Date_Time Range"]
+	2 [label="Math Formula"]
+	3 [label="Row Filter"]
+	5 [label="Date_Time Difference"]
+	8 [label="Numeric Distances"]
+	9 [label=GroupBy]
+	10 [label="Table Row to Variable"]
+	15 [label="Hierarchical Clustering _DistMatrix_"]
+	16 [label="Hierarchical Cluster View"]
+	17 [label="Hierarchical Cluster Assigner _local_"]
+	18 [label=GroupBy]
+	19 [label="Math Formula"]
+	20 [label="Table Row to Variable"]
+	22 [label=GroupBy]
+	1 -> 2
+	2 -> 3
+	3 -> 5
+	3 -> 9
+	5 -> 15
+	5 -> 8
+	5 -> 17
+	5 -> 16
+	5 -> 18
+	8 -> 15
+	9 -> 10
+	10 -> 5
+	15 -> 17
+	15 -> 16
+	17 -> 22
+	18 -> 19
+	19 -> 20
+	20 -> 17
+	rankdir=LR
+}

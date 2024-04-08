@@ -1,0 +1,10 @@
+digraph {
+	8 [label="Table Reader"]
+	23 [label="Workflow Reader"]
+	24 [label="Workflow Executor"]
+	25 [label="Table Validator"]
+	8 -> 24
+	23 -> 24
+	24 -> 25
+	rankdir=LR
+}

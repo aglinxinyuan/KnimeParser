@@ -1,0 +1,29 @@
+digraph {
+	67 [label="Parquet to Spark"]
+	68 [label="Create Local Big Data Environment"]
+	69 [label="Parquet to Spark"]
+	70 [label="Spark Column Filter"]
+	71 [label="Spark Random Forest Learner"]
+	72 [label="Spark Predictor _Classification_"]
+	73 [label="Spark to Table"]
+	74 [label="ROC Curve"]
+	75 [label="Spark Scorer"]
+	76 [label="Parquet Writer"]
+	79 [label="Parquet Writer"]
+	80 [label="Parquet Reader"]
+	81 [label="Parquet Reader"]
+	80 -> 76
+	81 -> 79
+	67 -> 70
+	68 -> 69
+	68 -> 69
+	68 -> 67
+	68 -> 67
+	69 -> 72
+	70 -> 71
+	71 -> 72
+	72 -> 73
+	72 -> 75
+	73 -> 74
+	rankdir=LR
+}

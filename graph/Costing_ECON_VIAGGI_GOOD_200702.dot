@@ -1,0 +1,209 @@
+digraph {
+	52 [label="CSV Reader"]
+	750 [label="String Manipulation"]
+	751 [label="String Manipulation"]
+	752 [label="String Manipulation"]
+	753 [label="String Manipulation"]
+	754 [label="String Manipulation"]
+	755 [label="String Manipulation"]
+	756 [label="String Manipulation"]
+	757 [label="String Manipulation"]
+	758 [label="String Manipulation"]
+	759 [label="String Manipulation"]
+	760 [label="String Manipulation"]
+	761 [label="String Manipulation"]
+	762 [label="String Manipulation"]
+	763 [label="String Manipulation"]
+	764 [label="String Manipulation"]
+	765 [label="String Manipulation"]
+	766 [label="Column Filter"]
+	767 [label="Rule_based Row Filter"]
+	768 [label="String Manipulation"]
+	769 [label="String To Number _deprecated_"]
+	770 [label="Column Filter"]
+	774 [label="String Manipulation"]
+	794 [label="CSV Reader"]
+	803 [label="String Manipulation"]
+	804 [label="String Manipulation"]
+	805 [label="String Manipulation"]
+	807 [label="String Manipulation"]
+	808 [label="String Manipulation"]
+	810 [label="String Manipulation"]
+	811 [label="String Manipulation"]
+	812 [label="String Manipulation"]
+	813 [label="String Manipulation"]
+	815 [label="String Manipulation"]
+	816 [label="String Manipulation"]
+	817 [label="String Manipulation"]
+	818 [label="String Manipulation"]
+	819 [label="String Manipulation"]
+	820 [label="String Manipulation"]
+	821 [label="String Manipulation"]
+	822 [label="String Manipulation"]
+	823 [label="String Manipulation"]
+	824 [label="String Manipulation"]
+	825 [label="String Manipulation"]
+	826 [label="String Manipulation"]
+	827 [label="Column Filter"]
+	829 [label="String Manipulation"]
+	830 [label="String Manipulation"]
+	831 [label="String Manipulation"]
+	832 [label="String Manipulation"]
+	833 [label="String Manipulation"]
+	834 [label="String Manipulation"]
+	835 [label="String Manipulation"]
+	836 [label="String Manipulation"]
+	837 [label="Rule Engine"]
+	838 [label="String To Number _deprecated_"]
+	839 [label="Math Formula"]
+	840 [label="String To Number _deprecated_"]
+	841 [label="String Manipulation"]
+	842 [label="String Manipulation"]
+	843 [label="String To Number _deprecated_"]
+	844 [label="Rule Engine"]
+	845 [label="Math Formula"]
+	846 [label="Column Filter"]
+	844 [label="String To Number _deprecated_"]
+	866 [label="List Files"]
+	867 [label="Table Row To Variable Loop Start"]
+	871 [label="Excel Reader _XLS_ _deprecated_"]
+	873 [label="Row Filter"]
+	874 [label="Column Filter"]
+	875 [label="Column Rename"]
+	881 [label="Loop End"]
+	882 [label="String To Number"]
+	902 [label="CSV Reader"]
+	983 [label="CSV Reader"]
+	985 [label="String Manipulation"]
+	987 [label="CSV Reader"]
+	988 [label="Rule Engine"]
+	989 [label="Number To String"]
+	1005 [label="Column Expressions"]
+	1006 [label="Rule Engine"]
+	1007 [label=Concatenate]
+	1008 [label=Joiner]
+	1011 [label=Joiner]
+	1017 [label="Table Creator"]
+	1018 [label=Joiner]
+	1024 [label=Joiner]
+	1026 [label="Rule_based Row Filter"]
+	1030 [label=Joiner]
+	1032 [label="Rule_based Row Filter"]
+	1033 [label="Rule_based Row Filter"]
+	1034 [label=GroupBy]
+	1035 [label="Math Formula"]
+	1037 [label="Excel Writer _XLS_"]
+	1039 [label="String Manipulation"]
+	1040 [label=Joiner]
+	1041 [label="String Manipulation"]
+	1042 [label=GroupBy]
+	1043 [label="Rule_based Row Filter"]
+	1044 [label=Joiner]
+	1045 [label=GroupBy]
+	1046 [label=GroupBy]
+	1047 [label="String Manipulation"]
+	750 -> 751
+	751 -> 752
+	752 -> 753
+	753 -> 754
+	754 -> 755
+	755 -> 756
+	756 -> 757
+	757 -> 759
+	758 -> 761
+	759 -> 758
+	760 -> 763
+	761 -> 760
+	762 -> 765
+	763 -> 762
+	764 -> 766
+	765 -> 764
+	766 -> 768
+	767 -> 769
+	768 -> 767
+	769 -> 770
+	803 -> 812
+	804 -> 805
+	805 -> 803
+	807 -> 815
+	808 -> 810
+	810 -> 816
+	811 -> 807
+	812 -> 813
+	813 -> 811
+	815 -> 808
+	816 -> 817
+	817 -> 818
+	818 -> 819
+	819 -> 821
+	820 -> 822
+	821 -> 820
+	822 -> 823
+	823 -> 824
+	824 -> 826
+	825 -> 827
+	826 -> 825
+	827 -> 831
+	829 -> 832
+	846 -> 833
+	831 -> 829
+	832 -> 804
+	833 -> 834
+	834 -> 835
+	835 -> 836
+	836 -> 838
+	837 -> 839
+	838 -> 837
+	839 -> 841
+	840 -> 846
+	841 -> 842
+	842 -> 843
+	843 -> 844
+	844 -> 845
+	845 -> 840
+	52 -> 750
+	770 -> 1005
+	774 -> 1008
+	794 -> 804
+	846 -> 844
+	844 -> 1030
+	866 -> 867
+	867 -> 871
+	871 -> 882
+	873 -> 874
+	874 -> 875
+	875 -> 774
+	881 -> 1018
+	882 -> 881
+	902 -> 873
+	983 -> 985
+	985 -> 1011
+	987 -> 989
+	988 -> 1007
+	989 -> 1047
+	1005 -> 1006
+	1006 -> 1007
+	1007 -> 1008
+	1007 -> 1024
+	1008 -> 1011
+	1011 -> 1026
+	1017 -> 1018
+	1018 -> 1024
+	1024 -> 1040
+	1026 -> 1039
+	1030 -> 1032
+	1032 -> 1033
+	1033 -> 1034
+	1034 -> 1037
+	1035 -> 1030
+	1039 -> 1041
+	1040 -> 1035
+	1040 -> 1042
+	1041 -> 1040
+	1042 -> 1043
+	1043 -> 1044
+	1044 -> 1045
+	1044 -> 1046
+	1047 -> 988
+	rankdir=LR
+}

@@ -1,0 +1,213 @@
+digraph {
+	9 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Rule Engine"]
+	4 [label="String to Number"]
+	5 [label="Missing Value"]
+	7 [label="Rule Engine"]
+	1 [label="Data Explorer"]
+	2 [label="Box Plot _JavaScript_"]
+	3 [label=Statistics]
+	4 [label="Bar Chart _JavaScript_"]
+	5 [label="Bar Chart _JavaScript_"]
+	11 [label="Rank Correlation"]
+	12 [label="Linear Correlation"]
+	38 [label="Rank Correlation"]
+	39 [label="Linear Correlation"]
+	25 [label="Decision Tree Learner"]
+	26 [label="Decision Tree Predictor"]
+	41 [label=Partitioning]
+	50 [label=X_Partitioner]
+	51 [label="Decision Tree Learner"]
+	52 [label="Decision Tree Predictor"]
+	53 [label=X_Aggregator]
+	54 [label="Scorer _JavaScript_"]
+	88 [label="Scorer _JavaScript_"]
+	2 [label="Feature Selection Loop End"]
+	3 [label="Feature Selection Filter"]
+	6 [label=Partitioning]
+	7 [label="Scorer _deprecated_"]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	10 [label="Naive Bayes Predictor"]
+	11 [label="Naive Bayes Learner"]
+	2 [label="Feature Selection Loop End"]
+	3 [label="Feature Selection Filter"]
+	6 [label=Partitioning]
+	7 [label="Scorer _deprecated_"]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	9 [label="Naive Bayes Predictor"]
+	10 [label="Naive Bayes Learner"]
+	57 [label="Random Forest Learner"]
+	58 [label="Random Forest Predictor"]
+	60 [label=Partitioning]
+	80 [label=Partitioning]
+	81 [label="Random Forest Learner"]
+	83 [label="Random Forest Predictor"]
+	86 [label=Auto_Binner]
+	87 [label="Scorer _JavaScript_"]
+	90 [label="Scorer _JavaScript_"]
+	2 [label="Feature Selection Loop End"]
+	3 [label="Feature Selection Filter"]
+	6 [label=Partitioning]
+	7 [label="Scorer _deprecated_"]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	10 [label="Naive Bayes Predictor"]
+	11 [label="Naive Bayes Learner"]
+	2 [label="Feature Selection Loop End"]
+	3 [label="Feature Selection Filter"]
+	6 [label=Partitioning]
+	7 [label="Scorer _deprecated_"]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	9 [label="Naive Bayes Predictor"]
+	10 [label="Naive Bayes Learner"]
+	124 [label=X_Partitioner]
+	125 [label=X_Partitioner]
+	126 [label="Scorer _JavaScript_"]
+	127 [label="Random Forest Learner"]
+	128 [label="Random Forest Learner"]
+	129 [label="Random Forest Predictor"]
+	130 [label=Auto_Binner]
+	131 [label=X_Aggregator]
+	132 [label=X_Aggregator]
+	133 [label="Random Forest Predictor"]
+	134 [label="Scorer _JavaScript_"]
+	28 [label="Logistic Regression Learner"]
+	29 [label="Logistic Regression Predictor"]
+	42 [label=Normalizer]
+	43 [label=Partitioning]
+	89 [label="Scorer _JavaScript_"]
+	135 [label=X_Partitioner]
+	136 [label=X_Aggregator]
+	137 [label="Logistic Regression Predictor"]
+	138 [label=Normalizer]
+	139 [label="Scorer _JavaScript_"]
+	140 [label="Logistic Regression Learner"]
+	95 [label=Partitioning]
+	96 [label=k_Means]
+	97 [label="Cluster Assigner"]
+	98 [label="Color Manager"]
+	99 [label="Shape Manager"]
+	101 [label="Rule Engine"]
+	102 [label="Scorer _JavaScript_"]
+	103 [label="Scatter Plot _legacy_"]
+	138 [label=X_Partitioner]
+	139 [label=k_Means]
+	140 [label="Color Manager"]
+	141 [label="Shape Manager"]
+	143 [label="Rule Engine"]
+	144 [label="Scorer _JavaScript_"]
+	145 [label="Cluster Assigner"]
+	146 [label=X_Aggregator]
+	147 [label="Scatter Plot _JavaScript_"]
+	148 [label=Normalizer]
+	2 -> 4
+	3 -> 7
+	4 -> 3
+	7 -> 2
+	3 -> 4
+	3 -> 3
+	25 -> 26
+	26 -> 88
+	41 -> 25
+	41 -> 26
+	50 -> 51
+	50 -> 52
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	2 -> 3
+	3 -> 10
+	3 -> 11
+	7 -> 2
+	8 -> 3
+	10 -> 7
+	11 -> 10
+	2 -> 3
+	3 -> 10
+	3 -> 9
+	7 -> 2
+	8 -> 3
+	9 -> 7
+	10 -> 9
+	2 -> 3
+	3 -> 10
+	3 -> 11
+	7 -> 2
+	8 -> 3
+	10 -> 7
+	11 -> 10
+	2 -> 3
+	3 -> 10
+	3 -> 9
+	7 -> 2
+	8 -> 3
+	9 -> 7
+	10 -> 9
+	3 -> 80
+	3 -> 60
+	57 -> 58
+	58 -> 87
+	60 -> 57
+	60 -> 58
+	80 -> 81
+	80 -> 83
+	81 -> 83
+	83 -> 90
+	86 -> 3
+	86 -> 3
+	86 -> 3
+	86 -> 3
+	3 -> 125
+	3 -> 124
+	124 -> 127
+	124 -> 133
+	125 -> 129
+	125 -> 128
+	127 -> 133
+	128 -> 129
+	129 -> 132
+	130 -> 3
+	130 -> 3
+	130 -> 3
+	130 -> 3
+	131 -> 126
+	132 -> 134
+	133 -> 131
+	28 -> 29
+	29 -> 89
+	42 -> 43
+	43 -> 29
+	43 -> 28
+	135 -> 140
+	135 -> 137
+	136 -> 139
+	137 -> 136
+	138 -> 135
+	140 -> 137
+	95 -> 97
+	95 -> 96
+	96 -> 97
+	96 -> 98
+	97 -> 101
+	98 -> 99
+	99 -> 103
+	101 -> 102
+	138 -> 139
+	138 -> 145
+	139 -> 140
+	139 -> 145
+	140 -> 141
+	141 -> 147
+	143 -> 146
+	145 -> 143
+	146 -> 144
+	148 -> 138
+	9 -> 48
+	9 -> 3
+	9 -> 52
+	3 -> 53
+	3 -> 49
+	3 -> 17
+	3 -> 108
+	rankdir=LR
+}

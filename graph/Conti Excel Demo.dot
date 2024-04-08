@@ -1,0 +1,23 @@
+digraph {
+	1 [label="Table Creator"]
+	6 [label="Excel Writer _XLS_"]
+	7 [label="XLS Formatter _apply_"]
+	2 [label="XLS Control Table Generator"]
+	3 [label="Rule Engine"]
+	4 [label="XLS Control Table Generator"]
+	5 [label="XLS Background Colorizer"]
+	8 [label="XLS Row and Column Sizer"]
+	9 [label="XLS Row and Column Sizer"]
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	4 -> 8
+	4 -> 9
+	5 -> 8
+	8 -> 9
+	1 -> 6
+	1 -> 2
+	6 -> 7
+	9 -> 7
+	rankdir=LR
+}
