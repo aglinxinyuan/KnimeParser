@@ -1,0 +1,55 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Partitioning]
+	11 [label="Missing Value"]
+	13 [label="Duplicate Row Filter"]
+	21 [label="Category To Number"]
+	99 [label="Parameter Optimization Loop Start"]
+	101 [label="Parameter Optimization Loop End"]
+	108 [label="Value Counter"]
+	109 [label=Joiner]
+	110 [label="Row Filter"]
+	111 [label=GroupBy]
+	112 [label=GroupBy]
+	113 [label=Statistics]
+	115 [label=Auto_Binner]
+	116 [label="Color Manager"]
+	117 [label="Missing Value _Apply_"]
+	121 [label="Gradient Boosted Trees Predictor"]
+	123 [label="Gradient Boosted Trees Learner"]
+	125 [label=Scorer]
+	128 [label="Cell Replacer"]
+	129 [label="String Replacer"]
+	130 [label=GroupBy]
+	131 [label=GroupBy]
+	133 [label="Rule Engine"]
+	134 [label="Rule Engine"]
+	135 [label="Row Filter"]
+	136 [label="Rule Engine"]
+	137 [label="Rule Engine"]
+	139 [label="Row Filter"]
+	1 -> 13
+	2 -> 11
+	2 -> 117
+	11 -> 123
+	11 -> 117
+	13 -> 109
+	13 -> 108
+	21 -> 2
+	108 -> 109
+	109 -> 110
+	110 -> 131
+	110 -> 129
+	115 -> 116
+	116 -> 21
+	117 -> 121
+	121 -> 139
+	123 -> 121
+	129 -> 133
+	133 -> 135
+	135 -> 115
+	136 -> 137
+	137 -> 125
+	139 -> 136
+	rankdir=LR
+}

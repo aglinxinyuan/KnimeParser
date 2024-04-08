@@ -1,0 +1,50 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Excel Reader"]
+	3 [label=GroupBy]
+	4 [label="Row Filter"]
+	5 [label=Sorter]
+	6 [label="Top k Selector"]
+	7 [label="Top k Selector"]
+	8 [label="Row Filter"]
+	9 [label=GroupBy]
+	10 [label=Sorter]
+	11 [label=Sorter]
+	12 [label=Sorter]
+	13 [label="String Manipulation"]
+	14 [label="String Manipulation"]
+	15 [label=Joiner]
+	16 [label=GroupBy]
+	17 [label="Column Expressions"]
+	18 [label=Normalizer]
+	20 [label="Top k Selector"]
+	21 [label="Tag Cloud"]
+	22 [label="Tag Cloud"]
+	23 [label="Row Filter"]
+	24 [label="Row Filter"]
+	25 [label="Tile View"]
+	1 -> 4
+	1 -> 8
+	1 -> 15
+	2 -> 13
+	3 -> 5
+	4 -> 3
+	5 -> 23
+	6 -> 11
+	7 -> 12
+	8 -> 9
+	9 -> 10
+	10 -> 24
+	11 -> 21
+	12 -> 22
+	13 -> 14
+	14 -> 15
+	15 -> 17
+	16 -> 18
+	17 -> 16
+	18 -> 20
+	20 -> 25
+	23 -> 6
+	24 -> 7
+	rankdir=LR
+}

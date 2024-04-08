@@ -1,0 +1,60 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	17 [label="JSON Transformer"]
+	20 [label="Cross Joiner"]
+	1557 [label="Cross Joiner"]
+	1560 [label="Column Filter"]
+	1684 [label="JSON Writer"]
+	1462 [label="Columns to JSON"]
+	1463 [label="Column Rename"]
+	1466 [label="Row Filter"]
+	1467 [label="Constant Value Column"]
+	1468 [label="Row Filter"]
+	1469 [label="Constant Value Column"]
+	1470 [label=Concatenate]
+	1558 [label="JSON Row Combiner"]
+	1464 [label="Column Rename"]
+	1471 [label="Row Filter"]
+	1472 [label="Constant Value Column"]
+	1473 [label="Constant Value Column"]
+	1474 [label="Row Filter"]
+	1475 [label=Concatenate]
+	1476 [label="Columns to JSON"]
+	1559 [label="JSON Row Combiner"]
+	11 [label="Table Creator"]
+	13 [label="Table to JSON"]
+	1686 [label=Transpose]
+	1687 [label="Column Rename"]
+	1688 [label=Transpose]
+	1462 -> 1558
+	1463 -> 1468
+	1463 -> 1466
+	1466 -> 1467
+	1467 -> 1470
+	1468 -> 1469
+	1469 -> 1470
+	1470 -> 1462
+	1464 -> 1471
+	1464 -> 1474
+	1471 -> 1472
+	1472 -> 1475
+	1473 -> 1475
+	1474 -> 1473
+	1475 -> 1476
+	1476 -> 1559
+	11 -> 13
+	1686 -> 1687
+	1687 -> 1688
+	1 -> 1463
+	2 -> 1464
+	17 -> 1560
+	20 -> 17
+	1557 -> 20
+	1560 -> 1686
+	1558 -> 1557
+	1559 -> 1557
+	1691 -> 20
+	1688 -> 1684
+	rankdir=LR
+}

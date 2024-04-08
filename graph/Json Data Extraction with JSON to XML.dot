@@ -1,0 +1,16 @@
+digraph {
+	11 [label="JSON Reader"]
+	21 [label="JSON To XML"]
+	22 [label=XPath]
+	23 [label=Ungroup]
+	24 [label=XPath]
+	26 [label=Ungroup]
+	27 [label=XPath]
+	11 -> 21
+	21 -> 22
+	22 -> 23
+	23 -> 24
+	24 -> 26
+	26 -> 27
+	rankdir=LR
+}

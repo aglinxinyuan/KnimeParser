@@ -1,0 +1,31 @@
+digraph {
+	1 [label="MongoDB Connector"]
+	2 [label="MongoDB Reader"]
+	4 [label="MongoDB Connector"]
+	5 [label="MongoDB Reader"]
+	6 [label="MongoDB Writer"]
+	7 [label="MongoDB Writer"]
+	8 [label="MongoDB Connector"]
+	9 [label="MongoDB Reader"]
+	10 [label="MongoDB Reader"]
+	11 [label="JSON to Table"]
+	12 [label="JSON to Table"]
+	13 [label=Joiner]
+	18 [label="Row Filter"]
+	19 [label="CSV Writer"]
+	1 -> 2
+	1 -> 5
+	2 -> 6
+	4 -> 6
+	4 -> 7
+	5 -> 7
+	8 -> 9
+	8 -> 10
+	9 -> 11
+	10 -> 12
+	11 -> 13
+	12 -> 13
+	13 -> 18
+	18 -> 19
+	rankdir=LR
+}

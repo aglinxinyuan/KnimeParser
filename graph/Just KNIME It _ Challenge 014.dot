@@ -1,0 +1,70 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Rule Engine"]
+	3 [label="Missing Value"]
+	4 [label="Rule Engine"]
+	5 [label="Missing Value"]
+	6 [label="Rule_based Row Filter"]
+	7 [label="Column Filter"]
+	8 [label="Moving Aggregation"]
+	9 [label="Extract Table Dimension"]
+	10 [label="Table Column to Variable"]
+	11 [label="Moving Aggregation"]
+	12 [label="Column Filter"]
+	13 [label="Rule_based Row Filter"]
+	14 [label=GroupBy]
+	27 [label="Group Loop Start"]
+	34 [label="Cell Splitter"]
+	35 [label=Ungroup]
+	37 [label="Variable Condition Loop End _deprecated_"]
+	38 [label="Extract Table Dimension"]
+	39 [label="Row Filter"]
+	42 [label="Extract Table Dimension"]
+	43 [label="Group Loop Start"]
+	44 [label="Row Filter"]
+	45 [label="Variable Condition Loop End _deprecated_"]
+	47 [label=Rank]
+	48 [label="Math Formula"]
+	49 [label=Joiner]
+	50 [label=Joiner]
+	51 [label=Joiner]
+	52 [label="String Manipulation"]
+	53 [label="String To Number"]
+	1 -> 2
+	1 -> 9
+	1 -> 8
+	1 -> 48
+	1 -> 14
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	8 -> 11
+	9 -> 10
+	10 -> 8
+	11 -> 13
+	13 -> 12
+	14 -> 52
+	27 -> 39
+	34 -> 35
+	35 -> 53
+	37 -> 49
+	38 -> 37
+	39 -> 38
+	39 -> 37
+	42 -> 45
+	43 -> 44
+	44 -> 45
+	44 -> 42
+	45 -> 50
+	47 -> 43
+	47 -> 27
+	47 -> 49
+	48 -> 51
+	48 -> 47
+	49 -> 50
+	50 -> 51
+	52 -> 34
+	rankdir=LR
+}

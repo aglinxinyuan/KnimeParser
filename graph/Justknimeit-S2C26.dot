@@ -1,0 +1,16 @@
+digraph {
+	1 [label="CSV Reader"]
+	7 [label=Unpivot]
+	9 [label="Lag Column"]
+	10 [label="Math Formula"]
+	11 [label="Bar Chart"]
+	12 [label="Nominal Row Filter Widget"]
+	13 [label="Column Renamer"]
+	1 -> 7
+	7 -> 13
+	9 -> 10
+	10 -> 11
+	12 -> 9
+	13 -> 12
+	rankdir=LR
+}

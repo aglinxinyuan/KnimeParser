@@ -1,0 +1,22 @@
+digraph {
+	1 [label="CSV Reader"]
+	4 [label="K Nearest Neighbor"]
+	5 [label="Number to String"]
+	6 [label=Scorer]
+	7 [label="Column Filter"]
+	8 [label="Row Filter"]
+	9 [label=Partitioning]
+	10 [label=Normalizer]
+	11 [label="Normalizer _Apply_"]
+	1 -> 7
+	4 -> 6
+	5 -> 9
+	7 -> 8
+	8 -> 5
+	9 -> 10
+	9 -> 11
+	10 -> 11
+	10 -> 4
+	11 -> 4
+	rankdir=LR
+}

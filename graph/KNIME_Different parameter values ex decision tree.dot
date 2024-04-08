@@ -1,0 +1,19 @@
+digraph {
+	7 [label=Partitioning]
+	10 [label="Decision Tree Predictor"]
+	13 [label="Decision Tree Learner"]
+	15 [label="Rule Engine"]
+	16 [label="Column Filter"]
+	17 [label="Scorer _JavaScript_"]
+	37 [label="Parameter Optimization Loop Start"]
+	38 [label="Parameter Optimization Loop End"]
+	7 -> 13
+	7 -> 10
+	10 -> 17
+	13 -> 10
+	15 -> 16
+	16 -> 7
+	17 -> 38
+	37 -> 13
+	rankdir=LR
+}

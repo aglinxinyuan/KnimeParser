@@ -1,0 +1,45 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Histogram]
+	3 [label="Scatter Plot"]
+	4 [label="Scatter Plot Matrix"]
+	7 [label="Numeric Binner"]
+	8 [label="Numeric Binner"]
+	9 [label="Conditional Box Plot _legacy_"]
+	10 [label="Bar Chart"]
+	11 [label="Missing Value"]
+	12 [label=Histogram]
+	13 [label="Missing Value"]
+	14 [label=Statistics]
+	15 [label=Statistics]
+	16 [label="Bar Chart"]
+	17 [label="Column Filter"]
+	18 [label="Color Manager"]
+	19 [label=Partitioning]
+	20 [label="Decision Tree Learner"]
+	21 [label="Decision Tree Predictor"]
+	22 [label="ROC Curve"]
+	23 [label=Scorer]
+	1 -> 3
+	1 -> 2
+	1 -> 4
+	1 -> 7
+	1 -> 11
+	1 -> 13
+	1 -> 14
+	7 -> 10
+	8 -> 9
+	8 -> 15
+	8 -> 16
+	8 -> 17
+	11 -> 12
+	13 -> 8
+	17 -> 18
+	18 -> 19
+	19 -> 21
+	19 -> 20
+	20 -> 21
+	21 -> 22
+	21 -> 23
+	rankdir=LR
+}

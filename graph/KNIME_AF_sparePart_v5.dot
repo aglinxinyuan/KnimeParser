@@ -1,0 +1,67 @@
+digraph {
+	3 [label="Excel Reader"]
+	4 [label="Excel Reader"]
+	5 [label="CSV Reader"]
+	6 [label="Row Filter"]
+	7 [label=GroupBy]
+	8 [label="Excel Writer"]
+	9 [label="Row Filter"]
+	10 [label=Joiner]
+	11 [label="Column Rename"]
+	12 [label="Column Rename"]
+	14 [label="Case Converter"]
+	16 [label=GroupBy]
+	17 [label="Case Converter"]
+	18 [label=Joiner]
+	19 [label="Column Rename"]
+	20 [label="Case Converter"]
+	21 [label=GroupBy]
+	24 [label="String To Number"]
+	25 [label="String To Number"]
+	28 [label="Rule_based Row Filter"]
+	29 [label="Math Formula"]
+	30 [label="Missing Value"]
+	31 [label="Row Filter"]
+	32 [label=Joiner]
+	33 [label="Missing Value"]
+	34 [label="Math Formula"]
+	35 [label="Math Formula"]
+	36 [label="Math Formula"]
+	37 [label="Python Script"]
+	38 [label="Conda Environment Propagation"]
+	3 -> 28
+	4 -> 9
+	5 -> 6
+	6 -> 11
+	7 -> 12
+	9 -> 19
+	10 -> 8
+	10 -> 18
+	10 -> 32
+	11 -> 17
+	12 -> 14
+	14 -> 16
+	16 -> 21
+	16 -> 8
+	17 -> 25
+	18 -> 30
+	19 -> 20
+	20 -> 24
+	21 -> 8
+	21 -> 10
+	24 -> 31
+	24 -> 18
+	25 -> 10
+	28 -> 7
+	29 -> 36
+	30 -> 29
+	31 -> 32
+	32 -> 33
+	33 -> 34
+	34 -> 35
+	35 -> 37
+	35 -> 8
+	36 -> 8
+	38 -> 37
+	rankdir=LR
+}

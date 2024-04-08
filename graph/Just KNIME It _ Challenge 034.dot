@@ -1,0 +1,23 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Cell Splitter"]
+	3 [label=Unpivoting]
+	4 [label="Random Number Assigner"]
+	6 [label="Rule_based Row Filter"]
+	7 [label=Rank]
+	8 [label=Pivoting]
+	9 [label="Column Aggregator"]
+	10 [label=Joiner]
+	11 [label="String Manipulation"]
+	1 -> 2
+	1 -> 10
+	2 -> 3
+	3 -> 6
+	4 -> 7
+	6 -> 4
+	7 -> 8
+	8 -> 10
+	9 -> 11
+	10 -> 9
+	rankdir=LR
+}

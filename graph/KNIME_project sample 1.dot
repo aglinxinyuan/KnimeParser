@@ -1,0 +1,19 @@
+digraph {
+	1 [label="Random Data Generator"]
+	2 [label="Table Creator"]
+	3 [label="Java Snippet"]
+	4 [label="Table Column to Variable"]
+	5 [label="Java Snippet"]
+	6 [label=GroupBy]
+	7 [label=GroupBy]
+	8 [label="Java Snippet"]
+	1 -> 3
+	1 -> 5
+	2 -> 4
+	3 -> 7
+	4 -> 3
+	4 -> 5
+	5 -> 6
+	7 -> 8
+	rankdir=LR
+}

@@ -1,0 +1,6 @@
+digraph {
+	1 [label="Output Folder"]
+	2 [label="Input Files"]
+	2 -> 1
+	rankdir=LR
+}

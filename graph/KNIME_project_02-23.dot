@@ -1,0 +1,62 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Partitioning]
+	3 [label="Random Forest Learner"]
+	4 [label="Random Forest Predictor"]
+	5 [label=Scorer]
+	11 [label="Missing Value"]
+	13 [label="Duplicate Row Filter"]
+	21 [label="Category To Number"]
+	99 [label="Parameter Optimization Loop Start"]
+	100 [label="Table Column to Variable"]
+	101 [label="Parameter Optimization Loop End"]
+	108 [label="Value Counter"]
+	109 [label=Joiner]
+	110 [label="Row Filter"]
+	111 [label=GroupBy]
+	112 [label=GroupBy]
+	113 [label=Statistics]
+	115 [label=Auto_Binner]
+	116 [label="Color Manager"]
+	117 [label="Missing Value _Apply_"]
+	118 [label="Random Forest Learner"]
+	119 [label="Random Forest Predictor"]
+	120 [label=Scorer]
+	121 [label="Gradient Boosted Trees Predictor"]
+	122 [label="Gradient Boosted Trees Predictor"]
+	123 [label="Gradient Boosted Trees Learner"]
+	124 [label="Gradient Boosted Trees Learner"]
+	125 [label=Scorer]
+	126 [label=Scorer]
+	1 -> 111
+	1 -> 13
+	2 -> 11
+	2 -> 117
+	3 -> 4
+	4 -> 5
+	5 -> 100
+	11 -> 117
+	11 -> 118
+	11 -> 3
+	11 -> 123
+	11 -> 124
+	13 -> 108
+	13 -> 109
+	21 -> 2
+	108 -> 109
+	109 -> 110
+	110 -> 115
+	115 -> 116
+	116 -> 21
+	117 -> 119
+	117 -> 4
+	117 -> 122
+	117 -> 121
+	118 -> 119
+	119 -> 120
+	121 -> 125
+	122 -> 126
+	123 -> 121
+	124 -> 122
+	rankdir=LR
+}

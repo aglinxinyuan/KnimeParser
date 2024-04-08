@@ -1,0 +1,32 @@
+digraph {
+	5 [label="XLog2Table Converter"]
+	44 [label="Row Filter"]
+	45 [label="Table2XLog Converter"]
+	51 [label="Date_Time_based Row Filter"]
+	52 [label="Row Filter"]
+	53 [label="Row Filter"]
+	54 [label="Row Filter"]
+	55 [label="Table2XLog Converter"]
+	56 [label="Table2XLog Converter"]
+	57 [label="Table2XLog Converter"]
+	59 [label="Inductive Miner"]
+	60 [label="PT2PN Converter"]
+	64 [label="Event Log Visualisation"]
+	65 [label="DFM Miner"]
+	66 [label="Event Log Reader"]
+	5 -> 51
+	44 -> 45
+	45 -> 64
+	51 -> 54
+	51 -> 53
+	51 -> 52
+	51 -> 44
+	52 -> 55
+	53 -> 56
+	54 -> 57
+	56 -> 59
+	57 -> 65
+	59 -> 60
+	66 -> 5
+	rankdir=LR
+}

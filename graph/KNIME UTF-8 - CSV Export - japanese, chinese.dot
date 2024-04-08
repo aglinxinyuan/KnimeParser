@@ -1,0 +1,8 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="CSV Writer"]
+	3 [label="CSV Reader"]
+	1 -> 2
+	2 -> 3
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	2 [label="Renderer to Image"]
+	3 [label="Tile View"]
+	4 [label="Row Filter"]
+	5 [label="Tile View"]
+	6 [label="Column Filter"]
+	10 [label="Image Reader"]
+	2 -> 6
+	3 -> 4
+	4 -> 5
+	6 -> 3
+	10 -> 2
+	rankdir=LR
+}

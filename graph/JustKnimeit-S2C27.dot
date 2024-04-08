@@ -1,0 +1,21 @@
+digraph {
+	1 [label="CSV Reader"]
+	5 [label="Excel Reader"]
+	19 [label="Value Lookup"]
+	20 [label="Value Lookup"]
+	21 [label="Date_Time_based Row Filter"]
+	22 [label="Row Filter"]
+	24 [label="Nominal Value Row Filter"]
+	25 [label="Missing Value"]
+	27 [label=Pivot]
+	1 -> 19
+	5 -> 24
+	19 -> 20
+	20 -> 21
+	21 -> 22
+	22 -> 25
+	24 -> 19
+	24 -> 20
+	25 -> 27
+	rankdir=LR
+}

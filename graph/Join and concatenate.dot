@@ -1,0 +1,13 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label="CSV Reader"]
+	5 [label=Joiner]
+	6 [label=Concatenate]
+	1 -> 5
+	2 -> 6
+	3 -> 6
+	4 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,19 @@
+digraph {
+	1 [label="IF Switch"]
+	2 [label="End IF"]
+	17 [label=Rename]
+	18 [label=Rename]
+	19 [label=GroupBy]
+	23 [label=Auto_Binner]
+	24 [label=Auto_Binner]
+	25 [label="CSV Reader"]
+	1 -> 23
+	1 -> 24
+	2 -> 19
+	17 -> 2
+	18 -> 2
+	23 -> 18
+	24 -> 17
+	25 -> 1
+	rankdir=LR
+}

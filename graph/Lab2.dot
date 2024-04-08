@@ -1,0 +1,30 @@
+digraph {
+	1 [label="GET Request"]
+	2 [label="JSON Path"]
+	3 [label=Ungroup]
+	4 [label="String To Number"]
+	5 [label="String Manipulation"]
+	8 [label="Excel Reader"]
+	9 [label=Joiner]
+	10 [label="Regex Split"]
+	11 [label="Column Renamer"]
+	12 [label="String to Date_Time"]
+	13 [label="Math Formula"]
+	14 [label="Box Plot"]
+	15 [label="Scatter Plot"]
+	16 [label="Excel Writer"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 9
+	8 -> 9
+	9 -> 10
+	9 -> 16
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	13 -> 15
+	rankdir=LR
+}

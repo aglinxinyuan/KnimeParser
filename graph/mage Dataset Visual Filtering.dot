@@ -1,0 +1,16 @@
+digraph {
+	1 [label="List Files_Folders"]
+	3 [label="Image Reader _Table_"]
+	4 [label="Path to String"]
+	5 [label="Row Filter"]
+	6 [label="Table View"]
+	7 [label="Renderer to Image"]
+	8 [label="Row Filter"]
+	1 -> 4
+	3 -> 7
+	4 -> 5
+	5 -> 3
+	6 -> 8
+	7 -> 6
+	rankdir=LR
+}

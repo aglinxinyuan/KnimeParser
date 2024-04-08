@@ -1,0 +1,13 @@
+digraph {
+	26 [label="PDF Parser"]
+	1835 [label="Model Writer"]
+	1911 [label="Excel Reader"]
+	1912 [label="Excel Writer"]
+	1915 [label="Column Appender"]
+	1922 [label="String Manipulation"]
+	1933 [label="Model Reader"]
+	1936 [label="GPT4All Embeddings Connector"]
+	1938 [label="GPT4All Chat Model Connector"]
+	1911 -> 1915
+	rankdir=LR
+}

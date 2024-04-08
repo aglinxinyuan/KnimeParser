@@ -1,0 +1,82 @@
+digraph {
+	4 [label=Upload]
+	5 [label="List Files"]
+	6 [label="String to URI"]
+	42 [label="Create Local Big Data Environment"]
+	43 [label="DB SQL Executor"]
+	46 [label="DB Reader"]
+	47 [label="DB Table Selector"]
+	48 [label="DB SQL Executor"]
+	49 [label="DB SQL Executor"]
+	50 [label="DB Table Selector"]
+	51 [label="DB Reader"]
+	52 [label="DB SQL Executor"]
+	53 [label="DB Query Reader"]
+	54 [label="DB Query Reader"]
+	1 [label="Excel Reader _XLS_"]
+	2 [label="CSV Writer"]
+	23 [label="File Reader"]
+	38 [label="CSV Writer"]
+	39 [label="CSV Writer"]
+	40 [label="Constant Value Column"]
+	41 [label="Constant Value Column"]
+	42 [label="Constant Value Column"]
+	10 [label="Extract Context Properties"]
+	21 [label="Java Edit Variable"]
+	28 [label="Extract System Properties"]
+	29 [label="Merge Variables"]
+	30 [label="Table Column to Variable"]
+	44 [label="Create Directory"]
+	45 [label="Create Directory"]
+	57 [label="DB SQL Executor"]
+	58 [label="DB Query Reader"]
+	1846 [label="DB SQL Executor"]
+	1853 [label="DB Table Creator"]
+	1854 [label="Column Filter"]
+	1855 [label="DB SQL Executor"]
+	1856 [label="DB Query Reader"]
+	1 -> 41
+	1 -> 40
+	1 -> 42
+	2 -> 38
+	38 -> 39
+	39 -> 23
+	40 -> 2
+	41 -> 38
+	42 -> 39
+	10 -> 29
+	28 -> 30
+	29 -> 21
+	30 -> 29
+	44 -> 45
+	45 -> 29
+	4 -> 43
+	5 -> 6
+	6 -> 4
+	42 -> 43
+	42 -> 48
+	42 -> 4
+	43 -> 47
+	43 -> 48
+	43 -> 53
+	43 -> 52
+	46 -> 53
+	47 -> 46
+	48 -> 49
+	49 -> 50
+	49 -> 1846
+	49 -> 57
+	50 -> 51
+	51 -> 57
+	52 -> 54
+	53 -> 52
+	55 -> 1854
+	55 -> 5
+	56 -> 42
+	57 -> 58
+	1846 -> 1853
+	1853 -> 1855
+	1854 -> 1853
+	1855 -> 1856
+	rankdir=LR
+}

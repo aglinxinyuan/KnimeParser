@@ -1,0 +1,22 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Partitioning]
+	3 [label="Logistic Regression Learner"]
+	4 [label="Random Forest Learner"]
+	5 [label=Normalizer]
+	6 [label="Random Forest Predictor"]
+	7 [label="Logistic Regression Predictor"]
+	8 [label=Scorer]
+	9 [label=Scorer]
+	1 -> 2
+	2 -> 4
+	2 -> 5
+	2 -> 6
+	2 -> 7
+	3 -> 7
+	4 -> 6
+	5 -> 3
+	6 -> 8
+	7 -> 9
+	rankdir=LR
+}

@@ -1,0 +1,49 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label=GroupBy]
+	3 [label="Extract Context Properties _deprecated_"]
+	7 [label="Extract System Properties"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	51 [label="Table Row to Variable _deprecated_"]
+	52 [label="Variable to Table Row _deprecated_"]
+	53 [label="Table Column to Variable _deprecated_"]
+	81 [label="Java Edit Variable _simple_"]
+	337 [label="R Snippet"]
+	343 [label=Joiner]
+	425 [label="Java Snippet"]
+	426 [label="R Snippet"]
+	427 [label=Ungroup]
+	428 [label="Table Difference Finder"]
+	432 [label="Java Edit Variable _simple_"]
+	433 [label="Parquet Reader"]
+	434 [label="String to Path _Variable_"]
+	435 [label=Ungroup]
+	436 [label="Table Difference Finder"]
+	3 -> 52
+	7 -> 53
+	46 -> 51
+	47 -> 46
+	48 -> 47
+	52 -> 48
+	53 -> 46
+	1 -> 2
+	1 -> 428
+	1 -> 436
+	2 -> 337
+	2 -> 343
+	2 -> 426
+	70 -> 81
+	81 -> 432
+	337 -> 425
+	425 -> 343
+	426 -> 427
+	426 -> 433
+	427 -> 428
+	432 -> 434
+	433 -> 435
+	434 -> 426
+	435 -> 436
+	rankdir=LR
+}

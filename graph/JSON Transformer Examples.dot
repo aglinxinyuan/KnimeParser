@@ -1,0 +1,18 @@
+digraph {
+	2 [label="Table Creator"]
+	3 [label="Table to JSON"]
+	4 [label="Table Creator"]
+	5 [label="Table to JSON"]
+	6 [label="Cross Joiner"]
+	8 [label="JSON Transformer"]
+	9 [label="JSON Transformer"]
+	10 [label="JSON Transformer"]
+	2 -> 3
+	3 -> 6
+	4 -> 5
+	5 -> 6
+	6 -> 8
+	8 -> 9
+	9 -> 10
+	rankdir=LR
+}

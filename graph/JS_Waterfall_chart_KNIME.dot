@@ -1,0 +1,8 @@
+digraph {
+	16 [label="Generic JavaScript View"]
+	17 [label="Table Creator"]
+	18 [label="Constant Value Column"]
+	17 -> 18
+	18 -> 16
+	rankdir=LR
+}

@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	3 [label="Row Filter"]
+	4 [label=GroupBy]
+	5 [label="Row Filter"]
+	6 [label="Row Filter"]
+	7 [label="Color Manager"]
+	8 [label="Math Formula"]
+	9 [label="Math Formula"]
+	10 [label="Math Formula"]
+	11 [label="Column Renamer"]
+	1 -> 4
+	2 -> 6
+	2 -> 8
+	2 -> 10
+	2 -> 11
+	4 -> 2
+	4 -> 3
+	4 -> 5
+	5 -> 7
+	6 -> 9
+	rankdir=LR
+}

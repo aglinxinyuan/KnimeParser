@@ -1,0 +1,20 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Excel Reader"]
+	4 [label="Missing Value"]
+	6 [label="Rule_based Row Filter"]
+	7 [label=Pivoting]
+	8 [label="String Manipulation"]
+	9 [label=Joiner]
+	10 [label=GroupBy]
+	11 [label="Math Formula"]
+	1 -> 4
+	2 -> 8
+	4 -> 6
+	6 -> 7
+	6 -> 10
+	8 -> 9
+	9 -> 11
+	10 -> 9
+	rankdir=LR
+}

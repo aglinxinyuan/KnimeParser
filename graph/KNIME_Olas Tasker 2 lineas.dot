@@ -1,0 +1,24 @@
+digraph {
+	1 [label="List Files_Folders"]
+	2 [label="Group Loop Start"]
+	3 [label="Loop End"]
+	5 [label="Excel Reader"]
+	6 [label="Excel Writer"]
+	7 [label=GroupBy]
+	8 [label="Row Filter"]
+	9 [label="Table Row To Variable"]
+	10 [label="Row Filter"]
+	13 [label=GroupBy]
+	16 [label="Excel Writer"]
+	1 -> 2
+	2 -> 9
+	3 -> 10
+	3 -> 8
+	5 -> 3
+	7 -> 6
+	8 -> 7
+	9 -> 5
+	10 -> 13
+	13 -> 16
+	rankdir=LR
+}

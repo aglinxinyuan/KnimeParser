@@ -1,0 +1,54 @@
+digraph {
+	3 [label=Joiner]
+	6 [label="Random Forest Learner"]
+	7 [label="Random Forest Predictor"]
+	9 [label="Google Cloud Storage Connector"]
+	10 [label="Google Authentication _API Key_"]
+	11 [label="CSV Reader"]
+	12 [label="Excel Reader"]
+	13 [label="Category To Number"]
+	14 [label=X_Partitioner]
+	15 [label=X_Aggregator]
+	16 [label=Scorer]
+	18 [label=SMOTE]
+	24 [label="Random Forest Learner"]
+	25 [label=SMOTE]
+	26 [label="PMML Writer"]
+	27 [label="Table to PMML Ensemble"]
+	28 [label="Tree Ensemble Model Extract"]
+	29 [label=Joiner]
+	30 [label="Category To Number"]
+	31 [label="CSV Reader"]
+	32 [label="Excel Reader"]
+	33 [label="Random Forest Predictor"]
+	34 [label="CSV Writer"]
+	35 [label="Data to Report"]
+	36 [label="Data to Report"]
+	3 -> 13
+	6 -> 7
+	6 -> 36
+	7 -> 15
+	9 -> 11
+	9 -> 12
+	10 -> 9
+	11 -> 3
+	12 -> 3
+	13 -> 33
+	14 -> 7
+	14 -> 18
+	15 -> 16
+	16 -> 35
+	18 -> 6
+	24 -> 28
+	24 -> 33
+	25 -> 24
+	27 -> 26
+	28 -> 27
+	29 -> 30
+	30 -> 25
+	30 -> 14
+	31 -> 29
+	32 -> 29
+	33 -> 34
+	rankdir=LR
+}

@@ -1,0 +1,54 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=k_Means]
+	4 [label="Cluster Assigner"]
+	5 [label=Partitioning]
+	18 [label="Counting Loop Start"]
+	19 [label="Loop End"]
+	20 [label="Java Edit Variable"]
+	32 [label=Normalizer]
+	33 [label="Variable to Table Column"]
+	7 [label="Column Filter"]
+	9 [label="Column Filter"]
+	10 [label="Column Rename"]
+	26 [label="Math Formula"]
+	27 [label=Statistics]
+	29 [label=Joiner]
+	30 [label="Java Snippet"]
+	36 [label=Sorter]
+	37 [label="Row Filter"]
+	38 [label="Counting Loop Start"]
+	40 [label=GroupBy]
+	41 [label=Sorter]
+	42 [label="Scatter Plot _JFreeChart_"]
+	43 [label="Loop End _2 ports_"]
+	44 [label="Column Filter"]
+	7 -> 27
+	9 -> 10
+	26 -> 9
+	27 -> 26
+	29 -> 30
+	30 -> 7
+	1 -> 44
+	2 -> 29
+	2 -> 4
+	4 -> 29
+	5 -> 18
+	18 -> 20
+	18 -> 2
+	19 -> 36
+	19 -> 43
+	20 -> 2
+	32 -> 38
+	33 -> 19
+	10 -> 33
+	36 -> 37
+	37 -> 43
+	38 -> 4
+	38 -> 5
+	40 -> 41
+	43 -> 42
+	43 -> 40
+	44 -> 32
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Interactive Table _legacy_"]
+	3 [label=Statistics]
+	4 [label="String To Number"]
+	5 [label="String Replacer _Dictionary_"]
+	6 [label="Table Creator"]
+	1 -> 3
+	1 -> 2
+	1 -> 4
+	4 -> 5
+	6 -> 5
+	rankdir=LR
+}

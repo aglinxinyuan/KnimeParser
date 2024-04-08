@@ -1,0 +1,29 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	3 [label="Row Aggregator"]
+	4 [label="Duplicate Row Filter"]
+	5 [label="Row Aggregator"]
+	6 [label="Column Appender"]
+	7 [label="Value Lookup"]
+	8 [label="Column Renamer"]
+	9 [label="Column Renamer"]
+	10 [label=Concatenate]
+	11 [label=Sorter]
+	12 [label="CSV Writer"]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	3 -> 7
+	3 -> 6
+	4 -> 5
+	5 -> 7
+	5 -> 6
+	6 -> 9
+	7 -> 8
+	8 -> 10
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	rankdir=LR
+}

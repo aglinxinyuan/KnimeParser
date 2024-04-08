@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Variable Creator"]
+	2 [label="Variable to Credentials"]
+	4 [label="OAuth2 Authenticator _Client Credentials_"]
+	5 [label="String Widget"]
+	6 [label="String Manipulation _Variable_"]
+	7 [label="GET Request"]
+	8 [label="JSON Path"]
+	9 [label=Ungroup]
+	10 [label="Table View _JavaScript_"]
+	11 [label="Row Filter"]
+	12 [label="String Manipulation"]
+	13 [label="GET Request"]
+	14 [label="Column Filter"]
+	15 [label="JSON Path"]
+	16 [label=Ungroup]
+	17 [label="Excel Writer"]
+	1 -> 2
+	2 -> 4
+	4 -> 7
+	4 -> 13
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	rankdir=LR
+}

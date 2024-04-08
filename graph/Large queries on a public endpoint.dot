@@ -1,0 +1,15 @@
+digraph {
+	1 [label="SPARQL Endpoint"]
+	3 [label="SPARQL Select Query"]
+	11 [label="Table Creator"]
+	12 [label="Java Snippet"]
+	13 [label="Loop End"]
+	16 [label="Counting Loop Start"]
+	1 -> 3
+	3 -> 13
+	11 -> 16
+	12 -> 3
+	16 -> 12
+	16 -> 12
+	rankdir=LR
+}

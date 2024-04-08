@@ -1,0 +1,47 @@
+digraph {
+	1 [label="Line Reader"]
+	2 [label="Row Filter"]
+	3 [label="String Manipulation"]
+	5 [label="String Manipulation"]
+	6 [label="Cell Splitter"]
+	7 [label=Ungroup]
+	8 [label="Row Filter"]
+	9 [label="Cell Splitter"]
+	10 [label=Pivoting]
+	13 [label="Regex Split"]
+	14 [label="Regex Split"]
+	15 [label="Table Manipulator"]
+	16 [label="Rule Engine"]
+	17 [label="Math Formula"]
+	18 [label="Math Formula"]
+	19 [label=Sorter]
+	22 [label="Row Filter"]
+	23 [label="Counter Generation"]
+	24 [label="Column Rename"]
+	25 [label="String Manipulation"]
+	26 [label="Math Formula"]
+	27 [label=Joiner]
+	2 -> 3
+	3 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	1 -> 23
+	10 -> 13
+	19 -> 27
+	22 -> 25
+	23 -> 24
+	24 -> 2
+	24 -> 22
+	25 -> 26
+	26 -> 27
+	rankdir=LR
+}

@@ -1,0 +1,30 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Python Script"]
+	4 [label="Row Filter"]
+	5 [label=GroupBy]
+	6 [label=GroupBy]
+	7 [label="Python Script"]
+	8 [label="Python Script"]
+	9 [label=Joiner]
+	10 [label=Joiner]
+	11 [label="Column Resorter"]
+	12 [label="Missing Value"]
+	13 [label=Sorter]
+	1 -> 12
+	2 -> 4
+	3 -> 9
+	4 -> 3
+	4 -> 5
+	4 -> 6
+	5 -> 7
+	6 -> 8
+	7 -> 9
+	8 -> 10
+	9 -> 10
+	10 -> 11
+	11 -> 13
+	12 -> 2
+	rankdir=LR
+}

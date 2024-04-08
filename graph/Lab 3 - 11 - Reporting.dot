@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Data to Report"]
+	3 [label="Image to Report"]
+	4 [label="Bar Chart"]
+	1 -> 2
+	1 -> 4
+	4 -> 3
+	rankdir=LR
+}

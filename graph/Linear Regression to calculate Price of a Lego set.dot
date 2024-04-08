@@ -1,0 +1,32 @@
+digraph {
+	57 [label="Math Formula"]
+	58 [label="Scatter Plot"]
+	59 [label=Histogram]
+	60 [label="File Reader"]
+	61 [label="Category To Number"]
+	62 [label="Numeric Outliers"]
+	63 [label="Missing Value"]
+	64 [label="Rank Correlation"]
+	65 [label="Correlation Filter"]
+	66 [label="Column Filter"]
+	67 [label=Partitioning]
+	68 [label="Linear Regression Learner"]
+	69 [label="Regression Predictor"]
+	70 [label="Numeric Scorer"]
+	57 -> 59
+	57 -> 58
+	60 -> 61
+	61 -> 62
+	62 -> 63
+	63 -> 66
+	63 -> 64
+	64 -> 65
+	64 -> 65
+	66 -> 67
+	67 -> 69
+	67 -> 68
+	68 -> 69
+	69 -> 70
+	69 -> 57
+	rankdir=LR
+}

@@ -1,0 +1,58 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=GroupBy]
+	5 [label="Row Filter"]
+	8 [label="Geo_Coordinate Row Filter"]
+	10 [label="OSM Map View"]
+	11 [label="Column Filter"]
+	12 [label=k_Means]
+	13 [label="Color Manager"]
+	14 [label="OSM Map View"]
+	15 [label="Row Filter"]
+	16 [label="Hierarchical Clustering"]
+	17 [label="Strings To Document"]
+	18 [label="Punctuation Erasure"]
+	19 [label="N Chars Filter"]
+	20 [label="Number Filter"]
+	21 [label="Case Converter"]
+	23 [label="Document Viewer"]
+	24 [label="Document Viewer"]
+	25 [label="Stop Word Filter"]
+	26 [label="Snowball Stemmer"]
+	27 [label="Bag Of Words Creator"]
+	28 [label="Document Vector"]
+	29 [label="Category To Class"]
+	30 [label="Create Bit Vector"]
+	31 [label="Item Set Finder _Borgelt_"]
+	32 [label="Table View"]
+	33 [label="Scatter Plot"]
+	1 -> 2
+	2 -> 5
+	5 -> 15
+	8 -> 10
+	8 -> 10
+	8 -> 11
+	11 -> 12
+	11 -> 17
+	11 -> 16
+	12 -> 13
+	12 -> 14
+	13 -> 14
+	15 -> 8
+	17 -> 18
+	17 -> 23
+	18 -> 19
+	18 -> 24
+	19 -> 20
+	20 -> 21
+	21 -> 25
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 29
+	29 -> 30
+	30 -> 31
+	31 -> 33
+	31 -> 32
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	4 [label="Decision Tree Predictor"]
+	5 [label="Decision Tree Learner"]
+	9 [label="Scorer _JavaScript_"]
+	1 -> 5
+	2 -> 4
+	4 -> 9
+	5 -> 4
+	rankdir=LR
+}

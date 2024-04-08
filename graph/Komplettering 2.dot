@@ -1,0 +1,95 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Counting Loop Start"]
+	3 [label="Counting Loop Start"]
+	4 [label="Counting Loop Start"]
+	5 [label=X_Partitioner]
+	6 [label=X_Partitioner]
+	7 [label=X_Partitioner]
+	8 [label="Decision Tree Learner"]
+	9 [label="Naive Bayes Learner"]
+	10 [label="K Nearest Neighbor"]
+	11 [label="Naive Bayes Predictor"]
+	12 [label="Decision Tree Predictor"]
+	13 [label=X_Aggregator]
+	14 [label=X_Aggregator]
+	15 [label=X_Aggregator]
+	16 [label="Loop End"]
+	17 [label="Loop End"]
+	18 [label="Loop End"]
+	19 [label="Group Loop Start"]
+	20 [label="Group Loop Start"]
+	21 [label="Group Loop Start"]
+	22 [label="Group Loop Start"]
+	23 [label="Group Loop Start"]
+	24 [label="Group Loop Start"]
+	25 [label=Scorer]
+	26 [label=Scorer]
+	27 [label=Scorer]
+	28 [label="Table Row to Variable"]
+	29 [label="Table Row to Variable"]
+	30 [label="Table Row to Variable"]
+	31 [label="Variable to Table Row"]
+	32 [label="Variable to Table Row"]
+	33 [label="Variable to Table Row"]
+	34 [label="Loop End"]
+	35 [label="Loop End"]
+	36 [label="Loop End"]
+	37 [label=GroupBy]
+	38 [label=GroupBy]
+	39 [label=GroupBy]
+	40 [label="Category To Number"]
+	41 [label="Column Filter"]
+	42 [label="Rule_based Row Filter"]
+	43 [label="Loop End"]
+	44 [label="Loop End"]
+	45 [label="Loop End"]
+	1 -> 40
+	2 -> 5
+	3 -> 6
+	4 -> 7
+	5 -> 8
+	5 -> 12
+	6 -> 9
+	6 -> 11
+	7 -> 10
+	7 -> 10
+	8 -> 12
+	9 -> 11
+	10 -> 15
+	11 -> 14
+	12 -> 13
+	13 -> 16
+	14 -> 17
+	15 -> 18
+	16 -> 19
+	17 -> 20
+	18 -> 21
+	19 -> 22
+	20 -> 23
+	21 -> 24
+	22 -> 25
+	23 -> 26
+	24 -> 27
+	25 -> 28
+	26 -> 29
+	27 -> 30
+	28 -> 33
+	29 -> 32
+	30 -> 31
+	31 -> 36
+	32 -> 35
+	33 -> 34
+	34 -> 43
+	35 -> 44
+	36 -> 45
+	40 -> 41
+	41 -> 42
+	42 -> 2
+	42 -> 3
+	42 -> 4
+	43 -> 37
+	44 -> 38
+	45 -> 39
+	rankdir=LR
+}

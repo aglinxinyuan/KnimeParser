@@ -1,0 +1,20 @@
+digraph {
+	5 [label="Table Reader"]
+	6 [label="Table Reader"]
+	7 [label="Table Difference Finder"]
+	8 [label="Workflow Executor"]
+	9 [label="Math Formula"]
+	10 [label="Capture Workflow Start"]
+	12 [label="Numeric Binner"]
+	13 [label="Capture Workflow End"]
+	15 [label="Table Reader"]
+	5 -> 10
+	6 -> 7
+	8 -> 7
+	9 -> 12
+	10 -> 9
+	12 -> 13
+	13 -> 8
+	15 -> 8
+	rankdir=LR
+}

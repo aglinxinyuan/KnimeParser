@@ -1,0 +1,116 @@
+digraph {
+	2 [label="List Files_Folders"]
+	3 [label="List Files_Folders"]
+	28 [label="Table Row To Variable Loop Start"]
+	29 [label="Row Filter"]
+	30 [label="Read Excel Sheet Names"]
+	31 [label="Table Row To Variable Loop Start"]
+	32 [label="Constant Value Column"]
+	33 [label="Loop End"]
+	34 [label="Excel Reader"]
+	35 [label="Constant Value Column"]
+	36 [label="Path to String _Variable_"]
+	37 [label="Variable Expressions"]
+	38 [label="Loop End"]
+	39 [label="Duplicate Row Filter"]
+	40 [label="Row Filter _Labs_"]
+	42 [label="String To Number"]
+	45 [label="Missing Value"]
+	48 [label="Row Filter _Labs_"]
+	46 [label=GroupBy]
+	49 [label="Top k Selector"]
+	50 [label="Reference Row Filter"]
+	51 [label=GroupBy]
+	52 [label=Unpivoting]
+	55 [label=Joiner]
+	56 [label=Pivoting]
+	57 [label="Column Rename"]
+	58 [label="Column Filter"]
+	5 [label="Excel Reader"]
+	6 [label="Read Excel Sheet Names"]
+	9 [label="Row Filter"]
+	12 [label="Constant Value Column"]
+	14 [label="Loop End"]
+	16 [label="Loop End"]
+	19 [label="Table Row To Variable Loop Start"]
+	20 [label="Table Row To Variable Loop Start"]
+	21 [label="Constant Value Column"]
+	23 [label="Path to String _Variable_"]
+	24 [label="Variable Expressions"]
+	25 [label="Row Filter _Labs_"]
+	26 [label="Duplicate Row Filter"]
+	61 [label="Row Filter _Labs_"]
+	62 [label="String To Number"]
+	46 [label=GroupBy]
+	49 [label="Top k Selector"]
+	50 [label="Reference Row Filter"]
+	51 [label=GroupBy]
+	52 [label=Unpivoting]
+	55 [label=Joiner]
+	56 [label=Pivoting]
+	57 [label="Column Rename"]
+	58 [label="Column Filter"]
+	65 [label=Concatenate]
+	66 [label="Table View"]
+	28 -> 32
+	28 -> 34
+	29 -> 28
+	30 -> 29
+	31 -> 30
+	32 -> 33
+	32 -> 33
+	33 -> 35
+	33 -> 36
+	34 -> 32
+	35 -> 38
+	36 -> 37
+	37 -> 35
+	38 -> 40
+	39 -> 42
+	40 -> 39
+	42 -> 45
+	45 -> 48
+	46 -> 49
+	49 -> 50
+	50 -> 51
+	50 -> 55
+	51 -> 52
+	52 -> 55
+	55 -> 56
+	56 -> 57
+	57 -> 58
+	5 -> 12
+	6 -> 9
+	9 -> 19
+	12 -> 14
+	12 -> 14
+	14 -> 23
+	14 -> 21
+	16 -> 25
+	19 -> 5
+	19 -> 12
+	20 -> 6
+	21 -> 16
+	23 -> 24
+	24 -> 21
+	25 -> 26
+	26 -> 61
+	61 -> 62
+	46 -> 49
+	49 -> 50
+	50 -> 51
+	50 -> 55
+	51 -> 52
+	52 -> 55
+	55 -> 56
+	56 -> 57
+	57 -> 58
+	2 -> 20
+	3 -> 31
+	48 -> 46
+	58 -> 65
+	62 -> 46
+	58 -> 65
+	65 -> 66
+	rankdir=LR
+}

@@ -1,0 +1,22 @@
+digraph {
+	2 [label="Column Filter"]
+	3 [label="Missing Value"]
+	4 [label=Normalizer]
+	5 [label="Numeric Distances"]
+	6 [label=DBSCAN]
+	7 [label=Denormalizer]
+	8 [label="Color Manager"]
+	9 [label="Scatter Plot"]
+	10 [label="CSV Reader"]
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	4 -> 6
+	4 -> 7
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	10 -> 2
+	rankdir=LR
+}

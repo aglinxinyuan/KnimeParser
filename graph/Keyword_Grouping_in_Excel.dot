@@ -1,0 +1,14 @@
+digraph {
+	4 [label="Rule Engine"]
+	5 [label="Bar Chart"]
+	8 [label="Row Filter"]
+	9 [label="Excel Reader"]
+	10 [label="Excel Writer"]
+	12 [label="Variable Creator"]
+	4 -> 5
+	4 -> 8
+	4 -> 10
+	9 -> 4
+	12 -> 10
+	rankdir=LR
+}

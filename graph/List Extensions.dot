@@ -1,0 +1,16 @@
+digraph {
+	1 [label="List Files"]
+	2 [label="Table Row To Variable Loop Start"]
+	3 [label="XML Reader"]
+	4 [label=XPath]
+	5 [label="Loop End"]
+	6 [label="Duplicate Row Filter"]
+	7 [label="Rule_based Row Filter"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	rankdir=LR
+}

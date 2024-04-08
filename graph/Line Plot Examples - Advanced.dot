@@ -1,0 +1,78 @@
+digraph {
+	18 [label="Extract Column Header"]
+	19 [label=Transpose]
+	20 [label="Color Manager"]
+	69 [label="Single Selection"]
+	93 [label="IF Switch"]
+	95 [label="IF Switch"]
+	105 [label=GroupBy]
+	115 [label="End IF"]
+	117 [label="End IF"]
+	118 [label="WrappedNode Input"]
+	119 [label="WrappedNode Output"]
+	129 [label=Sorter]
+	138 [label="Column Filter"]
+	145 [label="Rule Engine Variable"]
+	146 [label="Rule Engine Variable"]
+	150 [label=GroupBy]
+	151 [label="Extract Date_Time Fields"]
+	66 [label="WrappedNode Output"]
+	70 [label="WrappedNode Input"]
+	73 [label="Merge Variables"]
+	88 [label="Date_Time Input"]
+	89 [label="Date_Time Input"]
+	96 [label="Date_Time_based Row Filter"]
+	147 [label="Table Reader"]
+	148 [label="JavaScript Line Plot"]
+	149 [label="JavaScript Line Plot"]
+	150 [label="JavaScript Line Plot"]
+	151 [label="JavaScript Line Plot"]
+	152 [label="WrappedNode Input"]
+	153 [label="WrappedNode Output"]
+	154 [label="Column Filter"]
+	155 [label="Column Splitter"]
+	156 [label=Joiner]
+	157 [label="String Manipulation _Variable_"]
+	158 [label="WrappedNode Input"]
+	160 [label="WrappedNode Output"]
+	145 -> 146
+	69 -> 145
+	93 -> 95
+	93 -> 115
+	95 -> 150
+	95 -> 105
+	105 -> 117
+	115 -> 129
+	117 -> 115
+	118 -> 151
+	129 -> 138
+	138 -> 119
+	146 -> 93
+	150 -> 117
+	151 -> 93
+	70 -> 96
+	73 -> 96
+	88 -> 73
+	89 -> 73
+	96 -> 66
+	152 -> 151
+	154 -> 157
+	155 -> 154
+	155 -> 156
+	155 -> 156
+	156 -> 160
+	157 -> 156
+	158 -> 155
+	18 -> 19
+	19 -> 20
+	20 -> 145
+	121 -> 158
+	146 -> 121
+	147 -> 146
+	158 -> 152
+	158 -> 150
+	158 -> 145
+	158 -> 149
+	158 -> 18
+	rankdir=LR
+}

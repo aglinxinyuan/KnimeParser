@@ -1,0 +1,15 @@
+digraph {
+	1 [label="CSV Reader"]
+	4 [label="Conda Environment Propagation"]
+	5 [label="Python View"]
+	10 [label="Row Filter _Labs_"]
+	21 [label="Python View"]
+	22 [label="Row Filter _Labs_"]
+	1 -> 10
+	1 -> 22
+	4 -> 5
+	4 -> 21
+	10 -> 21
+	22 -> 5
+	rankdir=LR
+}

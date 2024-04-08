@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Table Creator"]
+	5 [label="Lag Column"]
+	6 [label="Lag Column"]
+	12 [label="Python Script _Labs_"]
+	13 [label=GroupBy]
+	14 [label=Joiner]
+	15 [label="Table Manipulator"]
+	1 -> 5
+	5 -> 6
+	6 -> 12
+	12 -> 13
+	12 -> 14
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

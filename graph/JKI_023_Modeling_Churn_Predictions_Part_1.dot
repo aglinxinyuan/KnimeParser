@@ -1,0 +1,16 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Decision Tree Learner"]
+	3 [label="Decision Tree Predictor"]
+	4 [label="CSV Reader"]
+	5 [label=Scorer]
+	6 [label="Data Explorer"]
+	7 [label="Data Explorer"]
+	1 -> 2
+	1 -> 7
+	2 -> 3
+	3 -> 5
+	4 -> 3
+	4 -> 6
+	rankdir=LR
+}

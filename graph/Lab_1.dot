@@ -1,0 +1,43 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label="CSV Reader"]
+	5 [label="CSV Reader"]
+	6 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	8 [label="CSV Reader"]
+	9 [label="Row Filter"]
+	10 [label="Row Filter"]
+	11 [label="Column Filter"]
+	12 [label="Column Filter"]
+	14 [label="Column Expressions"]
+	15 [label="CSV Reader"]
+	16 [label="CSV Reader"]
+	18 [label=GroupBy]
+	19 [label=Concatenate]
+	20 [label="CSV Reader"]
+	21 [label="CSV Reader"]
+	22 [label="Column Filter"]
+	23 [label="Column Filter"]
+	24 [label="CSV Reader"]
+	25 [label="Column Filter"]
+	26 [label="CSV Reader"]
+	27 [label="Column Filter"]
+	28 [label=Concatenate]
+	24 -> 25
+	25 -> 28
+	26 -> 27
+	27 -> 28
+	5 -> 9
+	6 -> 10
+	7 -> 12
+	8 -> 11
+	15 -> 14
+	16 -> 18
+	20 -> 22
+	21 -> 23
+	22 -> 19
+	23 -> 19
+	rankdir=LR
+}

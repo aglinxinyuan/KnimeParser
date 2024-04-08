@@ -1,0 +1,61 @@
+digraph {
+	1 [label="Decompress Files"]
+	2 [label="Decompress Files"]
+	3 [label="CSV Reader"]
+	4 [label="Line Reader"]
+	5 [label="Top k Row Filter"]
+	6 [label="Cell Splitter"]
+	7 [label="Column Filter"]
+	8 [label="Column Renamer"]
+	9 [label="Add Empty Rows"]
+	10 [label="Column Name Extractor"]
+	11 [label=Unpivot]
+	13 [label="Column Filter"]
+	14 [label="Column Appender"]
+	15 [label="Column Renamer _Dictionary_"]
+	18 [label="Column Renamer"]
+	19 [label="CSV Writer"]
+	20 [label="Table Writer"]
+	21 [label="CSV Reader"]
+	22 [label="Column Rename _Regex_"]
+	23 [label="MySQL Connector"]
+	24 [label="Credentials Configuration"]
+	28 [label="CSV Writer"]
+	29 [label="DB Loader"]
+	30 [label="CSV Reader"]
+	31 [label="String Manipulation _Multi Column_"]
+	32 [label="Column Filter"]
+	33 [label="Column Rename _Regex_"]
+	34 [label="Column Auto Type Cast"]
+	36 [label="Missing Value"]
+	37 [label="Rule Engine"]
+	38 [label="CSV Writer"]
+	3 -> 10
+	3 -> 15
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 14
+	10 -> 11
+	11 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 19
+	15 -> 20
+	18 -> 22
+	21 -> 18
+	22 -> 28
+	22 -> 29
+	23 -> 29
+	24 -> 23
+	30 -> 31
+	31 -> 32
+	32 -> 33
+	33 -> 34
+	34 -> 36
+	36 -> 37
+	37 -> 38
+	rankdir=LR
+}

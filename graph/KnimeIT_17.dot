@@ -1,0 +1,35 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Unpivoting]
+	3 [label="Missing Value"]
+	4 [label=GroupBy]
+	5 [label="String Manipulation"]
+	6 [label=GroupBy]
+	7 [label="Math Formula"]
+	8 [label=Rank]
+	9 [label="Row Filter"]
+	10 [label=Joiner]
+	11 [label="Line Plot"]
+	12 [label="Row Filter"]
+	13 [label=GroupBy]
+	14 [label=Rank]
+	15 [label="Row Filter"]
+	16 [label="Conditional Box Plot"]
+	1 -> 2
+	2 -> 3
+	3 -> 5
+	4 -> 6
+	4 -> 10
+	5 -> 4
+	5 -> 12
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 16
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

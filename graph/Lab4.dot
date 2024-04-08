@@ -1,0 +1,13 @@
+digraph {
+	1 [label="Random Forest Predictor _Regression_"]
+	2 [label="CSV Reader"]
+	3 [label=Partitioning]
+	4 [label="Random Forest Learner _Regression_"]
+	5 [label="Numeric Scorer"]
+	1 -> 5
+	2 -> 3
+	3 -> 4
+	3 -> 1
+	4 -> 1
+	rankdir=LR
+}

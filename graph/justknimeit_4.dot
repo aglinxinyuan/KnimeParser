@@ -1,0 +1,16 @@
+digraph {
+	15 [label="CSV Reader"]
+	16 [label="Lag Column"]
+	17 [label="Rule Engine"]
+	18 [label="Column Filter"]
+	19 [label="Table Writer"]
+	20 [label=Sorter]
+	21 [label="String to Date_Time"]
+	15 -> 21
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	20 -> 16
+	21 -> 20
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Tika Parser"]
+	10 [label="Column Expressions"]
+	11 [label="Cell Splitter"]
+	12 [label=Transpose]
+	18 [label="Duplicate Row Filter"]
+	19 [label="Tag Cloud"]
+	20 [label="Column Expressions"]
+	1 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 20
+	18 -> 19
+	20 -> 18
+	rankdir=LR
+}

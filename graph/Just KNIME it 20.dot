@@ -1,0 +1,43 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String to Date_Time"]
+	3 [label=GroupBy]
+	4 [label="Table Row to Variable"]
+	5 [label="Create Date_Time Range"]
+	6 [label="Extract Date_Time Fields"]
+	8 [label="Rule Engine"]
+	12 [label="Cross Joiner"]
+	13 [label="Rule_based Row Filter"]
+	14 [label="Lag Column"]
+	15 [label=GroupBy]
+	16 [label=GroupBy]
+	17 [label=GroupBy]
+	18 [label=Joiner]
+	20 [label="Rule Engine"]
+	22 [label="Table Manipulator"]
+	23 [label="String To Number"]
+	24 [label=Sorter]
+	25 [label=Concatenate]
+	1 -> 2
+	2 -> 3
+	2 -> 14
+	2 -> 16
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 8
+	8 -> 12
+	12 -> 13
+	13 -> 15
+	14 -> 12
+	15 -> 17
+	15 -> 25
+	16 -> 20
+	17 -> 18
+	18 -> 22
+	20 -> 23
+	22 -> 24
+	23 -> 25
+	25 -> 18
+	rankdir=LR
+}

@@ -1,0 +1,13 @@
+digraph {
+	2 [label="Workflow Service Output"]
+	12 [label="Workflow Service Input"]
+	16 [label="Workflow Service Input"]
+	20 [label="Workflow Service Input"]
+	25 [label="Workflow Service Input"]
+	26 [label="String Manipulation"]
+	27 [label="Column Filter"]
+	25 -> 26
+	26 -> 27
+	27 -> 2
+	rankdir=LR
+}

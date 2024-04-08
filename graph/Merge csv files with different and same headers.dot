@@ -1,0 +1,58 @@
+digraph {
+	5 [label="CSV Reader"]
+	7 [label="Java Snippet _simple_"]
+	9 [label="Rule_based Row Filter"]
+	10 [label=GroupBy]
+	11 [label="Table Row to Variable"]
+	12 [label="Insert Column Header"]
+	13 [label="Extract Column Header"]
+	14 [label=Transpose]
+	15 [label="Extract Column Header"]
+	16 [label=Transpose]
+	17 [label=Joiner]
+	18 [label="Column Rename"]
+	19 [label="Column Rename"]
+	21 [label="Table Row To Variable Loop Start"]
+	22 [label="Loop End"]
+	23 [label="List Files"]
+	24 [label="String to URI"]
+	25 [label="File Meta Info"]
+	26 [label=Sorter]
+	28 [label="R Snippet"]
+	31 [label="R Source _Table_"]
+	32 [label="Table Creator"]
+	34 [label="Table Column to Variable"]
+	35 [label="Column Rename"]
+	36 [label="Column Resorter"]
+	37 [label="Table Writer"]
+	446 [label="Excel Sheet Appender _XLS_"]
+	5 -> 12
+	5 -> 15
+	7 -> 35
+	9 -> 10
+	10 -> 11
+	11 -> 5
+	12 -> 22
+	13 -> 14
+	14 -> 18
+	15 -> 16
+	16 -> 19
+	17 -> 12
+	18 -> 17
+	19 -> 17
+	21 -> 28
+	22 -> 36
+	23 -> 24
+	24 -> 25
+	25 -> 26
+	26 -> 21
+	28 -> 7
+	31 -> 28
+	32 -> 34
+	34 -> 35
+	35 -> 9
+	35 -> 13
+	36 -> 37
+	36 -> 446
+	rankdir=LR
+}

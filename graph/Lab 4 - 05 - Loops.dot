@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Row Filter"]
+	3 [label="Generic Loop Start"]
+	4 [label="Math Formula"]
+	5 [label="Variable Condition Loop End"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,6 @@
+digraph {
+	2 [label="File Reader"]
+	5 [label="Data Explorer"]
+	2 -> 5
+	rankdir=LR
+}

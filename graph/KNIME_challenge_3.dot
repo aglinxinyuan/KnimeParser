@@ -1,0 +1,73 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="File Reader"]
+	3 [label=GroupBy]
+	5 [label="Row Splitter"]
+	8 [label="Top k Selector"]
+	9 [label="Rule_based Row Filter"]
+	10 [label="String Manipulation"]
+	13 [label="Top k Selector"]
+	14 [label=Joiner]
+	15 [label=GroupBy]
+	16 [label="Math Formula"]
+	20 [label="Row Splitter"]
+	26 [label=Concatenate]
+	21 [label=GroupBy]
+	22 [label=GroupBy]
+	23 [label=Joiner]
+	24 [label="Math Formula"]
+	25 [label="Column Rename"]
+	28 [label="String Manipulation"]
+	29 [label="Missing Value"]
+	5 [label="Row Splitter"]
+	11 [label="Table Creator"]
+	12 [label=Joiner]
+	13 [label=GroupBy]
+	14 [label=GroupBy]
+	15 [label=Joiner]
+	16 [label="Column Rename"]
+	17 [label="Math Formula"]
+	18 [label=Concatenate]
+	19 [label="Column Rename"]
+	20 [label="Missing Value"]
+	31 [label="Top k Selector"]
+	32 [label="CSV Writer"]
+	21 -> 28
+	22 -> 23
+	23 -> 21
+	24 -> 25
+	28 -> 23
+	25 -> 24
+	5 -> 13
+	5 -> 12
+	11 -> 12
+	12 -> 14
+	12 -> 18
+	12 -> 18
+	13 -> 16
+	14 -> 15
+	15 -> 20
+	16 -> 15
+	17 -> 19
+	19 -> 18
+	20 -> 17
+	1 -> 10
+	2 -> 9
+	3 -> 5
+	5 -> 8
+	5 -> 31
+	9 -> 20
+	10 -> 14
+	14 -> 16
+	15 -> 14
+	16 -> 13
+	20 -> 21
+	20 -> 5
+	26 -> 3
+	26 -> 15
+	26 -> 32
+	25 -> 26
+	18 -> 21
+	18 -> 26
+	rankdir=LR
+}

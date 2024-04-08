@@ -1,0 +1,14 @@
+digraph {
+	2 [label="XLS Control Table Generator"]
+	3 [label="Rule Engine"]
+	4 [label="XLS Control Table Generator"]
+	5 [label="XLS Cell Formatter"]
+	6 [label="XLS Formatter _apply_"]
+	7 [label="Excel Reader"]
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	7 -> 2
+	rankdir=LR
+}

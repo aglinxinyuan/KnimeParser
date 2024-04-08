@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="Gradient Boosted Trees Learner"]
+	4 [label="Gradient Boosted Trees Predictor"]
+	5 [label=Scorer]
+	1 -> 4
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

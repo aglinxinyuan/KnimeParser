@@ -1,0 +1,40 @@
+digraph {
+	1 [label="CSV Reader"]
+	5 [label="Counter Generation"]
+	15 [label="Similarity Search"]
+	16 [label=Joiner]
+	19 [label=GroupBy]
+	20 [label="Cell Splitter"]
+	21 [label="Row Splitter"]
+	22 [label="Top k Row Filter"]
+	23 [label="Rule Engine"]
+	24 [label=Joiner]
+	25 [label="Column Merger"]
+	26 [label="Column Filter"]
+	27 [label="Missing Value"]
+	28 [label="Column Renamer"]
+	29 [label=Joiner]
+	30 [label="Column Merger"]
+	31 [label="Table View"]
+	1 -> 20
+	5 -> 15
+	5 -> 16
+	15 -> 23
+	16 -> 24
+	19 -> 21
+	20 -> 19
+	20 -> 29
+	21 -> 15
+	21 -> 22
+	21 -> 24
+	22 -> 5
+	23 -> 16
+	24 -> 25
+	25 -> 30
+	26 -> 29
+	27 -> 28
+	28 -> 26
+	29 -> 31
+	30 -> 27
+	rankdir=LR
+}

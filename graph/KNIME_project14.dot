@@ -1,0 +1,20 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Molecule Type Cast"]
+	5 [label="RDKit To Molecule"]
+	6 [label="SDF Writer"]
+	7 [label="CDK to Molecule"]
+	8 [label="Molecule to CDK"]
+	9 [label="SDF Writer"]
+	10 [label=MolConverter]
+	11 [label="SDF Writer"]
+	1 -> 2
+	2 -> 5
+	2 -> 8
+	2 -> 10
+	5 -> 6
+	7 -> 9
+	8 -> 7
+	10 -> 11
+	rankdir=LR
+}

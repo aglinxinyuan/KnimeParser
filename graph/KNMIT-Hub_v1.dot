@@ -1,0 +1,72 @@
+digraph {
+	5 [label="Row Filter"]
+	7 [label="Path to String"]
+	9 [label="Column Rename"]
+	10 [label="Excel Reader"]
+	12 [label="Table Row To Variable Loop Start"]
+	13 [label="Variable to Table Row"]
+	15 [label=RowID]
+	16 [label="Loop End"]
+	17 [label="Row Filter"]
+	19 [label="Column Expressions"]
+	20 [label="Table Manipulator"]
+	21 [label="Column Expressions"]
+	22 [label="String Manipulation _Multi Column_"]
+	23 [label="Row Filter"]
+	24 [label="Column Filter"]
+	25 [label="Cross Joiner"]
+	26 [label="Read Excel Sheet Names"]
+	27 [label="Row Filter"]
+	29 [label="Rule Engine"]
+	31 [label="Table Row to Variable"]
+	32 [label="Empty Table Switch"]
+	33 [label="End IF"]
+	34 [label="Empty Table Creator"]
+	35 [label=Concatenate]
+	36 [label="Column Expressions"]
+	37 [label="Column Filter"]
+	38 [label="Row Filter"]
+	39 [label="Missing Value"]
+	41 [label="CSV Writer"]
+	42 [label="List Files_Folders"]
+	43 [label="Column Expressions"]
+	44 [label="Cell Splitter"]
+	45 [label="Column Filter"]
+	46 [label="String Manipulation"]
+	5 -> 7
+	7 -> 44
+	9 -> 38
+	10 -> 19
+	12 -> 26
+	13 -> 25
+	15 -> 33
+	16 -> 39
+	17 -> 20
+	19 -> 17
+	20 -> 22
+	21 -> 23
+	22 -> 21
+	23 -> 24
+	24 -> 25
+	24 -> 13
+	25 -> 15
+	26 -> 27
+	27 -> 29
+	29 -> 32
+	31 -> 10
+	32 -> 35
+	32 -> 31
+	33 -> 16
+	34 -> 35
+	35 -> 36
+	36 -> 37
+	37 -> 33
+	38 -> 12
+	39 -> 41
+	42 -> 43
+	43 -> 5
+	44 -> 45
+	45 -> 46
+	46 -> 9
+	rankdir=LR
+}

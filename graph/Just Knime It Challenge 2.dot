@@ -1,0 +1,47 @@
+digraph {
+	2 [label="CSV Reader"]
+	4 [label="Cell Splitter"]
+	8 [label="Table Creator"]
+	9 [label=Joiner]
+	10 [label="Column Filter"]
+	11 [label="Column Rename"]
+	12 [label=GroupBy]
+	13 [label=GroupBy]
+	14 [label="Table Row To Variable Loop Start"]
+	15 [label="Row Filter"]
+	16 [label="Table Row To Variable Loop Start"]
+	17 [label="Row Filter"]
+	18 [label="Row Filter"]
+	19 [label="Column Filter"]
+	20 [label="Loop End"]
+	21 [label="Loop End"]
+	22 [label="CSV Writer"]
+	24 [label="Number To String"]
+	26 [label="String Manipulation _Variable_"]
+	27 [label="String to Path _Variable_"]
+	2 -> 4
+	4 -> 24
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 13
+	11 -> 12
+	11 -> 17
+	12 -> 15
+	13 -> 14
+	14 -> 15
+	14 -> 17
+	14 -> 26
+	15 -> 16
+	16 -> 18
+	16 -> 26
+	17 -> 18
+	18 -> 19
+	19 -> 22
+	19 -> 20
+	20 -> 21
+	24 -> 9
+	26 -> 27
+	27 -> 22
+	rankdir=LR
+}

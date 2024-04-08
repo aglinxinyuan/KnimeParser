@@ -1,0 +1,62 @@
+digraph {
+	5 [label="CMUSphinx4 SR"]
+	7 [label="List Audio Files"]
+	13 [label="Bing SR"]
+	14 [label="IBM Watson SR"]
+	15 [label="Constant Value Column"]
+	16 [label="Constant Value Column"]
+	17 [label="Constant Value Column"]
+	18 [label="Column Rename"]
+	19 [label="Column Rename"]
+	20 [label="Column Rename"]
+	22 [label="Strings To Document"]
+	23 [label="Table Creator"]
+	24 [label="Column Filter"]
+	25 [label=Concatenate]
+	26 [label="Column Filter"]
+	37 [label="Bag of Words Creator"]
+	27 [label="Case converter"]
+	30 [label="Punctuation Erasure"]
+	43 [label=TF]
+	52 [label="Document vector _deprecated_"]
+	53 [label="Distance Matrix Calculate"]
+	54 [label="Similarity Search"]
+	55 [label="Row Filter"]
+	56 [label="Dictionary Filter"]
+	57 [label="Category to class"]
+	58 [label="Column Filter"]
+	59 [label="Explorer Browser"]
+	61 [label=Concatenate]
+	27 -> 30
+	5 -> 15
+	7 -> 5
+	7 -> 14
+	7 -> 13
+	13 -> 16
+	14 -> 17
+	15 -> 18
+	16 -> 19
+	17 -> 20
+	18 -> 61
+	19 -> 61
+	20 -> 61
+	22 -> 26
+	22 -> 56
+	23 -> 25
+	24 -> 25
+	25 -> 22
+	26 -> 27
+	37 -> 43
+	30 -> 56
+	43 -> 52
+	52 -> 53
+	53 -> 55
+	53 -> 54
+	54 -> 57
+	55 -> 54
+	56 -> 37
+	57 -> 58
+	59 -> 7
+	61 -> 24
+	rankdir=LR
+}

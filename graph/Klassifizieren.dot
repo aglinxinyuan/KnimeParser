@@ -1,0 +1,44 @@
+digraph {
+	1 [label="File Reader"]
+	3 [label="Number To String"]
+	6 [label=Normalizer]
+	7 [label="Math Formula"]
+	8 [label="Column Filter"]
+	9 [label="Row Filter"]
+	12 [label=Normalizer]
+	13 [label="Row Filter"]
+	14 [label="Row Filter"]
+	2 [label=Partitioning]
+	4 [label="K Nearest Neighbor"]
+	5 [label=Scorer]
+	10 [label="Counting Loop Start"]
+	11 [label="Loop End _2 ports_"]
+	16 [label="Decision Tree Learner"]
+	17 [label="Decision Tree Predictor"]
+	18 [label=Partitioning]
+	19 [label=Scorer]
+	20 [label="Counting Loop Start"]
+	21 [label="Loop End _2 ports_"]
+	2 -> 4
+	2 -> 4
+	4 -> 5
+	5 -> 11
+	5 -> 11
+	10 -> 2
+	16 -> 17
+	17 -> 19
+	18 -> 17
+	18 -> 20
+	20 -> 16
+	1 -> 7
+	3 -> 15
+	3 -> 20
+	6 -> 12
+	7 -> 8
+	8 -> 9
+	9 -> 13
+	12 -> 3
+	13 -> 14
+	14 -> 6
+	rankdir=LR
+}

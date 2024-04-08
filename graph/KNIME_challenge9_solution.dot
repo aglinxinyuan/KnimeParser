@@ -1,0 +1,44 @@
+digraph {
+	71 [label="CSV Reader"]
+	75 [label=Unpivoting]
+	77 [label="Column Splitter"]
+	78 [label="Column Splitter"]
+	79 [label="Column Expressions"]
+	80 [label="String to Date_Time"]
+	81 [label="Column Expressions"]
+	85 [label=Unpivoting]
+	86 [label="Column Expressions"]
+	87 [label="Missing Value"]
+	88 [label=Pivoting]
+	89 [label=Pivoting]
+	90 [label="Column Appender"]
+	91 [label="Extract Column Header"]
+	93 [label="Missing Value"]
+	94 [label="Column List Loop Start"]
+	96 [label=Shuffle]
+	97 [label="Loop End _Column Append_"]
+	98 [label="Column Filter"]
+	99 [label="Column Filter"]
+	71 -> 80
+	75 -> 81
+	77 -> 90
+	77 -> 85
+	78 -> 77
+	78 -> 75
+	79 -> 78
+	80 -> 93
+	81 -> 88
+	85 -> 87
+	86 -> 89
+	87 -> 86
+	88 -> 98
+	89 -> 99
+	90 -> 94
+	93 -> 79
+	94 -> 96
+	96 -> 97
+	97 -> 91
+	98 -> 90
+	99 -> 90
+	rankdir=LR
+}

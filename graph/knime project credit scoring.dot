@@ -1,0 +1,113 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Category To Number"]
+	22 [label=Concatenate]
+	52 [label=Sorter]
+	59 [label="Bar Chart"]
+	7 [label=X_Aggregator]
+	23 [label=Normalizer]
+	24 [label=X_Partitioner]
+	25 [label="SVM Learner"]
+	26 [label="SVM Predictor"]
+	27 [label=Scorer]
+	295 [label="Cross Joiner"]
+	33 [label="SVM Learner"]
+	34 [label="PMML To Cell"]
+	35 [label="Rule Engine"]
+	9 [label="Row Filter"]
+	290 [label="Constant Value Column"]
+	292 [label="Constant Value Column"]
+	293 [label=RowID]
+	294 [label="Column Filter"]
+	3 [label=Normalizer]
+	4 [label=X_Partitioner]
+	6 [label="MultiLayerPerceptron Predictor"]
+	7 [label=X_Aggregator]
+	8 [label=Scorer]
+	12 [label="Cross Joiner"]
+	13 [label=RowID]
+	15 [label="Row Filter"]
+	16 [label="Column Filter"]
+	17 [label="Constant Value Column"]
+	18 [label="Constant Value Column"]
+	9 [label="RProp MLP Learner"]
+	10 [label="PMML To Cell"]
+	11 [label="Rule Engine"]
+	31 [label="RProp MLP Learner"]
+	4 [label=X_Partitioner]
+	7 [label=X_Aggregator]
+	39 [label="Cross Joiner"]
+	298 [label="Decision Tree Learner"]
+	299 [label="Decision Tree Predictor"]
+	300 [label=Scorer]
+	9 [label="Row Filter"]
+	290 [label="Constant Value Column"]
+	292 [label="Constant Value Column"]
+	293 [label=RowID]
+	294 [label="Column Filter"]
+	28 [label="PMML To Cell"]
+	33 [label="Decision Tree Learner"]
+	34 [label="Rule Engine"]
+	306 [label="Row Filter"]
+	307 [label="Cell To PMML"]
+	308 [label="PMML Writer"]
+	33 -> 34
+	34 -> 35
+	9 -> 294
+	290 -> 292
+	292 -> 293
+	294 -> 290
+	7 -> 27
+	23 -> 24
+	23 -> 23
+	24 -> 25
+	24 -> 26
+	25 -> 26
+	26 -> 7
+	27 -> 3
+	295 -> 295
+	12 -> 295
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 13
+	9 -> 10
+	10 -> 11
+	3 -> 4
+	3 -> 9
+	4 -> 6
+	4 -> 31
+	6 -> 7
+	7 -> 8
+	8 -> 15
+	13 -> 12
+	11 -> 12
+	31 -> 6
+	9 -> 294
+	290 -> 292
+	292 -> 293
+	294 -> 290
+	28 -> 34
+	33 -> 28
+	4 -> 298
+	4 -> 299
+	7 -> 300
+	298 -> 299
+	299 -> 7
+	300 -> 9
+	293 -> 39
+	34 -> 39
+	1 -> 4
+	1 -> 2
+	2 -> 23
+	2 -> 3
+	22 -> 52
+	52 -> 306
+	52 -> 59
+	295 -> 22
+	12 -> 22
+	39 -> 22
+	306 -> 307
+	307 -> 308
+	rankdir=LR
+}

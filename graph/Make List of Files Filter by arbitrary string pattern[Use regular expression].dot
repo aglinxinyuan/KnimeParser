@@ -1,0 +1,10 @@
+digraph {
+	42 [label="Boolean Configuration"]
+	45 [label="List Files_Folders"]
+	46 [label="Variable Creator"]
+	47 [label="Boolean Configuration"]
+	42 -> 47
+	46 -> 42
+	47 -> 45
+	rankdir=LR
+}

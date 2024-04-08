@@ -1,0 +1,105 @@
+digraph {
+	43 [label="Microsoft SQL Server Connector"]
+	44 [label="DB Table Selector"]
+	45 [label="DB Reader"]
+	82 [label="String to Date_Time"]
+	83 [label="Extract Date_Time Fields"]
+	84 [label="Table Creator"]
+	85 [label=Joiner]
+	88 [label="DB Reader"]
+	89 [label="DB Table Selector"]
+	90 [label="Rule Engine"]
+	93 [label="String Manipulation"]
+	94 [label="Table Creator"]
+	95 [label=Joiner]
+	96 [label="Duplicate Row Filter"]
+	97 [label=Joiner]
+	98 [label="Column Resorter"]
+	2 [label="String Manipulation"]
+	3 [label="String Manipulation"]
+	4 [label="String Manipulation"]
+	5 [label="String Manipulation"]
+	6 [label="String To Number"]
+	167 [label="Table Creator"]
+	168 [label=Joiner]
+	43 [label="Microsoft SQL Server Connector"]
+	44 [label="DB Table Selector"]
+	45 [label="DB Reader"]
+	325 [label="Cell Splitter"]
+	326 [label="Column Rename"]
+	327 [label=Pivoting]
+	43 [label="Microsoft SQL Server Connector"]
+	44 [label="DB Table Selector"]
+	45 [label="DB Reader"]
+	331 [label="Modify Time"]
+	332 [label="Extract Date_Time Fields"]
+	333 [label=GroupBy]
+	43 [label="Microsoft SQL Server Connector"]
+	44 [label="DB Table Selector"]
+	45 [label="DB Reader"]
+	335 [label="Modify Time"]
+	336 [label="Number To String"]
+	337 [label="String Manipulation"]
+	338 [label="Duplicate Row Filter"]
+	339 [label=Joiner]
+	340 [label=GroupBy]
+	341 [label="Row Filter"]
+	342 [label="Reference Row Filter"]
+	343 [label="Extract Date_Time Fields"]
+	344 [label="Column Rename"]
+	345 [label="String to Date_Time"]
+	346 [label="Date_Time Difference"]
+	347 [label="Extract Date_Time Fields"]
+	348 [label=GroupBy]
+	43 -> 44
+	43 -> 89
+	44 -> 45
+	45 -> 82
+	82 -> 83
+	83 -> 93
+	84 -> 85
+	85 -> 95
+	88 -> 90
+	89 -> 88
+	90 -> 96
+	93 -> 85
+	94 -> 95
+	95 -> 97
+	96 -> 97
+	97 -> 98
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 168
+	167 -> 168
+	43 -> 44
+	44 -> 45
+	43 -> 44
+	44 -> 45
+	43 -> 44
+	44 -> 45
+	168 -> 327
+	324 -> 325
+	325 -> 326
+	326 -> 2
+	328 -> 340
+	328 -> 342
+	328 -> 331
+	328 -> 335
+	331 -> 332
+	332 -> 333
+	334 -> 344
+	335 -> 336
+	336 -> 337
+	337 -> 338
+	338 -> 339
+	339 -> 345
+	340 -> 341
+	341 -> 342
+	344 -> 339
+	345 -> 346
+	346 -> 347
+	347 -> 348
+	rankdir=LR
+}

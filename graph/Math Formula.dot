@@ -1,0 +1,20 @@
+digraph {
+	55 [label="Math Formula"]
+	56 [label="Math Formula _Multi Column_"]
+	77 [label="Excel Reader"]
+	78 [label="Number To String"]
+	79 [label="String to Date_Time"]
+	80 [label="Excel Reader"]
+	81 [label=Joiner]
+	82 [label=GroupBy]
+	86 [label="Excel Writer"]
+	55 -> 56
+	56 -> 86
+	77 -> 78
+	78 -> 79
+	79 -> 81
+	80 -> 81
+	81 -> 82
+	82 -> 55
+	rankdir=LR
+}

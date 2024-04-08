@@ -1,0 +1,67 @@
+digraph {
+	51 [label="List Files"]
+	52 [label="Image Reader _Table_"]
+	54 [label="Column Appender"]
+	60 [label="Image Calculator"]
+	61 [label="One to Many"]
+	62 [label="File Reader"]
+	63 [label="Column Resorter"]
+	56 [label="String Manipulation"]
+	57 [label=Sorter]
+	58 [label="String To Number"]
+	59 [label=RowID]
+	42 [label="Column Rename"]
+	51 [label="List Files"]
+	52 [label="Image Reader _Table_"]
+	53 [label="CSV Reader"]
+	54 [label="Column Appender"]
+	60 [label="Image Calculator"]
+	56 [label="String Manipulation"]
+	57 [label=Sorter]
+	58 [label="String To Number"]
+	59 [label=RowID]
+	88 [label="DL Python Network Creator"]
+	89 [label="DL Keras Network Learner"]
+	90 [label="Keras Network Executor"]
+	91 [label="Column Expressions"]
+	92 [label="Extract Column Header"]
+	93 [label=Transpose]
+	94 [label="Column Filter"]
+	95 [label="Counter Generation"]
+	96 [label="Column Rename"]
+	97 [label=Joiner]
+	98 [label=RowID]
+	56 -> 58
+	57 -> 59
+	58 -> 57
+	51 -> 56
+	52 -> 60
+	54 -> 56
+	60 -> 54
+	59 -> 63
+	62 -> 54
+	59 -> 52
+	56 -> 58
+	57 -> 59
+	58 -> 57
+	51 -> 56
+	52 -> 60
+	53 -> 54
+	54 -> 42
+	60 -> 54
+	59 -> 52
+	50 -> 89
+	50 -> 92
+	51 -> 90
+	88 -> 89
+	89 -> 90
+	90 -> 91
+	91 -> 97
+	92 -> 94
+	93 -> 95
+	94 -> 93
+	95 -> 96
+	96 -> 98
+	98 -> 97
+	rankdir=LR
+}

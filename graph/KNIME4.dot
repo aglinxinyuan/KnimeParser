@@ -1,0 +1,15 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Missing Value"]
+	3 [label=Partitioning]
+	4 [label="Random Forest Learner _Regression_"]
+	5 [label="Tree Ensemble Predictor _Regression_"]
+	6 [label="Numeric Scorer"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 5
+	4 -> 5
+	5 -> 6
+	rankdir=LR
+}

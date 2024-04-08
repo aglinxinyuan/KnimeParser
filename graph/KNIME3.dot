@@ -1,0 +1,34 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Column Filter Configuration"]
+	3 [label="Missing Value"]
+	4 [label=Normalizer]
+	5 [label=Partitioning]
+	6 [label="RProp MLP Learner"]
+	7 [label="PMML Writer"]
+	8 [label="MultiLayerPerceptron Predictor"]
+	9 [label="Numeric Scorer"]
+	10 [label="PMML Reader"]
+	11 [label="File Reader"]
+	12 [label="Column Filter Configuration"]
+	13 [label="Missing Value"]
+	14 [label=Normalizer]
+	15 [label="MultiLayerPerceptron Predictor"]
+	16 [label="Data to Report"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	5 -> 8
+	6 -> 7
+	6 -> 8
+	8 -> 9
+	10 -> 15
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	rankdir=LR
+}

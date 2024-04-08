@@ -1,0 +1,18 @@
+digraph {
+	39 [label="Python Script"]
+	41 [label="Python View"]
+	47 [label="Python View"]
+	49 [label="Python View"]
+	60 [label="Python View"]
+	63 [label="Python View"]
+	64 [label="Excel Reader"]
+	39 -> 49
+	39 -> 47
+	39 -> 63
+	39 -> 63
+	39 -> 63
+	39 -> 41
+	64 -> 39
+	64 -> 60
+	rankdir=LR
+}

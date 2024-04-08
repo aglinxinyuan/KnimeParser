@@ -1,0 +1,43 @@
+digraph {
+	120 [label="Molecule Properties"]
+	148 [label=MolConverter]
+	154 [label="Load Local Mol2 Files"]
+	164 [label="Column Filter"]
+	176 [label="Hydrogen Remover"]
+	177 [label="Column Filter"]
+	179 [label="Hydrogen Manipulator"]
+	181 [label="Molfile Reader"]
+	182 [label="SDF Reader"]
+	190 [label="Molecule Properties"]
+	193 [label="Molecule Properties"]
+	195 [label="CSV Writer"]
+	196 [label="CSV Writer"]
+	197 [label="CSV Writer"]
+	198 [label="Excel Reader"]
+	199 [label=CIR]
+	200 [label="Molecule Properties"]
+	201 [label="Column Filter"]
+	202 [label="CSV Writer"]
+	203 [label=MolConverter]
+	204 [label=MolConverter]
+	205 [label="Hydrogen Manipulator"]
+	120 -> 197
+	148 -> 176
+	154 -> 164
+	164 -> 148
+	176 -> 179
+	177 -> 120
+	179 -> 177
+	181 -> 203
+	182 -> 204
+	190 -> 195
+	193 -> 196
+	198 -> 199
+	199 -> 200
+	200 -> 201
+	201 -> 202
+	203 -> 190
+	204 -> 205
+	205 -> 193
+	rankdir=LR
+}

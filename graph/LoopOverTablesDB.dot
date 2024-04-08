@@ -1,0 +1,32 @@
+digraph {
+	3 [label="DB Table Selector"]
+	4 [label="DB Table Selector"]
+	5 [label="DB Row Sampling"]
+	6 [label="DB Reader"]
+	8 [label="DB Insert"]
+	9 [label="Data Generator"]
+	10 [label="H2 Connector"]
+	11 [label="DB Writer"]
+	12 [label="DB Writer"]
+	13 [label="DB Query"]
+	14 [label="DB Query Reader"]
+	15 [label="Table Row To Variable Loop Start"]
+	16 [label="Variable Loop End"]
+	3 -> 4
+	3 -> 8
+	4 -> 5
+	5 -> 6
+	6 -> 8
+	8 -> 16
+	9 -> 11
+	9 -> 12
+	10 -> 11
+	10 -> 12
+	10 -> 3
+	10 -> 4
+	10 -> 8
+	10 -> 14
+	14 -> 15
+	15 -> 3
+	rankdir=LR
+}

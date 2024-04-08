@@ -1,0 +1,62 @@
+digraph {
+	1 [label="Webpage Retriever"]
+	8 [label="Cell Splitter"]
+	9 [label=Ungroup]
+	13 [label="Row Filter"]
+	36 [label="Cell Splitter"]
+	37 [label="Cell Splitter"]
+	38 [label="Column Filter"]
+	44 [label="String to Path"]
+	48 [label="CSV Reader"]
+	49 [label="Table Row to Variable"]
+	51 [label=Unpivoting]
+	52 [label="String to Date_Time"]
+	53 [label="Extract Date_Time Fields"]
+	54 [label=Sorter]
+	55 [label=GroupBy]
+	57 [label="Lag Column"]
+	58 [label="Math Formula"]
+	60 [label="Missing Value"]
+	63 [label="Top k Selector"]
+	64 [label="Row Filter"]
+	65 [label="Row Filter"]
+	66 [label="Math Formula"]
+	67 [label="Math Formula"]
+	68 [label="Top k Selector"]
+	69 [label=Sorter]
+	71 [label=GroupBy]
+	72 [label="Line Plot"]
+	73 [label="Cell Splitter"]
+	75 [label="String to Path"]
+	76 [label="String Manipulation"]
+	1 -> 8
+	8 -> 9
+	9 -> 13
+	13 -> 36
+	36 -> 37
+	37 -> 44
+	38 -> 75
+	44 -> 73
+	48 -> 51
+	49 -> 48
+	51 -> 52
+	52 -> 54
+	53 -> 55
+	53 -> 64
+	54 -> 53
+	54 -> 71
+	55 -> 60
+	57 -> 58
+	58 -> 63
+	60 -> 57
+	64 -> 65
+	65 -> 66
+	66 -> 67
+	67 -> 69
+	69 -> 68
+	71 -> 72
+	73 -> 76
+	75 -> 49
+	76 -> 38
+	rankdir=LR
+}
