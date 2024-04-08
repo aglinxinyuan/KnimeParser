@@ -1,0 +1,11 @@
+digraph {
+	1956 [label="CSV Reader"]
+	1957 [label="Python Script _Labs_"]
+	1958 [label="Python Script _Labs_"]
+	1959 [label=Partitioning]
+	1956 -> 1959
+	1957 -> 1958
+	1959 -> 1957
+	1959 -> 1958
+	rankdir=LR
+}

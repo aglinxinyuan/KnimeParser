@@ -1,0 +1,162 @@
+digraph {
+	24 [label="Row Filter"]
+	496 [label="Column Resorter"]
+	523 [label="WrappedNode Input"]
+	529 [label=GroupBy]
+	530 [label="Sunburst Chart _JavaScript_"]
+	532 [label=GroupBy]
+	536 [label="Table View _JavaScript_"]
+	542 [label="Column Resorter"]
+	546 [label="Text Output"]
+	547 [label="WrappedNode Output"]
+	564 [label=Joiner]
+	567 [label="File Reader"]
+	64 [label="Text Output"]
+	539 [label="String Input"]
+	540 [label="WrappedNode Input"]
+	541 [label="WrappedNode Output"]
+	545 [label="Network Viewer _JavaScript_"]
+	560 [label="Table View _JavaScript_"]
+	585 [label=RowID]
+	586 [label=GroupBy]
+	587 [label="WrappedNode Input"]
+	590 [label="WrappedNode Output"]
+	592 [label="Row Filter"]
+	593 [label=GroupBy]
+	594 [label=GroupBy]
+	599 [label="Range Slider Filter Definition"]
+	600 [label="Column Rename"]
+	528 [label="Object Inserter"]
+	530 [label=GroupBy]
+	542 [label="Feature Inserter"]
+	568 [label="Network Analyzer"]
+	573 [label="Double To Int"]
+	582 [label=Joiner]
+	615 [label="Chunk Loop Start"]
+	616 [label=Transpose]
+	617 [label="Column Filter"]
+	618 [label=Sorter]
+	619 [label=Transpose]
+	620 [label="Column Combiner"]
+	621 [label="Loop End"]
+	622 [label="Column Rename _Regex_"]
+	623 [label="Column Rename _Regex_"]
+	624 [label="String Manipulation _Variable_"]
+	625 [label="Column Filter"]
+	626 [label=Joiner]
+	627 [label=GroupBy]
+	629 [label="Network Creator"]
+	9 [label="File Reader"]
+	10 [label="Row Filter"]
+	13 [label=Joiner]
+	15 [label="String Manipulation"]
+	16 [label="String Manipulation"]
+	17 [label=Joiner]
+	515 [label=GroupBy]
+	533 [label=GroupBy]
+	534 [label="Row Filter"]
+	540 [label="CSV Reader"]
+	541 [label="Column Rename"]
+	556 [label="Document Grabber"]
+	560 [label="Table View _JavaScript_"]
+	561 [label="WrappedNode Input"]
+	562 [label="WrappedNode Output"]
+	563 [label="Document Data Extractor"]
+	566 [label="Abner tagger"]
+	568 [label="Punctuation Erasure"]
+	569 [label="N Chars Filter"]
+	587 [label="Bag Of Words Creator"]
+	588 [label="Text Output"]
+	591 [label="Tag Cloud _JavaScript_"]
+	593 [label="Stop Word Filter"]
+	595 [label="Create Temp Dir"]
+	597 [label=DF]
+	598 [label=GroupBy]
+	599 [label="Row Filter"]
+	600 [label="Merge Variables"]
+	64 [label="Text Output"]
+	554 [label="String Input"]
+	593 [label="Table Row to Variable"]
+	594 [label="WrappedNode Input"]
+	595 [label="WrappedNode Output"]
+	24 -> 564
+	496 -> 536
+	523 -> 24
+	523 -> 546
+	529 -> 542
+	532 -> 496
+	542 -> 530
+	564 -> 532
+	564 -> 529
+	564 -> 547
+	567 -> 564
+	539 -> 541
+	615 -> 617
+	616 -> 622
+	617 -> 616
+	618 -> 623
+	618 -> 624
+	619 -> 620
+	620 -> 625
+	621 -> 626
+	622 -> 618
+	623 -> 619
+	624 -> 623
+	625 -> 621
+	626 -> 627
+	528 -> 542
+	530 -> 615
+	542 -> 568
+	568 -> 573
+	573 -> 582
+	627 -> 528
+	627 -> 542
+	629 -> 528
+	560 -> 592
+	585 -> 600
+	586 -> 585
+	587 -> 530
+	592 -> 593
+	593 -> 594
+	594 -> 590
+	599 -> 545
+	599 -> 560
+	600 -> 599
+	582 -> 586
+	582 -> 545
+	9 -> 10
+	10 -> 15
+	13 -> 17
+	15 -> 16
+	16 -> 13
+	17 -> 515
+	515 -> 541
+	533 -> 17
+	533 -> 13
+	534 -> 533
+	540 -> 534
+	556 -> 563
+	561 -> 600
+	563 -> 560
+	563 -> 566
+	566 -> 568
+	568 -> 569
+	569 -> 593
+	587 -> 597
+	588 -> 556
+	593 -> 587
+	595 -> 600
+	597 -> 598
+	598 -> 599
+	599 -> 591
+	600 -> 588
+	554 -> 595
+	593 -> 554
+	594 -> 593
+	523 -> 588
+	553 -> 523
+	588 -> 594
+	591 -> 523
+	594 -> 592
+	rankdir=LR
+}

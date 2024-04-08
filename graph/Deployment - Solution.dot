@@ -1,0 +1,79 @@
+digraph {
+	240 [label="DB Writer"]
+	305 [label="SQLite Connector"]
+	313 [label="Excel Writer"]
+	231 [label="Constant Value Column"]
+	232 [label="Rule Engine"]
+	296 [label=Concatenate]
+	278 [label="SQLite Connector"]
+	279 [label="DB Table Selector"]
+	280 [label="DB Table Selector"]
+	281 [label="DB Joiner"]
+	282 [label="DB Reader"]
+	283 [label="DB Reader"]
+	195 [label="Column Rename"]
+	219 [label=Unpivoting]
+	220 [label="Row Filter"]
+	221 [label="Column Filter"]
+	288 [label="Excel Reader"]
+	289 [label="Table Reader"]
+	290 [label=Joiner]
+	161 [label="Cell Splitter"]
+	168 [label="String Manipulation"]
+	312 [label="String Manipulation"]
+	269 [label="Numeric Outliers"]
+	276 [label="Missing Value"]
+	299 [label="Duplicate Row Filter"]
+	301 [label="Rule Engine"]
+	289 [label=Concatenate]
+	300 [label="Number To String"]
+	301 [label="CSV Reader"]
+	302 [label="Table Reader"]
+	176 [label="Cell Replacer"]
+	187 [label="Similarity Search"]
+	291 [label="Value Counter"]
+	293 [label=RowID]
+	307 [label="Row Splitter"]
+	308 [label=Joiner]
+	318 [label=Joiner]
+	278 -> 279
+	278 -> 280
+	279 -> 283
+	279 -> 281
+	280 -> 281
+	281 -> 282
+	195 -> 221
+	219 -> 220
+	220 -> 195
+	288 -> 290
+	289 -> 290
+	161 -> 219
+	221 -> 168
+	300 -> 289
+	301 -> 300
+	302 -> 289
+	187 -> 308
+	291 -> 293
+	293 -> 307
+	307 -> 308
+	307 -> 187
+	307 -> 187
+	308 -> 176
+	269 -> 291
+	276 -> 299
+	301 -> 276
+	308 -> 269
+	176 -> 301
+	231 -> 296
+	232 -> 296
+	311 -> 231
+	311 -> 318
+	221 -> 161
+	315 -> 219
+	168 -> 318
+	318 -> 232
+	305 -> 240
+	314 -> 313
+	314 -> 240
+	rankdir=LR
+}

@@ -1,0 +1,89 @@
+digraph {
+	92 [label="Get PDB"]
+	94 [label="Protein Preparation Wizard"]
+	247 [label="Run Maestro"]
+	173 [label="Align Binding Sites"]
+	245 [label=Concatenate]
+	248 [label=Molecule_to_MAE]
+	8390 [label="Desmond System Builder"]
+	8392 [label="KNIME_Maestro Connector"]
+	8393 [label="Extract Properties"]
+	8394 [label="Row Filter"]
+	8382 [label="Python Script 1_1"]
+	8385 [label="Table Row to Variable"]
+	8386 [label="Column Rename"]
+	8412 [label=RowID]
+	8416 [label="Math Formula"]
+	8417 [label="Cell Splitter"]
+	8397 [label="Math Formula"]
+	8398 [label="Line Plot"]
+	8399 [label="Line Plot"]
+	8400 [label="Table Viewer"]
+	8401 [label=GroupBy]
+	8402 [label="Desmond Trajectory Extract Frames"]
+	8403 [label="Line Plot"]
+	8404 [label="Extract Properties"]
+	8405 [label="Align Binding Sites"]
+	8406 [label="Run Maestro Command"]
+	8407 [label="Run Maestro Command"]
+	8408 [label="Extract Properties"]
+	8409 [label="Delete Atoms"]
+	8411 [label="Run Maestro Command"]
+	8412 [label=RowID]
+	8413 [label="Desmond Trajectory Manipulation"]
+	8414 [label="Run Maestro"]
+	8415 [label="Chemistry External Tool"]
+	8416 [label="Math Formula"]
+	8417 [label="Math Formula"]
+	8418 [label="Table Viewer"]
+	8420 [label="Chemistry External Tool"]
+	8421 [label="Job Control"]
+	8422 [label="CSV Writer"]
+	8423 [label="CSV Writer"]
+	8424 [label="CSV Writer"]
+	8426 [label="Desmond Molecular Dynamics"]
+	245 -> 173
+	248 -> 245
+	8382 -> 8416
+	8385 -> 8382
+	8386 -> 8385
+	8416 -> 8412
+	8417 -> 8386
+	92 -> 94
+	92 -> 245
+	94 -> 8390
+	173 -> 247
+	8390 -> 8415
+	8390 -> 8420
+	8392 -> 8417
+	8393 -> 8417
+	8394 -> 8392
+	8412 -> 8403
+	8412 -> 8422
+	8397 -> 8400
+	8401 -> 8397
+	8402 -> 8405
+	8402 -> 8394
+	8402 -> 245
+	8404 -> 8398
+	8404 -> 8423
+	8405 -> 8409
+	8405 -> 8411
+	8405 -> 8417
+	8406 -> 8393
+	8407 -> 8404
+	8408 -> 8424
+	8408 -> 8416
+	8409 -> 8407
+	8409 -> 8406
+	8411 -> 8408
+	8412 -> 8399
+	8415 -> 8426
+	8416 -> 8412
+	8417 -> 8401
+	8420 -> 8414
+	8421 -> 8418
+	8426 -> 8413
+	8426 -> 8402
+	rankdir=LR
+}

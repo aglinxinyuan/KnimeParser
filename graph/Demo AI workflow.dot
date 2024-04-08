@@ -1,0 +1,26 @@
+digraph {
+	1 [label="OpenAI Authenticator"]
+	3 [label="Credentials Configuration"]
+	4 [label="Counting Loop Start"]
+	6 [label=Wait___]
+	7 [label="Image to Table"]
+	8 [label="Loop End"]
+	17 [label="Table Creator"]
+	20 [label="Table Creator"]
+	21 [label="GPT4All LLM Connector"]
+	22 [label="LLM Prompter"]
+	23 [label="Table Creator"]
+	24 [label="Table View _JavaScript_"]
+	25 [label="OpenAI DALL_E View"]
+	1 -> 4
+	3 -> 1
+	4 -> 6
+	4 -> 25
+	6 -> 25
+	7 -> 8
+	21 -> 22
+	22 -> 24
+	23 -> 22
+	25 -> 7
+	rankdir=LR
+}

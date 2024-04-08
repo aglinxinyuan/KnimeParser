@@ -1,0 +1,21 @@
+digraph {
+	1 [label="PostgreSQL Connector"]
+	2 [label="MySQL Connector"]
+	3 [label="DB Table Selector"]
+	4 [label="DB Reader"]
+	5 [label="DB Writer"]
+	6 [label="DB Insert"]
+	7 [label="DB Merge"]
+	8 [label="DB Update"]
+	1 -> 3
+	2 -> 6
+	2 -> 7
+	2 -> 5
+	2 -> 8
+	3 -> 4
+	4 -> 5
+	4 -> 6
+	4 -> 7
+	4 -> 8
+	rankdir=LR
+}

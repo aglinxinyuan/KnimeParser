@@ -1,0 +1,63 @@
+digraph {
+	3 [label="CSV Reader"]
+	5 [label="Math Formula"]
+	8 [label="Independent groups t_test"]
+	9 [label=Transpose]
+	10 [label=RowID]
+	11 [label="String Manipulation"]
+	12 [label="Column List Loop Start"]
+	17 [label="Column Rename _Regex_"]
+	19 [label="Column Filter"]
+	20 [label="Row Filter"]
+	23 [label="Math Formula"]
+	26 [label=GroupBy]
+	28 [label=Transpose]
+	29 [label="Column Filter"]
+	30 [label="Math Formula"]
+	31 [label="Column Filter"]
+	32 [label="Column Appender"]
+	34 [label="Math Formula"]
+	36 [label="Scatter Plot _JavaScript_"]
+	38 [label="R Snippet"]
+	39 [label="Column Rename"]
+	40 [label="Color Manager"]
+	42 [label="Rule Engine"]
+	43 [label="Loop End"]
+	45 [label=Histogram]
+	46 [label=Histogram]
+	849 [label="Image To Table"]
+	866 [label="Renderer to Image"]
+	868 [label="Table To Image"]
+	869 [label="Image Writer _Port_"]
+	3 -> 9
+	5 -> 8
+	8 -> 20
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 17
+	17 -> 26
+	17 -> 5
+	19 -> 39
+	20 -> 19
+	23 -> 34
+	26 -> 29
+	28 -> 30
+	29 -> 28
+	30 -> 31
+	31 -> 32
+	32 -> 43
+	34 -> 38
+	36 -> 849
+	38 -> 46
+	38 -> 45
+	38 -> 42
+	39 -> 32
+	40 -> 36
+	42 -> 40
+	43 -> 23
+	849 -> 866
+	866 -> 868
+	868 -> 869
+	rankdir=LR
+}

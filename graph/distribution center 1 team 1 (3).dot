@@ -1,0 +1,216 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="String To Number"]
+	3 [label="String to Date_Time"]
+	4 [label="Excel Reader"]
+	5 [label=Joiner]
+	7 [label="Missing Value Column Filter"]
+	8 [label="String to Date_Time"]
+	9 [label="String to Date_Time"]
+	10 [label=Statistics]
+	11 [label="Extract Date_Time Fields"]
+	12 [label="Extract Date_Time Fields"]
+	14 [label="String Manipulation"]
+	22 [label="Box Plot _local_"]
+	24 [label="Scatter Plot _local_"]
+	25 [label="Conditional Box Plot"]
+	26 [label="Linear Correlation"]
+	27 [label="Column Filter"]
+	28 [label="Math Formula _Multi Column_"]
+	29 [label=GroupBy]
+	32 [label="Missing Value"]
+	34 [label="Column Expressions"]
+	36 [label="Numeric Outliers"]
+	41 [label=Normalizer]
+	42 [label="Color Manager"]
+	43 [label=k_Means]
+	44 [label="Scatter Plot _local_"]
+	45 [label="Hierarchical Clustering"]
+	46 [label="Association Rule Learner"]
+	48 [label="Create Bit Vector"]
+	49 [label=Partitioning]
+	50 [label="Linear Regression Learner"]
+	51 [label="Regression Predictor"]
+	52 [label="Numeric Scorer"]
+	53 [label="Linear Correlation"]
+	54 [label="Column Filter"]
+	60 [label="Decision Tree Learner"]
+	61 [label="Column Filter"]
+	62 [label="Column Filter"]
+	63 [label="Decision Tree Predictor"]
+	64 [label=Scorer]
+	70 [label="Logistic Regression Learner"]
+	71 [label="Logistic Regression Predictor"]
+	72 [label=Scorer]
+	76 [label="One to Many"]
+	77 [label="Math Formula _Multi Column_"]
+	78 [label="Math Formula _Multi Column_"]
+	79 [label="String Manipulation"]
+	80 [label="Duplicate Row Filter"]
+	82 [label="One to Many"]
+	83 [label=Denormalizer]
+	84 [label=Partitioning]
+	85 [label="Linear Regression Learner"]
+	86 [label="Regression Predictor"]
+	87 [label="Numeric Scorer"]
+	88 [label="Logistic Regression Predictor"]
+	89 [label="Regression Predictor"]
+	90 [label="Column Filter"]
+	91 [label="Linear Regression Learner"]
+	92 [label=Partitioning]
+	93 [label=Partitioning]
+	94 [label="Column Filter"]
+	95 [label="Numeric Scorer"]
+	96 [label="Linear Regression Learner"]
+	97 [label="One to Many"]
+	98 [label="Column Filter"]
+	99 [label=Scorer]
+	100 [label="Regression Predictor"]
+	101 [label=Normalizer]
+	102 [label="Hierarchical Clustering"]
+	103 [label="Decision Tree Predictor"]
+	104 [label=k_Means]
+	105 [label="Scatter Plot _local_"]
+	106 [label="Decision Tree Learner"]
+	107 [label=Scorer]
+	108 [label="Numeric Scorer"]
+	109 [label=Denormalizer]
+	111 [label="Color Manager"]
+	112 [label="Logistic Regression Learner"]
+	118 [label="Regression Predictor"]
+	119 [label="Linear Regression Learner"]
+	120 [label="Numeric Scorer"]
+	121 [label="Linear Regression Learner"]
+	122 [label="Regression Predictor"]
+	123 [label="Numeric Scorer"]
+	124 [label=Partitioning]
+	125 [label="Decision Tree Predictor"]
+	126 [label="Rule_based Row Splitter"]
+	127 [label="Rule_based Row Splitter"]
+	128 [label="Linear Regression Learner"]
+	129 [label="Regression Predictor"]
+	130 [label="Linear Regression Learner"]
+	131 [label="Decision Tree Predictor"]
+	132 [label=Partitioning]
+	133 [label="Regression Predictor"]
+	134 [label="Rule_based Row Splitter"]
+	135 [label="Numeric Scorer"]
+	136 [label="Rule_based Row Splitter"]
+	137 [label="Numeric Scorer"]
+	138 [label=Statistics]
+	1 -> 5
+	2 -> 3
+	3 -> 8
+	4 -> 5
+	5 -> 7
+	7 -> 2
+	8 -> 9
+	9 -> 14
+	11 -> 12
+	12 -> 10
+	12 -> 28
+	12 -> 24
+	12 -> 25
+	12 -> 26
+	12 -> 22
+	14 -> 79
+	27 -> 29
+	28 -> 77
+	29 -> 32
+	32 -> 34
+	34 -> 36
+	34 -> 41
+	34 -> 53
+	34 -> 76
+	34 -> 138
+	36 -> 101
+	41 -> 83
+	41 -> 82
+	42 -> 44
+	43 -> 42
+	43 -> 54
+	48 -> 46
+	49 -> 61
+	49 -> 62
+	50 -> 51
+	51 -> 52
+	54 -> 84
+	54 -> 83
+	60 -> 63
+	60 -> 125
+	61 -> 60
+	61 -> 70
+	62 -> 63
+	62 -> 71
+	63 -> 64
+	70 -> 71
+	71 -> 72
+	76 -> 48
+	77 -> 78
+	78 -> 80
+	79 -> 11
+	80 -> 27
+	82 -> 43
+	82 -> 45
+	83 -> 124
+	83 -> 49
+	84 -> 85
+	84 -> 86
+	84 -> 50
+	84 -> 51
+	85 -> 86
+	86 -> 87
+	88 -> 107
+	89 -> 95
+	90 -> 112
+	90 -> 106
+	91 -> 100
+	92 -> 90
+	92 -> 98
+	93 -> 89
+	93 -> 91
+	93 -> 100
+	93 -> 96
+	94 -> 93
+	94 -> 109
+	96 -> 89
+	97 -> 102
+	97 -> 104
+	98 -> 103
+	98 -> 88
+	100 -> 108
+	101 -> 97
+	101 -> 109
+	103 -> 99
+	104 -> 111
+	104 -> 94
+	106 -> 103
+	106 -> 131
+	109 -> 92
+	109 -> 132
+	111 -> 105
+	112 -> 88
+	118 -> 120
+	119 -> 122
+	121 -> 118
+	122 -> 123
+	124 -> 125
+	124 -> 122
+	124 -> 118
+	125 -> 127
+	126 -> 119
+	127 -> 126
+	127 -> 121
+	128 -> 133
+	129 -> 135
+	130 -> 129
+	131 -> 134
+	132 -> 133
+	132 -> 129
+	132 -> 131
+	133 -> 137
+	134 -> 128
+	134 -> 136
+	136 -> 130
+	rankdir=LR
+}

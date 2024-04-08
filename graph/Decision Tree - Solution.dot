@@ -1,0 +1,19 @@
+digraph {
+	63 [label=Partitioning]
+	64 [label="Decision Tree Learner"]
+	65 [label="Decision Tree Predictor"]
+	23 [label="Rule Engine"]
+	26 [label="Column Filter"]
+	68 [label="ROC Curve"]
+	69 [label="Scorer _JavaScript_"]
+	70 [label="CSV Reader"]
+	23 -> 26
+	63 -> 65
+	63 -> 64
+	64 -> 65
+	65 -> 69
+	65 -> 68
+	26 -> 63
+	70 -> 23
+	rankdir=LR
+}

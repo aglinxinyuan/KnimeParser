@@ -1,0 +1,26 @@
+digraph {
+	4 [label=Joiner]
+	5 [label="Table Creator"]
+	6 [label="Table Creator"]
+	7 [label="Math Formula"]
+	12 [label=Unpivoting]
+	13 [label=Unpivoting]
+	14 [label="String Manipulation"]
+	15 [label=Pivoting]
+	16 [label=Unpivoting]
+	17 [label="Column Rename"]
+	18 [label="Rule Engine"]
+	19 [label=Pivoting]
+	4 -> 17
+	5 -> 12
+	6 -> 13
+	7 -> 14
+	12 -> 4
+	13 -> 4
+	14 -> 15
+	14 -> 16
+	16 -> 18
+	17 -> 7
+	18 -> 19
+	rankdir=LR
+}

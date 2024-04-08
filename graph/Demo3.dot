@@ -1,0 +1,18 @@
+digraph {
+	3 [label="File Reader"]
+	4 [label="File Reader"]
+	5 [label="File Reader"]
+	6 [label="File Reader"]
+	7 [label=Concatenate]
+	8 [label=Concatenate]
+	9 [label=Concatenate]
+	10 [label="Excel Writer _XLS_"]
+	3 -> 7
+	4 -> 7
+	5 -> 8
+	6 -> 8
+	7 -> 9
+	8 -> 9
+	9 -> 10
+	rankdir=LR
+}

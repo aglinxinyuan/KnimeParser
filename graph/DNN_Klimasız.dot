@@ -1,0 +1,51 @@
+digraph {
+	23 [label="Column Filter"]
+	26 [label=Normalizer]
+	27 [label="Reference Column Splitter"]
+	28 [label=Denormalizer]
+	29 [label=Denormalizer]
+	30 [label="Column Rename"]
+	31 [label="Column Rename"]
+	32 [label="Column Appender"]
+	33 [label="Numeric Scorer"]
+	34 [label="Excel Reader"]
+	52 [label="DL4J Feedforward Predictor _Regression_"]
+	59 [label=Transpose]
+	72 [label="Loop End"]
+	76 [label="DL4J Feedforward Learner _Regression_"]
+	80 [label=Statistics]
+	81 [label=X_Partitioner]
+	27 [label="DL4J Model Initializer"]
+	147 [label="Dense Layer"]
+	152 [label="Dense Layer"]
+	160 [label="Dense Layer"]
+	161 [label="Dense Layer"]
+	162 [label="Dense Layer"]
+	27 -> 160
+	147 -> 162
+	160 -> 161
+	161 -> 147
+	162 -> 152
+	23 -> 26
+	26 -> 28
+	26 -> 29
+	26 -> 81
+	27 -> 30
+	27 -> 28
+	28 -> 32
+	29 -> 31
+	30 -> 29
+	31 -> 32
+	32 -> 33
+	33 -> 59
+	34 -> 23
+	52 -> 27
+	59 -> 72
+	72 -> 80
+	76 -> 52
+	81 -> 52
+	81 -> 27
+	81 -> 76
+	82 -> 76
+	rankdir=LR
+}
