@@ -1,0 +1,38 @@
+digraph {
+	30 [label="VEGA 1_1_1 Models"]
+	32 [label="Canonical SMILES"]
+	34 [label="Interactive Table"]
+	35 [label="VEGA 1_1_1 Models"]
+	36 [label="VEGA 1_1_1 Models"]
+	37 [label="VEGA 1_1_1 Models"]
+	38 [label="VEGA 1_1_1 Models"]
+	39 [label="VEGA 1_1_1 Models"]
+	40 [label=Joiner]
+	41 [label=Joiner]
+	42 [label=Joiner]
+	43 [label=Joiner]
+	44 [label=Joiner]
+	49 [label="SDF Reader"]
+	50 [label="CSV Writer"]
+	51 [label="Mol2 Reader"]
+	30 -> 40
+	32 -> 35
+	32 -> 36
+	32 -> 37
+	32 -> 38
+	32 -> 39
+	32 -> 30
+	35 -> 40
+	36 -> 41
+	37 -> 41
+	38 -> 42
+	39 -> 42
+	40 -> 43
+	41 -> 43
+	42 -> 44
+	43 -> 44
+	44 -> 34
+	44 -> 50
+	49 -> 32
+	rankdir=LR
+}

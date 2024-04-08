@@ -1,0 +1,18 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Bootstrap Sampling"]
+	3 [label="Decision Tree Learner"]
+	4 [label="Decision Tree Predictor"]
+	5 [label=Scorer]
+	6 [label="K Nearest Neighbor"]
+	7 [label=Scorer]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	2 -> 6
+	2 -> 6
+	3 -> 4
+	4 -> 5
+	6 -> 7
+	rankdir=LR
+}

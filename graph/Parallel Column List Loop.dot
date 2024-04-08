@@ -1,0 +1,135 @@
+digraph {
+	2 [label="Extract Column Header"]
+	3 [label=Transpose]
+	4 [label="Parallel Chunk Start"]
+	10 [label="Regex Split"]
+	11 [label=RowID]
+	12 [label="Group Loop Start"]
+	13 [label=RowID]
+	14 [label="Loop End _Column Append_"]
+	16 [label="Column Rename"]
+	17 [label="Row Filter"]
+	18 [label="Table Row to Variable"]
+	19 [label="CSV Reader"]
+	20 [label="Column Splitter"]
+	22 [label="Extract Column Header"]
+	8 [label="Column Filter"]
+	9 [label="Table Row to Variable"]
+	23 [label="Column Appender"]
+	24 [label="Column Aggregator"]
+	26 [label="Table Row to Variable"]
+	27 [label="Column Rename"]
+	34 [label="Column Resorter"]
+	35 [label="Column Aggregator"]
+	36 [label="Table Row to Variable"]
+	37 [label="Table Row to Variable"]
+	38 [label="Column Rename"]
+	39 [label="Column Filter"]
+	40 [label="Column Filter"]
+	42 [label="Constant Value Column"]
+	43 [label="Column Resorter"]
+	44 [label="Extract Column Header"]
+	45 [label="Parallel Chunk End _multi port_"]
+	46 [label="Extract Column Header"]
+	47 [label=Transpose]
+	48 [label=Transpose]
+	49 [label="Reference Row Filter"]
+	52 [label="Regex Split"]
+	53 [label=RowID]
+	54 [label="Reference Row Filter"]
+	58 [label="Reference Column Splitter"]
+	59 [label="Extract Column Header"]
+	60 [label=Transpose]
+	61 [label="Column Appender"]
+	62 [label="Insert Column Header"]
+	63 [label="Column Appender"]
+	64 [label="Extract Table Dimension"]
+	65 [label="Table Row to Variable"]
+	7 [label=GroupBy]
+	8 [label=Cache]
+	9 [label="Constant Value Column"]
+	67 [label="Remove Empty Rows"]
+	68 [label="Empty Table Switch"]
+	69 [label="End IF"]
+	71 [label="Empty Table Creator"]
+	72 [label="Extract Table Dimension"]
+	73 [label="Table Row to Variable"]
+	74 [label="Table Row to Variable"]
+	75 [label="Column Appender"]
+	76 [label=RowID]
+	77 [label=RowID]
+	9 -> 8
+	23 -> 24
+	24 -> 9
+	26 -> 23
+	27 -> 26
+	2 -> 3
+	3 -> 4
+	3 -> 17
+	3 -> 38
+	3 -> 64
+	4 -> 23
+	10 -> 12
+	11 -> 10
+	12 -> 13
+	12 -> 17
+	12 -> 54
+	13 -> 16
+	14 -> 40
+	16 -> 39
+	17 -> 18
+	18 -> 16
+	19 -> 20
+	19 -> 23
+	19 -> 58
+	19 -> 46
+	20 -> 22
+	20 -> 2
+	22 -> 23
+	22 -> 42
+	8 -> 9
+	34 -> 44
+	34 -> 45
+	35 -> 36
+	36 -> 34
+	37 -> 18
+	38 -> 37
+	39 -> 58
+	42 -> 43
+	43 -> 35
+	44 -> 48
+	45 -> 53
+	45 -> 11
+	46 -> 47
+	47 -> 49
+	48 -> 49
+	49 -> 45
+	52 -> 54
+	53 -> 52
+	54 -> 61
+	58 -> 62
+	58 -> 67
+	58 -> 72
+	58 -> 76
+	58 -> 63
+	59 -> 60
+	60 -> 61
+	61 -> 62
+	62 -> 69
+	63 -> 14
+	64 -> 65
+	65 -> 4
+	8 -> 34
+	67 -> 68
+	68 -> 59
+	68 -> 74
+	69 -> 63
+	71 -> 75
+	72 -> 73
+	73 -> 68
+	74 -> 71
+	75 -> 77
+	76 -> 75
+	77 -> 69
+	rankdir=LR
+}

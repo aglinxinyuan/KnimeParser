@@ -1,0 +1,16 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Math Formula"]
+	3 [label="Math Formula"]
+	4 [label="Math Formula"]
+	5 [label="File Reader"]
+	6 [label=Joiner]
+	7 [label="CSV Writer"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 6
+	5 -> 6
+	6 -> 7
+	rankdir=LR
+}

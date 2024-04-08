@@ -1,0 +1,22 @@
+digraph {
+	3 [label="RDKit Fingerprint"]
+	6 [label="Color Manager"]
+	7 [label="Hierarchical Clustering _DistMatrix_"]
+	9 [label="Hierarchical Cluster View"]
+	11 [label="Distance Matrix Calculate"]
+	12 [label="Hierarchical Cluster Assigner"]
+	13 [label=GroupBy]
+	16 [label="File Reader"]
+	18 [label="Number To String"]
+	3 -> 18
+	6 -> 11
+	7 -> 12
+	7 -> 9
+	11 -> 9
+	11 -> 12
+	11 -> 7
+	12 -> 13
+	16 -> 3
+	18 -> 6
+	rankdir=LR
+}

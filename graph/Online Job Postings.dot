@@ -1,0 +1,51 @@
+digraph {
+	21 [label=TF]
+	23 [label="Frequency Filter"]
+	78 [label="Tag Filter"]
+	84 [label="JavaScript Tag Cloud"]
+	86 [label="Stanford tagger"]
+	87 [label="JavaScript Stacked Area Chart"]
+	88 [label="Bag of Words Creator"]
+	92 [label="String Manipulation"]
+	97 [label="Reference Row Filter"]
+	98 [label=GroupBy]
+	99 [label=Pivoting]
+	100 [label="Missing Value"]
+	101 [label="Column Rename _Regex_"]
+	102 [label="String to Date_Time"]
+	104 [label="Table Reader"]
+	94 [label=GroupBy]
+	95 [label=Sorter]
+	96 [label="Row Filter"]
+	107 [label="Strings To Document"]
+	41 [label="Punctuation Erasure"]
+	43 [label="Number Filter"]
+	81 [label="Stanford Lemmatizer"]
+	83 [label="Column Filter"]
+	108 [label="Stop Word Filter"]
+	94 -> 95
+	95 -> 96
+	41 -> 43
+	43 -> 108
+	81 -> 83
+	108 -> 81
+	21 -> 23
+	23 -> 84
+	78 -> 88
+	86 -> 41
+	88 -> 21
+	92 -> 102
+	97 -> 98
+	98 -> 99
+	99 -> 101
+	100 -> 92
+	101 -> 100
+	102 -> 87
+	104 -> 94
+	104 -> 107
+	104 -> 97
+	96 -> 97
+	107 -> 86
+	83 -> 78
+	rankdir=LR
+}

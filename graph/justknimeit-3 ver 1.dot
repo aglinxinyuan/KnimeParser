@@ -1,0 +1,26 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="CSV Reader"]
+	3 [label="Rule_based Row Filter"]
+	4 [label=GroupBy]
+	5 [label="Row Splitter"]
+	6 [label="Top k Selector"]
+	7 [label="Top k Selector"]
+	8 [label="String Manipulation"]
+	9 [label=Joiner]
+	10 [label=GroupBy]
+	11 [label="Column Expressions"]
+	12 [label="Top k Selector"]
+	1 -> 8
+	2 -> 3
+	3 -> 4
+	3 -> 9
+	4 -> 5
+	5 -> 7
+	5 -> 6
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	rankdir=LR
+}

@@ -1,0 +1,71 @@
+digraph {
+	2 [label="Java Edit Variable"]
+	3 [label="Create Temp Dir"]
+	4 [label="CSV Writer"]
+	5 [label="Counting Loop Start"]
+	6 [label="Empty Table Creator"]
+	8 [label="Java Edit Variable"]
+	10 [label="Lag Column"]
+	11 [label="Lag Column"]
+	12 [label="Row Filter"]
+	13 [label="Java Snippet"]
+	14 [label=Unpivoting]
+	15 [label="Java Snippet"]
+	16 [label=Pivoting]
+	18 [label="Java Edit Variable"]
+	19 [label="CSV Writer"]
+	20 [label="Loop End"]
+	21 [label="File Reader"]
+	22 [label="Column Filter"]
+	23 [label="Scatter Plot _JFreeChart_"]
+	24 [label="Color Manager"]
+	25 [label="Row Splitter"]
+	26 [label=Concatenate]
+	28 [label="Counter Generation"]
+	29 [label=Sorter]
+	30 [label=Sorter]
+	31 [label="Counter Generation"]
+	32 [label="Column Rename"]
+	34 [label="Empty Table Creator"]
+	35 [label="Java Snippet"]
+	37 [label="Counter Generation"]
+	38 [label=Concatenate]
+	39 [label="Table Creator"]
+	40 [label="Column Filter"]
+	2 -> 4
+	3 -> 2
+	4 -> 5
+	5 -> 8
+	6 -> 5
+	8 -> 21
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 18
+	16 -> 30
+	18 -> 19
+	19 -> 20
+	20 -> 24
+	21 -> 29
+	22 -> 20
+	22 -> 19
+	24 -> 23
+	25 -> 26
+	26 -> 31
+	28 -> 4
+	29 -> 10
+	30 -> 26
+	30 -> 25
+	31 -> 32
+	32 -> 22
+	34 -> 37
+	35 -> 40
+	37 -> 38
+	38 -> 35
+	39 -> 38
+	40 -> 28
+	rankdir=LR
+}

@@ -1,0 +1,24 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	7 [label="Numeric Scorer"]
+	8 [label="Column Filter"]
+	9 [label="Line Plot"]
+	10 [label=Scorer]
+	11 [label="Tree Ensemble Learner _Regression_"]
+	12 [label="Tree Ensemble Predictor _Regression_"]
+	13 [label="Tree Ensemble Learner"]
+	14 [label="Tree Ensemble Predictor"]
+	1 -> 2
+	2 -> 11
+	2 -> 14
+	2 -> 12
+	2 -> 13
+	8 -> 9
+	11 -> 12
+	12 -> 8
+	12 -> 7
+	13 -> 14
+	14 -> 10
+	rankdir=LR
+}

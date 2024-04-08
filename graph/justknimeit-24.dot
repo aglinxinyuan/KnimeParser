@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	107 [label=Scorer]
+	111 [label="Tree Ensemble Predictor"]
+	112 [label="Tree Ensemble Learner"]
+	1 -> 111
+	2 -> 112
+	111 -> 107
+	112 -> 111
+	rankdir=LR
+}

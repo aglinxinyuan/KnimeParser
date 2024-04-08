@@ -1,0 +1,42 @@
+digraph {
+	12 [label="H2O Local Context"]
+	19 [label="H2O Table to Frame"]
+	56 [label="H2O Partitioner"]
+	58 [label="File Reader"]
+	61 [label="Parameter Optimization Loop Start"]
+	62 [label="Loop End"]
+	63 [label="Cross Joiner"]
+	64 [label="Variable to Table Row"]
+	66 [label=Sorter]
+	68 [label="Row Filter"]
+	70 [label="Table Row to Variable"]
+	73 [label="File Reader"]
+	74 [label="H2O Table to Frame"]
+	75 [label="H2O Gradient Boosting Machine Learner"]
+	76 [label="H2O Predictor _Classification_"]
+	77 [label="H2O Binomial Scorer"]
+	78 [label="H2O Gradient Boosting Machine Learner"]
+	79 [label="H2O Predictor _Classification_"]
+	12 -> 74
+	12 -> 19
+	19 -> 56
+	19 -> 78
+	56 -> 75
+	56 -> 76
+	58 -> 19
+	61 -> 75
+	61 -> 64
+	62 -> 66
+	63 -> 62
+	64 -> 63
+	66 -> 68
+	68 -> 70
+	70 -> 78
+	73 -> 74
+	74 -> 79
+	75 -> 76
+	76 -> 77
+	77 -> 63
+	78 -> 79
+	rankdir=LR
+}

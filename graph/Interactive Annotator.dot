@@ -1,0 +1,8 @@
+digraph {
+	1 [label="Interactive Annotator"]
+	2 [label="Image Reader"]
+	3 [label="Interactive Segmentation View"]
+	1 -> 3
+	2 -> 1
+	rankdir=LR
+}

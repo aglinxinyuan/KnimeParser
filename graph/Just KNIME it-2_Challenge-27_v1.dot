@@ -1,0 +1,48 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label="String Manipulation"]
+	5 [label="String Manipulation"]
+	6 [label=Joiner]
+	10 [label=Joiner]
+	8 [label=Joiner]
+	9 [label="Reference Row Filter"]
+	13 [label="String to Date_Time"]
+	14 [label="Date_Time_based Row Filter"]
+	15 [label="Row Filter"]
+	16 [label=GroupBy]
+	17 [label="Row Filter"]
+	18 [label=Joiner]
+	19 [label="Column Rename"]
+	20 [label=Pivoting]
+	21 [label="Constant Value Column"]
+	22 [label="Column Resorter"]
+	24 [label="Table View"]
+	25 [label=RowID]
+	26 [label="Missing Value"]
+	8 -> 9
+	1 -> 16
+	1 -> 17
+	2 -> 4
+	3 -> 5
+	4 -> 6
+	4 -> 11
+	5 -> 6
+	5 -> 11
+	6 -> 13
+	10 -> 18
+	13 -> 14
+	14 -> 15
+	15 -> 10
+	16 -> 10
+	16 -> 18
+	18 -> 19
+	19 -> 21
+	20 -> 22
+	21 -> 20
+	22 -> 25
+	25 -> 26
+	26 -> 24
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Extract Date_Time Fields"]
+	4 [label="Group Loop Start"]
+	5 [label="Moving Aggregation"]
+	6 [label="Loop End"]
+	7 [label="Group Loop Start"]
+	8 [label="Moving Aggregation"]
+	9 [label="Loop End"]
+	10 [label=Joiner]
+	11 [label="Column Rename"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 7
+	4 -> 5
+	5 -> 6
+	6 -> 10
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	rankdir=LR
+}

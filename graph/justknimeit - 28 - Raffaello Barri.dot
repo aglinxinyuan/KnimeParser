@@ -1,0 +1,10 @@
+digraph {
+	2 [label="Empty Table Creator"]
+	3 [label="Variable Expressions"]
+	4 [label="Column Expressions"]
+	5 [label="Column Expressions"]
+	2 -> 5
+	3 -> 2
+	5 -> 4
+	rankdir=LR
+}

@@ -1,0 +1,39 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Cell Splitter"]
+	3 [label="Chunk Loop Start"]
+	4 [label=Ungroup]
+	5 [label=GroupBy]
+	6 [label="Math Formula"]
+	7 [label="Table Row to Variable"]
+	8 [label="Column to Grid"]
+	9 [label="Loop End"]
+	10 [label="Column Resorter"]
+	11 [label="Chunk Loop Start"]
+	12 [label=Ungroup]
+	13 [label="Chunk Loop Start"]
+	14 [label="Column to Grid"]
+	15 [label="Loop End _Column Append_"]
+	16 [label="Loop End"]
+	17 [label="Column Filter"]
+	18 [label="Column Resorter"]
+	1 -> 2
+	2 -> 3
+	2 -> 11
+	3 -> 4
+	4 -> 5
+	4 -> 8
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	rankdir=LR
+}

@@ -1,0 +1,64 @@
+digraph {
+	1 [label="CSV Reader"]
+	11 [label=Joiner]
+	21 [label="Network Viewer"]
+	1602 [label="Row Filter"]
+	1613 [label="Parallel Coordinates Plot _JavaScript_"]
+	1614 [label="Column Resorter"]
+	1617 [label="Row Filter"]
+	1618 [label="Table Row to Variable"]
+	2 [label="Group Loop Start"]
+	3 [label=GroupBy]
+	5 [label="Loop End"]
+	6 [label=Sorter]
+	13 [label=GroupBy]
+	14 [label=GroupBy]
+	15 [label=Sorter]
+	16 [label="Group Loop Start"]
+	17 [label="Loop End"]
+	18 [label="Top k Row Filter"]
+	19 [label=Sorter]
+	20 [label="Constant Value Column"]
+	1621 [label="Column Renamer"]
+	4 [label="Size Manager"]
+	10 [label="Math Formula"]
+	1599 [label="Network Creator"]
+	1600 [label="Object Inserter"]
+	1603 [label="Multi Feature Inserter"]
+	1604 [label="Visualization Property Extractor"]
+	1605 [label="Color Manager"]
+	1606 [label=GroupBy]
+	2 -> 3
+	3 -> 6
+	6 -> 5
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 18
+	17 -> 19
+	18 -> 17
+	19 -> 20
+	4 -> 1604
+	10 -> 1603
+	1599 -> 1600
+	1600 -> 1603
+	1604 -> 10
+	1605 -> 4
+	1606 -> 1605
+	1 -> 2
+	1 -> 13
+	11 -> 1617
+	1602 -> 21
+	1602 -> 1606
+	1614 -> 1613
+	1617 -> 1618
+	1617 -> 1621
+	1618 -> 1613
+	1618 -> 21
+	5 -> 1602
+	5 -> 11
+	20 -> 11
+	1621 -> 1614
+	1603 -> 21
+	rankdir=LR
+}

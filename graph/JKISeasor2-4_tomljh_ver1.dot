@@ -1,0 +1,37 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="Row Splitter"]
+	3 [label="Group Loop Start"]
+	4 [label="Counting Loop Start"]
+	5 [label="Loop End"]
+	7 [label="Rule Engine"]
+	8 [label="Math Formula"]
+	9 [label="Loop End"]
+	10 [label="Column Filter"]
+	11 [label="Rule Engine"]
+	12 [label="Math Formula"]
+	13 [label="Loop End"]
+	14 [label="Group Loop Start"]
+	15 [label="Counting Loop Start"]
+	16 [label="Loop End"]
+	17 [label="Column Filter"]
+	18 [label=Concatenate]
+	1 -> 2
+	2 -> 3
+	2 -> 14
+	3 -> 4
+	4 -> 5
+	5 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 18
+	11 -> 12
+	12 -> 13
+	13 -> 17
+	14 -> 15
+	15 -> 16
+	16 -> 11
+	17 -> 18
+	rankdir=LR
+}

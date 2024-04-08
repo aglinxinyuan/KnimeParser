@@ -1,0 +1,117 @@
+digraph {
+	1 [label="Data Generator"]
+	2 [label="Excel Sheet Appender _XLS_"]
+	3 [label="Rule_based Row Filter"]
+	4 [label="Rule_based Row Filter"]
+	5 [label="Excel Sheet Appender _XLS_"]
+	6 [label="Rule_based Row Filter"]
+	7 [label="Excel Sheet Appender _XLS_"]
+	8 [label="Excel Sheet Appender _XLS_"]
+	9 [label="Rule_based Row Filter"]
+	11 [label="List Files"]
+	12 [label="URL to File Path"]
+	120 [label="String Manipulation"]
+	130 [label="Regex Split"]
+	131 [label="Column Rename"]
+	132 [label="URI to Port"]
+	133 [label="String to URI"]
+	134 [label="URI Port to Variable"]
+	137 [label="Port to File Cells"]
+	138 [label="File Cells to Port"]
+	139 [label="Port to URI"]
+	140 [label="Table Row To Variable Loop Start"]
+	141 [label="Read Excel Sheet Names _XLS_"]
+	142 [label="Table Row To Variable Loop Start"]
+	143 [label="Excel Reader _XLS_"]
+	144 [label="String to URI"]
+	145 [label="String Manipulation"]
+	146 [label="Table Creator"]
+	148 [label="Table Writer"]
+	149 [label="Table Row to Variable"]
+	150 [label="Variable Loop End"]
+	151 [label="Loop End"]
+	153 [label="Copy_Move Files"]
+	154 [label="String to URI"]
+	155 [label="String Manipulation"]
+	156 [label="String to URI"]
+	157 [label="Column Filter"]
+	158 [label="Table Writer"]
+	159 [label="Table Reader"]
+	161 [label="Extract URI Info"]
+	162 [label="URL to File Path"]
+	163 [label="String Manipulation"]
+	164 [label="String to URI"]
+	165 [label="Copy_Move Files"]
+	3 [label="Extract Context Properties"]
+	7 [label="Extract System Properties"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	50 [label="Variable to Table Row"]
+	51 [label="Table Column to Variable"]
+	52 [label="Java Snippet _simple_"]
+	53 [label="Table Row to Variable"]
+	54 [label="Java Snippet _simple_"]
+	55 [label="Java Edit Variable _simple_"]
+	167 [label="File Meta Info"]
+	168 [label="Excel Reader _XLS_"]
+	169 [label="File Meta Info"]
+	1 -> 3
+	1 -> 4
+	1 -> 6
+	1 -> 9
+	3 -> 2
+	4 -> 5
+	6 -> 7
+	9 -> 8
+	3 -> 50
+	7 -> 51
+	46 -> 52
+	47 -> 46
+	48 -> 47
+	50 -> 48
+	52 -> 54
+	54 -> 53
+	55 -> 46
+	11 -> 12
+	11 -> 130
+	12 -> 140
+	12 -> 154
+	120 -> 131
+	130 -> 120
+	131 -> 133
+	132 -> 134
+	132 -> 137
+	133 -> 132
+	133 -> 167
+	134 -> 168
+	137 -> 158
+	137 -> 138
+	138 -> 139
+	139 -> 161
+	140 -> 141
+	141 -> 142
+	142 -> 143
+	142 -> 146
+	143 -> 148
+	144 -> 149
+	145 -> 144
+	146 -> 145
+	148 -> 150
+	149 -> 148
+	150 -> 151
+	154 -> 155
+	154 -> 169
+	155 -> 156
+	156 -> 157
+	157 -> 153
+	158 -> 159
+	161 -> 162
+	162 -> 163
+	163 -> 164
+	164 -> 165
+	166 -> 120
+	166 -> 140
+	166 -> 155
+	rankdir=LR
+}

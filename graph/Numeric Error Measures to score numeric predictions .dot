@@ -1,0 +1,13 @@
+digraph {
+	2 [label=Partitioning]
+	12 [label="Linear Regression Learner"]
+	13 [label="Regression Predictor"]
+	14 [label="Numeric Scorer"]
+	17 [label="Table Reader"]
+	2 -> 12
+	2 -> 13
+	12 -> 13
+	13 -> 14
+	17 -> 2
+	rankdir=LR
+}

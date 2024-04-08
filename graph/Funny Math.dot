@@ -1,0 +1,8 @@
+digraph {
+	3 [label="Table Creator"]
+	4 [label="Math Formula"]
+	5 [label="Math Formula"]
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

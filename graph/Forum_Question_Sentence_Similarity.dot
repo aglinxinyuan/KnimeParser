@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Strings To Document"]
+	3 [label="Document Vector"]
+	4 [label="Bag Of Words Creator"]
+	6 [label="Distance Matrix Calculate"]
+	1 -> 2
+	2 -> 4
+	3 -> 6
+	4 -> 3
+	rankdir=LR
+}

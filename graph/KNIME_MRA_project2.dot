@@ -1,0 +1,14 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	3 [label="Cell Splitter"]
+	4 [label="Association Rule Learner"]
+	5 [label=GroupBy]
+	6 [label="Column Rename"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	rankdir=LR
+}

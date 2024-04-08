@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Excel Reader _XLS_"]
+	4 [label="Rule Engine _Dictionary_"]
+	7 [label="String Manipulation"]
+	8 [label="String Manipulation"]
+	1 -> 8
+	2 -> 7
+	7 -> 4
+	8 -> 4
+	rankdir=LR
+}

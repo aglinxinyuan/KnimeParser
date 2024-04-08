@@ -1,0 +1,10 @@
+digraph {
+	41 [label="Parallel Coordinates Plot"]
+	77 [label="Column Filter"]
+	80 [label="Color Manager"]
+	90 [label="Table Reader"]
+	77 -> 80
+	80 -> 41
+	90 -> 77
+	rankdir=LR
+}

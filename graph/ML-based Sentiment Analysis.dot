@@ -1,0 +1,54 @@
+digraph {
+	275 [label="Category to class"]
+	276 [label="Color Manager"]
+	277 [label=Partitioning]
+	279 [label="Decision Tree Predictor"]
+	6 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	8 [label="Term to String"]
+	9 [label=GroupBy]
+	10 [label="Row Filter"]
+	11 [label="Reference Row Filter"]
+	12 [label=TF]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case converter"]
+	34 [label="Snowball Stemmer"]
+	66 [label="Extract Table Dimension"]
+	67 [label="Java Edit Variable"]
+	68 [label="Bag Of Words Creator"]
+	69 [label="Stop Word Filter"]
+	291 [label="Decision Tree Learner"]
+	292 [label="Document Vector"]
+	295 [label="CSV Reader"]
+	358 [label=Scorer]
+	359 [label="ROC Curve"]
+	7 -> 6
+	8 -> 9
+	8 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	29 -> 30
+	30 -> 31
+	31 -> 69
+	33 -> 34
+	34 -> 68
+	66 -> 67
+	67 -> 10
+	68 -> 8
+	69 -> 33
+	275 -> 276
+	276 -> 277
+	277 -> 279
+	277 -> 291
+	279 -> 358
+	279 -> 359
+	6 -> 66
+	12 -> 292
+	291 -> 279
+	292 -> 275
+	295 -> 7
+	rankdir=LR
+}

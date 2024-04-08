@@ -1,0 +1,84 @@
+digraph {
+	4 [label="Bag Of Words Creator"]
+	6 [label="Strings To Document"]
+	7 [label="POS Tagger"]
+	9 [label="Document Viewer"]
+	10 [label="Dictionary Tagger"]
+	11 [label="Excel Reader"]
+	12 [label="Wildcard Tagger"]
+	13 [label="Dictionary Tagger"]
+	14 [label="Wildcard Tagger"]
+	15 [label="Document Viewer"]
+	21 [label=TF]
+	16 [label="Bag Of Words Creator"]
+	18 [label="Term To String"]
+	19 [label="Document Data Extractor"]
+	20 [label="Tags To String"]
+	23 [label=IDF]
+	24 [label="Math Formula"]
+	25 [label=Pivoting]
+	26 [label=GroupBy]
+	27 [label="Missing Value"]
+	28 [label=Joiner]
+	28 [label="Kuhlen Stemmer"]
+	29 [label="Case Converter"]
+	30 [label="Document Viewer"]
+	36 [label=TF]
+	31 [label="Bag Of Words Creator"]
+	33 [label="Term To String"]
+	34 [label="Document Data Extractor"]
+	35 [label="Tags To String"]
+	38 [label=IDF]
+	39 [label="Math Formula"]
+	40 [label="Row Filter"]
+	43 [label="Row Splitter"]
+	45 [label=GroupBy]
+	46 [label="Tag Cloud"]
+	49 [label="Excel Reader"]
+	50 [label=Joiner]
+	51 [label="Math Formula"]
+	52 [label="Math Formula"]
+	6 -> 4
+	7 -> 10
+	7 -> 9
+	10 -> 12
+	11 -> 10
+	11 -> 14
+	11 -> 13
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	16 -> 18
+	18 -> 19
+	19 -> 20
+	25 -> 25
+	26 -> 28
+	28 -> 28
+	28 -> 29
+	29 -> 30
+	31 -> 33
+	33 -> 34
+	34 -> 35
+	40 -> 43
+	40 -> 46
+	43 -> 45
+	6 -> 7
+	14 -> 16
+	14 -> 28
+	21 -> 23
+	20 -> 21
+	23 -> 24
+	24 -> 25
+	28 -> 50
+	29 -> 31
+	36 -> 38
+	35 -> 36
+	38 -> 39
+	39 -> 48
+	49 -> 6
+	49 -> 50
+	50 -> 51
+	51 -> 52
+	rankdir=LR
+}

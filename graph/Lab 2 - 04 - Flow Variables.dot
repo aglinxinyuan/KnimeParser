@@ -1,0 +1,11 @@
+digraph {
+	1 [label="Rule_based Row Filter"]
+	2 [label="Table Row to Variable"]
+	3 [label=GroupBy]
+	4 [label="Excel Reader"]
+	2 -> 1
+	3 -> 2
+	4 -> 3
+	4 -> 1
+	rankdir=LR
+}

@@ -1,0 +1,28 @@
+digraph {
+	2 [label=GroupBy]
+	3 [label="Table Row To Variable Loop Start"]
+	4 [label="Empty Table Creator"]
+	5 [label="Column Expressions"]
+	6 [label="Rule Engine"]
+	8 [label="Rule Engine Variable"]
+	9 [label="Counter Generation"]
+	10 [label="Date_Time Shift"]
+	11 [label="Rule Engine Variable"]
+	12 [label="Rule Engine Variable"]
+	13 [label="Loop End"]
+	14 [label="Column Filter"]
+	15 [label="Table Creator"]
+	2 -> 6
+	3 -> 8
+	4 -> 5
+	5 -> 9
+	6 -> 3
+	8 -> 11
+	9 -> 10
+	10 -> 14
+	11 -> 12
+	12 -> 4
+	14 -> 13
+	15 -> 2
+	rankdir=LR
+}

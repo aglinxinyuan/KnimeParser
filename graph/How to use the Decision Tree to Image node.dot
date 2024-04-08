@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Decision Tree To Image"]
+	2 [label="File Reader"]
+	3 [label="File Reader"]
+	4 [label="Color Manager"]
+	5 [label="Decision Tree Learner"]
+	6 [label="Color Manager"]
+	7 [label="Image Port Writer"]
+	1 -> 7
+	2 -> 4
+	3 -> 6
+	4 -> 5
+	5 -> 1
+	6 -> 1
+	rankdir=LR
+}

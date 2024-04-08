@@ -1,0 +1,35 @@
+digraph {
+	5 [label="XGBoost Tree Ensemble Learner"]
+	7 [label="Parameter Optimization Loop Start"]
+	8 [label="Parameter Optimization Loop End"]
+	9 [label="Table Row To Variable"]
+	10 [label="Math Formula"]
+	11 [label="CSV Reader"]
+	12 [label="Number To String"]
+	13 [label="XGBoost Predictor"]
+	19 [label=Partitioning]
+	21 [label="Scorer _JavaScript_"]
+	22 [label="Table Row To Variable"]
+	24 [label="XGBoost Predictor"]
+	25 [label="Scorer _JavaScript_"]
+	26 [label="Math Formula"]
+	27 [label="XGBoost Tree Ensemble Learner"]
+	5 -> 13
+	7 -> 5
+	8 -> 22
+	9 -> 8
+	10 -> 9
+	11 -> 12
+	12 -> 19
+	13 -> 21
+	19 -> 27
+	19 -> 24
+	19 -> 5
+	19 -> 13
+	21 -> 10
+	22 -> 27
+	24 -> 25
+	25 -> 26
+	27 -> 24
+	rankdir=LR
+}

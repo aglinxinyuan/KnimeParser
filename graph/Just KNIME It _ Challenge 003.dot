@@ -1,0 +1,40 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Excel Reader"]
+	3 [label="String Manipulation"]
+	4 [label="Missing Value"]
+	5 [label=GroupBy]
+	7 [label=Rank]
+	8 [label="Rule Engine"]
+	9 [label="Interactive Histogram _local_"]
+	2109 [label="Color Manager"]
+	2110 [label="Row Filter"]
+	2111 [label=Joiner]
+	2112 [label="Row Filter"]
+	2113 [label="Rule Engine"]
+	2114 [label="Rule Engine"]
+	2115 [label=GroupBy]
+	2116 [label="Math Formula"]
+	2117 [label=Rank]
+	2118 [label="Row Splitter"]
+	2119 [label="Rule Engine"]
+	1 -> 4
+	2 -> 3
+	3 -> 2111
+	4 -> 2111
+	4 -> 2113
+	5 -> 7
+	7 -> 8
+	8 -> 2112
+	2109 -> 9
+	2110 -> 5
+	2111 -> 2115
+	2112 -> 2109
+	2112 -> 2118
+	2113 -> 2114
+	2114 -> 2110
+	2115 -> 2116
+	2116 -> 2117
+	2117 -> 2119
+	rankdir=LR
+}

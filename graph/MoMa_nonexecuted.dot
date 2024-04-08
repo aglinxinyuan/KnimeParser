@@ -1,0 +1,227 @@
+digraph {
+	10 [label="CSV Reader"]
+	18 [label=GroupBy]
+	19 [label="Row Filter"]
+	20 [label="Row Filter"]
+	21 [label=Concatenate]
+	28 [label="One to Many"]
+	39 [label="Case Converter"]
+	88 [label="Bag Of Words Creator"]
+	55 [label="POS Tagger"]
+	56 [label="Document Viewer"]
+	58 [label="Excel Reader"]
+	102 [label="Column Splitter"]
+	57 [label="Dictionary Tagger"]
+	65 [label="Dictionary Tagger"]
+	68 [label="Dictionary Tagger"]
+	74 [label="Dictionary Tagger"]
+	82 [label="Dictionary Tagger"]
+	83 [label="Dictionary Tagger"]
+	84 [label="Dictionary Tagger"]
+	85 [label="Dictionary Tagger"]
+	86 [label="Dictionary Tagger"]
+	87 [label="Dictionary Tagger"]
+	88 [label="Row Splitter"]
+	100 [label="Column Aggregator"]
+	101 [label=Ungroup]
+	103 [label=Ungroup]
+	104 [label="Row Splitter"]
+	105 [label="Column Aggregator"]
+	108 [label="Column Aggregator"]
+	109 [label=Ungroup]
+	110 [label="Row Filter"]
+	112 [label="Row Filter"]
+	113 [label=Ungroup]
+	114 [label="Column Aggregator"]
+	115 [label="Row Filter"]
+	116 [label=Ungroup]
+	117 [label="Column Aggregator"]
+	108 [label="Column Aggregator"]
+	109 [label=Ungroup]
+	110 [label="Row Filter"]
+	108 [label="Column Aggregator"]
+	109 [label=Ungroup]
+	110 [label="Row Filter"]
+	108 [label="Column Aggregator"]
+	109 [label=Ungroup]
+	110 [label="Row Filter"]
+	108 [label="Column Aggregator"]
+	109 [label=Ungroup]
+	110 [label="Row Filter"]
+	108 [label="Column Aggregator"]
+	109 [label=Ungroup]
+	110 [label="Row Filter"]
+	90 [label="Term To String"]
+	91 [label="Document Data Extractor"]
+	92 [label="Tags To String"]
+	49 [label="Row Splitter"]
+	50 [label="Cell Splitter"]
+	51 [label="Math Formula"]
+	97 [label="Row Splitter"]
+	98 [label="Cell Splitter"]
+	100 [label="Column Filter"]
+	102 [label=Concatenate]
+	103 [label="Row Splitter"]
+	104 [label=Concatenate]
+	105 [label="Column Merger"]
+	106 [label="Column Rename"]
+	107 [label="Row Splitter"]
+	109 [label="Document Viewer"]
+	119 [label="Cell Splitter"]
+	53 [label="Strings To Document"]
+	54 [label="Bag Of Words Creator"]
+	59 [label=Partitioning]
+	163 [label="Linear Regression Learner"]
+	165 [label="Row Filter"]
+	142 [label=Joiner]
+	147 [label="Row Splitter"]
+	152 [label="Row Splitter"]
+	154 [label="Excel Reader"]
+	161 [label="String Replacer"]
+	162 [label="String Replacer"]
+	163 [label="String Replacer"]
+	164 [label="String Replacer"]
+	165 [label="String Replacer"]
+	166 [label="String Replacer"]
+	167 [label="String Replacer"]
+	168 [label="String Replacer"]
+	169 [label="String Replacer"]
+	170 [label="String Replacer"]
+	163 [label="Row Splitter"]
+	164 [label=GroupBy]
+	173 [label="Bar Chart"]
+	169 [label="Row Filter"]
+	170 [label="Row Filter"]
+	171 [label="Row Filter"]
+	172 [label="String Manipulation"]
+	180 [label="Bar Chart"]
+	174 [label="Row Filter"]
+	175 [label="Row Filter"]
+	176 [label="Row Filter"]
+	177 [label="String To Number"]
+	178 [label="String Manipulation"]
+	189 [label="Row Filter"]
+	190 [label="String To Number"]
+	114 [label="Cell Splitter"]
+	116 [label=GroupBy]
+	135 [label="Row Filter"]
+	184 [label="String To Number"]
+	185 [label="Math Formula"]
+	192 [label="Column Filter"]
+	194 [label=GroupBy]
+	195 [label="Value Counter"]
+	196 [label="Value Counter"]
+	18 -> 19
+	18 -> 20
+	19 -> 21
+	20 -> 21
+	21 -> 39
+	39 -> 28
+	88 -> 100
+	100 -> 101
+	104 -> 105
+	105 -> 103
+	101 -> 109
+	110 -> 97
+	112 -> 114
+	114 -> 113
+	115 -> 117
+	117 -> 116
+	101 -> 109
+	110 -> 97
+	101 -> 109
+	110 -> 97
+	101 -> 109
+	110 -> 97
+	101 -> 109
+	110 -> 97
+	101 -> 109
+	110 -> 97
+	57 -> 65
+	65 -> 68
+	68 -> 74
+	74 -> 82
+	82 -> 83
+	83 -> 84
+	84 -> 85
+	85 -> 86
+	86 -> 87
+	101 -> 57
+	103 -> 65
+	109 -> 68
+	113 -> 74
+	116 -> 82
+	109 -> 83
+	109 -> 84
+	109 -> 85
+	109 -> 86
+	109 -> 87
+	55 -> 88
+	55 -> 56
+	58 -> 102
+	102 -> 88
+	49 -> 50
+	50 -> 51
+	51 -> 102
+	97 -> 98
+	98 -> 100
+	100 -> 102
+	102 -> 104
+	103 -> 107
+	104 -> 105
+	105 -> 88
+	107 -> 104
+	53 -> 54
+	59 -> 53
+	165 -> 163
+	142 -> 147
+	147 -> 152
+	154 -> 142
+	161 -> 161
+	170 -> 163
+	163 -> 164
+	164 -> 165
+	165 -> 166
+	166 -> 167
+	167 -> 168
+	168 -> 169
+	169 -> 170
+	169 -> 170
+	170 -> 171
+	172 -> 169
+	174 -> 176
+	176 -> 175
+	177 -> 174
+	171 -> 177
+	163 -> 172
+	163 -> 189
+	164 -> 163
+	171 -> 190
+	175 -> 180
+	189 -> 172
+	190 -> 173
+	114 -> 135
+	116 -> 184
+	135 -> 192
+	184 -> 185
+	192 -> 116
+	10 -> 18
+	28 -> 97
+	88 -> 90
+	87 -> 88
+	87 -> 109
+	90 -> 91
+	91 -> 92
+	92 -> 112
+	101 -> 142
+	113 -> 161
+	53 -> 55
+	152 -> 59
+	170 -> 114
+	170 -> 190
+	185 -> 194
+	185 -> 196
+	185 -> 158
+	194 -> 195
+	rankdir=LR
+}

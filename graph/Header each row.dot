@@ -1,0 +1,22 @@
+digraph {
+	1 [label="Table Creator"]
+	3 [label="Lag Column"]
+	4 [label="Column Aggregator"]
+	5 [label="Column Expressions"]
+	6 [label="Group Loop Start"]
+	7 [label="Column Filter"]
+	8 [label="Row to Column Names"]
+	9 [label="Loop End"]
+	10 [label="Column Filter"]
+	15 [label="Python Script"]
+	1 -> 4
+	3 -> 5
+	4 -> 3
+	5 -> 7
+	6 -> 10
+	7 -> 6
+	8 -> 9
+	10 -> 15
+	15 -> 8
+	rankdir=LR
+}

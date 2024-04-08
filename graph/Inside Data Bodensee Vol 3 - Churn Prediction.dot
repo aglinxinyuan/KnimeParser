@@ -1,0 +1,31 @@
+digraph {
+	2 [label="CSV Reader"]
+	3 [label="Excel Reader"]
+	4 [label=Statistics]
+	5 [label=Statistics]
+	6 [label=Joiner]
+	7 [label="Row Filter"]
+	8 [label="Number To String"]
+	9 [label="Color Manager"]
+	10 [label="Scatter Plot"]
+	11 [label=Partitioning]
+	12 [label="Decision Tree Predictor"]
+	13 [label="Decision Tree Learner"]
+	14 [label="Decision Tree View"]
+	15 [label=Scorer]
+	2 -> 5
+	2 -> 6
+	3 -> 4
+	3 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 11
+	8 -> 9
+	9 -> 10
+	11 -> 13
+	11 -> 12
+	12 -> 15
+	13 -> 14
+	13 -> 12
+	rankdir=LR
+}

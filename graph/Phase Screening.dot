@@ -1,0 +1,132 @@
+digraph {
+	78 [label="Molecule Writer"]
+	8235 [label="Run Maestro"]
+	8239 [label="HiLite Filter"]
+	8240 [label="Text Viewer"]
+	8299 [label="Phase DB Creation"]
+	8301 [label="HiLite Filter"]
+	89 [label=Sorter]
+	8242 [label="Ungroup MAE"]
+	8243 [label="Column Filter"]
+	8247 [label="Row Filter"]
+	8321 [label="Extract Properties"]
+	8322 [label="Double Input"]
+	8323 [label="WrappedNode Input"]
+	8324 [label="WrappedNode Output"]
+	8305 [label="Molecule Reader _to MAE_"]
+	8307 [label="Phase Screening"]
+	8309 [label="Phase Hypothesis Reader"]
+	8310 [label="Phase Screening"]
+	8316 [label=Concatenate]
+	8318 [label="CSV Writer"]
+	8319 [label="Table Viewer"]
+	8322 [label="Phase Screening"]
+	8323 [label="Molecule Reader _to MAE_"]
+	8326 [label=LigPrep]
+	8327 [label=LigPrep]
+	8328 [label=ConfGen]
+	8329 [label="Run Maestro"]
+	8330 [label="Get Help"]
+	8331 [label="Table Viewer"]
+	8332 [label="Constant Value Column"]
+	8333 [label="Chemistry External Tool"]
+	8334 [label="Phase Screening"]
+	8340 [label="Table Viewer"]
+	8344 [label="Table Viewer"]
+	8345 [label="Column Filter"]
+	8347 [label="Table Viewer"]
+	8346 [label=MAE_to_SD]
+	8348 [label="Constant Value Column"]
+	8350 [label="Phase Screening"]
+	8352 [label="Phase Screening"]
+	8353 [label="Constant Value Column"]
+	8354 [label="Phase Screening"]
+	8355 [label="Constant Value Column"]
+	8356 [label="Ungroup MAE"]
+	8357 [label="Ungroup MAE"]
+	8358 [label="Ungroup MAE"]
+	8359 [label="CSV Writer"]
+	8360 [label="CSV Writer"]
+	8361 [label="CSV Writer"]
+	8335 [label="Constant Value Column"]
+	8336 [label="Row Splitter"]
+	8337 [label="Constant Value Column"]
+	8338 [label=Concatenate]
+	8342 [label="Table Viewer"]
+	8343 [label="Phase Screening"]
+	8311 [label="Extract Properties"]
+	8312 [label="Ungroup MAE"]
+	8314 [label=GroupBy]
+	8315 [label=Sorter]
+	8364 [label="Chemistry External Tool"]
+	79 [label="Ungroup MAE"]
+	89 [label=Sorter]
+	8320 [label="Reference Row Filter"]
+	8321 [label="Extract Properties"]
+	8364 [label="Chemistry External Tool"]
+	89 -> 8247
+	8242 -> 8321
+	8243 -> 8242
+	8247 -> 8324
+	8321 -> 89
+	8322 -> 8247
+	8323 -> 8243
+	8346 -> 8354
+	8348 -> 8350
+	8350 -> 8358
+	8352 -> 8357
+	8353 -> 8352
+	8354 -> 8356
+	8355 -> 8354
+	8356 -> 8359
+	8357 -> 8360
+	8358 -> 8361
+	8335 -> 8338
+	8336 -> 8337
+	8336 -> 8335
+	8337 -> 8338
+	8338 -> 8343
+	8343 -> 8342
+	8311 -> 8314
+	8312 -> 8364
+	8314 -> 8315
+	8364 -> 8311
+	79 -> 8364
+	8320 -> 79
+	8321 -> 89
+	8364 -> 8321
+	8239 -> 8362
+	8239 -> 8322
+	8301 -> 8320
+	8302 -> 78
+	8305 -> 8326
+	8307 -> 8316
+	8309 -> 8310
+	8309 -> 8240
+	8309 -> 8307
+	8309 -> 8239
+	8309 -> 8363
+	8309 -> 8333
+	8309 -> 8332
+	8309 -> 8329
+	8310 -> 8316
+	8316 -> 8345
+	8322 -> 8347
+	8322 -> 8302
+	8323 -> 8327
+	8326 -> 8328
+	8327 -> 8322
+	8327 -> 8362
+	8328 -> 8299
+	8330 -> 8331
+	8332 -> 8334
+	8333 -> 8344
+	8334 -> 8340
+	8345 -> 8312
+	8345 -> 8320
+	8315 -> 8301
+	8315 -> 8319
+	8315 -> 8318
+	89 -> 8235
+	rankdir=LR
+}

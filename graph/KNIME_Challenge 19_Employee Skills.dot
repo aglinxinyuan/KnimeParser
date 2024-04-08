@@ -1,0 +1,60 @@
+digraph {
+	2 [label="Excel Reader"]
+	29 [label="Loop End"]
+	58 [label="Counting Loop Start"]
+	59 [label="Excel Writer"]
+	54 [label="Math Formula"]
+	55 [label="Column Filter"]
+	56 [label="Row Filter"]
+	57 [label="Table Row to Variable"]
+	76 [label="Table View"]
+	14 [label="Row Filter"]
+	15 [label=Transpose]
+	26 [label=Transpose]
+	35 [label="Extract Column Header"]
+	50 [label="Column Splitter"]
+	51 [label="Extract Column Header"]
+	57 [label="Table Row to Variable"]
+	58 [label="Column Rename"]
+	60 [label=RowID]
+	78 [label="Rule Engine"]
+	79 [label=Concatenate]
+	80 [label=GroupBy]
+	81 [label=Transpose]
+	82 [label=Transpose]
+	84 [label="Column Rename"]
+	85 [label="Row Filter"]
+	86 [label="Cross Joiner"]
+	87 [label="Column Resorter"]
+	54 -> 55
+	55 -> 56
+	56 -> 57
+	14 -> 54
+	15 -> 51
+	15 -> 58
+	26 -> 35
+	35 -> 79
+	35 -> 79
+	50 -> 15
+	50 -> 86
+	51 -> 57
+	57 -> 58
+	58 -> 78
+	57 -> 50
+	78 -> 26
+	79 -> 81
+	80 -> 82
+	81 -> 80
+	82 -> 84
+	84 -> 85
+	85 -> 86
+	86 -> 87
+	2 -> 58
+	2 -> 54
+	29 -> 59
+	29 -> 76
+	58 -> 14
+	57 -> 58
+	87 -> 29
+	rankdir=LR
+}

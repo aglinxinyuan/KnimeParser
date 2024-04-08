@@ -1,0 +1,18 @@
+digraph {
+	1 [label="Excel Reader"]
+	10 [label="Extract Date_Time Fields"]
+	11 [label="Extract Date_Time Fields"]
+	13 [label="Duplicate Row Filter"]
+	14 [label="Rule Engine"]
+	16 [label="Rule_based Row Filter"]
+	17 [label=Sorter]
+	18 [label="Excel Writer"]
+	1 -> 17
+	10 -> 11
+	11 -> 13
+	13 -> 14
+	14 -> 16
+	16 -> 18
+	17 -> 10
+	rankdir=LR
+}

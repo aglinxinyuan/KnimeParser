@@ -1,0 +1,47 @@
+digraph {
+	1 [label="Image Reader"]
+	16 [label="Interactive Segmentation View"]
+	25 [label="Interactive Table"]
+	2 [label="Connected Component Analysis"]
+	3 [label="Segment Features"]
+	4 [label="Labeling Properties"]
+	5 [label=Projector]
+	13 [label=Joiner]
+	14 [label="Image Properties"]
+	15 [label="Labeling Arithmetic"]
+	21 [label="Label Transformer"]
+	22 [label="Label Transformer"]
+	38 [label=GroupBy]
+	39 [label=RowID]
+	23 [label="Column Filter"]
+	24 [label="Column Rename"]
+	26 [label="Column Resorter"]
+	27 [label=RowID]
+	32 [label="Similarity Search"]
+	33 [label="Row Filter"]
+	34 [label=Joiner]
+	2 -> 3
+	3 -> 4
+	5 -> 2
+	13 -> 15
+	14 -> 13
+	15 -> 39
+	21 -> 22
+	22 -> 13
+	38 -> 21
+	23 -> 26
+	24 -> 5
+	26 -> 24
+	1 -> 5
+	1 -> 38
+	4 -> 34
+	4 -> 32
+	4 -> 32
+	39 -> 16
+	4 -> 25
+	32 -> 33
+	33 -> 34
+	34 -> 23
+	34 -> 38
+	rankdir=LR
+}

@@ -1,0 +1,26 @@
+digraph {
+	1 [label="Table Reader"]
+	4 [label="Column Expressions"]
+	1284 [label="Strings To Document"]
+	1297 [label="Stop Word Filter"]
+	1298 [label="Topic Extractor _Parallel LDA_"]
+	1299 [label="Tag Cloud _JavaScript_"]
+	1300 [label="Row Splitter"]
+	1301 [label="Row Splitter"]
+	1302 [label="Tag Cloud _JavaScript_"]
+	1303 [label="Topic Extractor _Parallel LDA_"]
+	1304 [label="Topic Extractor _Parallel LDA_"]
+	1305 [label="Tag Cloud _JavaScript_"]
+	1 -> 4
+	4 -> 1284
+	1284 -> 1297
+	1297 -> 1300
+	1298 -> 1299
+	1300 -> 1298
+	1300 -> 1301
+	1301 -> 1304
+	1301 -> 1303
+	1303 -> 1302
+	1304 -> 1305
+	rankdir=LR
+}

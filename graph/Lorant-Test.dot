@@ -1,0 +1,12 @@
+digraph {
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label=Statistics]
+	5 [label="Excel Reader"]
+	6 [label="Excel Writer"]
+	7 [label="Table Editor"]
+	2 -> 4
+	5 -> 7
+	7 -> 6
+	rankdir=LR
+}

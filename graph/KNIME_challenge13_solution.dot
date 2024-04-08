@@ -1,0 +1,25 @@
+digraph {
+	1 [label="Table Creator"]
+	3 [label="Column Expressions"]
+	6 [label="Row Filter"]
+	7 [label="Cell Splitter"]
+	8 [label="Insert Column Header"]
+	9 [label="Row Splitter"]
+	10 [label="Column Filter"]
+	11 [label=Unpivoting]
+	13 [label="Column Expressions"]
+	16 [label="Column Expressions"]
+	17 [label="Column Filter"]
+	1 -> 6
+	3 -> 7
+	6 -> 3
+	7 -> 10
+	8 -> 13
+	9 -> 8
+	9 -> 11
+	10 -> 9
+	11 -> 8
+	13 -> 16
+	16 -> 17
+	rankdir=LR
+}

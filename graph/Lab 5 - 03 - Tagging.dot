@@ -1,0 +1,10 @@
+digraph {
+	2 [label="Strings To Document"]
+	3 [label="POS Tagger"]
+	4 [label="Tagged Document Viewer"]
+	5 [label="XML Reader"]
+	2 -> 3
+	3 -> 4
+	5 -> 2
+	rankdir=LR
+}

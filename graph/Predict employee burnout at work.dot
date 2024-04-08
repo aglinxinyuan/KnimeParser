@@ -1,0 +1,38 @@
+digraph {
+	2 [label="Column Filter"]
+	3 [label=Partitioning]
+	6 [label="Numeric Scorer"]
+	7 [label="Scatter Plot _JFreeChart_"]
+	18 [label="Numeric Binner"]
+	21 [label="Column Filter"]
+	22 [label=Partitioning]
+	23 [label=Scorer]
+	25 [label="String to Date_Time"]
+	26 [label="Extract Date_Time Fields"]
+	27 [label="Missing Value"]
+	31 [label="Table Reader"]
+	32 [label=Statistics]
+	33 [label="Random Forest Learner _Regression_"]
+	34 [label="Random Forest Predictor _Regression_"]
+	35 [label="Random Forest Learner"]
+	36 [label="Random Forest Predictor"]
+	2 -> 27
+	3 -> 33
+	3 -> 34
+	18 -> 21
+	21 -> 22
+	22 -> 35
+	22 -> 36
+	25 -> 26
+	26 -> 2
+	27 -> 18
+	27 -> 3
+	31 -> 25
+	31 -> 32
+	33 -> 34
+	34 -> 6
+	34 -> 7
+	35 -> 36
+	36 -> 23
+	rankdir=LR
+}

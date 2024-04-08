@@ -1,0 +1,61 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	3 [label="Excel Reader"]
+	4 [label=Joiner]
+	5 [label=Joiner]
+	6 [label="Missing Value"]
+	7 [label="Date_Time Difference"]
+	8 [label="Column Renamer"]
+	9 [label=Auto_Binner]
+	10 [label="Rule Engine"]
+	11 [label="Rule Engine"]
+	12 [label="Rule Engine"]
+	13 [label=Rank]
+	14 [label="Column Filter"]
+	15 [label=Pivot]
+	16 [label=Pivot]
+	17 [label=Pivot]
+	18 [label=Pivot]
+	19 [label=Pivot]
+	20 [label="Column Renamer"]
+	21 [label="Column Renamer"]
+	22 [label="Column Renamer"]
+	23 [label="Column Renamer"]
+	24 [label="Column Renamer"]
+	25 [label="Bar Chart _JavaScript_"]
+	26 [label="Bar Chart _JavaScript_"]
+	27 [label="Bar Chart _JavaScript_"]
+	28 [label="Bar Chart _JavaScript_"]
+	29 [label="Bar Chart _JavaScript_"]
+	30 [label="Table Creator"]
+	31 [label="Color Manager"]
+	32 [label="Bar Chart _JavaScript_"]
+	33 [label=Pivot]
+	34 [label="Column Renamer"]
+	35 [label="Bar Chart _JavaScript_"]
+	36 [label=Pivot]
+	37 [label="Column Renamer"]
+	38 [label="Bar Chart _JavaScript_"]
+	39 [label=Pivot]
+	40 [label="Column Renamer"]
+	41 [label="Bar Chart _JavaScript_"]
+	42 [label=Pivot]
+	43 [label="Column Renamer"]
+	1 -> 4
+	3 -> 5
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 24
+	24 -> 29
+	rankdir=LR
+}

@@ -1,0 +1,52 @@
+digraph {
+	8 [label="Punctuation Erasure"]
+	10 [label="Table Creator"]
+	26 [label=GroupBy]
+	30 [label="Term To String"]
+	48 [label="Tag Filter"]
+	50 [label="Dictionary Tagger"]
+	52 [label="Bag Of Words Creator"]
+	117 [label=Partitioning]
+	119 [label="StanfordNLP NE Tagger"]
+	120 [label="Bag Of Words Creator"]
+	122 [label=GroupBy]
+	125 [label="Term To String"]
+	126 [label="Column Filter"]
+	128 [label="Tag Filter"]
+	143 [label="Strings To Document"]
+	144 [label="Column Filter"]
+	145 [label="StanfordNLP NE Learner"]
+	146 [label="StanfordNLP NE Scorer"]
+	150 [label="File Reader"]
+	152 [label="File Reader"]
+	153 [label="String Manipulation"]
+	156 [label="Document Data Extractor"]
+	157 [label="String Manipulation"]
+	158 [label="String Manipulation"]
+	8 -> 50
+	10 -> 50
+	26 -> 30
+	30 -> 156
+	48 -> 52
+	50 -> 48
+	52 -> 26
+	117 -> 119
+	117 -> 145
+	117 -> 146
+	119 -> 128
+	120 -> 122
+	122 -> 125
+	125 -> 126
+	128 -> 120
+	143 -> 144
+	143 -> 8
+	144 -> 117
+	145 -> 146
+	145 -> 119
+	150 -> 143
+	152 -> 153
+	153 -> 145
+	156 -> 157
+	157 -> 158
+	rankdir=LR
+}

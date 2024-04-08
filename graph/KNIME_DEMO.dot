@@ -1,0 +1,38 @@
+digraph {
+	1 [label="Refresh Button Widget"]
+	2 [label="String Input"]
+	3 [label="Table Creator"]
+	4 [label="String Manipulation"]
+	5 [label="String Manipulation"]
+	6 [label="String Manipulation _Variable_"]
+	7 [label="Row Filter"]
+	9 [label="Cell Splitter"]
+	10 [label="Column List Loop Start"]
+	11 [label="Column Filter"]
+	12 [label="String Manipulation"]
+	13 [label="Loop End _Column Append_"]
+	14 [label="Column Rename _Regex_"]
+	15 [label="Rule Engine"]
+	16 [label="Column Filter"]
+	18 [label="Missing Value"]
+	24 [label="String Manipulation"]
+	25 [label="Column Combiner"]
+	1 -> 2
+	2 -> 6
+	3 -> 5
+	4 -> 7
+	5 -> 4
+	6 -> 4
+	7 -> 9
+	9 -> 11
+	10 -> 14
+	11 -> 10
+	12 -> 24
+	13 -> 18
+	14 -> 12
+	15 -> 16
+	16 -> 13
+	18 -> 25
+	24 -> 15
+	rankdir=LR
+}

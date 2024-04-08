@@ -1,0 +1,36 @@
+digraph {
+	26 [label="Segment Overlay Viewer"]
+	35 [label="Line Plot"]
+	36 [label="Interactive Table"]
+	63 [label=Joiner]
+	22 [label="Connected Component Analysis"]
+	39 [label="Image Calculator"]
+	59 [label=Projector]
+	62 [label=Joiner]
+	63 [label="Image Normalizer"]
+	64 [label="Global Thresholder"]
+	65 [label="Gaussian Convolution"]
+	66 [label=RowID]
+	23 [label="Segment Features"]
+	54 [label="Row Filter"]
+	68 [label=GroupBy]
+	70 [label="Image Reader"]
+	22 -> 62
+	39 -> 64
+	59 -> 62
+	63 -> 59
+	64 -> 22
+	62 -> 39
+	23 -> 54
+	54 -> 68
+	63 -> 26
+	62 -> 66
+	62 -> 23
+	66 -> 63
+	68 -> 36
+	68 -> 35
+	68 -> 63
+	68 -> 26
+	70 -> 62
+	rankdir=LR
+}

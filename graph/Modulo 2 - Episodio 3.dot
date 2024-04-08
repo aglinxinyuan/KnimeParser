@@ -1,0 +1,23 @@
+digraph {
+	266 [label="Table Cropper"]
+	271 [label="Value Lookup"]
+	272 [label="Rule Engine"]
+	403 [label="DB Table Selector"]
+	404 [label="DB Reader"]
+	406 [label="SQLite Connector"]
+	416 [label="Column Expressions"]
+	421 [label="Math Formula"]
+	422 [label="String Manipulation"]
+	426 [label="Excel Reader"]
+	427 [label="CSV Reader"]
+	266 -> 271
+	271 -> 272
+	272 -> 421
+	403 -> 404
+	404 -> 416
+	406 -> 403
+	421 -> 422
+	426 -> 266
+	427 -> 271
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	3 [label="Color Manager"]
+	4 [label="Shape Manager"]
+	12 [label=Normalizer]
+	21 [label=Partitioning]
+	28 [label="Normalizer _Apply_"]
+	35 [label=Denormalizer]
+	36 [label="Scatter Plot"]
+	37 [label="SVM Learner"]
+	38 [label="SVM Predictor"]
+	39 [label="Table Reader"]
+	3 -> 4
+	4 -> 36
+	12 -> 28
+	12 -> 37
+	12 -> 35
+	21 -> 12
+	21 -> 28
+	28 -> 38
+	35 -> 3
+	37 -> 38
+	38 -> 35
+	39 -> 21
+	rankdir=LR
+}

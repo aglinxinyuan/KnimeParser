@@ -1,0 +1,14 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label="Naive Bayes Learner"]
+	5 [label="Naive Bayes Predictor"]
+	6 [label="Interactive Table _legacy_"]
+	7 [label=Scorer]
+	1 -> 4
+	3 -> 5
+	4 -> 5
+	5 -> 6
+	5 -> 7
+	rankdir=LR
+}

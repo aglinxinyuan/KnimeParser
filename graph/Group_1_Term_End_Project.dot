@@ -1,0 +1,59 @@
+digraph {
+	1 [label="HDFS Connector"]
+	2 [label="CSV Reader"]
+	4 [label="Column Rename"]
+	5 [label="Rule Engine"]
+	6 [label="Number To String"]
+	7 [label="Row Sampling"]
+	8 [label="Strings To Document"]
+	9 [label="Case Converter"]
+	10 [label="Number Filter"]
+	11 [label="Punctuation Erasure"]
+	12 [label="Stop Word Filter"]
+	13 [label="Porter Stemmer"]
+	14 [label="Bag Of Words Creator"]
+	15 [label=TF]
+	16 [label=IDF]
+	17 [label="Column Expressions"]
+	18 [label="Document Vector"]
+	19 [label="Category To Class"]
+	22 [label=Partitioning]
+	24 [label="Tree Ensemble Predictor"]
+	25 [label=Scorer]
+	26 [label="XGBoost Tree Ensemble Learner"]
+	27 [label="XGBoost Predictor"]
+	28 [label=Scorer]
+	29 [label="Tree Ensemble Learner"]
+	30 [label=Joiner]
+	32 [label="Frequency Filter"]
+	1 -> 2
+	2 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	7 -> 30
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 32
+	18 -> 19
+	19 -> 30
+	22 -> 29
+	22 -> 26
+	22 -> 27
+	22 -> 24
+	24 -> 25
+	26 -> 27
+	27 -> 28
+	29 -> 24
+	30 -> 22
+	32 -> 18
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	4 [label="Database Row Filter"]
+	143 [label="Database Row Filter"]
+	148 [label="Database Connection Table Reader"]
+	149 [label="Database Connection Table Reader"]
+	150 [label="Decision Tree Predictor"]
+	170 [label="Decision Tree Learner"]
+	174 [label="Database Table Selector"]
+	180 [label="Database Column Filter"]
+	181 [label="Number To String"]
+	182 [label="Database Column Filter"]
+	187 [label="File Reader"]
+	293 [label="Hive Connector"]
+	4 -> 182
+	143 -> 148
+	148 -> 149
+	148 -> 181
+	149 -> 150
+	170 -> 150
+	174 -> 180
+	180 -> 4
+	180 -> 143
+	181 -> 170
+	182 -> 149
+	293 -> 174
+	rankdir=LR
+}

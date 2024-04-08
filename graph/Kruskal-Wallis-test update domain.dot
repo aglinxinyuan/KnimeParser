@@ -1,0 +1,12 @@
+digraph {
+	805 [label="Kruskal_Wallis Test"]
+	806 [label="Data Generator"]
+	807 [label="Row Filter"]
+	809 [label="Domain Calculator"]
+	810 [label="Kruskal_Wallis Test"]
+	806 -> 807
+	807 -> 809
+	807 -> 810
+	809 -> 805
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Math Formula"]
+	3 [label="Math Formula"]
+	4 [label=GroupBy]
+	6 [label="Table Row to Variable"]
+	7 [label="Create Table Structure"]
+	8 [label=Transpose]
+	9 [label=RowID]
+	10 [label="Cell Splitter"]
+	11 [label="Column Filter"]
+	12 [label="Cross Joiner"]
+	13 [label="Rule_based Row Filter"]
+	14 [label="Math Formula"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 12
+	4 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 14
+	12 -> 13
+	14 -> 12
+	rankdir=LR
+}

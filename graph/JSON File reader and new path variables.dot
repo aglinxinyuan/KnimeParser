@@ -1,0 +1,77 @@
+digraph {
+	1 [label="List Files_Folders"]
+	2 [label="Table Row To Variable Loop Start"]
+	3 [label="JSON Reader"]
+	5 [label="JSON Reader"]
+	7 [label="Extract System Properties"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	55 [label="Java Edit Variable _simple_"]
+	56 [label="Table Column to Variable"]
+	58 [label="Variable to Table Row"]
+	59 [label="Extract Context Properties"]
+	60 [label="Table Row to Variable"]
+	61 [label="String to Path _Variable_"]
+	476 [label="List Files_Folders"]
+	477 [label="JSON Reader"]
+	478 [label="Path to String _Variable_"]
+	479 [label="Table Row To Variable Loop Start"]
+	480 [label="Loop End"]
+	481 [label="Loop End"]
+	482 [label="Path to String"]
+	483 [label="String to Path"]
+	485 [label="Table Row To Variable Loop Start"]
+	486 [label="JSON Reader"]
+	487 [label="Loop End"]
+	488 [label="Path to String _Variable_"]
+	489 [label="String Configuration"]
+	490 [label="List Files_Folders"]
+	491 [label="String to Path _Variable_"]
+	492 [label="Path to String"]
+	493 [label="String to Path"]
+	494 [label="Table Row To Variable Loop Start"]
+	495 [label="Loop End"]
+	496 [label="JSON Reader"]
+	497 [label="String to Path"]
+	498 [label="Path to String"]
+	499 [label="Table Row To Variable Loop Start"]
+	500 [label="List Files_Folders"]
+	501 [label="JSON Reader"]
+	502 [label="Loop End"]
+	7 -> 56
+	46 -> 60
+	47 -> 46
+	48 -> 47
+	55 -> 46
+	58 -> 48
+	59 -> 58
+	60 -> 61
+	1 -> 2
+	2 -> 488
+	3 -> 481
+	475 -> 476
+	476 -> 479
+	476 -> 482
+	477 -> 480
+	478 -> 477
+	479 -> 478
+	482 -> 483
+	483 -> 485
+	485 -> 486
+	486 -> 487
+	488 -> 3
+	489 -> 491
+	490 -> 492
+	491 -> 490
+	492 -> 493
+	493 -> 494
+	494 -> 496
+	496 -> 495
+	497 -> 499
+	498 -> 497
+	499 -> 501
+	500 -> 498
+	501 -> 502
+	rankdir=LR
+}

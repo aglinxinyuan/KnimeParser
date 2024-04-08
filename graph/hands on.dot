@@ -1,0 +1,16 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Data Explorer"]
+	3 [label="Scatter Plot"]
+	4 [label="Box Plot"]
+	5 [label="Conditional Box Plot"]
+	6 [label=Histogram]
+	7 [label="Crosstab _local_"]
+	1 -> 2
+	1 -> 3
+	1 -> 5
+	1 -> 4
+	1 -> 7
+	1 -> 6
+	rankdir=LR
+}

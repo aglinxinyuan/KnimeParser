@@ -1,0 +1,35 @@
+digraph {
+	4 [label="Parquet Reader"]
+	12 [label="Compiled Model Predictor"]
+	14 [label="PMML Compiler"]
+	15 [label="Parquet Reader"]
+	17 [label="Simple Regression Tree to PMML"]
+	19 [label="Simple Regression Tree Learner"]
+	20 [label="PMML Simple Regression Tree Predictor"]
+	22 [label="PMML Predictor"]
+	23 [label="Tree Ensemble Learner _Regression_"]
+	24 [label="Tree Ensemble Predictor _Regression_"]
+	25 [label="Group Loop Start"]
+	26 [label="Loop End"]
+	27 [label="Model Writer"]
+	28 [label="Model Reader"]
+	4 -> 23
+	4 -> 19
+	14 -> 12
+	15 -> 12
+	15 -> 25
+	15 -> 22
+	15 -> 20
+	17 -> 20
+	17 -> 22
+	17 -> 14
+	19 -> 17
+	23 -> 27
+	24 -> 26
+	25 -> 24
+	25 -> 24
+	27 -> 28
+	28 -> 24
+	28 -> 25
+	rankdir=LR
+}

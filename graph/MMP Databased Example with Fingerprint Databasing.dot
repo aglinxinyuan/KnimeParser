@@ -1,0 +1,107 @@
+digraph {
+	3 [label=GroupBy]
+	4 [label="Speedy SMILES De_salt"]
+	5 [label="MMP Molecule Multi_cut Fragment _RDKit_"]
+	11 [label="Speedy SMILES De_salt"]
+	12 [label=GroupBy]
+	13 [label="MMP Molecule Multi_cut Fragment _RDKit_"]
+	16 [label="Column Filter"]
+	26 [label="Fragments to MMPs"]
+	1 [label="File Reader"]
+	9 [label=Partitioning]
+	21 [label=Partitioning]
+	22 [label=Concatenate]
+	27 [label="Row Filter"]
+	20 [label="Column Rename"]
+	23 [label=Concatenate]
+	25 [label="Reference Row Filter"]
+	26 [label="DB Query Reader"]
+	27 [label="DB Table Selector"]
+	28 [label="DB GroupBy"]
+	29 [label="DB Reader"]
+	34 [label="Column Filter"]
+	36 [label="Reference Fragments to MMPs"]
+	39 [label="Fragments to MMPs"]
+	37 [label="Molecule Type Cast"]
+	38 [label="Molecule Type Cast"]
+	40 [label="Column Splitter"]
+	41 [label="Column List Loop Start"]
+	42 [label="Column Rename _Regex_"]
+	43 [label="Fingerprint From Binary String"]
+	44 [label="Column Rename _Regex_"]
+	45 [label="Loop End _Column Append_"]
+	46 [label="Fingerprint From String"]
+	47 [label="Column Rename"]
+	48 [label="Column Appender"]
+	50 [label="Table Validator _Reference_"]
+	52 [label=Concatenate]
+	53 [label="SQLite Connector"]
+	54 [label="DB Writer"]
+	55 [label="DB Writer"]
+	56 [label="DB Writer"]
+	57 [label="DB Query Reader"]
+	58 [label="DB Writer"]
+	59 [label="DB Writer"]
+	60 [label="DB Writer"]
+	1 -> 27
+	9 -> 21
+	9 -> 22
+	21 -> 22
+	27 -> 9
+	20 -> 23
+	23 -> 25
+	26 -> 27
+	26 -> 20
+	27 -> 28
+	28 -> 29
+	29 -> 23
+	37 -> 38
+	38 -> 40
+	40 -> 41
+	40 -> 46
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	44 -> 45
+	45 -> 48
+	46 -> 47
+	47 -> 48
+	48 -> 50
+	3 -> 5
+	4 -> 3
+	5 -> 16
+	5 -> 26
+	5 -> 54
+	11 -> 12
+	12 -> 13
+	13 -> 36
+	13 -> 39
+	13 -> 34
+	13 -> 58
+	13 -> 37
+	16 -> 56
+	26 -> 55
+	28 -> 25
+	28 -> 4
+	25 -> 11
+	34 -> 60
+	36 -> 52
+	39 -> 52
+	50 -> 36
+	52 -> 59
+	53 -> 55
+	53 -> 54
+	53 -> 60
+	53 -> 57
+	53 -> 56
+	53 -> 59
+	53 -> 58
+	53 -> 25
+	54 -> 55
+	55 -> 56
+	57 -> 58
+	57 -> 37
+	58 -> 59
+	59 -> 60
+	rankdir=LR
+}

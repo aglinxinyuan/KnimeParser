@@ -1,0 +1,14 @@
+digraph {
+	76 [label="Table Reader"]
+	86 [label=GroupBy]
+	87 [label="Text Viewer"]
+	88 [label=GroupBy]
+	89 [label="Text Viewer"]
+	91 [label=Sorter]
+	76 -> 88
+	76 -> 86
+	86 -> 87
+	88 -> 91
+	91 -> 89
+	rankdir=LR
+}

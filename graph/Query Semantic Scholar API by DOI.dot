@@ -1,0 +1,48 @@
+digraph {
+	1 [label="Excel Reader"]
+	25 [label="String Manipulation"]
+	26 [label="GET Request"]
+	83 [label="Rule_based Row Filter"]
+	84 [label=GroupBy]
+	85 [label="JSON Path"]
+	86 [label=Ungroup]
+	87 [label="JSON Path"]
+	88 [label=GroupBy]
+	89 [label="Rule_based Row Filter"]
+	98 [label="Excel Writer"]
+	99 [label="Excel Writer"]
+	100 [label="Column Filter"]
+	102 [label="Rule_based Row Filter"]
+	103 [label="Rule_based Row Filter"]
+	104 [label="Column Filter"]
+	105 [label="JSON Path"]
+	106 [label=Ungroup]
+	107 [label="Excel Writer"]
+	108 [label="Column Filter"]
+	109 [label="Excel Writer"]
+	111 [label="Excel Writer"]
+	112 [label="Column Filter"]
+	1 -> 25
+	25 -> 26
+	26 -> 85
+	83 -> 84
+	84 -> 98
+	85 -> 112
+	85 -> 103
+	85 -> 102
+	86 -> 87
+	87 -> 83
+	87 -> 89
+	87 -> 108
+	88 -> 99
+	89 -> 88
+	100 -> 86
+	102 -> 100
+	103 -> 104
+	104 -> 106
+	105 -> 109
+	106 -> 105
+	108 -> 107
+	112 -> 111
+	rankdir=LR
+}

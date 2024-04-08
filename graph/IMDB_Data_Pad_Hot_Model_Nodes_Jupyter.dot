@@ -1,0 +1,61 @@
+digraph {
+	259 [label="Integer Input"]
+	260 [label="Python Source"]
+	261 [label="Python Source"]
+	262 [label="Keras Input Layer"]
+	263 [label="Keras Dense Layer"]
+	264 [label="Keras Dense Layer"]
+	265 [label="Keras Dense Layer"]
+	266 [label="Keras Network Learner"]
+	267 [label="Column Splitter"]
+	268 [label="Column Splitter"]
+	269 [label=Partitioning]
+	270 [label="Keras Network Executor"]
+	271 [label="Rule Engine"]
+	272 [label=Scorer]
+	273 [label="Double To Int"]
+	274 [label="Integer Input"]
+	275 [label="Integer Input"]
+	276 [label="Keras Embedding Layer"]
+	277 [label="Keras Input Layer"]
+	279 [label="Merge Variables"]
+	280 [label="Keras Flatten Layer"]
+	281 [label="Keras Dense Layer"]
+	282 [label="Keras Network Learner"]
+	283 [label=Partitioning]
+	284 [label="Keras Network Executor"]
+	285 [label="Double To Int"]
+	286 [label=Scorer]
+	259 -> 260
+	259 -> 262
+	260 -> 268
+	261 -> 267
+	262 -> 263
+	263 -> 264
+	264 -> 265
+	265 -> 266
+	266 -> 270
+	267 -> 283
+	267 -> 284
+	268 -> 269
+	268 -> 270
+	269 -> 266
+	269 -> 266
+	270 -> 271
+	271 -> 273
+	273 -> 272
+	274 -> 279
+	275 -> 279
+	276 -> 280
+	277 -> 276
+	279 -> 277
+	279 -> 261
+	280 -> 281
+	281 -> 282
+	282 -> 284
+	283 -> 282
+	283 -> 282
+	284 -> 285
+	285 -> 286
+	rankdir=LR
+}

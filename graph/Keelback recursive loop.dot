@@ -1,0 +1,63 @@
+digraph {
+	4 [label="Java Snippet Row Filter"]
+	5 [label="Table Row to Variable"]
+	8 [label="Extract Table Dimension"]
+	9 [label="Recursive Loop Start"]
+	10 [label="Recursive Loop End"]
+	11 [label="Call Workflow _Table Based_"]
+	13 [label="Table Creator"]
+	14 [label="Table Creator"]
+	15 [label="String to Path"]
+	16 [label="Java Snippet Row Filter"]
+	17 [label="Table Row to Variable"]
+	18 [label="String to Path"]
+	19 [label="Extract Table Dimension"]
+	20 [label="Recursive Loop Start"]
+	21 [label="Recursive Loop End"]
+	22 [label="Call Workflow _Table Based_"]
+	23 [label="Table Creator"]
+	24 [label="Table Creator"]
+	25 [label="Java Snippet Row Filter"]
+	26 [label="String to Path"]
+	27 [label="Table Row to Variable"]
+	28 [label="Extract Table Dimension"]
+	29 [label="Recursive Loop End"]
+	30 [label="Recursive Loop Start"]
+	31 [label="Table Creator"]
+	32 [label="Call Workflow _Table Based_"]
+	33 [label="Table Creator"]
+	4 -> 5
+	5 -> 11
+	8 -> 9
+	9 -> 4
+	9 -> 11
+	11 -> 10
+	11 -> 10
+	13 -> 9
+	14 -> 15
+	15 -> 4
+	15 -> 8
+	16 -> 17
+	17 -> 22
+	18 -> 19
+	18 -> 16
+	19 -> 20
+	20 -> 22
+	20 -> 16
+	22 -> 21
+	22 -> 21
+	23 -> 18
+	24 -> 20
+	25 -> 27
+	26 -> 28
+	26 -> 25
+	27 -> 32
+	28 -> 30
+	30 -> 32
+	30 -> 25
+	31 -> 26
+	32 -> 29
+	32 -> 29
+	33 -> 30
+	rankdir=LR
+}

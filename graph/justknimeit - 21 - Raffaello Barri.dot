@@ -1,0 +1,32 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	3 [label="Top k Selector"]
+	4 [label="Column Expressions"]
+	5 [label="Date_Time Difference"]
+	6 [label="String to Date_Time"]
+	7 [label="Row Filter"]
+	8 [label="Row Filter"]
+	9 [label=Sorter]
+	10 [label="Scatter Plot"]
+	11 [label=GroupBy]
+	12 [label="Linear Correlation"]
+	13 [label="Scatter Plot"]
+	14 [label=GroupBy]
+	15 [label="Linear Correlation"]
+	1 -> 4
+	2 -> 3
+	3 -> 9
+	4 -> 6
+	5 -> 7
+	6 -> 5
+	7 -> 8
+	8 -> 2
+	8 -> 11
+	8 -> 14
+	11 -> 10
+	11 -> 12
+	14 -> 13
+	14 -> 15
+	rankdir=LR
+}

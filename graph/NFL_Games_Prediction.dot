@@ -1,0 +1,142 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	8 [label="Constant Value Column"]
+	44 [label=Pivot]
+	45 [label=Pivot]
+	46 [label="Constant Value Column"]
+	47 [label=Concatenate]
+	48 [label=GroupBy]
+	49 [label="Missing Value"]
+	50 [label="Missing Value"]
+	52 [label="Column Rename _Regex_"]
+	53 [label="Column Rename _Regex_"]
+	54 [label="Double To Integer"]
+	45 [label=Joiner]
+	919 [label="Rule_based Row Filter"]
+	1184 [label="Logistic Regression Predictor"]
+	1185 [label=Scorer]
+	1202 [label="Row Filter"]
+	1223 [label="Regression Predictor"]
+	1227 [label=Scorer]
+	1232 [label="Rule Engine"]
+	1238 [label="Polynomial Regression Learner"]
+	1239 [label=GroupBy]
+	1241 [label=Auto_Binner]
+	1242 [label="Scatter Plot"]
+	1186 [label="Nominal Value Row Filter"]
+	1187 [label=Sorter]
+	1190 [label="Column Renamer"]
+	1191 [label="Column Filter"]
+	1192 [label=Rank]
+	1193 [label="Column Resorter"]
+	1276 [label="Table Creator"]
+	1099 [label="Rule Engine"]
+	1289 [label=Joiner]
+	1291 [label="String Manipulation"]
+	1292 [label="String to Date_Time"]
+	1294 [label="Date_Time Shift"]
+	1295 [label="Rule_based Row Filter"]
+	1296 [label=GroupBy]
+	1297 [label="Column Renamer"]
+	1298 [label=Joiner]
+	1299 [label="Date_Time Shift"]
+	1302 [label="Column Renamer"]
+	1303 [label="Rule Engine"]
+	1304 [label="Rule Engine"]
+	1304 [label="Logistic Regression Predictor"]
+	1307 [label="Column Filter"]
+	1308 [label="Regression Predictor"]
+	921 [label="Rule Engine"]
+	1095 [label="Math Formula"]
+	1096 [label="Missing Value"]
+	1097 [label="Rule Engine"]
+	1098 [label="Rule Engine"]
+	1100 [label="Rule Engine"]
+	1101 [label="Rule Engine"]
+	1102 [label="Rule Engine"]
+	1318 [label=Joiner]
+	1319 [label=Joiner]
+	1320 [label="Column Renamer"]
+	1321 [label="Rule Engine"]
+	1322 [label="Math Formula"]
+	1328 [label="Logistic Regression Learner"]
+	1333 [label=Concatenate]
+	1334 [label="Interactive Table _legacy_"]
+	1335 [label="Interactive Table _legacy_"]
+	1337 [label="CSV Reader"]
+	1338 [label="CSV Reader"]
+	8 -> 45
+	54 -> 49
+	45 -> 50
+	46 -> 8
+	47 -> 48
+	48 -> 52
+	49 -> 47
+	50 -> 47
+	52 -> 53
+	53 -> 54
+	1186 -> 1187
+	1187 -> 1191
+	1190 -> 1192
+	1191 -> 1190
+	1192 -> 1193
+	1099 -> 1291
+	1289 -> 1295
+	1291 -> 1292
+	1292 -> 1299
+	1294 -> 1289
+	1294 -> 1298
+	1295 -> 1296
+	1296 -> 1297
+	1297 -> 1298
+	1298 -> 1099
+	1299 -> 1294
+	1302 -> 1289
+	1304 -> 1304
+	921 -> 1095
+	1095 -> 1100
+	1097 -> 921
+	1098 -> 1102
+	1100 -> 1101
+	1101 -> 1098
+	1102 -> 1322
+	1318 -> 1319
+	1319 -> 1318
+	1096 -> 1321
+	1321 -> 1097
+	1322 -> 1096
+	1 -> 2
+	2 -> 1318
+	54 -> 45
+	45 -> 1202
+	45 -> 919
+	919 -> 1328
+	919 -> 1184
+	1184 -> 1185
+	1184 -> 1223
+	1184 -> 1238
+	1184 -> 1241
+	1202 -> 1304
+	1223 -> 1232
+	1232 -> 1227
+	1238 -> 1308
+	1238 -> 1223
+	1239 -> 1242
+	1241 -> 1239
+	1193 -> 1334
+	1276 -> 1318
+	1304 -> 45
+	1304 -> 8
+	1304 -> 1307
+	1307 -> 1308
+	1308 -> 1335
+	1096 -> 1291
+	1328 -> 1184
+	1328 -> 1304
+	1328 -> 1186
+	1333 -> 1291
+	1337 -> 1333
+	1338 -> 1333
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Date_Time Difference"]
+	4 [label=Histogram]
+	5 [label="Row Filter"]
+	6 [label="Math Formula"]
+	1 -> 2
+	2 -> 3
+	3 -> 5
+	5 -> 4
+	5 -> 6
+	rankdir=LR
+}

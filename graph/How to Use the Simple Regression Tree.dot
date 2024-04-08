@@ -1,0 +1,17 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	5 [label="Numeric Scorer"]
+	7 [label="Line Plot"]
+	8 [label="Column Filter"]
+	9 [label="Simple Regression Tree Learner"]
+	10 [label="Simple Regression Tree Predictor"]
+	1 -> 2
+	2 -> 10
+	2 -> 9
+	8 -> 7
+	9 -> 10
+	10 -> 8
+	10 -> 5
+	rankdir=LR
+}

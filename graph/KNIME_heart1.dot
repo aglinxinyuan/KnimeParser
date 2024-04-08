@@ -1,0 +1,32 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label=Normalizer]
+	4 [label="Color Manager"]
+	5 [label="Conditional Box Plot"]
+	6 [label=Partitioning]
+	7 [label="Normalizer _Apply_"]
+	8 [label="SVM Learner"]
+	9 [label="SVM Predictor"]
+	10 [label=Scorer]
+	11 [label=PCA]
+	12 [label="Number To String"]
+	13 [label="Naive Bayes Learner"]
+	14 [label="Naive Bayes Predictor"]
+	15 [label=Scorer]
+	1 -> 12
+	3 -> 7
+	3 -> 8
+	4 -> 5
+	6 -> 7
+	6 -> 3
+	6 -> 13
+	6 -> 14
+	7 -> 9
+	8 -> 9
+	9 -> 10
+	11 -> 6
+	12 -> 11
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

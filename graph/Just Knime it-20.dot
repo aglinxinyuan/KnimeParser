@@ -1,0 +1,39 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String Manipulation"]
+	3 [label="String to Date_Time"]
+	47 [label="Math Formula"]
+	48 [label="Date_Time to String"]
+	49 [label="Math Formula"]
+	50 [label="Column Rename"]
+	51 [label="Date_Time Difference"]
+	52 [label="Rule Engine"]
+	53 [label="Date_Time to String"]
+	54 [label="String To Number"]
+	55 [label="Lag Column"]
+	56 [label="Lag Column"]
+	57 [label="Row Filter"]
+	58 [label="Missing Value"]
+	59 [label=GroupBy]
+	60 [label=Joiner]
+	61 [label="Column Filter"]
+	1 -> 2
+	2 -> 3
+	3 -> 56
+	47 -> 52
+	48 -> 53
+	49 -> 59
+	49 -> 60
+	50 -> 58
+	51 -> 54
+	52 -> 49
+	53 -> 51
+	54 -> 57
+	55 -> 50
+	56 -> 55
+	57 -> 47
+	58 -> 48
+	59 -> 60
+	60 -> 61
+	rankdir=LR
+}

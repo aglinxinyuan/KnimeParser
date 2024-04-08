@@ -1,0 +1,40 @@
+digraph {
+	2 [label="Data Generator"]
+	3 [label="Create Local Big Data Environment"]
+	32 [label="Hive Loader"]
+	33 [label="Database GroupBy"]
+	43 [label="Hive to Spark"]
+	44 [label="Spark to Hive"]
+	45 [label="Database Reader"]
+	10 [label="Extract Context Properties"]
+	21 [label="Java Edit Variable"]
+	28 [label="Extract System Properties"]
+	29 [label="Merge Variables"]
+	30 [label="Table Column to Variable"]
+	44 [label="Create Directory"]
+	45 [label="Create Directory"]
+	57 [label="Database Connection Table Writer _legacy_"]
+	58 [label="Database SQL Executor _legacy_"]
+	10 -> 29
+	28 -> 30
+	29 -> 21
+	30 -> 29
+	44 -> 45
+	45 -> 29
+	2 -> 32
+	3 -> 32
+	3 -> 32
+	3 -> 43
+	3 -> 45
+	3 -> 44
+	3 -> 58
+	32 -> 33
+	33 -> 43
+	33 -> 57
+	33 -> 58
+	43 -> 44
+	44 -> 45
+	56 -> 3
+	58 -> 57
+	rankdir=LR
+}

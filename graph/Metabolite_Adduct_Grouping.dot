@@ -1,0 +1,34 @@
+digraph {
+	12 [label=ZipLoopStart]
+	13 [label=ZipLoopEnd]
+	141 [label="Column Filter"]
+	231 [label=AccurateMassSearch]
+	232 [label=FeatureFinderMetabo]
+	233 [label=FileConverter]
+	234 [label=MapAlignerPoseClustering]
+	235 [label=FeatureLinkerUnlabeledQT]
+	260 [label=MetaboliteAdductDecharger]
+	261 [label=MetaboliteAdductDecharger]
+	262 [label=MzTabReader]
+	263 [label="File Importer"]
+	264 [label="File Importer"]
+	265 [label="File Importer"]
+	266 [label="File Importer"]
+	267 [label="File Importer"]
+	12 -> 232
+	13 -> 234
+	231 -> 262
+	232 -> 260
+	233 -> 231
+	234 -> 235
+	235 -> 233
+	260 -> 261
+	261 -> 13
+	262 -> 141
+	263 -> 12
+	264 -> 231
+	265 -> 231
+	266 -> 231
+	267 -> 231
+	rankdir=LR
+}

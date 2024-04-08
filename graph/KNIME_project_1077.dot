@@ -1,0 +1,15 @@
+digraph {
+	2 [label=Partitioning]
+	3 [label="Decision Tree Learner"]
+	6 [label="Decision Tree Predictor"]
+	8 [label="Interactive Table _legacy_"]
+	9 [label=Scorer]
+	10 [label="CSV Reader"]
+	2 -> 3
+	2 -> 6
+	3 -> 6
+	6 -> 8
+	6 -> 9
+	10 -> 2
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	2 [label=Statistics]
+	4 [label="File Reader"]
+	5 [label=Statistics]
+	6 [label="Missing Value"]
+	7 [label=Statistics]
+	9 [label="Missing Value"]
+	4 -> 5
+	4 -> 6
+	4 -> 9
+	6 -> 7
+	9 -> 2
+	rankdir=LR
+}

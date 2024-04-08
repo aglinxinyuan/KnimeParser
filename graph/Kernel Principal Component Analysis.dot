@@ -1,0 +1,64 @@
+digraph {
+	757 [label="R Learner"]
+	758 [label="Column Filter"]
+	759 [label="R Predictor"]
+	761 [label="R Source _Table_"]
+	762 [label=Joiner]
+	763 [label="Color Manager"]
+	764 [label="Scatter Plot _local_"]
+	765 [label="PCA Compute"]
+	766 [label="PCA Apply"]
+	767 [label="Color Appender"]
+	768 [label=Joiner]
+	769 [label="Scatter Plot _local_"]
+	770 [label="R Snippet"]
+	771 [label="Extract Table Dimension"]
+	773 [label="Table Column to Variable"]
+	774 [label="Extract Table Dimension"]
+	775 [label="R Snippet"]
+	776 [label="Scatter Plot _local_"]
+	777 [label="Table Column to Variable"]
+	778 [label="R Learner"]
+	780 [label=Joiner]
+	781 [label="Column Filter"]
+	782 [label="R Predictor"]
+	783 [label="Color Manager"]
+	784 [label="Data Generator"]
+	785 [label="Integer Input"]
+	786 [label="Integer Input"]
+	757 -> 759
+	758 -> 759
+	758 -> 757
+	758 -> 766
+	758 -> 765
+	758 -> 770
+	758 -> 771
+	759 -> 762
+	761 -> 762
+	761 -> 758
+	761 -> 768
+	762 -> 763
+	763 -> 767
+	763 -> 764
+	765 -> 766
+	766 -> 768
+	767 -> 769
+	768 -> 767
+	771 -> 773
+	773 -> 770
+	774 -> 777
+	777 -> 775
+	778 -> 782
+	780 -> 783
+	781 -> 782
+	781 -> 778
+	781 -> 775
+	781 -> 774
+	782 -> 780
+	783 -> 776
+	784 -> 780
+	784 -> 781
+	785 -> 778
+	786 -> 757
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	2 [label="Loop End"]
+	4 [label="Table Reader"]
+	5 [label="Table Creator"]
+	6 [label="Table Row To Variable Loop Start"]
+	9 [label="Entropy Scorer"]
+	10 [label="Row Filter"]
+	11 [label="Variable to Table Column"]
+	12 [label=k_Means]
+	4 -> 12
+	5 -> 6
+	6 -> 12
+	6 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 2
+	12 -> 9
+	12 -> 9
+	rankdir=LR
+}

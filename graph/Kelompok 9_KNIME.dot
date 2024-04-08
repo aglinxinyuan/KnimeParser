@@ -1,0 +1,31 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label=Statistics]
+	5 [label=GroupBy]
+	8 [label="Column Renamer"]
+	9 [label="Bar Chart"]
+	10 [label="Number To String"]
+	13 [label="Duplicate Row Filter"]
+	14 [label="Feature Selection Loop Start _1_1_"]
+	15 [label="Number To String"]
+	16 [label=Partitioning]
+	17 [label="Decision Tree Learner"]
+	18 [label="Decision Tree Predictor"]
+	19 [label=Scorer]
+	1 -> 13
+	2 -> 3
+	2 -> 5
+	2 -> 14
+	5 -> 8
+	8 -> 10
+	10 -> 9
+	13 -> 2
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	16 -> 18
+	17 -> 18
+	18 -> 19
+	rankdir=LR
+}

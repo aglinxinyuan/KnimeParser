@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Reader"]
+	1623 [label="Missing Value"]
+	1642 [label="Column Filter"]
+	1668 [label="Python Script _Labs_"]
+	1671 [label="Table Reader"]
+	1 -> 1642
+	1623 -> 1668
+	1642 -> 1623
+	1671 -> 1668
+	rankdir=LR
+}

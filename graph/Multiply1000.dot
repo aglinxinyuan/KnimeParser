@@ -1,0 +1,18 @@
+digraph {
+	1 [label="File Reader"]
+	21 [label="Date_Time to String"]
+	37 [label="UNIX Timestamp to Date_Time"]
+	38 [label="Column Expressions"]
+	39 [label="Column Rename"]
+	40 [label="Column Resorter"]
+	41 [label="CSV Writer"]
+	42 [label="Column Filter"]
+	1 -> 38
+	21 -> 42
+	37 -> 21
+	38 -> 37
+	39 -> 40
+	40 -> 41
+	42 -> 39
+	rankdir=LR
+}

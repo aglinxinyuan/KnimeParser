@@ -1,0 +1,113 @@
+digraph {
+	1 [label="CSV Reader"]
+	6 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	57 [label=Partitioning]
+	59 [label="Category To Class"]
+	62 [label="SVM Predictor"]
+	67 [label="SVM Learner"]
+	94 [label="Document Vector"]
+	126 [label="Column Filter"]
+	127 [label=Scorer]
+	129 [label=Partitioning]
+	130 [label="Decision Tree Learner"]
+	131 [label="Decision Tree Predictor"]
+	132 [label=Scorer]
+	8 [label="Term To String"]
+	9 [label=GroupBy]
+	10 [label="Row Filter"]
+	11 [label="Reference Row Filter"]
+	12 [label=TF]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case Converter"]
+	34 [label="Snowball Stemmer"]
+	66 [label="Extract Table Dimension"]
+	67 [label="Java Edit Variable"]
+	68 [label="Bag Of Words Creator"]
+	69 [label="Stop Word Filter"]
+	291 [label="String to Date_Time"]
+	295 [label="Category To Class"]
+	296 [label="Row Splitter"]
+	298 [label="Tag Cloud _JavaScript_"]
+	299 [label="Tag Cloud _JavaScript_"]
+	300 [label="XGBoost Tree Ensemble Learner"]
+	301 [label="XGBoost Predictor"]
+	302 [label=Scorer]
+	303 [label="Equal Size Sampling"]
+	304 [label="ROC Curve _JavaScript_"]
+	305 [label="Naive Bayes Learner"]
+	306 [label="Naive Bayes Predictor"]
+	307 [label=Scorer]
+	308 [label="Row Filter"]
+	309 [label="Row Aggregator"]
+	310 [label="Table View"]
+	311 [label="Row Aggregator"]
+	312 [label="Row Filter"]
+	313 [label="Table View"]
+	314 [label="Row Aggregator"]
+	315 [label="Row Filter"]
+	316 [label="Table View"]
+	317 [label="Row Aggregator"]
+	318 [label="Row Filter"]
+	319 [label="Table View"]
+	8 -> 9
+	8 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	29 -> 30
+	30 -> 31
+	31 -> 69
+	33 -> 34
+	34 -> 68
+	66 -> 67
+	67 -> 10
+	68 -> 8
+	69 -> 33
+	1 -> 129
+	1 -> 291
+	6 -> 66
+	7 -> 6
+	57 -> 62
+	57 -> 305
+	57 -> 300
+	57 -> 67
+	57 -> 130
+	59 -> 126
+	62 -> 127
+	62 -> 131
+	67 -> 62
+	94 -> 59
+	126 -> 303
+	127 -> 308
+	130 -> 131
+	131 -> 132
+	131 -> 301
+	132 -> 312
+	12 -> 295
+	12 -> 94
+	291 -> 7
+	295 -> 296
+	296 -> 298
+	296 -> 299
+	300 -> 301
+	301 -> 302
+	301 -> 306
+	302 -> 315
+	303 -> 57
+	305 -> 306
+	306 -> 307
+	306 -> 304
+	307 -> 318
+	308 -> 309
+	309 -> 310
+	311 -> 313
+	312 -> 311
+	314 -> 316
+	315 -> 314
+	317 -> 319
+	318 -> 317
+	rankdir=LR
+}

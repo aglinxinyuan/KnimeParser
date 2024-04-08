@@ -1,0 +1,89 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Cell Splitter"]
+	3 [label=GroupBy]
+	7 [label="String Similarity"]
+	11 [label="Row Filter"]
+	12 [label="Cross Joiner"]
+	13 [label="Duplicate Row Filter"]
+	14 [label="Rule Engine"]
+	15 [label="Rule Engine"]
+	16 [label="Color Manager"]
+	17 [label="Table View"]
+	28 [label="Row Splitter"]
+	29 [label="CSV Reader"]
+	30 [label="Cell Splitter"]
+	31 [label=GroupBy]
+	40 [label=Joiner]
+	45 [label="Rule Engine"]
+	47 [label="Color Manager"]
+	48 [label="Table View"]
+	49 [label="Rule Engine"]
+	51 [label="Similarity Search"]
+	53 [label=RowID]
+	54 [label="Color Manager"]
+	55 [label="Table View"]
+	56 [label="Rule Engine"]
+	57 [label="Row Splitter"]
+	58 [label="CSV Reader"]
+	21 [label="NGram Creator"]
+	23 [label="Strings To Document"]
+	24 [label="Strings To Document"]
+	25 [label="NGram Creator"]
+	35 [label="Cross Joiner"]
+	36 [label="Rule Engine"]
+	37 [label=GroupBy]
+	38 [label="Math Formula"]
+	39 [label="Duplicate Row Filter"]
+	43 [label="String Manipulation"]
+	44 [label="String Manipulation"]
+	61 [label=Joiner]
+	62 [label="Cell Splitter"]
+	64 [label=GroupBy]
+	65 [label="Rule Engine"]
+	21 -> 35
+	23 -> 21
+	24 -> 25
+	25 -> 35
+	35 -> 36
+	36 -> 37
+	37 -> 38
+	38 -> 39
+	39 -> 43
+	43 -> 44
+	1 -> 2
+	2 -> 3
+	2 -> 12
+	3 -> 11
+	7 -> 13
+	11 -> 12
+	12 -> 7
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	28 -> 51
+	28 -> 53
+	29 -> 30
+	30 -> 31
+	30 -> 40
+	31 -> 28
+	40 -> 45
+	45 -> 49
+	47 -> 48
+	49 -> 47
+	51 -> 40
+	53 -> 51
+	54 -> 55
+	56 -> 54
+	57 -> 23
+	57 -> 23
+	58 -> 62
+	44 -> 61
+	61 -> 65
+	62 -> 64
+	62 -> 61
+	64 -> 57
+	65 -> 56
+	rankdir=LR
+}

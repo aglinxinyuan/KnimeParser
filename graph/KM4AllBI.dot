@@ -1,0 +1,17 @@
+digraph {
+	2 [label="QVX Reader"]
+	3 [label="QVX Writer"]
+	4 [label="Tableau Writer _TDE_"]
+	5 [label="Send to Tableau Server _TDE_"]
+	6 [label="Send to Tableau Server _Hyper_"]
+	7 [label="Tableau Writer _Hyper_"]
+	8 [label="Excel Reader _XLS_"]
+	9 [label="Send to Power BI"]
+	8 -> 4
+	8 -> 6
+	8 -> 5
+	8 -> 7
+	8 -> 9
+	8 -> 3
+	rankdir=LR
+}

@@ -1,0 +1,128 @@
+digraph {
+	1 [label="MongoDB Reader"]
+	12 [label="JSON to Table"]
+	18 [label="Column Rename"]
+	19 [label="Column Filter"]
+	29 [label="Nominal Value Row Filter"]
+	30 [label="Nominal Value Row Filter"]
+	34 [label=GroupBy]
+	38 [label=Joiner]
+	39 [label=GroupBy]
+	40 [label=Joiner]
+	41 [label="Rule_based Row Filter"]
+	42 [label=GroupBy]
+	43 [label="Column Rename"]
+	44 [label="Column Rename"]
+	45 [label="Column Rename"]
+	61 [label=Joiner]
+	62 [label=Joiner]
+	69 [label="List Files"]
+	76 [label=ReDataLog]
+	77 [label="Parallel Chunk Start"]
+	85 [label=GroupBy]
+	87 [label=Joiner]
+	97 [label="Create Local Big Data Environment"]
+	99 [label="Spark DataFrame Java Snippet _Source_"]
+	101 [label="Table to Spark"]
+	102 [label="Spark Joiner"]
+	103 [label="Spark Row Filter"]
+	104 [label="Spark Row Filter"]
+	106 [label="Parallel Chunk End"]
+	108 [label="Spark GroupBy"]
+	109 [label="Spark GroupBy"]
+	111 [label="Spark Column Rename"]
+	113 [label="Spark Joiner"]
+	114 [label="Spark Joiner"]
+	115 [label="Spark GroupBy"]
+	116 [label="Spark Column Filter"]
+	117 [label="Spark Column Rename"]
+	119 [label="Spark DataFrame Java Snippet"]
+	120 [label="Spark GroupBy"]
+	121 [label="Spark Column Rename"]
+	122 [label="Spark Joiner"]
+	123 [label="Spark Joiner"]
+	124 [label="Spark to Table"]
+	136 [label="Timer Info"]
+	137 [label="Column Filter"]
+	139 [label="Math Formula"]
+	140 [label="Math Formula"]
+	141 [label="Column Filter"]
+	142 [label="Math Formula"]
+	143 [label="Math Formula"]
+	144 [label="Timer Info"]
+	146 [label="MongoDB Reader"]
+	147 [label="JSON to Table"]
+	148 [label="Column Rename"]
+	149 [label="Column Filter"]
+	150 [label="Destroy Spark Context"]
+	151 [label="String Input"]
+	154 [label="Persist Spark DataFrame_RDD"]
+	155 [label="Unpersist Spark DataFrame_RDD"]
+	1 -> 12
+	12 -> 19
+	18 -> 87
+	19 -> 18
+	29 -> 34
+	29 -> 85
+	30 -> 40
+	30 -> 38
+	34 -> 45
+	38 -> 39
+	39 -> 44
+	40 -> 41
+	41 -> 42
+	42 -> 43
+	43 -> 61
+	44 -> 61
+	45 -> 62
+	61 -> 62
+	62 -> 144
+	69 -> 77
+	76 -> 87
+	77 -> 76
+	85 -> 38
+	85 -> 40
+	87 -> 106
+	97 -> 99
+	97 -> 101
+	97 -> 150
+	99 -> 102
+	101 -> 102
+	102 -> 154
+	103 -> 109
+	103 -> 108
+	104 -> 116
+	106 -> 30
+	106 -> 29
+	108 -> 113
+	108 -> 114
+	109 -> 111
+	111 -> 123
+	113 -> 115
+	114 -> 119
+	115 -> 117
+	116 -> 113
+	116 -> 114
+	117 -> 122
+	119 -> 120
+	120 -> 121
+	121 -> 122
+	122 -> 123
+	123 -> 124
+	124 -> 136
+	136 -> 137
+	137 -> 139
+	139 -> 140
+	141 -> 143
+	143 -> 142
+	144 -> 141
+	146 -> 147
+	147 -> 149
+	148 -> 101
+	149 -> 148
+	151 -> 99
+	154 -> 155
+	154 -> 104
+	154 -> 103
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Image Reader"]
+	4 [label="Image Normalizer"]
+	6 [label="Global Thresholder"]
+	7 [label="Connected Component Analysis"]
+	8 [label="Labeling Filter"]
+	10 [label="Interactive Segmentation View"]
+	1 -> 4
+	4 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 10
+	rankdir=LR
+}

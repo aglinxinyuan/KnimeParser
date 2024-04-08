@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Empty Table Creator"]
+	2 [label="Random Label Assigner"]
+	3 [label="Gauss Distributed Assigner"]
+	4 [label="Color Manager"]
+	6 [label="Gauss Distributed Assigner"]
+	7 [label="Gauss Distributed Assigner"]
+	8 [label="Scatter Matrix"]
+	10 [label=Normalizer]
+	13 [label=Joiner]
+	15 [label="Color Manager"]
+	16 [label="Scatter Matrix"]
+	17 [label=Joiner]
+	18 [label=Joiner]
+	19 [label=Stresser]
+	20 [label=k_Means]
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	2 -> 7
+	3 -> 17
+	4 -> 8
+	6 -> 17
+	7 -> 18
+	10 -> 20
+	13 -> 15
+	15 -> 16
+	17 -> 18
+	18 -> 19
+	19 -> 4
+	19 -> 10
+	19 -> 13
+	20 -> 13
+	rankdir=LR
+}

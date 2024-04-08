@@ -1,0 +1,26 @@
+digraph {
+	5 [label="WrappedNode Output"]
+	7 [label="Generic JavaScript View"]
+	8 [label="Table View _JavaScript_"]
+	9 [label="Range Slider Filter Definition"]
+	11 [label="Generic JavaScript View"]
+	12 [label="WrappedNode Input"]
+	14 [label="Column Rename"]
+	15 [label="Table Row to Variable"]
+	5 [label="Color Manager"]
+	19 [label="Missing Value"]
+	20 [label="File Reader"]
+	22 [label="File Reader"]
+	9 -> 8
+	9 -> 11
+	9 -> 7
+	12 -> 14
+	12 -> 9
+	14 -> 15
+	15 -> 11
+	5 -> 4
+	19 -> 5
+	20 -> 4
+	22 -> 19
+	rankdir=LR
+}

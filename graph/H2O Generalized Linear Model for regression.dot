@@ -1,0 +1,17 @@
+digraph {
+	10 [label="H2O Local Context"]
+	12 [label="Table Reader"]
+	14 [label="H2O Predictor _Regression_"]
+	15 [label="H2O Regression Scorer"]
+	2 [label="H2O Table to Frame"]
+	5 [label="H2O Partitioner"]
+	17 [label="H2O Generalized Linear Model Learner _Regression_"]
+	2 -> 5
+	10 -> 2
+	12 -> 2
+	14 -> 15
+	5 -> 17
+	5 -> 14
+	17 -> 14
+	rankdir=LR
+}

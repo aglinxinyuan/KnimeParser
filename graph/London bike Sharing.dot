@@ -1,0 +1,74 @@
+digraph {
+	1 [label="CSV Reader"]
+	39 [label=Joiner]
+	40 [label="Column Filter"]
+	45 [label="Line Plot"]
+	46 [label=Partitioning]
+	52 [label=Joiner]
+	59 [label=Joiner]
+	64 [label=Joiner]
+	22 [label="Linear Regression Learner"]
+	23 [label="Regression Predictor"]
+	24 [label="Numeric Scorer"]
+	34 [label="Column Filter"]
+	49 [label="Column Filter"]
+	50 [label="Numeric Scorer"]
+	53 [label="Random Forest Learner _Regression_"]
+	54 [label="Random Forest Predictor _Regression_"]
+	55 [label="XGBoost Predictor _Regression_"]
+	56 [label="XGBoost Tree Ensemble Learner _Regression_"]
+	57 [label="Column Filter"]
+	58 [label="Numeric Scorer"]
+	60 [label="Gradient Boosted Trees Learner _Regression_"]
+	61 [label="Gradient Boosted Trees Predictor _Regression_"]
+	62 [label="Column Filter"]
+	63 [label="Numeric Scorer"]
+	2 [label="Extract Date_Time Fields"]
+	3 [label="String to Date_Time"]
+	4 [label="Column Filter"]
+	5 [label="Missing Value"]
+	10 [label=Partitioning]
+	29 [label="Number To String"]
+	31 [label="One to Many"]
+	32 [label="Double To Int"]
+	22 -> 23
+	23 -> 34
+	23 -> 24
+	53 -> 54
+	54 -> 50
+	54 -> 49
+	55 -> 58
+	55 -> 57
+	56 -> 55
+	60 -> 61
+	61 -> 63
+	61 -> 62
+	2 -> 4
+	3 -> 32
+	4 -> 29
+	5 -> 3
+	29 -> 31
+	31 -> 10
+	32 -> 2
+	1 -> 5
+	39 -> 52
+	40 -> 39
+	46 -> 45
+	52 -> 59
+	59 -> 46
+	64 -> 59
+	34 -> 39
+	49 -> 52
+	57 -> 64
+	62 -> 64
+	10 -> 60
+	10 -> 60
+	10 -> 40
+	10 -> 22
+	10 -> 22
+	10 -> 55
+	10 -> 55
+	10 -> 53
+	10 -> 53
+	rankdir=LR
+}

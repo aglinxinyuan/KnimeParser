@@ -1,0 +1,75 @@
+digraph {
+	4 [label="Create Date_Time Range"]
+	8 [label="H2 Connector"]
+	22 [label=Wait___]
+	73 [label=Partitioning]
+	84 [label="DB Merge"]
+	470 [label="DB Writer"]
+	1869 [label="DB Query Reader"]
+	1885 [label="DB SQL Executor"]
+	1905 [label="DB Table Creator"]
+	1913 [label="DB Query Reader"]
+	1915 [label="Table Row to Variable"]
+	1916 [label="Constant Value Column"]
+	1917 [label="String to Date_Time"]
+	1918 [label="Table Creator"]
+	1919 [label="Table Row To Variable Loop Start"]
+	1920 [label="Table Row to Variable"]
+	1921 [label="Create Date_Time Range"]
+	1922 [label=Partitioning]
+	1923 [label="Constant Value Column"]
+	1924 [label="String to Date_Time"]
+	1925 [label="DB Update"]
+	1927 [label="Constant Value Column"]
+	1928 [label="String to Date_Time"]
+	1931 [label="Constant Value Column"]
+	1932 [label="String to Date_Time"]
+	1934 [label="DB Connection Extractor"]
+	1935 [label="Variable Loop End"]
+	1936 [label="DB Query Reader"]
+	1937 [label="DB Query Reader"]
+	1939 [label="DB SQL Executor"]
+	1940 [label="DB Connection Extractor"]
+	4 -> 1915
+	8 -> 1869
+	8 -> 1885
+	8 -> 1936
+	8 -> 84
+	8 -> 1913
+	22 -> 1921
+	73 -> 1916
+	84 -> 1934
+	84 -> 1935
+	470 -> 1940
+	470 -> 1937
+	1885 -> 1905
+	1905 -> 470
+	1905 -> 470
+	1913 -> 73
+	1913 -> 1922
+	1915 -> 1916
+	1916 -> 1917
+	1917 -> 1927
+	1918 -> 1919
+	1919 -> 22
+	1920 -> 1922
+	1920 -> 1923
+	1920 -> 1931
+	1921 -> 1920
+	1922 -> 1923
+	1923 -> 1924
+	1924 -> 1931
+	1925 -> 1935
+	1927 -> 1928
+	1928 -> 1885
+	1928 -> 1905
+	1931 -> 1932
+	1932 -> 1925
+	1932 -> 84
+	1934 -> 1925
+	1935 -> 1936
+	1937 -> 1918
+	1939 -> 1937
+	1940 -> 1939
+	rankdir=LR
+}

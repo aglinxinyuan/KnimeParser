@@ -1,0 +1,12 @@
+digraph {
+	1 [label="GET Request"]
+	2 [label="JSON Path"]
+	3 [label=Ungroup]
+	4 [label="JSON to Table"]
+	5 [label="Column Filter"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

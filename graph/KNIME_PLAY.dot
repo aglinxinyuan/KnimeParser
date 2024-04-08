@@ -1,0 +1,6 @@
+digraph {
+	4 [label="Oracle Connector"]
+	5 [label="DB Query Reader"]
+	4 -> 5
+	rankdir=LR
+}

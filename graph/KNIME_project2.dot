@@ -1,0 +1,38 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="File Reader"]
+	3 [label="Row Filter"]
+	4 [label=Pivoting]
+	5 [label="Crosstab _local_"]
+	6 [label="Column Filter"]
+	7 [label="Row Filter"]
+	8 [label="Nominal Value Row Filter"]
+	19 [label=Pivoting]
+	20 [label="Row Filter"]
+	21 [label="Row Filter"]
+	22 [label="Row Filter"]
+	23 [label="Row Filter"]
+	24 [label="Row Filter"]
+	25 [label="Row Filter"]
+	26 [label="Crosstab _local_"]
+	27 [label="Bar Chart"]
+	28 [label="Row Filter"]
+	29 [label="Nominal Value Row Filter"]
+	1 -> 8
+	1 -> 21
+	1 -> 22
+	1 -> 24
+	2 -> 3
+	3 -> 6
+	3 -> 4
+	6 -> 5
+	7 -> 20
+	19 -> 28
+	22 -> 23
+	24 -> 25
+	25 -> 26
+	25 -> 19
+	25 -> 7
+	28 -> 27
+	rankdir=LR
+}

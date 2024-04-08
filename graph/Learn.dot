@@ -1,0 +1,62 @@
+digraph {
+	3 [label="String Input"]
+	4 [label="String Manipulation _Variable_"]
+	9 [label="Create File Name"]
+	13 [label="WrappedNode Input"]
+	14 [label="WrappedNode Output"]
+	99 [label="Time Generator"]
+	100 [label="Table Row to Variable"]
+	101 [label="Java Edit Variable"]
+	1 [label="JSON Input"]
+	2 [label="JSON Output"]
+	8 [label="JSON to Table"]
+	9 [label="Table Row to Variable"]
+	13 [label="Variable to Table Row"]
+	14 [label="Table to JSON"]
+	17 [label="String Input"]
+	18 [label="Table Reader"]
+	19 [label="String Input"]
+	24 [label="Table Writer"]
+	75 [label="Linear Regression Learner"]
+	76 [label="Domain Calculator"]
+	77 [label="Rule Engine"]
+	78 [label="Math Formula"]
+	79 [label="Math Formula"]
+	80 [label="Row Filter"]
+	81 [label=GroupBy]
+	83 [label="Column Filter"]
+	84 [label="PMML To Cell"]
+	85 [label="Column Appender"]
+	86 [label="Column Appender"]
+	3 -> 9
+	4 -> 9
+	9 -> 14
+	13 -> 101
+	99 -> 100
+	100 -> 4
+	101 -> 4
+	78 -> 79
+	79 -> 77
+	80 -> 83
+	81 -> 86
+	83 -> 86
+	84 -> 85
+	86 -> 85
+	0 -> 24
+	1 -> 8
+	8 -> 9
+	9 -> 18
+	13 -> 14
+	14 -> 2
+	17 -> 0
+	18 -> 76
+	19 -> 17
+	24 -> 13
+	75 -> 84
+	75 -> 78
+	76 -> 75
+	76 -> 84
+	77 -> 84
+	85 -> 24
+	rankdir=LR
+}

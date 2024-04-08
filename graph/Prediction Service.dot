@@ -1,0 +1,14 @@
+digraph {
+	10 [label="Random Forest Predictor"]
+	14 [label="Workflow Input"]
+	15 [label="Variable Creator"]
+	16 [label="Workflow Input"]
+	17 [label="Workflow Input"]
+	18 [label="Workflow Output"]
+	10 -> 18
+	14 -> 10
+	15 -> 14
+	16 -> 10
+	17 -> 10
+	rankdir=LR
+}

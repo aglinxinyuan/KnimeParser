@@ -1,0 +1,26 @@
+digraph {
+	1 [label="SDF Reader"]
+	7 [label="PMI Triangle Scatter Plot"]
+	13 [label="Image Writer _Port_"]
+	15 [label="Color Manager"]
+	19 [label="RDKit Descriptor Calculation"]
+	22 [label="RDKit Optimize Geometry"]
+	23 [label="RDKit Add Hs"]
+	24 [label="Principal Moment of Intertia _PMI__Derived Properties"]
+	25 [label="RDKit Salt Stripper"]
+	35 [label="RDKit Canon SMILES"]
+	36 [label="Molecule Type Cast"]
+	38 [label="Rule_based Row Splitter"]
+	1 -> 38
+	7 -> 13
+	15 -> 7
+	19 -> 15
+	22 -> 24
+	23 -> 22
+	24 -> 19
+	25 -> 23
+	35 -> 36
+	36 -> 25
+	38 -> 35
+	rankdir=LR
+}

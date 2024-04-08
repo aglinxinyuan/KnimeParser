@@ -1,0 +1,21 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="Data Explorer"]
+	3 [label="Column Filter"]
+	5 [label=Partitioning]
+	7 [label="Color Manager"]
+	8 [label="Scorer _JavaScript_"]
+	9 [label="Naive Bayes Learner"]
+	10 [label="Naive Bayes Predictor"]
+	11 [label="ROC Curve"]
+	1 -> 2
+	1 -> 7
+	3 -> 5
+	5 -> 9
+	5 -> 10
+	7 -> 3
+	9 -> 10
+	10 -> 8
+	10 -> 11
+	rankdir=LR
+}

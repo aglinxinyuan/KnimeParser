@@ -1,0 +1,22 @@
+digraph {
+	1 [label="KNIME Mountpoint Connector"]
+	2 [label="List Files_Folders"]
+	3 [label="String Manipulation"]
+	4 [label="Table to JSON"]
+	5 [label="Container Output _JSON_"]
+	6 [label="PostgreSQL Connector"]
+	7 [label="DB Table Selector"]
+	8 [label="DB Reader"]
+	9 [label=Joiner]
+	10 [label="Column Rename"]
+	1 -> 2
+	2 -> 3
+	3 -> 9
+	4 -> 5
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 4
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	2 [label="CSV Reader"]
+	3 [label="Excel Reader"]
+	4 [label="Excel Reader"]
+	5 [label="Excel Reader"]
+	6 [label="Excel Reader"]
+	7 [label=Concatenate]
+	8 [label="Table Manipulator"]
+	9 [label="String to Date_Time"]
+	2 -> 8
+	3 -> 8
+	4 -> 7
+	5 -> 7
+	6 -> 7
+	7 -> 9
+	9 -> 8
+	rankdir=LR
+}

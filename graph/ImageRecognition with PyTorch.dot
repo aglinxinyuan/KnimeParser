@@ -1,0 +1,47 @@
+digraph {
+	2 [label="List Files_Folders"]
+	5 [label="Path to String"]
+	288 [label="Rule Engine"]
+	316 [label="Row Sampling"]
+	317 [label="Rule Engine"]
+	318 [label=Partitioning]
+	319 [label="Rule Engine"]
+	321 [label="Column Filter"]
+	332 [label="Keras Input Layer"]
+	333 [label="Keras Convolution 2D Layer"]
+	334 [label="Keras Max Pooling 2D Layer"]
+	335 [label="Keras Convolution 2D Layer"]
+	337 [label="Keras Max Pooling 2D Layer"]
+	338 [label="Keras Flatten Layer"]
+	339 [label="Keras Dense Layer"]
+	340 [label="Keras Dense Layer"]
+	341 [label="Keras Network Learner"]
+	342 [label="Keras Network Executor"]
+	343 [label="Scorer _JavaScript_"]
+	344 [label="Keras Network Writer"]
+	345 [label="Conda Environment Propagation"]
+	354 [label="Python Script _legacy_"]
+	2 -> 5
+	5 -> 288
+	288 -> 317
+	316 -> 354
+	317 -> 316
+	318 -> 342
+	318 -> 341
+	319 -> 343
+	321 -> 318
+	332 -> 333
+	333 -> 334
+	334 -> 335
+	335 -> 337
+	337 -> 338
+	338 -> 339
+	339 -> 340
+	340 -> 341
+	341 -> 342
+	341 -> 344
+	342 -> 319
+	345 -> 354
+	354 -> 321
+	rankdir=LR
+}

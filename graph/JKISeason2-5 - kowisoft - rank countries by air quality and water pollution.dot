@@ -1,0 +1,16 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	3 [label="Top k Selector"]
+	4 [label="Data Explorer"]
+	6 [label="Bar Chart"]
+	7 [label="Bar Chart"]
+	8 [label="Top k Selector"]
+	1 -> 4
+	2 -> 3
+	2 -> 8
+	3 -> 6
+	4 -> 2
+	8 -> 7
+	rankdir=LR
+}

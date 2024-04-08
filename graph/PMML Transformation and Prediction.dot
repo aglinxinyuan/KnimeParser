@@ -1,0 +1,27 @@
+digraph {
+	21 [label="PMML Transformation Appender"]
+	25 [label="Empty PMML Creator"]
+	26 [label="PMML Model Appender"]
+	29 [label="Normalizer Apply _PMML_"]
+	31 [label="Decision Tree Predictor"]
+	41 [label=Shuffle]
+	42 [label="Row Filter"]
+	52 [label="Table Reader"]
+	53 [label="Normalizer _PMML_"]
+	54 [label=Scorer]
+	55 [label="Decision Tree Learner"]
+	21 -> 26
+	25 -> 21
+	26 -> 29
+	29 -> 31
+	29 -> 31
+	31 -> 54
+	41 -> 42
+	42 -> 29
+	42 -> 53
+	52 -> 41
+	53 -> 21
+	53 -> 55
+	55 -> 26
+	rankdir=LR
+}

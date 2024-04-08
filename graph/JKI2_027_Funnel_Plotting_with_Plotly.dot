@@ -1,0 +1,8 @@
+digraph {
+	2 [label="Table Creator"]
+	4 [label="Python View"]
+	7 [label="Python View"]
+	2 -> 7
+	2 -> 4
+	rankdir=LR
+}

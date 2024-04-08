@@ -1,0 +1,108 @@
+digraph {
+	31 [label="DB Joiner"]
+	32 [label="DB Table Selector"]
+	33 [label="DB Table Selector"]
+	35 [label="DB Table Selector"]
+	36 [label="DB Table Selector"]
+	37 [label="DB Table Selector"]
+	42 [label="DB Table Selector"]
+	45 [label="DB Table Selector"]
+	59 [label="DB Row Filter"]
+	61 [label="DB Joiner"]
+	62 [label="DB Table Selector"]
+	63 [label="DB Joiner"]
+	64 [label="DB Joiner"]
+	65 [label="DB Column Rename"]
+	66 [label="DB Column Rename"]
+	67 [label="DB Column Rename"]
+	68 [label="DB Column Rename"]
+	69 [label="DB Joiner"]
+	70 [label="DB Joiner"]
+	71 [label="MySQL Connector"]
+	73 [label="DB Column Rename"]
+	74 [label="DB Column Rename"]
+	75 [label="DB Column Rename"]
+	76 [label="DB Joiner"]
+	77 [label="DB Column Rename"]
+	78 [label="DB Column Filter"]
+	79 [label="DB Column Rename"]
+	80 [label="DB Reader"]
+	81 [label="DB Insert"]
+	82 [label="DB Table Selector"]
+	83 [label="DB Joiner"]
+	85 [label="DB Table Selector"]
+	86 [label="DB Joiner"]
+	87 [label="DB Column Rename"]
+	88 [label="DB Row Filter"]
+	89 [label="Variable Creator"]
+	90 [label="Variable to Table Column"]
+	131 [label="DB Table Selector"]
+	133 [label="Table Row to Variable"]
+	134 [label="DB Reader"]
+	137 [label="DB Row Filter"]
+	138 [label="DB Row Filter"]
+	139 [label="DB Row Filter"]
+	141 [label="MySQL Connector"]
+	142 [label="Variable Creator"]
+	143 [label="Variable to Table Column"]
+	144 [label="Column Filter"]
+	31 -> 65
+	32 -> 59
+	33 -> 139
+	35 -> 69
+	36 -> 64
+	37 -> 70
+	42 -> 63
+	45 -> 76
+	59 -> 137
+	61 -> 67
+	62 -> 74
+	63 -> 66
+	64 -> 68
+	65 -> 61
+	66 -> 61
+	67 -> 64
+	68 -> 69
+	69 -> 73
+	70 -> 75
+	71 -> 45
+	71 -> 131
+	71 -> 62
+	71 -> 42
+	71 -> 35
+	71 -> 36
+	71 -> 37
+	71 -> 32
+	71 -> 33
+	71 -> 85
+	71 -> 81
+	71 -> 82
+	73 -> 70
+	74 -> 63
+	75 -> 76
+	76 -> 77
+	77 -> 78
+	78 -> 83
+	79 -> 88
+	80 -> 90
+	82 -> 83
+	83 -> 79
+	85 -> 86
+	86 -> 87
+	87 -> 138
+	88 -> 80
+	89 -> 90
+	90 -> 144
+	131 -> 134
+	133 -> 137
+	133 -> 139
+	133 -> 138
+	134 -> 133
+	137 -> 31
+	138 -> 31
+	139 -> 86
+	142 -> 143
+	143 -> 81
+	144 -> 143
+	rankdir=LR
+}

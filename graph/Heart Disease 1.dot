@@ -1,0 +1,13 @@
+digraph {
+	24 [label="CSV Reader"]
+	25 [label=Partitioning]
+	26 [label="XGBoost Linear Model Learner"]
+	27 [label="XGBoost Predictor"]
+	28 [label=Scorer]
+	24 -> 25
+	25 -> 27
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	rankdir=LR
+}

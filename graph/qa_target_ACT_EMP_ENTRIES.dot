@@ -1,0 +1,37 @@
+digraph {
+	120 [label="DB Reader"]
+	123 [label=GroupBy]
+	124 [label="Reference Row Filter"]
+	126 [label="DB Reader"]
+	128 [label="DB GroupBy"]
+	129 [label="DB Reader"]
+	130 [label="Reference Row Filter"]
+	131 [label="Create Date_Time Range"]
+	132 [label=GroupBy]
+	133 [label="Table Row to Variable"]
+	134 [label="Date_Time_based Row Filter"]
+	135 [label="DB Joiner"]
+	136 [label="DB Reader"]
+	137 [label="Rule_based Row Filter"]
+	138 [label="DB GroupBy"]
+	139 [label="DB GroupBy"]
+	140 [label="DB Reader"]
+	141 [label="Rule_based Row Filter"]
+	120 -> 123
+	123 -> 124
+	126 -> 124
+	128 -> 129
+	129 -> 130
+	129 -> 132
+	131 -> 134
+	132 -> 133
+	133 -> 131
+	134 -> 130
+	135 -> 139
+	135 -> 138
+	136 -> 137
+	138 -> 136
+	139 -> 140
+	140 -> 141
+	rankdir=LR
+}

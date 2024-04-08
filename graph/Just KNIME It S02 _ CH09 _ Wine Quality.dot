@@ -1,0 +1,121 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Linear Regression Learner"]
+	3 [label=Normalizer]
+	8 [label="Recursive Loop Start"]
+	9 [label="Recursive Loop End"]
+	10 [label="Extract Column Header"]
+	11 [label=Transpose]
+	12 [label="Rule_based Row Splitter"]
+	13 [label="Table Row to Variable"]
+	14 [label=Sorter]
+	15 [label="Row Filter"]
+	16 [label="Row Splitter"]
+	17 [label="Column Rename"]
+	21 [label="Column Filter"]
+	22 [label=GroupBy]
+	24 [label="Table Row to Variable"]
+	25 [label="Column Filter"]
+	26 [label="Column Appender"]
+	35 [label="Linear Correlation"]
+	36 [label="Row Filter"]
+	38 [label="Column Filter"]
+	41 [label="Group Loop Start"]
+	42 [label="Table Row to Variable"]
+	43 [label="Column Filter"]
+	44 [label="Row Filter"]
+	45 [label="Cross Joiner"]
+	46 [label="Math Formula"]
+	47 [label="Column Filter"]
+	48 [label="Loop End _Column Append_"]
+	49 [label="Column Rename _Regex_"]
+	50 [label="Column Rename _Regex_"]
+	51 [label=RowID]
+	52 [label=RowID]
+	53 [label="IF Switch"]
+	54 [label="Rule Engine"]
+	55 [label="Table Row to Variable"]
+	56 [label="End IF"]
+	57 [label="Column Filter"]
+	58 [label="Column Rename _Regex_"]
+	59 [label="Column Rename _Regex_"]
+	55 [label="Column Rename"]
+	56 [label="Extract Column Header"]
+	57 [label=Transpose]
+	58 [label="Column Filter"]
+	59 [label="Box Plot _local_"]
+	2202 [label=GroupBy]
+	2203 [label="Color Manager"]
+	2204 [label=Pivoting]
+	2205 [label="Constant Value Column"]
+	2207 [label="Table Row to Variable"]
+	2208 [label="Column Resorter"]
+	2209 [label="Bar Chart"]
+	2210 [label="Column Filter"]
+	2211 [label="Math Formula _Multi Column_"]
+	35 -> 36
+	36 -> 44
+	38 -> 45
+	38 -> 54
+	41 -> 42
+	42 -> 43
+	42 -> 44
+	43 -> 49
+	44 -> 51
+	45 -> 35
+	46 -> 47
+	47 -> 50
+	48 -> 52
+	49 -> 45
+	50 -> 59
+	51 -> 38
+	52 -> 57
+	52 -> 46
+	54 -> 55
+	55 -> 35
+	56 -> 48
+	57 -> 58
+	58 -> 56
+	59 -> 56
+	1 -> 3
+	1 -> 10
+	2 -> 15
+	3 -> 25
+	3 -> 35
+	8 -> 22
+	9 -> 2204
+	9 -> 2210
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	12 -> 17
+	13 -> 2
+	13 -> 35
+	14 -> 16
+	15 -> 14
+	16 -> 21
+	16 -> 9
+	17 -> 35
+	21 -> 9
+	22 -> 24
+	24 -> 58
+	25 -> 26
+	26 -> 2
+	52 -> 56
+	52 -> 59
+	52 -> 58
+	55 -> 8
+	56 -> 57
+	57 -> 55
+	58 -> 26
+	2202 -> 2207
+	2203 -> 2209
+	2204 -> 2211
+	2205 -> 2209
+	2207 -> 2208
+	2208 -> 2205
+	2210 -> 2202
+	2210 -> 2203
+	2211 -> 2208
+	rankdir=LR
+}

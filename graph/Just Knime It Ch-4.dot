@@ -1,0 +1,16 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Lag Column"]
+	3 [label="Rule Engine"]
+	4 [label="Column Expressions"]
+	5 [label="Math Formula"]
+	6 [label="Column Filter"]
+	7 [label="Column Filter"]
+	1 -> 2
+	2 -> 4
+	2 -> 5
+	3 -> 6
+	4 -> 7
+	5 -> 3
+	rankdir=LR
+}

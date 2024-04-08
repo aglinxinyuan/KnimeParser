@@ -1,0 +1,42 @@
+digraph {
+	5 [label=ZipLoopStart]
+	8 [label=PercolatorAdapter]
+	10 [label=ZipLoopEnd]
+	6 [label=PeptideIndexer]
+	11 [label=IDMerger]
+	205 [label=IDScoreSwitcher]
+	233 [label=Epifany]
+	234 [label=IDFilter]
+	3 [label=MSGFPlusAdapter]
+	7 [label=PSMFeatureExtractor]
+	8 [label="WrappedNode Input"]
+	9 [label="WrappedNode Output"]
+	235 [label=LuciphorAdapter]
+	236 [label=IDFilter]
+	237 [label=IDScoreSwitcher]
+	241 [label=MzTabExporter]
+	242 [label="File Importer"]
+	243 [label="File Exporter"]
+	244 [label="File Importer"]
+	6 -> 11
+	11 -> 205
+	205 -> 6
+	234 -> 234
+	3 -> 7
+	7 -> 9
+	8 -> 3
+	8 -> 3
+	5 -> 235
+	5 -> 234
+	8 -> 236
+	10 -> 11
+	234 -> 241
+	234 -> 8
+	235 -> 10
+	236 -> 237
+	237 -> 235
+	241 -> 243
+	242 -> 5
+	244 -> 234
+	rankdir=LR
+}

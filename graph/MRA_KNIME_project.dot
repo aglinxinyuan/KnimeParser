@@ -1,0 +1,14 @@
+digraph {
+	2 [label=GroupBy]
+	3 [label="Cell Splitter"]
+	4 [label="Association Rule Learner"]
+	5 [label="Excel Writer _XLS_"]
+	6 [label="Excel Reader _XLS_"]
+	7 [label="Column Renamer"]
+	2 -> 7
+	3 -> 4
+	4 -> 5
+	6 -> 2
+	7 -> 3
+	rankdir=LR
+}

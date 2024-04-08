@@ -1,0 +1,32 @@
+digraph {
+	5 [label="Color Manager"]
+	6 [label=Partitioning]
+	7 [label="Decision Tree Learner"]
+	8 [label="Decision Tree Predictor"]
+	9 [label="Random Forest Learner"]
+	10 [label="Random Forest Predictor"]
+	11 [label=Scorer]
+	12 [label=Scorer]
+	13 [label="CSV Reader"]
+	14 [label="Decision Tree View"]
+	15 [label="Decision Tree to Ruleset"]
+	16 [label="Tree Ensemble Statistics"]
+	17 [label="Tree Ensemble Model Extract"]
+	18 [label="Table to PMML Ensemble"]
+	5 -> 6
+	6 -> 7
+	6 -> 10
+	6 -> 8
+	6 -> 9
+	7 -> 8
+	7 -> 14
+	7 -> 15
+	8 -> 11
+	9 -> 10
+	9 -> 16
+	9 -> 17
+	10 -> 12
+	13 -> 5
+	17 -> 18
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Data Generator"]
+	2 [label="Column Filter"]
+	3 [label="Python Script _Labs_"]
+	4 [label="Data Generator"]
+	5 [label="Column Filter"]
+	6 [label="Table View"]
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	4 -> 5
+	5 -> 3
+	rankdir=LR
+}

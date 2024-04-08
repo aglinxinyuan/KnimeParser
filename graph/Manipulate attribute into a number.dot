@@ -1,0 +1,11 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Duplicate Row Filter"]
+	3 [label="Counter Generation"]
+	4 [label=Joiner]
+	1 -> 2
+	1 -> 4
+	2 -> 3
+	3 -> 4
+	rankdir=LR
+}

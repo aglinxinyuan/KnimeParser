@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Excel Reader"]
+	4 [label="Excel Reader"]
+	24 [label="Column Filter"]
+	25 [label="Row Filter"]
+	28 [label=GroupBy]
+	31 [label="Column Filter"]
+	32 [label=Joiner]
+	33 [label="Column Rename"]
+	34 [label="Excel Writer"]
+	35 [label="Column Filter"]
+	39 [label="Excel Reader"]
+	40 [label="Column Filter"]
+	41 [label="Rule_based Row Filter"]
+	42 [label=Joiner]
+	44 [label="Column Resorter"]
+	45 [label=Joiner]
+	1 -> 35
+	1 -> 24
+	4 -> 31
+	24 -> 25
+	25 -> 28
+	28 -> 45
+	28 -> 32
+	31 -> 45
+	31 -> 32
+	32 -> 42
+	33 -> 34
+	39 -> 40
+	40 -> 41
+	41 -> 42
+	42 -> 44
+	44 -> 33
+	rankdir=LR
+}

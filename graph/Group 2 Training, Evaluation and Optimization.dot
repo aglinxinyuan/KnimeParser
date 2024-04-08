@@ -1,0 +1,61 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="Row Filter"]
+	3 [label="Row Filter"]
+	4 [label="Rule Engine"]
+	7 [label=Joiner]
+	33 [label="String to Date_Time"]
+	34 [label="String to Date_Time"]
+	769 [label="Column Auto Type Cast"]
+	12 [label="Missing Value"]
+	13 [label="Numeric Binner"]
+	14 [label="Missing Value Column Filter"]
+	15 [label="Constant Value Column Filter"]
+	46 [label="Excel Reader"]
+	16 [label=Normalizer]
+	41 [label="Date_Time_based Row Filter"]
+	42 [label="Date_Time_based Row Filter"]
+	754 [label="Column Filter"]
+	21 [label=Auto_Binner]
+	22 [label=GroupBy]
+	26 [label="Rule_based Row Filter"]
+	27 [label="Row Filter"]
+	30 [label="Math Formula"]
+	35 [label="Numeric Outliers"]
+	36 [label="Math Formula"]
+	37 [label="Rule_based Row Filter"]
+	38 [label="Column Filter"]
+	40 [label="Table Row to Variable"]
+	2 -> 3
+	3 -> 4
+	4 -> 34
+	33 -> 7
+	34 -> 7
+	769 -> 33
+	12 -> 13
+	13 -> 15
+	14 -> 12
+	16 -> 41
+	16 -> 42
+	21 -> 22
+	21 -> 30
+	22 -> 27
+	26 -> 38
+	27 -> 40
+	30 -> 26
+	36 -> 37
+	37 -> 21
+	38 -> 35
+	40 -> 30
+	1 -> 769
+	7 -> 14
+	15 -> 36
+	46 -> 769
+	42 -> 754
+	35 -> 16
+	779 -> 776
+	779 -> 776
+	779 -> 775
+	779 -> 775
+	rankdir=LR
+}

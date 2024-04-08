@@ -1,0 +1,22 @@
+digraph {
+	324 [label="Regression Predictor"]
+	325 [label=GroupBy]
+	326 [label="Column Appender"]
+	327 [label=Joiner]
+	328 [label="Column Rename"]
+	329 [label="Numeric Scorer"]
+	330 [label="Linear Regression Learner"]
+	331 [label="Row Splitter"]
+	332 [label="Numeric Scorer"]
+	333 [label="Table Reader"]
+	324 -> 332
+	325 -> 328
+	327 -> 329
+	328 -> 327
+	329 -> 326
+	330 -> 324
+	331 -> 330
+	332 -> 326
+	333 -> 331
+	rankdir=LR
+}

@@ -1,0 +1,293 @@
+digraph {
+	65 [label="Object Inserter"]
+	469 [label="Network To Row"]
+	470 [label="Chunk Loop Start"]
+	471 [label="Row To Network"]
+	472 [label="Network Analyzer"]
+	474 [label=Sorter]
+	475 [label="Row Filter"]
+	477 [label="Row To Network"]
+	478 [label=Pivoting]
+	482 [label="Math Formula"]
+	483 [label=RowID]
+	484 [label=RowID]
+	485 [label=Joiner]
+	486 [label="Loop End"]
+	20 [label="Column Merger"]
+	62 [label=GroupBy]
+	78 [label="Java Snippet _simple_"]
+	80 [label="Row Filter"]
+	81 [label=Joiner]
+	6 [label="Row Filter"]
+	7 [label="Row Filter"]
+	8 [label="Row Filter"]
+	218 [label="String Manipulation"]
+	219 [label="Row Filter"]
+	33 [label="Row Filter"]
+	34 [label="Row Filter"]
+	188 [label="String Manipulation"]
+	189 [label="String Manipulation"]
+	219 [label="Column Filter"]
+	220 [label="Column Filter"]
+	221 [label="Column Filter"]
+	210 [label="Network Analyzer"]
+	212 [label=GroupBy]
+	217 [label="Strings To Document"]
+	218 [label="Strings To Document"]
+	219 [label="Column Filter"]
+	220 [label="Column Filter"]
+	221 [label=Concatenate]
+	58 [label=TF]
+	60 [label="Tags to String"]
+	171 [label="Math Formula"]
+	176 [label=GroupBy]
+	180 [label="Numeric Binner"]
+	184 [label="Math Formula"]
+	185 [label="Math Formula"]
+	188 [label=Pivoting]
+	214 [label="R View _Table_"]
+	237 [label="Rule Engine"]
+	238 [label="R View _Table_"]
+	239 [label="Tag Filter"]
+	240 [label="Missing Value"]
+	241 [label="Bag of Words Creator"]
+	242 [label="Document Data Extractor"]
+	243 [label="Table Row to Variable"]
+	244 [label="Table Reader"]
+	248 [label="Value Lookup"]
+	221 [label="Row Filter"]
+	254 [label="Document Data Extractor"]
+	260 [label="Tag Cloud _JavaScript_"]
+	225 [label=TF]
+	226 [label="Tags To String"]
+	229 [label="Color Manager"]
+	234 [label=GroupBy]
+	245 [label=Sorter]
+	246 [label="Row Filter"]
+	248 [label="Tag Filter"]
+	250 [label="Punctuation Erasure"]
+	251 [label="N Chars Filter"]
+	252 [label="Number Filter"]
+	253 [label="Case Converter"]
+	256 [label="Stanford Tagger"]
+	257 [label="Bag Of Words Creator"]
+	258 [label="Stop Word Filter"]
+	267 [label="String Manipulation"]
+	268 [label="WrappedNode Output"]
+	270 [label="String Manipulation _Variable_"]
+	274 [label="Column Filter"]
+	275 [label="WrappedNode Input"]
+	276 [label="Table Row to Variable"]
+	249 [label="Dictionary tagger"]
+	250 [label="Dictionary tagger"]
+	199 [label=Sorter]
+	248 [label="Color Manager"]
+	251 [label="JavaScript Scatter Plot"]
+	252 [label="WrappedNode Input"]
+	254 [label="Row Filter"]
+	255 [label="WrappedNode Output"]
+	253 [label=Sorter]
+	254 [label="Row Filter"]
+	256 [label=Sorter]
+	257 [label="Row Filter"]
+	259 [label="Constant Value Column"]
+	260 [label="Constant Value Column"]
+	261 [label="Column Rename"]
+	262 [label="Column Rename"]
+	263 [label="WrappedNode Input"]
+	264 [label="WrappedNode Output"]
+	265 [label="Table Row to Variable"]
+	266 [label=Joiner]
+	221 [label="Row Filter"]
+	254 [label="Document Data Extractor"]
+	260 [label="Tag Cloud _JavaScript_"]
+	263 [label="Row Filter"]
+	225 [label=TF]
+	226 [label="Tags To String"]
+	229 [label="Color Manager"]
+	234 [label=GroupBy]
+	245 [label=Sorter]
+	246 [label="Row Filter"]
+	248 [label="Tag Filter"]
+	250 [label="Punctuation Erasure"]
+	251 [label="N Chars Filter"]
+	252 [label="Number Filter"]
+	253 [label="Case Converter"]
+	256 [label="Stanford Tagger"]
+	257 [label="Bag Of Words Creator"]
+	259 [label="Stop Word Filter"]
+	225 [label=TF]
+	226 [label="Tags To String"]
+	229 [label="Color Manager"]
+	234 [label=GroupBy]
+	245 [label=Sorter]
+	246 [label="Row Filter"]
+	248 [label="Tag Filter"]
+	250 [label="Punctuation Erasure"]
+	251 [label="N Chars Filter"]
+	252 [label="Number Filter"]
+	253 [label="Case Converter"]
+	256 [label="Stanford Tagger"]
+	257 [label="Bag Of Words Creator"]
+	258 [label="Stop Word Filter"]
+	266 [label="Tag Cloud _JavaScript_"]
+	267 [label="String Manipulation"]
+	268 [label="WrappedNode Output"]
+	269 [label="String Manipulation _Variable_"]
+	270 [label="String Manipulation _Variable_"]
+	272 [label="WrappedNode Input"]
+	265 [label="Table Reader"]
+	267 [label="File Reader"]
+	268 [label=Joiner]
+	469 -> 470
+	470 -> 471
+	470 -> 483
+	471 -> 472
+	472 -> 478
+	474 -> 475
+	475 -> 477
+	478 -> 484
+	482 -> 474
+	483 -> 485
+	484 -> 485
+	485 -> 486
+	486 -> 482
+	20 -> 62
+	62 -> 78
+	78 -> 80
+	81 -> 20
+	6 -> 7
+	7 -> 8
+	8 -> 218
+	218 -> 212
+	33 -> 220
+	34 -> 221
+	188 -> 189
+	189 -> 33
+	189 -> 34
+	221 -> 188
+	212 -> 218
+	217 -> 220
+	218 -> 212
+	221 -> 221
+	220 -> 221
+	58 -> 60
+	60 -> 242
+	171 -> 243
+	176 -> 184
+	180 -> 237
+	184 -> 171
+	185 -> 176
+	185 -> 180
+	185 -> 238
+	188 -> 240
+	237 -> 214
+	239 -> 239
+	240 -> 248
+	238 -> 58
+	242 -> 188
+	243 -> 180
+	244 -> 248
+	248 -> 185
+	225 -> 226
+	226 -> 234
+	234 -> 245
+	245 -> 246
+	246 -> 229
+	248 -> 258
+	250 -> 251
+	251 -> 252
+	252 -> 253
+	253 -> 257
+	256 -> 248
+	257 -> 225
+	258 -> 250
+	221 -> 256
+	254 -> 267
+	229 -> 260
+	267 -> 221
+	270 -> 260
+	274 -> 276
+	275 -> 274
+	275 -> 254
+	276 -> 221
+	276 -> 270
+	199 -> 248
+	248 -> 251
+	251 -> 254
+	252 -> 199
+	254 -> 255
+	253 -> 254
+	254 -> 260
+	256 -> 257
+	257 -> 259
+	259 -> 262
+	260 -> 261
+	261 -> 266
+	262 -> 266
+	263 -> 256
+	263 -> 253
+	229 -> 256
+	266 -> 256
+	225 -> 226
+	226 -> 234
+	234 -> 245
+	245 -> 246
+	246 -> 229
+	248 -> 259
+	250 -> 251
+	251 -> 252
+	252 -> 253
+	253 -> 257
+	256 -> 248
+	257 -> 225
+	259 -> 250
+	225 -> 226
+	226 -> 234
+	234 -> 245
+	245 -> 246
+	246 -> 229
+	248 -> 258
+	250 -> 251
+	251 -> 252
+	252 -> 253
+	253 -> 257
+	256 -> 248
+	257 -> 225
+	258 -> 250
+	221 -> 256
+	254 -> 267
+	263 -> 256
+	229 -> 260
+	229 -> 266
+	267 -> 263
+	267 -> 221
+	269 -> 266
+	270 -> 260
+	272 -> 254
+	272 -> 254
+	272 -> 269
+	272 -> 270
+	65 -> 469
+	477 -> 210
+	80 -> 65
+	221 -> 81
+	221 -> 212
+	221 -> 249
+	221 -> 250
+	210 -> 268
+	221 -> 249
+	238 -> 263
+	238 -> 268
+	249 -> 250
+	250 -> 239
+	250 -> 246
+	250 -> 256
+	252 -> 246
+	263 -> 256
+	229 -> 252
+	229 -> 6
+	267 -> 212
+	268 -> 252
+	rankdir=LR
+}

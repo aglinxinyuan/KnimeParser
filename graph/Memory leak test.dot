@@ -1,0 +1,43 @@
+digraph {
+	1 [label="H2 Connector"]
+	2 [label="DB Table Selector"]
+	3 [label="DB Reader"]
+	4 [label="Columns to JSON"]
+	5 [label="CSV Reader"]
+	6 [label="Reference Row Filter"]
+	7 [label="Row Filter"]
+	8 [label="POST Request"]
+	10 [label="Webpage Retriever"]
+	11 [label="JSON Path"]
+	12 [label="Excel Writer"]
+	13 [label="Column Filter"]
+	14 [label="Timer Info"]
+	15 [label="Counting Loop Start"]
+	16 [label="Loop End"]
+	17 [label="Math Formula"]
+	18 [label=GroupBy]
+	19 [label="Math Formula"]
+	20 [label="DB Connection Closer"]
+	1 -> 2
+	1 -> 20
+	2 -> 3
+	3 -> 7
+	3 -> 20
+	4 -> 8
+	5 -> 6
+	6 -> 4
+	7 -> 6
+	8 -> 10
+	10 -> 11
+	11 -> 13
+	13 -> 12
+	13 -> 16
+	14 -> 17
+	15 -> 1
+	15 -> 5
+	16 -> 14
+	17 -> 18
+	18 -> 19
+	20 -> 7
+	rankdir=LR
+}

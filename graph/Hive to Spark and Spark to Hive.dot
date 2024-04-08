@@ -1,0 +1,20 @@
+digraph {
+	210 [label="Hive to Spark"]
+	211 [label="Spark to Hive"]
+	212 [label="DB Reader"]
+	213 [label="File Reader"]
+	214 [label="Create Local Big Data Environment"]
+	215 [label="DB Table Creator"]
+	216 [label="DB Loader"]
+	210 -> 211
+	211 -> 212
+	213 -> 215
+	214 -> 215
+	214 -> 210
+	214 -> 211
+	214 -> 216
+	215 -> 216
+	215 -> 216
+	216 -> 210
+	rankdir=LR
+}

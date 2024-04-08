@@ -1,0 +1,18 @@
+digraph {
+	2 [label="CSV Reader"]
+	3 [label="Column Filter"]
+	5 [label="Target Shuffling"]
+	6 [label="Column List Loop Start"]
+	7 [label="Loop End _Column Append_"]
+	9 [label="Column Expressions"]
+	12 [label="Column Rename _Regex_"]
+	14 [label="Table Writer"]
+	2 -> 9
+	3 -> 6
+	5 -> 12
+	6 -> 5
+	7 -> 14
+	9 -> 3
+	12 -> 7
+	rankdir=LR
+}

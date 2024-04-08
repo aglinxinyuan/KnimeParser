@@ -1,0 +1,96 @@
+digraph {
+	3 [label="Logistic Regression Learner"]
+	4 [label=Joiner]
+	5 [label="Duplicate Row Filter"]
+	6 [label="Logistic Regression Predictor"]
+	7 [label=Scorer]
+	8 [label=Scorer]
+	9 [label="Column Filter"]
+	10 [label="Color Manager"]
+	1650 [label="Column Filter"]
+	1651 [label="Column Filter"]
+	1654 [label="Numeric Outliers"]
+	1656 [label="Category to Number"]
+	1658 [label=Joiner]
+	1662 [label="Missing Value"]
+	1663 [label="Missing Value _Apply_"]
+	1664 [label="Missing Value"]
+	1665 [label="Missing Value _Apply_"]
+	1672 [label="Linear Correlation"]
+	1706 [label=Normalizer]
+	1707 [label=Denormalizer]
+	1708 [label=Partitioning]
+	1709 [label="Decision Tree Learner"]
+	1710 [label="Decision Tree Predictor"]
+	1711 [label=Normalizer]
+	1712 [label=Normalizer]
+	1713 [label="Normalizer _Apply_"]
+	1714 [label="K Nearest Neighbor"]
+	1715 [label="K Nearest Neighbor"]
+	1716 [label="K Nearest Neighbor"]
+	1717 [label=Scorer]
+	1718 [label=Scorer]
+	1719 [label=Scorer]
+	1720 [label=Normalizer]
+	1721 [label="Normalizer _Apply_"]
+	1722 [label="SVM Learner"]
+	1723 [label="SVM Predictor"]
+	1725 [label="Linear Correlation"]
+	1726 [label=Statistics]
+	1727 [label=Scorer]
+	1728 [label="Excel Reader"]
+	1729 [label="Excel Reader"]
+	3 -> 6
+	4 -> 1726
+	4 -> 1650
+	4 -> 1651
+	5 -> 4
+	6 -> 7
+	9 -> 10
+	9 -> 1708
+	1650 -> 1662
+	1651 -> 1654
+	1654 -> 1664
+	1656 -> 1658
+	1658 -> 9
+	1662 -> 1663
+	1662 -> 1663
+	1663 -> 1656
+	1664 -> 1665
+	1664 -> 1665
+	1665 -> 1706
+	1665 -> 1725
+	1706 -> 1707
+	1706 -> 1707
+	1707 -> 1672
+	1707 -> 1658
+	1708 -> 1709
+	1708 -> 1710
+	1708 -> 1711
+	1708 -> 1720
+	1708 -> 1721
+	1708 -> 1712
+	1708 -> 1713
+	1708 -> 6
+	1709 -> 1710
+	1710 -> 8
+	1711 -> 3
+	1712 -> 1713
+	1712 -> 1714
+	1712 -> 1715
+	1712 -> 1716
+	1713 -> 1715
+	1713 -> 1714
+	1713 -> 1716
+	1714 -> 1718
+	1715 -> 1717
+	1716 -> 1719
+	1720 -> 1721
+	1720 -> 1722
+	1721 -> 1723
+	1722 -> 1723
+	1723 -> 1727
+	1728 -> 5
+	1729 -> 4
+	rankdir=LR
+}

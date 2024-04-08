@@ -1,0 +1,28 @@
+digraph {
+	2 [label="List Files"]
+	3 [label="Cell Splitter"]
+	5 [label=GroupBy]
+	6 [label="CSV Writer"]
+	8 [label="Column Filter"]
+	13 [label="R Snippet"]
+	15 [label="Column Combiner"]
+	16 [label="Column Filter"]
+	17 [label="Column Resorter"]
+	18 [label="String To Number"]
+	19 [label="Column Rename"]
+	20 [label="Double To Int"]
+	21 [label="String Replacer"]
+	2 -> 13
+	3 -> 8
+	5 -> 15
+	8 -> 5
+	13 -> 21
+	15 -> 17
+	16 -> 6
+	17 -> 18
+	18 -> 20
+	19 -> 16
+	20 -> 19
+	21 -> 3
+	rankdir=LR
+}

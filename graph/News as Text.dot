@@ -1,0 +1,105 @@
+digraph {
+	7 [label="Tag Cloud _JavaScript_"]
+	1 [label="RSS Feed Reader"]
+	2 [label="Table Creator"]
+	3 [label="Document Data Extractor"]
+	4 [label="Column Filter"]
+	12 [label="Tag Filter"]
+	18 [label="Stop Word Filter"]
+	19 [label="Table Creator"]
+	20 [label="StanfordNLP NE Tagger"]
+	222 [label="Object Inserter"]
+	242 [label="Network Viewer"]
+	244 [label="Bag Of Words Creator"]
+	245 [label=TF]
+	253 [label="Term To String"]
+	250 [label="String Replacer"]
+	251 [label="String Replacer"]
+	252 [label="String Replacer"]
+	264 [label="Dictionary Replacer"]
+	266 [label="String Replacer"]
+	267 [label="Table Creator"]
+	265 [label=GroupBy]
+	270 [label="Row Filter"]
+	271 [label="Row Filter"]
+	272 [label="Row Filter"]
+	273 [label="Row Filter"]
+	274 [label="Row Filter"]
+	275 [label=Sorter]
+	276 [label=Sorter]
+	277 [label="Row Filter"]
+	278 [label=Sorter]
+	279 [label="Row Filter"]
+	280 [label=Sorter]
+	281 [label="Row Filter"]
+	282 [label=Concatenate]
+	283 [label="Color Manager"]
+	284 [label="Visualization Property Extractor"]
+	285 [label="Multi Feature Inserter"]
+	268 [label="Strings To Document"]
+	269 [label=GroupBy]
+	313 [label="Similarity Search"]
+	314 [label="Document Vector"]
+	315 [label="Row Filter"]
+	322 [label="Bag Of Words Creator"]
+	323 [label=TF]
+	324 [label="Column Filter"]
+	328 [label="Table View"]
+	260 [label=GroupBy]
+	326 [label=Sorter]
+	327 [label="Row Filter"]
+	1 -> 3
+	2 -> 1
+	3 -> 4
+	18 -> 20
+	19 -> 18
+	20 -> 12
+	250 -> 251
+	251 -> 252
+	252 -> 266
+	266 -> 264
+	267 -> 264
+	265 -> 271
+	265 -> 270
+	265 -> 273
+	265 -> 272
+	270 -> 280
+	271 -> 278
+	272 -> 276
+	273 -> 275
+	274 -> 282
+	275 -> 274
+	276 -> 277
+	277 -> 282
+	278 -> 279
+	279 -> 282
+	280 -> 281
+	281 -> 282
+	283 -> 284
+	284 -> 285
+	268 -> 322
+	269 -> 268
+	313 -> 324
+	314 -> 315
+	314 -> 313
+	315 -> 313
+	322 -> 323
+	323 -> 314
+	260 -> 326
+	326 -> 327
+	21 -> 18
+	12 -> 250
+	222 -> 283
+	244 -> 253
+	245 -> 265
+	245 -> 7
+	245 -> 260
+	253 -> 245
+	264 -> 244
+	264 -> 269
+	282 -> 222
+	282 -> 283
+	285 -> 242
+	327 -> 328
+	rankdir=LR
+}

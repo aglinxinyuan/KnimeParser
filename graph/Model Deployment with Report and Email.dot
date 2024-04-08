@@ -1,0 +1,74 @@
+digraph {
+	137 [label="Table Reader"]
+	148 [label="Table Reader"]
+	148 [label="Rule Engine"]
+	151 [label="Table Row to Variable"]
+	152 [label="Column Filter"]
+	155 [label="CASE Switch Data _End_"]
+	156 [label="CASE Switch Data _End_"]
+	285 [label="Cell To Model"]
+	286 [label="CASE Switch Variable _Start_"]
+	287 [label="Rule Engine Variable"]
+	288 [label="CASE Switch Variable _Start_"]
+	289 [label="Cell To Model"]
+	290 [label="Cell To Model"]
+	291 [label="Cell To PMML"]
+	292 [label="Missing Value"]
+	293 [label="PMML Predictor"]
+	294 [label="Random Forest Predictor"]
+	295 [label="DL4J Feedforward Predictor _Classification_"]
+	296 [label="Gradient Boosted Trees Predictor"]
+	292 [label="Send Email"]
+	293 [label="Table Row to Variable"]
+	310 [label="Image to Report"]
+	311 [label="Data to Report"]
+	305 [label="JavaScript Bar Chart"]
+	306 [label=GroupBy]
+	307 [label=Pivoting]
+	308 [label="Column Rename _Regex_"]
+	309 [label=GroupBy]
+	310 [label="Table Row to Variable"]
+	312 [label="Java Snippet"]
+	313 [label="Create Date_Time Range"]
+	314 [label="Date_Time to String"]
+	315 [label="Table Row to Variable"]
+	316 [label="Merge Variables"]
+	148 -> 151
+	151 -> 286
+	152 -> 148
+	155 -> 156
+	156 -> 292
+	285 -> 294
+	286 -> 287
+	286 -> 296
+	287 -> 288
+	288 -> 289
+	288 -> 290
+	288 -> 285
+	289 -> 295
+	290 -> 296
+	292 -> 293
+	293 -> 156
+	294 -> 155
+	295 -> 155
+	296 -> 155
+	306 -> 307
+	307 -> 308
+	308 -> 309
+	308 -> 305
+	309 -> 306
+	310 -> 316
+	316 -> 310
+	313 -> 314
+	314 -> 315
+	315 -> 316
+	137 -> 296
+	148 -> 296
+	292 -> 293
+	292 -> 306
+	293 -> 292
+	316 -> 292
+	316 -> 310
+	316 -> 311
+	rankdir=LR
+}

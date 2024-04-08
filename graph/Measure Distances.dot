@@ -1,0 +1,37 @@
+digraph {
+	1 [label="Image Reader"]
+	16 [label="Interactive Labeling Editor"]
+	2 [label="Global Thresholder"]
+	3 [label="Connected Component Analysis"]
+	13 [label=Projector]
+	5 [label="Labeling Filter"]
+	7 [label="Labeling Arithmetic"]
+	8 [label="Segment Features"]
+	9 [label="Column Rename"]
+	10 [label="Segment Features"]
+	12 [label="Math Formula"]
+	14 [label="Column Filter"]
+	15 [label="Column Rename"]
+	16 [label=Joiner]
+	17 [label="Labeling Properties"]
+	18 [label="Labeling Properties"]
+	19 [label="Interactive Table"]
+	2 -> 3
+	13 -> 2
+	5 -> 7
+	7 -> 9
+	8 -> 13
+	9 -> 8
+	9 -> 10
+	10 -> 5
+	12 -> 14
+	14 -> 15
+	16 -> 12
+	3 -> 16
+	15 -> 16
+	1 -> 13
+	16 -> 5
+	3 -> 16
+	15 -> 19
+	rankdir=LR
+}

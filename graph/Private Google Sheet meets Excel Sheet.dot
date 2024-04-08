@@ -1,0 +1,132 @@
+digraph {
+	111 [label="GET Request"]
+	120 [label="POST Request"]
+	123 [label="String Input"]
+	126 [label="Merge Variables"]
+	127 [label="String Manipulation"]
+	128 [label="Variable to Table Row"]
+	129 [label="WrappedNode Input"]
+	130 [label="WrappedNode Output"]
+	131 [label="Boolean Input"]
+	132 [label="Merge Variables"]
+	134 [label="Rule Engine Variable"]
+	135 [label="Rule Engine Variable"]
+	136 [label="Column Filter"]
+	137 [label="String Input"]
+	138 [label="String Input"]
+	117 [label="JSON to Table"]
+	118 [label="Column Filter"]
+	133 [label="Moving Aggregation"]
+	144 [label="JavaScript Bar Chart"]
+	146 [label="JavaScript Bar Chart"]
+	148 [label="Moving Aggregation"]
+	88 [label="Column Rename"]
+	91 [label=Joiner]
+	94 [label="Missing Value"]
+	101 [label="Column Rename"]
+	95 [label="Table Creator"]
+	98 [label="Color Manager"]
+	99 [label="Table Creator"]
+	100 [label="Color Manager"]
+	89 [label=GroupBy]
+	90 [label="Date Field Extractor"]
+	91 [label="Date Field Extractor"]
+	92 [label=Sorter]
+	93 [label="Column Filter"]
+	94 [label="Column Resorter"]
+	104 [label="Column Rename"]
+	105 [label="String to Date_Time"]
+	89 [label=GroupBy]
+	90 [label="Date Field Extractor"]
+	91 [label="Date Field Extractor"]
+	92 [label=Sorter]
+	93 [label="Column Filter"]
+	94 [label="Column Resorter"]
+	104 [label="Column Rename"]
+	61 [label="JSON to Table"]
+	69 [label=Ungroup]
+	70 [label="Column Filter"]
+	71 [label="Row Splitter"]
+	72 [label=Unpivoting]
+	73 [label="Column Filter"]
+	74 [label="Insert Column Header"]
+	75 [label="String to Date_Time"]
+	76 [label=RowID]
+	77 [label="String To Number"]
+	107 [label="String Manipulation"]
+	108 [label="Table Creator"]
+	109 [label="Merge Variables"]
+	110 [label="Column Filter"]
+	115 [label=Joiner]
+	116 [label=RowID]
+	117 [label="String Input"]
+	118 [label="String Input"]
+	121 [label="WrappedNode Output"]
+	122 [label="WrappedNode Input"]
+	157 [label="Excel Reader _XLS_"]
+	123 -> 126
+	126 -> 134
+	127 -> 136
+	128 -> 127
+	118 -> 126
+	132 -> 126
+	134 -> 135
+	135 -> 128
+	136 -> 130
+	137 -> 132
+	138 -> 132
+	117 -> 118
+	88 -> 91
+	91 -> 94
+	101 -> 91
+	95 -> 100
+	99 -> 98
+	89 -> 104
+	90 -> 91
+	91 -> 89
+	92 -> 93
+	93 -> 94
+	104 -> 92
+	105 -> 90
+	89 -> 104
+	90 -> 91
+	91 -> 89
+	92 -> 93
+	93 -> 94
+	104 -> 92
+	61 -> 69
+	69 -> 70
+	70 -> 71
+	71 -> 74
+	71 -> 72
+	72 -> 73
+	73 -> 74
+	74 -> 75
+	75 -> 77
+	77 -> 76
+	107 -> 110
+	108 -> 115
+	109 -> 107
+	110 -> 121
+	115 -> 107
+	116 -> 115
+	117 -> 109
+	118 -> 109
+	122 -> 116
+	111 -> 61
+	120 -> 117
+	129 -> 120
+	118 -> 156
+	133 -> 101
+	148 -> 101
+	94 -> 144
+	94 -> 146
+	150 -> 146
+	150 -> 144
+	94 -> 133
+	94 -> 148
+	76 -> 90
+	156 -> 111
+	157 -> 105
+	rankdir=LR
+}

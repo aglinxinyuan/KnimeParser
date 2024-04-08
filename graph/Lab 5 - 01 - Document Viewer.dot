@@ -1,0 +1,6 @@
+digraph {
+	2 [label="Document Viewer"]
+	3 [label="XML Reader"]
+	3 -> 2
+	rankdir=LR
+}

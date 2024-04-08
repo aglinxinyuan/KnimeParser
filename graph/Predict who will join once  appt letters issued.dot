@@ -1,0 +1,25 @@
+digraph {
+	3 [label="String to Date_Time"]
+	4 [label="Extract Date_Time Fields"]
+	5 [label="Column Filter"]
+	6 [label="Row Filter"]
+	8 [label=Partitioning]
+	10 [label=Scorer]
+	11 [label="Row Filter"]
+	12 [label="Constant Value Column Filter"]
+	13 [label="Random Forest Learner"]
+	14 [label="Random Forest Predictor"]
+	16 [label="Table Reader"]
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 11
+	8 -> 13
+	8 -> 14
+	11 -> 12
+	12 -> 8
+	13 -> 14
+	14 -> 10
+	16 -> 3
+	rankdir=LR
+}

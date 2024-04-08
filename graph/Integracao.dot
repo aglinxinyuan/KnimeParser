@@ -1,0 +1,105 @@
+digraph {
+	28 [label="Excel Reader"]
+	35 [label="Column Filter"]
+	37 [label="Scatter Plot"]
+	38 [label="Math Formula"]
+	39 [label=Sorter]
+	40 [label="Bar Chart"]
+	41 [label="Column Filter"]
+	42 [label="Row Filter"]
+	44 [label=GroupBy]
+	45 [label="Row Filter"]
+	46 [label="Scatter Plot"]
+	49 [label="Row Filter"]
+	50 [label=GroupBy]
+	51 [label="Row Filter"]
+	52 [label="Scatter Plot"]
+	54 [label=Concatenate]
+	55 [label=GroupBy]
+	56 [label=Rank]
+	57 [label="Column Resorter"]
+	58 [label="Table View"]
+	64 [label=GroupBy]
+	65 [label="Pie Chart"]
+	66 [label=GroupBy]
+	67 [label="Pie Chart"]
+	68 [label="Excel Reader"]
+	69 [label=GroupBy]
+	70 [label="Column Filter"]
+	71 [label=Rank]
+	72 [label="Pie Chart"]
+	74 [label="Bar Chart"]
+	75 [label="Excel Writer"]
+	76 [label="Excel Writer"]
+	77 [label="Excel Writer"]
+	78 [label="Excel Writer"]
+	79 [label="Excel Writer"]
+	80 [label="Microsoft Authenticator"]
+	81 [label="Send Email"]
+	82 [label="Table to JSON"]
+	83 [label="JSON To XML"]
+	86 [label="Table to JSON"]
+	87 [label="JSON To XML"]
+	88 [label="JSON Writer"]
+	89 [label="XML Writer"]
+	90 [label="XML Writer"]
+	91 [label="JSON To XML"]
+	92 [label="JSON Writer"]
+	93 [label="Table to JSON"]
+	94 [label="JSON Writer"]
+	95 [label="XML Writer"]
+	96 [label="Rule_based Row Filter"]
+	97 [label="String Manipulation"]
+	99 [label="Rule_based Row Filter"]
+	28 -> 41
+	28 -> 35
+	35 -> 96
+	38 -> 39
+	39 -> 40
+	41 -> 42
+	41 -> 49
+	41 -> 97
+	42 -> 44
+	42 -> 64
+	44 -> 45
+	45 -> 46
+	45 -> 54
+	49 -> 50
+	49 -> 66
+	50 -> 51
+	51 -> 54
+	51 -> 52
+	54 -> 55
+	55 -> 56
+	56 -> 57
+	57 -> 58
+	57 -> 76
+	64 -> 65
+	64 -> 78
+	64 -> 86
+	66 -> 67
+	66 -> 77
+	66 -> 93
+	68 -> 70
+	69 -> 71
+	70 -> 69
+	71 -> 79
+	71 -> 72
+	71 -> 82
+	76 -> 81
+	82 -> 83
+	82 -> 94
+	83 -> 95
+	86 -> 87
+	86 -> 88
+	87 -> 89
+	91 -> 90
+	93 -> 92
+	93 -> 91
+	96 -> 74
+	96 -> 75
+	96 -> 37
+	96 -> 38
+	97 -> 99
+	rankdir=LR
+}

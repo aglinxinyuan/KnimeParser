@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	3 [label="Cell Splitter"]
+	4 [label=Unpivoting]
+	5 [label=Unpivoting]
+	6 [label=Joiner]
+	7 [label="String Manipulation"]
+	8 [label="Table Creator"]
+	9 [label="Table Creator"]
+	10 [label="String Manipulation _Multi Column_"]
+	11 [label="Strings To Document"]
+	13 [label="Dictionary Tagger _Multi Column_"]
+	15 [label="Bag Of Words Creator"]
+	16 [label="Tags To String"]
+	17 [label="Punctuation Erasure"]
+	18 [label="Case Converter"]
+	19 [label="Row Filter"]
+	1 -> 7
+	2 -> 5
+	3 -> 4
+	4 -> 6
+	5 -> 6
+	7 -> 3
+	8 -> 11
+	9 -> 10
+	10 -> 13
+	11 -> 17
+	13 -> 15
+	15 -> 16
+	16 -> 19
+	17 -> 18
+	18 -> 13
+	rankdir=LR
+}

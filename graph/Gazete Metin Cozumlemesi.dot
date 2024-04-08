@@ -1,0 +1,138 @@
+digraph {
+	5 [label="RSS Feed Reader"]
+	6 [label="Table Creator"]
+	7 [label="Column Filter"]
+	8 [label="Document Data Extractor"]
+	12 [label="Tag Filter"]
+	14 [label="Number Filter"]
+	16 [label="Stop Word Filter"]
+	18 [label="Stop Word Filter"]
+	19 [label="Table Creator"]
+	20 [label="StanfordNLP NE Tagger"]
+	248 [label="Tag Stripper"]
+	250 [label="String Replacer"]
+	251 [label="String Replacer"]
+	252 [label="String Replacer"]
+	308 [label="Dictionary Replacer"]
+	309 [label="Table Creator"]
+	222 [label="Object Inserter"]
+	242 [label="Network Viewer _local_"]
+	244 [label="Bag Of Words Creator"]
+	245 [label=TF]
+	253 [label="Term To String"]
+	325 [label=GroupBy]
+	326 [label="Row Filter"]
+	327 [label="Network Analyzer"]
+	328 [label="Network Viewer"]
+	7 [label="Tag Cloud"]
+	8 [label="Bag Of Words Creator"]
+	9 [label=TF]
+	259 [label="Column Filter"]
+	260 [label=GroupBy]
+	261 [label="Row Splitter"]
+	262 [label=GroupBy]
+	264 [label="Row Splitter"]
+	266 [label="Row Splitter"]
+	271 [label="Column Appender"]
+	273 [label=GroupBy]
+	274 [label=GroupBy]
+	275 [label=GroupBy]
+	276 [label=Sorter]
+	277 [label=Sorter]
+	278 [label=Sorter]
+	279 [label="Column Rename"]
+	280 [label=Sorter]
+	303 [label=Pivoting]
+	307 [label="Column Filter"]
+	313 [label="Similarity Search"]
+	314 [label="Document Vector"]
+	315 [label="Row Filter"]
+	316 [label="Column Filter"]
+	319 [label=GroupBy]
+	320 [label="Column Rename"]
+	321 [label="Strings To Document"]
+	322 [label="Bag Of Words Creator"]
+	323 [label=TF]
+	325 [label="Missing Value"]
+	326 [label="Row Filter"]
+	327 [label="Bag Of Words Creator"]
+	328 [label=TF]
+	332 [label="CSV Writer"]
+	333 [label=GroupBy]
+	334 [label="Term To String"]
+	344 [label="Table Creator"]
+	345 [label="Cell Replacer"]
+	336 [label="Punctuation Erasure"]
+	337 [label="Stop Word Filter"]
+	340 [label="Stop Word Filter"]
+	341 [label="Table Creator"]
+	5 -> 8
+	6 -> 5
+	8 -> 7
+	14 -> 16
+	16 -> 18
+	18 -> 20
+	19 -> 18
+	20 -> 12
+	250 -> 251
+	251 -> 252
+	252 -> 248
+	222 -> 328
+	222 -> 327
+	222 -> 242
+	244 -> 253
+	245 -> 325
+	253 -> 245
+	325 -> 326
+	326 -> 222
+	8 -> 9
+	9 -> 259
+	9 -> 262
+	259 -> 261
+	259 -> 260
+	259 -> 266
+	259 -> 264
+	260 -> 280
+	261 -> 273
+	262 -> 7
+	264 -> 274
+	266 -> 275
+	271 -> 279
+	273 -> 276
+	274 -> 277
+	275 -> 278
+	276 -> 271
+	277 -> 271
+	278 -> 271
+	336 -> 337
+	337 -> 340
+	341 -> 340
+	303 -> 307
+	307 -> 325
+	313 -> 316
+	314 -> 315
+	314 -> 313
+	315 -> 313
+	316 -> 345
+	319 -> 320
+	320 -> 321
+	321 -> 336
+	322 -> 323
+	323 -> 314
+	325 -> 332
+	326 -> 303
+	327 -> 334
+	328 -> 333
+	333 -> 326
+	334 -> 328
+	344 -> 345
+	340 -> 322
+	21 -> 14
+	12 -> 250
+	248 -> 308
+	308 -> 327
+	308 -> 328
+	308 -> 329
+	309 -> 308
+	rankdir=LR
+}

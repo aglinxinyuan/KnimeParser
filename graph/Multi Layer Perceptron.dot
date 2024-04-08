@@ -1,0 +1,25 @@
+digraph {
+	13 [label=Normalizer]
+	16 [label=Scorer]
+	17 [label=Partitioning]
+	18 [label="MultiLayerPerceptron Predictor"]
+	19 [label="RProp MLP Learner"]
+	22 [label="File Reader"]
+	23 [label="Column Filter"]
+	25 [label="Value Counter"]
+	28 [label="Number To String"]
+	29 [label="Domain Calculator"]
+	31 [label="Value Counter"]
+	13 -> 25
+	13 -> 17
+	17 -> 18
+	17 -> 19
+	18 -> 16
+	18 -> 31
+	19 -> 18
+	22 -> 23
+	23 -> 28
+	28 -> 29
+	29 -> 13
+	rankdir=LR
+}

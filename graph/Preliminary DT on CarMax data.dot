@@ -1,0 +1,19 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Partitioning]
+	3 [label="Decision Tree Learner"]
+	4 [label="Column Filter"]
+	5 [label="Decision Tree Predictor"]
+	6 [label=Scorer]
+	7 [label="ROC Curve"]
+	8 [label="Missing Value"]
+	1 -> 8
+	2 -> 4
+	2 -> 5
+	3 -> 5
+	4 -> 3
+	5 -> 7
+	5 -> 6
+	8 -> 2
+	rankdir=LR
+}

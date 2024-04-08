@@ -1,0 +1,76 @@
+digraph {
+	2 [label="CSV Reader"]
+	18 [label="Bar Chart"]
+	19 [label="Bar Chart"]
+	22 [label="Bar Chart"]
+	23 [label="Bar Chart"]
+	24 [label=Sorter]
+	26 [label=Sorter]
+	2 [label="CSV Reader"]
+	9 [label="Cell Splitter"]
+	10 [label="Column Filter"]
+	11 [label="Cell Splitter By Position"]
+	12 [label="Column Rename"]
+	21 [label="Math Formula"]
+	30 [label=Sorter]
+	31 [label="Bar Chart"]
+	32 [label="Bar Chart"]
+	33 [label=Sorter]
+	34 [label="Bar Chart"]
+	35 [label="Bar Chart"]
+	36 [label=Sorter]
+	37 [label="Bar Chart"]
+	38 [label="Bar Chart"]
+	39 [label=Sorter]
+	40 [label="Bar Chart"]
+	41 [label="Bar Chart"]
+	42 [label=Sorter]
+	43 [label="Bar Chart"]
+	44 [label="Bar Chart"]
+	45 [label="Bar Chart"]
+	46 [label="Bar Chart"]
+	47 [label=Sorter]
+	50 [label=Auto_Binner]
+	52 [label="Bar Chart"]
+	53 [label="Math Formula"]
+	54 [label="Math Formula"]
+	55 [label="Math Formula"]
+	56 [label="CSV Reader"]
+	57 [label="OSM Map View"]
+	2 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 21
+	2 -> 50
+	24 -> 18
+	24 -> 22
+	24 -> 53
+	24 -> 54
+	24 -> 55
+	26 -> 19
+	26 -> 23
+	29 -> 30
+	29 -> 24
+	29 -> 26
+	29 -> 47
+	29 -> 42
+	29 -> 36
+	29 -> 39
+	29 -> 33
+	30 -> 31
+	30 -> 32
+	33 -> 35
+	33 -> 34
+	36 -> 37
+	36 -> 38
+	39 -> 41
+	39 -> 40
+	42 -> 43
+	42 -> 44
+	47 -> 46
+	47 -> 45
+	50 -> 52
+	56 -> 57
+	rankdir=LR
+}

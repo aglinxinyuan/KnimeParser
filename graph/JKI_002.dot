@@ -1,0 +1,25 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Java Snippet"]
+	3 [label="Group Loop Start"]
+	4 [label="Column Filter"]
+	5 [label="CSV Writer"]
+	6 [label="Variable Loop End"]
+	8 [label="String to Path _Variable_"]
+	9 [label="Java Snippet"]
+	10 [label="Group Loop Start"]
+	11 [label="Table Row To Variable Loop Start"]
+	12 [label="Table Row to Variable"]
+	1 -> 2
+	2 -> 3
+	2 -> 9
+	3 -> 4
+	3 -> 8
+	4 -> 5
+	5 -> 6
+	8 -> 4
+	9 -> 11
+	9 -> 10
+	9 -> 12
+	rankdir=LR
+}

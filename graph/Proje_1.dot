@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	3 [label="File Reader"]
+	4 [label="Column Filter"]
+	5 [label="Decision Tree Predictor"]
+	1 -> 4
+	4 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	1 [label="Notched Boxplot _JFreechart_"]
+	4 [label="Variable Loop End"]
+	6 [label="Group Loop Start"]
+	20 [label="Variable Loop End"]
+	21 [label="Notched Boxplot _JFreechart_"]
+	22 [label="Group Loop Start"]
+	24 [label="Table Creator"]
+	25 [label="Math Formula _Multi Column_"]
+	1 -> 4
+	6 -> 1
+	21 -> 20
+	22 -> 21
+	24 -> 25
+	24 -> 22
+	25 -> 6
+	rankdir=LR
+}

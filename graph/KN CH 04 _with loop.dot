@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	8 [label="Rule_based Row Splitter"]
+	9 [label="Rule_based Row Filter"]
+	13 [label="Column Appender"]
+	17 [label="Column Filter"]
+	20 [label="Rule Engine"]
+	77 [label="Counting Loop Start"]
+	78 [label="Loop End"]
+	81 [label=GroupBy]
+	82 [label="Table Row to Variable"]
+	1 -> 81
+	1 -> 77
+	8 -> 13
+	8 -> 9
+	9 -> 13
+	13 -> 20
+	17 -> 78
+	20 -> 17
+	77 -> 8
+	81 -> 82
+	82 -> 77
+	rankdir=LR
+}

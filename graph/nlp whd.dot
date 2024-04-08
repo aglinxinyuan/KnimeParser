@@ -1,0 +1,77 @@
+digraph {
+	275 [label="Category To Class"]
+	276 [label="Color Manager"]
+	277 [label=Partitioning]
+	279 [label="Decision Tree Predictor"]
+	6 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	8 [label="Term To String"]
+	9 [label=GroupBy]
+	10 [label="Row Filter"]
+	11 [label="Reference Row Filter"]
+	12 [label=TF]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case Converter"]
+	34 [label="Snowball Stemmer"]
+	66 [label="Extract Table Dimension"]
+	67 [label="Java Edit Variable"]
+	68 [label="Bag Of Words Creator"]
+	69 [label="Stop Word Filter"]
+	291 [label="Decision Tree Learner"]
+	292 [label="Document Vector"]
+	293 [label="CSV Reader"]
+	298 [label="XGBoost Tree Ensemble Learner _deprecated_"]
+	299 [label="XGBoost Predictor"]
+	358 [label=Scorer]
+	361 [label="Capture Workflow End"]
+	362 [label="Capture Workflow Start"]
+	363 [label="Workflow Combiner"]
+	364 [label="Document Vector Applier"]
+	365 [label="Capture Workflow End"]
+	366 [label="Capture Workflow Start"]
+	367 [label="Workflow Executor"]
+	368 [label="Workflow Writer"]
+	369 [label="Workflow Reader"]
+	7 -> 6
+	8 -> 9
+	8 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	29 -> 30
+	30 -> 31
+	31 -> 69
+	33 -> 34
+	34 -> 68
+	66 -> 67
+	67 -> 10
+	68 -> 8
+	69 -> 33
+	275 -> 276
+	276 -> 277
+	277 -> 279
+	277 -> 291
+	277 -> 298
+	279 -> 358
+	6 -> 66
+	12 -> 292
+	12 -> 361
+	12 -> 366
+	291 -> 279
+	292 -> 364
+	292 -> 275
+	293 -> 367
+	293 -> 362
+	298 -> 299
+	299 -> 365
+	361 -> 363
+	362 -> 7
+	363 -> 367
+	363 -> 368
+	364 -> 299
+	365 -> 363
+	366 -> 364
+	rankdir=LR
+}

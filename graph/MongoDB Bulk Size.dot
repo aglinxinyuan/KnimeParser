@@ -1,0 +1,13 @@
+digraph {
+	1 [label="MongoDB Connector"]
+	3 [label="MongoDB Aggregation"]
+	392 [label="MongoDB Writer"]
+	393 [label="Timer Info"]
+	394 [label="MongoDB Writer"]
+	1 -> 3
+	3 -> 394
+	3 -> 394
+	3 -> 392
+	3 -> 392
+	rankdir=LR
+}

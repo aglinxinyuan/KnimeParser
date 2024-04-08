@@ -1,0 +1,27 @@
+digraph {
+	2 [label="Feature Table"]
+	3 [label=Partitioning]
+	4 [label="Column Filter"]
+	9 [label="Feature Inserter"]
+	12 [label="Row Splitter"]
+	16 [label="Network Writer"]
+	18 [label="Decision Tree Predictor"]
+	19 [label="Decision Tree Learner"]
+	20 [label=Scorer]
+	21 [label="Decision Tree Predictor"]
+	22 [label="Network Reader"]
+	2 -> 12
+	3 -> 4
+	3 -> 18
+	4 -> 19
+	9 -> 16
+	12 -> 3
+	12 -> 21
+	18 -> 20
+	19 -> 18
+	19 -> 21
+	21 -> 9
+	22 -> 2
+	22 -> 9
+	rankdir=LR
+}

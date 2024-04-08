@@ -1,0 +1,16 @@
+digraph {
+	110 [label="Extract MAE Properties"]
+	128 [label="Run Maestro"]
+	150 [label=Sorter]
+	151 [label="Molecule Reader"]
+	152 [label="Molecule Reader"]
+	154 [label="Induced Fit Docking"]
+	155 [label="Ungroup MAE"]
+	110 -> 150
+	150 -> 128
+	151 -> 154
+	152 -> 154
+	154 -> 155
+	155 -> 110
+	rankdir=LR
+}

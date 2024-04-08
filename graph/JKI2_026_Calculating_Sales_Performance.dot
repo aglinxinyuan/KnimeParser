@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Lag Column"]
+	3 [label="Lag Column"]
+	4 [label="Column Expressions"]
+	5 [label="Row Splitter"]
+	6 [label="Math Formula"]
+	7 [label="Row Splitter"]
+	8 [label=Concatenate]
+	9 [label="Table View"]
+	10 [label=Sorter]
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	4 -> 8
+	5 -> 7
+	5 -> 8
+	6 -> 5
+	7 -> 4
+	7 -> 8
+	8 -> 10
+	10 -> 9
+	rankdir=LR
+}

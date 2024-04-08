@@ -1,0 +1,27 @@
+digraph {
+	1 [label="String Input"]
+	42 [label="Java Edit Variable"]
+	43 [label="String to JSON"]
+	44 [label="Variable to Table Row"]
+	45 [label="JSON Path"]
+	46 [label="Time Difference _legacy_"]
+	51 [label="Date_Time Shift _legacy_"]
+	53 [label=Breakpoint]
+	54 [label="Table Row to Variable"]
+	55 [label="Math Formula"]
+	56 [label="Number To String"]
+	57 [label="Create Table Structure"]
+	1 -> 42
+	42 -> 44
+	43 -> 45
+	44 -> 43
+	45 -> 51
+	46 -> 55
+	51 -> 46
+	54 -> 53
+	55 -> 56
+	56 -> 54
+	56 -> 57
+	57 -> 53
+	rankdir=LR
+}

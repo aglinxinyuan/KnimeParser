@@ -1,0 +1,89 @@
+digraph {
+	46 [label="Excel Reader"]
+	2 [label="Row Filter"]
+	3 [label="Row Filter"]
+	4 [label="Rule Engine"]
+	33 [label="String to Date_Time"]
+	34 [label="String to Date_Time"]
+	37 [label="Missing Value"]
+	38 [label="Column Auto Type Cast"]
+	16 [label=Joiner]
+	48 [label="Numeric Binner"]
+	55 [label="Missing Value"]
+	49 [label="Date_Time_based Row Filter"]
+	50 [label="Date_Time_based Row Filter"]
+	51 [label="Missing Value Column Filter"]
+	52 [label="Missing Value"]
+	53 [label="Constant Value Column Filter"]
+	54 [label="Missing Value _Apply_"]
+	56 [label="Reference Column Filter"]
+	21 [label=Auto_Binner]
+	22 [label=GroupBy]
+	26 [label="Rule_based Row Filter"]
+	27 [label="Row Filter"]
+	30 [label="Math Formula"]
+	35 [label="Numeric Outliers"]
+	38 [label="Math Formula"]
+	39 [label="Rule_based Row Filter"]
+	45 [label="Table Row to Variable"]
+	52 [label="Rule_based Row Filter"]
+	53 [label="Rule_based Row Filter"]
+	55 [label="Numeric Outliers _Apply_"]
+	56 [label="Table Row to Variable"]
+	57 [label="Table Row to Variable"]
+	16 [label=Normalizer]
+	41 [label="Normalizer _Apply_"]
+	765 [label="Table Reader"]
+	766 [label="Column Filter"]
+	2 -> 3
+	3 -> 37
+	34 -> 2
+	37 -> 4
+	38 -> 33
+	16 -> 34
+	33 -> 55
+	55 -> 51
+	50 -> 41
+	51 -> 16
+	56 -> 38
+	56 -> 41
+	55 -> 56
+	41 -> 56
+	21 -> 22
+	21 -> 30
+	22 -> 27
+	26 -> 35
+	27 -> 45
+	30 -> 26
+	30 -> 57
+	35 -> 55
+	38 -> 39
+	38 -> 56
+	39 -> 21
+	45 -> 30
+	56 -> 38
+	55 -> 55
+	56 -> 16
+	57 -> 38
+	16 -> 41
+	46 -> 34
+	33 -> 16
+	33 -> 16
+	55 -> 16
+	56 -> 38
+	56 -> 38
+	55 -> 41
+	55 -> 41
+	41 -> 766
+	765 -> 34
+	775 -> 778
+	776 -> 778
+	777 -> 778
+	780 -> 776
+	780 -> 776
+	780 -> 777
+	780 -> 777
+	780 -> 775
+	780 -> 775
+	rankdir=LR
+}

@@ -1,0 +1,11 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Partitioning]
+	3 [label="Linear Regression Learner"]
+	4 [label="Regression Predictor"]
+	1 -> 2
+	2 -> 4
+	2 -> 3
+	3 -> 4
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	1 [label=Wait___]
+	2 [label="Extract Context Properties"]
+	3 [label="Variable to Table Row"]
+	4 [label="Call Workflow Service"]
+	5 [label="KNIME Hub Authenticator"]
+	2 -> 3
+	2 -> 1
+	3 -> 4
+	5 -> 4
+	rankdir=LR
+}

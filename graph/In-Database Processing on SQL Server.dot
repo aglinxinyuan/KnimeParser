@@ -1,0 +1,37 @@
+digraph {
+	4 [label="Database Row Filter"]
+	9 [label="SQL Server Connector"]
+	142 [label="Database GroupBy"]
+	143 [label="Database Row Filter"]
+	148 [label="Database Connection Table Reader"]
+	149 [label="Database Connection Table Reader"]
+	169 [label="Database Connection Table Reader"]
+	170 [label="Database Sorter"]
+	172 [label="Database Connection Table Reader"]
+	174 [label="Database Table Selector"]
+	177 [label="Database Joiner"]
+	178 [label="Database Table Selector"]
+	179 [label="Database Connection Table Reader"]
+	180 [label="Database Column Filter"]
+	181 [label="Database Connection Table Writer"]
+	183 [label="Database Query"]
+	184 [label="File Reader"]
+	185 [label="File Reader"]
+	4 -> 149
+	9 -> 174
+	9 -> 178
+	142 -> 169
+	143 -> 148
+	170 -> 172
+	174 -> 180
+	177 -> 179
+	178 -> 177
+	180 -> 177
+	180 -> 4
+	180 -> 142
+	180 -> 143
+	180 -> 170
+	180 -> 183
+	183 -> 181
+	rankdir=LR
+}

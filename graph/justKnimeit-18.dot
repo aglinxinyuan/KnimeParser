@@ -1,0 +1,39 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	4 [label="String Manipulation"]
+	5 [label="Table Row to Variable"]
+	6 [label="Table Row To Variable Loop Start"]
+	7 [label="Loop End _Column Append_"]
+	8 [label="Column Filter"]
+	9 [label="Column Rename"]
+	10 [label=Transpose]
+	12 [label=Unpivoting]
+	13 [label="Row Filter"]
+	16 [label=GroupBy]
+	17 [label=RowID]
+	18 [label="Reference Row Filter"]
+	20 [label=Concatenate]
+	22 [label="Column Resorter"]
+	23 [label="Column Rename"]
+	1 -> 6
+	1 -> 10
+	2 -> 4
+	2 -> 18
+	4 -> 7
+	5 -> 9
+	6 -> 4
+	7 -> 8
+	8 -> 9
+	9 -> 12
+	10 -> 5
+	12 -> 13
+	13 -> 16
+	16 -> 17
+	17 -> 18
+	17 -> 20
+	18 -> 20
+	20 -> 22
+	22 -> 23
+	rankdir=LR
+}

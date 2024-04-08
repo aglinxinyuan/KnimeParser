@@ -1,0 +1,15 @@
+digraph {
+	2 [label="Excel Reader"]
+	3 [label="R Snippet"]
+	4 [label="Lag Column"]
+	7 [label="Lag Column"]
+	8 [label=GroupBy]
+	9 [label=Joiner]
+	2 -> 4
+	3 -> 8
+	3 -> 9
+	4 -> 7
+	7 -> 3
+	8 -> 9
+	rankdir=LR
+}

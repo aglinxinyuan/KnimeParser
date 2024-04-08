@@ -1,0 +1,27 @@
+digraph {
+	23 [label="Lag Column"]
+	24 [label="Lag Column"]
+	25 [label=Sorter]
+	26 [label="Date_Time Difference"]
+	44 [label="Java Snippet"]
+	59 [label="Column Filter"]
+	60 [label=GroupBy]
+	61 [label=Joiner]
+	62 [label="Column Rename"]
+	63 [label="Date_Time to String"]
+	64 [label="Table Creator"]
+	65 [label="String to Date_Time"]
+	23 -> 24
+	24 -> 26
+	25 -> 23
+	26 -> 44
+	44 -> 59
+	59 -> 60
+	59 -> 61
+	60 -> 61
+	61 -> 62
+	62 -> 63
+	64 -> 65
+	65 -> 25
+	rankdir=LR
+}

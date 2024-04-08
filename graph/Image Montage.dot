@@ -1,0 +1,32 @@
+digraph {
+	19 [label="Image Reader"]
+	27 [label=Splitter]
+	95 [label="Loop End"]
+	106 [label="Column List Loop Start"]
+	3 [label=Merger]
+	13 [label="Column to Grid"]
+	15 [label="Dimension Swapper"]
+	16 [label=Transpose]
+	17 [label=Merger]
+	103 [label=Transpose]
+	104 [label="Dimension Swapper"]
+	107 [label=RowID]
+	116 [label=Transpose]
+	117 [label=Merger]
+	118 [label="Image Viewer"]
+	3 -> 15
+	13 -> 103
+	15 -> 16
+	16 -> 17
+	17 -> 104
+	103 -> 107
+	107 -> 3
+	19 -> 27
+	27 -> 106
+	95 -> 116
+	106 -> 13
+	104 -> 95
+	116 -> 117
+	117 -> 118
+	rankdir=LR
+}

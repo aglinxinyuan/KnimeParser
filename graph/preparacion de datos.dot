@@ -1,0 +1,23 @@
+digraph {
+	5 [label=Scorer]
+	6 [label=Normalizer]
+	8 [label="Missing Value"]
+	9 [label=Statistics]
+	10 [label=Partitioning]
+	11 [label="CSV Reader"]
+	12 [label="File Reader"]
+	13 [label=Concatenate]
+	14 [label="MultiLayerPerceptron Predictor"]
+	15 [label="RProp MLP Learner"]
+	16 [label="One to Many"]
+	6 -> 16
+	10 -> 15
+	10 -> 14
+	11 -> 13
+	12 -> 13
+	13 -> 6
+	14 -> 5
+	15 -> 14
+	16 -> 10
+	rankdir=LR
+}

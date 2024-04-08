@@ -1,0 +1,21 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Shuffle]
+	3 [label="Math Formula"]
+	4 [label="Math Formula"]
+	6 [label="Table Row to Variable"]
+	7 [label="Hierarchical Clustering"]
+	8 [label=RowID]
+	9 [label="Table View"]
+	10 [label="Row Filter"]
+	1 -> 9
+	2 -> 3
+	3 -> 4
+	3 -> 7
+	4 -> 6
+	6 -> 7
+	8 -> 2
+	9 -> 10
+	10 -> 8
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	8 [label="OAuth2 Authenticator"]
+	9 [label="Credentials Configuration"]
+	20 [label="GET Request"]
+	21 [label="Table Creator"]
+	22 [label="String Manipulation"]
+	8 -> 20
+	9 -> 8
+	21 -> 22
+	22 -> 20
+	rankdir=LR
+}

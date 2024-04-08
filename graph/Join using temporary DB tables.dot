@@ -1,0 +1,27 @@
+digraph {
+	1 [label="H2 Connector"]
+	2 [label="Data Generator"]
+	4 [label="DB Table Creator"]
+	5 [label="DB Insert"]
+	6 [label="DB Joiner"]
+	2 [label="Data Generator"]
+	10 [label="DB Table Selector"]
+	11 [label="DB Joiner"]
+	12 [label="DB Connection Table Writer"]
+	13 [label="DB Reader"]
+	14 [label="DB Writer"]
+	1 -> 4
+	1 -> 10
+	1 -> 14
+	3 -> 4
+	3 -> 5
+	4 -> 5
+	5 -> 11
+	6 -> 11
+	9 -> 14
+	10 -> 6
+	11 -> 12
+	11 -> 13
+	14 -> 6
+	rankdir=LR
+}

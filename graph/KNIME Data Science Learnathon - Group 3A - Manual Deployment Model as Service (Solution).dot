@@ -1,0 +1,25 @@
+digraph {
+	168 [label="Random Forest Predictor"]
+	174 [label="Container Input _Table_"]
+	188 [label="Container Output _Table_"]
+	189 [label="Model Reader"]
+	190 [label="Table Reader"]
+	191 [label="Table Reader"]
+	192 [label="Model Reader"]
+	194 [label="Random Forest Predictor"]
+	196 [label="Workflow Service Input"]
+	197 [label="Workflow Service Output"]
+	198 [label="Constant Value Column"]
+	199 [label="Constant Value Column"]
+	168 -> 199
+	174 -> 168
+	189 -> 168
+	190 -> 174
+	191 -> 196
+	192 -> 194
+	194 -> 198
+	196 -> 194
+	198 -> 197
+	199 -> 188
+	rankdir=LR
+}

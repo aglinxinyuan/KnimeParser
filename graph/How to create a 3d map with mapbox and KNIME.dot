@@ -1,0 +1,111 @@
+digraph {
+	17 [label="CSV Writer"]
+	18 [label="Table Manipulator"]
+	30 [label="Row Sampling"]
+	32 [label="CSV Writer"]
+	50 [label="Color Manager"]
+	51 [label="OSM Map View"]
+	52 [label="Math Formula"]
+	53 [label="OSM Map View"]
+	54 [label="OSM Map View"]
+	55 [label="Row Filter _Labs_"]
+	47 [label="List Files_Folders"]
+	37 [label="Load text_based files"]
+	39 [label="Path to String"]
+	40 [label="String To XML"]
+	41 [label=Sorter]
+	2 [label="XML To JSON"]
+	3 [label="JSON Path"]
+	10 [label=Ungroup]
+	14 [label="Regex Extractor"]
+	15 [label="Regex Extractor"]
+	16 [label="Table Manipulator"]
+	17 [label="Table Manipulator"]
+	18 [label="Regex Extractor"]
+	19 [label="Table Manipulator"]
+	20 [label="String Manipulation"]
+	21 [label="Table Manipulator"]
+	23 [label="String To Number"]
+	24 [label="String To Number"]
+	58 [label="Duplicate Row Filter"]
+	57 [label="Row Filter _Labs_"]
+	59 [label="Table Manipulator"]
+	62 [label="Columns to JSON"]
+	63 [label="JSON Row Combiner"]
+	64 [label="POST Request"]
+	65 [label="Chunk Loop Start"]
+	66 [label="Loop End"]
+	67 [label="Table Writer"]
+	68 [label="JSON Path"]
+	69 [label="Table Reader"]
+	70 [label="Table Manipulator"]
+	71 [label=Ungroup]
+	72 [label=Joiner]
+	73 [label="Table Manipulator"]
+	74 [label=Concatenate]
+	75 [label="Table Manipulator"]
+	76 [label="Table Writer"]
+	77 [label="Color Manager"]
+	78 [label="Color Manager"]
+	79 [label="Google Authentication"]
+	81 [label="Google Sheets Connection"]
+	82 [label="Google Sheets Updater"]
+	83 [label="String Manipulation"]
+	89 [label="String Manipulation"]
+	90 [label=Sorter]
+	37 -> 40
+	39 -> 41
+	41 -> 37
+	14 -> 16
+	15 -> 17
+	16 -> 15
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	2 -> 3
+	3 -> 14
+	10 -> 23
+	21 -> 10
+	23 -> 24
+	47 -> 39
+	40 -> 2
+	24 -> 58
+	18 -> 17
+	18 -> 30
+	18 -> 55
+	18 -> 77
+	30 -> 83
+	50 -> 51
+	52 -> 57
+	55 -> 32
+	55 -> 78
+	56 -> 52
+	56 -> 72
+	57 -> 59
+	59 -> 65
+	62 -> 63
+	63 -> 66
+	64 -> 67
+	65 -> 62
+	66 -> 64
+	68 -> 71
+	69 -> 70
+	70 -> 68
+	71 -> 72
+	72 -> 73
+	72 -> 75
+	73 -> 74
+	74 -> 89
+	75 -> 74
+	77 -> 53
+	78 -> 54
+	79 -> 81
+	81 -> 82
+	83 -> 82
+	89 -> 90
+	90 -> 76
+	90 -> 18
+	90 -> 50
+	rankdir=LR
+}

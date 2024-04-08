@@ -1,0 +1,60 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	10 [label="Counter Generation"]
+	14 [label="Similarity Search"]
+	78 [label="String Manipulation"]
+	84 [label="String Manipulation"]
+	97 [label="String Manipulation"]
+	99 [label="String Manipulation"]
+	100 [label="String Manipulation"]
+	101 [label="String Manipulation"]
+	103 [label="String Manipulation"]
+	104 [label="String Manipulation"]
+	209 [label="String Distances"]
+	210 [label="String Distances"]
+	211 [label="Aggregated Distance"]
+	212 [label="Column Rename"]
+	213 [label="Column Filter"]
+	214 [label=Joiner]
+	215 [label=Auto_Binner]
+	216 [label=GroupBy]
+	237 [label=Concatenate]
+	238 [label="Row Splitter"]
+	239 [label="Column Expressions"]
+	240 [label=GroupBy]
+	241 [label=GroupBy]
+	242 [label="Column Expressions"]
+	243 [label="Column Expressions"]
+	1 -> 212
+	2 -> 84
+	10 -> 14
+	10 -> 210
+	10 -> 214
+	14 -> 213
+	78 -> 99
+	84 -> 104
+	97 -> 14
+	97 -> 209
+	99 -> 100
+	100 -> 97
+	101 -> 103
+	103 -> 10
+	104 -> 101
+	209 -> 211
+	210 -> 211
+	211 -> 14
+	212 -> 78
+	213 -> 215
+	213 -> 214
+	214 -> 243
+	215 -> 216
+	238 -> 240
+	238 -> 241
+	239 -> 237
+	240 -> 239
+	241 -> 237
+	242 -> 238
+	243 -> 242
+	rankdir=LR
+}

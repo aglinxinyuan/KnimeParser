@@ -1,0 +1,48 @@
+digraph {
+	1 [label="Workflow Reader"]
+	2 [label="CSV Reader"]
+	3 [label="Workflow Executor"]
+	4 [label="Row Filter"]
+	1462 [label="Workflow Executor"]
+	1463 [label="CSV Reader"]
+	1465 [label="Row Filter"]
+	1466 [label="Workflow Reader"]
+	1468 [label="Row Filter"]
+	1469 [label="CSV Reader"]
+	1470 [label="Workflow Reader"]
+	1471 [label="Row Filter"]
+	1472 [label="Workflow Executor"]
+	1477 [label="CSV Reader"]
+	1478 [label="Row Filter"]
+	1480 [label="Row Filter"]
+	1481 [label="Tableau Writer"]
+	1482 [label="CSV Writer"]
+	1483 [label=GroupBy]
+	1484 [label="Row Filter"]
+	1485 [label=Joiner]
+	1486 [label="Math Formula"]
+	1487 [label=Rank]
+	1488 [label="Row Filter"]
+	1 -> 3
+	2 -> 1478
+	3 -> 4
+	3 -> 1482
+	1462 -> 1465
+	1463 -> 1480
+	1466 -> 1462
+	1469 -> 1471
+	1470 -> 1472
+	1471 -> 1472
+	1472 -> 1468
+	1472 -> 1481
+	1477 -> 1484
+	1478 -> 3
+	1480 -> 1462
+	1483 -> 1485
+	1484 -> 1483
+	1484 -> 1485
+	1484 -> 1488
+	1485 -> 1486
+	1486 -> 1487
+	rankdir=LR
+}

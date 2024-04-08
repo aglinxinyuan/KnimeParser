@@ -1,0 +1,15 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Date_Time Shift"]
+	4 [label=Joiner]
+	5 [label="Rule Engine"]
+	6 [label="Line Plot"]
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	3 -> 4
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

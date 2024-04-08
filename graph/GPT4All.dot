@@ -1,0 +1,8 @@
+digraph {
+	104 [label="LLM Prompter"]
+	108 [label="Table Creator"]
+	109 [label="GPT4All LLM Connector"]
+	108 -> 104
+	109 -> 104
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	3 [label="Table Creator"]
+	4 [label="GET Request"]
+	9 [label="String Manipulation"]
+	10 [label="Column Filter"]
+	13 [label="Binary Objects to Files"]
+	14 [label="Python Script"]
+	15 [label="CSV Writer"]
+	16 [label="Conda Environment Propagation"]
+	3 -> 9
+	3 -> 14
+	4 -> 10
+	9 -> 4
+	10 -> 13
+	14 -> 15
+	16 -> 14
+	rankdir=LR
+}

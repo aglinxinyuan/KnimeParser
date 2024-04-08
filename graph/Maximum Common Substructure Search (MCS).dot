@@ -1,0 +1,62 @@
+digraph {
+	27 [label="Row Filter"]
+	30 [label="Lookup and Add Columns"]
+	32 [label="Row Filter"]
+	45 [label="Extract MAE Properties"]
+	8192 [label="Text Viewer"]
+	8219 [label=Concatenate]
+	8238 [label="Maximum Common Substructure Search"]
+	8240 [label="Extract MAE Properties"]
+	8241 [label="Text Viewer"]
+	8242 [label=GroupBy]
+	8243 [label=Sorter]
+	8244 [label="Group MAE"]
+	8245 [label="Row Filter"]
+	8246 [label=Sorter]
+	8247 [label="Text Viewer"]
+	8248 [label="Ungroup MAE"]
+	8249 [label="Extract MAE Properties"]
+	8250 [label=MAE_to_Smiles]
+	8251 [label="Compare Ligands"]
+	8252 [label="Text Viewer"]
+	8253 [label=MAE_to_Smiles]
+	8256 [label="Text Viewer"]
+	8257 [label=MAE_to_Smiles]
+	8258 [label="Compare Ligands"]
+	8259 [label="Set MAE Properties"]
+	8260 [label="Extract MAE Properties"]
+	8261 [label="Molecule Reader _to MAE_"]
+	8262 [label="Column Combiner"]
+	27 -> 8258
+	27 -> 8257
+	30 -> 32
+	32 -> 8219
+	45 -> 30
+	8219 -> 8192
+	8238 -> 8240
+	8240 -> 8262
+	8242 -> 8243
+	8243 -> 8241
+	8244 -> 8245
+	8244 -> 45
+	8245 -> 8248
+	8245 -> 8251
+	8246 -> 8244
+	8248 -> 8249
+	8249 -> 8250
+	8250 -> 8247
+	8251 -> 8253
+	8253 -> 8252
+	8257 -> 8256
+	8257 -> 8219
+	8258 -> 8260
+	8259 -> 8258
+	8260 -> 30
+	8261 -> 27
+	8261 -> 8238
+	8261 -> 8251
+	8262 -> 8259
+	8262 -> 8246
+	8262 -> 8242
+	rankdir=LR
+}

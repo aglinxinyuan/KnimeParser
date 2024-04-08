@@ -1,0 +1,17 @@
+digraph {
+	8 [label="OSM POIs"]
+	14 [label=Concatenate]
+	15 [label="OSM Boundary Map"]
+	16 [label="Rule Engine"]
+	17 [label="Geospatial View"]
+	18 [label="Rule Engine"]
+	20 [label="Rule Engine"]
+	8 -> 16
+	14 -> 17
+	15 -> 8
+	15 -> 18
+	16 -> 14
+	18 -> 20
+	20 -> 14
+	rankdir=LR
+}

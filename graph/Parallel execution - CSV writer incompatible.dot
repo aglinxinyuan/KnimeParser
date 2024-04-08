@@ -1,0 +1,58 @@
+digraph {
+	1 [label="Test Data Generator"]
+	2 [label="Parallel Chunk Start"]
+	3 [label="Parallel Chunk End"]
+	4 [label=Ungroup]
+	5 [label="Create Temp Dir"]
+	6 [label="CSV Writer"]
+	7 [label="CSV Reader"]
+	11 [label="Try _Variable Ports_"]
+	12 [label="Active Branch Inverter"]
+	13 [label="Catch Errors _Data Ports_"]
+	19 [label="Constant Value Column"]
+	20 [label="Constant Value Column"]
+	21 [label="Column Resorter"]
+	27 [label=Unpivoting]
+	28 [label="String Replacer"]
+	29 [label="Column Auto Type Cast"]
+	30 [label=Pivoting]
+	31 [label=RowID]
+	32 [label="Column Rename _Regex_"]
+	33 [label="String Replacer"]
+	35 [label="String Manipulation"]
+	36 [label="String Manipulation"]
+	37 [label="String Replacer"]
+	38 [label="CSV Reader"]
+	39 [label="Rule_based Row Filter"]
+	40 [label="Reference Row Filter"]
+	1 -> 4
+	2 -> 3
+	2 -> 6
+	3 -> 11
+	3 -> 40
+	4 -> 27
+	5 -> 6
+	6 -> 3
+	7 -> 13
+	7 -> 12
+	11 -> 7
+	12 -> 38
+	13 -> 39
+	19 -> 20
+	20 -> 21
+	21 -> 2
+	21 -> 5
+	27 -> 29
+	29 -> 28
+	29 -> 33
+	30 -> 31
+	31 -> 32
+	32 -> 19
+	33 -> 30
+	35 -> 36
+	36 -> 37
+	37 -> 13
+	38 -> 35
+	39 -> 40
+	rankdir=LR
+}

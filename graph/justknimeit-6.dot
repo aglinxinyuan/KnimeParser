@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="CSV Reader"]
+	4 [label=Ungroup]
+	7 [label="Cell Splitter"]
+	9 [label="Cell Replacer"]
+	13 [label="Interactive Pie chart _local_"]
+	14 [label="Color Manager"]
+	1 -> 9
+	2 -> 7
+	4 -> 9
+	7 -> 4
+	9 -> 14
+	14 -> 13
+	rankdir=LR
+}

@@ -1,0 +1,23 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Cell Splitter"]
+	3 [label=GroupBy]
+	6 [label="Rule_based Row Splitter"]
+	7 [label="String Matcher"]
+	8 [label="Row Filter"]
+	11 [label=Unpivoting]
+	13 [label="Row Filter"]
+	14 [label="Column Rename"]
+	15 [label="Column Filter"]
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	6 -> 7
+	6 -> 7
+	7 -> 8
+	8 -> 11
+	11 -> 13
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

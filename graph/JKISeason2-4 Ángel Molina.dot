@@ -1,0 +1,34 @@
+digraph {
+	1 [label="Table Reader"]
+	4 [label="Math Formula"]
+	5 [label="Cross Joiner"]
+	6 [label="Row Splitter"]
+	8 [label="Math Formula"]
+	9 [label="Cross Joiner"]
+	10 [label=Concatenate]
+	11 [label="Create Date_Time Range"]
+	14 [label="Extract Date_Time Fields"]
+	15 [label="Extract Date_Time Fields"]
+	16 [label="Column Filter"]
+	18 [label="Column Filter"]
+	19 [label=GroupBy]
+	20 [label=GroupBy]
+	21 [label="Number To String"]
+	1 -> 6
+	4 -> 5
+	5 -> 10
+	6 -> 4
+	6 -> 8
+	8 -> 9
+	9 -> 10
+	11 -> 14
+	11 -> 15
+	14 -> 16
+	15 -> 18
+	16 -> 19
+	18 -> 20
+	19 -> 5
+	20 -> 21
+	21 -> 9
+	rankdir=LR
+}

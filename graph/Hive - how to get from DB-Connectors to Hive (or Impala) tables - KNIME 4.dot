@@ -1,0 +1,91 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Data Generator"]
+	4 [label="String Manipulation"]
+	34 [label="DB GroupBy"]
+	35 [label="Hive to Spark"]
+	36 [label="Spark to Hive"]
+	37 [label="DB Query Reader"]
+	68 [label="DB Table Remover"]
+	71 [label="DB SQL Executor"]
+	72 [label="Column Rename"]
+	73 [label="DB Column Rename"]
+	74 [label="DB Connection Table Writer"]
+	75 [label="DB Reader"]
+	76 [label="Create Local Big Data Environment"]
+	77 [label="DB Loader"]
+	78 [label="DB Table Selector"]
+	79 [label="DB Table Remover"]
+	81 [label="DB Loader"]
+	82 [label="DB Table Selector"]
+	83 [label="DB Reader"]
+	84 [label="Parquet Writer"]
+	28 [label="Extract System Properties"]
+	47 [label="Create Folder"]
+	48 [label="String to Path _Variable_"]
+	49 [label="Java Edit Variable"]
+	50 [label="Merge Variables"]
+	51 [label="Table Column to Variable"]
+	52 [label="Create Folder"]
+	53 [label="Create Folder"]
+	56 [label="Delete Files_Folders"]
+	57 [label="Delete Files_Folders"]
+	59 [label="Create Folder"]
+	60 [label="Create Folder"]
+	61 [label="Extract Context Properties"]
+	89 [label="DB Table Creator"]
+	91 [label="DB Table Creator"]
+	92 [label="Parquet Reader"]
+	93 [label="DB Query Reader"]
+	94 [label="DB Connection Extractor"]
+	95 [label="DB Query Reader"]
+	96 [label="DB Connection Extractor"]
+	28 -> 51
+	47 -> 52
+	48 -> 47
+	49 -> 48
+	50 -> 49
+	51 -> 50
+	52 -> 53
+	53 -> 57
+	56 -> 60
+	57 -> 56
+	60 -> 59
+	61 -> 50
+	1 -> 4
+	2 -> 72
+	4 -> 84
+	4 -> 91
+	34 -> 73
+	35 -> 36
+	36 -> 37
+	36 -> 96
+	68 -> 89
+	71 -> 36
+	72 -> 89
+	73 -> 74
+	73 -> 35
+	74 -> 75
+	74 -> 94
+	76 -> 77
+	76 -> 79
+	76 -> 68
+	76 -> 81
+	76 -> 37
+	76 -> 35
+	77 -> 78
+	78 -> 34
+	79 -> 91
+	81 -> 82
+	82 -> 83
+	84 -> 92
+	88 -> 76
+	89 -> 77
+	89 -> 77
+	89 -> 71
+	91 -> 81
+	91 -> 81
+	94 -> 93
+	96 -> 95
+	rankdir=LR
+}

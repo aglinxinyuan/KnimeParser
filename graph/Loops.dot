@@ -1,0 +1,22 @@
+digraph {
+	2 [label="File Reader"]
+	55 [label="Math Formula _Variable_"]
+	56 [label="Row Filter"]
+	57 [label="Math Formula"]
+	58 [label="Row Filter"]
+	59 [label="Extract Table Dimension"]
+	60 [label="Variable Condition Loop End"]
+	61 [label="Generic Loop Start"]
+	62 [label="Row Filter"]
+	2 -> 62
+	55 -> 56
+	56 -> 57
+	57 -> 58
+	58 -> 59
+	58 -> 60
+	59 -> 60
+	61 -> 56
+	61 -> 55
+	62 -> 61
+	rankdir=LR
+}
