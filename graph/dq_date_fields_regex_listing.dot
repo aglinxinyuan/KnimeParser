@@ -1,0 +1,58 @@
+digraph {
+	1 [label="Excel Reader"]
+	4 [label="Read Excel Sheet Names"]
+	6 [label="Table Row To Variable Loop Start"]
+	7 [label="Loop End"]
+	8 [label=Pivoting]
+	9 [label="Split Collection Column"]
+	10 [label=Unpivoting]
+	11 [label="Variable to Table Column"]
+	12 [label="Column Filter"]
+	13 [label="Column Rename"]
+	14 [label="Split Collection Column"]
+	15 [label=Unpivoting]
+	16 [label="Column Filter"]
+	17 [label="Column Rename"]
+	18 [label="Split Collection Column"]
+	19 [label=Unpivoting]
+	20 [label="Column Filter"]
+	21 [label="Column Rename"]
+	22 [label="Split Collection Column"]
+	23 [label=Unpivoting]
+	24 [label="Column Filter"]
+	25 [label="Column Rename"]
+	26 [label="Column Appender"]
+	27 [label="Column Appender"]
+	28 [label="Column Appender"]
+	29 [label="Excel Writer"]
+	1 -> 11
+	1 -> 11
+	4 -> 6
+	6 -> 1
+	7 -> 29
+	8 -> 9
+	8 -> 14
+	8 -> 18
+	8 -> 22
+	9 -> 10
+	10 -> 12
+	11 -> 8
+	12 -> 13
+	13 -> 26
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 26
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	21 -> 27
+	22 -> 23
+	23 -> 24
+	24 -> 25
+	25 -> 27
+	26 -> 28
+	27 -> 28
+	28 -> 7
+	rankdir=LR
+}
