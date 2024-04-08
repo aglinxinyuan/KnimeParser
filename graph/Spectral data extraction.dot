@@ -1,0 +1,37 @@
+digraph {
+	1 [label="List Files"]
+	2 [label="File Reader"]
+	3 [label="Table Row To Variable Loop Start"]
+	8 [label="Row Splitter"]
+	10 [label="Row Filter"]
+	13 [label="Date Extractor"]
+	14 [label="Constant Value Column"]
+	16 [label="Table Row to Variable"]
+	17 [label="Column Rename"]
+	18 [label="Loop End"]
+	19 [label="String To Number"]
+	23 [label="2D_3D Scatterplot"]
+	24 [label="String to Date_Time"]
+	25 [label="Constant Value Column"]
+	26 [label="Regex Extractor"]
+	27 [label="Column Filter"]
+	28 [label="Column Rename"]
+	1 -> 3
+	2 -> 8
+	3 -> 2
+	8 -> 10
+	8 -> 19
+	10 -> 13
+	13 -> 16
+	14 -> 25
+	16 -> 14
+	17 -> 14
+	18 -> 26
+	19 -> 17
+	24 -> 23
+	25 -> 18
+	26 -> 27
+	27 -> 28
+	28 -> 24
+	rankdir=LR
+}

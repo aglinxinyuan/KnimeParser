@@ -1,0 +1,69 @@
+digraph {
+	1 [label="Image Reader"]
+	2 [label="String Manipulation"]
+	4 [label=Partitioning]
+	6 [label="Image Resizer"]
+	13 [label="Keras Network Executor"]
+	77 [label="One to Many"]
+	78 [label="Many to One"]
+	79 [label=Scorer]
+	263 [label=Partitioning]
+	265 [label="Rule Engine"]
+	266 [label="Column Splitter"]
+	267 [label=Joiner]
+	312 [label="Keras Network Learner"]
+	8 [label="Keras Input Layer"]
+	9 [label="Keras Max Pooling 2D Layer"]
+	10 [label="Keras Convolution 2D Layer"]
+	14 [label="Keras Max Pooling 2D Layer"]
+	15 [label="Keras Convolution 2D Layer"]
+	16 [label="Keras Max Pooling 2D Layer"]
+	17 [label="Keras Convolution 2D Layer"]
+	18 [label="Keras Convolution 2D Layer"]
+	19 [label="Keras Max Pooling 2D Layer"]
+	20 [label="Keras Flatten Layer"]
+	21 [label="Keras Dense Layer"]
+	24 [label="Keras Dense Layer"]
+	25 [label="Keras Batch Normalization Layer"]
+	26 [label="Keras Dropout Layer"]
+	27 [label="Keras Batch Normalization Layer"]
+	29 [label="Keras Batch Normalization Layer"]
+	31 [label="Keras Batch Normalization Layer"]
+	33 [label="Keras Batch Normalization Layer"]
+	377 [label="DL Python Network Editor"]
+	8 -> 10
+	9 -> 15
+	10 -> 27
+	14 -> 17
+	15 -> 29
+	16 -> 18
+	17 -> 31
+	18 -> 33
+	19 -> 20
+	20 -> 21
+	21 -> 25
+	25 -> 26
+	26 -> 24
+	27 -> 9
+	29 -> 14
+	31 -> 16
+	33 -> 19
+	1 -> 6
+	2 -> 266
+	2 -> 77
+	4 -> 263
+	4 -> 13
+	6 -> 2
+	13 -> 78
+	77 -> 4
+	78 -> 265
+	263 -> 312
+	263 -> 312
+	265 -> 267
+	266 -> 267
+	267 -> 79
+	312 -> 13
+	313 -> 377
+	313 -> 312
+	rankdir=LR
+}

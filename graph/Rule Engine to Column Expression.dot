@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Rule Engine"]
+	3 [label="Rule Engine"]
+	4 [label="Rule Engine"]
+	5 [label="Column Expressions"]
+	1 -> 2
+	1 -> 5
+	2 -> 3
+	3 -> 4
+	rankdir=LR
+}

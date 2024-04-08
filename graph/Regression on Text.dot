@@ -1,0 +1,37 @@
+digraph {
+	349 [label="Bag Of Words Creator"]
+	350 [label="Strings To Document"]
+	352 [label=DF]
+	353 [label=TF]
+	354 [label="Term Document Entropy"]
+	357 [label="Logistic Regression Learner"]
+	358 [label=Normalizer]
+	359 [label=Pivoting]
+	360 [label=Joiner]
+	361 [label="One to Many"]
+	362 [label="Missing Value"]
+	351 [label="Table Creator"]
+	363 [label="Empty Table Creator"]
+	364 [label="Cross Joiner"]
+	365 [label=RowID]
+	366 [label=RowID]
+	368 [label=IDF]
+	351 -> 364
+	363 -> 364
+	364 -> 365
+	365 -> 366
+	349 -> 368
+	350 -> 349
+	352 -> 353
+	353 -> 354
+	354 -> 359
+	358 -> 357
+	359 -> 362
+	360 -> 361
+	361 -> 358
+	362 -> 360
+	367 -> 350
+	367 -> 360
+	368 -> 352
+	rankdir=LR
+}

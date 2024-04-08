@@ -1,0 +1,361 @@
+digraph {
+	28 [label="Parquet Reader"]
+	33 [label="Spark Column Filter"]
+	34 [label="Spark Column Filter"]
+	68 [label="Persist Spark DataFrame_RDD"]
+	77 [label="Spark SQL Query"]
+	35 [label="Spark SQL Query"]
+	36 [label="Spark Row Sampling"]
+	37 [label="Spark to Table"]
+	38 [label="Column Filter"]
+	39 [label="Extract Column Header"]
+	40 [label=Transpose]
+	41 [label="Table Row To Variable Loop Start"]
+	42 [label="Spark to Table"]
+	43 [label="Spark SQL Query"]
+	44 [label="String Manipulation"]
+	46 [label="Rule_based Row Filter"]
+	47 [label=GroupBy]
+	49 [label="Column Rename"]
+	50 [label="String Manipulation"]
+	51 [label="Column Filter"]
+	52 [label="Column Filter"]
+	53 [label=Concatenate]
+	54 [label="Rule_based Row Filter"]
+	55 [label=GroupBy]
+	57 [label="Column Rename"]
+	58 [label="String Manipulation"]
+	59 [label="Column Filter"]
+	60 [label=Concatenate]
+	61 [label=Transpose]
+	62 [label="Column Combiner"]
+	63 [label="String Manipulation"]
+	64 [label="Column Filter"]
+	65 [label="Constant Value Column"]
+	66 [label=RowID]
+	67 [label="Loop End"]
+	69 [label="Column Resorter"]
+	70 [label=Transpose]
+	71 [label="Column Combiner"]
+	72 [label="Column Filter"]
+	73 [label="String Manipulation"]
+	74 [label="Column Filter"]
+	75 [label="CSV Writer"]
+	78 [label="Table Writer"]
+	79 [label="Column Rename"]
+	80 [label="Column Filter"]
+	81 [label=Transpose]
+	82 [label="Column Combiner"]
+	83 [label="Column Filter"]
+	84 [label="String Manipulation"]
+	85 [label="Column Rename"]
+	88 [label="Table Writer"]
+	89 [label="Table Row to Variable"]
+	90 [label="Table Row to Variable"]
+	91 [label="Number To String"]
+	92 [label="Number To String"]
+	93 [label="Number To String"]
+	1605 [label="Spark Row Sampling"]
+	1606 [label="Spark to Table"]
+	426 [label="Column Combiner"]
+	430 [label="Column Filter"]
+	1523 [label=Transpose]
+	1610 [label="Extract Table Spec"]
+	1611 [label="String Manipulation"]
+	1612 [label="Column Filter"]
+	1613 [label="String Manipulation"]
+	1614 [label="CSV Writer"]
+	1615 [label="Table Writer"]
+	1616 [label="Table Row to Variable"]
+	1700 [label="Spark Statistics"]
+	1702 [label="Table Writer"]
+	1616 [label="Column Filter"]
+	1619 [label="String Manipulation"]
+	1620 [label="Column Combiner"]
+	1671 [label="Rule_based Row Filter"]
+	1692 [label=Transpose]
+	1693 [label="Row Filter"]
+	1694 [label="String Manipulation"]
+	1697 [label="Math Formula"]
+	1703 [label="Constant Value Column"]
+	1704 [label="Table Row to Variable"]
+	1704 [label="Spark Column Filter"]
+	1671 [label="Rule_based Row Filter"]
+	1690 [label="Spark Statistics"]
+	1691 [label="Spark Column Filter"]
+	1616 [label="Column Filter"]
+	1619 [label="String Manipulation"]
+	1620 [label="Column Combiner"]
+	1692 [label=Transpose]
+	1693 [label="Row Filter"]
+	1694 [label="String Manipulation"]
+	1695 [label="Table Row to Variable"]
+	1774 [label="Spark Missing Value"]
+	1775 [label="PMML Writer"]
+	1777 [label="Column Filter"]
+	1782 [label="Merge Variables"]
+	1785 [label="Table Reader"]
+	1789 [label="Spark Row Sampling"]
+	1790 [label="Spark to Table"]
+	1832 [label="Persist Spark DataFrame_RDD"]
+	1833 [label="Spark Column Filter"]
+	1834 [label="Reference Column Filter"]
+	1835 [label="Reference Column Filter"]
+	1836 [label="Table Writer"]
+	1853 [label="DB Table Creator"]
+	1856 [label="Hive to Spark"]
+	1596 [label="Rule_based Row Filter"]
+	1597 [label="Delete Files"]
+	1598 [label="String to URI"]
+	1837 [label="Extract Context Properties"]
+	1839 [label="Table Creator"]
+	1840 [label="String Manipulation"]
+	1841 [label="String Manipulation"]
+	1842 [label="String Manipulation"]
+	1844 [label="String Manipulation"]
+	1849 [label="Create Local Big Data Environment"]
+	1850 [label="Create Directory"]
+	1851 [label="List Files"]
+	1852 [label="List Folders"]
+	1853 [label="Rule_based Row Filter"]
+	1854 [label="String to URI"]
+	1855 [label="Delete Files"]
+	1856 [label="Table Row to Variable"]
+	1861 [label="DB Loader"]
+	1862 [label="Column Rename"]
+	1866 [label="Destroy Spark Context"]
+	1871 [label="Column Filter"]
+	1872 [label="Spark Normalizer"]
+	1873 [label="PMML Writer"]
+	1616 [label="Column Filter"]
+	1619 [label="String Manipulation"]
+	1620 [label="Column Combiner"]
+	1694 [label="String Manipulation"]
+	1702 [label="Table Writer"]
+	1704 [label="Extract Column Header"]
+	1705 [label="Table Row to Variable"]
+	1706 [label="Constant Value Column"]
+	1875 [label="DB Table Remover"]
+	1876 [label="Table Row to Variable"]
+	1671 [label="Rule_based Row Filter"]
+	1690 [label="Spark Statistics"]
+	1691 [label="Spark Column Filter"]
+	1616 [label="Column Filter"]
+	1619 [label="String Manipulation"]
+	1620 [label="Column Combiner"]
+	1692 [label=Transpose]
+	1693 [label="Row Filter"]
+	1694 [label="String Manipulation"]
+	1698 [label="Constant Value Column"]
+	1699 [label="Table Row to Variable"]
+	1700 [label="Column Filter"]
+	1725 [label="Spark Correlation Filter"]
+	1726 [label="Spark Correlation Matrix"]
+	1727 [label="Model Writer"]
+	1728 [label="Spark Column Filter"]
+	1729 [label="Spark Column Filter"]
+	1616 [label="Column Filter"]
+	1619 [label="String Manipulation"]
+	1620 [label="Column Combiner"]
+	1692 [label=Transpose]
+	1693 [label="Row Filter"]
+	1694 [label="String Manipulation"]
+	1695 [label="Table Row to Variable"]
+	1731 [label="Rule_based Row Filter"]
+	1732 [label="Spark Statistics"]
+	1733 [label="Spark Column Filter"]
+	1734 [label="PMML Reader"]
+	1735 [label="Spark Missing Value _Apply_"]
+	35 -> 43
+	36 -> 37
+	37 -> 38
+	38 -> 39
+	39 -> 40
+	40 -> 41
+	41 -> 35
+	42 -> 46
+	42 -> 54
+	42 -> 55
+	43 -> 42
+	44 -> 52
+	46 -> 47
+	47 -> 91
+	49 -> 50
+	50 -> 51
+	51 -> 53
+	52 -> 53
+	53 -> 60
+	54 -> 92
+	55 -> 93
+	57 -> 58
+	58 -> 59
+	59 -> 60
+	60 -> 61
+	61 -> 62
+	62 -> 64
+	63 -> 65
+	64 -> 63
+	65 -> 66
+	66 -> 67
+	67 -> 69
+	69 -> 74
+	69 -> 80
+	70 -> 71
+	71 -> 72
+	72 -> 73
+	73 -> 79
+	74 -> 70
+	75 -> 78
+	78 -> 35
+	79 -> 78
+	79 -> 75
+	79 -> 35
+	80 -> 81
+	81 -> 82
+	82 -> 83
+	83 -> 84
+	84 -> 85
+	85 -> 88
+	85 -> 90
+	88 -> 90
+	90 -> 88
+	91 -> 49
+	92 -> 44
+	93 -> 57
+	426 -> 430
+	430 -> 1613
+	1523 -> 426
+	1610 -> 1611
+	1611 -> 1612
+	1612 -> 1523
+	1613 -> 1615
+	1613 -> 1614
+	1613 -> 1616
+	1614 -> 1615
+	1615 -> 1616
+	1616 -> 1619
+	1619 -> 1694
+	1620 -> 1616
+	1671 -> 1692
+	1692 -> 1693
+	1693 -> 1692
+	1694 -> 1704
+	1699 -> 1671
+	1704 -> 1620
+	1616 -> 1619
+	1619 -> 1694
+	1620 -> 1616
+	1692 -> 1693
+	1693 -> 1620
+	1694 -> 1695
+	1671 -> 1692
+	1690 -> 1671
+	1699 -> 1691
+	1596 -> 1598
+	1597 -> 1852
+	1598 -> 1597
+	1837 -> 1839
+	1839 -> 1840
+	1840 -> 1841
+	1841 -> 1844
+	1842 -> 1856
+	1844 -> 1842
+	1850 -> 1851
+	1851 -> 1596
+	1852 -> 1853
+	1853 -> 1854
+	1854 -> 1855
+	1855 -> 1849
+	1856 -> 1850
+	1616 -> 1619
+	1619 -> 1694
+	1620 -> 1616
+	1694 -> 1705
+	1694 -> 1702
+	1702 -> 1705
+	1704 -> 1706
+	1706 -> 1620
+	1616 -> 1619
+	1619 -> 1694
+	1620 -> 1616
+	1692 -> 1693
+	1693 -> 1698
+	1694 -> 1700
+	1698 -> 1620
+	1700 -> 1699
+	1616 -> 1619
+	1619 -> 1694
+	1620 -> 1616
+	1692 -> 1693
+	1693 -> 1620
+	1694 -> 1695
+	1671 -> 1692
+	1690 -> 1671
+	1691 -> 1729
+	1699 -> 1691
+	1725 -> 1735
+	1726 -> 1727
+	1726 -> 1725
+	1726 -> 1725
+	1727 -> 1725
+	1727 -> 1734
+	1691 -> 1691
+	1729 -> 1732
+	1695 -> 1733
+	1731 -> 1692
+	1732 -> 1731
+	1734 -> 1735
+	1735 -> 1690
+	28 -> 1862
+	33 -> 34
+	34 -> 68
+	68 -> 35
+	77 -> 1774
+	90 -> 1782
+	1605 -> 1606
+	1606 -> 1777
+	1616 -> 1785
+	1700 -> 1692
+	1702 -> 1834
+	1704 -> 1704
+	1704 -> 1832
+	1691 -> 1733
+	1774 -> 1775
+	1774 -> 1671
+	1775 -> 1671
+	1777 -> 1835
+	1777 -> 1834
+	1777 -> 1610
+	1782 -> 77
+	1785 -> 1876
+	1789 -> 1790
+	1790 -> 1704
+	1790 -> 1834
+	1790 -> 1702
+	1832 -> 1872
+	1833 -> 1605
+	1834 -> 1835
+	1835 -> 1836
+	1836 -> 1866
+	1853 -> 1861
+	1856 -> 77
+	1856 -> 33
+	1856 -> 1833
+	1857 -> 1856
+	1857 -> 1861
+	1857 -> 1866
+	1857 -> 1875
+	1861 -> 1856
+	1862 -> 1861
+	1862 -> 1871
+	1871 -> 1853
+	1872 -> 1873
+	1872 -> 1789
+	1873 -> 1790
+	1705 -> 1702
+	1875 -> 1853
+	1876 -> 1782
+	1733 -> 1700
+	1733 -> 1704
+	rankdir=LR
+}

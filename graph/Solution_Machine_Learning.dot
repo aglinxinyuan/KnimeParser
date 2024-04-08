@@ -1,0 +1,45 @@
+digraph {
+	6 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	12 [label=TF]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case Converter"]
+	34 [label="Snowball Stemmer"]
+	35 [label="Tag Filter"]
+	36 [label="Bag Of Words Creator"]
+	275 [label="Category To Class"]
+	277 [label=Partitioning]
+	279 [label="Decision Tree Predictor"]
+	280 [label=Scorer]
+	289 [label="File Reader"]
+	291 [label="Decision Tree Learner"]
+	293 [label="POS Tagger"]
+	296 [label="Document Vector"]
+	297 [label="Stop Word Filter"]
+	298 [label="Tagged Document Viewer"]
+	299 [label="Binary Classification Inspector"]
+	6 -> 293
+	7 -> 6
+	12 -> 296
+	29 -> 30
+	30 -> 31
+	31 -> 297
+	33 -> 34
+	34 -> 35
+	35 -> 36
+	36 -> 12
+	275 -> 277
+	277 -> 279
+	277 -> 291
+	279 -> 280
+	279 -> 299
+	289 -> 7
+	291 -> 279
+	293 -> 298
+	293 -> 29
+	296 -> 275
+	297 -> 33
+	rankdir=LR
+}

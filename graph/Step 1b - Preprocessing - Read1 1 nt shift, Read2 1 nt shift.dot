@@ -1,0 +1,63 @@
+digraph {
+	1 [label="List Files"]
+	43 [label="Table Row to Variable"]
+	44 [label="Chunk Loop Start"]
+	45 [label="Line Reader"]
+	46 [label="String Manipulation _Variable_"]
+	47 [label="Java Edit Variable _simple_"]
+	48 [label="Create File Name"]
+	50 [label="String Manipulation _Variable_"]
+	51 [label="Java Snippet Row Filter"]
+	53 [label="IF Switch"]
+	15 [label="Java Snippet _simple_"]
+	19 [label="Java Snippet _simple_"]
+	55 [label="End IF"]
+	56 [label="String Manipulation"]
+	57 [label="String Manipulation"]
+	58 [label="String Manipulation"]
+	59 [label="String Manipulation"]
+	60 [label="Table Writer"]
+	61 [label="Parallel Chunk End"]
+	62 [label="Variable Loop End"]
+	63 [label="Parallel Chunk Start"]
+	66 [label="Java Snippet"]
+	67 [label="Java Snippet"]
+	7 [label="Lag Column"]
+	8 [label="Java Snippet Row Filter"]
+	9 [label="Column Rename"]
+	10 [label="Java Snippet _simple_"]
+	59 [label="String Manipulation"]
+	60 [label="String Manipulation"]
+	15 -> 19
+	7 -> 8
+	8 -> 9
+	9 -> 59
+	59 -> 60
+	60 -> 10
+	1 -> 63
+	43 -> 45
+	43 -> 50
+	44 -> 43
+	45 -> 51
+	46 -> 48
+	47 -> 46
+	47 -> 53
+	48 -> 60
+	50 -> 47
+	51 -> 7
+	53 -> 15
+	53 -> 56
+	19 -> 58
+	55 -> 60
+	56 -> 57
+	57 -> 66
+	58 -> 59
+	59 -> 67
+	60 -> 62
+	62 -> 61
+	63 -> 44
+	66 -> 55
+	67 -> 55
+	10 -> 53
+	rankdir=LR
+}

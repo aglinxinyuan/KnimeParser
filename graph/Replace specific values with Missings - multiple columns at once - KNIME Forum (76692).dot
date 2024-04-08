@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Data Generator"]
+	3 [label="Column Filter"]
+	4 [label="Column List Loop Start"]
+	5 [label="Column Renamer"]
+	6 [label="Column Expressions"]
+	8 [label="Column Renamer"]
+	9 [label="Loop End _Column Append_"]
+	10 [label="Math Formula _Multi Column_"]
+	11 [label="Math Formula _Multi Column_"]
+	12 [label="Reference Column Resorter"]
+	13 [label="Reference Column Filter"]
+	14 [label=Joiner]
+	15 [label="Extract Table Spec"]
+	16 [label="Table Writer"]
+	17 [label="Table Writer"]
+	1 -> 11
+	3 -> 4
+	3 -> 13
+	4 -> 5
+	5 -> 6
+	6 -> 8
+	8 -> 9
+	9 -> 14
+	10 -> 15
+	10 -> 13
+	10 -> 3
+	10 -> 16
+	11 -> 10
+	12 -> 17
+	13 -> 14
+	14 -> 12
+	15 -> 12
+	rankdir=LR
+}

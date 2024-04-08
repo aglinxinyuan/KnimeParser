@@ -1,0 +1,22 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Excel Writer"]
+	3 [label="Column Filter"]
+	4 [label="String Manipulation"]
+	5 [label="Cell Splitter"]
+	6 [label="Row Filter"]
+	8 [label="String Manipulation"]
+	9 [label="Column Filter"]
+	11 [label="Row Filter"]
+	12 [label="Row Filter"]
+	1 -> 6
+	3 -> 4
+	4 -> 8
+	5 -> 9
+	6 -> 3
+	8 -> 5
+	9 -> 11
+	11 -> 12
+	12 -> 2
+	rankdir=LR
+}

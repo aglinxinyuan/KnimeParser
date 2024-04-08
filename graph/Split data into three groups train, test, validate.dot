@@ -1,0 +1,20 @@
+digraph {
+	1 [label="Data Generator"]
+	2 [label=Partitioning]
+	3 [label=Partitioning]
+	4 [label="Constant Value Column"]
+	5 [label="Constant Value Column"]
+	6 [label="Constant Value Column"]
+	7 [label=Concatenate]
+	8 [label=GroupBy]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	3 -> 5
+	3 -> 6
+	4 -> 7
+	5 -> 7
+	6 -> 7
+	7 -> 8
+	rankdir=LR
+}

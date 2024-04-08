@@ -1,0 +1,22 @@
+digraph {
+	4 [label="Merge Variables"]
+	7 [label="WrappedNode Input"]
+	8 [label="WrappedNode Output"]
+	10 [label="String to Date_Time"]
+	11 [label="Date_Time Widget"]
+	12 [label="Double Widget"]
+	13 [label="String Widget"]
+	14 [label="Variable to Table Row"]
+	9 [label="JavaScript Table View"]
+	10 [label="WrappedNode Input"]
+	11 [label="WrappedNode Output"]
+	4 -> 14
+	10 -> 8
+	11 -> 4
+	12 -> 4
+	13 -> 4
+	14 -> 10
+	10 -> 9
+	8 -> 10
+	rankdir=LR
+}

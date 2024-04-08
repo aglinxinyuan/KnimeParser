@@ -1,0 +1,86 @@
+digraph {
+	13 [label="Network Viewer"]
+	35 [label="Multi Feature Inserter"]
+	39 [label="Color Manager"]
+	40 [label="Visualization Property Extractor"]
+	27 [label="Image Reader _Table_"]
+	36 [label=" ImgPlus to PNG Images "]
+	37 [label=Ungroup]
+	38 [label="WrappedNode Input"]
+	39 [label="WrappedNode Output"]
+	40 [label=GroupBy]
+	41 [label=Joiner]
+	46 [label="Tika Parser"]
+	52 [label="Table Creator"]
+	4 [label="Tag Filter"]
+	54 [label="Column Filter"]
+	55 [label="WrappedNode Input"]
+	56 [label="WrappedNode Output"]
+	57 [label="Strings To Document"]
+	58 [label="Wildcard Tagger"]
+	59 [label="Bag Of Words Creator"]
+	6 [label=TF]
+	8 [label="Term co_occurrence counter"]
+	9 [label="Java Snippet"]
+	10 [label=GroupBy]
+	14 [label="Rule_based Row Filter"]
+	15 [label="WrappedNode Input"]
+	16 [label="WrappedNode Output"]
+	12 [label="Object Inserter"]
+	15 [label="Term to String"]
+	16 [label="Feature Inserter"]
+	17 [label=Normalizer]
+	32 [label="Network Analyzer"]
+	33 [label="Feature Inserter"]
+	34 [label=Normalizer]
+	55 [label=Normalizer]
+	56 [label="WrappedNode Input"]
+	57 [label="WrappedNode Output"]
+	58 [label="Object Inserter"]
+	27 -> 41
+	36 -> 37
+	37 -> 40
+	38 -> 27
+	38 -> 41
+	40 -> 39
+	41 -> 36
+	4 -> 59
+	54 -> 58
+	55 -> 54
+	55 -> 57
+	57 -> 58
+	58 -> 4
+	59 -> 56
+	6 -> 16
+	8 -> 9
+	9 -> 10
+	10 -> 14
+	14 -> 16
+	15 -> 8
+	15 -> 6
+	12 -> 32
+	12 -> 16
+	15 -> 58
+	15 -> 17
+	16 -> 33
+	17 -> 16
+	32 -> 34
+	33 -> 57
+	34 -> 33
+	55 -> 12
+	56 -> 55
+	56 -> 15
+	58 -> 12
+	35 -> 13
+	39 -> 40
+	40 -> 35
+	41 -> 39
+	46 -> 56
+	52 -> 56
+	52 -> 41
+	56 -> 57
+	57 -> 58
+	57 -> 58
+	58 -> 35
+	rankdir=LR
+}

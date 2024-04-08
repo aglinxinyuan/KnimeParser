@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Tika Parser"]
+	2 [label="PDF Parser"]
+	3 [label="Document Data Extractor"]
+	12 [label="String Manipulation"]
+	13 [label="Cell Splitter"]
+	14 [label="String Manipulation"]
+	15 [label="Column Filter"]
+	16 [label="Cell Splitter"]
+	1 -> 14
+	2 -> 3
+	3 -> 12
+	12 -> 13
+	14 -> 15
+	15 -> 16
+	rankdir=LR
+}

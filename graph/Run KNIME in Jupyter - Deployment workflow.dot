@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Model Reader"]
+	2 [label="Container Input _Table_"]
+	4 [label="Container Output _Table_"]
+	1086 [label="Decision Tree Predictor"]
+	1 -> 1086
+	2 -> 1086
+	1086 -> 4
+	rankdir=LR
+}

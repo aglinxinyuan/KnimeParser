@@ -1,0 +1,12 @@
+digraph {
+	255 [label="Table Creator"]
+	257 [label="Counting Loop Start"]
+	258 [label="Loop End"]
+	259 [label="Counter Generation"]
+	260 [label=Sorter]
+	255 -> 259
+	257 -> 258
+	258 -> 260
+	259 -> 257
+	rankdir=LR
+}

@@ -1,0 +1,122 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Sampling"]
+	3 [label="CSV Reader"]
+	4 [label=Joiner]
+	34 [label="Column Filter"]
+	35 [label="Column Filter"]
+	36 [label="Missing Value Column Filter"]
+	37 [label="Missing Value Column Filter"]
+	38 [label="Missing Value"]
+	39 [label="Missing Value"]
+	40 [label="Category to Number"]
+	41 [label="Numeric Outliers"]
+	42 [label=Joiner]
+	45 [label=Normalizer]
+	46 [label=Denormalizer]
+	48 [label=Partitioning]
+	49 [label="Decision Tree Learner"]
+	50 [label="Decision Tree Predictor"]
+	51 [label=Scorer]
+	52 [label=Normalizer]
+	56 [label=Partitioning]
+	58 [label="Column Filter"]
+	61 [label=Partitioning]
+	63 [label=Normalizer]
+	64 [label="Normalizer _Apply_"]
+	65 [label="K Nearest Neighbor"]
+	66 [label=Scorer]
+	67 [label="K Nearest Neighbor"]
+	68 [label="K Nearest Neighbor"]
+	69 [label=Scorer]
+	70 [label=Scorer]
+	83 [label=Partitioning]
+	84 [label="SVM Learner"]
+	87 [label="SVM Predictor"]
+	88 [label=Scorer]
+	91 [label="Value Counter"]
+	92 [label="Math Formula"]
+	95 [label=Statistics]
+	96 [label="Linear Correlation"]
+	101 [label="Box Plot _legacy_"]
+	102 [label="Box Plot _legacy_"]
+	103 [label="Box Plot _legacy_"]
+	104 [label="Box Plot _legacy_"]
+	105 [label=Normalizer]
+	106 [label="Normalizer _Apply_"]
+	107 [label="Column Filter"]
+	108 [label="Logistic Regression Learner"]
+	109 [label="Logistic Regression Predictor"]
+	110 [label=Scorer]
+	111 [label="Column Filter"]
+	114 [label="Statistics _Labs_"]
+	115 [label="Statistics _Labs_"]
+	116 [label="Statistics _Labs_"]
+	117 [label="Statistics _Labs_"]
+	118 [label=Statistics]
+	1 -> 2
+	2 -> 4
+	3 -> 111
+	4 -> 34
+	4 -> 35
+	34 -> 36
+	35 -> 37
+	36 -> 38
+	36 -> 114
+	37 -> 45
+	37 -> 101
+	37 -> 115
+	38 -> 40
+	38 -> 91
+	39 -> 46
+	39 -> 103
+	40 -> 42
+	41 -> 39
+	41 -> 116
+	42 -> 58
+	42 -> 61
+	42 -> 52
+	42 -> 107
+	45 -> 46
+	45 -> 41
+	45 -> 102
+	46 -> 42
+	46 -> 104
+	46 -> 96
+	46 -> 117
+	46 -> 95
+	48 -> 49
+	48 -> 50
+	49 -> 50
+	50 -> 51
+	52 -> 56
+	56 -> 108
+	56 -> 109
+	58 -> 48
+	61 -> 63
+	61 -> 64
+	63 -> 68
+	63 -> 67
+	63 -> 65
+	63 -> 64
+	64 -> 65
+	64 -> 67
+	64 -> 68
+	65 -> 66
+	67 -> 69
+	68 -> 70
+	83 -> 106
+	83 -> 105
+	84 -> 87
+	87 -> 88
+	91 -> 92
+	105 -> 106
+	105 -> 84
+	106 -> 87
+	107 -> 83
+	108 -> 109
+	109 -> 110
+	111 -> 118
+	111 -> 4
+	rankdir=LR
+}

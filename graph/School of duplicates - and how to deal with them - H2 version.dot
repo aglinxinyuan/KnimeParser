@@ -1,0 +1,52 @@
+digraph {
+	1875 [label="DB Table Remover"]
+	1878 [label="DB Query"]
+	1886 [label="Rule_based Row Filter"]
+	1887 [label="DB Query"]
+	1888 [label="DB Reader"]
+	1889 [label="Rule_based Row Filter"]
+	1890 [label="Column Filter"]
+	1891 [label="DB Loader"]
+	1892 [label="DB Table Selector"]
+	1894 [label="Column Filter"]
+	1907 [label="Excel Reader"]
+	1912 [label="String to Date_Time"]
+	1914 [label="DB Query Extractor"]
+	1915 [label="DB Query"]
+	1916 [label="DB SQL Executor"]
+	1919 [label="DB Reader"]
+	1921 [label="H2 Connector"]
+	1922 [label="DB Table Selector"]
+	1923 [label="DB Reader"]
+	1924 [label="DB Connection Table Writer"]
+	1925 [label="DB Reader"]
+	1926 [label="DB Query Reader"]
+	1927 [label="DB Table Creator"]
+	1875 -> 1916
+	1875 -> 1927
+	1878 -> 1924
+	1878 -> 1919
+	1878 -> 1915
+	1886 -> 1894
+	1887 -> 1888
+	1888 -> 1889
+	1889 -> 1890
+	1891 -> 1892
+	1892 -> 1878
+	1892 -> 1887
+	1907 -> 1912
+	1912 -> 1927
+	1914 -> 1916
+	1915 -> 1914
+	1916 -> 1922
+	1919 -> 1886
+	1921 -> 1926
+	1921 -> 1875
+	1921 -> 1927
+	1922 -> 1923
+	1923 -> 1924
+	1924 -> 1925
+	1927 -> 1891
+	1927 -> 1891
+	rankdir=LR
+}

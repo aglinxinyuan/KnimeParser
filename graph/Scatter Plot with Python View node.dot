@@ -1,0 +1,10 @@
+digraph {
+	6 [label="Python Script"]
+	12 [label="Nominal Value Row Filter"]
+	13 [label="Python View"]
+	18 [label="Rule_based Row Filter"]
+	6 -> 18
+	12 -> 13
+	18 -> 12
+	rankdir=LR
+}

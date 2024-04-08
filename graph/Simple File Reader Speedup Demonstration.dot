@@ -1,0 +1,16 @@
+digraph {
+	4 [label="Simple File Reader"]
+	5 [label="CSV Writer"]
+	24 [label="File Reader"]
+	36 [label="Timer Info"]
+	37 [label="Data Generator"]
+	38 [label="Table View"]
+	39 [label="Row Filter"]
+	4 -> 36
+	5 -> 24
+	24 -> 4
+	36 -> 39
+	37 -> 5
+	39 -> 38
+	rankdir=LR
+}

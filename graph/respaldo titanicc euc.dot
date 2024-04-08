@@ -1,0 +1,19 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label="Number To String"]
+	4 [label=Partitioning]
+	5 [label="Random Forest Learner"]
+	6 [label="Random Forest Predictor"]
+	7 [label="Domain Calculator"]
+	8 [label=Scorer]
+	1 -> 2
+	2 -> 3
+	3 -> 7
+	4 -> 5
+	4 -> 6
+	5 -> 6
+	6 -> 8
+	7 -> 4
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	998 [label="Java Snippet"]
+	1000 [label="Term To String"]
+	1001 [label="Tags To String"]
+	1002 [label="Column Rename"]
+	1003 [label="Table Creator"]
+	1004 [label="Strings To Document"]
+	1005 [label="Bag Of Words Creator"]
+	1006 [label="POS Tagger"]
+	1007 [label="Column Filter"]
+	998 -> 1007
+	1000 -> 1001
+	1001 -> 1002
+	1002 -> 998
+	1003 -> 1004
+	1004 -> 1006
+	1005 -> 1000
+	1006 -> 1005
+	rankdir=LR
+}

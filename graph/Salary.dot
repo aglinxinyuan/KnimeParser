@@ -1,0 +1,81 @@
+digraph {
+	3 [label=Statistics]
+	6 [label="Numeric Outliers"]
+	7 [label="Linear Correlation"]
+	10 [label="ROC Curve _local_"]
+	12 [label="H2O Local Context"]
+	19 [label="Category To Number"]
+	32 [label="Category To Number"]
+	35 [label=k_Means]
+	52 [label="Loop End _deprecated_"]
+	53 [label=GroupBy]
+	54 [label="H2O Cross Validation Loop Start"]
+	56 [label="H2O Predictor _Classification_"]
+	293 [label="Scorer _deprecated_"]
+	294 [label=Partitioning]
+	296 [label="Logistic Regression Learner"]
+	316 [label="Normalizer _PMML_"]
+	322 [label="Logistic Regression Predictor"]
+	323 [label="Denormalizer _PMML_"]
+	324 [label="Decision Tree Learner"]
+	325 [label="Decision Tree Predictor"]
+	326 [label="Column Filter"]
+	328 [label=Partitioning]
+	329 [label="Gradient Boosted Trees Learner _deprecated_"]
+	330 [label=Partitioning]
+	336 [label="Gradient Boosted Trees Predictor _deprecated_"]
+	337 [label="Scorer _deprecated_"]
+	338 [label="Table to H2O"]
+	339 [label="H2O Binomial Scorer"]
+	340 [label="CSV Reader"]
+	341 [label="H2O Gradient Boosting Machine Learner"]
+	342 [label="Scorer _deprecated_"]
+	343 [label="Column Filter"]
+	344 [label="Double To Int"]
+	346 [label="Normalizer _PMML_"]
+	348 [label="Scorer _deprecated_"]
+	349 [label="ROC Curve"]
+	371 [label="Binary Classification Inspector"]
+	12 -> 338
+	19 -> 346
+	32 -> 344
+	35 -> 32
+	52 -> 53
+	54 -> 56
+	54 -> 341
+	56 -> 339
+	294 -> 296
+	294 -> 322
+	296 -> 322
+	316 -> 294
+	316 -> 323
+	322 -> 323
+	323 -> 293
+	324 -> 325
+	325 -> 10
+	325 -> 342
+	325 -> 349
+	325 -> 371
+	326 -> 330
+	326 -> 328
+	326 -> 343
+	326 -> 19
+	326 -> 316
+	328 -> 324
+	328 -> 325
+	329 -> 336
+	330 -> 329
+	330 -> 336
+	336 -> 337
+	338 -> 54
+	339 -> 52
+	340 -> 6
+	340 -> 326
+	340 -> 7
+	340 -> 3
+	341 -> 56
+	343 -> 338
+	344 -> 348
+	346 -> 35
+	rankdir=LR
+}

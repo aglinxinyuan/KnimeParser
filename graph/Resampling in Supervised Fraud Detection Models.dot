@@ -1,0 +1,52 @@
+digraph {
+	96 [label="Rule Engine"]
+	98 [label=Partitioning]
+	910 [label="Decision Tree Learner"]
+	911 [label="Decision Tree Predictor"]
+	912 [label="Scorer _JavaScript_"]
+	914 [label="Bootstrap Sampling"]
+	916 [label="Nominal Value Row Splitter"]
+	917 [label=Concatenate]
+	918 [label="Decision Tree Learner"]
+	919 [label="Decision Tree Predictor"]
+	920 [label="Scorer _JavaScript_"]
+	921 [label="Bootstrap Sampling"]
+	922 [label="Scorer _JavaScript_"]
+	923 [label="Decision Tree Learner"]
+	924 [label="Nominal Value Row Splitter"]
+	925 [label="Decision Tree Predictor"]
+	926 [label=Concatenate]
+	941 [label="Decision Tree Learner"]
+	953 [label=SMOTE]
+	954 [label="Decision Tree Predictor"]
+	955 [label="Scorer _JavaScript_"]
+	958 [label="CSV Reader"]
+	96 -> 98
+	98 -> 954
+	98 -> 953
+	98 -> 910
+	98 -> 911
+	98 -> 919
+	98 -> 916
+	98 -> 924
+	98 -> 925
+	910 -> 911
+	911 -> 912
+	914 -> 917
+	916 -> 917
+	916 -> 914
+	917 -> 918
+	918 -> 919
+	919 -> 920
+	921 -> 926
+	923 -> 925
+	924 -> 926
+	924 -> 921
+	925 -> 922
+	926 -> 923
+	941 -> 954
+	953 -> 941
+	954 -> 955
+	958 -> 96
+	rankdir=LR
+}

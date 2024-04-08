@@ -1,0 +1,24 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=GroupBy]
+	3 [label=Auto_Binner]
+	4 [label="Table Creator"]
+	5 [label="Value Lookup"]
+	6 [label="Value Lookup"]
+	7 [label="Value Lookup"]
+	8 [label="Column Aggregator"]
+	9 [label="Excel Writer"]
+	13 [label="Rule Engine"]
+	1 -> 2
+	2 -> 3
+	3 -> 5
+	4 -> 5
+	4 -> 6
+	4 -> 7
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 13
+	13 -> 9
+	rankdir=LR
+}

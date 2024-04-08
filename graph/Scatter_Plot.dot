@@ -1,0 +1,29 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Rule_based Row Filter"]
+	20 [label="Excel Reader"]
+	22 [label="Scatter Plot"]
+	23 [label="Scatter Plot"]
+	24 [label="Image Writer _Port_"]
+	26 [label="Color Manager"]
+	32 [label="Linear Regression Learner"]
+	33 [label="Rule_based Row Filter"]
+	36 [label="Generic JavaScript View"]
+	96 [label="Python View"]
+	97 [label="R View _Table_"]
+	98 [label="Column Rename"]
+	99 [label="Scatter Plot _Plotly_"]
+	1 -> 33
+	1 -> 2
+	2 -> 23
+	20 -> 26
+	23 -> 24
+	26 -> 99
+	26 -> 22
+	26 -> 36
+	33 -> 32
+	33 -> 98
+	98 -> 96
+	98 -> 97
+	rankdir=LR
+}

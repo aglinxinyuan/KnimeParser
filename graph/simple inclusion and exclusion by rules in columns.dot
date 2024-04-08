@@ -1,0 +1,27 @@
+digraph {
+	1 [label="Python Script"]
+	3 [label="Column Expressions"]
+	4 [label="Table Writer"]
+	5 [label="Table Reader"]
+	6 [label="String Manipulation _Multi Column_"]
+	8 [label="String Manipulation _Multi Column_"]
+	9 [label="String Manipulation _Multi Column_"]
+	10 [label="String Manipulation _Multi Column_"]
+	13 [label="Column Aggregator"]
+	14 [label="Row Filter"]
+	15 [label="Column Aggregator"]
+	16 [label="Row Filter"]
+	17 [label="Row Filter"]
+	1 -> 4
+	3 -> 17
+	5 -> 6
+	5 -> 3
+	6 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	rankdir=LR
+}

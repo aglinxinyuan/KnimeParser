@@ -1,0 +1,28 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label=Statistics]
+	4 [label=Statistics]
+	56 [label="Linear Regression Learner"]
+	57 [label="Regression Predictor"]
+	72 [label="Numeric Scorer"]
+	1614 [label=Partitioning]
+	1615 [label=Normalizer]
+	1616 [label="Gradient Boosted Trees Learner _Regression_"]
+	1618 [label=Partitioning]
+	1619 [label="Gradient Boosted Trees Predictor _Regression_"]
+	1620 [label="Numeric Scorer"]
+	1 -> 3
+	1 -> 1615
+	1 -> 1618
+	56 -> 57
+	57 -> 72
+	1614 -> 56
+	1614 -> 57
+	1615 -> 1614
+	1615 -> 4
+	1616 -> 1619
+	1618 -> 1616
+	1618 -> 1619
+	1619 -> 1620
+	rankdir=LR
+}

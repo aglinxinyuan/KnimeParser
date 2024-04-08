@@ -1,0 +1,39 @@
+digraph {
+	933 [label="Interactive Table _legacy_"]
+	934 [label=XPath]
+	935 [label="Webpage Retriever"]
+	938 [label="Excel Writer"]
+	940 [label="Excel Reader"]
+	946 [label="String Manipulation"]
+	950 [label="Cross Joiner"]
+	951 [label="Loop End"]
+	954 [label="Cross Joiner"]
+	955 [label=XPath]
+	956 [label="Webpage Retriever"]
+	957 [label="Group Loop Start"]
+	958 [label="Excel Writer"]
+	967 [label="Row Filter"]
+	971 [label="Column Filter"]
+	972 [label="Nominal Value Row Filter"]
+	973 [label="Excel Reader"]
+	974 [label="Excel Reader"]
+	975 [label="Excel Reader"]
+	934 -> 933
+	934 -> 938
+	935 -> 934
+	940 -> 935
+	946 -> 956
+	950 -> 954
+	954 -> 946
+	955 -> 958
+	955 -> 951
+	956 -> 971
+	957 -> 954
+	967 -> 957
+	971 -> 955
+	972 -> 950
+	973 -> 967
+	974 -> 950
+	975 -> 972
+	rankdir=LR
+}

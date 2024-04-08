@@ -1,0 +1,22 @@
+digraph {
+	1 [label="File Reader"]
+	3 [label="Table Row To Variable Loop Start"]
+	4 [label=Transpose]
+	5 [label="Rule_based Row Filter"]
+	6 [label="String Manipulation"]
+	7 [label="Java Edit Variable _simple_"]
+	8 [label="CSV Writer"]
+	9 [label="Variable Loop End"]
+	10 [label="Column Rename"]
+	1 -> 3
+	1 -> 5
+	3 -> 5
+	3 -> 7
+	4 -> 10
+	5 -> 4
+	6 -> 8
+	7 -> 8
+	8 -> 9
+	10 -> 6
+	rankdir=LR
+}

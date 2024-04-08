@@ -1,0 +1,115 @@
+digraph {
+	2 [label="Strings To Document"]
+	16 [label="Keras Network Learner"]
+	19 [label="Dict Replacer _2 In_Ports_"]
+	17 [label="Rule Engine"]
+	19 [label="Math Formula"]
+	20 [label="Number To String"]
+	83 [label="Scorer _JavaScript_"]
+	65 [label=Shuffle]
+	79 [label=Partitioning]
+	83 [label="String To Number"]
+	84 [label="String To Number"]
+	86 [label="Number To String"]
+	103 [label="Keras Network Writer"]
+	21 [label="Document Data Extractor"]
+	22 [label="Create Collection Column"]
+	31 [label="Column Filter"]
+	119 [label="Missing Value"]
+	120 [label="WrappedNode Input"]
+	121 [label="WrappedNode Output"]
+	122 [label="Cell Splitter"]
+	9 [label="Dict Replacer _2 In_Ports_"]
+	11 [label="Document Data Extractor"]
+	12 [label="String Manipulation"]
+	13 [label="Strings To Document"]
+	27 [label="Math Formula _Variable_"]
+	29 [label="Column Filter"]
+	31 [label="WrappedNode Output"]
+	32 [label="WrappedNode Input"]
+	32 [label="Math Formula _Variable_"]
+	97 [label="Counter Generation"]
+	102 [label="Row Splitter"]
+	103 [label="Constant Value Column"]
+	104 [label=Concatenate]
+	144 [label="Column Rename"]
+	145 [label="Column Filter"]
+	146 [label="WrappedNode Input"]
+	147 [label="WrappedNode Output"]
+	128 [label="Integer Input"]
+	135 [label="Integer Input"]
+	136 [label="WrappedNode Input"]
+	139 [label="WrappedNode Output"]
+	155 [label="Math Formula _Variable_"]
+	156 [label="Merge Variables"]
+	178 [label="Conda Environment Propagation"]
+	180 [label="Keras Input Layer"]
+	184 [label="Keras Embedding Layer"]
+	185 [label="Keras LSTM Layer"]
+	186 [label="Keras Dense Layer"]
+	187 [label="Keras Network Executor"]
+	188 [label="Table Reader"]
+	189 [label="Table Reader"]
+	1035 [label="Conda Environment Propagation"]
+	1036 [label="Merge Variables"]
+	17 -> 19
+	19 -> 20
+	65 -> 65
+	79 -> 84
+	79 -> 83
+	84 -> 79
+	21 -> 122
+	22 -> 31
+	31 -> 121
+	119 -> 22
+	120 -> 21
+	122 -> 119
+	9 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 29
+	27 -> 12
+	29 -> 31
+	32 -> 9
+	32 -> 9
+	32 -> 27
+	32 -> 103
+	97 -> 104
+	102 -> 103
+	102 -> 97
+	103 -> 145
+	104 -> 147
+	144 -> 104
+	145 -> 144
+	146 -> 32
+	146 -> 102
+	146 -> 102
+	128 -> 155
+	135 -> 156
+	155 -> 156
+	156 -> 139
+	2 -> 163
+	16 -> 187
+	16 -> 103
+	19 -> 162
+	20 -> 83
+	84 -> 16
+	84 -> 187
+	162 -> 65
+	163 -> 19
+	164 -> 19
+	166 -> 164
+	166 -> 163
+	166 -> 1036
+	180 -> 184
+	184 -> 185
+	185 -> 186
+	186 -> 16
+	187 -> 17
+	188 -> 2
+	189 -> 164
+	189 -> 163
+	1035 -> 1036
+	1036 -> 180
+	rankdir=LR
+}

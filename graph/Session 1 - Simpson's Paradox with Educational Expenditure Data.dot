@@ -1,0 +1,26 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Linear Regression Learner"]
+	30 [label="Value Counter"]
+	31 [label="Value Counter"]
+	24 [label="Row Filter"]
+	25 [label="Row Filter"]
+	26 [label="Row Filter"]
+	27 [label="Row Filter"]
+	28 [label="Row Filter"]
+	29 [label="Row Filter"]
+	33 [label=GroupBy]
+	34 [label=GroupBy]
+	35 [label=GroupBy]
+	24 -> 25
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 29
+	1 -> 24
+	1 -> 30
+	29 -> 2
+	29 -> 33
+	29 -> 31
+	rankdir=LR
+}

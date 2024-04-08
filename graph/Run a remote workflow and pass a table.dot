@@ -1,0 +1,13 @@
+digraph {
+	10 [label="KNIME Server Connector"]
+	17 [label="KNIME Space Connector"]
+	18 [label="Call Workflow _Table Based_"]
+	20 [label="Table Reader"]
+	23 [label="Variable Creator"]
+	24 [label=Scorer]
+	17 -> 18
+	18 -> 24
+	20 -> 18
+	23 -> 20
+	rankdir=LR
+}

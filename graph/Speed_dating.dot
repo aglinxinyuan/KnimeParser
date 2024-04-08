@@ -1,0 +1,28 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Missing Value Column Filter"]
+	6 [label="Row Filter"]
+	7 [label="Rule_based Row Filter"]
+	8 [label=GroupBy]
+	9 [label=Pivoting]
+	10 [label="Pie Chart _JFreeChart_"]
+	11 [label="Color Manager"]
+	12 [label="Data Explorer"]
+	13 [label="Decision Tree Learner"]
+	14 [label="Decision Tree Predictor"]
+	29 [label=Partitioning]
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 11
+	11 -> 12
+	12 -> 29
+	13 -> 14
+	29 -> 13
+	29 -> 14
+	rankdir=LR
+}

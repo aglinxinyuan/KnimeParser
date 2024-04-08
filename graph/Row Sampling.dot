@@ -1,0 +1,12 @@
+digraph {
+	4 [label="Table Creator"]
+	19 [label="Row Sampling"]
+	20 [label="Row Sampling"]
+	21 [label="Row Sampling"]
+	22 [label="Row Sampling"]
+	4 -> 19
+	4 -> 20
+	4 -> 21
+	4 -> 22
+	rankdir=LR
+}

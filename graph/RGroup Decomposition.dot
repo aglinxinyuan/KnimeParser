@@ -1,0 +1,23 @@
+digraph {
+	1 [label="RDKit R_Group Decomposition"]
+	2 [label="File Reader"]
+	3 [label=Pivoting]
+	4 [label="File Reader"]
+	5 [label="RDKit R_Group Decomposition"]
+	6 [label=Pivoting]
+	7 [label="File Reader"]
+	8 [label="RDKit R_Group Decomposition"]
+	9 [label=Pivoting]
+	10 [label="RDKit R_Group Decomposition"]
+	11 [label="File Reader"]
+	12 [label=Pivoting]
+	2 -> 3
+	3 -> 1
+	4 -> 6
+	6 -> 5
+	7 -> 9
+	9 -> 8
+	11 -> 12
+	12 -> 10
+	rankdir=LR
+}

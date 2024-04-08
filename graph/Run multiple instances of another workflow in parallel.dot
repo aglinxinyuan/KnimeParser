@@ -1,0 +1,16 @@
+digraph {
+	10 [label="KNIME Server Connector"]
+	16 [label="Parallel Chunk Start"]
+	17 [label="Parallel Chunk End"]
+	18 [label="Table Reader"]
+	21 [label="KNIME Space Connector"]
+	23 [label="Variable Creator"]
+	24 [label=Scorer]
+	25 [label="Call Workflow _Table Based_"]
+	16 -> 25
+	17 -> 24
+	18 -> 16
+	23 -> 16
+	25 -> 17
+	rankdir=LR
+}

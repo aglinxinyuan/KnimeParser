@@ -1,0 +1,51 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	3 [label=Fingerprints]
+	4 [label=Fingerprints]
+	5 [label="Fingerprint Similarity"]
+	6 [label=Ungroup]
+	9 [label=RowID]
+	10 [label="String Manipulation"]
+	11 [label="Cell Splitter"]
+	12 [label="Table Manipulator"]
+	13 [label=Joiner]
+	14 [label="Row Filter"]
+	15 [label="Table Creator"]
+	16 [label="Table Creator"]
+	17 [label=Fingerprints]
+	18 [label=Fingerprints]
+	19 [label="Fingerprint Similarity"]
+	25 [label=Joiner]
+	26 [label="Row Filter"]
+	28 [label="RDKit Find Murcko Scaffolds"]
+	29 [label="RDKit Find Murcko Scaffolds"]
+	30 [label="RDKit Find Murcko Scaffolds"]
+	31 [label="RDKit Find Murcko Scaffolds"]
+	32 [label="Table Manipulator"]
+	1 -> 30
+	2 -> 31
+	3 -> 5
+	4 -> 5
+	4 -> 13
+	5 -> 6
+	6 -> 9
+	9 -> 11
+	10 -> 13
+	11 -> 10
+	12 -> 14
+	13 -> 12
+	15 -> 28
+	16 -> 29
+	17 -> 19
+	18 -> 19
+	18 -> 25
+	19 -> 25
+	25 -> 32
+	28 -> 17
+	29 -> 18
+	30 -> 3
+	31 -> 4
+	32 -> 26
+	rankdir=LR
+}

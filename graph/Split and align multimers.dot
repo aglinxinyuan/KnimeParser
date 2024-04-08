@@ -1,0 +1,42 @@
+digraph {
+	46 [label="IF Switch"]
+	47 [label="End IF"]
+	73 [label="Get PDB"]
+	77 [label="Run Maestro"]
+	49 [label="Math Formula"]
+	51 [label="Table Row to Variable _deprecated_"]
+	52 [label="Java Snippet _simple_"]
+	55 [label="Ungroup MAE"]
+	72 [label="Row Filter"]
+	79 [label="Extract Properties"]
+	81 [label="Align Binding Sites"]
+	82 [label="Chunk Loop Start"]
+	83 [label="Loop End"]
+	56 [label="Group MAE"]
+	68 [label="Java Snippet _simple_"]
+	69 [label="Column Filter"]
+	86 [label="Molecule Writer _from MAE_"]
+	11 [label="Split by Structure"]
+	70 [label="Assign Bond Orders"]
+	49 -> 52
+	52 -> 51
+	55 -> 79
+	72 -> 49
+	79 -> 72
+	56 -> 69
+	68 -> 56
+	70 -> 11
+	46 -> 47
+	46 -> 81
+	47 -> 68
+	73 -> 70
+	72 -> 46
+	72 -> 46
+	81 -> 47
+	82 -> 55
+	83 -> 86
+	83 -> 77
+	69 -> 83
+	11 -> 82
+	rankdir=LR
+}

@@ -1,0 +1,22 @@
+digraph {
+	10 [label="Polynomial Regression Learner"]
+	11 [label="Group Loop Start"]
+	22 [label=Transpose]
+	24 [label=RowID]
+	564 [label="Column List Loop Start"]
+	565 [label="Excel Reader"]
+	566 [label="Column Filter"]
+	567 [label="Column Aggregator"]
+	568 [label="Loop End _Column Append_"]
+	569 [label="Loop End"]
+	10 -> 566
+	11 -> 564
+	22 -> 568
+	24 -> 22
+	564 -> 10
+	565 -> 11
+	566 -> 567
+	567 -> 24
+	568 -> 569
+	rankdir=LR
+}

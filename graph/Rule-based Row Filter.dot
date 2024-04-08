@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	10 [label="Rule_based Row Filter"]
+	11 [label="Rule_based Row Filter"]
+	12 [label="Rule_based Row Filter"]
+	13 [label="Rule_based Row Filter"]
+	1 -> 10
+	1 -> 11
+	1 -> 12
+	1 -> 13
+	rankdir=LR
+}

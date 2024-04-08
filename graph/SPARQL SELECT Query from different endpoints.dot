@@ -1,0 +1,14 @@
+digraph {
+	17 [label="SPARQL Select Query"]
+	18 [label="Virtuoso Endpoint"]
+	20 [label="SPARQL Select Query"]
+	21 [label="SPARQL Endpoint"]
+	23 [label="In_Memory Endpoint"]
+	24 [label="SPARQL File Inserter"]
+	25 [label="SPARQL Select Query"]
+	18 -> 17
+	21 -> 20
+	23 -> 24
+	24 -> 25
+	rankdir=LR
+}

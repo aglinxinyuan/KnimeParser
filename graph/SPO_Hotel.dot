@@ -1,0 +1,17 @@
+digraph {
+	2 [label="CSV Reader"]
+	3 [label="Missing Value"]
+	4 [label="Missing Value Column Filter"]
+	5 [label="Missing Value _Apply_"]
+	6 [label=Auto_Binner]
+	7 [label="Column Filter"]
+	8 [label=Normalizer]
+	2 -> 7
+	3 -> 5
+	4 -> 5
+	5 -> 8
+	7 -> 4
+	7 -> 3
+	8 -> 6
+	rankdir=LR
+}

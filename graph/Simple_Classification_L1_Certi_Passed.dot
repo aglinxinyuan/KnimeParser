@@ -1,0 +1,31 @@
+digraph {
+	1 [label="CSV Reader"]
+	15 [label="Keras Input Layer"]
+	16 [label="Keras Dense Layer"]
+	17 [label="Keras Dense Layer"]
+	18 [label="Rule Engine"]
+	19 [label=Partitioning]
+	20 [label=Partitioning]
+	21 [label=Normalizer]
+	22 [label="Normalizer _Apply_"]
+	23 [label="Rule Engine"]
+	24 [label="Keras Network Learner"]
+	25 [label=Scorer]
+	26 [label="Keras Network Executor"]
+	1 -> 18
+	15 -> 16
+	16 -> 17
+	17 -> 24
+	18 -> 19
+	19 -> 21
+	19 -> 22
+	20 -> 24
+	20 -> 26
+	21 -> 22
+	21 -> 24
+	22 -> 20
+	23 -> 25
+	24 -> 26
+	26 -> 23
+	rankdir=LR
+}

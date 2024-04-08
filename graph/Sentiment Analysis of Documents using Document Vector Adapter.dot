@@ -1,0 +1,104 @@
+digraph {
+	275 [label="Category to class"]
+	276 [label="Color Manager"]
+	277 [label=Partitioning]
+	279 [label="Decision Tree Predictor"]
+	280 [label=Scorer]
+	6 [label="Column Filter"]
+	7 [label="WrappedNode Input"]
+	8 [label="WrappedNode Output"]
+	9 [label="Strings To Document"]
+	289 [label="File Reader"]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case converter"]
+	34 [label="Snowball Stemmer"]
+	35 [label="WrappedNode Input"]
+	36 [label="WrappedNode Output"]
+	37 [label="Stop Word Filter"]
+	291 [label="Decision Tree Learner"]
+	6 [label="Column Filter"]
+	7 [label="WrappedNode Input"]
+	8 [label="WrappedNode Output"]
+	9 [label="Strings To Document"]
+	29 [label="Punctuation Erasure"]
+	30 [label="Number Filter"]
+	31 [label="N Chars Filter"]
+	33 [label="Case converter"]
+	34 [label="Snowball Stemmer"]
+	35 [label="WrappedNode Input"]
+	36 [label="WrappedNode Output"]
+	37 [label="Stop Word Filter"]
+	295 [label="Category to class"]
+	296 [label="Color Manager"]
+	8 [label="Term to String"]
+	9 [label=GroupBy]
+	10 [label="Row Filter"]
+	11 [label="Reference Row Filter"]
+	12 [label=TF]
+	66 [label="Extract Table Dimension"]
+	67 [label="Java Edit Variable"]
+	68 [label="WrappedNode Input"]
+	69 [label="WrappedNode Output"]
+	70 [label="Bag Of Words Creator"]
+	12 [label=TF]
+	299 [label="WrappedNode Input"]
+	300 [label="WrappedNode Output"]
+	301 [label="Bag Of Words Creator"]
+	302 [label="Document Vector"]
+	303 [label="Document Vector Applier"]
+	6 -> 8
+	7 -> 9
+	9 -> 6
+	29 -> 30
+	30 -> 31
+	31 -> 37
+	33 -> 34
+	34 -> 36
+	35 -> 29
+	37 -> 33
+	6 -> 8
+	7 -> 9
+	9 -> 6
+	29 -> 30
+	30 -> 31
+	31 -> 37
+	33 -> 34
+	34 -> 36
+	35 -> 29
+	37 -> 33
+	8 -> 9
+	8 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 69
+	66 -> 67
+	67 -> 10
+	68 -> 70
+	68 -> 66
+	70 -> 8
+	12 -> 300
+	299 -> 301
+	301 -> 12
+	275 -> 276
+	276 -> 291
+	277 -> 287
+	277 -> 292
+	279 -> 280
+	287 -> 290
+	289 -> 277
+	290 -> 297
+	291 -> 279
+	292 -> 293
+	293 -> 299
+	295 -> 296
+	296 -> 279
+	297 -> 302
+	299 -> 303
+	302 -> 303
+	302 -> 275
+	303 -> 295
+	rankdir=LR
+}

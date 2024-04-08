@@ -1,0 +1,16 @@
+digraph {
+	62 [label=Sorter]
+	77 [label="Excel Reader"]
+	78 [label="Number To String"]
+	79 [label="String to Date_Time"]
+	80 [label="Excel Reader"]
+	81 [label=Joiner]
+	86 [label="Excel Writer"]
+	62 -> 86
+	77 -> 78
+	78 -> 79
+	79 -> 81
+	80 -> 81
+	81 -> 62
+	rankdir=LR
+}

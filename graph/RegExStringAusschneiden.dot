@@ -1,0 +1,34 @@
+digraph {
+	36 [label="Regex Split"]
+	37 [label="Table Creator"]
+	38 [label="Regex Split"]
+	39 [label="Regex Split"]
+	40 [label="Row Splitter"]
+	41 [label="Row Splitter"]
+	42 [label="String Manipulation"]
+	43 [label=Concatenate]
+	44 [label=Concatenate]
+	45 [label=RowID]
+	46 [label=Sorter]
+	47 [label="String Manipulation"]
+	48 [label="Column Auto Type Cast"]
+	49 [label="Column Filter"]
+	50 [label="Column Rename"]
+	36 -> 38
+	36 -> 39
+	37 -> 45
+	39 -> 40
+	40 -> 41
+	40 -> 44
+	41 -> 43
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	44 -> 46
+	45 -> 47
+	46 -> 49
+	47 -> 48
+	48 -> 36
+	49 -> 50
+	rankdir=LR
+}

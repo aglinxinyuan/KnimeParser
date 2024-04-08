@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="Table Reader"]
+	217 [label="Column Resorter"]
+	221 [label=Sorter]
+	225 [label="Stacked Area Chart"]
+	1 -> 217
+	2 -> 221
+	217 -> 225
+	221 -> 225
+	rankdir=LR
+}

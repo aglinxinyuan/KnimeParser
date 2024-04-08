@@ -1,0 +1,44 @@
+digraph {
+	326 [label="Table Creator"]
+	381 [label="Stanford Lemmatizer"]
+	407 [label="Snowball Stemmer"]
+	384 [label="Term to String"]
+	385 [label="Term to String"]
+	387 [label=Joiner]
+	388 [label="Column Filter"]
+	405 [label="Column Rename"]
+	406 [label="Column Rename"]
+	408 [label="Column Rename"]
+	410 [label="Term to String"]
+	411 [label=Joiner]
+	412 [label="WrappedNode Input"]
+	413 [label="WrappedNode Output"]
+	413 [label="Strings To Document"]
+	414 [label="Stanford Tagger"]
+	415 [label="Bag Of Words Creator"]
+	416 [label="Bag Of Words Creator"]
+	417 [label="Bag Of Words Creator"]
+	384 -> 405
+	385 -> 406
+	387 -> 411
+	388 -> 413
+	405 -> 387
+	406 -> 387
+	408 -> 411
+	410 -> 408
+	411 -> 388
+	412 -> 410
+	412 -> 384
+	412 -> 385
+	326 -> 413
+	381 -> 415
+	407 -> 416
+	413 -> 414
+	413 -> 407
+	413 -> 417
+	414 -> 381
+	415 -> 412
+	416 -> 412
+	417 -> 412
+	rankdir=LR
+}

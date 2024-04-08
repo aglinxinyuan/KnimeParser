@@ -1,0 +1,472 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="String to Date_Time"]
+	4 [label="Extract Date_Time Fields"]
+	5 [label="Math Formula"]
+	7 [label="Date_Time Input"]
+	8 [label="Integer Input"]
+	16 [label="Math Formula"]
+	18 [label="Rule_based Row Filter"]
+	45 [label="PostgreSQL Connector"]
+	46 [label="DB Table Selector"]
+	58 [label="CSV Reader"]
+	59 [label="PostgreSQL Connector"]
+	60 [label="DB Table Creator"]
+	61 [label="DB SQL Executor"]
+	62 [label="DB Query Extractor"]
+	63 [label="DB Writer"]
+	64 [label="DB Query Extractor"]
+	65 [label="DB Table Selector"]
+	66 [label="DB Connector"]
+	67 [label="DB Query Reader"]
+	68 [label="DB Loader"]
+	69 [label="DB Table Selector"]
+	203 [label="Rule_based Row Filter"]
+	245 [label=GroupBy]
+	246 [label="String To Number"]
+	250 [label="Rule Engine"]
+	253 [label="String Manipulation"]
+	255 [label="String to Date_Time"]
+	267 [label=Histogram]
+	268 [label="Number To String"]
+	278 [label="Color Manager"]
+	279 [label="Bar Chart _JavaScript_"]
+	260 [label=Pivoting]
+	263 [label="Line Plot _JavaScript_"]
+	261 [label="Line Plot"]
+	263 [label="Line Plot _JavaScript_"]
+	264 [label=RowID]
+	265 [label="Date_Time to String"]
+	266 [label="Line Plot _JavaScript_"]
+	280 [label="Column Filter"]
+	283 [label=Normalizer]
+	292 [label=GroupBy]
+	293 [label="Rule_based Row Filter"]
+	294 [label="CSV Reader"]
+	295 [label=Joiner]
+	296 [label=GroupBy]
+	298 [label="String to Date_Time"]
+	299 [label="String Manipulation"]
+	300 [label="Math Formula"]
+	302 [label="R View _Table_"]
+	303 [label="R View _Table_"]
+	304 [label="R View _Table_"]
+	305 [label=GroupBy]
+	304 [label="List Files"]
+	305 [label="Table Row To Variable Loop Start"]
+	306 [label="File Reader"]
+	307 [label="Loop End"]
+	308 [label="CSV Writer"]
+	309 [label="String Manipulation"]
+	310 [label="String Replacer"]
+	312 [label="String Manipulation"]
+	313 [label="String Manipulation"]
+	314 [label="String Manipulation"]
+	318 [label="String Manipulation"]
+	319 [label="Column Filter"]
+	320 [label=Joiner]
+	321 [label="File Reader"]
+	322 [label="File Reader"]
+	323 [label=Joiner]
+	325 [label="CSV Reader"]
+	331 [label="CSV Reader"]
+	332 [label=Joiner]
+	333 [label="Row Filter"]
+	334 [label="CSV Writer"]
+	336 [label="Math Formula"]
+	337 [label="Math Formula"]
+	338 [label="Math Formula"]
+	339 [label="Rule_based Row Filter"]
+	340 [label=Sorter]
+	341 [label="Row Filter"]
+	342 [label="Row Filter"]
+	343 [label="Row Filter"]
+	344 [label="Row Filter"]
+	346 [label="Lag Column"]
+	347 [label="Lag Column"]
+	348 [label="Lag Column"]
+	349 [label="Lag Column"]
+	350 [label="Lag Column"]
+	351 [label="Lag Column"]
+	352 [label="Lag Column"]
+	353 [label="Lag Column"]
+	354 [label="Lag Column"]
+	355 [label="Lag Column"]
+	356 [label="Lag Column"]
+	357 [label=Sorter]
+	358 [label="Lag Column"]
+	359 [label="Lag Column"]
+	360 [label=Sorter]
+	363 [label=Sorter]
+	366 [label=Sorter]
+	369 [label=Concatenate]
+	370 [label="Lag Column"]
+	371 [label="Lag Column"]
+	372 [label="Lag Column"]
+	373 [label="Lag Column"]
+	374 [label="Lag Column"]
+	375 [label="Lag Column"]
+	376 [label=Concatenate]
+	377 [label=Concatenate]
+	403 [label="Number To String"]
+	415 [label=Statistics]
+	27 [label="Row Filter"]
+	28 [label="Column Filter"]
+	29 [label="Line Plot"]
+	30 [label=Sorter]
+	200 [label=RowID]
+	201 [label="Date_Time to String"]
+	202 [label="Line Plot _JavaScript_"]
+	204 [label="Rule_based Row Filter"]
+	205 [label="Column Filter"]
+	236 [label="Moving Average"]
+	237 [label="Line Plot _JavaScript_"]
+	238 [label="Column Filter"]
+	431 [label="CSV Writer"]
+	432 [label=Statistics]
+	260 [label=Pivoting]
+	302 [label="R View _Table_"]
+	43 [label="DB Loader"]
+	44 [label="DB Writer"]
+	45 [label="PostgreSQL Connector"]
+	46 [label="DB Table Selector"]
+	47 [label="DB Connector"]
+	48 [label="DB Query Reader"]
+	53 [label="DB SQL Executor"]
+	54 [label="DB Query Extractor"]
+	55 [label="DB Query Extractor"]
+	56 [label="DB Table Selector"]
+	57 [label="DB Table Creator"]
+	430 [label="Timer Info"]
+	435 [label="CSV Reader"]
+	436 [label="DB SQL Executor"]
+	439 [label="DB Query"]
+	440 [label="DB Column Filter"]
+	441 [label="DB Column Rename"]
+	442 [label="DB Query"]
+	443 [label="DB Query"]
+	444 [label="DB GroupBy"]
+	446 [label="DB Type Mapper"]
+	452 [label="DB Column Filter"]
+	453 [label="DB Column Rename"]
+	454 [label="DB Query"]
+	457 [label="Lag Column"]
+	458 [label="DB Row Filter"]
+	459 [label="DB Row Filter"]
+	460 [label="DB Sorter"]
+	461 [label="DB Reader"]
+	463 [label="Table to R"]
+	464 [label="R to Table"]
+	465 [label="Table to R"]
+	466 [label="R to Table"]
+	467 [label="R To R"]
+	468 [label="Number To String"]
+	470 [label="R To R"]
+	474 [label="String to Date_Time"]
+	476 [label="Rule_based Row Filter"]
+	492 [label="Table to R"]
+	494 [label="Rule_based Row Filter"]
+	495 [label="CSV Reader"]
+	500 [label="DB Writer"]
+	501 [label="PostgreSQL Connector"]
+	502 [label="Timer Info"]
+	503 [label="CSV Reader"]
+	504 [label="Column Filter"]
+	505 [label="Column Rename"]
+	19 [label="String Manipulation"]
+	216 [label="Line Plot"]
+	220 [label=GroupBy]
+	383 [label="Rule_based Row Splitter"]
+	386 [label="Table to H2O"]
+	387 [label="H2O Local Context"]
+	392 [label="H2O Local Context"]
+	394 [label="Table to H2O"]
+	398 [label=GroupBy]
+	399 [label="Math Formula"]
+	400 [label="H2O Numeric Scorer"]
+	401 [label="H2O Predictor _Regression_"]
+	402 [label="Column Filter"]
+	403 [label="H2O to Table"]
+	404 [label=Sorter]
+	408 [label="Row Filter"]
+	414 [label="H2O Gradient Boosting Machine Learner _Regression_"]
+	415 [label="Row Filter"]
+	216 [label="Line Plot"]
+	220 [label=GroupBy]
+	382 [label="Rule_based Row Splitter"]
+	398 [label=GroupBy]
+	399 [label="Math Formula"]
+	404 [label=Sorter]
+	477 [label="R to Table"]
+	478 [label="String to Date_Time"]
+	484 [label="Rule_based Row Filter"]
+	486 [label="R View _Workspace_"]
+	487 [label="Table to R"]
+	488 [label="R View _Workspace_"]
+	489 [label="R View _Workspace_"]
+	490 [label="R View _Workspace_"]
+	491 [label="Table to R"]
+	492 [label="Table to R"]
+	493 [label="Rule_based Row Filter"]
+	494 [label="Table to R"]
+	495 [label="Column Filter"]
+	508 [label="DB Connector"]
+	513 [label="Excel Reader _XLS_"]
+	515 [label="Row Filter"]
+	516 [label="Rule_based Row Filter"]
+	517 [label="Nominal Value Row Filter"]
+	518 [label=Sorter]
+	519 [label="Column Filter"]
+	520 [label="Reference Column Filter"]
+	521 [label="Constant Value Column Filter"]
+	522 [label="Column Comparator"]
+	523 [label=SMOTE]
+	524 [label="Column Rename"]
+	525 [label="DB Row Filter"]
+	526 [label="DB Row Filter"]
+	527 [label="DB Query"]
+	528 [label="DB Sorter"]
+	529 [label="DB Column Filter"]
+	530 [label="DB Query"]
+	531 [label="DB Column Rename"]
+	532 [label="DB Joiner"]
+	533 [label="DB Query"]
+	534 [label="DB Query Extractor"]
+	535 [label=GroupBy]
+	536 [label="DB GroupBy"]
+	518 [label="DB Reader"]
+	519 [label="Color Manager"]
+	520 [label="Linear Correlation"]
+	521 [label="Rule_based Row Splitter"]
+	7 -> 8
+	58 -> 63
+	58 -> 68
+	59 -> 65
+	59 -> 69
+	63 -> 62
+	66 -> 67
+	66 -> 68
+	66 -> 63
+	66 -> 60
+	66 -> 61
+	68 -> 64
+	268 -> 278
+	278 -> 279
+	278 -> 267
+	264 -> 261
+	265 -> 264
+	280 -> 265
+	260 -> 281
+	260 -> 281
+	260 -> 283
+	283 -> 263
+	292 -> 293
+	293 -> 295
+	294 -> 295
+	295 -> 299
+	296 -> 302
+	296 -> 303
+	296 -> 304
+	298 -> 300
+	299 -> 298
+	300 -> 296
+	300 -> 305
+	27 -> 201
+	28 -> 30
+	30 -> 204
+	30 -> 29
+	200 -> 28
+	201 -> 200
+	204 -> 205
+	204 -> 238
+	205 -> 202
+	236 -> 237
+	238 -> 236
+	260 -> 302
+	43 -> 55
+	43 -> 430
+	44 -> 54
+	45 -> 46
+	45 -> 56
+	47 -> 44
+	47 -> 43
+	47 -> 57
+	47 -> 53
+	47 -> 48
+	47 -> 436
+	435 -> 43
+	435 -> 44
+	19 -> 216
+	220 -> 404
+	383 -> 387
+	383 -> 386
+	386 -> 414
+	387 -> 386
+	392 -> 394
+	394 -> 401
+	399 -> 398
+	401 -> 400
+	401 -> 403
+	402 -> 394
+	402 -> 392
+	403 -> 408
+	403 -> 220
+	404 -> 19
+	408 -> 415
+	414 -> 401
+	415 -> 399
+	220 -> 404
+	382 -> 495
+	399 -> 398
+	404 -> 216
+	477 -> 478
+	478 -> 220
+	478 -> 493
+	478 -> 484
+	484 -> 487
+	487 -> 486
+	491 -> 490
+	491 -> 489
+	491 -> 488
+	493 -> 399
+	494 -> 477
+	495 -> 494
+	515 -> 517
+	516 -> 518
+	517 -> 516
+	518 -> 520
+	519 -> 521
+	520 -> 522
+	521 -> 524
+	522 -> 523
+	522 -> 535
+	524 -> 520
+	525 -> 526
+	526 -> 527
+	527 -> 528
+	528 -> 532
+	528 -> 534
+	529 -> 530
+	530 -> 531
+	531 -> 532
+	532 -> 533
+	533 -> 536
+	1 -> 415
+	1 -> 250
+	3 -> 4
+	4 -> 253
+	5 -> 336
+	14 -> 5
+	16 -> 520
+	16 -> 428
+	16 -> 203
+	18 -> 282
+	18 -> 284
+	18 -> 434
+	45 -> 46
+	46 -> 518
+	46 -> 517
+	46 -> 439
+	203 -> 339
+	203 -> 18
+	245 -> 431
+	246 -> 3
+	250 -> 246
+	253 -> 255
+	255 -> 245
+	304 -> 305
+	305 -> 306
+	306 -> 318
+	307 -> 308
+	307 -> 432
+	309 -> 312
+	310 -> 309
+	312 -> 313
+	313 -> 314
+	314 -> 319
+	318 -> 310
+	319 -> 320
+	320 -> 307
+	321 -> 323
+	322 -> 320
+	323 -> 332
+	325 -> 323
+	331 -> 333
+	332 -> 334
+	333 -> 332
+	336 -> 337
+	337 -> 338
+	338 -> 16
+	339 -> 340
+	340 -> 341
+	340 -> 342
+	340 -> 343
+	340 -> 344
+	341 -> 457
+	342 -> 348
+	343 -> 353
+	344 -> 356
+	346 -> 347
+	347 -> 357
+	348 -> 349
+	349 -> 350
+	350 -> 360
+	351 -> 352
+	352 -> 363
+	353 -> 351
+	354 -> 355
+	355 -> 366
+	356 -> 354
+	357 -> 358
+	358 -> 359
+	359 -> 369
+	360 -> 371
+	363 -> 373
+	366 -> 375
+	369 -> 377
+	370 -> 369
+	371 -> 370
+	372 -> 376
+	373 -> 372
+	374 -> 376
+	375 -> 374
+	376 -> 377
+	377 -> 403
+	403 -> 382
+	439 -> 440
+	440 -> 441
+	441 -> 446
+	442 -> 443
+	443 -> 452
+	444 -> 454
+	446 -> 442
+	452 -> 453
+	453 -> 444
+	454 -> 458
+	457 -> 346
+	458 -> 460
+	460 -> 461
+	461 -> 463
+	461 -> 465
+	463 -> 470
+	464 -> 474
+	465 -> 467
+	467 -> 466
+	468 -> 476
+	468 -> 494
+	470 -> 464
+	474 -> 468
+	476 -> 521
+	494 -> 492
+	495 -> 519
+	500 -> 502
+	501 -> 500
+	503 -> 303
+	503 -> 5
+	504 -> 505
+	505 -> 500
+	478 -> 504
+	518 -> 517
+	521 -> 402
+	rankdir=LR
+}

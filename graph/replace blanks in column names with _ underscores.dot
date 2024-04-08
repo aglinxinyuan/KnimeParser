@@ -1,0 +1,18 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Extract Column Header"]
+	3 [label="String Manipulation"]
+	4 [label=Transpose]
+	5 [label="Insert Column Header"]
+	6 [label="Extract Table Dimension"]
+	7 [label="Table Column to Variable"]
+	1 -> 2
+	1 -> 6
+	2 -> 4
+	2 -> 5
+	3 -> 5
+	4 -> 3
+	6 -> 7
+	7 -> 4
+	rankdir=LR
+}

@@ -1,0 +1,28 @@
+digraph {
+	29 [label="Table Writer"]
+	31 [label="SQLite Connector"]
+	32 [label="DB Writer"]
+	33 [label="DB Writer"]
+	34 [label="DB Writer"]
+	35 [label="DB SQL Executor"]
+	36 [label="DB Query Reader"]
+	37 [label="Excel Reader _XLS_"]
+	38 [label="Excel Reader _XLS_"]
+	39 [label="Excel Reader _XLS_"]
+	40 [label="Excel Sheet Appender _XLS_"]
+	31 -> 36
+	31 -> 35
+	31 -> 34
+	31 -> 33
+	31 -> 32
+	32 -> 33
+	33 -> 34
+	34 -> 35
+	35 -> 36
+	36 -> 29
+	36 -> 40
+	37 -> 32
+	38 -> 33
+	39 -> 34
+	rankdir=LR
+}

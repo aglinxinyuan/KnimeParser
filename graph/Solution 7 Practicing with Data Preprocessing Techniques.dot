@@ -1,0 +1,25 @@
+digraph {
+	95 [label="Table Reader"]
+	97 [label="Numeric Outliers"]
+	100 [label="Box Plot"]
+	126 [label="Missing Value"]
+	127 [label="Category To Number"]
+	128 [label="One to Many"]
+	129 [label=PCA]
+	135 [label="Table Reader"]
+	136 [label=Normalizer]
+	137 [label=Normalizer]
+	138 [label=Statistics]
+	139 [label=Statistics]
+	95 -> 100
+	95 -> 97
+	97 -> 126
+	126 -> 129
+	129 -> 128
+	129 -> 127
+	135 -> 137
+	135 -> 136
+	136 -> 139
+	137 -> 138
+	rankdir=LR
+}

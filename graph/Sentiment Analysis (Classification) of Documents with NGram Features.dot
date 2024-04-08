@@ -1,0 +1,105 @@
+digraph {
+	288 [label="Color Manager"]
+	289 [label="File Reader"]
+	29 [label="Extract Table Dimension"]
+	31 [label="Java Edit Variable"]
+	32 [label="Table Row to Variable"]
+	34 [label="Punctuation Erasure"]
+	35 [label="Number Filter"]
+	36 [label="N Chars Filter"]
+	37 [label="Case converter"]
+	38 [label="Snowball Stemmer"]
+	39 [label="Stop word Filter"]
+	40 [label="Table Row to Variable"]
+	41 [label="Table Creator"]
+	6 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	292 [label="Category to class"]
+	16 [label=TF]
+	135 [label="NGram creator"]
+	140 [label="Term to String"]
+	141 [label="Column Filter"]
+	167 [label=GroupBy]
+	168 [label="Column Rename"]
+	169 [label="Row Filter"]
+	230 [label="Reference Row Filter"]
+	256 [label="NGram creator"]
+	257 [label="Row Filter"]
+	258 [label="Reference Row Filter"]
+	262 [label="Column Rename"]
+	263 [label="Column Resorter"]
+	264 [label=Joiner]
+	272 [label="Concatenate _Optional in_"]
+	288 [label="String to Term"]
+	291 [label="String to Term"]
+	292 [label="Column Rename"]
+	293 [label="Bag Of Words Creator"]
+	294 [label="Document Vector"]
+	295 [label="Document Vector"]
+	295 [label=Partitioning]
+	296 [label="Decision Tree Predictor"]
+	298 [label=Scorer]
+	299 [label="ROC Curve"]
+	301 [label=Partitioning]
+	302 [label="Category to class"]
+	303 [label="Color Manager"]
+	305 [label="Decision Tree Predictor"]
+	306 [label=Scorer]
+	307 [label=Joiner]
+	308 [label="Decision Tree Learner"]
+	309 [label="Decision Tree Learner"]
+	29 -> 32
+	31 -> 34
+	32 -> 31
+	34 -> 35
+	35 -> 36
+	36 -> 37
+	37 -> 38
+	38 -> 39
+	40 -> 31
+	41 -> 40
+	7 -> 6
+	16 -> 140
+	135 -> 258
+	140 -> 141
+	141 -> 167
+	141 -> 230
+	167 -> 168
+	168 -> 169
+	169 -> 230
+	230 -> 288
+	230 -> 272
+	256 -> 257
+	257 -> 258
+	258 -> 262
+	262 -> 264
+	263 -> 272
+	264 -> 292
+	272 -> 7
+	288 -> 293
+	6 -> 295
+	292 -> 263
+	293 -> 16
+	288 -> 295
+	289 -> 7
+	39 -> 293
+	39 -> 293
+	6 -> 34
+	292 -> 288
+	295 -> 292
+	295 -> 302
+	295 -> 296
+	295 -> 309
+	296 -> 298
+	296 -> 307
+	301 -> 308
+	301 -> 305
+	302 -> 303
+	303 -> 301
+	305 -> 307
+	305 -> 306
+	307 -> 299
+	308 -> 305
+	309 -> 296
+	rankdir=LR
+}

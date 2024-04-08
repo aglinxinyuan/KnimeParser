@@ -1,0 +1,66 @@
+digraph {
+	3 [label="Python Object Writer"]
+	5 [label="Column Rename"]
+	6 [label=Partitioning]
+	7 [label="Python Object Reader"]
+	56 [label="Extract Context Properties"]
+	104 [label="Conda Environment Propagation"]
+	105 [label="Merge Variables"]
+	247 [label="Table Reader"]
+	251 [label="Python Script _Labs_"]
+	252 [label="Python Script _Labs_"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	57 [label="Variable to Table Row"]
+	248 [label="Column Rename"]
+	249 [label="Table Row to Variable"]
+	250 [label="String to Path _Variable_"]
+	254 [label="Python Script _Labs_"]
+	255 [label="Python Script _Labs_"]
+	256 [label="Merge Variables"]
+	257 [label="Image To Table"]
+	258 [label="Renderer to Image"]
+	259 [label="Table To Image"]
+	2400 [label="Image Writer _Port_"]
+	2401 [label="Python Script _Labs_"]
+	2402 [label="Merge Variables"]
+	2403 [label="Parquet Writer"]
+	2404 [label="Conda Environment Propagation"]
+	2405 [label="Python Edit Variable"]
+	46 -> 249
+	47 -> 248
+	48 -> 47
+	57 -> 48
+	248 -> 46
+	249 -> 250
+	3 -> 2402
+	5 -> 6
+	5 -> 2401
+	5 -> 2403
+	6 -> 252
+	6 -> 251
+	56 -> 57
+	104 -> 105
+	104 -> 2405
+	105 -> 2401
+	105 -> 2402
+	105 -> 251
+	105 -> 252
+	105 -> 254
+	105 -> 256
+	105 -> 3
+	247 -> 5
+	251 -> 254
+	251 -> 3
+	250 -> 105
+	254 -> 256
+	255 -> 252
+	256 -> 255
+	257 -> 258
+	258 -> 259
+	259 -> 2400
+	2401 -> 257
+	2402 -> 7
+	rankdir=LR
+}

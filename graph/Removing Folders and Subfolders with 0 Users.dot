@@ -1,0 +1,42 @@
+digraph {
+	16 [label="Table Creator"]
+	25 [label="Row Splitter"]
+	27 [label="Table Row To Variable Loop Start"]
+	28 [label="Rule Engine"]
+	29 [label="String Manipulation _Variable_"]
+	30 [label="Loop End"]
+	35 [label="Table Row To Variable Loop Start"]
+	38 [label="String Manipulation"]
+	39 [label="Rule Engine"]
+	41 [label="Loop End"]
+	46 [label="String Manipulation"]
+	49 [label="Excel Writer"]
+	40 [label="Row Filter"]
+	42 [label="Column Filter"]
+	43 [label="Duplicate Row Filter"]
+	45 [label=GroupBy]
+	33 [label="Row Filter"]
+	34 [label="Column Filter"]
+	44 [label="Duplicate Row Filter"]
+	40 -> 42
+	42 -> 43
+	45 -> 40
+	33 -> 34
+	34 -> 44
+	16 -> 25
+	25 -> 27
+	25 -> 28
+	25 -> 38
+	27 -> 29
+	28 -> 30
+	29 -> 28
+	30 -> 33
+	35 -> 39
+	38 -> 39
+	39 -> 41
+	41 -> 45
+	46 -> 49
+	43 -> 46
+	44 -> 35
+	rankdir=LR
+}

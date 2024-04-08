@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Excel Reader"]
+	5 [label="Row Filter"]
+	144 [label="Math Formula _Multi Column_"]
+	145 [label="Column Filter Widget"]
+	1 -> 144
+	144 -> 145
+	145 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	20 [label=Heatmap]
+	22 [label="Scatter Plot"]
+	25 [label=GroupBy]
+	26 [label="Round Double"]
+	27 [label="Number To String"]
+	28 [label="Excel Reader _XLS_"]
+	29 [label="Bubble Chart _Plotly_"]
+	25 -> 27
+	26 -> 25
+	27 -> 20
+	28 -> 29
+	28 -> 26
+	28 -> 22
+	rankdir=LR
+}

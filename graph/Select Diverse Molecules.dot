@@ -1,0 +1,19 @@
+digraph {
+	44 [label="Canvas Fingerprint Generation"]
+	45 [label="Generate Pairwise Matrix"]
+	84 [label="Molecule Reader"]
+	85 [label="Table Viewer"]
+	182 [label="CSV Writer"]
+	8235 [label=MAE_to_Smiles]
+	8236 [label="Dissimilarity Selection _from Matrix_"]
+	8238 [label=Joiner]
+	44 -> 45
+	45 -> 8236
+	84 -> 44
+	84 -> 8235
+	8235 -> 8238
+	8236 -> 8238
+	8238 -> 182
+	8238 -> 85
+	rankdir=LR
+}

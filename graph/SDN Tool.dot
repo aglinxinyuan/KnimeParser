@@ -1,0 +1,15 @@
+digraph {
+	1 [label="GET Request"]
+	2 [label=XPath]
+	7 [label="CSV Reader"]
+	8 [label="Insert Column Header"]
+	9 [label="Table Creator"]
+	12 [label="Rule_based Row Filter"]
+	13 [label="Data to Report"]
+	1 -> 2
+	7 -> 8
+	8 -> 12
+	8 -> 13
+	9 -> 8
+	rankdir=LR
+}

@@ -1,0 +1,26 @@
+digraph {
+	1 [label="Setup Diagnosis"]
+	2 [label="Global Timer Info"]
+	3 [label="Extract System Properties"]
+	5 [label="Chemistry External Tool"]
+	9 [label="Table Viewer"]
+	10 [label="Table Viewer"]
+	11 [label="Table Viewer"]
+	12 [label="Table Viewer"]
+	14 [label=Sorter]
+	15 [label="Table Viewer"]
+	16361 [label=Sorter]
+	16362 [label="Row Filter"]
+	16363 [label="Chemistry External Tool"]
+	16364 [label="Chemistry External Tool"]
+	1 -> 10
+	2 -> 14
+	3 -> 11
+	5 -> 12
+	14 -> 9
+	16361 -> 16362
+	16362 -> 16363
+	16363 -> 15
+	16364 -> 16361
+	rankdir=LR
+}

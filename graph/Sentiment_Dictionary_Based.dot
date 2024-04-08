@@ -1,0 +1,36 @@
+digraph {
+	6 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	275 [label="Category to class"]
+	289 [label="File Reader"]
+	291 [label="File Reader"]
+	292 [label="File Reader"]
+	297 [label="Tags To String"]
+	302 [label=Pivoting]
+	303 [label=TF]
+	304 [label="Tag Filter"]
+	305 [label="Bag Of Words Creator"]
+	308 [label="Math Formula"]
+	309 [label="Rule Engine"]
+	310 [label=Scorer]
+	313 [label="Missing Value"]
+	315 [label="Dictionary Tagger"]
+	316 [label="Dictionary Tagger"]
+	6 -> 315
+	7 -> 6
+	275 -> 310
+	289 -> 7
+	291 -> 315
+	292 -> 316
+	297 -> 302
+	302 -> 313
+	303 -> 297
+	304 -> 305
+	305 -> 303
+	308 -> 309
+	309 -> 275
+	313 -> 308
+	315 -> 316
+	316 -> 304
+	rankdir=LR
+}

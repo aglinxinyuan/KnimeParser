@@ -1,0 +1,94 @@
+digraph {
+	2 [label="CSV Reader"]
+	4 [label="Column Rename _Regex_"]
+	5 [label="CSV Reader"]
+	6 [label="Column Rename _Regex_"]
+	7 [label=Joiner]
+	8 [label="Rule Engine"]
+	9 [label="Column Filter"]
+	11 [label=GroupBy]
+	12 [label=GroupBy]
+	13 [label="Rule Engine"]
+	14 [label="Column Filter"]
+	54 [label="Constant Value Column"]
+	55 [label="Constant Value Column"]
+	56 [label=GroupBy]
+	57 [label="Rule Engine"]
+	58 [label="Column Filter"]
+	60 [label="Math Formula"]
+	66 [label="HTTP Retriever"]
+	67 [label="Column Filter"]
+	68 [label="Rule_based Row Filter"]
+	69 [label="Rule_based Row Filter"]
+	70 [label="Column Filter"]
+	71 [label="Rule_based Row Filter"]
+	72 [label="Rule_based Row Filter"]
+	73 [label=GroupBy]
+	74 [label="Rule Engine"]
+	75 [label="Column Filter"]
+	76 [label="Row Filter"]
+	77 [label="Table View"]
+	78 [label="Pie_Donut Chart"]
+	79 [label="Table View"]
+	80 [label="Pie_Donut Chart"]
+	81 [label="Row Filter"]
+	82 [label=Sorter]
+	83 [label="Pie_Donut Chart"]
+	84 [label="Table View"]
+	85 [label="Row Filter"]
+	86 [label="Table View"]
+	87 [label="Pie_Donut Chart"]
+	88 [label="Rule_based Row Filter"]
+	89 [label="Rule_based Row Filter"]
+	90 [label="Column Resorter"]
+	91 [label="Column Resorter"]
+	92 [label="Column Rename"]
+	93 [label="Column Resorter"]
+	94 [label="Column Resorter"]
+	2 -> 55
+	4 -> 7
+	5 -> 54
+	6 -> 7
+	7 -> 69
+	7 -> 68
+	7 -> 92
+	8 -> 11
+	8 -> 85
+	9 -> 8
+	11 -> 87
+	12 -> 83
+	13 -> 12
+	13 -> 60
+	14 -> 13
+	54 -> 6
+	55 -> 4
+	56 -> 80
+	57 -> 56
+	57 -> 81
+	58 -> 57
+	60 -> 91
+	67 -> 66
+	68 -> 67
+	69 -> 70
+	71 -> 58
+	72 -> 75
+	73 -> 78
+	74 -> 73
+	74 -> 76
+	75 -> 74
+	76 -> 94
+	81 -> 93
+	82 -> 84
+	85 -> 90
+	88 -> 14
+	89 -> 9
+	90 -> 86
+	91 -> 82
+	92 -> 89
+	92 -> 88
+	92 -> 71
+	92 -> 72
+	93 -> 79
+	94 -> 77
+	rankdir=LR
+}

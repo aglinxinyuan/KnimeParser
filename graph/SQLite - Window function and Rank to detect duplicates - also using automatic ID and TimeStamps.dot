@@ -1,0 +1,94 @@
+digraph {
+	47 [label="DB Table Selector"]
+	440 [label="DB SQL Executor"]
+	464 [label="SQLite Connector"]
+	466 [label="CSV Reader"]
+	1860 [label="DB SQL Executor"]
+	1865 [label="DB Writer"]
+	1878 [label="DB Query Reader"]
+	1881 [label="DB Table Creator"]
+	1882 [label="String To Number _PMML_"]
+	1883 [label="String Manipulation"]
+	1886 [label="Table Writer"]
+	1919 [label="DB Reader"]
+	2237 [label="Extract Table Spec"]
+	2238 [label="Rule Engine"]
+	426 [label="Column Combiner"]
+	430 [label="Column Filter"]
+	1613 [label="String Manipulation"]
+	1869 [label="String Manipulation"]
+	1870 [label="Column Filter"]
+	1871 [label=Transpose]
+	1873 [label="Table Row to Variable"]
+	1879 [label="String Manipulation"]
+	1880 [label="Column Filter"]
+	1881 [label=Transpose]
+	1882 [label="Column Combiner"]
+	1883 [label="Column Filter"]
+	1884 [label="String Manipulation"]
+	1885 [label="Table Row to Variable"]
+	1886 [label="Column Combiner"]
+	1887 [label="Column Filter"]
+	1888 [label=Transpose]
+	1889 [label="Column Filter"]
+	2587 [label="Merge Variables"]
+	2588 [label="Table Row to Variable"]
+	2727 [label="DB SQL Executor"]
+	2728 [label="DB Connection Extractor"]
+	2729 [label="DB Connection Table Writer"]
+	2730 [label="DB Query"]
+	2733 [label="DB Connection Extractor"]
+	2734 [label="DB Reader"]
+	2735 [label="DB Query"]
+	2736 [label="DB SQL Executor"]
+	2737 [label="String to Date_Time"]
+	2738 [label="UNIX Timestamp to Date_Time"]
+	426 -> 430
+	430 -> 1613
+	1613 -> 1873
+	1869 -> 1870
+	1869 -> 1889
+	1870 -> 1871
+	1871 -> 426
+	1873 -> 2587
+	1879 -> 1880
+	1880 -> 1881
+	1881 -> 1882
+	1882 -> 1883
+	1883 -> 1884
+	1884 -> 1885
+	1885 -> 2587
+	1886 -> 1887
+	1887 -> 2588
+	1888 -> 1886
+	1889 -> 1888
+	2588 -> 2587
+	47 -> 2730
+	440 -> 1860
+	464 -> 1881
+	464 -> 2736
+	464 -> 440
+	466 -> 1883
+	1865 -> 2728
+	1881 -> 1865
+	1881 -> 1865
+	1882 -> 1881
+	1882 -> 1886
+	1882 -> 2237
+	1883 -> 1882
+	1919 -> 2737
+	2237 -> 2238
+	2238 -> 1869
+	2587 -> 1881
+	2587 -> 440
+	2727 -> 47
+	2728 -> 2727
+	2729 -> 2733
+	2729 -> 1919
+	2730 -> 2734
+	2730 -> 2735
+	2733 -> 1878
+	2735 -> 2729
+	2737 -> 2738
+	rankdir=LR
+}

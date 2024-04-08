@@ -1,0 +1,20 @@
+digraph {
+	1 [label="Container Input _Table_"]
+	2 [label="Container Output _Table_"]
+	17 [label="Column Filter"]
+	21 [label="SDF Reader"]
+	32 [label=LigPrep]
+	9686 [label="Glide Grid Reader"]
+	9688 [label="Glide Ligand Docking"]
+	9689 [label="Run Maestro"]
+	9690 [label=MAE_to_SD]
+	1 -> 32
+	17 -> 2
+	21 -> 1
+	32 -> 9688
+	9686 -> 9688
+	9688 -> 9689
+	9688 -> 9690
+	9690 -> 17
+	rankdir=LR
+}

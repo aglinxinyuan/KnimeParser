@@ -1,0 +1,145 @@
+digraph {
+	5 [label="String To Number"]
+	6 [label="Missing Value"]
+	7 [label="Math Formula"]
+	8 [label="Math Formula"]
+	9 [label="Math Formula"]
+	10 [label="Math Formula"]
+	11 [label="Column Filter"]
+	37 [label="Random Forest Learner"]
+	39 [label="Random Forest Predictor"]
+	40 [label=Scorer]
+	41 [label=X_Partitioner]
+	49 [label=X_Aggregator]
+	50 [label="ROC Curve _JavaScript_"]
+	51 [label=X_Partitioner]
+	54 [label=X_Aggregator]
+	55 [label=Scorer]
+	56 [label="Decision Tree Learner"]
+	57 [label="Decision Tree Predictor"]
+	58 [label="ROC Curve _JavaScript_"]
+	59 [label=X_Partitioner]
+	60 [label="Tree Ensemble Learner"]
+	61 [label="Tree Ensemble Predictor"]
+	62 [label=X_Aggregator]
+	63 [label="ROC Curve _JavaScript_"]
+	64 [label="Parameter Optimization Loop Start"]
+	65 [label="Excel Reader"]
+	66 [label="Excel Reader"]
+	67 [label="Excel Reader"]
+	68 [label="Row to Column Names"]
+	69 [label="Column Renamer"]
+	70 [label="Column Filter"]
+	71 [label="Column Renamer"]
+	72 [label="Row Filter"]
+	73 [label=Joiner]
+	74 [label="String Manipulation"]
+	75 [label="String Manipulation"]
+	76 [label="Row Aggregator"]
+	77 [label="String To Number"]
+	78 [label="String Manipulation"]
+	79 [label="String Manipulation"]
+	80 [label=Joiner]
+	81 [label="Decision Tree Learner"]
+	82 [label="Decision Tree Predictor"]
+	83 [label="ROC Curve _JavaScript_"]
+	84 [label="Random Forest Learner"]
+	85 [label=X_Partitioner]
+	86 [label=X_Aggregator]
+	87 [label="Random Forest Predictor"]
+	88 [label="Tree Ensemble Learner"]
+	89 [label="Tree Ensemble Predictor"]
+	90 [label="ROC Curve _JavaScript_"]
+	91 [label=Scorer]
+	92 [label=X_Aggregator]
+	93 [label=X_Partitioner]
+	94 [label=X_Partitioner]
+	95 [label="ROC Curve _JavaScript_"]
+	96 [label=X_Aggregator]
+	97 [label=Scorer]
+	98 [label=Scorer]
+	99 [label=Scorer]
+	101 [label="Parameter Optimization Loop End"]
+	102 [label="Tree Ensemble Predictor"]
+	103 [label=X_Aggregator]
+	104 [label="ROC Curve _JavaScript_"]
+	105 [label=X_Partitioner]
+	106 [label=Scorer]
+	107 [label="Tree Ensemble Learner"]
+	108 [label="Excel Writer"]
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 41
+	11 -> 59
+	11 -> 51
+	11 -> 78
+	37 -> 39
+	39 -> 49
+	41 -> 37
+	41 -> 39
+	49 -> 50
+	49 -> 40
+	51 -> 57
+	51 -> 56
+	54 -> 55
+	54 -> 58
+	56 -> 57
+	57 -> 54
+	59 -> 61
+	59 -> 60
+	60 -> 61
+	61 -> 62
+	62 -> 63
+	62 -> 99
+	64 -> 105
+	65 -> 5
+	66 -> 68
+	67 -> 70
+	68 -> 69
+	69 -> 74
+	70 -> 71
+	71 -> 72
+	72 -> 75
+	73 -> 80
+	74 -> 73
+	75 -> 77
+	76 -> 73
+	77 -> 76
+	78 -> 79
+	79 -> 80
+	80 -> 85
+	80 -> 93
+	80 -> 94
+	80 -> 105
+	81 -> 82
+	82 -> 96
+	84 -> 87
+	85 -> 89
+	85 -> 88
+	86 -> 90
+	86 -> 91
+	87 -> 86
+	88 -> 89
+	89 -> 92
+	92 -> 95
+	92 -> 98
+	93 -> 81
+	93 -> 82
+	94 -> 87
+	94 -> 84
+	96 -> 97
+	96 -> 83
+	102 -> 103
+	103 -> 106
+	103 -> 104
+	103 -> 108
+	105 -> 107
+	105 -> 102
+	106 -> 101
+	107 -> 102
+	rankdir=LR
+}

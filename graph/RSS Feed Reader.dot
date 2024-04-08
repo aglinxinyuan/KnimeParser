@@ -1,0 +1,28 @@
+digraph {
+	19 [label="Tags to String"]
+	21 [label=TF]
+	27 [label="Color Manager"]
+	39 [label="Tag Cloud"]
+	41 [label=GroupBy]
+	42 [label="Table Creator"]
+	46 [label="Column Filter"]
+	50 [label="Tag Filter"]
+	54 [label="Markup Tag Filter"]
+	55 [label="RSS Feed Reader"]
+	56 [label="StanfordNLP NE Tagger"]
+	57 [label="Bag Of Words Creator"]
+	58 [label="Tag Cloud _JavaScript_"]
+	19 -> 21
+	21 -> 41
+	27 -> 58
+	27 -> 39
+	41 -> 27
+	42 -> 55
+	46 -> 54
+	50 -> 57
+	54 -> 56
+	55 -> 46
+	56 -> 50
+	57 -> 19
+	rankdir=LR
+}

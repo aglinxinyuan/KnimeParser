@@ -1,0 +1,35 @@
+digraph {
+	3 [label=GroupBy]
+	8 [label="to Report"]
+	16 [label="Math Formula"]
+	17 [label="Math Formula"]
+	18 [label="Math Formula"]
+	15 [label="to Report"]
+	16 [label=Sorter]
+	17 [label=Sorter]
+	19 [label=Pivoting]
+	20 [label=Pivoting]
+	21 [label=RowID]
+	22 [label=RowID]
+	33 [label="CSV Reader"]
+	34 [label=Joiner]
+	35 [label="Column Renamer"]
+	36 [label="Column Renamer"]
+	16 -> 17
+	17 -> 18
+	3 -> 8
+	18 -> 15
+	16 -> 35
+	17 -> 36
+	19 -> 22
+	20 -> 21
+	21 -> 16
+	22 -> 17
+	33 -> 3
+	33 -> 19
+	33 -> 20
+	34 -> 16
+	35 -> 34
+	36 -> 34
+	rankdir=LR
+}

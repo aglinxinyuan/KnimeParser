@@ -1,0 +1,26 @@
+digraph {
+	81 [label="Color Manager"]
+	83 [label="Scatter Plot"]
+	86 [label=Partitioning]
+	88 [label="Decision Tree Learner"]
+	89 [label="Decision Tree Predictor"]
+	90 [label=Scorer]
+	93 [label=Scorer]
+	95 [label="Table Reader"]
+	103 [label="Column Filter"]
+	104 [label="Logistic Regression Learner"]
+	105 [label="Logistic Regression Predictor"]
+	81 -> 83
+	86 -> 104
+	86 -> 88
+	86 -> 89
+	86 -> 105
+	88 -> 89
+	89 -> 90
+	95 -> 103
+	103 -> 86
+	103 -> 81
+	104 -> 105
+	105 -> 93
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	2 [label="KCS SAP Executor"]
+	3 [label="Column Filter"]
+	4 [label=Joiner]
+	5 [label=GroupBy]
+	7 [label=Unpivoting]
+	8 [label="Column Rename"]
+	9 [label="Constant Value Column"]
+	10 [label="Constant Value Column"]
+	11 [label="Constant Value Column"]
+	12 [label="Constant Value Column"]
+	14 [label="KCS SAP Executor"]
+	15 [label="Column Filter"]
+	16 [label="Excel Writer"]
+	2 -> 3
+	2 -> 4
+	3 -> 5
+	4 -> 16
+	5 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 15
+	14 -> 4
+	15 -> 14
+	rankdir=LR
+}

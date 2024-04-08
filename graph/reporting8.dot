@@ -1,0 +1,16 @@
+digraph {
+	8 [label="Excel Reader"]
+	9 [label="Excel Reader"]
+	10 [label=Joiner]
+	11 [label="Math Formula"]
+	12 [label="Math Formula _Multi Column_"]
+	13 [label="Math Formula _Multi Column_"]
+	14 [label="Table Writer"]
+	8 -> 10
+	8 -> 13
+	9 -> 10
+	10 -> 11
+	10 -> 12
+	12 -> 14
+	rankdir=LR
+}

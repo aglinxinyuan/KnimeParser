@@ -1,0 +1,43 @@
+digraph {
+	1 [label="Excel Reader"]
+	3 [label=Joiner]
+	9 [label="Missing Value"]
+	6 [label="Math Formula"]
+	7 [label="Row Splitter"]
+	10 [label=Concatenate]
+	11 [label="Math Formula _Multi Column_"]
+	12 [label="Math Formula"]
+	18 [label="Row Filter"]
+	8 [label=GroupBy]
+	13 [label="Extract Date_Time Fields"]
+	17 [label="Number To String"]
+	18 [label="Lag Column"]
+	19 [label="Math Formula"]
+	4 [label="String to Date_Time"]
+	24 [label="SQLite Connector"]
+	27 [label="DB Reader"]
+	28 [label="DB Table Selector"]
+	30 [label="Bar Chart"]
+	31 [label="Bar Chart"]
+	6 -> 11
+	7 -> 6
+	7 -> 7
+	11 -> 10
+	10 -> 10
+	8 -> 17
+	13 -> 8
+	18 -> 19
+	24 -> 28
+	27 -> 4
+	28 -> 27
+	1 -> 3
+	3 -> 9
+	9 -> 7
+	10 -> 13
+	18 -> 30
+	18 -> 31
+	17 -> 18
+	19 -> 18
+	29 -> 3
+	rankdir=LR
+}

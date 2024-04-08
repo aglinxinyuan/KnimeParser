@@ -1,0 +1,54 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Column List Loop Start"]
+	3 [label="Table Row to Variable"]
+	5 [label="Column Rename _Regex_"]
+	6 [label="CASE Switch Start"]
+	7 [label="Rule Engine Variable"]
+	11 [label="CASE Switch End"]
+	8 [label="Row Filter"]
+	9 [label="String to Date_Time"]
+	10 [label="Column Rename"]
+	11 [label=RowID]
+	8 [label="Row Filter"]
+	10 [label="Column Rename"]
+	11 [label="String To Number"]
+	12 [label=RowID]
+	8 [label="Row Filter"]
+	10 [label="Column Rename"]
+	11 [label="String To Number"]
+	12 [label=RowID]
+	8 [label="Row Filter"]
+	10 [label="Column Rename"]
+	11 [label="Table Manipulator"]
+	12 [label=RowID]
+	17 [label="Loop End _Column Append_"]
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	8 -> 11
+	10 -> 8
+	11 -> 10
+	8 -> 11
+	10 -> 8
+	11 -> 10
+	8 -> 11
+	10 -> 8
+	11 -> 10
+	1 -> 2
+	2 -> 5
+	3 -> 7
+	5 -> 6
+	5 -> 3
+	6 -> 8
+	6 -> 8
+	6 -> 8
+	6 -> 8
+	7 -> 6
+	11 -> 17
+	11 -> 11
+	11 -> 11
+	11 -> 11
+	11 -> 11
+	rankdir=LR
+}

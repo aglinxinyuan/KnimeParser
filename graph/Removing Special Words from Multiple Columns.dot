@@ -1,0 +1,16 @@
+digraph {
+	72 [label=GroupBy]
+	73 [label="Table Row to Variable"]
+	74 [label="Table Creator"]
+	76 [label="Table Creator"]
+	78 [label="String Manipulation _Multi Column_"]
+	81 [label="Table Creator"]
+	82 [label="Table Difference Finder"]
+	72 -> 73
+	73 -> 78
+	74 -> 72
+	76 -> 78
+	78 -> 82
+	81 -> 82
+	rankdir=LR
+}

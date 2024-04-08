@@ -1,0 +1,46 @@
+digraph {
+	1 [label="Create Date_Time Range"]
+	2 [label="Math Formula"]
+	3 [label="Recursive Loop Start"]
+	4 [label="Recursive Loop End"]
+	12 [label="Lag Column"]
+	13 [label="Polynomial Regression Learner"]
+	15 [label="Regression Predictor"]
+	17 [label=Concatenate]
+	18 [label="Column Filter"]
+	19 [label="Row Filter"]
+	20 [label="Row Filter"]
+	5 [label="Lag Column"]
+	6 [label="Extract Table Dimension"]
+	7 [label="Math Formula _Variable_"]
+	8 [label="Row Filter"]
+	9 [label=GroupBy]
+	10 [label="Date_Time Shift"]
+	11 [label=Concatenate]
+	14 [label="Row Filter"]
+	16 [label="Column Filter"]
+	5 -> 14
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	8 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 5
+	14 -> 16
+	1 -> 2
+	2 -> 12
+	2 -> 19
+	3 -> 17
+	3 -> 8
+	12 -> 13
+	13 -> 15
+	15 -> 18
+	17 -> 20
+	18 -> 4
+	18 -> 17
+	19 -> 3
+	20 -> 4
+	16 -> 15
+	rankdir=LR
+}

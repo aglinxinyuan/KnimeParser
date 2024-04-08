@@ -1,0 +1,29 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Sorter]
+	20 [label="R Snippet"]
+	21 [label="Group Loop Start"]
+	22 [label="Extract Table Dimension"]
+	23 [label=Transpose]
+	27 [label="Table Row to Variable"]
+	28 [label="Counting Loop Start"]
+	30 [label="Math Formula"]
+	31 [label="Row Filter"]
+	33 [label="Loop End"]
+	34 [label="Top k Selector"]
+	35 [label="Loop End"]
+	1 -> 2
+	2 -> 20
+	2 -> 21
+	21 -> 22
+	21 -> 28
+	22 -> 23
+	23 -> 27
+	27 -> 28
+	28 -> 31
+	30 -> 34
+	31 -> 30
+	33 -> 35
+	34 -> 33
+	rankdir=LR
+}

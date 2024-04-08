@@ -1,0 +1,83 @@
+digraph {
+	18 [label="Feature Selection Loop Start _1_1_"]
+	22 [label="Regression Predictor"]
+	60 [label="Math Formula"]
+	62 [label=Normalizer]
+	74 [label="Numeric Scorer"]
+	76 [label="Row Filter"]
+	639 [label="Column Filter"]
+	642 [label="Excel Reader"]
+	643 [label="Regression Predictor"]
+	645 [label="Numeric Scorer"]
+	647 [label="Linear Regression Learner"]
+	648 [label="Regression Predictor"]
+	650 [label="Feature Selection Loop Start _1_1_"]
+	652 [label="Numeric Scorer"]
+	654 [label="Polynomial Regression Learner"]
+	655 [label="Regression Predictor"]
+	658 [label="Row Filter"]
+	660 [label="Regression Predictor"]
+	665 [label="Column Filter"]
+	667 [label=Histogram]
+	668 [label=Statistics]
+	669 [label=Partitioning]
+	670 [label="Row Filter"]
+	671 [label="Scatter Plot"]
+	672 [label="Table View"]
+	673 [label="Scatter Plot"]
+	674 [label=Histogram]
+	675 [label="Table View"]
+	677 [label="Table View"]
+	678 [label="Table View"]
+	679 [label="Table View"]
+	680 [label="Table View"]
+	681 [label="Row Filter"]
+	682 [label=Partitioning]
+	683 [label="Linear Regression Learner"]
+	684 [label="Numeric Scorer"]
+	685 [label="Feature Selection Loop End"]
+	686 [label="Feature Selection Loop End"]
+	18 -> 647
+	22 -> 671
+	22 -> 74
+	22 -> 60
+	60 -> 62
+	62 -> 674
+	62 -> 673
+	74 -> 672
+	76 -> 670
+	639 -> 682
+	642 -> 76
+	642 -> 658
+	642 -> 667
+	642 -> 668
+	643 -> 645
+	645 -> 675
+	645 -> 685
+	647 -> 643
+	648 -> 652
+	650 -> 654
+	652 -> 677
+	652 -> 686
+	654 -> 655
+	654 -> 648
+	654 -> 660
+	655 -> 684
+	658 -> 660
+	660 -> 665
+	660 -> 681
+	665 -> 679
+	669 -> 22
+	669 -> 655
+	669 -> 648
+	669 -> 643
+	670 -> 639
+	681 -> 680
+	682 -> 683
+	682 -> 650
+	682 -> 669
+	682 -> 18
+	683 -> 22
+	684 -> 678
+	rankdir=LR
+}

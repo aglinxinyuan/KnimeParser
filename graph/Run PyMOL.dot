@@ -1,0 +1,15 @@
+digraph {
+	9691 [label="Molecule Reader"]
+	9709 [label="Get PDB"]
+	9748 [label="Run PyMOL"]
+	9751 [label="Run Maestro"]
+	9758 [label="Run PyMOL"]
+	9760 [label="Java Edit Variable _simple_"]
+	9761 [label="Mol2 Reader"]
+	9691 -> 9758
+	9709 -> 9748
+	9748 -> 9760
+	9760 -> 9761
+	9761 -> 9751
+	rankdir=LR
+}

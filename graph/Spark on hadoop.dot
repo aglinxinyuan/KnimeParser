@@ -1,0 +1,19 @@
+digraph {
+	1 [label="HDFS Connector"]
+	2 [label="Create Local Big Data Environment"]
+	3 [label="Table to Spark"]
+	4 [label="CSV Reader"]
+	5 [label="Spark Decision Tree Learner _MLlib_"]
+	6 [label="Spark Predictor _MLlib_"]
+	7 [label="Spark Scorer"]
+	8 [label="Spark Partitioning"]
+	1 -> 4
+	2 -> 3
+	3 -> 8
+	4 -> 3
+	5 -> 6
+	6 -> 7
+	8 -> 6
+	8 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,90 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Column Filter"]
+	4 [label="Missing Value Column Filter"]
+	5 [label="Missing Value Column Filter"]
+	6 [label="Box Plot"]
+	7 [label="Numeric Outliers"]
+	8 [label=Normalizer]
+	9 [label="Box Plot"]
+	10 [label="Box Plot"]
+	11 [label=Joiner]
+	12 [label="Category To Number"]
+	14 [label=k_Means]
+	15 [label="Cluster Assigner"]
+	16 [label="Missing Value"]
+	17 [label=k_Means]
+	18 [label="Cluster Assigner"]
+	19 [label=k_Means]
+	20 [label="Cluster Assigner"]
+	21 [label=k_Means]
+	22 [label="Cluster Assigner"]
+	23 [label="Cluster Assigner"]
+	24 [label=k_Means]
+	26 [label=Statistics]
+	27 [label=Statistics]
+	28 [label="Silhouette Coefficient"]
+	29 [label="Row Sampling"]
+	30 [label="Silhouette Coefficient"]
+	31 [label="Silhouette Coefficient"]
+	32 [label="Silhouette Coefficient"]
+	33 [label="Silhouette Coefficient"]
+	35 [label="One_way ANOVA"]
+	36 [label="One_way ANOVA"]
+	37 [label="One_way ANOVA"]
+	38 [label="One_way ANOVA"]
+	39 [label="Kruskal_Wallis Test"]
+	40 [label="One_way ANOVA"]
+	41 [label="Kruskal_Wallis Test"]
+	42 [label="Kruskal_Wallis Test"]
+	43 [label="Kruskal_Wallis Test"]
+	44 [label="Kruskal_Wallis Test"]
+	1 -> 29
+	2 -> 4
+	2 -> 26
+	3 -> 5
+	3 -> 27
+	4 -> 6
+	4 -> 8
+	5 -> 12
+	7 -> 11
+	7 -> 10
+	8 -> 9
+	8 -> 7
+	11 -> 14
+	11 -> 24
+	11 -> 19
+	11 -> 17
+	11 -> 21
+	12 -> 16
+	14 -> 15
+	14 -> 15
+	14 -> 28
+	14 -> 42
+	14 -> 38
+	16 -> 11
+	17 -> 18
+	17 -> 18
+	17 -> 30
+	17 -> 37
+	17 -> 43
+	19 -> 20
+	19 -> 20
+	19 -> 31
+	19 -> 36
+	19 -> 44
+	21 -> 22
+	21 -> 22
+	21 -> 32
+	21 -> 35
+	21 -> 41
+	24 -> 23
+	24 -> 23
+	24 -> 40
+	24 -> 33
+	24 -> 39
+	29 -> 3
+	29 -> 2
+	rankdir=LR
+}

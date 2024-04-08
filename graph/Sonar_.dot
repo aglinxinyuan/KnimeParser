@@ -1,0 +1,55 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Row Filter"]
+	4 [label="Bar Chart"]
+	6 [label="K Nearest Neighbor _Distance Function_"]
+	8 [label=Partitioning]
+	9 [label=Scorer]
+	10 [label="Numeric Distances"]
+	11 [label=Normalizer]
+	2 [label=X_Partitioner]
+	7 [label=X_Aggregator]
+	31 [label="Decision Tree Learner"]
+	32 [label="Decision Tree Predictor"]
+	9 [label="Row Filter"]
+	290 [label="Constant Value Column"]
+	292 [label="Constant Value Column"]
+	293 [label=RowID]
+	294 [label="Column Filter"]
+	28 [label="PMML To Cell"]
+	33 [label="Decision Tree Learner"]
+	34 [label="Rule Engine"]
+	38 [label="Cross Joiner"]
+	39 [label=Scorer]
+	52 [label=Sorter]
+	54 [label="Cell To PMML"]
+	9 -> 294
+	290 -> 292
+	292 -> 293
+	294 -> 290
+	28 -> 34
+	33 -> 28
+	2 -> 32
+	2 -> 31
+	7 -> 39
+	31 -> 32
+	32 -> 7
+	293 -> 38
+	34 -> 38
+	39 -> 9
+	1 -> 2
+	1 -> 4
+	1 -> 11
+	2 -> 3
+	3 -> 2
+	6 -> 9
+	8 -> 6
+	8 -> 6
+	10 -> 6
+	11 -> 8
+	11 -> 10
+	38 -> 52
+	52 -> 54
+	rankdir=LR
+}

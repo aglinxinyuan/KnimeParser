@@ -1,0 +1,62 @@
+digraph {
+	4 [label="Merge Variables"]
+	7 [label="WrappedNode Input"]
+	13 [label="Merge Variables"]
+	14 [label="WrappedNode Output"]
+	15 [label="String Widget"]
+	16 [label="String Widget"]
+	17 [label="String Widget"]
+	18 [label="File Upload Widget"]
+	11 [label="Send Email"]
+	13 [label="Active Branch Inverter"]
+	14 [label="WrappedNode Input"]
+	15 [label="WrappedNode Output"]
+	16 [label="Text Output Widget"]
+	15 [label="Try _Variable Ports_"]
+	16 [label="Catch Errors _Var Ports_"]
+	17 [label="Active Branch Inverter"]
+	18 [label="Copy_Move Files"]
+	19 [label="Create Temp Dir"]
+	21 [label="String to URI"]
+	23 [label="WrappedNode Input"]
+	24 [label="WrappedNode Output"]
+	25 [label="Table Row to Variable"]
+	26 [label="Variable to Table Row"]
+	29 [label="WrappedNode Input"]
+	30 [label="WrappedNode Output"]
+	31 [label="Text Output Widget"]
+	28 [label="WrappedNode Input"]
+	29 [label="WrappedNode Output"]
+	30 [label="Text Output Widget"]
+	25 [label="CASE Switch Variable _Start_"]
+	26 [label="Java Edit Variable _simple_"]
+	4 -> 13
+	13 -> 14
+	15 -> 4
+	16 -> 4
+	17 -> 4
+	18 -> 13
+	14 -> 16
+	18 -> 25
+	19 -> 18
+	21 -> 18
+	23 -> 19
+	23 -> 26
+	25 -> 24
+	26 -> 21
+	29 -> 26
+	28 -> 30
+	26 -> 25
+	8 -> 13
+	8 -> 15
+	11 -> 17
+	11 -> 16
+	13 -> 14
+	15 -> 23
+	16 -> 26
+	17 -> 16
+	23 -> 11
+	25 -> 30
+	25 -> 29
+	rankdir=LR
+}
