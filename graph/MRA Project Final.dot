@@ -1,0 +1,34 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label=GroupBy]
+	3 [label="Math Formula _Multi Column_"]
+	4 [label="Column Rename"]
+	5 [label="Column Filter"]
+	7 [label=Joiner]
+	8 [label="Association Rule Learner"]
+	9 [label=Joiner]
+	10 [label="Excel Reader _XLS_"]
+	11 [label="Column Rename"]
+	12 [label=Ungroup]
+	13 [label=Joiner]
+	14 [label=GroupBy]
+	15 [label="Column Rename"]
+	16 [label="Excel Writer _XLS_"]
+	1 -> 3
+	2 -> 8
+	3 -> 4
+	4 -> 5
+	5 -> 7
+	7 -> 2
+	8 -> 9
+	9 -> 11
+	10 -> 7
+	10 -> 9
+	10 -> 13
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	rankdir=LR
+}

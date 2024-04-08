@@ -1,0 +1,29 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Category To Number"]
+	3 [label=Partitioning]
+	4 [label="Distance Matrix Calculate"]
+	5 [label="Distance Matrix Calculate"]
+	118 [label="XGBoost Tree Ensemble Learner"]
+	119 [label="XGBoost Predictor"]
+	120 [label="Number To String"]
+	121 [label="Number To String"]
+	122 [label=Scorer]
+	123 [label="Parameter Optimization Loop End"]
+	124 [label="ROC Curve"]
+	125 [label="Parameter Optimization Loop Start"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 5
+	4 -> 120
+	5 -> 121
+	118 -> 119
+	119 -> 122
+	119 -> 124
+	120 -> 118
+	121 -> 119
+	122 -> 123
+	125 -> 118
+	rankdir=LR
+}

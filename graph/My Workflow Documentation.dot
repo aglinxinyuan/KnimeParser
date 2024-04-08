@@ -1,0 +1,10 @@
+digraph {
+	1 [label="File Reader"]
+	3 [label="CSV Writer"]
+	2 [label="Row Filter"]
+	4 [label="Constant Value Column"]
+	2 -> 4
+	1 -> 2
+	4 -> 3
+	rankdir=LR
+}

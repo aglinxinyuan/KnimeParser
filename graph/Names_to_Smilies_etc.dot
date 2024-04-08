@@ -1,0 +1,11 @@
+digraph {
+	1 [label=CIR]
+	2 [label="Line Reader"]
+	3 [label="File Reader"]
+	4 [label=CIR]
+	5 [label=CIR]
+	2 -> 1
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

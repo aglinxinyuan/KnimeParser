@@ -1,0 +1,60 @@
+digraph {
+	13 [label="Excel Reader"]
+	27 [label="Row Filter"]
+	28 [label=Sorter]
+	30 [label="Row Filter"]
+	31 [label=Sorter]
+	32 [label="Line Plot"]
+	33 [label="Line Plot"]
+	37 [label="Linear Correlation"]
+	42 [label="Data Explorer"]
+	43 [label="Data Explorer"]
+	125 [label="Table Writer"]
+	129 [label="Row Splitter"]
+	133 [label="Linear Correlation"]
+	16 [label="Row Splitter"]
+	19 [label="Row Splitter"]
+	22 [label=Joiner]
+	23 [label=Joiner]
+	24 [label="Column Filter"]
+	26 [label="String Manipulation"]
+	126 [label="Column Rename"]
+	127 [label="String To Number"]
+	128 [label="Number To String"]
+	163 [label="Row Filter"]
+	164 [label=GroupBy]
+	165 [label="Linear Correlation"]
+	167 [label="Row Splitter"]
+	174 [label="Scatter Plot"]
+	175 [label="Color Manager"]
+	16 -> 19
+	16 -> 22
+	19 -> 23
+	19 -> 22
+	22 -> 23
+	23 -> 24
+	24 -> 126
+	126 -> 127
+	126 -> 128
+	128 -> 26
+	13 -> 16
+	13 -> 129
+	27 -> 28
+	28 -> 42
+	28 -> 33
+	30 -> 31
+	31 -> 43
+	31 -> 32
+	129 -> 163
+	129 -> 37
+	129 -> 167
+	129 -> 175
+	26 -> 27
+	26 -> 30
+	26 -> 125
+	163 -> 164
+	164 -> 165
+	167 -> 133
+	175 -> 174
+	rankdir=LR
+}

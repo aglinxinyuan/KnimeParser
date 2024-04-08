@@ -1,0 +1,31 @@
+digraph {
+	1 [label="Network Reader"]
+	2 [label="SubGraph Extractor"]
+	3 [label="Row Filter"]
+	4 [label="Row To Network"]
+	5 [label="Network Viewer"]
+	6 [label="Chunk Loop Start"]
+	7 [label="Row To Network"]
+	9 [label="Network Analyzer"]
+	10 [label=Pivoting]
+	12 [label=Joiner]
+	13 [label="Edge Degree Filter"]
+	14 [label="Loop End"]
+	15 [label=RowID]
+	16 [label=RowID]
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	3 -> 4
+	4 -> 5
+	6 -> 7
+	6 -> 15
+	7 -> 13
+	9 -> 10
+	10 -> 16
+	12 -> 14
+	13 -> 9
+	15 -> 12
+	16 -> 12
+	rankdir=LR
+}

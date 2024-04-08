@@ -1,0 +1,30 @@
+digraph {
+	266 [label="Table Cropper"]
+	271 [label="Value Lookup"]
+	272 [label="Rule Engine"]
+	273 [label="String to Date_Time"]
+	352 [label="Bar Chart"]
+	368 [label=Joiner]
+	381 [label="Scatter Plot"]
+	389 [label="Row Filter"]
+	403 [label="DB Table Selector"]
+	404 [label="DB Reader"]
+	406 [label="SQLite Connector"]
+	415 [label="Pie Chart"]
+	424 [label="CSV Reader"]
+	426 [label="Excel Reader"]
+	266 -> 271
+	271 -> 272
+	272 -> 273
+	273 -> 368
+	368 -> 381
+	368 -> 389
+	389 -> 352
+	389 -> 415
+	403 -> 404
+	404 -> 368
+	406 -> 403
+	424 -> 271
+	426 -> 266
+	rankdir=LR
+}

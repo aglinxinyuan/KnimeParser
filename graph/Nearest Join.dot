@@ -1,0 +1,20 @@
+digraph {
+	1 [label="CSV Reader"]
+	21 [label="CSV Reader"]
+	46 [label="Nearest Join"]
+	51 [label="WKT to Geometry"]
+	52 [label="Lat_Lon to Geometry"]
+	54 [label="Row Filter"]
+	59 [label="Column Rename"]
+	60 [label="Geospatial View"]
+	61 [label="Double To Int"]
+	1 -> 52
+	21 -> 51
+	46 -> 54
+	51 -> 46
+	52 -> 46
+	54 -> 61
+	59 -> 60
+	61 -> 59
+	rankdir=LR
+}

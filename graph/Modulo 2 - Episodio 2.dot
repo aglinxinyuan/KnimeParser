@@ -1,0 +1,18 @@
+digraph {
+	267 [label="Column Filter"]
+	268 [label="Row Filter"]
+	403 [label="DB Table Selector"]
+	404 [label="DB Reader"]
+	406 [label="SQLite Connector"]
+	416 [label="Duplicate Row Filter"]
+	418 [label="Table Cropper"]
+	424 [label="CSV Reader"]
+	426 [label="Excel Reader"]
+	267 -> 268
+	403 -> 404
+	404 -> 416
+	406 -> 403
+	426 -> 267
+	426 -> 418
+	rankdir=LR
+}

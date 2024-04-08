@@ -1,0 +1,28 @@
+digraph {
+	1 [label="PostgreSQL Connector"]
+	2 [label="DB Query Reader"]
+	7 [label="Row Filter _Labs_"]
+	12 [label="Violin Plot _Plotly_"]
+	13 [label="Color Manager"]
+	14 [label="Row Filter _Labs_"]
+	16 [label=Sorter]
+	17 [label=Sorter]
+	18 [label="Table View"]
+	20 [label="Violin Plot _Plotly_"]
+	21 [label="String Manipulation"]
+	22 [label="String Manipulation"]
+	23 [label="Table View"]
+	1 -> 2
+	2 -> 7
+	7 -> 13
+	13 -> 12
+	13 -> 14
+	14 -> 20
+	14 -> 16
+	14 -> 17
+	16 -> 22
+	17 -> 21
+	21 -> 18
+	22 -> 23
+	rankdir=LR
+}

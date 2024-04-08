@@ -1,0 +1,14 @@
+digraph {
+	59 [label="Table Creator"]
+	60 [label="Table Creator"]
+	61 [label="Cross Joiner"]
+	62 [label="Table Creator"]
+	63 [label="Cross Joiner"]
+	64 [label="Column Aggregator"]
+	59 -> 61
+	60 -> 61
+	61 -> 63
+	62 -> 63
+	63 -> 64
+	rankdir=LR
+}

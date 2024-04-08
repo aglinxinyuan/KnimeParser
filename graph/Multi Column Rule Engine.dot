@@ -1,0 +1,33 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Column List Loop Start"]
+	3 [label="Loop End _Column Append_"]
+	4 [label="Rule Engine"]
+	5 [label="String Manipulation _Variable_"]
+	7 [label="Rule Engine"]
+	8 [label="Loop End _Column Append_"]
+	9 [label="Column List Loop Start"]
+	10 [label="Table Creator"]
+	11 [label="Table Creator"]
+	12 [label=GroupBy]
+	13 [label="Table Row to Variable"]
+	14 [label="String Manipulation"]
+	15 [label="Table Creator"]
+	16 [label=Concatenate]
+	1 -> 2
+	2 -> 4
+	2 -> 5
+	4 -> 3
+	5 -> 4
+	7 -> 8
+	9 -> 7
+	9 -> 11
+	10 -> 9
+	11 -> 14
+	12 -> 13
+	13 -> 7
+	14 -> 16
+	15 -> 16
+	16 -> 12
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	27 [label="Database Writer"]
+	333 [label="PMML to SQL"]
+	340 [label="PMML Reader"]
+	357 [label="Database Connection Table Writer"]
+	359 [label="Database Table Selector"]
+	360 [label="Database Query"]
+	362 [label="Database SQL Executor"]
+	363 [label="SQLite Connector"]
+	364 [label="PMML Compiler"]
+	365 [label="Model Writer"]
+	366 [label="Table Reader"]
+	367 [label="SQLite Connector"]
+	27 -> 363
+	333 -> 360
+	340 -> 364
+	340 -> 333
+	357 -> 362
+	359 -> 360
+	360 -> 357
+	363 -> 362
+	363 -> 359
+	364 -> 365
+	366 -> 27
+	367 -> 27
+	rankdir=LR
+}

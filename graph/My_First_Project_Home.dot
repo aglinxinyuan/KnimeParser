@@ -1,0 +1,20 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	3 [label="Decision Tree Learner"]
+	4 [label="Decision Tree Predictor"]
+	5 [label=Scorer]
+	6 [label="Gradient Boosted Trees Learner"]
+	7 [label="Gradient Boosted Trees Predictor"]
+	8 [label=Scorer]
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	2 -> 7
+	2 -> 4
+	3 -> 4
+	4 -> 5
+	6 -> 7
+	7 -> 8
+	rankdir=LR
+}

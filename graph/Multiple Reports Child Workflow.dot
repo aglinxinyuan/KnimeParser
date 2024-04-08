@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Container Input _JSON_"]
+	2 [label="JSON to Table"]
+	4 [label=Ungroup]
+	5 [label="Data to Report"]
+	6 [label="Top k Selector"]
+	1 -> 2
+	2 -> 4
+	4 -> 6
+	6 -> 5
+	rankdir=LR
+}

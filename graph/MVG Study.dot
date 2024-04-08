@@ -1,0 +1,22 @@
+digraph {
+	5 [label="CSV Writer"]
+	8 [label="Database Connector"]
+	114 [label="Excel Reader _XLS_"]
+	115 [label="String Manipulation"]
+	116 [label="Math Formula"]
+	118 [label="Group Loop Start"]
+	120 [label="Database Looping"]
+	121 [label="Loop End"]
+	122 [label="Row Sampling"]
+	123 [label="Column Filter"]
+	8 -> 120
+	114 -> 115
+	115 -> 116
+	115 -> 122
+	116 -> 118
+	118 -> 120
+	120 -> 121
+	121 -> 123
+	123 -> 5
+	rankdir=LR
+}

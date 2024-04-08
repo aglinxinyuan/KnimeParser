@@ -1,0 +1,47 @@
+digraph {
+	26 [label="Database Writer"]
+	137 [label="Table Reader"]
+	143 [label="SQLite Connector"]
+	147 [label="Table Reader"]
+	138 [label="JPMML Classifier"]
+	148 [label="Rule Engine"]
+	151 [label="Table Row to Variable"]
+	152 [label="Column Filter"]
+	155 [label="CASE Switch Data _End_"]
+	156 [label="CASE Switch Data _End_"]
+	270 [label="DL4J Feedforward Predictor"]
+	282 [label="Gradient Boosted Trees Predictor"]
+	284 [label="Random Forest Predictor"]
+	285 [label="Cell To Model"]
+	286 [label="CASE Switch Variable _Start_"]
+	287 [label="Rule Engine Variable"]
+	288 [label="CASE Switch Variable _Start_"]
+	289 [label="Cell To Model"]
+	290 [label="Cell To Model"]
+	291 [label="Cell To PMML"]
+	292 [label="Excel Writer _XLS_"]
+	138 -> 156
+	148 -> 151
+	151 -> 286
+	152 -> 148
+	155 -> 156
+	270 -> 155
+	282 -> 155
+	284 -> 155
+	285 -> 284
+	286 -> 287
+	286 -> 138
+	287 -> 288
+	288 -> 289
+	288 -> 290
+	288 -> 285
+	289 -> 270
+	290 -> 282
+	156 -> 138
+	137 -> 138
+	143 -> 26
+	147 -> 138
+	156 -> 292
+	156 -> 26
+	rankdir=LR
+}

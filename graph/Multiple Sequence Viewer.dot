@@ -1,0 +1,13 @@
+digraph {
+	8378 [label="Get PDB"]
+	8379 [label="Multiple Sequence Viewer"]
+	8380 [label=Molecule_to_MAE]
+	8381 [label="Alignment Writer"]
+	8382 [label="Multiple Sequence Viewer"]
+	8384 [label="Get PDB"]
+	8378 -> 8380
+	8379 -> 8381
+	8380 -> 8379
+	8384 -> 8382
+	rankdir=LR
+}

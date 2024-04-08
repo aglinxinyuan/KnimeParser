@@ -1,0 +1,78 @@
+digraph {
+	5 [label="List Files"]
+	6 [label="Table Row To Variable Loop Start"]
+	18 [label="R Snippet"]
+	31 [label="R Source _Table_"]
+	36 [label=Sorter]
+	38 [label="Table Writer"]
+	40 [label="Table Row To Variable Loop Start"]
+	41 [label="R Snippet"]
+	43 [label="URL to File Path"]
+	50 [label="Extract Table Spec"]
+	51 [label="Constant Value Column"]
+	52 [label="Constant Value Column"]
+	54 [label="Loop End _2 ports_"]
+	55 [label="Constant Value Column"]
+	56 [label="Constant Value Column"]
+	57 [label="Loop End _2 ports_"]
+	59 [label="Column Combiner"]
+	60 [label=GroupBy]
+	61 [label=GroupBy]
+	62 [label=Joiner]
+	63 [label=Joiner]
+	64 [label=GroupBy]
+	65 [label=Transpose]
+	66 [label="Reference Column Filter"]
+	67 [label=RowID]
+	68 [label="Constant Value Column"]
+	69 [label="Constant Value Column"]
+	3 [label="Extract Context Properties"]
+	4 [label="Variable to Table Row"]
+	7 [label="Extract System Properties"]
+	10 [label="Table Column to Variable"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	49 [label="Table Row to Variable"]
+	3 -> 4
+	4 -> 48
+	7 -> 10
+	10 -> 46
+	46 -> 49
+	47 -> 46
+	48 -> 47
+	5 -> 36
+	6 -> 18
+	18 -> 40
+	18 -> 41
+	31 -> 18
+	36 -> 43
+	40 -> 41
+	41 -> 56
+	41 -> 50
+	43 -> 6
+	50 -> 51
+	51 -> 52
+	52 -> 54
+	54 -> 57
+	54 -> 57
+	55 -> 54
+	56 -> 55
+	57 -> 59
+	57 -> 66
+	59 -> 63
+	59 -> 60
+	60 -> 61
+	60 -> 62
+	61 -> 62
+	62 -> 63
+	63 -> 64
+	64 -> 67
+	65 -> 68
+	66 -> 38
+	67 -> 65
+	68 -> 69
+	69 -> 66
+	70 -> 6
+	rankdir=LR
+}
