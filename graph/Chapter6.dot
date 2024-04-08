@@ -1,0 +1,13 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	3 [label="Linear Regression Learner"]
+	4 [label="One to Many"]
+	5 [label="Regression Predictor"]
+	1 -> 4
+	2 -> 3
+	2 -> 5
+	3 -> 5
+	4 -> 2
+	rankdir=LR
+}

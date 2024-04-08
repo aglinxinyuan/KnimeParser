@@ -1,0 +1,263 @@
+digraph {
+	26 [label="Math Formula"]
+	37 [label=Joiner]
+	40 [label="Math Formula"]
+	47 [label="Row Filter"]
+	59 [label="Table Row to Variable"]
+	61 [label=Rank]
+	62 [label="Math Formula"]
+	90 [label="Row Splitter"]
+	91 [label="String Manipulation"]
+	92 [label="String Manipulation"]
+	93 [label=Concatenate]
+	62 [label=GroupBy]
+	63 [label="Row Filter"]
+	64 [label="Table Row to Variable"]
+	65 [label="Column Rename"]
+	66 [label="Math Formula"]
+	67 [label=Joiner]
+	68 [label="Column Rename"]
+	69 [label="Column Rename"]
+	72 [label="Group Loop Start"]
+	73 [label=Joiner]
+	74 [label=Joiner]
+	75 [label=GroupBy]
+	76 [label="Column Rename"]
+	77 [label="Column Rename"]
+	78 [label=Joiner]
+	79 [label="Math Formula"]
+	80 [label="Loop End"]
+	81 [label=GroupBy]
+	82 [label="Column Rename"]
+	83 [label="Group Loop Start"]
+	84 [label=Joiner]
+	85 [label="Math Formula"]
+	86 [label="Loop End"]
+	87 [label="Column Filter"]
+	88 [label="Column Filter"]
+	18 [label="Table View _JavaScript_"]
+	19 [label="Row Filter"]
+	20 [label="Column Rename"]
+	34 [label="WrappedNode Input"]
+	41 [label=GroupBy]
+	43 [label=Sorter]
+	44 [label="WrappedNode Output"]
+	45 [label="Text Output"]
+	46 [label="R Snippet"]
+	47 [label=GroupBy]
+	48 [label="Integer Input"]
+	49 [label="Java Edit Variable _simple_"]
+	51 [label="Range Slider Filter Definition"]
+	9 [label="SQLite Connector"]
+	13 [label="Database Table Selector"]
+	14 [label="Database Row Filter"]
+	16 [label="Database Table Selector"]
+	17 [label="Database Connection Table Reader"]
+	18 [label="Value Selection"]
+	30 [label="Database Connection Table Reader"]
+	31 [label="WrappedNode Input"]
+	32 [label="WrappedNode Output"]
+	34 [label="Text Output"]
+	36 [label="Generic JavaScript View"]
+	37 [label="Database Table Selector"]
+	38 [label="Database Connection Table Reader"]
+	39 [label="String Manipulation _Variable_"]
+	21 [label="Text Output"]
+	58 [label="Generic JavaScript View"]
+	91 [label=Pivoting]
+	92 [label="Line Plot _JavaScript_"]
+	93 [label=Pivoting]
+	94 [label="Line Plot _JavaScript_"]
+	95 [label="Math Formula"]
+	96 [label="Rule Engine"]
+	97 [label="Color Manager"]
+	100 [label="WrappedNode Input"]
+	101 [label="Scatter Plot _JavaScript_"]
+	102 [label=GroupBy]
+	103 [label="Lag Column"]
+	105 [label="Regression Predictor"]
+	107 [label="Row Filter"]
+	108 [label="Linear Regression Learner"]
+	109 [label="Column Filter"]
+	110 [label="Lag Column"]
+	112 [label="Regression Predictor"]
+	113 [label="Column Filter"]
+	114 [label="Linear Regression Learner"]
+	115 [label="Row Filter"]
+	116 [label="Regression Predictor"]
+	117 [label="Column Filter"]
+	118 [label="Lag Column"]
+	119 [label="Column Rename"]
+	120 [label="Row Filter"]
+	121 [label="Table Row to Variable"]
+	122 [label="Math Formula"]
+	126 [label="Numeric Scorer"]
+	127 [label="Row Filter"]
+	128 [label="Row Filter"]
+	129 [label="Line Plot"]
+	130 [label="Row Filter"]
+	131 [label="Line Plot"]
+	132 [label="Row Filter"]
+	133 [label="Numeric Scorer"]
+	134 [label="Line Plot"]
+	135 [label="Column Rename"]
+	136 [label="Row Filter"]
+	137 [label=Joiner]
+	138 [label=RowID]
+	139 [label="Missing Value"]
+	140 [label="Column Filter"]
+	141 [label="Math Formula"]
+	142 [label="Column Rename"]
+	104 [label="Table Editor _JavaScript_"]
+	105 [label="Math Formula"]
+	106 [label="Math Formula"]
+	108 [label="Rule Engine"]
+	109 [label=GroupBy]
+	110 [label="Conditional Box Plot _JavaScript_"]
+	111 [label=Pivoting]
+	112 [label="Column Rename _Regex_"]
+	113 [label="Column Rename _Regex_"]
+	114 [label="Row Filter"]
+	115 [label="Column Rename _Regex_"]
+	116 [label="Line Plot _JavaScript_"]
+	121 [label="Text Output"]
+	122 [label="WrappedNode Output"]
+	123 [label="String to Date_Time _legacy_"]
+	124 [label="String to Date_Time _legacy_"]
+	40 -> 40
+	47 -> 90
+	59 -> 40
+	93 -> 62
+	62 -> 47
+	90 -> 91
+	90 -> 92
+	91 -> 93
+	92 -> 93
+	26 -> 69
+	37 -> 73
+	37 -> 72
+	37 -> 74
+	37 -> 81
+	93 -> 62
+	93 -> 37
+	93 -> 26
+	62 -> 63
+	62 -> 66
+	63 -> 65
+	64 -> 66
+	65 -> 64
+	66 -> 68
+	68 -> 67
+	69 -> 67
+	72 -> 78
+	73 -> 76
+	74 -> 75
+	75 -> 77
+	76 -> 78
+	77 -> 84
+	78 -> 79
+	79 -> 80
+	80 -> 87
+	81 -> 82
+	82 -> 83
+	83 -> 84
+	84 -> 85
+	85 -> 86
+	86 -> 88
+	18 -> 46
+	19 -> 20
+	20 -> 44
+	34 -> 41
+	34 -> 47
+	41 -> 51
+	43 -> 18
+	46 -> 44
+	46 -> 19
+	47 -> 44
+	48 -> 49
+	49 -> 44
+	51 -> 43
+	9 -> 13
+	9 -> 16
+	9 -> 37
+	13 -> 14
+	14 -> 30
+	16 -> 17
+	17 -> 18
+	18 -> 39
+	30 -> 32
+	37 -> 38
+	38 -> 36
+	39 -> 14
+	102 -> 142
+	142 -> 108
+	142 -> 105
+	105 -> 109
+	107 -> 110
+	108 -> 105
+	108 -> 112
+	109 -> 127
+	110 -> 112
+	112 -> 113
+	113 -> 135
+	114 -> 116
+	115 -> 118
+	116 -> 117
+	117 -> 122
+	117 -> 130
+	118 -> 116
+	118 -> 114
+	119 -> 120
+	120 -> 121
+	121 -> 122
+	122 -> 137
+	122 -> 134
+	127 -> 129
+	127 -> 128
+	128 -> 126
+	130 -> 131
+	130 -> 132
+	132 -> 133
+	135 -> 139
+	136 -> 137
+	137 -> 138
+	138 -> 140
+	139 -> 136
+	140 -> 141
+	142 -> 102
+	91 -> 113
+	93 -> 112
+	95 -> 96
+	96 -> 97
+	97 -> 101
+	100 -> 102
+	100 -> 102
+	100 -> 108
+	100 -> 114
+	100 -> 93
+	100 -> 95
+	100 -> 91
+	142 -> 105
+	142 -> 104
+	105 -> 106
+	106 -> 58
+	108 -> 109
+	109 -> 110
+	111 -> 115
+	112 -> 123
+	113 -> 92
+	114 -> 111
+	115 -> 124
+	123 -> 94
+	124 -> 116
+	88 -> 98
+	88 -> 98
+	88 -> 98
+	29 -> 73
+	29 -> 73
+	29 -> 73
+	29 -> 73
+	31 -> 29
+	31 -> 29
+	rankdir=LR
+}

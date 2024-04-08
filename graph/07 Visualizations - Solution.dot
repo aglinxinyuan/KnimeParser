@@ -1,0 +1,44 @@
+digraph {
+	50 [label=TF]
+	51 [label="Bag Of Words Creator"]
+	52 [label="Tag Cloud"]
+	53 [label="Color Manager"]
+	54 [label="Bar Chart"]
+	55 [label="Term To String"]
+	56 [label="Row Filter"]
+	12 [label="Punctuation Erasure"]
+	15 [label="Stop Word Filter"]
+	16 [label="Case Converter"]
+	17 [label="Tag Filter"]
+	19 [label="Table Creator"]
+	20 [label="Tag Filter"]
+	4 [label="Tika Parser"]
+	5 [label="Strings To Document"]
+	7 [label="POS Tagger"]
+	9 [label="StanfordNLP NE Tagger"]
+	10 [label="Wildcard Tagger"]
+	11 [label="Table Creator"]
+	23 [label="Constant Value Column"]
+	24 [label="Column Filter"]
+	4 -> 5
+	5 -> 7
+	7 -> 9
+	9 -> 10
+	11 -> 10
+	12 -> 16
+	15 -> 17
+	16 -> 15
+	17 -> 20
+	19 -> 15
+	20 -> 23
+	22 -> 12
+	23 -> 24
+	50 -> 53
+	50 -> 56
+	51 -> 50
+	53 -> 52
+	55 -> 54
+	56 -> 55
+	57 -> 51
+	rankdir=LR
+}

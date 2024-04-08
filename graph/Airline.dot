@@ -1,0 +1,149 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Table Manipulator"]
+	3 [label=Sorter]
+	4 [label="Row Splitter"]
+	5 [label="Table Manipulator"]
+	6 [label="Column Expressions"]
+	7 [label="Data Explorer"]
+	8 [label="Table Manipulator"]
+	9 [label="Row Splitter"]
+	10 [label="Row Splitter"]
+	11 [label="Row Splitter"]
+	12 [label=GroupBy]
+	13 [label=GroupBy]
+	14 [label=GroupBy]
+	15 [label=GroupBy]
+	27 [label=Concatenate]
+	28 [label="Bar Chart _Labs_"]
+	29 [label=Concatenate]
+	30 [label="Bar Chart _Labs_"]
+	31 [label="Table Manipulator"]
+	32 [label=GroupBy]
+	33 [label="Constant Value Column"]
+	34 [label="Bar Chart _Labs_"]
+	35 [label="Bar Chart"]
+	37 [label="Image to Report"]
+	38 [label="Bar Chart"]
+	39 [label="Image to Report"]
+	40 [label="Bar Chart"]
+	41 [label="Image to Report"]
+	42 [label="Table Manipulator"]
+	43 [label=GroupBy]
+	44 [label="Constant Value Column"]
+	45 [label="Bar Chart"]
+	47 [label="Color Manager"]
+	48 [label="Column Splitter"]
+	49 [label="Bar Chart"]
+	50 [label="Image to Report"]
+	51 [label="Table Manipulator"]
+	52 [label="Table Manipulator"]
+	53 [label=GroupBy]
+	54 [label="Constant Value Column"]
+	55 [label="Bar Chart"]
+	56 [label="Image to Report"]
+	57 [label=GroupBy]
+	58 [label="Pie_Donut Chart"]
+	59 [label="Image to Report"]
+	60 [label="Image to Report"]
+	61 [label="Bar Chart"]
+	62 [label="Scatter Plot _Labs_"]
+	63 [label="Table Manipulator"]
+	64 [label="Image to Report"]
+	65 [label="Scatter Plot _Plotly_"]
+	66 [label="Table Manipulator"]
+	67 [label="Constant Value Column"]
+	68 [label=GroupBy]
+	69 [label="Image to Report"]
+	70 [label="Bar Chart"]
+	71 [label="Constant Value Column"]
+	72 [label=GroupBy]
+	73 [label="Table Manipulator"]
+	74 [label="GroupBy Bar Chart _JFreeChart_"]
+	75 [label="Image to Report"]
+	77 [label=GroupBy]
+	79 [label="GroupBy Bar Chart _JFreeChart_"]
+	80 [label="Image to Report"]
+	81 [label="Round Double"]
+	82 [label="Data to Report"]
+	84 [label="Table Manipulator"]
+	85 [label="Constant Value Column"]
+	86 [label=GroupBy]
+	87 [label=GroupBy]
+	88 [label="Data to Report"]
+	1 -> 2
+	2 -> 3
+	2 -> 7
+	3 -> 5
+	4 -> 6
+	5 -> 4
+	6 -> 8
+	6 -> 31
+	6 -> 42
+	6 -> 51
+	8 -> 9
+	9 -> 11
+	9 -> 10
+	10 -> 12
+	10 -> 13
+	11 -> 15
+	11 -> 14
+	12 -> 27
+	13 -> 29
+	14 -> 27
+	15 -> 29
+	27 -> 28
+	27 -> 40
+	29 -> 30
+	29 -> 38
+	31 -> 33
+	32 -> 34
+	32 -> 35
+	33 -> 32
+	35 -> 37
+	38 -> 39
+	40 -> 41
+	42 -> 44
+	43 -> 45
+	43 -> 49
+	43 -> 48
+	44 -> 43
+	47 -> 45
+	48 -> 47
+	49 -> 50
+	51 -> 52
+	51 -> 63
+	51 -> 84
+	51 -> 66
+	51 -> 73
+	52 -> 54
+	53 -> 55
+	53 -> 58
+	54 -> 53
+	54 -> 57
+	55 -> 56
+	57 -> 61
+	58 -> 59
+	61 -> 60
+	63 -> 62
+	63 -> 65
+	65 -> 64
+	66 -> 67
+	67 -> 68
+	68 -> 70
+	70 -> 69
+	71 -> 77
+	71 -> 72
+	72 -> 74
+	73 -> 71
+	74 -> 75
+	77 -> 81
+	79 -> 80
+	81 -> 79
+	84 -> 85
+	85 -> 87
+	85 -> 86
+	86 -> 82
+	87 -> 88
+	rankdir=LR
+}

@@ -1,0 +1,46 @@
+digraph {
+	9 [label="Rule Engine"]
+	16 [label="CSV Reader"]
+	17 [label="Excel Reader"]
+	168 [label="Keras Network Learner"]
+	169 [label="Keras Network Executor"]
+	18 [label="Cell Replacer"]
+	157 [label="Missing Value"]
+	159 [label="Category To Number"]
+	160 [label="Normalizer _Apply_"]
+	161 [label=Partitioning]
+	162 [label="Normalizer _Apply_"]
+	165 [label=Partitioning]
+	166 [label=Normalizer]
+	168 [label="Rule Engine"]
+	169 [label="Rule Engine"]
+	172 [label="Keras Input Layer"]
+	173 [label="Keras Dense Layer"]
+	174 [label="Keras Dense Layer"]
+	175 [label="Keras Dense Layer"]
+	177 [label=Scorer]
+	18 -> 157
+	157 -> 159
+	161 -> 160
+	161 -> 169
+	165 -> 161
+	165 -> 168
+	166 -> 162
+	166 -> 160
+	168 -> 166
+	169 -> 162
+	9 -> 177
+	16 -> 18
+	17 -> 18
+	168 -> 169
+	169 -> 9
+	159 -> 165
+	166 -> 169
+	166 -> 168
+	166 -> 168
+	172 -> 173
+	173 -> 174
+	174 -> 175
+	175 -> 168
+	rankdir=LR
+}

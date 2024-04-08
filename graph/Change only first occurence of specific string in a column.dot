@@ -1,0 +1,30 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	3 [label="H2 Connector"]
+	4 [label="DB Writer"]
+	5 [label="String Manipulation"]
+	6 [label="DB Writer"]
+	7 [label="DB Query Reader"]
+	8 [label="Counter Generation"]
+	9 [label="Duplicate Row Filter"]
+	10 [label="Rule Engine"]
+	11 [label="Rule Engine"]
+	12 [label="String Manipulation"]
+	13 [label="Column Filter"]
+	1 -> 8
+	2 -> 5
+	3 -> 4
+	3 -> 6
+	3 -> 7
+	4 -> 6
+	5 -> 6
+	6 -> 7
+	7 -> 9
+	8 -> 4
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	rankdir=LR
+}

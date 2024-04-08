@@ -1,0 +1,68 @@
+digraph {
+	1 [label="File Reader"]
+	4 [label="File Reader"]
+	14 [label="Data to Report"]
+	15 [label="Data to Report"]
+	16 [label="Data to Report"]
+	18 [label="Data to Report"]
+	19 [label="Data to Report"]
+	20 [label="Data to Report"]
+	21 [label="Data to Report"]
+	24 [label="Data to Report"]
+	37 [label="Data to Report"]
+	2 [label="File Reader"]
+	5 [label="File Reader"]
+	12 [label="String Input"]
+	13 [label="Constant Value Column"]
+	31 [label="Column Appender"]
+	38 [label="String Manipulation"]
+	39 [label="Row Filter"]
+	10 [label="File Reader"]
+	33 [label="File Reader"]
+	34 [label=GroupBy]
+	35 [label="Row Filter"]
+	36 [label=Joiner]
+	9 [label="File Reader"]
+	42 [label="String Manipulation"]
+	44 [label="Time to String _legacy_"]
+	45 [label="String to Date_Time _legacy_"]
+	7 [label="File Reader"]
+	46 [label="Missing Value"]
+	3 [label="File Reader"]
+	40 [label="Missing Value"]
+	6 [label="File Reader"]
+	46 [label="Table Creator"]
+	47 [label="String Manipulation"]
+	48 [label="Rule Engine _Dictionary_"]
+	8 [label="File Reader"]
+	9 [label="Missing Value"]
+	2 -> 38
+	5 -> 39
+	12 -> 2
+	13 -> 31
+	38 -> 13
+	39 -> 31
+	10 -> 36
+	33 -> 35
+	34 -> 36
+	35 -> 34
+	9 -> 42
+	42 -> 45
+	45 -> 44
+	7 -> 46
+	3 -> 40
+	6 -> 48
+	46 -> 47
+	47 -> 48
+	8 -> 9
+	1 -> 15
+	4 -> 16
+	49 -> 20
+	51 -> 37
+	52 -> 24
+	53 -> 19
+	54 -> 14
+	55 -> 18
+	56 -> 21
+	rankdir=LR
+}

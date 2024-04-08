@@ -1,0 +1,36 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Decision Tree Learner"]
+	6 [label=Partitioning]
+	7 [label="Decision Tree Predictor"]
+	10 [label="Scorer _JavaScript_"]
+	11 [label="Category To Number"]
+	12 [label="K Nearest Neighbor"]
+	13 [label="Scorer _JavaScript_"]
+	14 [label="RProp MLP Learner"]
+	15 [label="MultiLayerPerceptron Predictor"]
+	16 [label="Scorer _JavaScript_"]
+	17 [label=Normalizer]
+	18 [label="Naive Bayes Learner"]
+	19 [label="Naive Bayes Predictor"]
+	20 [label="Scorer _JavaScript_"]
+	1 -> 11
+	2 -> 7
+	6 -> 7
+	6 -> 2
+	6 -> 12
+	6 -> 12
+	6 -> 14
+	6 -> 15
+	6 -> 18
+	6 -> 19
+	7 -> 10
+	11 -> 17
+	12 -> 13
+	14 -> 15
+	15 -> 16
+	17 -> 6
+	18 -> 19
+	19 -> 20
+	rankdir=LR
+}

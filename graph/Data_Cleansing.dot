@@ -1,0 +1,22 @@
+digraph {
+	8 [label="Rule Engine"]
+	9 [label="String Manipulation"]
+	12 [label="Missing Value"]
+	13 [label="CSV Reader"]
+	14 [label="Row Filter"]
+	15 [label="CSV Reader"]
+	16 [label="Row Filter"]
+	17 [label="CSV Reader"]
+	18 [label="CSV Reader"]
+	19 [label="Missing Value Column Filter"]
+	20 [label="Missing Value _Apply_"]
+	8 -> 9
+	12 -> 20
+	13 -> 14
+	15 -> 16
+	17 -> 8
+	18 -> 19
+	18 -> 12
+	19 -> 20
+	rankdir=LR
+}

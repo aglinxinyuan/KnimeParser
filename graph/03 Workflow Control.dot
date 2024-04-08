@@ -1,0 +1,18 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	3 [label="Generic Loop Start"]
+	4 [label="Math Formula _Variable_"]
+	6 [label="Math Formula"]
+	7 [label="Color Appender"]
+	8 [label="Color Manager"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 6
+	4 -> 6
+	6 -> 8
+	8 -> 7
+	8 -> 7
+	rankdir=LR
+}

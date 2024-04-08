@@ -1,0 +1,32 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	3 [label="Lat_Lon to Geometry"]
+	4 [label="Kepler_gl Geoview "]
+	5 [label="GeoFile Reader"]
+	6 [label="CSV Reader"]
+	7 [label="Spatial Weights"]
+	8 [label="Column Filter"]
+	9 [label="Column Renamer"]
+	10 [label="Column Renamer"]
+	11 [label=Concatenate]
+	12 [label="Python Script"]
+	13 [label="Geospatial View"]
+	14 [label="CSV Writer"]
+	1 -> 2
+	2 -> 3
+	2 -> 12
+	3 -> 4
+	5 -> 7
+	5 -> 12
+	6 -> 10
+	6 -> 9
+	7 -> 8
+	8 -> 11
+	9 -> 11
+	10 -> 11
+	11 -> 14
+	11 -> 12
+	12 -> 13
+	rankdir=LR
+}

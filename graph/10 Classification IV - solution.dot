@@ -1,0 +1,49 @@
+digraph {
+	275 [label="Category To Class"]
+	276 [label="Color Manager"]
+	302 [label=Pivot]
+	308 [label="Math Formula"]
+	309 [label="Rule Engine"]
+	300 [label=TF]
+	304 [label=GroupBy]
+	305 [label="Bag Of Words Creator"]
+	297 [label="Tags To String"]
+	303 [label=TF]
+	304 [label="Tag Filter"]
+	305 [label="Bag Of Words Creator"]
+	313 [label="Missing Value"]
+	6 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	315 [label="Dictionary Tagger"]
+	316 [label="Dictionary Tagger"]
+	317 [label=Scorer]
+	318 [label=Joiner]
+	319 [label="CSV Reader"]
+	320 [label="CSV Reader"]
+	321 [label="CSV Reader"]
+	322 [label="Column Renamer"]
+	300 -> 304
+	305 -> 300
+	303 -> 297
+	304 -> 305
+	305 -> 303
+	7 -> 6
+	275 -> 276
+	276 -> 317
+	302 -> 313
+	308 -> 309
+	309 -> 275
+	304 -> 318
+	297 -> 302
+	313 -> 318
+	6 -> 315
+	315 -> 316
+	316 -> 304
+	316 -> 305
+	318 -> 322
+	319 -> 316
+	320 -> 7
+	321 -> 315
+	322 -> 308
+	rankdir=LR
+}

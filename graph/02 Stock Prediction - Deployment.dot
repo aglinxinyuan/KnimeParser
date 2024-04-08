@@ -1,0 +1,49 @@
+digraph {
+	95 [label="Send Email"]
+	235 [label="IF Switch"]
+	236 [label="End IF"]
+	237 [label="Rule Engine Variable"]
+	256 [label="Row Filter"]
+	257 [label="Table Row to Variable"]
+	263 [label="Table Row To Variable Loop Start"]
+	265 [label="Bar Chart"]
+	3 [label="Create Date_Time Range"]
+	5 [label="Date_Time Shift"]
+	265 [label="Table Row to Variable"]
+	266 [label="Extract Date_Time Fields"]
+	274 [label="String to Date_Time"]
+	277 [label="Table Creator"]
+	278 [label="CSV Writer"]
+	279 [label="CSV Writer"]
+	280 [label="Image Writer _Port_"]
+	281 [label="Call Workflow Service"]
+	282 [label="Loop End"]
+	283 [label="Call Workflow Service"]
+	230 [label=Sorter]
+	241 [label="Rule_based Row Filter"]
+	256 -> 257
+	257 -> 237
+	3 -> 5
+	5 -> 266
+	266 -> 265
+	241 -> 230
+	235 -> 236
+	235 -> 283
+	236 -> 282
+	237 -> 235
+	263 -> 281
+	265 -> 280
+	271 -> 281
+	274 -> 236
+	277 -> 263
+	278 -> 95
+	280 -> 95
+	281 -> 235
+	281 -> 256
+	282 -> 241
+	283 -> 274
+	230 -> 278
+	230 -> 279
+	230 -> 265
+	rankdir=LR
+}

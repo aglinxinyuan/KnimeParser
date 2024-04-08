@@ -1,0 +1,36 @@
+digraph {
+	1 [label="List Files_Folders"]
+	2 [label="Path to URI"]
+	3 [label="Tika Parser URL Input"]
+	4 [label="Column Filter"]
+	5 [label="String Manipulation"]
+	6 [label="String Manipulation"]
+	7 [label="Column Filter"]
+	8 [label="String Manipulation"]
+	10 [label="MongoDB Connector"]
+	11 [label="MongoDB Reader"]
+	12 [label="JSON to Table"]
+	13 [label=Joiner]
+	14 [label="String to Date_Time"]
+	15 [label="SQLite Connector"]
+	16 [label="DB Update"]
+	17 [label="Column Filter"]
+	18 [label="String Manipulation"]
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	17 -> 18
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	8 -> 13
+	10 -> 11
+	11 -> 12
+	12 -> 17
+	13 -> 14
+	14 -> 16
+	15 -> 16
+	18 -> 13
+	rankdir=LR
+}

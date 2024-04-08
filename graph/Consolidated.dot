@@ -1,0 +1,69 @@
+digraph {
+	2 [label=Statistics]
+	3 [label="Data Explorer"]
+	5 [label="String To Number"]
+	6 [label="Math Formula"]
+	7 [label="Math Formula"]
+	8 [label=RowID]
+	11 [label="Missing Value"]
+	12 [label="Rule Engine"]
+	13 [label="Rule Engine"]
+	15 [label=Partitioning]
+	16 [label="CSV Reader"]
+	17 [label="CSV Reader"]
+	18 [label=Joiner]
+	19 [label="Category To Number"]
+	20 [label="Column Filter"]
+	21 [label="Number To String"]
+	768 [label=Concatenate]
+	705 [label="Column Filter"]
+	706 [label="Constant Value Column"]
+	756 [label="Model to Cell"]
+	757 [label="Column Appender"]
+	779 [label="Gradient Boosted Trees Learner"]
+	780 [label="Scorer _JavaScript_"]
+	781 [label="Gradient Boosted Trees Predictor"]
+	708 [label="Scorer _JavaScript_"]
+	712 [label="Logistic Regression Learner"]
+	713 [label="Logistic Regression Predictor"]
+	715 [label="Constant Value Column"]
+	716 [label="Column Filter"]
+	718 [label="Model to Cell"]
+	719 [label="Column Appender"]
+	5 -> 6
+	6 -> 12
+	7 -> 5
+	8 -> 7
+	11 -> 15
+	11 -> 3
+	11 -> 2
+	12 -> 13
+	13 -> 19
+	16 -> 18
+	17 -> 18
+	18 -> 8
+	19 -> 20
+	20 -> 21
+	21 -> 11
+	705 -> 757
+	706 -> 757
+	756 -> 706
+	779 -> 781
+	779 -> 756
+	780 -> 705
+	781 -> 780
+	708 -> 716
+	712 -> 713
+	712 -> 718
+	713 -> 708
+	715 -> 719
+	716 -> 719
+	718 -> 715
+	22 -> 781
+	22 -> 781
+	22 -> 712
+	22 -> 712
+	757 -> 768
+	719 -> 768
+	rankdir=LR
+}

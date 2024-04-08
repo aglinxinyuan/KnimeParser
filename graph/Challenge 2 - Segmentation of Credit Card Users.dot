@@ -1,0 +1,35 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Normalizer]
+	3 [label=k_Means]
+	4 [label="Cluster Assigner"]
+	6 [label="Normalizer _Apply_"]
+	9 [label="Missing Value"]
+	14 [label="CSV Writer"]
+	15 [label=Partitioning]
+	16 [label=Denormalizer]
+	17 [label="Silhouette Coefficient"]
+	18 [label="Color Manager"]
+	19 [label="Scatter Plot"]
+	20 [label=Denormalizer]
+	21 [label="Missing Value _Apply_"]
+	1 -> 15
+	2 -> 3
+	2 -> 6
+	2 -> 16
+	2 -> 20
+	3 -> 4
+	3 -> 17
+	3 -> 20
+	4 -> 16
+	6 -> 4
+	9 -> 2
+	9 -> 21
+	15 -> 9
+	15 -> 21
+	16 -> 14
+	18 -> 19
+	20 -> 18
+	21 -> 6
+	rankdir=LR
+}

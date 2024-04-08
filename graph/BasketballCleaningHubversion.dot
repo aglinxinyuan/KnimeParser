@@ -1,0 +1,28 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Math Formula"]
+	3 [label="Cell Splitter By Position"]
+	4 [label="Rule Engine"]
+	5 [label="Column Filter"]
+	6 [label="Column Resorter"]
+	7 [label="Row Filter"]
+	8 [label="Row Filter"]
+	9 [label="CSV Writer"]
+	10 [label="CSV Writer"]
+	11 [label="Column Filter"]
+	12 [label="CSV Writer"]
+	13 [label="Category To Number"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 13
+	6 -> 7
+	6 -> 8
+	7 -> 9
+	8 -> 10
+	8 -> 11
+	11 -> 12
+	13 -> 6
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	6 [label="Segment Features"]
+	11 [label="Extract Outline Labeling"]
+	12 [label="Segment Cropper"]
+	13 [label="Java Snippet"]
+	14 [label=Ungroup]
+	15 [label=Joiner]
+	16 [label=Joiner]
+	17 [label="Math Formula"]
+	19 [label="Group Loop Start"]
+	20 [label="Loop End"]
+	21 [label=Sorter]
+	22 [label="Row Filter"]
+	3 [label="Image Reader _Table_"]
+	4 [label="Global Thresholder"]
+	5 [label="Connected Component Analysis"]
+	23 [label="Table Creator"]
+	3 -> 4
+	4 -> 5
+	23 -> 3
+	6 -> 15
+	11 -> 12
+	11 -> 16
+	12 -> 16
+	13 -> 15
+	14 -> 17
+	15 -> 14
+	16 -> 13
+	17 -> 19
+	19 -> 21
+	21 -> 22
+	22 -> 20
+	24 -> 6
+	24 -> 11
+	rankdir=LR
+}

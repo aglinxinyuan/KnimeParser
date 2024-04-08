@@ -1,0 +1,24 @@
+digraph {
+	557 [label="Document Grabber"]
+	558 [label="Document Data Extractor"]
+	561 [label="Java Snippet"]
+	564 [label="Column Filter"]
+	565 [label="Java Snippet"]
+	566 [label="Column Resorter"]
+	567 [label="Column Rename"]
+	568 [label="CSV Writer"]
+	569 [label="CSV Writer"]
+	570 [label="Java Snippet"]
+	572 [label="File Reader"]
+	557 -> 558
+	558 -> 565
+	561 -> 569
+	561 -> 557
+	564 -> 567
+	565 -> 564
+	566 -> 568
+	567 -> 570
+	570 -> 566
+	572 -> 561
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	1280 [label="Binary Objects to Strings"]
+	1284 [label="Cell Splitter"]
+	1285 [label=Transpose]
+	1286 [label="Cell Splitter"]
+	1287 [label="Insert Column Header"]
+	1288 [label="Row Splitter"]
+	1289 [label=Transpose]
+	1295 [label="Column Rename _Regex_"]
+	1296 [label="Table Reader"]
+	1297 [label="Column Rename _Regex_"]
+	1298 [label=Transpose]
+	1299 [label="Cell Splitter"]
+	1302 [label="Cell Splitter"]
+	1304 [label="Row Splitter"]
+	1305 [label="Insert Column Header"]
+	1306 [label=Ungroup]
+	1280 -> 1284
+	1280 -> 1302
+	1284 -> 1285
+	1285 -> 1295
+	1286 -> 1288
+	1288 -> 1289
+	1288 -> 1287
+	1289 -> 1287
+	1295 -> 1286
+	1296 -> 1280
+	1297 -> 1299
+	1298 -> 1305
+	1299 -> 1304
+	1302 -> 1306
+	1304 -> 1305
+	1304 -> 1298
+	1306 -> 1297
+	rankdir=LR
+}

@@ -1,0 +1,38 @@
+digraph {
+	225 [label="Keras Input Layer"]
+	280 [label="Keras Network Learner"]
+	284 [label="Keras Network Executor"]
+	288 [label="Rule Engine"]
+	289 [label=Scorer]
+	312 [label="Image Resizer"]
+	247 [label="Row Sampling"]
+	252 [label=Sorter]
+	285 [label="List Files_Folders"]
+	286 [label="Path to String"]
+	288 [label="Rule Engine"]
+	314 [label="Image Calculator"]
+	315 [label="Image Reader _Table_"]
+	316 [label="Column Filter"]
+	317 [label=Partitioning]
+	318 [label="Keras Network Writer"]
+	319 [label="Conda Environment Propagation"]
+	320 [label="Rule Engine"]
+	252 -> 286
+	285 -> 252
+	286 -> 288
+	288 -> 247
+	280 -> 284
+	280 -> 318
+	284 -> 288
+	288 -> 289
+	312 -> 316
+	313 -> 320
+	314 -> 312
+	315 -> 314
+	316 -> 317
+	317 -> 284
+	317 -> 280
+	319 -> 280
+	320 -> 315
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	11 [label="Row Filter"]
+	16 [label=GroupBy]
+	18 [label="Row Filter"]
+	19 [label="Moving Average"]
+	23 [label="Moving Aggregation"]
+	26 [label="JavaScript Line Plot"]
+	28 [label="JavaScript Line Plot"]
+	29 [label="String to Date_Time"]
+	30 [label="Extract Date_Time Fields"]
+	31 [label="Date_Time_based Row Filter"]
+	33 [label="Date_Time Difference"]
+	34 [label="Date_Time Difference"]
+	35 [label="CSV Reader"]
+	49 [label="Line Plot _JavaScript_"]
+	51 [label=Sorter]
+	52 [label="Table Creator"]
+	54 [label="Color Manager"]
+	19 -> 49
+	23 -> 28
+	29 -> 51
+	29 -> 33
+	30 -> 16
+	30 -> 11
+	30 -> 34
+	31 -> 30
+	33 -> 18
+	34 -> 26
+	35 -> 29
+	51 -> 19
+	51 -> 23
+	51 -> 31
+	52 -> 54
+	54 -> 49
+	rankdir=LR
+}

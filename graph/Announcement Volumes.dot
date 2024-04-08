@@ -1,0 +1,35 @@
+digraph {
+	2 [label="Excel Reader"]
+	3 [label="Excel Reader"]
+	4 [label=Joiner]
+	5 [label="Number To String"]
+	6 [label="Column Resorter"]
+	7 [label="Column Combiner"]
+	8 [label="Column Combiner"]
+	9 [label=Joiner]
+	10 [label="Excel Writer"]
+	11 [label="Excel Reader"]
+	12 [label=Joiner]
+	13 [label="Column Combiner"]
+	14 [label=Joiner]
+	15 [label="Excel Writer"]
+	16 [label="Excel Reader"]
+	17 [label="Column Resorter"]
+	2 -> 4
+	3 -> 5
+	4 -> 6
+	5 -> 4
+	5 -> 12
+	6 -> 7
+	7 -> 9
+	8 -> 9
+	8 -> 14
+	9 -> 10
+	11 -> 12
+	12 -> 17
+	13 -> 14
+	14 -> 15
+	16 -> 8
+	17 -> 13
+	rankdir=LR
+}

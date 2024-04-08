@@ -1,0 +1,46 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Recursive Loop Start"]
+	4 [label="Math Formula"]
+	7 [label="Column Filter"]
+	9 [label="Row Splitter"]
+	10 [label="Column Appender"]
+	11 [label="Recursive Loop End"]
+	12 [label="Rule Engine"]
+	13 [label="Column Rename _Regex_"]
+	14 [label="Column Filter"]
+	15 [label="Column Rename _Regex_"]
+	16 [label="Row Filter"]
+	17 [label="Add Empty Rows"]
+	19 [label="Table Row to Variable"]
+	20 [label="Extract Table Spec"]
+	21 [label=GroupBy]
+	22 [label="Column Filter"]
+	383 [label="Add Empty Rows"]
+	384 [label="Add Empty Rows"]
+	1 -> 383
+	2 -> 10
+	2 -> 9
+	4 -> 384
+	7 -> 13
+	9 -> 11
+	9 -> 10
+	10 -> 12
+	12 -> 4
+	13 -> 11
+	14 -> 15
+	14 -> 20
+	15 -> 17
+	16 -> 14
+	17 -> 2
+	19 -> 22
+	19 -> 7
+	20 -> 21
+	21 -> 19
+	22 -> 11
+	383 -> 2
+	383 -> 16
+	384 -> 22
+	384 -> 7
+	rankdir=LR
+}

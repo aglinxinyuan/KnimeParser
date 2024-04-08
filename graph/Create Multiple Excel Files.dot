@@ -1,0 +1,19 @@
+digraph {
+	142 [label="Table Creator"]
+	143 [label="Group Loop Start"]
+	144 [label=GroupBy]
+	146 [label="String Manipulation _Variable_"]
+	147 [label="String Configuration"]
+	148 [label="String to Path _Variable_"]
+	149 [label="Excel Writer"]
+	150 [label="Variable Loop End"]
+	142 -> 143
+	143 -> 144
+	143 -> 146
+	144 -> 149
+	146 -> 148
+	147 -> 146
+	148 -> 149
+	149 -> 150
+	rankdir=LR
+}

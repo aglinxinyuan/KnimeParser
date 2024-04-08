@@ -1,0 +1,134 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="DB Query Reader"]
+	3 [label="Oracle Connector"]
+	5 [label="DB Query Reader"]
+	7 [label="Column Expressions"]
+	11 [label="Duplicate Row Filter"]
+	12 [label="Rule_based Row Filter"]
+	16 [label="Rule_based Row Filter"]
+	17 [label="Row Filter"]
+	19 [label=Joiner]
+	20 [label="Rule Engine"]
+	21 [label=GroupBy]
+	22 [label="Row Filter"]
+	23 [label="Excel Reader"]
+	24 [label="Excel Reader"]
+	25 [label="Excel Reader"]
+	26 [label=GroupBy]
+	29 [label=GroupBy]
+	30 [label=GroupBy]
+	31 [label="Excel Reader"]
+	33 [label="Number To String"]
+	34 [label="Number To String"]
+	35 [label="Number To String"]
+	36 [label=GroupBy]
+	37 [label="Column Expressions"]
+	38 [label=Joiner]
+	39 [label=Joiner]
+	40 [label=GroupBy]
+	41 [label=GroupBy]
+	42 [label=GroupBy]
+	43 [label=GroupBy]
+	44 [label=GroupBy]
+	45 [label=GroupBy]
+	49 [label="Column Rename"]
+	50 [label="Column Rename"]
+	51 [label="Column Rename"]
+	52 [label="Column Rename"]
+	53 [label=Concatenate]
+	55 [label="Column Rename"]
+	56 [label=GroupBy]
+	59 [label="Column Rename"]
+	60 [label="Rule Engine"]
+	61 [label=GroupBy]
+	62 [label=GroupBy]
+	64 [label=Concatenate]
+	65 [label="Math Formula"]
+	67 [label="Missing Value"]
+	68 [label=GroupBy]
+	69 [label=Joiner]
+	70 [label="Missing Value"]
+	71 [label="Math Formula"]
+	72 [label=Joiner]
+	73 [label="Send to Tableau Server"]
+	74 [label="Tableau Writer"]
+	75 [label="Rule_based Row Filter"]
+	76 [label=GroupBy]
+	77 [label=Joiner]
+	78 [label="Excel Writer"]
+	79 [label="Excel Writer"]
+	85 [label="Row Filter"]
+	86 [label=GroupBy]
+	88 [label=Joiner]
+	89 [label=Joiner]
+	90 [label="Row Filter"]
+	1 -> 19
+	1 -> 38
+	2 -> 7
+	3 -> 2
+	3 -> 5
+	5 -> 39
+	7 -> 75
+	11 -> 60
+	16 -> 17
+	17 -> 19
+	19 -> 20
+	20 -> 21
+	20 -> 26
+	23 -> 34
+	24 -> 35
+	25 -> 72
+	25 -> 77
+	26 -> 45
+	29 -> 43
+	30 -> 42
+	31 -> 33
+	33 -> 39
+	33 -> 89
+	34 -> 41
+	35 -> 30
+	35 -> 29
+	36 -> 59
+	37 -> 38
+	38 -> 40
+	39 -> 37
+	40 -> 44
+	41 -> 49
+	42 -> 50
+	43 -> 51
+	44 -> 52
+	45 -> 55
+	49 -> 53
+	50 -> 53
+	51 -> 64
+	52 -> 53
+	53 -> 56
+	55 -> 53
+	56 -> 64
+	59 -> 69
+	60 -> 61
+	61 -> 62
+	62 -> 36
+	64 -> 67
+	65 -> 68
+	65 -> 76
+	67 -> 65
+	68 -> 77
+	69 -> 70
+	70 -> 71
+	71 -> 72
+	72 -> 74
+	72 -> 79
+	75 -> 88
+	75 -> 85
+	76 -> 69
+	77 -> 78
+	85 -> 86
+	86 -> 88
+	88 -> 89
+	89 -> 90
+	90 -> 16
+	90 -> 11
+	rankdir=LR
+}

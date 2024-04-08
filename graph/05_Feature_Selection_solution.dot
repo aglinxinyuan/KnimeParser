@@ -1,0 +1,101 @@
+digraph {
+	60 [label="CSV Reader"]
+	63 [label="Rule Engine"]
+	64 [label="Missing Value _Apply_"]
+	72 [label="Reference Column Filter"]
+	73 [label="Missing Value _Apply_"]
+	77 [label="Rule Engine"]
+	78 [label="Missing Value"]
+	80 [label="Column Auto Type Cast"]
+	81 [label="Missing Value Column Filter"]
+	82 [label="Missing Value"]
+	83 [label="Column Auto Type Cast"]
+	66 [label="Numeric Outliers"]
+	774 [label=Normalizer]
+	775 [label="Rule_based Row Filter"]
+	778 [label="Normalizer _Apply_"]
+	780 [label="Numeric Outliers _Apply_"]
+	784 [label="Rule_based Row Filter"]
+	785 [label="Reference Row Filter"]
+	786 [label="Reference Row Filter"]
+	23 [label="Rule Engine"]
+	24 [label=Partitioning]
+	26 [label="Column Filter"]
+	53 [label="Low Variance Filter"]
+	55 [label="Correlation Filter"]
+	57 [label="PCA Compute"]
+	58 [label="PCA Apply"]
+	61 [label="Reference Column Filter"]
+	62 [label="PCA Apply"]
+	200 [label="Linear Correlation"]
+	788 [label="Normalizer _Apply_"]
+	799 [label=Normalizer]
+	801 [label="Reference Column Filter"]
+	819 [label=Normalizer]
+	2 [label="Feature Selection Loop End"]
+	3 [label="Feature Selection Filter"]
+	6 [label=Partitioning]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	54 [label="Logistic Regression Predictor"]
+	55 [label="Logistic Regression Learner"]
+	56 [label=Scorer]
+	823 [label="Reference Column Filter"]
+	63 -> 64
+	64 -> 83
+	72 -> 73
+	77 -> 78
+	78 -> 64
+	78 -> 80
+	80 -> 81
+	81 -> 82
+	81 -> 72
+	82 -> 73
+	83 -> 72
+	66 -> 774
+	66 -> 780
+	66 -> 785
+	774 -> 775
+	774 -> 778
+	775 -> 785
+	778 -> 784
+	780 -> 778
+	780 -> 786
+	784 -> 786
+	23 -> 26
+	26 -> 24
+	53 -> 55
+	53 -> 200
+	55 -> 61
+	55 -> 801
+	57 -> 58
+	57 -> 62
+	58 -> 62
+	61 -> 788
+	200 -> 55
+	788 -> 62
+	799 -> 53
+	799 -> 801
+	801 -> 819
+	819 -> 788
+	819 -> 58
+	819 -> 57
+	2 -> 3
+	6 -> 54
+	6 -> 55
+	8 -> 6
+	54 -> 56
+	55 -> 54
+	56 -> 2
+	60 -> 23
+	82 -> 66
+	82 -> 66
+	786 -> 61
+	786 -> 61
+	24 -> 77
+	24 -> 77
+	62 -> 823
+	62 -> 3
+	62 -> 3
+	3 -> 823
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	119 [label=SamtoolsMPileup]
+	120 [label=BcfToVcf]
+	122 [label=SortBam]
+	458 [label="Input File"]
+	459 [label="Input File"]
+	463 [label="Copy_Move Files"]
+	464 [label="Port to URI"]
+	119 -> 120
+	120 -> 464
+	122 -> 119
+	458 -> 122
+	459 -> 119
+	464 -> 463
+	rankdir=LR
+}

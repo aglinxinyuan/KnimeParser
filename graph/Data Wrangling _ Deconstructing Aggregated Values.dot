@@ -1,0 +1,37 @@
+digraph {
+	279 [label="Google Authentication"]
+	282 [label="Google Sheets Reader"]
+	285 [label="Google Sheets Connection"]
+	288 [label="String To Number"]
+	298 [label=RowID]
+	299 [label="Table Row to Variable"]
+	300 [label="Group Loop Start"]
+	302 [label=Unpivoting]
+	303 [label=Pivoting]
+	305 [label="Moving Aggregation"]
+	306 [label="Math Formula"]
+	307 [label=Unpivoting]
+	308 [label=Pivoting]
+	309 [label="Constant Value Column"]
+	310 [label="Column Rename"]
+	311 [label="Loop End"]
+	312 [label="Constant Value Column"]
+	279 -> 285
+	282 -> 288
+	285 -> 282
+	288 -> 300
+	299 -> 312
+	300 -> 299
+	300 -> 312
+	302 -> 303
+	303 -> 305
+	305 -> 306
+	306 -> 307
+	307 -> 308
+	308 -> 309
+	309 -> 310
+	310 -> 311
+	311 -> 298
+	312 -> 302
+	rankdir=LR
+}

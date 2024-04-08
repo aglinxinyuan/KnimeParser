@@ -1,0 +1,30 @@
+digraph {
+	2 [label="GET Request"]
+	3 [label="JSON Path"]
+	4 [label="Column Filter"]
+	5 [label="Split Collection Column"]
+	6 [label=Transpose]
+	7 [label="JSON Path"]
+	8 [label="Tika Language Detector"]
+	10 [label="Reference Row Filter"]
+	11 [label="Table Creator"]
+	12 [label="Counting Loop Start"]
+	13 [label="Table Creator"]
+	14 [label="String Manipulation"]
+	15 [label="Loop End"]
+	16 [label="String Manipulation"]
+	2 -> 3
+	3 -> 5
+	4 -> 6
+	5 -> 4
+	6 -> 7
+	7 -> 8
+	8 -> 10
+	10 -> 15
+	11 -> 10
+	12 -> 14
+	13 -> 16
+	14 -> 2
+	16 -> 12
+	rankdir=LR
+}

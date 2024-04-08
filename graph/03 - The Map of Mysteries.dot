@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Row Filter"]
+	3 [label="String to Date_Time"]
+	4 [label="Date_Time_based Row Filter"]
+	5 [label="Row Filter"]
+	6 [label="CSV Reader"]
+	7 [label=Joiner]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 7
+	6 -> 7
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	15 [label="Column Filter"]
+	16 [label="Column Filter"]
+	17 [label="Column Filter"]
+	18 [label="Reference Column Filter"]
+	19 [label="Table Creator"]
+	22 [label="File Reader"]
+	19 -> 18
+	22 -> 18
+	22 -> 16
+	22 -> 17
+	22 -> 15
+	rankdir=LR
+}

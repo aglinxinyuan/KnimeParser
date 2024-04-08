@@ -1,0 +1,29 @@
+digraph {
+	1 [label="Table Creator"]
+	4 [label="CASE Switch Start"]
+	6 [label="Rule Engine"]
+	7 [label="Table Row To Variable Loop Start"]
+	8 [label="CASE Switch End"]
+	13 [label="Row Filter"]
+	14 [label="Loop End"]
+	1 -> 6
+	1 -> 13
+	4 -> 11
+	4 -> 11
+	4 -> 11
+	4 -> 11
+	4 -> 11
+	4 -> 11
+	6 -> 7
+	7 -> 4
+	7 -> 13
+	8 -> 14
+	11 -> 8
+	11 -> 8
+	11 -> 8
+	11 -> 8
+	11 -> 8
+	11 -> 8
+	13 -> 4
+	rankdir=LR
+}

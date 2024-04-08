@@ -1,0 +1,27 @@
+digraph {
+	36 [label="Modify Time"]
+	38 [label=GroupBy]
+	39 [label=Sorter]
+	42 [label="Extract Date_Time Fields"]
+	43 [label="CSV Reader"]
+	44 [label="DB Row Filter"]
+	45 [label="DB Reader"]
+	47 [label="SQLite Connector"]
+	48 [label="DB Writer"]
+	49 [label="DB GroupBy"]
+	50 [label="Modify Time"]
+	51 [label="DB Joiner"]
+	36 -> 42
+	38 -> 39
+	42 -> 38
+	43 -> 36
+	43 -> 50
+	44 -> 45
+	47 -> 48
+	48 -> 49
+	48 -> 51
+	49 -> 51
+	50 -> 48
+	51 -> 44
+	rankdir=LR
+}

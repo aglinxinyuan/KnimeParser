@@ -1,0 +1,36 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Column Filter"]
+	23 [label="Missing Value"]
+	25 [label="Category To Number"]
+	26 [label="Column List Loop Start"]
+	27 [label=Shuffle]
+	28 [label="Loop End _Column Append_"]
+	29 [label="Linear Correlation"]
+	30 [label="Linear Correlation"]
+	31 [label=RowID]
+	33 [label="Column Rename _Regex_"]
+	24 [label="String Manipulation _Multi Column_"]
+	34 [label="Rule Engine"]
+	35 [label="Rule Engine"]
+	36 [label="Rule Engine"]
+	37 [label="Column Expressions"]
+	38 [label="Column Filter"]
+	24 -> 37
+	34 -> 35
+	35 -> 36
+	36 -> 24
+	37 -> 38
+	1 -> 3
+	3 -> 23
+	23 -> 34
+	25 -> 26
+	25 -> 30
+	26 -> 27
+	27 -> 31
+	28 -> 33
+	31 -> 28
+	33 -> 29
+	38 -> 25
+	rankdir=LR
+}

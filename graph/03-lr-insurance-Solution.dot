@@ -1,0 +1,59 @@
+digraph {
+	1 [label=X_Aggregator]
+	2 [label=X_Partitioner]
+	17 [label="Linear Regression Learner"]
+	18 [label="Regression Predictor"]
+	3 [label="Scatter Matrix _local_"]
+	4 [label="Data Explorer"]
+	7 [label="Column Filter"]
+	14 [label="Color Manager"]
+	16 [label="Math Formula"]
+	17 [label="Category To Number"]
+	18 [label="Math Formula"]
+	19 [label=Partitioning]
+	20 [label="Numeric Scorer"]
+	21 [label="Polynomial Regression Learner"]
+	22 [label="Linear Regression Learner"]
+	23 [label="Linear Regression Learner"]
+	24 [label="Regression Predictor"]
+	26 [label="Numeric Scorer"]
+	27 [label="Numeric Scorer"]
+	28 [label="Regression Predictor"]
+	29 [label="3D Scatter Plot _Plotly_"]
+	30 [label="Linear Correlation"]
+	31 [label="Scatter Plot _Plotly_"]
+	32 [label="Violin Plot _Plotly_"]
+	33 [label="Box Plot"]
+	35 [label="CSV Reader"]
+	36 [label="Numeric Outliers"]
+	2 -> 18
+	2 -> 17
+	17 -> 18
+	18 -> 1
+	1 -> 20
+	7 -> 36
+	14 -> 29
+	14 -> 22
+	14 -> 32
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	18 -> 2
+	19 -> 23
+	19 -> 21
+	19 -> 24
+	19 -> 28
+	21 -> 24
+	23 -> 28
+	24 -> 27
+	28 -> 26
+	35 -> 30
+	35 -> 3
+	35 -> 33
+	35 -> 4
+	35 -> 31
+	35 -> 7
+	36 -> 14
+	36 -> 16
+	rankdir=LR
+}

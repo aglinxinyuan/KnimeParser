@@ -1,0 +1,31 @@
+digraph {
+	2 [label="DB Table Selector"]
+	3 [label="DB Table Selector"]
+	4 [label="DB Joiner"]
+	8 [label="DB Column Filter"]
+	10 [label="DB GroupBy"]
+	13 [label="SQLite Connector"]
+	14 [label="DB Reader"]
+	15 [label="Math Formula"]
+	16 [label="Column Rename"]
+	17 [label="String Manipulation"]
+	18 [label="String Manipulation"]
+	19 [label="Bar Chart"]
+	20 [label="DB Query"]
+	21 [label="DB Query"]
+	2 -> 21
+	3 -> 20
+	4 -> 8
+	8 -> 10
+	10 -> 14
+	13 -> 2
+	13 -> 3
+	14 -> 16
+	15 -> 19
+	16 -> 17
+	17 -> 18
+	18 -> 15
+	20 -> 4
+	21 -> 4
+	rankdir=LR
+}

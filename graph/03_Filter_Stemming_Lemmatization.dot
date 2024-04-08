@@ -1,0 +1,28 @@
+digraph {
+	112 [label="Case converter"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	130 [label="Stanford Lemmatizer"]
+	131 [label="Porter Stemmer"]
+	133 [label="Table Reader"]
+	135 [label="Snowball Stemmer"]
+	137 [label="Tag Filter"]
+	126 [label="Row Filter"]
+	128 [label="Column Filter"]
+	133 [label="Strings To Document"]
+	134 [label="POS Tagger"]
+	139 [label="Stop Word Filter"]
+	126 -> 133
+	128 -> 134
+	133 -> 128
+	112 -> 137
+	115 -> 116
+	116 -> 139
+	133 -> 126
+	137 -> 131
+	137 -> 130
+	137 -> 135
+	134 -> 115
+	139 -> 112
+	rankdir=LR
+}

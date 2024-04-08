@@ -1,0 +1,20 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	6 [label="Missing Value"]
+	8 [label=Statistics]
+	9 [label="Rule_based Row Filter"]
+	10 [label=k_Means]
+	11 [label="Color Manager"]
+	12 [label="Scatter Plot"]
+	13 [label="SelfOrganizingMap _3_7_"]
+	1 -> 6
+	2 -> 9
+	6 -> 2
+	9 -> 8
+	9 -> 10
+	9 -> 13
+	10 -> 11
+	11 -> 12
+	rankdir=LR
+}

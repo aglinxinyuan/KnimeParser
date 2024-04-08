@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Column Expressions"]
+	3 [label=Pivoting]
+	4 [label="Duplicate Row Filter"]
+	6 [label="Missing Value"]
+	1 -> 4
+	2 -> 3
+	3 -> 6
+	4 -> 2
+	rankdir=LR
+}

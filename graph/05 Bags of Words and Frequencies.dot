@@ -1,0 +1,74 @@
+digraph {
+	23 [label="Bag Of Words Creator"]
+	12 [label="Punctuation Erasure"]
+	15 [label="Stop Word Filter"]
+	16 [label="Case Converter"]
+	17 [label="Tag Filter"]
+	19 [label="Table Creator"]
+	20 [label="Tag Filter"]
+	4 [label="Tika Parser"]
+	5 [label="Strings To Document"]
+	7 [label="POS Tagger"]
+	9 [label="StanfordNLP NE Tagger"]
+	10 [label="Wildcard Tagger"]
+	11 [label="Table Creator"]
+	23 [label="Constant Value Column"]
+	24 [label="Column Filter"]
+	12 [label="Constant Value Column"]
+	17 [label="Tag Filter"]
+	20 [label="Tag Filter"]
+	23 [label="Punctuation Erasure"]
+	24 [label="Case Converter"]
+	25 [label="Stop Word Filter"]
+	26 [label="Table Creator"]
+	12 [label="Strings To Document"]
+	13 [label="Tika Parser"]
+	14 [label="POS Tagger"]
+	15 [label="StanfordNLP NE Tagger"]
+	16 [label="Table Creator"]
+	17 [label="Wildcard Tagger"]
+	32 [label="Column Filter"]
+	43 [label=TF]
+	44 [label=Concatenate]
+	45 [label="Bag Of Words Creator"]
+	46 [label=DF]
+	47 [label=IDF]
+	48 [label=TF]
+	49 [label="Math Formula"]
+	4 -> 5
+	5 -> 7
+	7 -> 9
+	9 -> 10
+	11 -> 10
+	12 -> 16
+	15 -> 17
+	16 -> 15
+	17 -> 20
+	19 -> 15
+	20 -> 23
+	22 -> 12
+	23 -> 24
+	12 -> 14
+	13 -> 12
+	14 -> 15
+	15 -> 17
+	16 -> 17
+	12 -> 32
+	17 -> 20
+	20 -> 12
+	23 -> 24
+	24 -> 25
+	25 -> 17
+	26 -> 25
+	30 -> 23
+	23 -> 43
+	41 -> 44
+	41 -> 23
+	42 -> 44
+	44 -> 45
+	45 -> 46
+	45 -> 48
+	47 -> 49
+	48 -> 47
+	rankdir=LR
+}

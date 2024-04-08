@@ -1,0 +1,42 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label="Category To Number"]
+	7 [label=Partitioning]
+	8 [label="Hierarchical Clustering"]
+	9 [label=k_Means]
+	10 [label="Cluster Assigner"]
+	12 [label=Statistics]
+	13 [label=Normalizer]
+	14 [label=Statistics]
+	15 [label="Silhouette Coefficient"]
+	16 [label="Decision Tree Learner"]
+	17 [label="Decision Tree Predictor"]
+	18 [label=Joiner]
+	19 [label=Scorer]
+	20 [label=Denormalizer]
+	21 [label="Scatter Plot"]
+	22 [label="Color Manager"]
+	1 -> 2
+	1 -> 12
+	2 -> 3
+	2 -> 14
+	3 -> 13
+	7 -> 10
+	7 -> 9
+	7 -> 8
+	7 -> 17
+	9 -> 10
+	9 -> 15
+	9 -> 16
+	9 -> 20
+	10 -> 18
+	13 -> 7
+	13 -> 20
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	20 -> 22
+	22 -> 21
+	rankdir=LR
+}

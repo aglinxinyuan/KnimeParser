@@ -1,0 +1,15 @@
+digraph {
+	2 [label="Data Explorer"]
+	30 [label="CSV Reader"]
+	31 [label="CSV Reader"]
+	32 [label="Row Filter"]
+	33 [label="Row Filter"]
+	34 [label="Row Filter"]
+	35 [label="Rule Engine"]
+	30 -> 2
+	31 -> 32
+	31 -> 33
+	31 -> 34
+	31 -> 35
+	rankdir=LR
+}

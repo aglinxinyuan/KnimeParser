@@ -1,0 +1,18 @@
+digraph {
+	2 [label="SQLite Connector"]
+	3 [label="DB Table Selector"]
+	4 [label="DB Row Filter"]
+	5 [label="DB Reader"]
+	6 [label="Excel Reader"]
+	7 [label="CSV Reader"]
+	8 [label=Joiner]
+	9 [label=Joiner]
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 8
+	6 -> 8
+	7 -> 9
+	8 -> 9
+	rankdir=LR
+}

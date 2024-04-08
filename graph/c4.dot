@@ -1,0 +1,19 @@
+digraph {
+	6 [label="Number To String"]
+	8 [label="Column Filter"]
+	13 [label=Partitioning]
+	15 [label="Decision Tree Learner"]
+	16 [label="Decision Tree Predictor"]
+	17 [label=Scorer]
+	18 [label="Missing Value"]
+	19 [label="CSV Reader"]
+	6 -> 8
+	8 -> 18
+	13 -> 15
+	13 -> 16
+	15 -> 16
+	16 -> 17
+	18 -> 13
+	19 -> 6
+	rankdir=LR
+}

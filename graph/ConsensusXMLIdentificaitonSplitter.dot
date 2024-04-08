@@ -1,0 +1,34 @@
+digraph {
+	1 [label="List Files_Folders"]
+	2 [label="URI to Port"]
+	3 [label="Path to URI"]
+	4 [label=MapAlignerPoseClustering]
+	5 [label=FeatureLinkerUnlabeled]
+	6 [label=ConsensusMapNormalizer]
+	7 [label=IDConflictResolver]
+	15 [label="Port to URI"]
+	18 [label="Port to URI"]
+	8 [label="Python Script"]
+	9 [label="Conda Environment Propagation"]
+	10 [label="Port to URI"]
+	11 [label="URI to Port"]
+	13 [label="String to URI"]
+	16 [label="URI to Port"]
+	17 [label="String to URI"]
+	8 -> 13
+	8 -> 17
+	9 -> 8
+	10 -> 8
+	13 -> 11
+	17 -> 16
+	1 -> 3
+	2 -> 4
+	3 -> 2
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 10
+	16 -> 18
+	16 -> 15
+	rankdir=LR
+}

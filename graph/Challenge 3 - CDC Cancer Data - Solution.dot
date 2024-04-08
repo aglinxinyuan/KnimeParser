@@ -1,0 +1,36 @@
+digraph {
+	9 [label="Column Filter"]
+	18 [label="Row Filter"]
+	51 [label="CSV Reader"]
+	52 [label=GroupBy]
+	53 [label="Excel Reader"]
+	54 [label="String Manipulation"]
+	55 [label=Joiner]
+	56 [label="Math Formula"]
+	58 [label=Pivoting]
+	59 [label=Sorter]
+	60 [label=Sorter]
+	61 [label="Row Filter"]
+	62 [label="Row Filter"]
+	63 [label=Sorter]
+	64 [label="Row Filter"]
+	65 [label="Missing Value"]
+	66 [label="Column Filter"]
+	9 -> 61
+	18 -> 52
+	18 -> 58
+	51 -> 18
+	52 -> 55
+	53 -> 54
+	54 -> 55
+	55 -> 56
+	56 -> 63
+	58 -> 65
+	59 -> 9
+	60 -> 66
+	63 -> 64
+	65 -> 59
+	65 -> 60
+	66 -> 62
+	rankdir=LR
+}

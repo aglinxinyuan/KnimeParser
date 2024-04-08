@@ -1,0 +1,61 @@
+digraph {
+	34 [label="Data to Report"]
+	36 [label="Data to Report"]
+	38 [label="Interval Loop Start"]
+	54 [label="Loop End _2 ports_"]
+	44 [label="Chunk Loop Start"]
+	45 [label=Joiner]
+	46 [label=Concatenate]
+	48 [label="Reference Row Filter"]
+	49 [label=Ungroup]
+	50 [label="Math Formula"]
+	52 [label="Row Filter"]
+	53 [label="Loop End"]
+	58 [label=Cache]
+	59 [label="Distance Matrix Calculate"]
+	60 [label=RowID]
+	61 [label="Rule Engine"]
+	62 [label=RowID]
+	64 [label=GroupBy]
+	65 [label="Column Rename"]
+	66 [label=Joiner]
+	69 [label="Variable to Table Column"]
+	70 [label="Column Filter"]
+	62 [label=k_Means]
+	67 [label="Integer Configuration"]
+	68 [label="Integer Configuration"]
+	70 [label="Column Filter"]
+	71 [label="Excel Reader"]
+	72 [label="Excel Writer"]
+	44 -> 45
+	44 -> 60
+	45 -> 46
+	46 -> 64
+	48 -> 49
+	49 -> 50
+	50 -> 70
+	52 -> 61
+	58 -> 62
+	69 -> 48
+	60 -> 48
+	60 -> 46
+	61 -> 53
+	62 -> 66
+	64 -> 65
+	65 -> 66
+	66 -> 69
+	70 -> 52
+	38 -> 62
+	54 -> 36
+	54 -> 34
+	54 -> 72
+	69 -> 54
+	69 -> 54
+	62 -> 64
+	62 -> 64
+	67 -> 68
+	68 -> 38
+	70 -> 38
+	71 -> 70
+	rankdir=LR
+}

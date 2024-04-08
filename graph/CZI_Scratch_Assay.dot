@@ -1,0 +1,30 @@
+digraph {
+	1 [label="Image Reader"]
+	12 [label=GroupBy]
+	15 [label="Line Plot _Plotly_"]
+	16 [label="Line Plot"]
+	2 [label="Variance Filter"]
+	7 [label="Global Thresholder"]
+	8 [label="Fill Holes"]
+	9 [label="Connected Component Analysis"]
+	10 [label="Labeling Filter"]
+	11 [label="Segment Features"]
+	19 [label="Image Writer _Port_"]
+	20 [label="Image Writer _Port_"]
+	21 [label="Error Bars Plot _Plotly_"]
+	22 [label="Image Writer _Port_"]
+	2 -> 7
+	7 -> 8
+	9 -> 10
+	10 -> 11
+	1 -> 2
+	12 -> 15
+	12 -> 21
+	12 -> 16
+	15 -> 20
+	16 -> 19
+	8 -> 9
+	11 -> 12
+	21 -> 22
+	rankdir=LR
+}

@@ -1,0 +1,48 @@
+digraph {
+	58 [label="Generic JavaScript View"]
+	155 [label="Excel Reader _XLS_"]
+	156 [label="File Reader"]
+	157 [label="Table Reader"]
+	158 [label=Joiner]
+	159 [label=Joiner]
+	160 [label="Data Explorer _JavaScript_"]
+	161 [label="XML Reader"]
+	162 [label="Column Rename"]
+	163 [label="JSON to Table"]
+	164 [label="XML To JSON"]
+	165 [label=XPath]
+	166 [label=Joiner]
+	167 [label="Lag Column"]
+	102 [label=GroupBy]
+	105 [label="Math Formula"]
+	106 [label="Math Formula"]
+	143 [label="String To Number"]
+	144 [label="Date_Time to String"]
+	145 [label="String to Date_Time"]
+	170 [label="Linear Correlation"]
+	171 [label="Column Auto Type Cast"]
+	172 [label="Rank Correlation"]
+	102 -> 105
+	105 -> 106
+	143 -> 145
+	144 -> 102
+	145 -> 144
+	155 -> 158
+	156 -> 158
+	157 -> 159
+	158 -> 159
+	159 -> 143
+	159 -> 166
+	159 -> 160
+	161 -> 165
+	162 -> 166
+	163 -> 162
+	164 -> 163
+	165 -> 164
+	166 -> 171
+	106 -> 58
+	171 -> 170
+	171 -> 172
+	171 -> 167
+	rankdir=LR
+}

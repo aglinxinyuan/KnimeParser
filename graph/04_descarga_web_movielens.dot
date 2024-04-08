@@ -1,0 +1,13 @@
+digraph {
+	2 [label="Decompress Files"]
+	3 [label="File Reader"]
+	4 [label="File Reader"]
+	5 [label=Joiner]
+	6 [label="Column Rename"]
+	7 [label="Column Rename"]
+	3 -> 6
+	4 -> 7
+	6 -> 5
+	7 -> 5
+	rankdir=LR
+}

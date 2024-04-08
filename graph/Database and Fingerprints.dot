@@ -1,0 +1,49 @@
+digraph {
+	13 [label="Molecule Type Cast"]
+	14 [label="Renderer to Image"]
+	16 [label="Column Rename _Regex_"]
+	215 [label="DB Table Selector"]
+	216 [label="DB Table Selector"]
+	217 [label="DB Pivot"]
+	218 [label="DB Joiner"]
+	219 [label="DB Reader"]
+	224 [label="String To Number"]
+	226 [label="Column Resorter"]
+	230 [label="DB Row Filter"]
+	231 [label="DB Column Filter"]
+	232 [label="RDKit Fingerprint"]
+	234 [label="Rule Engine"]
+	236 [label="RDKit Fingerprint"]
+	237 [label="RDKit Fingerprint"]
+	238 [label="RDKit Fingerprint"]
+	240 [label="RDKit Count_Based Fingerprint"]
+	241 [label="Table Writer"]
+	243 [label="SQLite Connector"]
+	244 [label="RDKit Canon SMILES"]
+	245 [label="RDKit Salt Stripper"]
+	246 [label="Duplicate Row Filter"]
+	13 -> 244
+	14 -> 234
+	16 -> 13
+	215 -> 230
+	216 -> 218
+	217 -> 218
+	218 -> 231
+	219 -> 224
+	224 -> 16
+	226 -> 241
+	230 -> 217
+	231 -> 219
+	232 -> 240
+	234 -> 232
+	236 -> 237
+	237 -> 238
+	238 -> 226
+	240 -> 236
+	243 -> 215
+	243 -> 216
+	244 -> 245
+	245 -> 246
+	246 -> 14
+	rankdir=LR
+}

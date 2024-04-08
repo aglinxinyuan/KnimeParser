@@ -1,0 +1,8 @@
+digraph {
+	1 [label="Column Filter"]
+	2 [label="Table Creator"]
+	3 [label="Column Filter"]
+	2 -> 1
+	2 -> 3
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	3 [label=GroupBy]
+	4 [label="Table Row to Variable"]
+	5 [label="Create Date_Time Range"]
+	6 [label=Sorter]
+	7 [label="Table Difference Finder"]
+	8 [label="Line Plot"]
+	9 [label="Lag Column"]
+	10 [label="Rule Engine"]
+	11 [label="Column Filter"]
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	3 -> 4
+	4 -> 5
+	5 -> 7
+	6 -> 8
+	6 -> 9
+	6 -> 7
+	9 -> 10
+	10 -> 11
+	rankdir=LR
+}

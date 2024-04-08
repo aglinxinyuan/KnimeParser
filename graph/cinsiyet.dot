@@ -1,0 +1,75 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label=Statistics]
+	4 [label="Scatter Plot _local_"]
+	5 [label=Partitioning]
+	6 [label="Decision Tree Learner"]
+	8 [label="Scatter Plot _local_"]
+	9 [label="Model Writer"]
+	10 [label="CSV Writer"]
+	11 [label="Decision Tree Predictor"]
+	12 [label="File Reader"]
+	13 [label=Partitioning]
+	14 [label="Value Counter"]
+	15 [label="Scatter Matrix _local_"]
+	16 [label="ARFF Writer"]
+	17 [label="Color Manager"]
+	18 [label=Histogram]
+	19 [label="Histogram _local_"]
+	20 [label="Interactive Pie chart _local_"]
+	21 [label="Line Plot"]
+	22 [label="Row Filter"]
+	23 [label="Rule_based Row Filter"]
+	24 [label="Column Filter"]
+	25 [label="Column Combiner"]
+	26 [label="Date_Time Shift"]
+	27 [label="Table Creator"]
+	28 [label="Extract Date_Time Fields"]
+	29 [label="Table Creator"]
+	30 [label="String to Date_Time"]
+	31 [label="Rule Engine _Dictionary_"]
+	32 [label="Rule Engine Variable _Dictionary_"]
+	33 [label="Rule Engine"]
+	34 [label="Rule Engine"]
+	38 [label="Rule Engine"]
+	39 [label="Row Filter"]
+	40 [label="String Input"]
+	41 [label="K Nearest Neighbor"]
+	42 [label=Partitioning]
+	43 [label=Scorer]
+	44 [label="Generic Loop Start"]
+	1 -> 2
+	1 -> 5
+	1 -> 4
+	1 -> 15
+	1 -> 17
+	1 -> 19
+	1 -> 18
+	1 -> 21
+	1 -> 20
+	1 -> 23
+	1 -> 22
+	1 -> 25
+	1 -> 24
+	1 -> 31
+	1 -> 33
+	1 -> 32
+	1 -> 39
+	1 -> 42
+	5 -> 6
+	5 -> 11
+	6 -> 11
+	12 -> 13
+	13 -> 14
+	14 -> 16
+	17 -> 8
+	29 -> 30
+	30 -> 28
+	33 -> 34
+	37 -> 38
+	40 -> 39
+	41 -> 43
+	42 -> 41
+	42 -> 41
+	rankdir=LR
+}

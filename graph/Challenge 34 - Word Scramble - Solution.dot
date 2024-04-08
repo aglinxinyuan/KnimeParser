@@ -1,0 +1,67 @@
+digraph {
+	879 [label="CSV Reader"]
+	880 [label="Strings To Document"]
+	881 [label="Bag Of Words Creator"]
+	882 [label=GroupBy]
+	890 [label="Chunk Loop Start"]
+	896 [label=GroupBy]
+	897 [label="Term To String"]
+	898 [label="Loop End"]
+	899 [label=Sorter]
+	901 [label="Table Row to Variable"]
+	902 [label="Random Numbers Generator"]
+	904 [label=RowID]
+	905 [label="Column Appender"]
+	906 [label="Row Filter"]
+	907 [label="Counting Loop Start"]
+	908 [label="Loop End"]
+	909 [label="CSV Reader"]
+	911 [label="Cell Splitter"]
+	912 [label="Column Combiner"]
+	916 [label="Column Resorter"]
+	923 [label="String Manipulation"]
+	924 [label="Cell Splitter"]
+	925 [label="CSV Reader"]
+	926 [label="Insert Column Header"]
+	927 [label="Extract Column Header"]
+	928 [label="Column Filter"]
+	930 [label=Transpose]
+	931 [label=Shuffle]
+	932 [label="Column Combiner"]
+	933 [label="Column Appender"]
+	934 [label="Column Resorter"]
+	935 [label="String Manipulation"]
+	879 -> 906
+	880 -> 890
+	881 -> 882
+	881 -> 897
+	882 -> 901
+	890 -> 881
+	896 -> 908
+	897 -> 905
+	899 -> 896
+	901 -> 907
+	902 -> 904
+	904 -> 905
+	905 -> 899
+	906 -> 880
+	907 -> 902
+	908 -> 898
+	909 -> 911
+	911 -> 916
+	912 -> 935
+	916 -> 912
+	924 -> 928
+	925 -> 924
+	926 -> 934
+	927 -> 930
+	928 -> 926
+	928 -> 927
+	930 -> 931
+	930 -> 933
+	931 -> 933
+	932 -> 923
+	933 -> 926
+	934 -> 932
+	rankdir=LR
+}

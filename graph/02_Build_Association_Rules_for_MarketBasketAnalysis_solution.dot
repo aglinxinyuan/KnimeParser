@@ -1,0 +1,26 @@
+digraph {
+	122 [label="Number To String"]
+	123 [label="Cell Splitter"]
+	124 [label="Table Reader"]
+	125 [label="Table Reader"]
+	113 [label="Table Writer"]
+	114 [label="Association Rule Learner"]
+	31 [label=RowID]
+	33 [label=Ungroup]
+	35 [label=GroupBy]
+	112 [label=Joiner]
+	113 [label=Joiner]
+	114 [label="Column Renamer"]
+	124 -> 123
+	125 -> 122
+	31 -> 33
+	33 -> 113
+	35 -> 114
+	113 -> 35
+	114 -> 112
+	108 -> 114
+	108 -> 112
+	114 -> 112
+	112 -> 113
+	rankdir=LR
+}

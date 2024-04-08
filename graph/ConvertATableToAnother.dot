@@ -1,0 +1,39 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String to Date_Time"]
+	3 [label="Math Formula"]
+	4 [label="Moving Aggregation"]
+	5 [label="Column Rename"]
+	6 [label=Pivoting]
+	7 [label=Pivoting]
+	8 [label=Pivoting]
+	9 [label=Pivoting]
+	10 [label=Concatenate]
+	11 [label=RowID]
+	12 [label=Sorter]
+	13 [label="Constant Value Column"]
+	14 [label="Constant Value Column"]
+	15 [label="Constant Value Column"]
+	16 [label="Constant Value Column"]
+	17 [label="Column Resorter"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	5 -> 7
+	5 -> 8
+	5 -> 9
+	6 -> 13
+	7 -> 14
+	8 -> 15
+	9 -> 16
+	10 -> 12
+	11 -> 17
+	12 -> 11
+	13 -> 10
+	14 -> 10
+	15 -> 10
+	16 -> 10
+	rankdir=LR
+}

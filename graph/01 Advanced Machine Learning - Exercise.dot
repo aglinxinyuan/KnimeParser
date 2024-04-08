@@ -1,0 +1,46 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label=Partitioning]
+	3 [label="Random Forest Learner"]
+	4 [label="Random Forest Predictor"]
+	5 [label=Scorer]
+	6 [label="Table Reader"]
+	7 [label="Parameter Optimization Loop End"]
+	8 [label="Parameter Optimization Loop Start"]
+	9 [label="Table Reader"]
+	10 [label=X_Partitioner]
+	12 [label="Random Forest Predictor"]
+	13 [label="Random Forest Learner"]
+	14 [label=X_Aggregator]
+	15 [label="Table Reader"]
+	16 [label=Partitioning]
+	17 [label="Decision Tree Learner"]
+	18 [label="Random Forest Learner"]
+	19 [label="Random Forest Predictor"]
+	20 [label="Decision Tree Predictor"]
+	21 [label="Column Appender"]
+	22 [label="Binary Classification Inspector"]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	3 -> 4
+	4 -> 5
+	5 -> 7
+	8 -> 3
+	9 -> 10
+	10 -> 13
+	10 -> 12
+	12 -> 14
+	13 -> 12
+	15 -> 16
+	16 -> 17
+	16 -> 20
+	16 -> 18
+	16 -> 19
+	17 -> 20
+	18 -> 19
+	19 -> 21
+	20 -> 21
+	21 -> 22
+	rankdir=LR
+}

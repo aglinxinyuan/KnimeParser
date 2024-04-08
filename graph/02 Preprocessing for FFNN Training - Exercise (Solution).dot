@@ -1,0 +1,42 @@
+digraph {
+	16 [label="CSV Reader"]
+	17 [label="Excel Reader"]
+	18 [label="Cell Replacer"]
+	157 [label="Missing Value"]
+	159 [label="Category To Number"]
+	165 [label=Partitioning]
+	170 [label="Missing Value Column Filter"]
+	180 [label="Keras Dense Layer"]
+	181 [label="Keras Dense Layer"]
+	182 [label="Keras Dense Layer"]
+	183 [label="Keras Input Layer"]
+	184 [label="Keras Network Learner"]
+	185 [label="Keras Network Executor"]
+	186 [label="One to Many"]
+	187 [label=Normalizer]
+	188 [label="Normalizer _Apply_"]
+	189 [label="Many to One"]
+	190 [label="Column Rename"]
+	191 [label=Scorer]
+	16 -> 170
+	17 -> 18
+	18 -> 159
+	157 -> 18
+	159 -> 165
+	165 -> 188
+	165 -> 186
+	170 -> 157
+	180 -> 181
+	181 -> 182
+	182 -> 184
+	183 -> 180
+	184 -> 185
+	185 -> 190
+	186 -> 187
+	187 -> 184
+	187 -> 188
+	188 -> 185
+	189 -> 191
+	190 -> 189
+	rankdir=LR
+}

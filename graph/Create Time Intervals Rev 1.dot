@@ -1,0 +1,24 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Duplicate Row Filter"]
+	3 [label="Date_Time Difference"]
+	8 [label="Date_Time to String"]
+	9 [label="String Manipulation"]
+	13 [label="String Manipulation"]
+	14 [label="Moving Aggregator"]
+	17 [label="String to Number"]
+	18 [label="Date_Time to String"]
+	19 [label="Column Expressions"]
+	20 [label="Table View"]
+	1 -> 2
+	2 -> 3
+	3 -> 8
+	8 -> 9
+	9 -> 13
+	13 -> 14
+	14 -> 18
+	17 -> 19
+	18 -> 17
+	19 -> 20
+	rankdir=LR
+}

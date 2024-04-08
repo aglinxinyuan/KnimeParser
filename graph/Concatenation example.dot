@@ -1,0 +1,16 @@
+digraph {
+	37 [label=Concatenate]
+	41 [label="CSV Reader"]
+	42 [label="CSV Reader"]
+	43 [label=Concatenate]
+	46 [label="CSV Reader"]
+	47 [label=Concatenate]
+	41 -> 43
+	41 -> 47
+	41 -> 37
+	42 -> 43
+	42 -> 47
+	42 -> 37
+	46 -> 47
+	rankdir=LR
+}

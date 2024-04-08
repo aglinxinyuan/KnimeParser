@@ -1,0 +1,14 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Row Filter"]
+	3 [label="File Reader"]
+	4 [label="Row Filter"]
+	5 [label="Integer Configuration"]
+	6 [label="Row Filter"]
+	1 -> 2
+	2 -> 4
+	3 -> 6
+	3 -> 4
+	5 -> 6
+	rankdir=LR
+}

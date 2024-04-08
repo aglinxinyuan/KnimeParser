@@ -1,0 +1,28 @@
+digraph {
+	70 [label="CSV Reader"]
+	23 [label="Rule Engine"]
+	26 [label="Column Filter"]
+	75 [label=Partitioning]
+	76 [label="Decision Tree Learner"]
+	77 [label="Decision Tree Predictor"]
+	78 [label=Scorer]
+	79 [label="ROC Curve"]
+	81 [label="Logistic Regression Predictor"]
+	82 [label="Missing Value"]
+	83 [label="Logistic Regression Learner"]
+	84 [label=Scorer]
+	23 -> 26
+	70 -> 23
+	26 -> 75
+	75 -> 77
+	75 -> 76
+	75 -> 82
+	75 -> 81
+	76 -> 77
+	77 -> 79
+	77 -> 78
+	81 -> 84
+	82 -> 83
+	83 -> 81
+	rankdir=LR
+}

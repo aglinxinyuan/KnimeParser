@@ -1,0 +1,236 @@
+digraph {
+	2 [label="Google Sheets Connector"]
+	140 [label="Google Authenticator"]
+	217 [label="POST Request"]
+	213 [label="Row Filter"]
+	215 [label="Date_Time Difference"]
+	216 [label="Rule Engine"]
+	221 [label="Row Filter"]
+	232 [label="Column Resorter"]
+	193 [label="Column Resorter"]
+	200 [label="Date_Time Widget"]
+	201 [label="Constant Value Column"]
+	202 [label="String to Date_Time"]
+	207 [label=Joiner]
+	210 [label="Column Renamer"]
+	227 [label=Joiner]
+	239 [label="Rule Engine"]
+	242 [label="Duplicate Row Filter"]
+	243 [label="Column Renamer"]
+	244 [label="Column Filter"]
+	245 [label="Row Filter"]
+	198 [label="Google Sheets Reader"]
+	223 [label="Table Row To Variable"]
+	224 [label="Table Creator"]
+	227 [label="Table Creator"]
+	228 [label="Table Row To Variable"]
+	229 [label="Google Sheets Reader"]
+	230 [label=Concatenate]
+	231 [label="Column Renamer"]
+	232 [label="Google Sheets Reader"]
+	233 [label="Table Row To Variable"]
+	234 [label="Table Creator"]
+	235 [label="Column Renamer"]
+	236 [label="Column Renamer"]
+	262 [label="Duplicate Row Filter"]
+	233 [label="Table Row To Variable"]
+	234 [label="Table Creator"]
+	235 [label="Google Sheets Reader"]
+	82 [label="DB Connector"]
+	85 [label="DB Table Selector"]
+	90 [label="DB Reader"]
+	200 [label="Table Creator"]
+	201 [label="Table Row To Variable"]
+	206 [label="Google Sheets Reader"]
+	238 [label="Row Filter"]
+	200 [label="Table Creator"]
+	201 [label="Table Row To Variable"]
+	243 [label="Google Sheets Updater"]
+	244 [label="Column Resorter"]
+	200 [label="Table Creator"]
+	201 [label="Table Row To Variable"]
+	243 [label="Google Sheets Updater"]
+	244 [label="Column Resorter"]
+	245 [label="Rule_based Row Filter"]
+	246 [label="Google Sheets Updater"]
+	256 [label=GroupBy]
+	257 [label="String Manipulation"]
+	258 [label=Joiner]
+	259 [label=Concatenate]
+	200 [label="Table Creator"]
+	201 [label="Table Row To Variable"]
+	239 [label="Rule_based Row Splitter"]
+	241 [label="Google Sheets Updater"]
+	245 [label="Extract Date_Time Fields"]
+	254 [label="String Manipulation"]
+	246 [label="Group Loop Start"]
+	257 [label="Try _Variable Ports_"]
+	259 [label="Google Sheets Appender"]
+	260 [label="Catch Errors _Var Ports_"]
+	261 [label="Google Sheets Updater"]
+	262 [label="CASE Switch Start"]
+	263 [label="Rule Engine Variable"]
+	246 [label="Group Loop Start"]
+	257 [label="Try _Variable Ports_"]
+	259 [label="Google Sheets Appender"]
+	260 [label="Catch Errors _Var Ports_"]
+	261 [label="Google Sheets Updater"]
+	262 [label="CASE Switch Start"]
+	263 [label="Rule Engine Variable"]
+	266 [label="String Manipulation"]
+	267 [label="String to Date_Time"]
+	268 [label="Date_Time Difference"]
+	269 [label="String to Date_Time"]
+	270 [label="Rule Engine"]
+	271 [label="Column Filter"]
+	248 [label="Row Filter"]
+	260 [label=Joiner]
+	261 [label="Rule Engine"]
+	263 [label=Joiner]
+	264 [label="Rule Engine"]
+	265 [label="Rule Engine"]
+	266 [label="Column Filter"]
+	267 [label="Date_Time to String"]
+	268 [label=Joiner]
+	269 [label="Rule Engine"]
+	270 [label="Rule Engine"]
+	271 [label="Rule Engine"]
+	272 [label="Rule Engine"]
+	273 [label="Rule Engine"]
+	274 [label="Rule Engine"]
+	275 [label="Column Filter"]
+	276 [label="String to Date_Time"]
+	277 [label="String to Date_Time"]
+	278 [label=Sorter]
+	279 [label="Rule Engine"]
+	280 [label="Rule Engine"]
+	200 [label="Table Creator"]
+	201 [label="Table Row To Variable"]
+	269 [label="Google Sheets Updater"]
+	270 [label="Google Sheets Updater"]
+	271 [label="Table Creator"]
+	272 [label="Table Row To Variable"]
+	193 -> 210
+	200 -> 201
+	201 -> 202
+	202 -> 193
+	207 -> 200
+	207 -> 227
+	227 -> 201
+	213 -> 243
+	215 -> 216
+	216 -> 229
+	221 -> 215
+	271 -> 239
+	210 -> 245
+	239 -> 242
+	242 -> 213
+	243 -> 244
+	245 -> 221
+	198 -> 231
+	223 -> 198
+	224 -> 223
+	227 -> 228
+	228 -> 229
+	229 -> 227
+	230 -> 264
+	231 -> 230
+	271 -> 227
+	233 -> 229
+	234 -> 233
+	210 -> 230
+	210 -> 230
+	233 -> 227
+	234 -> 233
+	82 -> 85
+	85 -> 90
+	200 -> 201
+	201 -> 206
+	206 -> 238
+	200 -> 201
+	201 -> 243
+	244 -> 243
+	200 -> 201
+	201 -> 243
+	201 -> 246
+	244 -> 246
+	244 -> 243
+	245 -> 244
+	246 -> 261
+	246 -> 259
+	246 -> 257
+	257 -> 259
+	259 -> 260
+	259 -> 260
+	260 -> 263
+	271 -> 261
+	263 -> 264
+	246 -> 261
+	246 -> 259
+	246 -> 257
+	257 -> 259
+	259 -> 260
+	259 -> 260
+	260 -> 263
+	271 -> 261
+	263 -> 264
+	200 -> 201
+	201 -> 206
+	239 -> 269
+	239 -> 267
+	239 -> 206
+	245 -> 254
+	254 -> 266
+	254 -> 264
+	266 -> 265
+	267 -> 245
+	275 -> 270
+	269 -> 260
+	270 -> 271
+	248 -> 279
+	260 -> 261
+	261 -> 248
+	263 -> 267
+	264 -> 265
+	265 -> 266
+	266 -> 260
+	267 -> 277
+	275 -> 278
+	269 -> 270
+	270 -> 271
+	271 -> 272
+	272 -> 273
+	273 -> 274
+	274 -> 275
+	276 -> 263
+	277 -> 264
+	278 -> 269
+	279 -> 280
+	280 -> 276
+	200 -> 201
+	201 -> 269
+	271 -> 272
+	272 -> 270
+	244 -> 259
+	271 -> 260
+	271 -> 258
+	210 -> 260
+	210 -> 227
+	237 -> 260
+	237 -> 227
+	238 -> 258
+	238 -> 260
+	256 -> 257
+	257 -> 217
+	257 -> 217
+	258 -> 227
+	258 -> 245
+	259 -> 256
+	259 -> 273
+	259 -> 246
+	271 -> 259
+	275 -> 264
+	2 -> 258
+	140 -> 2
+	rankdir=LR
+}

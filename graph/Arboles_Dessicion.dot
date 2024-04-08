@@ -1,0 +1,35 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	3 [label="Color Manager"]
+	4 [label="Scatter Plot"]
+	5 [label=Partitioning]
+	6 [label="Decision Tree Learner"]
+	7 [label="Decision Tree Predictor"]
+	8 [label=Scorer]
+	9 [label=Partitioning]
+	10 [label="K Nearest Neighbor"]
+	11 [label=Scorer]
+	12 [label=Partitioning]
+	13 [label="Naive Bayes Learner"]
+	14 [label="Naive Bayes Predictor"]
+	15 [label=Scorer]
+	1 -> 2
+	2 -> 3
+	3 -> 5
+	3 -> 4
+	3 -> 9
+	3 -> 12
+	5 -> 7
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	9 -> 10
+	9 -> 10
+	10 -> 11
+	12 -> 13
+	12 -> 14
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

@@ -1,0 +1,42 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Excel Reader"]
+	3 [label="Excel Reader"]
+	4 [label="Cell Replacer"]
+	5 [label=Joiner]
+	6 [label=Joiner]
+	7 [label="Duplicate Row Filter"]
+	8 [label="Row Filter"]
+	13 [label=Pivoting]
+	14 [label=Unpivoting]
+	15 [label="String to Date_Time"]
+	16 [label="Column Resorter"]
+	17 [label=Sorter]
+	18 [label="Column Rename"]
+	20 [label="Math Formula"]
+	21 [label=GroupBy]
+	22 [label=GroupBy]
+	23 [label="Cross Joiner"]
+	24 [label="Math Formula"]
+	1 -> 6
+	2 -> 4
+	2 -> 5
+	3 -> 5
+	3 -> 4
+	4 -> 6
+	6 -> 7
+	7 -> 15
+	7 -> 13
+	7 -> 8
+	13 -> 14
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 20
+	20 -> 21
+	20 -> 22
+	21 -> 23
+	22 -> 23
+	23 -> 24
+	rankdir=LR
+}

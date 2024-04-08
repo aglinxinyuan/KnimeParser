@@ -1,0 +1,10 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	3 [label=Pivoting]
+	15 [label="Bar Chart"]
+	1 -> 2
+	2 -> 3
+	3 -> 15
+	rankdir=LR
+}

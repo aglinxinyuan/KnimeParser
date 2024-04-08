@@ -1,0 +1,61 @@
+digraph {
+	1 [label="OrientDB Connection"]
+	3 [label="Network Creator"]
+	6 [label="Object Inserter"]
+	7 [label="OrientDB Query"]
+	8 [label="Row Filter"]
+	9 [label="Network Viewer _JavaScript_"]
+	21 [label="Network Viewer"]
+	24 [label="Object Inserter"]
+	25 [label="OrientDB Query"]
+	26 [label="Row Filter"]
+	35 [label="Table Row to Variable"]
+	42 [label="OrientDB Function"]
+	46 [label="OrientDB Command"]
+	48 [label="String Manipulation"]
+	38 [label="JSON Path"]
+	39 [label=Ungroup]
+	41 [label="JSON to Table"]
+	47 [label="Column Rename"]
+	50 [label="Column Rename"]
+	51 [label="Column Rename"]
+	53 [label="JSON Path"]
+	54 [label="Object Inserter"]
+	55 [label="Network Viewer _JavaScript_"]
+	56 [label=GroupBy]
+	57 [label=Partitioning]
+	58 [label="Network Creator"]
+	59 [label="Row Filter"]
+	60 [label="Row Filter"]
+	38 -> 41
+	39 -> 47
+	41 -> 39
+	1 -> 7
+	1 -> 25
+	3 -> 6
+	6 -> 24
+	7 -> 8
+	8 -> 51
+	24 -> 21
+	24 -> 9
+	25 -> 26
+	25 -> 42
+	26 -> 50
+	35 -> 42
+	42 -> 46
+	42 -> 38
+	46 -> 53
+	48 -> 46
+	47 -> 56
+	50 -> 60
+	51 -> 59
+	53 -> 54
+	54 -> 55
+	56 -> 57
+	57 -> 48
+	58 -> 54
+	59 -> 6
+	60 -> 35
+	60 -> 24
+	rankdir=LR
+}

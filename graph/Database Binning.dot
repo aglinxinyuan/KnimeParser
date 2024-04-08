@@ -1,0 +1,22 @@
+digraph {
+	3 [label="Table Creator"]
+	7 [label="SQLite Connector"]
+	8 [label="DB Writer"]
+	9 [label="DB Table Selector"]
+	8 [label="DB Numeric_Binner"]
+	9 [label="DB Numeric_Binner"]
+	10 [label="DB Auto_Binner"]
+	11 [label="DB Numeric_Binner"]
+	12 [label="DB Apply_Binner"]
+	3 -> 8
+	7 -> 9
+	7 -> 8
+	8 -> 9
+	7 -> 12
+	7 -> 10
+	7 -> 9
+	7 -> 8
+	9 -> 11
+	10 -> 12
+	rankdir=LR
+}

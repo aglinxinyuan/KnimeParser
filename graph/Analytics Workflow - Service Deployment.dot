@@ -1,0 +1,10 @@
+digraph {
+	2 [label="Model Reader"]
+	3 [label="Container Input _Row_"]
+	4 [label="XGBoost Predictor"]
+	5 [label="Container Output _Row_"]
+	2 -> 4
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

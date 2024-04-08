@@ -1,0 +1,16 @@
+digraph {
+	2392 [label="Workflow Reader"]
+	2393 [label="Workflow Executor"]
+	2412 [label="Table Difference Finder"]
+	2420 [label="Table Reader"]
+	2421 [label="Domain Calculator"]
+	2422 [label="Domain Calculator"]
+	2447 [label="Table Reader"]
+	2392 -> 2393
+	2393 -> 2422
+	2420 -> 2421
+	2421 -> 2412
+	2422 -> 2412
+	2447 -> 2393
+	rankdir=LR
+}

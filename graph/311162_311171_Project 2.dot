@@ -1,0 +1,28 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label="Column Filter"]
+	4 [label=Normalizer]
+	5 [label=Partitioning]
+	6 [label="Logistic Regression Learner"]
+	7 [label="Category To Number"]
+	8 [label="Logistic Regression Predictor"]
+	9 [label="Decision Tree Learner"]
+	10 [label="Decision Tree Predictor"]
+	11 [label=Scorer]
+	12 [label=Scorer]
+	1 -> 2
+	2 -> 7
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	5 -> 8
+	5 -> 9
+	5 -> 10
+	6 -> 8
+	7 -> 3
+	8 -> 11
+	9 -> 10
+	10 -> 12
+	rankdir=LR
+}

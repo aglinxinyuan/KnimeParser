@@ -1,0 +1,34 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	3 [label="Duplicate Row Filter"]
+	6 [label="String to Date_Time"]
+	7 [label="String Manipulation"]
+	8 [label="Line Plot _Plotly_"]
+	9 [label=Sorter]
+	10 [label="Date_Time_based Row Filter"]
+	11 [label="Line Plot _Plotly_"]
+	12 [label=GroupBy]
+	13 [label="Extract Date_Time Fields"]
+	14 [label=Pivoting]
+	15 [label="Line Plot _Plotly_"]
+	16 [label=Sorter]
+	17 [label="Image Writer _Port_"]
+	18 [label="Image Writer _Port_"]
+	1 -> 3
+	1 -> 2
+	2 -> 7
+	6 -> 12
+	7 -> 6
+	8 -> 17
+	9 -> 8
+	9 -> 10
+	9 -> 13
+	10 -> 11
+	12 -> 9
+	13 -> 14
+	14 -> 16
+	15 -> 18
+	16 -> 15
+	rankdir=LR
+}

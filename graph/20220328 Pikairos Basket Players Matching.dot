@@ -1,0 +1,51 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	4 [label="Cell Splitter"]
+	6 [label="Cell Splitter"]
+	7 [label="Create Bit Vector"]
+	9 [label="Similarity Search"]
+	10 [label=Joiner]
+	11 [label=Concatenate]
+	12 [label="Rule_based Row Splitter"]
+	13 [label=Joiner]
+	15 [label="String Manipulation"]
+	16 [label="Interactive Table _local_"]
+	17 [label="Row Filter"]
+	19 [label=RowID]
+	20 [label=RowID]
+	22 [label="String Manipulation"]
+	23 [label=Ungroup]
+	24 [label=Ungroup]
+	25 [label="Reference Row Filter"]
+	26 [label=GroupBy]
+	28 [label="Reference Row Filter"]
+	29 [label=GroupBy]
+	1 -> 15
+	2 -> 22
+	4 -> 23
+	6 -> 24
+	7 -> 12
+	9 -> 17
+	10 -> 20
+	11 -> 7
+	12 -> 13
+	12 -> 10
+	13 -> 19
+	15 -> 4
+	17 -> 16
+	19 -> 9
+	20 -> 9
+	22 -> 6
+	23 -> 25
+	23 -> 28
+	24 -> 25
+	24 -> 28
+	25 -> 26
+	26 -> 10
+	26 -> 11
+	28 -> 29
+	29 -> 13
+	29 -> 11
+	rankdir=LR
+}

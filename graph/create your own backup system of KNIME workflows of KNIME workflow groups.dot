@@ -1,0 +1,60 @@
+digraph {
+	3 [label="Java Edit Variable _simple_"]
+	6 [label="Create Date_Time Range"]
+	25 [label="Date_Time to String"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	55 [label="Java Edit Variable _simple_"]
+	56 [label="Extract Context Properties"]
+	57 [label="Variable to Table Row"]
+	59 [label="Table Row to Variable"]
+	60 [label="Table Row to Variable"]
+	61 [label="Merge Variables"]
+	62 [label="Java Edit Variable _simple_"]
+	63 [label="String to Path _Variable_"]
+	64 [label="Java Edit Variable _simple_"]
+	65 [label="Delete Files_Folders"]
+	66 [label="Java Edit Variable _simple_"]
+	68 [label="List Files_Folders"]
+	69 [label=Sorter]
+	70 [label="Row Filter"]
+	71 [label="Table Row to Variable"]
+	72 [label="Decompress Files"]
+	73 [label="Java Edit Variable _simple_"]
+	74 [label="Java Edit Variable _simple_"]
+	75 [label="Compress Files_Folder"]
+	112 [label="Try _Variable Ports_"]
+	113 [label="Merge Variables"]
+	115 [label="Catch Errors _Var Ports_"]
+	3 -> 64
+	6 -> 25
+	25 -> 59
+	46 -> 60
+	47 -> 46
+	48 -> 47
+	55 -> 46
+	56 -> 57
+	57 -> 48
+	59 -> 61
+	60 -> 61
+	61 -> 3
+	62 -> 61
+	63 -> 75
+	64 -> 66
+	65 -> 115
+	66 -> 73
+	68 -> 69
+	69 -> 70
+	70 -> 71
+	71 -> 112
+	73 -> 74
+	74 -> 63
+	75 -> 68
+	112 -> 115
+	112 -> 65
+	113 -> 72
+	115 -> 113
+	115 -> 113
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	6 [label="Table Creator"]
+	7 [label="Interactive Table _local_"]
+	8 [label="Interactive HiLite Collector"]
+	9 [label="String Widget"]
+	10 [label="Interactive Value Filter Widget"]
+	11 [label="Value Selection Widget"]
+	12 [label="PMML Predictor"]
+	13 [label="PMML Reader"]
+	14 [label="Bar Chart"]
+	15 [label="Table Creator"]
+	6 -> 8
+	8 -> 12
+	12 -> 14
+	13 -> 12
+	15 -> 10
+	15 -> 11
+	15 -> 7
+	rankdir=LR
+}

@@ -1,0 +1,138 @@
+digraph {
+	6 [label="Chunk Loop Start"]
+	7 [label="Loop End"]
+	50 [label=Navigator]
+	51 [label="Web Interaction Start"]
+	782 [label="Content Retriever"]
+	783 [label="Table Row To Variable"]
+	785 [label="Row Filter"]
+	789 [label=GroupBy]
+	790 [label="Row Filter"]
+	791 [label="String Manipulation"]
+	811 [label="Table Row To Variable"]
+	812 [label="Content Retriever"]
+	813 [label="Row Filter"]
+	22 [label="String Manipulation"]
+	24 [label="Column Appender"]
+	25 [label="Missing Value"]
+	815 [label="LLM Prompter"]
+	817 [label=GroupBy]
+	22 [label="String Manipulation"]
+	24 [label="Column Appender"]
+	25 [label="Missing Value"]
+	820 [label="Column Filter"]
+	821 [label=Navigator]
+	822 [label="Web Interaction Start"]
+	824 [label="LLM Prompter"]
+	825 [label="Table Creator"]
+	826 [label="OpenAI Chat Model Connector"]
+	827 [label="String Manipulation"]
+	828 [label="OpenAI Authenticator"]
+	830 [label="Table Creator"]
+	831 [label="Excel Reader"]
+	833 [label="Row Filter"]
+	834 [label="Chunk Loop Start"]
+	835 [label="Loop End"]
+	836 [label="LLM Prompter"]
+	837 [label="Credentials Configuration"]
+	839 [label="String Manipulation"]
+	840 [label="Row Filter"]
+	841 [label="Column Appender"]
+	22 [label="String Manipulation"]
+	24 [label="Column Appender"]
+	25 [label="Missing Value"]
+	845 [label="Table Creator"]
+	848 [label="Column Renamer"]
+	849 [label="Column Filter"]
+	850 [label="Column Renamer"]
+	852 [label="String Manipulation"]
+	853 [label="Column Appender"]
+	854 [label="Column Filter"]
+	855 [label="Column Resorter"]
+	856 [label="Excel Writer"]
+	860 [label="Table Creator"]
+	22 [label="String Manipulation"]
+	24 [label="Column Appender"]
+	25 [label="Missing Value"]
+	862 [label="LLM Prompter"]
+	864 [label="Rule Engine"]
+	866 [label="Column Filter"]
+	867 [label="Table Creator"]
+	868 [label="LLM Prompter"]
+	22 [label="String Manipulation"]
+	24 [label="Column Appender"]
+	25 [label="Missing Value"]
+	871 [label="Column Filter"]
+	872 [label="Rule Engine"]
+	24 -> 25
+	25 -> 22
+	24 -> 25
+	25 -> 22
+	24 -> 25
+	25 -> 22
+	24 -> 25
+	25 -> 22
+	24 -> 25
+	25 -> 22
+	6 -> 783
+	7 -> 791
+	50 -> 782
+	51 -> 50
+	782 -> 785
+	783 -> 50
+	785 -> 790
+	789 -> 7
+	790 -> 789
+	791 -> 848
+	811 -> 821
+	812 -> 813
+	813 -> 833
+	22 -> 815
+	815 -> 872
+	817 -> 835
+	22 -> 836
+	820 -> 855
+	821 -> 812
+	822 -> 821
+	824 -> 864
+	825 -> 24
+	826 -> 824
+	826 -> 815
+	826 -> 868
+	826 -> 862
+	826 -> 836
+	827 -> 839
+	828 -> 826
+	830 -> 24
+	831 -> 6
+	831 -> 841
+	831 -> 834
+	833 -> 840
+	834 -> 811
+	835 -> 827
+	836 -> 841
+	837 -> 828
+	839 -> 24
+	840 -> 817
+	841 -> 853
+	22 -> 824
+	845 -> 24
+	848 -> 852
+	849 -> 850
+	850 -> 24
+	852 -> 853
+	853 -> 849
+	854 -> 24
+	855 -> 856
+	860 -> 24
+	22 -> 862
+	862 -> 866
+	864 -> 854
+	866 -> 24
+	867 -> 24
+	868 -> 871
+	22 -> 868
+	871 -> 24
+	872 -> 820
+	rankdir=LR
+}

@@ -1,0 +1,52 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Column Rename"]
+	26 [label="Math Formula"]
+	29 [label="Top k Selector"]
+	30 [label="Column Filter"]
+	31 [label="Table Row to Variable"]
+	32 [label="Row Filter"]
+	33 [label="Column Filter"]
+	34 [label="Bar Chart"]
+	3 [label="Rule Engine"]
+	4 [label=GroupBy]
+	6 [label="Pie_Donut Chart"]
+	38 [label="Row Filter"]
+	1 [label="Column Filter"]
+	2 [label="Column Filter"]
+	4 [label="Top k Selector"]
+	5 [label="Top k Selector"]
+	8 [label="Missing Value"]
+	9 [label="Bar Chart"]
+	10 [label=Concatenate]
+	43 [label="Math Formula"]
+	44 [label="Top k Selector"]
+	45 [label="Top k Selector"]
+	46 [label="Math Formula"]
+	32 -> 33
+	33 -> 34
+	3 -> 4
+	4 -> 6
+	1 -> 4
+	2 -> 5
+	4 -> 10
+	5 -> 10
+	8 -> 9
+	10 -> 8
+	1 -> 2
+	2 -> 38
+	26 -> 29
+	29 -> 31
+	30 -> 26
+	31 -> 35
+	38 -> 35
+	38 -> 30
+	38 -> 2
+	38 -> 2
+	38 -> 36
+	5 -> 43
+	5 -> 46
+	43 -> 44
+	46 -> 45
+	rankdir=LR
+}

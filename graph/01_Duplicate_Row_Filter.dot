@@ -1,0 +1,10 @@
+digraph {
+	12 [label="Excel Reader"]
+	23 [label="Duplicate Row Filter"]
+	27 [label="Duplicate Row Filter"]
+	28 [label="Rule_based Row Filter"]
+	12 -> 27
+	12 -> 23
+	27 -> 28
+	rankdir=LR
+}

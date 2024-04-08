@@ -1,0 +1,20 @@
+digraph {
+	2 [label=Sorter]
+	3 [label="Moving Average"]
+	4 [label="Moving Aggregation"]
+	5 [label="Row Filter"]
+	6 [label="Column Filter"]
+	7 [label="Moving Aggregation"]
+	8 [label="Moving Aggregation"]
+	9 [label="Moving Average"]
+	12 [label="Table Reader"]
+	2 -> 6
+	5 -> 4
+	5 -> 7
+	5 -> 3
+	5 -> 8
+	6 -> 5
+	6 -> 9
+	12 -> 2
+	rankdir=LR
+}

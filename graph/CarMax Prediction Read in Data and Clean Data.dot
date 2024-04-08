@@ -1,0 +1,54 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Statistics]
+	7 [label="Column Auto Type Cast"]
+	8 [label=GroupBy]
+	16 [label="Missing Value"]
+	21 [label="Excel Writer"]
+	22 [label="String Manipulation"]
+	23 [label="String Manipulation"]
+	24 [label="Rule Engine"]
+	25 [label="Rule Engine"]
+	26 [label="Rule Engine"]
+	27 [label="Rule Engine"]
+	28 [label="Rule Engine"]
+	29 [label="Rule Engine"]
+	30 [label="String Manipulation"]
+	31 [label="String Manipulation"]
+	32 [label="Cell Splitter"]
+	33 [label="Cell Splitter"]
+	34 [label="Column Filter"]
+	35 [label="Column Rename"]
+	36 [label="Column Resorter"]
+	37 [label="Rule Engine"]
+	38 [label="Rule Engine"]
+	39 [label="Rule Engine"]
+	40 [label="Rule Engine"]
+	41 [label="Rule Engine"]
+	1 -> 2
+	1 -> 7
+	1 -> 8
+	7 -> 16
+	16 -> 24
+	22 -> 23
+	23 -> 30
+	24 -> 25
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 29
+	29 -> 37
+	30 -> 31
+	31 -> 32
+	32 -> 33
+	33 -> 34
+	34 -> 35
+	35 -> 36
+	36 -> 21
+	37 -> 38
+	38 -> 39
+	39 -> 40
+	40 -> 41
+	41 -> 22
+	rankdir=LR
+}

@@ -1,0 +1,15 @@
+digraph {
+	2501 [label="R Snippet"]
+	2507 [label="Table Creator"]
+	2508 [label="Split Collection Column"]
+	2509 [label="Table Creator"]
+	2510 [label="R Snippet"]
+	2511 [label="Table Writer"]
+	2512 [label="Table Writer"]
+	2501 -> 2508
+	2507 -> 2501
+	2508 -> 2512
+	2509 -> 2510
+	2510 -> 2511
+	rankdir=LR
+}

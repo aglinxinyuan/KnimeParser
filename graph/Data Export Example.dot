@@ -1,0 +1,22 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String to Date_Time"]
+	4 [label="SQLite Connector"]
+	6 [label="DB Writer"]
+	8 [label="Python Script _Labs_"]
+	9 [label="Date_Time to String"]
+	10 [label=GroupBy]
+	11 [label="Counter Generation"]
+	13 [label=Joiner]
+	14 [label="Table Manipulator"]
+	10 -> 11
+	11 -> 14
+	14 -> 13
+	1 -> 2
+	1 -> 13
+	2 -> 9
+	4 -> 6
+	9 -> 6
+	9 -> 8
+	rankdir=LR
+}

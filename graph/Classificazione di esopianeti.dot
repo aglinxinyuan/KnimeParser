@@ -1,0 +1,187 @@
+digraph {
+	33 [label="CSV Reader"]
+	35 [label=X_Partitioner]
+	39 [label="CSV Reader"]
+	40 [label=X_Partitioner]
+	48 [label="CSV Reader"]
+	49 [label="Column Filter"]
+	50 [label="Column Filter"]
+	51 [label=Statistics]
+	52 [label=Statistics]
+	53 [label=X_Aggregator]
+	54 [label=X_Aggregator]
+	72 [label="Scorer _JavaScript_"]
+	76 [label="ROC Curve"]
+	80 [label="Row Filter"]
+	81 [label="Scatter Plot"]
+	82 [label="Color Manager"]
+	83 [label="ROC Curve"]
+	84 [label="Scorer _JavaScript_"]
+	92 [label="Column Filter"]
+	93 [label=X_Partitioner]
+	94 [label="Column Filter"]
+	95 [label="Scorer _JavaScript_"]
+	96 [label="ROC Curve"]
+	97 [label="CSV Reader"]
+	100 [label=X_Aggregator]
+	103 [label="Column Filter"]
+	104 [label="CSV Reader"]
+	105 [label="ROC Curve"]
+	106 [label="Column Filter"]
+	107 [label=X_Partitioner]
+	109 [label=X_Aggregator]
+	113 [label="Decision Tree Learner"]
+	114 [label="Decision Tree Predictor"]
+	115 [label="Decision Tree Learner"]
+	116 [label="Decision Tree Predictor"]
+	119 [label="Column Filter"]
+	120 [label="CSV Reader"]
+	121 [label=X_Partitioner]
+	122 [label="Decision Tree Learner"]
+	123 [label="Decision Tree Predictor"]
+	127 [label="Decision Tree Predictor"]
+	129 [label="Random Forest Learner"]
+	130 [label="Random Forest Predictor"]
+	131 [label="Random Forest Learner"]
+	132 [label="Random Forest Predictor"]
+	133 [label="CSV Reader"]
+	134 [label=X_Aggregator]
+	136 [label="Scorer _JavaScript_"]
+	138 [label="Column Filter"]
+	140 [label="Scorer _JavaScript_"]
+	143 [label=X_Partitioner]
+	144 [label="Random Forest Predictor"]
+	145 [label="Random Forest Learner"]
+	146 [label="Random Forest Predictor"]
+	149 [label="Column Filter"]
+	150 [label=X_Partitioner]
+	151 [label="Scorer _JavaScript_"]
+	152 [label="Scorer _JavaScript_"]
+	155 [label="Scorer _JavaScript_"]
+	156 [label=X_Aggregator]
+	158 [label="CSV Reader"]
+	159 [label="Column Filter"]
+	164 [label=X_Partitioner]
+	167 [label="ROC Curve"]
+	168 [label="CSV Reader"]
+	169 [label="MultiLayerPerceptron Predictor"]
+	171 [label="MultiLayerPerceptron Predictor"]
+	173 [label="MultiLayerPerceptron Predictor"]
+	174 [label="Rule_based Row Filter"]
+	177 [label="Scorer _JavaScript_"]
+	178 [label="Rule_based Row Filter"]
+	179 [label="Rule_based Row Filter"]
+	180 [label=Normalizer]
+	181 [label=Normalizer]
+	182 [label=X_Aggregator]
+	184 [label="RProp MLP Learner"]
+	185 [label="Rule_based Row Filter"]
+	186 [label="RProp MLP Learner"]
+	189 [label=X_Aggregator]
+	190 [label="Scorer _JavaScript_"]
+	191 [label="Scorer _JavaScript_"]
+	192 [label="Column Filter"]
+	193 [label="CSV Reader"]
+	194 [label="Row Splitter"]
+	195 [label="CSV Writer"]
+	196 [label="CSV Writer"]
+	197 [label="CSV Reader"]
+	198 [label="CSV Reader"]
+	199 [label="Column Filter"]
+	200 [label=Normalizer]
+	201 [label="Column Filter"]
+	202 [label="Rule_based Row Filter"]
+	203 [label="CSV Reader"]
+	33 -> 103
+	35 -> 115
+	35 -> 116
+	39 -> 92
+	40 -> 129
+	40 -> 130
+	48 -> 49
+	48 -> 50
+	48 -> 80
+	49 -> 52
+	50 -> 51
+	53 -> 84
+	53 -> 83
+	54 -> 76
+	54 -> 72
+	80 -> 82
+	82 -> 81
+	92 -> 40
+	93 -> 132
+	93 -> 131
+	94 -> 178
+	97 -> 94
+	100 -> 96
+	100 -> 95
+	103 -> 35
+	104 -> 106
+	106 -> 174
+	107 -> 114
+	107 -> 113
+	109 -> 105
+	109 -> 177
+	113 -> 114
+	114 -> 109
+	115 -> 116
+	116 -> 54
+	119 -> 121
+	120 -> 119
+	121 -> 123
+	121 -> 122
+	122 -> 123
+	122 -> 127
+	123 -> 189
+	127 -> 191
+	129 -> 130
+	130 -> 53
+	131 -> 132
+	132 -> 100
+	133 -> 138
+	134 -> 140
+	138 -> 143
+	143 -> 145
+	143 -> 144
+	144 -> 134
+	145 -> 144
+	145 -> 146
+	146 -> 136
+	149 -> 185
+	150 -> 184
+	150 -> 169
+	156 -> 151
+	158 -> 159
+	159 -> 179
+	164 -> 171
+	164 -> 186
+	168 -> 149
+	169 -> 182
+	171 -> 156
+	173 -> 152
+	174 -> 107
+	178 -> 93
+	179 -> 180
+	180 -> 150
+	181 -> 164
+	182 -> 167
+	182 -> 155
+	184 -> 169
+	185 -> 181
+	186 -> 171
+	186 -> 173
+	189 -> 190
+	192 -> 127
+	193 -> 194
+	194 -> 195
+	194 -> 196
+	197 -> 192
+	198 -> 199
+	199 -> 146
+	200 -> 173
+	201 -> 202
+	202 -> 200
+	203 -> 201
+	rankdir=LR
+}

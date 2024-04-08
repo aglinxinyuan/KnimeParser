@@ -1,0 +1,43 @@
+digraph {
+	2 [label=GroupBy]
+	3 [label="Create Collection Column"]
+	4 [label="Split Collection Column"]
+	5 [label=Ungroup]
+	6 [label="Column Aggregator"]
+	7 [label="Split Collection Column"]
+	8 [label=GroupBy]
+	9 [label=GroupBy]
+	10 [label="Table Creator"]
+	11 [label=Ungroup]
+	12 [label=Ungroup]
+	13 [label="Table Creator"]
+	14 [label=GroupBy]
+	15 [label=GroupBy]
+	16 [label="Create Bit Vector"]
+	17 [label="Item Set Finder _Borgelt_"]
+	18 [label="Column Aggregator"]
+	20 [label="Create Collection Column"]
+	21 [label="Create Collection Column"]
+	22 [label="Table Creator"]
+	23 [label="Subset Matcher"]
+	2 -> 5
+	3 -> 4
+	6 -> 7
+	8 -> 11
+	9 -> 12
+	10 -> 2
+	10 -> 3
+	10 -> 6
+	13 -> 14
+	13 -> 20
+	14 -> 15
+	14 -> 23
+	14 -> 16
+	14 -> 17
+	17 -> 23
+	20 -> 21
+	21 -> 18
+	22 -> 8
+	22 -> 9
+	rankdir=LR
+}

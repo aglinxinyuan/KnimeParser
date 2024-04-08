@@ -1,0 +1,72 @@
+digraph {
+	3 [label="String Input"]
+	4 [label="String Manipulation _Variable_"]
+	9 [label="Create File Name"]
+	13 [label="WrappedNode Input"]
+	14 [label="WrappedNode Output"]
+	99 [label="Time Generator"]
+	100 [label="Table Row to Variable"]
+	101 [label="Java Edit Variable"]
+	1 [label="JSON Input"]
+	2 [label="JSON Output"]
+	5 [label="Table Writer"]
+	8 [label="JSON to Table"]
+	9 [label="Table Row to Variable"]
+	10 [label="Table Reader"]
+	13 [label="Variable to Table Row"]
+	14 [label="Table to JSON"]
+	16 [label="String Input"]
+	24 [label="String Input"]
+	3 [label="String Input"]
+	4 [label="String Manipulation _Variable_"]
+	9 [label="Create File Name"]
+	13 [label="WrappedNode Input"]
+	14 [label="WrappedNode Output"]
+	99 [label="Time Generator"]
+	100 [label="Table Row to Variable"]
+	101 [label="Java Edit Variable"]
+	35 [label="Row Filter"]
+	36 [label=Partitioning]
+	37 [label="Variable to Table Column"]
+	23 [label="Table Writer"]
+	38 [label="Empty Table Switch"]
+	40 [label="CASE Switch Variable _End_"]
+	41 [label="String Manipulation _Variable_"]
+	42 [label="Column Filter"]
+	3 -> 9
+	4 -> 9
+	9 -> 14
+	13 -> 101
+	99 -> 100
+	100 -> 4
+	101 -> 4
+	3 -> 9
+	4 -> 9
+	9 -> 14
+	13 -> 101
+	99 -> 100
+	100 -> 4
+	101 -> 4
+	23 -> 40
+	38 -> 23
+	38 -> 42
+	41 -> 40
+	42 -> 41
+	0 -> 5
+	1 -> 8
+	5 -> 13
+	8 -> 9
+	9 -> 10
+	10 -> 35
+	13 -> 37
+	14 -> 2
+	16 -> 0
+	24 -> 34
+	34 -> 23
+	35 -> 36
+	36 -> 5
+	36 -> 23
+	37 -> 14
+	40 -> 37
+	rankdir=LR
+}

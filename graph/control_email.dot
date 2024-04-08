@@ -1,0 +1,16 @@
+digraph {
+	6 [label="SQLite Connector"]
+	7 [label="Extract Context Properties"]
+	9 [label="String Manipulation _Variable_"]
+	10 [label="DB Query Reader"]
+	11 [label="Row Filter"]
+	12 [label="Send Email"]
+	13 [label="Excel Writer"]
+	6 -> 10
+	7 -> 9
+	9 -> 6
+	10 -> 11
+	11 -> 13
+	13 -> 12
+	rankdir=LR
+}

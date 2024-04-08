@@ -1,0 +1,60 @@
+digraph {
+	284 [label=X_Partitioner]
+	285 [label=SMOTE]
+	286 [label="Decision Tree Learner"]
+	287 [label="Decision Tree Predictor"]
+	288 [label=X_Aggregator]
+	293 [label="Scorer _JavaScript_"]
+	275 [label="Column Filter"]
+	132 [label="Row Splitter"]
+	133 [label="Missing Value"]
+	134 [label="Missing Value"]
+	135 [label=Concatenate]
+	278 [label="Missing Value"]
+	281 [label="Java Snippet"]
+	292 [label="Column Filter"]
+	295 [label="CSV Reader"]
+	313 [label="Random Forest Learner"]
+	314 [label="Random Forest Predictor"]
+	315 [label=X_Aggregator]
+	316 [label="Scorer _JavaScript_"]
+	317 [label=X_Partitioner]
+	318 [label=SMOTE]
+	319 [label="XGBoost Tree Ensemble Learner"]
+	320 [label="XGBoost Predictor"]
+	321 [label=X_Partitioner]
+	322 [label=SMOTE]
+	323 [label=X_Aggregator]
+	324 [label="Scorer _JavaScript_"]
+	132 -> 133
+	132 -> 134
+	133 -> 135
+	134 -> 135
+	275 -> 278
+	135 -> 281
+	278 -> 132
+	281 -> 292
+	295 -> 275
+	284 -> 285
+	284 -> 287
+	285 -> 286
+	286 -> 287
+	287 -> 288
+	288 -> 293
+	312 -> 284
+	312 -> 317
+	312 -> 321
+	313 -> 314
+	314 -> 315
+	315 -> 316
+	317 -> 318
+	317 -> 314
+	318 -> 313
+	319 -> 320
+	320 -> 323
+	321 -> 322
+	321 -> 320
+	322 -> 319
+	323 -> 324
+	rankdir=LR
+}

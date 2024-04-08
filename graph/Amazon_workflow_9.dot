@@ -1,0 +1,26 @@
+digraph {
+	1 [label="Azure Blob Store Connection"]
+	2 [label="Azure Blob Store File Picker"]
+	4 [label="File Reader"]
+	5 [label="Rule Engine"]
+	6 [label="Rule Engine"]
+	7 [label="Rule Engine"]
+	8 [label="Rule Engine"]
+	9 [label="Rule Engine"]
+	10 [label="Math Formula"]
+	11 [label="Math Formula"]
+	12 [label="Rule_based Row Filter"]
+	13 [label="Bar Chart"]
+	1 -> 2
+	2 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	rankdir=LR
+}

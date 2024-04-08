@@ -1,0 +1,18 @@
+digraph {
+	3 [label="CSV Reader"]
+	53 [label="Row Filter"]
+	57 [label="Duplicate Row Filter"]
+	58 [label="String Replacer"]
+	73 [label=GroupBy]
+	74 [label="Row Filter _Labs_"]
+	75 [label="String Replacer"]
+	76 [label="File Reader"]
+	77 [label="CSV Reader"]
+	3 -> 75
+	3 -> 58
+	3 -> 57
+	3 -> 73
+	58 -> 74
+	58 -> 53
+	rankdir=LR
+}

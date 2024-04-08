@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="SQLite Connector"]
+	3 [label="DB Table Selector"]
+	4 [label="Excel Reader"]
+	5 [label="Table Reader"]
+	6 [label="DB Reader"]
+	7 [label=Concatenate]
+	8 [label=Joiner]
+	9 [label="Cell Replacer"]
+	11 [label=GroupBy]
+	12 [label=Pivoting]
+	1 -> 7
+	2 -> 3
+	3 -> 6
+	4 -> 8
+	5 -> 9
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 11
+	9 -> 12
+	rankdir=LR
+}

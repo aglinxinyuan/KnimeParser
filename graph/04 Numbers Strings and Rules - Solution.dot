@@ -1,0 +1,17 @@
+digraph {
+	17 [label="File Reader"]
+	18 [label="String Manipulation"]
+	19 [label="String Manipulation"]
+	20 [label="Math Formula"]
+	21 [label="Math Formula"]
+	22 [label="Rule Engine"]
+	23 [label="Column Expressions"]
+	24 [label="Excel Reader"]
+	17 -> 19
+	17 -> 23
+	19 -> 18
+	20 -> 21
+	21 -> 22
+	24 -> 20
+	rankdir=LR
+}

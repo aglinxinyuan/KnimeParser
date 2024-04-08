@@ -1,0 +1,94 @@
+digraph {
+	31 [label="Lag Column"]
+	47 [label=RowID]
+	119 [label="Column Expressions"]
+	120 [label="Moving Average"]
+	136 [label="Row Filter"]
+	138 [label="Column Filter"]
+	139 [label="Variable Expressions"]
+	64 [label="Line Chart _JFreeChart_"]
+	69 [label="Line Chart _JFreeChart_"]
+	92 [label="Column Filter"]
+	93 [label="Column Filter"]
+	86 [label="Extract Column Header"]
+	87 [label="Color Manager"]
+	88 [label=Transpose]
+	89 [label="Column Filter"]
+	86 [label="Extract Column Header"]
+	87 [label="Color Manager"]
+	88 [label=Transpose]
+	89 [label="Column Filter"]
+	129 [label="Column Filter"]
+	86 [label="Extract Column Header"]
+	87 [label="Color Manager"]
+	88 [label=Transpose]
+	89 [label="Column Filter"]
+	131 [label="Line Chart _JFreeChart_"]
+	132 [label="Column Filter"]
+	86 [label="Extract Column Header"]
+	87 [label="Color Manager"]
+	88 [label=Transpose]
+	89 [label="Column Filter"]
+	134 [label="Line Chart _JFreeChart_"]
+	31 [label="Lag Column"]
+	47 [label=RowID]
+	119 [label="Column Expressions"]
+	120 [label="Moving Average"]
+	136 [label="Row Filter"]
+	137 [label="Variable Expressions"]
+	138 [label="Column Filter"]
+	145 [label="File Reader"]
+	117 [label="Rule_based Row Filter"]
+	135 [label="String Configuration"]
+	140 [label="Rule_based Row Filter"]
+	141 [label="String Configuration"]
+	31 -> 139
+	31 -> 119
+	119 -> 120
+	120 -> 136
+	136 -> 47
+	138 -> 31
+	139 -> 120
+	86 -> 88
+	88 -> 87
+	89 -> 86
+	86 -> 88
+	88 -> 87
+	89 -> 86
+	86 -> 88
+	88 -> 87
+	89 -> 86
+	86 -> 88
+	88 -> 87
+	89 -> 86
+	31 -> 137
+	31 -> 119
+	119 -> 120
+	120 -> 136
+	136 -> 47
+	137 -> 120
+	138 -> 31
+	135 -> 140
+	140 -> 117
+	141 -> 117
+	47 -> 92
+	47 -> 93
+	92 -> 89
+	92 -> 64
+	93 -> 89
+	93 -> 69
+	87 -> 64
+	87 -> 69
+	129 -> 131
+	129 -> 89
+	87 -> 131
+	132 -> 89
+	132 -> 134
+	87 -> 134
+	47 -> 132
+	47 -> 129
+	145 -> 140
+	117 -> 138
+	117 -> 138
+	rankdir=LR
+}

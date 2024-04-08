@@ -1,0 +1,67 @@
+digraph {
+	5 [label="Molecule Reader _to MAE_"]
+	7 [label=QikProp]
+	8 [label="AutoQSAR Build Model"]
+	12 [label="Extract Properties"]
+	19 [label="AutoQSAR Predict"]
+	20 [label="Extract Properties"]
+	24 [label="QSAR Model Writer"]
+	25 [label="Get Help"]
+	26 [label="AutoQSAR Build Model"]
+	27 [label=LigPrep]
+	26 [label="Variable to Table Row"]
+	28 [label="Molecule Type Cast"]
+	29 [label="WrappedNode Input"]
+	30 [label="WrappedNode Output"]
+	31 [label="String Input"]
+	29 [label="File Upload"]
+	30 [label="QSARModel Reader"]
+	31 [label="WrappedNode Input"]
+	32 [label="WrappedNode Output"]
+	89 [label="Create Temp Dir"]
+	10331 [label="SDF Writer"]
+	10467 [label="Table View _JavaScript_"]
+	10471 [label="Column Filter"]
+	10490 [label="File Download"]
+	10493 [label="Column Resorter"]
+	10512 [label="WrappedNode Input"]
+	10529 [label="WrappedNode Output"]
+	11007 [label="CASE Switch Variable _Start_"]
+	11008 [label="Java Edit Variable"]
+	11009 [label="Container Input _Table_"]
+	11010 [label="Container Output _Table_"]
+	11012 [label=Concatenate]
+	11013 [label=MAE_to_SD]
+	26 -> 28
+	28 -> 30
+	31 -> 26
+	29 -> 30
+	30 -> 32
+	89 -> 10331
+	10331 -> 10490
+	10471 -> 10493
+	10493 -> 10467
+	10512 -> 10471
+	10512 -> 10331
+	5 -> 7
+	7 -> 12
+	8 -> 11012
+	12 -> 8
+	12 -> 26
+	19 -> 20
+	19 -> 25
+	20 -> 11013
+	26 -> 11012
+	27 -> 11009
+	31 -> 27
+	32 -> 19
+	32 -> 31
+	11007 -> 5
+	11007 -> 32
+	11008 -> 11007
+	11009 -> 19
+	11010 -> 11006
+	11012 -> 24
+	11013 -> 11010
+	rankdir=LR
+}

@@ -1,0 +1,41 @@
+digraph {
+	4 [label="Spacy Tokenizer"]
+	881 [label="File Reader"]
+	898 [label="Spacy POS Tagger"]
+	901 [label="Document Viewer"]
+	902 [label="Document Viewer"]
+	903 [label="Spacy Morphologizer"]
+	904 [label="Spacy Lemmatizer"]
+	905 [label="Document Viewer"]
+	909 [label="Spacy NER"]
+	910 [label="Document Viewer"]
+	927 [label=Scorer]
+	928 [label="Rule Engine"]
+	934 [label="Column Filter"]
+	938 [label=Shuffle]
+	940 [label="BERT Classification Learner"]
+	941 [label="BERT Model Selector"]
+	942 [label="BERT Predictor"]
+	945 [label=Partitioning]
+	946 [label="Bootstrap Sampling"]
+	4 -> 898
+	881 -> 4
+	881 -> 934
+	898 -> 903
+	898 -> 901
+	903 -> 902
+	903 -> 909
+	904 -> 905
+	909 -> 910
+	909 -> 904
+	928 -> 927
+	934 -> 946
+	938 -> 945
+	940 -> 942
+	941 -> 940
+	942 -> 928
+	945 -> 940
+	945 -> 942
+	946 -> 938
+	rankdir=LR
+}

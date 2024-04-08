@@ -1,0 +1,14 @@
+digraph {
+	36 [label="CSV Reader"]
+	37 [label="Row Filter"]
+	38 [label="CSV Reader"]
+	39 [label="Column Filter"]
+	40 [label="Column Filter"]
+	41 [label="CSV Reader"]
+	42 [label="Row Filter"]
+	36 -> 37
+	38 -> 39
+	40 -> 42
+	41 -> 40
+	rankdir=LR
+}

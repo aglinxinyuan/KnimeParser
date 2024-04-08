@@ -1,0 +1,44 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="GET Request"]
+	9 [label="JSON Path"]
+	18 [label="Database Reader _legacy_"]
+	29 [label=Ungroup]
+	33 [label="Database Writer _legacy_"]
+	34 [label="Column Filter"]
+	35 [label="Column Rename"]
+	37 [label="Java Snippet"]
+	4 [label="Database Connector _legacy_"]
+	12 [label="Container Input _JSON_"]
+	13 [label="JSON to Table"]
+	14 [label="Table Row to Variable"]
+	45 [label=Joiner]
+	46 [label="JSON Path"]
+	47 [label=Ungroup]
+	48 [label="Java Snippet"]
+	49 [label=Joiner]
+	50 [label="Java Snippet"]
+	51 [label="Java Snippet"]
+	12 -> 13
+	13 -> 14
+	14 -> 4
+	1 -> 2
+	2 -> 9
+	2 -> 46
+	9 -> 29
+	18 -> 45
+	29 -> 51
+	34 -> 35
+	35 -> 37
+	37 -> 33
+	43 -> 33
+	43 -> 18
+	45 -> 34
+	46 -> 47
+	47 -> 50
+	48 -> 49
+	49 -> 45
+	50 -> 49
+	51 -> 48
+	rankdir=LR
+}

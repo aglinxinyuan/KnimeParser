@@ -1,0 +1,26 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label="String Manipulation"]
+	4 [label="Rule Engine"]
+	5 [label="Rule Engine"]
+	9 [label="Row Filter"]
+	11 [label="Linear Regression Learner"]
+	12 [label="String To Number"]
+	13 [label=Partitioning]
+	14 [label="Regression Predictor"]
+	15 [label="Polynomial Regression Learner"]
+	16 [label="Low Variance Filter"]
+	18 [label="Numeric Scorer"]
+	19 [label="Correlation Filter"]
+	1 -> 2
+	2 -> 3
+	3 -> 9
+	9 -> 12
+	11 -> 14
+	12 -> 13
+	13 -> 15
+	13 -> 14
+	13 -> 11
+	rankdir=LR
+}

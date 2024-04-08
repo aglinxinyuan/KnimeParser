@@ -1,0 +1,66 @@
+digraph {
+	1 [label="Model Reader"]
+	2 [label="Model Reader"]
+	3 [label="Model Reader"]
+	4 [label="Model Reader"]
+	5 [label="Model Reader"]
+	6 [label="Model Reader"]
+	7 [label="Model Reader"]
+	8 [label="Random Forest Predictor"]
+	9 [label="Random Forest Predictor"]
+	10 [label="Random Forest Predictor"]
+	11 [label="Random Forest Predictor"]
+	12 [label="Random Forest Predictor"]
+	13 [label="Gradient Boosted Trees Predictor"]
+	14 [label="Gradient Boosted Trees Predictor"]
+	15 [label="Column Splitter"]
+	16 [label="Column Splitter"]
+	17 [label="Column Splitter"]
+	18 [label="Column Splitter"]
+	19 [label="Column Splitter"]
+	20 [label="Column Splitter"]
+	21 [label="Column Splitter"]
+	22 [label="Column Appender"]
+	2 [label="RDKit From Molecule"]
+	3 [label="Molecule Type Cast"]
+	4 [label="RDKit Fingerprint"]
+	6 [label="Fingerprints Expander"]
+	7 [label="Column Splitter"]
+	8 [label="CSV Reader"]
+	23 [label="Column Appender"]
+	24 [label="Table View"]
+	25 [label="CSV Writer"]
+	26 [label="SDF Reader"]
+	22 -> 8
+	2 -> 9
+	3 -> 10
+	4 -> 13
+	5 -> 11
+	6 -> 12
+	7 -> 14
+	8 -> 16
+	9 -> 17
+	10 -> 18
+	11 -> 15
+	12 -> 19
+	13 -> 20
+	14 -> 21
+	15 -> 22
+	16 -> 22
+	17 -> 22
+	18 -> 22
+	19 -> 22
+	20 -> 22
+	21 -> 22
+	22 -> 23
+	2 -> 4
+	3 -> 2
+	4 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 3
+	8 -> 23
+	23 -> 25
+	23 -> 24
+	rankdir=LR
+}
