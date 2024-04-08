@@ -1,0 +1,60 @@
+digraph {
+	88 [label="Image Reader"]
+	90 [label="Waehlby Cell Clump Splitter"]
+	94 [label="Waehlby Cell Clump Splitter"]
+	95 [label="Column Filter"]
+	96 [label=Joiner]
+	99 [label="Image Converter"]
+	101 [label=Splitter]
+	103 [label=Joiner]
+	104 [label="Connected Component Analysis"]
+	105 [label="Column Rename"]
+	76 [label="Labeling Properties"]
+	79 [label="Labeling Properties"]
+	80 [label="Labeling Properties"]
+	109 [label="Math Formula"]
+	110 [label="Column Rename"]
+	111 [label="Labeling Arithmetic"]
+	117 [label="Labeling Filter"]
+	118 [label="Image Writer"]
+	119 [label="Labeling to RGB Img"]
+	91 [label=Convolver]
+	92 [label=Inverter]
+	93 [label="Local Thresholding"]
+	97 [label="Image Converter"]
+	98 [label="Sigma Filter"]
+	102 [label="Convolution Kernel Creator"]
+	116 [label="Image Calculator"]
+	100 [label="Gaussian Convolution"]
+	113 [label="Local Thresholding"]
+	76 -> 80
+	79 -> 76
+	91 -> 92
+	92 -> 97
+	97 -> 116
+	98 -> 91
+	102 -> 91
+	116 -> 93
+	100 -> 113
+	88 -> 101
+	90 -> 103
+	94 -> 103
+	95 -> 99
+	96 -> 104
+	99 -> 100
+	99 -> 98
+	101 -> 105
+	103 -> 111
+	104 -> 117
+	105 -> 95
+	80 -> 110
+	109 -> 119
+	110 -> 109
+	111 -> 79
+	117 -> 94
+	117 -> 90
+	119 -> 118
+	93 -> 96
+	113 -> 96
+	rankdir=LR
+}

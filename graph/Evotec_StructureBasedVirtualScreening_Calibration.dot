@@ -1,0 +1,372 @@
+digraph {
+	1 [label="RDKit Descriptor Calculation"]
+	2 [label=RMSD]
+	3 [label="RDKit From Molecule"]
+	10 [label="RDKit From Molecule"]
+	11 [label="RDKit Descriptor Calculation"]
+	19 [label="Java Snippet Row Filter"]
+	20 [label="Chunk Loop Start"]
+	22 [label="RDKit Fingerprint"]
+	23 [label="RDKit Fingerprint"]
+	25 [label=Sorter]
+	27 [label="Row Splitter"]
+	30 [label="Column Filter"]
+	31 [label="Loop End"]
+	44 [label="Fingerprint Similarity"]
+	2313 [label=MolExporter]
+	2351 [label="SDF Extractor"]
+	2384 [label="Complex Scoring"]
+	2407 [label="Java Snippet"]
+	2408 [label=GroupBy]
+	2431 [label="Mol2 Reader"]
+	2514 [label="Column Rename"]
+	2519 [label="Concatenate _Optional in_"]
+	2523 [label=GroupBy]
+	2524 [label="Column Rename _Regex_"]
+	2796 [label="Column Rename _Regex_"]
+	2917 [label="Column Rename"]
+	3014 [label="SDF Extractor"]
+	3015 [label=GroupBy]
+	3018 [label="Complex Scoring"]
+	3019 [label="Column Rename"]
+	3021 [label="Column Rename _Regex_"]
+	3022 [label="SDF Extractor"]
+	3023 [label=GroupBy]
+	3026 [label="Complex Scoring"]
+	3027 [label="Column Rename"]
+	3029 [label="Column Rename _Regex_"]
+	3030 [label="SDF Extractor"]
+	3031 [label=GroupBy]
+	3034 [label="Complex Scoring"]
+	3035 [label="Column Rename"]
+	3037 [label="Column Rename _Regex_"]
+	3038 [label="Enrichment Plotter"]
+	3041 [label=Concatenate]
+	3042 [label="String Manipulation"]
+	3044 [label="String Manipulation"]
+	3046 [label="Column Rename"]
+	3047 [label="Column Rename"]
+	3049 [label="Set MolName And Comment"]
+	3050 [label="Row Filter"]
+	3054 [label=Joiner]
+	3224 [label="Java Snippet"]
+	3235 [label="Java Snippet"]
+	3236 [label="Java Snippet"]
+	3237 [label=Joiner]
+	3239 [label="ROC Curve"]
+	3267 [label="Row Filter"]
+	3270 [label="SDF Reader"]
+	3271 [label="Read MDB"]
+	3272 [label=GroupBy]
+	3273 [label="Counter Generation"]
+	3274 [label="Column Rename"]
+	3275 [label=Ungroup]
+	3276 [label="Write MDB"]
+	2 [label=RMSD]
+	3265 [label=Sorter]
+	3267 [label="Row Filter"]
+	3272 [label=GroupBy]
+	3273 [label="Counter Generation"]
+	3274 [label="Column Rename"]
+	3275 [label=Ungroup]
+	3276 [label="Write MDB"]
+	2 [label=RMSD]
+	3267 [label="Row Filter"]
+	3272 [label=GroupBy]
+	3273 [label="Counter Generation"]
+	3274 [label="Column Rename"]
+	3275 [label=Ungroup]
+	3276 [label="Write MDB"]
+	3279 [label=Sorter]
+	2 [label=RMSD]
+	3267 [label="Row Filter"]
+	3272 [label=GroupBy]
+	3273 [label="Counter Generation"]
+	3274 [label="Column Rename"]
+	3275 [label=Ungroup]
+	3276 [label="Write MDB"]
+	3280 [label=Sorter]
+	3282 [label=Tautomers]
+	3283 [label="Major Microspecies"]
+	3284 [label="Column Filter"]
+	3285 [label="Advanced MolConverter"]
+	3306 [label="Java Snippet"]
+	3307 [label="Extract Variables _Data_"]
+	3308 [label="Inject Variables _Data_"]
+	3309 [label=Sorter]
+	3312 [label="Table Creator"]
+	3313 [label=Concatenate]
+	3314 [label="Row Filter"]
+	3315 [label="Extract Table Spec"]
+	3316 [label="Table Row To Variable Loop Start"]
+	3317 [label="Loop End"]
+	3318 [label="Constant Value Column"]
+	3320 [label="URL to File Path _Variable_"]
+	3321 [label=GroupBy]
+	3322 [label="Row Filter"]
+	3323 [label=GroupBy]
+	3324 [label="Constant Value Column"]
+	3325 [label="Column Rename"]
+	3326 [label="Java Snippet"]
+	3327 [label="CSV Writer"]
+	3328 [label="Column Filter"]
+	3329 [label=RowID]
+	3331 [label=Sorter]
+	3333 [label=Joiner]
+	3342 [label="Column Rename"]
+	3343 [label="Chunk Loop Start"]
+	3344 [label="Table Row to Variable"]
+	3345 [label="Loop End"]
+	3349 [label="2D_3D Scatterplot"]
+	3361 [label="CSV Writer"]
+	3365 [label="Column Rename"]
+	3366 [label="Cell Splitter"]
+	3367 [label=RowID]
+	3368 [label=GroupBy]
+	3369 [label="SDF Reader"]
+	3370 [label="SDF Reader"]
+	3372 [label="SDF Reader"]
+	3373 [label="Counter Generation"]
+	3374 [label=Sorter]
+	3375 [label="String Manipulation"]
+	3376 [label="Insert Column Header"]
+	3378 [label="Table Row to Variable"]
+	3379 [label="Column List Loop Start"]
+	3380 [label=Rank]
+	3381 [label="Extract Column Header"]
+	3382 [label="Loop End _Column Append_"]
+	3384 [label="Math Formula"]
+	3385 [label="Enrichment Plotter _local_"]
+	3388 [label=Stereoisomers]
+	3389 [label=Standardizer]
+	3390 [label=Conformers]
+	3391 [label="Energy Minimizer"]
+	3395 [label="Table Row to Variable"]
+	3405 [label="Row Splitter"]
+	3407 [label="Recursive Loop Start"]
+	3408 [label="Recursive Loop End"]
+	3410 [label="Row Filter"]
+	3413 [label="Cell Splitter"]
+	3414 [label="Column Rename"]
+	3415 [label="Column Filter"]
+	3416 [label="Row Splitter"]
+	3417 [label=Concatenate]
+	3418 [label=Sorter]
+	3419 [label="Column Rename"]
+	3420 [label="Cell Splitter"]
+	3421 [label="Column Filter"]
+	3422 [label="String Manipulation"]
+	3426 [label="Column Auto Type Cast"]
+	3428 [label="Column Rename"]
+	3429 [label="Column Filter"]
+	3431 [label="SDF Reader"]
+	3432 [label="Column Filter"]
+	3433 [label="Column Auto Type Cast"]
+	3436 [label="SDF Reader"]
+	3440 [label="Table Reader"]
+	3441 [label="Table Reader"]
+	3443 [label="Table Reader"]
+	3444 [label="Table Reader"]
+	3445 [label="Table Reader"]
+	3446 [label="Table Reader"]
+	3447 [label="Table Reader"]
+	3448 [label="Table Reader"]
+	3449 [label="List Files"]
+	3450 [label="Table Reader"]
+	3451 [label="Table Reader"]
+	3452 [label="Table Reader"]
+	3454 [label="Table Reader"]
+	3455 [label="CSV Reader"]
+	3456 [label="CSV Reader"]
+	3457 [label="Read MDB"]
+	3458 [label=RunGold]
+	3459 [label=RunGold]
+	3460 [label=RunGold]
+	3461 [label=RunGold]
+	3462 [label="Advanced MolConverter"]
+	3463 [label="Advanced MolConverter"]
+	2 -> 3276
+	3265 -> 3272
+	3267 -> 3265
+	3272 -> 3273
+	3273 -> 3274
+	3274 -> 3275
+	3275 -> 2
+	2 -> 3276
+	3267 -> 3279
+	3272 -> 3273
+	3273 -> 3274
+	3274 -> 3275
+	3275 -> 2
+	3279 -> 3272
+	2 -> 3276
+	3267 -> 3280
+	3272 -> 3273
+	3273 -> 3274
+	3274 -> 3275
+	3275 -> 2
+	3280 -> 3272
+	1 -> 3050
+	2 -> 3276
+	3 -> 1
+	10 -> 11
+	11 -> 20
+	19 -> 23
+	20 -> 22
+	20 -> 3395
+	22 -> 44
+	23 -> 44
+	25 -> 27
+	27 -> 30
+	30 -> 31
+	31 -> 3368
+	44 -> 25
+	2351 -> 2384
+	2407 -> 2408
+	2407 -> 3267
+	2408 -> 2524
+	2514 -> 2519
+	2519 -> 2523
+	2523 -> 3237
+	2524 -> 2514
+	2796 -> 2917
+	2917 -> 3239
+	3014 -> 3018
+	3015 -> 3021
+	3019 -> 2519
+	3021 -> 3019
+	3022 -> 3026
+	3023 -> 3029
+	3027 -> 2519
+	3029 -> 3027
+	3030 -> 3034
+	3031 -> 3037
+	3035 -> 2519
+	3037 -> 3035
+	3041 -> 3049
+	3041 -> 3054
+	3042 -> 3046
+	3044 -> 3047
+	3046 -> 3041
+	3047 -> 3041
+	3049 -> 3389
+	3050 -> 19
+	3054 -> 3237
+	3054 -> 2313
+	3224 -> 3281
+	3224 -> 3015
+	3235 -> 3279
+	3235 -> 3031
+	3236 -> 3023
+	3236 -> 3280
+	3237 -> 2796
+	3237 -> 3379
+	3239 -> 3361
+	3267 -> 3374
+	3272 -> 3373
+	3273 -> 3342
+	3274 -> 3275
+	3275 -> 2
+	3282 -> 3283
+	3283 -> 3388
+	3284 -> 3285
+	3285 -> 3391
+	3306 -> 3307
+	3307 -> 3308
+	3308 -> 3314
+	3309 -> 3321
+	3312 -> 3313
+	3313 -> 3316
+	3314 -> 3313
+	3315 -> 3308
+	3316 -> 3309
+	3317 -> 3328
+	3318 -> 3326
+	3320 -> 3318
+	3321 -> 3322
+	3322 -> 3323
+	3323 -> 3325
+	3324 -> 3318
+	3325 -> 3324
+	3326 -> 3345
+	3328 -> 3329
+	3329 -> 3327
+	3331 -> 3273
+	3333 -> 3367
+	3342 -> 2
+	3342 -> 3279
+	3342 -> 3280
+	3342 -> 3281
+	3343 -> 3344
+	3344 -> 3450
+	3344 -> 3320
+	3345 -> 3317
+	3365 -> 3349
+	3366 -> 3365
+	3367 -> 3366
+	3368 -> 3407
+	3373 -> 3274
+	3374 -> 3272
+	3375 -> 3376
+	3376 -> 3382
+	3378 -> 3375
+	3379 -> 3378
+	3379 -> 3380
+	3380 -> 3381
+	3381 -> 3376
+	3381 -> 3375
+	3382 -> 3432
+	3384 -> 3385
+	3388 -> 3390
+	3389 -> 3282
+	3390 -> 3284
+	3391 -> 3054
+	3395 -> 19
+	3405 -> 3422
+	3405 -> 3408
+	3407 -> 3418
+	3408 -> 3429
+	3410 -> 3413
+	3413 -> 3415
+	3414 -> 3420
+	3415 -> 3414
+	3416 -> 3417
+	3416 -> 3405
+	3417 -> 3426
+	3418 -> 3416
+	3419 -> 3417
+	3420 -> 3421
+	3421 -> 3419
+	3422 -> 3410
+	3426 -> 3408
+	3428 -> 3044
+	3429 -> 3428
+	3432 -> 3433
+	3433 -> 3384
+	3433 -> 3038
+	3440 -> 3462
+	3441 -> 3042
+	3441 -> 3463
+	3443 -> 2407
+	3444 -> 3224
+	3445 -> 3236
+	3446 -> 3235
+	3447 -> 2384
+	3447 -> 3026
+	3447 -> 3034
+	3447 -> 3018
+	3448 -> 3331
+	3449 -> 3343
+	3450 -> 3315
+	3450 -> 3306
+	3450 -> 3309
+	3451 -> 3333
+	3452 -> 3333
+	3458 -> 2351
+	3459 -> 3014
+	3460 -> 3022
+	3461 -> 3030
+	3462 -> 3
+	3463 -> 10
+	rankdir=LR
+}

@@ -1,0 +1,32 @@
+digraph {
+	335 [label="SharePoint Online Connector"]
+	336 [label="Microsoft Authentication"]
+	337 [label="List Files_Folders"]
+	339 [label="Path to String"]
+	345 [label="Image Reader _Table_"]
+	349 [label=Transpose]
+	350 [label=Merger]
+	351 [label="Image Writer"]
+	353 [label="Create Temp Folder"]
+	355 [label="Transfer Files"]
+	356 [label="Image Reader _Table_"]
+	357 [label=Transpose]
+	358 [label=Merger]
+	359 [label="Image Writer"]
+	360 [label="Path to String"]
+	335 -> 355
+	335 -> 337
+	336 -> 335
+	337 -> 339
+	339 -> 345
+	345 -> 349
+	349 -> 350
+	350 -> 351
+	353 -> 355
+	355 -> 360
+	356 -> 357
+	357 -> 358
+	358 -> 359
+	360 -> 356
+	rankdir=LR
+}

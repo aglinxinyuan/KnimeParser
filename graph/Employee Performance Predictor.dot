@@ -1,0 +1,234 @@
+digraph {
+	4 [label=Partitioning]
+	8 [label="Excel Reader _XLS_"]
+	14 [label="Column Filter"]
+	18 [label="Histogram _interactive_"]
+	34 [label=Statistics]
+	35 [label=SMOTE]
+	38 [label="Logistic Regression Learner"]
+	39 [label="Logistic Regression Predictor"]
+	46 [label="Data to Report"]
+	48 [label="Image to Report"]
+	74 [label="Pie_Donut Chart"]
+	75 [label="Bar Chart"]
+	76 [label="Image to Report"]
+	77 [label="Bar Chart"]
+	78 [label="Image to Report"]
+	95 [label="ROC Curve"]
+	97 [label=Auto_Binner]
+	98 [label="Column Filter"]
+	99 [label="String To Number"]
+	101 [label="Gradient Boosted Trees Learner"]
+	102 [label="Random Forest Learner"]
+	103 [label="Random Forest Predictor"]
+	104 [label="Naive Bayes Learner"]
+	106 [label="Gradient Boosted Trees Predictor"]
+	108 [label=Statistics]
+	109 [label="Numeric Binner"]
+	110 [label="Column Aggregator"]
+	111 [label="ROC Curve"]
+	112 [label="ROC Curve"]
+	113 [label="ROC Curve"]
+	128 [label="Naive Bayes Predictor"]
+	130 [label="Rule Engine"]
+	134 [label="Bar Chart"]
+	135 [label="Tree Ensemble Learner _Regression_"]
+	136 [label="Tree Ensemble Predictor _Regression_"]
+	137 [label="ROC Curve"]
+	138 [label="Linear Regression Learner"]
+	139 [label="Polynomial Regression Learner"]
+	140 [label="Regression Predictor"]
+	141 [label="ROC Curve"]
+	142 [label="ROC Curve"]
+	143 [label="Regression Predictor"]
+	144 [label="XGBoost Linear Ensemble Learner _Regression_"]
+	145 [label="XGBoost Predictor _Regression_"]
+	146 [label="XGBoost Tree Ensemble Learner _Regression_"]
+	147 [label="ROC Curve"]
+	148 [label="ROC Curve"]
+	149 [label="XGBoost Predictor _Regression_"]
+	150 [label=Scorer]
+	151 [label=Scorer]
+	152 [label=Scorer]
+	153 [label=Normalizer]
+	154 [label=Scorer]
+	155 [label="Double To Int"]
+	156 [label=Scorer]
+	157 [label="Double To Int"]
+	158 [label=Scorer]
+	159 [label="Double To Int"]
+	160 [label=Scorer]
+	161 [label="Table Manipulator"]
+	162 [label="Double To Int"]
+	163 [label=Scorer]
+	164 [label="Table Manipulator"]
+	165 [label="Double To Int"]
+	166 [label=Scorer]
+	167 [label="Scorer _JavaScript_"]
+	168 [label="Scorer _JavaScript_"]
+	169 [label="Scorer _JavaScript_"]
+	170 [label="Scorer _JavaScript_"]
+	171 [label="Scorer _JavaScript_"]
+	172 [label="Scorer _JavaScript_"]
+	173 [label="Scorer _JavaScript_"]
+	174 [label="Scorer _JavaScript_"]
+	175 [label="Scorer _JavaScript_"]
+	176 [label="Number To String"]
+	177 [label="Number To String"]
+	178 [label="Number To String"]
+	179 [label="Number To String"]
+	180 [label="Number To String"]
+	181 [label=Concatenate]
+	182 [label=Transpose]
+	183 [label="Column Rename"]
+	184 [label=Transpose]
+	185 [label="Decision Tree Learner"]
+	186 [label="Decision Tree Predictor"]
+	187 [label="Scorer _JavaScript_"]
+	188 [label="ROC Curve"]
+	189 [label=Concatenate]
+	193 [label=RowID]
+	194 [label="Row Filter"]
+	195 [label="Row Filter"]
+	198 [label="String Manipulation"]
+	199 [label="Rule Engine"]
+	200 [label="String Manipulation"]
+	201 [label=Joiner]
+	202 [label=RowID]
+	204 [label="Table Manipulator"]
+	205 [label="Linear Correlation"]
+	206 [label="Model Writer"]
+	207 [label="PMML Writer"]
+	208 [label="PMML Writer"]
+	209 [label="PMML Writer"]
+	97 -> 99
+	99 -> 98
+	4 -> 39
+	4 -> 35
+	4 -> 103
+	4 -> 106
+	4 -> 128
+	4 -> 140
+	4 -> 143
+	4 -> 136
+	4 -> 164
+	4 -> 161
+	4 -> 186
+	8 -> 14
+	8 -> 108
+	8 -> 134
+	8 -> 205
+	14 -> 130
+	34 -> 46
+	35 -> 102
+	35 -> 101
+	35 -> 104
+	35 -> 185
+	35 -> 135
+	35 -> 139
+	35 -> 138
+	35 -> 146
+	35 -> 144
+	35 -> 153
+	38 -> 39
+	38 -> 207
+	39 -> 112
+	39 -> 168
+	39 -> 152
+	74 -> 48
+	75 -> 76
+	77 -> 78
+	95 -> 189
+	98 -> 34
+	101 -> 106
+	102 -> 103
+	102 -> 206
+	103 -> 111
+	103 -> 167
+	103 -> 151
+	104 -> 128
+	104 -> 208
+	106 -> 95
+	106 -> 170
+	106 -> 154
+	109 -> 110
+	110 -> 97
+	110 -> 77
+	110 -> 74
+	110 -> 75
+	110 -> 4
+	110 -> 18
+	111 -> 189
+	112 -> 189
+	113 -> 189
+	128 -> 150
+	128 -> 169
+	128 -> 113
+	130 -> 109
+	135 -> 136
+	136 -> 137
+	136 -> 155
+	137 -> 189
+	138 -> 140
+	139 -> 143
+	140 -> 141
+	140 -> 157
+	141 -> 189
+	142 -> 189
+	143 -> 142
+	143 -> 159
+	144 -> 145
+	145 -> 147
+	145 -> 162
+	146 -> 149
+	147 -> 189
+	148 -> 189
+	149 -> 148
+	149 -> 165
+	153 -> 38
+	155 -> 156
+	155 -> 176
+	157 -> 158
+	157 -> 177
+	159 -> 178
+	159 -> 160
+	161 -> 145
+	162 -> 163
+	162 -> 179
+	164 -> 149
+	165 -> 166
+	165 -> 180
+	167 -> 181
+	168 -> 181
+	169 -> 181
+	170 -> 181
+	171 -> 181
+	172 -> 181
+	173 -> 181
+	174 -> 181
+	175 -> 181
+	176 -> 171
+	177 -> 172
+	178 -> 173
+	179 -> 174
+	180 -> 175
+	181 -> 182
+	182 -> 183
+	183 -> 184
+	184 -> 202
+	185 -> 186
+	186 -> 187
+	186 -> 188
+	187 -> 181
+	188 -> 189
+	189 -> 193
+	193 -> 194
+	194 -> 195
+	195 -> 198
+	198 -> 199
+	199 -> 200
+	200 -> 201
+	201 -> 204
+	202 -> 201
+	rankdir=LR
+}

@@ -1,0 +1,77 @@
+digraph {
+	1 [label="CSV Reader"]
+	5 [label="Row Filter"]
+	6 [label="Column Filter"]
+	7 [label="Row Filter"]
+	8 [label="Row Filter"]
+	9 [label="Row Filter"]
+	10 [label="Row Filter"]
+	11 [label="Row Filter"]
+	12 [label="Row Filter"]
+	13 [label="Row Filter"]
+	14 [label="Row Filter"]
+	15 [label="Row Filter"]
+	16 [label="Row Filter"]
+	17 [label="Row Filter"]
+	18 [label=Concatenate]
+	19 [label="Row Filter"]
+	20 [label=Concatenate]
+	21 [label=Concatenate]
+	22 [label=Concatenate]
+	23 [label=Concatenate]
+	24 [label=Concatenate]
+	25 [label=Concatenate]
+	26 [label=Sorter]
+	27 [label=Sorter]
+	28 [label=Sorter]
+	29 [label=Sorter]
+	30 [label=Sorter]
+	31 [label="CSV Writer"]
+	32 [label="CSV Writer"]
+	33 [label=Sorter]
+	34 [label="CSV Writer"]
+	35 [label="CSV Writer"]
+	36 [label="CSV Writer"]
+	37 [label="CSV Writer"]
+	1 -> 6
+	5 -> 18
+	6 -> 7
+	6 -> 5
+	6 -> 14
+	6 -> 15
+	6 -> 12
+	6 -> 13
+	6 -> 10
+	6 -> 11
+	6 -> 8
+	6 -> 9
+	6 -> 19
+	6 -> 16
+	6 -> 17
+	7 -> 20
+	8 -> 21
+	9 -> 25
+	10 -> 29
+	11 -> 30
+	12 -> 22
+	13 -> 22
+	14 -> 23
+	15 -> 33
+	16 -> 24
+	17 -> 24
+	18 -> 20
+	19 -> 18
+	20 -> 21
+	21 -> 25
+	22 -> 23
+	23 -> 27
+	24 -> 28
+	25 -> 26
+	26 -> 37
+	27 -> 31
+	28 -> 34
+	29 -> 36
+	30 -> 35
+	33 -> 32
+	rankdir=LR
+}

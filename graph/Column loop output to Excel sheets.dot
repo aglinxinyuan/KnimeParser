@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Column List Loop Start"]
+	3 [label=GroupBy]
+	4 [label="Excel Writer"]
+	5 [label="Variable Loop End"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,118 @@
+digraph {
+	1 [label="Variable Creator"]
+	2 [label="Active Branch Inverter"]
+	3 [label="CASE Switch End"]
+	4 [label="CASE Switch End"]
+	5 [label="Active Branch Inverter"]
+	6 [label="Merge Variables"]
+	7 [label="Merge Variables"]
+	8 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	16 [label="Variable Creator"]
+	18 [label="CASE Switch End"]
+	19 [label="CASE Switch End"]
+	20 [label="Active Branch Inverter"]
+	21 [label="Merge Variables"]
+	22 [label="Merge Variables"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	24 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	29 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	9 [label="Merge Variables"]
+	10 [label="Active Branch Inverter"]
+	34 [label="CASE Switch End"]
+	35 [label="CASE Switch End"]
+	36 [label="Active Branch Inverter"]
+	37 [label="Merge Variables"]
+	38 [label="Merge Variables"]
+	39 [label="Active Branch Inverter"]
+	40 [label="Variable Creator"]
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	9 -> 10
+	1 -> 2
+	1 -> 3
+	1 -> 4
+	1 -> 6
+	1 -> 7
+	1 -> 9
+	1 -> 9
+	2 -> 3
+	2 -> 4
+	2 -> 6
+	2 -> 7
+	2 -> 9
+	2 -> 9
+	4 -> 5
+	7 -> 8
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	16 -> 18
+	16 -> 19
+	16 -> 22
+	16 -> 21
+	16 -> 9
+	16 -> 9
+	16 -> 22
+	16 -> 21
+	16 -> 18
+	16 -> 19
+	16 -> 9
+	16 -> 9
+	19 -> 20
+	22 -> 24
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	10 -> 9
+	35 -> 36
+	38 -> 29
+	39 -> 34
+	39 -> 34
+	39 -> 35
+	39 -> 35
+	39 -> 37
+	39 -> 37
+	39 -> 38
+	39 -> 38
+	39 -> 9
+	39 -> 9
+	39 -> 9
+	39 -> 9
+	40 -> 39
+	rankdir=LR
+}

@@ -1,0 +1,65 @@
+digraph {
+	1 [label="GeoFile Reader"]
+	2 [label="Math Formula"]
+	3 [label="GeoFile Reader"]
+	4 [label="Column Filter"]
+	5 [label="Spatial Join"]
+	6 [label="Rule_based Row Filter"]
+	7 [label="Geometry To Point"]
+	8 [label="Math Formula"]
+	9 [label="Math Formula"]
+	10 [label="GeoFile Reader"]
+	11 [label="Row Filter"]
+	12 [label="Euclidean Distance"]
+	13 [label=Joiner]
+	14 [label=Concatenate]
+	15 [label="Geospatial View"]
+	16 [label=Projection]
+	17 [label="Coordinates XYZ"]
+	18 [label="Column Filter"]
+	19 [label="Column Appender"]
+	20 [label="Kepler_gl Geoview "]
+	21 [label="Math Formula"]
+	22 [label="Math Formula"]
+	23 [label="Linear Regression Learner"]
+	24 [label="Linear Regression Learner"]
+	25 [label="Linear Regression Learner"]
+	26 [label="Linear Regression Learner"]
+	27 [label="Linear Regression Learner"]
+	28 [label="Linear Regression Learner"]
+	29 [label="Python Script"]
+	30 [label="Python Script"]
+	1 -> 2
+	2 -> 5
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	5 -> 14
+	5 -> 19
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 13
+	9 -> 12
+	10 -> 11
+	10 -> 14
+	10 -> 16
+	11 -> 12
+	12 -> 13
+	13 -> 21
+	14 -> 15
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	21 -> 22
+	22 -> 23
+	22 -> 30
+	22 -> 28
+	22 -> 29
+	22 -> 26
+	22 -> 27
+	22 -> 24
+	22 -> 25
+	rankdir=LR
+}

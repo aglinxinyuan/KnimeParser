@@ -1,0 +1,14 @@
+digraph {
+	1 [label="CSS Editor"]
+	2 [label="Table Editor"]
+	4 [label="Column Rename"]
+	3 [label="Data Generator"]
+	6 [label="Table Creator"]
+	7 [label=Joiner]
+	3 -> 7
+	6 -> 7
+	1 -> 2
+	4 -> 2
+	8 -> 4
+	rankdir=LR
+}

@@ -1,0 +1,400 @@
+digraph {
+	1 [label="Table Reader"]
+	28 [label="Missing Value"]
+	5 [label="Numeric Distances"]
+	11 [label="Model Writer"]
+	16 [label="Model Reader"]
+	21 [label="End IF"]
+	22 [label="Java IF _Table_"]
+	23 [label="Table Row to Variable"]
+	6 [label="String Distances"]
+	7 [label="Aggregated Distance"]
+	8 [label="Extract Table Spec"]
+	9 [label="Row Filter"]
+	10 [label="Table Row To Variable Loop Start"]
+	13 [label="Model Writer"]
+	14 [label="Model Reader"]
+	15 [label="Variable Loop End"]
+	17 [label="WrappedNode Output"]
+	18 [label="WrappedNode Input"]
+	19 [label="Row Filter"]
+	27 [label="Row Filter"]
+	29 [label="Distance Matrix Calculate"]
+	30 [label=Normalizer]
+	32 [label="WrappedNode Output"]
+	65 [label="Boolean Input"]
+	66 [label="WrappedNode Input"]
+	31 [label="Similarity Search"]
+	32 [label="Column Filter"]
+	34 [label=Joiner]
+	64 [label="Integer Input"]
+	74 [label="WrappedNode Input"]
+	77 [label="String Manipulation"]
+	78 [label="WrappedNode Output"]
+	103 [label="Table Writer"]
+	53 [label="Column List Loop Start"]
+	57 [label="Loop End _Column Append_"]
+	59 [label="WrappedNode Input"]
+	60 [label="WrappedNode Output"]
+	62 [label="Random Number Assigner _Apache_"]
+	63 [label=GroupBy]
+	64 [label=Joiner]
+	65 [label="Column Filter"]
+	66 [label="Column Filter"]
+	67 [label="Rule_based Row Filter"]
+	137 [label="Column Filter"]
+	138 [label="Reference Column Filter"]
+	139 [label=RowID]
+	1 [label=X_Aggregator]
+	2 [label=X_Partitioner]
+	71 [label="Decision Tree Learner"]
+	72 [label="Decision Tree Predictor"]
+	61 [label=Joiner]
+	62 [label="Column Resorter"]
+	63 [label="Linear Correlation"]
+	1 [label=X_Aggregator]
+	2 [label=X_Partitioner]
+	71 [label="Decision Tree Learner"]
+	72 [label="Decision Tree Predictor"]
+	71 [label=GroupBy]
+	72 [label=GroupBy]
+	76 [label="Row Filter"]
+	77 [label=RowID]
+	78 [label="Column Filter"]
+	79 [label="Constant Value Column"]
+	80 [label="Constant Value Column"]
+	84 [label=Scorer]
+	85 [label=Scorer]
+	86 [label="Constant Value Column"]
+	87 [label=Scorer]
+	88 [label="Constant Value Column"]
+	89 [label="Constant Value Column"]
+	90 [label="Concatenate _Optional in_"]
+	1 [label=X_Aggregator]
+	2 [label=X_Partitioner]
+	71 [label="Decision Tree Learner"]
+	72 [label="Decision Tree Predictor"]
+	73 [label="Column Rename _Regex_"]
+	74 [label=Joiner]
+	75 [label="Column Filter"]
+	76 [label="Column Rename _Regex_"]
+	77 [label="Column Filter"]
+	78 [label="Column Rename _Regex_"]
+	79 [label="Column Rename _Regex_"]
+	92 [label="Concatenate _Optional in_"]
+	93 [label=GroupBy]
+	95 [label="Constant Value Column"]
+	96 [label="WrappedNode Input"]
+	99 [label="WrappedNode Output"]
+	130 [label="WrappedNode Input"]
+	168 [label="WrappedNode Output"]
+	108 [label="Column Rename _Regex_"]
+	139 [label=Joiner]
+	140 [label="Column Filter"]
+	141 [label="Column Filter"]
+	142 [label="WrappedNode Input"]
+	143 [label="WrappedNode Output"]
+	180 [label="Column Combiner"]
+	182 [label="Column Combiner"]
+	183 [label="Reference Column Resorter"]
+	184 [label="Column Filter"]
+	186 [label="Extract Column Header"]
+	187 [label=Transpose]
+	189 [label=Joiner]
+	180 [label=GroupBy]
+	185 [label=GroupBy]
+	205 [label="Rule_based Row Splitter"]
+	218 [label="Concatenate _Optional in_"]
+	226 [label="Reference Row Splitter"]
+	227 [label="Reference Row Splitter"]
+	228 [label="Row Splitter"]
+	229 [label=GroupBy]
+	230 [label="Reference Row Splitter"]
+	232 [label=GroupBy]
+	234 [label="Row Splitter"]
+	235 [label="Reference Row Splitter"]
+	194 [label="Constant Value Column"]
+	196 [label="Extract Table Dimension"]
+	197 [label="Row Filter"]
+	198 [label="Column Rename"]
+	239 [label="String Input"]
+	240 [label="WrappedNode Input"]
+	241 [label="WrappedNode Output"]
+	194 [label="Constant Value Column"]
+	196 [label="Extract Table Dimension"]
+	197 [label="Row Filter"]
+	198 [label="Column Rename"]
+	239 [label="String Input"]
+	240 [label="WrappedNode Input"]
+	241 [label="WrappedNode Output"]
+	194 [label="Constant Value Column"]
+	196 [label="Extract Table Dimension"]
+	197 [label="Row Filter"]
+	198 [label="Column Rename"]
+	239 [label="String Input"]
+	240 [label="WrappedNode Input"]
+	241 [label="WrappedNode Output"]
+	194 [label="Constant Value Column"]
+	196 [label="Extract Table Dimension"]
+	197 [label="Row Filter"]
+	198 [label="Column Rename"]
+	239 [label="String Input"]
+	240 [label="WrappedNode Input"]
+	241 [label="WrappedNode Output"]
+	194 [label="Constant Value Column"]
+	196 [label="Extract Table Dimension"]
+	197 [label="Row Filter"]
+	198 [label="Column Rename"]
+	239 [label="String Input"]
+	240 [label="WrappedNode Input"]
+	241 [label="WrappedNode Output"]
+	194 [label="Constant Value Column"]
+	196 [label="Extract Table Dimension"]
+	197 [label="Row Filter"]
+	198 [label="Column Rename"]
+	239 [label="String Input"]
+	240 [label="WrappedNode Input"]
+	241 [label="WrappedNode Output"]
+	248 [label="Concatenate _Optional in_"]
+	219 [label=GroupBy]
+	249 [label="Column Rename"]
+	250 [label="Constant Value Column"]
+	252 [label="Reference Row Splitter"]
+	253 [label="Reference Row Splitter"]
+	194 [label="Constant Value Column"]
+	196 [label="Extract Table Dimension"]
+	197 [label="Row Filter"]
+	198 [label="Column Rename"]
+	239 [label="String Input"]
+	240 [label="WrappedNode Input"]
+	241 [label="WrappedNode Output"]
+	255 [label="Concatenate _Optional in_"]
+	132 [label="Table Writer"]
+	133 [label="Table Writer"]
+	134 [label="IF Switch"]
+	135 [label=Partitioning]
+	136 [label="End IF"]
+	137 [label="Column Filter"]
+	6 -> 7
+	7 -> 13
+	8 -> 9
+	9 -> 19
+	10 -> 14
+	10 -> 6
+	13 -> 15
+	14 -> 7
+	15 -> 17
+	18 -> 6
+	18 -> 8
+	19 -> 10
+	5 -> 11
+	11 -> 27
+	16 -> 29
+	21 -> 23
+	22 -> 21
+	22 -> 24
+	23 -> 16
+	24 -> 21
+	27 -> 22
+	29 -> 32
+	29 -> 32
+	30 -> 29
+	30 -> 27
+	30 -> 5
+	65 -> 30
+	66 -> 24
+	66 -> 30
+	31 -> 77
+	32 -> 34
+	34 -> 78
+	64 -> 31
+	74 -> 31
+	74 -> 31
+	74 -> 31
+	74 -> 34
+	77 -> 32
+	53 -> 62
+	57 -> 137
+	57 -> 134
+	59 -> 67
+	62 -> 63
+	62 -> 64
+	63 -> 64
+	64 -> 65
+	65 -> 139
+	66 -> 53
+	67 -> 66
+	137 -> 134
+	136 -> 60
+	139 -> 57
+	2 -> 71
+	2 -> 72
+	71 -> 72
+	72 -> 1
+	2 -> 71
+	2 -> 72
+	71 -> 72
+	72 -> 1
+	2 -> 75
+	2 -> 77
+	71 -> 72
+	72 -> 1
+	73 -> 74
+	74 -> 2
+	75 -> 78
+	76 -> 74
+	77 -> 79
+	78 -> 71
+	79 -> 72
+	1 -> 71
+	1 -> 85
+	61 -> 62
+	62 -> 63
+	63 -> 77
+	1 -> 72
+	1 -> 87
+	71 -> 79
+	72 -> 80
+	76 -> 78
+	77 -> 76
+	78 -> 99
+	79 -> 92
+	80 -> 92
+	84 -> 89
+	85 -> 86
+	86 -> 90
+	87 -> 88
+	88 -> 90
+	89 -> 90
+	90 -> 99
+	1 -> 93
+	1 -> 84
+	92 -> 99
+	93 -> 95
+	95 -> 92
+	96 -> 61
+	96 -> 61
+	96 -> 2
+	96 -> 2
+	96 -> 73
+	96 -> 73
+	184 -> 186
+	186 -> 187
+	108 -> 139
+	108 -> 189
+	139 -> 143
+	140 -> 108
+	141 -> 143
+	141 -> 139
+	141 -> 189
+	142 -> 184
+	142 -> 183
+	142 -> 180
+	180 -> 141
+	182 -> 140
+	183 -> 182
+	187 -> 183
+	194 -> 241
+	196 -> 197
+	197 -> 198
+	198 -> 194
+	239 -> 194
+	240 -> 196
+	194 -> 241
+	196 -> 197
+	197 -> 198
+	198 -> 194
+	239 -> 194
+	240 -> 196
+	194 -> 241
+	196 -> 197
+	197 -> 198
+	198 -> 194
+	239 -> 194
+	240 -> 196
+	194 -> 241
+	196 -> 197
+	197 -> 198
+	198 -> 194
+	239 -> 194
+	240 -> 196
+	194 -> 241
+	196 -> 197
+	197 -> 198
+	198 -> 194
+	239 -> 194
+	240 -> 196
+	194 -> 241
+	196 -> 197
+	197 -> 198
+	198 -> 194
+	239 -> 194
+	240 -> 196
+	219 -> 249
+	249 -> 250
+	194 -> 241
+	196 -> 197
+	197 -> 198
+	198 -> 194
+	239 -> 194
+	240 -> 196
+	130 -> 177
+	130 -> 177
+	177 -> 180
+	177 -> 247
+	177 -> 185
+	177 -> 227
+	177 -> 226
+	180 -> 228
+	185 -> 226
+	205 -> 253
+	205 -> 252
+	218 -> 255
+	226 -> 230
+	226 -> 240
+	227 -> 229
+	228 -> 227
+	228 -> 232
+	229 -> 230
+	230 -> 235
+	230 -> 241
+	232 -> 234
+	234 -> 235
+	234 -> 205
+	235 -> 252
+	235 -> 242
+	240 -> 255
+	241 -> 255
+	242 -> 218
+	243 -> 218
+	244 -> 218
+	247 -> 248
+	248 -> 168
+	250 -> 248
+	252 -> 253
+	252 -> 243
+	253 -> 254
+	253 -> 244
+	254 -> 218
+	255 -> 219
+	255 -> 248
+	134 -> 135
+	134 -> 136
+	135 -> 137
+	137 -> 136
+	1 -> 134
+	28 -> 111
+	28 -> 72
+	28 -> 73
+	28 -> 130
+	72 -> 73
+	72 -> 73
+	73 -> 107
+	107 -> 111
+	107 -> 130
+	107 -> 133
+	111 -> 103
+	130 -> 132
+	136 -> 28
+	rankdir=LR
+}

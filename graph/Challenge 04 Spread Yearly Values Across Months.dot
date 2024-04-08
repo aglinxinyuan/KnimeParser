@@ -1,0 +1,47 @@
+digraph {
+	1 [label="Table Reader"]
+	2 [label="Create Date_Time Range"]
+	4 [label="Extract Date_Time Fields"]
+	5 [label="Math Formula"]
+	6 [label="Row Filter"]
+	7 [label="Row Filter"]
+	8 [label="Math Formula"]
+	9 [label="String Manipulation"]
+	10 [label="Cross Joiner"]
+	11 [label="Column Filter"]
+	12 [label="Column Filter"]
+	13 [label="Table Manipulator"]
+	14 [label="Table Creator"]
+	15 [label="Cross Joiner"]
+	16 [label="Column Filter"]
+	17 [label=Concatenate]
+	18 [label="Table Manipulator"]
+	19 [label=RowID]
+	20 [label="String Manipulation"]
+	21 [label="Number To String"]
+	22 [label="Double To Int"]
+	23 [label="Table Manipulator"]
+	1 -> 6
+	1 -> 7
+	2 -> 4
+	4 -> 9
+	5 -> 11
+	6 -> 5
+	7 -> 8
+	8 -> 16
+	9 -> 12
+	10 -> 13
+	11 -> 10
+	12 -> 10
+	13 -> 17
+	14 -> 15
+	15 -> 18
+	16 -> 15
+	17 -> 19
+	18 -> 17
+	19 -> 22
+	20 -> 23
+	21 -> 20
+	22 -> 21
+	rankdir=LR
+}

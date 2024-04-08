@@ -1,0 +1,49 @@
+digraph {
+	481 [label=Anonymization]
+	484 [label="Create Hierarchy"]
+	2419 [label="Table Reader"]
+	2472 [label="Table Writer"]
+	2445 [label="Variable to Table Row"]
+	2446 [label=Ungroup]
+	2450 [label="Variable to Table Row"]
+	2456 [label="Column Appender"]
+	2449 [label="Cell Splitter"]
+	2451 [label="String Manipulation"]
+	2453 [label="Create Collection Column"]
+	2452 [label="String Manipulation"]
+	2454 [label="Cell Splitter"]
+	2455 [label="Create Collection Column"]
+	2459 [label="String Manipulation"]
+	2460 [label=RowID]
+	2523 [label="Create Hierarchy"]
+	2529 [label="Create Hierarchy"]
+	2530 [label="Hierarchical Anonymization"]
+	2531 [label="Anonymity Assessment"]
+	2535 [label="Hierarchy Writer"]
+	2449 -> 2453
+	2451 -> 2449
+	2452 -> 2454
+	2454 -> 2455
+	2445 -> 2451
+	2446 -> 2459
+	2450 -> 2452
+	2456 -> 2446
+	2453 -> 2456
+	2455 -> 2456
+	2459 -> 2460
+	481 -> 2523
+	484 -> 2535
+	484 -> 2530
+	484 -> 2530
+	2419 -> 2531
+	2419 -> 481
+	2460 -> 2472
+	2523 -> 2529
+	2523 -> 2529
+	2529 -> 484
+	2529 -> 484
+	2530 -> 2531
+	2531 -> 2535
+	2531 -> 2450
+	rankdir=LR
+}

@@ -1,0 +1,11 @@
+digraph {
+	2 [label="SQLite Connector"]
+	4 [label="DB Table Creator"]
+	5 [label="GET Request"]
+	6 [label="JSON to Table"]
+	7 [label="Column Filter"]
+	2 -> 4
+	5 -> 6
+	6 -> 7
+	rankdir=LR
+}

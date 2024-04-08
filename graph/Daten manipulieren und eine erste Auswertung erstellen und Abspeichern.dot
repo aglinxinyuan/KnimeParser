@@ -1,0 +1,26 @@
+digraph {
+	2 [label="Constant Value Column"]
+	3 [label="Math Formula"]
+	4 [label=GroupBy]
+	6 [label="Rule Engine"]
+	8 [label="Rule_based Row Filter"]
+	448 [label="GroupBy Bar Chart _JFreeChart_"]
+	449 [label="Table Reader"]
+	450 [label="Excel Writer"]
+	453 [label="Number To String _PMML_"]
+	455 [label="Data Explorer"]
+	457 [label="Stacked Area Chart _Plotly_"]
+	458 [label="Python Script"]
+	2 -> 3
+	3 -> 455
+	3 -> 4
+	3 -> 458
+	4 -> 6
+	6 -> 8
+	8 -> 453
+	449 -> 2
+	453 -> 448
+	453 -> 450
+	453 -> 457
+	rankdir=LR
+}

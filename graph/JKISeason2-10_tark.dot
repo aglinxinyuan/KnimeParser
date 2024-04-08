@@ -1,0 +1,44 @@
+digraph {
+	30 [label="Cell Splitter"]
+	31 [label="Column Rename"]
+	32 [label="Excel Reader"]
+	42 [label=Pivoting]
+	45 [label="Column Rename _Regex_"]
+	46 [label="Moving Aggregation"]
+	48 [label=Unpivoting]
+	50 [label=Sorter]
+	54 [label="String Manipulation"]
+	57 [label=Pivoting]
+	58 [label=Joiner]
+	60 [label="Moving Aggregation"]
+	61 [label=Unpivoting]
+	62 [label=Sorter]
+	63 [label="Column Rename"]
+	64 [label="String Manipulation"]
+	65 [label=Joiner]
+	66 [label="Column Rename _Regex_"]
+	67 [label="Column Rename"]
+	68 [label="Column Resorter"]
+	30 -> 31
+	31 -> 58
+	31 -> 57
+	31 -> 42
+	32 -> 30
+	42 -> 45
+	45 -> 46
+	46 -> 48
+	48 -> 67
+	50 -> 58
+	54 -> 50
+	57 -> 66
+	58 -> 65
+	60 -> 61
+	61 -> 63
+	62 -> 65
+	63 -> 64
+	64 -> 62
+	65 -> 68
+	66 -> 60
+	67 -> 54
+	rankdir=LR
+}

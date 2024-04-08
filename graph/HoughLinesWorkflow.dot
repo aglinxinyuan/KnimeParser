@@ -1,0 +1,55 @@
+digraph {
+	108 [label="Python Script _1_1_"]
+	110 [label="Integer Input"]
+	111 [label="WrappedNode Input"]
+	112 [label="WrappedNode Output"]
+	113 [label="Double Input"]
+	114 [label="Math Formula _Variable_"]
+	115 [label="Column Selection"]
+	116 [label="Image Converter"]
+	117 [label="Image Properties"]
+	118 [label="Image to Labeling"]
+	119 [label="Integer Input"]
+	120 [label="Double Input"]
+	121 [label="Double Input"]
+	122 [label="Math Formula _Variable_"]
+	123 [label="Math Formula _Variable_"]
+	106 [label="Image Reader"]
+	114 [label="Interactive Segmentation View"]
+	3 [label=Convolver]
+	4 [label="Convolution Kernel Creator"]
+	5 [label="WrappedNode Input"]
+	6 [label="WrappedNode Output"]
+	7 [label="Image Calculator"]
+	8 [label=Convolver]
+	9 [label="Convolution Kernel Creator"]
+	10 [label="Average Filter"]
+	117 [label="Global Thresholder"]
+	108 -> 118
+	110 -> 119
+	111 -> 117
+	111 -> 115
+	113 -> 114
+	114 -> 110
+	115 -> 117
+	116 -> 108
+	117 -> 116
+	118 -> 112
+	119 -> 120
+	120 -> 122
+	121 -> 123
+	122 -> 121
+	123 -> 108
+	3 -> 8
+	4 -> 3
+	5 -> 10
+	7 -> 6
+	8 -> 7
+	9 -> 8
+	10 -> 3
+	0 -> 114
+	106 -> 115
+	115 -> 117
+	117 -> 0
+	rankdir=LR
+}

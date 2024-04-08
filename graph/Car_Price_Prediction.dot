@@ -1,0 +1,40 @@
+digraph {
+	8 [label="CSV Reader"]
+	9 [label="String Manipulation"]
+	10 [label="String Manipulation"]
+	11 [label="String Manipulation"]
+	12 [label="String Manipulation"]
+	13 [label="Math Formula"]
+	15 [label="Math Formula"]
+	18 [label="Category To Number"]
+	19 [label="Column Filter"]
+	23 [label="String To Number"]
+	24 [label="Rule_based Row Filter"]
+	25 [label=Partitioning]
+	27 [label="Regression Predictor"]
+	28 [label="Numeric Scorer"]
+	29 [label="Linear Regression Learner"]
+	30 [label=Normalizer]
+	31 [label="Normalizer _Apply_"]
+	32 [label="Row Filter"]
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	13 -> 15
+	8 -> 32
+	12 -> 13
+	15 -> 18
+	18 -> 19
+	19 -> 23
+	23 -> 24
+	24 -> 25
+	25 -> 30
+	25 -> 31
+	27 -> 28
+	29 -> 27
+	30 -> 29
+	30 -> 31
+	31 -> 27
+	32 -> 9
+	rankdir=LR
+}

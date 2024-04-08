@@ -1,0 +1,19 @@
+digraph {
+	8182 [label="Extract MAE Properties"]
+	8187 [label="Molecule Reader"]
+	8188 [label="Similarity Matrix _from Molecules_"]
+	8190 [label="Set Molecule Title"]
+	8191 [label="Unique Title Check"]
+	8192 [label=RowID]
+	8193 [label=RowID]
+	8387 [label="CSV Writer"]
+	8182 -> 8192
+	8187 -> 8191
+	8187 -> 8182
+	8188 -> 8387
+	8190 -> 8188
+	8190 -> 8188
+	8192 -> 8193
+	8193 -> 8190
+	rankdir=LR
+}

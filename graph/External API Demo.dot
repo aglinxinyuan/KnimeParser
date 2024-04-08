@@ -1,0 +1,22 @@
+digraph {
+	1 [label="GET Request"]
+	2 [label="JSON to Table"]
+	11 [label="CSV Reader"]
+	12 [label="String Manipulation"]
+	13 [label="Python Script"]
+	14 [label="JSON to Table"]
+	15 [label="PostgreSQL Connector"]
+	18 [label="Table Row to Variable Loop Start"]
+	24 [label="Variable Condition Loop End"]
+	26 [label="DB Query Reader"]
+	1 -> 2
+	11 -> 12
+	11 -> 18
+	12 -> 13
+	12 -> 1
+	13 -> 14
+	15 -> 26
+	18 -> 26
+	26 -> 24
+	rankdir=LR
+}

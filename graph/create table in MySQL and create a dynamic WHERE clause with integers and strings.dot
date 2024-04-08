@@ -1,0 +1,62 @@
+digraph {
+	1 [label="MySQL Connector"]
+	71 [label="DB Reader"]
+	72 [label="DB Table Selector"]
+	75 [label="DB Writer"]
+	76 [label="DB Reader"]
+	1871 [label="DB Table Creator"]
+	1872 [label="Java Snippet _simple_"]
+	1873 [label="DB Table Remover"]
+	1879 [label="CSV Reader"]
+	1880 [label=Partitioning]
+	1881 [label=GroupBy]
+	1882 [label=GroupBy]
+	1883 [label="DB Query"]
+	1884 [label="Table Row to Variable"]
+	1885 [label="Table Row to Variable"]
+	1886 [label="Merge Variables"]
+	1887 [label="DB Reader"]
+	1888 [label="String Manipulation"]
+	1889 [label="Table Writer"]
+	1890 [label="H2 Connector"]
+	1891 [label="DB Reader"]
+	1892 [label="DB Writer"]
+	1893 [label="DB Query"]
+	1894 [label="DB Table Creator"]
+	1895 [label="DB Table Remover"]
+	1896 [label="DB SQL Executor"]
+	1 -> 1873
+	71 -> 75
+	72 -> 71
+	75 -> 76
+	75 -> 1883
+	76 -> 1886
+	1871 -> 75
+	1871 -> 75
+	1871 -> 72
+	1872 -> 1871
+	1872 -> 1880
+	1872 -> 1894
+	1873 -> 1871
+	1879 -> 1872
+	1879 -> 1889
+	1880 -> 1881
+	1880 -> 1888
+	1881 -> 1884
+	1882 -> 1885
+	1883 -> 1887
+	1884 -> 1886
+	1885 -> 1886
+	1886 -> 1883
+	1886 -> 1893
+	1888 -> 1882
+	1890 -> 1895
+	1891 -> 1896
+	1892 -> 1893
+	1893 -> 1891
+	1894 -> 1892
+	1894 -> 1892
+	1894 -> 1896
+	1895 -> 1894
+	rankdir=LR
+}

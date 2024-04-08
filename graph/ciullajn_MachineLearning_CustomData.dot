@@ -1,0 +1,26 @@
+digraph {
+	1 [label="CSV Reader"]
+	11 [label="Missing Value"]
+	12 [label=Partitioning]
+	13 [label=Partitioning]
+	14 [label="Regression Predictor"]
+	15 [label="Linear Regression Learner"]
+	16 [label="Numeric Scorer"]
+	17 [label="Decision Tree Learner"]
+	18 [label="Decision Tree Predictor"]
+	19 [label="Scorer _JavaScript_"]
+	20 [label="ROC Curve"]
+	1 -> 11
+	1 -> 13
+	11 -> 12
+	12 -> 14
+	12 -> 15
+	13 -> 17
+	13 -> 18
+	14 -> 16
+	15 -> 14
+	17 -> 18
+	18 -> 19
+	18 -> 20
+	rankdir=LR
+}

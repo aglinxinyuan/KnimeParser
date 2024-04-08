@@ -1,0 +1,17 @@
+digraph {
+	8 [label="File Reader"]
+	9 [label="Row Filter"]
+	11 [label="String Configuration"]
+	12 [label="String Manipulation"]
+	13 [label="Table Creator"]
+	14 [label="Row Filter"]
+	15 [label="Table Column to Variable"]
+	8 -> 9
+	9 -> 12
+	11 -> 9
+	11 -> 14
+	13 -> 14
+	14 -> 15
+	15 -> 12
+	rankdir=LR
+}

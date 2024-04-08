@@ -1,0 +1,21 @@
+digraph {
+	6 [label="String Matcher"]
+	7 [label="String Distances"]
+	9 [label="Similarity Search"]
+	10 [label="String Manipulation"]
+	1 [label="Empty Table Creator"]
+	3 [label=Stresser]
+	4 [label=GroupBy]
+	5 [label="Random Label Assigner"]
+	1 -> 5
+	5 -> 4
+	5 -> 3
+	7 -> 9
+	10 -> 9
+	11 -> 10
+	11 -> 9
+	11 -> 7
+	11 -> 6
+	11 -> 6
+	rankdir=LR
+}

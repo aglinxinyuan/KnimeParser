@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Generic ECharts View"]
+	2 [label="Table Creator"]
+	3 [label="Generic ECharts View"]
+	5 [label="Generic ECharts View"]
+	10 [label="Generic ECharts View"]
+	11 [label="Generic ECharts View"]
+	2 -> 1
+	2 -> 3
+	2 -> 5
+	2 -> 10
+	2 -> 11
+	rankdir=LR
+}

@@ -1,0 +1,97 @@
+digraph {
+	48 [label="Empty Table Creator"]
+	49 [label="WrappedNode Input"]
+	50 [label="WrappedNode Output"]
+	65 [label="Variable to Table Column"]
+	67 [label="Text Output Widget"]
+	69 [label="String Widget"]
+	50 [label="Table View _JavaScript_"]
+	51 [label="WrappedNode Input"]
+	52 [label="WrappedNode Output"]
+	53 [label="Round Double"]
+	14 [label="String Manipulation"]
+	15 [label="GET Request"]
+	19 [label=Wait___]
+	23 [label="GET Request"]
+	24 [label="String Manipulation"]
+	25 [label="Column Filter"]
+	28 [label="Column Filter"]
+	30 [label="String Manipulation"]
+	31 [label="GET Request"]
+	32 [label="WrappedNode Input"]
+	33 [label="WrappedNode Output"]
+	35 [label="Column Rename _Regex_"]
+	38 [label="Column Filter"]
+	39 [label="Column Rename"]
+	40 [label="Row Filter"]
+	43 [label="String Manipulation"]
+	45 [label="String Manipulation"]
+	47 [label="String Manipulation"]
+	48 [label="Table Row to Variable"]
+	49 [label="Table Row to Variable"]
+	50 [label="Column Selection Widget"]
+	51 [label="Generic Loop Start"]
+	52 [label="Variable Condition Loop End"]
+	51 [label="Column Filter"]
+	35 [label=XPath]
+	36 [label=XPath]
+	37 [label=XPath]
+	38 [label=XPath]
+	39 [label=XPath]
+	40 [label=XPath]
+	41 [label="Column Filter"]
+	42 [label="WrappedNode Input"]
+	43 [label="WrappedNode Output"]
+	44 [label=XPath]
+	67 [label="String Manipulation"]
+	68 [label="Math Formula"]
+	48 -> 65
+	65 -> 50
+	51 -> 65
+	50 -> 52
+	51 -> 53
+	53 -> 50
+	14 -> 15
+	15 -> 43
+	19 -> 23
+	23 -> 47
+	24 -> 23
+	25 -> 48
+	25 -> 51
+	28 -> 49
+	28 -> 52
+	30 -> 31
+	31 -> 38
+	32 -> 35
+	32 -> 50
+	35 -> 14
+	38 -> 39
+	39 -> 33
+	40 -> 30
+	43 -> 45
+	45 -> 25
+	47 -> 28
+	48 -> 51
+	49 -> 52
+	50 -> 35
+	51 -> 24
+	51 -> 19
+	52 -> 40
+	35 -> 36
+	36 -> 37
+	37 -> 38
+	38 -> 39
+	39 -> 40
+	40 -> 44
+	41 -> 68
+	42 -> 35
+	44 -> 67
+	67 -> 41
+	68 -> 43
+	33 -> 52
+	52 -> 51
+	65 -> 33
+	65 -> 33
+	51 -> 68
+	rankdir=LR
+}

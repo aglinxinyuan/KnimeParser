@@ -1,0 +1,11 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Row Splitter"]
+	3 [label=Transpose]
+	5 [label="Insert Column Header"]
+	1 -> 2
+	2 -> 3
+	2 -> 5
+	3 -> 5
+	rankdir=LR
+}

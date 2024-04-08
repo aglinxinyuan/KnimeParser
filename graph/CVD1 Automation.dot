@@ -1,0 +1,74 @@
+digraph {
+	14 [label="Column Resorter"]
+	16 [label=Joiner]
+	25 [label=Concatenate]
+	26 [label="String Replacer"]
+	31 [label="Excel Reader"]
+	32 [label=Joiner]
+	33 [label="Column Merger"]
+	34 [label="Column Filter"]
+	38 [label="Duplicate Row Filter"]
+	39 [label="Rule_based Row Filter"]
+	42 [label="Excel Reader"]
+	47 [label=Joiner]
+	49 [label="Column Rename"]
+	50 [label="String Replacer"]
+	45 [label=RowID]
+	46 [label="Cell Splitter"]
+	1 [label="Excel Reader"]
+	9 [label="Excel Reader"]
+	10 [label="Column Filter"]
+	12 [label="Rule_based Row Filter"]
+	13 [label=Joiner]
+	53 [label="Python Script"]
+	54 [label=Sorter]
+	18 [label="Column Rename"]
+	19 [label="Constant Value Column"]
+	20 [label="Column Resorter"]
+	22 [label="Column Filter"]
+	55 [label=GroupBy]
+	60 [label="Date_Time_based Row Filter"]
+	61 [label="Table Column to Variable"]
+	62 [label="Row Filter"]
+	70 [label="Empty Table Switch"]
+	71 [label="CASE Switch Data _End_"]
+	72 [label="Constant Value Column"]
+	45 -> 46
+	1 -> 12
+	9 -> 10
+	10 -> 13
+	12 -> 13
+	18 -> 19
+	19 -> 20
+	20 -> 22
+	22 -> 60
+	55 -> 61
+	60 -> 62
+	61 -> 60
+	14 -> 16
+	14 -> 18
+	16 -> 70
+	25 -> 54
+	26 -> 25
+	31 -> 32
+	32 -> 33
+	33 -> 34
+	34 -> 49
+	38 -> 39
+	39 -> 14
+	42 -> 47
+	42 -> 18
+	42 -> 16
+	47 -> 26
+	49 -> 50
+	50 -> 25
+	46 -> 71
+	52 -> 38
+	54 -> 53
+	62 -> 32
+	70 -> 72
+	70 -> 45
+	71 -> 47
+	72 -> 71
+	rankdir=LR
+}

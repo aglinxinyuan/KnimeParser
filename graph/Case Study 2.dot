@@ -1,0 +1,24 @@
+digraph {
+	2 [label=Partitioning]
+	3 [label="Logistic Regression Learner"]
+	4 [label="Logistic Regression Predictor"]
+	5 [label=Normalizer]
+	6 [label="Decision Tree Learner"]
+	7 [label="CSV Reader"]
+	8 [label="Number to String"]
+	9 [label=Scorer]
+	10 [label="Decision Tree Predictor"]
+	11 [label=Scorer]
+	2 -> 3
+	2 -> 6
+	2 -> 4
+	2 -> 10
+	3 -> 4
+	4 -> 9
+	5 -> 8
+	6 -> 10
+	7 -> 5
+	8 -> 2
+	10 -> 11
+	rankdir=LR
+}

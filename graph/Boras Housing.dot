@@ -1,0 +1,33 @@
+digraph {
+	2 [label=Partitioning]
+	3 [label="Random Forest Learner _Regression_"]
+	4 [label="Random Forest Predictor _Regression_"]
+	5 [label="Numeric Scorer"]
+	6 [label="Column Filter"]
+	10 [label="Scatter Plot"]
+	11 [label="Linear Correlation"]
+	12 [label=Heatmap]
+	20 [label="Box Plot"]
+	22 [label="Numeric Scorer"]
+	23 [label="Row Filter"]
+	28 [label="Color Manager"]
+	29 [label="Scatter Plot"]
+	30 [label=k_Means]
+	31 [label="CSV Reader"]
+	2 -> 3
+	2 -> 4
+	3 -> 4
+	4 -> 5
+	6 -> 23
+	11 -> 12
+	23 -> 22
+	23 -> 2
+	28 -> 29
+	30 -> 28
+	31 -> 30
+	31 -> 20
+	31 -> 11
+	31 -> 10
+	31 -> 6
+	rankdir=LR
+}

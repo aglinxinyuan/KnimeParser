@@ -1,0 +1,44 @@
+digraph {
+	2 [label=ZipLoopStart]
+	6 [label=ZipLoopEnd]
+	290 [label=Histogram]
+	295 [label=FeatureFinderCentroided]
+	8 [label=ZipLoopStart]
+	9 [label="URI Port to Variable"]
+	285 [label="Loop End"]
+	286 [label="Numeric Binner"]
+	288 [label=Sorter]
+	291 [label="Value Counter"]
+	292 [label="Math Formula"]
+	293 [label="Line Reader"]
+	294 [label="Counter Generation"]
+	295 [label="Column Filter"]
+	296 [label=Sorter]
+	297 [label="Row Filter"]
+	298 [label="Row Filter"]
+	299 [label="Java Snippet"]
+	300 [label="Moving Aggregation"]
+	301 [label="Column Rename"]
+	299 [label="Input Files"]
+	8 -> 9
+	9 -> 293
+	285 -> 286
+	286 -> 288
+	288 -> 291
+	291 -> 292
+	292 -> 300
+	293 -> 294
+	294 -> 296
+	295 -> 8
+	296 -> 299
+	297 -> 285
+	301 -> 297
+	299 -> 295
+	300 -> 301
+	2 -> 295
+	6 -> 8
+	295 -> 6
+	301 -> 290
+	299 -> 2
+	rankdir=LR
+}

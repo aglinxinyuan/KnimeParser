@@ -1,0 +1,70 @@
+digraph {
+	105 [label="Table Reader"]
+	106 [label="Table Reader"]
+	107 [label="Table Reader"]
+	108 [label="Table Reader"]
+	109 [label="Table Reader"]
+	116 [label="Table Reader"]
+	117 [label="Table Reader"]
+	118 [label="Table Reader"]
+	135 [label="Data to Report"]
+	136 [label="Data to Report"]
+	137 [label="Data to Report"]
+	138 [label="Data to Report"]
+	139 [label="Data to Report"]
+	158 [label="Image to Report"]
+	122 [label="Variable to Table Row"]
+	125 [label="Variable to Table Row"]
+	126 [label="Variable to Table Row"]
+	129 [label="Cross Joiner"]
+	130 [label="Cross Joiner"]
+	131 [label="Cross Joiner"]
+	119 [label="Column Filter"]
+	123 [label="Column Resorter"]
+	124 [label=Sorter]
+	127 [label="Row Filter"]
+	128 [label="Column Filter"]
+	161 [label="Round Double"]
+	142 [label="Lag Column"]
+	143 [label="Math Formula"]
+	144 [label="Missing Value"]
+	151 [label="Rule Engine"]
+	152 [label=Pivoting]
+	153 [label="Column Rename"]
+	154 [label=Unpivoting]
+	155 [label=Sorter]
+	156 [label="R View _Table_"]
+	157 [label="Row Filter"]
+	122 -> 129
+	125 -> 130
+	126 -> 131
+	129 -> 130
+	130 -> 131
+	119 -> 123
+	123 -> 124
+	127 -> 128
+	128 -> 161
+	142 -> 144
+	143 -> 157
+	144 -> 143
+	151 -> 152
+	152 -> 153
+	153 -> 154
+	154 -> 155
+	155 -> 156
+	157 -> 151
+	105 -> 139
+	105 -> 142
+	106 -> 119
+	107 -> 129
+	108 -> 127
+	109 -> 138
+	116 -> 129
+	117 -> 129
+	118 -> 129
+	131 -> 136
+	124 -> 135
+	161 -> 137
+	156 -> 158
+	rankdir=LR
+}

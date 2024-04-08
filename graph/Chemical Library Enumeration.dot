@@ -1,0 +1,132 @@
+digraph {
+	17 [label="Image to Report"]
+	229 [label="Data to Report"]
+	234 [label="Molecule to RDKit"]
+	244 [label="Data to Report"]
+	255 [label="SDF Reader"]
+	23 [label="Java Edit Variable _simple_"]
+	31 [label="CASE Switch"]
+	34 [label="End _Model_ CASE"]
+	239 [label="Column Filter"]
+	247 [label="Column Rename"]
+	269 [label=Normalizer]
+	272 [label="Single Selection"]
+	276 [label="R View _Table_"]
+	277 [label="R View _Table_"]
+	9 [label="Column Filter"]
+	10 [label="TableRow To Variable"]
+	18 [label="Loop End"]
+	37 [label=Normalizer]
+	240 [label="Chunk Loop Start"]
+	241 [label="Image To Table"]
+	242 [label=Joiner]
+	248 [label="Column Rename"]
+	257 [label="GroupBy Bar Chart _JFreeChart_"]
+	258 [label="Color Manager"]
+	266 [label="Column Resorter"]
+	269 [label="Column Selection"]
+	235 [label="Row Sampling"]
+	236 [label="Column to Grid"]
+	103 [label="Column Rename"]
+	250 [label="Hydrogen Remover"]
+	251 [label="CDK to Molecule"]
+	252 [label="Molecule Properties"]
+	216 [label="Row Filter"]
+	217 [label="Row Filter"]
+	218 [label="Row Filter"]
+	219 [label="Row Filter"]
+	40 [label="Create Temp Dir"]
+	41 [label="SDF Writer"]
+	42 [label="File Download"]
+	252 [label="Molecule to CDK"]
+	253 [label=XLogP]
+	254 [label="Molecular Properties"]
+	263 [label=Joiner]
+	259 [label="Molecular Properties"]
+	262 [label="Column Filter"]
+	265 [label="Reference Column Filter"]
+	266 [label="Column Filter"]
+	2 [label="Molecule to RDKit"]
+	4 [label="RDKit Substructure Filter"]
+	5 [label="RDKit Substructure Filter"]
+	15 [label="RDKit To Molecule"]
+	184 [label="Row Filter"]
+	185 [label="Row Filter"]
+	187 [label="RDKit Generate Coords"]
+	220 [label="Column Filter"]
+	226 [label="Java Snippet _simple_"]
+	250 [label="Java Edit Variable _simple_"]
+	251 [label="Java Edit Variable _simple_"]
+	252 [label="RDKit Two Component Reaction"]
+	253 [label="Integer Input"]
+	254 [label="Integer Input"]
+	278 [label="File Upload"]
+	23 -> 31
+	31 -> 269
+	31 -> 252
+	239 -> 247
+	247 -> 31
+	269 -> 2
+	236 -> 23
+	263 -> 34
+	220 -> 34
+	9 -> 37
+	10 -> 257
+	18 -> 242
+	37 -> 248
+	240 -> 257
+	240 -> 10
+	241 -> 18
+	242 -> 266
+	248 -> 269
+	248 -> 258
+	257 -> 241
+	258 -> 240
+	269 -> 258
+	235 -> 236
+	250 -> 252
+	251 -> 250
+	252 -> 103
+	217 -> 219
+	218 -> 217
+	219 -> 216
+	40 -> 41
+	41 -> 42
+	259 -> 262
+	262 -> 266
+	262 -> 265
+	266 -> 265
+	252 -> 253
+	253 -> 254
+	253 -> 259
+	254 -> 263
+	265 -> 263
+	2 -> 4
+	2 -> 5
+	4 -> 184
+	5 -> 185
+	15 -> 226
+	184 -> 252
+	185 -> 252
+	187 -> 15
+	226 -> 220
+	250 -> 184
+	251 -> 185
+	252 -> 187
+	253 -> 250
+	254 -> 251
+	234 -> 239
+	234 -> 9
+	234 -> 235
+	255 -> 2
+	34 -> 17
+	266 -> 244
+	236 -> 229
+	103 -> 275
+	103 -> 234
+	216 -> 251
+	263 -> 218
+	220 -> 252
+	278 -> 255
+	rankdir=LR
+}

@@ -1,0 +1,15 @@
+digraph {
+	1 [label="Table Creator"]
+	9 [label="String Input"]
+	10 [label="Constant Value Column"]
+	11 [label="Constant Value Column"]
+	12 [label="End IF"]
+	13 [label="Java IF _Table_"]
+	1 -> 13
+	9 -> 13
+	10 -> 12
+	11 -> 12
+	13 -> 11
+	13 -> 10
+	rankdir=LR
+}

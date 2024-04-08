@@ -1,0 +1,98 @@
+digraph {
+	41 [label="String to Date_Time"]
+	67 [label="Rule Engine"]
+	71 [label="Rule Engine"]
+	89 [label="Math Formula"]
+	98 [label="Modify Time Zone"]
+	104 [label="Group Loop Start"]
+	106 [label="String to Duration"]
+	107 [label="Modify Time Zone"]
+	108 [label="CSV Reader"]
+	110 [label=Joiner]
+	111 [label="Extract Date_Time Fields"]
+	112 [label="Loop End"]
+	104 [label=Auto_Binner]
+	105 [label="Missing Value"]
+	109 [label="Rule Engine"]
+	110 [label="Rule Engine"]
+	111 [label="Rule Engine"]
+	112 [label="Rule Engine"]
+	106 [label="String Manipulation"]
+	107 [label="String Manipulation"]
+	108 [label="String Manipulation"]
+	109 [label="String Manipulation"]
+	110 [label="String Manipulation"]
+	111 [label="String Manipulation"]
+	112 [label="String Manipulation"]
+	113 [label="String Manipulation"]
+	114 [label="String Manipulation"]
+	115 [label="String Manipulation"]
+	116 [label="String Manipulation"]
+	116 [label="Math Formula"]
+	117 [label="Rule Engine"]
+	125 [label="JavaScript Bar Chart"]
+	140 [label="JavaScript Sunburst Chart"]
+	132 [label="Math Formula"]
+	134 [label=Sorter]
+	135 [label=GroupBy]
+	136 [label="Column Rename"]
+	114 [label="Column Resorter"]
+	141 [label="Rule_based Row Filter"]
+	142 [label="Column Filter"]
+	166 [label="DB Table Selector"]
+	167 [label="DB Reader"]
+	168 [label="SQLite Connector"]
+	169 [label="DB Reader"]
+	170 [label="DB Table Selector"]
+	173 [label=Joiner]
+	174 [label="Google Authentication _API Key_"]
+	175 [label="Google BigQuery Connector"]
+	71 -> 67
+	89 -> 105
+	98 -> 107
+	104 -> 98
+	106 -> 105
+	107 -> 112
+	108 -> 106
+	112 -> 104
+	111 -> 71
+	112 -> 111
+	109 -> 105
+	112 -> 111
+	111 -> 112
+	106 -> 109
+	107 -> 108
+	108 -> 109
+	109 -> 105
+	112 -> 111
+	111 -> 112
+	112 -> 113
+	112 -> 106
+	113 -> 116
+	116 -> 107
+	104 -> 116
+	105 -> 104
+	113 -> 109
+	116 -> 117
+	117 -> 106
+	132 -> 134
+	134 -> 136
+	135 -> 132
+	141 -> 142
+	142 -> 109
+	41 -> 173
+	67 -> 105
+	67 -> 135
+	112 -> 141
+	136 -> 125
+	112 -> 140
+	166 -> 167
+	167 -> 173
+	168 -> 170
+	169 -> 41
+	170 -> 169
+	173 -> 89
+	174 -> 175
+	175 -> 166
+	rankdir=LR
+}

@@ -1,0 +1,43 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	8 [label="ROC Curve _local_"]
+	22 [label="Naive Bayes Learner"]
+	23 [label="Naive Bayes Predictor"]
+	27 [label=Scorer]
+	1 -> 2
+	2 -> 22
+	2 -> 23
+	22 -> 23
+	23 -> 27
+	23 -> 8
+	rankdir=LR
+}
+	36 -> 38
+	37 -> 32
+	rankdir=LR
+}
+
+	75 [label="Value Selection Widget"]
+	77 [label="Value Selection Widget"]
+	78 [label="CASE Switch Start"]
+	79 [label="CASE Switch End"]
+	25 -> 61
+	25 -> 75
+	25 -> 77
+	61 -> 78
+	64 -> 70
+	65 -> 71
+	67 -> 72
+	70 -> 79
+	71 -> 79
+	72 -> 79
+	74 -> 78
+	75 -> 74
+	77 -> 61
+	78 -> 67
+	78 -> 64
+	78 -> 65
+	79 -> 69
+	rankdir=LR
+}

@@ -1,0 +1,26 @@
+digraph {
+	2 [label="Path to String"]
+	5 [label="Image Reader _Table_"]
+	9 [label="Connected Component Analysis"]
+	39 [label="List Files_Folders"]
+	40 [label="Global Thresholder"]
+	41 [label="Gaussian Convolution"]
+	42 [label="Fill Holes"]
+	43 [label="Don_t Save Start"]
+	44 [label="Don_t Save End"]
+	45 [label=Splitter]
+	46 [label="Segment Features"]
+	47 [label=GroupBy]
+	2 -> 43
+	5 -> 45
+	9 -> 44
+	39 -> 2
+	40 -> 42
+	41 -> 40
+	42 -> 9
+	43 -> 5
+	44 -> 46
+	45 -> 41
+	46 -> 47
+	rankdir=LR
+}

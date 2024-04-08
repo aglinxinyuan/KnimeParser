@@ -1,0 +1,148 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label="CSV Reader"]
+	5 [label="CSV Reader"]
+	6 [label="CSV Reader"]
+	7 [label="Missing Value"]
+	10 [label="String to Date_Time"]
+	11 [label="Duplicate Row Filter"]
+	12 [label="String to Date_Time"]
+	13 [label="String Manipulation"]
+	14 [label="String Manipulation"]
+	15 [label="String Manipulation"]
+	19 [label="String to Number"]
+	20 [label="Missing Value"]
+	29 [label="CSV Reader"]
+	30 [label="Excel Reader"]
+	33 [label="Missing Value"]
+	34 [label="PostgreSQL Connector"]
+	35 [label="DB Writer"]
+	37 [label="DB Writer"]
+	38 [label="DB Writer"]
+	39 [label="DB Writer"]
+	40 [label="DB Writer"]
+	41 [label="DB Writer"]
+	42 [label="DB Writer"]
+	43 [label="DB Writer"]
+	45 [label="Math Formula"]
+	47 [label="DB Joiner"]
+	48 [label="DB Table Selector"]
+	49 [label="PostgreSQL Connector"]
+	50 [label="DB Table Selector"]
+	51 [label="DB Connection Table Writer"]
+	53 [label="DB Table Selector"]
+	55 [label="DB Table Selector"]
+	56 [label="DB Table Selector"]
+	60 [label="DB Table Selector"]
+	61 [label="DB Joiner"]
+	62 [label="DB Table Selector"]
+	64 [label="String to Date_Time"]
+	67 [label="PostgreSQL Connector"]
+	72 [label="Column Filter"]
+	73 [label="DB Joiner"]
+	75 [label="DB Table Selector"]
+	76 [label="DB Joiner"]
+	77 [label="DB Joiner"]
+	78 [label="DB Joiner"]
+	79 [label="DB Table Selector"]
+	80 [label="DB Joiner"]
+	81 [label="DB Joiner"]
+	82 [label="DB Joiner"]
+	83 [label="DB Connection Table Writer"]
+	84 [label="PostgreSQL Connector"]
+	85 [label="DB Table Selector"]
+	88 [label="DB Query"]
+	89 [label="DB Reader"]
+	101 [label="DB Query"]
+	103 [label="DB Reader"]
+	104 [label="DB Query"]
+	105 [label="DB Reader"]
+	106 [label="Color Manager"]
+	107 [label="Scatter Plot"]
+	108 [label="DB Query"]
+	109 [label="DB Query"]
+	110 [label="DB Reader"]
+	111 [label="DB Reader"]
+	112 [label="Table Editor _JavaScript_"]
+	113 [label="Table Editor _JavaScript_"]
+	114 [label="Table Editor _JavaScript_"]
+	115 [label="Table Editor _JavaScript_"]
+	1 -> 37
+	2 -> 38
+	3 -> 19
+	4 -> 7
+	5 -> 13
+	6 -> 11
+	7 -> 45
+	10 -> 39
+	11 -> 42
+	12 -> 41
+	13 -> 14
+	14 -> 15
+	15 -> 12
+	19 -> 20
+	20 -> 10
+	29 -> 64
+	30 -> 33
+	33 -> 35
+	34 -> 35
+	34 -> 38
+	34 -> 39
+	34 -> 37
+	34 -> 42
+	34 -> 43
+	34 -> 40
+	34 -> 41
+	45 -> 40
+	47 -> 51
+	48 -> 47
+	49 -> 53
+	49 -> 55
+	49 -> 56
+	49 -> 60
+	49 -> 62
+	49 -> 75
+	49 -> 79
+	50 -> 47
+	53 -> 73
+	55 -> 61
+	56 -> 76
+	60 -> 77
+	61 -> 78
+	62 -> 78
+	64 -> 72
+	67 -> 50
+	67 -> 48
+	72 -> 43
+	73 -> 76
+	75 -> 73
+	76 -> 77
+	77 -> 61
+	78 -> 80
+	79 -> 82
+	79 -> 81
+	79 -> 80
+	80 -> 81
+	81 -> 82
+	82 -> 83
+	84 -> 85
+	85 -> 88
+	85 -> 101
+	85 -> 109
+	85 -> 108
+	85 -> 104
+	88 -> 89
+	89 -> 106
+	101 -> 103
+	103 -> 112
+	104 -> 105
+	105 -> 113
+	106 -> 107
+	108 -> 110
+	109 -> 111
+	110 -> 114
+	111 -> 115
+	rankdir=LR
+}

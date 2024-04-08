@@ -1,0 +1,18 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	10 [label="Extract Context Properties"]
+	21 [label="Java Edit Variable"]
+	24 [label="Python Script _1_1_"]
+	25 [label="Variable to Table Row"]
+	26 [label="List Files"]
+	27 [label="Delete Files"]
+	28 [label="String to URI"]
+	10 -> 21
+	21 -> 25
+	24 -> 1
+	25 -> 24
+	26 -> 28
+	27 -> 25
+	28 -> 27
+	rankdir=LR
+}

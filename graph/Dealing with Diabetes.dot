@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Number To String"]
+	3 [label=Partitioning]
+	6 [label=SMOTE]
+	7 [label="Random Forest Learner"]
+	8 [label="Random Forest Predictor"]
+	9 [label=Scorer]
+	12 [label="Gradient Boosted Trees Learner"]
+	13 [label="Gradient Boosted Trees Predictor"]
+	14 [label=Scorer]
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	3 -> 8
+	3 -> 13
+	6 -> 7
+	6 -> 12
+	7 -> 8
+	8 -> 9
+	12 -> 13
+	13 -> 14
+	rankdir=LR
+}

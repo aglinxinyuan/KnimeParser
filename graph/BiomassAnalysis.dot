@@ -1,0 +1,91 @@
+digraph {
+	516 [label="Gradient Boosted Trees Predictor _Regression_"]
+	517 [label=X_Aggregator]
+	519 [label="Numeric Scorer"]
+	521 [label=X_Partitioner]
+	522 [label="Gradient Boosted Trees Predictor _Regression_"]
+	523 [label="Parameter Optimization Loop End"]
+	524 [label=Shuffle]
+	526 [label=Partitioning]
+	528 [label="Numeric Scorer"]
+	530 [label="Gradient Boosted Trees Learner _Regression_"]
+	531 [label="Parameter Optimization Loop Start"]
+	532 [label="Gradient Boosted Trees Learner _Regression_"]
+	533 [label="Excel Reader"]
+	507 [label="Column Filter"]
+	508 [label="Java Snippet"]
+	510 [label="Java Snippet"]
+	511 [label="Column Filter"]
+	512 [label="Missing Value"]
+	513 [label="Row Filter"]
+	537 [label=Statistics]
+	538 [label=GroupBy]
+	539 [label="Math Formula"]
+	540 [label="Column Appender"]
+	541 [label=RowID]
+	542 [label="String Manipulation"]
+	543 [label="Column Renamer"]
+	544 [label="Column Resorter"]
+	546 [label="Missing Value"]
+	547 [label="Column Filter"]
+	549 [label="Gradient Boosted Trees Predictor _Regression_"]
+	550 [label="Gradient Boosted Trees Learner _Regression_"]
+	551 [label=Shuffle]
+	553 [label="Excel Reader"]
+	556 [label="Excel Reader"]
+	558 [label="CSV Writer"]
+	559 [label="Reference Column Filter"]
+	507 [label="Column Filter"]
+	508 [label="Java Snippet"]
+	510 [label="Java Snippet"]
+	511 [label="Column Filter"]
+	512 [label="Missing Value"]
+	513 [label="Row Filter"]
+	562 [label="Java Snippet"]
+	507 -> 510
+	510 -> 513
+	511 -> 512
+	512 -> 508
+	513 -> 511
+	538 -> 542
+	539 -> 538
+	540 -> 544
+	541 -> 540
+	542 -> 543
+	543 -> 541
+	507 -> 510
+	510 -> 513
+	511 -> 512
+	512 -> 508
+	513 -> 511
+	516 -> 517
+	517 -> 519
+	517 -> 539
+	517 -> 539
+	519 -> 523
+	521 -> 516
+	521 -> 532
+	522 -> 528
+	524 -> 507
+	526 -> 522
+	526 -> 521
+	526 -> 530
+	530 -> 522
+	531 -> 521
+	532 -> 516
+	533 -> 537
+	533 -> 524
+	508 -> 526
+	546 -> 562
+	547 -> 558
+	549 -> 547
+	550 -> 549
+	551 -> 507
+	553 -> 551
+	556 -> 559
+	559 -> 546
+	508 -> 550
+	508 -> 559
+	562 -> 549
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Math Formula"]
+	3 [label=Statistics]
+	4 [label="Rule Engine"]
+	5 [label="Row Filter"]
+	6 [label=Statistics]
+	7 [label="Row Filter"]
+	8 [label="Pie_Donut Chart"]
+	1 -> 2
+	2 -> 4
+	4 -> 5
+	4 -> 7
+	4 -> 8
+	5 -> 3
+	7 -> 6
+	rankdir=LR
+}

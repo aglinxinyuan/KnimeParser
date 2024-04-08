@@ -1,0 +1,39 @@
+digraph {
+	1 [label="CSV Reader"]
+	17 [label="Random Forest Learner"]
+	18 [label="Random Forest Predictor"]
+	19 [label="Scorer _JavaScript_"]
+	294 [label=Partitioning]
+	316 [label="Normalizer _PMML_"]
+	322 [label="Logistic Regression Predictor"]
+	323 [label=SMOTE]
+	334 [label="Column Filter"]
+	335 [label=SMOTE]
+	338 [label="Logistic Regression Learner"]
+	339 [label="Gradient Boosted Trees Learner"]
+	340 [label="Gradient Boosted Trees Predictor"]
+	341 [label="Number To String"]
+	343 [label=Partitioning]
+	344 [label="Scorer _JavaScript_"]
+	345 [label="Scorer _JavaScript_"]
+	1 -> 341
+	17 -> 18
+	18 -> 19
+	294 -> 322
+	294 -> 338
+	316 -> 294
+	322 -> 345
+	323 -> 335
+	334 -> 323
+	335 -> 316
+	335 -> 343
+	338 -> 322
+	339 -> 340
+	340 -> 344
+	341 -> 334
+	343 -> 340
+	343 -> 339
+	343 -> 18
+	343 -> 17
+	rankdir=LR
+}

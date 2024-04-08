@@ -1,0 +1,9 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label=Joiner]
+	3 [label=Scorer]
+	1 -> 2
+	1 -> 2
+	2 -> 3
+	rankdir=LR
+}

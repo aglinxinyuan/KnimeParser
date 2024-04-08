@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	4 [label="CSV Reader"]
+	5 [label="SQLite Connector"]
+	7 [label="DB Reader"]
+	8 [label="DB Table Selector"]
+	5 -> 8
+	8 -> 7
+	rankdir=LR
+}

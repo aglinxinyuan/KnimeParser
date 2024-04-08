@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Excel Reader _XLS_"]
+	3 [label="Insert Column Header"]
+	4 [label="Extract Column Header"]
+	5 [label="Java Snippet _simple_"]
+	6 [label="Excel Sheet Appender _XLS_"]
+	1 -> 4
+	2 -> 5
+	3 -> 6
+	4 -> 3
+	5 -> 3
+	rankdir=LR
+}

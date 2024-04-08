@@ -1,0 +1,18 @@
+digraph {
+	2 [label="Counting Loop Start"]
+	23 [label="Data Generator"]
+	26 [label="Color Manager"]
+	32 [label="JavaScript Scatter Plot"]
+	33 [label="JavaScript Scatter Plot"]
+	35 [label="Loop End _Column Append_"]
+	36 [label="CSV Writer"]
+	37 [label="Math Formula"]
+	2 -> 37
+	23 -> 26
+	26 -> 2
+	26 -> 32
+	35 -> 33
+	35 -> 36
+	37 -> 35
+	rankdir=LR
+}

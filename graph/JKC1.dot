@@ -1,0 +1,20 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Date_Time to String"]
+	2023 [label="Create File_Folder Variables"]
+	2037 [label="CSV Writer"]
+	2047 [label="Table Row to Variable"]
+	2048 [label="Group Loop Start"]
+	2049 [label="Variable Loop End"]
+	1 -> 2
+	2 -> 3
+	3 -> 2048
+	2023 -> 2037
+	2037 -> 2049
+	2047 -> 2023
+	2048 -> 2049
+	2048 -> 2037
+	2048 -> 2047
+	rankdir=LR
+}

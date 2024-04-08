@@ -1,0 +1,32 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Cell Splitter"]
+	5 [label="Column Rename"]
+	6 [label=GroupBy]
+	7 [label="Similarity Search"]
+	8 [label="Numeric Row Splitter"]
+	9 [label="Math Formula"]
+	11 [label="Table Row to Variable"]
+	12 [label=Joiner]
+	13 [label="Column Rename"]
+	14 [label=Joiner]
+	15 [label="Rule Engine"]
+	16 [label="Math Formula"]
+	1 -> 2
+	2 -> 5
+	5 -> 6
+	5 -> 14
+	6 -> 8
+	6 -> 7
+	6 -> 12
+	6 -> 9
+	7 -> 12
+	8 -> 7
+	9 -> 11
+	11 -> 8
+	12 -> 13
+	13 -> 16
+	15 -> 14
+	16 -> 15
+	rankdir=LR
+}

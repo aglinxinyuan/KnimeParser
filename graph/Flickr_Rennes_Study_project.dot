@@ -1,0 +1,20 @@
+digraph {
+	2 [label=GroupBy]
+	3 [label="Geo_Coordinate Row Filter"]
+	5 [label="OSM Map View"]
+	6 [label=k_Means]
+	7 [label="Color Manager"]
+	8 [label="OSM Map View"]
+	9 [label="CSV Reader"]
+	11 [label="Hierarchical Clustering"]
+	12 [label="Strings To Document"]
+	2 -> 3
+	2 -> 6
+	2 -> 11
+	3 -> 5
+	3 -> 5
+	6 -> 7
+	7 -> 8
+	9 -> 2
+	rankdir=LR
+}

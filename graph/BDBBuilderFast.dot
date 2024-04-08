@@ -1,0 +1,28 @@
+digraph {
+	579 [label="Table Writer"]
+	583 [label="Column Filter"]
+	606 [label="Molecule Type Cast"]
+	611 [label="RDKit From Molecule"]
+	615 [label="RDKit Fingerprint"]
+	854 [label="Rule Engine"]
+	855 [label="Row Filter"]
+	857 [label="String To Number"]
+	885 [label="CSV Reader"]
+	887 [label="Missing Value"]
+	888 [label="RDKit Salt Stripper"]
+	889 [label="Parallel Chunk End"]
+	890 [label="Parallel Chunk Start"]
+	583 -> 890
+	606 -> 611
+	611 -> 888
+	615 -> 887
+	854 -> 855
+	855 -> 857
+	857 -> 606
+	885 -> 583
+	887 -> 889
+	888 -> 615
+	889 -> 579
+	890 -> 854
+	rankdir=LR
+}

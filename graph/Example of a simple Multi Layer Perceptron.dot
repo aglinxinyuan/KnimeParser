@@ -1,0 +1,30 @@
+digraph {
+	10 [label=Scorer]
+	20 [label="JavaScript Scatter Plot"]
+	1 [label="File Reader"]
+	8 [label="Number To String"]
+	12 [label="Column Rename"]
+	13 [label="Color Manager"]
+	2 [label="File Reader"]
+	11 [label="Number To String"]
+	13 [label="Column Rename"]
+	26 [label="DL4J Feedforward Learner _Classification_"]
+	1 [label="DL4J Feedforward Predictor _Classification_"]
+	26 [label="Dense Layer"]
+	27 [label="DL4J Model Initializer"]
+	29 [label="Dense Layer"]
+	1 -> 8
+	8 -> 12
+	12 -> 13
+	2 -> 11
+	11 -> 13
+	26 -> 29
+	27 -> 26
+	21 -> 20
+	21 -> 26
+	22 -> 1
+	26 -> 1
+	1 -> 10
+	32 -> 26
+	rankdir=LR
+}

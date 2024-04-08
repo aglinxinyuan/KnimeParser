@@ -1,0 +1,39 @@
+digraph {
+	48 [label="Column Expressions"]
+	49 [label="Group Loop Start"]
+	51 [label=Sorter]
+	55 [label="Column Expressions"]
+	57 [label="Loop End"]
+	59 [label="Counter Generation"]
+	60 [label="Column Filter"]
+	61 [label="Table Creator"]
+	63 [label="Column Expressions"]
+	65 [label="One Row to Many"]
+	66 [label="Column Expressions"]
+	67 [label="Group Loop Start"]
+	68 [label="Loop End"]
+	69 [label="Counter Generation"]
+	70 [label="Column Filter"]
+	71 [label=Rank]
+	72 [label="Column Expressions"]
+	73 [label="Column Filter"]
+	74 [label="Table Creator"]
+	48 -> 51
+	49 -> 59
+	51 -> 49
+	55 -> 57
+	57 -> 60
+	59 -> 55
+	61 -> 48
+	63 -> 65
+	65 -> 67
+	65 -> 71
+	66 -> 68
+	67 -> 69
+	68 -> 70
+	69 -> 66
+	71 -> 72
+	72 -> 73
+	74 -> 63
+	rankdir=LR
+}

@@ -1,0 +1,15 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	3 [label="Column Aggregator"]
+	4 [label="String to Number"]
+	5 [label="String Replacer"]
+	7 [label="String Replacer"]
+	8 [label=GroupBy]
+	1 -> 5
+	2 -> 8
+	4 -> 2
+	5 -> 7
+	7 -> 4
+	rankdir=LR
+}

@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Customer Distributions"]
+	3 [label="Customer Distributions"]
+	5 [label="Table Creator"]
+	8 [label="Loop End"]
+	9 [label="Line Chart _JFreeChart_"]
+	10 [label="Price War"]
+	11 [label="Row Filter"]
+	12 [label="Column Filter"]
+	13 [label="Math Formula"]
+	14 [label=DBSCAN]
+	15 [label="Numeric Distances"]
+	16 [label=GroupBy]
+	18 [label="Line Chart _JFreeChart_"]
+	19 [label="Column Appender"]
+	20 [label="Table Row To Variable Loop Start"]
+	1 -> 20
+	3 -> 10
+	3 -> 10
+	3 -> 15
+	3 -> 14
+	5 -> 3
+	8 -> 9
+	8 -> 18
+	10 -> 12
+	11 -> 13
+	12 -> 11
+	13 -> 19
+	14 -> 16
+	15 -> 14
+	16 -> 19
+	19 -> 8
+	20 -> 3
+	rankdir=LR
+}

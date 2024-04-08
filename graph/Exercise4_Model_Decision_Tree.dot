@@ -1,0 +1,51 @@
+digraph {
+	63 [label=Partitioning]
+	64 [label="Decision Tree Learner"]
+	65 [label="Decision Tree Predictor"]
+	68 [label="ROC Curve"]
+	69 [label="Scorer _JavaScript_"]
+	70 [label="CSV Reader"]
+	71 [label="CSV Reader"]
+	72 [label="CSV Reader"]
+	73 [label="CSV Reader"]
+	74 [label="ROC Curve"]
+	75 [label=Partitioning]
+	76 [label="Decision Tree Predictor"]
+	77 [label="Scorer _JavaScript_"]
+	78 [label="Decision Tree Learner"]
+	79 [label="Decision Tree Learner"]
+	80 [label=Partitioning]
+	81 [label="Scorer _JavaScript_"]
+	82 [label="ROC Curve"]
+	83 [label="Decision Tree Predictor"]
+	84 [label="Scorer _JavaScript_"]
+	85 [label="Decision Tree Predictor"]
+	86 [label="ROC Curve"]
+	87 [label=Partitioning]
+	88 [label="Decision Tree Learner"]
+	63 -> 65
+	63 -> 64
+	64 -> 65
+	65 -> 68
+	65 -> 69
+	70 -> 63
+	71 -> 75
+	72 -> 80
+	73 -> 87
+	75 -> 76
+	75 -> 78
+	76 -> 77
+	76 -> 74
+	78 -> 76
+	79 -> 83
+	80 -> 79
+	80 -> 83
+	83 -> 81
+	83 -> 82
+	85 -> 86
+	85 -> 84
+	87 -> 85
+	87 -> 88
+	88 -> 85
+	rankdir=LR
+}

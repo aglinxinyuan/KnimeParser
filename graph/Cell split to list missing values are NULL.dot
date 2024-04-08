@@ -1,0 +1,74 @@
+digraph {
+	11 [label="Table Creator"]
+	12 [label="Create Collection Column"]
+	13 [label=GroupBy]
+	14 [label="Collection to String"]
+	15 [label="Cell Splitter"]
+	17 [label="String Replacer"]
+	19 [label="String Replacer"]
+	21 [label="Rule Engine"]
+	22 [label="String Replacer"]
+	23 [label="Column Resorter"]
+	24 [label=RowID]
+	25 [label="Collection to String"]
+	26 [label=RowID]
+	27 [label="String Replacer"]
+	28 [label=Ungroup]
+	29 [label="String Replacer"]
+	30 [label="String Replacer"]
+	31 [label="Cell Splitter"]
+	32 [label=Transpose]
+	33 [label=Transpose]
+	34 [label="String Replacer"]
+	42 [label=RowID]
+	43 [label="String Replacer"]
+	44 [label="Cell Splitter"]
+	46 [label="Collection to String"]
+	47 [label=GroupBy]
+	48 [label=Transpose]
+	49 [label=RowID]
+	50 [label="Cell Splitter"]
+	51 [label=Ungroup]
+	52 [label="Rule Engine"]
+	53 [label=GroupBy]
+	54 [label=RowID]
+	55 [label=Transpose]
+	56 [label=Ungroup]
+	57 [label=RowID]
+	11 -> 21
+	12 -> 14
+	13 -> 25
+	14 -> 17
+	15 -> 24
+	17 -> 19
+	17 -> 22
+	19 -> 43
+	21 -> 23
+	22 -> 15
+	23 -> 12
+	23 -> 13
+	23 -> 47
+	25 -> 32
+	27 -> 34
+	28 -> 26
+	29 -> 31
+	30 -> 27
+	30 -> 29
+	31 -> 33
+	32 -> 30
+	33 -> 28
+	43 -> 44
+	44 -> 42
+	46 -> 48
+	47 -> 46
+	48 -> 49
+	49 -> 50
+	50 -> 51
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 55
+	55 -> 56
+	56 -> 57
+	rankdir=LR
+}

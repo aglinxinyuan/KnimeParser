@@ -1,0 +1,27 @@
+digraph {
+	1 [label="Box Authenticator"]
+	2 [label="Box Connector"]
+	3 [label="Credentials Configuration"]
+	5 [label="CSV Writer"]
+	6 [label="Table Writer"]
+	7 [label="Excel Writer"]
+	8 [label="Create Folder"]
+	9 [label="CSV Reader"]
+	26 [label="String To Number"]
+	39 [label="Row Filter"]
+	40 [label="Column Resorter"]
+	26 -> 40
+	39 -> 26
+	1 -> 2
+	2 -> 6
+	2 -> 7
+	2 -> 5
+	2 -> 8
+	3 -> 1
+	8 -> 6
+	9 -> 39
+	40 -> 5
+	40 -> 7
+	40 -> 6
+	rankdir=LR
+}

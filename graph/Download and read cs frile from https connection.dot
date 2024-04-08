@@ -1,0 +1,10 @@
+digraph {
+	1 [label=Download]
+	2 [label="HTTPS Connection"]
+	3 [label="Table Row to Variable"]
+	4 [label="CSV Reader"]
+	1 -> 3
+	2 -> 1
+	3 -> 4
+	rankdir=LR
+}

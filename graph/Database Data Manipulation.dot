@@ -1,0 +1,16 @@
+digraph {
+	40 [label="SQLite Connector"]
+	42 [label="DB GroupBy"]
+	43 [label="DB Joiner"]
+	44 [label="DB Row Filter"]
+	45 [label="DB Reader"]
+	47 [label="DB Writer"]
+	48 [label="File Reader"]
+	40 -> 47
+	42 -> 43
+	43 -> 44
+	44 -> 45
+	47 -> 42
+	48 -> 47
+	rankdir=LR
+}

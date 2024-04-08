@@ -1,0 +1,19 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Row Splitter"]
+	3 [label="Table Row to Variable"]
+	4 [label="Math Formula _Multi Column_"]
+	5 [label="Column List Loop Start"]
+	6 [label="Column Rename _Regex_"]
+	7 [label="Loop End _Column Append_"]
+	8 [label="Column Filter"]
+	1 -> 5
+	2 -> 4
+	2 -> 6
+	3 -> 4
+	4 -> 7
+	5 -> 2
+	6 -> 3
+	7 -> 8
+	rankdir=LR
+}

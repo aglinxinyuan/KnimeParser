@@ -1,0 +1,60 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	4 [label="Extract Column Header"]
+	5 [label="Extract Column Header"]
+	8 [label="Missing Value"]
+	18 [label="Missing Value"]
+	19 [label=Transpose]
+	20 [label=Transpose]
+	23 [label="Moving Aggregation"]
+	24 [label=Transpose]
+	25 [label=Transpose]
+	26 [label="Moving Aggregation"]
+	27 [label="Math Formula _Multi Column_"]
+	28 [label=Concatenate]
+	31 [label=GroupBy]
+	33 [label="Math Formula"]
+	35 [label="Math Formula"]
+	36 [label="Insert Column Header"]
+	37 [label=Transpose]
+	38 [label="Extract Column Header"]
+	39 [label=Transpose]
+	40 [label="Column Appender"]
+	41 [label="Column Splitter"]
+	42 [label="Reference Column Splitter"]
+	43 [label="Column Filter"]
+	44 [label="Column Appender"]
+	45 [label="Interactive Table _local_"]
+	1 -> 4
+	2 -> 5
+	4 -> 37
+	4 -> 41
+	5 -> 42
+	8 -> 20
+	18 -> 19
+	19 -> 26
+	20 -> 23
+	23 -> 24
+	24 -> 33
+	25 -> 27
+	26 -> 25
+	27 -> 35
+	28 -> 31
+	31 -> 43
+	33 -> 28
+	35 -> 28
+	36 -> 45
+	37 -> 40
+	38 -> 39
+	39 -> 40
+	40 -> 36
+	41 -> 42
+	41 -> 44
+	41 -> 8
+	42 -> 18
+	43 -> 44
+	44 -> 36
+	44 -> 38
+	rankdir=LR
+}

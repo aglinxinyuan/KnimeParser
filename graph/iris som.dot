@@ -1,0 +1,35 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Column Filter"]
+	3 [label="SelfOrganizingMap _3_7_"]
+	4 [label="Parameter Optimization Loop Start"]
+	5 [label="Parameter Optimization Loop End"]
+	7 [label="Column Filter"]
+	9 [label="Column Filter"]
+	10 [label="Column Rename"]
+	26 [label="Math Formula"]
+	27 [label=Statistics]
+	30 [label="Java Snippet"]
+	36 [label="Weka Cluster Assigner _3_7_"]
+	37 [label=GroupBy]
+	38 [label=Joiner]
+	39 [label="Table Row to Variable"]
+	7 -> 27
+	9 -> 10
+	26 -> 9
+	27 -> 26
+	30 -> 7
+	1 -> 2
+	1 -> 36
+	2 -> 4
+	2 -> 3
+	3 -> 36
+	4 -> 3
+	10 -> 39
+	36 -> 37
+	36 -> 38
+	37 -> 38
+	38 -> 30
+	39 -> 5
+	rankdir=LR
+}

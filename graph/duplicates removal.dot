@@ -1,0 +1,28 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Group Loop Start"]
+	3 [label="Loop End"]
+	4 [label="Row Splitter"]
+	5 [label=RowID]
+	6 [label=RowID]
+	7 [label=Joiner]
+	8 [label=Concatenate]
+	9 [label=Sorter]
+	11 [label="Math Formula"]
+	12 [label="Column Expressions"]
+	13 [label=Sorter]
+	1 -> 11
+	2 -> 13
+	3 -> 9
+	4 -> 5
+	4 -> 6
+	5 -> 7
+	6 -> 7
+	7 -> 8
+	7 -> 8
+	8 -> 3
+	11 -> 2
+	11 -> 12
+	13 -> 4
+	rankdir=LR
+}

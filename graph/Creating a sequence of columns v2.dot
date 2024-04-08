@@ -1,0 +1,44 @@
+digraph {
+	2 [label="Chunk Loop Start"]
+	3 [label="Column Splitter"]
+	4 [label="Insert Column Header"]
+	5 [label="Column Expressions"]
+	6 [label="Loop End _Column Append_"]
+	7 [label=RowID]
+	8 [label="Table Creator"]
+	10 [label=Joiner]
+	11 [label="Table Creator"]
+	12 [label=Concatenate]
+	13 [label=GroupBy]
+	14 [label="Column Rename"]
+	16 [label="Table Row to Variable"]
+	17 [label="Variable Expressions"]
+	18 [label="Missing Value"]
+	19 [label="Empty Table Creator"]
+	20 [label="Table Creator"]
+	21 [label="Counter Generation"]
+	22 [label="Cross Joiner"]
+	24 [label="Column Expressions"]
+	2 -> 3
+	2 -> 16
+	3 -> 5
+	3 -> 4
+	4 -> 14
+	5 -> 12
+	7 -> 6
+	8 -> 13
+	10 -> 2
+	11 -> 12
+	12 -> 4
+	13 -> 10
+	14 -> 18
+	16 -> 17
+	17 -> 14
+	18 -> 7
+	19 -> 21
+	20 -> 22
+	21 -> 22
+	22 -> 24
+	24 -> 10
+	rankdir=LR
+}

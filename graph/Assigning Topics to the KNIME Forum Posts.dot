@@ -1,0 +1,306 @@
+digraph {
+	4 [label="Data to Report"]
+	5 [label="Data to Report"]
+	6 [label="Data to Report"]
+	24 [label=Partitioning]
+	93 [label="String Manipulation"]
+	95 [label="Row Splitter"]
+	96 [label=Concatenate]
+	13 [label="String Manipulation"]
+	14 [label="String Manipulation"]
+	30 [label="String Manipulation"]
+	31 [label="String Manipulation"]
+	99 [label="String Manipulation"]
+	100 [label="String Manipulation"]
+	101 [label="String Manipulation"]
+	102 [label="String Manipulation"]
+	103 [label="String Manipulation"]
+	93 [label="String Manipulation"]
+	94 [label="String Manipulation"]
+	98 [label="String Manipulation"]
+	104 [label="String Manipulation"]
+	105 [label="String Manipulation"]
+	106 [label="String Manipulation"]
+	107 [label="String Manipulation"]
+	108 [label="String Manipulation"]
+	109 [label="String Manipulation"]
+	110 [label="String Manipulation"]
+	112 [label="String Manipulation"]
+	113 [label="String Manipulation"]
+	72 [label="String Manipulation"]
+	92 [label="String Manipulation"]
+	16 [label="Keygraph keyword extractor"]
+	29 [label="Strings To Document"]
+	170 [label="Integer Input"]
+	202 [label="Punctuation Erasure"]
+	203 [label="N Chars Filter"]
+	204 [label="Number Filter"]
+	205 [label="Case converter"]
+	206 [label="Stop word Filter"]
+	207 [label="Porter Stemmer"]
+	16 [label="Keygraph keyword extractor"]
+	200 [label="Number To String"]
+	201 [label="Integer Input"]
+	202 [label="Punctuation Erasure"]
+	203 [label="N Chars Filter"]
+	204 [label="Number Filter"]
+	205 [label="Case converter"]
+	206 [label="Stop word Filter"]
+	207 [label="Porter Stemmer"]
+	20 [label="Document vector"]
+	21 [label="Category to class"]
+	23 [label="Column Filter"]
+	98 [label=Shuffle]
+	20 [label="Document vector"]
+	24 [label="Row Filter"]
+	25 [label=Joiner]
+	26 [label=GroupBy]
+	173 [label="Reference Row Filter"]
+	176 [label="Reference Row Filter"]
+	178 [label=Concatenate]
+	181 [label="Constant Value Column"]
+	182 [label="Constant Value Column"]
+	185 [label="Group Loop Start"]
+	186 [label="Column Filter"]
+	187 [label=Transpose]
+	188 [label="Column Filter"]
+	189 [label=Sorter]
+	190 [label="Extract Column Header"]
+	191 [label="Row Filter"]
+	192 [label=Transpose]
+	193 [label="TableRow To Variable"]
+	195 [label=RowID]
+	196 [label="Column Filter"]
+	197 [label="Loop End"]
+	198 [label="Table Creator"]
+	199 [label=Concatenate]
+	200 [label="Row Filter"]
+	202 [label="Variable to Table Column"]
+	182 [label="Document Data Extractor"]
+	199 [label="Column Filter"]
+	362 [label=GroupBy]
+	364 [label="Column Rename _Regex_"]
+	201 [label=Joiner]
+	203 [label=Pivoting]
+	205 [label="Column Rename"]
+	206 [label=RowID]
+	207 [label="Missing Value"]
+	208 [label=Transpose]
+	209 [label=Sorter]
+	375 [label=Unpivoting]
+	376 [label="Nominal Value Row Filter"]
+	377 [label="Column Rename"]
+	378 [label="Missing Value"]
+	203 [label=Pivoting]
+	205 [label="Column Rename"]
+	206 [label=RowID]
+	207 [label="Missing Value"]
+	208 [label=Transpose]
+	209 [label=Sorter]
+	375 [label=Unpivoting]
+	376 [label="Nominal Value Row Filter"]
+	377 [label="Column Rename"]
+	378 [label="Missing Value"]
+	203 [label=Pivoting]
+	205 [label="Column Rename"]
+	206 [label=RowID]
+	207 [label="Missing Value"]
+	208 [label=Transpose]
+	209 [label=Sorter]
+	375 [label=Unpivoting]
+	376 [label="Nominal Value Row Filter"]
+	377 [label="Column Rename"]
+	378 [label="Missing Value"]
+	59 [label="Row Filter"]
+	102 [label="Row Filter"]
+	103 [label=Concatenate]
+	147 [label="String Manipulation"]
+	148 [label="String Manipulation"]
+	149 [label="String Manipulation"]
+	150 [label="String Manipulation"]
+	152 [label="String Manipulation"]
+	153 [label="String Manipulation"]
+	154 [label="String Manipulation"]
+	155 [label="String Manipulation"]
+	156 [label="Number To String"]
+	259 [label="Strings To Document"]
+	72 [label="String Manipulation"]
+	92 [label="String Manipulation"]
+	255 [label="Date Field Extractor"]
+	256 [label="Row Filter"]
+	257 [label="Java Snippet"]
+	258 [label="Row Filter"]
+	362 [label=GroupBy]
+	2 [label="XML Reader"]
+	4 [label="TableRow To Variable Loop Start"]
+	6 [label="Loop End"]
+	14 [label="Java Snippet"]
+	16 [label="Column Filter"]
+	17 [label="Variable to Table Column"]
+	18 [label="String Manipulation"]
+	19 [label=XPath]
+	369 [label="Create Temp Dir"]
+	372 [label=Scorer]
+	529 [label="Table Reader"]
+	530 [label="Unzip Files"]
+	531 [label="Tree Ensemble Learner"]
+	533 [label="Tree Ensemble Predictor"]
+	534 [label="Tree Ensemble Learner"]
+	535 [label="Tree Ensemble Predictor"]
+	13 -> 14
+	14 -> 30
+	31 -> 29
+	16 -> 101
+	100 -> 102
+	101 -> 100
+	102 -> 103
+	96 -> 94
+	98 -> 104
+	104 -> 105
+	105 -> 106
+	106 -> 107
+	107 -> 13
+	30 -> 31
+	103 -> 98
+	94 -> 112
+	112 -> 113
+	113 -> 13
+	72 -> 92
+	96 -> 96
+	95 -> 13
+	95 -> 96
+	30 -> 31
+	103 -> 72
+	94 -> 95
+	92 -> 98
+	29 -> 202
+	170 -> 29
+	202 -> 203
+	203 -> 204
+	204 -> 205
+	205 -> 206
+	206 -> 207
+	207 -> 16
+	259 -> 202
+	201 -> 199
+	202 -> 203
+	203 -> 204
+	204 -> 205
+	205 -> 206
+	206 -> 207
+	207 -> 16
+	20 -> 21
+	21 -> 23
+	23 -> 98
+	20 -> 25
+	24 -> 26
+	26 -> 25
+	173 -> 173
+	173 -> 176
+	176 -> 182
+	178 -> 178
+	182 -> 178
+	185 -> 188
+	186 -> 185
+	187 -> 190
+	188 -> 187
+	189 -> 199
+	190 -> 189
+	190 -> 193
+	191 -> 195
+	192 -> 199
+	193 -> 195
+	195 -> 196
+	196 -> 192
+	197 -> 199
+	199 -> 202
+	199 -> 202
+	259 -> 191
+	202 -> 197
+	182 -> 102
+	199 -> 364
+	364 -> 182
+	203 -> 205
+	205 -> 207
+	206 -> 208
+	207 -> 206
+	208 -> 209
+	209 -> 375
+	375 -> 377
+	376 -> 378
+	377 -> 376
+	203 -> 205
+	205 -> 207
+	206 -> 208
+	207 -> 206
+	208 -> 209
+	209 -> 375
+	375 -> 377
+	376 -> 378
+	377 -> 376
+	203 -> 205
+	205 -> 207
+	206 -> 208
+	207 -> 206
+	208 -> 209
+	209 -> 375
+	375 -> 377
+	376 -> 378
+	377 -> 376
+	147 -> 148
+	148 -> 149
+	149 -> 150
+	150 -> 152
+	152 -> 153
+	153 -> 154
+	154 -> 155
+	155 -> 156
+	72 -> 92
+	255 -> 257
+	256 -> 258
+	257 -> 256
+	258 -> 72
+	59 -> 103
+	102 -> 103
+	103 -> 255
+	156 -> 102
+	92 -> 147
+	259 -> 259
+	2 -> 17
+	4 -> 17
+	4 -> 2
+	6 -> 18
+	14 -> 19
+	17 -> 6
+	18 -> 14
+	19 -> 16
+	24 -> 531
+	24 -> 533
+	96 -> 29
+	16 -> 20
+	16 -> 173
+	16 -> 173
+	98 -> 24
+	98 -> 534
+	25 -> 535
+	178 -> 20
+	197 -> 201
+	259 -> 201
+	259 -> 186
+	201 -> 203
+	201 -> 203
+	201 -> 203
+	378 -> 4
+	378 -> 5
+	378 -> 6
+	259 -> 199
+	16 -> 13
+	369 -> 530
+	529 -> 102
+	530 -> 4
+	531 -> 533
+	533 -> 372
+	534 -> 535
+	535 -> 199
+	rankdir=LR
+}

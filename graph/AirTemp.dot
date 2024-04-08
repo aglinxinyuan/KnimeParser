@@ -1,0 +1,30 @@
+digraph {
+	262 [label="CSV Reader"]
+	263 [label="Row Filter"]
+	264 [label="String Manipulation"]
+	265 [label="CSV Reader"]
+	266 [label="Row Filter"]
+	267 [label="String Manipulation"]
+	268 [label="CSV Reader"]
+	269 [label="Row Filter"]
+	270 [label="String Manipulation"]
+	271 [label="CSV Reader"]
+	272 [label="Row Filter"]
+	273 [label="String Manipulation"]
+	274 [label=Concatenate]
+	275 [label=GroupBy]
+	262 -> 263
+	263 -> 264
+	264 -> 274
+	265 -> 266
+	266 -> 267
+	267 -> 274
+	268 -> 269
+	269 -> 270
+	270 -> 274
+	271 -> 272
+	272 -> 273
+	273 -> 274
+	274 -> 275
+	rankdir=LR
+}

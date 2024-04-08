@@ -1,0 +1,12 @@
+digraph {
+	32 [label=LigPrep]
+	33 [label=QikProp]
+	34 [label="Molecule Writer _from MAE_"]
+	35 [label="CSV Writer"]
+	36 [label="Molecule Reader _to MAE_"]
+	32 -> 33
+	33 -> 35
+	33 -> 34
+	36 -> 32
+	rankdir=LR
+}

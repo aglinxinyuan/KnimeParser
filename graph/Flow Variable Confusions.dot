@@ -1,0 +1,25 @@
+digraph {
+	1 [label="CASE Switch End"]
+	2 [label="Variable Creator"]
+	3 [label="Math Formula _Variable_"]
+	4 [label="CASE Switch End"]
+	5 [label="String Manipulation _Variable_"]
+	6 [label="Active Branch Inverter"]
+	7 [label="Variable to Table Row"]
+	8 [label="Variable to Table Row"]
+	9 [label="CASE Switch End"]
+	10 [label="Table Row to Variable"]
+	2 -> 1
+	2 -> 5
+	2 -> 4
+	2 -> 8
+	3 -> 6
+	5 -> 3
+	6 -> 4
+	6 -> 1
+	6 -> 7
+	7 -> 9
+	8 -> 9
+	9 -> 10
+	rankdir=LR
+}

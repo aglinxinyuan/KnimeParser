@@ -1,0 +1,38 @@
+digraph {
+	1 [label="PostgreSQL Connector"]
+	18 [label="DB Table Selector"]
+	19 [label="DB Table Selector"]
+	20 [label="DB Table Selector"]
+	21 [label="DB Table Selector"]
+	22 [label="DB Table Selector"]
+	23 [label="DB Joiner"]
+	24 [label="DB Joiner"]
+	25 [label="DB Joiner"]
+	26 [label="DB Joiner"]
+	27 [label="DB Row Filter"]
+	28 [label="DB GroupBy"]
+	29 [label="DB Sorter"]
+	30 [label="DB Row Sampling"]
+	31 [label="DB Reader"]
+	32 [label="DB Query Reader"]
+	1 -> 32
+	1 -> 19
+	1 -> 18
+	1 -> 21
+	1 -> 20
+	1 -> 22
+	18 -> 23
+	19 -> 23
+	20 -> 24
+	21 -> 25
+	22 -> 25
+	23 -> 24
+	24 -> 26
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 29
+	29 -> 30
+	30 -> 31
+	rankdir=LR
+}

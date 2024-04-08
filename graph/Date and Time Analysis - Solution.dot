@@ -1,0 +1,21 @@
+digraph {
+	2 [label="String Manipulation"]
+	16 [label=GroupBy]
+	41 [label="Table Reader"]
+	42 [label="Moving Average"]
+	44 [label="Moving Aggregation"]
+	46 [label="String to Date_Time"]
+	47 [label="Date_Time_based Row Filter"]
+	48 [label="Extract Date_Time Fields"]
+	49 [label="Line Plot"]
+	50 [label="CSV Reader"]
+	2 -> 46
+	41 -> 42
+	41 -> 48
+	42 -> 44
+	44 -> 49
+	46 -> 47
+	48 -> 16
+	50 -> 2
+	rankdir=LR
+}

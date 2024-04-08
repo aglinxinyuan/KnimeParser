@@ -1,0 +1,180 @@
+digraph {
+	2 [label="Missing Value"]
+	3 [label=Statistics]
+	4 [label="Math Formula"]
+	5 [label=Statistics]
+	6 [label="Math Formula"]
+	7 [label=Statistics]
+	8 [label="Math Formula"]
+	9 [label=Statistics]
+	10 [label="Rule Engine"]
+	12 [label="Pie_Donut Chart"]
+	13 [label=GroupBy]
+	14 [label=GroupBy]
+	15 [label="Rule Engine"]
+	16 [label=GroupBy]
+	21 [label="Column Filter"]
+	24 [label=Normalizer]
+	27 [label="CSV Reader"]
+	28 [label=k_Means]
+	29 [label=Denormalizer]
+	30 [label=GroupBy]
+	31 [label=Partitioning]
+	32 [label="Decision Tree Learner"]
+	33 [label="Number To String"]
+	34 [label="Decision Tree Predictor"]
+	35 [label=Scorer]
+	36 [label="Column Filter"]
+	37 [label="Decision Tree to Ruleset"]
+	38 [label=Normalizer]
+	39 [label=GroupBy]
+	40 [label=k_Means]
+	41 [label=Denormalizer]
+	42 [label=k_Means]
+	43 [label=Normalizer]
+	44 [label=Denormalizer]
+	45 [label=GroupBy]
+	46 [label="Decision Tree Predictor"]
+	47 [label=Scorer]
+	48 [label="Decision Tree to Ruleset"]
+	49 [label="Decision Tree Learner"]
+	50 [label=Partitioning]
+	51 [label="Logistic Regression Learner"]
+	52 [label="Logistic Regression Predictor"]
+	53 [label=Scorer]
+	54 [label="Number To String"]
+	56 [label=Partitioning]
+	57 [label="RProp MLP Learner"]
+	58 [label="MultiLayerPerceptron Predictor"]
+	59 [label="Column Filter"]
+	60 [label=Scorer]
+	61 [label=Partitioning]
+	62 [label="RProp MLP Learner"]
+	63 [label=Scorer]
+	64 [label="MultiLayerPerceptron Predictor"]
+	65 [label="Rule Engine"]
+	66 [label="Color Manager"]
+	67 [label="Color Manager"]
+	68 [label="Color Manager"]
+	69 [label="Scatter Plot"]
+	70 [label="Scatter Plot"]
+	71 [label="Scatter Plot"]
+	72 [label="Math Formula"]
+	73 [label="Math Formula"]
+	74 [label="Column Filter"]
+	75 [label="Column Filter"]
+	76 [label="Column Filter"]
+	77 [label="Column Filter"]
+	78 [label="Column Filter"]
+	80 [label="Column Appender"]
+	81 [label="Column Appender"]
+	82 [label=Joiner]
+	83 [label="ROC Curve"]
+	85 [label="Column Rename"]
+	86 [label="Column Rename"]
+	87 [label="Column Rename"]
+	88 [label="Column Rename"]
+	89 [label="Column Rename"]
+	90 [label="String To Number"]
+	91 [label="String To Number"]
+	92 [label="String To Number"]
+	93 [label="Lift Chart"]
+	94 [label="One to Many"]
+	95 [label="Double To Int"]
+	96 [label=Normalizer]
+	2 -> 6
+	2 -> 4
+	2 -> 5
+	2 -> 8
+	2 -> 14
+	2 -> 13
+	2 -> 16
+	2 -> 73
+	4 -> 3
+	6 -> 7
+	8 -> 9
+	10 -> 12
+	10 -> 2
+	15 -> 60
+	15 -> 74
+	21 -> 24
+	21 -> 54
+	21 -> 36
+	21 -> 38
+	21 -> 43
+	21 -> 94
+	24 -> 28
+	24 -> 29
+	27 -> 10
+	28 -> 29
+	29 -> 66
+	31 -> 49
+	31 -> 46
+	31 -> 34
+	31 -> 32
+	32 -> 34
+	32 -> 37
+	33 -> 31
+	34 -> 35
+	34 -> 77
+	36 -> 33
+	38 -> 40
+	38 -> 41
+	40 -> 41
+	41 -> 67
+	42 -> 44
+	43 -> 42
+	43 -> 44
+	44 -> 68
+	46 -> 47
+	46 -> 76
+	49 -> 48
+	49 -> 46
+	50 -> 51
+	50 -> 52
+	51 -> 52
+	52 -> 53
+	52 -> 78
+	54 -> 50
+	56 -> 57
+	56 -> 58
+	57 -> 58
+	58 -> 15
+	59 -> 56
+	59 -> 61
+	61 -> 62
+	61 -> 64
+	62 -> 64
+	64 -> 65
+	65 -> 75
+	65 -> 63
+	66 -> 71
+	66 -> 30
+	67 -> 70
+	67 -> 39
+	68 -> 69
+	68 -> 45
+	72 -> 21
+	73 -> 72
+	74 -> 86
+	75 -> 87
+	76 -> 89
+	77 -> 88
+	78 -> 85
+	80 -> 82
+	81 -> 82
+	82 -> 83
+	82 -> 93
+	85 -> 92
+	86 -> 80
+	87 -> 80
+	88 -> 90
+	89 -> 91
+	90 -> 81
+	91 -> 81
+	92 -> 80
+	94 -> 95
+	95 -> 96
+	96 -> 59
+	rankdir=LR
+}

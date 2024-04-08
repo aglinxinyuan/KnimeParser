@@ -1,0 +1,50 @@
+digraph {
+	179 [label="Linear Regression Learner"]
+	191 [label="Column Rename"]
+	210 [label="Lag Column"]
+	243 [label="Column List Loop Start"]
+	245 [label="Missing Value"]
+	324 [label="String to Date_Time"]
+	325 [label="Date_Time_based Row Filter"]
+	327 [label="Line Plot"]
+	328 [label="Table Creator"]
+	329 [label="Color Manager"]
+	330 [label="Column Filter"]
+	179 [label="PMML Writer"]
+	180 [label="String Manipulation _Variable_"]
+	182 [label="String to Path _Variable_"]
+	336 [label="Regression Predictor"]
+	331 [label=Statistics]
+	332 [label="Column Filter"]
+	334 [label="Math Formula"]
+	335 [label="Constant Value Column"]
+	336 [label="Column Filter"]
+	340 [label="CSV Reader"]
+	341 [label="Table Writer"]
+	342 [label="Loop End"]
+	324 -> 325
+	180 -> 182
+	182 -> 179
+	331 -> 336
+	332 -> 331
+	334 -> 332
+	336 -> 335
+	179 -> 336
+	179 -> 334
+	179 -> 334
+	191 -> 210
+	210 -> 245
+	243 -> 191
+	245 -> 336
+	245 -> 179
+	325 -> 330
+	325 -> 243
+	328 -> 329
+	329 -> 327
+	330 -> 327
+	336 -> 334
+	335 -> 342
+	340 -> 324
+	342 -> 341
+	rankdir=LR
+}

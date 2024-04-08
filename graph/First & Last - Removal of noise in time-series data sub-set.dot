@@ -1,0 +1,38 @@
+digraph {
+	25 [label="Table Creator"]
+	28 [label="Column Appender"]
+	31 [label="Row Filter"]
+	32 [label="Lag Column"]
+	35 [label="Rule_based Row Filter"]
+	36 [label="Row Filter"]
+	37 [label=RowID]
+	38 [label="Table View"]
+	40 [label=RowID]
+	44 [label="Column Appender"]
+	47 [label="Row Filter"]
+	48 [label="Table Creator"]
+	49 [label="Column Appender"]
+	50 [label="Lag Column"]
+	51 [label="Column Rename"]
+	52 [label="Rule_based Row Filter"]
+	53 [label="Column Rename"]
+	25 -> 32
+	25 -> 31
+	28 -> 35
+	31 -> 51
+	32 -> 28
+	36 -> 40
+	37 -> 44
+	38 -> 36
+	40 -> 44
+	47 -> 53
+	48 -> 47
+	48 -> 50
+	48 -> 38
+	49 -> 52
+	50 -> 49
+	51 -> 28
+	52 -> 37
+	53 -> 49
+	rankdir=LR
+}

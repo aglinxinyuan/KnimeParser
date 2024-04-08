@@ -1,0 +1,16 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	3 [label=GroupBy]
+	4 [label=GroupBy]
+	5 [label="Scatter Plot"]
+	6 [label="Scatter Plot"]
+	7 [label="Scatter Plot"]
+	1 -> 3
+	1 -> 2
+	1 -> 4
+	2 -> 7
+	3 -> 6
+	4 -> 5
+	rankdir=LR
+}

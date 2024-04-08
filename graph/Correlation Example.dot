@@ -1,0 +1,14 @@
+digraph {
+	2 [label="Linear Correlation"]
+	3 [label="Bar Chart"]
+	4 [label=GroupBy]
+	5 [label=GroupBy]
+	6 [label="Bar Chart"]
+	7 [label="Table Creator"]
+	4 -> 3
+	5 -> 6
+	7 -> 5
+	7 -> 2
+	7 -> 4
+	rankdir=LR
+}

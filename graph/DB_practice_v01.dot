@@ -1,0 +1,133 @@
+digraph {
+	5 [label="DB Query Reader"]
+	6 [label="DB Writer"]
+	8 [label="DB Numeric_Binner"]
+	13 [label="MySQL Connector"]
+	15 [label="DB Query Reader"]
+	16 [label="DB Connection Closer"]
+	18 [label="Column Filter"]
+	19 [label="Excel Reader _XLS_"]
+	20 [label="Column Filter"]
+	22 [label="Column Resorter"]
+	23 [label="Cell Splitter"]
+	24 [label="Cell Splitter"]
+	25 [label="Column Filter"]
+	26 [label="Column Rename"]
+	27 [label="DB Query Reader"]
+	28 [label="DB Writer"]
+	29 [label="Column Filter"]
+	30 [label="Column Filter"]
+	32 [label="File Reader"]
+	33 [label="CSV Reader"]
+	34 [label="Column Filter"]
+	35 [label="DB Connection Table Writer"]
+	36 [label="DB Connector"]
+	37 [label="DB Table Selector"]
+	38 [label="DB Reader"]
+	39 [label="DB Column Filter"]
+	41 [label="DB Writer"]
+	42 [label="DB Connection Table Writer"]
+	44 [label="DB Table Creator"]
+	45 [label="DB Table Selector"]
+	46 [label="Column Filter"]
+	49 [label="DB Insert"]
+	50 [label="DB Connector"]
+	51 [label="DB Table Selector"]
+	52 [label="DB Joiner"]
+	53 [label="DB Table Selector"]
+	55 [label="DB Table Remover"]
+	56 [label="DB Table Selector"]
+	57 [label="DB Table Selector"]
+	58 [label="DB Joiner"]
+	59 [label="DB Joiner"]
+	60 [label="DB Reader"]
+	61 [label="DB Connector"]
+	62 [label="DB Table Selector"]
+	63 [label="DB Pivot"]
+	64 [label="DB Pivot"]
+	65 [label="DB Row Sampling"]
+	66 [label="DB Reader"]
+	286 [label="DB Reader"]
+	288 [label="DB Connection Extractor"]
+	289 [label="DB Table Selector"]
+	290 [label="DB Apply_Binner"]
+	291 [label="DB Auto_Binner"]
+	292 [label="DB GroupBy"]
+	293 [label="DB Row Filter"]
+	294 [label="DB Sorter"]
+	295 [label="DB Loader"]
+	297 [label="DB Type Mapper"]
+	298 [label="MySQL Connector"]
+	299 [label="DB Insert"]
+	300 [label="File Reader"]
+	301 [label="DB Insert"]
+	302 [label="MySQL Connector"]
+	303 [label="File Reader"]
+	304 [label="DB Loader"]
+	305 [label="DB Writer"]
+	13653 [label="DB Table Creator"]
+	13654 [label="DB Type Mapper"]
+	5 -> 18
+	13 -> 15
+	13 -> 5
+	13 -> 6
+	13 -> 28
+	13 -> 27
+	13 -> 44
+	13 -> 49
+	18 -> 23
+	19 -> 20
+	19 -> 29
+	20 -> 28
+	22 -> 6
+	23 -> 24
+	24 -> 25
+	25 -> 26
+	26 -> 22
+	29 -> 30
+	30 -> 46
+	30 -> 34
+	34 -> 44
+	36 -> 37
+	37 -> 39
+	37 -> 8
+	39 -> 38
+	44 -> 45
+	46 -> 49
+	50 -> 51
+	50 -> 55
+	50 -> 53
+	50 -> 56
+	50 -> 57
+	51 -> 52
+	52 -> 59
+	53 -> 52
+	56 -> 58
+	57 -> 58
+	58 -> 59
+	59 -> 60
+	61 -> 62
+	62 -> 63
+	62 -> 292
+	62 -> 286
+	62 -> 13654
+	62 -> 64
+	62 -> 65
+	64 -> 290
+	64 -> 291
+	65 -> 66
+	65 -> 288
+	65 -> 293
+	288 -> 289
+	293 -> 294
+	294 -> 297
+	298 -> 299
+	300 -> 299
+	302 -> 301
+	302 -> 304
+	302 -> 305
+	303 -> 301
+	303 -> 305
+	303 -> 304
+	rankdir=LR
+}

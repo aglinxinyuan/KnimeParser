@@ -1,0 +1,42 @@
+digraph {
+	34 [label=X_Partitioner]
+	48 [label="File Reader"]
+	57 [label="Number To String"]
+	58 [label="Random Forest Learner"]
+	59 [label="Random Forest Predictor"]
+	60 [label="Random Forest Predictor"]
+	69 [label=X_Aggregator]
+	83 [label="Conformal Classification"]
+	87 [label="Conformal Scorer"]
+	93 [label="Conformal Partitioning"]
+	94 [label="Random Forest Predictor"]
+	95 [label="Random Forest Learner"]
+	96 [label="Conformal Scorer"]
+	98 [label="Conformal Partitioning"]
+	99 [label="Conformal Classification"]
+	101 [label="Random Forest Predictor"]
+	102 [label=Partitioning]
+	34 -> 59
+	34 -> 93
+	48 -> 57
+	57 -> 34
+	57 -> 102
+	58 -> 59
+	58 -> 60
+	59 -> 83
+	60 -> 83
+	69 -> 87
+	83 -> 69
+	93 -> 60
+	93 -> 58
+	94 -> 99
+	95 -> 94
+	95 -> 101
+	98 -> 94
+	98 -> 95
+	99 -> 96
+	101 -> 99
+	102 -> 101
+	102 -> 98
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	9 [label="RDKit R Group Decomposition"]
+	10 [label="Table Row to Variable"]
+	12 [label="RDKit Substructure Filter"]
+	13 [label="File Reader"]
+	14 [label="RDKit MCS"]
+	25 [label="RDKit Molecule Highlighting"]
+	28 [label="Column Filter"]
+	33 [label="Interactive Table"]
+	9 -> 28
+	10 -> 9
+	10 -> 12
+	12 -> 25
+	13 -> 12
+	13 -> 14
+	14 -> 10
+	25 -> 9
+	28 -> 33
+	rankdir=LR
+}

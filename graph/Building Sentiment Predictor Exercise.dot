@@ -1,0 +1,57 @@
+digraph {
+	79 [label="Case Converter"]
+	88 [label="Punctuation Erasure"]
+	89 [label="Stop Word Filter"]
+	91 [label="N Chars Filter"]
+	97 [label="Dictionary Filter"]
+	98 [label="Table Creator"]
+	104 [label="Number Filter"]
+	334 [label="Dictionary Tagger"]
+	335 [label="Dictionary Tagger"]
+	8 [label="Term To String"]
+	86 [label="Bag Of Words Creator"]
+	101 [label=GroupBy]
+	105 [label="Row Splitter"]
+	106 [label="Dictionary Filter"]
+	338 [label="Excel Reader"]
+	339 [label="Porter Stemmer"]
+	8 [label="Term To String"]
+	86 [label="Bag Of Words Creator"]
+	320 [label=TF]
+	321 [label="Document Vector"]
+	308 [label="Strings To Document"]
+	332 [label="Duplicate Row Filter"]
+	374 [label="Document Data Extractor"]
+	390 [label=Partitioning]
+	391 [label="Column Filter"]
+	876 [label="Model Writer"]
+	879 [label="CSV Reader"]
+	8 -> 101
+	86 -> 8
+	101 -> 105
+	105 -> 106
+	79 -> 88
+	88 -> 89
+	89 -> 97
+	91 -> 104
+	97 -> 91
+	98 -> 97
+	104 -> 339
+	334 -> 335
+	335 -> 79
+	338 -> 334
+	338 -> 335
+	339 -> 86
+	8 -> 320
+	86 -> 8
+	320 -> 321
+	106 -> 86
+	321 -> 374
+	321 -> 876
+	308 -> 334
+	332 -> 308
+	374 -> 391
+	391 -> 390
+	879 -> 332
+	rankdir=LR
+}

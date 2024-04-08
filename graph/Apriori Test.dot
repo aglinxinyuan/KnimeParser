@@ -1,0 +1,12 @@
+digraph {
+	2 [label=GroupBy]
+	3 [label="Split Collection Column"]
+	4 [label="Apriori _3_7_"]
+	5 [label="Column Filter"]
+	8 [label="Table Reader"]
+	2 -> 3
+	3 -> 5
+	5 -> 4
+	8 -> 2
+	rankdir=LR
+}

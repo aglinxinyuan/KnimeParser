@@ -1,0 +1,52 @@
+digraph {
+	1 [label="GeoFile Reader"]
+	2 [label="GeoFile Reader"]
+	3 [label="Math Formula"]
+	4 [label="Math Formula"]
+	5 [label="Euclidean Distance"]
+	6 [label=Joiner]
+	7 [label=Joiner]
+	8 [label="Double Configuration"]
+	9 [label="Rule_based Row Filter"]
+	10 [label=GroupBy]
+	11 [label=Joiner]
+	12 [label="Math Formula"]
+	13 [label=GroupBy]
+	14 [label="GeoFile Reader"]
+	15 [label=Joiner]
+	16 [label="Geospatial View"]
+	17 [label="Double Configuration"]
+	18 [label="Math Formula"]
+	19 [label=GroupBy]
+	20 [label=Joiner]
+	21 [label="Math Formula"]
+	22 [label=GroupBy]
+	23 [label="CSV Writer"]
+	1 -> 3
+	2 -> 4
+	3 -> 6
+	3 -> 5
+	4 -> 5
+	4 -> 7
+	5 -> 6
+	6 -> 7
+	7 -> 9
+	7 -> 23
+	7 -> 18
+	8 -> 9
+	9 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 15
+	14 -> 15
+	15 -> 16
+	17 -> 18
+	18 -> 19
+	18 -> 20
+	19 -> 20
+	20 -> 21
+	21 -> 22
+	rankdir=LR
+}

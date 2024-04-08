@@ -1,0 +1,43 @@
+digraph {
+	3 [label="Rule Engine"]
+	5 [label="Row Filter"]
+	6 [label="CSV Reader"]
+	7 [label="Column Filter"]
+	8 [label=GroupBy]
+	9 [label="String To Number"]
+	10 [label="Bar Chart _Labs_"]
+	11 [label="Math Formula"]
+	12 [label="Row Filter"]
+	13 [label="Excel Reader"]
+	14 [label="String Manipulation"]
+	16 [label="Round Double"]
+	17 [label="Column Filter"]
+	18 [label="Table View"]
+	99 [label="Math Formula"]
+	100 [label="Table View"]
+	101 [label="Round Double"]
+	102 [label="Number To String"]
+	103 [label="String Manipulation"]
+	105 [label="Numeric Binner"]
+	106 [label="Row Filter"]
+	3 -> 9
+	5 -> 105
+	6 -> 5
+	7 -> 3
+	8 -> 11
+	9 -> 8
+	11 -> 12
+	12 -> 106
+	14 -> 10
+	16 -> 17
+	17 -> 18
+	17 -> 99
+	99 -> 101
+	101 -> 102
+	102 -> 103
+	103 -> 100
+	105 -> 7
+	106 -> 14
+	106 -> 16
+	rankdir=LR
+}

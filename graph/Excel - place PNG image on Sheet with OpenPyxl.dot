@@ -1,0 +1,53 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Line Plot _JavaScript_"]
+	186 [label="URL to File Path"]
+	259 [label="Table Creator"]
+	261 [label="Excel Writer"]
+	262 [label="Table to Image"]
+	263 [label="Renderer to Image"]
+	264 [label="Image to Table"]
+	2400 [label="Image Writer _Port_"]
+	2411 [label="Python Script"]
+	2413 [label="Path to String _Variable_"]
+	2414 [label="Table Creator"]
+	2415 [label="Constant Value Column"]
+	2416 [label="Constant Value Column"]
+	2417 [label="Table Creator"]
+	2418 [label="Path to String _Variable_"]
+	2419 [label="URL to File Path"]
+	2420 [label="Column Renamer"]
+	2421 [label="Column Renamer"]
+	2422 [label="Table Row to Variable"]
+	2423 [label="Table Row to Variable"]
+	2424 [label="Merge Variables"]
+	2425 [label="Extract Table Dimension"]
+	2426 [label="Java Edit Variable _simple_"]
+	2428 [label="String Configuration"]
+	1 -> 2
+	2 -> 264
+	186 -> 2420
+	259 -> 261
+	259 -> 2425
+	261 -> 2413
+	262 -> 2400
+	263 -> 262
+	264 -> 263
+	2400 -> 2418
+	2413 -> 2415
+	2414 -> 2415
+	2415 -> 186
+	2416 -> 2419
+	2417 -> 2416
+	2418 -> 2416
+	2419 -> 2421
+	2420 -> 2422
+	2421 -> 2423
+	2422 -> 2424
+	2423 -> 2424
+	2424 -> 2411
+	2425 -> 2426
+	2426 -> 2424
+	2428 -> 261
+	rankdir=LR
+}

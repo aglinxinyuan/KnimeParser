@@ -1,0 +1,33 @@
+digraph {
+	61 [label=Partitioning]
+	65 [label="Decision Tree Predictor"]
+	97 [label="Decision Tree Learner"]
+	100 [label="Lift Chart"]
+	102 [label="Scorer _JavaScript_"]
+	103 [label="Random Forest Learner"]
+	104 [label="Random Forest Predictor"]
+	107 [label="Number To String"]
+	108 [label="Binary Classification Inspector"]
+	110 [label="Lift Chart"]
+	114 [label=Joiner]
+	115 [label="CSV Reader"]
+	116 [label=GroupBy]
+	117 [label="ROC Curve"]
+	61 -> 104
+	61 -> 103
+	61 -> 97
+	61 -> 65
+	65 -> 114
+	97 -> 65
+	103 -> 104
+	104 -> 114
+	107 -> 61
+	114 -> 117
+	114 -> 102
+	114 -> 100
+	114 -> 110
+	114 -> 108
+	115 -> 116
+	115 -> 107
+	rankdir=LR
+}

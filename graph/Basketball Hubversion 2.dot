@@ -1,0 +1,41 @@
+digraph {
+	1 [label="CSV Reader"]
+	29 [label=Partitioning]
+	77 [label="DL4J Model Initializer"]
+	79 [label="DL4J Feedforward Predictor _Classification_"]
+	80 [label=Scorer]
+	84 [label="DL4J Feedforward Learner _Classification_"]
+	85 [label="Column Filter"]
+	134 [label=Normalizer]
+	136 [label="Column Rename"]
+	149 [label=Auto_Binner]
+	2 [label="Math Formula"]
+	3 [label="Cell Splitter By Position"]
+	4 [label="Rule Engine"]
+	5 [label="Column Filter"]
+	13 [label="Category To Number"]
+	6 [label="Column Resorter"]
+	15 [label="Missing Value"]
+	150 [label="Category To Number"]
+	153 [label="Data Explorer"]
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 13
+	6 -> 15
+	15 -> 150
+	1 -> 2
+	29 -> 84
+	29 -> 79
+	77 -> 84
+	79 -> 80
+	84 -> 79
+	85 -> 136
+	134 -> 29
+	136 -> 134
+	136 -> 153
+	149 -> 6
+	13 -> 149
+	150 -> 85
+	rankdir=LR
+}

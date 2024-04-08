@@ -1,0 +1,57 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="CSV Reader"]
+	10 [label="Row Splitter"]
+	15 [label="String Manipulation"]
+	16 [label=Joiner]
+	1 [label="Excel Reader"]
+	2 [label="CSV Reader"]
+	3 [label=Statistics]
+	4 [label="Column Splitter"]
+	6 [label="Row Filter"]
+	8 [label="Value Counter"]
+	9 [label="Value Counter"]
+	10 [label="Row Splitter"]
+	11 [label=GroupBy]
+	12 [label="Row Splitter"]
+	13 [label=GroupBy]
+	14 [label="Value Counter"]
+	15 [label="String Manipulation"]
+	16 [label=Joiner]
+	18 [label="Row Splitter"]
+	20 [label=GroupBy]
+	21 [label="Top k Selector"]
+	22 [label="Row Splitter"]
+	23 [label="Top k Selector"]
+	24 [label=GroupBy]
+	25 [label="Math Formula"]
+	26 [label="Top k Selector"]
+	27 [label="Row Splitter"]
+	1 -> 15
+	2 -> 3
+	2 -> 4
+	2 -> 12
+	4 -> 6
+	4 -> 10
+	10 -> 8
+	10 -> 9
+	10 -> 14
+	10 -> 16
+	12 -> 13
+	12 -> 11
+	15 -> 16
+	1 -> 15
+	2 -> 10
+	10 -> 20
+	10 -> 27
+	15 -> 16
+	16 -> 24
+	18 -> 21
+	18 -> 23
+	20 -> 22
+	22 -> 18
+	24 -> 25
+	25 -> 26
+	27 -> 16
+	rankdir=LR
+}

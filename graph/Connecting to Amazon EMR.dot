@@ -1,0 +1,29 @@
+digraph {
+	873 [label="DB Table Selector"]
+	886 [label="CSV to Spark"]
+	887 [label="Spark Partitioning"]
+	896 [label="Spark Random Forest Learner _Regression_"]
+	897 [label="Spark Predictor _Regression_"]
+	898 [label="Spark Numeric Scorer"]
+	899 [label="Spark to Table"]
+	900 [label="Line Plot"]
+	905 [label="DB SQL Executor"]
+	906 [label="Amazon S3 Connection"]
+	907 [label="Create Spark Context _Livy_"]
+	908 [label="Amazon Authentication"]
+	909 [label="Amazon Athena Connector"]
+	886 -> 887
+	887 -> 897
+	887 -> 896
+	896 -> 897
+	897 -> 899
+	897 -> 898
+	899 -> 900
+	905 -> 873
+	906 -> 907
+	906 -> 886
+	907 -> 886
+	908 -> 909
+	909 -> 905
+	rankdir=LR
+}

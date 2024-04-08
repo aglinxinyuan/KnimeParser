@@ -1,0 +1,36 @@
+digraph {
+	3 [label="Extract Context Properties"]
+	15 [label="List Files"]
+	16 [label="File Meta Info"]
+	17 [label="String to URI"]
+	27 [label="URL to File Path"]
+	28 [label="Copy_Move Files"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	52 [label="Variable to Table Row"]
+	120 [label="String Manipulation"]
+	122 [label="String Manipulation"]
+	123 [label="Table Row to Variable"]
+	124 [label="String Manipulation"]
+	125 [label="Column Rename"]
+	127 [label="String to URI"]
+	128 [label="Copy_Move Files"]
+	129 [label="String Manipulation"]
+	3 -> 52
+	15 -> 27
+	16 -> 125
+	17 -> 16
+	27 -> 17
+	47 -> 122
+	48 -> 47
+	52 -> 48
+	120 -> 127
+	122 -> 124
+	123 -> 15
+	124 -> 129
+	125 -> 120
+	127 -> 28
+	127 -> 128
+	129 -> 123
+	rankdir=LR
+}

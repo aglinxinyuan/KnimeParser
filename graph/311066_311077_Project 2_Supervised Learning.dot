@@ -1,0 +1,32 @@
+digraph {
+	89 [label="Category To Number"]
+	90 [label="Column Filter"]
+	91 [label=Normalizer]
+	92 [label="CSV Reader"]
+	93 [label="Missing Value"]
+	94 [label=Partitioning]
+	95 [label="Logistic Regression Learner"]
+	96 [label="Logistic Regression Predictor"]
+	97 [label=Scorer]
+	98 [label=Scorer]
+	99 [label="Decision Tree Learner"]
+	100 [label="Decision Tree Predictor"]
+	101 [label="Column Filter"]
+	102 [label="Pie_Donut Chart"]
+	89 -> 90
+	90 -> 91
+	91 -> 94
+	92 -> 93
+	93 -> 89
+	94 -> 95
+	94 -> 100
+	94 -> 96
+	94 -> 101
+	95 -> 96
+	96 -> 97
+	96 -> 102
+	99 -> 100
+	100 -> 98
+	101 -> 99
+	rankdir=LR
+}

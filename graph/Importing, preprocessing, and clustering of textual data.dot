@@ -1,0 +1,77 @@
+digraph {
+	24 [label="Column Filter"]
+	25 [label="Hierarchical Clustering _DistMatrix_"]
+	26 [label="Hierarchical Cluster View"]
+	29 [label="Column Filter"]
+	30 [label="Hierarchical Clustering _DistMatrix_"]
+	31 [label="Hierarchical Cluster View"]
+	39 [label="Distance Matrix Calculate"]
+	40 [label="Distance Matrix Calculate"]
+	41 [label="Punctuation Erasure"]
+	42 [label="N Chars Filter"]
+	43 [label="Number Filter"]
+	44 [label="Case converter"]
+	55 [label="Color Manager"]
+	59 [label="Category to class"]
+	69 [label="Distance Matrix Calculate"]
+	70 [label="Column Filter"]
+	71 [label="Hierarchical Cluster View"]
+	72 [label="Hierarchical Clustering _DistMatrix_"]
+	73 [label=k_Medoids]
+	75 [label="Hierarchical Cluster Assigner"]
+	48 [label="Term To String"]
+	49 [label=GroupBy]
+	50 [label="Row Filter"]
+	51 [label="Reference Row Filter"]
+	65 [label=TF]
+	66 [label="Extract Table Dimension"]
+	67 [label="Java Edit Variable"]
+	68 [label="Bag Of Words Creator"]
+	109 [label="Document Vector"]
+	782 [label="Markup Tag Filter"]
+	784 [label="Stanford Lemmatizer"]
+	806 [label="Strings To Document"]
+	808 [label="Column Filter"]
+	812 [label="Table Reader"]
+	813 [label="Stop Word Filter"]
+	48 -> 49
+	48 -> 51
+	49 -> 50
+	50 -> 51
+	51 -> 65
+	66 -> 67
+	67 -> 50
+	68 -> 48
+	24 -> 25
+	24 -> 26
+	25 -> 26
+	29 -> 31
+	29 -> 30
+	30 -> 31
+	39 -> 24
+	40 -> 29
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	44 -> 813
+	55 -> 39
+	55 -> 40
+	55 -> 69
+	59 -> 55
+	69 -> 70
+	70 -> 71
+	70 -> 75
+	70 -> 72
+	70 -> 73
+	72 -> 75
+	72 -> 71
+	65 -> 109
+	109 -> 59
+	782 -> 41
+	784 -> 66
+	806 -> 808
+	808 -> 782
+	812 -> 806
+	813 -> 784
+	rankdir=LR
+}

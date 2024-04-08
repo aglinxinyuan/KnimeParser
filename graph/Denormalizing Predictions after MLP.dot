@@ -1,0 +1,33 @@
+digraph {
+	21 [label="Table Reader"]
+	22 [label=Partitioning]
+	23 [label="Column Filter"]
+	24 [label="RProp MLP Learner"]
+	25 [label="MultiLayerPerceptron Predictor"]
+	26 [label=Normalizer]
+	27 [label="Reference Column Splitter"]
+	28 [label=Denormalizer]
+	29 [label=Denormalizer]
+	30 [label="Column Rename"]
+	31 [label="Column Rename"]
+	32 [label="Column Appender"]
+	33 [label="Numeric Scorer"]
+	21 -> 23
+	22 -> 27
+	22 -> 24
+	22 -> 25
+	23 -> 26
+	24 -> 25
+	25 -> 27
+	26 -> 28
+	26 -> 29
+	26 -> 22
+	27 -> 30
+	27 -> 28
+	28 -> 32
+	29 -> 31
+	30 -> 29
+	31 -> 32
+	32 -> 33
+	rankdir=LR
+}

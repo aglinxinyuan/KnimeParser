@@ -1,0 +1,113 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Category To Number"]
+	48 [label=Concatenate]
+	49 [label=Sorter]
+	50 [label="Row Filter"]
+	51 [label="Cell To PMML"]
+	52 [label="PMML Writer"]
+	53 [label="Bar Chart"]
+	4 [label=Normalizer]
+	5 [label=X_Partitioner]
+	6 [label="RProp MLP Learner"]
+	7 [label="MultiLayerPerceptron Predictor"]
+	8 [label=X_Aggregator]
+	9 [label=Scorer]
+	10 [label="Row Filter"]
+	11 [label="Column Filter"]
+	12 [label="Constant Value Column"]
+	13 [label="Constant Value Column"]
+	14 [label=RowID]
+	15 [label="Cross Joiner"]
+	16 [label="RProp MLP Learner"]
+	17 [label="PMML To Cell"]
+	18 [label="Rule Engine"]
+	3 [label=Normalizer]
+	19 [label=X_Partitioner]
+	20 [label="SVM Learner"]
+	21 [label="SVM Predictor"]
+	23 [label=X_Aggregator]
+	24 [label=Scorer]
+	25 [label="Row Filter"]
+	26 [label="Column Filter"]
+	27 [label="Constant Value Column"]
+	28 [label="Constant Value Column"]
+	29 [label=RowID]
+	30 [label="Cross Joiner"]
+	31 [label="SVM Learner"]
+	32 [label="PMML To Cell"]
+	33 [label="Rule Engine"]
+	34 [label=X_Partitioner]
+	35 [label="Decision Tree Learner"]
+	36 [label="Decision Tree Predictor"]
+	37 [label=Scorer]
+	38 [label="Row Filter"]
+	39 [label="Column Filter"]
+	40 [label="Constant Value Column"]
+	41 [label="Constant Value Column"]
+	42 [label=RowID]
+	43 [label=X_Aggregator]
+	44 [label="Cross Joiner"]
+	45 [label="Decision Tree Learner"]
+	46 [label="PMML To Cell"]
+	47 [label="Rule Engine"]
+	4 -> 5
+	4 -> 16
+	5 -> 7
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	16 -> 17
+	17 -> 18
+	18 -> 15
+	3 -> 19
+	3 -> 31
+	19 -> 21
+	19 -> 20
+	20 -> 21
+	21 -> 23
+	23 -> 24
+	24 -> 25
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 29
+	29 -> 30
+	31 -> 32
+	32 -> 33
+	33 -> 30
+	34 -> 35
+	34 -> 36
+	35 -> 36
+	36 -> 43
+	37 -> 38
+	38 -> 39
+	39 -> 40
+	40 -> 41
+	41 -> 42
+	42 -> 44
+	43 -> 37
+	45 -> 46
+	46 -> 47
+	47 -> 44
+	1 -> 2
+	1 -> 45
+	2 -> 4
+	2 -> 3
+	48 -> 49
+	49 -> 50
+	49 -> 53
+	50 -> 51
+	51 -> 52
+	15 -> 48
+	30 -> 48
+	44 -> 48
+	rankdir=LR
+}

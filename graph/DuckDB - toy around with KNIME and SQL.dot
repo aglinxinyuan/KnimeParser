@@ -1,0 +1,93 @@
+digraph {
+	56 [label="Extract Context Properties"]
+	250 [label="String to Path _Variable_"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	57 [label="Variable to Table Row"]
+	248 [label="Column Rename"]
+	249 [label="Table Row to Variable"]
+	250 [label="String to Path _Variable_"]
+	254 [label="Java Edit Variable _simple_"]
+	254 [label="Java Edit Variable _simple_"]
+	1906 [label="Data Generator"]
+	1907 [label="Column Rename"]
+	1921 [label="DB Connector"]
+	1922 [label="DB SQL Executor"]
+	1923 [label="DB SQL Executor"]
+	1924 [label="DB Table Selector"]
+	1926 [label="DB SQL Executor"]
+	1927 [label="Parquet Writer"]
+	1928 [label="DB Table Selector"]
+	1929 [label="DB SQL Executor"]
+	1931 [label="DB Query"]
+	1933 [label="DB Reader"]
+	1934 [label="DB SQL Executor"]
+	1935 [label="DB Table Selector"]
+	1936 [label="DB Reader"]
+	1937 [label="DB Reader"]
+	1938 [label="DB Table Selector"]
+	1941 [label="DB GroupBy"]
+	1942 [label="DB Reader"]
+	1943 [label="DB Reader"]
+	1945 [label="DB Connection Extractor"]
+	1946 [label="CSV Writer"]
+	1947 [label="DB SQL Executor"]
+	1949 [label="DB Table Selector"]
+	1950 [label="DB Reader"]
+	1951 [label="DB Query Reader"]
+	1952 [label="DB Query Reader"]
+	1953 [label="DB Table Selector"]
+	1954 [label="DB Reader"]
+	1955 [label="Merge Variables"]
+	46 -> 249
+	47 -> 248
+	48 -> 47
+	57 -> 48
+	248 -> 46
+	249 -> 254
+	254 -> 250
+	56 -> 57
+	250 -> 1946
+	250 -> 1927
+	250 -> 254
+	254 -> 250
+	1906 -> 1907
+	1907 -> 1927
+	1907 -> 1946
+	1921 -> 1922
+	1921 -> 1928
+	1922 -> 1923
+	1922 -> 1934
+	1923 -> 1926
+	1923 -> 1947
+	1923 -> 1953
+	1924 -> 1933
+	1926 -> 1924
+	1927 -> 1928
+	1927 -> 1955
+	1928 -> 1931
+	1929 -> 1938
+	1931 -> 1943
+	1934 -> 1935
+	1934 -> 1929
+	1935 -> 1936
+	1936 -> 1938
+	1936 -> 1955
+	1938 -> 1937
+	1938 -> 1941
+	1941 -> 1942
+	1941 -> 1945
+	1942 -> 1945
+	1943 -> 1934
+	1945 -> 1951
+	1945 -> 1952
+	1946 -> 1947
+	1947 -> 1949
+	1949 -> 1950
+	1951 -> 1952
+	1953 -> 1954
+	1954 -> 1926
+	1955 -> 1929
+	rankdir=LR
+}

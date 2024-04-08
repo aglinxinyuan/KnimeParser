@@ -1,0 +1,227 @@
+digraph {
+	25 [label="Python Script _1_1_"]
+	26 [label="Python Source"]
+	27 [label="Column Filter"]
+	36 [label="Cell Replacer"]
+	41 [label="Nominal Value Row Filter"]
+	42 [label="Python Script _1_1_"]
+	43 [label=Auto_Binner]
+	7 [label="Column Filter"]
+	9 [label="Table Creator"]
+	10 [label=Joiner]
+	11 [label="Row Filter"]
+	99 [label=Partitioning]
+	101 [label="Decision Tree Predictor"]
+	103 [label="Decision Tree Learner"]
+	106 [label=Scorer]
+	107 [label="Value Counter"]
+	108 [label="Histogram _local_"]
+	109 [label="Decision Tree View"]
+	132 [label="Rule Engine"]
+	134 [label="Rule Engine"]
+	139 [label="Rule Engine"]
+	141 [label="Rule Engine"]
+	7 [label="Column Filter"]
+	9 [label="Table Creator"]
+	10 [label=Joiner]
+	11 [label="Row Filter"]
+	34 [label=Scorer]
+	37 [label="Tree Ensemble Predictor"]
+	38 [label="Lift Chart _local_"]
+	875 [label="Random Forest Learner"]
+	876 [label=Partitioning]
+	879 [label="Column Filter"]
+	883 [label=Statistics]
+	887 [label="Histogram _local_"]
+	888 [label="Rule Engine"]
+	889 [label="Missing Value"]
+	892 [label="Nominal Value Row Filter"]
+	3 [label=Partitioning]
+	4 [label="Gradient Boosted Trees Learner"]
+	5 [label="Gradient Boosted Trees Predictor"]
+	6 [label=Scorer]
+	7 [label="Column Filter"]
+	9 [label="Table Creator"]
+	10 [label=Joiner]
+	11 [label="Row Filter"]
+	1 [label="One to Many"]
+	2 [label=Partitioning]
+	3 [label="MultiLayerPerceptron Predictor"]
+	4 [label="RProp MLP Learner"]
+	5 [label="Column Filter"]
+	6 [label=Scorer]
+	7 [label="Column Filter"]
+	8 [label="Row Filter"]
+	9 [label="Table Creator"]
+	10 [label=Joiner]
+	33 [label="Table Creator"]
+	34 [label="Table Row To Variable Loop Start"]
+	36 [label="Loop End"]
+	38 [label="Variable to Table Row"]
+	45 [label="Cross Joiner"]
+	46 [label="Interactive Table _local_"]
+	47 [label=Sorter]
+	48 [label="Row Filter"]
+	49 [label="Column Filter"]
+	898 [label="Concatenate _Optional in_"]
+	45 [label="Column Filter"]
+	57 [label="Bar Chart"]
+	59 [label="Pie chart _local_"]
+	67 [label="Bar Chart"]
+	69 [label="Bar Chart"]
+	70 [label="Row Filter"]
+	71 [label="Bar Chart"]
+	72 [label="Row Filter"]
+	75 [label="Bar Chart"]
+	76 [label="Row Filter"]
+	77 [label="Bar Chart"]
+	78 [label="Row Filter"]
+	79 [label="Bar Chart"]
+	80 [label="Row Filter"]
+	98 [label="Bar Chart"]
+	108 [label="Bar Chart"]
+	110 [label="Bar Chart"]
+	111 [label="Bar Chart"]
+	117 [label="Bar Chart"]
+	119 [label="Bar Chart"]
+	120 [label="Bar Chart"]
+	121 [label="Bar Chart"]
+	122 [label="Bar Chart"]
+	123 [label="Bar Chart"]
+	112 [label="Value Counter"]
+	116 [label="Table Creator"]
+	125 [label=Joiner]
+	126 [label="Value Counter"]
+	133 [label="Value Counter"]
+	134 [label="Value Counter"]
+	135 [label="Value Counter"]
+	136 [label="Value Counter"]
+	141 [label=Joiner]
+	142 [label=Joiner]
+	143 [label=Joiner]
+	146 [label="Concatenate _Optional in_"]
+	131 [label="Bar Chart"]
+	884 [label=Statistics]
+	885 [label="Column Filter"]
+	900 [label=Sorter]
+	902 [label="Rule Engine"]
+	903 [label="Column Resorter"]
+	7 -> 11
+	9 -> 10
+	11 -> 10
+	99 -> 103
+	99 -> 101
+	101 -> 99
+	101 -> 106
+	103 -> 101
+	103 -> 109
+	106 -> 7
+	10 -> 108
+	7 -> 11
+	9 -> 10
+	11 -> 10
+	34 -> 7
+	37 -> 38
+	37 -> 34
+	875 -> 37
+	876 -> 875
+	876 -> 37
+	3 -> 5
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 11
+	9 -> 10
+	11 -> 10
+	1 -> 5
+	2 -> 3
+	2 -> 4
+	3 -> 6
+	4 -> 3
+	5 -> 2
+	6 -> 7
+	6 -> 38
+	7 -> 8
+	8 -> 45
+	9 -> 10
+	33 -> 34
+	34 -> 4
+	36 -> 47
+	38 -> 45
+	45 -> 36
+	47 -> 46
+	47 -> 49
+	48 -> 10
+	49 -> 48
+	112 -> 125
+	116 -> 125
+	116 -> 141
+	116 -> 142
+	116 -> 143
+	125 -> 146
+	126 -> 141
+	133 -> 143
+	134 -> 142
+	141 -> 146
+	142 -> 146
+	143 -> 146
+	45 -> 110
+	45 -> 98
+	45 -> 57
+	45 -> 121
+	45 -> 120
+	45 -> 59
+	45 -> 123
+	45 -> 122
+	45 -> 76
+	45 -> 78
+	45 -> 72
+	45 -> 75
+	45 -> 70
+	45 -> 128
+	45 -> 131
+	45 -> 67
+	45 -> 80
+	70 -> 69
+	72 -> 71
+	76 -> 77
+	78 -> 79
+	80 -> 117
+	80 -> 885
+	80 -> 119
+	80 -> 108
+	80 -> 111
+	885 -> 884
+	25 -> 41
+	26 -> 27
+	27 -> 25
+	36 -> 43
+	41 -> 42
+	41 -> 36
+	41 -> 899
+	42 -> 36
+	43 -> 887
+	43 -> 902
+	10 -> 898
+	132 -> 134
+	134 -> 139
+	139 -> 141
+	141 -> 888
+	10 -> 898
+	879 -> 901
+	888 -> 889
+	888 -> 883
+	889 -> 892
+	892 -> 879
+	10 -> 898
+	10 -> 898
+	898 -> 903
+	901 -> 876
+	901 -> 99
+	901 -> 1
+	901 -> 3
+	902 -> 132
+	903 -> 900
+	rankdir=LR
+}

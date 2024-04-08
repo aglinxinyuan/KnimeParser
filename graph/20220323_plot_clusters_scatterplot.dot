@@ -1,0 +1,23 @@
+digraph {
+	2447 [label="CSV Reader"]
+	2451 [label="Column Filter"]
+	2452 [label="Column Filter"]
+	2453 [label="CSV Reader"]
+	2454 [label=Partitioning]
+	2455 [label="Random Forest Predictor _Regression_"]
+	2461 [label="Random Forest Predictor _Regression_"]
+	2462 [label="Scatter Plot"]
+	2463 [label="Scatter Plot"]
+	2464 [label="Random Forest Learner _Regression_"]
+	2447 -> 2451
+	2451 -> 2454
+	2452 -> 2461
+	2453 -> 2452
+	2454 -> 2455
+	2454 -> 2464
+	2455 -> 2462
+	2461 -> 2463
+	2464 -> 2455
+	2464 -> 2461
+	rankdir=LR
+}

@@ -1,0 +1,44 @@
+digraph {
+	225 [label="Container Output _Table_"]
+	226 [label="DB GroupBy _Labs_"]
+	227 [label="Parameterized DB Query Reader _Labs_"]
+	228 [label="Container Input _Table_"]
+	229 [label="Table Creator"]
+	230 [label="DB Sorter _Labs_"]
+	231 [label="DB Sorter _Labs_"]
+	232 [label="DB GroupBy _Labs_"]
+	234 [label="Parameterized DB Query Reader _Labs_"]
+	235 [label="Container Output _Table_"]
+	3 [label="DB Table Selector _Labs_"]
+	4 [label="DB Table Selector _Labs_"]
+	5 [label="DB Joiner _Labs_"]
+	193 [label="DB Joiner _Labs_"]
+	194 [label="DB Column Rename _Labs_"]
+	207 [label="DB Table Selector _Labs_"]
+	236 [label="PostgreSQL Connector _Labs_"]
+	237 [label="WrappedNode Input"]
+	238 [label="WrappedNode Output"]
+	239 [label="Credentials Configuration"]
+	3 -> 5
+	4 -> 193
+	5 -> 194
+	193 -> 238
+	194 -> 193
+	207 -> 5
+	236 -> 207
+	236 -> 4
+	236 -> 3
+	239 -> 236
+	226 -> 230
+	227 -> 225
+	228 -> 227
+	228 -> 234
+	229 -> 228
+	230 -> 227
+	231 -> 234
+	232 -> 231
+	234 -> 235
+	238 -> 232
+	238 -> 226
+	rankdir=LR
+}

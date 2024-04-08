@@ -1,0 +1,57 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	5 [label="CSV Reader"]
+	7 [label="Row Filter"]
+	25 [label="SQLite Connector"]
+	26 [label="Excel Reader"]
+	27 [label="DB Reader"]
+	28 [label="DB Table Selector"]
+	30 [label="String To Number"]
+	39 [label="Row Filter"]
+	41 [label="Row Filter"]
+	42 [label="Missing Value Column Filter"]
+	44 [label="Constant Value Column Filter"]
+	45 [label="Missing Value"]
+	46 [label=Concatenate]
+	47 [label=Joiner]
+	48 [label="Category To Number"]
+	49 [label="Math Formula"]
+	51 [label="Math Formula"]
+	56 [label="Number To String"]
+	140 [label="Column Filter"]
+	141 [label="Constant Value Column Filter"]
+	142 [label="Missing Value"]
+	143 [label="Row Filter"]
+	144 [label="Row Filter"]
+	145 [label="Row Filter"]
+	146 [label="String To Number"]
+	147 [label="Missing Value Column Filter"]
+	2 -> 47
+	5 -> 7
+	5 -> 47
+	7 -> 30
+	25 -> 28
+	27 -> 144
+	28 -> 27
+	30 -> 39
+	39 -> 41
+	41 -> 42
+	42 -> 44
+	44 -> 45
+	45 -> 46
+	45 -> 49
+	48 -> 51
+	49 -> 48
+	51 -> 56
+	56 -> 140
+	141 -> 142
+	142 -> 46
+	143 -> 145
+	144 -> 146
+	145 -> 147
+	146 -> 143
+	147 -> 141
+	rankdir=LR
+}

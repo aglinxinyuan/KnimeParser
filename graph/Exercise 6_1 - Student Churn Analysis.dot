@@ -1,0 +1,35 @@
+digraph {
+	11 [label="Rule_based Row Filter"]
+	13 [label=Partitioning]
+	14 [label="Number To String"]
+	19 [label="Rule_based Row Filter"]
+	21 [label="Interactive Table"]
+	22 [label="Random Forest Learner"]
+	23 [label="Random Forest Predictor"]
+	24 [label="Random Forest Predictor"]
+	25 [label=Sorter]
+	26 [label=Statistics]
+	27 [label="Linear Correlation"]
+	28 [label="Correlation Filter"]
+	30 [label="Reference Column Filter"]
+	32 [label=Scorer]
+	33 [label="CSV Reader"]
+	27 -> 28
+	27 -> 28
+	28 -> 30
+	11 -> 14
+	13 -> 27
+	13 -> 23
+	14 -> 13
+	19 -> 24
+	22 -> 23
+	22 -> 24
+	23 -> 32
+	24 -> 25
+	25 -> 26
+	25 -> 21
+	30 -> 22
+	33 -> 11
+	33 -> 19
+	rankdir=LR
+}

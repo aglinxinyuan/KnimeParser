@@ -1,0 +1,48 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	294 [label="Math Formula"]
+	297 [label=GroupBy]
+	298 [label="Table Row to Variable"]
+	300 [label="Group Loop Start"]
+	301 [label=Transpose]
+	303 [label="Table Column to Variable"]
+	304 [label="Rule Engine"]
+	305 [label="String Manipulation"]
+	307 [label="String Manipulation"]
+	312 [label="Loop End"]
+	313 [label="Column Rename _Regex_"]
+	314 [label=GroupBy]
+	315 [label="Cross Joiner"]
+	316 [label=Sorter]
+	319 [label="R Source _Table_"]
+	321 [label="Cell Replacer"]
+	322 [label=Unpivoting]
+	323 [label=Pivoting]
+	324 [label=RowID]
+	325 [label=RowID]
+	1 -> 294
+	2 -> 307
+	294 -> 321
+	294 -> 297
+	297 -> 298
+	298 -> 319
+	300 -> 301
+	300 -> 315
+	301 -> 313
+	303 -> 304
+	304 -> 314
+	305 -> 303
+	307 -> 304
+	312 -> 316
+	313 -> 305
+	314 -> 315
+	315 -> 312
+	316 -> 325
+	319 -> 322
+	321 -> 323
+	322 -> 321
+	323 -> 324
+	324 -> 300
+	rankdir=LR
+}

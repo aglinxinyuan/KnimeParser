@@ -1,0 +1,84 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Number To String"]
+	3 [label=Statistics]
+	4 [label="Scatter Plot _JavaScript_"]
+	6 [label="Numeric Outliers"]
+	7 [label=Statistics]
+	8 [label="Missing Value"]
+	13 [label="Linear Correlation"]
+	14 [label="Correlation Filter"]
+	18 [label=Scorer]
+	19 [label="Random Forest Learner"]
+	20 [label="Random Forest Predictor"]
+	21 [label=Scorer]
+	83 [label=X_Partitioner]
+	84 [label=X_Aggregator]
+	85 [label=X_Aggregator]
+	87 [label=Normalizer]
+	88 [label=X_Partitioner]
+	89 [label="K Nearest Neighbor"]
+	93 [label="Box Plot"]
+	94 [label=Statistics]
+	95 [label=SMOTE]
+	96 [label=X_Partitioner]
+	97 [label=SMOTE]
+	98 [label="Decision Tree Learner"]
+	99 [label="Decision Tree Predictor"]
+	100 [label=X_Aggregator]
+	101 [label=Scorer]
+	2 [label="Feature Selection Loop End"]
+	3 [label="Feature Selection Filter"]
+	6 [label=Partitioning]
+	7 [label=Scorer]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	10 [label="Random Forest Learner"]
+	11 [label="Random Forest Predictor"]
+	103 [label="Color Manager"]
+	104 [label="Histogram _interactive_"]
+	105 [label=SMOTE]
+	2 -> 3
+	6 -> 10
+	6 -> 11
+	7 -> 2
+	8 -> 6
+	10 -> 11
+	11 -> 7
+	1 -> 2
+	2 -> 3
+	2 -> 6
+	2 -> 4
+	2 -> 93
+	6 -> 8
+	6 -> 94
+	8 -> 13
+	8 -> 14
+	8 -> 7
+	13 -> 14
+	14 -> 87
+	14 -> 83
+	14 -> 3
+	14 -> 3
+	14 -> 96
+	19 -> 20
+	20 -> 85
+	83 -> 20
+	83 -> 105
+	84 -> 18
+	85 -> 21
+	85 -> 103
+	87 -> 88
+	88 -> 89
+	88 -> 95
+	89 -> 84
+	95 -> 89
+	96 -> 97
+	96 -> 99
+	97 -> 98
+	98 -> 99
+	99 -> 100
+	100 -> 101
+	103 -> 104
+	105 -> 19
+	rankdir=LR
+}

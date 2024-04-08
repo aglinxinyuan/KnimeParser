@@ -1,0 +1,32 @@
+digraph {
+	1 [label="Google Drive Connector"]
+	2 [label="Google Authenticator"]
+	3 [label="Amazon S3 Connector"]
+	7 [label="Google Sheets Connector"]
+	8 [label="Google Sheets Reader"]
+	10 [label="Amazon Authenticator"]
+	11 [label="Python Script"]
+	13 [label="Conda Environment Propagation"]
+	15 [label="Row Filter"]
+	16 [label="Constant Value Column"]
+	17 [label="Excel Reader"]
+	18 [label="Column Filter"]
+	19 [label="Column Renamer"]
+	20 [label="CSV Writer"]
+	21 [label="Constant Value Column"]
+	22 [label="Constant Value Column"]
+	2 -> 1
+	2 -> 7
+	7 -> 8
+	8 -> 15
+	10 -> 3
+	13 -> 11
+	15 -> 18
+	16 -> 22
+	16 -> 21
+	18 -> 19
+	19 -> 16
+	21 -> 11
+	21 -> 20
+	rankdir=LR
+}

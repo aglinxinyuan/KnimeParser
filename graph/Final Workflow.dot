@@ -1,0 +1,141 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="String To Number"]
+	3 [label=Statistics]
+	4 [label="Box Plot _local_"]
+	5 [label="Conditional Box Plot"]
+	6 [label="Scatter Plot _local_"]
+	7 [label="Linear Correlation"]
+	8 [label="Extract Date_Time Fields"]
+	14 [label="Missing Value Column Filter"]
+	15 [label="Missing Value"]
+	16 [label="Row Filter"]
+	19 [label="String to Date_Time"]
+	20 [label="String to Date_Time"]
+	54 [label=Joiner]
+	55 [label="Excel Reader"]
+	56 [label="String to Date_Time"]
+	58 [label=Partitioning]
+	59 [label="Linear Regression Learner"]
+	60 [label="Regression Predictor"]
+	61 [label="Column Filter"]
+	62 [label="Line Plot _local_"]
+	63 [label="Simple Regression Tree Learner"]
+	64 [label="Simple Regression Tree Predictor"]
+	65 [label="Random Forest Learner _Regression_"]
+	66 [label="Random Forest Predictor _Regression_"]
+	68 [label="Scorer _deprecated_"]
+	70 [label="Column Filter"]
+	71 [label="Line Plot _local_"]
+	72 [label="Numeric Scorer"]
+	73 [label="Column Filter"]
+	74 [label="Line Plot _local_"]
+	75 [label="Numeric Scorer"]
+	76 [label="Numeric Scorer"]
+	77 [label="Missing Value"]
+	78 [label="Row Filter"]
+	79 [label="Numeric Binner"]
+	80 [label="String Manipulation"]
+	81 [label="Row Filter"]
+	82 [label="Row Filter"]
+	83 [label="Decision Tree Learner"]
+	84 [label="Decision Tree Predictor"]
+	85 [label=Partitioning]
+	86 [label="Decision Tree Predictor"]
+	87 [label="Decision Tree Learner"]
+	88 [label=Scorer]
+	89 [label=Scorer]
+	90 [label="Excel Reader"]
+	91 [label=Joiner]
+	92 [label=Statistics]
+	93 [label="Linear Correlation"]
+	97 [label="Scorer _deprecated_"]
+	98 [label="Scorer _deprecated_"]
+	99 [label="Column Rename"]
+	102 [label="Decision Tree View"]
+	103 [label="Column Filter"]
+	104 [label="Decision Tree View"]
+	105 [label="Decision Tree View"]
+	106 [label="Decision Tree Learner"]
+	107 [label="Decision Tree Predictor"]
+	108 [label=Partitioning]
+	110 [label="Decision Tree View"]
+	111 [label="Decision Tree Predictor"]
+	112 [label="Decision Tree Learner"]
+	113 [label=Scorer]
+	114 [label=Scorer]
+	1 -> 19
+	2 -> 3
+	2 -> 6
+	2 -> 7
+	2 -> 4
+	2 -> 5
+	2 -> 8
+	8 -> 77
+	14 -> 16
+	15 -> 79
+	16 -> 99
+	19 -> 20
+	20 -> 80
+	54 -> 91
+	55 -> 56
+	56 -> 54
+	58 -> 59
+	58 -> 63
+	58 -> 60
+	58 -> 66
+	58 -> 64
+	58 -> 65
+	59 -> 60
+	60 -> 61
+	60 -> 97
+	60 -> 76
+	61 -> 62
+	63 -> 64
+	64 -> 68
+	64 -> 70
+	64 -> 72
+	65 -> 66
+	66 -> 75
+	66 -> 73
+	66 -> 98
+	70 -> 71
+	73 -> 74
+	77 -> 14
+	78 -> 81
+	79 -> 54
+	80 -> 2
+	81 -> 15
+	82 -> 93
+	82 -> 58
+	83 -> 84
+	83 -> 102
+	84 -> 88
+	84 -> 102
+	85 -> 84
+	85 -> 87
+	85 -> 86
+	85 -> 83
+	86 -> 89
+	87 -> 86
+	87 -> 104
+	90 -> 91
+	91 -> 92
+	91 -> 82
+	91 -> 108
+	91 -> 103
+	99 -> 78
+	103 -> 85
+	106 -> 107
+	106 -> 110
+	107 -> 110
+	107 -> 113
+	108 -> 111
+	108 -> 106
+	108 -> 107
+	108 -> 112
+	111 -> 114
+	112 -> 105
+	112 -> 111
+	rankdir=LR
+}

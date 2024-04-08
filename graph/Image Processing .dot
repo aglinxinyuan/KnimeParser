@@ -1,0 +1,20 @@
+digraph {
+	3 [label="List Files_Folders"]
+	4 [label="Global Thresholder"]
+	5 [label="Connected Component Analysis"]
+	6 [label="Waehlby Cell Clump Splitter"]
+	7 [label="Labeling Filter"]
+	8 [label="Image Segment Features"]
+	10 [label="Gaussian Convolution"]
+	11 [label="Image Reader _Table_"]
+	12 [label="Path to String"]
+	3 -> 12
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	10 -> 4
+	11 -> 10
+	12 -> 11
+	rankdir=LR
+}

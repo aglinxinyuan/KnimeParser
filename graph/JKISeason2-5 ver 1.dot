@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	3 [label=Rank]
+	4 [label=Rank]
+	5 [label="Row Filter _Labs_"]
+	6 [label="Row Filter _Labs_"]
+	7 [label="Column Filter"]
+	8 [label="Column Filter"]
+	9 [label="Reference Row Filter"]
+	10 [label="Reference Row Filter"]
+	1 -> 2
+	1 -> 9
+	1 -> 10
+	2 -> 3
+	2 -> 4
+	3 -> 5
+	4 -> 6
+	5 -> 7
+	6 -> 8
+	7 -> 9
+	8 -> 10
+	rankdir=LR
+}

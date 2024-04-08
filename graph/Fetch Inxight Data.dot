@@ -1,0 +1,33 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String Manipulation"]
+	4 [label="GET Request"]
+	5 [label="String Manipulation"]
+	6 [label="GET Request"]
+	7 [label="Column Renamer"]
+	8 [label="Column Renamer"]
+	9 [label=Joiner]
+	10 [label="Column Filter"]
+	11 [label="Column Filter"]
+	12 [label="JSON Path"]
+	13 [label="JSON Path"]
+	14 [label="Molecule Type Cast"]
+	15 [label="RDKit Canon SMILES"]
+	16 [label="RDKit To InChI"]
+	1 -> 2
+	1 -> 5
+	2 -> 4
+	4 -> 10
+	5 -> 6
+	6 -> 11
+	7 -> 9
+	8 -> 9
+	9 -> 12
+	10 -> 7
+	11 -> 8
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	rankdir=LR
+}

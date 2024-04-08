@@ -1,0 +1,24 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	6 [label="Cross Joiner"]
+	286 [label="String Manipulation"]
+	1676 [label=Pivoting]
+	1677 [label=RowID]
+	1678 [label="Column Aggregator"]
+	1679 [label="String Manipulation"]
+	1680 [label="Row Filter"]
+	1681 [label="Math Formula"]
+	1682 [label=Sorter]
+	1 -> 1681
+	2 -> 6
+	6 -> 286
+	286 -> 1676
+	1676 -> 1682
+	1677 -> 1678
+	1678 -> 1679
+	1679 -> 1680
+	1681 -> 6
+	1682 -> 1677
+	rankdir=LR
+}

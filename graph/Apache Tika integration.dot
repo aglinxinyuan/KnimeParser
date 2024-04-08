@@ -1,0 +1,46 @@
+digraph {
+	1 [label="Tika Language Detector"]
+	11 [label="Tika Parser"]
+	112 [label="Tika Parser URL Input"]
+	114 [label="Tika Language Detector"]
+	122 [label="Row Filter"]
+	113 [label=Concatenate]
+	119 [label="WrappedNode Input"]
+	120 [label="WrappedNode Output"]
+	121 [label="Strings To Document"]
+	122 [label="Stanford Tagger"]
+	5 [label="Column Filter"]
+	8 [label="Row Filter"]
+	10 [label="Row Filter"]
+	11 [label="WrappedNode Input"]
+	12 [label="WrappedNode Output"]
+	115 [label="Row Filter"]
+	116 [label="Row Filter"]
+	117 [label="Column Filter"]
+	118 [label="WrappedNode Input"]
+	119 [label="WrappedNode Output"]
+	127 [label="Bag Of Words Creator"]
+	113 -> 121
+	119 -> 113
+	119 -> 113
+	121 -> 122
+	122 -> 120
+	5 -> 12
+	8 -> 10
+	10 -> 5
+	11 -> 8
+	115 -> 116
+	116 -> 117
+	117 -> 119
+	118 -> 115
+	1 -> 125
+	11 -> 122
+	11 -> 112
+	112 -> 114
+	114 -> 126
+	122 -> 1
+	124 -> 127
+	125 -> 124
+	126 -> 124
+	rankdir=LR
+}

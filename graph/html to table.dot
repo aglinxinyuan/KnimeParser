@@ -1,0 +1,8 @@
+digraph {
+	1 [label="HTML Parser"]
+	3 [label="Table Creator"]
+	4 [label=XPath]
+	1 -> 4
+	3 -> 1
+	rankdir=LR
+}

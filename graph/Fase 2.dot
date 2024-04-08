@@ -1,0 +1,20 @@
+digraph {
+	12 [label="Column Filter"]
+	21 [label=Concatenate]
+	22 [label="Column Filter"]
+	24 [label="Missing Value Column Filter"]
+	25 [label="Excel Reader"]
+	26 [label="Excel Reader"]
+	27 [label="Duplicate Row Filter"]
+	28 [label="Statistics View"]
+	29 [label="Bar Chart"]
+	12 -> 21
+	21 -> 24
+	22 -> 21
+	24 -> 27
+	25 -> 12
+	26 -> 22
+	27 -> 28
+	27 -> 29
+	rankdir=LR
+}

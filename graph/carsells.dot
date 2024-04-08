@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="String Manipulation _Multi Column_"]
+	4 [label="Missing Value Column Filter"]
+	5 [label="Row Filter"]
+	6 [label=Sorter]
+	7 [label="Excel Writer"]
+	8 [label="Table to PDF"]
+	10 [label="Table Writer"]
+	11 [label="CSV Writer"]
+	12 [label="Table to HTML"]
+	13 [label="Row Filter"]
+	1 -> 4
+	3 -> 6
+	4 -> 5
+	5 -> 13
+	6 -> 7
+	6 -> 12
+	6 -> 10
+	6 -> 11
+	6 -> 8
+	13 -> 3
+	rankdir=LR
+}

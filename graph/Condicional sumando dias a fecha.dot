@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Table Creator"]
+	3 [label="Binner _Dictionary_"]
+	4 [label="Table Creator"]
+	6 [label="Rule_based Row Splitter"]
+	7 [label=Concatenate]
+	8 [label="Date_Time Shift"]
+	9 [label="Column Filter"]
+	1 -> 6
+	3 -> 8
+	4 -> 3
+	6 -> 3
+	6 -> 7
+	8 -> 9
+	9 -> 7
+	rankdir=LR
+}

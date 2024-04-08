@@ -1,0 +1,40 @@
+digraph {
+	11 [label="Python Script"]
+	13 [label="Conda Environment Propagation"]
+	16 [label="Constant Value Column"]
+	21 [label="Constant Value Column"]
+	883 [label="Google Sheets Reader"]
+	884 [label="Google Authenticator"]
+	885 [label="Google Sheets Connector"]
+	886 [label="Rule_based Row Filter"]
+	887 [label="Rule Engine"]
+	888 [label="Column Filter"]
+	889 [label="Column Renamer"]
+	890 [label="String Manipulation"]
+	891 [label="Google Sheets Appender"]
+	897 [label="Row Filter"]
+	898 [label="Google Sheets Reader"]
+	899 [label=Concatenate]
+	900 [label="Duplicate Row Filter"]
+	905 [label="Rule Engine"]
+	11 -> 899
+	11 -> 891
+	13 -> 11
+	16 -> 21
+	21 -> 11
+	883 -> 897
+	884 -> 885
+	885 -> 883
+	885 -> 891
+	885 -> 898
+	886 -> 887
+	887 -> 888
+	888 -> 889
+	889 -> 890
+	890 -> 16
+	897 -> 886
+	898 -> 899
+	899 -> 905
+	905 -> 900
+	rankdir=LR
+}

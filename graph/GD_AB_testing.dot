@@ -1,0 +1,69 @@
+digraph {
+	273 [label="Rule Engine"]
+	274 [label="Column Rename"]
+	280 [label="CSV Reader"]
+	281 [label="CSV Reader"]
+	282 [label=Transpose]
+	283 [label="Insert Column Header"]
+	284 [label="Column Rename"]
+	285 [label="Row Filter"]
+	286 [label="Row Filter"]
+	287 [label="Cell Splitter"]
+	289 [label="Column Combiner"]
+	290 [label="Column Resorter"]
+	291 [label="Row Filter"]
+	292 [label="CSV Reader"]
+	293 [label="Python Script"]
+	294 [label=Sorter]
+	299 [label=Joiner]
+	300 [label="Python Script"]
+	301 [label="Table Row To Variable Loop Start"]
+	302 [label="List Files_Folders"]
+	309 [label="Decompress Files"]
+	311 [label="Table Column to Variable"]
+	314 [label="Reference Row Filter"]
+	315 [label="CSV Writer"]
+	317 [label="Loop End"]
+	319 [label="Variable Loop End"]
+	320 [label="Column Filter"]
+	321 [label="CSV Reader"]
+	322 [label="Row Filter"]
+	323 [label="CSV Writer"]
+	325 [label="FTP Connection _legacy_"]
+	326 [label="List Remote Files _legacy_"]
+	327 [label="Download _legacy_"]
+	273 -> 274
+	274 -> 323
+	280 -> 283
+	281 -> 282
+	282 -> 283
+	283 -> 284
+	284 -> 285
+	285 -> 290
+	286 -> 299
+	287 -> 286
+	287 -> 314
+	287 -> 299
+	287 -> 291
+	289 -> 294
+	290 -> 289
+	291 -> 314
+	293 -> 300
+	294 -> 287
+	300 -> 320
+	301 -> 309
+	302 -> 301
+	302 -> 322
+	309 -> 311
+	311 -> 292
+	311 -> 281
+	311 -> 280
+	314 -> 293
+	315 -> 319
+	319 -> 317
+	320 -> 315
+	321 -> 273
+	325 -> 327
+	325 -> 326
+	rankdir=LR
+}

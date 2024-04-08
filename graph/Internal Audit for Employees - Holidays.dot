@@ -1,0 +1,22 @@
+digraph {
+	1 [label="CSV Reader"]
+	8 [label="Table Creator"]
+	9 [label="Table Row to Variable"]
+	10 [label="Rule_based Row Filter"]
+	15 [label=GroupBy]
+	42 [label="Rule Engine"]
+	74 [label="Microsoft Authentication"]
+	75 [label="Send to Power BI"]
+	76 [label="Excel Writer"]
+	77 [label="CSV Writer"]
+	1 -> 42
+	8 -> 9
+	9 -> 10
+	10 -> 75
+	10 -> 76
+	10 -> 77
+	15 -> 10
+	42 -> 15
+	74 -> 75
+	rankdir=LR
+}

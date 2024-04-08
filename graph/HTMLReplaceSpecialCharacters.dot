@@ -1,0 +1,8 @@
+digraph {
+	51 [label="String Manipulation"]
+	54 [label="String Manipulation"]
+	55 [label="Table Creator"]
+	54 -> 51
+	55 -> 54
+	rankdir=LR
+}

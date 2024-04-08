@@ -1,0 +1,25 @@
+digraph {
+	4 [label="Global Thresholder"]
+	6 [label="Connected Component Analysis"]
+	13 [label="Gaussian Convolution"]
+	20 [label="Image Reader"]
+	22 [label="Segment Cropper"]
+	26 [label="Apply Color Settings To Labels"]
+	30 [label="String To Number"]
+	41 [label="Labeling to RGB Img"]
+	53 [label="Row Filter"]
+	54 [label="Image Viewer"]
+	59 [label="Color Manager"]
+	4 -> 6
+	6 -> 22
+	6 -> 26
+	13 -> 4
+	20 -> 13
+	22 -> 53
+	26 -> 41
+	30 -> 59
+	41 -> 54
+	53 -> 30
+	59 -> 26
+	rankdir=LR
+}

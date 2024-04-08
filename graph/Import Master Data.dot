@@ -1,0 +1,48 @@
+digraph {
+	1 [label="Excel Reader"]
+	6 [label="Microsoft SQL Server Connector"]
+	7 [label="DB Table Creator"]
+	8 [label="DB Loader"]
+	9 [label="Column Rename"]
+	10 [label="DB Table Remover"]
+	13 [label="DB Loader"]
+	15 [label="DB Table Remover"]
+	16 [label="Excel Reader"]
+	17 [label="DB Table Remover"]
+	18 [label="DB Table Remover"]
+	19 [label="DB Table Creator"]
+	20 [label="DB Loader"]
+	21 [label="Column Rename"]
+	22 [label="Excel Reader"]
+	23 [label="DB Table Creator"]
+	24 [label="DB Loader"]
+	25 [label="Column Rename"]
+	26 [label="Excel Reader"]
+	27 [label="Column Rename"]
+	28 [label="DB Table Creator"]
+	1 -> 9
+	6 -> 15
+	6 -> 10
+	6 -> 18
+	6 -> 17
+	7 -> 8
+	7 -> 8
+	9 -> 7
+	10 -> 7
+	15 -> 28
+	16 -> 27
+	17 -> 19
+	18 -> 23
+	19 -> 20
+	19 -> 20
+	21 -> 19
+	22 -> 21
+	23 -> 24
+	23 -> 24
+	25 -> 23
+	26 -> 25
+	27 -> 28
+	28 -> 13
+	28 -> 13
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	10 [label="Get PDB"]
+	11 [label="Protein Preparation Wizard"]
+	12 [label="Split by Structure"]
+	14 [label=LigPrep]
+	15 [label="Row Splitter"]
+	16 [label="Run Maestro"]
+	17 [label="Covalent Docking"]
+	18 [label="Ungroup MAE"]
+	19 [label="Extract Properties"]
+	20 [label=Sorter]
+	21 [label="Molecule Writer _from MAE_"]
+	10 -> 11
+	11 -> 12
+	12 -> 15
+	14 -> 17
+	15 -> 14
+	15 -> 17
+	17 -> 18
+	18 -> 19
+	18 -> 21
+	19 -> 20
+	20 -> 16
+	rankdir=LR
+}

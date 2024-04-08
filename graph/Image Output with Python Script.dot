@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Python Script _Labs_"]
+	2 [label="Python Script _Labs_"]
+	3 [label="Image Output Widget"]
+	4 [label="Image Output Widget"]
+	5 [label="CSV Reader"]
+	6 [label="Python Script _Labs_"]
+	7 [label="Image Output Widget"]
+	1 -> 3
+	2 -> 4
+	5 -> 1
+	6 -> 7
+	rankdir=LR
+}

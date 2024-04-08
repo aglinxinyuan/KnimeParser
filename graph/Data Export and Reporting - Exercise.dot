@@ -1,0 +1,27 @@
+digraph {
+	2 [label=Pivoting]
+	4 [label=Sorter]
+	6 [label="Color Manager"]
+	7 [label="Bar Chart"]
+	8 [label="Extract Column Header"]
+	9 [label=Transpose]
+	12 [label="Rule Engine"]
+	13 [label="Table Reader"]
+	14 [label=GroupBy]
+	15 [label="CSV Writer"]
+	16 [label="Data to Report"]
+	17 [label="Image to Report"]
+	2 -> 12
+	4 -> 16
+	6 -> 7
+	7 -> 17
+	8 -> 9
+	9 -> 6
+	12 -> 8
+	12 -> 4
+	12 -> 7
+	13 -> 2
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

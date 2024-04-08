@@ -1,0 +1,25 @@
+digraph {
+	2 [label="Column Filter"]
+	10 [label="Data Explorer"]
+	1 [label="File Reader"]
+	13 [label="Google Drive Connector"]
+	15 [label="Google Authentication"]
+	3 [label="Column List Loop Start"]
+	4 [label="Target Shuffling"]
+	5 [label="Loop End _Column Append_"]
+	7 [label="Row Filter"]
+	8 [label="Row Filter"]
+	9 [label="Table Difference Finder"]
+	13 -> 1
+	15 -> 13
+	3 -> 4
+	4 -> 5
+	7 -> 9
+	8 -> 9
+	2 -> 3
+	2 -> 18
+	16 -> 2
+	16 -> 10
+	5 -> 18
+	rankdir=LR
+}

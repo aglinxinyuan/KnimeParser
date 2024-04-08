@@ -1,0 +1,46 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Number To String"]
+	3 [label="String Replacer"]
+	4 [label="String Replacer"]
+	5 [label="Column Filter"]
+	13 [label=SMOTE]
+	6 [label=Partitioning]
+	9 [label="Random Forest Predictor"]
+	10 [label="Random Forest Learner"]
+	7 [label="Decision Tree Learner"]
+	8 [label="Decision Tree Predictor"]
+	6 [label=Partitioning]
+	9 [label="Random Forest Predictor"]
+	10 [label="Random Forest Learner"]
+	7 [label="Decision Tree Learner"]
+	8 [label="Decision Tree Predictor"]
+	18 [label="Scorer _JavaScript_"]
+	19 [label="Scorer _JavaScript_"]
+	20 [label="Scorer _JavaScript_"]
+	21 [label="Scorer _JavaScript_"]
+	10 -> 9
+	7 -> 8
+	6 -> 9
+	6 -> 9
+	6 -> 7
+	6 -> 7
+	10 -> 9
+	7 -> 8
+	6 -> 9
+	6 -> 9
+	6 -> 7
+	6 -> 7
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	5 -> 13
+	13 -> 6
+	8 -> 18
+	8 -> 19
+	8 -> 21
+	8 -> 20
+	rankdir=LR
+}

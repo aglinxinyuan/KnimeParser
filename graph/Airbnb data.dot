@@ -1,0 +1,24 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Row Filter"]
+	4 [label="Row Filter"]
+	5 [label="Missing Value"]
+	7 [label="String Manipulation _Multi Column_"]
+	8 [label="String To Number"]
+	9 [label="Math Formula"]
+	10 [label=GroupBy]
+	11 [label="String Manipulation"]
+	12 [label="String Manipulation"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 12
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	11 -> 7
+	12 -> 11
+	rankdir=LR
+}

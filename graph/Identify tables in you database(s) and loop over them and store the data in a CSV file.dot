@@ -1,0 +1,107 @@
+digraph {
+	2 [label="H2 Connector"]
+	444 [label="Table Row To Variable Loop Start"]
+	464 [label="SQLite Connector"]
+	465 [label="DB Query Reader"]
+	466 [label="DB Table Selector"]
+	472 [label="DB Query Reader"]
+	473 [label="Rule_based Row Filter"]
+	475 [label="DB Reader"]
+	476 [label="Loop End"]
+	6 [label="Data Generator"]
+	13 [label="Java Edit Variable _simple_"]
+	68 [label="DB Table Remover"]
+	75 [label="DB Writer"]
+	255 [label=Partitioning]
+	256 [label=Partitioning]
+	257 [label=Partitioning]
+	258 [label="Excel Writer"]
+	259 [label="Excel Writer"]
+	260 [label="Excel Writer"]
+	261 [label="Excel Writer"]
+	266 [label="Constant Value Column"]
+	267 [label="Constant Value Column"]
+	268 [label="Constant Value Column"]
+	269 [label="Constant Value Column"]
+	441 [label="DB Writer"]
+	443 [label="Read Excel Sheet Names"]
+	445 [label="Excel Reader"]
+	446 [label="Variable Loop End"]
+	447 [label="Merge Variables"]
+	474 [label="Column Rename"]
+	477 [label="DB SQL Executor"]
+	478 [label="Table Row To Variable Loop Start"]
+	479 [label="DB Table Creator"]
+	482 [label="Merge Variables"]
+	1869 [label="DB Query Reader"]
+	1870 [label="Rule_based Row Filter"]
+	1871 [label="Table Row To Variable Loop Start"]
+	1872 [label="Java Edit Variable _simple_"]
+	1873 [label=Sorter]
+	1874 [label="Delete Files_Folders"]
+	1875 [label="Try _Variable Ports_"]
+	1876 [label="Catch Errors _Var Ports_"]
+	1877 [label="Merge Variables"]
+	1878 [label="CSV Writer"]
+	1879 [label="Variable Loop End"]
+	1880 [label="CSV Writer"]
+	6 -> 474
+	13 -> 447
+	68 -> 479
+	75 -> 482
+	255 -> 257
+	255 -> 256
+	256 -> 268
+	256 -> 269
+	257 -> 267
+	257 -> 266
+	258 -> 260
+	259 -> 261
+	260 -> 259
+	261 -> 443
+	266 -> 258
+	267 -> 260
+	268 -> 259
+	269 -> 261
+	441 -> 482
+	443 -> 478
+	443 -> 13
+	445 -> 441
+	445 -> 477
+	445 -> 479
+	445 -> 68
+	447 -> 445
+	474 -> 255
+	477 -> 441
+	478 -> 447
+	479 -> 75
+	479 -> 75
+	482 -> 446
+	2 -> 1869
+	2 -> 472
+	2 -> 479
+	444 -> 466
+	464 -> 465
+	464 -> 466
+	464 -> 479
+	465 -> 473
+	466 -> 475
+	472 -> 1878
+	473 -> 444
+	475 -> 476
+	476 -> 1880
+	1869 -> 1870
+	1870 -> 1873
+	1871 -> 1872
+	1872 -> 472
+	1873 -> 1875
+	1873 -> 1871
+	1874 -> 1876
+	1875 -> 1874
+	1875 -> 1876
+	1876 -> 1877
+	1876 -> 1877
+	1877 -> 1871
+	1878 -> 1879
+	rankdir=LR
+}

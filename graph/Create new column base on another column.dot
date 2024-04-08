@@ -1,0 +1,13 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label=GroupBy]
+	3 [label=Joiner]
+	4 [label="Column Aggregator"]
+	5 [label="Rule Engine"]
+	1 -> 2
+	1 -> 3
+	2 -> 4
+	4 -> 5
+	5 -> 3
+	rankdir=LR
+}

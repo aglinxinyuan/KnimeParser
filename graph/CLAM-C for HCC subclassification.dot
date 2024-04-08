@@ -1,0 +1,22 @@
+digraph {
+	370 [label="XGBoost Tree Ensemble Learner"]
+	379 [label="CSV Reader"]
+	380 [label="Number To String"]
+	381 [label=Partitioning]
+	430 [label="Number To String"]
+	431 [label="XGBoost Predictor"]
+	432 [label="CSV Writer"]
+	433 [label="ROC Curve"]
+	434 [label="CSV Reader"]
+	448 [label="Scorer _deprecated_"]
+	370 -> 431
+	379 -> 380
+	380 -> 381
+	381 -> 370
+	430 -> 431
+	431 -> 433
+	431 -> 432
+	431 -> 448
+	434 -> 430
+	rankdir=LR
+}

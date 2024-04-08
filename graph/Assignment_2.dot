@@ -1,0 +1,109 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Number To String"]
+	3 [label=Partitioning]
+	4 [label=Partitioning]
+	5 [label="Naive Bayes Learner"]
+	6 [label="Naive Bayes Predictor"]
+	8 [label="Missing Value Column Filter"]
+	9 [label="Duplicate Row Filter"]
+	10 [label="Number To String"]
+	11 [label="Missing Value"]
+	12 [label=Statistics]
+	13 [label=Histogram]
+	14 [label=Histogram]
+	16 [label="Bar Chart"]
+	17 [label="Bar Chart"]
+	18 [label="Bar Chart"]
+	19 [label="Bar Chart"]
+	20 [label="Bar Chart"]
+	21 [label="Bar Chart"]
+	22 [label="Density Plot"]
+	25 [label="Density Plot"]
+	26 [label="Density Plot"]
+	27 [label="Density Plot"]
+	28 [label="Density Plot"]
+	29 [label="Box Plot"]
+	30 [label="Box Plot"]
+	32 [label="Box Plot"]
+	33 [label="Box Plot"]
+	34 [label="Box Plot"]
+	35 [label=Scorer]
+	36 [label="ROC Curve"]
+	37 [label="Naive Bayes Predictor"]
+	38 [label=Scorer]
+	39 [label="ROC Curve"]
+	40 [label="Naive Bayes Learner"]
+	41 [label="Random Forest Learner"]
+	42 [label="Random Forest Predictor"]
+	43 [label=Scorer]
+	44 [label="ROC Curve"]
+	45 [label="Random Forest Learner"]
+	46 [label="Random Forest Predictor"]
+	47 [label=Scorer]
+	48 [label="ROC Curve"]
+	49 [label="Decision Tree Learner"]
+	50 [label="Decision Tree Predictor"]
+	51 [label=Scorer]
+	52 [label="ROC Curve"]
+	53 [label="Gradient Boosted Trees Predictor"]
+	54 [label="Gradient Boosted Trees Learner"]
+	55 [label=Scorer]
+	56 [label="ROC Curve"]
+	1 -> 9
+	3 -> 6
+	3 -> 5
+	3 -> 42
+	3 -> 41
+	3 -> 50
+	3 -> 49
+	4 -> 37
+	4 -> 45
+	4 -> 46
+	4 -> 40
+	4 -> 53
+	4 -> 54
+	5 -> 6
+	6 -> 36
+	6 -> 35
+	8 -> 10
+	9 -> 8
+	10 -> 11
+	11 -> 14
+	11 -> 13
+	11 -> 12
+	11 -> 3
+	11 -> 4
+	11 -> 27
+	11 -> 26
+	11 -> 25
+	11 -> 30
+	11 -> 29
+	11 -> 28
+	11 -> 19
+	11 -> 18
+	11 -> 17
+	11 -> 16
+	11 -> 22
+	11 -> 21
+	11 -> 20
+	11 -> 34
+	11 -> 33
+	11 -> 32
+	37 -> 39
+	37 -> 38
+	40 -> 37
+	41 -> 42
+	42 -> 43
+	42 -> 44
+	45 -> 46
+	46 -> 47
+	46 -> 48
+	49 -> 50
+	50 -> 51
+	50 -> 52
+	53 -> 55
+	53 -> 56
+	54 -> 53
+	rankdir=LR
+}

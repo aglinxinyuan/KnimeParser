@@ -1,0 +1,27 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Extract Date_Time Fields"]
+	5 [label="Date_Time Shift"]
+	6 [label="Extract Date_Time Fields"]
+	7 [label="Math Formula"]
+	8 [label="Math Formula"]
+	9 [label=GroupBy]
+	10 [label="Column Rename"]
+	11 [label=Joiner]
+	12 [label=Sorter]
+	13 [label="Column Filter"]
+	14 [label="Excel Sheet Appender _XLS_"]
+	1 -> 2
+	2 -> 7
+	5 -> 6
+	6 -> 8
+	7 -> 5
+	8 -> 9
+	8 -> 11
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	rankdir=LR
+}

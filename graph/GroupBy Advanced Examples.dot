@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Table Reader"]
+	6 [label=GroupBy]
+	8 [label=GroupBy]
+	9 [label=GroupBy]
+	10 [label=GroupBy]
+	11 [label=GroupBy]
+	1 -> 6
+	1 -> 9
+	1 -> 8
+	1 -> 11
+	1 -> 10
+	rankdir=LR
+}

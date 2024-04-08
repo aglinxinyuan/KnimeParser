@@ -1,0 +1,19 @@
+digraph {
+	18 [label="Row Aggregator"]
+	19 [label=Sorter]
+	20 [label="Constant Value Column"]
+	21 [label="Column Resorter"]
+	22 [label=Concatenate]
+	23 [label="Excel Writer"]
+	24 [label="Excel Reader"]
+	25 [label="Column Filter"]
+	18 -> 19
+	18 -> 20
+	19 -> 22
+	20 -> 21
+	21 -> 22
+	22 -> 23
+	24 -> 25
+	25 -> 18
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	1 [label="Excel Reader"]
+	6 [label="Rule Engine"]
+	7 [label="Rule Engine"]
+	8 [label="Column Appender"]
+	9 [label="Column Filter"]
+	10 [label="Row Filter"]
+	11 [label="Interactive Histogram _local_"]
+	12 [label=Statistics]
+	13 [label="Rule Engine"]
+	15 [label="Row Filter"]
+	16 [label=GroupBy]
+	17 [label=GroupBy]
+	19 [label="Box Plot _local_"]
+	1 -> 7
+	1 -> 6
+	1 -> 13
+	6 -> 8
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	10 -> 12
+	10 -> 19
+	10 -> 16
+	13 -> 15
+	15 -> 17
+	rankdir=LR
+}

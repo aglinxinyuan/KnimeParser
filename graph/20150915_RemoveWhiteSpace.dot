@@ -1,0 +1,24 @@
+digraph {
+	106 [label="Table Creator"]
+	107 [label="Table Creator"]
+	113 [label="Column Rename"]
+	108 [label="Create Collection Column"]
+	109 [label="Create Collection Column"]
+	110 [label="Column Filter"]
+	111 [label="Column Filter"]
+	112 [label=Joiner]
+	129 [label="Column Aggregator"]
+	132 [label="Column Rename"]
+	135 [label="Java Snippet"]
+	108 -> 110
+	109 -> 111
+	110 -> 112
+	111 -> 112
+	106 -> 109
+	107 -> 109
+	113 -> 129
+	113 -> 135
+	112 -> 113
+	129 -> 132
+	rankdir=LR
+}

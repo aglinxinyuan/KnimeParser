@@ -1,0 +1,41 @@
+digraph {
+	2 [label="File Reader"]
+	3 [label="String to Date_Time"]
+	4 [label="String Manipulation"]
+	5 [label=Sorter]
+	6 [label="Lag Column"]
+	7 [label="Lag Column"]
+	8 [label="Rule Engine"]
+	9 [label="Column Filter"]
+	10 [label="Date_Time Difference"]
+	11 [label="Rule Engine"]
+	12 [label="Extract Date_Time Fields"]
+	13 [label="Extract Date_Time Fields"]
+	14 [label="Rule Engine"]
+	43 [label="Math Formula"]
+	44 [label="Math Formula"]
+	45 [label="Column Filter"]
+	46 [label=GroupBy]
+	47 [label="Rule Engine"]
+	48 [label=Joiner]
+	2 -> 4
+	3 -> 5
+	4 -> 3
+	5 -> 6
+	6 -> 11
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 12
+	11 -> 7
+	12 -> 13
+	13 -> 14
+	14 -> 43
+	43 -> 44
+	44 -> 45
+	45 -> 47
+	46 -> 48
+	47 -> 46
+	47 -> 48
+	rankdir=LR
+}

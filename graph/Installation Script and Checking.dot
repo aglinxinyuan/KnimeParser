@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Setup Diagnosis"]
+	2 [label="Table Viewer"]
+	123 [label="Send Email"]
+	143 [label="Chemistry External Tool"]
+	144 [label="CSV Reader"]
+	145 [label="Table Viewer"]
+	146 [label="Table Viewer"]
+	147 [label="Table Row to Variable"]
+	1 -> 2
+	1 -> 147
+	143 -> 146
+	144 -> 145
+	147 -> 123
+	rankdir=LR
+}

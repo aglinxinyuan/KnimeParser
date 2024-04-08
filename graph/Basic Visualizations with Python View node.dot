@@ -1,0 +1,25 @@
+digraph {
+	2 [label="Python Script"]
+	15 [label="Table Creator"]
+	16 [label="Table Creator"]
+	20 [label="Python View"]
+	18 [label="Math Formula"]
+	19 [label="Lag Column"]
+	21 [label="Missing Value"]
+	23 [label="Python View"]
+	24 [label=Concatenate]
+	18 [label="Math Formula"]
+	19 [label="Lag Column"]
+	21 [label="Missing Value"]
+	18 -> 21
+	19 -> 18
+	18 -> 21
+	19 -> 18
+	15 -> 24
+	15 -> 19
+	16 -> 24
+	21 -> 20
+	24 -> 19
+	21 -> 23
+	rankdir=LR
+}

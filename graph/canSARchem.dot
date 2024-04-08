@@ -1,0 +1,274 @@
+digraph {
+	1276 [label="RDKit Substructure Filter"]
+	10 [label="RDKit To InChI"]
+	25 [label="RDKit Canon SMILES"]
+	119 [label="Constant Value Column"]
+	128 [label="Column Resorter"]
+	290 [label="RDKit To InChI"]
+	307 [label="Python Script _1_1_ _deprecated_"]
+	19 [label="SDF Writer"]
+	233 [label="Java Edit Variable"]
+	234 [label="Chunk Loop Start"]
+	235 [label="Loop End _deprecated_"]
+	237 [label=Tautomers]
+	239 [label=MolConverter]
+	240 [label="Parallel Chunk Start"]
+	241 [label="Parallel Chunk End"]
+	242 [label="RDKit Descriptor Calculation"]
+	244 [label="Rule_based Row Splitter"]
+	245 [label=Concatenate]
+	247 [label="RDKit From Molecule"]
+	248 [label="Column Filter"]
+	250 [label="RDKit Kekulizer"]
+	251 [label="Column Merger"]
+	252 [label="Joiner _deprecated_"]
+	253 [label="Column Filter"]
+	1278 [label="SDF Reader"]
+	10 [label="RDKit To InChI"]
+	25 [label="RDKit Canon SMILES"]
+	119 [label="Constant Value Column"]
+	128 [label="Column Resorter"]
+	290 [label="RDKit To InChI"]
+	291 [label="RDKit Kekulizer"]
+	19 [label="SDF Writer"]
+	233 [label="Java Edit Variable"]
+	234 [label="Loop End _deprecated_"]
+	921 [label="Column Filter"]
+	924 [label="Parallel Chunk End"]
+	925 [label="RDKit From Molecule"]
+	926 [label="Parallel Chunk Start"]
+	933 [label=MolConverter]
+	934 [label=Standardizer]
+	935 [label="Chunk Loop Start"]
+	937 [label="Column Filter"]
+	1280 [label="Loop End"]
+	1281 [label="List Files _deprecated_"]
+	1282 [label="RDKit From Molecule"]
+	1283 [label=Cache]
+	1284 [label=Dearomatizer]
+	1285 [label="Table Row To Variable Loop Start _deprecated_"]
+	883 [label="Molecule Type Cast"]
+	885 [label="SDF Writer"]
+	888 [label="SDF Writer"]
+	890 [label="SDF Writer"]
+	892 [label="Java Edit Variable"]
+	896 [label="Java Edit Variable"]
+	897 [label="Java Edit Variable"]
+	885 [label="SDF Writer"]
+	896 [label="Java Edit Variable"]
+	900 [label="Parallel Chunk Start"]
+	901 [label="Chunk Loop Start"]
+	902 [label="RDKit Kekulizer"]
+	903 [label="Python Script _1_1_ _deprecated_"]
+	904 [label="Python Script _1_1_ _deprecated_"]
+	905 [label="Loop End _deprecated_"]
+	908 [label="Python Script _1_1_ _deprecated_"]
+	284 [label="Python Script _1_1_ _deprecated_"]
+	291 [label="Python Script _2_1_ _deprecated_"]
+	294 [label="Table Creator"]
+	2153 [label="Joiner _deprecated_"]
+	2154 [label="Rule_based Row Splitter"]
+	2156 [label="Parallel Chunk End"]
+	2161 [label="Parallel Chunk Start"]
+	2162 [label="Parallel Chunk End"]
+	2163 [label=Standardizer]
+	2165 [label="Column Filter"]
+	2166 [label="RDKit From Molecule"]
+	10 [label="RDKit To InChI"]
+	25 [label="RDKit Canon SMILES"]
+	119 [label="Constant Value Column"]
+	128 [label="Column Resorter"]
+	290 [label="RDKit To InChI"]
+	307 [label="Python Script _1_1_ _deprecated_"]
+	308 [label="RDKit Kekulizer"]
+	19 [label="SDF Writer"]
+	233 [label="Java Edit Variable"]
+	235 [label="Loop End _deprecated_"]
+	468 [label="Java Snippet"]
+	470 [label="RDKit From Molecule"]
+	471 [label="RDKit Descriptor Calculation"]
+	474 [label="Rule_based Row Splitter"]
+	916 [label=Concatenate]
+	918 [label="Column Filter"]
+	439 [label="String Manipulation"]
+	453 [label="Column Filter"]
+	486 [label="RDKit Canon SMILES"]
+	487 [label="Rule_based Row Splitter"]
+	490 [label="Column Filter"]
+	491 [label="Column Filter"]
+	922 [label="Column Filter"]
+	161 [label="RDKit Salt Stripper"]
+	192 [label="RDKit From Molecule"]
+	195 [label=GroupBy]
+	242 [label="RDKit From Molecule"]
+	243 [label=Concatenate]
+	286 [label="RDKit Descriptor Calculation"]
+	287 [label="Java Snippet"]
+	289 [label="Column Filter"]
+	290 [label="SDF Reader"]
+	937 [label="Chunk Loop Start"]
+	938 [label="Column Filter"]
+	917 [label="RDKit From Molecule"]
+	920 [label="Column Filter"]
+	932 [label="Column Filter"]
+	936 [label=Standardizer]
+	10 [label="RDKit To InChI"]
+	25 [label="RDKit Canon SMILES"]
+	119 [label="Constant Value Column"]
+	128 [label="Column Resorter"]
+	290 [label="RDKit To InChI"]
+	19 [label="SDF Writer"]
+	233 [label="Java Edit Variable"]
+	234 [label="Chunk Loop Start"]
+	235 [label="Loop End _deprecated_"]
+	236 [label="Column Filter"]
+	1290 [label="Java Edit Variable"]
+	10 -> 290
+	25 -> 119
+	119 -> 128
+	290 -> 25
+	307 -> 10
+	128 -> 241
+	233 -> 119
+	233 -> 19
+	234 -> 233
+	234 -> 240
+	235 -> 253
+	237 -> 239
+	239 -> 247
+	240 -> 242
+	241 -> 235
+	241 -> 19
+	242 -> 244
+	244 -> 245
+	244 -> 252
+	244 -> 237
+	245 -> 248
+	247 -> 252
+	248 -> 250
+	250 -> 119
+	251 -> 245
+	252 -> 251
+	10 -> 290
+	25 -> 119
+	119 -> 128
+	290 -> 25
+	291 -> 10
+	128 -> 234
+	128 -> 19
+	19 -> 234
+	233 -> 119
+	233 -> 19
+	921 -> 925
+	924 -> 921
+	925 -> 119
+	926 -> 161
+	933 -> 926
+	289 -> 924
+	935 -> 933
+	935 -> 233
+	937 -> 935
+	883 -> 885
+	885 -> 896
+	888 -> 897
+	892 -> 885
+	896 -> 888
+	897 -> 890
+	291 -> 284
+	294 -> 291
+	896 -> 885
+	900 -> 902
+	901 -> 900
+	901 -> 896
+	901 -> 2153
+	902 -> 903
+	903 -> 2156
+	904 -> 908
+	908 -> 2162
+	284 -> 2163
+	2153 -> 885
+	2154 -> 2153
+	2154 -> 2161
+	2156 -> 2154
+	2161 -> 291
+	2162 -> 905
+	2163 -> 2165
+	2165 -> 2166
+	2166 -> 904
+	10 -> 290
+	25 -> 119
+	119 -> 128
+	290 -> 25
+	307 -> 10
+	308 -> 307
+	468 -> 474
+	470 -> 471
+	471 -> 468
+	439 -> 487
+	453 -> 486
+	486 -> 439
+	487 -> 491
+	487 -> 490
+	161 -> 286
+	192 -> 242
+	192 -> 243
+	195 -> 161
+	242 -> 243
+	243 -> 195
+	286 -> 287
+	287 -> 289
+	290 -> 192
+	920 -> 917
+	932 -> 936
+	936 -> 920
+	128 -> 235
+	128 -> 19
+	233 -> 119
+	233 -> 19
+	235 -> 938
+	474 -> 918
+	474 -> 922
+	916 -> 119
+	918 -> 916
+	491 -> 916
+	491 -> 161
+	922 -> 453
+	289 -> 932
+	937 -> 233
+	937 -> 470
+	917 -> 916
+	10 -> 290
+	25 -> 119
+	119 -> 128
+	290 -> 25
+	128 -> 19
+	128 -> 235
+	233 -> 119
+	233 -> 19
+	234 -> 233
+	234 -> 119
+	235 -> 236
+	1276 -> 883
+	1276 -> 900
+	253 -> 937
+	1278 -> 883
+	1278 -> 1284
+	234 -> 1280
+	1281 -> 1285
+	1282 -> 1276
+	1282 -> 883
+	1283 -> 234
+	1284 -> 1282
+	1285 -> 1290
+	1285 -> 1278
+	890 -> 234
+	890 -> 900
+	890 -> 935
+	890 -> 937
+	890 -> 234
+	905 -> 1283
+	938 -> 935
+	236 -> 234
+	1290 -> 883
+	rankdir=LR
+}

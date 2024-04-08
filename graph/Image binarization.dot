@@ -1,0 +1,8 @@
+digraph {
+	1 [label="Image Reader"]
+	2 [label="Global Thresholder"]
+	3 [label="Image Viewer"]
+	1 -> 2
+	2 -> 3
+	rankdir=LR
+}

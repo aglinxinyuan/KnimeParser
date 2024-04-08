@@ -1,0 +1,10 @@
+digraph {
+	35 [label="Table Reader"]
+	39 [label="Image Writer _Table_"]
+	42 [label="Binary Objects to PNGs"]
+	124 [label="Java Snippet"]
+	35 -> 124
+	42 -> 39
+	124 -> 42
+	rankdir=LR
+}

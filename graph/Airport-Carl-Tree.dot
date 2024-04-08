@@ -1,0 +1,28 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Column Filter"]
+	3 [label="Row Filter"]
+	4 [label=Partitioning]
+	5 [label="Scorer _deprecated_"]
+	8 [label="Java Snippet"]
+	9 [label="Color Manager"]
+	11 [label="Row Filter"]
+	17 [label="Decision Tree Learner"]
+	18 [label="Decision Tree View"]
+	19 [label="Color Appender"]
+	20 [label="Row Filter"]
+	21 [label="Decision Tree Predictor"]
+	1 -> 2
+	2 -> 3
+	3 -> 11
+	4 -> 9
+	4 -> 19
+	9 -> 17
+	9 -> 19
+	11 -> 20
+	17 -> 21
+	19 -> 21
+	20 -> 4
+	21 -> 5
+	rankdir=LR
+}

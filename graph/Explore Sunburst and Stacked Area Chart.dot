@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Sunburst Chart"]
+	4 [label="Stacked Area Chart"]
+	5 [label="Table Creator"]
+	8 [label=GroupBy]
+	10 [label=Pivoting]
+	11 [label="Math Formula"]
+	13 [label="String to Date_Time"]
+	5 -> 13
+	8 -> 1
+	10 -> 4
+	11 -> 10
+	11 -> 8
+	13 -> 11
+	rankdir=LR
+}

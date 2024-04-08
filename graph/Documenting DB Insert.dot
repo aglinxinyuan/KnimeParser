@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Data Generator"]
+	2 [label="String Manipulation"]
+	3 [label=GroupBy]
+	4 [label="Table Row to Variable"]
+	5 [label="DB SQL Executor"]
+	6 [label="DB Connector"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	6 -> 5
+	rankdir=LR
+}

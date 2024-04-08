@@ -1,0 +1,42 @@
+digraph {
+	1 [label="Excel Reader"]
+	5 [label="Column Filter"]
+	7 [label="Excel Reader"]
+	10 [label="Value Lookup"]
+	43 [label="Bar Chart"]
+	49 [label="Image To Table"]
+	50 [label="Image To Table"]
+	51 [label="Column Appender"]
+	52 [label="Excel Writer"]
+	62 [label="Table Splitter"]
+	63 [label="Table Splitter"]
+	65 [label="Row Aggregator"]
+	66 [label="Row Aggregator"]
+	81 [label="Duplicate Row Filter"]
+	82 [label="Table Splitter"]
+	83 [label="Row Aggregator"]
+	84 [label="Column Appender"]
+	86 [label="Column Renamer"]
+	87 [label="Pie Chart"]
+	1 -> 5
+	5 -> 10
+	7 -> 10
+	10 -> 81
+	43 -> 50
+	49 -> 51
+	50 -> 51
+	51 -> 52
+	62 -> 63
+	62 -> 82
+	63 -> 83
+	63 -> 66
+	65 -> 87
+	66 -> 84
+	81 -> 62
+	82 -> 65
+	83 -> 84
+	84 -> 86
+	86 -> 43
+	87 -> 49
+	rankdir=LR
+}

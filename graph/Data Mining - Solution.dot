@@ -1,0 +1,82 @@
+digraph {
+	248 [label="Decision Tree Predictor"]
+	249 [label=Partitioning]
+	257 [label=GroupBy]
+	258 [label="Column Rename"]
+	261 [label="Linear Regression Learner"]
+	274 [label="Row Filter"]
+	275 [label="OSM Map View"]
+	276 [label="Color Manager"]
+	277 [label="Decision Tree Learner"]
+	278 [label="JavaScript ROC Curve"]
+	129 [label="Cell Replacer"]
+	143 [label=Concatenate]
+	240 [label="Missing Value"]
+	246 [label="SQLite Connector"]
+	247 [label="DB Reader"]
+	248 [label="DB Table Selector"]
+	249 [label="Duplicate Row Filter"]
+	250 [label="Number To String"]
+	253 [label="Column Filter"]
+	254 [label="Column Filter"]
+	255 [label="CSV Reader"]
+	256 [label="CSV Reader"]
+	257 [label="Excel Reader"]
+	258 [label="CSV Reader"]
+	259 [label="Table Reader"]
+	260 [label=Joiner]
+	261 [label=Joiner]
+	262 [label=Joiner]
+	292 [label=k_Means]
+	294 [label="Row Splitter"]
+	295 [label="Regression Predictor"]
+	296 [label="Scatter Plot _JavaScript_"]
+	298 [label="Numeric Scorer"]
+	305 [label="Numeric Scorer"]
+	312 [label=Scorer]
+	313 [label="Column Appender"]
+	314 [label="Table Reader"]
+	315 [label=Joiner]
+	316 [label="Table Reader"]
+	129 -> 260
+	143 -> 261
+	240 -> 254
+	246 -> 248
+	247 -> 143
+	248 -> 247
+	249 -> 250
+	250 -> 240
+	253 -> 262
+	255 -> 253
+	256 -> 129
+	257 -> 260
+	258 -> 143
+	259 -> 129
+	260 -> 261
+	261 -> 262
+	262 -> 249
+	248 -> 312
+	248 -> 278
+	249 -> 248
+	249 -> 277
+	257 -> 258
+	258 -> 315
+	261 -> 295
+	274 -> 292
+	276 -> 275
+	276 -> 296
+	277 -> 248
+	285 -> 249
+	292 -> 276
+	294 -> 295
+	294 -> 261
+	294 -> 257
+	294 -> 315
+	295 -> 298
+	298 -> 313
+	305 -> 313
+	314 -> 294
+	315 -> 305
+	316 -> 274
+	rankdir=LR
+}

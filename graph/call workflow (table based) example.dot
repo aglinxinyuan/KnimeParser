@@ -1,0 +1,8 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Column Filter"]
+	7 [label="Call Workflow _Table Based_"]
+	1 -> 3
+	3 -> 7
+	rankdir=LR
+}

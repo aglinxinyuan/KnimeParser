@@ -1,0 +1,14 @@
+digraph {
+	8 [label="Spatial Heatmap"]
+	239 [label="OSM Boundary Map"]
+	240 [label="Geospatial View"]
+	1870 [label="Table Creator"]
+	1871 [label="Lat_Lon to Geometry"]
+	1879 [label=Concatenate]
+	239 -> 1879
+	239 -> 240
+	1870 -> 1871
+	1871 -> 1879
+	1879 -> 8
+	rankdir=LR
+}

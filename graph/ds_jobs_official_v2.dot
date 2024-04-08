@@ -1,0 +1,154 @@
+digraph {
+	25 [label="Python Script _1_1_"]
+	26 [label="Python Source"]
+	27 [label="Column Filter"]
+	36 [label="Cell Replacer"]
+	41 [label="Nominal Value Row Filter"]
+	42 [label="Python Script _1_1_"]
+	43 [label=Auto_Binner]
+	45 [label="Column Filter"]
+	57 [label="Bar Chart"]
+	59 [label="Pie chart _local_"]
+	67 [label="Bar Chart"]
+	69 [label="Bar Chart"]
+	70 [label="Row Filter"]
+	71 [label="Bar Chart"]
+	72 [label="Row Filter"]
+	75 [label="Bar Chart"]
+	76 [label="Row Filter"]
+	77 [label="Bar Chart"]
+	78 [label="Row Filter"]
+	79 [label="Bar Chart"]
+	80 [label="Row Filter"]
+	98 [label="Bar Chart"]
+	99 [label=Partitioning]
+	101 [label="Decision Tree Predictor"]
+	103 [label="Decision Tree Learner"]
+	106 [label=Scorer]
+	107 [label="Value Counter"]
+	108 [label="Bar Chart"]
+	110 [label="Bar Chart"]
+	111 [label="Bar Chart"]
+	117 [label="Bar Chart"]
+	119 [label="Bar Chart"]
+	120 [label="Bar Chart"]
+	121 [label="Bar Chart"]
+	122 [label="Bar Chart"]
+	123 [label="Bar Chart"]
+	112 [label="Value Counter"]
+	116 [label="Table Creator"]
+	125 [label=Joiner]
+	126 [label="Value Counter"]
+	133 [label="Value Counter"]
+	134 [label="Value Counter"]
+	135 [label="Value Counter"]
+	136 [label="Value Counter"]
+	141 [label=Joiner]
+	142 [label=Joiner]
+	143 [label=Joiner]
+	146 [label="Concatenate _Optional in_"]
+	147 [label=Joiner]
+	131 [label="Bar Chart"]
+	132 [label="Rule Engine"]
+	134 [label="Rule Engine"]
+	139 [label="Rule Engine"]
+	141 [label="Rule Engine"]
+	34 [label=Scorer]
+	37 [label="Tree Ensemble Predictor"]
+	38 [label="Lift Chart _local_"]
+	875 [label="Random Forest Learner"]
+	876 [label=Partitioning]
+	879 [label="Column Filter"]
+	883 [label=Statistics]
+	884 [label=Statistics]
+	885 [label="Column Filter"]
+	886 [label=Statistics]
+	887 [label="Histogram _local_"]
+	888 [label="Rule Engine"]
+	889 [label="Missing Value"]
+	890 [label="Python Script _1_1_"]
+	891 [label="Crosstab _local_"]
+	892 [label="Nominal Value Row Filter"]
+	3 [label=Partitioning]
+	4 [label="Gradient Boosted Trees Learner"]
+	5 [label="Gradient Boosted Trees Predictor"]
+	6 [label=Scorer]
+	99 -> 103
+	99 -> 101
+	101 -> 106
+	101 -> 99
+	103 -> 101
+	112 -> 125
+	116 -> 125
+	116 -> 141
+	116 -> 142
+	116 -> 143
+	125 -> 146
+	126 -> 141
+	133 -> 143
+	134 -> 142
+	141 -> 146
+	142 -> 146
+	143 -> 146
+	37 -> 38
+	37 -> 34
+	875 -> 37
+	876 -> 875
+	876 -> 37
+	3 -> 4
+	3 -> 5
+	4 -> 5
+	5 -> 6
+	25 -> 41
+	26 -> 27
+	27 -> 25
+	36 -> 43
+	41 -> 42
+	41 -> 45
+	41 -> 36
+	42 -> 36
+	43 -> 132
+	43 -> 887
+	45 -> 110
+	45 -> 98
+	45 -> 57
+	45 -> 121
+	45 -> 120
+	45 -> 59
+	45 -> 123
+	45 -> 122
+	45 -> 76
+	45 -> 78
+	45 -> 72
+	45 -> 75
+	45 -> 70
+	45 -> 128
+	45 -> 67
+	45 -> 131
+	45 -> 80
+	70 -> 69
+	72 -> 71
+	76 -> 77
+	78 -> 79
+	80 -> 117
+	80 -> 119
+	80 -> 108
+	80 -> 111
+	80 -> 885
+	132 -> 134
+	134 -> 139
+	139 -> 141
+	141 -> 883
+	141 -> 888
+	879 -> 886
+	879 -> 890
+	879 -> 891
+	885 -> 884
+	888 -> 889
+	889 -> 892
+	890 -> 99
+	890 -> 876
+	890 -> 3
+	892 -> 879
+	rankdir=LR
+}

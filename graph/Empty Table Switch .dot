@@ -1,0 +1,15 @@
+digraph {
+	1 [label="Table Creator"]
+	18 [label="Empty Table Switch"]
+	19 [label="Row Filter"]
+	20 [label="End IF"]
+	21 [label="Constant Value Column"]
+	22 [label="Constant Value Column"]
+	1 -> 19
+	18 -> 22
+	18 -> 21
+	19 -> 18
+	21 -> 20
+	22 -> 20
+	rankdir=LR
+}

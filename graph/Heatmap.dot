@@ -1,0 +1,32 @@
+digraph {
+	8 [label="CSV Reader"]
+	9 [label=Heatmap]
+	10 [label=GroupBy]
+	12 [label=Joiner]
+	13 [label=Sorter]
+	14 [label=GroupBy]
+	15 [label=Heatmap]
+	20 [label=Pivoting]
+	21 [label=Heatmap]
+	22 [label=GroupBy]
+	23 [label="Column Resorter"]
+	24 [label="Nominal Value Row Filter"]
+	41 [label="CSS Editor"]
+	42 [label="Create Date_Time Range"]
+	43 [label="Extract Date_Time Fields"]
+	8 -> 12
+	10 -> 13
+	12 -> 14
+	12 -> 10
+	12 -> 22
+	13 -> 9
+	14 -> 15
+	20 -> 24
+	22 -> 20
+	23 -> 21
+	24 -> 23
+	41 -> 21
+	42 -> 43
+	43 -> 12
+	rankdir=LR
+}

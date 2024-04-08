@@ -1,0 +1,46 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="Excel Reader"]
+	4 [label=Joiner]
+	11 [label=GroupBy]
+	12 [label=Pivoting]
+	14 [label="String to Date_Time"]
+	15 [label="Date_Time_based Row Filter"]
+	16 [label=Joiner]
+	17 [label=Joiner]
+	18 [label="Duplicate Row Filter"]
+	20 [label="Missing Value"]
+	21 [label="Table View"]
+	22 [label="CSS Editor"]
+	29 [label="Column Rename"]
+	33 [label="Column Aggregator"]
+	34 [label="Split Collection Column"]
+	35 [label=GroupBy]
+	36 [label="Column Rename"]
+	37 [label=Concatenate]
+	38 [label="Column Rename"]
+	1 -> 4
+	2 -> 4
+	3 -> 18
+	4 -> 16
+	11 -> 33
+	12 -> 20
+	14 -> 15
+	15 -> 11
+	16 -> 17
+	17 -> 29
+	18 -> 16
+	18 -> 17
+	20 -> 38
+	22 -> 21
+	29 -> 14
+	33 -> 34
+	34 -> 35
+	35 -> 37
+	35 -> 36
+	36 -> 37
+	37 -> 12
+	38 -> 21
+	rankdir=LR
+}

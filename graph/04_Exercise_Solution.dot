@@ -1,0 +1,12 @@
+digraph {
+	12 [label="Excel Reader"]
+	14 [label="Rule Engine"]
+	16 [label="Missing Value"]
+	23 [label="Duplicate Row Filter"]
+	24 [label="Missing Value Column Filter"]
+	12 -> 24
+	16 -> 14
+	23 -> 16
+	24 -> 23
+	rankdir=LR
+}

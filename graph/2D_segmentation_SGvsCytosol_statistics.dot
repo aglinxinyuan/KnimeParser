@@ -1,0 +1,188 @@
+digraph {
+	844 [label="Image Calculator"]
+	21 [label=Joiner]
+	31 [label="Segment Features"]
+	33 [label=GroupBy]
+	34 [label=Joiner]
+	438 [label="WrappedNode Input"]
+	441 [label=RowID]
+	840 [label="Set Image Metadata"]
+	842 [label=RowID]
+	843 [label="Column Rename"]
+	844 [label="Image Calculator"]
+	845 [label="WrappedNode Output"]
+	846 [label=RowID]
+	2 [label="File Upload"]
+	35 [label="Image Properties"]
+	36 [label="Split Collection Column"]
+	37 [label="Table Row to Variable"]
+	398 [label="String Input"]
+	404 [label=RowID]
+	1211 [label="List Files"]
+	1214 [label="Image Reader _Table_"]
+	1215 [label="WrappedNode Input"]
+	1217 [label="Boolean Input"]
+	1218 [label="Double Input"]
+	1219 [label="Rule Engine Variable"]
+	1220 [label="IF Switch"]
+	1227 [label="Boolean Input"]
+	1228 [label="Rule Engine Variable"]
+	1229 [label="Set Image Metadata"]
+	1230 [label="Rule Engine Variable"]
+	1231 [label="IF Switch"]
+	1232 [label="End IF"]
+	1233 [label="End IF"]
+	1234 [label="Set Image Metadata"]
+	1235 [label="Image Reader _Table_"]
+	1236 [label="WrappedNode Output"]
+	1237 [label="Image Viewer"]
+	1238 [label="String Input"]
+	892 [label="Connected Component Analysis"]
+	897 [label="Labeling Filter"]
+	899 [label=Projector]
+	900 [label="Seeded Watershed"]
+	901 [label="Gaussian Convolution"]
+	902 [label="Global Thresholder"]
+	1269 [label="Labeling to Image"]
+	1729 [label=Projector]
+	1730 [label=Inverter]
+	1773 [label="Gaussian Convolution"]
+	1784 [label="Fill Holes"]
+	1785 [label="WrappedNode Input"]
+	1787 [label="Column Filter"]
+	1788 [label="Column Filter"]
+	1789 [label=Dilate]
+	1790 [label=Dilate]
+	1791 [label=Joiner]
+	1792 [label="Column Rename"]
+	1793 [label="WrappedNode Output"]
+	1789 [label=Splitter]
+	1790 [label="Column Rename"]
+	1791 [label="Column Rename"]
+	1792 [label=Splitter]
+	901 [label="Gaussian Convolution"]
+	902 [label="Global Thresholder"]
+	1785 [label="WrappedNode Input"]
+	1787 [label="Column Filter"]
+	1792 [label="Column Rename"]
+	1793 [label="WrappedNode Output"]
+	1794 [label=Joiner]
+	1801 [label="Image to Labeling"]
+	1803 [label="Column Rename"]
+	1808 [label="Image Calculator"]
+	1809 [label="Image to Labeling"]
+	1811 [label="Column Rename"]
+	1812 [label="Row Filter"]
+	1813 [label=Joiner]
+	1814 [label="Math Formula"]
+	1816 [label="Excel Writer _XLS_"]
+	1817 [label="Row Filter"]
+	1818 [label="Image Segment Features"]
+	1819 [label="Row Filter"]
+	1822 [label="Excel Writer _XLS_"]
+	1824 [label="Image Segment Features"]
+	1831 [label="Math Formula"]
+	1832 [label="Math Formula"]
+	1833 [label="Math Formula"]
+	1834 [label="Math Formula"]
+	1835 [label="Math Formula"]
+	1836 [label="Math Formula"]
+	21 -> 31
+	21 -> 846
+	31 -> 842
+	33 -> 34
+	34 -> 441
+	438 -> 21
+	438 -> 843
+	441 -> 840
+	840 -> 844
+	842 -> 33
+	843 -> 21
+	844 -> 845
+	846 -> 34
+	2 -> 1211
+	35 -> 36
+	36 -> 37
+	37 -> 1236
+	398 -> 2
+	404 -> 1235
+	404 -> 1214
+	1211 -> 404
+	1214 -> 35
+	1214 -> 1237
+	1214 -> 1220
+	1217 -> 1218
+	1218 -> 1219
+	1219 -> 1220
+	1220 -> 1232
+	1220 -> 1234
+	1227 -> 1230
+	1227 -> 1228
+	1228 -> 1214
+	1229 -> 1233
+	1230 -> 1231
+	1231 -> 1229
+	1231 -> 1233
+	1232 -> 1231
+	1233 -> 1236
+	1234 -> 1232
+	1235 -> 1236
+	1238 -> 1227
+	892 -> 897
+	897 -> 1791
+	899 -> 901
+	900 -> 1792
+	901 -> 902
+	902 -> 1789
+	1269 -> 1793
+	1729 -> 1773
+	1730 -> 1791
+	1773 -> 1730
+	1784 -> 892
+	1785 -> 1787
+	1785 -> 1788
+	1787 -> 899
+	1788 -> 1729
+	1789 -> 1790
+	1790 -> 1784
+	1791 -> 900
+	1792 -> 1269
+	901 -> 902
+	902 -> 1792
+	1785 -> 1787
+	1787 -> 901
+	1792 -> 1793
+	844 -> 1801
+	870 -> 1794
+	1216 -> 1792
+	1216 -> 1789
+	1787 -> 870
+	1789 -> 1790
+	1790 -> 1787
+	1790 -> 870
+	1791 -> 1793
+	1792 -> 1791
+	1793 -> 1794
+	1794 -> 844
+	1794 -> 1808
+	1801 -> 1818
+	1803 -> 1813
+	1808 -> 1809
+	1809 -> 1824
+	1811 -> 1813
+	1812 -> 1814
+	1813 -> 1812
+	1814 -> 1835
+	1817 -> 1816
+	1817 -> 1819
+	1818 -> 1803
+	1819 -> 1822
+	1824 -> 1811
+	1831 -> 1832
+	1832 -> 1817
+	1833 -> 1836
+	1834 -> 1833
+	1835 -> 1834
+	1836 -> 1831
+	rankdir=LR
+}

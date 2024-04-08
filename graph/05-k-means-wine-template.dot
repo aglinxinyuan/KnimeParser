@@ -1,0 +1,76 @@
+digraph {
+	2 [label=Normalizer]
+	3 [label=Statistics]
+	10 [label="Row Filter"]
+	43 [label="Table Creator"]
+	45 [label="Rank Correlation"]
+	46 [label="Linear Correlation"]
+	51 [label="Color Manager"]
+	54 [label="Shape Manager"]
+	55 [label="Scatter Plot _local_"]
+	61 [label=Joiner]
+	64 [label="Row Filter"]
+	66 [label=Joiner]
+	67 [label="Column Resorter"]
+	68 [label=Sorter]
+	71 [label="Number To String"]
+	72 [label="CSV Reader"]
+	73 [label="CSV Reader"]
+	74 [label=Normalizer]
+	75 [label="Parameter Optimization Loop Start"]
+	80 [label="Number To String"]
+	81 [label="Entropy Scorer"]
+	84 [label="Row Filter"]
+	85 [label="Row Filter"]
+	86 [label="Parameter Optimization Loop End"]
+	87 [label="Table Column to Variable"]
+	88 [label=k_Means]
+	90 [label="2D_3D Scatterplot"]
+	93 [label="Variable to Table Column"]
+	94 [label="Variable to Table Column"]
+	95 [label="Variable to Table Column"]
+	96 [label="Table Row To Variable Loop Start"]
+	98 [label=Sorter]
+	99 [label="Silhouette Coefficient"]
+	100 [label="Math Formula"]
+	101 [label="Bar Chart"]
+	102 [label="Number To String"]
+	103 [label="Loop End"]
+	104 [label=Joiner]
+	2 -> 3
+	2 -> 46
+	2 -> 45
+	10 -> 95
+	43 -> 96
+	51 -> 54
+	54 -> 104
+	61 -> 66
+	64 -> 94
+	66 -> 103
+	67 -> 68
+	71 -> 51
+	72 -> 80
+	73 -> 74
+	74 -> 88
+	80 -> 81
+	81 -> 84
+	85 -> 86
+	86 -> 87
+	87 -> 88
+	88 -> 90
+	88 -> 81
+	88 -> 99
+	93 -> 61
+	94 -> 61
+	95 -> 66
+	96 -> 93
+	96 -> 94
+	96 -> 95
+	98 -> 100
+	99 -> 98
+	100 -> 102
+	102 -> 101
+	103 -> 67
+	104 -> 55
+	rankdir=LR
+}

@@ -1,0 +1,125 @@
+digraph {
+	8 [label="Constant Value Column"]
+	44 [label=Pivoting]
+	45 [label=Pivoting]
+	46 [label="Constant Value Column"]
+	47 [label=Concatenate]
+	48 [label=GroupBy]
+	49 [label="Missing Value"]
+	50 [label="Missing Value"]
+	52 [label="Column Rename _Regex_"]
+	53 [label="Column Rename _Regex_"]
+	54 [label="Double To Int"]
+	486 [label="Column Filter"]
+	491 [label=XPath]
+	492 [label=XPath]
+	493 [label=XPath]
+	494 [label="Column Filter"]
+	497 [label=XPath]
+	876 [label="Column Filter"]
+	36 [label="Column Combiner"]
+	117 [label="Math Formula"]
+	118 [label="Rule Engine"]
+	119 [label="Rule Engine"]
+	121 [label="Math Formula"]
+	124 [label="Cell Splitter"]
+	125 [label="Cell Splitter"]
+	126 [label="Column Rename"]
+	127 [label="String To Number"]
+	128 [label="Row Filter"]
+	129 [label="Cell Splitter"]
+	130 [label="Column Filter"]
+	131 [label="String To Number"]
+	132 [label="String to Date_Time"]
+	133 [label="String Replacer"]
+	134 [label="Column Resorter"]
+	135 [label="String Manipulation"]
+	136 [label="Rule_based Row Filter"]
+	137 [label="Rule_based Row Splitter"]
+	138 [label="String Manipulation"]
+	139 [label=Concatenate]
+	885 [label="Rule_based Row Filter"]
+	878 [label="Linear Regression Learner"]
+	879 [label="Interactive Table _local_"]
+	885 [label="Rule_based Row Filter"]
+	894 [label="Regression Predictor"]
+	895 [label="Column Resorter"]
+	897 [label="Linear Correlation"]
+	898 [label="Scatter Plot _JFreeChart_"]
+	900 [label="Math Formula"]
+	901 [label="Row Filter"]
+	903 [label="Nominal Value Row Filter"]
+	904 [label=Sorter]
+	905 [label="Column Filter"]
+	906 [label="Column Rename"]
+	908 [label="Webpage Retriever"]
+	909 [label=Joiner]
+	868 [label="Table Creator"]
+	870 [label="Table Creator"]
+	892 [label="Table Creator"]
+	893 [label=Concatenate]
+	894 [label=Concatenate]
+	8 -> 45
+	54 -> 49
+	45 -> 50
+	46 -> 8
+	47 -> 48
+	48 -> 52
+	49 -> 47
+	50 -> 47
+	52 -> 53
+	53 -> 54
+	486 -> 491
+	491 -> 492
+	492 -> 493
+	493 -> 494
+	497 -> 486
+	36 -> 133
+	117 -> 118
+	118 -> 119
+	119 -> 121
+	121 -> 132
+	124 -> 125
+	125 -> 129
+	126 -> 127
+	127 -> 128
+	128 -> 130
+	129 -> 126
+	130 -> 131
+	131 -> 136
+	132 -> 36
+	133 -> 134
+	134 -> 885
+	135 -> 137
+	136 -> 135
+	137 -> 139
+	137 -> 138
+	138 -> 139
+	139 -> 117
+	868 -> 894
+	870 -> 893
+	892 -> 893
+	893 -> 894
+	54 -> 909
+	494 -> 876
+	876 -> 885
+	885 -> 8
+	885 -> 909
+	878 -> 901
+	878 -> 894
+	885 -> 124
+	894 -> 903
+	895 -> 894
+	895 -> 878
+	900 -> 904
+	901 -> 900
+	903 -> 898
+	903 -> 897
+	904 -> 905
+	905 -> 906
+	906 -> 879
+	908 -> 497
+	909 -> 895
+	910 -> 908
+	rankdir=LR
+}

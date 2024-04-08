@@ -1,0 +1,26 @@
+digraph {
+	20 [label="Column Merger"]
+	21 [label="Column Filter"]
+	8 [label="Row Filter"]
+	11 [label="Column Filter"]
+	14 [label="WrappedNode Input"]
+	15 [label="WrappedNode Output"]
+	18 [label="Value Selection Configuration"]
+	21 [label="Column Selection Configuration"]
+	22 [label="Column Selection Configuration"]
+	34 [label="CSV Reader"]
+	8 -> 11
+	8 -> 15
+	8 -> 21
+	11 -> 22
+	14 -> 8
+	14 -> 18
+	18 -> 8
+	21 -> 11
+	22 -> 15
+	21 -> 22
+	22 -> 20
+	22 -> 20
+	34 -> 21
+	rankdir=LR
+}

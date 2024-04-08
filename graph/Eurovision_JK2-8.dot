@@ -1,0 +1,19 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Object Inserter"]
+	5 [label="Row Filter"]
+	6 [label="Color Manager"]
+	7 [label="Visualization Property Extractor"]
+	8 [label="Multi Feature Inserter"]
+	12 [label="Network Viewer _local_"]
+	13 [label="Network Viewer"]
+	1 -> 5
+	3 -> 8
+	5 -> 6
+	5 -> 3
+	6 -> 7
+	7 -> 8
+	8 -> 12
+	8 -> 13
+	rankdir=LR
+}

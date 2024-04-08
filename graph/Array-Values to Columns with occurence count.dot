@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="String Replacer"]
+	4 [label="Cell Splitter"]
+	5 [label=Ungroup]
+	8 [label="Constant Value Column"]
+	9 [label=Pivoting]
+	10 [label="Missing Value"]
+	1 -> 2
+	2 -> 4
+	4 -> 5
+	5 -> 8
+	8 -> 9
+	9 -> 10
+	rankdir=LR
+}

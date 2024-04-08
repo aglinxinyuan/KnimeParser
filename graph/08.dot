@@ -1,0 +1,8 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Partitioning]
+	3 [label="Decision Tree Learner"]
+	1 -> 2
+	2 -> 3
+	rankdir=LR
+}

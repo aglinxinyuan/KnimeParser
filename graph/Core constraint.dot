@@ -1,0 +1,41 @@
+digraph {
+	159 [label="Run Maestro"]
+	377 [label="Extract Properties"]
+	414 [label="Run Maestro Command"]
+	446 [label="Row Splitter"]
+	452 [label="Molecule Reader _to MAE_"]
+	466 [label="Glide Grid Reader"]
+	469 [label="Molecule Writer _from MAE_"]
+	473 [label="Glide Ligand Docking"]
+	9687 [label=LigPrep]
+	9688 [label=Concatenate]
+	15420 [label="Chunk Loop Start"]
+	15421 [label="Loop End"]
+	15422 [label="Molecule Reader _to MAE_"]
+	15425 [label="Column Rename"]
+	15426 [label="Cross Joiner"]
+	15427 [label="Extract Properties"]
+	15428 [label="Cross Joiner"]
+	15429 [label="Column Rename"]
+	377 -> 9687
+	414 -> 9688
+	446 -> 414
+	446 -> 9688
+	452 -> 377
+	466 -> 15426
+	469 -> 473
+	473 -> 15428
+	9687 -> 473
+	9688 -> 159
+	15420 -> 473
+	15420 -> 469
+	15420 -> 15427
+	15421 -> 446
+	15422 -> 15425
+	15425 -> 15426
+	15426 -> 15420
+	15427 -> 15429
+	15428 -> 15421
+	15429 -> 15428
+	rankdir=LR
+}

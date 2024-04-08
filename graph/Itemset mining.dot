@@ -1,0 +1,24 @@
+digraph {
+	1 [label="Apriori _3_7_"]
+	2 [label="Table Creator"]
+	6 [label="Cell Splitter"]
+	7 [label=Unpivoting]
+	8 [label=GroupBy]
+	9 [label="Table Manipulator"]
+	10 [label="Missing Value"]
+	14 [label=GroupBy]
+	15 [label="Association Rule Learner"]
+	16 [label="Table Manipulator"]
+	17 [label="Cell Splitter"]
+	2 -> 6
+	6 -> 7
+	7 -> 10
+	8 -> 17
+	9 -> 8
+	9 -> 14
+	10 -> 9
+	14 -> 15
+	16 -> 1
+	17 -> 16
+	rankdir=LR
+}

@@ -1,0 +1,28 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Cell Splitter"]
+	6 [label="String Similarity"]
+	8 [label="Cross Joiner"]
+	9 [label=GroupBy]
+	10 [label=Sorter]
+	11 [label=GroupBy]
+	12 [label=Joiner]
+	13 [label="Row Filter"]
+	14 [label="Rule Engine"]
+	15 [label="Column Filter"]
+	16 [label="Table View _Labs_"]
+	1 -> 2
+	2 -> 11
+	2 -> 12
+	6 -> 13
+	8 -> 6
+	9 -> 14
+	10 -> 9
+	11 -> 12
+	12 -> 8
+	12 -> 8
+	13 -> 10
+	14 -> 15
+	15 -> 16
+	rankdir=LR
+}

@@ -1,0 +1,39 @@
+digraph {
+	5 [label="Column Splitter"]
+	7 [label=Ungroup]
+	8 [label=GroupBy]
+	9 [label="Cell Splitter"]
+	10 [label="String Cleaner"]
+	11 [label="Column Filter"]
+	12 [label=GroupBy]
+	13 [label="Missing Value"]
+	17 [label="String Manipulation"]
+	18 [label="CSV Reader"]
+	19 [label="String Manipulation _Multi Column_"]
+	20 [label="Table Transposer"]
+	22 [label="Row to Column Names"]
+	29 [label="Column List Loop Start"]
+	38 [label="Loop End _Column Append_"]
+	39 [label="Column Expressions"]
+	42 [label="Column Appender"]
+	43 [label="Column Filter"]
+	29 -> 39
+	39 -> 38
+	5 -> 8
+	7 -> 11
+	8 -> 10
+	9 -> 7
+	10 -> 42
+	10 -> 9
+	11 -> 12
+	12 -> 13
+	13 -> 17
+	17 -> 20
+	18 -> 5
+	19 -> 43
+	20 -> 22
+	22 -> 19
+	42 -> 29
+	43 -> 42
+	rankdir=LR
+}

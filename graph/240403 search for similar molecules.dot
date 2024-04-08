@@ -1,0 +1,26 @@
+digraph {
+	123 [label=Fingerprints]
+	124 [label=Fingerprints]
+	125 [label="Column Renamer"]
+	126 [label="Column Renamer"]
+	127 [label="Similarity Search"]
+	128 [label=GroupBy]
+	129 [label="Round Double"]
+	130 [label="Column Renamer"]
+	140 [label="File Reader"]
+	141 [label="Molecule Type Cast"]
+	142 [label="Molecule Type Cast"]
+	143 [label="File Reader"]
+	123 -> 125
+	124 -> 126
+	125 -> 127
+	126 -> 127
+	127 -> 129
+	128 -> 130
+	129 -> 128
+	140 -> 141
+	141 -> 123
+	142 -> 124
+	143 -> 142
+	rankdir=LR
+}

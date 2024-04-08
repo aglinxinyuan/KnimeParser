@@ -1,0 +1,16 @@
+digraph {
+	10 [label="Waehlby Cell Clump Splitter"]
+	11 [label="Interactive Segmentation View"]
+	4 [label="Global Thresholder"]
+	6 [label="Connected Component Analysis"]
+	12 [label="Column Rename"]
+	13 [label="Gaussian Convolution"]
+	20 [label="Image Reader"]
+	4 -> 6
+	6 -> 12
+	13 -> 4
+	10 -> 11
+	12 -> 10
+	20 -> 13
+	rankdir=LR
+}

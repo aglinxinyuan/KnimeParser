@@ -1,0 +1,11 @@
+digraph {
+	2 [label="Matcher MM7_x"]
+	4 [label=Joiner]
+	5 [label="Rule_based Row Filter"]
+	6 [label="CSV Reader"]
+	2 -> 5
+	5 -> 4
+	6 -> 4
+	6 -> 2
+	rankdir=LR
+}

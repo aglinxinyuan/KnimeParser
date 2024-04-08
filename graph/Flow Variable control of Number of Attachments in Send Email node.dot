@@ -1,0 +1,14 @@
+digraph {
+	2539 [label="Table Creator"]
+	2546 [label=GroupBy]
+	2547 [label="Chunk Loop Start"]
+	2549 [label="Table Row to Variable"]
+	2550 [label="Send Email"]
+	2551 [label="Variable Loop End"]
+	2539 -> 2546
+	2546 -> 2547
+	2547 -> 2549
+	2549 -> 2550
+	2550 -> 2551
+	rankdir=LR
+}

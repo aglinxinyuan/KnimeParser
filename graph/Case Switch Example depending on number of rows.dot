@@ -1,0 +1,15 @@
+digraph {
+	13 [label="Data Generator"]
+	14 [label="Extract Table Dimension"]
+	17 [label="Rule Engine Variable"]
+	18 [label="CSV Writer"]
+	19 [label="Excel Writer _XLS_"]
+	20 [label="CASE Switch Data _Start_"]
+	13 -> 14
+	13 -> 20
+	14 -> 17
+	17 -> 20
+	20 -> 18
+	20 -> 19
+	rankdir=LR
+}

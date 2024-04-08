@@ -1,0 +1,14 @@
+digraph {
+	39 [label="File Reader"]
+	40 [label="File Reader"]
+	41 [label=Joiner]
+	42 [label="Rule_based Row Splitter"]
+	43 [label="Rule_based Row Splitter"]
+	44 [label="Rule_based Row Splitter"]
+	39 -> 41
+	40 -> 41
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	rankdir=LR
+}

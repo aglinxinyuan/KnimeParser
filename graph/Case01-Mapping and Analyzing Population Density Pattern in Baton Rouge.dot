@@ -1,0 +1,57 @@
+digraph {
+	1 [label="GeoFile Reader"]
+	2 [label="Row Filter"]
+	3 [label="Geospatial View"]
+	4 [label="GeoFile Reader"]
+	5 [label="Geospatial View"]
+	6 [label="Column Filter"]
+	7 [label="Spatial Join"]
+	8 [label=Projection]
+	9 [label=Area]
+	10 [label="Math Formula"]
+	11 [label="Geospatial View"]
+	12 [label="GeoFile Reader"]
+	13 [label="Multiple Ring Buffer"]
+	14 [label=Overlay]
+	15 [label=Area]
+	16 [label="Math Formula"]
+	17 [label=Dissolve]
+	18 [label=GroupBy]
+	19 [label=Joiner]
+	20 [label="Math Formula"]
+	21 [label="GeoFile Reader"]
+	22 [label="Geometry To Point"]
+	23 [label="Spatial Join"]
+	24 [label=GroupBy]
+	25 [label="Math Formula"]
+	26 [label="Line Plot _JavaScript_"]
+	27 [label="Image Writer _Port_"]
+	1 -> 2
+	2 -> 3
+	2 -> 7
+	4 -> 5
+	4 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	10 -> 14
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	16 -> 18
+	17 -> 19
+	18 -> 19
+	19 -> 20
+	20 -> 23
+	21 -> 22
+	22 -> 23
+	23 -> 24
+	24 -> 25
+	25 -> 26
+	26 -> 27
+	rankdir=LR
+}

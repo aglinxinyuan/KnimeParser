@@ -1,0 +1,91 @@
+digraph {
+	2 [label="Column Filter"]
+	6 [label="Molecule Type Cast"]
+	25 [label="GET Request"]
+	26 [label="Table Creator"]
+	31 [label="GET Request"]
+	33 [label="Molecule to CDK"]
+	35 [label=GroupBy]
+	36 [label=Sorter]
+	39 [label="Column Resorter"]
+	34 [label="Pie_Donut Chart _JavaScript_"]
+	37 [label="Sunburst Chart _JavaScript_"]
+	38 [label="Pie_Donut Chart _JavaScript_"]
+	39 [label="WrappedNode Input"]
+	40 [label="WrappedNode Output"]
+	46 [label="JSON to Table"]
+	48 [label="JSON Path"]
+	49 [label=Ungroup]
+	53 [label="String Manipulation"]
+	42 [label="Molecule String Input"]
+	43 [label="WrappedNode Input"]
+	44 [label="WrappedNode Output"]
+	43 [label="Table View _JavaScript_"]
+	44 [label="WrappedNode Input"]
+	45 [label="WrappedNode Output"]
+	66 [label="Renderer to Image"]
+	70 [label="String Manipulation"]
+	74 [label="Column Rename"]
+	75 [label="Column Filter"]
+	79 [label=Unpivoting]
+	80 [label="String Manipulation"]
+	81 [label="String Manipulation"]
+	82 [label="String Manipulation"]
+	83 [label="Row Filter"]
+	86 [label="String Manipulation"]
+	87 [label="Rule_based Row Filter"]
+	88 [label=GroupBy]
+	89 [label="Column Rename"]
+	84 [label=Joiner]
+	85 [label="Column Rename"]
+	86 [label="Substructure Search"]
+	19 [label="Tile View _JavaScript_"]
+	20 [label="WrappedNode Input"]
+	21 [label="WrappedNode Output"]
+	68 [label="Table View _JavaScript_"]
+	69 [label="WrappedNode Input"]
+	70 [label="WrappedNode Output"]
+	92 [label=Sorter]
+	35 -> 36
+	36 -> 39
+	39 -> 38
+	39 -> 37
+	39 -> 34
+	42 -> 44
+	44 -> 43
+	79 -> 80
+	80 -> 81
+	81 -> 82
+	82 -> 79
+	89 -> 86
+	86 -> 87
+	87 -> 88
+	88 -> 89
+	20 -> 19
+	69 -> 68
+	2 -> 48
+	6 -> 66
+	6 -> 35
+	25 -> 2
+	26 -> 25
+	33 -> 86
+	39 -> 41
+	46 -> 74
+	48 -> 49
+	49 -> 46
+	53 -> 6
+	64 -> 86
+	66 -> 33
+	66 -> 87
+	66 -> 88
+	70 -> 53
+	74 -> 75
+	75 -> 80
+	75 -> 84
+	89 -> 84
+	84 -> 85
+	85 -> 70
+	86 -> 92
+	92 -> 65
+	rankdir=LR
+}

@@ -1,0 +1,30 @@
+digraph {
+	1 [label="Molecule Reader"]
+	4 [label="Conformer Cluster"]
+	5 [label="Run Maestro"]
+	9067 [label="Conformer Cluster"]
+	9164 [label="Chemistry External Tool"]
+	9165 [label="Table Viewer"]
+	9926 [label="Java Edit Variable _simple_"]
+	9927 [label="Conformer Cluster"]
+	9928 [label="Table Viewer"]
+	9934 [label="Row Filter"]
+	9935 [label="Ungroup MAE"]
+	9936 [label="Extract MAE Properties"]
+	9937 [label="Run Maestro"]
+	9938 [label=ConfGen]
+	1 -> 9938
+	4 -> 5
+	9067 -> 9935
+	9164 -> 9165
+	9926 -> 9927
+	9927 -> 9164
+	9927 -> 9928
+	9934 -> 9937
+	9935 -> 9936
+	9936 -> 9934
+	9938 -> 9927
+	9938 -> 4
+	9938 -> 9067
+	rankdir=LR
+}

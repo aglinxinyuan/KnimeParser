@@ -1,0 +1,20 @@
+digraph {
+	182 [label="Container Output _JSON_"]
+	183 [label="Table to JSON"]
+	201 [label="Container Input _JSON_"]
+	214 [label="SQLite Connector"]
+	215 [label="DB Table Selector"]
+	216 [label="Parameterized DB Query Reader"]
+	217 [label="JSON to Table"]
+	218 [label=Transpose]
+	219 [label="JSON to Table"]
+	183 -> 182
+	201 -> 217
+	214 -> 215
+	215 -> 216
+	216 -> 183
+	217 -> 218
+	218 -> 219
+	219 -> 216
+	rankdir=LR
+}

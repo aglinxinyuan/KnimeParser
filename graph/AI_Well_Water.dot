@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Column Filter"]
+	3 [label="String to Number"]
+	4 [label="CSV Writer"]
+	5 [label="Missing Value"]
+	6 [label="CSV Writer"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 5
+	5 -> 6
+	rankdir=LR
+}

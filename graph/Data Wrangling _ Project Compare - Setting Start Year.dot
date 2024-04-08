@@ -1,0 +1,25 @@
+digraph {
+	5 [label="Table Creator"]
+	6 [label=Unpivoting]
+	7 [label="Moving Aggregation"]
+	10 [label="Extract Table Dimension"]
+	14 [label=Rank]
+	15 [label="Table Column to Variable"]
+	16 [label="Group Loop Start"]
+	17 [label="Rule_based Row Filter"]
+	18 [label="Loop End"]
+	19 [label=Pivoting]
+	23 [label="String Manipulation"]
+	5 -> 6
+	6 -> 16
+	7 -> 14
+	10 -> 15
+	14 -> 17
+	15 -> 7
+	16 -> 7
+	16 -> 10
+	17 -> 18
+	18 -> 23
+	23 -> 19
+	rankdir=LR
+}

@@ -1,0 +1,19 @@
+digraph {
+	1137 [label="Table Creator"]
+	1145 [label="Column Aggregator"]
+	1148 [label="Collection Size"]
+	1149 [label="Cross Joiner"]
+	1151 [label=RowID]
+	1154 [label="Collection to String"]
+	1157 [label="String Manipulation"]
+	1159 [label="Rule Engine"]
+	1137 -> 1151
+	1145 -> 1148
+	1148 -> 1154
+	1149 -> 1157
+	1151 -> 1145
+	1154 -> 1149
+	1154 -> 1149
+	1157 -> 1159
+	rankdir=LR
+}

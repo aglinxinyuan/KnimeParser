@@ -1,0 +1,54 @@
+digraph {
+	6 [label=Partitioning]
+	14 [label="Data to Report"]
+	24 [label="Image to Report"]
+	27 [label="Decision Tree Learner"]
+	27 [label="WrappedNode Input"]
+	28 [label="WrappedNode Output"]
+	29 [label="File Upload Widget"]
+	33 [label="Column Filter"]
+	35 [label="WrappedNode Input"]
+	36 [label="WrappedNode Output"]
+	37 [label="Java Edit Variable _simple_"]
+	39 [label="Double Widget"]
+	40 [label="Column Selection Widget"]
+	42 [label="Column Filter Widget"]
+	43 [label=Joiner]
+	36 [label="WrappedNode Input"]
+	37 [label="WrappedNode Output"]
+	38 [label="Image Output Widget"]
+	39 [label="File Download Widget"]
+	39 [label="PMML Predictor"]
+	40 [label=Heatmap]
+	41 [label="Create Temp Folder"]
+	42 [label=Scorer]
+	43 [label="PMML Writer"]
+	44 [label="Table Reader"]
+	29 -> 28
+	33 -> 43
+	35 -> 33
+	35 -> 42
+	35 -> 40
+	37 -> 33
+	39 -> 43
+	40 -> 37
+	42 -> 43
+	43 -> 36
+	36 -> 38
+	36 -> 39
+	6 -> 39
+	6 -> 27
+	27 -> 43
+	27 -> 39
+	36 -> 44
+	37 -> 6
+	39 -> 42
+	40 -> 38
+	40 -> 24
+	41 -> 43
+	42 -> 40
+	42 -> 14
+	43 -> 38
+	44 -> 37
+	rankdir=LR
+}

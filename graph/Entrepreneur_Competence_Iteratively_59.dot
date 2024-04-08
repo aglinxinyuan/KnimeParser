@@ -1,0 +1,21 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Rename"]
+	3 [label="Category To Number"]
+	4 [label=Partitioning]
+	5 [label="Logistic Regression Learner"]
+	6 [label="Normalizer _PMML_"]
+	7 [label="Rule Engine"]
+	8 [label="Logistic Regression Predictor"]
+	9 [label=Scorer]
+	1 -> 2
+	2 -> 7
+	3 -> 6
+	4 -> 5
+	4 -> 8
+	5 -> 8
+	6 -> 4
+	7 -> 3
+	8 -> 9
+	rankdir=LR
+}

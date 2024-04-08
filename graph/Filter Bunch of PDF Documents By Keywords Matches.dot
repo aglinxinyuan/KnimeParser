@@ -1,0 +1,37 @@
+digraph {
+	1 [label="PDF Parser"]
+	11 [label="Column Filter"]
+	19 [label="Excel Writer"]
+	28 [label="Rule Engine"]
+	33 [label="Column Filter"]
+	36 [label="Cross Joiner"]
+	37 [label="String Manipulation"]
+	42 [label="Table Creator"]
+	44 [label="Table Creator"]
+	46 [label=Concatenate]
+	59 [label="Document Data Extractor"]
+	60 [label="Case Converter"]
+	61 [label="Row Filter"]
+	62 [label="String Manipulation"]
+	64 [label="Cross Joiner"]
+	65 [label="Rule Engine"]
+	66 [label="String Manipulation"]
+	1 -> 59
+	11 -> 64
+	11 -> 36
+	28 -> 46
+	33 -> 66
+	36 -> 37
+	37 -> 28
+	42 -> 36
+	44 -> 64
+	46 -> 61
+	59 -> 60
+	60 -> 11
+	61 -> 33
+	62 -> 65
+	64 -> 62
+	65 -> 46
+	66 -> 19
+	rankdir=LR
+}

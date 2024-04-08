@@ -1,0 +1,17 @@
+digraph {
+	2 [label="CSV Reader"]
+	3 [label=GroupBy]
+	4 [label="Row Filter"]
+	5 [label=GroupBy]
+	6 [label="Cross Joiner"]
+	7 [label="Math Formula"]
+	8 [label=Sorter]
+	2 -> 4
+	3 -> 6
+	3 -> 5
+	4 -> 3
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	rankdir=LR
+}

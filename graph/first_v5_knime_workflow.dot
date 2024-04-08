@@ -1,0 +1,22 @@
+digraph {
+	1 [label="Excel Reader"]
+	3 [label="Excel Reader"]
+	4 [label="Column Filter"]
+	5 [label=Concatenate]
+	6 [label="Bar Chart"]
+	7 [label="Excel Reader"]
+	8 [label="Column Merger"]
+	9 [label="String To Number"]
+	10 [label="Value Lookup"]
+	11 [label="Row Aggregator"]
+	1 -> 5
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	5 -> 10
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	rankdir=LR
+}

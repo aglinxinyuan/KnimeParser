@@ -1,0 +1,10 @@
+digraph {
+	72 [label="Table Creator"]
+	81 [label="Column Aggregator"]
+	83 [label=Ungroup]
+	84 [label=Transpose]
+	72 -> 81
+	81 -> 83
+	83 -> 84
+	rankdir=LR
+}

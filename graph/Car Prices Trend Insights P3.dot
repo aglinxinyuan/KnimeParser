@@ -1,0 +1,91 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	3 [label="Column Filter"]
+	4 [label="Missing Value"]
+	5 [label="Missing Value"]
+	7 [label="Category to Number"]
+	8 [label="Numeric Outliers"]
+	9 [label=Normalizer]
+	12 [label=Partitioning]
+	13 [label="Color Manager"]
+	14 [label="Color Appender"]
+	15 [label="Decision Tree Learner"]
+	16 [label="Decision Tree Predictor"]
+	17 [label=Denormalizer]
+	19 [label=Scorer]
+	25 [label=Joiner]
+	26 [label=Denormalizer]
+	65 [label="ROC Curve _JavaScript_"]
+	66 [label="Lift Chart _JavaScript_"]
+	67 [label=X_Partitioner]
+	68 [label=X_Aggregator]
+	69 [label="Decision Tree Learner"]
+	70 [label="Decision Tree Predictor"]
+	71 [label=Scorer]
+	72 [label=Denormalizer]
+	73 [label="ROC Curve _JavaScript_"]
+	74 [label="Lift Chart _JavaScript_"]
+	75 [label="Random Forest Learner"]
+	76 [label="Random Forest Predictor"]
+	77 [label="Tree Ensemble Statistics"]
+	78 [label=Scorer]
+	79 [label=X_Partitioner]
+	80 [label=X_Aggregator]
+	81 [label="Decision Tree Learner"]
+	82 [label="Decision Tree Predictor"]
+	83 [label=Scorer]
+	84 [label="ROC Curve _JavaScript_"]
+	85 [label="Lift Chart _JavaScript_"]
+	86 [label="ROC Curve _JavaScript_"]
+	87 [label="Lift Chart _JavaScript_"]
+	1 -> 3
+	1 -> 2
+	2 -> 4
+	3 -> 5
+	4 -> 7
+	5 -> 8
+	7 -> 25
+	8 -> 9
+	9 -> 72
+	9 -> 25
+	9 -> 26
+	9 -> 17
+	12 -> 76
+	12 -> 75
+	12 -> 26
+	12 -> 17
+	13 -> 15
+	13 -> 14
+	14 -> 16
+	15 -> 16
+	16 -> 19
+	16 -> 65
+	16 -> 66
+	17 -> 13
+	25 -> 72
+	25 -> 12
+	26 -> 14
+	67 -> 70
+	67 -> 69
+	68 -> 71
+	68 -> 73
+	68 -> 74
+	69 -> 70
+	70 -> 68
+	72 -> 79
+	72 -> 67
+	75 -> 77
+	75 -> 76
+	76 -> 78
+	76 -> 86
+	76 -> 87
+	79 -> 82
+	79 -> 81
+	80 -> 83
+	80 -> 84
+	80 -> 85
+	81 -> 82
+	82 -> 80
+	rankdir=LR
+}

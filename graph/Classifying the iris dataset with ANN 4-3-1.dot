@@ -1,0 +1,30 @@
+digraph {
+	32 [label="Keras Network Learner"]
+	34 [label="Keras Network Executor"]
+	36 [label="Keras Dense Layer"]
+	37 [label="Keras Dense Layer"]
+	42 [label="Keras Input Layer"]
+	53 [label="Rule Engine"]
+	33 [label="Normalizer _Apply_"]
+	35 [label=Partitioning]
+	40 [label=Normalizer]
+	45 [label="Rule Engine"]
+	46 [label="Create Collection Column"]
+	55 [label="Table Reader"]
+	56 [label=Scorer]
+	35 -> 33
+	35 -> 40
+	40 -> 33
+	45 -> 46
+	46 -> 35
+	32 -> 34
+	34 -> 53
+	36 -> 37
+	37 -> 32
+	42 -> 36
+	53 -> 56
+	40 -> 34
+	40 -> 32
+	55 -> 45
+	rankdir=LR
+}

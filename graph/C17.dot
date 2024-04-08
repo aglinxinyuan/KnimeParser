@@ -1,0 +1,25 @@
+digraph {
+	2 [label="Date_Time Configuration"]
+	3 [label="Try _Variable Ports_"]
+	4 [label="Catch Errors _Var Ports_"]
+	6 [label="GET Request"]
+	7 [label="Extract Context Properties"]
+	8 [label="Date_Time Configuration"]
+	52 [label="Variable to Table Row"]
+	53 [label="Rule Engine"]
+	55 [label="CSV Writer"]
+	62 [label="Row Filter"]
+	63 [label="CSV Reader"]
+	2 -> 3
+	3 -> 6
+	3 -> 4
+	4 -> 7
+	6 -> 4
+	7 -> 8
+	8 -> 52
+	52 -> 53
+	53 -> 55
+	55 -> 63
+	63 -> 62
+	rankdir=LR
+}

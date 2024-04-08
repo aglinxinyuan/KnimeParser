@@ -1,0 +1,188 @@
+digraph {
+	98 [label="Many to One"]
+	102 [label="String Manipulation"]
+	103 [label="String To Number"]
+	96 [label="Create Collection Column"]
+	111 [label="Column Rename"]
+	317 [label="Recursive Loop Start"]
+	318 [label="Column Appender"]
+	130 [label="Column Filter"]
+	131 [label=Transpose]
+	133 [label="Split Collection Column"]
+	134 [label="Column Rename"]
+	135 [label="Cell Replacer"]
+	136 [label="Column Combiner"]
+	137 [label="Table Reader"]
+	139 [label=Concatenate]
+	140 [label=Transpose]
+	144 [label="Rule Engine"]
+	180 [label="Column Filter"]
+	320 [label="Column Splitter"]
+	106 [label="Extract Column Header"]
+	107 [label=Transpose]
+	108 [label="Lag Column"]
+	109 [label="Insert Column Header"]
+	110 [label="Column Filter"]
+	323 [label="Split Collection Column"]
+	324 [label="Recursive Loop End"]
+	343 [label="Random Label Assigner _Data_"]
+	344 [label="Table Creator"]
+	345 [label=Transpose]
+	346 [label="Counter Generation"]
+	348 [label="Column Rename"]
+	349 [label="Column Filter"]
+	350 [label="Number To String"]
+	351 [label="String To Number"]
+	106 [label="Extract Column Header"]
+	107 [label=Transpose]
+	108 [label="Lag Column"]
+	109 [label="Insert Column Header"]
+	110 [label="Column Filter"]
+	96 [label="Create Collection Column"]
+	111 [label="Column Rename"]
+	350 [label="Split Collection Column"]
+	352 [label="TensorFlow Network Reader"]
+	353 [label="Recursive Loop Start"]
+	355 [label="Recursive Loop End"]
+	89 [label="String Manipulation"]
+	103 [label=Unpivoting]
+	104 [label="Row Filter"]
+	118 [label="Constant Value Column"]
+	119 [label="Column Filter"]
+	234 [label="Cell Replacer"]
+	235 [label="Table Reader"]
+	236 [label="Row Filter"]
+	237 [label="Create Collection Column"]
+	238 [label=Transpose]
+	239 [label=RowID]
+	240 [label="Cell Splitter"]
+	241 [label="Table Reader"]
+	460 [label="String Manipulation"]
+	131 [label=Transpose]
+	133 [label="Split Collection Column"]
+	134 [label="Column Rename"]
+	135 [label="Cell Replacer"]
+	136 [label="Column Combiner"]
+	137 [label="Table Reader"]
+	139 [label=Concatenate]
+	140 [label=Transpose]
+	144 [label="Rule Engine"]
+	180 [label="Column Filter"]
+	358 [label="Column Splitter"]
+	232 [label="File Reader"]
+	89 [label="String Manipulation"]
+	90 [label="Cell Splitter"]
+	103 [label=Unpivoting]
+	104 [label="Row Filter"]
+	117 [label="Row Filter"]
+	118 [label="Constant Value Column"]
+	119 [label="Rule Engine"]
+	460 [label="String Manipulation"]
+	234 [label="Cell Replacer"]
+	235 [label="Table Reader"]
+	237 [label="Create Collection Column"]
+	236 [label="Row Filter"]
+	238 [label=Transpose]
+	239 [label="Column Filter"]
+	258 [label=RowID]
+	360 [label=RowID]
+	362 [label="Column Appender"]
+	363 [label="TensorFlow Network Executor"]
+	364 [label="TensorFlow Network Reader"]
+	365 [label="TensorFlow Network Executor"]
+	98 -> 102
+	102 -> 103
+	111 -> 96
+	131 -> 139
+	133 -> 131
+	134 -> 139
+	135 -> 140
+	136 -> 180
+	137 -> 144
+	139 -> 135
+	140 -> 136
+	144 -> 135
+	106 -> 107
+	107 -> 108
+	108 -> 109
+	110 -> 109
+	343 -> 106
+	344 -> 343
+	345 -> 345
+	351 -> 350
+	109 -> 111
+	96 -> 351
+	350 -> 343
+	106 -> 107
+	107 -> 108
+	108 -> 109
+	110 -> 109
+	111 -> 96
+	89 -> 240
+	103 -> 104
+	104 -> 119
+	118 -> 103
+	119 -> 234
+	234 -> 236
+	235 -> 234
+	236 -> 239
+	238 -> 237
+	239 -> 238
+	240 -> 118
+	241 -> 460
+	460 -> 89
+	131 -> 139
+	133 -> 131
+	134 -> 139
+	135 -> 140
+	136 -> 180
+	137 -> 144
+	139 -> 135
+	140 -> 136
+	144 -> 135
+	89 -> 90
+	90 -> 118
+	103 -> 104
+	117 -> 460
+	118 -> 119
+	119 -> 103
+	460 -> 89
+	236 -> 239
+	239 -> 258
+	258 -> 238
+	232 -> 117
+	104 -> 234
+	234 -> 236
+	235 -> 234
+	238 -> 237
+	103 -> 318
+	103 -> 324
+	96 -> 324
+	317 -> 363
+	318 -> 111
+	320 -> 106
+	320 -> 98
+	109 -> 318
+	323 -> 320
+	324 -> 130
+	351 -> 362
+	351 -> 355
+	109 -> 360
+	96 -> 355
+	350 -> 358
+	352 -> 365
+	353 -> 365
+	355 -> 134
+	356 -> 134
+	356 -> 353
+	358 -> 106
+	358 -> 345
+	359 -> 130
+	359 -> 317
+	360 -> 362
+	362 -> 111
+	363 -> 323
+	364 -> 363
+	365 -> 350
+	rankdir=LR
+}

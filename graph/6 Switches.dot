@@ -1,0 +1,10 @@
+digraph {
+	29 [label="CSV Reader"]
+	30 [label="IF Switch"]
+	31 [label="Bar Chart"]
+	32 [label="Pie_Donut Chart"]
+	29 -> 30
+	30 -> 31
+	30 -> 32
+	rankdir=LR
+}

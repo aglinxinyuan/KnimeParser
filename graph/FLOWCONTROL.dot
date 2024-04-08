@@ -1,0 +1,68 @@
+digraph {
+	1 [label="MySQL Connector"]
+	3 [label="DB Table Selector"]
+	4 [label="DB Table Selector"]
+	5 [label="DB Joiner"]
+	6 [label="DB Reader"]
+	7 [label="DB Table Selector"]
+	8 [label="DB Joiner"]
+	31 [label="String to Date_Time"]
+	32 [label="Extract Date_Time Fields"]
+	33 [label="Counting Loop Start"]
+	34 [label="Row Filter"]
+	35 [label="Math Formula"]
+	36 [label="Loop End"]
+	37 [label="Math Formula"]
+	1 [label="MySQL Connector"]
+	3 [label="DB Table Selector"]
+	4 [label="DB Table Selector"]
+	5 [label="DB Joiner"]
+	6 [label="DB Reader"]
+	7 [label="DB Table Selector"]
+	8 [label="DB Joiner"]
+	40 [label="String to Date_Time"]
+	41 [label="Extract Date_Time Fields"]
+	43 [label="Row Filter"]
+	44 [label="Generic Loop Start"]
+	45 [label="Variable Condition Loop End"]
+	47 [label="String Manipulation"]
+	48 [label="Number To String"]
+	49 [label="CSV Reader"]
+	50 [label="Row Filter"]
+	51 [label="Data Explorer"]
+	1 -> 3
+	1 -> 4
+	1 -> 7
+	3 -> 5
+	4 -> 5
+	5 -> 8
+	7 -> 8
+	8 -> 6
+	1 -> 3
+	1 -> 4
+	1 -> 7
+	3 -> 5
+	4 -> 5
+	5 -> 8
+	7 -> 8
+	8 -> 6
+	30 -> 31
+	31 -> 32
+	32 -> 34
+	33 -> 35
+	34 -> 35
+	34 -> 33
+	35 -> 36
+	37 -> 48
+	39 -> 40
+	40 -> 41
+	41 -> 43
+	43 -> 44
+	43 -> 37
+	44 -> 37
+	47 -> 45
+	48 -> 47
+	49 -> 50
+	49 -> 51
+	rankdir=LR
+}

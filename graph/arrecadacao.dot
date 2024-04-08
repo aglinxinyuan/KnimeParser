@@ -1,0 +1,30 @@
+digraph {
+	13 [label="PostgreSQL Connector"]
+	14 [label="Excel Reader"]
+	43 [label="DB Query Reader"]
+	44 [label=Joiner]
+	47 [label="Column Renamer"]
+	48 [label="Column Expressions"]
+	49 [label="Column Filter"]
+	52 [label="DB Writer"]
+	53 [label=Pivot]
+	54 [label="Extract Date_Time Fields"]
+	55 [label="DB Query Reader"]
+	56 [label=GroupBy]
+	57 [label=Joiner]
+	13 -> 43
+	13 -> 52
+	13 -> 55
+	14 -> 44
+	43 -> 44
+	44 -> 57
+	47 -> 48
+	48 -> 49
+	49 -> 52
+	49 -> 54
+	54 -> 53
+	55 -> 56
+	56 -> 57
+	57 -> 47
+	rankdir=LR
+}

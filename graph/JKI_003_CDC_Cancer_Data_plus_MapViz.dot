@@ -1,0 +1,39 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="CSV Reader"]
+	10 [label="Row Splitter"]
+	15 [label="String Manipulation"]
+	16 [label=Joiner]
+	18 [label="Row Splitter"]
+	20 [label=GroupBy]
+	21 [label="Top k Selector"]
+	22 [label="Row Splitter"]
+	23 [label="Top k Selector"]
+	24 [label=GroupBy]
+	25 [label="Math Formula"]
+	26 [label="Top k Selector"]
+	27 [label="Row Splitter"]
+	811 [label="Color Manager"]
+	812 [label="Shapefile Polygon Reader"]
+	813 [label=Joiner]
+	815 [label="OSM Map to Image"]
+	1 -> 15
+	2 -> 10
+	10 -> 27
+	10 -> 20
+	15 -> 16
+	16 -> 24
+	18 -> 23
+	18 -> 21
+	20 -> 22
+	22 -> 18
+	24 -> 25
+	25 -> 26
+	25 -> 813
+	27 -> 16
+	811 -> 815
+	812 -> 813
+	812 -> 815
+	813 -> 811
+	rankdir=LR
+}

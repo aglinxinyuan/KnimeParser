@@ -1,0 +1,13 @@
+digraph {
+	7 [label="Color Manager"]
+	8 [label="Data Generator"]
+	10 [label="Extract Color"]
+	11 [label=Joiner]
+	12 [label="Python View"]
+	7 -> 10
+	7 -> 11
+	8 -> 7
+	10 -> 11
+	11 -> 12
+	rankdir=LR
+}

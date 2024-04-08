@@ -1,0 +1,105 @@
+digraph {
+	18 [label="CSV Reader"]
+	20 [label=RowID]
+	21 [label="Strings To Document"]
+	29 [label="Document Viewer"]
+	95 [label="Excel Reader"]
+	100 [label="Dictionary Tagger"]
+	105 [label="Tag Filter"]
+	107 [label="Bag Of Words Creator"]
+	108 [label="Excel Reader"]
+	109 [label="Dictionary Tagger"]
+	111 [label="Tagged Document Viewer"]
+	131 [label="Excel Reader"]
+	132 [label="Excel Reader"]
+	134 [label="Dictionary Tagger"]
+	136 [label="Tag Filter"]
+	137 [label="Bag Of Words Creator"]
+	138 [label="Dictionary Tagger"]
+	141 [label="Tagged Document Viewer"]
+	890 [label=TF]
+	891 [label="Tags To String"]
+	892 [label=Pivoting]
+	893 [label="Missing Value"]
+	894 [label="Math Formula"]
+	895 [label="Rule Engine"]
+	920 [label="Tags To String"]
+	921 [label=TF]
+	922 [label="Missing Value"]
+	923 [label=Pivoting]
+	924 [label="Rule Engine"]
+	925 [label="Math Formula"]
+	930 [label="Table Manipulator"]
+	931 [label="Table Manipulator"]
+	932 [label="Table Manipulator"]
+	933 [label=Sorter]
+	942 [label=Joiner]
+	943 [label="Rule Engine"]
+	945 [label="Table Manipulator"]
+	946 [label="Table Manipulator"]
+	947 [label="Table Manipulator"]
+	948 [label="Rule_based Row Filter"]
+	949 [label="Table Manipulator"]
+	950 [label="Tagged Document Viewer"]
+	951 [label=Joiner]
+	952 [label="Tagged Document Viewer"]
+	953 [label=Joiner]
+	954 [label="Table Manipulator"]
+	955 [label="Table Manipulator"]
+	957 [label="CSV Writer"]
+	958 [label="CSV Writer"]
+	959 [label="CSV Writer"]
+	18 -> 20
+	20 -> 21
+	21 -> 29
+	21 -> 138
+	21 -> 109
+	95 -> 100
+	100 -> 111
+	100 -> 105
+	100 -> 953
+	105 -> 107
+	107 -> 921
+	108 -> 109
+	109 -> 100
+	131 -> 138
+	132 -> 134
+	134 -> 141
+	134 -> 136
+	134 -> 953
+	136 -> 137
+	137 -> 890
+	138 -> 134
+	890 -> 891
+	891 -> 892
+	892 -> 893
+	892 -> 930
+	893 -> 894
+	894 -> 895
+	894 -> 931
+	895 -> 942
+	895 -> 932
+	920 -> 923
+	921 -> 920
+	922 -> 925
+	923 -> 922
+	923 -> 955
+	924 -> 945
+	924 -> 942
+	925 -> 924
+	933 -> 943
+	933 -> 946
+	942 -> 933
+	943 -> 951
+	943 -> 947
+	948 -> 949
+	948 -> 954
+	950 -> 957
+	951 -> 948
+	952 -> 958
+	953 -> 951
+	954 -> 952
+	954 -> 959
+	954 -> 950
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Reader _deprecated_"]
+	6 [label="Table Creator"]
+	7 [label="Joiner _deprecated_"]
+	8 [label="Math Formula"]
+	9 [label="Column Filter"]
+	1 -> 7
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	rankdir=LR
+}

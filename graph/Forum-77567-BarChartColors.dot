@@ -1,0 +1,15 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Color Manager"]
+	4 [label="Number to String"]
+	7 [label="Extract Color"]
+	10 [label="Generic ECharts View"]
+	12 [label="Value Lookup"]
+	1 -> 4
+	2 -> 7
+	4 -> 2
+	4 -> 12
+	7 -> 12
+	12 -> 10
+	rankdir=LR
+}

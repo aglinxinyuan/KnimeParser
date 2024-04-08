@@ -1,0 +1,27 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=k_Means]
+	3 [label="Color Manager"]
+	4 [label="Shape Manager"]
+	5 [label="Scatter Plot _local_"]
+	6 [label=Partitioning]
+	7 [label="Cluster Assigner"]
+	9 [label=RowID]
+	10 [label="Missing Value"]
+	11 [label=Normalizer]
+	12 [label="CSV Writer"]
+	13 [label="Silhouette Coefficient"]
+	1 -> 9
+	2 -> 3
+	2 -> 7
+	2 -> 13
+	3 -> 4
+	4 -> 5
+	6 -> 7
+	6 -> 2
+	7 -> 12
+	9 -> 10
+	10 -> 11
+	11 -> 6
+	rankdir=LR
+}

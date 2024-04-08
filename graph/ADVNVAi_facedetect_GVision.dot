@@ -1,0 +1,80 @@
+digraph {
+	9 [label="Variable Creator"]
+	10 [label="String Manipulation _Variable_"]
+	15 [label="String Manipulation _Variable_"]
+	48 [label="String Manipulation"]
+	17 [label="Base64 Encoder"]
+	18 [label="Files to Binary Objects"]
+	19 [label="String to URI"]
+	21 [label="Column Filter"]
+	50 [label="POST Request"]
+	52 [label="Loop End"]
+	53 [label="Chunk Loop Start"]
+	54 [label="Column Filter"]
+	55 [label="JSON Path"]
+	56 [label="JSON Path"]
+	57 [label=Ungroup]
+	59 [label="GET Request"]
+	60 [label="Image Cropper"]
+	65 [label="Image Reader _Table_"]
+	184 [label="String Manipulation"]
+	185 [label="String Manipulation"]
+	186 [label="Table Row to Variable"]
+	190 [label="Chunk Loop Start"]
+	191 [label="Loop End"]
+	196 [label="Column Filter"]
+	197 [label="Image Writer"]
+	198 [label="Rule_based Row Filter"]
+	199 [label="String Manipulation"]
+	202 [label="Empty Table Switch"]
+	203 [label="End IF"]
+	201 [label="Column Filter"]
+	210 [label=GroupBy]
+	211 [label="CSV Writer"]
+	212 [label="String Manipulation"]
+	213 [label=GroupBy]
+	254 [label="String to Path _Variable_"]
+	264 [label="MongoDB Connector"]
+	266 [label="MongoDB Reader"]
+	267 [label="JSON Path"]
+	17 -> 21
+	18 -> 17
+	19 -> 18
+	60 -> 196
+	60 -> 197
+	65 -> 60
+	184 -> 185
+	185 -> 198
+	186 -> 60
+	190 -> 186
+	190 -> 65
+	191 -> 203
+	196 -> 191
+	198 -> 202
+	199 -> 190
+	202 -> 203
+	202 -> 199
+	9 -> 10
+	10 -> 15
+	15 -> 254
+	48 -> 50
+	21 -> 48
+	50 -> 54
+	52 -> 213
+	52 -> 201
+	53 -> 19
+	54 -> 55
+	55 -> 57
+	56 -> 59
+	57 -> 56
+	59 -> 184
+	203 -> 52
+	201 -> 210
+	210 -> 212
+	212 -> 211
+	254 -> 266
+	264 -> 266
+	266 -> 267
+	267 -> 53
+	rankdir=LR
+}

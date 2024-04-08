@@ -1,0 +1,37 @@
+digraph {
+	1 [label="CSV Reader"]
+	8 [label="Excel Reader"]
+	10 [label="String Cleaner"]
+	11 [label="Number to String"]
+	15 [label="Excel Writer"]
+	16 [label="Excel Writer"]
+	17 [label="String Cleaner"]
+	19 [label="Column Expressions"]
+	27 [label="Math Formula"]
+	28 [label="Math Formula"]
+	29 [label="Math Formula"]
+	30 [label="String Cleaner"]
+	31 [label="Math Formula"]
+	32 [label="Column Expressions"]
+	33 [label="String Cleaner"]
+	34 [label="Number to String"]
+	35 [label="CSV Writer"]
+	36 [label="CSV Writer"]
+	1 -> 34
+	8 -> 11
+	10 -> 17
+	11 -> 10
+	17 -> 27
+	19 -> 16
+	19 -> 36
+	27 -> 28
+	28 -> 19
+	29 -> 31
+	30 -> 29
+	31 -> 32
+	32 -> 15
+	32 -> 35
+	33 -> 30
+	34 -> 33
+	rankdir=LR
+}

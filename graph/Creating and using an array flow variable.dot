@@ -1,0 +1,19 @@
+digraph {
+	1 [label="Single Selection Widget"]
+	2 [label="Data Generator"]
+	3 [label=GroupBy]
+	4 [label="Constant Value Column"]
+	5 [label="Table Row to Variable"]
+	6 [label="Table Creator"]
+	7 [label="Create Collection Column"]
+	8 [label="Table Row to Variable"]
+	9 [label="Single Selection Widget"]
+	2 -> 4
+	3 -> 5
+	4 -> 3
+	5 -> 1
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	rankdir=LR
+}

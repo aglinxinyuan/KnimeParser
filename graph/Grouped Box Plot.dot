@@ -1,0 +1,8 @@
+digraph {
+	15 [label="Data Generator"]
+	16 [label="Generic JavaScript View"]
+	17 [label="Column Resorter"]
+	15 -> 17
+	17 -> 16
+	rankdir=LR
+}

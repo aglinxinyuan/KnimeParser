@@ -1,0 +1,25 @@
+digraph {
+	25 [label="CSV Reader"]
+	26 [label="Table Reader"]
+	27 [label="Row Filter"]
+	28 [label="Row Filter"]
+	29 [label="Row Filter"]
+	30 [label="Row Filter"]
+	31 [label="Row Filter"]
+	32 [label="Column Filter"]
+	33 [label="Column Filter"]
+	34 [label="Rule Engine"]
+	35 [label="String Manipulation"]
+	36 [label="Math Formula"]
+	25 -> 27
+	25 -> 34
+	26 -> 32
+	26 -> 33
+	27 -> 28
+	27 -> 29
+	27 -> 31
+	29 -> 30
+	34 -> 35
+	35 -> 36
+	rankdir=LR
+}

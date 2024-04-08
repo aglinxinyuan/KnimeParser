@@ -1,0 +1,116 @@
+digraph {
+	1 [label="Microsoft Authentication"]
+	2 [label="SharePoint Online Connector"]
+	3 [label="Excel Reader"]
+	4 [label="Row Filter"]
+	5 [label="Row Filter"]
+	7 [label="Math Formula"]
+	8 [label="Math Formula"]
+	9 [label="Column Filter"]
+	10 [label="Duplicate Row Filter"]
+	11 [label="Column Filter"]
+	12 [label="Duplicate Row Filter"]
+	14 [label=Joiner]
+	15 [label="Constant Value Column"]
+	16 [label="Constant Value Column"]
+	18 [label=Joiner]
+	20 [label="Constant Value Column"]
+	22 [label="Column Expressions"]
+	23 [label="Excel Reader"]
+	58 [label="Excel Writer"]
+	114 [label="Date_Time Input _legacy_"]
+	120 [label="Extract Date_Time Fields"]
+	121 [label="Table Creator"]
+	122 [label="Extract Date_Time Fields"]
+	123 [label="Constant Value Column"]
+	124 [label="Constant Value Column"]
+	125 [label=Joiner]
+	126 [label="Column Expressions"]
+	127 [label=Joiner]
+	128 [label="Column Resorter"]
+	129 [label="Column Rename"]
+	131 [label="Column Expressions"]
+	132 [label="Column Expressions"]
+	133 [label="Column Expressions"]
+	134 [label="Row Filter"]
+	137 [label="Table Row to Variable"]
+	138 [label="Excel Reader"]
+	139 [label="Column Expressions"]
+	140 [label="Missing Value"]
+	141 [label="Row Filter"]
+	142 [label="Row Filter"]
+	143 [label=Joiner]
+	144 [label="Column Expressions"]
+	145 [label="Column Expressions"]
+	146 [label=Joiner]
+	147 [label="Excel Writer"]
+	148 [label="Column Filter"]
+	149 [label="Column Rename"]
+	150 [label="Excel Writer"]
+	151 [label="Excel Writer"]
+	152 [label=Wait___]
+	153 [label=Wait___]
+	1 -> 2
+	2 -> 3
+	2 -> 138
+	2 -> 147
+	2 -> 150
+	2 -> 23
+	2 -> 151
+	2 -> 58
+	3 -> 5
+	3 -> 4
+	4 -> 7
+	4 -> 143
+	5 -> 8
+	5 -> 146
+	7 -> 9
+	8 -> 11
+	9 -> 10
+	10 -> 15
+	11 -> 12
+	12 -> 16
+	14 -> 18
+	15 -> 14
+	16 -> 14
+	18 -> 22
+	20 -> 18
+	22 -> 148
+	22 -> 127
+	23 -> 134
+	114 -> 121
+	120 -> 123
+	121 -> 120
+	121 -> 122
+	122 -> 124
+	123 -> 125
+	124 -> 125
+	125 -> 126
+	125 -> 131
+	126 -> 127
+	127 -> 129
+	128 -> 58
+	129 -> 128
+	131 -> 132
+	132 -> 133
+	133 -> 137
+	134 -> 20
+	137 -> 134
+	138 -> 140
+	139 -> 142
+	139 -> 141
+	140 -> 139
+	141 -> 144
+	142 -> 145
+	143 -> 150
+	144 -> 143
+	145 -> 146
+	146 -> 151
+	148 -> 149
+	149 -> 147
+	150 -> 152
+	151 -> 153
+	152 -> 151
+	153 -> 147
+	rankdir=LR
+}

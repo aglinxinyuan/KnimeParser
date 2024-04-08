@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	3 [label=Joiner]
+	4 [label=RowID]
+	5 [label=RowID]
+	6 [label=Sorter]
+	1 -> 3
+	2 -> 5
+	3 -> 4
+	4 -> 6
+	5 -> 3
+	rankdir=LR
+}

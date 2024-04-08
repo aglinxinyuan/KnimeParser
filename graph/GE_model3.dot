@@ -1,0 +1,407 @@
+digraph {
+	3 [label=Joiner]
+	7 [label="String to Date_Time"]
+	8 [label="Row Splitter"]
+	9 [label="Extract Date_Time Fields"]
+	10 [label="Math Formula"]
+	11 [label="One to Many"]
+	12 [label="Column Filter"]
+	13 [label="Simple Regression Tree Learner"]
+	14 [label="Simple Regression Tree Predictor"]
+	15 [label="Rule Engine"]
+	17 [label="Column Filter"]
+	18 [label="Row Splitter"]
+	19 [label=k_Means]
+	20 [label=k_Means]
+	21 [label=k_Means]
+	23 [label="One to Many"]
+	24 [label=Pivoting]
+	25 [label="Column Filter"]
+	27 [label="CSV Writer"]
+	30 [label="Row Filter"]
+	31 [label="File Reader"]
+	32 [label="CSV Writer"]
+	33 [label="CSV Writer"]
+	34 [label="One to Many"]
+	35 [label="Rule Engine"]
+	36 [label="Column Filter"]
+	37 [label=Partitioning]
+	38 [label="Decision Tree Predictor"]
+	39 [label=Scorer]
+	40 [label="Lift Chart"]
+	41 [label=Concatenate]
+	42 [label="Decision Tree Learner"]
+	43 [label="Rule Engine"]
+	44 [label="Decision Tree Learner"]
+	45 [label="Row Splitter"]
+	46 [label="Column Filter"]
+	47 [label="Decision Tree Predictor"]
+	48 [label="Lift Chart"]
+	50 [label=Concatenate]
+	51 [label=Scorer]
+	52 [label=Partitioning]
+	53 [label=Pivoting]
+	54 [label=k_Means]
+	55 [label=k_Means]
+	56 [label="CSV Writer"]
+	57 [label="CSV Writer"]
+	58 [label="CSV Writer"]
+	59 [label=k_Means]
+	60 [label=k_Means]
+	61 [label=k_Means]
+	62 [label="CSV Writer"]
+	63 [label="CSV Writer"]
+	64 [label="CSV Writer"]
+	65 [label=k_Means]
+	66 [label=Scorer]
+	67 [label="Decision Tree Learner"]
+	68 [label="Lift Chart"]
+	69 [label="Decision Tree Predictor"]
+	106 [label=Pivoting]
+	107 [label=Pivoting]
+	108 [label=Pivoting]
+	109 [label=Pivoting]
+	110 [label="Column Filter"]
+	111 [label="Row Splitter"]
+	112 [label="Row Splitter"]
+	103 [label=GroupBy]
+	132 [label="Rule Engine"]
+	133 [label="Decision Tree Learner"]
+	134 [label=Concatenate]
+	135 [label=Scorer]
+	136 [label="Row Splitter"]
+	137 [label="Column Filter"]
+	138 [label="Decision Tree Predictor"]
+	139 [label="Lift Chart"]
+	140 [label=Partitioning]
+	141 [label="Decision Tree Predictor"]
+	142 [label=Partitioning]
+	143 [label="Decision Tree Learner"]
+	144 [label="Row Splitter"]
+	145 [label=Concatenate]
+	146 [label="Column Filter"]
+	147 [label="Lift Chart"]
+	148 [label="Rule Engine"]
+	149 [label=Scorer]
+	22 [label="Cell Splitter"]
+	70 [label="Column Filter"]
+	90 [label=Ungroup]
+	91 [label="Domain Calculator"]
+	113 [label=k_Means]
+	114 [label=k_Means]
+	115 [label="CSV Writer"]
+	116 [label=k_Means]
+	117 [label=k_Means]
+	118 [label=k_Means]
+	119 [label="CSV Writer"]
+	120 [label=k_Means]
+	121 [label=k_Means]
+	122 [label="One to Many"]
+	123 [label="CSV Writer"]
+	124 [label=k_Means]
+	125 [label="CSV Writer"]
+	126 [label="CSV Writer"]
+	127 [label="CSV Writer"]
+	128 [label="CSV Writer"]
+	129 [label="CSV Writer"]
+	130 [label=k_Means]
+	131 [label="CSV Writer"]
+	22 [label="Cell Splitter"]
+	70 [label="Column Filter"]
+	90 [label=Ungroup]
+	91 [label="Domain Calculator"]
+	113 [label=k_Means]
+	114 [label=k_Means]
+	115 [label="CSV Writer"]
+	116 [label=k_Means]
+	117 [label=k_Means]
+	118 [label=k_Means]
+	119 [label="CSV Writer"]
+	120 [label=k_Means]
+	121 [label=k_Means]
+	122 [label="One to Many"]
+	123 [label="CSV Writer"]
+	124 [label=k_Means]
+	125 [label="CSV Writer"]
+	126 [label="CSV Writer"]
+	127 [label="CSV Writer"]
+	128 [label="CSV Writer"]
+	129 [label="CSV Writer"]
+	130 [label=k_Means]
+	131 [label="CSV Writer"]
+	103 [label=GroupBy]
+	132 [label="Rule Engine"]
+	133 [label="Decision Tree Learner"]
+	134 [label=Concatenate]
+	135 [label=Scorer]
+	136 [label="Row Splitter"]
+	137 [label="Column Filter"]
+	138 [label="Decision Tree Predictor"]
+	139 [label="Lift Chart"]
+	140 [label=Partitioning]
+	141 [label="Decision Tree Predictor"]
+	142 [label=Partitioning]
+	143 [label="Decision Tree Learner"]
+	144 [label="Row Splitter"]
+	145 [label=Concatenate]
+	146 [label="Column Filter"]
+	147 [label="Lift Chart"]
+	148 [label="Rule Engine"]
+	149 [label=Scorer]
+	22 [label="Cell Splitter"]
+	70 [label="Column Filter"]
+	90 [label=Ungroup]
+	91 [label="Domain Calculator"]
+	113 [label=k_Means]
+	114 [label=k_Means]
+	115 [label="CSV Writer"]
+	116 [label=k_Means]
+	117 [label=k_Means]
+	118 [label=k_Means]
+	119 [label="CSV Writer"]
+	120 [label=k_Means]
+	121 [label=k_Means]
+	122 [label="One to Many"]
+	123 [label="CSV Writer"]
+	124 [label=k_Means]
+	125 [label="CSV Writer"]
+	126 [label="CSV Writer"]
+	127 [label="CSV Writer"]
+	128 [label="CSV Writer"]
+	129 [label="CSV Writer"]
+	130 [label=k_Means]
+	131 [label="CSV Writer"]
+	103 [label=GroupBy]
+	132 [label="Rule Engine"]
+	133 [label="Decision Tree Learner"]
+	134 [label=Concatenate]
+	135 [label=Scorer]
+	136 [label="Row Splitter"]
+	137 [label="Column Filter"]
+	138 [label="Decision Tree Predictor"]
+	139 [label="Lift Chart"]
+	140 [label=Partitioning]
+	141 [label="Decision Tree Predictor"]
+	142 [label=Partitioning]
+	143 [label="Decision Tree Learner"]
+	144 [label="Row Splitter"]
+	145 [label=Concatenate]
+	146 [label="Column Filter"]
+	147 [label="Lift Chart"]
+	148 [label="Rule Engine"]
+	149 [label=Scorer]
+	156 [label="File Reader"]
+	157 [label=Pivoting]
+	158 [label=Pivoting]
+	103 -> 132
+	103 -> 148
+	132 -> 137
+	132 -> 138
+	133 -> 138
+	134 -> 133
+	136 -> 140
+	136 -> 134
+	137 -> 136
+	138 -> 139
+	138 -> 135
+	140 -> 134
+	141 -> 149
+	141 -> 147
+	142 -> 145
+	143 -> 141
+	144 -> 145
+	144 -> 142
+	145 -> 143
+	146 -> 144
+	148 -> 146
+	148 -> 141
+	22 -> 90
+	70 -> 91
+	90 -> 70
+	91 -> 122
+	113 -> 119
+	114 -> 126
+	116 -> 125
+	117 -> 129
+	118 -> 115
+	120 -> 123
+	121 -> 128
+	122 -> 120
+	122 -> 121
+	122 -> 124
+	122 -> 114
+	122 -> 113
+	122 -> 118
+	122 -> 116
+	122 -> 117
+	122 -> 130
+	124 -> 131
+	130 -> 127
+	22 -> 90
+	70 -> 91
+	90 -> 70
+	91 -> 122
+	113 -> 119
+	114 -> 126
+	116 -> 125
+	117 -> 129
+	118 -> 115
+	120 -> 123
+	121 -> 128
+	122 -> 120
+	122 -> 121
+	122 -> 124
+	122 -> 114
+	122 -> 113
+	122 -> 118
+	122 -> 116
+	122 -> 117
+	122 -> 130
+	124 -> 131
+	130 -> 127
+	103 -> 132
+	103 -> 148
+	132 -> 137
+	132 -> 138
+	133 -> 138
+	134 -> 133
+	136 -> 140
+	136 -> 134
+	137 -> 136
+	138 -> 139
+	138 -> 135
+	140 -> 134
+	141 -> 149
+	141 -> 147
+	142 -> 145
+	143 -> 141
+	144 -> 145
+	144 -> 142
+	145 -> 143
+	146 -> 144
+	148 -> 146
+	148 -> 141
+	22 -> 90
+	70 -> 91
+	90 -> 70
+	91 -> 122
+	113 -> 119
+	114 -> 126
+	116 -> 125
+	117 -> 129
+	118 -> 115
+	120 -> 123
+	121 -> 128
+	122 -> 120
+	122 -> 121
+	122 -> 124
+	122 -> 114
+	122 -> 113
+	122 -> 118
+	122 -> 116
+	122 -> 117
+	122 -> 130
+	124 -> 131
+	130 -> 127
+	103 -> 132
+	103 -> 148
+	132 -> 137
+	132 -> 138
+	133 -> 138
+	134 -> 133
+	136 -> 140
+	136 -> 134
+	137 -> 136
+	138 -> 139
+	138 -> 135
+	140 -> 134
+	141 -> 149
+	141 -> 147
+	142 -> 145
+	143 -> 141
+	144 -> 145
+	144 -> 142
+	145 -> 143
+	146 -> 144
+	148 -> 146
+	148 -> 141
+	3 -> 18
+	3 -> 157
+	3 -> 158
+	7 -> 9
+	8 -> 41
+	8 -> 37
+	9 -> 10
+	10 -> 12
+	11 -> 14
+	11 -> 13
+	12 -> 11
+	13 -> 14
+	14 -> 15
+	15 -> 3
+	17 -> 34
+	18 -> 17
+	18 -> 25
+	18 -> 53
+	18 -> 110
+	19 -> 27
+	20 -> 32
+	21 -> 33
+	23 -> 21
+	23 -> 20
+	23 -> 19
+	23 -> 55
+	23 -> 54
+	23 -> 61
+	23 -> 60
+	23 -> 59
+	23 -> 65
+	25 -> 23
+	30 -> 3
+	31 -> 30
+	31 -> 24
+	34 -> 35
+	34 -> 43
+	35 -> 38
+	35 -> 36
+	36 -> 8
+	37 -> 41
+	38 -> 39
+	38 -> 40
+	41 -> 42
+	42 -> 38
+	43 -> 47
+	43 -> 46
+	44 -> 47
+	45 -> 52
+	45 -> 50
+	46 -> 45
+	46 -> 67
+	47 -> 51
+	47 -> 48
+	50 -> 44
+	52 -> 50
+	54 -> 57
+	55 -> 58
+	59 -> 56
+	60 -> 63
+	61 -> 64
+	65 -> 62
+	67 -> 69
+	69 -> 68
+	69 -> 66
+	110 -> 111
+	110 -> 109
+	111 -> 106
+	111 -> 112
+	111 -> 22
+	112 -> 107
+	112 -> 108
+	112 -> 22
+	112 -> 22
+	122 -> 150
+	122 -> 153
+	122 -> 155
+	156 -> 7
+	rankdir=LR
+}

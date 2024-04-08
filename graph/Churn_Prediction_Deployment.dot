@@ -1,0 +1,10 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="PMML Reader"]
+	4 [label="PMML Predictor"]
+	5 [label="Data to Report"]
+	1 -> 4
+	2 -> 4
+	4 -> 5
+	rankdir=LR
+}

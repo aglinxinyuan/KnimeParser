@@ -1,0 +1,50 @@
+digraph {
+	20 [label="String Manipulation"]
+	39 [label="Geospatial View"]
+	40 [label="US2020 Census Data"]
+	42 [label="US2020 TIGER Map"]
+	43 [label=Joiner]
+	47 [label="Geospatial View"]
+	48 [label="Multiple Ring Buffer"]
+	49 [label=Projection]
+	52 [label="String To Number"]
+	53 [label=Dissolve]
+	59 [label=GroupBy]
+	60 [label=Joiner]
+	66 [label="Lat_Lon to Geometry"]
+	68 [label="Column Filter"]
+	80 [label="Table Reader"]
+	86 [label="Geospatial View"]
+	87 [label="Geospatial View"]
+	88 [label="Spatial Join"]
+	89 [label="Table Creator"]
+	90 [label="Geospatial View"]
+	561 [label=Overlay]
+	563 [label=GroupBy]
+	566 [label=Joiner]
+	20 -> 43
+	40 -> 20
+	42 -> 43
+	43 -> 39
+	43 -> 49
+	48 -> 561
+	48 -> 87
+	49 -> 52
+	52 -> 561
+	53 -> 60
+	59 -> 60
+	60 -> 88
+	60 -> 566
+	66 -> 68
+	68 -> 88
+	80 -> 66
+	88 -> 563
+	89 -> 90
+	89 -> 48
+	561 -> 53
+	561 -> 86
+	561 -> 59
+	563 -> 566
+	566 -> 47
+	rankdir=LR
+}

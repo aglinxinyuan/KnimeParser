@@ -1,0 +1,66 @@
+digraph {
+	4 [label="Variable Creator"]
+	11 [label="Google Cloud Storage Connector"]
+	12 [label="Google Authentication _API Key_"]
+	15 [label="Transfer Files _Table_"]
+	16 [label="String to Path"]
+	23 [label="MongoDB Connector"]
+	384 [label="MongoDB Save"]
+	9 [label="Chunk Loop Start"]
+	10 [label="Loop End"]
+	27 [label="String Manipulation"]
+	28 [label="Python Script"]
+	1 [label="List Files_Folders"]
+	5 [label="String Manipulation _Variable_"]
+	7 [label="String to Path _Variable_"]
+	385 [label="MongoDB Connector"]
+	386 [label="MongoDB Reader"]
+	387 [label="JSON Path"]
+	388 [label="Row Filter"]
+	389 [label="Reference Row Filter"]
+	390 [label="Row Filter"]
+	392 [label="String Manipulation _Variable_"]
+	393 [label="String to Path _Variable_"]
+	394 [label="Row Filter"]
+	19 [label="String to JSON"]
+	20 [label="String Manipulation"]
+	21 [label="String Manipulation"]
+	22 [label="String Manipulation"]
+	396 [label="String to JSON"]
+	397 [label="String Manipulation"]
+	398 [label="JSON Transformer"]
+	399 [label="JSON Transformer"]
+	9 -> 27
+	27 -> 28
+	28 -> 10
+	1 -> 389
+	5 -> 7
+	7 -> 1
+	7 -> 385
+	385 -> 386
+	386 -> 387
+	387 -> 388
+	388 -> 9
+	10 -> 389
+	19 -> 21
+	20 -> 398
+	20 -> 399
+	21 -> 22
+	22 -> 20
+	396 -> 19
+	397 -> 396
+	4 -> 5
+	11 -> 15
+	12 -> 11
+	16 -> 392
+	16 -> 397
+	16 -> 394
+	23 -> 384
+	10 -> 16
+	389 -> 9
+	392 -> 393
+	393 -> 15
+	394 -> 15
+	399 -> 384
+	rankdir=LR
+}

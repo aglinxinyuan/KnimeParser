@@ -1,0 +1,55 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	5 [label="CSV Reader"]
+	7 [label="Row Filter"]
+	11 [label="Row Filter"]
+	12 [label="Data Explorer"]
+	13 [label=Statistics]
+	14 [label="Linear Correlation"]
+	15 [label="Rank Correlation"]
+	16 [label="Data Explorer"]
+	17 [label="Bar Chart"]
+	18 [label="Box Plot"]
+	19 [label=Histogram]
+	20 [label="Scatter Plot"]
+	23 [label="String To Number"]
+	25 [label="SQLite Connector"]
+	26 [label="Excel Reader"]
+	27 [label="DB Reader"]
+	28 [label="DB Table Selector"]
+	29 [label="Bar Chart"]
+	30 [label="String To Number"]
+	31 [label="Scatter Plot"]
+	32 [label="Scatter Plot"]
+	33 [label="Scatter Matrix _local_"]
+	34 [label="Parallel Coordinates Plot"]
+	35 [label="Radar Plot _Plotly_"]
+	36 [label="Sunburst Chart"]
+	37 [label="Scatter Plot"]
+	5 -> 11
+	5 -> 20
+	7 -> 12
+	7 -> 30
+	11 -> 23
+	23 -> 18
+	23 -> 16
+	23 -> 13
+	25 -> 28
+	27 -> 7
+	28 -> 27
+	30 -> 31
+	30 -> 29
+	30 -> 19
+	30 -> 17
+	30 -> 14
+	30 -> 15
+	30 -> 36
+	30 -> 37
+	30 -> 34
+	30 -> 35
+	30 -> 32
+	30 -> 33
+	rankdir=LR
+}

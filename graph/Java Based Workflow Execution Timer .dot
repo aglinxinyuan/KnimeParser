@@ -1,0 +1,8 @@
+digraph {
+	60 [label="Java Edit Variable"]
+	61 [label="Java Edit Variable"]
+	63 [label="Table Creator"]
+	60 -> 63
+	63 -> 61
+	rankdir=LR
+}

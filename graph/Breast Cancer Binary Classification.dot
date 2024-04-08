@@ -1,0 +1,40 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label=Partitioning]
+	225 [label="Keras Input Layer"]
+	280 [label="Keras Network Learner"]
+	284 [label="Keras Network Executor"]
+	288 [label="Rule Engine"]
+	289 [label=Scorer]
+	363 [label=Partitioning]
+	369 [label="Keras Dense Layer"]
+	370 [label="Keras Dense Layer"]
+	371 [label="Keras Dense Layer"]
+	372 [label="Category To Number"]
+	373 [label="Keras Dropout Layer"]
+	376 [label="Keras Dropout Layer"]
+	377 [label="DL Python Network Editor"]
+	378 [label="Keras Batch Normalization Layer"]
+	379 [label="Keras Batch Normalization Layer"]
+	1 -> 2
+	2 -> 372
+	3 -> 280
+	3 -> 280
+	225 -> 369
+	280 -> 284
+	284 -> 288
+	288 -> 289
+	363 -> 3
+	363 -> 284
+	369 -> 378
+	370 -> 379
+	371 -> 377
+	371 -> 280
+	372 -> 363
+	373 -> 371
+	376 -> 370
+	378 -> 376
+	379 -> 373
+	rankdir=LR
+}

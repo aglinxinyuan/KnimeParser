@@ -1,0 +1,10 @@
+digraph {
+	32 [label="Container Input _Table_"]
+	34 [label="Container Output _Table_"]
+	35 [label="Math Formula"]
+	36 [label="Column Filter"]
+	32 -> 35
+	35 -> 36
+	36 -> 34
+	rankdir=LR
+}

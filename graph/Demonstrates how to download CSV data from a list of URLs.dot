@@ -1,0 +1,19 @@
+digraph {
+	819 [label="Webpage Retriever"]
+	820 [label=XPath]
+	847 [label="Transfer Files"]
+	848 [label="HTTP_S_ Connector"]
+	850 [label="String Manipulation"]
+	853 [label="String to Path"]
+	854 [label="Row Filter"]
+	855 [label="Table Row to Variable"]
+	819 -> 820
+	820 -> 850
+	848 -> 847
+	850 -> 853
+	853 -> 854
+	853 -> 848
+	854 -> 855
+	855 -> 847
+	rankdir=LR
+}

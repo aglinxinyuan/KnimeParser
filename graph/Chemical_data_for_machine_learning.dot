@@ -1,0 +1,137 @@
+digraph {
+	8 [label="Excel Reader _XLS_"]
+	10 [label=Partitioning]
+	21 [label=Statistics]
+	22 [label=Histogram]
+	24 [label="Numeric Row Splitter"]
+	25 [label="Numeric Row Splitter"]
+	26 [label="Constant Value Column"]
+	27 [label="Constant Value Column"]
+	28 [label="Constant Value Column"]
+	29 [label=Concatenate]
+	30 [label=Concatenate]
+	32 [label="Pie_Donut Chart"]
+	59 [label="Low Variance Filter"]
+	61 [label="Correlation Filter"]
+	62 [label="Linear Correlation"]
+	7 [label="Elemental Analysis"]
+	8 [label="H Bond Donor_Acceptor"]
+	9 [label=logP]
+	10 [label="Topology Analysis"]
+	13 [label="Column Filter"]
+	24 [label="Numeric Row Splitter"]
+	26 [label="Constant Value Column"]
+	28 [label="Constant Value Column"]
+	30 [label=Concatenate]
+	164 [label="CSV Writer"]
+	165 [label="Column Filter"]
+	166 [label="Excel Reader _XLS_"]
+	238 [label="ROC Curve _local_"]
+	170 [label="Random Forest Learner"]
+	171 [label="Random Forest Predictor"]
+	23 [label="Advanced MolConverter"]
+	144 [label=Standardizer]
+	157 [label="Structure Checker"]
+	7 [label="Elemental Analysis"]
+	14 [label="Row Filter"]
+	15 [label="Row Filter"]
+	76 [label="Column Filter"]
+	77 [label="Column Filter"]
+	79 [label=ECFP_FCFP]
+	254 [label="Pie_Donut Chart"]
+	59 [label="Low Variance Filter"]
+	61 [label="Correlation Filter"]
+	62 [label="Linear Correlation"]
+	256 [label="Column Rename"]
+	23 [label="Advanced MolConverter"]
+	144 [label=Standardizer]
+	157 [label="Structure Checker"]
+	7 [label="Elemental Analysis"]
+	14 [label="Row Filter"]
+	15 [label="Row Filter"]
+	76 [label="Column Filter"]
+	77 [label="Column Filter"]
+	79 [label=ECFP_FCFP]
+	258 [label="Column Filter"]
+	259 [label="Pie_Donut Chart"]
+	260 [label="Pie_Donut Chart"]
+	261 [label=Scorer]
+	161 [label="CSV Reader"]
+	162 [label="Reference Row Filter"]
+	163 [label=LibraryMCS]
+	164 [label="Advanced MolConverter"]
+	247 [label=GroupBy]
+	248 [label="Column Filter"]
+	249 [label="Row Filter"]
+	252 [label="Column Rename"]
+	24 -> 25
+	24 -> 26
+	25 -> 27
+	25 -> 28
+	26 -> 29
+	27 -> 29
+	28 -> 30
+	29 -> 30
+	59 -> 62
+	59 -> 61
+	62 -> 61
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 13
+	24 -> 26
+	24 -> 28
+	26 -> 30
+	28 -> 30
+	170 -> 171
+	144 -> 157
+	7 -> 14
+	14 -> 15
+	77 -> 79
+	79 -> 76
+	23 -> 144
+	157 -> 7
+	15 -> 77
+	59 -> 62
+	59 -> 61
+	62 -> 61
+	144 -> 157
+	7 -> 14
+	14 -> 15
+	77 -> 79
+	79 -> 76
+	23 -> 144
+	157 -> 7
+	15 -> 77
+	161 -> 162
+	162 -> 164
+	164 -> 163
+	247 -> 252
+	248 -> 249
+	249 -> 247
+	8 -> 258
+	10 -> 259
+	10 -> 260
+	10 -> 170
+	10 -> 170
+	30 -> 165
+	30 -> 32
+	61 -> 24
+	30 -> 10
+	30 -> 254
+	165 -> 164
+	166 -> 248
+	171 -> 238
+	171 -> 261
+	76 -> 59
+	61 -> 24
+	256 -> 23
+	256 -> 7
+	256 -> 21
+	256 -> 22
+	76 -> 59
+	258 -> 256
+	258 -> 262
+	252 -> 23
+	rankdir=LR
+}

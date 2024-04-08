@@ -1,0 +1,27 @@
+digraph {
+	6 [label="Number To String"]
+	1 [label="CSV Reader"]
+	2 [label="Rule Engine"]
+	3 [label="Rule Engine"]
+	4 [label="Rule Engine"]
+	5 [label="Column Filter"]
+	8 [label="Color Manager"]
+	9 [label=Partitioning]
+	10 [label="Decision Tree Learner"]
+	11 [label="Equal Size Sampling"]
+	12 [label="Decision Tree Predictor"]
+	13 [label="Scorer _JavaScript_"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	6 -> 8
+	7 -> 6
+	8 -> 9
+	9 -> 10
+	9 -> 11
+	10 -> 12
+	11 -> 12
+	12 -> 13
+	rankdir=LR
+}

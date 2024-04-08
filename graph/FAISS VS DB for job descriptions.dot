@@ -1,0 +1,14 @@
+digraph {
+	1 [label="CSV Reader"]
+	82 [label="Credentials Configuration"]
+	106 [label="OpenAI Authenticator"]
+	137 [label="OpenAI Embeddings Connector"]
+	189 [label="Model Writer"]
+	1741 [label="FAISS Vector Store Creator"]
+	1 -> 1741
+	82 -> 106
+	106 -> 137
+	137 -> 1741
+	1741 -> 189
+	rankdir=LR
+}

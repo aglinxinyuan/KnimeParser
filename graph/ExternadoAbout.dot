@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Duplicate Row Filter"]
+	3 [label="String Manipulation"]
+	4 [label="Case Converter"]
+	5 [label="String Manipulation"]
+	6 [label="Cell Splitter"]
+	1 -> 4
+	2 -> 3
+	3 -> 5
+	4 -> 2
+	5 -> 6
+	rankdir=LR
+}

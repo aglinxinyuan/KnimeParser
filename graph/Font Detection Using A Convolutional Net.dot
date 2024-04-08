@@ -1,0 +1,46 @@
+digraph {
+	41 [label="DL4J Model Initializer"]
+	42 [label="Convolution Layer"]
+	43 [label="Pooling Layer"]
+	44 [label="Convolution Layer"]
+	45 [label="Pooling Layer"]
+	46 [label="Dense Layer"]
+	10 [label="Row Splitter"]
+	33 [label=Scorer]
+	1 [label="List Files"]
+	2 [label="Java Snippet"]
+	3 [label="Image Reader _Table_"]
+	20 [label="Column Filter"]
+	23 [label="Image Converter"]
+	24 [label="Image Calculator"]
+	9 [label=Partitioning]
+	28 [label=Shuffle]
+	29 [label=Scorer]
+	31 [label="DL4J Feedforward Learner _Classification_"]
+	32 [label="DL4J Feedforward Predictor _Classification_"]
+	33 [label="DL4J Feedforward Predictor _Classification_"]
+	38 [label="Image Viewer"]
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	44 -> 45
+	45 -> 46
+	1 -> 2
+	2 -> 3
+	3 -> 23
+	23 -> 24
+	24 -> 20
+	9 -> 31
+	9 -> 32
+	28 -> 9
+	31 -> 32
+	32 -> 29
+	2 -> 28
+	10 -> 28
+	10 -> 33
+	35 -> 38
+	35 -> 10
+	31 -> 33
+	33 -> 33
+	rankdir=LR
+}

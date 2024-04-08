@@ -1,0 +1,40 @@
+digraph {
+	167 [label="List Files_Folders"]
+	169 [label="Table Row to Variable Loop Start"]
+	170 [label="Excel Reader"]
+	177 [label="CASE Switch Start"]
+	122 [label="Column Renamer"]
+	123 [label="Column Resorter"]
+	124 [label="Row Filter"]
+	125 [label="Column Filter"]
+	126 [label="Missing Value"]
+	179 [label="CASE Switch End"]
+	180 [label="Loop End"]
+	112 [label="Row Filter"]
+	117 [label="Column Filter"]
+	118 [label="Missing Value"]
+	182 [label="Column Expressions"]
+	174 [label="Rule Engine"]
+	175 [label="Column Name Extractor"]
+	176 [label="Table Row to Variable"]
+	122 -> 123
+	123 -> 124
+	124 -> 125
+	125 -> 126
+	112 -> 117
+	117 -> 118
+	174 -> 176
+	175 -> 174
+	167 -> 169
+	169 -> 170
+	170 -> 182
+	177 -> 122
+	177 -> 112
+	126 -> 179
+	179 -> 180
+	118 -> 179
+	182 -> 177
+	182 -> 175
+	176 -> 177
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Table Creator"]
+	10 [label=GroupBy]
+	11 [label="Split Collection Column"]
+	12 [label="Column Rename _Regex_"]
+	1 -> 10
+	10 -> 11
+	11 -> 12
+	rankdir=LR
+}

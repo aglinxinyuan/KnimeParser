@@ -1,0 +1,16 @@
+digraph {
+	16 [label="XLS Formatter _apply_"]
+	17 [label="XLS Control Table from Cell Range"]
+	18 [label="XLS Sheet Properties"]
+	19 [label="XLS Control Table from Cell Range"]
+	20 [label="XLS Sheet Properties"]
+	21 [label="XLS Control Table from Cell Range"]
+	22 [label="XLS Sheet Properties"]
+	17 -> 18
+	18 -> 22
+	19 -> 20
+	20 -> 16
+	21 -> 22
+	22 -> 20
+	rankdir=LR
+}

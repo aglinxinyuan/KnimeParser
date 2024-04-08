@@ -1,0 +1,55 @@
+digraph {
+	1 [label="Get Help"]
+	8 [label="Chemistry External Tool"]
+	9 [label="List Files"]
+	11 [label="SDF Writer"]
+	12 [label="SDF Writer"]
+	13 [label="Multiple Selections"]
+	14 [label="Single Selection"]
+	15 [label="String Input"]
+	16 [label="WrappedNode Input"]
+	17 [label="WrappedNode Output"]
+	15 [label="Chemistry External Tool"]
+	16 [label="Table Viewer"]
+	17 [label="Table Viewer"]
+	19 [label="String Input"]
+	20 [label="WrappedNode Input"]
+	21 [label="WrappedNode Output"]
+	14997 [label="String Input"]
+	24 [label="Table Creator"]
+	37 [label="Table Viewer"]
+	39 [label="Chemistry External Tool"]
+	40 [label="Table Viewer"]
+	43 [label="Molecule Reader _to MAE_"]
+	45 [label="Extract Properties"]
+	47 [label=RowID]
+	38 [label=Transpose]
+	41 [label=Molecule_to_MAE]
+	44 [label="Extract Properties"]
+	46 [label=RowID]
+	48 [label="Number To String"]
+	13 -> 14
+	14 -> 15
+	15 -> 17
+	19 -> 14997
+	14997 -> 21
+	41 -> 44
+	44 -> 46
+	46 -> 48
+	48 -> 38
+	1 -> 16
+	8 -> 12
+	9 -> 8
+	13 -> 8
+	15 -> 11
+	15 -> 17
+	15 -> 41
+	20 -> 15
+	24 -> 15
+	39 -> 40
+	43 -> 45
+	45 -> 47
+	47 -> 15
+	38 -> 37
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	1 [label="List Files"]
+	12 [label="Table Creator"]
+	13 [label="Cross Joiner"]
+	18 [label=Concatenate]
+	26 [label="Table Writer"]
+	15 [label=Joiner]
+	16 [label="Reference Row Filter"]
+	17 [label=RowID]
+	2 [label="String to URI"]
+	3 [label="URL to File Path"]
+	4 [label="Cell Splitter"]
+	5 [label="Column Rename"]
+	6 [label="Column Filter"]
+	29 [label="Table Reader"]
+	30 [label="Nominal Value Row Filter"]
+	15 -> 16
+	17 -> 15
+	2 -> 3
+	3 -> 4
+	4 -> 6
+	6 -> 5
+	1 -> 2
+	12 -> 13
+	13 -> 17
+	18 -> 26
+	18 -> 30
+	16 -> 18
+	5 -> 13
+	29 -> 17
+	29 -> 18
+	rankdir=LR
+}

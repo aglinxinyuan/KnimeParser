@@ -1,0 +1,9 @@
+digraph {
+	3 [label=GroupBy]
+	8 [label="File Reader"]
+	9 [label=Joiner]
+	3 -> 9
+	8 -> 9
+	8 -> 3
+	rankdir=LR
+}

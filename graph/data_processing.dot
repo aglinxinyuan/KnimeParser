@@ -1,0 +1,124 @@
+digraph {
+	6 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	8 [label="CSV Reader"]
+	9 [label="CSV Reader"]
+	10 [label="CSV Reader"]
+	12 [label="CSV Reader"]
+	14 [label=Joiner]
+	15 [label=Joiner]
+	16 [label=Joiner]
+	17 [label=Joiner]
+	19 [label=Joiner]
+	20 [label="CSV Reader"]
+	21 [label="Column Rename"]
+	22 [label="Column Rename"]
+	23 [label="Column Rename"]
+	24 [label="Column Rename"]
+	25 [label="Column Rename"]
+	26 [label="Column Rename"]
+	27 [label="String to Date_Time"]
+	28 [label="String to Date_Time"]
+	36 [label="Regex Split"]
+	37 [label="Regex Split"]
+	38 [label="Regex Split"]
+	39 [label="Regex Split"]
+	40 [label="Regex Split"]
+	41 [label="Regex Split"]
+	42 [label="Column Rename"]
+	43 [label="Column Rename"]
+	44 [label="Column Rename"]
+	45 [label="Column Rename"]
+	46 [label="Column Rename"]
+	47 [label="Column Rename"]
+	48 [label="String to Date_Time"]
+	49 [label="String to Date_Time"]
+	50 [label="String to Date_Time"]
+	51 [label="String to Date_Time"]
+	52 [label="String to Date_Time"]
+	53 [label="String to Date_Time"]
+	54 [label="String to Date_Time"]
+	55 [label="String to Date_Time"]
+	56 [label="String to Date_Time"]
+	57 [label="String to Date_Time"]
+	58 [label="Row Filter"]
+	59 [label="Row Filter"]
+	60 [label="Row Filter"]
+	62 [label="Row Filter"]
+	63 [label="Row Filter"]
+	64 [label="Row Filter"]
+	65 [label="Duplicate Row Filter"]
+	66 [label="String Manipulation"]
+	67 [label="String To Number"]
+	68 [label="String Manipulation"]
+	69 [label="String Manipulation"]
+	70 [label="String To Number"]
+	71 [label="String To Number"]
+	72 [label="String to Date_Time"]
+	73 [label=Joiner]
+	74 [label="Math Formula _Multi Column_"]
+	75 [label="Math Formula _Multi Column_"]
+	76 [label="Math Formula _Multi Column_"]
+	77 [label="CSV Writer"]
+	6 -> 25
+	7 -> 26
+	8 -> 23
+	9 -> 24
+	10 -> 21
+	12 -> 66
+	14 -> 15
+	15 -> 73
+	16 -> 14
+	17 -> 65
+	19 -> 14
+	20 -> 22
+	21 -> 36
+	22 -> 37
+	23 -> 38
+	24 -> 39
+	25 -> 40
+	26 -> 41
+	27 -> 28
+	28 -> 58
+	36 -> 42
+	37 -> 43
+	38 -> 44
+	39 -> 45
+	40 -> 46
+	41 -> 47
+	42 -> 27
+	43 -> 48
+	44 -> 50
+	45 -> 52
+	46 -> 54
+	47 -> 56
+	48 -> 49
+	49 -> 59
+	50 -> 51
+	51 -> 60
+	52 -> 53
+	53 -> 63
+	54 -> 55
+	55 -> 62
+	56 -> 57
+	57 -> 64
+	58 -> 19
+	59 -> 19
+	60 -> 16
+	62 -> 17
+	63 -> 16
+	64 -> 17
+	65 -> 15
+	66 -> 68
+	67 -> 70
+	68 -> 69
+	69 -> 67
+	70 -> 71
+	71 -> 72
+	72 -> 73
+	73 -> 74
+	74 -> 75
+	75 -> 76
+	76 -> 77
+	rankdir=LR
+}

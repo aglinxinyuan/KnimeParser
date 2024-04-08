@@ -1,0 +1,92 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="Column Filter"]
+	4 [label="String to Number"]
+	5 [label="String to Number"]
+	6 [label=GroupBy]
+	7 [label=GroupBy]
+	8 [label=Joiner]
+	9 [label="Math Formula"]
+	10 [label=Joiner]
+	11 [label=GroupBy]
+	12 [label="Column Expressions"]
+	13 [label=GroupBy]
+	14 [label="Row Filter"]
+	15 [label="Number to String"]
+	16 [label="Constant Value Column"]
+	17 [label=Joiner]
+	18 [label="Column Merger"]
+	19 [label=GroupBy]
+	20 [label=Joiner]
+	21 [label="Row Filter"]
+	23 [label="Row Filter"]
+	24 [label=GroupBy]
+	25 [label=GroupBy]
+	26 [label="Missing Value"]
+	27 [label="Missing Value"]
+	28 [label="Duplicate Row Filter"]
+	29 [label=Joiner]
+	30 [label=Joiner]
+	31 [label="Duplicate Row Filter"]
+	32 [label=Concatenate]
+	33 [label="Column Filter"]
+	34 [label="Column Renamer"]
+	35 [label="Math Formula"]
+	36 [label="Missing Value"]
+	39 [label="File Reader"]
+	43 [label="Missing Value"]
+	46 [label="Excel Writer"]
+	47 [label="Variable Expressions"]
+	48 [label="String to Path _Variable_"]
+	49 [label="Variable Creator"]
+	50 [label="Timer Info"]
+	2 -> 4
+	3 -> 5
+	4 -> 6
+	4 -> 11
+	5 -> 7
+	5 -> 10
+	6 -> 8
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 20
+	11 -> 12
+	11 -> 17
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	20 -> 23
+	20 -> 30
+	20 -> 43
+	21 -> 24
+	23 -> 25
+	24 -> 26
+	25 -> 27
+	26 -> 29
+	27 -> 30
+	28 -> 32
+	29 -> 31
+	30 -> 28
+	31 -> 32
+	32 -> 33
+	33 -> 34
+	34 -> 35
+	35 -> 36
+	36 -> 46
+	36 -> 50
+	39 -> 3
+	43 -> 29
+	47 -> 48
+	48 -> 39
+	48 -> 2
+	49 -> 47
+	rankdir=LR
+}

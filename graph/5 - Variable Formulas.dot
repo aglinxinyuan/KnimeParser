@@ -1,0 +1,18 @@
+digraph {
+	1 [label="Table Reader"]
+	4 [label="Table Reader"]
+	5 [label=Joiner]
+	6 [label="Table Row to Variable"]
+	7 [label="String Manipulation _Variable_"]
+	8 [label=GroupBy]
+	9 [label="Row Filter"]
+	10 [label="Math Formula _Variable_"]
+	1 -> 5
+	4 -> 5
+	5 -> 9
+	6 -> 7
+	6 -> 10
+	8 -> 6
+	9 -> 8
+	rankdir=LR
+}

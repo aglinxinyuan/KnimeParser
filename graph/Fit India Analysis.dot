@@ -1,0 +1,27 @@
+digraph {
+	14 [label="CSV Reader"]
+	15 [label="Column Filter"]
+	16 [label="Missing Value"]
+	17 [label="Rule Engine"]
+	18 [label=X_Partitioner]
+	19 [label="Random Forest Learner"]
+	20 [label="Random Forest Predictor"]
+	21 [label=X_Aggregator]
+	22 [label=Scorer]
+	23 [label="Bar Chart"]
+	24 [label="Box Plot"]
+	25 [label="Linear Correlation"]
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	17 -> 24
+	17 -> 25
+	18 -> 19
+	18 -> 20
+	19 -> 20
+	20 -> 21
+	21 -> 22
+	21 -> 23
+	rankdir=LR
+}

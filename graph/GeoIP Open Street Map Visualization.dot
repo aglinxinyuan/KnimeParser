@@ -1,0 +1,53 @@
+digraph {
+	92 [label="Binner _Dictionary_"]
+	76 [label="Empty Table Creator"]
+	83 [label="Math Formula"]
+	84 [label="Column Aggregator"]
+	86 [label="Column Filter"]
+	87 [label="Math Formula"]
+	91 [label="Random Number Assigner _Apache_"]
+	92 [label="Random Number Assigner _Apache_"]
+	93 [label="Random Number Assigner _Apache_"]
+	94 [label="Random Number Assigner _Apache_"]
+	95 [label="Random Number Assigner _Apache_"]
+	96 [label="Random Number Assigner _Apache_"]
+	97 [label="Double To Int"]
+	101 [label="OSM Map View"]
+	96 [label="Size Manager"]
+	97 [label="Shape Manager"]
+	98 [label="Color Manager"]
+	99 [label="Domain Calculator"]
+	100 [label="Constant Value Column"]
+	103 [label="OSM Map to Image"]
+	104 [label=Joiner]
+	91 [label=RowID]
+	105 [label="CSV Reader"]
+	106 [label="CSV Reader"]
+	107 [label=Joiner]
+	76 -> 91
+	83 -> 87
+	84 -> 83
+	87 -> 86
+	91 -> 92
+	92 -> 93
+	93 -> 94
+	94 -> 95
+	95 -> 96
+	96 -> 97
+	97 -> 84
+	96 -> 97
+	97 -> 98
+	99 -> 96
+	100 -> 99
+	105 -> 107
+	106 -> 107
+	107 -> 91
+	92 -> 104
+	94 -> 92
+	98 -> 103
+	98 -> 101
+	104 -> 100
+	108 -> 92
+	108 -> 104
+	rankdir=LR
+}

@@ -1,0 +1,268 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Numeric Outliers"]
+	4 [label="Category to Number"]
+	5 [label="Linear Regression Learner"]
+	6 [label=Partitioning]
+	7 [label="Regression Predictor"]
+	8 [label="Numeric Scorer"]
+	9 [label=Sorter]
+	10 [label="Line Plot"]
+	11 [label="Rank Correlation"]
+	12 [label="Column Resorter"]
+	13 [label="Column Filter"]
+	14 [label=Partitioning]
+	15 [label="Regression Predictor"]
+	16 [label="Numeric Scorer"]
+	17 [label=Sorter]
+	18 [label="Line Plot"]
+	19 [label="Linear Regression Learner"]
+	20 [label="Linear Correlation"]
+	21 [label="Category to Number"]
+	22 [label="Column Resorter"]
+	23 [label="Column Filter"]
+	24 [label=Partitioning]
+	25 [label="Regression Predictor"]
+	26 [label="Numeric Scorer"]
+	27 [label=Sorter]
+	28 [label="Line Plot"]
+	29 [label="Linear Regression Learner"]
+	30 [label="Bar Chart"]
+	31 [label="Bar Chart"]
+	32 [label="Bar Chart"]
+	33 [label="Bar Chart"]
+	34 [label=Histogram]
+	35 [label="Bar Chart"]
+	36 [label="Bar Chart"]
+	38 [label="Bar Chart"]
+	39 [label="CSV Reader"]
+	40 [label="Numeric Outliers"]
+	49 [label=Sorter]
+	50 [label="Line Plot"]
+	51 [label="Box Plot"]
+	52 [label=Partitioning]
+	53 [label="Linear Regression Learner"]
+	54 [label="Regression Predictor"]
+	55 [label="Numeric Scorer"]
+	56 [label="Column Filter"]
+	57 [label=Sorter]
+	58 [label="Line Plot"]
+	59 [label="Box Plot"]
+	60 [label=Partitioning]
+	61 [label="Linear Regression Learner"]
+	62 [label="Regression Predictor"]
+	63 [label="Numeric Scorer"]
+	64 [label="Column Filter"]
+	65 [label="Rank Correlation"]
+	66 [label="Linear Correlation"]
+	67 [label=Sorter]
+	68 [label="Line Plot"]
+	69 [label="Box Plot"]
+	70 [label=Partitioning]
+	71 [label="Linear Regression Learner"]
+	72 [label="Regression Predictor"]
+	73 [label="Numeric Scorer"]
+	74 [label="Column Filter"]
+	75 [label="Line Plot"]
+	76 [label="Box Plot"]
+	77 [label=Partitioning]
+	78 [label="Linear Regression Learner"]
+	79 [label="Regression Predictor"]
+	80 [label="Numeric Scorer"]
+	81 [label="Column Filter"]
+	82 [label=Sorter]
+	83 [label="Regression Predictor"]
+	84 [label="Numeric Scorer"]
+	85 [label="Column Filter"]
+	86 [label=Sorter]
+	87 [label="Line Plot"]
+	88 [label="Box Plot"]
+	89 [label=Partitioning]
+	90 [label="Linear Regression Learner"]
+	91 [label="Linear Regression Learner"]
+	92 [label="Regression Predictor"]
+	93 [label="Numeric Scorer"]
+	94 [label="Column Filter"]
+	95 [label=Sorter]
+	96 [label="Line Plot"]
+	97 [label="Box Plot"]
+	98 [label=Partitioning]
+	99 [label="Linear Regression Learner"]
+	100 [label="Regression Predictor"]
+	101 [label="Numeric Scorer"]
+	102 [label="Column Filter"]
+	103 [label=Sorter]
+	104 [label="Line Plot"]
+	105 [label="Box Plot"]
+	106 [label=Partitioning]
+	107 [label=Partitioning]
+	108 [label="Box Plot"]
+	109 [label="Line Plot"]
+	110 [label=Sorter]
+	111 [label="Column Filter"]
+	112 [label="Numeric Scorer"]
+	113 [label="Regression Predictor"]
+	114 [label="Linear Regression Learner"]
+	115 [label="Number to String"]
+	116 [label=Sorter]
+	117 [label="Line Plot"]
+	118 [label="Box Plot"]
+	119 [label=Partitioning]
+	120 [label="Linear Regression Learner"]
+	121 [label="Regression Predictor"]
+	122 [label="Numeric Scorer"]
+	124 [label="Scatter Plot"]
+	125 [label="Box Plot"]
+	126 [label="Line Plot"]
+	127 [label="Box Plot"]
+	128 [label=Partitioning]
+	129 [label="Linear Regression Learner"]
+	130 [label="Regression Predictor"]
+	131 [label="Numeric Scorer"]
+	132 [label="Column Filter"]
+	133 [label=Sorter]
+	134 [label="Bar Chart"]
+	135 [label="Scatter Plot"]
+	136 [label="Scatter Plot"]
+	137 [label="Scatter Plot"]
+	138 [label="Scatter Plot"]
+	1 -> 3
+	3 -> 4
+	3 -> 33
+	3 -> 30
+	3 -> 32
+	3 -> 31
+	3 -> 34
+	3 -> 35
+	3 -> 36
+	3 -> 38
+	4 -> 12
+	5 -> 7
+	6 -> 5
+	6 -> 7
+	7 -> 8
+	7 -> 9
+	9 -> 10
+	12 -> 6
+	12 -> 11
+	12 -> 13
+	12 -> 21
+	12 -> 23
+	13 -> 14
+	14 -> 15
+	14 -> 19
+	15 -> 17
+	15 -> 16
+	17 -> 18
+	19 -> 15
+	21 -> 22
+	22 -> 20
+	23 -> 24
+	24 -> 25
+	24 -> 29
+	25 -> 27
+	25 -> 26
+	27 -> 28
+	29 -> 25
+	39 -> 40
+	40 -> 115
+	49 -> 51
+	49 -> 50
+	52 -> 53
+	52 -> 54
+	53 -> 54
+	54 -> 55
+	54 -> 49
+	56 -> 52
+	57 -> 59
+	57 -> 58
+	60 -> 61
+	60 -> 62
+	61 -> 62
+	62 -> 63
+	62 -> 57
+	64 -> 60
+	67 -> 69
+	67 -> 68
+	70 -> 71
+	70 -> 72
+	71 -> 72
+	72 -> 73
+	72 -> 67
+	74 -> 70
+	77 -> 78
+	77 -> 79
+	78 -> 79
+	79 -> 80
+	79 -> 82
+	81 -> 77
+	82 -> 76
+	82 -> 75
+	83 -> 86
+	83 -> 84
+	85 -> 89
+	86 -> 87
+	86 -> 88
+	89 -> 83
+	89 -> 90
+	90 -> 83
+	91 -> 92
+	92 -> 95
+	92 -> 93
+	94 -> 98
+	95 -> 96
+	95 -> 97
+	98 -> 91
+	98 -> 92
+	99 -> 100
+	100 -> 101
+	100 -> 103
+	102 -> 106
+	103 -> 105
+	103 -> 104
+	106 -> 99
+	106 -> 100
+	107 -> 114
+	107 -> 113
+	110 -> 108
+	110 -> 109
+	111 -> 107
+	113 -> 112
+	113 -> 110
+	114 -> 113
+	115 -> 119
+	115 -> 65
+	115 -> 56
+	115 -> 66
+	115 -> 64
+	115 -> 74
+	115 -> 81
+	115 -> 85
+	115 -> 94
+	115 -> 102
+	115 -> 111
+	115 -> 132
+	115 -> 135
+	115 -> 125
+	115 -> 124
+	115 -> 134
+	115 -> 136
+	115 -> 137
+	115 -> 138
+	116 -> 117
+	116 -> 118
+	119 -> 120
+	119 -> 121
+	120 -> 121
+	121 -> 122
+	121 -> 116
+	128 -> 129
+	128 -> 130
+	129 -> 130
+	130 -> 131
+	130 -> 133
+	132 -> 128
+	133 -> 127
+	133 -> 126
+	rankdir=LR
+}

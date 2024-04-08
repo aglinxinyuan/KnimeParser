@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Testflow Configuration"]
+	3 [label="Table Validator"]
+	4 [label="Data Generator"]
+	5 [label="Table Validator"]
+	6 [label="Table Creator"]
+	4 -> 3
+	6 -> 5
+	rankdir=LR
+}

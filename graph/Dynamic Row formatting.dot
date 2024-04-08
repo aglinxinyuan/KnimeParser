@@ -1,0 +1,45 @@
+digraph {
+	2299 [label="Table Creator"]
+	2300 [label="XLS Control Table Generator"]
+	2301 [label="Rule Engine"]
+	2302 [label="XLS Control Table Generator"]
+	2303 [label="XLS Cell Merger"]
+	2304 [label="XLS Formatter _apply_"]
+	2305 [label="Excel Writer"]
+	2310 [label="Column Expressions"]
+	2313 [label="Recursive Loop Start"]
+	2314 [label="Recursive Loop End"]
+	2315 [label="Model to Cell"]
+	2316 [label="XLS Border Formatter"]
+	2317 [label="Model to Cell"]
+	2318 [label="Cell To Model"]
+	2319 [label="Variable Expressions"]
+	2322 [label="Cell To Model"]
+	2320 [label="Extract Table Dimension"]
+	2321 [label="Table Row to Variable"]
+	2320 -> 2321
+	2299 -> 2302
+	2299 -> 2305
+	2300 -> 2316
+	2300 -> 2313
+	2300 -> 2320
+	2301 -> 2310
+	2302 -> 2301
+	2303 -> 2315
+	2305 -> 2304
+	2310 -> 2300
+	2313 -> 2318
+	2313 -> 2303
+	2313 -> 2314
+	2313 -> 2319
+	2314 -> 2322
+	2315 -> 2314
+	2315 -> 2314
+	2316 -> 2317
+	2317 -> 2313
+	2318 -> 2303
+	2319 -> 2303
+	2322 -> 2304
+	2321 -> 2319
+	rankdir=LR
+}

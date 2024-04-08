@@ -1,0 +1,55 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	3 [label=Sorter]
+	4 [label=Sorter]
+	5 [label="Rule Engine"]
+	6 [label="Column Filter"]
+	7 [label="Column Filter"]
+	8 [label="Column Appender"]
+	20 [label="Row Filter"]
+	21 [label="Java Snippet"]
+	22 [label="Column Filter"]
+	26 [label="Extract Table Dimension"]
+	27 [label="Table Row to Variable"]
+	28 [label="Java Edit Variable _simple_"]
+	29 [label="Java Edit Variable _simple_"]
+	30 [label="Column Appender"]
+	31 [label="Column Filter"]
+	32 [label="Column Filter"]
+	33 [label="Rule Engine"]
+	34 [label=Sorter]
+	35 [label=Sorter]
+	36 [label="Java Snippet"]
+	37 [label="Row Filter"]
+	38 [label="Column Filter"]
+	39 [label="Table Row to Variable"]
+	40 [label="Extract Table Dimension"]
+	29 -> 37
+	30 -> 33
+	31 -> 35
+	32 -> 34
+	33 -> 36
+	34 -> 30
+	35 -> 30
+	36 -> 37
+	36 -> 40
+	37 -> 38
+	39 -> 29
+	40 -> 39
+	2 -> 6
+	2 -> 7
+	3 -> 8
+	4 -> 8
+	5 -> 21
+	6 -> 4
+	7 -> 3
+	8 -> 5
+	20 -> 22
+	21 -> 20
+	21 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 20
+	rankdir=LR
+}

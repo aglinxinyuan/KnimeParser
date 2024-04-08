@@ -1,0 +1,8 @@
+digraph {
+	3 [label="GET Request"]
+	5 [label="Python Script"]
+	7 [label="Column Filter"]
+	3 -> 7
+	7 -> 5
+	rankdir=LR
+}

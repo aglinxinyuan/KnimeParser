@@ -1,0 +1,21 @@
+digraph {
+	2 [label="File Reader"]
+	3 [label="Row Filter"]
+	4 [label="Column Filter"]
+	5 [label="Column Auto Type Cast"]
+	6 [label=RowID]
+	7 [label="String to Date_Time"]
+	8 [label="Column Expressions"]
+	9 [label="Date_Time Difference"]
+	10 [label="Table Writer"]
+	11 [label="Table Reader"]
+	2 -> 3
+	3 -> 4
+	4 -> 6
+	5 -> 7
+	6 -> 5
+	7 -> 10
+	8 -> 9
+	11 -> 8
+	rankdir=LR
+}

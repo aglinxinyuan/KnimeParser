@@ -1,0 +1,26 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=GroupBy]
+	3 [label="Table Row To Variable Loop Start"]
+	4 [label=Ungroup]
+	5 [label="String Manipulation"]
+	6 [label="Row Filter"]
+	7 [label="Variable Loop End"]
+	8 [label="CSV Writer"]
+	9 [label="String to Path _Variable_"]
+	10 [label="String Widget"]
+	11 [label="String Manipulation _Variable_"]
+	1 -> 2
+	2 -> 6
+	2 -> 5
+	3 -> 6
+	3 -> 11
+	4 -> 8
+	5 -> 3
+	6 -> 4
+	8 -> 7
+	9 -> 8
+	10 -> 2
+	11 -> 9
+	rankdir=LR
+}

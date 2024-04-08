@@ -1,0 +1,123 @@
+digraph {
+	4 [label="DB Table Selector"]
+	5 [label="DB Table Selector"]
+	9 [label="DB Reader"]
+	10 [label="Number To String"]
+	11 [label=Concatenate]
+	12 [label="Table Creator"]
+	13 [label="Constant Value Column"]
+	15 [label="String Replacer _Dictionary_"]
+	18 [label="DB Joiner"]
+	19 [label="DB Reader"]
+	20 [label="Data Explorer"]
+	21 [label="Numeric Outliers"]
+	22 [label="Rule Engine"]
+	23 [label="Missing Value"]
+	24 [label="Data Explorer"]
+	25 [label="Duplicate Row Filter"]
+	26 [label="Duplicate Row Filter"]
+	27 [label="Value Counter"]
+	28 [label="Row Splitter"]
+	29 [label=RowID]
+	30 [label="Constant Value Column"]
+	31 [label="Table Editor _JavaScript_"]
+	32 [label="String Replacer _Dictionary_"]
+	33 [label="Counter Generation"]
+	34 [label="Similarity Search"]
+	35 [label="String Replacer _Dictionary_"]
+	36 [label="Duplicate Row Filter"]
+	37 [label="Column Filter"]
+	38 [label="String Manipulation"]
+	39 [label="String Manipulation"]
+	40 [label="String Manipulation"]
+	41 [label="String Manipulation"]
+	42 [label="Excel Writer"]
+	45 [label=Joiner]
+	46 [label=Unpivot]
+	47 [label="Row Filter"]
+	48 [label="Table Manipulator"]
+	49 [label="Cell Splitter"]
+	50 [label="Number To String"]
+	51 [label="String Manipulation"]
+	52 [label="Column Aggregator"]
+	53 [label=Joiner]
+	54 [label="Table Manipulator"]
+	55 [label="Constant Value Column"]
+	57 [label="Rule Engine"]
+	58 [label=Concatenate]
+	59 [label=Joiner]
+	60 [label="Table Manipulator"]
+	61 [label="Excel Writer"]
+	62 [label="Column Merger"]
+	63 [label="Column Renamer"]
+	64 [label="Column Renamer"]
+	65 [label="Table Editor _JavaScript_"]
+	66 [label="CSV Reader"]
+	67 [label="Table Reader"]
+	68 [label="SQLite Connector"]
+	69 [label="Table Reader"]
+	70 [label="Excel Reader"]
+	4 -> 18
+	5 -> 9
+	5 -> 18
+	9 -> 53
+	10 -> 11
+	11 -> 15
+	11 -> 21
+	11 -> 20
+	12 -> 13
+	13 -> 15
+	18 -> 19
+	19 -> 55
+	21 -> 22
+	22 -> 23
+	23 -> 26
+	23 -> 25
+	23 -> 24
+	25 -> 32
+	25 -> 35
+	26 -> 27
+	27 -> 29
+	28 -> 30
+	28 -> 33
+	28 -> 34
+	29 -> 28
+	30 -> 31
+	31 -> 32
+	32 -> 36
+	33 -> 34
+	34 -> 35
+	36 -> 37
+	37 -> 38
+	38 -> 39
+	39 -> 40
+	40 -> 41
+	41 -> 42
+	41 -> 59
+	45 -> 46
+	46 -> 47
+	47 -> 48
+	48 -> 49
+	49 -> 50
+	50 -> 51
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 57
+	55 -> 58
+	57 -> 58
+	58 -> 59
+	59 -> 62
+	60 -> 61
+	60 -> 65
+	62 -> 63
+	63 -> 64
+	64 -> 60
+	66 -> 10
+	67 -> 11
+	68 -> 4
+	68 -> 5
+	69 -> 45
+	70 -> 45
+	rankdir=LR
+}

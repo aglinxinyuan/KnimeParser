@@ -1,0 +1,42 @@
+digraph {
+	18 [label="Row Filter"]
+	51 [label="CSV Reader"]
+	53 [label="Excel Reader"]
+	64 [label="Table Manipulator"]
+	65 [label=Sorter]
+	66 [label="Row Splitter"]
+	67 [label=GroupBy]
+	68 [label=Sorter]
+	69 [label="Row Filter"]
+	70 [label=GroupBy]
+	71 [label=Sorter]
+	72 [label="Row Filter"]
+	74 [label="Row Filter"]
+	75 [label="String Manipulation"]
+	76 [label=Joiner]
+	77 [label=GroupBy]
+	78 [label="Column Expressions"]
+	79 [label=Sorter]
+	80 [label=GroupBy]
+	81 [label="Bar Chart"]
+	18 -> 74
+	18 -> 77
+	51 -> 64
+	53 -> 75
+	64 -> 65
+	65 -> 18
+	66 -> 67
+	66 -> 70
+	67 -> 68
+	68 -> 69
+	70 -> 71
+	71 -> 72
+	74 -> 66
+	75 -> 76
+	76 -> 78
+	77 -> 76
+	78 -> 79
+	79 -> 80
+	79 -> 81
+	rankdir=LR
+}

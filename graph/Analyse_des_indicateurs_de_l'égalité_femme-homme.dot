@@ -1,0 +1,277 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	3 [label="Excel Reader"]
+	10 [label="Missing Value"]
+	11 [label="Missing Value"]
+	12 [label="Missing Value"]
+	16 [label="Duplicate Row Filter"]
+	18 [label=GroupBy]
+	21 [label="String Manipulation"]
+	22 [label="Math Formula"]
+	24 [label="Numeric Binner"]
+	25 [label="String Manipulation"]
+	26 [label=GroupBy]
+	27 [label="Bar Chart"]
+	28 [label=Pivoting]
+	30 [label="Math Formula"]
+	31 [label="Math Formula"]
+	32 [label="Bar Chart"]
+	33 [label="Column Filter"]
+	34 [label="Column Rename"]
+	35 [label="Column Filter"]
+	36 [label=GroupBy]
+	37 [label=Joiner]
+	41 [label="Duplicate Row Filter"]
+	42 [label="Duplicate Row Filter"]
+	43 [label=RowID]
+	44 [label=RowID]
+	45 [label=RowID]
+	46 [label=Pivoting]
+	47 [label="Bar Chart"]
+	48 [label="Math Formula"]
+	49 [label="Math Formula"]
+	50 [label="Bar Chart"]
+	51 [label=Pivoting]
+	52 [label=GroupBy]
+	53 [label=Joiner]
+	54 [label="Bar Chart"]
+	55 [label="Math Formula"]
+	56 [label="Math Formula"]
+	57 [label="Bar Chart"]
+	59 [label=GroupBy]
+	60 [label="Bar Chart"]
+	61 [label=Pivoting]
+	62 [label="Missing Value"]
+	63 [label=Joiner]
+	64 [label=GroupBy]
+	65 [label=Pivoting]
+	66 [label="Bar Chart"]
+	67 [label=GroupBy]
+	68 [label="Bar Chart"]
+	69 [label="Numeric Binner"]
+	70 [label=GroupBy]
+	71 [label=Pivoting]
+	72 [label="Bar Chart"]
+	73 [label="Column Rename"]
+	74 [label="Column Rename"]
+	75 [label="Column Rename"]
+	76 [label=GroupBy]
+	77 [label=Pivoting]
+	78 [label="Bar Chart"]
+	79 [label="Numeric Binner"]
+	80 [label=GroupBy]
+	81 [label="Bar Chart"]
+	82 [label=GroupBy]
+	83 [label=Pivoting]
+	84 [label="Bar Chart"]
+	85 [label="Math Formula"]
+	86 [label="Math Formula"]
+	87 [label=GroupBy]
+	88 [label="Math Formula"]
+	89 [label="Math Formula"]
+	90 [label=Pivoting]
+	91 [label="Missing Value"]
+	92 [label="Bar Chart"]
+	93 [label="Bar Chart"]
+	94 [label="Column Rename"]
+	96 [label=Pivoting]
+	98 [label="Bar Chart"]
+	99 [label="Bar Chart"]
+	101 [label=GroupBy]
+	103 [label="Math Formula"]
+	104 [label=Pivoting]
+	106 [label="Bar Chart"]
+	107 [label="Bar Chart"]
+	108 [label="Column Rename"]
+	109 [label=GroupBy]
+	110 [label="Math Formula"]
+	111 [label="Column Rename"]
+	112 [label="Math Formula"]
+	113 [label="Math Formula"]
+	121 [label=GroupBy]
+	123 [label="Nominal Value Row Filter"]
+	124 [label="Column Rename"]
+	125 [label=Pivoting]
+	126 [label="Missing Value"]
+	127 [label="Bar Chart"]
+	128 [label="Column Rename"]
+	129 [label="Math Formula"]
+	130 [label="Math Formula"]
+	131 [label="Nominal Value Row Filter"]
+	132 [label=Pivoting]
+	133 [label="Bar Chart"]
+	134 [label="Missing Value"]
+	135 [label="Math Formula"]
+	136 [label="Column Rename"]
+	137 [label="Math Formula"]
+	138 [label=Pivoting]
+	139 [label="Nominal Value Row Filter"]
+	140 [label="Missing Value"]
+	141 [label="Bar Chart"]
+	142 [label="Column Rename"]
+	143 [label="Math Formula"]
+	144 [label="Math Formula"]
+	145 [label=Pivoting]
+	146 [label="Nominal Value Row Filter"]
+	147 [label="Missing Value"]
+	148 [label="Bar Chart"]
+	149 [label="Column Rename"]
+	150 [label="Math Formula"]
+	151 [label="Math Formula"]
+	160 [label="Missing Value"]
+	162 [label=GroupBy]
+	163 [label=Pivoting]
+	164 [label="Bar Chart"]
+	165 [label="Column Rename"]
+	166 [label="Nominal Value Row Filter"]
+	167 [label="Nominal Value Row Filter"]
+	170 [label=Pivoting]
+	171 [label=GroupBy]
+	172 [label="Column Rename"]
+	173 [label="Bar Chart"]
+	174 [label="Missing Value"]
+	176 [label="CSV Writer"]
+	177 [label="Math Formula"]
+	178 [label="Math Formula"]
+	179 [label="Pie_Donut Chart"]
+	180 [label="Math Formula"]
+	1 -> 35
+	2 -> 11
+	3 -> 33
+	10 -> 16
+	11 -> 41
+	12 -> 42
+	16 -> 44
+	18 -> 180
+	21 -> 25
+	22 -> 34
+	24 -> 26
+	25 -> 22
+	26 -> 28
+	28 -> 30
+	28 -> 27
+	30 -> 31
+	31 -> 32
+	33 -> 21
+	34 -> 12
+	35 -> 10
+	36 -> 46
+	37 -> 36
+	37 -> 63
+	37 -> 69
+	37 -> 67
+	37 -> 76
+	37 -> 79
+	37 -> 80
+	41 -> 43
+	42 -> 45
+	43 -> 53
+	44 -> 37
+	45 -> 37
+	45 -> 53
+	45 -> 24
+	45 -> 18
+	46 -> 47
+	46 -> 48
+	48 -> 49
+	49 -> 50
+	51 -> 55
+	51 -> 54
+	52 -> 51
+	53 -> 52
+	53 -> 63
+	53 -> 59
+	55 -> 56
+	56 -> 57
+	59 -> 61
+	61 -> 62
+	62 -> 74
+	63 -> 121
+	63 -> 109
+	63 -> 101
+	63 -> 87
+	63 -> 64
+	63 -> 176
+	63 -> 167
+	63 -> 166
+	64 -> 65
+	65 -> 75
+	67 -> 68
+	69 -> 70
+	70 -> 71
+	71 -> 73
+	73 -> 72
+	74 -> 60
+	75 -> 66
+	76 -> 77
+	77 -> 177
+	79 -> 82
+	80 -> 81
+	82 -> 83
+	83 -> 85
+	85 -> 86
+	86 -> 84
+	87 -> 90
+	88 -> 94
+	89 -> 88
+	90 -> 91
+	91 -> 89
+	94 -> 92
+	94 -> 93
+	96 -> 111
+	101 -> 96
+	103 -> 110
+	104 -> 108
+	108 -> 103
+	109 -> 104
+	110 -> 106
+	110 -> 107
+	111 -> 112
+	112 -> 113
+	113 -> 99
+	113 -> 98
+	121 -> 124
+	123 -> 125
+	124 -> 123
+	124 -> 146
+	124 -> 139
+	124 -> 131
+	125 -> 126
+	126 -> 128
+	128 -> 130
+	129 -> 127
+	130 -> 129
+	131 -> 132
+	132 -> 134
+	134 -> 136
+	135 -> 133
+	136 -> 137
+	137 -> 135
+	138 -> 140
+	139 -> 138
+	140 -> 142
+	142 -> 144
+	143 -> 141
+	144 -> 143
+	145 -> 147
+	146 -> 145
+	147 -> 149
+	149 -> 151
+	150 -> 148
+	151 -> 150
+	160 -> 165
+	162 -> 163
+	163 -> 160
+	165 -> 164
+	166 -> 171
+	167 -> 162
+	170 -> 174
+	171 -> 170
+	172 -> 173
+	174 -> 172
+	177 -> 178
+	178 -> 78
+	180 -> 179
+	rankdir=LR
+}

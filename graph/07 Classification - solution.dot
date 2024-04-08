@@ -1,0 +1,54 @@
+digraph {
+	16 [label=TF]
+	20 [label="Row Filter"]
+	21 [label="Color Manager"]
+	22 [label="Column Filter"]
+	37 [label="Table Reader"]
+	58 [label=Partitioning]
+	95 [label="Column Filter"]
+	106 [label="Term To String"]
+	107 [label=GroupBy]
+	108 [label="Row Filter"]
+	109 [label="Reference Row Filter"]
+	110 [label="Decision Tree Predictor"]
+	112 [label="Case Converter"]
+	113 [label="Snowball Stemmer"]
+	114 [label="Tag Filter"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	117 [label="Decision Tree Learner"]
+	118 [label="Document Data Extractor"]
+	119 [label="Strings To Document"]
+	120 [label="POS Tagger"]
+	121 [label="Bag Of Words Creator"]
+	122 [label="Document Vector"]
+	123 [label="Stop Word Filter"]
+	124 [label=Scorer]
+	16 -> 122
+	20 -> 119
+	21 -> 95
+	22 -> 120
+	37 -> 20
+	58 -> 117
+	58 -> 110
+	95 -> 58
+	106 -> 107
+	106 -> 109
+	107 -> 108
+	108 -> 109
+	109 -> 16
+	110 -> 124
+	112 -> 113
+	113 -> 114
+	114 -> 121
+	115 -> 123
+	116 -> 115
+	117 -> 110
+	118 -> 21
+	119 -> 22
+	120 -> 116
+	121 -> 106
+	122 -> 118
+	123 -> 112
+	rankdir=LR
+}

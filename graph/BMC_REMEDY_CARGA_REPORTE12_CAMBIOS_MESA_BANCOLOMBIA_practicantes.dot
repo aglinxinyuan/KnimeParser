@@ -1,0 +1,211 @@
+digraph {
+	376 [label="DB Connection Closer"]
+	685 [label="SSH Connection"]
+	686 [label="Table Row to Variable"]
+	687 [label="File Meta Info"]
+	688 [label=Download]
+	741 [label="Microsoft SQL Server Connector"]
+	743 [label="Java Edit Variable"]
+	778 [label="CASE Switch Variable _Start_"]
+	821 [label="Rule Engine Variable"]
+	849 [label="String Configuration"]
+	850 [label="String Configuration"]
+	1031 [label="Java Edit Variable"]
+	1046 [label="DB Writer"]
+	376 [label="DB Connection Closer"]
+	694 [label="List Files"]
+	695 [label="File Meta Info"]
+	696 [label="Table Row to Variable"]
+	699 [label="String to URI"]
+	712 [label="Create Date_Time Range"]
+	716 [label="Cross Joiner"]
+	722 [label="Column Resorter"]
+	741 [label="Microsoft SQL Server Connector"]
+	757 [label="Rule_based Row Filter"]
+	804 [label="Column Filter"]
+	805 [label="Cross Joiner"]
+	1029 [label="File Reader"]
+	1030 [label="DB Reader"]
+	1032 [label="DB Table Selector"]
+	1033 [label="String to Date_Time"]
+	1034 [label=Joiner]
+	1036 [label="Column Rename"]
+	1038 [label="String Manipulation"]
+	1039 [label="Rule Engine"]
+	1040 [label="Column Filter"]
+	1042 [label="Row Splitter"]
+	1043 [label="Column Filter"]
+	1045 [label="Column Resorter"]
+	1046 [label="Column Filter"]
+	1048 [label="String Manipulation"]
+	1049 [label="Rule Engine"]
+	1050 [label="Column Rename"]
+	1058 [label="CASE Switch Variable _Start_"]
+	1059 [label="Extract Table Dimension"]
+	1060 [label="Rule Engine Variable"]
+	1050 [label="DB Update"]
+	1051 [label="Interactive Table _local_"]
+	1052 [label="DB Connection Closer"]
+	1054 [label=Concatenate]
+	376 [label="DB Connection Closer"]
+	694 [label="List Files"]
+	695 [label="File Meta Info"]
+	696 [label="Table Row to Variable"]
+	699 [label="String to URI"]
+	712 [label="Create Date_Time Range"]
+	716 [label="Cross Joiner"]
+	722 [label="Column Resorter"]
+	741 [label="Microsoft SQL Server Connector"]
+	757 [label="Rule_based Row Filter"]
+	804 [label="Column Filter"]
+	805 [label="Cross Joiner"]
+	1029 [label="File Reader"]
+	1030 [label="DB Reader"]
+	1032 [label="DB Table Selector"]
+	1033 [label="String to Date_Time"]
+	1034 [label=Joiner]
+	1036 [label="Column Rename"]
+	1038 [label="String Manipulation"]
+	1039 [label="Rule Engine"]
+	1040 [label="Column Filter"]
+	1042 [label="Row Splitter"]
+	1043 [label="Column Filter"]
+	1045 [label="Column Resorter"]
+	1046 [label="Column Filter"]
+	1048 [label="String Manipulation"]
+	1049 [label="Rule Engine"]
+	1050 [label="Column Rename"]
+	1058 [label="CASE Switch Variable _Start_"]
+	1059 [label="Extract Table Dimension"]
+	1060 [label="Rule Engine Variable"]
+	1056 [label="DB Update"]
+	1057 [label=Concatenate]
+	1058 [label="Interactive Table _local_"]
+	1059 [label="DB Writer"]
+	1060 [label="DB Connection Closer"]
+	1061 [label="DB Connection Closer"]
+	1062 [label="DB SQL Executor"]
+	1064 [label=Wait___]
+	1065 [label="Microsoft SQL Server Connector"]
+	1066 [label="DB Connection Closer"]
+	1068 [label="Microsoft SQL Server Connector"]
+	1069 [label="DB Connection Closer"]
+	1070 [label=Wait___]
+	1074 [label="DB SQL Executor"]
+	376 -> 1034
+	694 -> 757
+	695 -> 696
+	695 -> 804
+	696 -> 1029
+	699 -> 695
+	712 -> 716
+	716 -> 1034
+	722 -> 1040
+	741 -> 376
+	741 -> 1032
+	757 -> 699
+	804 -> 805
+	805 -> 1038
+	1029 -> 1033
+	1029 -> 712
+	1029 -> 1059
+	1030 -> 1043
+	1030 -> 376
+	1032 -> 1030
+	1033 -> 716
+	1034 -> 1042
+	1036 -> 722
+	1038 -> 1039
+	1039 -> 1036
+	1042 -> 1048
+	1042 -> 805
+	1043 -> 1034
+	1045 -> 1046
+	1048 -> 1049
+	1049 -> 1050
+	1050 -> 1045
+	1058 -> 741
+	1058 -> 1033
+	1059 -> 1060
+	1060 -> 1058
+	376 -> 1034
+	694 -> 757
+	695 -> 696
+	695 -> 804
+	696 -> 1029
+	699 -> 695
+	712 -> 716
+	716 -> 1034
+	722 -> 1040
+	741 -> 376
+	741 -> 1032
+	757 -> 699
+	804 -> 805
+	805 -> 1038
+	1029 -> 1033
+	1029 -> 712
+	1029 -> 1059
+	1030 -> 1043
+	1030 -> 376
+	1032 -> 1030
+	1033 -> 716
+	1034 -> 1042
+	1036 -> 722
+	1038 -> 1039
+	1039 -> 1036
+	1042 -> 1048
+	1042 -> 805
+	1043 -> 1034
+	1045 -> 1046
+	1048 -> 1049
+	1049 -> 1050
+	1050 -> 1045
+	1058 -> 741
+	1058 -> 1033
+	1059 -> 1060
+	1060 -> 1058
+	685 -> 688
+	686 -> 743
+	687 -> 686
+	688 -> 687
+	741 -> 1061
+	741 -> 1060
+	741 -> 1056
+	741 -> 1059
+	741 -> 376
+	741 -> 1046
+	741 -> 1052
+	741 -> 1050
+	743 -> 694
+	778 -> 1031
+	778 -> 685
+	821 -> 778
+	849 -> 821
+	850 -> 741
+	1031 -> 694
+	1046 -> 1054
+	1058 -> 1046
+	1058 -> 1050
+	1058 -> 376
+	1050 -> 1054
+	1051 -> 1052
+	1052 -> 1064
+	1054 -> 1051
+	1054 -> 1051
+	1058 -> 1061
+	1058 -> 1059
+	1058 -> 1056
+	1056 -> 1057
+	1057 -> 1058
+	1057 -> 1058
+	1058 -> 1060
+	1059 -> 1057
+	1060 -> 1070
+	1062 -> 1066
+	1064 -> 1065
+	1065 -> 1062
+	1068 -> 1074
+	1070 -> 1068
+	1074 -> 1069
+	rankdir=LR
+}

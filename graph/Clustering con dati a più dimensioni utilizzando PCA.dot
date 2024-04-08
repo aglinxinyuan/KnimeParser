@@ -1,0 +1,21 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Normalizer]
+	3 [label=k_Means]
+	4 [label=Denormalizer]
+	21 [label="Scatter Plot"]
+	23 [label="Color Manager"]
+	26 [label="Bar Chart"]
+	27 [label=PCA]
+	34 [label="Column Filter"]
+	1 -> 34
+	2 -> 4
+	2 -> 27
+	3 -> 4
+	4 -> 23
+	21 -> 3
+	23 -> 26
+	27 -> 21
+	34 -> 2
+	rankdir=LR
+}

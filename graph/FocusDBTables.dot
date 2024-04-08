@@ -1,0 +1,24 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Read Excel Sheet Names"]
+	3 [label="Table Row To Variable Loop Start"]
+	4 [label="Loop End"]
+	5 [label="Column Appender"]
+	6 [label="Constant Value Column"]
+	7 [label="CSV Reader"]
+	8 [label="Cell Splitter"]
+	9 [label=Unpivoting]
+	10 [label="CSV Writer"]
+	12 [label="Column Filter"]
+	1 -> 5
+	1 -> 6
+	2 -> 3
+	3 -> 1
+	5 -> 4
+	6 -> 5
+	7 -> 12
+	8 -> 9
+	9 -> 10
+	12 -> 8
+	rankdir=LR
+}

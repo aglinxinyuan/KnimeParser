@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Data Explorer"]
+	3 [label="Table Editor"]
+	4 [label="Numeric Outliers"]
+	5 [label="Box Plot"]
+	1 -> 2
+	1 -> 5
+	1 -> 4
+	2 -> 3
+	rankdir=LR
+}

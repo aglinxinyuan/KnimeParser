@@ -1,0 +1,413 @@
+digraph {
+	2 [label="Generic JavaScript View"]
+	37 [label="Missing Value"]
+	39 [label=Scorer]
+	42 [label=Partitioning]
+	43 [label=Normalizer]
+	45 [label="JavaScript Table View"]
+	49 [label="Logistic Regression Predictor"]
+	50 [label=Denormalizer]
+	51 [label="Math Formula"]
+	52 [label="Math Formula"]
+	54 [label="Math Formula"]
+	55 [label="Rule Engine"]
+	32 [label="Logistic Regression Predictor"]
+	44 [label="Logistic Regression Learner"]
+	57 [label="Domain Calculator"]
+	60 [label="Text Output"]
+	61 [label=Scorer]
+	62 [label="Decision Tree View _JavaScript_"]
+	58 [label="Decision Tree Learner"]
+	59 [label="Decision Tree Predictor"]
+	60 [label="Column Filter"]
+	69 [label="Column Filter"]
+	71 [label="Row Sampling"]
+	72 [label="Math Formula _Multi Column_"]
+	73 [label="Color Manager"]
+	224 [label="Sunburst Chart _JavaScript_"]
+	226 [label="Row Filter"]
+	227 [label=Sorter]
+	230 [label="Column Filter"]
+	233 [label="Row Filter"]
+	234 [label=Transpose]
+	235 [label="Column Rename"]
+	236 [label=Transpose]
+	237 [label="Row Filter"]
+	238 [label="Column Rename"]
+	239 [label=Joiner]
+	240 [label=Joiner]
+	241 [label="Generic JavaScript View"]
+	243 [label=Denormalizer]
+	244 [label=Denormalizer]
+	376 [label="Excel Reader _XLS_"]
+	377 [label="WrappedNode Input"]
+	378 [label="WrappedNode Output"]
+	327 [label="CSV Reader"]
+	6 [label=GroupBy]
+	7 [label="Date_Time Difference"]
+	8 [label=GroupBy]
+	10 [label=GroupBy]
+	11 [label="Table Row to Variable"]
+	12 [label="Date_Time Difference"]
+	16 [label="Math Formula"]
+	310 [label="Column Rename"]
+	311 [label="String to Date_Time"]
+	312 [label="Missing Value"]
+	313 [label=GroupBy]
+	2 [label="Generic JavaScript View"]
+	60 [label="Text Output"]
+	67 [label="Row Filter"]
+	75 [label="Row Filter"]
+	96 [label=GroupBy]
+	97 [label="Column Rename"]
+	102 [label=Transpose]
+	103 [label=Joiner]
+	291 [label="Excel Reader _XLS_"]
+	292 [label="Row Filter"]
+	293 [label="Generic JavaScript View"]
+	294 [label="Row Filter"]
+	295 [label="Generic JavaScript View"]
+	296 [label="Row Filter"]
+	297 [label="Generic JavaScript View"]
+	298 [label="Row Filter"]
+	299 [label="Generic JavaScript View"]
+	300 [label="Row Filter"]
+	301 [label="Generic JavaScript View"]
+	325 [label=GroupBy]
+	327 [label="Generic JavaScript View"]
+	337 [label="Column Filter"]
+	341 [label="Text Output"]
+	342 [label="Single Selection"]
+	343 [label="Rule Engine Variable"]
+	344 [label="WrappedNode Output"]
+	345 [label="Text Output"]
+	346 [label="Text Output"]
+	347 [label="WrappedNode Input"]
+	291 [label="File Download"]
+	292 [label="Excel Writer _XLS_"]
+	294 [label="Create Temp Dir"]
+	337 [label="Row Filter"]
+	342 [label=Joiner]
+	343 [label="Column Rename"]
+	355 [label="Domain Calculator"]
+	356 [label="Bar Chart _JavaScript_"]
+	358 [label="Row Filter"]
+	360 [label="Text Output"]
+	362 [label="Table View _JavaScript_"]
+	363 [label="Text Output"]
+	371 [label="Text Output"]
+	372 [label=GroupBy]
+	376 [label="Text Output"]
+	379 [label="WrappedNode Output"]
+	381 [label="WrappedNode Input"]
+	382 [label="Scatter Plot _JavaScript_"]
+	383 [label="Color Manager"]
+	384 [label="R Snippet"]
+	385 [label="Column Filter"]
+	386 [label="Column Rename"]
+	387 [label="Table Row to Variable"]
+	388 [label=k_Means]
+	2 [label="Generic JavaScript View"]
+	75 [label="Row Filter"]
+	96 [label=GroupBy]
+	97 [label="Column Rename"]
+	102 [label=Transpose]
+	103 [label=Joiner]
+	292 [label="Row Filter"]
+	293 [label="Generic JavaScript View"]
+	294 [label="Row Filter"]
+	295 [label="Generic JavaScript View"]
+	344 [label="Column Rename"]
+	350 [label="Color Manager"]
+	351 [label="Table View _JavaScript_"]
+	356 [label="Excel Writer _XLS_"]
+	358 [label="Create Temp Dir"]
+	359 [label="Excel Reader _XLS_"]
+	363 [label="WrappedNode Output"]
+	364 [label="Row Filter"]
+	366 [label="Text Output"]
+	367 [label="Rule Engine"]
+	368 [label="Rule Engine"]
+	370 [label="Color Manager"]
+	371 [label=GroupBy]
+	372 [label="Bar Chart _JavaScript_"]
+	373 [label="Rule Engine"]
+	374 [label="Scatter Plot _JavaScript_"]
+	375 [label="WrappedNode Input"]
+	9 [label="Rule Engine"]
+	53 [label="Table Row to Variable"]
+	54 [label="Date_Time Input"]
+	57 [label="Variable to Table Column"]
+	58 [label="String to Date_Time"]
+	59 [label="Date_Time Difference"]
+	60 [label="Text Output"]
+	316 [label="Missing Value"]
+	325 [label=Joiner]
+	332 [label="Range Slider Filter Definition"]
+	333 [label="Color Manager"]
+	334 [label="Scatter Plot _JavaScript_"]
+	335 [label="Value Selection"]
+	353 [label="Column Filter"]
+	369 [label="Domain Calculator"]
+	372 [label=GroupBy]
+	376 [label="WrappedNode Input"]
+	378 [label="Range Slider Filter Definition"]
+	383 [label=GroupBy]
+	384 [label="Color Appender"]
+	385 [label="Table View _JavaScript_"]
+	387 [label="Table View _JavaScript_"]
+	388 [label="Text Output"]
+	389 [label="WrappedNode Output"]
+	390 [label="Integer Input"]
+	391 [label="Domain Calculator"]
+	374 [label="Domain Calculator"]
+	375 [label="Domain Calculator"]
+	382 [label="WrappedNode Input"]
+	383 [label="Value Selection"]
+	384 [label="Value Selection"]
+	385 [label="Text Output"]
+	387 [label="Row Filter"]
+	388 [label="Row Filter"]
+	390 [label=GroupBy]
+	391 [label=GroupBy]
+	393 [label="Cross Joiner"]
+	394 [label="Row Filter"]
+	395 [label="Row Filter"]
+	396 [label=Joiner]
+	398 [label="Cross Joiner"]
+	399 [label="WrappedNode Output"]
+	400 [label="String Manipulation"]
+	401 [label="Integer Input"]
+	402 [label="Variable to Table Row"]
+	380 [label="WrappedNode Output"]
+	381 [label="WrappedNode Input"]
+	383 [label="Table View _JavaScript_"]
+	384 [label="Math Formula"]
+	385 [label="Math Formula"]
+	386 [label=Joiner]
+	387 [label="Rule Engine"]
+	388 [label="Row Filter"]
+	389 [label="Column Filter"]
+	390 [label="Bar Chart _JavaScript_"]
+	391 [label=GroupBy]
+	392 [label="Text Output"]
+	393 [label="Column Rename _Regex_"]
+	380 [label="IF Switch"]
+	44 -> 32
+	44 -> 44
+	58 -> 59
+	60 -> 58
+	60 -> 69
+	69 -> 71
+	71 -> 72
+	73 -> 60
+	37 -> 43
+	39 -> 237
+	42 -> 32
+	42 -> 32
+	42 -> 243
+	42 -> 244
+	43 -> 42
+	43 -> 243
+	43 -> 50
+	43 -> 49
+	43 -> 244
+	49 -> 50
+	50 -> 51
+	51 -> 52
+	52 -> 54
+	54 -> 55
+	55 -> 224
+	44 -> 49
+	44 -> 226
+	44 -> 39
+	61 -> 233
+	72 -> 62
+	72 -> 61
+	226 -> 227
+	227 -> 45
+	230 -> 37
+	233 -> 235
+	234 -> 239
+	235 -> 234
+	236 -> 240
+	237 -> 238
+	238 -> 236
+	239 -> 2
+	240 -> 241
+	243 -> 73
+	244 -> 73
+	376 -> 240
+	376 -> 239
+	377 -> 230
+	6 -> 7
+	7 -> 12
+	10 -> 11
+	11 -> 7
+	16 -> 313
+	16 -> 6
+	16 -> 8
+	16 -> 10
+	310 -> 312
+	16 -> 16
+	312 -> 310
+	67 -> 344
+	75 -> 2
+	96 -> 97
+	97 -> 102
+	102 -> 103
+	103 -> 294
+	103 -> 292
+	103 -> 300
+	103 -> 298
+	103 -> 296
+	103 -> 75
+	291 -> 103
+	292 -> 293
+	294 -> 295
+	296 -> 297
+	298 -> 299
+	300 -> 301
+	325 -> 337
+	337 -> 327
+	342 -> 343
+	343 -> 344
+	347 -> 67
+	347 -> 325
+	347 -> 96
+	292 -> 291
+	294 -> 292
+	337 -> 342
+	342 -> 379
+	343 -> 356
+	358 -> 388
+	362 -> 384
+	372 -> 343
+	380 -> 376
+	380 -> 358
+	380 -> 358
+	380 -> 388
+	383 -> 382
+	383 -> 362
+	384 -> 385
+	385 -> 386
+	386 -> 387
+	387 -> 337
+	387 -> 379
+	388 -> 342
+	388 -> 337
+	388 -> 292
+	388 -> 355
+	388 -> 372
+	388 -> 383
+	75 -> 2
+	96 -> 97
+	97 -> 102
+	102 -> 103
+	103 -> 294
+	103 -> 292
+	103 -> 75
+	292 -> 293
+	294 -> 295
+	344 -> 373
+	344 -> 364
+	344 -> 367
+	350 -> 351
+	350 -> 374
+	351 -> 356
+	358 -> 356
+	359 -> 103
+	364 -> 96
+	367 -> 368
+	368 -> 371
+	370 -> 372
+	371 -> 370
+	373 -> 350
+	375 -> 364
+	375 -> 363
+	375 -> 344
+	9 -> 325
+	53 -> 54
+	54 -> 32
+	44 -> 58
+	58 -> 59
+	59 -> 9
+	316 -> 372
+	316 -> 389
+	325 -> 389
+	325 -> 353
+	332 -> 378
+	333 -> 334
+	333 -> 384
+	333 -> 383
+	334 -> 387
+	335 -> 389
+	353 -> 316
+	369 -> 335
+	372 -> 369
+	376 -> 32
+	376 -> 53
+	376 -> 325
+	376 -> 391
+	378 -> 333
+	383 -> 384
+	384 -> 385
+	390 -> 389
+	391 -> 332
+	374 -> 383
+	374 -> 391
+	374 -> 394
+	375 -> 390
+	375 -> 384
+	375 -> 395
+	382 -> 374
+	382 -> 375
+	383 -> 394
+	383 -> 387
+	384 -> 388
+	384 -> 395
+	387 -> 393
+	387 -> 396
+	388 -> 393
+	390 -> 388
+	391 -> 387
+	393 -> 398
+	395 -> 396
+	396 -> 399
+	398 -> 400
+	400 -> 399
+	401 -> 402
+	402 -> 398
+	380 -> 384
+	380 -> 386
+	383 -> 391
+	384 -> 385
+	385 -> 386
+	386 -> 387
+	387 -> 388
+	388 -> 389
+	389 -> 383
+	391 -> 393
+	393 -> 390
+	300 -> 330
+	300 -> 312
+	16 -> 378
+	16 -> 377
+	16 -> 377
+	16 -> 330
+	16 -> 330
+	330 -> 380
+	330 -> 380
+	370 -> 371
+	370 -> 371
+	371 -> 62
+	377 -> 371
+	377 -> 370
+	377 -> 370
+	377 -> 370
+	378 -> 379
+	378 -> 379
+	380 -> 377
+	380 -> 378
+	rankdir=LR
+}

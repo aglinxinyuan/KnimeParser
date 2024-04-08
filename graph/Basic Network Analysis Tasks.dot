@@ -1,0 +1,59 @@
+digraph {
+	1 [label="Network Reader"]
+	17 [label="Node Table"]
+	18 [label="Node Name Filter"]
+	19 [label="Row Filter"]
+	20 [label="Network Viewer"]
+	21 [label="Shortest Path"]
+	22 [label="Edge Degree Filter"]
+	27 [label="Network Analyzer"]
+	28 [label=Sorter]
+	29 [label="Row Filter"]
+	30 [label="Edge Degree Filter"]
+	31 [label="Node Name Filter"]
+	32 [label="Network To Row"]
+	33 [label="Chunk Loop Start"]
+	34 [label="Network Analyzer"]
+	35 [label="Row To Network"]
+	36 [label=GroupBy]
+	38 [label=Joiner]
+	41 [label="Loop End"]
+	42 [label=Sorter]
+	43 [label="Row Filter"]
+	44 [label=Sorter]
+	45 [label="Row Filter"]
+	46 [label="Row Filter"]
+	47 [label=Sorter]
+	48 [label=RowID]
+	49 [label=RowID]
+	1 -> 17
+	1 -> 18
+	1 -> 27
+	1 -> 31
+	1 -> 32
+	17 -> 19
+	18 -> 22
+	19 -> 18
+	21 -> 20
+	22 -> 21
+	27 -> 28
+	27 -> 47
+	27 -> 44
+	28 -> 29
+	29 -> 31
+	31 -> 30
+	32 -> 33
+	33 -> 35
+	33 -> 49
+	34 -> 36
+	35 -> 34
+	36 -> 48
+	38 -> 41
+	41 -> 42
+	42 -> 43
+	44 -> 45
+	47 -> 46
+	48 -> 38
+	49 -> 38
+	rankdir=LR
+}

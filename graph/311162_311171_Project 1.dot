@@ -1,0 +1,26 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label=Statistics]
+	3 [label=Partitioning]
+	5 [label=k_Means]
+	6 [label="Column Filter Configuration"]
+	7 [label="Numeric Distances"]
+	8 [label="Color Manager"]
+	9 [label="Shape Manager"]
+	10 [label="Scatter Plot _local_"]
+	11 [label="Hierarchical Clustering _DistMatrix_"]
+	12 [label="Hierarchical Cluster Assigner _local_"]
+	1 -> 3
+	1 -> 2
+	3 -> 6
+	3 -> 5
+	5 -> 8
+	6 -> 7
+	6 -> 12
+	6 -> 11
+	7 -> 11
+	8 -> 9
+	9 -> 10
+	11 -> 12
+	rankdir=LR
+}

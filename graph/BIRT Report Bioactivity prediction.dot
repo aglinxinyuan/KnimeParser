@@ -1,0 +1,20 @@
+digraph {
+	1 [label="Table Reader"]
+	261 [label="ROC Curve"]
+	270 [label="Binary Classification Inspector"]
+	271 [label="Image to Report"]
+	272 [label="Data to Report"]
+	279 [label="String Manipulation"]
+	343 [label="Data to Report"]
+	345 [label=Transpose]
+	346 [label=RowID]
+	1 -> 261
+	1 -> 343
+	1 -> 270
+	261 -> 271
+	270 -> 279
+	279 -> 346
+	345 -> 272
+	346 -> 345
+	rankdir=LR
+}

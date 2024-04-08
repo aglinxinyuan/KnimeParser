@@ -1,0 +1,7 @@
+digraph {
+	75 [label="Decision Tree Learner"]
+	288 [label="Table Reader"]
+	291 [label=Partitioning]
+	291 -> 75
+	rankdir=LR
+}

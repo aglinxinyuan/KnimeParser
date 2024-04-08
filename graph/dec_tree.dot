@@ -1,0 +1,102 @@
+digraph {
+	87 [label=Scorer]
+	121 [label="Row Filter"]
+	149 [label="Column Filter"]
+	150 [label="Column Rename"]
+	46 [label="Loop End"]
+	62 [label=GroupBy]
+	145 [label=X_Partitioner]
+	157 [label="Chunk Loop Start"]
+	158 [label="Loop End"]
+	160 [label="Table Row to Variable"]
+	94 [label="Reference Column Splitter"]
+	153 [label="Split Collection Column"]
+	159 [label="Column Splitter"]
+	160 [label="Table Row to Variable"]
+	161 [label="Insert Column Header"]
+	162 [label=Transpose]
+	164 [label="Column Appender"]
+	165 [label="Inject Variables _Data_"]
+	166 [label="Column Rename _Regex_"]
+	167 [label="Empty Table Switch"]
+	168 [label="CASE Switch Data _End_"]
+	169 [label="Extract Table Spec"]
+	170 [label="Table Row to Variable"]
+	171 [label="Column Filter"]
+	237 [label="Container Input _Table_"]
+	238 [label="Container Input _Variable_"]
+	240 [label="Column Splitter"]
+	241 [label="Missing Value"]
+	242 [label="Column Splitter"]
+	378 [label="Column Splitter"]
+	379 [label="Column Appender"]
+	375 [label="Cell Splitter"]
+	376 [label="Column Filter"]
+	377 [label="Create Collection Column"]
+	381 [label="End IF"]
+	382 [label="Extract Table Dimension"]
+	385 [label="Java IF _Table_"]
+	387 [label="Domain Calculator"]
+	388 [label="Missing Value"]
+	68 [label="String Manipulation _Variable_"]
+	90 [label="Decision Tree Predictor"]
+	89 [label="Decision Tree Learner"]
+	239 [label="Container Output _Table_"]
+	240 [label="Parallel Chunk Start"]
+	241 [label="Parallel Chunk End"]
+	87 -> 121
+	121 -> 149
+	149 -> 150
+	94 -> 168
+	153 -> 161
+	153 -> 162
+	159 -> 153
+	159 -> 169
+	159 -> 160
+	160 -> 165
+	161 -> 94
+	162 -> 166
+	164 -> 165
+	166 -> 161
+	165 -> 171
+	165 -> 170
+	168 -> 164
+	169 -> 164
+	170 -> 153
+	171 -> 168
+	375 -> 376
+	376 -> 377
+	377 -> 381
+	382 -> 385
+	385 -> 375
+	385 -> 381
+	237 -> 387
+	238 -> 240
+	240 -> 379
+	240 -> 388
+	378 -> 240
+	378 -> 385
+	379 -> 241
+	381 -> 379
+	387 -> 378
+	388 -> 242
+	68 -> 90
+	89 -> 90
+	150 -> 46
+	46 -> 62
+	62 -> 158
+	145 -> 89
+	145 -> 89
+	157 -> 164
+	157 -> 160
+	158 -> 241
+	160 -> 145
+	165 -> 145
+	168 -> 164
+	168 -> 164
+	168 -> 240
+	90 -> 87
+	240 -> 157
+	241 -> 239
+	rankdir=LR
+}

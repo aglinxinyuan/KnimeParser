@@ -1,0 +1,72 @@
+digraph {
+	113 [label="File Reader"]
+	114 [label="Rule_based Row Filter"]
+	115 [label="Column Rename"]
+	116 [label=GroupBy]
+	124 [label="Binner _Dictionary_"]
+	125 [label=Joiner]
+	135 [label="Data to Report"]
+	143 [label="OSM Map View"]
+	144 [label="OSM Map to Image"]
+	145 [label="Interactive Table"]
+	146 [label="Image To Table"]
+	147 [label="Data to Report"]
+	122 [label="Database Connection Table Reader"]
+	123 [label=RowID]
+	129 [label="SQLite Connector"]
+	130 [label="Database Table Selector"]
+	118 [label="Math Formula"]
+	119 [label="Column Filter"]
+	120 [label="Cell Splitter"]
+	126 [label=GroupBy]
+	127 [label=Sorter]
+	128 [label="Row Splitter"]
+	129 [label=Concatenate]
+	130 [label=Joiner]
+	131 [label=GroupBy]
+	133 [label="Table Creator"]
+	134 [label="Constant Value Column"]
+	136 [label=GroupBy]
+	137 [label=Sorter]
+	139 [label="Size Manager"]
+	140 [label="Shape Manager"]
+	141 [label="Color Manager"]
+	142 [label="Constant Value Column"]
+	152 [label="JavaScript Pie_Donut Chart"]
+	122 -> 123
+	129 -> 130
+	130 -> 122
+	118 -> 119
+	120 -> 118
+	126 -> 127
+	127 -> 128
+	128 -> 129
+	128 -> 131
+	129 -> 130
+	131 -> 134
+	133 -> 130
+	134 -> 129
+	136 -> 137
+	137 -> 142
+	139 -> 140
+	140 -> 141
+	142 -> 139
+	113 -> 114
+	114 -> 115
+	115 -> 116
+	116 -> 120
+	124 -> 125
+	125 -> 136
+	125 -> 126
+	144 -> 146
+	146 -> 147
+	148 -> 124
+	148 -> 125
+	119 -> 124
+	130 -> 152
+	130 -> 135
+	141 -> 145
+	141 -> 144
+	141 -> 143
+	rankdir=LR
+}

@@ -1,0 +1,32 @@
+digraph {
+	2 [label=Statistics]
+	4 [label="File Reader"]
+	5 [label=Statistics]
+	6 [label="Missing Value"]
+	7 [label=Statistics]
+	8 [label="Box Plot"]
+	9 [label="Missing Value"]
+	10 [label="Math Formula"]
+	11 [label=Statistics]
+	12 [label="Numeric Outliers"]
+	13 [label="Box Plot"]
+	14 [label="Box Plot"]
+	15 [label="Missing Value"]
+	16 [label="Numeric Binner"]
+	17 [label="One to Many"]
+	4 -> 5
+	4 -> 6
+	4 -> 15
+	4 -> 9
+	4 -> 10
+	6 -> 7
+	9 -> 2
+	10 -> 11
+	12 -> 13
+	12 -> 14
+	12 -> 8
+	12 -> 17
+	15 -> 12
+	15 -> 16
+	rankdir=LR
+}

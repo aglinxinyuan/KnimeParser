@@ -1,0 +1,24 @@
+digraph {
+	10 [label=Partitioning]
+	11 [label="Table Reader"]
+	12 [label=Normalizer]
+	13 [label="RProp MLP Learner"]
+	14 [label="MultiLayerPerceptron Predictor"]
+	16 [label="Column Filter"]
+	20 [label="Random Forest Learner _Regression_"]
+	21 [label="Random Forest Predictor _Regression_"]
+	22 [label="Numeric Scorer"]
+	23 [label="Numeric Scorer"]
+	10 -> 14
+	10 -> 13
+	10 -> 20
+	10 -> 21
+	11 -> 12
+	12 -> 16
+	13 -> 14
+	14 -> 22
+	16 -> 10
+	20 -> 21
+	21 -> 23
+	rankdir=LR
+}

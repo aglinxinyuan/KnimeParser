@@ -1,0 +1,34 @@
+digraph {
+	1 [label="JSON Input"]
+	2 [label="JSON Output"]
+	17 [label="JSON to Table"]
+	24 [label="Table to JSON"]
+	26 [label="List Files"]
+	28 [label=Joiner]
+	3 [label="URL to File Path"]
+	4 [label="Cell Splitter"]
+	5 [label="Column Rename"]
+	6 [label="Column Filter"]
+	27 [label="String to URI"]
+	30 [label="Empty Table Switch"]
+	31 [label="Row Filter"]
+	32 [label=Concatenate]
+	33 [label="End IF"]
+	3 -> 4
+	4 -> 6
+	6 -> 5
+	27 -> 3
+	1 -> 17
+	17 -> 28
+	24 -> 2
+	26 -> 27
+	28 -> 30
+	5 -> 28
+	5 -> 31
+	30 -> 32
+	30 -> 33
+	31 -> 32
+	32 -> 33
+	33 -> 24
+	rankdir=LR
+}

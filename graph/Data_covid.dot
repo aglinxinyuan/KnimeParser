@@ -1,0 +1,17 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Number To String"]
+	3 [label="Row Filter"]
+	4 [label="Color Manager"]
+	10 [label=Partitioning]
+	11 [label="K Nearest Neighbor"]
+	12 [label=Scorer]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 10
+	10 -> 11
+	10 -> 11
+	11 -> 12
+	rankdir=LR
+}

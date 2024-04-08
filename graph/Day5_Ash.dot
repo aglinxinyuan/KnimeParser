@@ -1,0 +1,23 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Missing Value"]
+	3 [label=Partitioning]
+	4 [label="Linear Regression Learner"]
+	5 [label="Regression Predictor"]
+	6 [label="Polynomial Regression Learner"]
+	7 [label="CSV Reader"]
+	8 [label="Rule Engine"]
+	10 [label="Logistic Regression Learner"]
+	11 [label="Logistic Regression Predictor"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	3 -> 5
+	4 -> 5
+	5 -> 6
+	7 -> 8
+	8 -> 10
+	8 -> 11
+	10 -> 11
+	rankdir=LR
+}

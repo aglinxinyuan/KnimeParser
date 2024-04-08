@@ -1,0 +1,113 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	5 [label="CSV Reader"]
+	6 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	8 [label="PostgreSQL Connector"]
+	9 [label="DB Table Creator"]
+	12 [label="Duplicate Row Filter"]
+	18 [label="DB Table Creator"]
+	19 [label="DB Table Creator"]
+	20 [label="DB Table Creator"]
+	23 [label="String to Date_Time"]
+	25 [label="DB Table Creator"]
+	26 [label="DB Writer"]
+	27 [label="DB Writer"]
+	28 [label="DB Writer"]
+	29 [label="DB Writer"]
+	30 [label="DB Writer"]
+	31 [label="DB Reader"]
+	32 [label="DB Reader"]
+	33 [label="DB Reader"]
+	34 [label="DB Reader"]
+	39 [label="DB Table Creator"]
+	40 [label="DB Writer"]
+	41 [label="DB Reader"]
+	42 [label="DB Reader"]
+	43 [label=Joiner]
+	44 [label=Joiner]
+	45 [label=Joiner]
+	46 [label=Joiner]
+	47 [label=Joiner]
+	48 [label="Math Formula"]
+	49 [label="Missing Value"]
+	51 [label="String Manipulation"]
+	52 [label="String Manipulation"]
+	55 [label="CSV Reader"]
+	56 [label=Joiner]
+	58 [label="Column Combiner"]
+	59 [label="Column Combiner"]
+	60 [label="Column Merger"]
+	61 [label="Column Merger"]
+	62 [label="Column Filter"]
+	63 [label="Rule Engine"]
+	65 [label="String Replacer"]
+	66 [label="String Replacer"]
+	67 [label="String Replacer"]
+	68 [label="String to Date_Time"]
+	69 [label="Rule Engine"]
+	70 [label="Rule Engine"]
+	1 -> 25
+	2 -> 23
+	3 -> 65
+	5 -> 48
+	6 -> 63
+	7 -> 12
+	8 -> 9
+	8 -> 25
+	8 -> 18
+	8 -> 19
+	8 -> 20
+	8 -> 39
+	9 -> 28
+	9 -> 28
+	12 -> 9
+	18 -> 27
+	18 -> 27
+	19 -> 30
+	19 -> 30
+	20 -> 29
+	20 -> 29
+	23 -> 19
+	25 -> 26
+	25 -> 26
+	26 -> 42
+	27 -> 33
+	28 -> 41
+	29 -> 32
+	30 -> 31
+	31 -> 45
+	32 -> 44
+	33 -> 43
+	34 -> 43
+	39 -> 40
+	39 -> 40
+	40 -> 34
+	41 -> 46
+	42 -> 46
+	43 -> 44
+	44 -> 45
+	45 -> 47
+	46 -> 47
+	48 -> 49
+	49 -> 18
+	51 -> 52
+	52 -> 56
+	55 -> 56
+	56 -> 58
+	58 -> 59
+	59 -> 60
+	60 -> 61
+	61 -> 62
+	62 -> 20
+	63 -> 69
+	65 -> 66
+	66 -> 67
+	67 -> 51
+	68 -> 39
+	69 -> 70
+	70 -> 68
+	rankdir=LR
+}

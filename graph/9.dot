@@ -1,0 +1,15 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	9 [label="Interactive Table _local_"]
+	15 [label="Random Forest Learner _Regression_"]
+	16 [label="Random Forest Predictor _Regression_"]
+	35 [label="Numeric Scorer"]
+	1 -> 2
+	2 -> 16
+	2 -> 15
+	15 -> 16
+	16 -> 35
+	16 -> 9
+	rankdir=LR
+}

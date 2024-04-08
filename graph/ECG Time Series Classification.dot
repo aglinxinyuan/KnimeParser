@@ -1,0 +1,92 @@
+digraph {
+	1 [label="ARFF Reader"]
+	2 [label="ARFF Reader"]
+	3 [label=Concatenate]
+	5 [label="Rule Engine"]
+	22 [label="Column Aggregator"]
+	35 [label="Rule Engine"]
+	39 [label="Keras Network Learner"]
+	40 [label="String To Number"]
+	41 [label=Partitioning]
+	42 [label=Partitioning]
+	43 [label="Keras Network Executor"]
+	44 [label="Double To Int"]
+	45 [label=Scorer]
+	54 [label="Column Aggregator"]
+	62 [label=Partitioning]
+	63 [label=Partitioning]
+	64 [label="Keras Network Learner"]
+	65 [label="Keras Network Executor"]
+	67 [label=Scorer]
+	68 [label="One to Many"]
+	69 [label="Many to One"]
+	70 [label="String Manipulation"]
+	71 [label="Rule Engine"]
+	72 [label="Rule Engine"]
+	73 [label="Rule Engine"]
+	74 [label="Rule Engine"]
+	75 [label="Rule Engine"]
+	55 [label="Keras Input Layer"]
+	56 [label="Keras Dense Layer"]
+	57 [label="Keras Dense Layer"]
+	58 [label="Keras Dense Layer"]
+	59 [label="Keras Dense Layer"]
+	60 [label="Keras Dense Layer"]
+	61 [label="Keras Dense Layer"]
+	46 [label="Keras Input Layer"]
+	47 [label="Keras Dense Layer"]
+	48 [label="Keras Dense Layer"]
+	49 [label="Keras Dense Layer"]
+	50 [label="Keras Dense Layer"]
+	51 [label="Keras Dense Layer"]
+	52 [label="Keras Dense Layer"]
+	53 [label="DL Python Network Editor"]
+	79 [label="Missing Value"]
+	71 -> 72
+	72 -> 73
+	73 -> 74
+	74 -> 75
+	55 -> 58
+	56 -> 60
+	57 -> 61
+	58 -> 59
+	59 -> 56
+	60 -> 57
+	46 -> 47
+	47 -> 52
+	48 -> 50
+	49 -> 51
+	49 -> 53
+	51 -> 48
+	52 -> 49
+	1 -> 3
+	2 -> 3
+	3 -> 79
+	5 -> 68
+	5 -> 35
+	22 -> 40
+	35 -> 22
+	39 -> 43
+	40 -> 41
+	41 -> 43
+	41 -> 42
+	42 -> 39
+	42 -> 39
+	43 -> 44
+	44 -> 45
+	54 -> 62
+	62 -> 63
+	62 -> 65
+	63 -> 64
+	63 -> 64
+	64 -> 65
+	65 -> 69
+	68 -> 54
+	69 -> 70
+	70 -> 71
+	75 -> 67
+	77 -> 64
+	78 -> 39
+	79 -> 5
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	243 [label="Python Script _1_1_"]
+	925 [label="Create Collection Column"]
+	927 [label="Color Manager"]
+	941 [label=Joiner]
+	928 [label="Scatter Plot _JavaScript_"]
+	934 [label="Table View _JavaScript_"]
+	935 [label="WrappedNode Input"]
+	936 [label="WrappedNode Output"]
+	937 [label=GroupBy]
+	948 [label=Sorter]
+	955 [label="Table Reader"]
+	956 [label="Table Reader"]
+	931 [label=GroupBy]
+	932 [label="Row Filter"]
+	933 [label="Reference Row Filter"]
+	939 [label=Shuffle]
+	935 -> 937
+	937 -> 928
+	937 -> 934
+	931 -> 939
+	932 -> 933
+	939 -> 932
+	243 -> 948
+	925 -> 933
+	927 -> 941
+	941 -> 942
+	948 -> 927
+	955 -> 925
+	956 -> 941
+	933 -> 243
+	rankdir=LR
+}

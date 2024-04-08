@@ -1,0 +1,31 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Network Creator"]
+	3 [label="Object Inserter"]
+	4 [label="Network Viewer _local_"]
+	5 [label="String Manipulation"]
+	6 [label="Missing Value"]
+	8 [label=GroupBy]
+	9 [label=Rank]
+	10 [label="Row Filter"]
+	15 [label="Table View"]
+	16 [label="Reference Row Filter"]
+	17 [label="Network Creator"]
+	18 [label="Object Inserter"]
+	19 [label="Network Viewer _local_"]
+	1 -> 6
+	2 -> 3
+	3 -> 4
+	5 -> 8
+	5 -> 3
+	5 -> 16
+	6 -> 5
+	8 -> 9
+	9 -> 10
+	10 -> 15
+	10 -> 16
+	16 -> 18
+	17 -> 18
+	18 -> 19
+	rankdir=LR
+}

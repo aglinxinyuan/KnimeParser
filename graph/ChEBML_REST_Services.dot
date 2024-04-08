@@ -1,0 +1,163 @@
+digraph {
+	36 [label="WrappedNode Output"]
+	60 [label="Table View _JavaScript_"]
+	62 [label="WrappedNode Input"]
+	63 [label="Text Output"]
+	64 [label="Text Output"]
+	65 [label=GroupBy]
+	66 [label="Table View _JavaScript_"]
+	67 [label="Column Rename"]
+	68 [label="Row Filter"]
+	69 [label="Column Filter"]
+	132 [label="Rule Engine Variable"]
+	133 [label="Table Row to Variable"]
+	27 [label="Table View _JavaScript_"]
+	28 [label="GET Request"]
+	32 [label="WrappedNode Input"]
+	58 [label="Column Filter"]
+	59 [label="WrappedNode Output"]
+	63 [label="Text Output"]
+	64 [label="JSON to Table"]
+	65 [label="Data Explorer _JavaScript_"]
+	66 [label="Column Filter"]
+	68 [label="Row Filter"]
+	69 [label="Column Filter"]
+	70 [label="Text Output"]
+	54 [label="List Box Input"]
+	55 [label="Text Output"]
+	56 [label="Text Output"]
+	57 [label="WrappedNode Input"]
+	59 [label="WrappedNode Output"]
+	44 [label="JSON Path"]
+	47 [label="Rule_based Row Splitter"]
+	53 [label=Concatenate]
+	55 [label="String Manipulation"]
+	56 [label="String Manipulation"]
+	58 [label="GET Request"]
+	59 [label="Rule Engine"]
+	64 [label="Create Temp Dir"]
+	65 [label="CSV Writer"]
+	66 [label="WrappedNode Input"]
+	68 [label="File Download"]
+	69 [label="Column Filter"]
+	70 [label="WrappedNode Output"]
+	71 [label="Text Output"]
+	108 [label="JSON Path"]
+	109 [label="Row Filter"]
+	110 [label="GET Request"]
+	111 [label="String Manipulation"]
+	112 [label="Rule Engine"]
+	113 [label="JSON Path"]
+	114 [label=Ungroup]
+	115 [label="Column Filter"]
+	63 [label="Text Output"]
+	64 [label="Text Output"]
+	65 [label=GroupBy]
+	66 [label="Table View _JavaScript_"]
+	67 [label="Column Rename"]
+	68 [label="Row Filter"]
+	69 [label="Column Filter"]
+	110 [label="Table View _JavaScript_"]
+	111 [label="WrappedNode Input"]
+	112 [label="WrappedNode Output"]
+	113 [label="Column Splitter"]
+	114 [label="Text Output"]
+	27 [label="Table View _JavaScript_"]
+	28 [label="GET Request"]
+	32 [label="WrappedNode Input"]
+	44 [label="JSON Path"]
+	58 [label="Column Filter"]
+	59 [label="WrappedNode Output"]
+	63 [label="Text Output"]
+	68 [label="Row Filter"]
+	69 [label="Column Filter"]
+	27 [label="Table View _JavaScript_"]
+	28 [label="GET Request"]
+	32 [label="WrappedNode Input"]
+	58 [label="Column Filter"]
+	59 [label="WrappedNode Output"]
+	63 [label="Text Output"]
+	64 [label="JSON to Table"]
+	65 [label="Data Explorer _JavaScript_"]
+	66 [label="Column Filter"]
+	68 [label="Row Filter"]
+	69 [label="Column Filter"]
+	70 [label="Text Output"]
+	126 [label="CASE Switch Data _Start_"]
+	130 [label="CASE Switch Data _End_"]
+	53 -> 68
+	62 -> 56
+	62 -> 65
+	65 -> 67
+	67 -> 66
+	68 -> 69
+	69 -> 133
+	69 -> 36
+	132 -> 36
+	133 -> 132
+	27 -> 68
+	28 -> 64
+	32 -> 58
+	58 -> 28
+	64 -> 66
+	64 -> 27
+	66 -> 65
+	68 -> 69
+	69 -> 59
+	54 -> 59
+	44 -> 55
+	47 -> 44
+	47 -> 59
+	55 -> 53
+	56 -> 58
+	58 -> 47
+	59 -> 53
+	64 -> 65
+	65 -> 68
+	66 -> 69
+	69 -> 65
+	109 -> 113
+	110 -> 109
+	111 -> 110
+	112 -> 111
+	113 -> 114
+	114 -> 108
+	115 -> 112
+	65 -> 67
+	67 -> 66
+	68 -> 69
+	69 -> 112
+	110 -> 68
+	111 -> 113
+	113 -> 65
+	113 -> 110
+	27 -> 68
+	28 -> 44
+	32 -> 58
+	44 -> 27
+	58 -> 28
+	68 -> 69
+	69 -> 59
+	27 -> 68
+	28 -> 64
+	32 -> 58
+	58 -> 28
+	64 -> 66
+	64 -> 27
+	66 -> 65
+	68 -> 69
+	69 -> 59
+	34 -> 126
+	39 -> 130
+	57 -> 56
+	53 -> 34
+	108 -> 122
+	122 -> 67
+	123 -> 130
+	124 -> 130
+	126 -> 124
+	126 -> 123
+	126 -> 39
+	130 -> 115
+	rankdir=LR
+}

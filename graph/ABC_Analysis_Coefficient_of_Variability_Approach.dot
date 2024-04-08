@@ -1,0 +1,29 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Column Aggregator"]
+	3 [label="Math Formula"]
+	4 [label="Rule Engine"]
+	5 [label="Column Aggregator"]
+	9 [label="Math Formula"]
+	10 [label="Rule Engine"]
+	14 [label=Sorter]
+	15 [label="Math Formula"]
+	16 [label="Moving Aggregation"]
+	17 [label=Joiner]
+	18 [label=Pivoting]
+	20 [label=Pivoting]
+	1 -> 2
+	1 -> 5
+	2 -> 3
+	3 -> 4
+	4 -> 17
+	5 -> 15
+	9 -> 10
+	10 -> 17
+	14 -> 16
+	15 -> 14
+	16 -> 9
+	17 -> 18
+	17 -> 20
+	rankdir=LR
+}
