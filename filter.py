@@ -1,6 +1,11 @@
+import os
 from zipfile import ZipFile
+from xml.etree import ElementTree
+from knimeParser import Parser
 
-with ZipFile(filename) as zf:
-    for filename in zf.namelist():
-        if filename.count("/") == 1 and filename.endswith("workflow.knime"):
-            parse(zf, filename)
+for filename in os.listdir("workflows"):
+    path = "workflows/" + filename
+    with ZipFile(path) as zf:
+        res = any("Component Input" in namelist for namelist in zf.namelist())
+        if not res:
+            Parser(path)
