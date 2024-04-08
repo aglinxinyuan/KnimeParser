@@ -1,0 +1,52 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	3 [label=Joiner]
+	4 [label="Nominal Value Row Filter"]
+	5 [label=GroupBy]
+	6 [label="Rule_based Row Filter"]
+	7 [label="String To Number"]
+	8 [label=GroupBy]
+	9 [label="Missing Value"]
+	10 [label="Math Formula"]
+	11 [label="Row Filter"]
+	12 [label="Excel Reader"]
+	13 [label="Nominal Value Row Filter"]
+	14 [label="Column Expressions"]
+	15 [label="Nominal Value Row Filter"]
+	16 [label=Joiner]
+	17 [label="Math Formula"]
+	18 [label="Row Filter"]
+	19 [label=Sorter]
+	21 [label="Interactive Value Filter Widget"]
+	22 [label="Filter Apply"]
+	23 [label="Interactive Value Filter Widget"]
+	24 [label="Row Filter"]
+	25 [label="Filter Apply"]
+	26 [label=Sorter]
+	1 -> 3
+	2 -> 3
+	3 -> 4
+	4 -> 6
+	6 -> 7
+	7 -> 5
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 16
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	16 -> 21
+	16 -> 24
+	17 -> 18
+	21 -> 22
+	22 -> 19
+	23 -> 25
+	24 -> 23
+	25 -> 26
+	rankdir=LR
+}

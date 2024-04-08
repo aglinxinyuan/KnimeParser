@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Table Creator"]
+	6 [label=Breakpoint]
+	8 [label="Try _Data Ports_"]
+	9 [label="Catch Errors _Data Ports_"]
+	10 [label="Empty Table Creator"]
+	11 [label="Counting Loop Start"]
+	12 [label="Loop End"]
+	1 -> 11
+	6 -> 9
+	8 -> 6
+	9 -> 12
+	10 -> 9
+	11 -> 8
+	rankdir=LR
+}

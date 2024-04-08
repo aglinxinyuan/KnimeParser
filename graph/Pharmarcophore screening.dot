@@ -1,0 +1,20 @@
+digraph {
+	21 [label="SDF Reader"]
+	38 [label="Column Filter"]
+	139 [label="Credentials Configuration"]
+	140 [label="Upload as LiveDesign Model"]
+	8242 [label="Ungroup MAE"]
+	8309 [label="Phase Hypothesis Reader"]
+	8321 [label="Extract Properties"]
+	8322 [label="Phase Screening"]
+	15268 [label=LigPrep]
+	21 -> 15268
+	38 -> 140
+	139 -> 140
+	8242 -> 8321
+	8309 -> 8322
+	8321 -> 38
+	8322 -> 8242
+	15268 -> 8322
+	rankdir=LR
+}

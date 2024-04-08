@@ -1,0 +1,51 @@
+digraph {
+	3 [label="Table Creator"]
+	4 [label="String Manipulation _Multi Column_"]
+	6 [label="Table Transposer"]
+	8 [label="Column Combiner"]
+	10 [label="Table Creator"]
+	12 [label="Table Row to Variable Loop Start"]
+	13 [label="Column Expressions"]
+	20 [label="CASE Switch Start"]
+	21 [label="CASE Switch End"]
+	22 [label="Table Writer"]
+	23 [label="Java Edit Variable _simple_"]
+	24 [label="Table Reader"]
+	25 [label="Table Writer"]
+	26 [label="Variable Loop End"]
+	27 [label="Table Reader"]
+	28 [label="String Manipulation"]
+	29 [label="Table Row to Variable"]
+	30 [label="CSV Reader"]
+	31 [label="Table Writer"]
+	32 [label="Column Name Extractor"]
+	33 [label="Table Transposer"]
+	34 [label=Sorter]
+	35 [label="Reference Column Resorter"]
+	3 -> 22
+	4 -> 32
+	4 -> 35
+	6 -> 8
+	8 -> 28
+	10 -> 12
+	12 -> 13
+	12 -> 23
+	13 -> 25
+	20 -> 21
+	20 -> 22
+	21 -> 24
+	22 -> 21
+	23 -> 20
+	24 -> 13
+	25 -> 26
+	26 -> 27
+	27 -> 6
+	28 -> 29
+	29 -> 4
+	30 -> 4
+	32 -> 33
+	33 -> 34
+	34 -> 35
+	35 -> 31
+	rankdir=LR
+}

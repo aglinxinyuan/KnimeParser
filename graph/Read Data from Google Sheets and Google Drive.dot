@@ -1,0 +1,16 @@
+digraph {
+	1 [label="Google Authentication"]
+	2 [label="Google Sheets Reader"]
+	4 [label="Google Sheets Connection"]
+	5 [label="Google Drive Connector"]
+	6 [label="File Reader"]
+	7 [label="Excel Reader"]
+	8 [label="CSV Reader"]
+	1 -> 5
+	1 -> 4
+	4 -> 2
+	5 -> 7
+	5 -> 6
+	5 -> 8
+	rankdir=LR
+}

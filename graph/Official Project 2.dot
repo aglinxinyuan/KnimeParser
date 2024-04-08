@@ -1,0 +1,22 @@
+digraph {
+	1 [label="CSV Reader"]
+	5 [label="Row Filter"]
+	6 [label="Domain Calculator"]
+	7 [label=GroupBy]
+	8 [label=Transpose]
+	9 [label=GroupBy]
+	10 [label=Transpose]
+	13 [label="Value Counter"]
+	14 [label=GroupBy]
+	15 [label=GroupBy]
+	16 [label="Histogram _local_"]
+	18 [label="Row Filter"]
+	19 [label=Statistics]
+	20 [label="Conditional Box Plot _local_"]
+	5 -> 6
+	7 -> 8
+	9 -> 10
+	20 -> 19
+	1 -> 6
+	rankdir=LR
+}

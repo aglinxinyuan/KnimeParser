@@ -1,0 +1,29 @@
+digraph {
+	136 [label="Snowflake Connector"]
+	137 [label="DB Table Creator"]
+	138 [label="DB Table Creator"]
+	141 [label="DB Loader"]
+	142 [label="DB Joiner"]
+	143 [label="DB Loader"]
+	145 [label="DB Numeric_Binner"]
+	147 [label="DB GroupBy"]
+	149 [label="DB Reader"]
+	155 [label="Bar Chart"]
+	156 [label="Excel Reader"]
+	157 [label="CSV Reader"]
+	136 -> 137
+	136 -> 138
+	137 -> 143
+	137 -> 143
+	138 -> 141
+	138 -> 141
+	141 -> 142
+	142 -> 145
+	143 -> 142
+	145 -> 147
+	147 -> 149
+	149 -> 155
+	156 -> 137
+	157 -> 138
+	rankdir=LR
+}

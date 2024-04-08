@@ -1,0 +1,37 @@
+digraph {
+	1 [label="Oracle Connector"]
+	2 [label="Data Generator"]
+	3 [label="DB Writer"]
+	4 [label="Counting Loop Start"]
+	5 [label="Table Creator"]
+	6 [label="Math Formula"]
+	7 [label="Math Formula"]
+	8 [label="Table Row to Variable"]
+	9 [label="String Manipulation _Variable_"]
+	10 [label="Try _Variable Ports_"]
+	11 [label="Catch Errors _Data Ports_"]
+	12 [label="DB Query Reader"]
+	13 [label="Loop End"]
+	14 [label="Empty Table Creator"]
+	17 [label="Table Difference Checker"]
+	18 [label="Column Filter"]
+	19 [label="DB Reader"]
+	1 -> 3
+	1 -> 12
+	2 -> 3
+	3 -> 19
+	4 -> 6
+	5 -> 4
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 12
+	11 -> 13
+	12 -> 11
+	13 -> 18
+	14 -> 11
+	18 -> 17
+	19 -> 17
+	rankdir=LR
+}

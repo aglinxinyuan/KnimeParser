@@ -1,0 +1,63 @@
+digraph {
+	15 [label=Joiner]
+	18 [label="Molecule Type Cast"]
+	19 [label="Molecule Type Cast"]
+	21 [label="Molecule Type Cast"]
+	22 [label="Python Script _1_2_ _Labs_"]
+	23 [label="Strings To Document"]
+	24 [label="Topic Extractor _Parallel LDA_"]
+	25 [label="Column Resorter"]
+	27 [label="String To Number"]
+	28 [label=Shuffle]
+	29 [label=RowID]
+	30 [label="Double Input"]
+	31 [label="Double Input"]
+	32 [label="Merge Variables"]
+	33 [label="Row Filter"]
+	35 [label="Python Script _2_1_ _Labs_"]
+	38 [label="Python Script _1_1_ _Labs_"]
+	39 [label="String To SVG"]
+	40 [label="WrappedNode Input"]
+	41 [label="WrappedNode Output"]
+	42 [label="Integer Input"]
+	43 [label="Integer Input"]
+	44 [label="Merge Variables"]
+	30 [label=GroupBy]
+	32 [label=GroupBy]
+	35 [label="Interactive Table"]
+	36 [label="Interactive Table"]
+	38 [label="Table Reader"]
+	39 [label="Column Resorter"]
+	15 -> 38
+	18 -> 41
+	19 -> 21
+	21 -> 15
+	22 -> 19
+	22 -> 35
+	22 -> 33
+	23 -> 24
+	24 -> 25
+	24 -> 27
+	25 -> 18
+	27 -> 15
+	28 -> 29
+	29 -> 22
+	30 -> 32
+	31 -> 32
+	32 -> 33
+	33 -> 35
+	35 -> 23
+	38 -> 39
+	39 -> 41
+	40 -> 28
+	42 -> 44
+	43 -> 44
+	44 -> 24
+	26 -> 30
+	26 -> 35
+	26 -> 32
+	26 -> 39
+	38 -> 26
+	39 -> 36
+	rankdir=LR
+}

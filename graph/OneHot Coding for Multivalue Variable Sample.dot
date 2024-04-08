@@ -1,0 +1,53 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Math Formula"]
+	3 [label=GroupBy]
+	4 [label="String Manipulation"]
+	5 [label="Cross Joiner"]
+	6 [label="Rule Engine"]
+	7 [label=GroupBy]
+	8 [label="Cell Splitter"]
+	9 [label="Column Filter"]
+	10 [label="Extract Column Header"]
+	11 [label="Column Appender"]
+	12 [label="Insert Column Header"]
+	13 [label="Column Appender"]
+	14 [label="Variable Creator"]
+	15 [label="Column Filter"]
+	16 [label="String Manipulation"]
+	17 [label="Column Filter"]
+	18 [label="Row Filter"]
+	19 [label=GroupBy]
+	20 [label="Cell Splitter"]
+	21 [label=Transpose]
+	22 [label="String Manipulation"]
+	23 [label="Column Rename"]
+	1 -> 13
+	1 -> 15
+	2 -> 5
+	3 -> 4
+	4 -> 18
+	5 -> 22
+	6 -> 7
+	7 -> 8
+	7 -> 16
+	8 -> 9
+	9 -> 10
+	9 -> 12
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	14 -> 4
+	15 -> 2
+	15 -> 19
+	16 -> 17
+	17 -> 13
+	18 -> 5
+	18 -> 11
+	19 -> 20
+	20 -> 21
+	21 -> 23
+	22 -> 6
+	23 -> 3
+	rankdir=LR
+}

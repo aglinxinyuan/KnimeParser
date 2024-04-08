@@ -1,0 +1,27 @@
+digraph {
+	8 [label="Create Temp Folder"]
+	9 [label="List Files_Folders"]
+	11 [label="Variable to Table Column"]
+	12 [label="Row Filter"]
+	13 [label="Rule_based Row Filter"]
+	14 [label="Rule_based Row Filter _Dictionary_"]
+	15 [label="Table Writer"]
+	16 [label="Reference Row Filter"]
+	17 [label="Empty Table Creator"]
+	18 [label="Add Empty Rows"]
+	19 [label="Path to String _Variable_"]
+	20 [label="Table Creator"]
+	8 -> 19
+	9 -> 16
+	11 -> 18
+	15 -> 9
+	17 -> 11
+	18 -> 12
+	18 -> 15
+	18 -> 14
+	18 -> 13
+	18 -> 16
+	19 -> 17
+	20 -> 14
+	rankdir=LR
+}

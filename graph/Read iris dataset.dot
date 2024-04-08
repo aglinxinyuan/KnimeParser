@@ -1,0 +1,12 @@
+digraph {
+	1 [label="CSV Reader"]
+	5 [label="Table Writer"]
+	2 [label="Cell Splitter"]
+	3 [label="Column Filter"]
+	4 [label="Column Rename"]
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	4 -> 5
+	rankdir=LR
+}

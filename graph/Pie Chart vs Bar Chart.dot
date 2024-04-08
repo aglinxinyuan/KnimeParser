@@ -1,0 +1,10 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Color Manager"]
+	3 [label="Bar Chart"]
+	4 [label="Pie Chart"]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	rankdir=LR
+}

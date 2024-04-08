@@ -1,0 +1,160 @@
+digraph {
+	7 [label="Microsoft SQL Server Connector"]
+	90 [label="DB Table Selector"]
+	111 [label="DB Table Selector"]
+	113 [label="DB Table Selector"]
+	119 [label="DB Table Selector"]
+	125 [label="DB Table Selector"]
+	120 [label="DB Reader"]
+	123 [label=GroupBy]
+	124 [label="Reference Row Filter"]
+	126 [label="DB Reader"]
+	127 [label="DB GroupBy"]
+	128 [label="DB Reader"]
+	129 [label="Reference Row Filter"]
+	130 [label="Create Date_Time Range"]
+	131 [label=GroupBy]
+	132 [label="Table Row to Variable"]
+	134 [label="Date_Time_based Row Filter"]
+	135 [label="DB Joiner"]
+	136 [label="DB Reader"]
+	137 [label="Rule_based Row Filter"]
+	138 [label="DB GroupBy"]
+	139 [label="DB GroupBy"]
+	140 [label="DB Reader"]
+	141 [label="Rule_based Row Filter"]
+	128 [label="DB Table Selector"]
+	129 [label="DB Reader"]
+	130 [label="Create Date_Time Range"]
+	131 [label=GroupBy]
+	132 [label="Table Row to Variable"]
+	134 [label="Date_Time_based Row Filter"]
+	135 [label="Reference Row Filter"]
+	136 [label="DB Reader"]
+	137 [label="DB Reader"]
+	138 [label=GroupBy]
+	139 [label="Table Row to Variable"]
+	140 [label="Create Date_Time Range"]
+	141 [label="Date_Time_based Row Filter"]
+	142 [label="Reference Row Filter"]
+	143 [label=GroupBy]
+	144 [label="Table Row to Variable"]
+	145 [label="Create Date_Time Range"]
+	146 [label="Date_Time_based Row Filter"]
+	147 [label="Reference Row Filter"]
+	149 [label="DB Reader"]
+	150 [label=GroupBy]
+	151 [label="Table Row to Variable"]
+	152 [label="Create Date_Time Range"]
+	153 [label="Date_Time_based Row Filter"]
+	154 [label="Reference Row Filter"]
+	148 [label="DB Table Selector"]
+	149 [label="DB Table Selector"]
+	150 [label="DB Table Selector"]
+	152 [label="DB Table Selector"]
+	153 [label="DB Table Selector"]
+	156 [label="DB Table Selector"]
+	157 [label="DB Reader"]
+	158 [label=GroupBy]
+	161 [label=Joiner]
+	162 [label="DB Reader"]
+	163 [label="Rule_based Row Filter"]
+	164 [label=Joiner]
+	165 [label="Rule_based Row Filter"]
+	166 [label="DB Reader"]
+	167 [label=GroupBy]
+	168 [label=Joiner]
+	169 [label="Rule_based Row Filter"]
+	170 [label="DB Reader"]
+	171 [label=GroupBy]
+	172 [label=Joiner]
+	173 [label="Rule_based Row Filter"]
+	174 [label=GroupBy]
+	175 [label=Joiner]
+	176 [label="Rule_based Row Filter"]
+	177 [label="DB Reader"]
+	120 -> 123
+	123 -> 124
+	126 -> 124
+	141 -> 128
+	128 -> 129
+	128 -> 131
+	130 -> 134
+	131 -> 132
+	132 -> 130
+	134 -> 129
+	135 -> 139
+	135 -> 138
+	154 -> 137
+	138 -> 129
+	139 -> 140
+	140 -> 141
+	129 -> 131
+	129 -> 135
+	130 -> 134
+	131 -> 132
+	132 -> 130
+	134 -> 135
+	154 -> 138
+	154 -> 142
+	137 -> 143
+	137 -> 147
+	138 -> 139
+	139 -> 140
+	140 -> 141
+	141 -> 142
+	143 -> 144
+	144 -> 145
+	145 -> 146
+	146 -> 147
+	149 -> 150
+	149 -> 154
+	150 -> 151
+	151 -> 152
+	152 -> 153
+	153 -> 154
+	157 -> 158
+	157 -> 164
+	158 -> 161
+	161 -> 163
+	162 -> 161
+	162 -> 167
+	162 -> 171
+	163 -> 164
+	164 -> 165
+	166 -> 168
+	167 -> 168
+	168 -> 169
+	170 -> 174
+	170 -> 175
+	170 -> 172
+	171 -> 172
+	172 -> 173
+	174 -> 176
+	176 -> 175
+	7 -> 128
+	7 -> 111
+	7 -> 119
+	7 -> 150
+	7 -> 149
+	7 -> 148
+	7 -> 113
+	7 -> 125
+	7 -> 156
+	7 -> 90
+	7 -> 153
+	7 -> 152
+	90 -> 129
+	111 -> 129
+	113 -> 129
+	119 -> 135
+	125 -> 135
+	128 -> 135
+	148 -> 129
+	149 -> 157
+	150 -> 157
+	152 -> 157
+	153 -> 157
+	156 -> 157
+	rankdir=LR
+}

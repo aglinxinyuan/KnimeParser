@@ -1,0 +1,32 @@
+digraph {
+	1 [label="Input Files"]
+	2 [label=ZipLoopStart]
+	4 [label=ZipLoopEnd]
+	6 [label="Input File"]
+	189 [label=PeptideIndexer]
+	192 [label=FeatureFinderCentroided]
+	193 [label=IDMapper]
+	194 [label=MapAlignerPoseClustering]
+	195 [label=FeatureLinkerUnlabeledQT]
+	196 [label=ConsensusMapNormalizer]
+	197 [label=IDConflictResolver]
+	198 [label="Output File"]
+	199 [label=FalseDiscoveryRate]
+	200 [label=XTandemAdapter]
+	1 -> 2
+	2 -> 192
+	2 -> 200
+	4 -> 194
+	6 -> 200
+	6 -> 189
+	189 -> 199
+	192 -> 193
+	193 -> 4
+	194 -> 195
+	195 -> 196
+	196 -> 197
+	197 -> 198
+	199 -> 193
+	200 -> 189
+	rankdir=LR
+}

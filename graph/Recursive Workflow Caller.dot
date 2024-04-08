@@ -1,0 +1,21 @@
+digraph {
+	1 [label="List Files_Folders"]
+	2 [label="Data Generator"]
+	3 [label="Recursive Loop Start"]
+	4 [label="Java Snippet Row Filter"]
+	5 [label="Table Row to Variable"]
+	6 [label="Call Workflow _Table Based_"]
+	7 [label="Recursive Loop End"]
+	8 [label="Extract Table Dimension"]
+	1 -> 4
+	1 -> 8
+	2 -> 3
+	3 -> 4
+	3 -> 6
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	6 -> 7
+	8 -> 3
+	rankdir=LR
+}

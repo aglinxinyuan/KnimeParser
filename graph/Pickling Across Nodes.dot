@@ -1,0 +1,9 @@
+digraph {
+	1 [label="Python Source"]
+	2 [label="Python Script _1_1_"]
+	3 [label="Python Source"]
+	4 [label="Python Script _1_1_"]
+	1 -> 2
+	3 -> 4
+	rankdir=LR
+}

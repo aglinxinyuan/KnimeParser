@@ -1,0 +1,25 @@
+digraph {
+	1 [label="Table Creator"]
+	5 [label=Unpivoting]
+	6 [label="Row Filter"]
+	7 [label=GroupBy]
+	8 [label="Column Filter"]
+	9 [label="Constant Value Column"]
+	10 [label=Concatenate]
+	11 [label="Column Filter"]
+	12 [label="Column Rename"]
+	13 [label="Row Filter"]
+	14 [label="Column Resorter"]
+	1 -> 5
+	5 -> 7
+	5 -> 6
+	6 -> 8
+	7 -> 13
+	8 -> 10
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 14
+	13 -> 9
+	rankdir=LR
+}

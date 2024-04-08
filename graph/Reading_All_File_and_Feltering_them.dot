@@ -1,0 +1,36 @@
+digraph {
+	2 [label="List Files_Folders"]
+	3 [label="Path to URI"]
+	5 [label="URL to File Path"]
+	6 [label="URI to String"]
+	7 [label="Rule_based Row Filter"]
+	9 [label="Row Splitter"]
+	12 [label="Cell Splitter"]
+	13 [label="Rule_based Row Splitter"]
+	19 [label="CSV Reader"]
+	21 [label="Table Row To Variable Loop Start"]
+	23 [label="Loop End"]
+	24 [label="Table Row To Variable Loop Start"]
+	25 [label="CSV Reader"]
+	26 [label="Loop End"]
+	28 [label="Column Expressions"]
+	29 [label="Excel Writer"]
+	30 [label="Rule Engine"]
+	2 -> 3
+	3 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 9
+	9 -> 12
+	12 -> 13
+	13 -> 24
+	13 -> 21
+	19 -> 23
+	21 -> 19
+	23 -> 28
+	24 -> 25
+	25 -> 26
+	28 -> 30
+	30 -> 29
+	rankdir=LR
+}

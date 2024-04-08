@@ -1,0 +1,22 @@
+digraph {
+	8 [label=XPath]
+	9 [label="Webpage Retriever"]
+	10 [label=Ungroup]
+	11 [label="String Manipulation"]
+	12 [label="Row Filter"]
+	16 [label="Row Filter"]
+	17 [label="Excel Reader _XLS_"]
+	18 [label="Java Snippet"]
+	19 [label="Java Snippet"]
+	20 [label="Column Filter"]
+	8 -> 10
+	9 -> 8
+	10 -> 11
+	11 -> 19
+	12 -> 20
+	16 -> 9
+	17 -> 18
+	18 -> 16
+	19 -> 12
+	rankdir=LR
+}

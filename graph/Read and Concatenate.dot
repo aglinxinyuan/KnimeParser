@@ -1,0 +1,14 @@
+digraph {
+	234 [label="Excel Reader"]
+	235 [label=Concatenate]
+	236 [label="Column Filter"]
+	237 [label="Excel Reader"]
+	238 [label="Excel Writer"]
+	239 [label="Row Filter"]
+	234 -> 236
+	235 -> 238
+	236 -> 239
+	237 -> 235
+	239 -> 235
+	rankdir=LR
+}

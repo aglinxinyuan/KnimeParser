@@ -1,0 +1,19 @@
+digraph {
+	324 [label="Parameter Optimization Loop Start"]
+	325 [label="Parameter Optimization Loop End"]
+	327 [label="Logistic Regression Learner"]
+	330 [label=Partitioning]
+	332 [label="Data Generator"]
+	334 [label="Logistic Regression Predictor"]
+	335 [label="JavaScript ROC Curve"]
+	337 [label="Table Row to Variable"]
+	324 -> 327
+	327 -> 334
+	330 -> 334
+	330 -> 327
+	332 -> 330
+	334 -> 335
+	335 -> 337
+	337 -> 325
+	rankdir=LR
+}

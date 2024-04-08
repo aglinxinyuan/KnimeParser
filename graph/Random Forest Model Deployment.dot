@@ -1,0 +1,22 @@
+digraph {
+	24 [label=Partitioning]
+	50 [label="Model Writer"]
+	51 [label="Model Reader"]
+	53 [label="Column Filter"]
+	54 [label="Table Reader"]
+	55 [label="File Reader"]
+	60 [label="Random Forest Learner _Regression_"]
+	61 [label="Random Forest Predictor _Regression_"]
+	62 [label="Numeric Scorer"]
+	63 [label="Random Forest Predictor _Regression_"]
+	24 -> 53
+	24 -> 60
+	24 -> 61
+	51 -> 63
+	53 -> 63
+	54 -> 24
+	60 -> 50
+	60 -> 61
+	61 -> 62
+	rankdir=LR
+}

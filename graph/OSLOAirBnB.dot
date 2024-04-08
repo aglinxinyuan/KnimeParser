@@ -1,0 +1,51 @@
+digraph {
+	30 [label="Scatter Plot _JavaScript_"]
+	31 [label="Color Manager"]
+	32 [label="Box Plot"]
+	33 [label="Bar Chart"]
+	34 [label="Bar Chart"]
+	39 [label="Rule Engine"]
+	42 [label="Row Filter"]
+	46 [label="Column Filter"]
+	47 [label="String to Date_Time"]
+	55 [label=Auto_Binner]
+	56 [label="Column Renamer"]
+	51 [label="CSV Reader"]
+	52 [label="Row Filter"]
+	53 [label="Row Filter"]
+	56 [label="Scatter Plot _JavaScript_"]
+	57 [label="Color Manager"]
+	62 [label="Decision Tree Learner"]
+	65 [label="Decision Tree Predictor"]
+	66 [label=Partitioning]
+	67 [label="Lift Chart _JavaScript_"]
+	68 [label=Scorer]
+	69 [label="ROC Curve _legacy_"]
+	70 [label="Column Filter"]
+	71 [label="Math Formula"]
+	39 -> 56
+	42 -> 55
+	46 -> 47
+	47 -> 42
+	55 -> 39
+	31 -> 30
+	56 -> 52
+	56 -> 57
+	56 -> 31
+	56 -> 33
+	56 -> 34
+	56 -> 70
+	56 -> 71
+	51 -> 46
+	52 -> 53
+	57 -> 56
+	62 -> 65
+	65 -> 67
+	65 -> 69
+	65 -> 68
+	66 -> 65
+	66 -> 62
+	70 -> 66
+	71 -> 32
+	rankdir=LR
+}

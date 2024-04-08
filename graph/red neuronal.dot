@@ -1,0 +1,79 @@
+digraph {
+	11 [label="CSV Reader"]
+	12 [label="File Reader"]
+	13 [label=Concatenate]
+	20 [label="Equal Size Sampling"]
+	21 [label=Scorer]
+	22 [label=Normalizer]
+	23 [label="MultiLayerPerceptron Predictor"]
+	24 [label="One to Many"]
+	25 [label=Partitioning]
+	26 [label="RProp MLP Learner"]
+	28 [label="MultiLayerPerceptron Predictor"]
+	29 [label=Scorer]
+	30 [label=Scorer]
+	31 [label="RProp MLP Learner"]
+	32 [label="MultiLayerPerceptron Predictor"]
+	33 [label=SMOTE]
+	5 [label=Scorer]
+	6 [label=Normalizer]
+	10 [label=Partitioning]
+	14 [label="MultiLayerPerceptron Predictor"]
+	15 [label="RProp MLP Learner"]
+	16 [label="One to Many"]
+	17 [label="RProp MLP Learner"]
+	18 [label=Scorer]
+	19 [label="MultiLayerPerceptron Predictor"]
+	27 [label="RProp MLP Learner"]
+	35 [label="One to Many"]
+	36 [label=Partitioning]
+	37 [label=Normalizer]
+	38 [label=Scorer]
+	39 [label="RProp MLP Learner"]
+	40 [label="MultiLayerPerceptron Predictor"]
+	41 [label="RProp MLP Learner"]
+	42 [label=Scorer]
+	43 [label="MultiLayerPerceptron Predictor"]
+	6 -> 16
+	10 -> 14
+	10 -> 15
+	10 -> 19
+	10 -> 17
+	14 -> 5
+	15 -> 14
+	16 -> 10
+	17 -> 19
+	19 -> 18
+	11 -> 13
+	12 -> 13
+	13 -> 20
+	13 -> 33
+	13 -> 6
+	20 -> 22
+	22 -> 24
+	23 -> 29
+	24 -> 25
+	25 -> 23
+	25 -> 28
+	25 -> 26
+	25 -> 31
+	25 -> 32
+	25 -> 6
+	26 -> 28
+	28 -> 21
+	31 -> 32
+	32 -> 30
+	33 -> 37
+	27 -> 23
+	35 -> 36
+	36 -> 39
+	36 -> 41
+	36 -> 43
+	36 -> 40
+	37 -> 35
+	39 -> 43
+	40 -> 42
+	41 -> 40
+	43 -> 38
+	rankdir=LR
+}

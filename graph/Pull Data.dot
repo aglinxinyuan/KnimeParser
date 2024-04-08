@@ -1,0 +1,32 @@
+digraph {
+	1 [label="SQLite Connector"]
+	2 [label="DB Table Selector"]
+	5 [label="DB Row Filter"]
+	6 [label="Single Selection Configuration"]
+	7 [label="DB Reader"]
+	8 [label="Table Writer"]
+	9 [label="DB Joiner"]
+	10 [label="DB Table Selector"]
+	11 [label="Table Writer"]
+	12 [label="DB Reader"]
+	13 [label="DB Table Selector"]
+	14 [label="DB Joiner"]
+	15 [label="Table Writer"]
+	16 [label="DB Reader"]
+	1 -> 2
+	1 -> 10
+	1 -> 13
+	2 -> 5
+	5 -> 7
+	5 -> 14
+	5 -> 9
+	6 -> 5
+	7 -> 8
+	9 -> 12
+	10 -> 9
+	12 -> 11
+	13 -> 14
+	14 -> 16
+	16 -> 15
+	rankdir=LR
+}

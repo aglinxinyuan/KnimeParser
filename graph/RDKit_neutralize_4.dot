@@ -1,0 +1,9 @@
+digraph {
+	9 [label="Table Creator"]
+	16 [label="Python Script"]
+	17 [label="Python Script"]
+	18 [label="Table Creator"]
+	9 -> 16
+	18 -> 17
+	rankdir=LR
+}

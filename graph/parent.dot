@@ -1,0 +1,8 @@
+digraph {
+	1 [label="Local File System Connector"]
+	2 [label="Workflow Reader"]
+	3 [label="Workflow Executor"]
+	1 -> 2
+	2 -> 3
+	rankdir=LR
+}

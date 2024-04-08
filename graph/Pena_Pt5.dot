@@ -1,0 +1,10 @@
+digraph {
+	1 [label="MongoDB Connector"]
+	2 [label="MongoDB Reader"]
+	3 [label="JSON to Table"]
+	4 [label=Histogram]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	rankdir=LR
+}

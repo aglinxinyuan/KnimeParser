@@ -1,0 +1,29 @@
+digraph {
+	141 [label="Variable Creator"]
+	154 [label="Table Creator"]
+	157 [label="Rule Engine"]
+	166 [label="Rule_based Row Filter"]
+	168 [label=RowID]
+	169 [label="Column Filter"]
+	170 [label="Table Column to Variable"]
+	171 [label="Rule_based Row Splitter"]
+	172 [label=RowID]
+	299 [label="String Manipulation"]
+	300 [label="String To Number"]
+	301 [label="Math Formula"]
+	174 [label="Math Formula"]
+	172 -> 299
+	299 -> 300
+	300 -> 301
+	141 -> 157
+	154 -> 172
+	154 -> 174
+	157 -> 166
+	166 -> 169
+	168 -> 170
+	169 -> 168
+	170 -> 171
+	301 -> 171
+	174 -> 157
+	rankdir=LR
+}

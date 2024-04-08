@@ -1,0 +1,37 @@
+digraph {
+	4 [label="Python View"]
+	5 [label="Python Source"]
+	7 [label="Extract System Properties"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	48 [label="String Manipulation"]
+	54 [label="Table Column to Variable"]
+	56 [label="Extract Context Properties"]
+	57 [label="Variable to Table Row"]
+	58 [label="Table Row to Variable"]
+	104 [label="Conda Environment Propagation"]
+	255 [label="Renderer to Image"]
+	256 [label="Table To Image"]
+	257 [label="Image To Table"]
+	2398 [label="Merge Variables"]
+	2399 [label="Excel Writer"]
+	2400 [label="Image Writer _Port_"]
+	7 -> 54
+	46 -> 58
+	47 -> 46
+	48 -> 47
+	54 -> 46
+	56 -> 57
+	57 -> 48
+	4 -> 2399
+	4 -> 257
+	5 -> 4
+	5 -> 2399
+	70 -> 2398
+	104 -> 2398
+	255 -> 256
+	256 -> 2400
+	257 -> 255
+	2398 -> 5
+	rankdir=LR
+}

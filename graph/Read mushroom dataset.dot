@@ -1,0 +1,25 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	15 [label="Column Appender"]
+	17 [label="Insert Column Header"]
+	4 [label="Cell Splitter"]
+	5 [label="Column Filter"]
+	6 [label="Column Rename"]
+	7 [label="String Manipulation"]
+	12 [label="Extract Column Header"]
+	13 [label=Transpose]
+	20 [label="Table Writer"]
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	12 -> 13
+	1 -> 17
+	1 -> 12
+	2 -> 4
+	15 -> 17
+	17 -> 20
+	7 -> 15
+	13 -> 15
+	rankdir=LR
+}

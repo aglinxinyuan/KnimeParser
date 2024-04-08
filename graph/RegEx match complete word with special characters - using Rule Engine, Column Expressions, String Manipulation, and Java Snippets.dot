@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Rule Engine"]
+	6 [label="Column Expressions"]
+	7 [label="String Manipulation"]
+	8 [label="Java Snippet _simple_"]
+	9 [label="Java Snippet"]
+	1 -> 2
+	1 -> 6
+	1 -> 7
+	1 -> 8
+	1 -> 9
+	rankdir=LR
+}

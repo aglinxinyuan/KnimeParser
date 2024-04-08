@@ -1,0 +1,32 @@
+digraph {
+	235 [label="Row Filter"]
+	236 [label="Recursive Loop Start"]
+	237 [label="Recursive Loop End"]
+	239 [label="Column Filter"]
+	241 [label="Extract Column Header"]
+	242 [label="Extract Column Header"]
+	244 [label="Linear Regression Learner"]
+	245 [label="Regression Predictor"]
+	260 [label="Column Filter"]
+	1 [label="Empty Table Creator"]
+	2 [label="Time Series Generator"]
+	216 [label="Lag Column"]
+	261 [label="Column Resorter"]
+	263 [label="Line Plot _JavaScript_"]
+	1 -> 2
+	2 -> 216
+	216 -> 261
+	235 -> 260
+	236 -> 242
+	237 -> 263
+	239 -> 237
+	241 -> 244
+	242 -> 245
+	244 -> 245
+	245 -> 237
+	245 -> 239
+	260 -> 236
+	262 -> 235
+	262 -> 241
+	rankdir=LR
+}

@@ -1,0 +1,41 @@
+digraph {
+	157 [label="DB Reader"]
+	158 [label=GroupBy]
+	161 [label=Joiner]
+	162 [label="DB Reader"]
+	163 [label="Rule_based Row Filter"]
+	164 [label=Joiner]
+	165 [label="Rule_based Row Filter"]
+	166 [label="DB Reader"]
+	167 [label=GroupBy]
+	168 [label=Joiner]
+	169 [label="Rule_based Row Filter"]
+	170 [label="DB Reader"]
+	171 [label=GroupBy]
+	172 [label=Joiner]
+	173 [label="Rule_based Row Filter"]
+	174 [label=GroupBy]
+	175 [label=Joiner]
+	176 [label="Rule_based Row Filter"]
+	177 [label="DB Reader"]
+	157 -> 158
+	157 -> 164
+	158 -> 161
+	161 -> 163
+	162 -> 161
+	162 -> 167
+	162 -> 171
+	163 -> 164
+	164 -> 165
+	166 -> 168
+	167 -> 168
+	168 -> 169
+	170 -> 174
+	170 -> 175
+	170 -> 172
+	171 -> 172
+	172 -> 173
+	174 -> 176
+	176 -> 175
+	rankdir=LR
+}

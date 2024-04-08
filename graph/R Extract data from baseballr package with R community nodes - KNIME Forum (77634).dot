@@ -1,0 +1,20 @@
+digraph {
+	1 [label="R Source _Table_"]
+	2 [label="R Snippet"]
+	3 [label="R Source _Table_"]
+	6 [label="R Snippet"]
+	7 [label="R Source"]
+	8 [label="R Snippet"]
+	9 [label="Convert to Table"]
+	10 [label="Convert to Table"]
+	11 [label="R Snippet"]
+	12 [label="Table Writer"]
+	3 -> 2
+	3 -> 8
+	6 -> 9
+	7 -> 6
+	7 -> 11
+	8 -> 12
+	11 -> 10
+	rankdir=LR
+}

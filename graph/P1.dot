@@ -1,0 +1,13 @@
+digraph {
+	38 [label="File Reader"]
+	39 [label=X_Partitioner]
+	40 [label=X_Aggregator]
+	42 [label="Naive Bayes Learner"]
+	43 [label="Naive Bayes Predictor"]
+	38 -> 39
+	39 -> 43
+	39 -> 42
+	42 -> 43
+	43 -> 40
+	rankdir=LR
+}

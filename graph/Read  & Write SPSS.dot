@@ -1,0 +1,11 @@
+digraph {
+	1 [label="Data Generator"]
+	5 [label="Table View"]
+	6 [label="Table View"]
+	10 [label="Python Script"]
+	12 [label="Python Script"]
+	1 -> 12
+	10 -> 6
+	10 -> 5
+	rankdir=LR
+}

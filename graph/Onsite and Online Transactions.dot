@@ -1,0 +1,14 @@
+digraph {
+	1 [label="Table Creator"]
+	4 [label="String Manipulation"]
+	6 [label="Rule Engine"]
+	8 [label="String Manipulation"]
+	9 [label="String Manipulation"]
+	10 [label="Column Filter"]
+	1 -> 4
+	4 -> 8
+	6 -> 10
+	8 -> 9
+	9 -> 6
+	rankdir=LR
+}

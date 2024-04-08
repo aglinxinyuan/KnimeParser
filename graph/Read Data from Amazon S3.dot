@@ -1,0 +1,14 @@
+digraph {
+	2 [label="Amazon S3 Connector"]
+	3 [label="File Reader"]
+	4 [label="Excel Reader"]
+	5 [label="CSV Reader"]
+	6 [label="Table Reader"]
+	7 [label="Amazon Authentication"]
+	2 -> 3
+	2 -> 6
+	2 -> 4
+	2 -> 5
+	7 -> 2
+	rankdir=LR
+}

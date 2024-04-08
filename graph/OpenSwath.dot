@@ -1,0 +1,14 @@
+digraph {
+	1 [label=OpenSwathWorkflow]
+	4 [label="Input File"]
+	5 [label="Input Files"]
+	6 [label="Input File"]
+	7 [label="Output File"]
+	8 [label="Output File"]
+	1 -> 7
+	1 -> 8
+	4 -> 1
+	5 -> 1
+	6 -> 1
+	rankdir=LR
+}

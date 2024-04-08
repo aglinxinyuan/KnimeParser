@@ -1,0 +1,64 @@
+digraph {
+	2 [label="SharePoint Online Connector"]
+	3 [label="CSV Reader"]
+	4 [label="CSV Reader"]
+	5 [label="CSV Reader"]
+	6 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	11 [label="Constant Value Column"]
+	14 [label="Column Resorter"]
+	15 [label="Constant Value Column"]
+	16 [label="Column Resorter"]
+	17 [label="Constant Value Column"]
+	18 [label="Column Resorter"]
+	19 [label="Constant Value Column"]
+	20 [label="Column Resorter"]
+	21 [label="Constant Value Column"]
+	22 [label="Column Resorter"]
+	24 [label="Excel Reader"]
+	25 [label=Concatenate]
+	26 [label=Concatenate]
+	27 [label=Concatenate]
+	28 [label=Concatenate]
+	29 [label=Joiner]
+	30 [label="Case Converter"]
+	31 [label="Value Counter"]
+	34 [label="Column Filter"]
+	570 [label="Microsoft Authentication"]
+	571 [label="CSV Reader"]
+	572 [label=Joiner]
+	573 [label="Column Filter"]
+	574 [label="CSV Writer"]
+	36 [label="Value Counter"]
+	37 [label=GroupBy]
+	3 -> 15
+	4 -> 11
+	5 -> 17
+	6 -> 19
+	7 -> 21
+	11 -> 14
+	14 -> 25
+	15 -> 16
+	16 -> 25
+	17 -> 18
+	18 -> 26
+	19 -> 20
+	20 -> 26
+	21 -> 22
+	22 -> 27
+	24 -> 29
+	25 -> 28
+	26 -> 28
+	27 -> 30
+	28 -> 27
+	29 -> 31
+	29 -> 34
+	29 -> 572
+	30 -> 29
+	571 -> 572
+	572 -> 573
+	573 -> 574
+	35 -> 36
+	35 -> 37
+	rankdir=LR
+}

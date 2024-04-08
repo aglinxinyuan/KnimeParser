@@ -1,0 +1,44 @@
+digraph {
+	14 [label="PDF Parser"]
+	15 [label="Document Data Extractor"]
+	16 [label="String Manipulation"]
+	17 [label="Cell Splitter"]
+	19 [label=Transpose]
+	24 [label=Transpose]
+	28 [label="Table Manipulator"]
+	29 [label="Column Aggregator"]
+	31 [label="Rule_based Row Filter"]
+	32 [label="Cell Splitter By Position"]
+	33 [label="Table Manipulator"]
+	34 [label="Row Filter"]
+	35 [label=Tess4J]
+	36 [label="PDF Parser"]
+	37 [label="Document Data Extractor"]
+	38 [label="Read Images"]
+	39 [label="List Files_Folders"]
+	34 [label="Cell Splitter"]
+	35 [label="Cell Splitter"]
+	36 [label="Cell Splitter"]
+	37 [label="Cell Splitter"]
+	38 [label="Column Rename"]
+	40 [label="Regex Split"]
+	14 -> 15
+	15 -> 28
+	16 -> 17
+	17 -> 19
+	19 -> 32
+	24 -> 29
+	28 -> 24
+	29 -> 16
+	31 -> 33
+	32 -> 31
+	33 -> 34
+	36 -> 37
+	37 -> 35
+	33 -> 34
+	34 -> 35
+	35 -> 36
+	36 -> 37
+	37 -> 40
+	rankdir=LR
+}

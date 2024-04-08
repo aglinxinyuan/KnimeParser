@@ -1,0 +1,21 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	6 [label="String Manipulation"]
+	9 [label="Recursive Loop End"]
+	15 [label="Recursive Loop Start"]
+	16 [label="Table Row to Variable"]
+	17 [label="Row Splitter"]
+	19 [label="Table Manipulator"]
+	1 -> 15
+	2 -> 15
+	6 -> 19
+	15 -> 6
+	15 -> 17
+	16 -> 6
+	17 -> 16
+	17 -> 9
+	19 -> 9
+	19 -> 9
+	rankdir=LR
+}

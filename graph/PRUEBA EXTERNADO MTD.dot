@@ -1,0 +1,14 @@
+digraph {
+	1311 [label="Google Authentication"]
+	1313 [label="Google Drive Connector"]
+	1314 [label="CSV Reader"]
+	1591 [label=GroupBy]
+	1592 [label="Topic Extractor _Parallel LDA_"]
+	1593 [label="Tableau Writer"]
+	1311 -> 1313
+	1313 -> 1314
+	1314 -> 1591
+	1591 -> 1592
+	1592 -> 1593
+	rankdir=LR
+}

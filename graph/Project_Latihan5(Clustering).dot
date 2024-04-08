@@ -1,0 +1,27 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Statistics]
+	3 [label="Column Filter"]
+	4 [label=k_Means]
+	5 [label="Color Manager"]
+	6 [label="Shape Manager"]
+	7 [label="Scatter Plot _legacy_"]
+	8 [label="Cluster Assigner"]
+	9 [label="Row Filter"]
+	10 [label="Value Counter"]
+	11 [label="Bar Chart _JavaScript_"]
+	12 [label="Bar Chart _JavaScript_"]
+	1 -> 2
+	1 -> 3
+	1 -> 8
+	3 -> 4
+	4 -> 8
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	8 -> 9
+	8 -> 11
+	8 -> 12
+	9 -> 10
+	rankdir=LR
+}

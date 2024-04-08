@@ -1,0 +1,25 @@
+digraph {
+	1 [label="Image Reader"]
+	3 [label="Global Thresholder"]
+	5 [label="Connected Component Analysis"]
+	6 [label="Waehlby Cell Clump Splitter"]
+	7 [label="Quantile Filter"]
+	8 [label="Segment Features"]
+	9 [label="Row Filter"]
+	10 [label=GroupBy]
+	11 [label=Joiner]
+	12 [label="Interactive Segmentation View"]
+	13 [label="Labeling Properties"]
+	1 -> 7
+	1 -> 11
+	3 -> 5
+	5 -> 6
+	6 -> 8
+	7 -> 3
+	8 -> 9
+	9 -> 10
+	10 -> 13
+	11 -> 12
+	13 -> 11
+	rankdir=LR
+}

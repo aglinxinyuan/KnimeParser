@@ -1,0 +1,38 @@
+digraph {
+	223 [label=Partitioning]
+	227 [label="WrappedNode Input"]
+	228 [label="WrappedNode Output"]
+	252 [label="Image Reader _Table_"]
+	255 [label=RowID]
+	259 [label="Image Resizer"]
+	265 [label="Image Calculator"]
+	266 [label="Column Filter"]
+	243 [label="List Files"]
+	246 [label="Rule Engine"]
+	247 [label="Row Sampling"]
+	251 [label="Table Writer"]
+	252 [label=Sorter]
+	261 [label="Python Script _1_1_"]
+	279 [label="Category To Number"]
+	281 [label="Don_t Save Start"]
+	282 [label="Don_t Save End"]
+	284 [label="Table Writer"]
+	227 -> 252
+	252 -> 265
+	255 -> 266
+	259 -> 255
+	265 -> 259
+	266 -> 228
+	261 -> 282
+	279 -> 261
+	281 -> 279
+	223 -> 284
+	223 -> 281
+	241 -> 223
+	243 -> 252
+	246 -> 247
+	247 -> 241
+	252 -> 246
+	282 -> 251
+	rankdir=LR
+}

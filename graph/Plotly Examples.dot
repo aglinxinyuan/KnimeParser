@@ -1,0 +1,38 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Surface Plot _Plotly_"]
+	4 [label="Excel Reader _XLS_"]
+	5 [label="Column Rename"]
+	6 [label="Bubble Chart _Plotly_"]
+	7 [label="Color Manager"]
+	8 [label="3D Scatter Plot _Plotly_"]
+	9 [label="Excel Reader _XLS_"]
+	10 [label="Color Manager"]
+	11 [label="Domain Calculator"]
+	13 [label=GroupBy]
+	14 [label="3D Scatter Plot _Plotly_"]
+	16 [label="Row Filter"]
+	17 [label="Column Expressions"]
+	18 [label="Nominal Value Row Filter"]
+	20 [label="Bubble Chart _Plotly_"]
+	21 [label="Color Manager"]
+	22 [label="Nominal Value Row Filter"]
+	23 [label="Column Rename"]
+	1 -> 2
+	4 -> 5
+	5 -> 7
+	7 -> 6
+	7 -> 8
+	9 -> 16
+	10 -> 14
+	11 -> 10
+	13 -> 23
+	16 -> 17
+	17 -> 13
+	18 -> 11
+	21 -> 20
+	22 -> 21
+	23 -> 18
+	23 -> 22
+	rankdir=LR
+}

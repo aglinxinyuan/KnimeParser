@@ -1,0 +1,26 @@
+digraph {
+	1 [label="Extract System Properties"]
+	2 [label="Row Filter"]
+	4 [label="Column Expressions"]
+	5 [label="String to Path"]
+	6 [label="Excel Reader"]
+	7 [label="Excel Reader"]
+	8 [label="Excel Reader"]
+	9 [label="Table Row to Variable"]
+	10 [label="Create File_Folder Variables"]
+	11 [label="Table Row to Variable"]
+	12 [label="Excel Reader"]
+	13 [label="Excel Reader"]
+	1 -> 2
+	2 -> 5
+	4 -> 9
+	5 -> 4
+	5 -> 11
+	9 -> 6
+	9 -> 8
+	9 -> 7
+	10 -> 12
+	10 -> 13
+	11 -> 10
+	rankdir=LR
+}

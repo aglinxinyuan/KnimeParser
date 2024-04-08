@@ -1,0 +1,23 @@
+digraph {
+	96 [label="H2 Connector"]
+	98 [label="DB Writer"]
+	103 [label="Table Creator"]
+	110 [label="DB Query Reader"]
+	111 [label="Counting Loop Start"]
+	112 [label="DB Writer"]
+	113 [label="Table Creator"]
+	114 [label="String Manipulation _Variable_"]
+	115 [label="Loop End"]
+	96 -> 98
+	96 -> 111
+	96 -> 112
+	98 -> 112
+	103 -> 98
+	110 -> 115
+	111 -> 110
+	111 -> 114
+	112 -> 111
+	113 -> 112
+	114 -> 110
+	rankdir=LR
+}

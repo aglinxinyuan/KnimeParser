@@ -1,0 +1,36 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Read Excel Sheet Names"]
+	3 [label="Table Row to Variable Loop Start"]
+	4 [label="Loop End"]
+	5 [label="Excel Reader"]
+	7 [label="Rule Engine"]
+	8 [label="String Manipulation"]
+	9 [label="String Manipulation"]
+	10 [label=Joiner]
+	11 [label="Extract Date_Time Fields"]
+	12 [label=GroupBy]
+	13 [label="Math Formula"]
+	14 [label="Column Renamer"]
+	15 [label="Column Resorter"]
+	16 [label="Generic ECharts View"]
+	17 [label="Row Filter"]
+	18 [label="Excel Writer"]
+	1 -> 4
+	2 -> 3
+	3 -> 1
+	4 -> 9
+	5 -> 7
+	7 -> 8
+	8 -> 11
+	9 -> 10
+	10 -> 13
+	11 -> 12
+	12 -> 10
+	13 -> 14
+	14 -> 15
+	15 -> 18
+	15 -> 17
+	17 -> 16
+	rankdir=LR
+}

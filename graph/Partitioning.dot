@@ -1,0 +1,12 @@
+digraph {
+	4 [label="Table Creator"]
+	15 [label=Partitioning]
+	16 [label=Partitioning]
+	17 [label=Partitioning]
+	18 [label=Partitioning]
+	4 -> 15
+	4 -> 16
+	4 -> 17
+	4 -> 18
+	rankdir=LR
+}

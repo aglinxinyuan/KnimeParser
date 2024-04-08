@@ -1,0 +1,14 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="RDKit From Molecule"]
+	3 [label="Java Snippet"]
+	4 [label="Java Snippet"]
+	5 [label="Create Bit Vector"]
+	6 [label="Java Snippet"]
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	4 -> 5
+	5 -> 6
+	rankdir=LR
+}

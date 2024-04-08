@@ -1,0 +1,383 @@
+digraph {
+	104 [label="Interactive Segmentation View"]
+	130 [label="WrappedNode Input"]
+	131 [label="WrappedNode Output"]
+	143 [label="File Upload"]
+	144 [label="File Upload"]
+	151 [label="Variable to Table Row"]
+	152 [label="Column Rename"]
+	153 [label="Table Row to Variable"]
+	162 [label="Single Selection"]
+	163 [label="Single Selection"]
+	164 [label="File Upload"]
+	165 [label="File Upload"]
+	166 [label="Single Selection"]
+	167 [label="File Upload"]
+	176 [label="URL to File Path _Variable_"]
+	177 [label="Create Directory"]
+	178 [label="URL to File Path _Variable_"]
+	181 [label="Extract Context Properties"]
+	190 [label="WrappedNode Output"]
+	192 [label="WrappedNode Input"]
+	194 [label="Java Edit Variable"]
+	190 [label="Image Reader _Table_"]
+	191 [label="List Files"]
+	192 [label=Sorter]
+	193 [label=Inverter]
+	194 [label=RowID]
+	196 [label="Column Rename"]
+	197 [label="Image to Labeling"]
+	199 [label="WrappedNode Output"]
+	201 [label="WrappedNode Input"]
+	216 [label="Interactive Annotator"]
+	106 [label="Labeling to Image"]
+	107 [label="Image Calculator"]
+	1 [label="XML Reader"]
+	3 [label=GroupBy]
+	9 [label="Column Aggregator"]
+	12 [label="Row Filter"]
+	13 [label="Row Filter"]
+	15 [label=Concatenate]
+	16 [label="Split Collection Column"]
+	18 [label=Transpose]
+	19 [label="Column Filter"]
+	20 [label="Math Formula"]
+	21 [label="Column Filter"]
+	25 [label="Constant Value Column"]
+	26 [label=GroupBy]
+	27 [label="Data Row to Image"]
+	31 [label="ImageJ Macro"]
+	35 [label="Variable to Table Row"]
+	36 [label="String to URI"]
+	38 [label="URL to File Path"]
+	39 [label="Table Column to Variable"]
+	41 [label="Row Filter"]
+	42 [label="String Manipulation"]
+	43 [label="Cell Splitter"]
+	44 [label="Column Rename"]
+	46 [label="Column Filter"]
+	47 [label="String Manipulation"]
+	48 [label="Table Column to Variable"]
+	53 [label="Image Properties"]
+	56 [label="Image Writer"]
+	61 [label="Set Image Metadata"]
+	64 [label="Column Filter"]
+	68 [label="Image Resizer"]
+	70 [label="Math Formula"]
+	71 [label="Column Appender"]
+	72 [label="Math Formula"]
+	73 [label="Math Formula"]
+	74 [label="Column Appender"]
+	75 [label="Connected Component Analysis"]
+	76 [label="String Manipulation"]
+	80 [label="String Manipulation"]
+	81 [label="String Manipulation"]
+	82 [label="String Manipulation"]
+	83 [label="String Manipulation"]
+	84 [label="Column Filter"]
+	85 [label="String Manipulation"]
+	86 [label="String Manipulation"]
+	87 [label="String Manipulation"]
+	88 [label="XML Reader"]
+	90 [label="Cell Splitter"]
+	100 [label="String Manipulation"]
+	101 [label="Column Appender"]
+	118 [label="Table Row To Variable Loop Start"]
+	121 [label=RowID]
+	133 [label="Labeling to Image"]
+	134 [label="String Manipulation"]
+	135 [label="Column Filter"]
+	137 [label="Image Writer"]
+	138 [label="Image Converter"]
+	143 [label="Loop End"]
+	144 [label="Column Rename"]
+	145 [label="Column Rename"]
+	146 [label="Column Appender"]
+	147 [label="Column Rename"]
+	148 [label="Column Filter"]
+	149 [label="String Manipulation"]
+	150 [label="String Manipulation _Variable_"]
+	151 [label="String Manipulation _Variable_"]
+	154 [label="WrappedNode Output"]
+	155 [label="WrappedNode Input"]
+	156 [label="Empty Table Switch"]
+	158 [label="Java Edit Variable"]
+	159 [label="Table Row to Variable"]
+	160 [label="Empty Table Switch"]
+	161 [label="Empty Table Switch"]
+	164 [label="Table Row to Variable"]
+	165 [label="Java Edit Variable"]
+	166 [label="Table Row to Variable"]
+	167 [label="Java Edit Variable"]
+	102 [label="Morphological Labeling Operations"]
+	103 [label="Labeling Arithmetic"]
+	163 [label="Column Filter"]
+	169 [label="WrappedNode Input"]
+	170 [label="WrappedNode Output"]
+	171 [label="Label Transformer"]
+	173 [label="Column Rename"]
+	32 [label="Excel Reader _XLS_"]
+	40 [label="String Manipulation"]
+	117 [label="List Files"]
+	120 [label=Sorter]
+	121 [label="WrappedNode Input"]
+	122 [label="WrappedNode Output"]
+	123 [label=RowID]
+	204 [label="IF Switch"]
+	206 [label="Rule Engine Variable"]
+	207 [label="WrappedNode Input"]
+	208 [label="WrappedNode Output"]
+	205 [label="End IF"]
+	195 [label="Column Rename"]
+	158 [label="Rule Engine Variable"]
+	123 [label="Image Writer"]
+	124 [label="Labeling to Image"]
+	126 [label="String Manipulation"]
+	127 [label="Column Filter"]
+	142 [label="Image Converter"]
+	151 [label="Column Appender"]
+	152 [label="Labeling Arithmetic"]
+	153 [label="Column Filter"]
+	154 [label="Column Rename"]
+	155 [label="Missing Value"]
+	156 [label="Column Filter"]
+	157 [label="String Manipulation _Variable_"]
+	159 [label="Rule Engine Variable"]
+	160 [label="WrappedNode Input"]
+	161 [label="WrappedNode Output"]
+	169 [label="Column Filter"]
+	170 [label="Column Appender"]
+	61 [label="Set Image Metadata"]
+	171 [label="Image Generator"]
+	176 [label="Column Rename"]
+	179 [label="Cell Replacer"]
+	181 [label="Table Creator"]
+	182 [label="Column Appender"]
+	183 [label="WrappedNode Input"]
+	184 [label="WrappedNode Output"]
+	185 [label="Image to Labeling"]
+	108 [label="Segment Features"]
+	111 [label=RowID]
+	112 [label="Math Formula"]
+	139 [label="CSV Writer"]
+	140 [label="String Manipulation _Variable_"]
+	156 [label="String Manipulation"]
+	158 [label=Joiner]
+	159 [label=Sorter]
+	160 [label="Missing Value"]
+	161 [label="Column Resorter"]
+	162 [label="WrappedNode Input"]
+	163 [label="WrappedNode Output"]
+	167 [label="WrappedNode Output"]
+	168 [label="WrappedNode Input"]
+	209 [label="Labeling Arithmetic"]
+	212 [label="Column Rename"]
+	217 [label="Column Filter"]
+	218 [label=RowID]
+	219 [label="WrappedNode Input"]
+	220 [label="WrappedNode Output"]
+	143 -> 144
+	144 -> 162
+	151 -> 152
+	152 -> 153
+	153 -> 131
+	162 -> 163
+	163 -> 164
+	164 -> 165
+	165 -> 166
+	166 -> 167
+	167 -> 151
+	176 -> 177
+	177 -> 178
+	177 -> 181
+	178 -> 190
+	181 -> 194
+	192 -> 176
+	189 -> 191
+	190 -> 193
+	191 -> 192
+	192 -> 194
+	193 -> 197
+	194 -> 190
+	196 -> 199
+	197 -> 196
+	201 -> 189
+	1 -> 76
+	3 -> 13
+	3 -> 12
+	9 -> 3
+	12 -> 161
+	13 -> 160
+	15 -> 121
+	16 -> 18
+	18 -> 20
+	19 -> 16
+	20 -> 21
+	21 -> 25
+	25 -> 26
+	26 -> 27
+	27 -> 144
+	31 -> 145
+	35 -> 36
+	36 -> 38
+	38 -> 39
+	38 -> 64
+	39 -> 41
+	41 -> 156
+	42 -> 43
+	43 -> 44
+	44 -> 46
+	46 -> 71
+	47 -> 48
+	48 -> 31
+	53 -> 68
+	53 -> 70
+	61 -> 31
+	61 -> 146
+	64 -> 147
+	68 -> 61
+	70 -> 71
+	71 -> 72
+	72 -> 73
+	73 -> 47
+	74 -> 143
+	75 -> 74
+	76 -> 80
+	80 -> 81
+	81 -> 82
+	82 -> 101
+	83 -> 87
+	84 -> 83
+	85 -> 100
+	86 -> 84
+	87 -> 85
+	88 -> 86
+	88 -> 35
+	90 -> 101
+	100 -> 90
+	101 -> 9
+	118 -> 88
+	118 -> 1
+	121 -> 19
+	133 -> 138
+	134 -> 135
+	135 -> 137
+	135 -> 151
+	138 -> 134
+	143 -> 133
+	143 -> 154
+	143 -> 149
+	144 -> 53
+	145 -> 75
+	146 -> 74
+	147 -> 146
+	148 -> 150
+	148 -> 56
+	149 -> 148
+	150 -> 154
+	150 -> 56
+	151 -> 137
+	155 -> 13
+	155 -> 12
+	155 -> 41
+	155 -> 118
+	156 -> 159
+	156 -> 42
+	159 -> 158
+	160 -> 164
+	160 -> 15
+	161 -> 166
+	161 -> 15
+	164 -> 165
+	166 -> 167
+	102 -> 103
+	103 -> 173
+	163 -> 170
+	169 -> 102
+	171 -> 163
+	173 -> 171
+	32 -> 40
+	40 -> 122
+	117 -> 120
+	120 -> 123
+	121 -> 32
+	121 -> 117
+	123 -> 122
+	106 -> 107
+	107 -> 208
+	148 -> 162
+	148 -> 206
+	162 -> 208
+	162 -> 204
+	164 -> 148
+	164 -> 148
+	204 -> 106
+	204 -> 208
+	206 -> 204
+	207 -> 164
+	61 -> 185
+	171 -> 176
+	176 -> 61
+	179 -> 184
+	181 -> 182
+	182 -> 179
+	183 -> 179
+	185 -> 182
+	124 -> 142
+	126 -> 127
+	127 -> 157
+	127 -> 123
+	142 -> 126
+	151 -> 170
+	151 -> 169
+	152 -> 154
+	153 -> 155
+	154 -> 153
+	154 -> 170
+	155 -> 124
+	156 -> 161
+	157 -> 123
+	159 -> 126
+	160 -> 151
+	160 -> 151
+	160 -> 159
+	169 -> 183
+	170 -> 156
+	183 -> 152
+	108 -> 156
+	111 -> 158
+	112 -> 139
+	140 -> 139
+	156 -> 111
+	158 -> 161
+	159 -> 160
+	160 -> 112
+	161 -> 159
+	162 -> 158
+	162 -> 140
+	162 -> 108
+	158 -> 165
+	158 -> 163
+	163 -> 167
+	163 -> 165
+	168 -> 158
+	168 -> 163
+	168 -> 163
+	195 -> 202
+	202 -> 209
+	209 -> 212
+	212 -> 217
+	217 -> 218
+	218 -> 220
+	219 -> 202
+	219 -> 195
+	205 -> 220
+	132 -> 219
+	207 -> 220
+	216 -> 220
+	219 -> 216
+	219 -> 207
+	219 -> 220
+	220 -> 104
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	2 [label="CSV Reader"]
+	3 [label="Python Script"]
+	5 [label="Conda Environment Propagation"]
+	6 [label="Table Writer"]
+	2 -> 3
+	3 -> 6
+	5 -> 3
+	rankdir=LR
+}

@@ -1,0 +1,26 @@
+digraph {
+	270 [label="Recursive Loop End"]
+	272 [label="Table Creator"]
+	273 [label="Recursive Loop Start"]
+	274 [label="CASE Switch Variable _Start_"]
+	275 [label="Table Creator"]
+	276 [label="Table Creator"]
+	277 [label="Table Creator"]
+	278 [label=Concatenate]
+	279 [label="CASE Switch Data _End_"]
+	280 [label=RowID]
+	272 -> 273
+	273 -> 274
+	273 -> 278
+	274 -> 275
+	274 -> 276
+	274 -> 277
+	275 -> 279
+	276 -> 279
+	277 -> 279
+	278 -> 280
+	279 -> 278
+	280 -> 270
+	280 -> 270
+	rankdir=LR
+}

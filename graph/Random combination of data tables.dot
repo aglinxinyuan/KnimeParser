@@ -1,0 +1,10 @@
+digraph {
+	20 [label="Table Reader"]
+	3 [label="Random Matcher"]
+	5 [label=Ungroup]
+	74 [label="Table Reader"]
+	2 -> 3
+	5 -> 3
+	6 -> 5
+	rankdir=LR
+}

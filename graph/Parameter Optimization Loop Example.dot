@@ -1,0 +1,27 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Tree Ensemble Learner"]
+	3 [label="Tree Ensemble Predictor"]
+	4 [label=Partitioning]
+	5 [label=Scorer]
+	6 [label="Parameter Optimization Loop Start"]
+	7 [label="Rule Engine Variable"]
+	8 [label="Parameter Optimization Loop End"]
+	9 [label="Rule Engine Variable"]
+	10 [label="Table Row to Variable"]
+	11 [label="Rule Engine Variable"]
+	12 [label="Rule Engine Variable"]
+	1 -> 4
+	2 -> 3
+	3 -> 5
+	4 -> 2
+	4 -> 3
+	5 -> 8
+	6 -> 7
+	7 -> 11
+	8 -> 10
+	9 -> 12
+	10 -> 9
+	11 -> 4
+	rankdir=LR
+}
