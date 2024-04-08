@@ -1,0 +1,12 @@
+digraph {
+	3 [label="SDF Reader"]
+	19 [label="Molecule Type Cast"]
+	24 [label="RDKit Canon SMILES"]
+	25 [label="Parallel Coordinates Plot _JavaScript_"]
+	42 [label="Renderer to Image"]
+	165 [label="Data Explorer"]
+	166 [label="Similarity Search"]
+	3 -> 19
+	19 -> 24
+	rankdir=LR
+}
