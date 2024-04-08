@@ -83,7 +83,7 @@ class Parser:
 
         content = f"Operators: {self.nodes} \nEdges: {len(self.edges)} \nOperators with multIO: {len(mult_op)}"
         print(content)
-        with open(output + ".stat", "w") as file:
+        with open(output + ".txt", "w") as file:
             file.write(content)
 
 
