@@ -1,0 +1,29 @@
+digraph {
+	3 [label="Gradient Boosted Trees Learner _deprecated_"]
+	5 [label="Scorer _deprecated_"]
+	6 [label="Gradient Boosted Trees Predictor _deprecated_"]
+	61 [label=Partitioning]
+	107 [label=Scorer]
+	110 [label="File Reader"]
+	111 [label=Normalizer]
+	112 [label="Logistic Regression Learner"]
+	113 [label="Logistic Regression Predictor"]
+	114 [label="Random Forest Learner"]
+	115 [label="Random Forest Predictor"]
+	122 [label=Scorer]
+	3 -> 6
+	6 -> 5
+	61 -> 113
+	61 -> 112
+	61 -> 115
+	61 -> 114
+	61 -> 6
+	61 -> 3
+	110 -> 111
+	111 -> 61
+	112 -> 113
+	113 -> 122
+	114 -> 115
+	115 -> 107
+	rankdir=LR
+}

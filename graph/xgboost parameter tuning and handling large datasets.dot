@@ -1,0 +1,52 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Column Filter"]
+	5 [label="Column Aggregator"]
+	6 [label=Normalizer]
+	8 [label=Partitioning]
+	9 [label="XGBoost Predictor"]
+	13 [label="ROC Curve _local_"]
+	15 [label="Row Sampling"]
+	16 [label="Number To String"]
+	17 [label="Parameter Optimization Loop Start"]
+	18 [label="Parameter Optimization Loop End"]
+	19 [label="Table Row to Variable"]
+	20 [label=Normalizer]
+	21 [label="XGBoost Tree Ensemble Learner"]
+	22 [label=X_Partitioner]
+	23 [label=X_Aggregator]
+	25 [label="ROC Curve _local_"]
+	26 [label="XGBoost Tree Ensemble Learner"]
+	27 [label="XGBoost Predictor"]
+	28 [label="Timer Info"]
+	31 [label="Row Filter"]
+	32 [label="ROC Curve _local_"]
+	33 [label="Table Row to Variable"]
+	1 -> 16
+	2 -> 20
+	5 -> 6
+	6 -> 8
+	8 -> 26
+	8 -> 27
+	8 -> 22
+	9 -> 23
+	13 -> 19
+	15 -> 2
+	16 -> 15
+	17 -> 21
+	17 -> 22
+	18 -> 28
+	18 -> 33
+	19 -> 18
+	20 -> 5
+	21 -> 9
+	22 -> 21
+	22 -> 9
+	23 -> 31
+	23 -> 13
+	26 -> 27
+	27 -> 25
+	31 -> 32
+	33 -> 26
+	rankdir=LR
+}

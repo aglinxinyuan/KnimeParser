@@ -1,0 +1,64 @@
+digraph {
+	2 [label="Histogram Chart _JFreeChart_"]
+	4 [label="Table Creator"]
+	11 [label="Customer Distributions"]
+	12 [label="Simulate Market"]
+	13 [label="Column Filter"]
+	14 [label="Row Filter"]
+	15 [label="Math Formula"]
+	16 [label="Math Formula"]
+	17 [label="Recursive Loop Start"]
+	18 [label="Recursive Loop End"]
+	19 [label="Simulate Market"]
+	20 [label="Simulate Market"]
+	21 [label="Row Filter"]
+	22 [label="Column Filter"]
+	23 [label="Row Filter"]
+	24 [label="Column Filter"]
+	25 [label="Constant Value Column"]
+	26 [label="Constant Value Column"]
+	27 [label="Constant Value Column"]
+	29 [label=Sorter]
+	30 [label="Row Filter"]
+	31 [label="Row Filter"]
+	42 [label="Line Chart _JFreeChart_"]
+	43 [label="Line Chart _JFreeChart_"]
+	44 [label="Line Chart _JFreeChart_"]
+	45 [label="Line Chart _JFreeChart_"]
+	46 [label="Constant Value Column"]
+	47 [label=Concatenate]
+	4 -> 11
+	11 -> 12
+	11 -> 12
+	11 -> 2
+	12 -> 14
+	12 -> 20
+	12 -> 19
+	13 -> 46
+	14 -> 13
+	15 -> 19
+	16 -> 20
+	17 -> 16
+	17 -> 27
+	17 -> 15
+	18 -> 42
+	18 -> 43
+	18 -> 44
+	18 -> 45
+	19 -> 21
+	20 -> 23
+	21 -> 22
+	22 -> 25
+	23 -> 24
+	24 -> 26
+	25 -> 47
+	26 -> 47
+	27 -> 47
+	29 -> 30
+	30 -> 31
+	30 -> 18
+	31 -> 18
+	46 -> 17
+	47 -> 29
+	rankdir=LR
+}

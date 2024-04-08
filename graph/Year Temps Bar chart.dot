@@ -1,0 +1,16 @@
+digraph {
+	2 [label="File Reader"]
+	4 [label="Table Creator"]
+	6 [label="Cell Replacer"]
+	7 [label="GroupBy Bar Chart _JFreeChart_"]
+	8 [label=Pivoting]
+	9 [label="Column Resorter"]
+	10 [label="Row Filter"]
+	2 -> 6
+	4 -> 6
+	6 -> 10
+	8 -> 9
+	9 -> 7
+	10 -> 8
+	rankdir=LR
+}

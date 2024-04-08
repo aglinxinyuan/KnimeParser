@@ -1,0 +1,12 @@
+digraph {
+	286 [label="Path to String"]
+	292 [label="List Files_Folders"]
+	323 [label="Image Reader _Table_"]
+	327 [label="Image Resizer"]
+	328 [label="Image Calculator"]
+	286 -> 323
+	292 -> 286
+	323 -> 327
+	327 -> 328
+	rankdir=LR
+}

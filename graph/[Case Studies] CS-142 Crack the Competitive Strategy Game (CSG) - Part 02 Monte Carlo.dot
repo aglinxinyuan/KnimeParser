@@ -1,0 +1,56 @@
+digraph {
+	1 [label="Table Creator"]
+	3 [label="Table Creator"]
+	4 [label="Customer Distributions"]
+	5 [label="Row Splitter"]
+	6 [label="Chunk Loop Start"]
+	7 [label=Transpose]
+	8 [label="Column Rename _Regex_"]
+	10 [label="Constant Value Column"]
+	11 [label=Concatenate]
+	12 [label="Price Maximize"]
+	13 [label="Column Filter"]
+	14 [label="Column Filter"]
+	15 [label="Column Filter"]
+	16 [label="Column Rename"]
+	18 [label="Loop End"]
+	19 [label="Row Filter"]
+	20 [label="Row Filter"]
+	21 [label="Histogram Chart _JFreeChart_"]
+	22 [label="Histogram Chart _JFreeChart_"]
+	23 [label="Histogram Chart _JFreeChart_"]
+	24 [label="Histogram Chart _JFreeChart_"]
+	25 [label="Histogram Chart _JFreeChart_"]
+	26 [label=GroupBy]
+	27 [label="Excel Reader"]
+	28 [label="Table Row to Variable"]
+	29 [label="Column Appender"]
+	1 -> 13
+	3 -> 5
+	4 -> 6
+	4 -> 25
+	4 -> 29
+	5 -> 4
+	5 -> 10
+	6 -> 7
+	7 -> 8
+	8 -> 29
+	10 -> 11
+	10 -> 15
+	11 -> 19
+	12 -> 14
+	13 -> 12
+	14 -> 18
+	15 -> 16
+	16 -> 28
+	18 -> 20
+	18 -> 26
+	19 -> 12
+	20 -> 21
+	20 -> 22
+	20 -> 23
+	20 -> 24
+	28 -> 11
+	29 -> 11
+	rankdir=LR
+}

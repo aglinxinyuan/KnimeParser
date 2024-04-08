@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Customer Distributions"]
+	3 [label="Row Filter"]
+	12 [label="Price Sensitivity"]
+	13 [label="Row Filter"]
+	14 [label="Row Filter"]
+	15 [label="Column Filter"]
+	1 -> 2
+	2 -> 3
+	2 -> 12
+	3 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	rankdir=LR
+}

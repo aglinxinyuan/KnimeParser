@@ -1,0 +1,17 @@
+digraph {
+	8 [label="Microsoft Access Connector"]
+	9 [label="DB Table Selector"]
+	10 [label="DB Table Selector"]
+	11 [label="DB GroupBy"]
+	12 [label="DB Joiner"]
+	13 [label="DB Reader"]
+	17 [label="Excel Writer"]
+	8 -> 9
+	8 -> 10
+	9 -> 12
+	10 -> 12
+	11 -> 13
+	12 -> 11
+	13 -> 17
+	rankdir=LR
+}

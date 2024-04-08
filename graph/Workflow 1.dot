@@ -1,0 +1,10 @@
+digraph {
+	31 [label="SDF Reader"]
+	32 [label="RDKit Descriptor Calculation"]
+	33 [label="Row Filter"]
+	38 [label="Table View"]
+	31 -> 33
+	32 -> 38
+	33 -> 32
+	rankdir=LR
+}

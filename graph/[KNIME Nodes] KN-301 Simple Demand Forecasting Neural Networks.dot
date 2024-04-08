@@ -1,0 +1,64 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label="Column Filter"]
+	3 [label="Create Collection Column"]
+	4 [label="Keras Input Layer"]
+	5 [label="Keras Dense Layer"]
+	6 [label="Keras Network Learner"]
+	7 [label="Row Splitter"]
+	8 [label="Keras Network Learner"]
+	9 [label="Keras Network Executor"]
+	11 [label="DL Python Network Executor"]
+	12 [label="DL Python Network Creator"]
+	13 [label="DL Python Network Learner"]
+	14 [label="DL Python Network Executor"]
+	15 [label="DL Python Network Executor"]
+	18 [label="Keras Network Executor"]
+	19 [label="DL Python Network Learner"]
+	20 [label="Column Filter"]
+	21 [label="DL Python Network Executor"]
+	22 [label="Math Formula"]
+	23 [label="Math Formula"]
+	24 [label=GroupBy]
+	25 [label=GroupBy]
+	26 [label=GroupBy]
+	27 [label="Math Formula"]
+	28 [label=GroupBy]
+	29 [label="Math Formula"]
+	1 -> 2
+	2 -> 3
+	3 -> 7
+	4 -> 5
+	5 -> 6
+	5 -> 8
+	6 -> 14
+	6 -> 9
+	7 -> 6
+	7 -> 6
+	7 -> 13
+	7 -> 8
+	7 -> 8
+	7 -> 20
+	7 -> 19
+	8 -> 15
+	8 -> 18
+	9 -> 22
+	11 -> 27
+	12 -> 13
+	12 -> 19
+	13 -> 11
+	14 -> 9
+	15 -> 18
+	18 -> 23
+	19 -> 21
+	20 -> 21
+	20 -> 14
+	20 -> 15
+	20 -> 11
+	21 -> 29
+	22 -> 24
+	23 -> 25
+	27 -> 26
+	29 -> 28
+	rankdir=LR
+}

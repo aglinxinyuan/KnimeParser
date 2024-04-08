@@ -1,0 +1,33 @@
+digraph {
+	28 [label="Table Creator"]
+	30 [label="Simulate Market"]
+	31 [label="Table Creator"]
+	32 [label="Table Creator"]
+	33 [label="Simulate Market"]
+	34 [label="Table Creator"]
+	35 [label="Table Creator"]
+	37 [label="Matrix Distributions"]
+	39 [label="Table Creator"]
+	40 [label="Customer Distributions"]
+	41 [label="Line Chart _JFreeChart_"]
+	43 [label="Simulate Market"]
+	44 [label="Pie Chart _JFreeChart_"]
+	45 [label="Pie Chart _JFreeChart_"]
+	46 [label="Column Appender"]
+	48 [label="GroupBy Bar Chart _JFreeChart_"]
+	28 -> 30
+	30 -> 44
+	31 -> 30
+	32 -> 33
+	33 -> 45
+	34 -> 33
+	35 -> 37
+	37 -> 46
+	37 -> 43
+	39 -> 40
+	40 -> 41
+	40 -> 46
+	43 -> 48
+	46 -> 43
+	rankdir=LR
+}

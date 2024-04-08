@@ -1,0 +1,12 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Cell Splitter"]
+	3 [label=Ungroup]
+	4 [label="Cell Splitter"]
+	5 [label="Column Filter"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

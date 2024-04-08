@@ -1,0 +1,89 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Round Double"]
+	3 [label="Color Manager"]
+	4 [label=Partitioning]
+	5 [label="Decision Tree Learner"]
+	6 [label="Decision Tree Predictor"]
+	7 [label="ROC Curve"]
+	8 [label=Scorer]
+	10 [label="Random Forest Learner"]
+	11 [label="Random Forest Predictor"]
+	12 [label=Scorer]
+	13 [label="ROC Curve"]
+	15 [label="SVM Learner"]
+	16 [label="Naive Bayes Learner"]
+	17 [label="Naive Bayes Predictor"]
+	18 [label=Scorer]
+	20 [label="SVM Predictor"]
+	21 [label=Scorer]
+	310 [label=Concatenate]
+	312 [label="Bar Chart"]
+	9 [label="Row Filter"]
+	290 [label="Constant Value Column"]
+	292 [label="Constant Value Column"]
+	293 [label=RowID]
+	294 [label="Column Filter"]
+	295 [label="Row Filter"]
+	296 [label="Constant Value Column"]
+	297 [label=RowID]
+	298 [label="Constant Value Column"]
+	299 [label="Column Filter"]
+	300 [label="Row Filter"]
+	301 [label="Constant Value Column"]
+	302 [label=RowID]
+	303 [label="Constant Value Column"]
+	304 [label="Column Filter"]
+	305 [label="Row Filter"]
+	306 [label="Constant Value Column"]
+	307 [label=RowID]
+	308 [label="Constant Value Column"]
+	309 [label="Column Filter"]
+	9 -> 294
+	290 -> 292
+	292 -> 293
+	294 -> 290
+	295 -> 299
+	296 -> 298
+	298 -> 297
+	299 -> 296
+	300 -> 304
+	301 -> 303
+	303 -> 302
+	304 -> 301
+	305 -> 309
+	306 -> 308
+	308 -> 307
+	309 -> 306
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	4 -> 6
+	4 -> 15
+	4 -> 10
+	4 -> 11
+	4 -> 20
+	4 -> 16
+	4 -> 17
+	5 -> 6
+	6 -> 7
+	6 -> 8
+	8 -> 295
+	10 -> 11
+	11 -> 13
+	11 -> 12
+	12 -> 295
+	15 -> 20
+	16 -> 17
+	17 -> 18
+	18 -> 295
+	20 -> 21
+	21 -> 295
+	310 -> 312
+	307 -> 310
+	307 -> 310
+	307 -> 310
+	307 -> 310
+	rankdir=LR
+}

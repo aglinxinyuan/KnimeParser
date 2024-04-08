@@ -1,0 +1,14 @@
+digraph {
+	2 [label="DB Writer"]
+	3 [label="CSV Reader"]
+	5 [label="DB Table Selector"]
+	6 [label="DB Reader"]
+	8 [label="PostgreSQL Connector"]
+	9 [label="DB Query"]
+	3 -> 2
+	5 -> 9
+	8 -> 2
+	8 -> 5
+	9 -> 6
+	rankdir=LR
+}

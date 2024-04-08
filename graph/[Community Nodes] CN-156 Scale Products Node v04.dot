@@ -1,0 +1,9 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Customer Distributions"]
+	4 [label="Scale Products"]
+	1 -> 2
+	2 -> 4
+	2 -> 4
+	rankdir=LR
+}

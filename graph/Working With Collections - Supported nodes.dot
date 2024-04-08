@@ -1,0 +1,21 @@
+digraph {
+	13 [label="Table Creator"]
+	14 [label=GroupBy]
+	15 [label=GroupBy]
+	16 [label="Create Bit Vector"]
+	17 [label="Item Set Finder _Borgelt_"]
+	18 [label="Column Aggregator"]
+	20 [label="Create Collection Column"]
+	21 [label="Create Collection Column"]
+	23 [label="Subset Matcher"]
+	13 -> 14
+	13 -> 20
+	14 -> 15
+	14 -> 23
+	14 -> 16
+	14 -> 17
+	17 -> 23
+	20 -> 21
+	21 -> 18
+	rankdir=LR
+}

@@ -1,0 +1,157 @@
+digraph {
+	195 [label="Table Viewer"]
+	209 [label="Table Viewer"]
+	232 [label="Table Viewer"]
+	234 [label=Sorter]
+	237 [label=Sorter]
+	238 [label="Table Viewer"]
+	250 [label="Table Viewer"]
+	278 [label=Sorter]
+	279 [label="Table Viewer"]
+	249 [label="HiLite Filter"]
+	251 [label=GroupBy]
+	252 [label=Sorter]
+	291 [label=Joiner]
+	297 [label="Column Filter"]
+	298 [label="Column Resorter"]
+	300 [label=Sorter]
+	301 [label="Table Viewer"]
+	302 [label="Table Viewer"]
+	282 [label="Row Filter"]
+	284 [label="Java Edit Variable _simple_"]
+	285 [label="String Input"]
+	286 [label="WrappedNode Input"]
+	287 [label="WrappedNode Output"]
+	345 [label="Column Filter"]
+	198 [label=GroupBy]
+	205 [label=Sorter]
+	206 [label="Table Creator"]
+	210 [label="Reference Row Splitter"]
+	211 [label="Table Viewer"]
+	212 [label=Sorter]
+	213 [label=Sorter]
+	366 [label=GroupBy]
+	368 [label="Table Viewer"]
+	366 [label=GroupBy]
+	372 [label=GroupBy]
+	374 [label="String Manipulation"]
+	375 [label="Column Rename"]
+	376 [label="Concatenate _Optional in_"]
+	377 [label="Column Rename"]
+	378 [label="String Manipulation"]
+	379 [label=Sorter]
+	380 [label="Table Viewer"]
+	381 [label="Cell Splitter"]
+	382 [label="Excel Writer _XLS_"]
+	383 [label="CSV Writer"]
+	384 [label="Column Filter"]
+	387 [label="Row Splitter"]
+	388 [label=GroupBy]
+	15132 [label=Ungroup]
+	15139 [label="Row Splitter"]
+	15173 [label=GroupBy]
+	15192 [label="Cell Splitter"]
+	15193 [label=GroupBy]
+	15194 [label="Row Filter"]
+	15195 [label="Column Filter"]
+	15196 [label="String Manipulation"]
+	15197 [label="Row Filter"]
+	15198 [label=Concatenate]
+	15199 [label="Table Viewer"]
+	15200 [label="Cell Splitter"]
+	15201 [label="Column Resorter"]
+	15202 [label=Sorter]
+	15203 [label="Excel Writer"]
+	15205 [label="Row Splitter"]
+	15206 [label="Row Splitter"]
+	15207 [label="Row Splitter"]
+	15208 [label="Column Filter"]
+	15210 [label="Cell Splitter"]
+	15213 [label=Ungroup]
+	15214 [label=Sorter]
+	15215 [label="Table Viewer"]
+	15216 [label="Column Rename"]
+	15217 [label="Column Resorter"]
+	15219 [label=GroupBy]
+	15224 [label="Table Viewer"]
+	15225 [label="Column Rename"]
+	381 [label="Workflow List"]
+	249 -> 251
+	251 -> 291
+	252 -> 298
+	291 -> 297
+	297 -> 252
+	282 -> 287
+	284 -> 282
+	285 -> 284
+	286 -> 282
+	198 -> 205
+	205 -> 210
+	206 -> 210
+	210 -> 212
+	210 -> 213
+	213 -> 211
+	366 -> 15210
+	366 -> 15198
+	372 -> 378
+	374 -> 377
+	375 -> 376
+	376 -> 379
+	377 -> 376
+	378 -> 375
+	379 -> 380
+	381 -> 372
+	381 -> 374
+	384 -> 383
+	387 -> 388
+	387 -> 366
+	388 -> 15198
+	15132 -> 15197
+	15132 -> 15194
+	15139 -> 15214
+	15173 -> 15216
+	15192 -> 15132
+	15194 -> 15195
+	15195 -> 15193
+	15196 -> 15173
+	15196 -> 15219
+	15197 -> 15202
+	15198 -> 15192
+	15200 -> 15208
+	15201 -> 15196
+	15202 -> 15200
+	15205 -> 15206
+	15206 -> 15207
+	15207 -> 387
+	15208 -> 15201
+	15210 -> 15213
+	15213 -> 15139
+	15214 -> 15217
+	15216 -> 15203
+	15216 -> 15199
+	15217 -> 15215
+	15219 -> 15225
+	15225 -> 15224
+	234 -> 232
+	234 -> 366
+	234 -> 380
+	237 -> 238
+	278 -> 279
+	298 -> 250
+	300 -> 301
+	300 -> 303
+	303 -> 302
+	345 -> 278
+	212 -> 209
+	212 -> 195
+	366 -> 380
+	366 -> 368
+	381 -> 345
+	381 -> 198
+	381 -> 237
+	381 -> 300
+	381 -> 291
+	381 -> 291
+	381 -> 234
+	rankdir=LR
+}

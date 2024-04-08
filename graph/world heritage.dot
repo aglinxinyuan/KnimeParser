@@ -1,0 +1,23 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Color Manager"]
+	3 [label="Size Manager"]
+	5 [label="OSM Boundary Map"]
+	7 [label=Heatmap]
+	10 [label="Heatmap _JavaScript_"]
+	11 [label="HeatMap _JFreeChart_"]
+	12 [label="Shape Manager"]
+	14 [label="Table Row to Variable Loop Start"]
+	15 [label="Column Filter"]
+	16 [label="Loop End"]
+	17 [label=Joiner]
+	18 [label="Spatial Heatmap"]
+	1 -> 15
+	1 -> 17
+	5 -> 16
+	14 -> 5
+	15 -> 14
+	16 -> 17
+	17 -> 18
+	rankdir=LR
+}

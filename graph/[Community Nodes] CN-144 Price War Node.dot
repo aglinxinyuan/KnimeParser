@@ -1,0 +1,36 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Table Creator"]
+	3 [label="Price War"]
+	45 [label="Line Chart _JFreeChart_"]
+	54 [label="GroupBy Bar Chart _JFreeChart_"]
+	41 [label="Row Splitter"]
+	42 [label="Column Rename _Regex_"]
+	43 [label="Column Rename _Regex_"]
+	49 [label="Row Filter"]
+	51 [label="Column Appender"]
+	51 [label="Column Rename _Regex_"]
+	52 [label="Column Rename _Regex_"]
+	53 [label="Row Splitter"]
+	56 [label="Table Creator"]
+	57 [label="Reference Row Filter"]
+	58 [label="Column Appender"]
+	41 -> 43
+	41 -> 42
+	42 -> 51
+	43 -> 51
+	49 -> 41
+	51 -> 49
+	52 -> 49
+	53 -> 52
+	53 -> 51
+	56 -> 57
+	57 -> 53
+	1 -> 3
+	2 -> 3
+	3 -> 57
+	3 -> 49
+	51 -> 45
+	51 -> 54
+	rankdir=LR
+}

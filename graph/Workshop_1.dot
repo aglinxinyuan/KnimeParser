@@ -1,0 +1,23 @@
+digraph {
+	3 [label="Decision Tree Learner"]
+	5 [label="Decision Tree Predictor"]
+	8 [label="Number To String"]
+	11 [label=Scorer]
+	18 [label="Column Filter"]
+	19 [label="CSV Writer"]
+	22 [label=Partitioning]
+	23 [label="CSV Reader"]
+	24 [label="CSV Reader"]
+	28 [label="Decision Tree Predictor"]
+	3 -> 5
+	3 -> 28
+	5 -> 11
+	8 -> 22
+	18 -> 19
+	22 -> 5
+	22 -> 3
+	23 -> 8
+	24 -> 28
+	28 -> 18
+	rankdir=LR
+}

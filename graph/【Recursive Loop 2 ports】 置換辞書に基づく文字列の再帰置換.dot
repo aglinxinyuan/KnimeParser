@@ -1,0 +1,40 @@
+digraph {
+	2 [label="Table Creator"]
+	3 [label="Row Splitter"]
+	4 [label="Row Splitter"]
+	5 [label="Row Splitter"]
+	6 [label="String Manipulation"]
+	8 [label="Table Creator"]
+	9 [label="String Manipulation"]
+	12 [label="String Manipulation"]
+	13 [label="Recursive Loop Start _2 ports_"]
+	14 [label="Recursive Loop End _2 ports_"]
+	15 [label="Row Splitter"]
+	17 [label="String Manipulation"]
+	18 [label="Table Row to Variable"]
+	19 [label="Table Row to Variable"]
+	20 [label="Table Row to Variable"]
+	21 [label="Table Row to Variable"]
+	2 -> 3
+	2 -> 13
+	3 -> 4
+	3 -> 18
+	4 -> 5
+	4 -> 19
+	5 -> 20
+	6 -> 9
+	8 -> 13
+	8 -> 6
+	9 -> 12
+	13 -> 15
+	13 -> 17
+	15 -> 14
+	15 -> 21
+	17 -> 14
+	17 -> 14
+	18 -> 6
+	19 -> 9
+	20 -> 12
+	21 -> 17
+	rankdir=LR
+}

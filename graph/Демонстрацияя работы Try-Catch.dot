@@ -1,0 +1,111 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="Try _Variable Ports_"]
+	3 [label="Active Branch Inverter"]
+	4 [label="Catch Errors _Data Ports_"]
+	5 [label="Table Creator"]
+	7 [label="Active Branch Inverter"]
+	8 [label="Table Creator"]
+	9 [label="Try _Variable Ports_"]
+	10 [label="CSV Reader"]
+	11 [label="Catch Errors _Data Ports_"]
+	13 [label="Try _Variable Ports_"]
+	14 [label="CSV Reader"]
+	15 [label="Active Branch Inverter"]
+	16 [label="Table Creator"]
+	17 [label="Catch Errors _Data Ports_"]
+	19 [label="Catch Errors _Data Ports_"]
+	20 [label="Active Branch Inverter"]
+	21 [label="Table Creator"]
+	22 [label="CSV Reader"]
+	23 [label="Try _Variable Ports_"]
+	25 [label="Table Row to Variable"]
+	26 [label="Variable to Table Row"]
+	27 [label="Try _Variable Ports_"]
+	28 [label="CSV Reader"]
+	31 [label="Catch Errors _Data Ports_"]
+	33 [label="CSV Reader"]
+	34 [label="Rule Engine Variable"]
+	35 [label="Rule Engine Variable"]
+	36 [label="Rule Engine Variable"]
+	37 [label="Table Row to Variable"]
+	38 [label="Variable to Table Row"]
+	39 [label="Rule Engine Variable"]
+	40 [label="Try _Variable Ports_"]
+	41 [label="CSV Reader"]
+	42 [label="Active Branch Inverter"]
+	43 [label="Table Creator"]
+	44 [label="Catch Errors _Data Ports_"]
+	45 [label="Try _Variable Ports_"]
+	46 [label="CSV Reader"]
+	47 [label="Catch Errors _Data Ports_"]
+	48 [label="Active Branch Inverter"]
+	49 [label="Empty Table Switch"]
+	50 [label="CASE Switch Data _End_"]
+	51 [label="Table Creator"]
+	52 [label="Active Branch Inverter"]
+	53 [label="Rule Engine Variable"]
+	54 [label="Rule Engine Variable"]
+	55 [label="Rule Engine Variable"]
+	56 [label="Rule Engine Variable"]
+	57 [label="Active Branch Inverter"]
+	58 [label="Table Row to Variable"]
+	59 [label="Table Row to Variable"]
+	60 [label="Variable to Table Row"]
+	61 [label="Variable to Table Row"]
+	1 -> 3
+	1 -> 4
+	2 -> 1
+	3 -> 5
+	5 -> 4
+	7 -> 8
+	8 -> 11
+	9 -> 10
+	10 -> 11
+	13 -> 15
+	13 -> 14
+	14 -> 17
+	15 -> 16
+	16 -> 17
+	20 -> 21
+	21 -> 19
+	22 -> 25
+	23 -> 22
+	25 -> 26
+	26 -> 19
+	26 -> 20
+	27 -> 34
+	28 -> 37
+	33 -> 31
+	34 -> 36
+	34 -> 28
+	35 -> 2
+	36 -> 33
+	37 -> 38
+	38 -> 31
+	39 -> 40
+	40 -> 41
+	41 -> 42
+	41 -> 44
+	42 -> 45
+	43 -> 47
+	45 -> 46
+	46 -> 47
+	46 -> 48
+	47 -> 44
+	48 -> 43
+	49 -> 59
+	49 -> 58
+	51 -> 49
+	52 -> 60
+	53 -> 13
+	54 -> 9
+	55 -> 23
+	56 -> 27
+	57 -> 61
+	58 -> 52
+	59 -> 57
+	60 -> 50
+	61 -> 50
+	rankdir=LR
+}

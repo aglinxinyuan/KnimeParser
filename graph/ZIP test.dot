@@ -1,0 +1,19 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="ZIP Archive Connector"]
+	3 [label="CSV Reader"]
+	4 [label="ZIP Archive Connector"]
+	5 [label="CSV Reader"]
+	6 [label="ZIP Archive Connector"]
+	7 [label="CSV Reader"]
+	8 [label="ZIP Archive Connector"]
+	9 [label="CSV Reader"]
+	10 [label="ZIP Archive Connector"]
+	11 [label="CSV Reader"]
+	2 -> 3
+	4 -> 5
+	6 -> 7
+	8 -> 9
+	10 -> 11
+	rankdir=LR
+}

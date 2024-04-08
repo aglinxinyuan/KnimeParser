@@ -1,0 +1,27 @@
+digraph {
+	4161 [label="Rule_based Row Filter"]
+	4167 [label=Wait___]
+	4368 [label="Rule Engine Variable"]
+	4369 [label="Table Row to Variable"]
+	4370 [label="Merge Variables"]
+	4371 [label="Recursive Loop Start"]
+	4372 [label="Recursive Loop End"]
+	4373 [label="List Files_Folders"]
+	4374 [label="List Files_Folders"]
+	4375 [label="String Manipulation"]
+	4376 [label="String Manipulation"]
+	4161 -> 4372
+	4167 -> 4370
+	4167 -> 4374
+	4368 -> 4372
+	4369 -> 4370
+	4370 -> 4368
+	4371 -> 4167
+	4371 -> 4372
+	4373 -> 4371
+	4374 -> 4376
+	4375 -> 4369
+	4375 -> 4161
+	4376 -> 4375
+	rankdir=LR
+}

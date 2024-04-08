@@ -1,0 +1,59 @@
+digraph {
+	4 [label="ChEMBLdb Connector"]
+	5 [label="ChEMBLdb Connector Input"]
+	6 [label=Joiner]
+	7 [label=GroupBy]
+	8 [label="Molecule Type Cast"]
+	9 [label="RDKit Descriptor Calculation"]
+	10 [label="Math Formula"]
+	11 [label="2D_3D Scatterplot"]
+	12 [label="String To Number"]
+	13 [label="Math Formula"]
+	14 [label="Math Formula"]
+	15 [label="Math Formula"]
+	16 [label="Math Formula"]
+	17 [label="Math Formula"]
+	18 [label="Math Formula"]
+	19 [label="Math Formula"]
+	20 [label="Row Splitter"]
+	21 [label="Row Splitter"]
+	22 [label="Row Splitter"]
+	23 [label="Math Formula"]
+	24 [label="Math Formula"]
+	25 [label="Math Formula"]
+	26 [label="Math Formula"]
+	27 [label="Math Formula"]
+	28 [label="Math Formula"]
+	29 [label="Math Formula"]
+	30 [label="2D_3D Scatterplot"]
+	31 [label="Math Formula"]
+	4 -> 6
+	4 -> 7
+	5 -> 6
+	6 -> 8
+	7 -> 5
+	8 -> 20
+	9 -> 12
+	10 -> 13
+	12 -> 21
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	19 -> 11
+	20 -> 9
+	21 -> 22
+	21 -> 10
+	22 -> 31
+	23 -> 24
+	24 -> 25
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 29
+	29 -> 30
+	31 -> 23
+	rankdir=LR
+}

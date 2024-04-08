@@ -1,0 +1,28 @@
+digraph {
+	1 [label="File Reader"]
+	4 [label="Loop End"]
+	8 [label="GET Request"]
+	9 [label="Binary Objects to Strings"]
+	10 [label="Cell Splitter"]
+	15 [label="Table Row To Variable Loop Start"]
+	17 [label="Row Filter"]
+	18 [label=Ungroup]
+	19 [label="Cell Splitter"]
+	20 [label="Column Filter"]
+	21 [label="Row Filter"]
+	22 [label="Column Rename"]
+	23 [label="String Manipulation"]
+	1 -> 15
+	4 -> 9
+	8 -> 23
+	9 -> 20
+	10 -> 18
+	15 -> 8
+	17 -> 10
+	18 -> 19
+	19 -> 21
+	20 -> 17
+	21 -> 22
+	23 -> 4
+	rankdir=LR
+}

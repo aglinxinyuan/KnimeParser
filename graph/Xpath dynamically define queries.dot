@@ -1,0 +1,49 @@
+digraph {
+	3 [label="XML Reader"]
+	539 [label=XPath]
+	551 [label="Table Creator"]
+	556 [label=XPath]
+	557 [label="Table Row To Variable Loop Start"]
+	558 [label=GroupBy]
+	559 [label="Row Filter"]
+	561 [label="Column Filter"]
+	562 [label=RowID]
+	563 [label="Table Column to Variable"]
+	564 [label=Unpivoting]
+	565 [label="Column Aggregator"]
+	566 [label=RowID]
+	567 [label="Missing Value"]
+	568 [label="Cell Replacer"]
+	569 [label="Table Creator"]
+	570 [label="Rule Engine"]
+	571 [label="Cell Replacer"]
+	572 [label="Number To String"]
+	573 [label="Variable to Table Column"]
+	574 [label="Loop End"]
+	575 [label="Row Filter"]
+	3 -> 539
+	3 -> 556
+	539 -> 561
+	551 -> 568
+	551 -> 575
+	551 -> 558
+	551 -> 559
+	557 -> 559
+	558 -> 557
+	559 -> 562
+	561 -> 573
+	561 -> 573
+	562 -> 567
+	563 -> 539
+	564 -> 565
+	565 -> 566
+	566 -> 563
+	567 -> 564
+	568 -> 571
+	569 -> 570
+	570 -> 572
+	572 -> 568
+	572 -> 571
+	573 -> 574
+	rankdir=LR
+}

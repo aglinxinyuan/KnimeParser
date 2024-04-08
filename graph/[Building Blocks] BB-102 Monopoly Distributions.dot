@@ -1,0 +1,35 @@
+digraph {
+	2 [label="Histogram Chart _JFreeChart_"]
+	3 [label="Profit Engine"]
+	4 [label="Table Creator"]
+	5 [label="Histogram Chart _JFreeChart_"]
+	6 [label="Row Filter"]
+	7 [label="Scatter Plot _JFreeChart_"]
+	10 [label="GroupBy Bar Chart _JFreeChart_"]
+	11 [label="Customer Distributions"]
+	12 [label="Customer Distributions"]
+	13 [label="GroupBy Bar Chart _JFreeChart_"]
+	14 [label="Profit Engine"]
+	15 [label="Table Creator"]
+	16 [label="Row Filter"]
+	17 [label="Scatter Plot _JFreeChart_"]
+	18 [label="Histogram Chart _JFreeChart_"]
+	19 [label="Histogram Chart _JFreeChart_"]
+	3 -> 7
+	3 -> 6
+	3 -> 10
+	4 -> 11
+	6 -> 5
+	11 -> 3
+	11 -> 3
+	11 -> 2
+	12 -> 14
+	12 -> 14
+	12 -> 18
+	14 -> 13
+	14 -> 16
+	14 -> 17
+	15 -> 12
+	16 -> 19
+	rankdir=LR
+}

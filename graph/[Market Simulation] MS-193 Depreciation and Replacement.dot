@@ -1,0 +1,41 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Customer Distributions"]
+	3 [label="Simulate Market"]
+	4 [label="Scale Purchased"]
+	5 [label="Recursive Loop Start"]
+	6 [label="Row Splitter"]
+	7 [label="Scale Purchased"]
+	8 [label="Customer Distributions"]
+	9 [label=Concatenate]
+	10 [label=Sorter]
+	11 [label="Recursive Loop End"]
+	12 [label=GroupBy]
+	13 [label=RowID]
+	14 [label=GroupBy]
+	23 [label="Row Splitter"]
+	24 [label="Line Chart _JFreeChart_"]
+	26 [label="Math Formula _Multi Column_"]
+	27 [label="Column Aggregator"]
+	1 -> 2
+	2 -> 3
+	2 -> 8
+	3 -> 4
+	4 -> 6
+	5 -> 3
+	6 -> 7
+	6 -> 9
+	7 -> 9
+	8 -> 13
+	9 -> 10
+	10 -> 11
+	10 -> 11
+	11 -> 14
+	11 -> 12
+	11 -> 23
+	13 -> 5
+	23 -> 26
+	26 -> 27
+	27 -> 24
+	rankdir=LR
+}

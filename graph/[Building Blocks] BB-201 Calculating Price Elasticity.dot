@@ -1,0 +1,35 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Customer Distributions"]
+	3 [label="Profit Engine"]
+	4 [label="Reference Row Filter"]
+	5 [label="Table Creator"]
+	6 [label="Row Splitter"]
+	7 [label="Column Rename _Regex_"]
+	8 [label="Column Rename _Regex_"]
+	9 [label="Column Appender"]
+	10 [label="Math Formula"]
+	11 [label="Row Splitter"]
+	13 [label="Math Formula"]
+	14 [label="Math Formula"]
+	15 [label="Column Filter"]
+	16 [label="Column Appender"]
+	1 -> 2
+	2 -> 3
+	2 -> 3
+	3 -> 4
+	4 -> 11
+	5 -> 4
+	6 -> 7
+	6 -> 8
+	7 -> 9
+	8 -> 9
+	9 -> 16
+	10 -> 13
+	11 -> 6
+	11 -> 16
+	13 -> 14
+	14 -> 15
+	16 -> 10
+	rankdir=LR
+}

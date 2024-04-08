@@ -1,0 +1,32 @@
+digraph {
+	1 [label="Customer Distributions"]
+	2 [label="Customer Distributions"]
+	3 [label="Constant Value Column"]
+	5 [label="Constant Value Column"]
+	6 [label="Simulate Market"]
+	7 [label="Column Rename"]
+	8 [label="Column Filter"]
+	9 [label="Loop End"]
+	10 [label="Row Filter"]
+	11 [label="Line Chart _JFreeChart_"]
+	15 [label="Table Creator"]
+	16 [label="Color Manager"]
+	17 [label="Line Chart _JFreeChart_"]
+	18 [label="Table Row To Variable Loop Start"]
+	1 -> 7
+	1 -> 6
+	2 -> 18
+	3 -> 5
+	5 -> 8
+	6 -> 9
+	7 -> 3
+	8 -> 6
+	9 -> 10
+	10 -> 11
+	10 -> 17
+	15 -> 16
+	16 -> 17
+	16 -> 11
+	18 -> 5
+	rankdir=LR
+}

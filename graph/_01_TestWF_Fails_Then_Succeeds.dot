@@ -1,0 +1,24 @@
+digraph {
+	1 [label="JSON Input"]
+	2 [label="JSON Output"]
+	3 [label=Cache]
+	4 [label=Wait___]
+	5 [label="JSON to Table"]
+	6 [label="Table to JSON"]
+	7 [label="IF Switch"]
+	10 [label="Rule Engine"]
+	11 [label="Table Column to Variable"]
+	12 [label="Fail in execution"]
+	1 -> 5
+	3 -> 6
+	3 -> 4
+	4 -> 6
+	5 -> 10
+	6 -> 2
+	7 -> 3
+	7 -> 12
+	10 -> 11
+	10 -> 7
+	11 -> 7
+	rankdir=LR
+}

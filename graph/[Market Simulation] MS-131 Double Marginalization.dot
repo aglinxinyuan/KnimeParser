@@ -1,0 +1,62 @@
+digraph {
+	1 [label="Customer Distributions"]
+	4 [label="Table Creator"]
+	6 [label="Math Formula"]
+	7 [label="Table Creator"]
+	8 [label="Profit Engine"]
+	9 [label="Recursive Loop Start"]
+	11 [label="Row Filter"]
+	12 [label="Column Filter"]
+	13 [label="Java Snippet"]
+	14 [label="Constant Value Column"]
+	15 [label="Profit Engine"]
+	16 [label="Math Formula"]
+	17 [label="Row Filter"]
+	18 [label="Column Filter"]
+	19 [label="Recursive Loop End"]
+	20 [label=Sorter]
+	21 [label="Row Filter"]
+	22 [label="Java Snippet"]
+	23 [label="Column Rename"]
+	24 [label="Math Formula"]
+	26 [label="Constant Value Column"]
+	28 [label="Math Formula _Variable_"]
+	29 [label="Column Filter"]
+	30 [label="Constant Value Column"]
+	31 [label="Table Creator"]
+	32 [label="Constant Value Column"]
+	33 [label="Profit Engine"]
+	34 [label="Table Row to Variable"]
+	1 -> 6
+	1 -> 33
+	4 -> 9
+	6 -> 15
+	6 -> 8
+	7 -> 24
+	8 -> 11
+	9 -> 34
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 17
+	16 -> 26
+	17 -> 16
+	17 -> 19
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	21 -> 29
+	23 -> 30
+	24 -> 8
+	26 -> 18
+	28 -> 9
+	28 -> 32
+	29 -> 23
+	30 -> 22
+	31 -> 32
+	32 -> 33
+	34 -> 7
+	34 -> 6
+	rankdir=LR
+}

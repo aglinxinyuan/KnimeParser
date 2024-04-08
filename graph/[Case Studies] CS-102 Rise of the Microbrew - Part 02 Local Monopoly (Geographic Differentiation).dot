@@ -1,0 +1,26 @@
+digraph {
+	1 [label="Customer Distributions"]
+	3 [label="Customer Distributions"]
+	7 [label="Product Generator"]
+	10 [label="Table Creator"]
+	11 [label="Line Chart _JFreeChart_"]
+	12 [label="Profit Engine"]
+	13 [label="Table Creator"]
+	14 [label="Profit Engine"]
+	15 [label="Product Generator"]
+	21 [label="Table Creator"]
+	22 [label="Column Appender"]
+	1 -> 22
+	3 -> 22
+	7 -> 12
+	7 -> 12
+	7 -> 11
+	10 -> 7
+	13 -> 15
+	15 -> 14
+	15 -> 14
+	21 -> 3
+	22 -> 7
+	22 -> 15
+	rankdir=LR
+}

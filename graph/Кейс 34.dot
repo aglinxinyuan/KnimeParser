@@ -1,0 +1,81 @@
+digraph {
+	2 [label="Excel Reader"]
+	3 [label="Excel Reader"]
+	4 [label="Excel Reader"]
+	5 [label="Excel Reader"]
+	6 [label=Joiner]
+	7 [label=Joiner]
+	8 [label=Joiner]
+	9 [label=Partitioning]
+	101 [label="CSV Writer"]
+	102 [label="Excel Writer"]
+	105 [label="Scorer _JavaScript_"]
+	106 [label=GroupBy]
+	107 [label=Sorter]
+	108 [label="Math Formula"]
+	109 [label="Moving Aggregation"]
+	110 [label="Rule Engine"]
+	114 [label="Math Formula"]
+	116 [label="Rule Engine"]
+	120 [label=Joiner]
+	121 [label="Rule Engine"]
+	122 [label="Date_Time Difference"]
+	123 [label=Auto_Binner]
+	124 [label=Auto_Binner]
+	125 [label=Auto_Binner]
+	126 [label="Rule Engine"]
+	127 [label="Rule Engine"]
+	128 [label="Rule Engine"]
+	129 [label=Joiner]
+	130 [label=Joiner]
+	131 [label="Column Combiner"]
+	132 [label="Column Combiner"]
+	133 [label=Joiner]
+	134 [label=Joiner]
+	135 [label=Joiner]
+	137 [label="Random Forest Learner"]
+	138 [label="Random Forest Predictor"]
+	2 -> 6
+	3 -> 6
+	4 -> 7
+	5 -> 8
+	6 -> 7
+	7 -> 8
+	8 -> 106
+	8 -> 120
+	9 -> 137
+	9 -> 138
+	106 -> 107
+	106 -> 114
+	106 -> 122
+	107 -> 108
+	108 -> 109
+	109 -> 110
+	110 -> 133
+	114 -> 116
+	116 -> 133
+	120 -> 121
+	121 -> 135
+	122 -> 123
+	122 -> 124
+	122 -> 125
+	122 -> 120
+	123 -> 126
+	124 -> 127
+	125 -> 128
+	126 -> 130
+	127 -> 129
+	128 -> 129
+	129 -> 130
+	130 -> 131
+	131 -> 134
+	132 -> 134
+	133 -> 132
+	134 -> 135
+	135 -> 9
+	137 -> 138
+	138 -> 105
+	138 -> 102
+	138 -> 101
+	rankdir=LR
+}

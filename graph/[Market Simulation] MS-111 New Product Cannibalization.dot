@@ -1,0 +1,89 @@
+digraph {
+	4 [label="Simulate Market"]
+	5 [label="Table Creator"]
+	6 [label="Product Generator"]
+	8 [label=Concatenate]
+	9 [label="Simulate Market"]
+	12 [label="Column Filter"]
+	13 [label="Column Filter"]
+	14 [label="Column Rename"]
+	15 [label="Column Rename"]
+	17 [label="Java Snippet"]
+	18 [label="Row Filter"]
+	19 [label=GroupBy]
+	20 [label=Sorter]
+	21 [label="Row Splitter"]
+	24 [label="Constant Value Column"]
+	25 [label="Constant Value Column"]
+	28 [label="Constant Value Column"]
+	29 [label="Constant Value Column"]
+	30 [label=Concatenate]
+	21 [label="Row Splitter"]
+	22 [label="Row Filter"]
+	23 [label=GroupBy]
+	24 [label="Constant Value Column"]
+	25 [label="Constant Value Column"]
+	26 [label=GroupBy]
+	27 [label=Concatenate]
+	21 [label="Row Splitter"]
+	22 [label="Row Filter"]
+	23 [label=GroupBy]
+	24 [label="Constant Value Column"]
+	25 [label="Constant Value Column"]
+	26 [label=GroupBy]
+	27 [label=Concatenate]
+	33 [label=Concatenate]
+	34 [label=GroupBy]
+	35 [label="Column Appender"]
+	36 [label="Column Appender"]
+	37 [label="Excel Reader"]
+	38 [label="Excel Reader"]
+	39 [label="Excel Reader"]
+	21 -> 25
+	21 -> 24
+	22 -> 21
+	23 -> 27
+	24 -> 23
+	25 -> 26
+	26 -> 27
+	21 -> 25
+	21 -> 24
+	22 -> 21
+	23 -> 27
+	24 -> 23
+	25 -> 26
+	26 -> 27
+	4 -> 12
+	4 -> 28
+	5 -> 6
+	6 -> 8
+	6 -> 36
+	8 -> 9
+	9 -> 13
+	9 -> 29
+	12 -> 14
+	13 -> 15
+	14 -> 35
+	15 -> 35
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	21 -> 25
+	21 -> 24
+	24 -> 33
+	25 -> 33
+	28 -> 22
+	29 -> 22
+	27 -> 30
+	27 -> 30
+	33 -> 34
+	35 -> 17
+	36 -> 9
+	37 -> 4
+	37 -> 8
+	38 -> 4
+	38 -> 36
+	39 -> 6
+	rankdir=LR
+}

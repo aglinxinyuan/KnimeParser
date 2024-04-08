@@ -1,0 +1,35 @@
+digraph {
+	2 [label="String to XML"]
+	3 [label=XSLT]
+	10 [label="String to XML"]
+	13 [label=GroupBy]
+	14 [label="Table Row to Variable"]
+	15 [label="String Manipulation"]
+	16 [label="XML Reader"]
+	17 [label="String Manipulation"]
+	22 [label="String Manipulation"]
+	26 [label="XML Reader"]
+	37 [label=XPath]
+	39 [label=Joiner]
+	40 [label="Rule_based Row Filter"]
+	41 [label=XPath]
+	42 [label="Column Renamer"]
+	43 [label="Table Creator"]
+	2 -> 3
+	10 -> 3
+	13 -> 14
+	14 -> 15
+	15 -> 10
+	16 -> 37
+	16 -> 22
+	17 -> 13
+	22 -> 2
+	26 -> 41
+	37 -> 39
+	39 -> 40
+	40 -> 42
+	41 -> 39
+	42 -> 17
+	43 -> 15
+	rankdir=LR
+}

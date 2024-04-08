@@ -1,0 +1,477 @@
+digraph {
+	13 [label="DB Table Selector"]
+	104 [label="Column Expressions"]
+	126 [label="Duplicate Row Filter"]
+	244 [label="DB Table Selector"]
+	258 [label="DB Reader"]
+	292 [label=Joiner]
+	294 [label=Joiner]
+	308 [label="String Matcher"]
+	312 [label="Rule_based Row Splitter"]
+	315 [label=Sorter]
+	317 [label="Column Resorter"]
+	318 [label="Column Rename"]
+	319 [label="Rule_based Row Splitter"]
+	320 [label="String Manipulation"]
+	321 [label="String Manipulation"]
+	324 [label="Column Filter"]
+	334 [label="Rule_based Row Splitter"]
+	335 [label="Rule_based Row Splitter"]
+	336 [label="Rule_based Row Splitter"]
+	337 [label=Joiner]
+	338 [label=Joiner]
+	339 [label="String Matcher"]
+	340 [label=Sorter]
+	341 [label="String Matcher"]
+	342 [label=Joiner]
+	343 [label=Joiner]
+	344 [label="String Matcher"]
+	345 [label=Joiner]
+	346 [label=Joiner]
+	347 [label=Concatenate]
+	348 [label=Concatenate]
+	349 [label=Concatenate]
+	361 [label="Rule_based Row Splitter"]
+	393 [label="DB Reader"]
+	394 [label=Sorter]
+	400 [label="Table Row to Variable _deprecated_"]
+	401 [label="String Manipulation"]
+	402 [label="Recursive Loop End _2 ports_ _deprecated_"]
+	403 [label="Table Creator"]
+	404 [label="String Manipulation"]
+	547 [label="Microsoft SQL Server Connector"]
+	548 [label="Microsoft SQL Server Connector"]
+	549 [label="DB Table Selector"]
+	550 [label="DB Query"]
+	551 [label="DB Query"]
+	552 [label="DB Query"]
+	553 [label="DB Query"]
+	554 [label="DB Concatenate"]
+	555 [label="DB Concatenate"]
+	556 [label="DB Concatenate"]
+	557 [label="DB Query"]
+	558 [label="DB Reader"]
+	791 [label=Sorter]
+	792 [label="Rule_based Row Splitter"]
+	937 [label="Microsoft SQL Server Connector"]
+	938 [label="Row Splitter"]
+	939 [label="Recursive Loop Start _2 ports_ _deprecated_"]
+	941 [label="String Manipulation"]
+	942 [label="Column Filter"]
+	943 [label="Recursive Loop Start _2 ports_ _deprecated_"]
+	944 [label="Table Row to Variable _deprecated_"]
+	945 [label="Recursive Loop End _2 ports_ _deprecated_"]
+	946 [label="String Manipulation"]
+	947 [label="String Manipulation"]
+	948 [label="String Manipulation"]
+	950 [label="Row Splitter"]
+	951 [label=Sorter]
+	952 [label="Duplicate Row Filter"]
+	953 [label=Joiner]
+	954 [label=Sorter]
+	956 [label="Excel Reader"]
+	957 [label="Rule_based Row Splitter"]
+	958 [label=Joiner]
+	959 [label=GroupBy]
+	960 [label=Joiner]
+	961 [label=Sorter]
+	963 [label="Column Filter"]
+	964 [label="Column Filter"]
+	966 [label="Column Filter"]
+	996 [label=Joiner]
+	998 [label=Joiner]
+	999 [label=Concatenate]
+	1000 [label=Sorter]
+	1001 [label="Column Expressions"]
+	1002 [label="Column Resorter"]
+	842 [label="Rule_based Row Splitter"]
+	843 [label="Rule_based Row Splitter"]
+	844 [label=Concatenate]
+	845 [label="Column Expressions"]
+	846 [label=Concatenate]
+	847 [label="Column Expressions"]
+	848 [label=Concatenate]
+	849 [label=Concatenate]
+	850 [label="Column Expressions"]
+	851 [label="Column Expressions"]
+	852 [label=Concatenate]
+	853 [label="Rule_based Row Splitter"]
+	854 [label=Concatenate]
+	855 [label="Rule_based Row Splitter"]
+	856 [label="Column Expressions"]
+	857 [label="Column Expressions"]
+	858 [label="Column Expressions"]
+	859 [label="Rule_based Row Splitter"]
+	860 [label="Rule_based Row Splitter"]
+	861 [label="Column Expressions"]
+	862 [label="Rule_based Row Splitter"]
+	863 [label="Rule_based Row Splitter"]
+	864 [label=Concatenate]
+	865 [label="Column Expressions"]
+	866 [label=Concatenate]
+	867 [label="Column Expressions"]
+	868 [label="Rule_based Row Splitter"]
+	869 [label="Rule_based Row Splitter"]
+	870 [label="Column Expressions"]
+	871 [label=Concatenate]
+	872 [label="Rule_based Row Splitter"]
+	873 [label="Column Expressions"]
+	874 [label="Rule_based Row Splitter"]
+	875 [label=Concatenate]
+	876 [label="Column Expressions"]
+	877 [label="Rule_based Row Splitter"]
+	878 [label=Concatenate]
+	879 [label="Column Expressions"]
+	880 [label="Rule_based Row Splitter"]
+	881 [label=Concatenate]
+	882 [label="Rule_based Row Splitter"]
+	883 [label="Column Expressions"]
+	884 [label="Column Expressions"]
+	885 [label=Concatenate]
+	886 [label="Rule_based Row Splitter"]
+	887 [label=Concatenate]
+	888 [label="Rule_based Row Splitter"]
+	889 [label=Concatenate]
+	890 [label="Rule_based Row Splitter"]
+	891 [label=Concatenate]
+	892 [label="Column Expressions"]
+	893 [label=Concatenate]
+	894 [label="Column Expressions"]
+	895 [label="Column Expressions"]
+	896 [label=Concatenate]
+	897 [label="Column Expressions"]
+	898 [label="Rule_based Row Splitter"]
+	899 [label=Concatenate]
+	900 [label=Concatenate]
+	901 [label=Concatenate]
+	902 [label="Column Expressions"]
+	903 [label="Rule_based Row Splitter"]
+	904 [label="Column Expressions"]
+	905 [label=Concatenate]
+	907 [label="Rule_based Row Splitter"]
+	908 [label="Rule_based Row Splitter"]
+	909 [label="Column Expressions"]
+	910 [label="Column Expressions"]
+	911 [label=Concatenate]
+	912 [label="Column Expressions"]
+	913 [label=Concatenate]
+	914 [label=Concatenate]
+	915 [label="Rule_based Row Splitter"]
+	916 [label="Column Expressions"]
+	917 [label="Rule_based Row Splitter"]
+	918 [label="Rule_based Row Splitter"]
+	919 [label="Rule_based Row Splitter"]
+	920 [label=Concatenate]
+	921 [label="Column Expressions"]
+	922 [label=Concatenate]
+	924 [label="Column Expressions"]
+	926 [label="Rule_based Row Splitter"]
+	927 [label=Concatenate]
+	928 [label="Rule_based Row Splitter"]
+	929 [label="Rule_based Row Splitter"]
+	930 [label="Column Expressions"]
+	1004 [label="Column Resorter"]
+	1005 [label="Rule_based Row Splitter"]
+	1006 [label="Column Filter"]
+	1007 [label="Rule_based Row Splitter"]
+	1010 [label=Sorter]
+	1011 [label="Column Filter"]
+	1014 [label="Column Filter"]
+	1015 [label="Column Renamer"]
+	1016 [label="Column Renamer"]
+	1017 [label="Column Filter"]
+	1018 [label="String Manipulation"]
+	1019 [label="String Manipulation"]
+	1020 [label="Column Filter"]
+	1021 [label="Column Filter"]
+	1022 [label="Column Renamer"]
+	1023 [label="Column Expressions"]
+	1024 [label="Column Renamer"]
+	1025 [label="Column Filter"]
+	1026 [label=Concatenate]
+	1027 [label="Column Filter"]
+	1028 [label="Duplicate Row Filter"]
+	1029 [label="Duplicate Row Filter"]
+	1030 [label=Concatenate]
+	1031 [label="Duplicate Row Filter"]
+	1032 [label=Concatenate]
+	1033 [label="Duplicate Row Filter"]
+	1034 [label=Concatenate]
+	1035 [label="Duplicate Row Filter"]
+	1036 [label=Concatenate]
+	1037 [label="Duplicate Row Filter"]
+	1044 [label="Microsoft SQL Server Connector"]
+	1045 [label="DB Table Selector"]
+	1046 [label="DB Reader"]
+	1047 [label="Excel Writer"]
+	1048 [label="DB Writer"]
+	1049 [label="Column Renamer"]
+	842 -> 843
+	842 -> 883
+	843 -> 853
+	843 -> 870
+	844 -> 848
+	845 -> 849
+	846 -> 889
+	847 -> 852
+	848 -> 854
+	849 -> 914
+	850 -> 848
+	851 -> 854
+	852 -> 885
+	853 -> 845
+	853 -> 917
+	854 -> 846
+	855 -> 859
+	855 -> 884
+	856 -> 887
+	857 -> 846
+	858 -> 864
+	859 -> 858
+	859 -> 860
+	860 -> 888
+	860 -> 867
+	861 -> 866
+	862 -> 857
+	862 -> 872
+	863 -> 879
+	863 -> 869
+	864 -> 844
+	865 -> 889
+	866 -> 891
+	867 -> 844
+	868 -> 855
+	868 -> 856
+	869 -> 890
+	869 -> 861
+	870 -> 871
+	871 -> 849
+	872 -> 874
+	872 -> 865
+	873 -> 878
+	874 -> 877
+	874 -> 894
+	875 -> 852
+	876 -> 875
+	877 -> 873
+	877 -> 863
+	878 -> 881
+	879 -> 881
+	880 -> 882
+	880 -> 876
+	881 -> 866
+	882 -> 842
+	882 -> 847
+	883 -> 885
+	884 -> 887
+	885 -> 871
+	886 -> 851
+	886 -> 862
+	887 -> 864
+	888 -> 886
+	888 -> 850
+	889 -> 893
+	890 -> 892
+	890 -> 880
+	891 -> 875
+	892 -> 891
+	893 -> 878
+	894 -> 893
+	895 -> 900
+	897 -> 896
+	898 -> 908
+	898 -> 895
+	899 -> 896
+	900 -> 905
+	901 -> 911
+	902 -> 927
+	903 -> 915
+	903 -> 930
+	904 -> 899
+	905 -> 899
+	907 -> 912
+	907 -> 918
+	908 -> 924
+	908 -> 926
+	909 -> 911
+	910 -> 914
+	911 -> 920
+	912 -> 913
+	913 -> 927
+	914 -> 922
+	915 -> 909
+	915 -> 928
+	916 -> 920
+	917 -> 910
+	917 -> 929
+	918 -> 902
+	918 -> 898
+	919 -> 897
+	920 -> 913
+	921 -> 922
+	922 -> 901
+	924 -> 905
+	926 -> 919
+	926 -> 904
+	927 -> 900
+	928 -> 907
+	928 -> 916
+	929 -> 903
+	929 -> 921
+	930 -> 901
+	13 -> 258
+	104 -> 334
+	126 -> 312
+	244 -> 393
+	258 -> 792
+	258 -> 361
+	258 -> 942
+	258 -> 996
+	292 -> 294
+	294 -> 347
+	308 -> 292
+	312 -> 340
+	315 -> 320
+	317 -> 318
+	318 -> 315
+	319 -> 324
+	319 -> 1010
+	320 -> 321
+	321 -> 319
+	324 -> 1015
+	334 -> 335
+	334 -> 294
+	334 -> 308
+	335 -> 339
+	335 -> 337
+	335 -> 336
+	336 -> 341
+	336 -> 342
+	336 -> 344
+	336 -> 345
+	337 -> 347
+	338 -> 337
+	339 -> 338
+	340 -> 341
+	340 -> 343
+	340 -> 338
+	340 -> 339
+	340 -> 344
+	340 -> 346
+	340 -> 308
+	340 -> 292
+	341 -> 343
+	342 -> 348
+	343 -> 342
+	344 -> 346
+	345 -> 349
+	346 -> 345
+	347 -> 348
+	348 -> 349
+	349 -> 317
+	361 -> 126
+	393 -> 394
+	394 -> 963
+	400 -> 401
+	401 -> 402
+	401 -> 402
+	402 -> 404
+	403 -> 939
+	403 -> 943
+	404 -> 953
+	547 -> 13
+	548 -> 549
+	549 -> 551
+	549 -> 550
+	549 -> 553
+	549 -> 552
+	550 -> 554
+	551 -> 554
+	552 -> 555
+	553 -> 556
+	554 -> 555
+	555 -> 556
+	556 -> 557
+	557 -> 558
+	792 -> 791
+	937 -> 244
+	938 -> 402
+	938 -> 400
+	939 -> 938
+	939 -> 401
+	941 -> 939
+	942 -> 946
+	943 -> 950
+	943 -> 947
+	944 -> 947
+	945 -> 948
+	946 -> 943
+	947 -> 945
+	947 -> 945
+	948 -> 951
+	950 -> 944
+	950 -> 945
+	951 -> 952
+	952 -> 953
+	953 -> 954
+	953 -> 1006
+	954 -> 958
+	956 -> 957
+	957 -> 958
+	958 -> 959
+	958 -> 966
+	958 -> 960
+	959 -> 960
+	960 -> 961
+	961 -> 1007
+	963 -> 998
+	963 -> 1037
+	964 -> 941
+	966 -> 1020
+	996 -> 999
+	998 -> 1000
+	998 -> 1011
+	999 -> 998
+	1000 -> 1002
+	1001 -> 1027
+	1002 -> 868
+	919 -> 1001
+	919 -> 1004
+	1004 -> 1005
+	1004 -> 964
+	1006 -> 1021
+	1007 -> 1014
+	1007 -> 104
+	1010 -> 1017
+	1011 -> 1049
+	1014 -> 1047
+	1015 -> 1018
+	1016 -> 1034
+	1017 -> 1016
+	1018 -> 1019
+	1019 -> 1036
+	1020 -> 1022
+	1021 -> 1025
+	1022 -> 1023
+	1023 -> 1032
+	1024 -> 1030
+	1025 -> 1024
+	1026 -> 1028
+	1027 -> 1026
+	1028 -> 1030
+	1029 -> 1032
+	1030 -> 1029
+	1031 -> 1034
+	1032 -> 1031
+	1033 -> 1036
+	1034 -> 1033
+	1035 -> 1048
+	1036 -> 1035
+	1044 -> 1045
+	1044 -> 1048
+	1045 -> 1046
+	1046 -> 999
+	1046 -> 996
+	1049 -> 1026
+	rankdir=LR
+}

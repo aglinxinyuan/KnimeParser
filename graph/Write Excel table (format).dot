@@ -1,0 +1,20 @@
+digraph {
+	11 [label="Table Creator"]
+	15 [label="Extract Table Dimension"]
+	16 [label="Table Column to Variable"]
+	17 [label="Excel Writer"]
+	18 [label="String Manipulation _Variable_"]
+	19 [label="String Manipulation _Variable_"]
+	20 [label="String to Path _Variable_"]
+	22 [label="Python Script"]
+	11 -> 15
+	11 -> 17
+	11 -> 22
+	15 -> 16
+	16 -> 20
+	17 -> 22
+	18 -> 19
+	19 -> 20
+	20 -> 17
+	rankdir=LR
+}

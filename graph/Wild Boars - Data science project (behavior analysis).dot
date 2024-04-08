@@ -1,0 +1,339 @@
+digraph {
+	4 [label="CSV Reader"]
+	5 [label=Histogram]
+	7 [label=Statistics]
+	8 [label="Bar Chart"]
+	9 [label="CSV Reader"]
+	10 [label="Column Filter"]
+	11 [label="Missing Value"]
+	12 [label=Statistics]
+	13 [label="Linear Correlation"]
+	15 [label="Row Filter"]
+	16 [label="Row Filter"]
+	20 [label="Cell Splitter By Position"]
+	21 [label="Cell Splitter By Position"]
+	22 [label=Joiner]
+	23 [label="Linear Correlation"]
+	24 [label="CSV Reader"]
+	26 [label="Bar Chart"]
+	27 [label="Linear Correlation"]
+	28 [label="Row Filter"]
+	29 [label="Bar Chart"]
+	30 [label=Histogram]
+	31 [label="Bar Chart"]
+	32 [label="CSV Reader"]
+	33 [label="Bar Chart"]
+	34 [label="Bar Chart"]
+	35 [label="Row Filter"]
+	36 [label=Histogram]
+	37 [label="Linear Correlation"]
+	38 [label="Column Filter"]
+	39 [label=Normalizer]
+	40 [label=Partitioning]
+	41 [label="RProp MLP Learner"]
+	42 [label="MultiLayerPerceptron Predictor"]
+	43 [label="Column Filter"]
+	44 [label=Partitioning]
+	47 [label=Scorer]
+	48 [label=Scorer]
+	49 [label="Random Forest Learner _Regression_"]
+	50 [label="Random Forest Predictor _Regression_"]
+	51 [label=Scorer]
+	53 [label="Row Filter"]
+	54 [label="Row Filter"]
+	55 [label="Cell Splitter By Position"]
+	56 [label="Bar Chart"]
+	57 [label="Row Filter"]
+	58 [label="Bar Chart"]
+	59 [label="Row Filter"]
+	60 [label="Bar Chart"]
+	61 [label="Cell Splitter By Position"]
+	62 [label="Row Filter"]
+	63 [label="Row Filter"]
+	64 [label="Bar Chart"]
+	65 [label="Row Filter"]
+	66 [label="Row Filter"]
+	67 [label="Bar Chart"]
+	68 [label="Bar Chart"]
+	69 [label="CSV Reader"]
+	70 [label="Row Filter"]
+	71 [label="Bar Chart"]
+	75 [label="Rule_based Row Filter"]
+	76 [label="Cell Splitter By Position"]
+	77 [label="String To Number"]
+	78 [label="Double To Int"]
+	79 [label=Normalizer]
+	80 [label=Partitioning]
+	81 [label="Logistic Regression Learner"]
+	82 [label="Logistic Regression Predictor"]
+	83 [label=Scorer]
+	84 [label="Row Filter"]
+	85 [label="Row Filter"]
+	86 [label=Joiner]
+	87 [label="Math Formula"]
+	88 [label="Math Formula"]
+	89 [label="Column Filter"]
+	90 [label="Bar Chart"]
+	91 [label="Cell Splitter By Position"]
+	92 [label="Logistic Regression Learner"]
+	93 [label="String To Number"]
+	94 [label="Double To Int"]
+	95 [label=Scorer]
+	96 [label="Logistic Regression Predictor"]
+	97 [label=Partitioning]
+	98 [label=Normalizer]
+	99 [label="Row Filter"]
+	100 [label="Rule_based Row Filter"]
+	101 [label="Logistic Regression Learner"]
+	102 [label="Row Filter"]
+	103 [label=Partitioning]
+	104 [label="Cell Splitter By Position"]
+	105 [label=Scorer]
+	106 [label="String To Number"]
+	107 [label=Normalizer]
+	108 [label="Bar Chart"]
+	109 [label="Double To Int"]
+	110 [label="Logistic Regression Predictor"]
+	111 [label="Rule_based Row Filter"]
+	112 [label="Row Filter"]
+	113 [label=Normalizer]
+	114 [label=Scorer]
+	115 [label="Double To Int"]
+	116 [label="Cell Splitter By Position"]
+	117 [label="String To Number"]
+	118 [label="Logistic Regression Predictor"]
+	119 [label="Bar Chart"]
+	120 [label="Logistic Regression Learner"]
+	121 [label=Partitioning]
+	122 [label="Rule_based Row Filter"]
+	124 [label="Rule_based Row Filter"]
+	125 [label="Row Filter"]
+	127 [label="Rule_based Row Filter"]
+	128 [label="Rule_based Row Filter"]
+	129 [label="Row Filter"]
+	130 [label="Rule_based Row Filter"]
+	131 [label="Row Filter"]
+	139 [label="CSV Reader"]
+	141 [label="Bar Chart"]
+	142 [label="Rule_based Row Filter"]
+	145 [label="Rule_based Row Filter"]
+	147 [label="Bar Chart"]
+	148 [label="Rule_based Row Filter"]
+	149 [label="Bar Chart"]
+	150 [label="Bar Chart"]
+	151 [label="Rule_based Row Filter"]
+	152 [label="Bar Chart"]
+	153 [label="Rule_based Row Filter"]
+	154 [label="Bar Chart"]
+	155 [label="Rule_based Row Filter"]
+	156 [label="Bar Chart"]
+	157 [label="Rule_based Row Filter"]
+	158 [label="Bar Chart"]
+	159 [label="Rule_based Row Filter"]
+	160 [label="Bar Chart"]
+	161 [label="Rule_based Row Filter"]
+	162 [label="Bar Chart"]
+	163 [label="Rule_based Row Filter"]
+	164 [label="Bar Chart"]
+	165 [label="Rule_based Row Filter"]
+	166 [label="Bar Chart"]
+	167 [label="Rule_based Row Filter"]
+	168 [label="Bar Chart"]
+	169 [label="Bar Chart"]
+	170 [label="Rule_based Row Filter"]
+	171 [label="Bar Chart"]
+	172 [label="Rule_based Row Filter"]
+	173 [label="Bar Chart"]
+	174 [label="Rule_based Row Filter"]
+	175 [label="Bar Chart"]
+	176 [label="Rule_based Row Filter"]
+	181 [label="Rule_based Row Filter"]
+	182 [label="Cell Splitter By Position"]
+	183 [label="Bar Chart"]
+	184 [label="Rule_based Row Filter"]
+	185 [label="Bar Chart"]
+	186 [label="Rule_based Row Filter"]
+	188 [label="Pie_Donut Chart"]
+	189 [label="Pie_Donut Chart"]
+	190 [label="Rule_based Row Filter"]
+	191 [label="Pie_Donut Chart"]
+	192 [label="Bar Chart"]
+	193 [label="Cell Splitter By Position"]
+	194 [label="Rule_based Row Filter"]
+	195 [label="Bar Chart"]
+	196 [label="Rule_based Row Filter"]
+	197 [label="Pie_Donut Chart"]
+	198 [label="Color Manager"]
+	199 [label="Color Manager"]
+	200 [label="Color Manager"]
+	4 -> 5
+	4 -> 7
+	4 -> 15
+	7 -> 8
+	9 -> 10
+	9 -> 16
+	10 -> 11
+	11 -> 13
+	11 -> 12
+	15 -> 20
+	16 -> 21
+	20 -> 22
+	21 -> 22
+	22 -> 23
+	24 -> 26
+	24 -> 27
+	24 -> 28
+	24 -> 57
+	24 -> 59
+	24 -> 62
+	24 -> 53
+	24 -> 35
+	24 -> 65
+	24 -> 66
+	28 -> 29
+	28 -> 30
+	28 -> 31
+	35 -> 34
+	35 -> 33
+	35 -> 38
+	35 -> 37
+	35 -> 36
+	35 -> 43
+	38 -> 39
+	39 -> 40
+	40 -> 41
+	40 -> 42
+	41 -> 42
+	42 -> 51
+	43 -> 44
+	44 -> 49
+	44 -> 50
+	49 -> 50
+	49 -> 47
+	50 -> 48
+	53 -> 55
+	54 -> 56
+	55 -> 54
+	57 -> 58
+	59 -> 60
+	61 -> 63
+	62 -> 61
+	63 -> 64
+	65 -> 67
+	66 -> 68
+	69 -> 70
+	69 -> 85
+	69 -> 84
+	69 -> 112
+	70 -> 71
+	70 -> 75
+	75 -> 76
+	76 -> 77
+	77 -> 78
+	78 -> 79
+	79 -> 80
+	80 -> 81
+	80 -> 82
+	81 -> 82
+	82 -> 83
+	84 -> 88
+	85 -> 87
+	86 -> 89
+	87 -> 86
+	88 -> 86
+	89 -> 124
+	89 -> 99
+	89 -> 102
+	91 -> 93
+	92 -> 96
+	93 -> 94
+	94 -> 98
+	96 -> 95
+	97 -> 96
+	97 -> 92
+	98 -> 97
+	99 -> 100
+	99 -> 90
+	100 -> 91
+	101 -> 110
+	102 -> 111
+	102 -> 108
+	103 -> 101
+	103 -> 110
+	104 -> 106
+	106 -> 109
+	107 -> 103
+	109 -> 107
+	110 -> 105
+	111 -> 104
+	112 -> 119
+	112 -> 122
+	113 -> 121
+	115 -> 113
+	116 -> 117
+	117 -> 115
+	118 -> 114
+	120 -> 118
+	121 -> 120
+	121 -> 118
+	122 -> 116
+	124 -> 125
+	124 -> 129
+	124 -> 131
+	125 -> 127
+	129 -> 128
+	131 -> 130
+	139 -> 141
+	139 -> 145
+	139 -> 190
+	139 -> 181
+	142 -> 159
+	142 -> 157
+	142 -> 155
+	142 -> 153
+	142 -> 151
+	142 -> 148
+	142 -> 149
+	142 -> 174
+	142 -> 172
+	142 -> 170
+	142 -> 167
+	142 -> 165
+	142 -> 163
+	142 -> 161
+	142 -> 176
+	145 -> 147
+	145 -> 142
+	148 -> 150
+	151 -> 152
+	153 -> 154
+	155 -> 156
+	157 -> 158
+	159 -> 160
+	161 -> 162
+	163 -> 164
+	165 -> 166
+	167 -> 168
+	170 -> 169
+	172 -> 171
+	174 -> 173
+	176 -> 175
+	181 -> 200
+	182 -> 186
+	182 -> 184
+	184 -> 188
+	184 -> 183
+	186 -> 185
+	186 -> 189
+	190 -> 193
+	193 -> 194
+	193 -> 196
+	194 -> 195
+	194 -> 198
+	196 -> 199
+	196 -> 192
+	198 -> 191
+	199 -> 197
+	200 -> 182
+	rankdir=LR
+}

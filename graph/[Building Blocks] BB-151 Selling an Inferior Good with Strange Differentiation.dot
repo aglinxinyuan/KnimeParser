@@ -1,0 +1,20 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Customer Distributions"]
+	3 [label="Simulate Market"]
+	4 [label="Customer Distributions"]
+	5 [label="Simulate Market"]
+	6 [label="Table Creator"]
+	7 [label=Concatenate]
+	8 [label="Row Filter"]
+	1 -> 2
+	2 -> 3
+	2 -> 3
+	3 -> 7
+	4 -> 5
+	4 -> 5
+	5 -> 7
+	6 -> 4
+	7 -> 8
+	rankdir=LR
+}

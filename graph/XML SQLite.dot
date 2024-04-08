@@ -1,0 +1,75 @@
+digraph {
+	1 [label="XML Reader"]
+	11 [label="Java Snippet _simple_"]
+	12 [label="XML Reader"]
+	15 [label=Joiner]
+	16 [label="Column Filter"]
+	18 [label="OSM Map View"]
+	19 [label="SQLite Connector"]
+	20 [label="DB Writer"]
+	21 [label="DB Connection Closer"]
+	22 [label="DB SQL Executor"]
+	23 [label="DB SQL Executor"]
+	24 [label="DB SQL Executor"]
+	28 [label="DB Update"]
+	29 [label="DB Query Reader"]
+	30 [label="DB Query Reader"]
+	31 [label="DB Query Reader"]
+	32 [label="DB Update"]
+	33 [label="DB Update"]
+	34 [label="Merge Variables"]
+	13 [label=XPath]
+	14 [label="Java Snippet _simple_"]
+	17 [label="Java Snippet _simple_"]
+	2 [label="XML To JSON"]
+	3 [label="JSON Path"]
+	4 [label=Ungroup]
+	5 [label=RowID]
+	6 [label="Group Loop Start"]
+	7 [label="JSON To XML"]
+	8 [label=XPath]
+	9 [label=Pivoting]
+	10 [label="Loop End"]
+	11 [label="Loop End"]
+	38 [label="XML Reader"]
+	39 [label="XML Reader"]
+	19 -> 22
+	19 -> 20
+	19 -> 31
+	19 -> 30
+	19 -> 29
+	20 -> 22
+	22 -> 23
+	23 -> 24
+	24 -> 28
+	24 -> 21
+	24 -> 32
+	24 -> 33
+	28 -> 34
+	29 -> 28
+	30 -> 32
+	31 -> 33
+	32 -> 34
+	33 -> 34
+	34 -> 21
+	13 -> 14
+	14 -> 17
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 11
+	11 -> 9
+	11 -> 35
+	11 -> 35
+	15 -> 16
+	16 -> 18
+	16 -> 11
+	17 -> 15
+	9 -> 15
+	38 -> 13
+	39 -> 2
+	rankdir=LR
+}

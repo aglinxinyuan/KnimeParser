@@ -1,0 +1,27 @@
+digraph {
+	77 [label="H2 Connector"]
+	91 [label="DB Table Remover"]
+	92 [label="DB Table Creator"]
+	93 [label="DB Connection Table Writer"]
+	94 [label="DB Insert"]
+	95 [label="DB Type Mapper"]
+	100 [label="DB GroupBy"]
+	101 [label="DB Reader"]
+	102 [label="DB Writer"]
+	103 [label="DB Loader"]
+	105 [label="Table Reader"]
+	77 -> 91
+	91 -> 92
+	91 -> 102
+	92 -> 94
+	92 -> 103
+	93 -> 95
+	94 -> 100
+	95 -> 101
+	100 -> 93
+	105 -> 103
+	105 -> 102
+	105 -> 92
+	105 -> 94
+	rankdir=LR
+}

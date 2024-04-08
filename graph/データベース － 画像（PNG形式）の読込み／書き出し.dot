@@ -1,0 +1,23 @@
+digraph {
+	4 [label="Data Generator"]
+	5 [label="Scatter Plot _JFreeChart_"]
+	6 [label="Color Manager"]
+	7 [label="Image To Table"]
+	11 [label="PNGs to Binary Objects"]
+	12 [label="Binary Objects to PNGs"]
+	13 [label="SQLite Connector"]
+	15 [label="DB Reader"]
+	16 [label="DB Writer"]
+	17 [label="DB Table Selector"]
+	4 -> 6
+	5 -> 7
+	6 -> 5
+	7 -> 11
+	11 -> 16
+	13 -> 17
+	13 -> 16
+	15 -> 12
+	16 -> 17
+	17 -> 15
+	rankdir=LR
+}

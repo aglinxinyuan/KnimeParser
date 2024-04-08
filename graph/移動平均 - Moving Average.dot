@@ -1,0 +1,10 @@
+digraph {
+	8 [label="CSV Reader"]
+	10 [label="Moving Average"]
+	11 [label="String to Date_Time"]
+	13 [label="Line Plot"]
+	8 -> 11
+	10 -> 13
+	11 -> 10
+	rankdir=LR
+}

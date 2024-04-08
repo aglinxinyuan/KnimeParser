@@ -1,0 +1,24 @@
+digraph {
+	19 [label="String Widget"]
+	20 [label="Variable to Table Row"]
+	21 [label="String Manipulation"]
+	23 [label="OpenAI Authenticator"]
+	24 [label="Credentials Configuration"]
+	94 [label="Refresh Button Widget"]
+	95 [label="Table Row to Variable"]
+	96 [label="Text Output Widget _legacy_"]
+	97 [label="LLM Prompter"]
+	98 [label="String Widget"]
+	101 [label="OpenAI LLM Connector"]
+	19 -> 98
+	20 -> 21
+	21 -> 97
+	23 -> 101
+	24 -> 23
+	94 -> 19
+	95 -> 96
+	97 -> 95
+	98 -> 20
+	101 -> 97
+	rankdir=LR
+}

@@ -1,0 +1,44 @@
+digraph {
+	1 [label="Create Spark Context _Livy_"]
+	2 [label="Azure Blob Store Connection"]
+	5 [label="Table to Spark"]
+	6 [label="Data Generator"]
+	7 [label="Spark to Parquet"]
+	8 [label="Parquet to Spark"]
+	9 [label="Spark Column Rename"]
+	10 [label="Spark to Table"]
+	32 [label="DB Table Selector"]
+	34 [label="Data Generator"]
+	35 [label="DB Table Creator"]
+	36 [label="DB Loader"]
+	37 [label="Microsoft SQL Server Connector"]
+	40 [label="DB Loader"]
+	41 [label="Hive Connector"]
+	42 [label="DB Table Creator"]
+	43 [label="List Remote Files"]
+	44 [label="Azure Blob Store File Picker"]
+	45 [label="CSV Reader"]
+	1 -> 5
+	1 -> 8
+	2 -> 1
+	2 -> 7
+	2 -> 43
+	2 -> 8
+	2 -> 40
+	2 -> 44
+	5 -> 9
+	6 -> 5
+	6 -> 42
+	6 -> 40
+	8 -> 10
+	9 -> 7
+	34 -> 35
+	34 -> 36
+	35 -> 36
+	37 -> 32
+	37 -> 35
+	41 -> 42
+	42 -> 40
+	44 -> 45
+	rankdir=LR
+}

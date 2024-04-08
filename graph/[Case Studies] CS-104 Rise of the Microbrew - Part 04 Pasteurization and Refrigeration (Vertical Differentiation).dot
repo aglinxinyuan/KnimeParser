@@ -1,0 +1,38 @@
+digraph {
+	1 [label="Customer Distributions"]
+	2 [label="Customer Distributions"]
+	7 [label="Product Generator"]
+	13 [label="Table Creator"]
+	15 [label="Customer Distributions"]
+	17 [label="Simulate Market"]
+	18 [label="Loop End"]
+	19 [label="Row Splitter"]
+	20 [label="Row Splitter"]
+	43 [label="Line Chart _JFreeChart_"]
+	44 [label="Line Chart _JFreeChart_"]
+	45 [label="Line Chart _JFreeChart_"]
+	49 [label="Chunk Loop Start"]
+	50 [label="Constant Value Column"]
+	51 [label="Column Rename"]
+	52 [label="Column Rename"]
+	53 [label=Joiner]
+	1 -> 2
+	2 -> 7
+	7 -> 17
+	7 -> 17
+	13 -> 7
+	15 -> 50
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	20 -> 52
+	20 -> 51
+	49 -> 7
+	50 -> 49
+	51 -> 53
+	52 -> 53
+	53 -> 45
+	53 -> 44
+	53 -> 43
+	rankdir=LR
+}

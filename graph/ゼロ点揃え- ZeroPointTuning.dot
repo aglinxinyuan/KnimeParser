@@ -1,0 +1,39 @@
+digraph {
+	1 [label="List Files _deprecated_"]
+	2 [label="Table Row To Variable Loop Start _deprecated_"]
+	4 [label="Loop End"]
+	12 [label="CSV Reader _deprecated_"]
+	13 [label="Row Filter"]
+	35 [label="Line Plot"]
+	36 [label=Pivoting]
+	37 [label="Math Formula"]
+	3 [label="Chunk Loop Start"]
+	9 [label="Rule Engine"]
+	10 [label="Table Row to Variable _deprecated_"]
+	11 [label="Math Formula _Variable_"]
+	18 [label="Table Row to Variable _deprecated_"]
+	22 [label="Variable Condition Loop End"]
+	23 [label="Math Formula _Variable_"]
+	42 [label="List Files_Folders"]
+	43 [label="Table Row To Variable Loop Start"]
+	44 [label="CSV Reader"]
+	3 -> 22
+	3 -> 9
+	9 -> 18
+	10 -> 11
+	11 -> 23
+	18 -> 22
+	22 -> 10
+	1 -> 2
+	2 -> 12
+	4 -> 36
+	12 -> 13
+	12 -> 3
+	13 -> 37
+	36 -> 35
+	37 -> 4
+	23 -> 13
+	42 -> 43
+	43 -> 44
+	rankdir=LR
+}

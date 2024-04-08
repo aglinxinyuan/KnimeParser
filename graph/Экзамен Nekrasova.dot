@@ -1,0 +1,29 @@
+digraph {
+	1 [label="File Reader"]
+	2 [label=Partitioning]
+	3 [label="Gradient Boosted Trees Learner _deprecated_"]
+	5 [label="Numeric Scorer _deprecated_"]
+	6 [label="Gradient Boosted Trees Predictor _deprecated_"]
+	9 [label="Simple Regression Tree Learner"]
+	10 [label="Simple Regression Tree Predictor"]
+	13 [label="Scorer _deprecated_"]
+	17 [label="Random Forest Learner"]
+	18 [label="Random Forest Predictor"]
+	21 [label="Scorer _deprecated_"]
+	22 [label="Rank Correlation"]
+	1 -> 2
+	1 -> 22
+	2 -> 3
+	2 -> 6
+	2 -> 10
+	2 -> 9
+	2 -> 18
+	2 -> 17
+	3 -> 6
+	6 -> 13
+	9 -> 10
+	10 -> 5
+	17 -> 18
+	18 -> 21
+	rankdir=LR
+}

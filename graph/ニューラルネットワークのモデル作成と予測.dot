@@ -1,0 +1,15 @@
+digraph {
+	17 [label=Partitioning]
+	18 [label="MultiLayerPerceptron Predictor"]
+	19 [label="RProp MLP Learner"]
+	21 [label="Table Reader"]
+	22 [label=Scorer]
+	23 [label=Normalizer]
+	17 -> 19
+	17 -> 18
+	18 -> 22
+	19 -> 18
+	21 -> 23
+	23 -> 17
+	rankdir=LR
+}

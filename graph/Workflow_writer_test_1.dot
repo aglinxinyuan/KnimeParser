@@ -1,0 +1,21 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label=Partitioning]
+	3 [label="Random Forest Learner"]
+	4 [label="Number to String"]
+	5 [label="Random Forest Predictor"]
+	6 [label="Model Writer"]
+	7 [label="Capture Workflow Start"]
+	8 [label="Capture Workflow End"]
+	9 [label="Workflow Writer"]
+	1 -> 4
+	2 -> 3
+	2 -> 7
+	3 -> 6
+	3 -> 5
+	4 -> 2
+	5 -> 8
+	7 -> 5
+	8 -> 9
+	rankdir=LR
+}

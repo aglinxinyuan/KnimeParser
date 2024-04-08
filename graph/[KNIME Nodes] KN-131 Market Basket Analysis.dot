@@ -1,0 +1,43 @@
+digraph {
+	116 [label="Table Reader"]
+	121 [label="Association Rule Learner _Borgelt_"]
+	122 [label="Table Reader"]
+	123 [label="Table Creator"]
+	125 [label="Subset Matcher"]
+	126 [label=Transpose]
+	127 [label="Create Collection Column"]
+	128 [label="Column Filter"]
+	129 [label="Math Formula"]
+	130 [label="Column Rename"]
+	131 [label="Column Resorter"]
+	132 [label=Sorter]
+	133 [label=Joiner]
+	134 [label="Math Formula"]
+	135 [label=Joiner]
+	136 [label=Sorter]
+	137 [label=GroupBy]
+	138 [label=Sorter]
+	145 [label="Java Snippet"]
+	146 [label="Row Filter"]
+	116 -> 133
+	121 -> 130
+	122 -> 121
+	123 -> 126
+	125 -> 135
+	126 -> 127
+	127 -> 125
+	128 -> 131
+	129 -> 128
+	130 -> 129
+	131 -> 132
+	132 -> 133
+	133 -> 134
+	134 -> 135
+	134 -> 125
+	135 -> 145
+	136 -> 137
+	137 -> 138
+	145 -> 146
+	146 -> 136
+	rankdir=LR
+}
