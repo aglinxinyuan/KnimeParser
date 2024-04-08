@@ -1,49 +1,10 @@
-import sys
-from zipfile import ZipFile
-from xml.etree import ElementTree
-from graphviz import Digraph
-from random import randint
 from collections import Counter
+from xml.etree import ElementTree
+from zipfile import ZipFile
+from graphviz import Digraph
 
 
-class Parser():
-    metanodes = dict()
-    nodes = 0
-    edges = []
-    graph = Digraph()
-
-    def __init__(self, filename):
-        with ZipFile(filename) as zf:
-            for filename in zf.namelist():
-                if filename.count("/") == 1 and filename.endswith("workflow.knime"):
-                    self.parse(zf, filename)
-        while self.metanodes.keys() & set(sum(self.edges, [])):
-            for i, (source, dest) in enumerate(self.edges):
-                if source in self.metanodes:
-                    for meta_input in self.metanodes[source][1]:
-                        self.edges[i] = [meta_input, dest]
-                elif dest in self.metanodes:
-                    for meta_output in self.metanodes[dest][0]:
-                        self.edges[i] = [source, meta_output]
-
-        inputs = Counter()
-        outputs = Counter()
-
-        for source, dest in self.edges:
-            self.graph.edge(source, dest)
-            inputs[source] += 1
-            outputs[dest] += 1
-
-        mult_op = {node for node in inputs | outputs if inputs[node] > 1 or outputs[node] > 1}
-
-        self.graph.attr(rankdir='LR')
-        #self.graph.render(filename="graph/" + str(randint(1000000, 9999999)), view=True)
-
-        #print(self.graph.source)
-        print("Operators:", self.nodes)
-        print("Edges:", len(self.edges))
-        print("Operators with multIO:", len(mult_op))
-
+class Parser:
     def parse(self, zf, filename):
         meta_inputs = []
         meta_outputs = []
@@ -84,6 +45,47 @@ class Parser():
                             self.edges.append([source, dest])
         return meta_inputs, meta_outputs
 
+    def __init__(self, filename):
+        self.metanodes = dict()
+        self.nodes = 0
+        self.edges = []
+        self.graph = Digraph()
+        with ZipFile(filename) as zf:
+            for name in zf.namelist():
+                if name.count("/") == 1 and name.endswith("workflow.knime"):
+                    self.parse(zf, name)
+        self.counter = 0
+        while self.metanodes.keys() & set(sum(self.edges, [])):
+            self.counter += 1
+            for i, (source, dest) in enumerate(self.edges):
+                if source in self.metanodes:
+                    for meta_input in self.metanodes[source][1]:
+                        self.edges[i] = [meta_input, dest]
+                elif dest in self.metanodes:
+                    for meta_output in self.metanodes[dest][0]:
+                        self.edges[i] = [source, meta_output]
+            if self.counter > 100000:
+                return
+
+        inputs = Counter()
+        outputs = Counter()
+
+        for source, dest in self.edges:
+            self.graph.edge(source, dest)
+            inputs[source] += 1
+            outputs[dest] += 1
+
+        mult_op = {node for node in inputs | outputs if inputs[node] > 1 or outputs[node] > 1}
+
+        output = "graph/" + filename.split("/")[-1].split(".")[0]
+        self.graph.attr(rankdir='LR')
+        self.graph.render(filename=output + ".dot", view=False)
+
+        content = f"Operators: {self.nodes} \nEdges: {len(self.edges)} \nOperators with multIO: {len(mult_op)}"
+        print(content)
+        with open(output + ".stat", "w") as file:
+            file.write(content)
+
 
 if __name__ == "__main__":
-    Parser("examples/02.knwf")
+    Parser("workflows/BindingDB_FMCT-5-Averaged.knwf")
