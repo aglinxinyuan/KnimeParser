@@ -1,0 +1,21 @@
+digraph {
+	1 [label="File Reader"]
+	4 [label="File Reader"]
+	12 [label="Feature Selection Loop End"]
+	13 [label="Feature Selection Loop Start _1_1_"]
+	19 [label="Feature Selection Filter"]
+	20 [label="Naive Bayes Predictor"]
+	21 [label="Naive Bayes Learner"]
+	22 [label=Partitioning]
+	23 [label=Scorer]
+	12 -> 19
+	13 -> 22
+	20 -> 23
+	21 -> 20
+	22 -> 20
+	22 -> 21
+	23 -> 12
+	1 -> 19
+	4 -> 19
+	rankdir=LR
+}

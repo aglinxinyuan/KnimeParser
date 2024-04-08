@@ -1,0 +1,117 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Missing Value"]
+	147 [label=Partitioning]
+	216 [label="Lag Column"]
+	217 [label="Linear Regression Learner"]
+	219 [label="Linear Regression Learner"]
+	222 [label="Linear Regression Learner"]
+	223 [label="Linear Regression Learner"]
+	226 [label="Linear Regression Learner"]
+	227 [label="Linear Regression Learner"]
+	228 [label="Linear Regression Learner"]
+	229 [label="Linear Regression Learner"]
+	230 [label="Linear Regression Learner"]
+	233 [label="Regression Predictor"]
+	234 [label="Regression Predictor"]
+	239 [label="Linear Regression Learner"]
+	241 [label="Line Plot _Plotly_"]
+	242 [label="Line Plot _Plotly_"]
+	243 [label="Line Plot _Plotly_"]
+	245 [label="Line Plot _Plotly_"]
+	246 [label="Line Plot _Plotly_"]
+	247 [label="Linear Regression Learner"]
+	248 [label="Lag Column"]
+	249 [label="Linear Regression Learner"]
+	250 [label="Linear Regression Learner"]
+	251 [label="Linear Regression Learner"]
+	252 [label="Linear Regression Learner"]
+	253 [label="Linear Regression Learner"]
+	256 [label="Line Plot _Plotly_"]
+	257 [label="Surface Plot _Plotly_"]
+	258 [label="Surface Plot _Plotly_"]
+	259 [label="Lag Column"]
+	260 [label=Partitioning]
+	261 [label="Linear Regression Learner"]
+	262 [label="Linear Regression Learner"]
+	263 [label="Linear Regression Learner"]
+	264 [label="Regression Predictor"]
+	265 [label="Line Plot _Plotly_"]
+	266 [label="Line Plot _Plotly_"]
+	267 [label="Line Plot _Plotly_"]
+	268 [label="Line Plot _Plotly_"]
+	269 [label="Linear Regression Learner"]
+	271 [label="Linear Regression Learner"]
+	272 [label="Linear Regression Learner"]
+	273 [label="Linear Regression Learner"]
+	274 [label="Regression Predictor"]
+	275 [label="Regression Predictor"]
+	276 [label="Line Plot _Plotly_"]
+	277 [label="Line Plot _Plotly_"]
+	8 [label="Normalizer _PMML_"]
+	12 [label="Column Auto Type Cast"]
+	19 [label="Excel Reader _XLS_"]
+	20 [label="Column Filter"]
+	22 [label="Missing Value"]
+	23 [label="Normalizer _PMML_"]
+	24 [label=Joiner]
+	147 -> 275
+	147 -> 274
+	147 -> 273
+	147 -> 272
+	147 -> 264
+	147 -> 271
+	147 -> 269
+	147 -> 219
+	147 -> 217
+	147 -> 223
+	147 -> 222
+	147 -> 247
+	147 -> 227
+	147 -> 226
+	147 -> 230
+	147 -> 229
+	147 -> 228
+	147 -> 234
+	147 -> 233
+	216 -> 147
+	222 -> 233
+	229 -> 234
+	233 -> 241
+	233 -> 246
+	233 -> 265
+	233 -> 266
+	233 -> 256
+	233 -> 258
+	234 -> 242
+	234 -> 243
+	234 -> 245
+	234 -> 268
+	234 -> 257
+	247 -> 264
+	248 -> 249
+	248 -> 250
+	248 -> 251
+	248 -> 252
+	248 -> 253
+	259 -> 260
+	260 -> 261
+	260 -> 262
+	260 -> 263
+	260 -> 239
+	264 -> 267
+	269 -> 275
+	273 -> 274
+	274 -> 276
+	275 -> 277
+	1 -> 12
+	2 -> 8
+	8 -> 24
+	12 -> 2
+	19 -> 20
+	20 -> 22
+	22 -> 23
+	23 -> 24
+	24 -> 7
+	rankdir=LR
+}

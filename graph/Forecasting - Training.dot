@@ -1,0 +1,320 @@
+digraph {
+	4 [label="DB Query Reader"]
+	7 [label="Table Creator"]
+	15 [label="DB Connector"]
+	18 [label=Sorter]
+	2 [label=Sorter]
+	8 [label=Joiner]
+	9 [label=GroupBy]
+	11 [label="Cross Joiner"]
+	12 [label="Missing Value"]
+	208 [label="Column Filter"]
+	238 [label="Column Rename"]
+	239 [label="Rule Engine"]
+	172 [label="Numeric Row Splitter"]
+	188 [label="Line Plot _local_"]
+	193 [label=Concatenate]
+	166 [label="Group Loop Start"]
+	169 [label="Math Formula"]
+	170 [label="Normalizer _PMML_"]
+	171 [label="PMML To Cell"]
+	172 [label="Loop End _2 ports_"]
+	173 [label=GroupBy]
+	174 [label=Joiner]
+	200 [label="Column Filter"]
+	177 [label="RProp MLP Learner"]
+	197 [label="Column Filter"]
+	278 [label="Rule_based Row Filter"]
+	283 [label="MultiLayerPerceptron Predictor"]
+	284 [label="Missing Value"]
+	288 [label="Numeric Scorer"]
+	289 [label="Line Plot _local_"]
+	290 [label="Row Filter"]
+	291 [label="Column Filter"]
+	292 [label="Row Splitter"]
+	293 [label="PMML Writer"]
+	294 [label="Row Filter"]
+	296 [label="Rule_based Row Filter"]
+	302 [label="Rule Engine"]
+	303 [label="RProp MLP Learner"]
+	304 [label="MultiLayerPerceptron Predictor"]
+	305 [label="Rule_based Row Filter"]
+	306 [label="Rule Engine"]
+	307 [label="Numeric Scorer"]
+	318 [label="Row Filter"]
+	319 [label="Column Filter"]
+	320 [label="Row Filter"]
+	323 [label="Line Plot _local_"]
+	30 [label="Loop End"]
+	31 [label="Group Loop Start"]
+	165 [label="Lag Column"]
+	185 [label="Row Splitter"]
+	204 [label="Row Splitter"]
+	206 [label="Lag Column"]
+	207 [label="Rule Engine"]
+	208 [label="Rule Engine"]
+	209 [label="Column Filter"]
+	210 [label="Column Rename"]
+	234 [label="Lag Column"]
+	235 [label="Rule Engine"]
+	236 [label="Double To Int"]
+	179 [label="Math Formula"]
+	182 [label="Column Filter"]
+	192 [label="Java Snippet"]
+	197 [label="Column Filter"]
+	178 [label=Joiner]
+	166 [label="Group Loop Start"]
+	169 [label="Math Formula"]
+	173 [label=GroupBy]
+	175 [label="Cell To PMML"]
+	176 [label="Denormalizer _PMML_"]
+	179 [label="Loop End"]
+	183 [label="Column Rename"]
+	184 [label="Column Rename"]
+	185 [label=Sorter]
+	187 [label="Column Rename"]
+	166 [label="Group Loop Start"]
+	169 [label="Math Formula"]
+	173 [label=GroupBy]
+	175 [label="Cell To PMML"]
+	176 [label="Denormalizer _PMML_"]
+	179 [label="Loop End"]
+	166 [label="Group Loop Start"]
+	169 [label="Math Formula"]
+	173 [label=GroupBy]
+	175 [label="Cell To PMML"]
+	176 [label="Denormalizer _PMML_"]
+	179 [label="Loop End"]
+	190 [label="Column Expressions"]
+	193 [label="Column Filter"]
+	194 [label="Column Rename"]
+	166 [label="Group Loop Start"]
+	169 [label="Math Formula"]
+	173 [label=GroupBy]
+	175 [label="Cell To PMML"]
+	176 [label="Denormalizer _PMML_"]
+	179 [label="Loop End"]
+	198 [label="Row Filter"]
+	199 [label="Row Filter"]
+	200 [label=Sorter]
+	201 [label=Sorter]
+	300 [label="Column Filter"]
+	301 [label=Sorter]
+	216 [label="Line Plot _local_"]
+	218 [label="Column Filter"]
+	222 [label="Line Plot"]
+	228 [label=GroupBy]
+	236 [label="Row Filter"]
+	237 [label="Row Filter"]
+	52 [label="MultiLayerPerceptron Predictor"]
+	64 [label="Recursive Loop Start"]
+	65 [label="Recursive Loop End"]
+	159 [label="Column Filter"]
+	172 [label="Column Resorter"]
+	292 [label="Rule Engine"]
+	293 [label="String to Date_Time"]
+	295 [label="Date_Time Shift"]
+	298 [label="Date_Time to String"]
+	301 [label="String To Number _deprecated_"]
+	306 [label="Math Formula"]
+	314 [label="Math Formula"]
+	315 [label="Column Filter"]
+	316 [label="Math Formula"]
+	317 [label="Number To String"]
+	318 [label="Math Formula"]
+	319 [label="Column Filter"]
+	320 [label=Unpivoting]
+	321 [label="Lag Column"]
+	322 [label="Math Formula"]
+	323 [label=Pivoting]
+	324 [label="Column Resorter"]
+	293 [label="String to Date_Time"]
+	294 [label="Row Filter"]
+	298 [label="Row Filter"]
+	301 [label="Rule_based Row Filter"]
+	310 [label="DB Writer"]
+	313 [label=GroupBy]
+	316 [label="Rule Engine"]
+	317 [label="Math Formula"]
+	318 [label="Column Filter"]
+	319 [label="String Manipulation"]
+	339 [label="Number To String"]
+	340 [label="String To Number"]
+	341 [label="Excel Reader"]
+	342 [label="Math Formula"]
+	343 [label="String Manipulation"]
+	344 [label="Column Filter"]
+	345 [label="Column Rename"]
+	346 [label="Column Resorter"]
+	347 [label="Math Formula"]
+	351 [label="Column Combiner"]
+	352 [label="String Manipulation"]
+	347 [label="Table Row to Variable"]
+	351 [label="Math Formula"]
+	352 [label="DB Writer"]
+	2 -> 12
+	8 -> 2
+	9 -> 11
+	11 -> 8
+	12 -> 208
+	208 -> 239
+	166 -> 8
+	169 -> 166
+	239 -> 171
+	239 -> 172
+	239 -> 173
+	171 -> 174
+	173 -> 174
+	174 -> 172
+	177 -> 283
+	197 -> 303
+	197 -> 177
+	278 -> 197
+	283 -> 296
+	315 -> 283
+	315 -> 304
+	290 -> 294
+	291 -> 289
+	294 -> 291
+	296 -> 302
+	302 -> 292
+	302 -> 290
+	302 -> 288
+	303 -> 293
+	303 -> 304
+	304 -> 305
+	305 -> 306
+	306 -> 307
+	306 -> 318
+	318 -> 320
+	319 -> 323
+	320 -> 319
+	30 -> 185
+	31 -> 165
+	165 -> 30
+	185 -> 206
+	206 -> 207
+	207 -> 234
+	208 -> 236
+	209 -> 210
+	210 -> 204
+	234 -> 235
+	235 -> 208
+	236 -> 209
+	166 -> 176
+	166 -> 173
+	173 -> 175
+	175 -> 176
+	176 -> 179
+	179 -> 169
+	166 -> 176
+	166 -> 173
+	173 -> 175
+	175 -> 176
+	176 -> 179
+	179 -> 169
+	166 -> 176
+	166 -> 173
+	173 -> 175
+	175 -> 176
+	176 -> 179
+	179 -> 169
+	166 -> 176
+	166 -> 173
+	173 -> 175
+	175 -> 176
+	176 -> 179
+	179 -> 169
+	178 -> 166
+	169 -> 183
+	183 -> 166
+	184 -> 166
+	185 -> 190
+	187 -> 193
+	169 -> 184
+	169 -> 194
+	193 -> 185
+	194 -> 166
+	169 -> 187
+	172 -> 200
+	199 -> 201
+	200 -> 178
+	201 -> 178
+	179 -> 182
+	182 -> 192
+	192 -> 197
+	197 -> 169
+	190 -> 300
+	300 -> 301
+	52 -> 292
+	64 -> 52
+	65 -> 314
+	159 -> 172
+	172 -> 65
+	292 -> 306
+	292 -> 316
+	293 -> 318
+	295 -> 298
+	298 -> 301
+	301 -> 319
+	306 -> 320
+	314 -> 315
+	316 -> 317
+	317 -> 293
+	318 -> 295
+	319 -> 65
+	320 -> 321
+	321 -> 322
+	322 -> 323
+	323 -> 324
+	324 -> 159
+	341 -> 342
+	342 -> 343
+	343 -> 351
+	344 -> 345
+	345 -> 346
+	346 -> 347
+	351 -> 352
+	352 -> 344
+	4 -> 18
+	4 -> 301
+	7 -> 8
+	15 -> 4
+	15 -> 352
+	15 -> 310
+	18 -> 8
+	239 -> 172
+	239 -> 228
+	172 -> 169
+	193 -> 179
+	193 -> 236
+	172 -> 179
+	172 -> 31
+	200 -> 166
+	303 -> 193
+	303 -> 64
+	204 -> 64
+	204 -> 278
+	301 -> 317
+	218 -> 216
+	218 -> 222
+	228 -> 351
+	236 -> 294
+	237 -> 298
+	315 -> 193
+	293 -> 340
+	294 -> 200
+	298 -> 218
+	316 -> 318
+	316 -> 237
+	317 -> 316
+	318 -> 339
+	319 -> 293
+	339 -> 319
+	340 -> 310
+	346 -> 313
+	346 -> 352
+	347 -> 172
+	351 -> 347
+	rankdir=LR
+}

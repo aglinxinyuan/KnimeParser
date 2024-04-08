@@ -1,0 +1,14 @@
+digraph {
+	8 [label="Table Creator"]
+	9 [label="Color Manager"]
+	10 [label="Bar Chart"]
+	14 [label="Extract Table Spec"]
+	16 [label="Line Plot"]
+	8 -> 10
+	8 -> 14
+	8 -> 16
+	9 -> 10
+	9 -> 16
+	14 -> 9
+	rankdir=LR
+}

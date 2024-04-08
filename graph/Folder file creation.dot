@@ -1,0 +1,19 @@
+digraph {
+	1 [label="Excel Reader"]
+	44 [label="Rule Engine"]
+	45 [label="Math Formula"]
+	47 [label="Excel Writer"]
+	51 [label="Table Row to Variable"]
+	54 [label="Create File_Folder Variables"]
+	56 [label="Group Loop Start"]
+	57 [label="Variable Loop End"]
+	1 -> 56
+	44 -> 45
+	45 -> 47
+	47 -> 57
+	51 -> 54
+	54 -> 47
+	56 -> 51
+	56 -> 44
+	rankdir=LR
+}

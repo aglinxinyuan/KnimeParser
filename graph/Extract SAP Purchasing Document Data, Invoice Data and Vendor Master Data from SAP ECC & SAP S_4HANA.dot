@@ -1,0 +1,57 @@
+digraph {
+	1 [label="KCS SAP Executor"]
+	2 [label="KCS SAP Executor"]
+	3 [label="Column Expressions"]
+	5 [label="Table Manipulator"]
+	6 [label="KCS SAP Executor"]
+	7 [label="KCS SAP Executor"]
+	8 [label="Column Expressions"]
+	9 [label="Group Loop Start"]
+	10 [label="Loop End"]
+	11 [label="Joiner _Labs_"]
+	12 [label=Sorter]
+	13 [label="Table Manipulator"]
+	14 [label="Group Loop Start"]
+	15 [label="Loop End"]
+	16 [label="Joiner _Labs_"]
+	17 [label="KCS SAP Executor"]
+	18 [label="Column Expressions"]
+	19 [label=Sorter]
+	20 [label="KCS SAP Executor"]
+	21 [label="KCS SAP Executor"]
+	22 [label="Joiner _Labs_"]
+	23 [label="Joiner _Labs_"]
+	24 [label="KCS SAP Executor"]
+	25 [label="KCS SAP Executor"]
+	26 [label="KCS SAP Executor"]
+	27 [label=Unpivoting]
+	28 [label=GroupBy]
+	30 [label="Table Manipulator"]
+	1 -> 28
+	1 -> 11
+	2 -> 10
+	3 -> 5
+	5 -> 9
+	6 -> 12
+	6 -> 16
+	7 -> 15
+	8 -> 13
+	9 -> 2
+	10 -> 11
+	12 -> 8
+	13 -> 14
+	14 -> 7
+	15 -> 16
+	17 -> 19
+	17 -> 22
+	18 -> 20
+	18 -> 21
+	19 -> 18
+	20 -> 22
+	21 -> 23
+	22 -> 23
+	27 -> 3
+	28 -> 30
+	30 -> 27
+	rankdir=LR
+}

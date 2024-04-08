@@ -1,0 +1,537 @@
+digraph {
+	1 [label="String Input"]
+	2 [label="String Input"]
+	6 [label="Merge Variables"]
+	7 [label="WrappedNode Input"]
+	11 [label="Variable to Table Row"]
+	866 [label="WrappedNode Output"]
+	867 [label="Text Output"]
+	870 [label="Text Output"]
+	1100 [label="Table Creator"]
+	1101 [label="Table Row to Variable"]
+	1154 [label="Table Row to Variable"]
+	1156 [label="Table Creator"]
+	59 [label="String Manipulation"]
+	797 [label="Table Row to Variable"]
+	800 [label="Column Rename"]
+	861 [label="Row Filter"]
+	862 [label="Column Rename"]
+	863 [label="Table Row to Variable"]
+	1155 [label="Merge Variables"]
+	1158 [label="Merge Variables"]
+	1159 [label="Table Creator"]
+	1161 [label="Table Row to Variable"]
+	1162 [label="Merge Variables"]
+	1163 [label="Table Creator"]
+	782 [label="Table Creator"]
+	783 [label=Concatenate]
+	859 [label="Table Column to Variable"]
+	870 [label="Text Output"]
+	889 [label="Column Rename"]
+	899 [label="Column Filter"]
+	900 [label=Transpose]
+	902 [label="WrappedNode Input"]
+	1061 [label="Extract Column Header"]
+	1064 [label="IF Switch"]
+	1070 [label="String Manipulation"]
+	1071 [label="End IF"]
+	1066 [label="String Manipulation"]
+	1067 [label=Transpose]
+	1068 [label="String Manipulation"]
+	1069 [label=Transpose]
+	1062 [label="Math Formula"]
+	1063 [label="Table Row to Variable"]
+	1065 [label="Rule Engine Variable"]
+	1113 [label="Row Filter"]
+	1114 [label="Table Row to Variable"]
+	1116 [label="Table View _JavaScript_"]
+	1117 [label="Rule_based Row Filter"]
+	1118 [label="Column Filter"]
+	1142 [label="Table Row to Variable"]
+	1143 [label="Rule Engine Variable"]
+	1154 [label="WrappedNode Output"]
+	1156 [label="Text Output"]
+	1159 [label="Table Creator"]
+	1161 [label="Table Row to Variable"]
+	1162 [label="Row Filter"]
+	1164 [label="Table Creator"]
+	1081 [label="WrappedNode Input"]
+	1082 [label="WrappedNode Output"]
+	1086 [label="Column Rename"]
+	1033 [label="Random Forest Predictor"]
+	1037 [label=Joiner]
+	1077 [label="Document Vector Applier"]
+	1078 [label="Model Reader"]
+	1079 [label="Model Reader"]
+	1080 [label="Column Filter"]
+	1083 [label="Column Filter"]
+	971 [label="Chi_Square Keyword Extractor"]
+	1036 [label="Strings To Document"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	117 [label="Dictionary Tagger"]
+	119 [label="Stop Word Filter"]
+	779 [label="Case Converter"]
+	781 [label="POS Tagger"]
+	782 [label="File Reader"]
+	783 [label="Stanford Lemmatizer"]
+	1056 [label=Transpose]
+	1057 [label=Sorter]
+	1058 [label="Row Filter"]
+	1060 [label=Transpose]
+	1062 [label="Column Rename _Regex_"]
+	1084 [label=RowID]
+	22 [label="Strings To Document"]
+	870 [label="Text Output"]
+	859 [label="Column Rename"]
+	860 [label="Column Rename"]
+	865 [label=GroupBy]
+	885 [label="Math Formula"]
+	886 [label=Sorter]
+	758 [label=Joiner]
+	849 [label="Similarity Search"]
+	850 [label="String Distances"]
+	875 [label="Term To String"]
+	876 [label="Term To String"]
+	879 [label="Column Rename"]
+	880 [label="Column Rename"]
+	881 [label="Rule Engine"]
+	883 [label="String Manipulation"]
+	887 [label="String Manipulation"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	117 [label="Dictionary Tagger"]
+	119 [label="Stop Word Filter"]
+	779 [label="Case Converter"]
+	782 [label="File Reader"]
+	783 [label="Stanford Lemmatizer"]
+	1079 [label="Variable to Table Row"]
+	766 [label="Chi_Square Keyword Extractor"]
+	767 [label=Joiner]
+	771 [label="Column Rename"]
+	774 [label="Snowball Stemmer"]
+	766 [label="Chi_Square Keyword Extractor"]
+	767 [label=Joiner]
+	771 [label="Column Rename"]
+	774 [label="Snowball Stemmer"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	117 [label="Dictionary Tagger"]
+	119 [label="Stop Word Filter"]
+	779 [label="Case Converter"]
+	782 [label="File Reader"]
+	783 [label="Stanford Lemmatizer"]
+	1114 [label="Table Row to Variable"]
+	1119 [label="WrappedNode Input"]
+	1125 [label="Generic JavaScript View"]
+	1127 [label="Rule Engine Variable"]
+	1128 [label="CASE Switch Variable _Start_"]
+	1129 [label="Send Email"]
+	1130 [label="Variable to Table Row"]
+	1132 [label="CASE Switch Data _End_"]
+	1133 [label="Variable to Table Row"]
+	1136 [label="Rule Engine Variable"]
+	1139 [label="Row Filter"]
+	1140 [label="Text Output"]
+	1141 [label="Table Row to Variable"]
+	1143 [label="Row Filter"]
+	1144 [label="Row Filter"]
+	1156 [label="Text Output"]
+	1158 [label="WrappedNode Output"]
+	1159 [label="Table Creator"]
+	1160 [label="Table Editor _JavaScript_"]
+	1162 [label=RowID]
+	1163 [label="String Manipulation"]
+	1164 [label="Table Row to Variable"]
+	1165 [label="Row Filter"]
+	1166 [label="Table Creator"]
+	1168 [label="Table Creator"]
+	1135 [label="IF Switch"]
+	870 [label="Text Output"]
+	902 [label="WrappedNode Input"]
+	907 [label="WrappedNode Output"]
+	1113 [label="Row Filter"]
+	1114 [label="Table Row to Variable"]
+	1116 [label="Table Row to Variable"]
+	1117 [label="Variable to Table Row"]
+	1156 [label="Text Output"]
+	1159 [label="Table Creator"]
+	1161 [label="Table Row to Variable"]
+	1162 [label="Row Filter"]
+	1168 [label="Table Creator"]
+	870 [label="Text Output"]
+	902 [label="WrappedNode Input"]
+	907 [label="WrappedNode Output"]
+	1113 [label="Row Filter"]
+	1114 [label="Table Row to Variable"]
+	1116 [label="Table Row to Variable"]
+	1117 [label="Variable to Table Row"]
+	1157 [label="Text Output"]
+	1159 [label="Table Creator"]
+	1161 [label="Table Row to Variable"]
+	1162 [label="Row Filter"]
+	1168 [label="Table Creator"]
+	1140 [label="End IF"]
+	1141 [label="End IF"]
+	1144 [label="IF Switch"]
+	870 [label="Text Output"]
+	902 [label="WrappedNode Input"]
+	907 [label="WrappedNode Output"]
+	1114 [label="Table Row to Variable"]
+	1116 [label="Table Row to Variable"]
+	1130 [label="Variable to Table Row"]
+	1144 [label=Joiner]
+	1145 [label="Variable to Table Row"]
+	1156 [label="Table Creator"]
+	1159 [label="Table Creator"]
+	1160 [label="Text Output"]
+	1161 [label="Table Row to Variable"]
+	1162 [label="Row Filter"]
+	1163 [label="Send Email"]
+	1147 [label="Empty Table Switch"]
+	1148 [label="End IF"]
+	870 [label="Text Output"]
+	902 [label="WrappedNode Input"]
+	907 [label="WrappedNode Output"]
+	1113 [label="Row Filter"]
+	1114 [label="Table Row to Variable"]
+	1116 [label="Table Row to Variable"]
+	1125 [label="Generic JavaScript View"]
+	1127 [label="Rule Engine Variable"]
+	1128 [label="CASE Switch Variable _Start_"]
+	1130 [label="Variable to Table Row"]
+	1132 [label="CASE Switch Data _End_"]
+	1133 [label="Variable to Table Row"]
+	1156 [label="Text Output"]
+	1159 [label="Table Creator"]
+	1161 [label="Table Row to Variable"]
+	1162 [label="Row Filter"]
+	1163 [label="Send Email"]
+	1168 [label="Table Creator"]
+	755 [label="Table Reader"]
+	958 [label="Row Filter"]
+	965 [label="Table Reader"]
+	967 [label="Table Creator"]
+	969 [label=Joiner]
+	970 [label="Row Filter"]
+	971 [label="Row Splitter"]
+	972 [label="Constant Value Column"]
+	973 [label="Constant Value Column"]
+	974 [label=Concatenate]
+	1091 [label=Concatenate]
+	1113 [label="Table Row to Variable"]
+	951 [label="Reference Row Filter"]
+	953 [label="Table Writer"]
+	955 [label=Concatenate]
+	968 [label="Column Rename"]
+	969 [label="Constant Value Column"]
+	970 [label="Column Resorter"]
+	974 [label="Row Splitter"]
+	880 [label="Date_Time Input"]
+	881 [label="Variable to Table Row"]
+	882 [label="Column Appender"]
+	888 [label="Column Rename"]
+	896 [label="Column Appender"]
+	906 [label="String Manipulation"]
+	907 [label="Cell Splitter"]
+	908 [label="String Manipulation"]
+	909 [label="Table Row to Variable"]
+	910 [label="Column Filter"]
+	911 [label="Constant Value Column"]
+	912 [label="Constant Value Column"]
+	913 [label=Concatenate]
+	914 [label="IF Switch"]
+	915 [label="Table Row to Variable"]
+	916 [label="Rule Engine Variable"]
+	917 [label="End IF"]
+	920 [label="Column Resorter"]
+	950 [label="Column Appender"]
+	951 [label="Variable to Table Row"]
+	952 [label="Column Filter"]
+	954 [label="Table Row to Variable"]
+	1153 [label="Variable to Table Row"]
+	883 [label="Table Writer"]
+	1152 [label="Variable to Table Row"]
+	1161 [label="Table Reader"]
+	59 -> 861
+	59 -> 800
+	797 -> 755
+	800 -> 797
+	861 -> 862
+	862 -> 863
+	863 -> 755
+	1 -> 6
+	2 -> 6
+	6 -> 11
+	11 -> 866
+	867 -> 954
+	870 -> 954
+	1100 -> 1101
+	1101 -> 954
+	1154 -> 870
+	1156 -> 59
+	958 -> 1162
+	1143 -> 866
+	1159 -> 1161
+	1161 -> 1162
+	1162 -> 867
+	1163 -> 1154
+	1066 -> 1068
+	1067 -> 1066
+	1068 -> 1069
+	1062 -> 1063
+	1063 -> 1065
+	1061 -> 1062
+	1061 -> 1067
+	1064 -> 1070
+	1064 -> 1071
+	1070 -> 1071
+	1069 -> 1064
+	1065 -> 1064
+	1142 -> 1143
+	782 -> 783
+	783 -> 1116
+	859 -> 782
+	859 -> 1164
+	859 -> 1159
+	889 -> 783
+	899 -> 900
+	900 -> 889
+	900 -> 859
+	902 -> 1061
+	1071 -> 899
+	1113 -> 1114
+	1114 -> 870
+	1116 -> 1117
+	1117 -> 1118
+	1118 -> 1154
+	1118 -> 1142
+	1143 -> 1154
+	1159 -> 1162
+	1161 -> 1156
+	1162 -> 1161
+	1164 -> 1113
+	115 -> 779
+	116 -> 783
+	117 -> 119
+	119 -> 116
+	779 -> 781
+	781 -> 117
+	782 -> 117
+	1036 -> 115
+	783 -> 968
+	1033 -> 1083
+	1037 -> 774
+	783 -> 1037
+	1078 -> 115
+	1079 -> 1033
+	767 -> 1033
+	783 -> 115
+	783 -> 1037
+	1056 -> 1057
+	1057 -> 1058
+	1058 -> 1060
+	1060 -> 1062
+	1084 -> 1056
+	1081 -> 1086
+	1086 -> 1036
+	1083 -> 1084
+	1062 -> 1082
+	849 -> 758
+	850 -> 849
+	875 -> 883
+	876 -> 887
+	879 -> 881
+	880 -> 849
+	880 -> 850
+	881 -> 849
+	881 -> 758
+	883 -> 879
+	887 -> 880
+	859 -> 875
+	860 -> 875
+	865 -> 885
+	885 -> 886
+	758 -> 865
+	115 -> 779
+	116 -> 783
+	117 -> 119
+	119 -> 116
+	779 -> 117
+	782 -> 117
+	766 -> 771
+	771 -> 767
+	774 -> 766
+	766 -> 771
+	771 -> 767
+	774 -> 766
+	115 -> 779
+	116 -> 783
+	117 -> 119
+	119 -> 116
+	779 -> 117
+	782 -> 117
+	22 -> 115
+	886 -> 1144
+	783 -> 774
+	1079 -> 22
+	767 -> 859
+	767 -> 859
+	783 -> 774
+	1114 -> 870
+	1119 -> 1168
+	1119 -> 1166
+	1119 -> 115
+	1119 -> 1159
+	1119 -> 1079
+	1119 -> 1125
+	1125 -> 1127
+	1127 -> 1128
+	1128 -> 1129
+	1128 -> 1133
+	1129 -> 1130
+	1130 -> 1132
+	1132 -> 1136
+	1132 -> 954
+	1133 -> 1132
+	1136 -> 954
+	1139 -> 1114
+	1140 -> 1128
+	1141 -> 1140
+	1143 -> 1141
+	1144 -> 1162
+	1159 -> 1165
+	1162 -> 1163
+	1163 -> 883
+	1164 -> 1156
+	1165 -> 1164
+	1166 -> 1139
+	1168 -> 1143
+	870 -> 1117
+	902 -> 1116
+	1113 -> 1114
+	1114 -> 870
+	1116 -> 1159
+	1116 -> 1168
+	1117 -> 907
+	1159 -> 1162
+	1161 -> 1156
+	1162 -> 1161
+	1168 -> 1113
+	870 -> 1117
+	902 -> 1116
+	1113 -> 1114
+	1114 -> 870
+	1116 -> 1159
+	1116 -> 1168
+	1117 -> 907
+	1159 -> 1162
+	1161 -> 59
+	1162 -> 1161
+	1168 -> 1113
+	870 -> 1163
+	902 -> 1116
+	1114 -> 870
+	1116 -> 1145
+	1116 -> 1156
+	1116 -> 1159
+	1130 -> 907
+	1144 -> 1114
+	1145 -> 1144
+	1156 -> 1144
+	1159 -> 1162
+	1161 -> 883
+	1162 -> 1161
+	1163 -> 1130
+	870 -> 1128
+	902 -> 1125
+	902 -> 1116
+	1113 -> 1114
+	1114 -> 870
+	1116 -> 1168
+	1116 -> 1159
+	1125 -> 1127
+	1127 -> 1128
+	1128 -> 1163
+	1128 -> 1133
+	1130 -> 1132
+	1132 -> 907
+	1133 -> 1132
+	1159 -> 1162
+	1161 -> 1156
+	1162 -> 1161
+	1163 -> 1130
+	1168 -> 1113
+	965 -> 969
+	967 -> 969
+	969 -> 970
+	970 -> 968
+	970 -> 973
+	970 -> 972
+	972 -> 974
+	973 -> 974
+	755 -> 1091
+	974 -> 1091
+	1091 -> 958
+	1113 -> 958
+	968 -> 969
+	969 -> 970
+	906 -> 908
+	907 -> 906
+	908 -> 909
+	908 -> 910
+	909 -> 911
+	909 -> 912
+	910 -> 911
+	910 -> 912
+	911 -> 913
+	912 -> 913
+	913 -> 917
+	914 -> 920
+	914 -> 907
+	915 -> 916
+	916 -> 914
+	920 -> 917
+	880 -> 881
+	881 -> 882
+	882 -> 950
+	758 -> 914
+	896 -> 882
+	950 -> 952
+	951 -> 950
+	951 -> 896
+	952 -> 875
+	954 -> 951
+	883 -> 1142
+	951 -> 859
+	953 -> 1153
+	886 -> 953
+	970 -> 974
+	974 -> 883
+	974 -> 859
+	974 -> 951
+	917 -> 968
+	917 -> 1161
+	1161 -> 951
+	8 -> 1096
+	895 -> 1144
+	895 -> 1144
+	1096 -> 895
+	1099 -> 1135
+	1135 -> 1139
+	1135 -> 1137
+	1137 -> 1140
+	1139 -> 1140
+	1140 -> 1141
+	1141 -> 1148
+	1144 -> 1145
+	1144 -> 755
+	1144 -> 755
+	1145 -> 1148
+	1147 -> 1149
+	1147 -> 1099
+	1148 -> 954
+	1149 -> 1141
+	958 -> 1147
+	rankdir=LR
+}

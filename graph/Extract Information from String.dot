@@ -1,0 +1,14 @@
+digraph {
+	6 [label="Table Creator"]
+	7 [label="Cell Splitter"]
+	8 [label="String Manipulation"]
+	9 [label="Column Rename"]
+	10 [label="Column Filter"]
+	11 [label="Duplicate Row Filter"]
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	rankdir=LR
+}

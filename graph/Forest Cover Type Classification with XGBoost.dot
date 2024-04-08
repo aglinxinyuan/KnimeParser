@@ -1,0 +1,31 @@
+digraph {
+	2 [label=Partitioning]
+	1 [label="File Reader"]
+	6 [label="Number To String"]
+	11 [label="Many to One"]
+	12 [label="Column Splitter"]
+	13 [label="Column Splitter"]
+	14 [label="Many to One"]
+	15 [label="Column Appender"]
+	16 [label="Column Appender"]
+	17 [label="Column Resorter"]
+	27 [label="XGBoost Tree Ensemble Learner"]
+	28 [label="XGBoost Predictor"]
+	29 [label=Scorer]
+	1 -> 6
+	6 -> 12
+	11 -> 15
+	12 -> 13
+	12 -> 16
+	13 -> 14
+	13 -> 11
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	2 -> 27
+	2 -> 28
+	17 -> 2
+	27 -> 28
+	28 -> 29
+	rankdir=LR
+}

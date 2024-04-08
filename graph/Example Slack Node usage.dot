@@ -1,0 +1,15 @@
+digraph {
+	1 [label="Get Channels"]
+	2 [label="Get Users"]
+	3 [label="Channel Names"]
+	4 [label="Channel History"]
+	6 [label="Message Slack channel _row based_"]
+	7 [label="Table Creator"]
+	9 [label="Message Slack User _beta_"]
+	10 [label="Message Slack channel"]
+	12 [label="Message Slack channel"]
+	13 [label="Channel History"]
+	14 [label="Channel History"]
+	7 -> 6
+	rankdir=LR
+}

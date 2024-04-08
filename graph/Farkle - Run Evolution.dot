@@ -1,0 +1,147 @@
+digraph {
+	49 [label="File Reader"]
+	50 [label="Recursive Loop Start"]
+	12 [label=GroupBy]
+	13 [label="Chunk Loop Start"]
+	16 [label="Table Row to Variable"]
+	23 [label=Concatenate]
+	30 [label="Constant Value Column"]
+	31 [label=GroupBy]
+	32 [label="Loop End"]
+	20 [label=Joiner]
+	26 [label=GroupBy]
+	27 [label="Java Snippet"]
+	42 [label="Recursive Loop Start"]
+	44 [label="Java Snippet"]
+	45 [label="Recursive Loop End"]
+	46 [label="Java Snippet"]
+	47 [label="Column Filter"]
+	48 [label="Column Filter"]
+	49 [label="Empty Table Creator"]
+	50 [label="Constant Value Column"]
+	51 [label="Counter Generation"]
+	52 [label="Column Rename"]
+	53 [label="Row Filter"]
+	54 [label=RowID]
+	41 [label="Column Filter"]
+	42 [label="Parallel Chunk Start"]
+	43 [label="Parallel Chunk End"]
+	44 [label="Row Filter"]
+	35 [label="Column Filter"]
+	36 [label="Cross Joiner"]
+	37 [label="Column Rename"]
+	38 [label="Top k Selector"]
+	39 [label="Java Snippet"]
+	48 [label="Table Creator"]
+	49 [label="Cross Joiner"]
+	51 [label="Rule_based Row Splitter"]
+	52 [label="Counter Generation"]
+	41 [label=Joiner]
+	42 [label=Joiner]
+	43 [label="Column Rename"]
+	44 [label="Column Rename"]
+	45 [label="Random Label Assigner"]
+	46 [label="Java Snippet"]
+	47 [label="Column Filter"]
+	56 [label="CSV Writer"]
+	59 [label=Concatenate]
+	60 [label=Sorter]
+	11 [label="File Reader"]
+	12 [label=Joiner]
+	13 [label="Random Number Assigner"]
+	14 [label="Duplicate Row Filter"]
+	15 [label="Random Label Assigner"]
+	16 [label="Column Filter"]
+	41 [label=Joiner]
+	55 [label="Random Label Assigner"]
+	56 [label="Rule_based Row Splitter"]
+	57 [label=Concatenate]
+	58 [label="Column Filter"]
+	62 [label="Variable to Table Column"]
+	63 [label="Java Snippet"]
+	64 [label=RowID]
+	54 [label=GroupBy]
+	57 [label=Sorter]
+	58 [label="Line Plot"]
+	60 [label="File Reader"]
+	61 [label="Recursive Loop End"]
+	63 [label="Java Edit Variable _simple_"]
+	64 [label="CSV Writer"]
+	20 -> 46
+	26 -> 27
+	42 -> 44
+	44 -> 20
+	45 -> 26
+	46 -> 38
+	46 -> 48
+	47 -> 54
+	48 -> 45
+	49 -> 50
+	50 -> 51
+	51 -> 12
+	43 -> 42
+	64 -> 47
+	54 -> 45
+	12 -> 42
+	13 -> 16
+	16 -> 44
+	23 -> 30
+	30 -> 49
+	30 -> 49
+	31 -> 32
+	32 -> 41
+	27 -> 31
+	41 -> 43
+	42 -> 13
+	44 -> 23
+	41 -> 42
+	42 -> 45
+	43 -> 41
+	43 -> 44
+	44 -> 42
+	45 -> 46
+	46 -> 47
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 16
+	15 -> 57
+	16 -> 15
+	41 -> 55
+	55 -> 56
+	56 -> 58
+	56 -> 12
+	58 -> 57
+	35 -> 36
+	35 -> 36
+	36 -> 49
+	37 -> 12
+	38 -> 35
+	38 -> 62
+	39 -> 51
+	48 -> 49
+	49 -> 37
+	51 -> 38
+	51 -> 41
+	43 -> 39
+	64 -> 59
+	59 -> 60
+	60 -> 63
+	60 -> 64
+	57 -> 59
+	63 -> 56
+	49 -> 50
+	50 -> 12
+	50 -> 38
+	50 -> 63
+	43 -> 38
+	64 -> 41
+	64 -> 41
+	54 -> 58
+	54 -> 64
+	57 -> 54
+	60 -> 12
+	57 -> 57
+	63 -> 12
+	rankdir=LR
+}

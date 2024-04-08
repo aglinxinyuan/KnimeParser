@@ -1,0 +1,20 @@
+digraph {
+	1 [label="List Files"]
+	2 [label="URL to File Path"]
+	4 [label="Excel Reader _XLS_"]
+	5 [label="Loop End"]
+	6 [label="Table Row To Variable Loop Start"]
+	7 [label="Variable to Table Row"]
+	9 [label="String to URI"]
+	10 [label="Copy_Move Files"]
+	1 -> 2
+	2 -> 6
+	4 -> 5
+	4 -> 9
+	6 -> 7
+	6 -> 4
+	7 -> 9
+	9 -> 10
+	10 -> 5
+	rankdir=LR
+}

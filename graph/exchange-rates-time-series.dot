@@ -1,0 +1,31 @@
+digraph {
+	16 [label="Column Filter"]
+	17 [label=XPath]
+	18 [label=XPath]
+	19 [label="Constant Value Column"]
+	20 [label="GET Request"]
+	21 [label="Table Creator"]
+	22 [label="String Manipulation"]
+	23 [label="Table Creator"]
+	25 [label="Table Row To Variable Loop Start"]
+	26 [label="String Manipulation"]
+	27 [label="Loop End"]
+	28 [label="DB Table Creator"]
+	29 [label="PostgreSQL Connector"]
+	30 [label="DB Writer"]
+	16 -> 28
+	16 -> 30
+	17 -> 18
+	18 -> 19
+	19 -> 16
+	20 -> 17
+	21 -> 22
+	22 -> 25
+	23 -> 26
+	25 -> 23
+	26 -> 20
+	28 -> 30
+	29 -> 28
+	30 -> 27
+	rankdir=LR
+}

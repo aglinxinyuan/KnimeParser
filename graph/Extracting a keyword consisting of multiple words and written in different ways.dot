@@ -1,0 +1,17 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label="Strings To Document"]
+	4 [label="Table Creator"]
+	12 [label="Dictionary Tagger"]
+	13 [label="Bag Of Words Creator"]
+	14 [label="Dictionary Replacer"]
+	15 [label=TF]
+	1 -> 2
+	2 -> 12
+	4 -> 12
+	4 -> 14
+	12 -> 14
+	13 -> 15
+	14 -> 13
+	rankdir=LR
+}

@@ -1,0 +1,15 @@
+digraph {
+	2 [label="Table Reader"]
+	3 [label="Row Splitter"]
+	4 [label="Rule Engine"]
+	5 [label="String Manipulation"]
+	6 [label=Concatenate]
+	7 [label="Table Writer"]
+	2 -> 3
+	3 -> 6
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	rankdir=LR
+}

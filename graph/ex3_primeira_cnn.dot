@@ -1,0 +1,30 @@
+digraph {
+	1 [label="List Files_Folders"]
+	2 [label="Image Reader _Table_"]
+	3 [label=Sorter]
+	4 [label="Rule Engine"]
+	5 [label="Path to String"]
+	6 [label="Image Resizer"]
+	8 [label="Column Appender"]
+	10 [label="Create Collection Column"]
+	20 [label="Image Calculator"]
+	24 [label="Row Sampling"]
+	25 [label="Column Appender"]
+	26 [label="Table Manipulator"]
+	27 [label="Category To Number"]
+	1 -> 3
+	2 -> 6
+	3 -> 5
+	4 -> 25
+	5 -> 4
+	5 -> 25
+	6 -> 20
+	8 -> 27
+	10 -> 26
+	20 -> 8
+	24 -> 2
+	24 -> 8
+	25 -> 24
+	27 -> 10
+	rankdir=LR
+}

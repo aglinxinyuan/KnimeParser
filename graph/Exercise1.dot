@@ -1,0 +1,12 @@
+digraph {
+	15 [label=Sorter]
+	17 [label=Pivoting]
+	19 [label=RowID]
+	20 [label="CSV Reader"]
+	21 [label="Column Renamer"]
+	15 -> 19
+	17 -> 21
+	20 -> 17
+	21 -> 15
+	rankdir=LR
+}

@@ -1,0 +1,23 @@
+digraph {
+	1 [label="Data Generator"]
+	2 [label="Column Splitter"]
+	4 [label="Extract Table Spec"]
+	5 [label="Variable to Table Row"]
+	6 [label=Transpose]
+	7 [label=Ungroup]
+	8 [label=RowID]
+	9 [label=Joiner]
+	10 [label="Rule Engine"]
+	11 [label="CSV Writer"]
+	1 -> 2
+	1 -> 4
+	2 -> 5
+	4 -> 9
+	5 -> 6
+	6 -> 8
+	7 -> 9
+	8 -> 7
+	9 -> 10
+	10 -> 11
+	rankdir=LR
+}

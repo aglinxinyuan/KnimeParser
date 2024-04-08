@@ -1,0 +1,27 @@
+digraph {
+	2 [label="Rule Engine"]
+	3 [label="Random Numbers Generator"]
+	4 [label="Table Column to Variable"]
+	5 [label="Constant Value Column"]
+	6 [label=RowID]
+	7 [label="CASE Switch Data _Start_"]
+	9 [label="Constant Value Column"]
+	10 [label="Constant Value Column"]
+	11 [label="Constant Value Column"]
+	12 [label="CASE Switch Data _End_"]
+	13 [label="Column Filter"]
+	2 -> 6
+	2 -> 7
+	3 -> 5
+	4 -> 7
+	5 -> 2
+	6 -> 4
+	7 -> 9
+	7 -> 11
+	7 -> 10
+	9 -> 12
+	10 -> 12
+	11 -> 12
+	12 -> 13
+	rankdir=LR
+}

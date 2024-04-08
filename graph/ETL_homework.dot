@@ -1,0 +1,72 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	4 [label=GroupBy]
+	9 [label="Rule Engine"]
+	10 [label=GroupBy]
+	11 [label="Rule Engine"]
+	13 [label=Joiner]
+	14 [label="CSV Writer"]
+	15 [label="Send to Power BI"]
+	17 [label="DB Writer"]
+	18 [label="MySQL Connector"]
+	20 [label="Google Sheets Reader"]
+	21 [label="Google Sheets Connection"]
+	22 [label="Google Authentication _API Key_"]
+	23 [label=GroupBy]
+	24 [label="Rule Engine"]
+	25 [label="Rule Engine"]
+	26 [label=Joiner]
+	27 [label=GroupBy]
+	28 [label="String To Number"]
+	30 [label="Rule_based Row Filter"]
+	31 [label="CSV Reader"]
+	32 [label="MySQL Connector"]
+	33 [label="DB Writer"]
+	34 [label="Send to Power BI"]
+	35 [label="CSV Writer"]
+	38 [label="MySQL Connector"]
+	39 [label="CSV Writer"]
+	40 [label="Rule Engine"]
+	41 [label=GroupBy]
+	44 [label="Rule Engine"]
+	45 [label="Send to Power BI"]
+	46 [label="DB Writer"]
+	47 [label=Joiner]
+	48 [label=GroupBy]
+	1 -> 4
+	1 -> 30
+	4 -> 9
+	4 -> 11
+	9 -> 13
+	10 -> 14
+	10 -> 15
+	10 -> 17
+	11 -> 13
+	13 -> 10
+	18 -> 17
+	20 -> 28
+	21 -> 20
+	22 -> 21
+	23 -> 25
+	23 -> 24
+	24 -> 26
+	25 -> 26
+	26 -> 27
+	27 -> 35
+	27 -> 34
+	27 -> 33
+	28 -> 23
+	31 -> 48
+	32 -> 33
+	38 -> 46
+	40 -> 47
+	41 -> 45
+	41 -> 46
+	41 -> 39
+	44 -> 47
+	47 -> 41
+	48 -> 40
+	48 -> 44
+	rankdir=LR
+}

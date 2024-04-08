@@ -1,0 +1,37 @@
+digraph {
+	2 [label=Statistics]
+	3 [label="CSV Reader"]
+	4 [label="CSV Reader"]
+	5 [label="CSV Reader"]
+	6 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	8 [label="CSV Reader"]
+	9 [label="CSV Reader"]
+	10 [label="CSV Reader"]
+	11 [label="CSV Reader"]
+	12 [label="CSV Reader"]
+	13 [label="CSV Reader"]
+	14 [label="CSV Reader"]
+	17 [label=Sorter]
+	18 [label="Number To String"]
+	19 [label="Pie chart _local_"]
+	20 [label="Color Manager"]
+	22 [label="Linear Correlation"]
+	23 [label="Numeric Binner"]
+	25 [label="Numeric Binner"]
+	26 [label="Crosstab _local_"]
+	27 [label="Linear Correlation"]
+	28 [label="One_way ANOVA"]
+	29 [label="Box Plot _local_"]
+	3 -> 2
+	4 -> 17
+	5 -> 22
+	6 -> 23
+	7 -> 25
+	17 -> 18
+	18 -> 20
+	20 -> 19
+	23 -> 26
+	23 -> 27
+	rankdir=LR
+}

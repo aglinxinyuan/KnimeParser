@@ -1,0 +1,16 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	3 [label="Lag Column"]
+	4 [label=Sorter]
+	5 [label="Date_Time Difference"]
+	6 [label="Excel Writer"]
+	7 [label="Extract Date_Time Fields"]
+	1 -> 2
+	2 -> 4
+	3 -> 5
+	4 -> 3
+	5 -> 7
+	7 -> 6
+	rankdir=LR
+}

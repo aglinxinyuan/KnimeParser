@@ -1,0 +1,15 @@
+digraph {
+	2 [label="Python View"]
+	6 [label=Partitioning]
+	8 [label="Python Predictor"]
+	9 [label="Python Learner"]
+	246 [label="Conda Environment Propagation"]
+	247 [label="CSV Reader"]
+	6 -> 8
+	6 -> 9
+	9 -> 8
+	246 -> 247
+	247 -> 6
+	247 -> 2
+	rankdir=LR
+}

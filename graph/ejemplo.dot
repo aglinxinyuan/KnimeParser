@@ -1,0 +1,12 @@
+digraph {
+	1 [label=Concatenate]
+	2 [label=Concatenate]
+	3 [label=Concatenate]
+	4 [label=Concatenate]
+	5 [label=Concatenate]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	rankdir=LR
+}

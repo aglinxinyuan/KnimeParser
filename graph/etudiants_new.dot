@@ -1,0 +1,91 @@
+digraph {
+	21 [label="String Manipulation"]
+	36 [label="DB Table Selector"]
+	38 [label="DB Table Selector"]
+	39 [label="DB Joiner"]
+	40 [label="DB Column Rename"]
+	41 [label="DB Reader"]
+	42 [label="DB Insert"]
+	43 [label="DB Table Selector"]
+	44 [label="DB Table Selector"]
+	52 [label="DB Joiner"]
+	53 [label="DB Table Selector"]
+	54 [label="DB Joiner"]
+	55 [label="DB Column Rename"]
+	56 [label="DB Table Selector"]
+	57 [label="DB Joiner"]
+	58 [label="DB Column Rename"]
+	59 [label="String Manipulation"]
+	60 [label="String Manipulation"]
+	69 [label="Variable to Table Column"]
+	70 [label="Variable Creator"]
+	71 [label="DB Table Selector"]
+	72 [label="DB Joiner"]
+	74 [label="DB Joiner"]
+	75 [label="DB Column Rename"]
+	76 [label="DB Row Filter"]
+	77 [label="String Manipulation"]
+	78 [label="DB Table Selector"]
+	79 [label="DB Joiner"]
+	80 [label="DB Column Rename"]
+	130 [label="DB Reader"]
+	131 [label="DB Table Selector"]
+	133 [label="Table Row to Variable"]
+	139 [label="Row Filter"]
+	140 [label="MySQL Connector"]
+	142 [label="Variable Creator"]
+	143 [label="Variable to Table Column"]
+	144 [label="Column Filter"]
+	145 [label="MySQL Connector"]
+	146 [label="DB Row Filter"]
+	147 [label="DB Row Filter"]
+	21 -> 139
+	36 -> 146
+	38 -> 147
+	39 -> 40
+	40 -> 54
+	41 -> 69
+	43 -> 74
+	44 -> 72
+	52 -> 57
+	53 -> 54
+	54 -> 55
+	55 -> 52
+	56 -> 57
+	57 -> 58
+	58 -> 79
+	59 -> 60
+	60 -> 77
+	69 -> 59
+	70 -> 69
+	71 -> 72
+	72 -> 74
+	74 -> 75
+	75 -> 76
+	76 -> 52
+	77 -> 21
+	78 -> 79
+	79 -> 80
+	80 -> 41
+	130 -> 133
+	131 -> 130
+	133 -> 146
+	133 -> 147
+	139 -> 144
+	142 -> 143
+	143 -> 42
+	144 -> 143
+	145 -> 71
+	145 -> 36
+	145 -> 53
+	145 -> 56
+	145 -> 131
+	145 -> 43
+	145 -> 42
+	145 -> 38
+	145 -> 44
+	145 -> 78
+	146 -> 39
+	147 -> 39
+	rankdir=LR
+}

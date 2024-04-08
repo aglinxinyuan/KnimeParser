@@ -1,0 +1,46 @@
+digraph {
+	2 [label="Table Creator"]
+	4 [label="Table View"]
+	10 [label="Testflow Configuration"]
+	16 [label="Table Creator"]
+	22 [label="Table Creator"]
+	24 [label="Table Creator"]
+	31 [label="Table View"]
+	39 [label="SDF Reader"]
+	45 [label="RDKit Canon SMILES"]
+	47 [label="Table View"]
+	50 [label="Table Manipulator"]
+	51 [label="Table Manipulator"]
+	52 [label="Table Difference Checker"]
+	56 [label="Molecule Type Cast"]
+	57 [label="Table View"]
+	67 [label="Fluorine pKa"]
+	68 [label="Fluorine pKa"]
+	71 [label="Fluorine pKa"]
+	72 [label="Fluorine pKa"]
+	73 [label="Fluorine pKa"]
+	74 [label="Fluorine pKa"]
+	76 [label="Table Validator"]
+	77 [label="Table Validator"]
+	78 [label="Table Validator"]
+	2 -> 68
+	2 -> 56
+	16 -> 71
+	22 -> 72
+	24 -> 73
+	39 -> 45
+	45 -> 74
+	50 -> 52
+	51 -> 52
+	56 -> 57
+	56 -> 67
+	67 -> 77
+	67 -> 51
+	67 -> 31
+	68 -> 4
+	68 -> 76
+	68 -> 50
+	74 -> 47
+	74 -> 78
+	rankdir=LR
+}

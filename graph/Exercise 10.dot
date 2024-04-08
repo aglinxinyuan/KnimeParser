@@ -1,0 +1,9 @@
+digraph {
+	1 [label="CSV Reader"]
+	2 [label="CSV Writer"]
+	3 [label="CSV Reader"]
+	4 [label=GroupBy]
+	1 -> 4
+	4 -> 2
+	rankdir=LR
+}

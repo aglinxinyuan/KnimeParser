@@ -1,0 +1,74 @@
+digraph {
+	112 [label="Case Converter"]
+	113 [label="Snowball Stemmer"]
+	115 [label="Punctuation Erasure"]
+	116 [label="Number Filter"]
+	117 [label="WrappedNode Input"]
+	118 [label="WrappedNode Output"]
+	119 [label="Stop Word Filter"]
+	122 [label="Stop Word Filter"]
+	125 [label="File Reader"]
+	20 [label="Row Filter"]
+	128 [label="Column Filter"]
+	163 [label="Row Filter"]
+	164 [label="WrappedNode Input"]
+	165 [label="WrappedNode Output"]
+	166 [label="Strings To Document"]
+	167 [label="Row Filter"]
+	168 [label="Table Reader"]
+	304 [label=GroupBy]
+	756 [label="Dictionary Tagger"]
+	757 [label="Dictionary Tagger"]
+	307 [label="Column Rename"]
+	308 [label="Math Formula"]
+	309 [label="Rule Engine"]
+	777 [label="Math Formula _Multi Column_"]
+	778 [label=Joiner]
+	297 [label="Tags To String"]
+	313 [label="Missing Value"]
+	315 [label=Pivoting]
+	303 [label=TF]
+	305 [label="Bag Of Words Creator"]
+	775 [label="Scatter Plot _JavaScript_"]
+	776 [label="Color Manager"]
+	778 [label="Row Filter"]
+	779 [label="Document Viewer"]
+	780 [label="CSV Reader"]
+	781 [label="CSV Reader"]
+	112 -> 113
+	113 -> 118
+	115 -> 119
+	116 -> 115
+	117 -> 116
+	119 -> 122
+	122 -> 112
+	125 -> 122
+	20 -> 167
+	128 -> 165
+	163 -> 128
+	166 -> 163
+	167 -> 166
+	168 -> 20
+	307 -> 308
+	308 -> 309
+	309 -> 777
+	778 -> 307
+	297 -> 315
+	315 -> 313
+	305 -> 303
+	140 -> 756
+	172 -> 140
+	304 -> 778
+	756 -> 757
+	757 -> 305
+	777 -> 776
+	313 -> 778
+	303 -> 304
+	303 -> 297
+	775 -> 778
+	776 -> 775
+	778 -> 779
+	780 -> 757
+	781 -> 756
+	rankdir=LR
+}

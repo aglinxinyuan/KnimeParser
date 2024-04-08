@@ -1,0 +1,34 @@
+digraph {
+	1 [label="Excel Reader"]
+	2 [label="Row Filter"]
+	3 [label=Unpivoting]
+	4 [label="Excel Writer"]
+	6 [label="String Manipulation"]
+	7 [label=Unpivoting]
+	8 [label="String Manipulation"]
+	9 [label="String Manipulation"]
+	12 [label=Unpivoting]
+	13 [label="String Manipulation"]
+	14 [label=Joiner]
+	15 [label="Column Filter"]
+	16 [label="Column Rename"]
+	17 [label=Joiner]
+	18 [label="Column Resorter"]
+	1 -> 2
+	2 -> 3
+	2 -> 7
+	2 -> 12
+	3 -> 6
+	6 -> 8
+	7 -> 9
+	8 -> 14
+	9 -> 14
+	12 -> 13
+	13 -> 17
+	14 -> 17
+	15 -> 16
+	16 -> 18
+	17 -> 15
+	18 -> 4
+	rankdir=LR
+}

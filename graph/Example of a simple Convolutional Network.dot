@@ -1,0 +1,35 @@
+digraph {
+	10 [label=Scorer]
+	10 [label="DL4J Feedforward Learner _Classification_"]
+	10 [label="DL4J Feedforward Predictor _Classification_"]
+	41 [label="DL4J Model Initializer"]
+	42 [label="Convolution Layer"]
+	43 [label="Pooling Layer"]
+	44 [label="Convolution Layer"]
+	45 [label="Pooling Layer"]
+	46 [label="Dense Layer"]
+	35 [label="Row Splitter"]
+	32 [label="List Files"]
+	33 [label="Image Reader _Table_"]
+	34 [label="Java Snippet"]
+	37 [label="Column Filter"]
+	38 [label=Shuffle]
+	40 [label="Image Viewer"]
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	44 -> 45
+	45 -> 46
+	32 -> 33
+	33 -> 34
+	34 -> 37
+	37 -> 38
+	10 -> 10
+	10 -> 10
+	21 -> 10
+	35 -> 40
+	35 -> 10
+	35 -> 10
+	39 -> 35
+	rankdir=LR
+}

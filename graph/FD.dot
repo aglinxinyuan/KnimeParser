@@ -1,0 +1,16 @@
+digraph {
+	2 [label="File Reader"]
+	3 [label="Interactive Table _local_"]
+	4 [label="Duplicate Row Filter"]
+	8 [label="Rule_based Row Filter"]
+	10 [label="Geo_Coordinate Row Filter"]
+	11 [label="OSM Map View"]
+	14 [label="Column Filter"]
+	2 -> 3
+	2 -> 4
+	4 -> 14
+	8 -> 10
+	10 -> 11
+	14 -> 8
+	rankdir=LR
+}

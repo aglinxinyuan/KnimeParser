@@ -1,0 +1,77 @@
+digraph {
+	295 [label="GET Request"]
+	297 [label="String Manipulation"]
+	274 [label="JSON Path"]
+	276 [label=Ungroup]
+	277 [label="JSON to Table"]
+	289 [label="Column Filter"]
+	293 [label="Column Filter"]
+	294 [label="Remove Empty Rows"]
+	296 [label="Column Auto Type Cast"]
+	315 [label="Column Filter"]
+	318 [label="GET Request"]
+	274 [label="JSON Path"]
+	276 [label=Ungroup]
+	277 [label="JSON to Table"]
+	289 [label="Column Filter"]
+	293 [label="Column Filter"]
+	296 [label="Column Auto Type Cast"]
+	297 [label="Missing Value"]
+	298 [label="String to Date_Time"]
+	322 [label="GET Request"]
+	323 [label="String Manipulation"]
+	324 [label="Column Filter"]
+	274 [label="JSON Path"]
+	276 [label=Ungroup]
+	277 [label="JSON to Table"]
+	289 [label="Column Filter"]
+	293 [label="Column Filter"]
+	296 [label="Column Auto Type Cast"]
+	297 [label="Missing Value"]
+	298 [label="String to Date_Time"]
+	274 [label="JSON Path"]
+	276 [label=Ungroup]
+	277 [label="JSON to Table"]
+	289 [label="Column Filter"]
+	293 [label="Column Filter"]
+	294 [label="Remove Empty Rows"]
+	296 [label="Column Auto Type Cast"]
+	329 [label="GET Request"]
+	274 -> 289
+	276 -> 277
+	277 -> 293
+	289 -> 276
+	293 -> 294
+	294 -> 296
+	274 -> 289
+	276 -> 277
+	277 -> 293
+	289 -> 276
+	293 -> 297
+	297 -> 274
+	296 -> 296
+	274 -> 289
+	276 -> 277
+	277 -> 293
+	289 -> 276
+	293 -> 297
+	297 -> 274
+	296 -> 296
+	274 -> 289
+	276 -> 277
+	277 -> 293
+	289 -> 276
+	293 -> 294
+	294 -> 296
+	295 -> 274
+	297 -> 315
+	296 -> 297
+	315 -> 318
+	318 -> 274
+	322 -> 274
+	323 -> 324
+	324 -> 329
+	296 -> 323
+	329 -> 274
+	rankdir=LR
+}

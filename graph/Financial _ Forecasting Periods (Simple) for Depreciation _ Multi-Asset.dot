@@ -1,0 +1,138 @@
+digraph {
+	1 [label="Table Creator"]
+	25 [label=Joiner]
+	2029 [label=GroupBy]
+	2031 [label="Rule_based Row Splitter"]
+	2008 [label="Create Date_Time Range"]
+	2017 [label="Group Loop Start"]
+	2018 [label="Extract Date_Time Fields"]
+	2019 [label="Table Row to Variable"]
+	2020 [label="Row Filter"]
+	2021 [label=Rank]
+	2022 [label="Create Date_Time Range"]
+	2023 [label="Table Row to Variable"]
+	2024 [label="Math Formula"]
+	2025 [label="Loop End"]
+	2026 [label="Constant Value Column"]
+	2027 [label="Row Filter"]
+	2030 [label=Rank]
+	2032 [label="Math Formula"]
+	2033 [label="Extract Date_Time Fields"]
+	2034 [label="Constant Value Column"]
+	2035 [label="String to Date_Time"]
+	2038 [label=Rank]
+	2039 [label="Create Date_Time Range"]
+	2040 [label="Date_Time Shift"]
+	2041 [label="Table Row to Variable"]
+	2043 [label="Row Filter"]
+	2044 [label="Column Rename"]
+	2045 [label="Table Row to Variable"]
+	2046 [label="Java Edit Variable _simple_"]
+	2047 [label="Constant Value Column"]
+	2048 [label="Empty Table Switch"]
+	2049 [label="Table Row to Variable"]
+	2050 [label="Java Edit Variable _simple_"]
+	2051 [label="End IF"]
+	2052 [label="Constant Value Column"]
+	2053 [label="Create Date_Time Range"]
+	2054 [label="Table Row to Variable"]
+	2055 [label="Table Row to Variable"]
+	2057 [label="Table Row to Variable"]
+	2061 [label="Create Date_Time Range"]
+	2067 [label="Table Row To Variable Loop Start"]
+	2059 [label="Row Filter"]
+	2060 [label=GroupBy]
+	2061 [label="Create Date_Time Range"]
+	2062 [label=Rank]
+	2064 [label="Table Row to Variable"]
+	2068 [label="Date_Time Difference"]
+	2069 [label=Rank]
+	2070 [label="Math Formula"]
+	2071 [label="Number To String"]
+	2072 [label="String Manipulation"]
+	2075 [label="Math Formula"]
+	2077 [label=Joiner]
+	2080 [label=RowID]
+	2082 [label=Joiner]
+	2083 [label="Loop End _2 ports_"]
+	2084 [label=Pivoting]
+	2085 [label="Constant Value Column"]
+	2086 [label=Pivoting]
+	2087 [label="Constant Value Column"]
+	2088 [label=Unpivoting]
+	2089 [label=Pivoting]
+	2090 [label="String to Date_Time"]
+	2008 -> 2033
+	2017 -> 2018
+	2017 -> 2026
+	2017 -> 2008
+	2018 -> 2024
+	2019 -> 2026
+	2020 -> 2019
+	2021 -> 2020
+	2022 -> 2021
+	2023 -> 2022
+	2024 -> 2023
+	2026 -> 2034
+	2027 -> 2055
+	2030 -> 2027
+	2032 -> 2054
+	2033 -> 2032
+	2034 -> 2035
+	2035 -> 2040
+	2035 -> 2047
+	2035 -> 2052
+	2038 -> 2043
+	2039 -> 2038
+	2040 -> 2041
+	2041 -> 2039
+	2043 -> 2044
+	2044 -> 2048
+	2045 -> 2046
+	2046 -> 2047
+	2047 -> 2051
+	2048 -> 2049
+	2048 -> 2045
+	2049 -> 2050
+	2050 -> 2052
+	2051 -> 2025
+	2052 -> 2051
+	2053 -> 2030
+	2054 -> 2053
+	2055 -> 2019
+	2059 -> 2060
+	2060 -> 2064
+	2061 -> 2062
+	2062 -> 2068
+	2064 -> 2061
+	2068 -> 2069
+	2069 -> 2070
+	2070 -> 2071
+	2071 -> 2072
+	1 -> 2017
+	2029 -> 2057
+	2031 -> 2029
+	2031 -> 2059
+	2031 -> 2067
+	2025 -> 25
+	2025 -> 2031
+	2057 -> 2059
+	2061 -> 2075
+	2067 -> 2061
+	2072 -> 2077
+	2072 -> 2082
+	2075 -> 2077
+	2077 -> 2080
+	2080 -> 2084
+	2080 -> 2086
+	2083 -> 2088
+	2083 -> 25
+	2084 -> 2085
+	2085 -> 2083
+	2086 -> 2087
+	2087 -> 2083
+	2088 -> 2089
+	2089 -> 2090
+	2090 -> 2082
+	rankdir=LR
+}

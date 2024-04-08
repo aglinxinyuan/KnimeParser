@@ -1,0 +1,12 @@
+digraph {
+	12 [label="Table Creator"]
+	13 [label="GET Request"]
+	14 [label="JSON Path"]
+	16 [label=Ungroup]
+	17 [label="Column Filter"]
+	12 -> 13
+	13 -> 17
+	14 -> 16
+	17 -> 14
+	rankdir=LR
+}

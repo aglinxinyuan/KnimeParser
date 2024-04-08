@@ -1,0 +1,119 @@
+digraph {
+	1 [label="Table Creator"]
+	2 [label=RowID]
+	3 [label="String To Number"]
+	4 [label=Unpivoting]
+	5 [label=RowID]
+	6 [label=Unpivoting]
+	7 [label="Table Creator"]
+	8 [label="String To Number"]
+	9 [label="Table Creator"]
+	10 [label=Unpivoting]
+	11 [label=RowID]
+	12 [label="String To Number"]
+	14 [label="String To Number"]
+	15 [label=Unpivoting]
+	16 [label=RowID]
+	17 [label="Table Creator"]
+	18 [label="Table Creator"]
+	19 [label=Unpivoting]
+	20 [label="Table Creator"]
+	21 [label=RowID]
+	22 [label="String To Number"]
+	23 [label=Unpivoting]
+	24 [label=RowID]
+	25 [label="String To Number"]
+	26 [label=RowID]
+	27 [label="String To Number"]
+	28 [label="Table Creator"]
+	29 [label="Table Creator"]
+	30 [label=RowID]
+	31 [label=Unpivoting]
+	32 [label=Unpivoting]
+	33 [label="String To Number"]
+	34 [label="Table Creator"]
+	35 [label="String To Number"]
+	36 [label=RowID]
+	37 [label=Unpivoting]
+	38 [label="Scatter Plot _Plotly_"]
+	39 [label="Color Manager"]
+	40 [label="Color Manager"]
+	41 [label="Scatter Plot _Plotly_"]
+	42 [label="Color Manager"]
+	43 [label="Scatter Plot _Plotly_"]
+	44 [label="Color Manager"]
+	45 [label="Scatter Plot _Plotly_"]
+	46 [label="Color Manager"]
+	47 [label="Scatter Plot _Plotly_"]
+	48 [label="Color Manager"]
+	49 [label="Scatter Plot _Plotly_"]
+	50 [label="Color Manager"]
+	51 [label="Scatter Plot _Plotly_"]
+	52 [label="Color Manager"]
+	53 [label="Scatter Plot _Plotly_"]
+	54 [label="Color Manager"]
+	55 [label="Scatter Plot _Plotly_"]
+	56 [label=Joiner]
+	58 [label="Color Manager"]
+	61 [label="Data Explorer"]
+	62 [label="Column Combiner"]
+	63 [label="Column Rename"]
+	65 [label="Rule_based Row Filter"]
+	66 [label=Statistics]
+	67 [label="3D Scatter Plot _Plotly_"]
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 39
+	5 -> 8
+	6 -> 40
+	7 -> 5
+	8 -> 6
+	9 -> 11
+	10 -> 44
+	10 -> 56
+	11 -> 12
+	12 -> 10
+	14 -> 15
+	15 -> 42
+	15 -> 56
+	16 -> 14
+	17 -> 16
+	18 -> 21
+	19 -> 46
+	20 -> 24
+	21 -> 22
+	22 -> 19
+	23 -> 48
+	24 -> 25
+	25 -> 23
+	26 -> 33
+	27 -> 31
+	28 -> 26
+	29 -> 30
+	30 -> 27
+	31 -> 52
+	32 -> 50
+	33 -> 32
+	34 -> 36
+	35 -> 37
+	36 -> 35
+	37 -> 54
+	39 -> 38
+	40 -> 41
+	42 -> 43
+	44 -> 45
+	46 -> 47
+	48 -> 49
+	50 -> 51
+	52 -> 53
+	54 -> 55
+	56 -> 62
+	58 -> 67
+	62 -> 63
+	63 -> 65
+	63 -> 58
+	65 -> 61
+	65 -> 66
+	rankdir=LR
+}

@@ -1,0 +1,52 @@
+digraph {
+	1 [label="Excel Reader _XLS_"]
+	2 [label="Cell Splitter"]
+	8 [label="Column Rename"]
+	15 [label="Joiner _Labs_"]
+	16 [label="Excel Reader _XLS_"]
+	19 [label=Pivoting]
+	20 [label="Excel Reader _XLS_"]
+	21 [label="Row Splitter"]
+	22 [label=Unpivoting]
+	23 [label="String To Number"]
+	24 [label="Column Rename"]
+	25 [label="Math Formula"]
+	26 [label="Joiner _Labs_"]
+	27 [label="Extract Date_Time Fields"]
+	28 [label=GroupBy]
+	29 [label=Sorter]
+	31 [label="Math Formula"]
+	32 [label=GroupBy]
+	35 [label="Send to Power BI"]
+	37 [label="Missing Value"]
+	38 [label="Excel Sheet Appender _XLS_"]
+	40 [label="Send to Tableau Server"]
+	41 [label=Pivoting]
+	42 [label="Excel Sheet Appender _XLS_"]
+	43 [label="Excel Sheet Appender _XLS_"]
+	1 -> 2
+	2 -> 8
+	8 -> 27
+	15 -> 29
+	16 -> 15
+	19 -> 26
+	20 -> 23
+	21 -> 22
+	22 -> 24
+	23 -> 21
+	24 -> 26
+	24 -> 40
+	24 -> 43
+	24 -> 35
+	26 -> 28
+	26 -> 32
+	27 -> 15
+	28 -> 25
+	29 -> 19
+	29 -> 41
+	31 -> 38
+	32 -> 37
+	37 -> 31
+	41 -> 42
+	rankdir=LR
+}

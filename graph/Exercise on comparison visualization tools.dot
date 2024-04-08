@@ -1,0 +1,29 @@
+digraph {
+	18 [label="Extract Column Header"]
+	19 [label=Transpose]
+	20 [label="Color Manager"]
+	21 [label="JavaScript Bar Chart"]
+	34 [label="Rule Engine"]
+	35 [label="Column Filter"]
+	36 [label="Math Formula"]
+	38 [label="Bar Chart"]
+	40 [label="Excel Reader _XLS_"]
+	41 [label=Histogram]
+	42 [label=Histogram]
+	43 [label=Histogram]
+	44 [label=Histogram]
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	34 -> 38
+	35 -> 34
+	36 -> 35
+	40 -> 41
+	40 -> 36
+	40 -> 18
+	40 -> 21
+	40 -> 42
+	40 -> 43
+	40 -> 44
+	rankdir=LR
+}

@@ -1,0 +1,39 @@
+digraph {
+	1 [label="CSV Reader"]
+	8 [label=Sorter]
+	10 [label=Partitioning]
+	20 [label="Equal Size Sampling"]
+	21 [label=GroupBy]
+	22 [label=GroupBy]
+	23 [label="Column Rename"]
+	24 [label="Constant Value Column"]
+	25 [label="Missing Value"]
+	26 [label="Column Resorter"]
+	27 [label=SMOTE]
+	31 [label="Random Forest Learner"]
+	32 [label="Random Forest Predictor"]
+	33 [label=Statistics]
+	37 [label=Joiner]
+	38 [label="CSV Reader"]
+	39 [label="Column Expressions"]
+	41 [label=Scorer]
+	1 -> 21
+	8 -> 10
+	10 -> 32
+	10 -> 27
+	10 -> 20
+	20 -> 31
+	21 -> 23
+	22 -> 37
+	23 -> 37
+	24 -> 22
+	25 -> 26
+	26 -> 39
+	31 -> 32
+	32 -> 41
+	37 -> 25
+	38 -> 24
+	39 -> 33
+	39 -> 8
+	rankdir=LR
+}

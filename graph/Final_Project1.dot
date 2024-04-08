@@ -1,0 +1,45 @@
+digraph {
+	1 [label="CSV Reader"]
+	3 [label="Missing Value"]
+	13 [label=Partitioning]
+	14 [label="Random Forest Learner"]
+	15 [label="Random Forest Predictor"]
+	16 [label=Scorer]
+	17 [label="Gradient Boosted Trees Learner"]
+	18 [label="Gradient Boosted Trees Predictor"]
+	19 [label=Scorer]
+	20 [label="SVM Learner"]
+	21 [label="SVM Predictor"]
+	22 [label=Scorer]
+	25 [label="String to Date_Time"]
+	26 [label="Date_Time Difference"]
+	27 [label="Math Formula"]
+	28 [label="Column Filter"]
+	29 [label=Statistics]
+	30 [label="Extract Table Spec"]
+	31 [label="Box Plot"]
+	32 [label="Bar Chart"]
+	1 -> 32
+	1 -> 25
+	1 -> 29
+	1 -> 31
+	1 -> 30
+	3 -> 13
+	13 -> 15
+	13 -> 14
+	13 -> 21
+	13 -> 20
+	13 -> 17
+	13 -> 18
+	14 -> 15
+	15 -> 16
+	17 -> 18
+	18 -> 19
+	20 -> 21
+	21 -> 22
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 3
+	rankdir=LR
+}

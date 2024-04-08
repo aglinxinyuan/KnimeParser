@@ -1,0 +1,14 @@
+digraph {
+	3 [label="Excel Reader _XLS_ _deprecated_"]
+	4 [label="Excel Sheet Appender _XLS_ _deprecated_"]
+	9 [label="Date_Time Configuration"]
+	77 [label="Excel Reader"]
+	86 [label="Excel Writer"]
+	88 [label="Date_Time Configuration"]
+	3 -> 4
+	9 -> 4
+	77 -> 88
+	77 -> 86
+	88 -> 86
+	rankdir=LR
+}

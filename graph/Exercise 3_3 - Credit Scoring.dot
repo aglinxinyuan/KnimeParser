@@ -1,0 +1,21 @@
+digraph {
+	1 [label="File Reader"]
+	3 [label=Partitioning]
+	8 [label="Java Snippet"]
+	9 [label="Java Snippet"]
+	10 [label=SMOTE]
+	11 [label="Java Snippet"]
+	12 [label=Statistics]
+	13 [label="Random Forest Learner"]
+	14 [label="Random Forest Predictor"]
+	1 -> 11
+	1 -> 12
+	3 -> 10
+	3 -> 14
+	8 -> 9
+	9 -> 3
+	10 -> 13
+	11 -> 8
+	13 -> 14
+	rankdir=LR
+}

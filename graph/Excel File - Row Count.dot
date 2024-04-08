@@ -1,0 +1,19 @@
+digraph {
+	1096 [label="Table Row To Variable Loop Start"]
+	1097 [label="Excel Reader"]
+	1098 [label="List Files_Folders"]
+	1099 [label="Loop End"]
+	1100 [label=GroupBy]
+	1101 [label="Files_Folders Meta Info"]
+	1102 [label=Joiner]
+	1109 [label="Column Expressions"]
+	1096 -> 1097
+	1097 -> 1099
+	1098 -> 1096
+	1098 -> 1101
+	1099 -> 1100
+	1100 -> 1102
+	1101 -> 1109
+	1109 -> 1102
+	rankdir=LR
+}
