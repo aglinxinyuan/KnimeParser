@@ -1,42 +1,12 @@
 digraph {
-	23 [label="Column Filter"]
-	26 [label=Normalizer]
-	27 [label="Reference Column Splitter"]
-	28 [label=Denormalizer]
-	29 [label=Denormalizer]
-	30 [label="Column Rename"]
-	31 [label="Column Rename"]
-	32 [label="Column Appender"]
-	33 [label="Numeric Scorer"]
-	34 [label="Excel Reader"]
-	59 [label=Transpose]
-	72 [label="Loop End"]
-	80 [label=Statistics]
-	81 [label=X_Partitioner]
-	82 [label="Random Forest Learner _Regression_"]
-	83 [label="Random Forest Predictor _Regression_"]
-	84 [label="Gradient Boosted Trees Learner _Regression_"]
-	85 [label="Line Plot"]
-	23 -> 26
-	26 -> 28
-	26 -> 29
-	26 -> 81
-	27 -> 30
-	27 -> 28
-	28 -> 32
-	29 -> 31
-	30 -> 29
-	31 -> 32
-	32 -> 33
-	33 -> 59
-	34 -> 23
-	59 -> 72
-	72 -> 85
-	81 -> 83
-	81 -> 82
-	81 -> 27
-	82 -> 83
-	83 -> 27
-	85 -> 80
+	82 [label="Timer Info"]
+	83 [label="CSV Reader"]
+	85 [label="Parallel Chunk Start"]
+	86 [label="Parallel Chunk End"]
+	88 [label="Call Workflow Service"]
+	83 -> 85
+	85 -> 88
+	86 -> 82
+	88 -> 86
 	rankdir=LR
 }

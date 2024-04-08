@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Excel Reader"]
-	2 [label="Column Filter"]
-	3 [label="Excel Writer"]
-	1 -> 2
-	2 -> 3
-	rankdir=LR
-}

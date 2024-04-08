@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Excel Reader"]
-	2 [label="Column Aggregator"]
-	3 [label=Ungroup]
-	1 -> 2
-	2 -> 3
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	3 [label="File Reader"]
-	4 [label="Model Writer"]
-	5 [label="Tree Ensemble Learner"]
-	3 -> 5
-	5 -> 4
-	rankdir=LR
-}

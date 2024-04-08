@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Table Creator"]
-	2 [label="Column Expressions"]
-	4 [label="String Manipulation _Multi Column_"]
-	1 -> 4
-	4 -> 2
-	rankdir=LR
-}

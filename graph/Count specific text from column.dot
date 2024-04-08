@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Table Creator"]
-	2 [label="Column Expressions"]
-	3 [label=GroupBy]
-	1 -> 2
-	2 -> 3
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	2 [label="Data to Report"]
-	3 [label="JSON to Table"]
-	4 [label="Container Input _JSON_"]
-	3 -> 2
-	4 -> 3
-	rankdir=LR
-}

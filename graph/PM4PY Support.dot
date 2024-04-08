@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Table Creator"]
-	240 [label="Python Script"]
-	241 [label="Conda Environment Propagation"]
-	1 -> 240
-	241 -> 240
-	rankdir=LR
-}

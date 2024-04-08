@@ -1,8 +1,0 @@
-digraph {
-	5 [label="Normalizer _PMML_"]
-	10 [label="Number To String"]
-	11 [label="CSV Reader"]
-	10 -> 5
-	11 -> 10
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Table Creator"]
-	2 [label="Call Workflow Service"]
-	3 [label="Mountpoint Connector"]
-	1 -> 2
-	3 -> 2
-	rankdir=LR
-}

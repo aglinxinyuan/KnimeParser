@@ -1,9 +1,0 @@
-digraph {
-	20 [label="Excel Reader"]
-	23 [label="String to Date_Time"]
-	30 [label="CSV Reader"]
-	31 [label="Extract Date_Time Fields"]
-	20 -> 31
-	30 -> 23
-	rankdir=LR
-}

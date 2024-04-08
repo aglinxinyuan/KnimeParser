@@ -1,9 +1,0 @@
-digraph {
-	1 [label="File Reader"]
-	19 [label="Number To String _deprecated_"]
-	74 [label="File Reader"]
-	75 [label="Number To String"]
-	1 -> 75
-	74 -> 19
-	rankdir=LR
-}

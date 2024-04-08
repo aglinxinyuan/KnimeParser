@@ -1,9 +1,7 @@
 import os
-from zipfile import ZipFile
 from knimeParser import Parser
-
-for filename in os.listdir("workflows"):
-    path = "workflows/" + filename
-    with ZipFile(path) as zf:
-        print(filename)
-        p = Parser(path)
+from concurrent.futures import ThreadPoolExecutor
+with ThreadPoolExecutor(max_workers=300) as executor:
+    for filename in os.listdir("workflows"):
+        path = "workflows/" + filename
+        executor.submit(Parser, path)

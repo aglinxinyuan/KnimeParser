@@ -82,7 +82,7 @@ class Parser:
         self.graph.render(filename=output + ".dot", view=False)
 
         content = f"Operators: {self.nodes} \nEdges: {len(self.edges)} \nOperators with multIO: {len(mult_op)}"
-        print(content)
+        #print(content)
         with open(output + ".txt", "w") as file:
             file.write(content)
 
