@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Oracle Connector"]
-	2 [label="DB Table Selector"]
-	3 [label="DB Connector"]
-	4 [label="XML Reader"]
-	1 -> 2
-	rankdir=LR
-}

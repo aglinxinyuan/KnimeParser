@@ -1,8 +1,0 @@
-digraph {
-	1 [label="CSV Reader"]
-	72 [label="Row Filter"]
-	73 [label="Rule_based Row Filter"]
-	1 -> 73
-	1 -> 72
-	rankdir=LR
-}

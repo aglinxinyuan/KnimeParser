@@ -1,8 +1,0 @@
-digraph {
-	1267 [label="CSV Reader"]
-	1268 [label="String to JSON"]
-	1269 [label="JSON To XML"]
-	1267 -> 1268
-	1268 -> 1269
-	rankdir=LR
-}

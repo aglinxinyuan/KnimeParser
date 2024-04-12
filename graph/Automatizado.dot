@@ -1,9 +1,0 @@
-digraph {
-	25 [label="Table Creator"]
-	26 [label="GET Request"]
-	27 [label="JSON to Table"]
-	28 [label="Table View"]
-	26 -> 27
-	27 -> 28
-	rankdir=LR
-}

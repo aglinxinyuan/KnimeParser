@@ -1,8 +1,0 @@
-digraph {
-	16 [label="XLS Formatter _apply_"]
-	23 [label="XLS Cell Formatter"]
-	24 [label="XLS Control Table from Cell Range"]
-	23 -> 16
-	24 -> 23
-	rankdir=LR
-}

@@ -1,9 +1,0 @@
-digraph {
-	1 [label="R Snippet"]
-	7 [label="Table Creator"]
-	11 [label="Table Row to Variable"]
-	7 -> 1
-	7 -> 11
-	11 -> 1
-	rankdir=LR
-}

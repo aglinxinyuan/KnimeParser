@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Generic JavaScript View"]
-	2 [label="Table Creator"]
-	3 [label="Table Row to Variable"]
-	2 -> 3
-	3 -> 1
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	14 [label="CSV Reader"]
-	15 [label=GroupBy]
-	16 [label="Excel Writer"]
-	14 -> 15
-	15 -> 16
-	rankdir=LR
-}

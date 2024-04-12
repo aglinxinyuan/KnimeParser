@@ -1,8 +1,0 @@
-digraph {
-	1 [label="SQLite Connector"]
-	2 [label="DB Table Selector"]
-	3 [label="DB Reader"]
-	1 -> 2
-	2 -> 3
-	rankdir=LR
-}

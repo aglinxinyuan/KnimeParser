@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Excel Reader"]
-	177 [label="Insert Column Header"]
-	179 [label="Table Creator"]
-	1 -> 177
-	179 -> 177
-	rankdir=LR
-}

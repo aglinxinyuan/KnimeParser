@@ -1,8 +1,0 @@
-digraph {
-	2 [label="Molecule Type Cast"]
-	3 [label="Simple File Reader"]
-	5 [label="RDKit Canon SMILES"]
-	2 -> 5
-	3 -> 2
-	rankdir=LR
-}

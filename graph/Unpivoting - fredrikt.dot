@@ -1,8 +1,0 @@
-digraph {
-	1 [label="CSV Reader"]
-	2 [label=Unpivoting]
-	3 [label="Table Manipulator"]
-	1 -> 2
-	2 -> 3
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	1 [label="KCS SAP Executor"]
-	2 [label="Excel Writer"]
-	3 [label="Tableau Writer"]
-	1 -> 2
-	1 -> 3
-	rankdir=LR
-}

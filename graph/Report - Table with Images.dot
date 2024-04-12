@@ -1,8 +1,0 @@
-digraph {
-	1 [label="Data Generator"]
-	2 [label="Data to Report"]
-	3 [label="Radar Plot Appender"]
-	1 -> 3
-	3 -> 2
-	rankdir=LR
-}

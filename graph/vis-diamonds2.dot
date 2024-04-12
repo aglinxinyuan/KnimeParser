@@ -1,8 +1,0 @@
-digraph {
-	2 [label=Histogram]
-	3 [label="File Reader"]
-	4 [label="Image Writer _Port_"]
-	2 -> 4
-	3 -> 2
-	rankdir=LR
-}

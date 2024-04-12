@@ -1,9 +1,0 @@
-digraph {
-	1 [label="R Source _Table_"]
-	2 [label="R Source _Table_"]
-	5 [label="Table Writer"]
-	6 [label="Table Writer"]
-	1 -> 5
-	2 -> 6
-	rankdir=LR
-}

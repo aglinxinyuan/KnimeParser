@@ -1,8 +1,0 @@
-digraph {
-	2 [label="In_Memory Endpoint"]
-	4 [label="SPARQL Select Query"]
-	7 [label="SPARQL File Inserter"]
-	2 -> 7
-	7 -> 4
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	13 [label="Line Reader"]
-	15 [label="JSON to Table"]
-	16 [label="String to JSON"]
-	13 -> 16
-	16 -> 15
-	rankdir=LR
-}

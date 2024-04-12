@@ -1,9 +1,0 @@
-digraph {
-	15 [label="Table Creator"]
-	21 [label="Image Reader _Table_"]
-	22 [label="Image Reader _Table_"]
-	23 [label="List Files"]
-	15 -> 21
-	23 -> 22
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	1 [label="H2 Connector"]
-	2 [label="Data Generator"]
-	3 [label="DB Writer"]
-	1 -> 3
-	2 -> 3
-	rankdir=LR
-}

@@ -1,8 +1,0 @@
-digraph {
-	24 [label="Extract Date_Time Fields"]
-	28 [label="CSV Reader"]
-	29 [label="String To Number"]
-	30 [label="CSV Reader"]
-	28 -> 29
-	rankdir=LR
-}

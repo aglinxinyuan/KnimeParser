@@ -1,12 +1,15 @@
 digraph {
-	89 [label="Keras Network Learner"]
-	91 [label="DL Python Network Creator"]
-	92 [label="Table Creator"]
-	93 [label="Table Creator"]
-	94 [label="Keras Network Executor"]
-	89 -> 94
-	91 -> 89
-	92 -> 89
-	93 -> 94
+	1 [label="Table Reader"]
+	2 [label="Table Reader"]
+	2353 [label="DB Writer"]
+	2354 [label="DB Writer"]
+	2356 [label="SQLite Connector"]
+	1 -> 2353
+	2 -> 2354
+	2356 -> 2353
+	2356 -> 2354
+	rankdir=LR
+}
+> 94
 	rankdir=LR
 }

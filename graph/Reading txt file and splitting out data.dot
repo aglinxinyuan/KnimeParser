@@ -1,9 +1,0 @@
-digraph {
-	1 [label="Fixed Width File Reader"]
-	2 [label="Column Expressions"]
-	3 [label="Column Expressions"]
-	4 [label="CSV Reader"]
-	1 -> 2
-	2 -> 3
-	rankdir=LR
-}
