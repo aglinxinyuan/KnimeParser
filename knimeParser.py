@@ -118,19 +118,17 @@ class Parser:
                    f"Operators with multiple output ports: {len(mult_out)}\n"
                    f"Maximum # of input ports in an operator: {max(mult_in)}\n"
                    f"Maximum # of output ports in an operator: {max(mult_out)}\n"
-
                    f"AVG indegree of operators: {sum(in_degree.values()) / len(in_degree.values())}\n"
                    f"AVG outdegree of operators: {sum(out_degree.values()) / len(in_degree.values())}\n"
                    f"MAX indegree of an operator: {max(in_degree.values())}\n"
                    f"MAX outdegree of an operator: {max(out_degree.values())}\n"
-
                    f"# edges in an undirected cycle: {len(cycles)}\n"
                    )
         #print(content)
-        with open(output + ".txt", "w") as file:
+        with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
 
 
 if __name__ == "__main__":
     #Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
-    Parser("examples/02.knwf", True)
+    Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)
