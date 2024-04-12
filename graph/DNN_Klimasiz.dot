@@ -1,0 +1,50 @@
+digraph {
+	52 -> 27
+	23 -> 26
+	27 -> 28
+	81 -> 27
+	161 -> 147
+	31 -> 32
+	26 -> 81
+	59 -> 72
+	72 -> 80
+	27 -> 30
+	28 -> 32
+	29 -> 31
+	33 -> 59
+	81 -> 76
+	30 -> 29
+	162 -> 152
+	26 -> 29
+	34 -> 23
+	27 -> 160
+	160 -> 161
+	32 -> 33
+	81 -> 52
+	152 -> 76
+	76 -> 52
+	147 -> 162
+	26 -> 28
+	27 [label="DL4J Model Initializer"]
+	26 [label=Normalizer]
+	162 [label="Dense Layer"]
+	80 [label=Statistics]
+	31 [label="Column Rename"]
+	161 [label="Dense Layer"]
+	59 [label=Transpose]
+	30 [label="Column Rename"]
+	28 [label=Denormalizer]
+	23 [label="Column Filter"]
+	72 [label="Loop End"]
+	147 [label="Dense Layer"]
+	76 [label="DL4J Feedforward Learner _Regression_"]
+	160 [label="Dense Layer"]
+	81 [label=X_Partitioner]
+	34 [label="Excel Reader"]
+	29 [label=Denormalizer]
+	152 [label="Dense Layer"]
+	52 [label="DL4J Feedforward Predictor _Regression_"]
+	33 [label="Numeric Scorer"]
+	32 [label="Column Appender"]
+	rankdir=LR
+}

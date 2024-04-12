@@ -1,0 +1,59 @@
+digraph {
+	474 -> 425
+	478 -> 482
+	425 -> 481
+	474 -> 489
+	479 -> 471
+	474 -> 488
+	409 -> 483
+	486 -> 444
+	479 -> 478
+	436 -> 479
+	487 -> 435
+	481 -> 487
+	488 -> 489
+	431 -> 479
+	430 -> 475
+	482 -> 485
+	475 -> 425
+	477 -> 473
+	470 -> 471
+	423 -> 431
+	481 -> 409
+	478 -> 472
+	489 -> 430
+	471 -> 486
+	435 -> 436
+	418 -> 423
+	434 -> 474
+	423 -> 474
+	423 -> 478
+	474 [label=X_Partitioner]
+	483 [label="Scatter Plot"]
+	489 [label="Correlation Filter"]
+	471 [label="XGBoost Predictor _Regression_"]
+	482 [label="Column Filter"]
+	485 [label="Scatter Plot"]
+	431 [label="Column Filter"]
+	423 [label=Partitioning]
+	436 [label="Table Row To Variable"]
+	425 [label="XGBoost Predictor _Regression_"]
+	486 [label="Round Double"]
+	481 [label=X_Aggregator]
+	434 [label="Parameter Optimization Loop Start"]
+	418 [label="Excel Reader"]
+	470 [label="Excel Reader"]
+	430 [label="Column Filter"]
+	478 [label="XGBoost Predictor _Regression_"]
+	409 [label="Column Filter"]
+	487 [label="Numeric Scorer"]
+	435 [label="Parameter Optimization Loop End"]
+	479 [label="XGBoost Tree Ensemble Learner _Regression_"]
+	472 [label="Numeric Scorer"]
+	475 [label="XGBoost Tree Ensemble Learner _Regression_"]
+	477 [label="CSV Reader"]
+	444 [label="CSV Writer"]
+	488 [label="Linear Correlation"]
+	473 [label="CSV Writer"]
+	rankdir=LR
+}

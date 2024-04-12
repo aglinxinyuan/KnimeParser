@@ -1,0 +1,35 @@
+digraph {
+	7 -> 8
+	11 -> 12
+	4 -> 2
+	16 -> 15
+	6 -> 17
+	8 -> 9
+	12 -> 14
+	15 -> 18
+	2 -> 7
+	18 -> 4
+	1 -> 6
+	17 -> 16
+	9 -> 10
+	14 -> 13
+	16 -> 18
+	10 -> 11
+	16 [label="Flow Variable IF Switch"]
+	14 [label="Missing Value"]
+	13 [label="Column Resorter"]
+	1 [label="Table Creator"]
+	7 [label="Rule Engine"]
+	9 [label=RowID]
+	11 [label="Column Expressions"]
+	4 [label="Create Date_Time Range"]
+	18 [label="Flow Variable End IF"]
+	6 [label="Table Row To Variable Loop Start"]
+	8 [label=GroupBy]
+	15 [label="Run Garbage Collector"]
+	12 [label="Loop End"]
+	17 [label="Variable Expressions"]
+	2 [label="Extract Date_Time Fields"]
+	10 [label=Transpose]
+	rankdir=LR
+}

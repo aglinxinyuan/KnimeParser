@@ -1,0 +1,26 @@
+digraph {
+	6 -> 5
+	1 -> 4
+	12 -> 6
+	8 -> 9
+	11 -> 8
+	13 -> 5
+	2 -> 7
+	7 -> 12
+	5 -> 10
+	4 -> 13
+	10 -> 11
+	5 [label="RDKit Molecule Substructure Filter"]
+	13 [label="RDKit Add Hs"]
+	1 [label="Table Creator"]
+	7 [label=RowID]
+	9 [label=GroupBy]
+	11 [label="Column Rename"]
+	4 [label="RDKit Molecule Extractor"]
+	6 [label="Chunk Loop Start"]
+	8 [label="Loop End"]
+	12 [label="RDKit Add Hs"]
+	2 [label="Table Creator"]
+	10 [label="Split Collection Column"]
+	rankdir=LR
+}

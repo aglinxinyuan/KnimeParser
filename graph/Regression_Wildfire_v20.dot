@@ -1,0 +1,25 @@
+digraph {
+	2 -> 10
+	10 -> 14
+	20 -> 2
+	10 -> 5
+	17 -> 19
+	2 -> 9
+	8 -> 7
+	10 -> 8
+	17 -> 20
+	17 -> 18
+	9 -> 10
+	5 [label="Numeric Scorer _deprecated_"]
+	20 [label="Column Filter"]
+	7 [label="Line Plot _local_"]
+	9 [label="Simple Regression Tree Learner"]
+	18 [label=Statistics]
+	8 [label="Column Filter"]
+	14 [label="Interactive Table _local_"]
+	17 [label="Excel Reader"]
+	2 [label=Partitioning]
+	10 [label="Simple Regression Tree Predictor"]
+	19 [label="Linear Correlation"]
+	rankdir=LR
+}

@@ -1,0 +1,42 @@
+digraph {
+	8 -> 13
+	12 -> 7
+	21 -> 25
+	20 -> 3
+	16 -> 20
+	23 -> 26
+	15 -> 3
+	12 -> 9
+	3 -> 7
+	3 -> 14
+	3 -> 13
+	3 -> 21
+	3 -> 9
+	24 -> 23
+	9 -> 11
+	12 -> 22
+	3 -> 23
+	15 -> 20
+	22 -> 14
+	8 -> 7
+	8 -> 14
+	22 -> 21
+	16 [label="Table Creator"]
+	24 [label="String Configuration"]
+	13 [label="Parameterized DB Query Reader"]
+	20 [label="DB Writer"]
+	7 [label="Parameterized DB Query Reader"]
+	22 [label="String Configuration"]
+	9 [label="DB Query"]
+	23 [label="DB Query"]
+	21 [label="DB Query"]
+	11 [label="DB Reader"]
+	26 [label="DB Reader"]
+	8 [label="Table Creator"]
+	15 [label="H2 Connector"]
+	25 [label="DB Reader"]
+	14 [label="Parameterized DB Query Reader"]
+	3 [label="DB Table Selector"]
+	12 [label="Integer Configuration"]
+	rankdir=LR
+}

@@ -1,0 +1,19 @@
+digraph {
+	11 -> 2
+	11 -> 14
+	9 -> 12
+	15 -> 11
+	2 -> 3
+	6 -> 9
+	14 -> 6
+	14 -> 9
+	9 [label="Regression Predictor"]
+	11 [label="Column Resorter"]
+	6 [label="Linear Regression Learner"]
+	15 [label="CSV Reader"]
+	14 [label="Column Filter"]
+	3 [label="Linear Regression Learner"]
+	2 [label="Column Filter"]
+	12 [label="Scatter Plot"]
+	rankdir=LR
+}

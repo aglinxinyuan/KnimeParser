@@ -1,0 +1,23 @@
+digraph {
+	28 -> 32
+	36 -> 28
+	29 -> 28
+	31 -> 29
+	31 -> 42
+	33 -> 40
+	41 -> 31
+	37 -> 40
+	40 -> 41
+	29 -> 36
+	42 [label=Histogram]
+	29 [label=Partitioning]
+	41 [label="Column Filter"]
+	28 [label="Naive Bayes Predictor"]
+	36 [label="Naive Bayes Learner"]
+	31 [label="Color Manager"]
+	40 [label=Joiner]
+	33 [label="File Reader"]
+	32 [label=Scorer]
+	37 [label="File Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,26 @@
+digraph {
+	4 -> 19
+	9 -> 19
+	17 -> 21
+	9 -> 17
+	2 -> 3
+	21 -> 5
+	11 -> 20
+	3 -> 11
+	1 -> 2
+	19 -> 21
+	20 -> 4
+	4 -> 9
+	5 [label="Scorer _deprecated_"]
+	20 [label="Row Filter"]
+	1 [label="File Reader"]
+	9 [label="Color Manager"]
+	11 [label="Row Filter"]
+	4 [label=Partitioning]
+	21 [label="Decision Tree Predictor"]
+	17 [label="Decision Tree Learner"]
+	3 [label="Row Filter"]
+	2 [label="Column Filter"]
+	19 [label="Color Appender"]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	4 -> 7
+	12 -> 13
+	11 -> 12
+	6 -> 4
+	1 -> 2
+	13 -> 3
+	2 -> 7
+	9 -> 10
+	1 -> 9
+	7 -> 10
+	10 -> 11
+	1 -> 5
+	5 [label="Molecule Writer _from MAE_"]
+	13 [label="Column Rename"]
+	1 [label="Molecule Reader _to MAE_"]
+	7 [label=Joiner]
+	9 [label="Canvas Molecular Descriptors"]
+	11 [label="Column Filter"]
+	4 [label=XLogP]
+	6 [label="SDF Reader"]
+	12 [label="Column Resorter"]
+	3 [label="Excel Writer _XLS_"]
+	2 [label=QikProp]
+	10 [label=Joiner]
+	rankdir=LR
+}

@@ -1,0 +1,128 @@
+digraph {
+	29 -> 34
+	41 -> 42
+	103 -> 109
+	99 -> 102
+	101 -> 102
+	151 -> 99
+	119 -> 120
+	97 -> 99
+	97 -> 101
+	42 -> 43
+	19 -> 18
+	136 -> 137
+	85 -> 40
+	115 -> 117
+	109 -> 111
+	40 -> 41
+	121 -> 122
+	117 -> 122
+	124 -> 136
+	123 -> 124
+	154 -> 103
+	39 -> 44
+	1 -> 12
+	106 -> 29
+	18 -> 87
+	141 -> 143
+	103 -> 108
+	77 -> 76
+	76 -> 87
+	146 -> 147
+	45 -> 62
+	97 -> 150
+	85 -> 38
+	114 -> 119
+	43 -> 61
+	113 -> 115
+	12 -> 19
+	148 -> 101
+	120 -> 121
+	44 -> 61
+	154 -> 104
+	122 -> 123
+	111 -> 123
+	30 -> 40
+	102 -> 154
+	104 -> 116
+	34 -> 45
+	116 -> 113
+	62 -> 144
+	108 -> 113
+	61 -> 62
+	143 -> 142
+	38 -> 39
+	69 -> 77
+	29 -> 85
+	137 -> 139
+	139 -> 140
+	154 -> 155
+	106 -> 30
+	87 -> 106
+	108 -> 114
+	144 -> 141
+	147 -> 149
+	30 -> 38
+	116 -> 114
+	149 -> 148
+	103 [label="Spark Row Filter"]
+	136 [label="Timer Info"]
+	97 [label="Create Local Big Data Environment"]
+	18 [label="Column Rename"]
+	108 [label="Spark GroupBy"]
+	122 [label="Spark Joiner"]
+	121 [label="Spark Column Rename"]
+	149 [label="Column Filter"]
+	19 [label="Column Filter"]
+	151 [label="String Input"]
+	137 [label="Column Filter"]
+	119 [label="Spark DataFrame Java Snippet"]
+	41 [label="Rule_based Row Filter"]
+	154 [label="Persist Spark DataFrame_RDD"]
+	109 [label="Spark GroupBy"]
+	114 [label="Spark Joiner"]
+	146 [label="MongoDB Reader"]
+	85 [label=GroupBy]
+	12 [label="JSON to Table"]
+	141 [label="Column Filter"]
+	150 [label="Destroy Spark Context"]
+	123 [label="Spark Joiner"]
+	144 [label="Timer Info"]
+	148 [label="Column Rename"]
+	1 [label="MongoDB Reader"]
+	42 [label=GroupBy]
+	115 [label="Spark GroupBy"]
+	87 [label=Joiner]
+	143 [label="Math Formula"]
+	142 [label="Math Formula"]
+	101 [label="Table to Spark"]
+	147 [label="JSON to Table"]
+	61 [label=Joiner]
+	77 [label="Parallel Chunk Start"]
+	76 [label=ReDataLog]
+	124 [label="Spark to Table"]
+	106 [label="Parallel Chunk End"]
+	117 [label="Spark Column Rename"]
+	38 [label=Joiner]
+	99 [label="Spark DataFrame Java Snippet _Source_"]
+	113 [label="Spark Joiner"]
+	43 [label="Column Rename"]
+	120 [label="Spark GroupBy"]
+	44 [label="Column Rename"]
+	34 [label=GroupBy]
+	62 [label=Joiner]
+	29 [label="Nominal Value Row Filter"]
+	102 [label="Spark Joiner"]
+	69 [label="List Files"]
+	104 [label="Spark Row Filter"]
+	139 [label="Math Formula"]
+	140 [label="Math Formula"]
+	116 [label="Spark Column Filter"]
+	155 [label="Unpersist Spark DataFrame_RDD"]
+	40 [label=Joiner]
+	111 [label="Spark Column Rename"]
+	39 [label=GroupBy]
+	30 [label="Nominal Value Row Filter"]
+	45 [label="Column Rename"]
+	rankdir=LR
+}

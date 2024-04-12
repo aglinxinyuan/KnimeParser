@@ -1,0 +1,22 @@
+digraph {
+	20 -> 15
+	1 -> 20
+	14 -> 17
+	11 -> 19
+	13 -> 14
+	15 -> 18
+	1 -> 10
+	1 -> 13
+	10 -> 11
+	13 [label=Pivoting]
+	20 [label=Pivoting]
+	1 [label="CSV Reader"]
+	11 [label="Row Filter"]
+	18 [label="Image to Report"]
+	15 [label="Bar Chart"]
+	14 [label="Missing Value"]
+	17 [label="Data to Report"]
+	10 [label="Row Filter"]
+	19 [label="CSV Writer"]
+	rankdir=LR
+}

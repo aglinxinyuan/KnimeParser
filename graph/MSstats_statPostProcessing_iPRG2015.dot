@@ -1,0 +1,30 @@
+digraph {
+	12 -> 23
+	12 -> 24
+	29 -> 12
+	16 -> 9
+	9 -> 18
+	3 -> 16
+	18 -> 20
+	18 -> 22
+	24 -> 3
+	28 -> 12
+	18 -> 21
+	27 -> 12
+	16 -> 17
+	16 [label="Table to R"]
+	24 [label="URI Port to Variable"]
+	27 [label="Input File"]
+	20 [label="R to Table"]
+	22 [label="R View _Workspace_"]
+	29 [label="Input Files"]
+	28 [label="Input File"]
+	9 [label="R To R"]
+	23 [label="Output File"]
+	18 [label="R To R"]
+	21 [label="R to Table"]
+	17 [label="R View _Workspace_"]
+	3 [label="File Reader"]
+	12 [label=MSstatsConverter]
+	rankdir=LR
+}

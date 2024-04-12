@@ -1,0 +1,28 @@
+digraph {
+	11 -> 10
+	16 -> 15
+	10 -> 12
+	4 -> 5
+	15 -> 17
+	12 -> 16
+	17 -> 20
+	9 -> 10
+	19 -> 15
+	20 -> 18
+	5 -> 7
+	7 -> 9
+	5 [label="Strings To Document"]
+	16 [label="Case Converter"]
+	20 [label="Tag Filter"]
+	7 [label="POS Tagger"]
+	9 [label="StanfordNLP NE Tagger"]
+	11 [label="Table Creator"]
+	4 [label="Tika Parser"]
+	18 [label="Tagged Document Viewer"]
+	15 [label="Stop Word Filter"]
+	12 [label="Punctuation Erasure"]
+	17 [label="Tag Filter"]
+	10 [label="Wildcard Tagger"]
+	19 [label="Table Creator"]
+	rankdir=LR
+}

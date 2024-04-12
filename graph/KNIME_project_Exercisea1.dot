@@ -1,0 +1,24 @@
+digraph {
+	1 -> 3
+	6 -> 4
+	4 -> 5
+	2 -> 6
+	10 -> 8
+	6 -> 10
+	1 -> 9
+	1 -> 7
+	10 -> 11
+	9 -> 6
+	5 [label="Excel Writer"]
+	1 [label="CSV Reader"]
+	7 [label=Histogram]
+	9 [label="Duplicate Row Filter"]
+	11 [label="Scatter Plot"]
+	4 [label="Column Filter"]
+	6 [label=Joiner]
+	8 [label="Data Explorer"]
+	3 [label="Interactive Histogram _local_"]
+	2 [label="CSV Reader"]
+	10 [label="Color Manager"]
+	rankdir=LR
+}

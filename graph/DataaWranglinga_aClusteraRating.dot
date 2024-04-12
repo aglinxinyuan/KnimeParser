@@ -1,0 +1,45 @@
+digraph {
+	2028 -> 2036
+	12 -> 35
+	12 -> 2053
+	2033 -> 2034
+	2 -> 2054
+	35 -> 2055
+	2053 -> 2
+	2032 -> 2082
+	281 -> 2028
+	2030 -> 2032
+	2036 -> 2054
+	2 -> 35
+	2028 -> 2050
+	2050 -> 2056
+	2054 -> 2055
+	12 -> 2
+	2048 -> 12
+	2056 -> 2031
+	2036 -> 2048
+	2031 -> 2030
+	279 -> 281
+	2082 -> 2033
+	2055 -> 2056
+	2056 [label="Column Appender"]
+	2082 [label="Missing Value"]
+	12 [label=Normalizer]
+	281 [label="Google Drive Connector"]
+	2033 [label="Math Formula"]
+	2048 [label="Column Filter"]
+	2028 [label="Excel Reader"]
+	279 [label="Google Authentication"]
+	2030 [label=GroupBy]
+	2053 [label="R View _Table_"]
+	35 [label=Denormalizer]
+	2055 [label=RowID]
+	2054 [label=Joiner]
+	2036 [label="Column Filter"]
+	2050 [label="Column Filter"]
+	2032 [label=Pivoting]
+	2034 [label="Rule Engine"]
+	2031 [label="Rule Engine"]
+	2 [label=k_Means]
+	rankdir=LR
+}

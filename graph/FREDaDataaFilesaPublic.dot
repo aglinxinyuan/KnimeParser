@@ -1,0 +1,39 @@
+digraph {
+	27 -> 24
+	18 -> 24
+	30 -> 33
+	18 -> 27
+	16 -> 18
+	23 -> 14
+	15 -> 30
+	24 -> 25
+	30 -> 28
+	20 -> 16
+	32 -> 21
+	21 -> 22
+	30 -> 29
+	26 -> 15
+	17 -> 18
+	18 -> 21
+	25 -> 26
+	22 -> 23
+	16 [label="Table Creator"]
+	27 [label=Wait___]
+	24 [label="String Manipulation"]
+	32 [label="String Widget"]
+	20 [label="Single Selection Widget"]
+	22 [label="Table Row to Variable"]
+	29 [label="Scatter Plot _Plotly_"]
+	28 [label="Scatter Plot _Labs_"]
+	23 [label="String to Path _Variable_"]
+	18 [label="Cell Replacer"]
+	21 [label="String Manipulation"]
+	26 [label="String to Path _Variable_"]
+	15 [label="Excel Reader"]
+	25 [label="Table Row to Variable"]
+	14 [label="Decompress Files"]
+	33 [label="Scatter Plot"]
+	17 [label="Table Creator"]
+	30 [label="Column Filter"]
+	rankdir=LR
+}

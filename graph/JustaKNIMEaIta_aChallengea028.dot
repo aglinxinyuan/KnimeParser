@@ -1,0 +1,23 @@
+digraph {
+	49 -> 50
+	51 -> 52
+	48 -> 47
+	52 -> 49
+	62 -> 48
+	63 -> 62
+	47 -> 51
+	60 -> 59
+	59 -> 61
+	48 [label="Rule Engine"]
+	50 [label="String Manipulation"]
+	49 [label="Column Aggregator"]
+	62 [label="Column List Loop Start"]
+	51 [label="Column Rename"]
+	47 [label="Column Filter"]
+	61 [label="String Manipulation"]
+	63 [label="Data Generator"]
+	52 [label="Loop End _Column Append_"]
+	60 [label="Empty Table Creator"]
+	59 [label="Constant Value Column"]
+	rankdir=LR
+}

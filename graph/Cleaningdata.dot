@@ -1,0 +1,26 @@
+digraph {
+	20 -> 15
+	18 -> 7
+	10 -> 19
+	4 -> 8
+	13 -> 12
+	12 -> 20
+	17 -> 18
+	7 -> 10
+	8 -> 16
+	16 -> 17
+	19 -> 13
+	16 [label="String Manipulation"]
+	20 [label="Column Resorter"]
+	13 [label="Column Filter"]
+	7 [label="Row Filter"]
+	4 [label="Excel Reader"]
+	18 [label="String Manipulation"]
+	8 [label="Duplicate Row Filter"]
+	15 [label="CSV Writer"]
+	12 [label="Column Rename"]
+	17 [label="String Manipulation"]
+	10 [label="Row Filter"]
+	19 [label="Missing Value"]
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	6 -> 5
+	5 -> 7
+	1 -> 6
+	1 [label="File Reader"]
+	7 [label="Column Expressions"]
+	5 [label="Lag Column"]
+	6 [label=Sorter]
+	rankdir=LR
+}

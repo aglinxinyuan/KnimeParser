@@ -1,0 +1,44 @@
+digraph {
+	100 -> 119
+	113 -> 118
+	119 -> 111
+	119 -> 120
+	111 -> 112
+	113 -> 114
+	111 -> 113
+	61 -> 100
+	110 -> 106
+	105 -> 95
+	118 -> 109
+	109 -> 115
+	113 -> 115
+	112 -> 114
+	103 -> 95
+	61 -> 121
+	114 -> 110
+	109 -> 110
+	111 -> 115
+	121 -> 120
+	61 -> 122
+	95 -> 61
+	120 -> 112
+	114 [label="Normalizer _Apply_"]
+	105 [label="CSV Reader"]
+	111 [label="Missing Value"]
+	113 [label=Normalizer]
+	103 [label="Excel Reader"]
+	120 [label="Category To Number _Apply_"]
+	112 [label="Missing Value _Apply_"]
+	119 [label="Category To Number"]
+	115 [label="Model Writer"]
+	118 [label=SMOTE]
+	61 [label=Partitioning]
+	95 [label=Joiner]
+	100 [label="Number To String"]
+	122 [label="Data Explorer"]
+	121 [label="Number To String"]
+	109 [label="Logistic Regression Learner"]
+	110 [label="Logistic Regression Predictor"]
+	106 [label=Scorer]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	1963 -> 1964
+	1964 -> 1968
+	1959 -> 1964
+	1969 -> 1970
+	1959 -> 1969
+	1959 -> 1970
+	1968 -> 1966
+	1967 -> 1966
+	14 -> 15
+	1959 -> 1963
+	1966 -> 1965
+	15 -> 1959
+	1970 -> 1967
+	1965 [label="Binary Classification Inspector"]
+	1970 [label="Random Forest Predictor"]
+	1966 [label=Joiner]
+	1967 [label="Column Rename"]
+	1959 [label=Partitioning]
+	1963 [label="Decision Tree Learner"]
+	1969 [label="Random Forest Learner"]
+	15 [label="Equal Size Sampling"]
+	14 [label="Excel Reader"]
+	1964 [label="Decision Tree Predictor"]
+	1968 [label="Column Rename"]
+	rankdir=LR
+}

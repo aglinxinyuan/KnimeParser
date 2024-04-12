@@ -1,0 +1,8 @@
+digraph {
+	5 -> 4
+	3 -> 5
+	5 [label="Path to String"]
+	4 [label="Image Reader _Table_"]
+	3 [label="List Files_Folders"]
+	rankdir=LR
+}

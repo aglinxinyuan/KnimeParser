@@ -1,0 +1,20 @@
+digraph {
+	9 -> 8
+	2 -> 9
+	9 -> 13
+	1 -> 6
+	11 -> 12
+	9 -> 10
+	6 -> 2
+	10 -> 11
+	13 [label="SelfOrganizingMap _3_7_"]
+	1 [label="CSV Reader"]
+	9 [label="Rule_based Row Filter"]
+	11 [label="Color Manager"]
+	8 [label=Statistics]
+	6 [label="Missing Value"]
+	12 [label="Scatter Plot"]
+	2 [label="Column Filter"]
+	10 [label=k_Means]
+	rankdir=LR
+}

@@ -1,0 +1,87 @@
+digraph {
+	302 -> 303
+	31 -> 34
+	6 -> 296
+	141 -> 230
+	299 -> 256
+	34 -> 35
+	167 -> 297
+	301 -> 305
+	141 -> 167
+	305 -> 310
+	38 -> 41
+	16 -> 140
+	312 -> 7
+	288 -> 295
+	140 -> 141
+	303 -> 301
+	169 -> 230
+	298 -> 299
+	42 -> 31
+	292 -> 288
+	258 -> 298
+	37 -> 38
+	293 -> 16
+	6 -> 34
+	301 -> 308
+	296 -> 302
+	41 -> 256
+	296 -> 292
+	295 -> 296
+	35 -> 36
+	308 -> 305
+	296 -> 311
+	297 -> 169
+	36 -> 37
+	295 -> 309
+	40 -> 31
+	230 -> 288
+	309 -> 296
+	230 -> 256
+	29 -> 40
+	257 -> 258
+	135 -> 258
+	296 -> 7
+	7 -> 6
+	256 -> 257
+	292 [label="Category to class"]
+	167 [label=GroupBy]
+	7 [label="Strings To Document"]
+	169 [label="Row Filter"]
+	308 [label="Decision Tree Learner"]
+	230 [label="Reference Row Filter"]
+	302 [label="Category to class"]
+	295 [label=Partitioning]
+	256 [label="NGram creator"]
+	41 [label="Stop Word Filter"]
+	31 [label="Java Edit Variable"]
+	311 [label=Scorer]
+	6 [label="Column Filter"]
+	288 [label="String to Term"]
+	309 [label="Decision Tree Learner"]
+	141 [label="Column Filter"]
+	16 [label=TF]
+	42 [label="Integer Configuration"]
+	310 [label=Scorer]
+	299 [label=Joiner]
+	296 [label="Decision Tree Predictor"]
+	293 [label="Bag Of Words Creator"]
+	135 [label="NGram creator"]
+	301 [label=Partitioning]
+	257 [label="Row Filter"]
+	298 [label="Column Renamer"]
+	38 [label="Snowball Stemmer"]
+	35 [label="Number Filter"]
+	34 [label="Punctuation Erasure"]
+	29 [label="Extract Table Dimension"]
+	140 [label="Term to String"]
+	258 [label="Reference Row Filter"]
+	36 [label="N Chars Filter"]
+	297 [label="Column Renamer"]
+	303 [label="Color Manager"]
+	305 [label="Decision Tree Predictor"]
+	40 [label="Table Row to Variable"]
+	312 [label="CSV Reader"]
+	37 [label="Case converter"]
+	rankdir=LR
+}

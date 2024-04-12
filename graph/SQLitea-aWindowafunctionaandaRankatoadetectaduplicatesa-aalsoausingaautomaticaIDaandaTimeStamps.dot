@@ -1,0 +1,89 @@
+digraph {
+	1886 -> 1887
+	2587 -> 1881
+	1613 -> 1873
+	1881 -> 1882
+	1865 -> 2728
+	464 -> 440
+	2730 -> 2735
+	1887 -> 2588
+	1882 -> 1883
+	1881 -> 1865
+	1869 -> 1889
+	1882 -> 2237
+	464 -> 1881
+	47 -> 2730
+	1888 -> 1886
+	2730 -> 2734
+	1882 -> 1881
+	1919 -> 2737
+	1885 -> 2587
+	1870 -> 1871
+	440 -> 1860
+	426 -> 430
+	1871 -> 426
+	464 -> 2736
+	2728 -> 2727
+	1869 -> 1870
+	2729 -> 2733
+	1883 -> 1882
+	1883 -> 1884
+	2729 -> 1919
+	430 -> 1613
+	2237 -> 2238
+	2735 -> 2729
+	2727 -> 47
+	1889 -> 1888
+	2737 -> 2738
+	2733 -> 1878
+	1873 -> 2587
+	2588 -> 2587
+	1882 -> 1886
+	1880 -> 1881
+	1884 -> 1885
+	466 -> 1883
+	2587 -> 440
+	1879 -> 1880
+	2238 -> 1869
+	2737 [label="String to Date_Time"]
+	2730 [label="DB Query"]
+	2733 [label="DB Connection Extractor"]
+	1887 [label="Column Filter"]
+	1613 [label="String Manipulation"]
+	1860 [label="DB SQL Executor"]
+	1881 [label=Transpose]
+	426 [label="Column Combiner"]
+	1888 [label=Transpose]
+	440 [label="DB SQL Executor"]
+	1865 [label="DB Writer"]
+	2736 [label="DB SQL Executor"]
+	1882 [label="Column Combiner"]
+	464 [label="SQLite Connector"]
+	2727 [label="DB SQL Executor"]
+	1878 [label="DB Query Reader"]
+	2738 [label="UNIX Timestamp to Date_Time"]
+	1869 [label="String Manipulation"]
+	1879 [label="String Manipulation"]
+	2735 [label="DB Query"]
+	2238 [label="Rule Engine"]
+	1880 [label="Column Filter"]
+	2734 [label="DB Reader"]
+	1884 [label="String Manipulation"]
+	47 [label="DB Table Selector"]
+	1873 [label="Table Row to Variable"]
+	430 [label="Column Filter"]
+	1870 [label="Column Filter"]
+	1885 [label="Table Row to Variable"]
+	2237 [label="Extract Table Spec"]
+	2729 [label="DB Connection Table Writer"]
+	2728 [label="DB Connection Extractor"]
+	1871 [label=Transpose]
+	1883 [label="Column Filter"]
+	1886 [label="Column Combiner"]
+	1889 [label="Column Filter"]
+	1919 [label="DB Reader"]
+	466 [label="CSV Reader"]
+	2587 [label="Merge Variables"]
+	2588 [label="Table Row to Variable"]
+	rankdir=LR
+}

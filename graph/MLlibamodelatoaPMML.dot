@@ -1,0 +1,30 @@
+digraph {
+	101 -> 203
+	88 -> 97
+	98 -> 89
+	96 -> 184
+	185 -> 98
+	203 -> 92
+	94 -> 95
+	92 -> 94
+	172 -> 96
+	205 -> 203
+	95 -> 96
+	97 -> 185
+	95 -> 185
+	94 [label="Spark MLlib to PMML"]
+	203 [label="Table to Spark"]
+	185 [label="Compiled Model Predictor"]
+	92 [label="Spark k_Means"]
+	96 [label="Compiled Model Predictor"]
+	98 [label="Table to JSON"]
+	89 [label="JSON Output"]
+	97 [label="JSON to Table"]
+	101 [label="File Reader"]
+	88 [label="JSON Input"]
+	205 [label="Create Local Big Data Environment"]
+	95 [label="PMML Compiler"]
+	172 [label="File Reader"]
+	184 [label="Entropy Scorer"]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	353 -> 350
+	379 -> 376
+	372 -> 320
+	374 -> 348
+	376 -> 355
+	348 -> 369
+	380 -> 376
+	320 -> 375
+	350 -> 348
+	375 -> 374
+	353 -> 374
+	369 -> 379
+	374 [label="Table Validator _Reference_"]
+	375 [label="Try _Data Ports_"]
+	380 [label="Variable Creator"]
+	350 [label="Extract Table Spec"]
+	355 [label="Workflow Service Output"]
+	372 [label="Table Reader"]
+	379 [label="Variable Creator"]
+	369 [label="CSV Writer"]
+	376 [label="Catch Errors _Var Ports_"]
+	348 [label="Reference Column Resorter"]
+	353 [label="CSV Reader"]
+	320 [label="Workflow Service Input"]
+	rankdir=LR
+}

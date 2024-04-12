@@ -1,0 +1,24 @@
+digraph {
+	6 -> 5
+	8 -> 10
+	3 -> 4
+	12 -> 8
+	9 -> 12
+	1 -> 2
+	2 -> 3
+	5 -> 9
+	4 -> 6
+	8 -> 11
+	5 [label="Rule Engine"]
+	1 [label="CSV Reader"]
+	9 [label="Column Resorter"]
+	11 [label="CSV Writer"]
+	4 [label="String to Date_Time"]
+	6 [label="Column Renamer"]
+	8 [label="Row Splitter"]
+	12 [label="Date_Time to String"]
+	3 [label="Cell Splitter"]
+	2 [label="Cell Splitter"]
+	10 [label="CSV Writer"]
+	rankdir=LR
+}

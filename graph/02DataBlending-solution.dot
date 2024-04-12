@@ -1,0 +1,26 @@
+digraph {
+	233 -> 244
+	152 -> 245
+	239 -> 238
+	244 -> 245
+	241 -> 246
+	238 -> 242
+	236 -> 156
+	232 -> 152
+	156 -> 242
+	245 -> 246
+	242 -> 244
+	232 [label="File Reader"]
+	245 [label=Joiner]
+	242 [label=Concatenate]
+	233 [label="Table Reader"]
+	246 [label=Joiner]
+	156 [label="Column Rename"]
+	244 [label=Joiner]
+	236 [label="File Reader"]
+	241 [label="Excel Reader _XLS_"]
+	152 [label="Column Filter"]
+	239 [label="SQLite Connector"]
+	238 [label="Database Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	5 -> 8
+	3 -> 5
+	8 -> 7
+	1 -> 2
+	2 -> 3
+	5 [label="Linear Correlation"]
+	1 [label="Table Reader"]
+	7 [label=Heatmap]
+	8 [label="Row Filter"]
+	3 [label="Missing Value"]
+	2 [label="String to Date_Time"]
+	rankdir=LR
+}

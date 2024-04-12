@@ -1,0 +1,20 @@
+digraph {
+	20 -> 26
+	21 -> 24
+	22 -> 25
+	19 -> 20
+	26 -> 21
+	26 -> 27
+	21 -> 22
+	1 -> 19
+	24 [label="Causal Graph Visualizer"]
+	27 [label="Trace Variant Explorer"]
+	20 [label=Sorter]
+	1 [label="CSV Reader"]
+	22 [label="Hybrid Petri Net Miner"]
+	26 [label="Filter Event Table By Frequency"]
+	21 [label="Causal Graph Miner"]
+	25 [label="Hybrid Petri Net Visualizer"]
+	19 [label="String to Date_Time"]
+	rankdir=LR
+}

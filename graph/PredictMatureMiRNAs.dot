@@ -1,0 +1,29 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	1 -> 4
+	4 -> 5
+	1 -> 2
+	8 -> 9
+	3 -> 4
+	5 -> 6
+	11 -> 12
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	5 [label="Math Formula"]
+	13 [label=Table2FASTA]
+	1 [label="File Reader"]
+	7 [label="Row Splitter"]
+	9 [label="Column Filter"]
+	11 [label="String Manipulation"]
+	4 [label=Joiner]
+	6 [label="Rule Engine"]
+	8 [label="Row Splitter"]
+	12 [label="Column Rename"]
+	3 [label=SequenceFragmenter]
+	2 [label="Column Rename"]
+	10 [label="Counter Generation"]
+	rankdir=LR
+}

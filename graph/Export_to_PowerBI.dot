@@ -1,0 +1,31 @@
+digraph {
+	20 -> 21
+	33 -> 19
+	16 -> 38
+	21 -> 16
+	18 -> 36
+	41 -> 36
+	39 -> 35
+	35 -> 16
+	19 -> 22
+	22 -> 17
+	38 -> 35
+	17 -> 39
+	17 -> 18
+	33 -> 20
+	16 -> 17
+	16 [label=Sorter]
+	20 [label=Pivoting]
+	35 [label=Joiner]
+	22 [label=RowID]
+	41 [label="Microsoft Authenticator"]
+	36 [label="Send to Power BI"]
+	18 [label="Math Formula"]
+	21 [label=RowID]
+	39 [label="Column Renamer"]
+	33 [label="CSV Reader"]
+	17 [label=Sorter]
+	38 [label="Column Renamer"]
+	19 [label=Pivoting]
+	rankdir=LR
+}

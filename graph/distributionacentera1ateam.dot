@@ -1,0 +1,130 @@
+digraph {
+	66 -> 68
+	12 -> 26
+	42 -> 44
+	9 -> 14
+	12 -> 10
+	67 -> 66
+	4 -> 5
+	41 -> 43
+	38 -> 16
+	8 -> 9
+	16 -> 40
+	29 -> 48
+	71 -> 72
+	14 -> 11
+	61 -> 70
+	2 -> 3
+	63 -> 64
+	7 -> 2
+	61 -> 60
+	51 -> 52
+	29 -> 53
+	43 -> 54
+	32 -> 34
+	58 -> 65
+	1 -> 5
+	50 -> 51
+	38 -> 15
+	11 -> 12
+	58 -> 59
+	5 -> 7
+	41 -> 45
+	56 -> 57
+	75 -> 74
+	27 -> 32
+	49 -> 51
+	58 -> 67
+	58 -> 56
+	12 -> 25
+	16 -> 55
+	12 -> 22
+	49 -> 61
+	60 -> 63
+	28 -> 27
+	70 -> 71
+	29 -> 36
+	40 -> 39
+	49 -> 50
+	65 -> 73
+	62 -> 71
+	67 -> 75
+	12 -> 24
+	65 -> 69
+	55 -> 58
+	3 -> 8
+	48 -> 46
+	43 -> 42
+	54 -> 49
+	49 -> 62
+	36 -> 38
+	29 -> 41
+	62 -> 63
+	59 -> 56
+	34 -> 29
+	69 -> 66
+	12 -> 28
+	73 -> 75
+	27 [label="Column Filter"]
+	57 [label="Numeric Scorer"]
+	55 [label="Column Filter"]
+	7 [label="Missing Value Column Filter"]
+	9 [label="String to Date_Time"]
+	52 [label="Numeric Scorer"]
+	26 [label="Linear Correlation"]
+	58 [label=Partitioning]
+	8 [label="String to Date_Time"]
+	74 [label=Scorer]
+	3 [label="String to Date_Time"]
+	24 [label="Scatter Plot _local_"]
+	64 [label=Scorer]
+	49 [label=Partitioning]
+	41 [label=Normalizer]
+	51 [label="Regression Predictor"]
+	56 [label="Regression Predictor"]
+	15 [label="Hierarchical Clustering"]
+	25 [label="Conditional Box Plot"]
+	54 [label="Column Filter"]
+	10 [label=Statistics]
+	12 [label="Extract Date_Time Fields"]
+	59 [label="Linear Regression Learner"]
+	16 [label=k_Means]
+	48 [label="Create Bit Vector"]
+	75 [label="Logistic Regression Predictor"]
+	50 [label="Linear Regression Learner"]
+	1 [label="Excel Reader"]
+	42 [label="Color Manager"]
+	22 [label="Box Plot _local_"]
+	53 [label="Linear Correlation"]
+	28 [label="Math Formula _Multi Column_"]
+	67 [label="Column Filter"]
+	68 [label=Scorer]
+	11 [label="Extract Date_Time Fields"]
+	4 [label="Excel Reader"]
+	72 [label=Scorer]
+	61 [label="Column Filter"]
+	63 [label="Decision Tree Predictor"]
+	14 [label="String Manipulation"]
+	38 [label=Normalizer]
+	60 [label="Decision Tree Learner"]
+	5 [label=Joiner]
+	43 [label=k_Means]
+	44 [label="Scatter Plot _local_"]
+	34 [label="Column Expressions"]
+	62 [label="Column Filter"]
+	29 [label=GroupBy]
+	70 [label="Logistic Regression Learner"]
+	65 [label="Column Filter"]
+	36 [label="Numeric Outliers"]
+	71 [label="Logistic Regression Predictor"]
+	46 [label="Association Rule Learner"]
+	69 [label="Decision Tree Learner"]
+	66 [label="Decision Tree Predictor"]
+	40 [label="Color Manager"]
+	39 [label="Scatter Plot _local_"]
+	73 [label="Logistic Regression Learner"]
+	32 [label="Missing Value"]
+	2 [label="String To Number"]
+	45 [label="Hierarchical Clustering"]
+	rankdir=LR
+}

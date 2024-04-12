@@ -1,0 +1,16 @@
+digraph {
+	214 -> 213
+	212 -> 211
+	213 -> 217
+	217 -> 215
+	1 -> 212
+	211 -> 213
+	211 [label=Ungroup]
+	1 [label="GET Request"]
+	212 [label="JSON Path"]
+	217 [label="Column Filter"]
+	215 [label="CSV Writer"]
+	214 [label="Date_Time Configuration"]
+	213 [label="Constant Value Column"]
+	rankdir=LR
+}

@@ -1,0 +1,13 @@
+digraph {
+	6 -> 5
+	3 -> 4
+	4 -> 6
+	1 -> 2
+	5 [label="Image Writer"]
+	1 [label="Image Reader"]
+	4 [label=GroupBy]
+	6 [label="Set Image Metadata"]
+	3 [label="Image Reader"]
+	2 [label="Image Writer"]
+	rankdir=LR
+}

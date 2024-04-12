@@ -1,0 +1,80 @@
+digraph {
+	31 -> 44
+	13 -> 26
+	20 -> 21
+	7 -> 8
+	28 -> 40
+	9 -> 13
+	21 -> 22
+	15 -> 13
+	8 -> 31
+	33 -> 36
+	27 -> 28
+	44 -> 39
+	8 -> 6
+	32 -> 34
+	37 -> 48
+	17 -> 18
+	46 -> 38
+	13 -> 27
+	25 -> 15
+	5 -> 7
+	41 -> 45
+	22 -> 24
+	39 -> 46
+	28 -> 32
+	24 -> 23
+	9 -> 25
+	34 -> 33
+	26 -> 16
+	45 -> 43
+	8 -> 41
+	18 -> 20
+	36 -> 37
+	48 -> 35
+	23 -> 27
+	47 -> 42
+	43 -> 47
+	6 -> 9
+	16 -> 17
+	1 -> 5
+	27 [label="Math Formula _Multi Column_"]
+	7 [label="Column Resorter"]
+	9 [label=Pivoting]
+	45 [label="Column Expressions"]
+	26 [label=RowID]
+	18 [label="Row Filter"]
+	21 [label=Sorter]
+	8 [label="Column Expressions"]
+	17 [label=RowID]
+	24 [label="Column Expressions"]
+	41 [label=GroupBy]
+	31 [label=GroupBy]
+	6 [label=GroupBy]
+	15 [label="Table Row To Variable Loop Start"]
+	25 [label=GroupBy]
+	16 [label=Transpose]
+	48 [label="Column Resorter"]
+	1 [label="CSV Reader"]
+	42 [label="Table View"]
+	22 [label="Row Filter"]
+	28 [label="Loop End"]
+	23 [label="Table Row to Variable"]
+	47 [label=Sorter]
+	38 [label="Table View"]
+	5 [label=Unpivoting]
+	13 [label="Row Filter"]
+	20 [label="Row Filter"]
+	44 [label="Column Expressions"]
+	34 [label="Row Filter"]
+	43 [label="Column Rename"]
+	35 [label="Table View"]
+	36 [label="Counter Generation"]
+	46 [label=Sorter]
+	40 [label=Heatmap]
+	39 [label="Column Rename"]
+	33 [label=Sorter]
+	32 [label=Unpivoting]
+	37 [label="Column Rename"]
+	rankdir=LR
+}

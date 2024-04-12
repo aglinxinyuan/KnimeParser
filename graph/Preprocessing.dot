@@ -1,0 +1,41 @@
+digraph {
+	272 -> 269
+	271 -> 268
+	256 -> 49
+	262 -> 271
+	261 -> 254
+	242 -> 265
+	272 -> 271
+	268 -> 256
+	254 -> 262
+	268 -> 261
+	262 -> 251
+	271 -> 269
+	49 -> 246
+	243 -> 260
+	266 -> 260
+	260 -> 256
+	265 -> 266
+	246 -> 242
+	269 -> 243
+	266 -> 268
+	262 -> 272
+	260 -> 268
+	260 [label="Chunk Loop Start"]
+	246 [label="Image Cropper"]
+	265 [label=Transpose]
+	242 [label=Splitter]
+	256 [label="Image Reader _Table_"]
+	262 [label=RowID]
+	251 [label="Table Writer"]
+	49 [label="Image Calculator"]
+	269 [label="Category To Number"]
+	261 [label="Loop End"]
+	243 [label=Partitioning]
+	272 [label="Table Reader"]
+	266 [label="Column Rename _Regex_"]
+	271 [label="Table Writer"]
+	254 [label=Shuffle]
+	268 [label="Cross Joiner"]
+	rankdir=LR
+}

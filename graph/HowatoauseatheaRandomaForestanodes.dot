@@ -1,0 +1,26 @@
+digraph {
+	12 -> 13
+	2 -> 12
+	12 -> 9
+	2 -> 15
+	13 -> 7
+	15 -> 8
+	2 -> 13
+	2 -> 14
+	14 -> 15
+	1 -> 2
+	15 -> 10
+	10 -> 11
+	13 [label="Random Forest Predictor"]
+	1 [label="File Reader"]
+	7 [label=Scorer]
+	9 [label=Scorer]
+	11 [label="Line Plot"]
+	10 [label="Column Filter"]
+	8 [label="Numeric Scorer"]
+	15 [label="Random Forest Predictor _Regression_"]
+	14 [label="Random Forest Learner _Regression_"]
+	2 [label=Partitioning]
+	12 [label="Random Forest Learner"]
+	rankdir=LR
+}

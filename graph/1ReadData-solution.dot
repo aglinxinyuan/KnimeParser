@@ -1,0 +1,48 @@
+digraph {
+	143 -> 145
+	158 -> 159
+	163 -> 162
+	171 -> 170
+	155 -> 158
+	159 -> 143
+	157 -> 159
+	156 -> 158
+	159 -> 160
+	106 -> 58
+	162 -> 166
+	171 -> 172
+	159 -> 166
+	102 -> 105
+	166 -> 171
+	165 -> 164
+	161 -> 165
+	164 -> 163
+	144 -> 102
+	105 -> 106
+	145 -> 144
+	171 -> 167
+	170 [label="Linear Correlation"]
+	165 [label=XPath]
+	167 [label="Lag Column"]
+	58 [label="Generic JavaScript View"]
+	162 [label="Column Rename"]
+	145 [label="String to Date_Time"]
+	105 [label="Math Formula"]
+	163 [label="JSON to Table"]
+	156 [label="File Reader"]
+	161 [label="XML Reader"]
+	171 [label="Column Auto Type Cast"]
+	166 [label=Joiner]
+	164 [label="XML To JSON"]
+	144 [label="Date_Time to String"]
+	143 [label="String To Number"]
+	158 [label=Joiner]
+	159 [label=Joiner]
+	172 [label="Rank Correlation"]
+	106 [label="Math Formula"]
+	160 [label="Data Explorer _JavaScript_"]
+	102 [label=GroupBy]
+	157 [label="Table Reader"]
+	155 [label="Excel Reader _XLS_"]
+	rankdir=LR
+}

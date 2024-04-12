@@ -1,0 +1,54 @@
+digraph {
+	12 -> 14
+	29 -> 15
+	39 -> 40
+	14 -> 29
+	40 -> 41
+	38 -> 40
+	27 -> 28
+	22 -> 27
+	31 -> 32
+	18 -> 22
+	26 -> 27
+	17 -> 18
+	5 -> 7
+	8 -> 11
+	32 -> 38
+	9 -> 8
+	15 -> 16
+	34 -> 31
+	30 -> 12
+	18 -> 34
+	22 -> 26
+	7 -> 9
+	38 -> 39
+	2 -> 5
+	11 -> 30
+	16 -> 17
+	27 [label="XGBoost Predictor"]
+	7 [label="Case Converter"]
+	9 [label="Number Filter"]
+	18 [label="Category To Class"]
+	26 [label="XGBoost Tree Ensemble Learner"]
+	8 [label="Punctuation Erasure"]
+	32 [label=k_Means]
+	17 [label="Document Vector"]
+	41 [label=Scorer]
+	31 [label=RowID]
+	15 [label=IDF]
+	12 [label="Bag Of Words Creator"]
+	16 [label="Column Expressions"]
+	22 [label=Partitioning]
+	28 [label=Scorer]
+	11 [label="Stop Word Filter"]
+	14 [label=TF]
+	38 [label=Partitioning]
+	5 [label="Strings To Document"]
+	34 [label="Color Manager"]
+	29 [label="Frequency Filter"]
+	40 [label="XGBoost Predictor"]
+	39 [label="XGBoost Tree Ensemble Learner"]
+	30 [label="Kuhlen Stemmer"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

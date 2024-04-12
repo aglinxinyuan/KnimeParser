@@ -1,0 +1,55 @@
+digraph {
+	180 -> 193
+	167 -> 174
+	203 -> 163
+	193 -> 199
+	194 -> 195
+	167 -> 170
+	177 -> 178
+	162 -> 165
+	163 -> 167
+	199 -> 200
+	173 -> 166
+	193 -> 192
+	162 -> 175
+	178 -> 191
+	163 -> 171
+	192 -> 195
+	177 -> 180
+	193 -> 194
+	195 -> 197
+	171 -> 173
+	167 -> 177
+	170 -> 169
+	200 -> 201
+	198 -> 200
+	175 -> 203
+	193 -> 198
+	166 -> 167
+	170 [label=Auto_Binner]
+	165 [label=Statistics]
+	167 [label="Uplift Tree Predictor"]
+	203 [label="Number To String"]
+	169 [label="Uplift Tree Evaluator"]
+	194 [label="Math Formula"]
+	162 [label="File Reader"]
+	200 [label=Joiner]
+	163 [label=Partitioning]
+	180 [label=GroupBy]
+	201 [label="Math Formula"]
+	177 [label="Row Splitter"]
+	197 [label="Math Formula"]
+	171 [label=SMOTE]
+	166 [label="Uplift Tree Learner"]
+	173 [label="Double To Int"]
+	191 [label="Table Column to Variable"]
+	174 [label=GroupBy]
+	178 [label=GroupBy]
+	198 [label="Math Formula"]
+	195 [label=Joiner]
+	199 [label="Math Formula"]
+	175 [label="Row Filter"]
+	192 [label="Math Formula"]
+	193 [label="Table Column to Variable"]
+	rankdir=LR
+}

@@ -1,0 +1,34 @@
+digraph {
+	1871 -> 75
+	75 -> 1877
+	75 -> 76
+	76 -> 1877
+	1874 -> 1878
+	1877 -> 1876
+	72 -> 71
+	1875 -> 1871
+	70 -> 1872
+	75 -> 1876
+	1871 -> 72
+	1873 -> 1871
+	1875 -> 1874
+	1876 -> 1874
+	1872 -> 1875
+	71 -> 75
+	1 -> 1873
+	1875 [label=Partitioning]
+	1872 [label="Java Snippet _simple_"]
+	1874 [label="DB Insert"]
+	1 [label="MySQL Connector"]
+	70 [label="Data Generator"]
+	71 [label="DB Reader"]
+	1877 [label="DB Connection Table Writer"]
+	72 [label="DB Table Selector"]
+	1871 [label="DB Table Creator"]
+	1878 [label="DB Connection Table Writer"]
+	1873 [label="DB Table Remover"]
+	76 [label="DB Reader"]
+	1876 [label="DB Connection Extractor"]
+	75 [label="DB Writer"]
+	rankdir=LR
+}

@@ -1,0 +1,26 @@
+digraph {
+	3 -> 9
+	5 -> 8
+	4 -> 5
+	3 -> 5
+	2 -> 4
+	5 -> 7
+	3 -> 11
+	5 -> 6
+	4 -> 9
+	9 -> 10
+	1 -> 3
+	2 -> 11
+	5 [label=Joiner]
+	1 [label="Excel Reader"]
+	7 [label="Table View _Labs_"]
+	9 [label="Column Appender"]
+	11 [label="Reference Column Resorter"]
+	4 [label="Extract Column Header"]
+	6 [label="Table View _Labs_"]
+	8 [label="Table View _Labs_"]
+	3 [label="Extract Column Header"]
+	2 [label="Excel Reader"]
+	10 [label="Rule Engine"]
+	rankdir=LR
+}

@@ -1,0 +1,22 @@
+digraph {
+	7 -> 7
+	16 -> 11
+	7 -> 8
+	4 -> 16
+	3 -> 4
+	2 -> 9
+	16 -> 2
+	16 -> 8
+	1 -> 3
+	9 -> 2
+	16 [label="Counter Generation"]
+	1 [label="Tika Parser"]
+	7 [label="Table Row to Variable"]
+	9 [label="Row Filter"]
+	11 [label="Duplicate Row Filter"]
+	4 [label=Transpose]
+	8 [label="Row Filter"]
+	3 [label="Cell Splitter"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

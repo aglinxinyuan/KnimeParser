@@ -1,0 +1,76 @@
+digraph {
+	13 -> 15
+	20 -> 21
+	8 -> 13
+	15 -> 46
+	5 -> 40
+	15 -> 30
+	5 -> 41
+	2 -> 4
+	13 -> 32
+	15 -> 33
+	15 -> 31
+	10 -> 8
+	15 -> 45
+	15 -> 23
+	5 -> 38
+	8 -> 12
+	5 -> 43
+	8 -> 11
+	15 -> 19
+	9 -> 8
+	16 -> 21
+	26 -> 22
+	3 -> 5
+	13 -> 16
+	29 -> 45
+	19 -> 22
+	15 -> 36
+	8 -> 37
+	15 -> 29
+	10 -> 44
+	5 -> 39
+	15 -> 20
+	9 -> 44
+	15 -> 34
+	8 -> 14
+	15 -> 35
+	2 -> 3
+	9 [label="CSV Reader"]
+	45 [label="SVM Predictor"]
+	21 [label="Regression Predictor"]
+	26 [label="Keras Input Layer"]
+	8 [label=Joiner]
+	3 [label="Cell Splitter"]
+	19 [label="Logistic Regression Learner"]
+	41 [label="Interactive Pie chart _legacy_"]
+	31 [label="RProp MLP Learner"]
+	15 [label="Row Filter"]
+	10 [label="CSV Reader"]
+	12 [label="Missing Value Column Filter"]
+	16 [label="Rule_based Row Filter"]
+	30 [label="SOTA Learner"]
+	22 [label="Keras Network Learner"]
+	11 [label="CSV Writer"]
+	4 [label="Column Resorter"]
+	23 [label="Naive Bayes Learner"]
+	14 [label="Numeric Outliers"]
+	38 [label="GroupBy Bar Chart _JFreeChart_"]
+	5 [label="Column Combiner"]
+	43 [label="Bar Chart _JFreeChart_"]
+	13 [label="Missing Value"]
+	44 [label=Joiner]
+	20 [label="Linear Regression Learner"]
+	35 [label="SVM Learner"]
+	29 [label="SVM Learner"]
+	34 [label="Random Forest Learner _Regression_"]
+	36 [label="RProp MLP Learner"]
+	46 [label="SVM Learner"]
+	40 [label="Sunburst Chart"]
+	39 [label="Bar Chart"]
+	33 [label="Simple Regression Tree Learner"]
+	32 [label="Decision Tree Learner"]
+	2 [label="Excel Reader"]
+	37 [label="Pie Chart"]
+	rankdir=LR
+}

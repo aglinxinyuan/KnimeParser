@@ -1,0 +1,15 @@
+digraph {
+	19 -> 9
+	19 -> 36
+	17 -> 19
+	2 -> 19
+	1 -> 2
+	2 -> 17
+	1 [label="File Reader"]
+	36 [label="Numeric Scorer"]
+	9 [label="Interactive Table _local_"]
+	17 [label="Linear Regression Learner"]
+	2 [label=Partitioning]
+	19 [label="Regression Predictor"]
+	rankdir=LR
+}

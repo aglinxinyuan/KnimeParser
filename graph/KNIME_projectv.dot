@@ -1,0 +1,74 @@
+digraph {
+	6 -> 284
+	282 -> 281
+	11 -> 9
+	5 -> 4
+	272 -> 273
+	279 -> 263
+	281 -> 17
+	240 -> 273
+	275 -> 156
+	17 -> 15
+	129 -> 271
+	278 -> 129
+	277 -> 129
+	273 -> 244
+	286 -> 3
+	10 -> 4
+	5 -> 10
+	4 -> 12
+	280 -> 240
+	5 -> 7
+	11 -> 2
+	15 -> 16
+	3 -> 283
+	271 -> 272
+	143 -> 271
+	261 -> 143
+	3 -> 6
+	276 -> 261
+	244 -> 255
+	287 -> 286
+	156 -> 143
+	2 -> 5
+	4 -> 13
+	263 -> 272
+	263 [label="Column Filter"]
+	275 [label="CSV Reader"]
+	7 [label="Interactive Table _local_"]
+	284 [label="Pie_Donut Chart"]
+	280 [label="Excel Reader"]
+	9 [label=Statistics]
+	286 [label="Column Filter"]
+	17 [label=Pivoting]
+	3 [label="Row Filter"]
+	283 [label="Stacked Area Chart"]
+	277 [label="Table Reader"]
+	156 [label="Column Rename"]
+	6 [label="Color Manager"]
+	15 [label=Sorter]
+	282 [label="CSV Reader"]
+	271 [label=Joiner]
+	129 [label="Cell Replacer"]
+	10 [label="Decision Tree Learner"]
+	12 [label=Scorer]
+	240 [label="String Manipulation"]
+	16 [label="Data to Report"]
+	281 [label="Color Manager"]
+	244 [label=GroupBy]
+	143 [label=Concatenate]
+	261 [label="DB Query Reader"]
+	11 [label="CSV Reader"]
+	4 [label="Decision Tree Predictor"]
+	287 [label="CSV Reader"]
+	279 [label="CSV Reader"]
+	272 [label=Joiner]
+	278 [label="CSV Reader"]
+	5 [label=Partitioning]
+	13 [label="Scatter Plot"]
+	255 [label="Bar Chart"]
+	276 [label="SQLite Connector"]
+	273 [label=Joiner]
+	2 [label="Color Manager"]
+	rankdir=LR
+}

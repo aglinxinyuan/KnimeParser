@@ -1,0 +1,14 @@
+digraph {
+	4 -> 2
+	7 -> 4
+	2 -> 8
+	5 -> 7
+	1 -> 5
+	5 [label="String Replacer"]
+	1 [label="CSV Reader"]
+	7 [label="String Replacer"]
+	4 [label="String to Number"]
+	8 [label=GroupBy]
+	2 [label=GroupBy]
+	rankdir=LR
+}

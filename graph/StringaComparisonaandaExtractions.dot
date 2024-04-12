@@ -1,0 +1,34 @@
+digraph {
+	43 -> 22
+	44 -> 39
+	22 -> 24
+	24 -> 44
+	40 -> 28
+	27 -> 38
+	42 -> 40
+	1 -> 30
+	30 -> 27
+	3 -> 42
+	38 -> 29
+	29 -> 43
+	28 -> 22
+	2 -> 31
+	31 -> 27
+	24 [label="Rule Engine"]
+	27 [label=Concatenate]
+	43 [label="Duplicate Row Filter"]
+	1 [label="Table Creator"]
+	42 [label="String Manipulation"]
+	44 [label="Missing Value"]
+	22 [label="Cross Joiner"]
+	38 [label=Ungroup]
+	31 [label="Cell Splitter"]
+	28 [label="Cell Splitter"]
+	29 [label="String Manipulation"]
+	40 [label="String Manipulation"]
+	39 [label=GroupBy]
+	30 [label="Cell Splitter"]
+	3 [label="Table Creator"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

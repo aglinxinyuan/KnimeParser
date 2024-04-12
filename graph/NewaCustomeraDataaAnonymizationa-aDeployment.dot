@@ -1,0 +1,49 @@
+digraph {
+	2555 -> 2557
+	2524 -> 2526
+	2564 -> 2563
+	2522 -> 2566
+	2560 -> 2564
+	2531 -> 2559
+	2548 -> 481
+	2558 -> 2531
+	2553 -> 2555
+	2566 -> 2567
+	2522 -> 2569
+	2559 -> 2562
+	2527 -> 2558
+	2526 -> 2527
+	2557 -> 2558
+	2569 -> 2553
+	2567 -> 481
+	2564 -> 2525
+	2569 -> 2557
+	2557 -> 2525
+	2524 -> 2525
+	2569 -> 2555
+	2562 -> 2560
+	481 -> 2553
+	2468 -> 2548
+	2548 [label="Table Column to Variable"]
+	2468 [label="Table Reader"]
+	2560 [label="CASE Switch Start"]
+	2563 [label="Send Email"]
+	2564 [label="Date_Time Configuration"]
+	2526 [label="DB Table Selector"]
+	2559 [label="Table Row to Variable"]
+	481 [label=Anonymization]
+	2557 [label="Cell Replacer"]
+	2567 [label="Number To String"]
+	2566 [label="Date_Time to String"]
+	2522 [label="Table Reader"]
+	2531 [label="Anonymity Assessment"]
+	2555 [label="Cell Replacer"]
+	2558 [label=Concatenate]
+	2527 [label="DB Reader"]
+	2524 [label="SQLite Connector"]
+	2569 [label="Hierarchy Reader"]
+	2525 [label="DB Writer"]
+	2553 [label="Cell Replacer"]
+	2562 [label="Rule Engine Variable"]
+	rankdir=LR
+}

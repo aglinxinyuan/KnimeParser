@@ -1,0 +1,41 @@
+digraph {
+	13 -> 14
+	2 -> 6
+	19 -> 21
+	15 -> 9
+	6 -> 8
+	12 -> 13
+	18 -> 19
+	14 -> 15
+	17 -> 18
+	8 -> 4
+	10 -> 12
+	3 -> 9
+	9 -> 17
+	5 -> 3
+	16 -> 19
+	19 -> 20
+	17 -> 16
+	4 -> 13
+	1 -> 5
+	9 [label=Joiner]
+	18 [label="Math Formula"]
+	21 [label="CSV Writer"]
+	8 [label="Rule_based Row Filter"]
+	17 [label="Column Renamer"]
+	3 [label=Pivot]
+	19 [label=Joiner]
+	6 [label="Column Filter"]
+	15 [label="Row Aggregator"]
+	12 [label="Column Filter"]
+	10 [label="Excel Reader"]
+	16 [label="Math Formula"]
+	1 [label="Excel Reader"]
+	4 [label=Pivot]
+	14 [label="Row Filter"]
+	5 [label="Column Filter"]
+	13 [label="Value Lookup"]
+	20 [label="Excel Writer"]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,59 @@
+digraph {
+	29 -> 34
+	29 -> 37
+	31 -> 26
+	14 -> 16
+	29 -> 38
+	25 -> 29
+	34 -> 38
+	2 -> 4
+	3 -> 14
+	37 -> 28
+	4 -> 12
+	5 -> 15
+	33 -> 37
+	29 -> 33
+	5 -> 7
+	2 -> 15
+	11 -> 2
+	19 -> 25
+	9 -> 11
+	31 -> 19
+	15 -> 17
+	1 -> 10
+	2 -> 7
+	7 -> 13
+	2 -> 14
+	3 -> 4
+	38 -> 27
+	1 -> 9
+	2 -> 3
+	2 -> 5
+	27 [label=Scorer]
+	7 [label="Decision Tree Predictor"]
+	9 [label="Missing Value"]
+	26 [label=Statistics]
+	17 [label=Scorer]
+	3 [label="Decision Tree Learner"]
+	19 [label="Missing Value"]
+	31 [label="CSV Reader"]
+	15 [label="Decision Tree Predictor"]
+	25 [label="Column Filter"]
+	12 [label=Scorer]
+	10 [label=Statistics]
+	16 [label=Scorer]
+	1 [label="CSV Reader"]
+	28 [label=Scorer]
+	11 [label="Column Filter"]
+	4 [label="Decision Tree Predictor"]
+	14 [label="Decision Tree Predictor"]
+	38 [label="Random Forest Predictor"]
+	5 [label="Decision Tree Learner"]
+	13 [label=Scorer]
+	34 [label="Random Forest Learner"]
+	29 [label=Partitioning]
+	33 [label="Random Forest Learner"]
+	2 [label=Partitioning]
+	37 [label="Random Forest Predictor"]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	2 -> 7
+	6 -> 2
+	4 -> 6
+	7 [label="Renderer to Image"]
+	9 [label="Row Filter"]
+	4 [label="List Files_Folders"]
+	6 [label="Path to URI"]
+	8 [label="Tile View"]
+	2 [label="Image Reader _Table_"]
+	rankdir=LR
+}

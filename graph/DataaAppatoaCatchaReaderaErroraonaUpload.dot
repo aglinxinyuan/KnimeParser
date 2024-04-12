@@ -1,0 +1,75 @@
+digraph {
+	6 -> 5
+	14 -> 16
+	41 -> 38
+	29 -> 28
+	11 -> 9
+	25 -> 22
+	7 -> 12
+	13 -> 46
+	1 -> 4
+	16 -> 15
+	31 -> 30
+	30 -> 33
+	43 -> 45
+	18 -> 17
+	38 -> 10
+	28 -> 30
+	5 -> 7
+	45 -> 44
+	33 -> 34
+	10 -> 40
+	9 -> 8
+	15 -> 25
+	4 -> 2
+	36 -> 29
+	39 -> 13
+	15 -> 17
+	35 -> 36
+	8 -> 37
+	12 -> 11
+	44 -> 41
+	40 -> 39
+	42 -> 41
+	27 -> 36
+	2 -> 5
+	27 [label="File Upload Widget"]
+	7 [label="Variable To Table Row"]
+	9 [label="Empty Table Switch"]
+	45 [label="Try _Variable Ports_"]
+	18 [label="Excel Reader"]
+	8 [label="Extract Variables _Data_"]
+	17 [label="Catch Errors _Data Ports_"]
+	41 [label="Catch Errors _Data Ports_"]
+	31 [label="Excel Reader"]
+	6 [label="Excel Reader"]
+	15 [label="Excel Reader"]
+	25 [label="Active Branch Inverter"]
+	10 [label="Extract Table Dimension"]
+	12 [label="Extract Table Spec"]
+	16 [label="Try _Variable Ports_"]
+	1 [label="File Upload Widget"]
+	42 [label="Excel Reader"]
+	22 [label="Text Output Widget"]
+	28 [label="Excel Reader"]
+	11 [label="Row Filter"]
+	4 [label="Try _Variable Ports_"]
+	14 [label="File Upload Widget"]
+	38 [label="Variable To Table Row"]
+	5 [label="Catch Errors _Data Ports_"]
+	13 [label="CASE Switch Start"]
+	35 [label="Variable Creator"]
+	43 [label="File Upload Widget"]
+	34 [label="Text Output Widget"]
+	44 [label="Excel Reader"]
+	29 [label="Try _Variable Ports_"]
+	36 [label="Merge Variables"]
+	46 [label="Text Output Widget"]
+	40 [label="Table Column To Variable"]
+	39 [label="Rule Engine Variable"]
+	33 [label="CASE Switch Start"]
+	30 [label="Catch Errors _Data Ports_"]
+	2 [label="Excel Reader"]
+	37 [label="Text Output Widget"]
+	rankdir=LR
+}

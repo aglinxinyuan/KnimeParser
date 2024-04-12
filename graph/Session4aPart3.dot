@@ -1,0 +1,30 @@
+digraph {
+	416 -> 419
+	416 -> 421
+	416 -> 422
+	418 -> 417
+	413 -> 415
+	422 -> 423
+	416 -> 417
+	412 -> 413
+	417 -> 419
+	416 -> 420
+	421 -> 422
+	414 -> 416
+	419 -> 420
+	420 -> 421
+	415 -> 414
+	423 [label="XLS Formatter _apply_"]
+	416 [label="Rule Engine"]
+	421 [label="XLS Cell Formatter"]
+	419 [label="XLS Background Colorizer"]
+	418 [label="XLS Sheet Selector"]
+	412 [label="Excel Reader"]
+	415 [label="Rule Engine"]
+	420 [label="XLS Border Formatter"]
+	413 [label="XLS Control Table Generator"]
+	414 [label="Rule Engine"]
+	417 [label="XLS Background Colorizer"]
+	422 [label="XLS Row and Column Sizer"]
+	rankdir=LR
+}

@@ -1,0 +1,35 @@
+digraph {
+	98 -> 101
+	79 -> 4
+	81 -> 82
+	1 -> 2
+	101 -> 103
+	78 -> 79
+	4 -> 99
+	2 -> 78
+	103 -> 102
+	82 -> 83
+	83 -> 84
+	99 -> 98
+	6 -> 78
+	80 -> 81
+	82 -> 98
+	4 -> 80
+	99 [label=IDMerger]
+	103 [label="String to Path _Variable_"]
+	1 [label="Input Files"]
+	79 [label=PeptideIndexer]
+	84 [label=MzTabReader]
+	82 [label=FalseDiscoveryRate]
+	98 [label=ProteinQuantifier]
+	102 [label="CSV Reader"]
+	4 [label=ZipLoopEnd]
+	101 [label="URI Port to Variable"]
+	6 [label="Input File"]
+	80 [label=IDMerger]
+	83 [label=MzTabExporter]
+	2 [label=ZipLoopStart]
+	81 [label=ProteinInference]
+	78 [label=XTandemAdapter]
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	24 -> 26
+	28 -> 24
+	27 -> 32
+	33 -> 23
+	25 -> 33
+	33 -> 32
+	35 -> 33
+	34 -> 35
+	32 -> 23
+	22 -> 34
+	26 -> 23
+	35 -> 28
+	31 -> 27
+	33 -> 31
+	24 [label=Transpose]
+	27 [label="Table Row to Variable"]
+	35 [label="String Manipulation"]
+	34 [label=GroupBy]
+	22 [label="Table Creator"]
+	28 [label="Extract Table Dimension"]
+	31 [label="Row Filter"]
+	23 [label="Recursive Loop End _2 ports_"]
+	26 [label="Table Row to Variable"]
+	25 [label="Table Creator"]
+	33 [label="Recursive Loop Start _2 ports_"]
+	32 [label="String Replacer"]
+	rankdir=LR
+}

@@ -1,0 +1,217 @@
+digraph {
+	935 -> 233
+	2153 -> 885
+	901 -> 2153
+	195 -> 161
+	286 -> 287
+	1285 -> 1278
+	234 -> 119
+	888 -> 897
+	290 -> 25
+	471 -> 468
+	236 -> 234
+	235 -> 236
+	2154 -> 2153
+	924 -> 921
+	10 -> 290
+	890 -> 935
+	453 -> 486
+	291 -> 10
+	248 -> 250
+	470 -> 471
+	161 -> 286
+	128 -> 235
+	474 -> 922
+	491 -> 161
+	242 -> 244
+	474 -> 918
+	192 -> 243
+	890 -> 900
+	890 -> 937
+	242 -> 243
+	885 -> 896
+	896 -> 885
+	291 -> 284
+	937 -> 470
+	233 -> 119
+	251 -> 245
+	902 -> 903
+	308 -> 307
+	241 -> 235
+	1282 -> 883
+	937 -> 935
+	935 -> 933
+	119 -> 128
+	908 -> 2162
+	244 -> 237
+	883 -> 885
+	900 -> 902
+	904 -> 908
+	128 -> 241
+	925 -> 119
+	235 -> 938
+	307 -> 10
+	922 -> 453
+	2161 -> 291
+	487 -> 491
+	244 -> 245
+	926 -> 161
+	234 -> 240
+	2163 -> 2165
+	916 -> 119
+	918 -> 916
+	192 -> 242
+	235 -> 253
+	903 -> 2156
+	901 -> 900
+	253 -> 937
+	905 -> 1283
+	897 -> 890
+	491 -> 916
+	19 -> 234
+	896 -> 888
+	245 -> 248
+	289 -> 932
+	486 -> 439
+	917 -> 916
+	1276 -> 900
+	901 -> 896
+	234 -> 233
+	290 -> 192
+	1281 -> 1285
+	1278 -> 1284
+	938 -> 935
+	128 -> 19
+	1283 -> 234
+	936 -> 920
+	247 -> 252
+	240 -> 242
+	287 -> 289
+	933 -> 926
+	233 -> 19
+	2166 -> 904
+	892 -> 885
+	239 -> 247
+	294 -> 291
+	284 -> 2163
+	241 -> 19
+	920 -> 917
+	439 -> 487
+	25 -> 119
+	243 -> 195
+	1284 -> 1282
+	1276 -> 883
+	937 -> 233
+	2162 -> 905
+	250 -> 119
+	234 -> 1280
+	128 -> 234
+	2156 -> 2154
+	2165 -> 2166
+	2154 -> 2161
+	252 -> 251
+	487 -> 490
+	1278 -> 883
+	237 -> 239
+	289 -> 924
+	1282 -> 1276
+	1290 -> 883
+	468 -> 474
+	921 -> 925
+	1285 -> 1290
+	244 -> 252
+	890 -> 234
+	932 -> 936
+	2153 [label="Joiner _deprecated_"]
+	888 [label="SDF Writer"]
+	284 [label="Python Script _1_1_ _deprecated_"]
+	239 [label=MolConverter]
+	2156 [label="Parallel Chunk End"]
+	1284 [label=Dearomatizer]
+	905 [label="Loop End _deprecated_"]
+	290 [label="RDKit To InChI"]
+	2154 [label="Rule_based Row Splitter"]
+	1276 [label="RDKit Substructure Filter"]
+	251 [label="Column Merger"]
+	916 [label=Concatenate]
+	470 [label="RDKit From Molecule"]
+	896 [label="Java Edit Variable"]
+	937 [label="Chunk Loop Start"]
+	491 [label="Column Filter"]
+	890 [label="SDF Writer"]
+	195 [label=GroupBy]
+	1281 [label="List Files _deprecated_"]
+	903 [label="Python Script _1_1_ _deprecated_"]
+	247 [label="RDKit From Molecule"]
+	289 [label="Column Filter"]
+	307 [label="Python Script _1_1_ _deprecated_"]
+	308 [label="RDKit Kekulizer"]
+	924 [label="Parallel Chunk End"]
+	252 [label="Joiner _deprecated_"]
+	286 [label="RDKit Descriptor Calculation"]
+	245 [label=Concatenate]
+	119 [label="Constant Value Column"]
+	883 [label="Molecule Type Cast"]
+	291 [label="Python Script _2_1_ _deprecated_"]
+	938 [label="Column Filter"]
+	294 [label="Table Creator"]
+	287 [label="Java Snippet"]
+	243 [label=Concatenate]
+	453 [label="Column Filter"]
+	248 [label="Column Filter"]
+	897 [label="Java Edit Variable"]
+	192 [label="RDKit From Molecule"]
+	241 [label="Parallel Chunk End"]
+	1280 [label="Loop End"]
+	234 [label="Chunk Loop Start"]
+	1278 [label="SDF Reader"]
+	490 [label="Column Filter"]
+	922 [label="Column Filter"]
+	19 [label="SDF Writer"]
+	885 [label="SDF Writer"]
+	439 [label="String Manipulation"]
+	237 [label=Tautomers]
+	2165 [label="Column Filter"]
+	933 [label=MolConverter]
+	161 [label="RDKit Salt Stripper"]
+	25 [label="RDKit Canon SMILES"]
+	240 [label="Parallel Chunk Start"]
+	1283 [label=Cache]
+	904 [label="Python Script _1_1_ _deprecated_"]
+	2162 [label="Parallel Chunk End"]
+	902 [label="RDKit Kekulizer"]
+	932 [label="Column Filter"]
+	244 [label="Rule_based Row Splitter"]
+	892 [label="Java Edit Variable"]
+	1290 [label="Java Edit Variable"]
+	2163 [label=Standardizer]
+	1285 [label="Table Row To Variable Loop Start _deprecated_"]
+	235 [label="Loop End _deprecated_"]
+	917 [label="RDKit From Molecule"]
+	128 [label="Column Resorter"]
+	474 [label="Rule_based Row Splitter"]
+	242 [label="RDKit From Molecule"]
+	920 [label="Column Filter"]
+	471 [label="RDKit Descriptor Calculation"]
+	921 [label="Column Filter"]
+	233 [label="Java Edit Variable"]
+	2161 [label="Parallel Chunk Start"]
+	935 [label="Chunk Loop Start"]
+	253 [label="Column Filter"]
+	926 [label="Parallel Chunk Start"]
+	236 [label="Column Filter"]
+	486 [label="RDKit Canon SMILES"]
+	918 [label="Column Filter"]
+	10 [label="RDKit To InChI"]
+	468 [label="Java Snippet"]
+	901 [label="Chunk Loop Start"]
+	250 [label="RDKit Kekulizer"]
+	900 [label="Parallel Chunk Start"]
+	1282 [label="RDKit From Molecule"]
+	487 [label="Rule_based Row Splitter"]
+	936 [label=Standardizer]
+	925 [label="RDKit From Molecule"]
+	908 [label="Python Script _1_1_ _deprecated_"]
+	2166 [label="RDKit From Molecule"]
+	rankdir=LR
+}

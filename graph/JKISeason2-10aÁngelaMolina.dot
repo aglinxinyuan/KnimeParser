@@ -1,0 +1,19 @@
+digraph {
+	1 -> 21
+	30 -> 31
+	29 -> 30
+	21 -> 20
+	22 -> 27
+	20 -> 22
+	27 -> 30
+	22 -> 29
+	27 [label="Moving Aggregation"]
+	20 [label="Moving Aggregation"]
+	1 [label="Excel Reader"]
+	22 [label="Row Splitter"]
+	29 [label="Moving Aggregation"]
+	31 [label="Column Rename"]
+	21 [label="Extract Date_Time Fields"]
+	30 [label=Concatenate]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	30 -> 246
+	254 -> 252
+	248 -> 252
+	255 -> 254
+	246 -> 254
+	246 [label="URI Port to Variable"]
+	248 [label="R Source _Workspace_"]
+	255 [label="String Configuration"]
+	252 [label="R View _Workspace_"]
+	30 [label="File Importer"]
+	254 [label="Merge Variables"]
+	rankdir=LR
+}

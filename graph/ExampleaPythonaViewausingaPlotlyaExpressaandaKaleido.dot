@@ -1,0 +1,22 @@
+digraph {
+	1 -> 4
+	9 -> 28
+	28 -> 20
+	25 -> 20
+	26 -> 27
+	11 -> 12
+	28 -> 11
+	28 -> 26
+	4 -> 9
+	27 [label="Excel Reader"]
+	20 [label="Python View"]
+	1 [label="Excel Reader"]
+	28 [label="Missing Value"]
+	9 [label=Pivoting]
+	11 [label="Table Writer"]
+	4 [label="Column Filter"]
+	26 [label="Excel Writer"]
+	25 [label="Conda Environment Propagation"]
+	12 [label="Table Reader"]
+	rankdir=LR
+}

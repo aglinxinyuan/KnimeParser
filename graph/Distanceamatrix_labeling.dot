@@ -1,0 +1,16 @@
+digraph {
+	299 -> 300
+	304 -> 303
+	301 -> 304
+	302 -> 301
+	300 -> 306
+	300 -> 302
+	306 [label="Distance Matrix Pair Extractor"]
+	299 [label="Table Creator"]
+	302 [label="Split Collection Column"]
+	304 [label="Column Rename"]
+	303 [label="Row Filter"]
+	300 [label="Distance Matrix Calculate"]
+	301 [label=Unpivoting]
+	rankdir=LR
+}

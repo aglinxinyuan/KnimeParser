@@ -1,0 +1,51 @@
+digraph {
+	12 -> 15
+	7 -> 8
+	4 -> 3
+	17 -> 24
+	14 -> 17
+	8 -> 9
+	5 -> 11
+	21 -> 25
+	10 -> 3
+	15 -> 13
+	27 -> 28
+	1 -> 4
+	24 -> 21
+	29 -> 30
+	26 -> 27
+	16 -> 14
+	9 -> 1
+	11 -> 12
+	25 -> 26
+	8 -> 29
+	3 -> 5
+	13 -> 16
+	4 -> 10
+	11 -> 14
+	28 -> 29
+	27 [label="Scatter Plot _JFreeChart_"]
+	7 [label="Table Creator"]
+	9 [label="Table Row to Variable"]
+	21 [label="Row Filter"]
+	26 [label="Color Manager"]
+	8 [label="Chunk Loop Start"]
+	17 [label=Unpivoting]
+	3 [label="Constant Value Column"]
+	24 [label="Column Rename"]
+	15 [label="Column Filter"]
+	25 [label="Java Snippet"]
+	12 [label="Java Snippet"]
+	10 [label="Java Edit Variable"]
+	16 [label="Column Rename _Regex_"]
+	1 [label="Empty Table Creator"]
+	28 [label="Image To Table"]
+	11 [label="Recursive Loop Start"]
+	4 [label="Recursive Loop Start"]
+	14 [label="Recursive Loop End"]
+	5 [label="Recursive Loop End"]
+	13 [label="Split Collection Column"]
+	29 [label="Column Appender"]
+	30 [label="Loop End"]
+	rankdir=LR
+}

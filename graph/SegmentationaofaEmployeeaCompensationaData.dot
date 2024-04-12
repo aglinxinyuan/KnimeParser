@@ -1,0 +1,85 @@
+digraph {
+	16 -> 11
+	8 -> 9
+	7 -> 11
+	5 -> 12
+	21 -> 22
+	17 -> 37
+	4 -> 6
+	2 -> 4
+	11 -> 19
+	4 -> 8
+	21 -> 41
+	14 -> 28
+	1 -> 29
+	11 -> 17
+	17 -> 43
+	19 -> 31
+	14 -> 15
+	17 -> 18
+	24 -> 33
+	7 -> 10
+	14 -> 42
+	29 -> 3
+	24 -> 39
+	14 -> 38
+	21 -> 35
+	11 -> 24
+	2 -> 26
+	17 -> 30
+	24 -> 23
+	19 -> 36
+	3 -> 5
+	12 -> 16
+	3 -> 27
+	21 -> 32
+	24 -> 40
+	11 -> 14
+	19 -> 20
+	8 -> 7
+	29 -> 2
+	19 -> 44
+	11 -> 21
+	27 [label=Statistics]
+	7 [label="Numeric Outliers"]
+	9 [label="Box Plot"]
+	26 [label=Statistics]
+	21 [label=k_Means]
+	18 [label="Cluster Assigner"]
+	8 [label=Normalizer]
+	32 [label="Silhouette Coefficient"]
+	17 [label=k_Means]
+	3 [label="Column Filter"]
+	19 [label=k_Means]
+	24 [label=k_Means]
+	41 [label="Kruskal_Wallis Test"]
+	31 [label="Silhouette Coefficient"]
+	6 [label="Box Plot"]
+	15 [label="Cluster Assigner"]
+	10 [label="Box Plot"]
+	12 [label="Category To Number"]
+	16 [label="Missing Value"]
+	1 [label="CSV Reader"]
+	42 [label="Kruskal_Wallis Test"]
+	22 [label="Cluster Assigner"]
+	28 [label="Silhouette Coefficient"]
+	11 [label=Joiner]
+	4 [label="Missing Value Column Filter"]
+	23 [label="Cluster Assigner"]
+	14 [label=k_Means]
+	38 [label="One_way ANOVA"]
+	5 [label="Missing Value Column Filter"]
+	43 [label="Kruskal_Wallis Test"]
+	20 [label="Cluster Assigner"]
+	44 [label="Kruskal_Wallis Test"]
+	35 [label="One_way ANOVA"]
+	29 [label="Row Sampling"]
+	36 [label="One_way ANOVA"]
+	40 [label="One_way ANOVA"]
+	39 [label="Kruskal_Wallis Test"]
+	33 [label="Silhouette Coefficient"]
+	30 [label="Silhouette Coefficient"]
+	2 [label="Column Filter"]
+	37 [label="One_way ANOVA"]
+	rankdir=LR
+}

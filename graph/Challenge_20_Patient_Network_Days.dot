@@ -1,0 +1,49 @@
+digraph {
+	3 -> 2
+	23 -> 24
+	13 -> 14
+	15 -> 21
+	16 -> 20
+	2 -> 4
+	12 -> 13
+	18 -> 19
+	6 -> 11
+	20 -> 23
+	8 -> 6
+	4 -> 22
+	10 -> 8
+	14 -> 15
+	11 -> 12
+	17 -> 18
+	19 -> 16
+	15 -> 17
+	21 -> 18
+	9 -> 10
+	10 -> 14
+	22 -> 21
+	1 -> 3
+	4 -> 9
+	9 [label="Row Filter"]
+	21 [label=Concatenate]
+	18 [label="Column Appender"]
+	8 [label="Table Row to Variable"]
+	17 [label=GroupBy]
+	3 [label=Sorter]
+	19 [label="Missing Value"]
+	24 [label="Column Resorter"]
+	6 [label="Create Date_Time Range"]
+	15 [label="Loop End"]
+	12 [label="Rule_based Row Filter"]
+	10 [label="Window Loop Start"]
+	16 [label="Loop End"]
+	1 [label="Table Creator"]
+	22 [label="Row Filter"]
+	11 [label="Extract Date_Time Fields"]
+	4 [label="Lag Column"]
+	23 [label="Column Filter"]
+	14 [label="Column Appender"]
+	13 [label=GroupBy]
+	20 [label="Column Rename"]
+	2 [label="Group Loop Start"]
+	rankdir=LR
+}

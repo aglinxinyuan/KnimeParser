@@ -1,0 +1,55 @@
+digraph {
+	231 -> 236
+	225 -> 231
+	232 -> 224
+	222 -> 224
+	244 -> 180
+	248 -> 230
+	180 -> 143
+	143 -> 247
+	226 -> 225
+	232 -> 210
+	210 -> 240
+	230 -> 231
+	246 -> 244
+	235 -> 236
+	232 -> 223
+	245 -> 239
+	225 -> 210
+	225 -> 235
+	180 -> 4
+	223 -> 222
+	231 -> 232
+	207 -> 208
+	236 -> 232
+	210 -> 239
+	247 -> 230
+	4 -> 248
+	224 -> 226
+	246 -> 207
+	232 -> 207
+	231 [label="Spark Column Filter"]
+	210 [label="Spark Concatenate"]
+	246 [label="Hive Connector"]
+	247 [label="Hive to Spark"]
+	222 [label="Missing Value"]
+	230 [label="Spark SQL Query"]
+	224 [label="Spark Transformations Applier"]
+	239 [label="Spark to Parquet"]
+	225 [label="Spark Column Rename _Regex_"]
+	180 [label="Database Column Filter"]
+	245 [label="HttpFS Connection"]
+	208 [label="Database Connection Table Reader"]
+	236 [label="Spark Predictor"]
+	240 [label="Spark to Table"]
+	223 [label="Spark to Table"]
+	207 [label="Spark to Hive"]
+	244 [label="Database Table Selector"]
+	143 [label="Database Row Filter"]
+	4 [label="Database Row Filter"]
+	232 [label="Spark Column Rename"]
+	248 [label="Hive to Spark"]
+	235 [label="Spark Decision Tree Learner"]
+	226 [label="Spark Column Filter"]
+	rankdir=LR
+}

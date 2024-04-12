@@ -1,0 +1,47 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	13 -> 14
+	1 -> 6
+	21 -> 22
+	20 -> 27
+	11 -> 23
+	21 -> 24
+	14 -> 15
+	17 -> 18
+	27 -> 21
+	10 -> 11
+	26 -> 19
+	23 -> 13
+	22 -> 24
+	15 -> 16
+	24 -> 25
+	6 -> 7
+	18 -> 26
+	19 -> 20
+	9 -> 10
+	16 -> 17
+	27 [label=SMOTE]
+	7 [label="Strings To Document"]
+	9 [label="Number Filter"]
+	18 [label="Column Expressions"]
+	26 [label="Frequency Filter"]
+	21 [label=Partitioning]
+	8 [label="Case Converter"]
+	17 [label=IDF]
+	19 [label="Document Vector"]
+	24 [label="Tree Ensemble Predictor"]
+	6 [label="Row Sampling"]
+	15 [label="Bag Of Words Creator"]
+	25 [label=Scorer]
+	10 [label="Punctuation Erasure"]
+	16 [label=TF]
+	1 [label="File Reader"]
+	22 [label="Tree Ensemble Learner"]
+	11 [label="POS Tagger"]
+	23 [label="Stop Word Filter"]
+	14 [label="N Chars Filter"]
+	13 [label="Porter Stemmer"]
+	20 [label="Category To Class"]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	7 -> 8
+	10 -> 9
+	12 -> 7
+	8 -> 10
+	10 -> 11
+	7 [label="Molecule Type Cast"]
+	9 [label="Parallel Coordinates Plot"]
+	11 [label="CSV Writer"]
+	8 [label="RDKit Descriptor Calculation"]
+	12 [label="Excel Reader"]
+	10 [label="Color Manager"]
+	rankdir=LR
+}

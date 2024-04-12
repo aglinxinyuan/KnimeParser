@@ -1,0 +1,25 @@
+digraph {
+	133 -> 125
+	110 -> 113
+	113 -> 109
+	110 -> 102
+	108 -> 110
+	110 -> 105
+	125 -> 109
+	105 -> 102
+	111 -> 108
+	127 -> 111
+	102 -> 113
+	127 -> 133
+	133 [label="Excel Writer"]
+	113 [label="XLS Row and Column Sizer"]
+	125 [label="Path to String _Variable_"]
+	102 [label="XLS Font Formatter"]
+	127 [label="Excel Reader"]
+	108 [label="XLS Control Table Generator"]
+	111 [label="Column Expressions"]
+	109 [label="XLS Formatter _apply_"]
+	105 [label="XLS Conditional Formatter"]
+	110 [label="XLS Control Table from Cell Range"]
+	rankdir=LR
+}

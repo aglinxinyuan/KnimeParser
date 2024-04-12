@@ -1,0 +1,12 @@
+digraph {
+	2 -> 10
+	14 -> 2
+	10 -> 16
+	1 -> 2
+	16 [label="Column Renamer"]
+	1 [label="CSV Reader"]
+	14 [label="String Configuration"]
+	2 [label="Row Filter"]
+	10 [label=GroupBy]
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	3 -> 5
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	2 -> 5
+	2 -> 4
+	3 -> 6
+	5 [label="Normalizer _Apply_"]
+	1 [label="Excel Reader"]
+	4 [label="K Nearest Neighbor"]
+	6 [label="K Nearest Neighbor"]
+	3 [label=Normalizer]
+	2 [label="Row Splitter"]
+	rankdir=LR
+}

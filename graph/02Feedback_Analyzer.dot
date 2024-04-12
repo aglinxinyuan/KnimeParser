@@ -1,0 +1,36 @@
+digraph {
+	401 -> 356
+	381 -> 397
+	402 -> 404
+	392 -> 391
+	387 -> 381
+	395 -> 394
+	356 -> 395
+	406 -> 405
+	356 -> 392
+	397 -> 393
+	393 -> 406
+	403 -> 402
+	381 -> 395
+	391 -> 387
+	391 -> 403
+	398 -> 394
+	404 -> 381
+	401 [label="CSV Reader"]
+	405 [label="Call Workflow Service"]
+	395 [label="Table Manipulator"]
+	397 [label="Column Filter"]
+	391 [label="Try _Data Ports_"]
+	403 [label="Column Renamer"]
+	402 [label="Call Workflow Service"]
+	393 [label="CSV Writer"]
+	356 [label="Rule_based Row Splitter"]
+	398 [label="Active Branch Inverter"]
+	406 [label=Wait___]
+	404 [label="Column Renamer"]
+	387 [label="Constant Value Column"]
+	394 [label="CSV Writer"]
+	381 [label="Catch Errors _Data Ports_"]
+	392 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	7 -> 4
+	4 -> 6
+	4 [label="CellProfiler Pipeline Executor"]
+	6 [label="CellProfiler Measurements To Table"]
+	7 [label="Image Reader"]
+	rankdir=LR
+}

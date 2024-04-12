@@ -1,0 +1,37 @@
+digraph {
+	262 -> 263
+	264 -> 261
+	281 -> 260
+	33 -> 35
+	274 -> 279
+	258 -> 260
+	280 -> 281
+	35 -> 126
+	255 -> 33
+	126 -> 274
+	260 -> 261
+	256 -> 255
+	279 -> 280
+	261 -> 262
+	35 -> 257
+	257 -> 264
+	259 -> 258
+	260 [label="Java Snippet Row Filter"]
+	274 [label="Split Collection Column"]
+	264 [label="Create File Name"]
+	263 [label="Parallel Chunk End"]
+	256 [label="List Files"]
+	262 [label="Variable Loop End"]
+	126 [label="Table Reader"]
+	35 [label="Table Row to Variable"]
+	258 [label="Double Input"]
+	280 [label="Column Filter"]
+	261 [label="Table Writer"]
+	255 [label="Parallel Chunk Start"]
+	279 [label="Column Aggregator"]
+	33 [label="Chunk Loop Start"]
+	257 [label="String Manipulation _Variable_"]
+	259 [label="Double Input"]
+	281 [label="Create Collection Column"]
+	rankdir=LR
+}

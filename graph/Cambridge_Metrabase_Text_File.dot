@@ -1,0 +1,57 @@
+digraph {
+	1501 -> 1499
+	1433 -> 1440
+	1486 -> 1495
+	1463 -> 1467
+	1465 -> 1485
+	1440 -> 1454
+	1482 -> 1483
+	1488 -> 1500
+	1467 -> 1465
+	1481 -> 1482
+	1495 -> 1488
+	1476 -> 1480
+	1465 -> 1492
+	1463 -> 1468
+	1500 -> 1498
+	1464 -> 1463
+	1459 -> 1467
+	1465 -> 1465
+	1500 -> 1501
+	1458 -> 1472
+	1468 -> 1467
+	1480 -> 1481
+	1498 -> 1501
+	1472 -> 1476
+	1483 -> 1459
+	1467 -> 1464
+	1499 -> 1467
+	1454 -> 1458
+	1440 -> 1486
+	1463 [label=RowID]
+	1458 [label=Transpose]
+	1485 [label="Table Manipulator"]
+	1482 [label="Loop End"]
+	1472 [label="Column List Loop Start"]
+	1468 [label="Column Auto Type Cast"]
+	1501 [label=Concatenate]
+	1464 [label=Transpose]
+	1433 [label="Table Creator"]
+	1492 [label="Table Manipulator"]
+	1467 [label=Partitioning]
+	1476 [label="Column Splitter"]
+	1488 [label=Unpivoting]
+	1454 [label="Cell Splitter"]
+	1495 [label="Cell Splitter"]
+	1499 [label="Cell Splitter"]
+	1481 [label=Concatenate]
+	1500 [label=Partitioning]
+	1486 [label="Cell Splitter"]
+	1459 [label="Cell Splitter"]
+	1498 [label="Reference Row Filter"]
+	1465 [label="Insert Column Header"]
+	1440 [label="Load text_based files"]
+	1480 [label="Extract Column Header"]
+	1483 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

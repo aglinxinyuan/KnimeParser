@@ -1,0 +1,6 @@
+digraph {
+	1 -> 8
+	1 [label="PostgreSQL Connector"]
+	8 [label="DB SQL Executor"]
+	rankdir=LR
+}

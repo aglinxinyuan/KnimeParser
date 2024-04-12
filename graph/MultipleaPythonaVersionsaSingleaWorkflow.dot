@@ -1,0 +1,16 @@
+digraph {
+	7 -> 4
+	3 -> 5
+	8 -> 2
+	5 -> 6
+	2 -> 5
+	4 -> 6
+	5 [label=Concatenate]
+	7 [label="Java Edit Variable _simple_"]
+	4 [label="Python Source"]
+	6 [label=Concatenate]
+	8 [label="Java Edit Variable _simple_"]
+	3 [label="Python Source"]
+	2 [label="Python Source"]
+	rankdir=LR
+}

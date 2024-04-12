@@ -1,0 +1,88 @@
+digraph {
+	13 -> 15
+	31 -> 34
+	7 -> 8
+	14 -> 17
+	12 -> 14
+	20 -> 9
+	25 -> 36
+	9 -> 30
+	40 -> 41
+	38 -> 40
+	27 -> 28
+	34 -> 38
+	18 -> 19
+	30 -> 33
+	41 -> 39
+	39 -> 42
+	26 -> 27
+	17 -> 18
+	11 -> 12
+	45 -> 35
+	33 -> 48
+	9 -> 51
+	47 -> 50
+	4 -> 20
+	8 -> 49
+	49 -> 11
+	51 -> 31
+	14 -> 13
+	36 -> 37
+	29 -> 25
+	48 -> 43
+	20 -> 26
+	50 -> 52
+	24 -> 29
+	3 -> 4
+	37 -> 45
+	20 -> 47
+	19 -> 20
+	28 -> 25
+	43 -> 47
+	35 -> 48
+	2 -> 3
+	42 -> 37
+	33 -> 31
+	27 [label="String Manipulation"]
+	7 [label="List Files_Folders"]
+	9 [label="File Reader"]
+	45 [label="Missing Value"]
+	52 [label="CSV Writer"]
+	18 [label="Column Rename"]
+	26 [label=RowID]
+	8 [label="Row Splitter"]
+	17 [label="Cell Splitter"]
+	3 [label="Row Filter"]
+	19 [label="Column Filter"]
+	24 [label="Create Table Structure"]
+	49 [label="Chunk Loop Start"]
+	41 [label="Column Rename"]
+	31 [label="Row Filter"]
+	51 [label="String To Number"]
+	15 [label="Table Row to Variable"]
+	25 [label="Insert Column Header"]
+	12 [label="Path to String _Variable_"]
+	48 [label="Constant Value Column"]
+	50 [label="Loop End"]
+	42 [label="Column Filter"]
+	28 [label="String Manipulation"]
+	11 [label="Table Row to Variable"]
+	4 [label="Cell Splitter"]
+	47 [label="Constant Value Column"]
+	14 [label="Variable to Table Row"]
+	38 [label="String Manipulation"]
+	13 [label="String to URI"]
+	20 [label="Column Filter"]
+	35 [label=Transpose]
+	34 [label="Column Filter"]
+	43 [label="Loop End"]
+	29 [label="Column Filter"]
+	36 [label=Transpose]
+	40 [label=GroupBy]
+	39 [label=RowID]
+	33 [label="Table Row To Variable Loop Start"]
+	30 [label=GroupBy]
+	2 [label="File Reader"]
+	37 [label=Joiner]
+	rankdir=LR
+}

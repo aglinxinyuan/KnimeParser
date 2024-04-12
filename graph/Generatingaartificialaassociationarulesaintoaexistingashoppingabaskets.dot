@@ -1,0 +1,12 @@
+digraph {
+	4 -> 67
+	15 -> 72
+	67 -> 17
+	17 -> 15
+	67 [label=GroupBy]
+	72 [label="Association Rule Learner"]
+	4 [label="Table Reader"]
+	15 [label="One Rule Inserter"]
+	17 [label="Random Item Inserter "]
+	rankdir=LR
+}

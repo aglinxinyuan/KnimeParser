@@ -1,0 +1,14 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	1 -> 2
+	2 -> 3
+	4 -> 6
+	5 [label="Pie_Donut Chart"]
+	1 [label="MongoDB Connector"]
+	4 [label="Column Filter"]
+	6 [label="CSV Writer"]
+	3 [label="JSON to Table"]
+	2 [label="MongoDB Reader"]
+	rankdir=LR
+}

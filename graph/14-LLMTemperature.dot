@@ -1,0 +1,23 @@
+digraph {
+	103 -> 104
+	126 -> 102
+	125 -> 83
+	102 -> 127
+	101 -> 103
+	83 -> 101
+	93 -> 104
+	101 -> 105
+	105 -> 103
+	104 -> 126
+	103 [label="OpenAI LLM Connector"]
+	126 [label="Constant Value Column"]
+	104 [label="LLM Prompter"]
+	102 [label="Loop End"]
+	125 [label="Credentials Configuration"]
+	127 [label="Table View"]
+	101 [label="Counting Loop Start"]
+	93 [label="Table Creator"]
+	105 [label="Math Formula _Variable_"]
+	83 [label="OpenAI Authenticator"]
+	rankdir=LR
+}

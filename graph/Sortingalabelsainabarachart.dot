@@ -1,0 +1,10 @@
+digraph {
+	402 -> 403
+	403 -> 404
+	401 -> 402
+	404 [label="Bar Chart"]
+	402 [label=Auto_Binner]
+	403 [label="Column Expressions"]
+	401 [label="Table Creator"]
+	rankdir=LR
+}

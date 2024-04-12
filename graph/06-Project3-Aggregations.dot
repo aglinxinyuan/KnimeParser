@@ -1,0 +1,15 @@
+digraph {
+	1 -> 6
+	1 -> 7
+	2 -> 3
+	2 -> 4
+	1 -> 5
+	5 [label=GroupBy]
+	1 [label="CSV Reader"]
+	7 [label=GroupBy]
+	4 [label=Pivoting]
+	6 [label=GroupBy]
+	3 [label=Pivoting]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

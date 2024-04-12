@@ -1,0 +1,22 @@
+digraph {
+	1 -> 8
+	1 -> 4
+	10 -> 6
+	8 -> 9
+	1 -> 10
+	1 -> 2
+	1 -> 7
+	1 -> 3
+	1 -> 5
+	5 [label="Box Plot"]
+	1 [label="CSV Reader"]
+	7 [label="Table View"]
+	9 [label="CSV Writer"]
+	4 [label=Histogram]
+	8 [label="HiLite Row Splitter"]
+	6 [label="Scatter Plot"]
+	3 [label="Bar Chart _JavaScript_"]
+	2 [label="Value Counter"]
+	10 [label="Color Manager"]
+	rankdir=LR
+}

@@ -1,0 +1,40 @@
+digraph {
+	79 -> 76
+	77 -> 73
+	89 -> 84
+	1 -> 97
+	2 -> 72
+	93 -> 84
+	97 -> 79
+	1 -> 76
+	84 -> 91
+	77 -> 96
+	74 -> 93
+	1 -> 98
+	96 -> 97
+	73 -> 93
+	1 -> 84
+	76 -> 78
+	96 -> 98
+	98 -> 89
+	72 -> 77
+	93 -> 76
+	73 -> 74
+	91 [label="DB Reader"]
+	96 [label="Row Sampling"]
+	1 [label="H2 Connector"]
+	84 [label="DB Merge"]
+	79 [label="DB Reader"]
+	98 [label="DB Writer"]
+	89 [label="DB Reader"]
+	72 [label="Column Rename"]
+	97 [label="DB Writer"]
+	76 [label="DB Update"]
+	77 [label="Java Snippet _simple_"]
+	74 [label="Math Formula _Multi Column_"]
+	93 [label=Concatenate]
+	73 [label=Partitioning]
+	2 [label="Data Generator"]
+	78 [label="DB Reader"]
+	rankdir=LR
+}

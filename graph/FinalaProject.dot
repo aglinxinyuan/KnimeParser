@@ -1,0 +1,28 @@
+digraph {
+	23 -> 26
+	7 -> 25
+	3 -> 2
+	5 -> 22
+	20 -> 19
+	6 -> 23
+	4 -> 17
+	18 -> 20
+	17 -> 18
+	23 -> 27
+	5 [label="CSV Reader"]
+	27 [label="Linear Correlation"]
+	20 [label="Color Manager"]
+	7 [label="CSV Reader"]
+	22 [label="Linear Correlation"]
+	23 [label="Numeric Binner"]
+	4 [label="CSV Reader"]
+	18 [label="Number To String"]
+	26 [label="Crosstab _local_"]
+	6 [label="CSV Reader"]
+	25 [label="Numeric Binner"]
+	17 [label=Sorter]
+	3 [label="CSV Reader"]
+	2 [label=Statistics]
+	19 [label="Pie chart _local_"]
+	rankdir=LR
+}

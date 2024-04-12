@@ -1,0 +1,23 @@
+digraph {
+	1 -> 4
+	4 -> 3
+	3 -> 2
+	6 -> 11
+	8 -> 9
+	2 -> 7
+	7 -> 6
+	9 -> 10
+	6 -> 9
+	6 -> 8
+	1 [label="CSV Reader"]
+	7 [label="Column Filter"]
+	9 [label="SVM Predictor"]
+	11 [label="Random Forest Learner"]
+	4 [label="String To Number"]
+	6 [label=Partitioning]
+	8 [label="SVM Learner"]
+	3 [label="Missing Value"]
+	2 [label="Rule Engine"]
+	10 [label=Scorer]
+	rankdir=LR
+}

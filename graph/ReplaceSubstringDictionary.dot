@@ -1,0 +1,38 @@
+digraph {
+	9 -> 19
+	17 -> 15
+	8 -> 15
+	12 -> 13
+	7 -> 8
+	11 -> 10
+	1 -> 18
+	18 -> 19
+	3 -> 7
+	7 -> 17
+	14 -> 8
+	10 -> 6
+	18 -> 3
+	13 -> 14
+	6 -> 12
+	4 -> 11
+	2 -> 4
+	15 -> 9
+	14 [label="Table Row to Variable"]
+	13 [label="String Manipulation"]
+	1 [label="Table Creator"]
+	7 [label="Extract Column Header"]
+	9 [label="Loop End _Column Append_"]
+	11 [label="Row Filter"]
+	4 [label="Table Row To Variable Loop Start"]
+	18 [label="Column Splitter"]
+	6 [label="Loop End"]
+	8 [label="Java Snippet _simple_"]
+	15 [label="Insert Column Header"]
+	12 [label=GroupBy]
+	17 [label="Constant Value Column"]
+	3 [label="Column List Loop Start"]
+	2 [label="Table Creator"]
+	10 [label="String Manipulation"]
+	19 [label="Column Appender"]
+	rankdir=LR
+}

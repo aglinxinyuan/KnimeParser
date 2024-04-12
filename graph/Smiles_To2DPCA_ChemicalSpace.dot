@@ -1,0 +1,20 @@
+digraph {
+	161 -> 157
+	157 -> 156
+	158 -> 159
+	155 -> 162
+	163 -> 155
+	159 -> 161
+	156 -> 160
+	160 -> 163
+	157 [label="RDKit Fingerprint"]
+	156 [label="Expand Bit Vector"]
+	158 [label="CSV Reader"]
+	161 [label="RDKit To Molecule"]
+	155 [label="Color Manager"]
+	162 [label="Scatter Plot"]
+	159 [label="Molecule Type Cast"]
+	160 [label=PCA]
+	163 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	19 -> 14
+	15 -> 16
+	21 -> 16
+	20 -> 14
+	14 -> 15
+	17 -> 18
+	16 -> 17
+	16 [label="Reference Row Filter"]
+	20 [label="File Reader"]
+	18 [label="Excel Writer _XLS_"]
+	21 [label="Table Reader"]
+	15 [label="Duplicate Row Filter"]
+	14 [label=Concatenate]
+	17 [label="Column Filter"]
+	19 [label="Excel Reader _XLS_"]
+	rankdir=LR
+}

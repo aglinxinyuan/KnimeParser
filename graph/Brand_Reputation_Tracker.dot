@@ -1,0 +1,99 @@
+digraph {
+	12 -> 10
+	20 -> 21
+	27 -> 24
+	7 -> 8
+	23 -> 24
+	13 -> 7
+	25 -> 16
+	13 -> 14
+	8 -> 9
+	2 -> 6
+	507 -> 488
+	500 -> 501
+	21 -> 22
+	499 -> 4
+	4 -> 6
+	6 -> 8
+	2 -> 4
+	13 -> 13
+	6 -> 461
+	479 -> 11
+	29 -> 9
+	26 -> 27
+	17 -> 18
+	10 -> 11
+	11 -> 29
+	4 -> 498
+	498 -> 6
+	12 -> 27
+	8 -> 11
+	20 -> 12
+	22 -> 24
+	460 -> 451
+	508 -> 20
+	24 -> 25
+	14 -> 13
+	12 -> 11
+	7 -> 9
+	17 -> 1
+	451 -> 508
+	8 -> 460
+	20 -> 26
+	508 -> 462
+	496 -> 486
+	501 -> 479
+	467 -> 500
+	3 -> 4
+	11 -> 14
+	9 -> 20
+	488 -> 467
+	508 -> 496
+	18 -> 18
+	24 -> 508
+	9 -> 10
+	462 -> 461
+	16 -> 17
+	1 -> 3
+	501 [label="Row Filter"]
+	27 [label=Joiner]
+	498 [label="Row Filter"]
+	7 [label="Table Creator"]
+	507 [label="Twitter API Connector"]
+	9 [label=TF]
+	18 [label="Math Formula"]
+	21 [label="Math Formula"]
+	26 [label=GroupBy]
+	8 [label="Dictionary Tagger"]
+	17 [label="Column Rename"]
+	3 [label="Porter Stemmer"]
+	461 [label="Line Plot"]
+	462 [label="Color Manager"]
+	24 [label=Concatenate]
+	467 [label="Row Filter"]
+	6 [label="Dictionary Tagger"]
+	500 [label="Tika Language Detector"]
+	25 [label="Row Filter"]
+	451 [label=Transpose]
+	486 [label="Line Plot"]
+	499 [label="CSV Reader"]
+	12 [label=Pivoting]
+	10 [label="Dictionary Tagger"]
+	16 [label="Missing Value"]
+	1 [label="Strings To Document"]
+	22 [label="Column Filter"]
+	11 [label="Tags To String"]
+	4 [label="Dictionary Tagger"]
+	23 [label="Table Creator"]
+	496 [label=Normalizer]
+	14 [label="Dictionary Tagger"]
+	508 [label="Domain Calculator"]
+	479 [label="String to Date_Time"]
+	20 [label="Extract Date_Time Fields"]
+	13 [label="Dictionary Tagger"]
+	29 [label="Row Filter"]
+	460 [label="Extract Column Header"]
+	488 [label="Twitter Search"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	118 -> 125
+	114 -> 112
+	118 -> 114
+	120 -> 123
+	118 -> 120
+	120 -> 121
+	114 -> 30
+	30 -> 122
+	123 [label="Shapiro_Wilk Test"]
+	120 [label="Row Filter"]
+	125 [label="Wilcoxon_Mann_Whitney Test"]
+	112 [label="Shapiro_Wilk Test"]
+	118 [label="CSV Reader"]
+	121 [label=Statistics]
+	122 [label="Excel Writer"]
+	114 [label="Row Filter"]
+	30 [label=Statistics]
+	rankdir=LR
+}

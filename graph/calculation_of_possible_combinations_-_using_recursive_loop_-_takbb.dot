@@ -1,0 +1,78 @@
+digraph {
+	5 -> 4
+	51 -> 49
+	16 -> 40
+	8 -> 9
+	1 -> 8
+	55 -> 57
+	45 -> 40
+	15 -> 5
+	6 -> 11
+	49 -> 55
+	53 -> 50
+	56 -> 15
+	50 -> 51
+	11 -> 17
+	4 -> 11
+	20 -> 16
+	39 -> 42
+	10 -> 4
+	39 -> 38
+	15 -> 6
+	37 -> 43
+	38 -> 47
+	31 -> 45
+	47 -> 48
+	54 -> 58
+	9 -> 10
+	1 -> 57
+	16 -> 31
+	40 -> 39
+	17 -> 27
+	1 -> 56
+	27 -> 19
+	43 -> 44
+	42 -> 41
+	19 -> 20
+	48 -> 53
+	41 -> 37
+	44 -> 38
+	42 -> 37
+	57 -> 54
+	27 [label=Sorter]
+	57 [label=Joiner]
+	55 [label="Column Rename"]
+	9 [label="Row Filter"]
+	58 [label="Column Resorter"]
+	8 [label="Column Filter"]
+	17 [label=GroupBy]
+	19 [label=RowID]
+	49 [label=Unpivoting]
+	41 [label="Table Row to Variable"]
+	31 [label="Extract Table Dimension"]
+	51 [label=RowID]
+	56 [label=RowID]
+	6 [label="Row Filter"]
+	15 [label="Column Filter"]
+	54 [label=Sorter]
+	10 [label="Duplicate Row Filter"]
+	16 [label=Transpose]
+	48 [label="Column Filter"]
+	50 [label=Transpose]
+	1 [label="Table Creator"]
+	42 [label="Column Expressions"]
+	53 [label=RowID]
+	11 [label=Concatenate]
+	4 [label="Cross Joiner"]
+	47 [label="Math Formula"]
+	37 [label=Ungroup]
+	38 [label="Recursive Loop End"]
+	5 [label="Row Filter"]
+	20 [label="Column Filter"]
+	43 [label="Column Filter"]
+	44 [label="Math Formula"]
+	40 [label="Math Formula"]
+	39 [label="Recursive Loop Start"]
+	45 [label="Math Formula _Variable_"]
+	rankdir=LR
+}

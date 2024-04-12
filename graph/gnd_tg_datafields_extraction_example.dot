@@ -1,0 +1,59 @@
+digraph {
+	66 -> 68
+	314 -> 319
+	310 -> 311
+	322 -> 324
+	324 -> 332
+	315 -> 324
+	311 -> 189
+	301 -> 313
+	71 -> 66
+	69 -> 67
+	309 -> 310
+	324 -> 329
+	313 -> 314
+	326 -> 327
+	327 -> 328
+	312 -> 301
+	72 -> 69
+	325 -> 326
+	319 -> 315
+	68 -> 72
+	70 -> 71
+	328 -> 333
+	300 -> 312
+	311 -> 325
+	320 -> 321
+	321 -> 322
+	189 -> 300
+	324 [label=Joiner]
+	329 [label="Row Filter"]
+	322 [label="Row Filter"]
+	327 [label=Ungroup]
+	313 [label="Column Aggregator"]
+	189 [label="Row Filter"]
+	315 [label=GroupBy]
+	311 [label="DB Reader"]
+	325 [label="Row Filter"]
+	328 [label=GroupBy]
+	309 [label="SQLite Connector"]
+	332 [label="Table View"]
+	319 [label="Constant Value Column"]
+	310 [label="DB Table Selector"]
+	68 [label=Ungroup]
+	67 [label="Transfer Files _Table_"]
+	72 [label="Rule_based Row Filter"]
+	333 [label="Column Resorter"]
+	321 [label="Row Filter"]
+	301 [label="Split Collection Column"]
+	314 [label=Ungroup]
+	326 [label="JSON Path"]
+	66 [label="JSON Path"]
+	70 [label="Webpage Retriever"]
+	69 [label="String to Path"]
+	71 [label="XML To JSON"]
+	300 [label="JSON Path"]
+	312 [label="Column Filter"]
+	320 [label="Excel Reader"]
+	rankdir=LR
+}

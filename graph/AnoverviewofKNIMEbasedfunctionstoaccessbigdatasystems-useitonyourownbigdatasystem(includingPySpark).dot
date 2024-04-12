@@ -1,0 +1,148 @@
+digraph {
+	1886 -> 1887
+	1887 -> 1864
+	1869 -> 1874
+	1904 -> 1868
+	1905 -> 1906
+	1891 -> 1898
+	1950 -> 1894
+	1924 -> 1925
+	1859 -> 1860
+	1860 -> 1866
+	1861 -> 1860
+	1873 -> 1870
+	1859 -> 1943
+	3 -> 1858
+	1887 -> 3
+	1894 -> 1893
+	1906 -> 1909
+	1902 -> 1901
+	1858 -> 1859
+	1861 -> 1868
+	1916 -> 1917
+	1937 -> 1945
+	1859 -> 1861
+	1926 -> 1946
+	1887 -> 1949
+	1894 -> 1897
+	1869 -> 1924
+	1866 -> 1869
+	1941 -> 1944
+	1904 -> 1950
+	1887 -> 1899
+	1946 -> 1945
+	1921 -> 1922
+	1948 -> 1865
+	1874 -> 1875
+	1869 -> 1940
+	1897 -> 1896
+	1950 -> 1872
+	1869 -> 1913
+	1906 -> 1907
+	1917 -> 1923
+	1901 -> 1903
+	1920 -> 1938
+	1949 -> 1865
+	1887 -> 2
+	1905 -> 1907
+	1893 -> 1895
+	1891 -> 1900
+	1866 -> 1890
+	1869 -> 1873
+	1869 -> 1921
+	1864 -> 1948
+	1887 -> 1861
+	1868 -> 1950
+	1869 -> 1941
+	1887 -> 1902
+	1894 -> 1902
+	1909 -> 1908
+	1927 -> 1928
+	1887 -> 4
+	2 -> 1858
+	1865 -> 1904
+	1869 -> 1926
+	1860 -> 1949
+	1869 -> 1920
+	1869 -> 1916
+	1869 -> 1927
+	1887 -> 1948
+	1860 -> 1871
+	1938 -> 1937
+	1861 -> 1866
+	4 -> 1859
+	1887 -> 1894
+	1904 -> 1891
+	1913 -> 1914
+	1890 -> 1951
+	1947 -> 1885
+	1861 -> 1871
+	1904 -> 1905
+	1875 [label="DB Reader"]
+	1947 [label="String Input"]
+	1901 [label="DB Table Selector"]
+	1866 [label="DB SQL Executor"]
+	1908 [label="Spark to Table"]
+	1944 [label="DB Reader"]
+	1903 [label="DB Reader"]
+	1900 [label="Spark to Table"]
+	1887 [label="Create Spark Context _Livy_"]
+	1893 [label="PySpark Script _1 to 1_"]
+	1894 [label="PySpark Script Source"]
+	1868 [label="DB Table Remover"]
+	1899 [label="Destroy Spark Context"]
+	1938 [label="DB Column Filter"]
+	1925 [label="DB Reader"]
+	1906 [label="Spark Category To Number"]
+	1860 [label="DB Connection Table Writer"]
+	3 [label="DB Table Selector"]
+	1891 [label="PySpark Script _1 to 2_"]
+	1865 [label="Spark Joiner"]
+	1897 [label="PySpark Script _1 to 1_"]
+	1905 [label="Spark SQL Query"]
+	1940 [label="DB Reader"]
+	1937 [label="DB Connection Table Writer"]
+	1861 [label="DB Table Remover"]
+	1948 [label="Impala to Spark"]
+	1869 [label="DB Table Selector"]
+	1951 [label=Transpose]
+	1898 [label="Spark to Table"]
+	1941 [label="DB Query"]
+	1859 [label="DB Joiner"]
+	1950 [label="Spark to Impala"]
+	1914 [label="DB Reader"]
+	1874 [label="DB GroupBy"]
+	1872 [label="DB Reader"]
+	1907 [label="Spark Transformations Applier"]
+	1858 [label="DB Joiner"]
+	1909 [label="Spark Column Filter"]
+	4 [label="DB Table Selector"]
+	1924 [label="DB Query"]
+	1873 [label="DB Sorter"]
+	1921 [label="DB Query"]
+	1917 [label="DB Column Filter"]
+	1902 [label="DB SQL Executor"]
+	1870 [label="DB Reader"]
+	1923 [label="DB Reader"]
+	1922 [label="DB Reader"]
+	1946 [label="DB Column Filter"]
+	1928 [label="DB Reader"]
+	1885 [label="Impala Connector"]
+	1949 [label="Impala to Spark"]
+	1864 [label="DB Table Selector"]
+	1920 [label="DB Row Filter"]
+	1913 [label="DB Query"]
+	1895 [label="Spark to Table"]
+	1871 [label="DB Query Reader"]
+	1904 [label="Persist Spark DataFrame_RDD"]
+	1886 [label="Secured HttpFS Connection"]
+	1890 [label="DB Query Reader"]
+	1927 [label="DB Query"]
+	1943 [label="DB Reader"]
+	1945 [label="DB Connection Table Writer"]
+	1926 [label="DB Query"]
+	1896 [label="Spark to Table"]
+	2 [label="DB Table Selector"]
+	1916 [label="DB Column Rename"]
+	rankdir=LR
+}

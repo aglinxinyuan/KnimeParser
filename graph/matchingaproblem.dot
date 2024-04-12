@@ -1,0 +1,11 @@
+digraph {
+	1047 -> 10
+	1047 -> 7
+	10 -> 9
+	7 -> 9
+	7 [label="String Distances"]
+	1047 [label="File Reader"]
+	10 [label="String Manipulation"]
+	9 [label="Similarity Search"]
+	rankdir=LR
+}

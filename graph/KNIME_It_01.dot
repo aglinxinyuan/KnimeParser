@@ -1,0 +1,14 @@
+digraph {
+	6 -> 5
+	4 -> 3
+	2 -> 4
+	1 -> 2
+	4 -> 6
+	5 [label="Line Plot"]
+	1 [label="Table Reader"]
+	4 [label="String to Date_Time"]
+	6 [label="Math Formula _Multi Column_"]
+	3 [label="Linear Correlation"]
+	2 [label="Missing Value"]
+	rankdir=LR
+}

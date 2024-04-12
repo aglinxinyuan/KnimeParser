@@ -1,0 +1,17 @@
+digraph {
+	6 -> 5
+	7 -> 8
+	6 -> 4
+	4 -> 5
+	8 -> 9
+	1 -> 6
+	5 -> 7
+	5 [label=Joiner]
+	1 [label="CSV Reader"]
+	7 [label="String Manipulation _Multi Column_"]
+	9 [label=Sorter]
+	4 [label="Column Filter Widget"]
+	6 [label="Column Splitter"]
+	8 [label="Column Aggregator"]
+	rankdir=LR
+}

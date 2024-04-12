@@ -1,0 +1,20 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	3 -> 4
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	4 -> 6
+	1 [label="Excel Reader"]
+	7 [label="Column Filter"]
+	9 [label="Python Script"]
+	4 [label="RDKit Fingerprint"]
+	6 [label="Fingerprint Similarity"]
+	8 [label="Split Collection Column"]
+	3 [label="RDKit From Molecule"]
+	2 [label="Molecule Type Cast"]
+	10 [label="Excel Writer"]
+	rankdir=LR
+}

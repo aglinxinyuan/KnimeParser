@@ -1,0 +1,76 @@
+digraph {
+	29 -> 34
+	28 -> 24
+	15 -> 18
+	42 -> 43
+	24 -> 47
+	34 -> 35
+	19 -> 21
+	40 -> 41
+	20 -> 27
+	2 -> 4
+	18 -> 16
+	46 -> 28
+	25 -> 26
+	1 -> 2
+	7 -> 15
+	44 -> 45
+	8 -> 17
+	21 -> 44
+	5 -> 7
+	41 -> 45
+	47 -> 48
+	45 -> 46
+	13 -> 22
+	14 -> 13
+	49 -> 50
+	27 -> 19
+	31 -> 40
+	26 -> 20
+	16 -> 19
+	3 -> 4
+	17 -> 16
+	30 -> 42
+	22 -> 21
+	43 -> 46
+	35 -> 44
+	27 [label="Column Rename"]
+	7 [label="Cell Splitter"]
+	18 [label="Column Filter"]
+	21 [label=Concatenate]
+	26 [label=Unpivoting]
+	8 [label="Excel Reader"]
+	17 [label="Column Filter"]
+	3 [label="DB Connector"]
+	19 [label=Concatenate]
+	24 [label=GroupBy]
+	49 [label="Excel Reader"]
+	41 [label="Column Rename"]
+	31 [label="Excel Reader"]
+	15 [label="Rule_based Row Filter"]
+	25 [label="Excel Reader"]
+	16 [label=Concatenate]
+	48 [label="Excel Writer"]
+	50 [label=GroupBy]
+	1 [label="Excel Reader"]
+	42 [label="Column Filter"]
+	22 [label="Column Filter"]
+	28 [label="Rule_based Row Filter"]
+	4 [label="DB Writer"]
+	47 [label="Cell Splitter"]
+	14 [label="Excel Reader"]
+	5 [label="Excel Reader"]
+	13 [label="Column Rename"]
+	20 [label="Column Filter"]
+	44 [label=Concatenate]
+	34 [label="Column Filter"]
+	35 [label="Column Rename"]
+	29 [label="Excel Reader"]
+	43 [label="Column Rename"]
+	46 [label=Concatenate]
+	40 [label="Column Filter"]
+	30 [label="Excel Reader"]
+	2 [label="String Manipulation"]
+	45 [label=Concatenate]
+	rankdir=LR
+}

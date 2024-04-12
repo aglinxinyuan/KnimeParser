@@ -1,0 +1,52 @@
+digraph {
+	2080 -> 2109
+	2061 -> 2071
+	2119 -> 2120
+	2123 -> 2174
+	2098 -> 2096
+	2100 -> 2099
+	2096 -> 2080
+	2100 -> 2111
+	2109 -> 2119
+	291 -> 2068
+	2121 -> 2100
+	2069 -> 293
+	2071 -> 2100
+	2099 -> 2093
+	1 -> 290
+	2123 -> 2080
+	2122 -> 2123
+	2093 -> 2097
+	2120 -> 2121
+	2121 -> 2111
+	2071 -> 2093
+	290 -> 2122
+	2068 -> 2069
+	293 -> 2061
+	2097 -> 2098
+	290 -> 291
+	2098 [label="Math Formula"]
+	2111 [label=Joiner]
+	2096 [label="Missing Value"]
+	2119 [label="Lag Column"]
+	2080 [label=Joiner]
+	2097 [label="Math Formula"]
+	2061 [label="Create Date_Time Range"]
+	290 [label="String to Date_Time"]
+	2122 [label=Rank]
+	291 [label=GroupBy]
+	2109 [label=Sorter]
+	2174 [label="R Snippet"]
+	2071 [label="Extract Date_Time Fields"]
+	2121 [label="Rule Engine"]
+	1 [label="Table Creator"]
+	293 [label="Table Row to Variable"]
+	2069 [label="Math Formula"]
+	2099 [label=Rank]
+	2120 [label="Math Formula"]
+	2123 [label="Math Formula"]
+	2068 [label="Date_Time Difference"]
+	2100 [label="Rule_based Row Filter"]
+	2093 [label=Joiner]
+	rankdir=LR
+}

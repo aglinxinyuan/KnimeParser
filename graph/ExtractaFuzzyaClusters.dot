@@ -1,0 +1,38 @@
+digraph {
+	73 -> 74
+	74 -> 77
+	82 -> 87
+	75 -> 84
+	74 -> 76
+	78 -> 79
+	84 -> 83
+	77 -> 81
+	87 -> 88
+	83 -> 86
+	88 -> 86
+	81 -> 82
+	83 -> 73
+	85 -> 86
+	76 -> 78
+	79 -> 80
+	83 -> 85
+	78 -> 82
+	80 -> 81
+	86 [label="Similarity Search"]
+	75 [label="Data Generator"]
+	79 [label="Extract Column Header"]
+	84 [label="Column Filter"]
+	82 [label="Insert Column Header"]
+	87 [label="String Manipulation"]
+	88 [label=RowID]
+	76 [label=XPath]
+	74 [label="PMML To Cell"]
+	77 [label=XPath]
+	85 [label="Java Distance"]
+	80 [label=Transpose]
+	73 [label="Fuzzy c_Means"]
+	83 [label=Partitioning]
+	81 [label="Column Appender"]
+	78 [label="Cell Splitter"]
+	rankdir=LR
+}

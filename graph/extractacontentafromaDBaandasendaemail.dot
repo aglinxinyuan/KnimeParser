@@ -1,0 +1,14 @@
+digraph {
+	6 -> 5
+	3 -> 4
+	1 -> 2
+	2 -> 3
+	4 -> 6
+	5 [label="Send Email"]
+	1 [label="SQLite Connector"]
+	4 [label="Excel Writer"]
+	6 [label="Path to String _Variable_"]
+	3 [label="DB Reader"]
+	2 [label="DB Table Selector"]
+	rankdir=LR
+}

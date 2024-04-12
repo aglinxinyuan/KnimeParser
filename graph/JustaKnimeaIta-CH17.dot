@@ -1,0 +1,62 @@
+digraph {
+	60 -> 57
+	8 -> 9
+	71 -> 72
+	57 -> 58
+	65 -> 66
+	9 -> 13
+	53 -> 64
+	58 -> 63
+	54 -> 53
+	73 -> 76
+	52 -> 54
+	51 -> 52
+	1 -> 8
+	48 -> 51
+	44 -> 73
+	37 -> 44
+	66 -> 67
+	55 -> 60
+	54 -> 71
+	13 -> 36
+	64 -> 65
+	36 -> 37
+	69 -> 68
+	67 -> 69
+	49 -> 48
+	75 -> 49
+	76 -> 38
+	53 -> 55
+	38 -> 75
+	57 [label="Lag Column"]
+	55 [label=GroupBy]
+	9 [label=Ungroup]
+	58 [label="Math Formula"]
+	8 [label="Cell Splitter"]
+	64 [label="Row Filter"]
+	49 [label="Table Row to Variable"]
+	51 [label=Unpivoting]
+	54 [label=Sorter]
+	75 [label="String to Path"]
+	48 [label="CSV Reader"]
+	1 [label="Webpage Retriever"]
+	53 [label="Extract Date_Time Fields"]
+	68 [label="Top k Selector"]
+	67 [label="Math Formula"]
+	72 [label="Line Plot"]
+	63 [label="Top k Selector"]
+	76 [label="String Manipulation"]
+	38 [label="Column Filter"]
+	60 [label="Missing Value"]
+	13 [label="Row Filter"]
+	44 [label="String to Path"]
+	66 [label="Math Formula"]
+	71 [label=GroupBy]
+	36 [label="Cell Splitter"]
+	65 [label="Row Filter"]
+	69 [label=Sorter]
+	52 [label="String to Date_Time"]
+	73 [label="Cell Splitter"]
+	37 [label="Cell Splitter"]
+	rankdir=LR
+}

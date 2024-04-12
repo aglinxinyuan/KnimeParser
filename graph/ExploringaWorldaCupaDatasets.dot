@@ -1,0 +1,46 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	19 -> 14
+	8 -> 9
+	16 -> 20
+	4 -> 6
+	6 -> 8
+	2 -> 4
+	12 -> 13
+	18 -> 19
+	14 -> 15
+	17 -> 18
+	10 -> 11
+	5 -> 7
+	15 -> 16
+	13 -> 17
+	12 -> 11
+	17 -> 19
+	3 -> 12
+	9 -> 10
+	11 -> 13
+	1 -> 5
+	7 [label="Column Renamer"]
+	9 [label="Duplicate Row Filter"]
+	18 [label="Column Renamer"]
+	21 [label="Excel Writer"]
+	8 [label=Concatenate]
+	17 [label="Rule_based Row Splitter"]
+	3 [label="Excel Reader"]
+	19 [label=Concatenate]
+	6 [label="Column Renamer"]
+	15 [label=Sorter]
+	10 [label="Date_Time_based Row Filter"]
+	12 [label="Duplicate Row Filter"]
+	16 [label="Reference Column Resorter"]
+	1 [label="CSV Reader"]
+	11 [label=Joiner]
+	4 [label="String to Date_Time"]
+	14 [label=Pivot]
+	5 [label="String to Date_Time"]
+	13 [label=Joiner]
+	20 [label="Missing Value"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,17 @@
+digraph {
+	6 -> 16
+	12 -> 10
+	16 -> 15
+	10 -> 6
+	14 -> 12
+	9 -> 12
+	12 -> 16
+	16 [label="SPARQL Delete"]
+	9 [label="Table Creator"]
+	10 [label="SPARQL Select Query"]
+	6 [label="Row Filter"]
+	15 [label="SPARQL Select Query"]
+	14 [label="In_Memory Endpoint"]
+	12 [label="SPARQL Insert"]
+	rankdir=LR
+}

@@ -1,0 +1,53 @@
+digraph {
+	82 -> 89
+	37 -> 40
+	38 -> 61
+	63 -> 64
+	87 -> 88
+	77 -> 68
+	88 -> 86
+	69 -> 70
+	89 -> 83
+	68 -> 81
+	76 -> 77
+	61 -> 36
+	21 -> 38
+	81 -> 82
+	75 -> 77
+	60 -> 63
+	67 -> 69
+	40 -> 60
+	70 -> 71
+	70 -> 87
+	44 -> 37
+	36 -> 44
+	70 -> 76
+	64 -> 67
+	71 -> 75
+	89 [label="Math Formula"]
+	21 [label="Excel Reader"]
+	64 [label=Transpose]
+	75 [label="Math Formula"]
+	86 [label="Line Plot"]
+	68 [label="Math Formula"]
+	87 [label="Row Filter"]
+	67 [label="Row Filter"]
+	61 [label="Missing Value"]
+	63 [label="Math Formula"]
+	76 [label="Math Formula"]
+	77 [label=Joiner]
+	83 [label="Line Plot"]
+	38 [label="Number To String _PMML_"]
+	60 [label=Pivoting]
+	81 [label="Math Formula"]
+	44 [label="Rule_based Row Filter"]
+	70 [label="Column Splitter"]
+	82 [label="Row Filter"]
+	69 [label="Column Merger"]
+	36 [label="Rule_based Row Filter"]
+	71 [label="Row Filter"]
+	88 [label="Math Formula"]
+	40 [label="Color Manager"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	3 -> 2
+	5 -> 4
+	7 -> 11
+	8 -> 11
+	1 -> 2
+	2 -> 5
+	4 -> 6
+	6 -> 8
+	5 [label="Column Expressions"]
+	1 [label="Table Creator"]
+	7 [label="Table Creator"]
+	11 [label="Binner _Dictionary_"]
+	4 [label="Date_Time Difference"]
+	6 [label="Column Expressions"]
+	8 [label="Row Filter"]
+	3 [label="Integer Widget"]
+	2 [label="String to Date_Time"]
+	rankdir=LR
+}

@@ -1,0 +1,40 @@
+digraph {
+	9 -> 14
+	14 -> 17
+	8 -> 9
+	6 -> 8
+	12 -> 13
+	18 -> 19
+	3 -> 7
+	6 -> 12
+	1 -> 2
+	17 -> 18
+	16 -> 18
+	10 -> 11
+	13 -> 16
+	15 -> 17
+	6 -> 10
+	11 -> 15
+	19 -> 20
+	7 -> 6
+	2 -> 3
+	16 [label="Column Rename"]
+	14 [label="Column Rename"]
+	13 [label=GroupBy]
+	20 [label=RowID]
+	1 [label="Excel Reader"]
+	7 [label="Number To String"]
+	9 [label=GroupBy]
+	11 [label=GroupBy]
+	18 [label=Joiner]
+	6 [label="String Manipulation"]
+	8 [label="Row Filter"]
+	15 [label="Column Rename"]
+	12 [label="Row Filter"]
+	17 [label=Joiner]
+	3 [label=Unpivoting]
+	2 [label="Chunk Loop Start"]
+	10 [label="Row Filter"]
+	19 [label="Loop End"]
+	rankdir=LR
+}

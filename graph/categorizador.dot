@@ -1,0 +1,21 @@
+digraph {
+	4 -> 8
+	9 -> 6
+	3 -> 4
+	2 -> 4
+	6 -> 10
+	1 -> 2
+	10 -> 11
+	1 -> 3
+	4 -> 9
+	1 [label="PostgreSQL Connector"]
+	9 [label="Column Filter"]
+	11 [label="Nominal Value Row Filter"]
+	4 [label=Joiner]
+	8 [label="String Manipulation"]
+	6 [label="Column Expressions"]
+	3 [label="DB Query Reader"]
+	2 [label="DB Query Reader"]
+	10 [label="Domain Calculator"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	7 -> 8
+	3 -> 7
+	8 -> 6
+	13 -> 14
+	10 -> 5
+	5 -> 12
+	6 -> 10
+	14 -> 12
+	2 -> 3
+	12 -> 11
+	14 -> 2
+	5 [label="Connected Component Analysis"]
+	13 [label="List Files"]
+	7 [label="Global Thresholder"]
+	11 [label="Segment Cropper"]
+	10 [label=Projector]
+	6 [label="Fill Holes"]
+	8 [label=Inverter]
+	14 [label="Image Reader _Table_"]
+	3 [label="Image Calculator"]
+	2 [label="Gaussian Convolution"]
+	12 [label=Joiner]
+	rankdir=LR
+}

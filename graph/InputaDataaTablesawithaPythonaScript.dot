@@ -1,0 +1,19 @@
+digraph {
+	4 -> 5
+	8 -> 10
+	3 -> 5
+	1 -> 2
+	9 -> 10
+	6 -> 7
+	5 [label="Python Script _Labs_"]
+	1 [label="CSV Reader"]
+	7 [label="Python Script _Labs_"]
+	9 [label="CSV Reader"]
+	4 [label="CSV Reader"]
+	6 [label="CSV Reader"]
+	8 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	2 [label="Python Script _Labs_"]
+	10 [label="Python Script _Labs_"]
+	rankdir=LR
+}

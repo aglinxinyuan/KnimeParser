@@ -1,0 +1,20 @@
+digraph {
+	112 -> 115
+	60 -> 57
+	59 -> 118
+	56 -> 60
+	115 -> 56
+	123 -> 118
+	118 -> 124
+	57 -> 59
+	57 [label=Sorter]
+	123 [label="CSV Reader"]
+	112 [label="Decompress Files"]
+	115 [label="Nominal Value Row Filter"]
+	118 [label="Column Appender"]
+	56 [label="String Manipulation"]
+	124 [label="Column Filter"]
+	60 [label="String To Number"]
+	59 [label=RowID]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	23 -> 20
+	20 -> 21
+	1 -> 23
+	21 -> 22
+	20 [label=Sorter]
+	1 [label="Table Creator"]
+	22 [label=Sorter]
+	23 [label="String To Number"]
+	21 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

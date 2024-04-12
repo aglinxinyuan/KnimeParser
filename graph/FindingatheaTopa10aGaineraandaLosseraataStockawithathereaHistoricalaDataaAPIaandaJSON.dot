@@ -1,0 +1,37 @@
+digraph {
+	276 -> 277
+	274 -> 289
+	295 -> 274
+	297 -> 274
+	296 -> 297
+	293 -> 294
+	293 -> 297
+	296 -> 296
+	277 -> 293
+	315 -> 318
+	324 -> 329
+	297 -> 315
+	318 -> 274
+	294 -> 296
+	322 -> 274
+	323 -> 324
+	289 -> 276
+	329 -> 274
+	296 -> 323
+	274 [label="JSON Path"]
+	324 [label="Column Filter"]
+	329 [label="GET Request"]
+	289 [label="Column Filter"]
+	294 [label="Remove Empty Rows"]
+	315 [label="Column Filter"]
+	277 [label="JSON to Table"]
+	318 [label="GET Request"]
+	296 [label="Column Auto Type Cast"]
+	322 [label="GET Request"]
+	293 [label="Column Filter"]
+	323 [label="String Manipulation"]
+	276 [label=Ungroup]
+	295 [label="GET Request"]
+	297 [label="Missing Value"]
+	rankdir=LR
+}

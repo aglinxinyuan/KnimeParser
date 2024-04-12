@@ -1,0 +1,14 @@
+digraph {
+	61 -> 65
+	64 -> 60
+	60 -> 59
+	64 -> 65
+	65 -> 60
+	61 -> 60
+	64 [label="Table Reader"]
+	65 [label="DB Table Creator"]
+	61 [label="Create Local Big Data Environment"]
+	60 [label="DB Loader"]
+	59 [label="DB Table Selector"]
+	rankdir=LR
+}

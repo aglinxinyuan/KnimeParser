@@ -1,0 +1,20 @@
+digraph {
+	4 -> 5
+	8 -> 9
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	2 -> 8
+	2 -> 4
+	7 -> 9
+	5 [label="Cell Splitter"]
+	1 [label="File Reader"]
+	7 [label="Table Creator"]
+	9 [label=Joiner]
+	4 [label="Row Filter"]
+	6 [label="CSV Writer"]
+	8 [label="Cell Splitter"]
+	3 [label=GroupBy]
+	2 [label="Rule Engine"]
+	rankdir=LR
+}

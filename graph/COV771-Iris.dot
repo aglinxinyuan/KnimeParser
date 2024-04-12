@@ -1,0 +1,20 @@
+digraph {
+	8 -> 9
+	8 -> 10
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	2 -> 8
+	2 -> 4
+	1 [label="File Reader _Complex Format_"]
+	7 [label="Interactive Pie chart _local_"]
+	9 [label="Interactive Pie chart _local_"]
+	4 [label="Box Plot _local_"]
+	6 [label="HiLite Row Splitter"]
+	8 [label="Numeric Outliers"]
+	3 [label="Interactive Histogram _local_"]
+	2 [label="Color Manager"]
+	10 [label="Missing Value"]
+	rankdir=LR
+}

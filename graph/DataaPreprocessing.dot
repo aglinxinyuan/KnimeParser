@@ -1,0 +1,20 @@
+digraph {
+	6 -> 5
+	9 -> 8
+	4 -> 3
+	10 -> 9
+	2 -> 10
+	7 -> 4
+	8 -> 7
+	7 -> 6
+	5 [label="CSV Writer"]
+	7 [label="Table Manipulator"]
+	9 [label="Table Manipulator"]
+	4 [label="Table Manipulator"]
+	6 [label="Table Manipulator"]
+	8 [label="Table Manipulator"]
+	3 [label="CSV Writer"]
+	2 [label="CSV Reader"]
+	10 [label="Table Manipulator"]
+	rankdir=LR
+}

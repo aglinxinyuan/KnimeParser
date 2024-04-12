@@ -1,0 +1,41 @@
+digraph {
+	940 -> 942
+	903 -> 902
+	938 -> 945
+	904 -> 905
+	898 -> 903
+	898 -> 901
+	881 -> 4
+	909 -> 904
+	945 -> 940
+	946 -> 938
+	942 -> 928
+	903 -> 909
+	881 -> 934
+	934 -> 946
+	945 -> 942
+	909 -> 910
+	4 -> 898
+	928 -> 927
+	941 -> 940
+	942 [label="BERT Predictor"]
+	909 [label="Spacy NER"]
+	910 [label="Document Viewer"]
+	928 [label="Rule Engine"]
+	941 [label="BERT Model Selector"]
+	905 [label="Document Viewer"]
+	938 [label=Shuffle]
+	904 [label="Spacy Lemmatizer"]
+	902 [label="Document Viewer"]
+	946 [label="Bootstrap Sampling"]
+	901 [label="Document Viewer"]
+	4 [label="Spacy Tokenizer"]
+	927 [label=Scorer]
+	945 [label=Partitioning]
+	940 [label="BERT Classification Learner"]
+	934 [label="Column Filter"]
+	903 [label="Spacy Morphologizer"]
+	881 [label="File Reader"]
+	898 [label="Spacy POS Tagger"]
+	rankdir=LR
+}

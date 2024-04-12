@@ -1,0 +1,34 @@
+digraph {
+	11 -> 15
+	14 -> 14
+	6 -> 4
+	4 -> 5
+	13 -> 2
+	12 -> 41
+	3 -> 4
+	41 -> 17
+	1 -> 13
+	14 -> 12
+	15 -> 12
+	5 -> 6
+	10 -> 11
+	16 -> 17
+	2 -> 4
+	4 -> 10
+	5 [label="String Manipulation"]
+	16 [label="SQLite Connector"]
+	13 [label="Path to URI"]
+	1 [label="List Files_Folders"]
+	41 [label="String to Date_Time"]
+	12 [label=Joiner]
+	11 [label="Column Filter"]
+	4 [label="Column Filter"]
+	6 [label="String Manipulation"]
+	15 [label="String Manipulation"]
+	14 [label="String Manipulation"]
+	17 [label="DB Update"]
+	3 [label="MongoDB Connector"]
+	2 [label="Tika Parser URL Input"]
+	10 [label="JSON to Table"]
+	rankdir=LR
+}

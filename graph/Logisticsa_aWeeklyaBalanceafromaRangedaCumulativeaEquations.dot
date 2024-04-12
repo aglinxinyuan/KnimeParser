@@ -1,0 +1,16 @@
+digraph {
+	11 -> 6
+	6 -> 12
+	3 -> 11
+	1 -> 2
+	2 -> 3
+	12 -> 17
+	1 [label="Table Creator"]
+	11 [label="Math Formula"]
+	6 [label="Rule Engine"]
+	17 [label="Column Expressions"]
+	3 [label="Moving Aggregation"]
+	2 [label="Moving Aggregation"]
+	12 [label="Missing Value"]
+	rankdir=LR
+}

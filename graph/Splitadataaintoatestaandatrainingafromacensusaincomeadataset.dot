@@ -1,0 +1,10 @@
+digraph {
+	1 -> 7
+	5 -> 1
+	1 -> 6
+	1 [label=Partitioning]
+	7 [label="Table Writer"]
+	5 [label="Parquet Reader"]
+	6 [label="Table Writer"]
+	rankdir=LR
+}

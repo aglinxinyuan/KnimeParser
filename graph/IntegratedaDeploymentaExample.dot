@@ -1,0 +1,52 @@
+digraph {
+	104 -> 106
+	97 -> 99
+	97 -> 106
+	64 -> 60
+	2 -> 64
+	132 -> 133
+	134 -> 135
+	123 -> 124
+	99 -> 101
+	99 -> 103
+	103 -> 65
+	65 -> 104
+	1 -> 2
+	136 -> 135
+	106 -> 133
+	64 -> 96
+	61 -> 97
+	101 -> 65
+	96 -> 61
+	106 -> 128
+	132 -> 137
+	106 -> 129
+	60 -> 61
+	124 -> 129
+	126 -> 137
+	133 [label="Deploy Workflow to Server"]
+	103 [label="Capture Workflow Start"]
+	126 [label="CSV Reader _Labs_ "]
+	136 [label="CSV Reader"]
+	97 [label="Capture Workflow End"]
+	64 [label="Rule_based Row Splitter"]
+	137 [label="Call Workflow _Table Based_"]
+	129 [label="Workflow Writer"]
+	123 [label="Microsoft Authentication _Labs_"]
+	1 [label="CSV Reader _Labs_ "]
+	101 [label="Decision Tree Learner"]
+	2 [label="Capture Workflow Start"]
+	61 [label=Concatenate]
+	124 [label="SharePoint Online Connector _Labs_"]
+	106 [label="Workflow Combiner"]
+	135 [label="Workflow Executor"]
+	134 [label="Workflow Reader"]
+	60 [label="Constant Value Column"]
+	99 [label=Partitioning]
+	96 [label="Constant Value Column"]
+	104 [label="Capture Workflow End"]
+	65 [label="Decision Tree Predictor"]
+	128 [label="Workflow Writer"]
+	132 [label="KNIME Server Connector"]
+	rankdir=LR
+}

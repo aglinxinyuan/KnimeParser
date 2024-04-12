@@ -1,0 +1,56 @@
+digraph {
+	5 -> 16
+	5 -> 25
+	21 -> 6
+	5 -> 17
+	4 -> 5
+	5 -> 22
+	5 -> 29
+	5 -> 24
+	2 -> 4
+	1 -> 4
+	5 -> 34
+	5 -> 35
+	5 -> 28
+	5 -> 26
+	5 -> 15
+	5 -> 14
+	6 -> 20
+	5 -> 18
+	3 -> 5
+	5 -> 21
+	5 -> 32
+	5 -> 31
+	21 -> 33
+	5 -> 27
+	5 -> 23
+	5 -> 19
+	27 [label="R Snippet"]
+	21 [label="R Snippet"]
+	18 [label="R View _Table_"]
+	26 [label="R Snippet"]
+	17 [label="R View _Table_"]
+	3 [label="Excel Reader"]
+	19 [label="R View _Table_"]
+	24 [label="R View _Table_"]
+	31 [label="R Snippet"]
+	6 [label="Data Explorer"]
+	15 [label="R View _Table_"]
+	25 [label="Independent groups t_test"]
+	16 [label="R View _Table_"]
+	1 [label="Excel Reader"]
+	22 [label="R View _Table_"]
+	28 [label="R View _Table_"]
+	23 [label="R View _Table_"]
+	4 [label=Joiner]
+	14 [label="R View _Table_"]
+	5 [label=Joiner]
+	20 [label=Statistics]
+	35 [label="R Snippet"]
+	34 [label="R Snippet"]
+	29 [label="R Snippet"]
+	33 [label="CSV Writer"]
+	32 [label="Independent groups t_test"]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

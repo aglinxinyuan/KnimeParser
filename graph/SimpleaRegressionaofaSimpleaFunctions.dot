@@ -1,0 +1,27 @@
+digraph {
+	17 -> 23
+	23 -> 2
+	23 -> 33
+	11 -> 17
+	3 -> 11
+	23 -> 17
+	1 -> 2
+	2 -> 3
+	23 -> 20
+	3 -> 30
+	27 -> 26
+	26 -> 23
+	3 -> 23
+	27 [label="DL4J Model Initializer"]
+	20 [label="Numeric Scorer"]
+	1 [label="Empty Table Creator"]
+	23 [label="DL4J Feedforward Predictor _Regression_"]
+	26 [label="Dense Layer"]
+	11 [label=Shuffle]
+	33 [label="JavaScript Line Plot"]
+	17 [label="DL4J Feedforward Learner _Regression_"]
+	30 [label="JavaScript Line Plot"]
+	3 [label=Normalizer]
+	2 [label="Java Snippet"]
+	rankdir=LR
+}

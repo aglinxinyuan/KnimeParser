@@ -1,0 +1,14 @@
+digraph {
+	6 -> 5
+	3 -> 4
+	2 -> 3
+	4 -> 6
+	1 -> 5
+	5 [label="Column Expressions"]
+	1 [label="Table Creator"]
+	4 [label="Column Expressions"]
+	6 [label="Table Row to Variable"]
+	3 [label=GroupBy]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

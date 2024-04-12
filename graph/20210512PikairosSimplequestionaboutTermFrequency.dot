@@ -1,0 +1,43 @@
+digraph {
+	42 -> 18
+	21 -> 12
+	3 -> 265
+	17 -> 42
+	44 -> 27
+	49 -> 45
+	45 -> 44
+	263 -> 7
+	48 -> 49
+	44 -> 16
+	27 -> 39
+	7 -> 21
+	265 -> 263
+	18 -> 48
+	12 -> 17
+	4 -> 42
+	4 -> 44
+	266 -> 2
+	27 -> 58
+	2 -> 3
+	27 [label="Color Manager"]
+	263 [label="Date_Time_based Row Filter"]
+	7 [label="Markup Tag Filter"]
+	21 [label="String Manipulation"]
+	18 [label="Bag Of Words Creator"]
+	58 [label="Tag Cloud"]
+	17 [label="Strings To Document"]
+	3 [label="Feed Parser"]
+	49 [label=GroupBy]
+	12 [label=RowID]
+	16 [label="Interactive Table _local_"]
+	265 [label="Legacy Date_Time to Date_Time"]
+	48 [label=DF]
+	42 [label="Dictionary Tagger"]
+	4 [label="Table Creator"]
+	266 [label="Table Creator"]
+	44 [label=Joiner]
+	39 [label="Tag Cloud"]
+	2 [label="HTTP Retriever"]
+	45 [label="Term To String"]
+	rankdir=LR
+}

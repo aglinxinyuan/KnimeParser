@@ -1,0 +1,86 @@
+digraph {
+	63 -> 55
+	253 -> 348
+	48 -> 349
+	369 -> 354
+	368 -> 358
+	356 -> 361
+	59 -> 349
+	356 -> 366
+	357 -> 368
+	14 -> 49
+	364 -> 369
+	62 -> 53
+	5 -> 370
+	14 -> 48
+	64 -> 58
+	358 -> 356
+	362 -> 367
+	350 -> 64
+	14 -> 59
+	355 -> 351
+	370 -> 362
+	5 -> 14
+	348 -> 5
+	50 -> 63
+	354 -> 365
+	62 -> 54
+	367 -> 369
+	355 -> 363
+	350 -> 50
+	369 -> 358
+	362 -> 357
+	349 -> 50
+	362 -> 364
+	348 -> 51
+	354 -> 359
+	345 -> 253
+	59 -> 350
+	368 -> 355
+	64 -> 57
+	63 -> 56
+	349 -> 62
+	344 -> 345
+	49 -> 350
+	367 -> 368
+	351 [label="Interactive Table _local_"]
+	57 [label="Interactive Table"]
+	55 [label="Interactive Table"]
+	365 [label="Interactive Table _local_"]
+	367 [label="Decision Tree Learner"]
+	58 [label="Interactive Table"]
+	354 [label=Scorer]
+	363 [label="Interactive Table _local_"]
+	64 [label=Scorer]
+	366 [label="Interactive Table _local_"]
+	357 [label="String Manipulation"]
+	49 [label="String Manipulation"]
+	253 [label="RDKit Fingerprint"]
+	51 [label="Interactive Table"]
+	56 [label="Interactive Table"]
+	344 [label="Table Reader"]
+	54 [label="Interactive Table"]
+	348 [label="Column Filter"]
+	359 [label="Interactive Table _local_"]
+	361 [label="Interactive Table _local_"]
+	59 [label="Naive Bayes Learner"]
+	48 [label="String Manipulation"]
+	50 [label=Concatenate]
+	53 [label="Interactive Table"]
+	358 [label=Concatenate]
+	356 [label=Scorer]
+	63 [label=Scorer]
+	369 [label="Decision Tree Predictor"]
+	345 [label="Molecule Type Cast"]
+	14 [label=Partitioning]
+	368 [label="Decision Tree Predictor"]
+	370 [label="Expand Bit Vector"]
+	5 [label="Color Manager"]
+	364 [label="String Manipulation"]
+	350 [label="Naive Bayes Predictor"]
+	62 [label=Scorer]
+	362 [label=Partitioning]
+	355 [label=Scorer]
+	349 [label="Naive Bayes Predictor"]
+	rankdir=LR
+}

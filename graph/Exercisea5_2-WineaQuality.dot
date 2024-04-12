@@ -1,0 +1,17 @@
+digraph {
+	7 -> 8
+	11 -> 7
+	6 -> 13
+	11 -> 8
+	6 -> 12
+	8 -> 14
+	13 -> 11
+	13 [label=Normalizer]
+	7 [label="Random Forest Learner _Regression_"]
+	11 [label=Partitioning]
+	8 [label="Random Forest Predictor _Regression_"]
+	6 [label="CSV Reader"]
+	14 [label="Numeric Scorer"]
+	12 [label=Statistics]
+	rankdir=LR
+}

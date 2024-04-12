@@ -1,0 +1,54 @@
+digraph {
+	38 -> 97
+	31 -> 104
+	66 -> 63
+	97 -> 29
+	59 -> 23
+	33 -> 101
+	93 -> 38
+	65 -> 59
+	23 -> 56
+	102 -> 111
+	111 -> 111
+	63 -> 65
+	31 -> 105
+	27 -> 60
+	105 -> 102
+	35 -> 36
+	57 -> 67
+	101 -> 93
+	104 -> 33
+	102 -> 50
+	29 -> 103
+	59 -> 57
+	50 -> 38
+	56 -> 27
+	103 -> 31
+	36 -> 56
+	27 [label=Image2FilePort]
+	57 [label=Image2FilePort]
+	103 [label=QCEmbedder]
+	97 [label="R View _Table_"]
+	105 [label="R View _Table_"]
+	31 [label=QCIDReader]
+	56 [label="R View _Table_"]
+	59 [label=QCExtractor]
+	50 [label=QCIDReader]
+	67 [label=QCEmbedder]
+	23 [label=QCFeatureReader]
+	101 [label=QCExtractor]
+	63 [label="Port to URI"]
+	93 [label=QCPrecursorReader]
+	38 [label=Concatenate]
+	60 [label=QCEmbedder]
+	35 [label="Port to URI"]
+	102 [label=Image2FilePort]
+	66 [label=QCExtractor]
+	104 [label="R View _Table_"]
+	29 [label=Image2FilePort]
+	65 [label="URL to File Path"]
+	36 [label="Table Row to Variable"]
+	111 [label=QCEmbedder]
+	33 [label=Image2FilePort]
+	rankdir=LR
+}

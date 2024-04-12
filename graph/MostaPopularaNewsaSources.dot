@@ -1,0 +1,20 @@
+digraph {
+	12 -> 13
+	1 -> 8
+	8 -> 7
+	3 -> 11
+	11 -> 12
+	9 -> 10
+	10 -> 11
+	7 -> 9
+	13 [label="Pie_Donut Chart"]
+	1 [label="CSV Reader"]
+	7 [label=Unpivoting]
+	9 [label="Row Filter"]
+	11 [label=Joiner]
+	8 [label="Cell Splitter"]
+	12 [label="Color Manager"]
+	3 [label="Table Reader"]
+	10 [label="Number To String"]
+	rankdir=LR
+}

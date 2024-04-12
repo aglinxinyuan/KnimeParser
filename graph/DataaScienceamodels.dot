@@ -1,0 +1,17 @@
+digraph {
+	12 -> 13
+	14 -> 16
+	15 -> 16
+	13 -> 17
+	17 -> 14
+	14 -> 15
+	16 -> 18
+	16 [label="Decision Tree Predictor"]
+	13 [label="Column Filter"]
+	18 [label=Scorer]
+	15 [label="Decision Tree Learner"]
+	14 [label=Partitioning]
+	17 [label="Color Manager"]
+	12 [label="CSV Reader"]
+	rankdir=LR
+}

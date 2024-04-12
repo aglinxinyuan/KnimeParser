@@ -1,0 +1,20 @@
+digraph {
+	1 -> 8
+	9 -> 3
+	3 -> 7
+	1 -> 2
+	7 -> 4
+	1 -> 9
+	2 -> 3
+	5 -> 7
+	1 -> 5
+	5 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	7 [label=Joiner]
+	9 [label="Column Filter"]
+	4 [label="Line Plot"]
+	8 [label="Line Plot"]
+	3 [label="PCA Apply"]
+	2 [label="PCA Compute"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	4 -> 1
+	7 -> 4
+	4 -> 6
+	4 -> 5
+	5 [label="Missing Value"]
+	1 [label="Missing Value"]
+	7 [label="Table Reader"]
+	4 [label="String To Number"]
+	6 [label="Missing Value"]
+	rankdir=LR
+}

@@ -1,0 +1,110 @@
+digraph {
+	42 -> 44
+	41 -> 42
+	14 -> 25
+	31 -> 35
+	67 -> 24
+	13 -> 14
+	68 -> 47
+	63 -> 69
+	19 -> 53
+	55 -> 62
+	65 -> 66
+	40 -> 41
+	62 -> 57
+	11 -> 23
+	52 -> 19
+	57 -> 78
+	47 -> 19
+	67 -> 47
+	30 -> 31
+	70 -> 13
+	69 -> 70
+	30 -> 45
+	26 -> 27
+	14 -> 35
+	14 -> 15
+	39 -> 43
+	37 -> 38
+	56 -> 57
+	76 -> 11
+	63 -> 65
+	70 -> 73
+	36 -> 40
+	78 -> 60
+	71 -> 56
+	43 -> 41
+	60 -> 77
+	24 -> 19
+	70 -> 19
+	35 -> 36
+	45 -> 46
+	64 -> 65
+	36 -> 37
+	53 -> 56
+	60 -> 61
+	44 -> 49
+	75 -> 76
+	38 -> 39
+	43 -> 44
+	36 -> 42
+	27 -> 25
+	46 -> 31
+	23 -> 64
+	25 -> 31
+	49 -> 48
+	67 -> 68
+	48 -> 67
+	15 -> 35
+	15 -> 52
+	27 [label="Math Formula _Variable_"]
+	57 [label="Column Appender"]
+	55 [label="Image To Table"]
+	45 [label="Extract Table Dimension"]
+	52 [label="Model to Cell"]
+	26 [label="Extract Table Dimension"]
+	19 [label=Transpose]
+	78 [label="Loop End"]
+	24 [label="Numeric Scorer"]
+	64 [label="Date_Time Difference"]
+	49 [label="Column Rename"]
+	41 [label=Concatenate]
+	31 [label=Concatenate]
+	56 [label="Column Appender"]
+	15 [label="Gradient Boosted Trees Learner _Regression_"]
+	25 [label="Row Filter"]
+	75 [label="Table Reader"]
+	48 [label=Joiner]
+	42 [label=Concatenate]
+	53 [label="Variable to Table Column"]
+	68 [label="Color Manager"]
+	67 [label="Table Creator"]
+	11 [label="Column List Loop Start"]
+	23 [label="Column Rename _Regex_"]
+	47 [label="Line Plot"]
+	63 [label="Linear Regression Learner"]
+	61 [label="Data to Report"]
+	77 [label="Table Writer"]
+	76 [label="Extract Date_Time Fields"]
+	14 [label="Row Splitter"]
+	38 [label="Gradient Boosted Trees Predictor _Regression_"]
+	60 [label=RowID]
+	43 [label="Column Filter"]
+	35 [label="Recursive Loop Start"]
+	44 [label="Recursive Loop End"]
+	66 [label="Math Formula"]
+	62 [label="Renderer to Image"]
+	70 [label="Column Rename"]
+	13 [label="Lag Column"]
+	69 [label="PMML To Cell"]
+	36 [label="Row Splitter"]
+	65 [label="Regression Predictor"]
+	46 [label="Math Formula _Variable_"]
+	71 [label="Column Appender"]
+	40 [label="Row Filter"]
+	39 [label="Math Formula"]
+	73 [label="Line Plot"]
+	30 [label="Column Filter"]
+	37 [label="Lag Column"]
+	rankdir=LR
+}

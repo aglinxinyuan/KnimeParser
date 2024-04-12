@@ -1,0 +1,18 @@
+digraph {
+	21 -> 29
+	20 -> 21
+	39 -> 62
+	89 -> 20
+	26 -> 39
+	39 -> 61
+	29 -> 26
+	20 [label="Find Git Commits"]
+	62 [label="Histogram _interactive_"]
+	29 [label="Math Formula"]
+	89 [label="List Remote Files"]
+	26 [label=GroupBy]
+	21 [label="Get Git Commit Details"]
+	61 [label=Statistics]
+	39 [label="Column Rename"]
+	rankdir=LR
+}

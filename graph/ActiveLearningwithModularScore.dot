@@ -1,0 +1,41 @@
+digraph {
+	147 -> 153
+	153 -> 160
+	192 -> 196
+	159 -> 160
+	170 -> 147
+	179 -> 189
+	146 -> 147
+	165 -> 172
+	170 -> 146
+	172 -> 179
+	169 -> 170
+	190 -> 191
+	190 -> 192
+	189 -> 190
+	188 -> 190
+	196 -> 193
+	160 -> 165
+	189 -> 191
+	193 -> 196
+	179 -> 196
+	191 -> 188
+	170 [label="Image Reader _Table_"]
+	165 [label=Normalizer]
+	179 [label="Active Learn Loop Start"]
+	190 [label="Column Filter"]
+	192 [label="Exploration_Exploitation Scorer"]
+	189 [label="Potential Uncertainty Scorer"]
+	169 [label="List Files"]
+	188 [label="Entropy Uncertainty Scorer"]
+	196 [label="Column Filter"]
+	191 [label="K Nearest Neighbor"]
+	153 [label=RowID]
+	147 [label=Joiner]
+	193 [label="Element Selector"]
+	159 [label="Table Creator"]
+	172 [label=Shuffle]
+	146 [label="Image Features"]
+	160 [label=Joiner]
+	rankdir=LR
+}

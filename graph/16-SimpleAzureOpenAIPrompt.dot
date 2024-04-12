@@ -1,0 +1,12 @@
+digraph {
+	82 -> 130
+	130 -> 131
+	127 -> 132
+	131 -> 132
+	82 [label="Credentials Configuration"]
+	127 [label="Table Creator"]
+	131 [label="Azure OpenAI LLM Connector"]
+	130 [label="Azure OpenAI Authenticator"]
+	132 [label="LLM Prompter"]
+	rankdir=LR
+}

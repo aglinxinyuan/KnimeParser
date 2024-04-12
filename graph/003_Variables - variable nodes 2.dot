@@ -1,0 +1,30 @@
+digraph {
+	13 -> 1
+	16 -> 15
+	14 -> 16
+	4 -> 5
+	18 -> 19
+	1 -> 2
+	10 -> 14
+	15 -> 17
+	19 -> 20
+	17 -> 18
+	10 -> 11
+	11 -> 13
+	2 -> 4
+	5 [label="Rule Engine"]
+	16 [label="String Manipulation _Variable_"]
+	13 [label="String Manipulation _Variable_"]
+	20 [label="Rule Engine"]
+	1 [label="CSV Reader"]
+	11 [label="Table Column to Variable"]
+	4 [label="Number To String"]
+	18 [label="Row Filter"]
+	15 [label="String to Path _Variable_"]
+	14 [label="Table Column to Variable"]
+	17 [label="CSV Reader"]
+	2 [label="Row Filter"]
+	10 [label="File Reader"]
+	19 [label="Number To String"]
+	rankdir=LR
+}

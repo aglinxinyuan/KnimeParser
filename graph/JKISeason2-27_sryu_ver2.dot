@@ -1,0 +1,32 @@
+digraph {
+	22 -> 24
+	21 -> 13
+	24 -> 21
+	12 -> 6
+	10 -> 9
+	2 -> 10
+	1 -> 12
+	9 -> 11
+	13 -> 14
+	14 -> 15
+	11 -> 22
+	6 -> 7
+	10 -> 11
+	11 -> 21
+	7 -> 9
+	24 [label="Rule_based Row Filter"]
+	14 [label="Missing Value"]
+	13 [label=Pivoting]
+	1 [label="CSV Reader"]
+	7 [label="Date_Time_based Row Filter"]
+	22 [label="Column Rename"]
+	9 [label=Joiner]
+	11 [label=Joiner]
+	21 [label=Concatenate]
+	6 [label="String to Date_Time"]
+	15 [label="Table View _Labs_"]
+	12 [label="Row Filter"]
+	2 [label="Excel Reader"]
+	10 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

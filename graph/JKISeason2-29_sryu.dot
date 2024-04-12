@@ -1,0 +1,56 @@
+digraph {
+	1 -> 74
+	57 -> 58
+	4 -> 69
+	47 -> 54
+	59 -> 54
+	69 -> 47
+	6 -> 8
+	2 -> 4
+	58 -> 48
+	48 -> 72
+	54 -> 60
+	66 -> 57
+	63 -> 66
+	56 -> 57
+	8 -> 2
+	70 -> 6
+	53 -> 47
+	7 -> 70
+	1 -> 7
+	60 -> 61
+	47 -> 59
+	54 -> 63
+	61 -> 62
+	72 -> 64
+	63 -> 56
+	62 -> 63
+	8 -> 53
+	73 -> 74
+	57 [label=Concatenate]
+	7 [label=Shuffle]
+	58 [label="Loop End"]
+	74 [label=Concatenate]
+	8 [label="String Manipulation"]
+	64 [label="Hierarchical Clustering"]
+	56 [label="Math Formula"]
+	6 [label="Column Appender"]
+	54 [label="Group Loop Start"]
+	59 [label="Math Formula _Variable_"]
+	48 [label="Recursive Loop End"]
+	1 [label="CSV Reader"]
+	53 [label="Math Formula"]
+	72 [label=RowID]
+	4 [label="Table Row To Variable"]
+	47 [label="Recursive Loop Start"]
+	63 [label="Row Splitter"]
+	61 [label="Math Formula"]
+	60 [label=GroupBy]
+	62 [label="Table Row To Variable"]
+	66 [label="Math Formula"]
+	70 [label=Partitioning]
+	69 [label="Variable Expressions"]
+	73 [label="Table Creator"]
+	2 [label=GroupBy]
+	rankdir=LR
+}

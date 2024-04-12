@@ -1,0 +1,15 @@
+digraph {
+	54 -> 59
+	62 -> 54
+	60 -> 53
+	59 -> 60
+	54 -> 60
+	60 -> 61
+	62 [label="Table Reader"]
+	53 [label="Python View"]
+	61 [label="Numeric Scorer"]
+	54 [label=Partitioning]
+	60 [label="Simple Regression Tree Predictor"]
+	59 [label="Simple Regression Tree Learner"]
+	rankdir=LR
+}

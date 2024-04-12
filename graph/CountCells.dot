@@ -1,0 +1,14 @@
+digraph {
+	5 -> 3
+	4 -> 5
+	3 -> 8
+	1 -> 2
+	2 -> 4
+	5 [label="Labeling Filter"]
+	1 [label="Image Reader"]
+	4 [label="Connected Component Analysis"]
+	8 [label="Labeling Properties"]
+	3 [label="Waehlby Cell Clump Splitter"]
+	2 [label="Global Thresholder"]
+	rankdir=LR
+}

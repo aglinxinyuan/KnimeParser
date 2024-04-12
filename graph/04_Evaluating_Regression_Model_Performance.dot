@@ -1,0 +1,25 @@
+digraph {
+	56 -> 57
+	62 -> 79
+	62 -> 77
+	6 -> 74
+	60 -> 62
+	57 -> 60
+	76 -> 6
+	2 -> 57
+	57 -> 72
+	6 -> 2
+	2 -> 56
+	57 [label="Regression Predictor"]
+	62 [label=Normalizer]
+	79 [label="Density Plot"]
+	72 [label="Numeric Scorer"]
+	56 [label="Linear Regression Learner"]
+	76 [label="CSV Reader"]
+	6 [label="Missing Value"]
+	74 [label="Linear Correlation"]
+	77 [label="Scatter Plot"]
+	2 [label=Partitioning]
+	60 [label="Math Formula"]
+	rankdir=LR
+}

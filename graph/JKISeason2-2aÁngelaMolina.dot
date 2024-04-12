@@ -1,0 +1,34 @@
+digraph {
+	32 -> 2
+	11 -> 40
+	35 -> 32
+	37 -> 36
+	33 -> 30
+	32 -> 33
+	39 -> 11
+	30 -> 4
+	2 -> 30
+	3 -> 39
+	3 -> 37
+	3 -> 4
+	35 -> 33
+	34 -> 35
+	2 -> 3
+	4 -> 29
+	2 -> 39
+	35 [label=Partitioning]
+	34 [label="CSV Reader"]
+	29 [label="CSV Writer"]
+	36 [label="Bar Chart _JavaScript_"]
+	11 [label="Color Manager"]
+	4 [label="Cluster Assigner"]
+	40 [label="Scatter Plot _JavaScript_"]
+	32 [label="Missing Value"]
+	39 [label=Denormalizer]
+	33 [label="Missing Value _Apply_"]
+	30 [label="Normalizer _Apply_"]
+	3 [label=k_Means]
+	2 [label=Normalizer]
+	37 [label="Silhouette Coefficient"]
+	rankdir=LR
+}

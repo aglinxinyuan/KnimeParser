@@ -1,0 +1,15 @@
+digraph {
+	5 -> 8
+	6 -> 5
+	7 -> 8
+	8 -> 10
+	5 -> 7
+	3 -> 6
+	5 [label=Partitioning]
+	7 [label="Python Learner"]
+	6 [label="Category To Number"]
+	8 [label="Python Predictor"]
+	3 [label="File Reader _deprecated_"]
+	10 [label="Scorer _deprecated_"]
+	rankdir=LR
+}

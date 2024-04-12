@@ -1,0 +1,18 @@
+digraph {
+	38 -> 37
+	26 -> 40
+	35 -> 39
+	35 -> 36
+	37 -> 35
+	23 -> 26
+	26 -> 38
+	35 [label="Loop End _Column Append_"]
+	36 [label="CSV Writer"]
+	23 [label="Data Generator"]
+	26 [label="Color Manager"]
+	40 [label="Scatter Plot"]
+	39 [label="Scatter Plot"]
+	38 [label="Counting Loop Start"]
+	37 [label="Math Formula"]
+	rankdir=LR
+}

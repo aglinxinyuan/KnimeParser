@@ -1,0 +1,19 @@
+digraph {
+	3 -> 10
+	9 -> 11
+	5 -> 6
+	4 -> 9
+	6 -> 7
+	10 -> 11
+	1 -> 5
+	5 [label="Column Filter"]
+	1 [label="File Reader"]
+	7 [label="Row Filter"]
+	9 [label="String Manipulation"]
+	11 [label=Joiner]
+	4 [label="File Reader"]
+	6 [label="Row Filter"]
+	3 [label="File Reader"]
+	10 [label=GroupBy]
+	rankdir=LR
+}

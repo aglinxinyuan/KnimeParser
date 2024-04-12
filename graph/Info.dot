@@ -1,0 +1,20 @@
+digraph {
+	12 -> 13
+	7 -> 11
+	13 -> 14
+	1 -> 6
+	11 -> 12
+	9 -> 10
+	6 -> 7
+	14 -> 9
+	14 [label="Missing Value"]
+	13 [label="Math Formula _Multi Column_"]
+	1 [label="PostgreSQL Connector"]
+	7 [label="DB Reader"]
+	9 [label="Table to JSON"]
+	11 [label=Statistics]
+	6 [label="DB Table Selector"]
+	12 [label="Column Filter"]
+	10 [label="Container Output _JSON_"]
+	rankdir=LR
+}

@@ -1,0 +1,11 @@
+digraph {
+	2 -> 3
+	1 -> 4
+	3 -> 4
+	1 -> 2
+	1 [label="CSV Reader"]
+	4 [label="Rule_based Row Filter"]
+	3 [label="Table Row to Variable"]
+	2 [label=GroupBy]
+	rankdir=LR
+}

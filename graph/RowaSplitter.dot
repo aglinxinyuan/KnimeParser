@@ -1,0 +1,12 @@
+digraph {
+	1 -> 7
+	1 -> 8
+	1 -> 6
+	1 -> 9
+	1 [label="Table Creator"]
+	7 [label="Row Splitter"]
+	9 [label="Row Splitter"]
+	6 [label="Row Splitter"]
+	8 [label="Row Splitter"]
+	rankdir=LR
+}

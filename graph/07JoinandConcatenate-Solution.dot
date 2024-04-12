@@ -1,0 +1,17 @@
+digraph {
+	36 -> 34
+	38 -> 16
+	30 -> 34
+	34 -> 35
+	37 -> 35
+	39 -> 16
+	16 [label=Concatenate]
+	35 [label=Joiner]
+	34 [label=Joiner]
+	36 [label="CSV Reader"]
+	39 [label="CSV Reader"]
+	30 [label="CSV Reader"]
+	38 [label="CSV Reader"]
+	37 [label="CSV Reader"]
+	rankdir=LR
+}

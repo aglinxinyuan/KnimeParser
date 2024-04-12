@@ -1,0 +1,24 @@
+digraph {
+	3 -> 9
+	4 -> 7
+	7 -> 8
+	3 -> 8
+	3 -> 4
+	1 -> 5
+	3 -> 5
+	5 -> 7
+	7 -> 6
+	7 -> 9
+	2 -> 4
+	3 -> 6
+	5 [label="DB Writer"]
+	1 [label="Excel Reader"]
+	7 [label="Merge Variables"]
+	9 [label="DB Query Reader"]
+	4 [label="DB Writer"]
+	6 [label="DB Query Reader"]
+	8 [label="DB Query Reader"]
+	3 [label="SQLite Connector"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

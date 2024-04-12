@@ -1,0 +1,11 @@
+digraph {
+	8 -> 9
+	9 -> 4
+	1 -> 5
+	5 [label="Sunburst Chart"]
+	1 [label="File Reader"]
+	9 [label="Color Manager"]
+	4 [label="Parallel Coordinates Plot"]
+	8 [label="Excel Reader _XLS_"]
+	rankdir=LR
+}

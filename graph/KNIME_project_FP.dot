@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="Table Creator"]
+	4 [label="Apriori _3_7_"]
+	3 [label="Column Filter"]
+	2 [label=GroupBy]
+	rankdir=LR
+}

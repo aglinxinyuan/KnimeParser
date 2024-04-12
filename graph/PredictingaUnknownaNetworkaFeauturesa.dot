@@ -1,0 +1,27 @@
+digraph {
+	4 -> 19
+	22 -> 9
+	9 -> 16
+	2 -> 12
+	21 -> 9
+	22 -> 2
+	3 -> 4
+	12 -> 3
+	3 -> 18
+	19 -> 18
+	18 -> 20
+	19 -> 21
+	12 -> 21
+	16 [label="Network Writer"]
+	20 [label=Scorer]
+	22 [label="Network Reader"]
+	9 [label="Feature Inserter"]
+	4 [label="Column Filter"]
+	18 [label="Decision Tree Predictor"]
+	21 [label="Decision Tree Predictor"]
+	3 [label=Partitioning]
+	2 [label="Feature Table"]
+	12 [label="Row Splitter"]
+	19 [label="Decision Tree Learner"]
+	rankdir=LR
+}

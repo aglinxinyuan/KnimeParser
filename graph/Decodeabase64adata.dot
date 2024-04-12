@@ -1,0 +1,35 @@
+digraph {
+	1 -> 415
+	2 -> 413
+	408 -> 412
+	1 -> 411
+	416 -> 408
+	1 -> 414
+	1 -> 269
+	407 -> 415
+	407 -> 411
+	406 -> 416
+	2 -> 417
+	1 -> 2
+	1 -> 409
+	409 -> 407
+	412 -> 407
+	405 -> 406
+	407 -> 269
+	408 [label="Java Edit Variable _simple_"]
+	413 [label="Binary Objects to Files"]
+	1 [label="File Reader"]
+	405 [label="Extract Context Properties"]
+	416 [label="Java Edit Variable _simple_"]
+	415 [label="R Snippet"]
+	2 [label="Strings to Binary Objects"]
+	412 [label="Java Edit Variable _simple_"]
+	407 [label="Merge Variables"]
+	406 [label="Java Edit Variable _simple_"]
+	269 [label="R Snippet"]
+	414 [label="CSV Writer"]
+	409 [label="Table Column to Variable"]
+	417 [label="Binary Objects to Files"]
+	411 [label="R Snippet"]
+	rankdir=LR
+}

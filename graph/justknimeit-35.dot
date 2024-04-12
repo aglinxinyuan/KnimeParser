@@ -1,0 +1,22 @@
+digraph {
+	11 -> 12
+	2 -> 12
+	12 -> 6
+	2 -> 10
+	8 -> 9
+	12 -> 8
+	5 -> 6
+	1 -> 2
+	10 -> 11
+	6 -> 8
+	5 [label="Network Creator"]
+	1 [label="File Reader"]
+	9 [label="Network Viewer _local_"]
+	11 [label="Top k Selector"]
+	10 [label=GroupBy]
+	6 [label="Object Inserter"]
+	8 [label="Feature Inserter"]
+	2 [label="Row Filter _Labs_"]
+	12 [label="Reference Row Filter"]
+	rankdir=LR
+}

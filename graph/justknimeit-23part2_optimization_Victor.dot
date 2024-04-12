@@ -1,0 +1,30 @@
+digraph {
+	38 -> 41
+	41 -> 42
+	47 -> 45
+	44 -> 39
+	40 -> 44
+	41 -> 43
+	46 -> 48
+	43 -> 40
+	36 -> 45
+	42 -> 43
+	37 -> 46
+	36 -> 41
+	45 -> 46
+	39 -> 47
+	48 [label=Scorer]
+	43 [label="XGBoost Predictor"]
+	44 [label=Scorer]
+	42 [label="XGBoost Tree Ensemble Learner"]
+	41 [label=X_Partitioner]
+	36 [label="CSV Reader"]
+	45 [label="XGBoost Tree Ensemble Learner"]
+	46 [label="XGBoost Predictor"]
+	47 [label="Table Row to Variable"]
+	40 [label=X_Aggregator]
+	39 [label="Parameter Optimization Loop End"]
+	38 [label="Parameter Optimization Loop Start"]
+	37 [label="CSV Reader"]
+	rankdir=LR
+}

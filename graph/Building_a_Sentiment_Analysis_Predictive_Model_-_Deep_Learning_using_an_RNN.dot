@@ -1,0 +1,51 @@
+digraph {
+	885 -> 882
+	880 -> 332
+	888 -> 889
+	405 -> 410
+	892 -> 894
+	883 -> 886
+	884 -> 883
+	408 -> 409
+	409 -> 415
+	885 -> 887
+	879 -> 880
+	908 -> 883
+	889 -> 891
+	410 -> 408
+	403 -> 405
+	332 -> 403
+	887 -> 888
+	415 -> 885
+	884 -> 886
+	405 -> 409
+	895 -> 892
+	893 -> 883
+	886 -> 887
+	882 -> 884
+	894 -> 893
+	888 [label="Column Expressions"]
+	405 [label=Unpivoting]
+	887 [label="Many to One"]
+	880 [label="Column Filter"]
+	408 [label="Counter Generation"]
+	885 [label="Category To Number"]
+	403 [label="Cell Splitter"]
+	883 [label="Keras Network Learner"]
+	415 [label=GroupBy]
+	879 [label="CSV Reader"]
+	332 [label="Duplicate Row Filter"]
+	895 [label="Keras Input Layer"]
+	882 [label="Create Collection Column"]
+	889 [label="Number To Category _Apply_"]
+	886 [label="Keras Network Executor"]
+	884 [label=Partitioning]
+	892 [label="Keras Embedding Layer"]
+	894 [label="Keras LSTM Layer"]
+	409 [label="Cell Replacer"]
+	893 [label="Keras Dense Layer"]
+	891 [label=Scorer]
+	410 [label=GroupBy]
+	908 [label="Conda Environment Propagation"]
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	14 -> 13
+	1 -> 14
+	14 -> 15
+	1 [label="CSV Reader"]
+	13 [label="Association Rule Learner _Borgelt_"]
+	14 [label=GroupBy]
+	15 [label="Item Set Finder _Borgelt_"]
+	rankdir=LR
+}

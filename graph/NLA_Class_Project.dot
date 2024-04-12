@@ -1,0 +1,30 @@
+digraph {
+	42 -> 30
+	38 -> 39
+	30 -> 36
+	2 -> 30
+	31 -> 38
+	32 -> 34
+	40 -> 42
+	37 -> 35
+	35 -> 31
+	1 -> 2
+	39 -> 32
+	36 -> 37
+	41 -> 40
+	35 [label="Stop Word Filter"]
+	1 [label="Document Grabber"]
+	34 [label="Tag Cloud"]
+	42 [label="Table Row to Variable"]
+	41 [label="Create Date_Time Range"]
+	38 [label="Snowball Stemmer"]
+	31 [label="Case Converter"]
+	36 [label="Number Filter"]
+	40 [label="Date_Time Shift"]
+	32 [label="Color Manager"]
+	39 [label="Topic Extractor _Parallel LDA_"]
+	30 [label="Date_Time_based Row Filter"]
+	2 [label="Document Data Extractor"]
+	37 [label="Punctuation Erasure"]
+	rankdir=LR
+}

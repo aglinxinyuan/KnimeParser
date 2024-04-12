@@ -1,0 +1,59 @@
+digraph {
+	31 -> 34
+	33 -> 27
+	3 -> 2
+	2 -> 19
+	34 -> 35
+	19 -> 21
+	32 -> 40
+	30 -> 32
+	1 -> 17
+	21 -> 24
+	18 -> 16
+	32 -> 37
+	29 -> 30
+	26 -> 31
+	35 -> 33
+	25 -> 26
+	17 -> 18
+	37 -> 38
+	27 -> 32
+	24 -> 23
+	19 -> 25
+	19 -> 22
+	16 -> 3
+	22 -> 28
+	32 -> 39
+	19 -> 20
+	23 -> 25
+	23 -> 22
+	28 -> 29
+	27 [label="Constant Value Column"]
+	18 [label="Extract URI Info"]
+	21 [label="Rule_based Row Filter"]
+	26 [label="Cell Splitter"]
+	17 [label="String to URI"]
+	3 [label="Table Row To Variable Loop Start"]
+	19 [label="Java Snippet _simple_"]
+	24 [label="Column Rename"]
+	31 [label="Column Rename"]
+	25 [label="Rule_based Row Filter"]
+	16 [label="URL to File Path"]
+	30 [label="String To Number _PMML_"]
+	1 [label="List Files"]
+	22 [label="Rule_based Row Filter"]
+	28 [label="Cell Splitter"]
+	23 [label="Table Row to Variable"]
+	38 [label="Table Writer"]
+	20 [label="Row Filter"]
+	35 [label=RowID]
+	34 [label="Column Filter"]
+	29 [label="Column Rename"]
+	40 [label="Table Writer"]
+	39 [label="Table Writer"]
+	33 [label=Transpose]
+	32 [label="Loop End _2 ports_"]
+	2 [label="File Reader"]
+	37 [label=Joiner]
+	rankdir=LR
+}

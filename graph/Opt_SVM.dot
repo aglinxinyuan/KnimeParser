@@ -1,0 +1,64 @@
+digraph {
+	39 -> 36
+	41 -> 42
+	32 -> 36
+	43 -> 32
+	13 -> 14
+	24 -> 43
+	20 -> 3
+	21 -> 22
+	38 -> 29
+	23 -> 20
+	16 -> 20
+	37 -> 41
+	18 -> 19
+	10 -> 21
+	3 -> 18
+	31 -> 33
+	14 -> 15
+	42 -> 27
+	33 -> 35
+	29 -> 31
+	15 -> 16
+	25 -> 18
+	39 -> 32
+	36 -> 37
+	22 -> 26
+	26 -> 24
+	40 -> 39
+	35 -> 40
+	3 -> 25
+	2 -> 13
+	19 -> 10
+	27 [label="Math Formula"]
+	18 [label="SVM Predictor"]
+	21 [label="Row Filter"]
+	26 [label="Table Row to Variable"]
+	3 [label=Partitioning]
+	19 [label=Scorer]
+	24 [label="Parameter Optimization Loop End"]
+	41 [label="Loop End"]
+	31 [label="Math Formula"]
+	15 [label=Normalizer]
+	25 [label="SVM Learner"]
+	10 [label="Loop End"]
+	16 [label="Column Filter"]
+	42 [label="Row Filter"]
+	22 [label="Math Formula"]
+	23 [label="Parameter Optimization Loop Start"]
+	14 [label="Math Formula"]
+	38 [label="CSV Reader"]
+	13 [label="Math Formula"]
+	20 [label="Counting Loop Start"]
+	43 [label="Table Row to Variable"]
+	35 [label="Column Filter"]
+	29 [label="Math Formula"]
+	36 [label="SVM Predictor"]
+	40 [label="Counting Loop Start"]
+	39 [label=Partitioning]
+	33 [label=Normalizer]
+	32 [label="SVM Learner"]
+	2 [label="CSV Reader"]
+	37 [label=Scorer]
+	rankdir=LR
+}

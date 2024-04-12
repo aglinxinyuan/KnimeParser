@@ -1,0 +1,24 @@
+digraph {
+	10 -> 13
+	7 -> 8
+	36 -> 5
+	10 -> 32
+	8 -> 10
+	32 -> 34
+	35 -> 36
+	5 -> 10
+	10 -> 11
+	13 -> 12
+	5 [label="Row Filter"]
+	13 [label=Projection]
+	35 [label="ZIP Archive Connector"]
+	7 [label="CSV Reader"]
+	34 [label="Geospatial View Static"]
+	36 [label="CSV Reader"]
+	11 [label="Geospatial View Static"]
+	8 [label="GeoJSON to Geometry"]
+	12 [label="Geospatial View Static"]
+	32 [label=Projection]
+	10 [label=Joiner]
+	rankdir=LR
+}

@@ -1,0 +1,31 @@
+digraph {
+	2 -> 5
+	12 -> 13
+	1 -> 4
+	10 -> 9
+	8 -> 9
+	13 -> 14
+	3 -> 5
+	2 -> 4
+	9 -> 12
+	5 -> 7
+	11 -> 12
+	12 -> 17
+	4 -> 6
+	5 [label=Joiner]
+	13 [label=GroupBy]
+	1 [label="Excel Reader"]
+	7 [label="Excel Writer"]
+	9 [label=Joiner]
+	11 [label="Excel Reader"]
+	4 [label=Joiner]
+	10 [label="Excel Reader"]
+	6 [label="Excel Writer"]
+	8 [label="Excel Reader"]
+	14 [label=Sorter]
+	17 [label="CSV Writer"]
+	3 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	12 [label=Joiner]
+	rankdir=LR
+}

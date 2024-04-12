@@ -1,0 +1,150 @@
+digraph {
+	41 -> 42
+	44 -> 47
+	54 -> 57
+	56 -> 63
+	59 -> 60
+	19 -> 21
+	57 -> 61
+	28 -> 35
+	43 -> 102
+	45 -> 49
+	11 -> 12
+	80 -> 88
+	102 -> 71
+	37 -> 39
+	91 -> 97
+	101 -> 105
+	74 -> 79
+	18 -> 19
+	86 -> 87
+	25 -> 26
+	20 -> 22
+	73 -> 84
+	22 -> 24
+	44 -> 58
+	22 -> 37
+	35 -> 36
+	47 -> 48
+	88 -> 97
+	48 -> 57
+	65 -> 69
+	46 -> 45
+	53 -> 55
+	57 -> 73
+	62 -> 66
+	44 -> 46
+	13 -> 14
+	42 -> 43
+	60 -> 56
+	39 -> 41
+	17 -> 20
+	84 -> 86
+	21 -> 11
+	50 -> 54
+	12 -> 13
+	63 -> 68
+	36 -> 74
+	38 -> 37
+	16 -> 14
+	21 -> 15
+	61 -> 58
+	24 -> 23
+	66 -> 67
+	26 -> 36
+	64 -> 65
+	23 -> 27
+	2 -> 18
+	70 -> 103
+	36 -> 38
+	99 -> 80
+	14 -> 17
+	79 -> 99
+	103 -> 71
+	97 -> 101
+	69 -> 59
+	87 -> 79
+	69 -> 52
+	1 -> 64
+	27 -> 28
+	58 -> 62
+	22 -> 25
+	55 -> 56
+	67 -> 70
+	15 -> 16
+	49 -> 50
+	52 -> 53
+	71 -> 91
+	68 -> 44
+	91 [label="String Manipulation _Multi Column_"]
+	27 [label="Column Filter"]
+	57 [label="Column Appender"]
+	55 [label="Column Rename _Regex_"]
+	103 [label="Column Filter"]
+	79 [label="String Manipulation _Multi Column_"]
+	45 [label="Regex Extractor"]
+	52 [label="Cell Splitter"]
+	18 [label="String Replacer"]
+	21 [label="Column Filter"]
+	26 [label="Column Filter"]
+	58 [label="Column Rename"]
+	74 [label="Column Rename"]
+	97 [label="Rule Engine"]
+	105 [label="Excel Writer"]
+	17 [label="Regex Extractor"]
+	19 [label="Regex Extractor"]
+	80 [label="Column Filter"]
+	24 [label="Column Filter"]
+	64 [label="String Replacer"]
+	49 [label="Column Filter"]
+	84 [label="String Manipulation _Multi Column_"]
+	41 [label="Regex Extractor"]
+	56 [label="Reference Column Resorter"]
+	15 [label="Extract Column Header"]
+	25 [label="Extract Column Header"]
+	54 [label=Transpose]
+	12 [label=Ungroup]
+	59 [label="Extract Column Header"]
+	86 [label="Column Filter"]
+	16 [label=Transpose]
+	48 [label="Column Filter"]
+	50 [label="Duplicate Row Filter"]
+	1 [label="Tika Parser"]
+	42 [label="Row Filter"]
+	22 [label="Missing Value Column Filter"]
+	53 [label=Ungroup]
+	28 [label="Duplicate Row Filter"]
+	68 [label="Column Filter"]
+	67 [label="Row Filter"]
+	11 [label="Cell Splitter"]
+	23 [label="Regex Extractor"]
+	47 [label="Extract Column Header"]
+	87 [label="Table Row to Variable"]
+	63 [label="Regex Extractor"]
+	61 [label="Table Row to Variable"]
+	101 [label="Rule Engine"]
+	14 [label="Reference Column Resorter"]
+	38 [label="Table Row to Variable"]
+	60 [label=Transpose]
+	99 [label="String Manipulation _Multi Column_"]
+	13 [label="Column Rename _Regex_"]
+	20 [label="Column Filter"]
+	35 [label=Transpose]
+	43 [label="Row Filter"]
+	102 [label="Column Filter"]
+	44 [label="Missing Value Column Filter"]
+	62 [label="Row Filter"]
+	66 [label="Regex Extractor"]
+	36 [label="Column Appender"]
+	65 [label="Regex Extractor"]
+	46 [label="Column Filter"]
+	69 [label="Column Filter"]
+	70 [label="Row Filter"]
+	71 [label=Joiner]
+	88 [label="Table Row to Variable"]
+	39 [label="Row Filter"]
+	73 [label="Column Rename"]
+	2 [label="Tika Parser"]
+	37 [label="Column Rename"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	8 -> 2
+	26 -> 8
+	2 -> 12
+	27 -> 8
+	27 [label="CSV Reader"]
+	26 [label="CSV Reader"]
+	8 [label="Column Filter"]
+	2 [label="Row Sampling"]
+	12 [label=Shuffle]
+	rankdir=LR
+}

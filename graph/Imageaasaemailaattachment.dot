@@ -1,0 +1,30 @@
+digraph {
+	1440 -> 1423
+	1432 -> 1439
+	1 -> 18
+	18 -> 19
+	1438 -> 1432
+	1439 -> 1440
+	1427 -> 1431
+	1 -> 1308
+	1308 -> 1427
+	1307 -> 1308
+	1431 -> 1432
+	19 -> 1307
+	1437 -> 1438
+	1431 -> 1437
+	1439 [label="List Files_Folders"]
+	1437 [label="Create Temp Folder"]
+	1 [label="Table Creator"]
+	18 [label="Extract Column Header"]
+	1307 [label="Color Manager"]
+	1423 [label="Send Email"]
+	1427 [label="Image To Table"]
+	1431 [label="Renderer to Image"]
+	1432 [label="Image Writer _Table Column_"]
+	1438 [label="Path to String _Variable_"]
+	1308 [label="Bar Chart"]
+	1440 [label="Table Row to Variable"]
+	19 [label=Transpose]
+	rankdir=LR
+}

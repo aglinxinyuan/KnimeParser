@@ -1,0 +1,18 @@
+digraph {
+	16 -> 15
+	18 -> 19
+	15 -> 20
+	21 -> 20
+	17 -> 18
+	19 -> 21
+	18 -> 21
+	16 -> 17
+	16 [label="Excel Reader _XLS_"]
+	20 [label="Insert Column Header"]
+	18 [label=Transpose]
+	21 [label="Column Appender"]
+	15 [label="Column Expressions"]
+	17 [label="Extract Column Header"]
+	19 [label="String Manipulation"]
+	rankdir=LR
+}

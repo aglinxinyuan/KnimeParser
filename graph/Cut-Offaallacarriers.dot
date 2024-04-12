@@ -1,0 +1,30 @@
+digraph {
+	51 -> 52
+	10 -> 11
+	17 -> 13
+	43 -> 46
+	48 -> 14
+	4 -> 5
+	45 -> 43
+	11 -> 17
+	5 -> 7
+	7 -> 6
+	13 -> 48
+	52 -> 45
+	5 [label="String To Number"]
+	48 [label="Rule_based Row Splitter"]
+	14 [label=Pivot]
+	43 [label="Column Expressions"]
+	13 [label="Column Expressions"]
+	7 [label="Column Expressions"]
+	51 [label="Excel Reader"]
+	46 [label=Pivot]
+	4 [label="Excel Reader"]
+	11 [label="Column Filter"]
+	10 [label="CSV Reader"]
+	6 [label=Pivot]
+	52 [label="Column Filter"]
+	17 [label="String Manipulation"]
+	45 [label="Column Renamer"]
+	rankdir=LR
+}

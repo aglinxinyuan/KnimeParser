@@ -1,0 +1,19 @@
+digraph {
+	3 -> 9
+	3 -> 32
+	29 -> 3
+	23 -> 25
+	25 -> 28
+	30 -> 23
+	28 -> 26
+	30 [label="Excel Reader _XLS_"]
+	29 [label="Excel Reader _XLS_"]
+	28 [label="Number To String"]
+	9 [label="JavaScript Scatter Plot"]
+	23 [label="Extract Date_Time Fields"]
+	26 [label=Heatmap]
+	25 [label=GroupBy]
+	32 [label="Bubble Chart _Plotly_"]
+	3 [label="Color Manager"]
+	rankdir=LR
+}

@@ -1,0 +1,38 @@
+digraph {
+	298 -> 297
+	298 -> 277
+	294 -> 295
+	295 -> 298
+	277 -> 305
+	6 -> 11
+	296 -> 295
+	300 -> 299
+	305 -> 306
+	277 -> 306
+	303 -> 304
+	5 -> 6
+	304 -> 294
+	306 -> 280
+	11 -> 303
+	297 -> 300
+	11 -> 296
+	289 -> 5
+	5 [label="Strings To Document"]
+	306 [label="Random Forest Predictor"]
+	289 [label="File Reader"]
+	294 [label="Row Filter"]
+	277 [label=Partitioning]
+	299 [label="JavaScript Scatter Plot"]
+	296 [label="Category to class"]
+	280 [label=Scorer]
+	11 [label="Java Snippet"]
+	303 [label="Word2Vec Learner"]
+	304 [label="Vocabulary Extractor"]
+	300 [label="Color Manager"]
+	6 [label="Column Filter"]
+	305 [label="Random Forest Learner"]
+	295 [label=Joiner]
+	297 [label=PCA]
+	298 [label="Split Collection Column"]
+	rankdir=LR
+}

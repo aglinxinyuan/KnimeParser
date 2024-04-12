@@ -1,0 +1,35 @@
+digraph {
+	1 -> 17
+	2 -> 21
+	1 -> 27
+	1 -> 28
+	15 -> 16
+	21 -> 3
+	15 -> 18
+	1 -> 15
+	19 -> 20
+	3 -> 4
+	1 -> 14
+	1 -> 2
+	1 -> 19
+	4 -> 23
+	23 -> 26
+	2 -> 4
+	16 [label=Histogram]
+	27 [label="Box Plot"]
+	20 [label=GroupBy]
+	1 [label="CSV Reader"]
+	28 [label="Rule_based Row Filter"]
+	23 [label="Color Manager"]
+	4 [label=Denormalizer]
+	21 [label="Scatter Plot"]
+	18 [label=Histogram]
+	26 [label="Bar Chart"]
+	15 [label=Auto_Binner]
+	14 [label=Statistics]
+	17 [label=Histogram]
+	3 [label=k_Means]
+	2 [label=Normalizer]
+	19 [label="Numeric Binner"]
+	rankdir=LR
+}

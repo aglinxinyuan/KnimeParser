@@ -1,0 +1,26 @@
+digraph {
+	10 -> 12
+	3 -> 17
+	17 -> 25
+	26 -> 28
+	7 -> 10
+	25 -> 26
+	6 -> 7
+	29 -> 3
+	12 -> 11
+	4 -> 6
+	11 -> 29
+	7 [label=Ungroup]
+	29 [label="Row Filter"]
+	28 [label="Row Filter"]
+	11 [label="String Manipulation"]
+	4 [label="JSON Reader"]
+	26 [label="Table View"]
+	6 [label="JSON Path"]
+	25 [label="Split Collection Column"]
+	12 [label="URL to File Path"]
+	17 [label=" ImgPlus to PNG Images "]
+	3 [label="Image Reader _Table_"]
+	10 [label="Path to String"]
+	rankdir=LR
+}

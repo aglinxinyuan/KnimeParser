@@ -1,0 +1,13 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	5 -> 6
+	4 -> 5
+	5 [label=SequenceFragmenter]
+	1 [label=FASTA2Table]
+	4 [label=FASTA2Table]
+	6 [label="CSV Writer"]
+	3 [label="CSV Writer"]
+	2 [label=SequenceFragmenter]
+	rankdir=LR
+}

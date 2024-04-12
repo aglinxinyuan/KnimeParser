@@ -1,0 +1,33 @@
+digraph {
+	25 -> 88
+	54 -> 42
+	53 -> 54
+	59 -> 52
+	56 -> 58
+	52 -> 60
+	87 -> 25
+	42 -> 25
+	86 -> 87
+	42 -> 56
+	88 -> 85
+	88 -> 84
+	60 -> 54
+	58 -> 57
+	57 -> 59
+	86 [label="TensorFlow Network Reader"]
+	57 [label=Sorter]
+	42 [label="Column Rename"]
+	84 [label=Scorer]
+	53 [label="CSV Reader"]
+	87 [label="DL Python Network Editor"]
+	88 [label="Column Aggregator"]
+	56 [label="String Manipulation"]
+	58 [label="String To Number"]
+	85 [label="Image Viewer"]
+	54 [label="Column Appender"]
+	52 [label="Image Reader _Table_"]
+	25 [label="DL Network Executor"]
+	60 [label="Image Calculator"]
+	59 [label=RowID]
+	rankdir=LR
+}

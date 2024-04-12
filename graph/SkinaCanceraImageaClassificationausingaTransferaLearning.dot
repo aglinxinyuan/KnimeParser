@@ -1,0 +1,38 @@
+digraph {
+	361 -> 362
+	294 -> 355
+	355 -> 314
+	365 -> 366
+	314 -> 312
+	362 -> 360
+	300 -> 294
+	359 -> 361
+	367 -> 361
+	358 -> 359
+	366 -> 367
+	312 -> 356
+	359 -> 369
+	357 -> 358
+	363 -> 364
+	364 -> 365
+	356 -> 359
+	314 [label="Image Calculator"]
+	357 [label="DL Python Network Creator"]
+	366 [label="Image Calculator"]
+	359 [label="Keras Network Learner"]
+	294 [label="Rule Engine"]
+	362 [label="Rule Engine"]
+	355 [label="Category To Number"]
+	365 [label="Category To Number"]
+	358 [label="DL Python Network Editor"]
+	367 [label="Image Resizer"]
+	356 [label=Partitioning]
+	300 [label="Image Reader"]
+	369 [label="Keras Network Writer"]
+	360 [label=Scorer]
+	312 [label="Image Resizer"]
+	361 [label="Keras Network Executor"]
+	363 [label="Image Reader"]
+	364 [label="Rule Engine"]
+	rankdir=LR
+}

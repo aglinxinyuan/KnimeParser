@@ -1,0 +1,18 @@
+digraph {
+	18 -> 19
+	19 -> 17
+	15 -> 18
+	14 -> 15
+	16 -> 14
+	1 -> 16
+	19 -> 13
+	16 [label="Duplicate Row Filter"]
+	13 [label="Association Rule Learner _Borgelt_"]
+	1 [label="CSV Reader"]
+	18 [label="Column Filter"]
+	15 [label="Column Aggregator"]
+	14 [label=GroupBy]
+	17 [label="Item Set Finder _Borgelt_"]
+	19 [label="Column Expressions"]
+	rankdir=LR
+}

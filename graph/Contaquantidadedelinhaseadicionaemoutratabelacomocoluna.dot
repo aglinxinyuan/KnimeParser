@@ -1,0 +1,15 @@
+digraph {
+	9 -> 8
+	4 -> 5
+	8 -> 10
+	5 -> 9
+	4 -> 6
+	6 -> 8
+	5 [label="Math Formula"]
+	9 [label="Table Row to Variable"]
+	4 [label="Excel Reader"]
+	8 [label="Variable to Table Column"]
+	6 [label="Row Filter"]
+	10 [label="Math Formula"]
+	rankdir=LR
+}

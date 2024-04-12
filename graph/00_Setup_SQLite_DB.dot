@@ -1,0 +1,24 @@
+digraph {
+	20 -> 21
+	16 -> 27
+	16 -> 21
+	16 -> 19
+	16 -> 18
+	21 -> 17
+	19 -> 20
+	25 -> 26
+	17 -> 18
+	27 -> 26
+	28 -> 27
+	16 [label="SQLite Connector"]
+	27 [label="DB Table Creator"]
+	20 [label="DB Reader"]
+	28 [label="Active Branch Inverter"]
+	21 [label="DB Delete _Table_"]
+	18 [label="DB Writer"]
+	26 [label="DB Writer"]
+	25 [label="CSV Reader"]
+	17 [label="Excel Reader"]
+	19 [label="DB Table Selector"]
+	rankdir=LR
+}

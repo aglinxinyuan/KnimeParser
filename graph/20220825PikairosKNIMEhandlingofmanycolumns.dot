@@ -1,0 +1,10 @@
+digraph {
+	7 -> 4
+	7 -> 3
+	7 -> 2
+	4 [label="Table View"]
+	7 [label="CSV Reader"]
+	3 [label="RDKit Interactive Table"]
+	2 [label="Interactive Table _local_"]
+	rankdir=LR
+}

@@ -1,0 +1,13 @@
+digraph {
+	1 -> 4
+	4 -> 5
+	3 -> 4
+	2 -> 3
+	3 -> 1
+	5 [label="Python View"]
+	1 [label="Partial Least Squares Regression Learner _sklearn_"]
+	4 [label="Regression Predictor _sklearn_"]
+	3 [label=Partitioning]
+	2 [label="Python Script"]
+	rankdir=LR
+}

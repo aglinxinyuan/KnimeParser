@@ -1,0 +1,30 @@
+digraph {
+	8662 -> 8458
+	8459 -> 8461
+	8460 -> 8459
+	9133 -> 9126
+	9133 -> 8434
+	9126 -> 9130
+	9132 -> 9135
+	8661 -> 8662
+	8458 -> 8460
+	8368 -> 8661
+	8459 -> 8389
+	8458 -> 9126
+	8434 -> 9132
+	8662 [label="Semiempirical NDDO"]
+	9132 [label="Java Edit Variable _simple_"]
+	9126 [label="Jaguar Single Point Energy"]
+	8368 [label="Table Creator"]
+	8389 [label="Molecule Writer"]
+	8434 [label="Java Edit Variable _simple_"]
+	8661 [label=LigPrep]
+	9135 [label="WrappedNode Output"]
+	8460 [label="Jaguar Charges"]
+	9130 [label="Run Maestro"]
+	8461 [label="Run Maestro"]
+	9133 [label="Boolean Input"]
+	8459 [label="Run Maestro Command"]
+	8458 [label="Jaguar Minimization"]
+	rankdir=LR
+}

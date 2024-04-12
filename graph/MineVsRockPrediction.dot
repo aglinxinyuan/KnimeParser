@@ -1,0 +1,53 @@
+digraph {
+	321 -> 60
+	6 -> 320
+	39 -> 319
+	320 -> 322
+	307 -> 39
+	4 -> 6
+	2 -> 4
+	46 -> 49
+	316 -> 321
+	31 -> 32
+	32 -> 307
+	60 -> 324
+	1 -> 41
+	306 -> 32
+	49 -> 314
+	323 -> 60
+	319 -> 323
+	1 -> 48
+	314 -> 316
+	306 -> 31
+	41 -> 4
+	325 -> 326
+	41 -> 2
+	1 -> 306
+	48 -> 46
+	322 -> 60
+	306 [label=X_Partitioner]
+	324 [label="CSV Writer"]
+	307 [label=X_Aggregator]
+	322 [label="Row Filter"]
+	49 [label=Scorer]
+	41 [label=Partitioning]
+	316 [label="Column Filter"]
+	31 [label="Decision Tree Learner"]
+	325 [label="CSV Reader"]
+	6 [label=Scorer]
+	48 [label=Partitioning]
+	319 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	4 [label="Logistic Regression Predictor"]
+	321 [label="Row Filter"]
+	60 [label=Concatenate]
+	314 [label=Sorter]
+	326 [label="Bar Chart"]
+	46 [label="K Nearest Neighbor"]
+	323 [label="Row Filter"]
+	39 [label=Scorer]
+	32 [label="Decision Tree Predictor"]
+	2 [label="Logistic Regression Learner"]
+	320 [label="Column Filter"]
+	rankdir=LR
+}

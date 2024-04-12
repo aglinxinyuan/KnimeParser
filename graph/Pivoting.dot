@@ -1,0 +1,10 @@
+digraph {
+	4 -> 19
+	4 -> 21
+	4 -> 20
+	4 [label="Table Creator"]
+	21 [label=Pivoting]
+	20 [label=Pivoting]
+	19 [label=Pivoting]
+	rankdir=LR
+}

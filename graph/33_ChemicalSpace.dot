@@ -1,0 +1,38 @@
+digraph {
+	20 -> 31
+	6 -> 3
+	32 -> 33
+	20 -> 18
+	30 -> 20
+	28 -> 29
+	31 -> 32
+	29 -> 30
+	2 -> 6
+	24 -> 25
+	3 -> 27
+	18 -> 22
+	25 -> 27
+	1 -> 2
+	22 -> 21
+	27 -> 28
+	28 -> 30
+	3 -> 24
+	24 [label="RDKit Diversity Picker"]
+	27 [label=Joiner]
+	32 [label="Color Manager"]
+	20 [label="Expand Bit Vector"]
+	1 [label="CSV Reader"]
+	22 [label="Color Manager"]
+	29 [label="Constant Value Column"]
+	31 [label="t_SNE _L_ Jonsson_"]
+	28 [label="Row Splitter"]
+	18 [label=PCA]
+	21 [label="Scatter Plot"]
+	6 [label="RDKit To Molecule"]
+	25 [label="Constant Value Column"]
+	33 [label="Scatter Plot"]
+	30 [label=Concatenate]
+	3 [label="RDKit Fingerprint"]
+	2 [label="Molecule Type Cast"]
+	rankdir=LR
+}

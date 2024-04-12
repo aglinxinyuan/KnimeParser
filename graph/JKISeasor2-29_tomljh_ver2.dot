@@ -1,0 +1,27 @@
+digraph {
+	7 -> 8
+	8 -> 13
+	10 -> 2
+	8 -> 9
+	3 -> 4
+	10 -> 5
+	1 -> 10
+	7 -> 13
+	5 -> 6
+	2 -> 3
+	6 -> 7
+	2 -> 4
+	7 -> 9
+	5 [label=Shuffle]
+	13 [label="Hierarchical Cluster Assigner"]
+	1 [label="CSV Reader"]
+	7 [label="Distance Matrix Calculate"]
+	9 [label="Hierarchical Cluster View"]
+	4 [label="Hierarchical Cluster View"]
+	6 [label="Counter Generation"]
+	8 [label="Hierarchical Clustering _DistMatrix_"]
+	3 [label="Hierarchical Clustering _DistMatrix_"]
+	2 [label="Distance Matrix Calculate"]
+	10 [label=RowID]
+	rankdir=LR
+}

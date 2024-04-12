@@ -1,0 +1,25 @@
+digraph {
+	11 -> 15
+	4 -> 5
+	1 -> 2
+	24 -> 10
+	3 -> 4
+	26 -> 15
+	15 -> 27
+	2 -> 3
+	10 -> 11
+	5 -> 24
+	10 -> 26
+	5 [label="Row Filter"]
+	24 [label="Color Manager"]
+	27 [label="Scorer _JavaScript_"]
+	1 [label="CSV Reader"]
+	11 [label="Decision Tree Learner"]
+	4 [label="Row Filter"]
+	26 [label="Equal Size Sampling"]
+	15 [label="Decision Tree Predictor"]
+	3 [label="Row Filter"]
+	2 [label="Row Filter"]
+	10 [label=Partitioning]
+	rankdir=LR
+}

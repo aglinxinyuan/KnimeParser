@@ -1,0 +1,32 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	3 -> 8
+	3 -> 4
+	3 -> 5
+	3 -> 12
+	5 -> 6
+	11 -> 12
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	14 -> 2
+	3 -> 6
+	5 [label="Docking Placement"]
+	13 [label="Interactive Table _local_"]
+	7 [label="Top N"]
+	9 [label="Complex Scoring"]
+	11 [label="Column Rename"]
+	4 [label=Conformations]
+	10 [label="Top N"]
+	6 [label="Complex Scoring"]
+	8 [label="Pose Refinement"]
+	14 [label="MOE Reader"]
+	3 [label="Complex Splitter"]
+	2 [label=QuickPrep]
+	12 [label=RMSD]
+	rankdir=LR
+}

@@ -1,0 +1,24 @@
+digraph {
+	21 -> 1
+	38 -> 135
+	37 -> 41
+	40 -> 37
+	35 -> 38
+	135 -> 2
+	1 -> 40
+	34 -> 35
+	41 -> 35
+	2 -> 4
+	35 [label="Random Forest Predictor _Regression_"]
+	1 [label="Container Input _Table_"]
+	34 [label="Model Reader"]
+	41 [label="Extract Properties"]
+	38 [label="Column Filter"]
+	4 [label="CSV Writer"]
+	21 [label="SDF Reader"]
+	40 [label=LigPrep]
+	135 [label="Column Rename"]
+	2 [label="Container Output _Table_"]
+	37 [label=QikProp]
+	rankdir=LR
+}

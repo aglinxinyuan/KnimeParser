@@ -1,0 +1,24 @@
+digraph {
+	11 -> 10
+	12 -> 13
+	18 -> 19
+	14 -> 17
+	19 -> 16
+	14 -> 18
+	13 -> 14
+	10 -> 17
+	17 -> 16
+	16 -> 20
+	10 -> 12
+	16 [label="Column Expressions"]
+	13 [label="Row Filter"]
+	20 [label=RowID]
+	11 [label="Data Generator"]
+	18 [label="Column Expressions"]
+	10 [label=Rank]
+	14 [label="Number to String _PMML_"]
+	17 [label="PMML Transformation Apply"]
+	12 [label=Sorter]
+	19 [label="Table Row to Variable"]
+	rankdir=LR
+}

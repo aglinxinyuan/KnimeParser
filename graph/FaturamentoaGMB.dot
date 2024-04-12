@@ -1,0 +1,30 @@
+digraph {
+	11 -> 10
+	27 -> 9
+	4 -> 5
+	3 -> 4
+	9 -> 28
+	8 -> 7
+	5 -> 7
+	28 -> 17
+	26 -> 27
+	1 -> 2
+	10 -> 27
+	2 -> 3
+	7 -> 10
+	5 [label="Loop End"]
+	27 [label=Joiner]
+	1 [label="List Files_Folders"]
+	7 [label=Joiner]
+	28 [label="Column Resorter"]
+	9 [label=GroupBy]
+	11 [label="Excel Reader"]
+	4 [label="Excel Reader"]
+	26 [label="Excel Reader"]
+	8 [label="Excel Reader"]
+	17 [label="Excel Writer"]
+	3 [label="Table Row To Variable"]
+	2 [label="Group Loop Start"]
+	10 [label=Joiner]
+	rankdir=LR
+}

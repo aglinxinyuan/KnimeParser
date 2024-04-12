@@ -1,0 +1,25 @@
+digraph {
+	15 -> 14
+	9 -> 8
+	6 -> 11
+	5 -> 4
+	17 -> 19
+	19 -> 18
+	14 -> 13
+	4 -> 6
+	8 -> 12
+	5 [label="JSON Reader"]
+	13 [label=Ungroup]
+	9 [label="JSON Reader"]
+	11 [label="JSON Path"]
+	4 [label="JSON Path"]
+	18 [label=Ungroup]
+	6 [label=Ungroup]
+	8 [label="JSON Path"]
+	15 [label="JSON Reader"]
+	14 [label="JSON Path"]
+	17 [label="JSON Reader"]
+	12 [label=Ungroup]
+	19 [label="JSON Path"]
+	rankdir=LR
+}

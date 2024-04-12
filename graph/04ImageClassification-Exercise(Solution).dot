@@ -1,0 +1,53 @@
+digraph {
+	112 -> 115
+	59 -> 118
+	60 -> 57
+	93 -> 94
+	97 -> 20
+	20 -> 75
+	90 -> 91
+	124 -> 121
+	125 -> 141
+	92 -> 93
+	91 -> 92
+	57 -> 59
+	96 -> 97
+	141 -> 97
+	123 -> 118
+	121 -> 117
+	118 -> 124
+	75 -> 101
+	120 -> 125
+	141 -> 96
+	56 -> 60
+	117 -> 120
+	94 -> 95
+	115 -> 56
+	95 -> 96
+	91 [label="Keras Convolution 2D Layer"]
+	57 [label=Sorter]
+	97 [label="Keras Network Executor"]
+	121 [label="Path to String"]
+	92 [label="Keras Max Pooling 2D Layer"]
+	56 [label="String Manipulation"]
+	75 [label="Column Expressions"]
+	59 [label=RowID]
+	141 [label=Partitioning]
+	123 [label="CSV Reader"]
+	125 [label="Create Collection Column"]
+	90 [label="Keras Input Layer"]
+	112 [label="Decompress Files"]
+	115 [label="Nominal Value Row Filter"]
+	101 [label=Scorer]
+	124 [label="Column Filter"]
+	93 [label="Keras Flatten Layer"]
+	117 [label="Image Reader _Table_"]
+	60 [label="String To Number"]
+	94 [label="Keras Dense Layer"]
+	20 [label="Many to One"]
+	96 [label="Keras Network Learner"]
+	120 [label="Image Calculator"]
+	118 [label="Column Appender"]
+	95 [label="Keras Dense Layer"]
+	rankdir=LR
+}

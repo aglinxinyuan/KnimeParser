@@ -1,0 +1,60 @@
+digraph {
+	104 -> 101
+	10 -> 214
+	84 -> 104
+	209 -> 211
+	14 -> 213
+	243 -> 242
+	238 -> 241
+	101 -> 103
+	212 -> 78
+	10 -> 210
+	213 -> 214
+	213 -> 215
+	238 -> 240
+	242 -> 238
+	215 -> 216
+	103 -> 10
+	97 -> 14
+	2 -> 84
+	211 -> 14
+	97 -> 209
+	241 -> 237
+	100 -> 97
+	240 -> 239
+	10 -> 14
+	78 -> 99
+	1 -> 212
+	239 -> 237
+	214 -> 243
+	99 -> 100
+	210 -> 211
+	210 [label="String Distances"]
+	242 [label="Column Expressions"]
+	103 [label="String Manipulation"]
+	97 [label="String Manipulation"]
+	239 [label="Column Expressions"]
+	209 [label="String Distances"]
+	78 [label="String Manipulation"]
+	211 [label="Aggregated Distance"]
+	237 [label=Concatenate]
+	84 [label="String Manipulation"]
+	216 [label=GroupBy]
+	238 [label="Row Splitter"]
+	214 [label=Joiner]
+	10 [label="Counter Generation"]
+	240 [label=GroupBy]
+	1 [label="Excel Reader"]
+	243 [label="Column Expressions"]
+	101 [label="String Manipulation"]
+	100 [label="String Manipulation"]
+	14 [label="Similarity Search"]
+	99 [label="String Manipulation"]
+	104 [label="String Manipulation"]
+	241 [label=GroupBy]
+	212 [label="Column Rename"]
+	215 [label=Auto_Binner]
+	2 [label="Excel Reader"]
+	213 [label="Column Filter"]
+	rankdir=LR
+}

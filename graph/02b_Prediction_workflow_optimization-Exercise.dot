@@ -1,0 +1,28 @@
+digraph {
+	235 -> 237
+	236 -> 13
+	231 -> 1214
+	1214 -> 1220
+	229 -> 236
+	238 -> 235
+	13 -> 230
+	230 -> 231
+	237 -> 229
+	1213 -> 1214
+	1218 -> 235
+	1216 -> 235
+	231 [label="Rule_based Row Filter"]
+	1216 [label="Container Input _Table_"]
+	229 [label="Row Filter"]
+	237 [label="Missing Value _Apply_"]
+	13 [label="Rule_based Row Filter"]
+	1213 [label="PortObject Reference Reader"]
+	235 [label="Numeric Outliers _Apply_"]
+	1214 [label="XGBoost Predictor"]
+	1218 [label="PortObject Reference Reader"]
+	236 [label="Numeric Outliers _Apply_"]
+	230 [label="Rule_based Row Filter"]
+	238 [label="String to Number"]
+	1220 [label="Container Output _Table_"]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	7 -> 8
+	1 -> 4
+	4 -> 5
+	8 -> 9
+	9 -> 11
+	3 -> 4
+	2 -> 6
+	2 -> 7
+	5 -> 6
+	9 -> 10
+	2 -> 5
+	6 -> 7
+	2 -> 8
+	5 [label="Feature Inserter"]
+	1 [label="File Reader"]
+	7 [label="Feature Inserter"]
+	9 [label="Feature Inserter"]
+	11 [label="Network Viewer"]
+	4 [label="Object Inserter"]
+	6 [label="Feature Inserter"]
+	8 [label="Feature Inserter"]
+	3 [label="Network Creator"]
+	2 [label="File Reader"]
+	10 [label="Network Writer"]
+	rankdir=LR
+}

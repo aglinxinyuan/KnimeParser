@@ -1,0 +1,29 @@
+digraph {
+	54 -> 52
+	38 -> 41
+	44 -> 37
+	52 -> 57
+	56 -> 53
+	36 -> 44
+	55 -> 51
+	21 -> 36
+	53 -> 55
+	40 -> 38
+	37 -> 40
+	51 -> 54
+	57 [label="Bar Chart"]
+	55 [label="Rule_based Row Filter"]
+	44 [label="Rule_based Row Filter"]
+	41 [label="Bar Chart"]
+	53 [label="Rule_based Row Filter"]
+	36 [label="Rule_based Row Filter"]
+	51 [label="Column Filter"]
+	21 [label="Excel Reader"]
+	56 [label="Excel Reader"]
+	40 [label="Color Manager"]
+	54 [label="Color Manager"]
+	52 [label="Number To String _PMML_"]
+	38 [label="Number To String _PMML_"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,28 @@
+digraph {
+	35 -> 34
+	20 -> 34
+	18 -> 19
+	32 -> 25
+	19 -> 33
+	23 -> 32
+	30 -> 31
+	29 -> 30
+	32 -> 20
+	25 -> 35
+	19 -> 23
+	33 -> 20
+	31 -> 18
+	30 [label="Path to URI"]
+	20 [label="R Snippet"]
+	35 [label="String to Path _Variable_"]
+	34 [label="Table Writer"]
+	29 [label="List Files_Folders"]
+	31 [label="Files_Folders Meta Info"]
+	23 [label="URL to File Path"]
+	18 [label=Sorter]
+	25 [label="Java Edit Variable _simple_"]
+	33 [label="Column Filter"]
+	32 [label="Table Row to Variable"]
+	19 [label="Row Filter"]
+	rankdir=LR
+}

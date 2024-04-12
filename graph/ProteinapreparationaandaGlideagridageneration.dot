@@ -1,0 +1,51 @@
+digraph {
+	15258 -> 15254
+	15271 -> 15273
+	9104 -> 9105
+	15274 -> 15271
+	15257 -> 15255
+	9105 -> 15252
+	15277 -> 15253
+	15277 -> 15279
+	15269 -> 15253
+	15278 -> 15253
+	15251 -> 15249
+	15250 -> 15251
+	15267 -> 15278
+	15275 -> 15274
+	15254 -> 15257
+	15268 -> 15267
+	15253 -> 15267
+	15249 -> 9104
+	15277 -> 15269
+	15270 -> 15277
+	15256 -> 15279
+	15277 -> 15275
+	15279 -> 15271
+	15253 -> 15258
+	15255 -> 15256
+	15249 [label="Delete Atoms"]
+	15279 [label="Glide Grid Generation"]
+	15251 [label="Table Row to Variable"]
+	15278 [label="KNIME_Maestro Connector"]
+	15268 [label="Run Maestro Command"]
+	15257 [label="String Manipulation"]
+	15267 [label="Delete Atoms"]
+	15256 [label="Table Row to Variable"]
+	9105 [label=GroupBy]
+	15273 [label="Run Maestro"]
+	15274 [label="Row Filter"]
+	15270 [label="Get PDB"]
+	15255 [label=GroupBy]
+	15275 [label="Split by Structure"]
+	9104 [label="Extract Atom_bond Properties"]
+	15253 [label="Cell Splitter"]
+	15258 [label=Ungroup]
+	15271 [label="Glide Ligand Docking"]
+	15254 [label="Math Formula"]
+	15250 [label="String Manipulation"]
+	15269 [label="KNIME_Maestro Connector"]
+	15252 [label="Table Row to Variable"]
+	15277 [label="Protein Preparation Wizard"]
+	rankdir=LR
+}

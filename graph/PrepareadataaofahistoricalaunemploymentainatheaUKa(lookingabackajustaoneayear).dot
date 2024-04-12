@@ -1,0 +1,28 @@
+digraph {
+	42 -> 44
+	41 -> 42
+	38 -> 39
+	43 -> 44
+	47 -> 41
+	42 -> 43
+	39 -> 40
+	47 -> 37
+	40 -> 41
+	1 -> 47
+	44 -> 45
+	37 -> 38
+	43 -> 46
+	43 [label="Column Filter"]
+	1 [label="Table Reader"]
+	42 [label="Rule_based Row Splitter"]
+	44 [label="Reference Column Filter"]
+	41 [label=Joiner]
+	45 [label="Parquet Writer"]
+	46 [label="Parquet Writer"]
+	47 [label="String To Number _PMML_"]
+	40 [label="Column Filter"]
+	39 [label="Math Formula"]
+	38 [label="Column Rename"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

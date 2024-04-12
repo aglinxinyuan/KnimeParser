@@ -1,0 +1,15 @@
+digraph {
+	488 -> 87
+	280 -> 283
+	279 -> 282
+	49 -> 37
+	283 [label="Column Rename"]
+	49 [label="String Manipulation _Variable_"]
+	280 [label="Scatter Plot"]
+	87 [label="RDKit Descriptor Calculation"]
+	488 [label="Table Reader"]
+	279 [label="Parallel Coordinates Plot"]
+	282 [label="Column Rename"]
+	37 [label="Create File Name"]
+	rankdir=LR
+}

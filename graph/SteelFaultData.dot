@@ -1,0 +1,73 @@
+digraph {
+	7 -> 19
+	13 -> 15
+	13 -> 26
+	12 -> 10
+	20 -> 21
+	41 -> 38
+	10 -> 9
+	39 -> 40
+	19 -> 21
+	7 -> 41
+	21 -> 24
+	33 -> 31
+	12 -> 9
+	31 -> 32
+	29 -> 30
+	26 -> 27
+	25 -> 26
+	32 -> 35
+	16 -> 18
+	37 -> 38
+	8 -> 12
+	9 -> 11
+	15 -> 16
+	41 -> 36
+	13 -> 16
+	13 -> 25
+	7 -> 13
+	36 -> 37
+	24 -> 22
+	13 -> 29
+	7 -> 33
+	38 -> 39
+	11 -> 7
+	33 -> 32
+	19 -> 20
+	13 -> 28
+	16 -> 17
+	28 -> 29
+	27 [label=Scorer]
+	7 [label="Column Filter"]
+	9 [label=DBSCAN]
+	26 [label="Logistic Regression Predictor"]
+	18 [label="ROC Curve"]
+	21 [label="Naive Bayes Predictor"]
+	8 [label="Excel Reader _XLS_"]
+	32 [label="Random Forest Predictor"]
+	17 [label=Scorer]
+	19 [label=X_Partitioner]
+	24 [label=X_Aggregator]
+	41 [label=X_Partitioner]
+	31 [label="Random Forest Learner"]
+	15 [label="Naive Bayes Learner"]
+	25 [label="Logistic Regression Learner"]
+	10 [label="Numeric Distances"]
+	12 [label=Normalizer]
+	16 [label="Naive Bayes Predictor"]
+	22 [label=Scorer]
+	28 [label="SVM Learner"]
+	11 [label="Row Splitter"]
+	38 [label="Naive Bayes Predictor"]
+	13 [label=Partitioning]
+	20 [label="Naive Bayes Learner"]
+	35 [label=Scorer]
+	29 [label="SVM Predictor"]
+	36 [label=SMOTE]
+	40 [label=Scorer]
+	39 [label=X_Aggregator]
+	33 [label=Partitioning]
+	30 [label=Scorer]
+	37 [label="Naive Bayes Learner"]
+	rankdir=LR
+}

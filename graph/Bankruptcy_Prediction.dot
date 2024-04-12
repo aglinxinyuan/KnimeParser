@@ -1,0 +1,87 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	39 -> 4
+	25 -> 58
+	19 -> 56
+	21 -> 22
+	4 -> 27
+	58 -> 61
+	27 -> 26
+	4 -> 6
+	61 -> 55
+	51 -> 52
+	39 -> 62
+	18 -> 19
+	28 -> 14
+	1 -> 40
+	50 -> 51
+	4 -> 17
+	56 -> 59
+	14 -> 15
+	17 -> 18
+	25 -> 44
+	15 -> 45
+	60 -> 54
+	26 -> 25
+	47 -> 49
+	4 -> 20
+	8 -> 41
+	4 -> 26
+	4 -> 28
+	6 -> 7
+	40 -> 39
+	4 -> 7
+	15 -> 50
+	22 -> 57
+	22 -> 43
+	4 -> 14
+	4 -> 18
+	49 -> 48
+	57 -> 60
+	4 -> 21
+	8 -> 47
+	59 -> 53
+	19 -> 42
+	27 [label="Logistic Regression Learner"]
+	57 [label="Color Manager"]
+	55 [label="Image to Report _BIRT_"]
+	7 [label="Random Forest Predictor"]
+	52 [label="Image to Report _BIRT_"]
+	21 [label="Gradient Boosted Trees Predictor"]
+	18 [label="Tree Ensemble Predictor"]
+	26 [label="Logistic Regression Predictor"]
+	58 [label="Color Manager"]
+	8 [label=Scorer]
+	17 [label="Tree Ensemble Learner"]
+	19 [label=Scorer]
+	49 [label="HeatMap _JFreeChart_"]
+	41 [label="Data to Report _BIRT_"]
+	51 [label="HeatMap _JFreeChart_"]
+	56 [label="Color Manager"]
+	6 [label="Random Forest Learner"]
+	15 [label=Scorer]
+	25 [label=Scorer]
+	54 [label="Image to Report _BIRT_"]
+	59 [label="HeatMap _JFreeChart_"]
+	48 [label="Image to Report _BIRT_"]
+	50 [label="Color Manager"]
+	1 [label="CSV Reader"]
+	42 [label="Data to Report _BIRT_"]
+	22 [label=Scorer]
+	53 [label="Image to Report _BIRT_"]
+	28 [label="Decision Tree Learner"]
+	4 [label=Partitioning]
+	47 [label="Color Manager"]
+	61 [label="HeatMap _JFreeChart_"]
+	14 [label="Decision Tree Predictor"]
+	60 [label="HeatMap _JFreeChart_"]
+	20 [label="Gradient Boosted Trees Learner"]
+	43 [label="Data to Report _BIRT_"]
+	44 [label="Data to Report _BIRT_"]
+	62 [label="Bar Chart _JFreeChart_"]
+	40 [label="String Replacer"]
+	39 [label="String Replacer"]
+	45 [label="Data to Report _BIRT_"]
+	rankdir=LR
+}

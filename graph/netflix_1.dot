@@ -1,0 +1,136 @@
+digraph {
+	42 -> 44
+	53 -> 54
+	15 -> 18
+	78 -> 79
+	39 -> 40
+	57 -> 58
+	34 -> 35
+	40 -> 41
+	63 -> 64
+	1 -> 51
+	51 -> 52
+	12 -> 13
+	30 -> 33
+	11 -> 19
+	71 -> 69
+	55 -> 56
+	54 -> 55
+	69 -> 70
+	1 -> 24
+	26 -> 27
+	1 -> 78
+	14 -> 15
+	92 -> 93
+	44 -> 45
+	10 -> 11
+	91 -> 92
+	11 -> 12
+	25 -> 26
+	19 -> 23
+	33 -> 34
+	46 -> 47
+	64 -> 66
+	81 -> 82
+	68 -> 71
+	1 -> 10
+	89 -> 91
+	1 -> 42
+	1 -> 88
+	82 -> 83
+	45 -> 46
+	24 -> 25
+	75 -> 77
+	67 -> 73
+	1 -> 57
+	79 -> 80
+	60 -> 61
+	61 -> 62
+	75 -> 76
+	58 -> 60
+	38 -> 39
+	69 -> 72
+	1 -> 67
+	10 -> 14
+	52 -> 53
+	74 -> 75
+	80 -> 81
+	19 -> 20
+	67 -> 68
+	88 -> 89
+	62 -> 63
+	1 -> 9
+	1 -> 30
+	26 -> 28
+	35 -> 37
+	30 -> 38
+	73 -> 74
+	91 [label=Sorter]
+	27 [label="Pie_Donut Chart"]
+	57 [label="Column Filter"]
+	55 [label="Row Filter"]
+	79 [label="Row Filter"]
+	89 [label=GroupBy]
+	9 [label=Statistics]
+	45 [label=Sorter]
+	52 [label="Row Filter"]
+	18 [label="Line Plot"]
+	26 [label=GroupBy]
+	58 [label="Row Filter"]
+	74 [label="Row Filter"]
+	19 [label=GroupBy]
+	78 [label="Column Filter"]
+	80 [label=GroupBy]
+	24 [label="Column Filter"]
+	64 [label="Row Filter"]
+	92 [label="Row Filter"]
+	41 [label="Bar Chart"]
+	51 [label="Column Filter"]
+	56 [label="Bar Chart"]
+	15 [label="Row Filter"]
+	25 [label="Color Manager"]
+	54 [label=Sorter]
+	12 [label=GroupBy]
+	10 [label="Column Filter"]
+	75 [label=Sorter]
+	1 [label="File Reader"]
+	42 [label="Column Filter"]
+	53 [label=GroupBy]
+	68 [label="Row Filter"]
+	28 [label="Bar Chart"]
+	67 [label="Column Filter"]
+	11 [label="Color Manager"]
+	23 [label="Parallel Coordinates Plot"]
+	47 [label="Bar Chart"]
+	72 [label="Row Filter"]
+	61 [label="Column Combiner"]
+	63 [label=Sorter]
+	76 [label="Row Filter"]
+	77 [label="Row Filter"]
+	14 [label=GroupBy]
+	93 [label="Tag Cloud"]
+	83 [label="Pie_Donut Chart"]
+	38 [label="Row Filter"]
+	60 [label="Row Filter"]
+	73 [label="Row Filter"]
+	81 [label=Sorter]
+	13 [label="Pie_Donut Chart"]
+	20 [label="Bar Chart"]
+	35 [label=GroupBy]
+	34 [label="Color Manager"]
+	44 [label=GroupBy]
+	62 [label=GroupBy]
+	66 [label="Bar Chart"]
+	71 [label="Row Filter"]
+	69 [label=Sorter]
+	70 [label="Row Filter"]
+	46 [label="Row Filter"]
+	82 [label="Row Filter"]
+	88 [label="Column Filter"]
+	40 [label=GroupBy]
+	39 [label="Color Manager"]
+	33 [label="Row Filter"]
+	30 [label="Column Filter"]
+	37 [label="Bar Chart"]
+	rankdir=LR
+}

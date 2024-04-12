@@ -1,0 +1,34 @@
+digraph {
+	309 -> 294
+	291 -> 295
+	308 -> 309
+	310 -> 311
+	292 -> 308
+	312 -> 313
+	306 -> 308
+	310 -> 315
+	308 -> 310
+	311 -> 74
+	313 -> 316
+	313 -> 314
+	312 -> 300
+	310 -> 312
+	316 -> 291
+	313 [label="Spacy Stop Word Filter"]
+	306 [label="Spacy Model Selector"]
+	292 [label="Table Reader"]
+	314 [label="Tagged Document Viewer"]
+	310 [label="Spacy POS Tagger"]
+	294 [label="Tagged Document Viewer"]
+	315 [label="Tagged Document Viewer"]
+	308 [label="Spacy Tokenizer"]
+	316 [label="Spacy Vectorizer"]
+	311 [label="Spacy Morphologizer"]
+	291 [label="Tag Filter"]
+	300 [label="Tagged Document Viewer"]
+	74 [label="Tagged Document Viewer"]
+	309 [label="Spacy NER"]
+	312 [label="Spacy Lemmatizer"]
+	295 [label="Tagged Document Viewer"]
+	rankdir=LR
+}

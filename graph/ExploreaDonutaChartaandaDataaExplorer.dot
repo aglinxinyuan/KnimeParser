@@ -1,0 +1,8 @@
+digraph {
+	3 -> 15
+	3 -> 17
+	17 [label="Pie_Donut Chart"]
+	3 [label="CSV Reader"]
+	15 [label="Data Explorer"]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	8 -> 9
+	7 -> 8
+	7 [label="JSON Reader"]
+	8 [label="JSON to Table"]
+	9 [label="Python View"]
+	rankdir=LR
+}

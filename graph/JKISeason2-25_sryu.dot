@@ -1,0 +1,35 @@
+digraph {
+	1683 -> 1692
+	1689 -> 1683
+	1670 -> 1676
+	1687 -> 1671
+	1690 -> 1702
+	1678 -> 1691
+	1691 -> 1690
+	1667 -> 1677
+	1692 -> 1680
+	1692 -> 1678
+	1673 -> 1692
+	1676 -> 1667
+	1683 -> 1676
+	1702 -> 1687
+	1671 -> 1670
+	1680 -> 1678
+	1683 -> 1667
+	1687 [label="Table Row to Variable"]
+	1667 [label="XGBoost Predictor"]
+	1680 [label="XGBoost Tree Ensemble Learner"]
+	1673 [label="Parameter Optimization Loop Start"]
+	1683 [label=Partitioning]
+	1677 [label=Scorer]
+	1689 [label="CSV Reader"]
+	1678 [label="XGBoost Predictor"]
+	1670 [label="Table Row to Variable"]
+	1690 [label=Scorer]
+	1692 [label=X_Partitioner]
+	1702 [label="Math Formula"]
+	1691 [label=X_Aggregator]
+	1671 [label="Parameter Optimization Loop End"]
+	1676 [label="XGBoost Tree Ensemble Learner"]
+	rankdir=LR
+}

@@ -1,0 +1,26 @@
+digraph {
+	2840 -> 2832
+	2834 -> 2836
+	2838 -> 2840
+	2837 -> 2835
+	2836 -> 2837
+	2754 -> 2839
+	2832 -> 2830
+	2835 -> 2838
+	2840 -> 2834
+	2833 -> 2835
+	2839 -> 2833
+	2833 -> 2839
+	2832 [label="Python Script _1_1_"]
+	2839 [label=Sorter]
+	2830 [label="Column Filter"]
+	2834 [label="String Replacer"]
+	2837 [label="Column Filter"]
+	2835 [label="Column Appender"]
+	2840 [label="Empty Table Switch"]
+	2754 [label="List Files"]
+	2838 [label="Rule_based Row Filter"]
+	2833 [label="Row Splitter"]
+	2836 [label="Column Rename _Regex_"]
+	rankdir=LR
+}

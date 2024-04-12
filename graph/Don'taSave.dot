@@ -1,0 +1,22 @@
+digraph {
+	32 -> 43
+	31 -> 13
+	44 -> 31
+	6 -> 12
+	13 -> 4
+	12 -> 22
+	30 -> 32
+	22 -> 30
+	4 -> 6
+	13 [label="Gaussian Convolution"]
+	43 [label="Interactive Table"]
+	44 [label="Image Reader"]
+	22 [label="Image Segment Features"]
+	31 [label="Don_t Save Start"]
+	4 [label="Global Thresholder"]
+	6 [label="Connected Component Analysis"]
+	32 [label="Don_t Save End"]
+	30 [label="Column Filter"]
+	12 [label="Column Rename"]
+	rankdir=LR
+}

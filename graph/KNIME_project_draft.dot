@@ -1,0 +1,82 @@
+digraph {
+	27 -> 50
+	42 -> 47
+	57 -> 58
+	24 -> 57
+	59 -> 60
+	26 -> 32
+	43 -> 27
+	53 -> 40
+	40 -> 52
+	41 -> 31
+	54 -> 55
+	69 -> 70
+	55 -> 67
+	67 -> 76
+	58 -> 59
+	67 -> 70
+	76 -> 77
+	32 -> 43
+	48 -> 49
+	49 -> 51
+	63 -> 62
+	47 -> 49
+	37 -> 53
+	62 -> 54
+	50 -> 41
+	61 -> 63
+	72 -> 73
+	47 -> 48
+	31 -> 36
+	52 -> 44
+	67 -> 73
+	36 -> 37
+	51 -> 54
+	60 -> 61
+	67 -> 69
+	75 -> 76
+	67 -> 75
+	44 -> 42
+	67 -> 72
+	70 -> 78
+	73 -> 74
+	27 [label="Missing Value"]
+	57 [label="String to Number"]
+	55 [label="Missing Value"]
+	26 [label="CSV Reader"]
+	58 [label="String to Number"]
+	74 [label=Scorer]
+	78 [label=Scorer]
+	24 [label="CSV Reader"]
+	49 [label=Joiner]
+	41 [label="String to Number"]
+	31 [label="Row Filter"]
+	51 [label="Duplicate Row Filter"]
+	54 [label=Joiner]
+	75 [label="Gradient Boosted Trees Learner"]
+	59 [label="Missing Value"]
+	48 [label="Row Aggregator"]
+	50 [label="Row Filter _Labs_"]
+	42 [label="Duplicate Row Filter"]
+	53 [label="Row Filter"]
+	67 [label=Partitioning]
+	72 [label="Random Forest Learner"]
+	47 [label="String Manipulation _Multi Column_"]
+	61 [label="Row Filter"]
+	63 [label="Row Filter"]
+	76 [label="Gradient Boosted Trees Predictor"]
+	77 [label=Scorer]
+	60 [label="Row Filter"]
+	43 [label="Row Filter"]
+	44 [label="Missing Value"]
+	62 [label="Round Double"]
+	70 [label="Decision Tree Predictor"]
+	69 [label="Decision Tree Learner"]
+	36 [label="Row Filter"]
+	40 [label="String to Number"]
+	52 [label="Row Filter"]
+	73 [label="Random Forest Predictor"]
+	32 [label="String to Number"]
+	37 [label="Row Filter"]
+	rankdir=LR
+}

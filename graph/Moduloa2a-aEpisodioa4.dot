@@ -1,0 +1,35 @@
+digraph {
+	273 -> 428
+	422 -> 423
+	403 -> 404
+	272 -> 273
+	428 -> 429
+	266 -> 271
+	271 -> 272
+	433 -> 266
+	273 -> 425
+	425 -> 427
+	424 -> 271
+	406 -> 403
+	273 -> 422
+	427 -> 426
+	273 -> 421
+	423 [label="Date_Time_based Row Filter"]
+	428 [label="Modify Time"]
+	427 [label="String Manipulation"]
+	433 [label="Excel Reader"]
+	403 [label="DB Table Selector"]
+	421 [label="Date_Time Shift"]
+	425 [label="Date_Time Difference"]
+	429 [label="Modify Time Zone"]
+	426 [label="String to Duration"]
+	272 [label="Rule Engine"]
+	273 [label="String to Date_Time"]
+	266 [label="Table Cropper"]
+	404 [label="DB Reader"]
+	406 [label="SQLite Connector"]
+	271 [label="Value Lookup"]
+	424 [label="CSV Reader"]
+	422 [label="Extract Date_Time Fields"]
+	rankdir=LR
+}

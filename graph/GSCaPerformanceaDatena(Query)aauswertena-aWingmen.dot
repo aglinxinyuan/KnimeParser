@@ -1,0 +1,31 @@
+digraph {
+	3 -> 9
+	4 -> 19
+	5 -> 19
+	11 -> 12
+	18 -> 19
+	12 -> 19
+	3 -> 5
+	2 -> 4
+	3 -> 17
+	16 -> 2
+	17 -> 18
+	9 -> 10
+	2 -> 3
+	10 -> 11
+	1 -> 16
+	5 [label=GroupBy]
+	16 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	9 [label="Strings To Document"]
+	11 [label=GroupBy]
+	4 [label=GroupBy]
+	18 [label=GroupBy]
+	10 [label="Bag Of Words Creator"]
+	12 [label=GroupBy]
+	17 [label="Rule Engine"]
+	3 [label="Rule Engine"]
+	2 [label="Rule Engine"]
+	19 [label="Excel Writer"]
+	rankdir=LR
+}

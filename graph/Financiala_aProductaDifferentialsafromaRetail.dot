@@ -1,0 +1,91 @@
+digraph {
+	284 -> 288
+	2057 -> 2080
+	286 -> 287
+	2059 -> 2106
+	2084 -> 2083
+	2091 -> 2069
+	2108 -> 2101
+	2094 -> 2095
+	2070 -> 2071
+	2083 -> 2079
+	290 -> 2056
+	2079 -> 2107
+	2084 -> 2075
+	2075 -> 2079
+	2107 -> 2101
+	2079 -> 2108
+	2096 -> 2091
+	2080 -> 2108
+	2103 -> 2104
+	2106 -> 2058
+	2082 -> 2084
+	282 -> 286
+	285 -> 284
+	2060 -> 2059
+	2096 -> 2103
+	2101 -> 2098
+	2056 -> 2060
+	2095 -> 2096
+	288 -> 290
+	2071 -> 2080
+	283 -> 285
+	2106 -> 2057
+	2104 -> 2107
+	2069 -> 2070
+	2093 -> 2094
+	2058 -> 2090
+	281 -> 282
+	2090 -> 2061
+	2058 -> 2093
+	2101 -> 2105
+	287 -> 289
+	2083 -> 2090
+	2061 -> 2096
+	281 -> 283
+	2057 -> 2104
+	279 -> 281
+	289 -> 290
+	2106 -> 2082
+	2098 [label=RowID]
+	2083 [label=Sorter]
+	289 [label="Math Formula"]
+	284 [label="Extract Date_Time Fields"]
+	2096 [label="Constant Value Column"]
+	2105 [label=RowID]
+	2103 [label=Pivoting]
+	2060 [label="Number To String"]
+	2107 [label="Reference Column Resorter"]
+	286 [label="String to Date_Time"]
+	2080 [label=Joiner]
+	2108 [label="Reference Column Resorter"]
+	2090 [label=Joiner]
+	2061 [label=Sorter]
+	283 [label="CSV Reader"]
+	2079 [label=Concatenate]
+	290 [label=Joiner]
+	2095 [label="Table Row to Variable"]
+	2056 [label=GroupBy]
+	2082 [label=GroupBy]
+	2104 [label=Joiner]
+	2057 [label=GroupBy]
+	288 [label="Math Formula"]
+	282 [label="CSV Reader"]
+	2071 [label=Pivoting]
+	281 [label="Google Drive Connector"]
+	2094 [label="Rule_based Row Filter"]
+	285 [label="String to Date_Time"]
+	287 [label="Extract Date_Time Fields"]
+	2069 [label="Moving Aggregation"]
+	279 [label="Google Authentication"]
+	2091 [label="Missing Value"]
+	2106 [label=RowID]
+	2070 [label="Math Formula"]
+	2059 [label="String Manipulation"]
+	2075 [label="Table Creator"]
+	2058 [label="Group Loop Start"]
+	2084 [label="String To Number"]
+	2101 [label="Loop End _2 ports_"]
+	2093 [label=GroupBy]
+	rankdir=LR
+}

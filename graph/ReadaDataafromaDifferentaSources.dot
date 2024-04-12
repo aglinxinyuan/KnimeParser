@@ -1,0 +1,26 @@
+digraph {
+	2 -> 18
+	15 -> 14
+	19 -> 2
+	9 -> 15
+	9 -> 16
+	5 -> 17
+	12 -> 9
+	14 -> 18
+	6 -> 12
+	16 -> 14
+	2 -> 5
+	17 -> 12
+	5 [label="Google Sheets Reader"]
+	16 [label=Sorter]
+	9 [label="Row Aggregator"]
+	18 [label="Google Sheets Updater"]
+	6 [label="Excel Reader"]
+	15 [label="Column Renamer"]
+	14 [label="Column Appender"]
+	17 [label="String To Number"]
+	2 [label="Google Sheets Connector"]
+	12 [label=Concatenate]
+	19 [label="Google Authenticator"]
+	rankdir=LR
+}

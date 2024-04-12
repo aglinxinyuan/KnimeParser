@@ -1,0 +1,26 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	1 -> 2
+	8 -> 9
+	2 -> 13
+	5 -> 6
+	13 -> 4
+	11 -> 12
+	9 -> 10
+	6 -> 7
+	10 -> 11
+	5 [label="Files to Binary Objects"]
+	13 [label="Find MIME_Type"]
+	1 [label="List Files_Folders"]
+	7 [label="String Manipulation"]
+	9 [label="String Manipulation"]
+	11 [label="Table Column to Variable"]
+	4 [label="Column Filter"]
+	6 [label="Base64 Encoder"]
+	8 [label="Column Filter"]
+	12 [label="Send Email"]
+	2 [label="Path to URI"]
+	10 [label=RowID]
+	rankdir=LR
+}

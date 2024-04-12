@@ -1,0 +1,26 @@
+digraph {
+	12 -> 11
+	7 -> 8
+	1 -> 4
+	4 -> 5
+	10 -> 12
+	8 -> 10
+	6 -> 10
+	6 -> 7
+	5 -> 9
+	11 -> 13
+	9 -> 6
+	6 -> 8
+	5 [label="Column Auto Type Cast"]
+	13 [label="Column Rename"]
+	1 [label="XML Reader"]
+	7 [label="String Distances"]
+	9 [label="Row Filter"]
+	11 [label=Sorter]
+	4 [label=XPath]
+	6 [label=GroupBy]
+	8 [label="Similarity Search"]
+	12 [label="Column Filter"]
+	10 [label=Joiner]
+	rankdir=LR
+}

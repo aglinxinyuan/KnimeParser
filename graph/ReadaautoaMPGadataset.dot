@@ -1,0 +1,10 @@
+digraph {
+	49 -> 50
+	48 -> 45
+	45 -> 49
+	49 [label="Column Filter"]
+	48 [label="File Reader _Complex Format_"]
+	45 [label="Column Rename"]
+	50 [label="Table Writer"]
+	rankdir=LR
+}

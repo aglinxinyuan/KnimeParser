@@ -1,0 +1,26 @@
+digraph {
+	12 -> 15
+	9 -> 14
+	12 -> 6
+	15 -> 17
+	12 -> 17
+	3 -> 11
+	17 -> 16
+	11 -> 12
+	2 -> 3
+	14 -> 13
+	6 -> 9
+	6 -> 14
+	16 [label="Math Formula"]
+	13 [label="Math Formula"]
+	9 [label="Similarity Search"]
+	11 [label="RDKit Fingerprint"]
+	6 [label=Partitioning]
+	15 [label="Similarity Search"]
+	14 [label=Joiner]
+	17 [label=Joiner]
+	3 [label="Molecule Type Cast"]
+	2 [label="Table Creator"]
+	12 [label=Cardinality]
+	rankdir=LR
+}

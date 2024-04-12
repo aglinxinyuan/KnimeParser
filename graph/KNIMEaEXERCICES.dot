@@ -1,0 +1,68 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	4 -> 5
+	23 -> 24
+	6 -> 27
+	13 -> 14
+	19 -> 18
+	21 -> 22
+	17 -> 20
+	27 -> 28
+	22 -> 23
+	12 -> 13
+	16 -> 26
+	18 -> 19
+	29 -> 32
+	11 -> 12
+	10 -> 11
+	2 -> 20
+	29 -> 31
+	15 -> 16
+	14 -> 30
+	3 -> 27
+	26 -> 29
+	24 -> 17
+	4 -> 7
+	8 -> 28
+	32 -> 33
+	30 -> 15
+	19 -> 26
+	5 -> 6
+	1 -> 9
+	9 -> 10
+	28 -> 29
+	27 [label="Value Lookup"]
+	7 [label="DB Table Selector"]
+	9 [label="Table Cropper"]
+	18 [label="Column Merger"]
+	21 [label="Duplicate Row Filter"]
+	26 [label=Concatenate]
+	8 [label="DB Reader"]
+	32 [label=GroupBy]
+	17 [label="Cell Splitter"]
+	3 [label="CSV Reader"]
+	19 [label="Number to String"]
+	24 [label="String Manipulation"]
+	31 [label="Row Aggregator"]
+	6 [label="DB Reader"]
+	15 [label="Column Merger"]
+	10 [label="Duplicate Row Filter"]
+	12 [label="Rule Engine"]
+	16 [label="Number to String"]
+	1 [label="Excel Reader"]
+	22 [label="Missing Value"]
+	28 [label="Value Lookup"]
+	23 [label="Rule Engine"]
+	4 [label="SQLite Connector"]
+	11 [label="Missing Value"]
+	14 [label="Cell Splitter"]
+	5 [label="DB Table Selector"]
+	20 [label="Table Cropper"]
+	13 [label="String Manipulation"]
+	29 [label=Joiner]
+	33 [label=Pivot]
+	30 [label="Column Renamer"]
+	2 [label="Table Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,19 @@
+digraph {
+	20 -> 21
+	18 -> 19
+	15 -> 16
+	19 -> 20
+	21 -> 22
+	17 -> 18
+	16 -> 17
+	17 -> 22
+	16 [label=GroupBy]
+	20 [label="Column Rename _Regex_"]
+	22 [label="Column Appender"]
+	18 [label="Column List Loop Start"]
+	21 [label="Loop End _Column Append_"]
+	15 [label="Table Creator"]
+	17 [label="Column Splitter"]
+	19 [label="Split Collection Column"]
+	rankdir=LR
+}

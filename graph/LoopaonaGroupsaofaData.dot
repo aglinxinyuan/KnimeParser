@@ -1,0 +1,15 @@
+digraph {
+	36 -> 29
+	32 -> 28
+	28 -> 36
+	28 -> 35
+	37 -> 32
+	35 -> 29
+	35 [label="Variable to Table Column"]
+	29 [label="Loop End _2 ports_"]
+	28 [label=Statistics]
+	36 [label="Variable to Table Column"]
+	32 [label="Group Loop Start"]
+	37 [label="CSV Reader"]
+	rankdir=LR
+}

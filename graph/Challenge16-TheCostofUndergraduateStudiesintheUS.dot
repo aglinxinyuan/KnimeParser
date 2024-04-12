@@ -1,0 +1,27 @@
+digraph {
+	20 -> 21
+	4 -> 3
+	10 -> 9
+	1 -> 2
+	1 -> 10
+	13 -> 16
+	1 -> 13
+	13 -> 17
+	1 -> 6
+	17 -> 20
+	16 -> 17
+	2 -> 4
+	16 [label="Simple Regression Tree Learner"]
+	13 [label=Partitioning]
+	20 [label="Double To Int"]
+	1 [label="CSV Reader"]
+	9 [label="Line Plot"]
+	4 [label=Sorter]
+	21 [label="Numeric Scorer"]
+	6 [label="Bar Chart"]
+	17 [label="Simple Regression Tree Predictor"]
+	3 [label="Bar Chart"]
+	2 [label=GroupBy]
+	10 [label=GroupBy]
+	rankdir=LR
+}

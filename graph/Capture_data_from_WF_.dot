@@ -1,0 +1,28 @@
+digraph {
+	506 -> 507
+	523 -> 517
+	520 -> 516
+	503 -> 505
+	522 -> 523
+	509 -> 521
+	521 -> 520
+	509 -> 522
+	505 -> 507
+	505 -> 506
+	507 -> 516
+	503 -> 504
+	504 -> 517
+	506 [label="Random Forest Learner"]
+	517 [label="CSV Writer"]
+	504 [label=GroupBy]
+	520 [label="String to Path _Variable_"]
+	507 [label="Random Forest Predictor"]
+	521 [label="String Manipulation _Variable_"]
+	522 [label="String Manipulation _Variable_"]
+	523 [label="String to Path _Variable_"]
+	503 [label="CSV Reader"]
+	505 [label=Partitioning]
+	509 [label="Date_Time Widget"]
+	516 [label="CSV Writer"]
+	rankdir=LR
+}

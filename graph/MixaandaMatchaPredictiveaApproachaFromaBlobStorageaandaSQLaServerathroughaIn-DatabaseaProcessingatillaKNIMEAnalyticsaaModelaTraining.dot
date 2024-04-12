@@ -1,0 +1,33 @@
+digraph {
+	180 -> 4
+	182 -> 149
+	180 -> 143
+	170 -> 150
+	184 -> 185
+	127 -> 184
+	126 -> 127
+	143 -> 148
+	174 -> 180
+	148 -> 181
+	181 -> 170
+	9 -> 174
+	150 -> 185
+	4 -> 182
+	149 -> 150
+	170 [label="Decision Tree Learner"]
+	150 [label="Decision Tree Predictor"]
+	180 [label="Database Column Filter"]
+	148 [label="Database Connection Table Reader"]
+	185 [label=Joiner]
+	126 [label="Azure Blob Store Connection"]
+	127 [label="Azure Blob Store File Picker"]
+	9 [label="SQL Server Connector"]
+	174 [label="Database Table Selector"]
+	143 [label="Database Row Filter"]
+	4 [label="Database Row Filter"]
+	182 [label="Database Column Filter"]
+	181 [label="Number To String"]
+	149 [label="Database Connection Table Reader"]
+	184 [label="File Reader"]
+	rankdir=LR
+}

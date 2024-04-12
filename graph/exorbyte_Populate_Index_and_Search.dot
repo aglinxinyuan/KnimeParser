@@ -1,0 +1,16 @@
+digraph {
+	18 -> 19
+	3 -> 7
+	20 -> 2
+	19 -> 20
+	2 -> 7
+	1 -> 2
+	20 [label="URL to File Path _Variable_"]
+	1 [label="CSV Reader"]
+	7 [label="Matcher MM7_x"]
+	18 [label="Table Creator"]
+	3 [label="Table Creator"]
+	2 [label="IndexWriter MM7_1"]
+	19 [label="Table Row to Variable"]
+	rankdir=LR
+}

@@ -1,0 +1,32 @@
+digraph {
+	42 -> 23
+	46 -> 43
+	22 -> 40
+	12 -> 42
+	8 -> 45
+	23 -> 40
+	47 -> 45
+	22 -> 16
+	23 -> 16
+	16 -> 43
+	42 -> 46
+	45 -> 48
+	43 -> 47
+	23 -> 22
+	47 -> 44
+	8 -> 12
+	16 [label="Hierarchical Cluster Assigner"]
+	48 [label="Interactive Table _local_"]
+	43 [label=Joiner]
+	44 [label="Interactive Table _local_"]
+	42 [label=k_Means]
+	22 [label="Hierarchical Clustering _DistMatrix_"]
+	45 [label=Joiner]
+	23 [label="Distance Matrix Calculate"]
+	46 [label=RowID]
+	47 [label=RowID]
+	8 [label="Table Reader"]
+	40 [label="Hierarchical Cluster View"]
+	12 [label=Normalizer]
+	rankdir=LR
+}

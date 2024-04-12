@@ -1,0 +1,17 @@
+digraph {
+	9 -> 8
+	9 -> 3
+	4 -> 5
+	5 -> 4
+	8 -> 9
+	3 -> 4
+	11 -> 12
+	5 [label=Transpose]
+	9 [label="Column Filter"]
+	11 [label="Extract System Properties"]
+	4 [label="Split Collection Column"]
+	8 [label="Column Rename"]
+	3 [label="Java Snippet"]
+	12 [label="Data to Report"]
+	rankdir=LR
+}

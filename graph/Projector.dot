@@ -1,0 +1,8 @@
+digraph {
+	8 -> 9
+	7 -> 8
+	7 [label="Image Reader"]
+	8 [label=Projector]
+	9 [label="Image Viewer"]
+	rankdir=LR
+}

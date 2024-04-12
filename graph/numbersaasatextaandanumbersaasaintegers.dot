@@ -1,0 +1,9 @@
+digraph {
+	2 -> 3
+	1 -> 4
+	1 [label="Table Creator"]
+	4 [label="String To Number"]
+	3 [label="String To Number"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

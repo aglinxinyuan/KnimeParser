@@ -1,0 +1,101 @@
+digraph {
+	46 -> 68
+	41 -> 42
+	137 -> 140
+	149 -> 68
+	158 -> 159
+	65 -> 163
+	135 -> 136
+	65 -> 154
+	93 -> 41
+	147 -> 148
+	42 -> 43
+	65 -> 94
+	136 -> 137
+	163 -> 162
+	51 -> 65
+	59 -> 55
+	67 -> 62
+	134 -> 135
+	57 -> 158
+	155 -> 142
+	67 -> 128
+	65 -> 152
+	55 -> 57
+	72 -> 93
+	137 -> 155
+	148 -> 146
+	48 -> 51
+	144 -> 145
+	50 -> 51
+	57 -> 62
+	140 -> 142
+	142 -> 141
+	145 -> 147
+	48 -> 49
+	141 -> 144
+	138 -> 139
+	65 -> 138
+	57 -> 67
+	137 -> 72
+	146 -> 149
+	94 -> 59
+	44 -> 124
+	49 -> 50
+	65 -> 160
+	160 -> 161
+	124 -> 46
+	43 -> 44
+	57 -> 157
+	157 -> 158
+	68 -> 48
+	62 -> 127
+	57 [label=Partitioning]
+	55 [label="Color Manager"]
+	136 [label="Duplicate Row Filter"]
+	138 [label="Tag Filter"]
+	162 [label="Tag Cloud _JavaScript_"]
+	145 [label="N Chars Filter"]
+	149 [label="Snowball Stemmer"]
+	163 [label="Color Manager"]
+	49 [label=GroupBy]
+	137 [label="Number to String"]
+	41 [label="Punctuation Erasure"]
+	161 [label="Tag Cloud _JavaScript_"]
+	51 [label="Reference Row Filter"]
+	154 [label="Tag Cloud"]
+	146 [label="Stop Word Filter"]
+	141 [label="Column Filter"]
+	59 [label="Category to Class"]
+	48 [label="Term to String"]
+	148 [label="Case Converter"]
+	144 [label="Punctuation Erasure"]
+	50 [label="Row Filter"]
+	42 [label="N Chars Filter"]
+	68 [label="Bag Of Words Creator"]
+	127 [label=Scorer]
+	142 [label="Strings to Document"]
+	158 [label="Random Forest Predictor"]
+	67 [label="SVM Learner"]
+	72 [label="Strings to Document"]
+	147 [label="Number Filter"]
+	124 [label="Stop Word Filter"]
+	159 [label=Scorer]
+	93 [label="Column Filter"]
+	135 [label="Row Sampling"]
+	134 [label="File Reader _Complex Format_"]
+	160 [label="Color Manager"]
+	94 [label="Document Vector"]
+	43 [label="Number Filter"]
+	44 [label="Case Converter"]
+	62 [label="SVM Predictor"]
+	139 [label="Tag Cloud"]
+	157 [label="Random Forest Learner"]
+	140 [label="Row Filter"]
+	65 [label=TF]
+	46 [label="Snowball Stemmer"]
+	155 [label="Row Filter"]
+	152 [label="Tag Cloud"]
+	128 [label="PMML Writer"]
+	rankdir=LR
+}

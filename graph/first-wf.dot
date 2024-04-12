@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	3 -> 4
+	3 -> 5
+	5 [label="Pie chart _local_"]
+	1 [label="File Reader"]
+	4 [label="Pie_Donut Chart"]
+	3 [label="Row Filter"]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

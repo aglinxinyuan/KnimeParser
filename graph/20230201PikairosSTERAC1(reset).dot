@@ -1,0 +1,76 @@
+digraph {
+	33 -> 27
+	37 -> 36
+	10 -> 9
+	4 -> 5
+	5 -> 17
+	31 -> 26
+	38 -> 36
+	13 -> 14
+	1 -> 19
+	25 -> 29
+	2 -> 8
+	12 -> 13
+	19 -> 33
+	32 -> 28
+	14 -> 15
+	30 -> 23
+	7 -> 10
+	11 -> 12
+	6 -> 2
+	23 -> 18
+	29 -> 32
+	27 -> 30
+	28 -> 30
+	5 -> 7
+	24 -> 31
+	1 -> 37
+	18 -> 24
+	9 -> 11
+	15 -> 16
+	26 -> 22
+	22 -> 20
+	34 -> 19
+	17 -> 6
+	27 -> 25
+	3 -> 4
+	8 -> 7
+	1 -> 3
+	27 [label="Rule Engine"]
+	7 [label=Joiner]
+	9 [label="Rule Engine"]
+	18 [label="Rule Engine"]
+	26 [label="Column Filter"]
+	8 [label="Column Filter"]
+	32 [label="String Manipulation"]
+	17 [label="Moving Aggregation"]
+	3 [label="Cell Splitter"]
+	19 [label="Cell Splitter"]
+	24 [label="String Manipulation"]
+	31 [label="Rule Engine"]
+	6 [label="Rule_based Row Filter"]
+	15 [label="Molecule Type Cast"]
+	25 [label="Moving Aggregation"]
+	10 [label="String Manipulation"]
+	12 [label="Rule Engine"]
+	16 [label="Excel Writer"]
+	1 [label="SDF Reader"]
+	22 [label=GroupBy]
+	28 [label="Column Filter"]
+	11 [label="String Manipulation"]
+	4 [label=Ungroup]
+	23 [label="String Manipulation"]
+	14 [label=GroupBy]
+	38 [label="Variable Creator"]
+	5 [label="Rule Engine"]
+	13 [label="Column Filter"]
+	20 [label="Molecule Type Cast"]
+	34 [label="Variable Creator"]
+	29 [label="Rule_based Row Filter"]
+	36 [label="String Manipulation"]
+	33 [label=Ungroup]
+	30 [label=Joiner]
+	2 [label="String Manipulation"]
+	37 [label="Row Filter"]
+	rankdir=LR
+}

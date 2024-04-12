@@ -1,0 +1,138 @@
+digraph {
+	73 -> 71
+	78 -> 79
+	57 -> 58
+	59 -> 60
+	79 -> 49
+	43 -> 45
+	38 -> 65
+	5 -> 15
+	11 -> 12
+	3 -> 9
+	33 -> 34
+	72 -> 73
+	4 -> 15
+	1 -> 7
+	75 -> 77
+	74 -> 75
+	69 -> 78
+	1 -> 5
+	12 -> 15
+	42 -> 15
+	20 -> 70
+	8 -> 9
+	39 -> 63
+	1 -> 8
+	1 -> 2
+	58 -> 59
+	15 -> 23
+	10 -> 11
+	75 -> 69
+	77 -> 78
+	47 -> 50
+	20 -> 29
+	2 -> 15
+	47 -> 49
+	45 -> 47
+	50 -> 49
+	60 -> 61
+	64 -> 38
+	65 -> 69
+	54 -> 15
+	54 -> 42
+	20 -> 32
+	42 -> 43
+	16 -> 50
+	39 -> 40
+	17 -> 20
+	63 -> 64
+	1 -> 4
+	30 -> 39
+	53 -> 50
+	29 -> 30
+	35 -> 39
+	39 -> 42
+	20 -> 72
+	32 -> 57
+	49 -> 16
+	6 -> 15
+	32 -> 33
+	62 -> 63
+	53 -> 54
+	49 -> 53
+	49 -> 46
+	34 -> 35
+	1 -> 6
+	23 -> 42
+	40 -> 15
+	23 -> 46
+	39 -> 38
+	39 -> 43
+	46 -> 47
+	68 -> 75
+	15 -> 17
+	70 -> 68
+	7 -> 9
+	61 -> 62
+	54 -> 49
+	39 -> 45
+	9 -> 10
+	71 -> 74
+	1 -> 3
+	57 [label="Group Loop Start"]
+	79 [label="Math Formula"]
+	7 [label="DB Query Reader"]
+	9 [label=Joiner]
+	58 [label="Lag Column"]
+	74 [label="Math Formula"]
+	8 [label="DB Query Reader"]
+	17 [label=Joiner]
+	3 [label="DB Query Reader"]
+	78 [label="Cross Joiner"]
+	64 [label="Math Formula"]
+	49 [label=Joiner]
+	6 [label="DB Query Reader"]
+	15 [label=Joiner]
+	54 [label="Rule Engine"]
+	10 [label=Joiner]
+	12 [label="Column Filter"]
+	59 [label="Loop End"]
+	75 [label=Joiner]
+	16 [label=Joiner]
+	30 [label="Column Rename"]
+	50 [label="Missing Value"]
+	1 [label="DB Connector"]
+	42 [label=Joiner]
+	53 [label="Moving Aggregation"]
+	68 [label=Pivoting]
+	11 [label="Extract Date_Time Fields"]
+	23 [label="Column Rename"]
+	47 [label="Extract Date_Time Fields"]
+	72 [label="Number To String"]
+	61 [label="Date_Time Difference"]
+	63 [label=Joiner]
+	77 [label=GroupBy]
+	4 [label="DB Query Reader"]
+	38 [label=Joiner]
+	60 [label="Rule Engine"]
+	73 [label="String Manipulation"]
+	5 [label="DB Query Reader"]
+	43 [label="Scatter Plot"]
+	35 [label="Rule Engine"]
+	20 [label=Joiner]
+	34 [label="Math Formula"]
+	62 [label=GroupBy]
+	29 [label=GroupBy]
+	70 [label="String Manipulation"]
+	65 [label="Column Filter"]
+	69 [label=Joiner]
+	71 [label=GroupBy]
+	46 [label=Joiner]
+	40 [label="Rule Engine"]
+	39 [label="Date_Time Difference"]
+	33 [label="Math Formula"]
+	32 [label=GroupBy]
+	2 [label="DB Query Reader"]
+	45 [label=Joiner]
+	rankdir=LR
+}

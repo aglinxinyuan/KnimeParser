@@ -1,0 +1,35 @@
+digraph {
+	3 -> 9
+	12 -> 15
+	4 -> 5
+	18 -> 19
+	9 -> 17
+	10 -> 9
+	15 -> 16
+	3 -> 20
+	3 -> 4
+	19 -> 20
+	14 -> 12
+	9 -> 12
+	17 -> 14
+	5 -> 10
+	1 -> 2
+	2 -> 3
+	16 -> 18
+	5 [label="Column Expressions"]
+	16 [label="Column Expressions"]
+	14 [label="Column Filter"]
+	20 [label=Joiner]
+	1 [label="CSV Reader"]
+	9 [label="Column Expressions"]
+	4 [label=GroupBy]
+	18 [label="Row Filter"]
+	15 [label="String Similarity"]
+	12 [label="Cross Joiner"]
+	17 [label="Row Filter"]
+	3 [label=GroupBy]
+	2 [label="Column Expressions"]
+	10 [label="Table Row To Variable"]
+	19 [label="Column Filter"]
+	rankdir=LR
+}

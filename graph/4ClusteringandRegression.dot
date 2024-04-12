@@ -1,0 +1,19 @@
+digraph {
+	19 -> 38
+	38 -> 39
+	19 -> 33
+	39 -> 27
+	19 -> 37
+	32 -> 27
+	37 -> 40
+	32 -> 40
+	27 [label="Cluster Assigner"]
+	40 [label="Regression Predictor"]
+	39 [label=k_Means]
+	33 [label=Statistics]
+	32 [label="CSV Reader"]
+	38 [label=Normalizer]
+	37 [label="Linear Regression Learner"]
+	19 [label="CSV Reader"]
+	rankdir=LR
+}

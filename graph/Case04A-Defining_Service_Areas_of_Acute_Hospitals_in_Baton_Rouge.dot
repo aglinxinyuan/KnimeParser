@@ -1,0 +1,48 @@
+digraph {
+	21 -> 6
+	4 -> 5
+	8 -> 9
+	13 -> 14
+	1 -> 6
+	2 -> 3
+	2 -> 4
+	12 -> 13
+	14 -> 15
+	17 -> 18
+	11 -> 12
+	10 -> 11
+	15 -> 19
+	15 -> 16
+	15 -> 17
+	1 -> 10
+	18 -> 20
+	11 -> 13
+	2 -> 18
+	2 -> 21
+	3 -> 4
+	2 -> 9
+	9 -> 10
+	16 -> 17
+	1 -> 3
+	9 [label=Joiner]
+	18 [label=Joiner]
+	21 [label="Geometry To Point"]
+	8 [label="CSV Reader"]
+	17 [label=Joiner]
+	3 [label="Voronoi _Thiessen_ Polygon"]
+	19 [label="Row Filter"]
+	6 [label="Nearest Join"]
+	15 [label="Math Formula"]
+	12 [label=GroupBy]
+	10 [label=Joiner]
+	16 [label=GroupBy]
+	1 [label="GeoFile Reader"]
+	11 [label="Math Formula"]
+	4 [label="Spatial Join"]
+	14 [label="Math Formula"]
+	5 [label="Geospatial View"]
+	13 [label=Joiner]
+	20 [label="Geospatial View"]
+	2 [label="GeoFile Reader"]
+	rankdir=LR
+}

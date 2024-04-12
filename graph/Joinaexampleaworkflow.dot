@@ -1,0 +1,8 @@
+digraph {
+	24 -> 25
+	23 -> 25
+	23 [label="Table Reader"]
+	24 [label="Table Reader"]
+	25 [label=Joiner]
+	rankdir=LR
+}

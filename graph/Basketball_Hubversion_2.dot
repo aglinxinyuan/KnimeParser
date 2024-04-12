@@ -1,0 +1,41 @@
+digraph {
+	29 -> 79
+	15 -> 150
+	85 -> 136
+	4 -> 5
+	29 -> 84
+	134 -> 29
+	150 -> 85
+	136 -> 153
+	1 -> 2
+	13 -> 149
+	136 -> 134
+	5 -> 13
+	6 -> 15
+	79 -> 80
+	77 -> 84
+	3 -> 4
+	84 -> 79
+	2 -> 3
+	149 -> 6
+	79 [label="DL4J Feedforward Predictor _Classification_"]
+	136 [label="Column Rename"]
+	153 [label="Data Explorer"]
+	149 [label=Auto_Binner]
+	3 [label="Cell Splitter By Position"]
+	84 [label="DL4J Feedforward Learner _Classification_"]
+	6 [label="Column Resorter"]
+	15 [label="Missing Value"]
+	85 [label="Column Filter"]
+	150 [label="Category To Number"]
+	1 [label="CSV Reader"]
+	4 [label="Rule Engine"]
+	77 [label="DL4J Model Initializer"]
+	134 [label=Normalizer]
+	5 [label="Column Filter"]
+	13 [label="Category To Number"]
+	29 [label=Partitioning]
+	80 [label=Scorer]
+	2 [label="Math Formula"]
+	rankdir=LR
+}

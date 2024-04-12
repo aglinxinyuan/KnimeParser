@@ -1,0 +1,10 @@
+digraph {
+	5 -> 4
+	5 -> 3
+	5 -> 2
+	5 [label="Table Reader"]
+	4 [label=Partitioning]
+	3 [label="Rule_based Row Splitter"]
+	2 [label="Row Splitter"]
+	rankdir=LR
+}

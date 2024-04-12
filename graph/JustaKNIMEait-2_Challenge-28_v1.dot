@@ -1,0 +1,14 @@
+digraph {
+	1 -> 28
+	29 -> 30
+	32 -> 27
+	30 -> 32
+	28 -> 29
+	27 [label="Python View"]
+	1 [label="Excel Reader"]
+	29 [label="Column Rename"]
+	28 [label=GroupBy]
+	32 [label=Sorter]
+	30 [label="Numeric Binner"]
+	rankdir=LR
+}

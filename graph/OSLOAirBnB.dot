@@ -1,0 +1,50 @@
+digraph {
+	56 -> 71
+	62 -> 65
+	66 -> 65
+	66 -> 62
+	31 -> 30
+	56 -> 34
+	51 -> 46
+	42 -> 55
+	56 -> 52
+	56 -> 57
+	46 -> 47
+	39 -> 56
+	65 -> 67
+	55 -> 39
+	57 -> 56
+	56 -> 70
+	71 -> 32
+	56 -> 33
+	47 -> 42
+	65 -> 69
+	56 -> 31
+	52 -> 53
+	65 -> 68
+	70 -> 66
+	57 [label="Color Manager"]
+	55 [label=Auto_Binner]
+	32 [label="Box Plot"]
+	39 [label="Rule Engine"]
+	31 [label="Color Manager"]
+	51 [label="CSV Reader"]
+	56 [label="Scatter Plot _JavaScript_"]
+	42 [label="Row Filter"]
+	53 [label="Row Filter"]
+	68 [label=Scorer]
+	67 [label="Lift Chart _JavaScript_"]
+	47 [label="String to Date_Time"]
+	34 [label="Bar Chart"]
+	62 [label="Decision Tree Learner"]
+	70 [label="Column Filter"]
+	66 [label=Partitioning]
+	71 [label="Math Formula"]
+	65 [label="Decision Tree Predictor"]
+	69 [label="ROC Curve _legacy_"]
+	46 [label="Column Filter"]
+	52 [label="Row Filter"]
+	33 [label="Bar Chart"]
+	30 [label="Scatter Plot _JavaScript_"]
+	rankdir=LR
+}

@@ -1,0 +1,62 @@
+digraph {
+	41 -> 43
+	28 -> 41
+	8 -> 9
+	36 -> 32
+	22 -> 23
+	40 -> 15
+	32 -> 37
+	38 -> 35
+	25 -> 26
+	25 -> 28
+	26 -> 27
+	17 -> 18
+	10 -> 11
+	37 -> 38
+	33 -> 34
+	2 -> 26
+	11 -> 40
+	15 -> 17
+	23 -> 39
+	31 -> 8
+	36 -> 37
+	11 -> 35
+	39 -> 33
+	18 -> 42
+	35 -> 40
+	43 -> 44
+	34 -> 36
+	27 -> 8
+	25 -> 27
+	9 -> 10
+	42 -> 28
+	27 [label="DB Query Reader"]
+	9 [label="Math Formula"]
+	26 [label="DB Writer"]
+	18 [label="Math Formula"]
+	8 [label="Math Formula"]
+	17 [label="Math Formula"]
+	41 [label="CSV Writer"]
+	31 [label="Integer Configuration"]
+	15 [label="Java Snippet _simple_"]
+	25 [label="SQLite Connector"]
+	10 [label="Math Formula"]
+	42 [label="Table Row to Variable"]
+	22 [label="Table Creator"]
+	28 [label="DB Query Reader"]
+	11 [label="Math Formula"]
+	23 [label="String to URI"]
+	38 [label="Merge Variables"]
+	43 [label="Variable Loop End"]
+	35 [label="Table Row to Variable"]
+	44 [label="CSV Reader"]
+	34 [label="Table Row to Variable"]
+	36 [label="Try _Variable Ports_"]
+	40 [label="Counting Loop Start"]
+	39 [label="URL to File Path"]
+	33 [label="String to Path"]
+	32 [label="Delete Files_Folders"]
+	2 [label="Data Generator"]
+	37 [label="Catch Errors _Var Ports_"]
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	60 -> 62
+	62 -> 63
+	38 -> 61
+	37 -> 38
+	63 -> 64
+	61 -> 60
+	64 [label="Missing Value"]
+	62 [label=RowID]
+	61 [label="Constant Value Column"]
+	63 [label=Transpose]
+	37 [label="Table Creator"]
+	38 [label=Unpivoting]
+	60 [label=Pivoting]
+	rankdir=LR
+}

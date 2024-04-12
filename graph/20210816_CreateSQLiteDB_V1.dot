@@ -1,0 +1,15 @@
+digraph {
+	4 -> 5
+	1 -> 5
+	1 -> 2
+	3 -> 1
+	6 -> 2
+	3 -> 6
+	5 [label="DB Writer"]
+	1 [label="SQLite Connector"]
+	4 [label="Table Creator"]
+	6 [label=Sorter]
+	3 [label="Table Creator"]
+	2 [label="DB Writer"]
+	rankdir=LR
+}

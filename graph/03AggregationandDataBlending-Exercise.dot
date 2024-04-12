@@ -1,0 +1,39 @@
+digraph {
+	22 -> 42
+	20 -> 21
+	38 -> 43
+	19 -> 47
+	43 -> 44
+	20 -> 40
+	27 -> 43
+	19 -> 20
+	20 -> 41
+	46 -> 44
+	21 -> 22
+	45 -> 46
+	33 -> 46
+	39 -> 47
+	34 -> 45
+	6 -> 14
+	14 -> 19
+	27 [label="Excel Reader"]
+	21 [label="Math Formula"]
+	19 [label="Excel Reader"]
+	41 [label=GroupBy]
+	6 [label="SQLite Connector"]
+	42 [label=Pivoting]
+	22 [label="Rule Engine"]
+	47 [label=Concatenate]
+	14 [label="DB Table Selector"]
+	38 [label="Excel Reader"]
+	20 [label="Math Formula"]
+	43 [label=Joiner]
+	44 [label=Joiner]
+	34 [label="CSV Reader"]
+	46 [label=Joiner]
+	40 [label=GroupBy]
+	39 [label="Excel Reader"]
+	33 [label="Table Reader"]
+	45 [label="Table Editor"]
+	rankdir=LR
+}

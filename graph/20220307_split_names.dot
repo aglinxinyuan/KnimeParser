@@ -1,0 +1,17 @@
+digraph {
+	1 -> 17
+	16 -> 11
+	20 -> 11
+	19 -> 20
+	17 -> 16
+	1 -> 19
+	11 -> 22
+	16 [label=GroupBy]
+	20 [label=GroupBy]
+	1 [label="Table Creator"]
+	22 [label=Sorter]
+	11 [label=Joiner]
+	17 [label="Python Script"]
+	19 [label="Python Script"]
+	rankdir=LR
+}

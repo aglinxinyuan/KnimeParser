@@ -1,0 +1,32 @@
+digraph {
+	4 -> 7
+	20 -> 23
+	23 -> 24
+	9 -> 17
+	1 -> 2
+	3 -> 4
+	22 -> 20
+	24 -> 19
+	21 -> 22
+	17 -> 18
+	2 -> 3
+	18 -> 21
+	5 -> 9
+	7 -> 9
+	5 [label="Get Users"]
+	24 [label="Table Row to Variable"]
+	20 [label="Column Aggregator"]
+	1 [label="GET Request"]
+	7 [label="Rule Engine"]
+	22 [label="Split Collection Column"]
+	9 [label=Joiner]
+	23 [label="String Manipulation"]
+	4 [label="Table Manipulator"]
+	18 [label="String Manipulation"]
+	21 [label=GroupBy]
+	17 [label=GroupBy]
+	3 [label=XPath]
+	2 [label=XPath]
+	19 [label="Message Slack channel"]
+	rankdir=LR
+}

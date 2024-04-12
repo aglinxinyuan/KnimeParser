@@ -1,0 +1,53 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	13 -> 14
+	7 -> 12
+	22 -> 27
+	11 -> 17
+	25 -> 20
+	26 -> 27
+	1 -> 2
+	14 -> 15
+	25 -> 26
+	20 -> 22
+	27 -> 30
+	10 -> 11
+	11 -> 29
+	16 -> 13
+	19 -> 25
+	30 -> 29
+	12 -> 16
+	6 -> 7
+	3 -> 4
+	17 -> 19
+	5 -> 6
+	9 -> 10
+	27 [label=Concatenate]
+	7 [label="String Manipulation"]
+	9 [label="Missing Value"]
+	26 [label=RowID]
+	8 [label=Pivoting]
+	17 [label="Extract Column Header"]
+	3 [label="Table Reader"]
+	19 [label=Transpose]
+	6 [label="String Manipulation"]
+	15 [label="Column Filter"]
+	25 [label="Rule_based Row Splitter"]
+	10 [label=Sorter]
+	12 [label="Rule Engine"]
+	16 [label=Pivoting]
+	1 [label="File Reader"]
+	22 [label=RowID]
+	11 [label="Column Filter"]
+	4 [label="String to Date_Time"]
+	14 [label=Sorter]
+	5 [label="Extract Date_Time Fields"]
+	13 [label="Missing Value"]
+	20 [label=Sorter]
+	29 [label="Reference Column Resorter"]
+	30 [label="Java Snippet _simple_"]
+	2 [label="Table Writer"]
+	rankdir=LR
+}

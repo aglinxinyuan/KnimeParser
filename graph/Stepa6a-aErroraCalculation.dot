@@ -1,0 +1,46 @@
+digraph {
+	365 -> 369
+	400 -> 403
+	404 -> 407
+	372 -> 368
+	381 -> 364
+	592 -> 589
+	367 -> 365
+	385 -> 388
+	594 -> 397
+	368 -> 373
+	373 -> 370
+	588 -> 591
+	388 -> 381
+	403 -> 404
+	591 -> 592
+	590 -> 364
+	589 -> 590
+	370 -> 594
+	369 -> 372
+	364 -> 367
+	397 -> 400
+	400 [label="Constant Value Column"]
+	365 [label="Split Collection Column"]
+	367 [label="Column Filter"]
+	404 [label="Column Resorter"]
+	381 [label="Table Row to Variable"]
+	588 [label="List Files"]
+	403 [label="Constant Value Column"]
+	372 [label="String Manipulation"]
+	373 [label="Column Filter"]
+	589 [label=GroupBy]
+	407 [label="Excel Writer _XLS_"]
+	590 [label="Row Filter"]
+	397 [label=GroupBy]
+	385 [label="Line Reader"]
+	592 [label="Table Reader"]
+	369 [label="Column Rename _Regex_"]
+	388 [label="Row Filter"]
+	591 [label="Table Row to Variable"]
+	368 [label=RowID]
+	370 [label="Edit Numeric Domain"]
+	364 [label="Java Snippet _simple_"]
+	594 [label="Math Formula _Multi Column_"]
+	rankdir=LR
+}

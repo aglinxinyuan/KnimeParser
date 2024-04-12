@@ -1,0 +1,25 @@
+digraph {
+	7 -> 8
+	3 -> 4
+	11 -> 5
+	6 -> 10
+	4 -> 11
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	5 -> 9
+	5 -> 7
+	6 -> 8
+	5 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	7 [label="Linear Regression Learner"]
+	9 [label="Polynomial Regression Learner"]
+	11 [label="Column Filter"]
+	4 [label="Date_Time Difference"]
+	6 [label="Table Creator"]
+	8 [label="Regression Predictor"]
+	3 [label="String to Date_Time"]
+	2 [label="Column Filter"]
+	10 [label="Regression Predictor"]
+	rankdir=LR
+}

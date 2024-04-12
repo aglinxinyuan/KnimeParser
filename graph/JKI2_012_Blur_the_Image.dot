@@ -1,0 +1,8 @@
+digraph {
+	18 -> 16
+	1 -> 18
+	1 [label="Image Reader"]
+	18 [label="Gaussian Convolution"]
+	16 [label="Image Viewer"]
+	rankdir=LR
+}

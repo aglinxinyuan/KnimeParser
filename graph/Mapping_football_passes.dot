@@ -1,0 +1,28 @@
+digraph {
+	11 -> 10
+	1 -> 8
+	12 -> 13
+	4 -> 5
+	8 -> 9
+	1 -> 12
+	9 -> 11
+	3 -> 4
+	13 -> 14
+	1 -> 2
+	2 -> 3
+	5 -> 7
+	5 [label="Missing Value"]
+	13 [label="Missing Value"]
+	1 [label="CSV Reader"]
+	7 [label="2D Density Plot _Plotly_"]
+	9 [label="Row Filter"]
+	11 [label="Missing Value"]
+	4 [label="Row Filter"]
+	10 [label="2D Density Plot _Plotly_"]
+	8 [label="Rule Engine"]
+	14 [label="2D Density Plot _Plotly_"]
+	3 [label="Row Filter"]
+	2 [label="Row Filter"]
+	12 [label="Rule_based Row Filter"]
+	rankdir=LR
+}

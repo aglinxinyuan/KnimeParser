@@ -1,0 +1,77 @@
+digraph {
+	13 -> 26
+	27 -> 40
+	7 -> 8
+	37 -> 36
+	4 -> 5
+	29 -> 28
+	10 -> 9
+	34 -> 35
+	21 -> 22
+	14 -> 29
+	15 -> 30
+	25 -> 24
+	2 -> 4
+	1 -> 17
+	39 -> 37
+	30 -> 31
+	31 -> 32
+	35 -> 39
+	1 -> 2
+	37 -> 38
+	23 -> 21
+	33 -> 34
+	12 -> 23
+	26 -> 25
+	16 -> 33
+	28 -> 27
+	24 -> 40
+	8 -> 10
+	32 -> 39
+	11 -> 7
+	22 -> 18
+	40 -> 19
+	3 -> 11
+	5 -> 6
+	2 -> 3
+	27 [label="Column Rename"]
+	7 [label="String To Number"]
+	9 [label="Line Plot _JavaScript_"]
+	26 [label=XPath]
+	21 [label=XPath]
+	18 [label="CSV Writer"]
+	8 [label="String to Date_Time"]
+	32 [label="Column Rename"]
+	17 [label="XML Writer"]
+	3 [label=XPath]
+	19 [label="Excel Writer _XLS_"]
+	24 [label="Column Rename"]
+	31 [label=XPath]
+	6 [label="Column Rename"]
+	15 [label="XML Reader"]
+	25 [label=XPath]
+	12 [label="XML Reader"]
+	10 [label="Moving Average"]
+	16 [label="XML Reader"]
+	1 [label="XML Reader"]
+	22 [label="Column Rename"]
+	28 [label=XPath]
+	11 [label="Column Rename"]
+	4 [label="XML To JSON"]
+	23 [label=XPath]
+	14 [label="XML Reader"]
+	38 [label="String to Date_Time"]
+	5 [label="JSON to Table"]
+	13 [label="XML Reader"]
+	35 [label="Column Rename"]
+	34 [label=XPath]
+	29 [label=XPath]
+	36 [label="Table Writer"]
+	40 [label=Joiner]
+	39 [label=Joiner]
+	33 [label=XPath]
+	30 [label=XPath]
+	2 [label=XPath]
+	37 [label="String To Number"]
+	rankdir=LR
+}

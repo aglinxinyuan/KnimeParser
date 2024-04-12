@@ -1,0 +1,38 @@
+digraph {
+	20 -> 21
+	4 -> 3
+	18 -> 19
+	23 -> 2
+	15 -> 16
+	22 -> 14
+	3 -> 5
+	19 -> 20
+	23 -> 3
+	5 -> 6
+	14 -> 15
+	17 -> 18
+	9 -> 10
+	6 -> 7
+	16 -> 17
+	2 -> 4
+	7 -> 9
+	5 [label="Recursive Loop End"]
+	16 [label=Joiner]
+	20 [label="Column Renamer"]
+	7 [label="Column Filter"]
+	22 [label="Excel Reader"]
+	9 [label="Loop End"]
+	23 [label="Excel Reader"]
+	4 [label="Recursive Loop Start"]
+	18 [label=Unpivot]
+	21 [label="Column Resorter"]
+	6 [label="Column Renamer"]
+	15 [label=Joiner]
+	14 [label=Joiner]
+	17 [label="Column Renamer"]
+	3 [label=Joiner]
+	2 [label="Chunk Loop Start"]
+	10 [label="Math Formula"]
+	19 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,30 @@
+digraph {
+	56 -> 16
+	9 -> 58
+	9 -> 17
+	63 -> 62
+	64 -> 16
+	9 -> 11
+	61 -> 63
+	17 -> 57
+	59 -> 60
+	16 -> 14
+	58 -> 59
+	64 -> 11
+	60 -> 63
+	16 [label="Java Edit Variable _simple_"]
+	64 [label="String Widget"]
+	57 [label="Excel Writer"]
+	62 [label="CSV Writer"]
+	9 [label="R Source _Table_"]
+	11 [label="Rule_based Row Filter"]
+	58 [label=GroupBy]
+	56 [label="Extract Context Properties"]
+	63 [label=Concatenate]
+	61 [label="Table Creator"]
+	14 [label="R Source _Table_"]
+	17 [label="String Manipulation"]
+	60 [label="Column Filter"]
+	59 [label="String Manipulation"]
+	rankdir=LR
+}

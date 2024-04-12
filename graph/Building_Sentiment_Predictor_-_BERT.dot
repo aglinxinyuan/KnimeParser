@@ -1,0 +1,21 @@
+digraph {
+	876 -> 880
+	188 -> 876
+	874 -> 332
+	875 -> 188
+	876 -> 703
+	171 -> 703
+	703 -> 880
+	880 -> 878
+	332 -> 875
+	875 [label="Column Filter"]
+	876 [label=Partitioning]
+	874 [label="CSV Reader"]
+	188 [label="String Manipulation"]
+	878 [label=Scorer]
+	703 [label="BERT Classification Learner"]
+	880 [label="BERT Predictor"]
+	332 [label="Duplicate Row Filter"]
+	171 [label="BERT Model Selector"]
+	rankdir=LR
+}

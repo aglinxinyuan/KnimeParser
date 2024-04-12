@@ -1,0 +1,46 @@
+digraph {
+	71 -> 72
+	79 -> 78
+	188 -> 3
+	81 -> 73
+	87 -> 14
+	188 -> 203
+	14 -> 88
+	72 -> 80
+	68 -> 69
+	172 -> 5
+	204 -> 201
+	5 -> 21
+	88 -> 172
+	81 -> 79
+	69 -> 71
+	88 -> 68
+	5 -> 204
+	3 -> 87
+	5 -> 205
+	80 -> 81
+	81 -> 92
+	203 [label="Table View"]
+	79 [label="Row Filter"]
+	21 [label="Table View"]
+	3 [label="Strings To Document"]
+	78 [label="Bar Chart"]
+	201 [label="Bar Chart"]
+	92 [label="Table View"]
+	188 [label="CSV Reader"]
+	204 [label="Row Filter"]
+	68 [label="Bag Of Words Creator"]
+	87 [label="N Chars Filter"]
+	72 [label=GroupBy]
+	172 [label="NGram Creator"]
+	14 [label="Stop Word Filter"]
+	81 [label="Column Rename"]
+	5 [label=Sorter]
+	71 [label="Term To String"]
+	69 [label=DF]
+	205 [label="Tag Cloud"]
+	88 [label="Punctuation Erasure"]
+	80 [label=Sorter]
+	73 [label="Tag Cloud"]
+	rankdir=LR
+}

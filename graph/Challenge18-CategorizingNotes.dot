@@ -1,0 +1,42 @@
+digraph {
+	12 -> 10
+	7 -> 22
+	9 -> 18
+	2 -> 6
+	21 -> 22
+	9 -> 3
+	18 -> 19
+	19 -> 3
+	14 -> 20
+	22 -> 8
+	8 -> 4
+	20 -> 11
+	1 -> 7
+	11 -> 26
+	11 -> 28
+	10 -> 14
+	6 -> 21
+	3 -> 12
+	26 -> 28
+	4 -> 9
+	7 [label="String Manipulation"]
+	9 [label="Column List Loop Start"]
+	18 [label="Extract Column Header"]
+	21 [label=GroupBy]
+	26 [label=GroupBy]
+	8 [label="Group Loop Start"]
+	3 [label="String Similarity"]
+	19 [label="Table Row to Variable"]
+	6 [label="String Manipulation"]
+	12 [label="Column Filter"]
+	10 [label="Loop End _Column Append_"]
+	1 [label="Excel Reader"]
+	22 [label="Cross Joiner"]
+	28 [label=Joiner]
+	11 [label="Loop End"]
+	4 [label="Cell Splitter"]
+	14 [label=Unpivoting]
+	20 [label=GroupBy]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

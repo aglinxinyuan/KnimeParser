@@ -1,0 +1,50 @@
+digraph {
+	53 -> 54
+	4 -> 5
+	12 -> 14
+	52 -> 55
+	17 -> 49
+	7 -> 12
+	296 -> 322
+	12 -> 56
+	2 -> 4
+	16 -> 15
+	56 -> 52
+	5 -> 7
+	56 -> 53
+	2 -> 323
+	13 -> 17
+	322 -> 293
+	7 -> 13
+	12 -> 16
+	49 -> 50
+	56 -> 322
+	13 -> 49
+	52 -> 53
+	13 -> 50
+	56 -> 296
+	2 -> 3
+	55 [label="Decision Tree View"]
+	7 [label=Normalizer]
+	322 [label="Logistic Regression Predictor"]
+	17 [label="Numeric Distances"]
+	3 [label=Statistics]
+	49 [label="Hierarchical Clustering _DistMatrix_"]
+	56 [label=Partitioning]
+	15 [label="Scatter Plot"]
+	54 [label="Scorer _deprecated_"]
+	12 [label=k_Means]
+	16 [label="Color Manager"]
+	50 [label="Hierarchical Cluster Assigner"]
+	53 [label="Decision Tree Predictor"]
+	296 [label="Logistic Regression Learner"]
+	293 [label="Scorer _deprecated_"]
+	4 [label="Missing Value"]
+	14 [label="Silhouette Coefficient"]
+	5 [label="Category To Number"]
+	13 [label=Partitioning]
+	323 [label="Pie Chart _JFreeChart_"]
+	52 [label="Decision Tree Learner"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

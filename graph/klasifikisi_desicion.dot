@@ -1,0 +1,17 @@
+digraph {
+	4 -> 7
+	3 -> 4
+	3 -> 5
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	3 -> 6
+	5 [label="Decision Tree View _JavaScript_"]
+	1 [label="Excel Reader"]
+	7 [label="Scorer _JavaScript_"]
+	4 [label="Decision Tree Predictor"]
+	6 [label="Decision Tree to Ruleset"]
+	3 [label="Decision Tree Learner"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

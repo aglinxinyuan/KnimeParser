@@ -1,0 +1,57 @@
+digraph {
+	20 -> 21
+	12 -> 14
+	13 -> 14
+	21 -> 25
+	27 -> 28
+	12 -> 13
+	18 -> 19
+	30 -> 31
+	31 -> 32
+	29 -> 30
+	11 -> 16
+	11 -> 17
+	31 -> 33
+	5 -> 15
+	26 -> 27
+	1 -> 2
+	17 -> 18
+	11 -> 12
+	25 -> 26
+	8 -> 11
+	18 -> 24
+	15 -> 8
+	17 -> 23
+	8 -> 10
+	19 -> 20
+	2 -> 5
+	28 -> 29
+	27 [label="Bag Of Words Creator"]
+	18 [label="Punctuation Erasure"]
+	21 [label="Case Converter"]
+	26 [label="Snowball Stemmer"]
+	8 [label="Geo_Coordinate Row Filter"]
+	32 [label="Table View"]
+	17 [label="Strings To Document"]
+	19 [label="N Chars Filter"]
+	24 [label="Document Viewer"]
+	31 [label="Item Set Finder _Borgelt_"]
+	15 [label="Row Filter"]
+	25 [label="Stop Word Filter"]
+	12 [label=k_Means]
+	10 [label="OSM Map View"]
+	16 [label="Hierarchical Clustering"]
+	1 [label="File Reader"]
+	28 [label="Document Vector"]
+	11 [label="Column Filter"]
+	23 [label="Document Viewer"]
+	14 [label="OSM Map View"]
+	5 [label="Row Filter"]
+	13 [label="Color Manager"]
+	20 [label="Number Filter"]
+	29 [label="Category To Class"]
+	33 [label="Scatter Plot"]
+	30 [label="Create Bit Vector"]
+	2 [label=GroupBy]
+	rankdir=LR
+}

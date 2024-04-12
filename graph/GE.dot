@@ -1,0 +1,22 @@
+digraph {
+	13 -> 15
+	10 -> 13
+	18 -> 19
+	12 -> 14
+	15 -> 16
+	17 -> 19
+	15 -> 17
+	17 -> 14
+	10 -> 11
+	16 [label="Extract Properties"]
+	13 [label=Molecule_to_MAE]
+	11 [label="CSV Writer"]
+	18 [label="LiveDesign Connection"]
+	10 [label="Table Creator"]
+	15 [label="Group MAE"]
+	14 [label="Chemistry External Tool"]
+	17 [label="Column Filter"]
+	12 [label="String Widget"]
+	19 [label="Export to LiveDesign"]
+	rankdir=LR
+}

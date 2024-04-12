@@ -1,0 +1,14 @@
+digraph {
+	1 -> 58
+	2 -> 1
+	59 -> 71
+	1 -> 59
+	72 -> 1
+	1 [label="Table Difference Finder"]
+	71 [label="CSV Writer"]
+	72 [label="CSV Reader"]
+	58 [label="CSV Writer"]
+	2 [label="CSV Reader"]
+	59 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,151 @@
+digraph {
+	2404 -> 2407
+	2440 -> 341
+	2439 -> 2440
+	2416 -> 2421
+	326 -> 328
+	6 -> 2430
+	2412 -> 2427
+	11 -> 12
+	332 -> 333
+	2423 -> 2424
+	297 -> 296
+	324 -> 341
+	20 -> 287
+	321 -> 322
+	2430 -> 2431
+	341 -> 2403
+	287 -> 293
+	2410 -> 2414
+	2421 -> 2418
+	323 -> 2434
+	2445 -> 325
+	14 -> 298
+	2410 -> 2415
+	2428 -> 2429
+	294 -> 297
+	2431 -> 323
+	10 -> 11
+	2411 -> 2404
+	335 -> 2439
+	2413 -> 2423
+	2443 -> 2444
+	2443 -> 2445
+	2430 -> 301
+	313 -> 311
+	2413 -> 2411
+	2414 -> 2412
+	19 -> 20
+	2 -> 313
+	312 -> 333
+	301 -> 7
+	2424 -> 2425
+	298 -> 302
+	2418 -> 2417
+	13 -> 14
+	2411 -> 32
+	17 -> 20
+	333 -> 335
+	307 -> 303
+	293 -> 294
+	12 -> 13
+	2434 -> 324
+	2415 -> 2416
+	2425 -> 2411
+	32 -> 2417
+	2 -> 321
+	303 -> 2431
+	311 -> 312
+	2403 -> 2402
+	2407 -> 2409
+	2427 -> 2426
+	32 -> 2414
+	2444 -> 2445
+	325 -> 2413
+	322 -> 1
+	324 -> 332
+	2426 -> 2428
+	1 -> 6
+	2417 -> 2412
+	325 -> 2408
+	302 -> 307
+	328 -> 2403
+	2420 -> 2443
+	296 -> 298
+	7 -> 9
+	312 -> 326
+	2409 -> 2410
+	9 -> 10
+	2402 -> 2420
+	2439 [label=Unpivoting]
+	2423 [label=GroupBy]
+	324 [label="Loop End"]
+	7 [label="Cell Splitter"]
+	307 [label="Column Filter"]
+	322 [label="Table Row To Variable Loop Start"]
+	9 [label=Unpivoting]
+	302 [label=Sorter]
+	2434 [label="String Manipulation"]
+	2414 [label=Joiner]
+	2429 [label="Loop End"]
+	2416 [label="Rule Engine"]
+	17 [label="Cell Splitter"]
+	2427 [label=RowID]
+	19 [label="Table Creator"]
+	2420 [label="String Manipulation"]
+	313 [label="Row Filter"]
+	2424 [label="Table Row to Variable"]
+	341 [label=Concatenate]
+	335 [label=Pivoting]
+	2408 [label="Missing Value"]
+	2410 [label="Math Formula"]
+	311 [label="Table Row to Variable"]
+	325 [label=Pivoting]
+	6 [label=Pivoting]
+	2443 [label="Rule_based Row Splitter"]
+	328 [label="Java Edit Variable _simple_"]
+	2421 [label="Column Filter"]
+	332 [label=GroupBy]
+	10 [label="Rule_based Row Filter"]
+	12 [label=GroupBy]
+	2430 [label="Column Splitter"]
+	2431 [label="Column Appender"]
+	2415 [label="Lag Column"]
+	2407 [label="Math Formula"]
+	1 [label="Excel Reader"]
+	294 [label="String Manipulation"]
+	2403 [label="String Manipulation"]
+	2428 [label="String Manipulation"]
+	296 [label="String to Date_Time"]
+	287 [label="String Manipulation"]
+	293 [label="Row Filter"]
+	11 [label=Rank]
+	2440 [label="String Manipulation"]
+	333 [label="Cross Joiner"]
+	321 [label="Row Filter"]
+	2409 [label="Math Formula"]
+	2412 [label="Recursive Loop End"]
+	2418 [label="Math Formula"]
+	14 [label="String to Date_Time"]
+	301 [label="Math Formula"]
+	2413 [label=Rank]
+	2404 [label="Moving Aggregation"]
+	298 [label=Concatenate]
+	2411 [label="Recursive Loop Start"]
+	2445 [label=Concatenate]
+	326 [label="Table Row To Variable Loop Start"]
+	20 [label="Cross Joiner"]
+	13 [label="Rule_based Row Splitter"]
+	2425 [label="Java Edit Variable _simple_"]
+	2444 [label="String Manipulation"]
+	2402 [label="Row Filter"]
+	303 [label=RowID]
+	323 [label=Unpivoting]
+	2426 [label=Unpivoting]
+	2417 [label=Joiner]
+	312 [label="Excel Reader"]
+	32 [label="Row Splitter"]
+	2 [label="Read Excel Sheet Names"]
+	297 [label="Column Filter"]
+	rankdir=LR
+}

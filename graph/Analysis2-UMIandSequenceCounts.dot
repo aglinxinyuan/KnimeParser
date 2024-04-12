@@ -1,0 +1,33 @@
+digraph {
+	525 -> 524
+	529 -> 523
+	528 -> 527
+	522 -> 525
+	530 -> 529
+	524 -> 526
+	521 -> 533
+	523 -> 524
+	527 -> 531
+	526 -> 521
+	533 -> 532
+	531 -> 520
+	520 -> 530
+	530 -> 522
+	532 -> 534
+	525 [label="String Manipulation _Variable_"]
+	531 [label="Chunk Loop Start"]
+	533 [label=Pivoting]
+	520 [label="Table Row to Variable"]
+	528 [label="List Files"]
+	526 [label="Loop End"]
+	529 [label=GroupBy]
+	521 [label="Parallel Chunk End"]
+	524 [label="Constant Value Column"]
+	522 [label="String Manipulation _Variable_"]
+	527 [label="Parallel Chunk Start"]
+	534 [label="Excel Writer _XLS_"]
+	532 [label="Missing Value"]
+	530 [label="Table Reader"]
+	523 [label=GroupBy]
+	rankdir=LR
+}

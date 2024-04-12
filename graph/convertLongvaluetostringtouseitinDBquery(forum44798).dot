@@ -1,0 +1,26 @@
+digraph {
+	1885 -> 1905
+	2 -> 1905
+	1 -> 1909
+	1908 -> 1911
+	1905 -> 470
+	1 -> 1885
+	1906 -> 1914
+	1914 -> 1913
+	470 -> 1908
+	1908 -> 1909
+	2 -> 1906
+	1913 -> 1908
+	1905 [label="DB Table Creator"]
+	1914 [label="Number To String"]
+	1908 [label="DB Query"]
+	1913 [label="Table Row to Variable"]
+	1 [label="H2 Connector"]
+	470 [label="DB Writer"]
+	1909 [label="DB Query Reader"]
+	1885 [label="DB SQL Executor"]
+	1906 [label=GroupBy]
+	1911 [label="DB Reader"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

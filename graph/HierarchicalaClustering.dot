@@ -1,0 +1,20 @@
+digraph {
+	45 -> 44
+	22 -> 40
+	12 -> 23
+	23 -> 40
+	16 -> 45
+	43 -> 12
+	22 -> 16
+	23 -> 16
+	23 -> 22
+	16 [label="Hierarchical Cluster Assigner"]
+	43 [label="Table Reader"]
+	44 [label="Scatter Plot"]
+	22 [label="Hierarchical Clustering _DistMatrix_"]
+	45 [label="Color Manager"]
+	23 [label="Distance Matrix Calculate"]
+	40 [label="Hierarchical Cluster View"]
+	12 [label=Normalizer]
+	rankdir=LR
+}

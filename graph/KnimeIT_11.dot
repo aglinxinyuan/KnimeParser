@@ -1,0 +1,20 @@
+digraph {
+	6 -> 3
+	8 -> 9
+	4 -> 8
+	3 -> 4
+	2 -> 6
+	9 -> 10
+	5 -> 2
+	1 -> 5
+	5 [label="Missing Value"]
+	1 [label="Table Reader"]
+	9 [label="Column Filter"]
+	4 [label=GroupBy]
+	6 [label="Extract Date_Time Fields"]
+	8 [label="Column Rename"]
+	3 [label="Date_Time Difference"]
+	2 [label="String to Date_Time"]
+	10 [label="Bar Chart"]
+	rankdir=LR
+}

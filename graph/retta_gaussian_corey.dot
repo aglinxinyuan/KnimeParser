@@ -1,0 +1,47 @@
+digraph {
+	237 -> 238
+	229 -> 221
+	225 -> 228
+	237 -> 224
+	217 -> 225
+	236 -> 231
+	224 -> 86
+	226 -> 229
+	221 -> 227
+	86 -> 219
+	227 -> 237
+	233 -> 231
+	219 -> 220
+	231 -> 235
+	228 -> 218
+	232 -> 236
+	235 -> 234
+	221 -> 238
+	220 -> 223
+	86 -> 230
+	224 -> 218
+	238 -> 86
+	231 [label="Regression Predictor _sklearn_"]
+	227 [label="Column Filter"]
+	230 [label="Line Plot _Plotly_"]
+	224 [label="Gaussian Process Regression Learner _sklearn_"]
+	217 [label="Date_Time Input _legacy_"]
+	225 [label="String Manipulation _Variable_"]
+	233 [label="Model Reader"]
+	228 [label="String to Path _Variable_"]
+	237 [label=Normalizer]
+	236 [label="Column Filter"]
+	238 [label="Normalizer _Apply_"]
+	218 [label="Model Writer"]
+	86 [label="Regression Predictor _sklearn_"]
+	223 [label="CSV Writer"]
+	219 [label="Numeric Scorer"]
+	232 [label="CSV Reader"]
+	229 [label="Line Plot _Plotly_"]
+	235 [label="Line Plot _Plotly_"]
+	226 [label="CSV Reader"]
+	220 [label=Transpose]
+	234 [label="CSV Writer"]
+	221 [label=Partitioning]
+	rankdir=LR
+}

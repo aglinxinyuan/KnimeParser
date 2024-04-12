@@ -1,0 +1,55 @@
+digraph {
+	89 -> 98
+	83 -> 79
+	85 -> 90
+	79 -> 101
+	91 -> 96
+	96 -> 32
+	32 -> 94
+	84 -> 70
+	87 -> 88
+	90 -> 91
+	23 -> 92
+	96 -> 23
+	79 -> 84
+	32 -> 93
+	78 -> 80
+	23 -> 33
+	89 -> 91
+	32 -> 95
+	84 -> 85
+	85 -> 100
+	89 -> 97
+	89 -> 99
+	79 -> 81
+	78 -> 87
+	88 -> 89
+	83 -> 78
+	91 [label=Joiner]
+	79 [label="Column Filter"]
+	89 [label="Category to Number"]
+	97 [label="Value Counter"]
+	78 [label="Column Filter"]
+	92 [label="One_way ANOVA"]
+	84 [label="Missing Value Column Filter"]
+	98 [label="Value Counter"]
+	85 [label="Missing Value"]
+	90 [label=Normalizer]
+	87 [label="Missing Value Column Filter"]
+	23 [label=k_Means]
+	101 [label=GroupBy]
+	100 [label="Numeric Outliers"]
+	93 [label="Kruskal_Wallis Test"]
+	83 [label="Excel Reader"]
+	81 [label="Statistics View"]
+	94 [label="One_way ANOVA"]
+	99 [label="Value Counter"]
+	96 [label=Partitioning]
+	70 [label="Box Plot _JavaScript_"]
+	88 [label="Missing Value"]
+	95 [label="Kruskal_Wallis Test"]
+	80 [label="Statistics View"]
+	33 [label="Kruskal_Wallis Test"]
+	32 [label=k_Means]
+	rankdir=LR
+}

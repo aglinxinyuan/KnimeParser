@@ -1,0 +1,15 @@
+digraph {
+	6 -> 5
+	3 -> 4
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	4 -> 6
+	5 [label="Loop End"]
+	1 [label="CSV Reader"]
+	4 [label="Table Row to Variable"]
+	6 [label="Rule Engine"]
+	3 [label=GroupBy]
+	2 [label="Group Loop Start"]
+	rankdir=LR
+}

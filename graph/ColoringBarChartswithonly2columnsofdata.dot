@@ -1,0 +1,15 @@
+digraph {
+	76 -> 91
+	3 -> 76
+	91 -> 75
+	47 -> 77
+	91 -> 47
+	75 -> 77
+	91 [label="String Manipulation"]
+	47 [label="Color Manager"]
+	76 [label=Sorter]
+	77 [label="Bar Chart"]
+	3 [label="Table Creator"]
+	75 [label=Pivoting]
+	rankdir=LR
+}

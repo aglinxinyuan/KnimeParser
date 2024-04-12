@@ -1,0 +1,11 @@
+digraph {
+	1 -> 2
+	5 -> 6
+	3 -> 5
+	5 [label="Color Manager"]
+	1 [label="CSV Reader"]
+	6 [label="Scatter Plot"]
+	3 [label="CSV Reader"]
+	2 [label="Data Explorer"]
+	rankdir=LR
+}

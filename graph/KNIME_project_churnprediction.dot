@@ -1,0 +1,28 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	3 -> 4
+	5 -> 6
+	7 -> 10
+	2 -> 3
+	6 -> 7
+	11 -> 13
+	1 -> 3
+	6 -> 8
+	5 [label="Color Manager"]
+	13 [label="PMML Predictor"]
+	1 [label="CSV Reader"]
+	7 [label="Decision Tree Learner"]
+	9 [label=Scorer]
+	11 [label="CSV Reader"]
+	4 [label="Number To String"]
+	6 [label=Partitioning]
+	8 [label="Decision Tree Predictor"]
+	12 [label="PMML Reader"]
+	3 [label=Joiner]
+	2 [label="Excel Reader"]
+	10 [label="PMML Writer"]
+	rankdir=LR
+}

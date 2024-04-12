@@ -1,0 +1,23 @@
+digraph {
+	12 -> 15
+	15 -> 14
+	9 -> 8
+	4 -> 15
+	4 -> 8
+	3 -> 4
+	16 -> 2
+	4 -> 12
+	4 -> 9
+	2 -> 3
+	8 -> 12
+	16 [label="Excel Reader"]
+	9 [label="XLS Font Formatter"]
+	4 [label="XLS Control Table Generator"]
+	8 [label="XLS Sheet Properties"]
+	15 [label="XLS Row and Column Sizer"]
+	14 [label="XLS Formatter _apply_"]
+	3 [label="Rule Engine"]
+	2 [label="XLS Control Table Generator"]
+	12 [label="XLS Background Colorizer"]
+	rankdir=LR
+}

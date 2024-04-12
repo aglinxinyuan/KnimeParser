@@ -1,0 +1,17 @@
+digraph {
+	9 -> 8
+	8 -> 9
+	3 -> 8
+	9 -> 11
+	9 -> 12
+	9 -> 10
+	10 -> 12
+	9 -> 9
+	9 [label="DB Numeric_Binner"]
+	11 [label="DB Numeric_Binner"]
+	10 [label="DB Auto_Binner"]
+	8 [label="DB Numeric_Binner"]
+	3 [label="Table Creator"]
+	12 [label="DB Apply_Binner"]
+	rankdir=LR
+}

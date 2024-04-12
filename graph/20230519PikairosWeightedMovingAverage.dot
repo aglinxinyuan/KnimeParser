@@ -1,0 +1,47 @@
+digraph {
+	66 -> 58
+	51 -> 50
+	58 -> 68
+	67 -> 66
+	57 -> 58
+	59 -> 60
+	54 -> 53
+	47 -> 54
+	55 -> 57
+	66 -> 62
+	48 -> 51
+	60 -> 45
+	56 -> 47
+	47 -> 50
+	46 -> 56
+	45 -> 46
+	48 -> 59
+	68 -> 61
+	50 -> 52
+	52 -> 53
+	63 -> 67
+	66 -> 45
+	53 -> 55
+	57 [label="Column Aggregator"]
+	55 [label="Loop End _Column Append_"]
+	58 [label=Joiner]
+	51 [label="Math Formula"]
+	56 [label="Column Splitter"]
+	54 [label="Extract Column Header"]
+	59 [label="Extract Table Dimension"]
+	48 [label="Table Creator"]
+	50 [label="Rule_based Row Filter"]
+	53 [label="Math Formula"]
+	68 [label="Rule Engine"]
+	67 [label="Column Rename"]
+	47 [label="Column List Loop Start"]
+	63 [label="Excel Reader"]
+	61 [label="Line Plot"]
+	60 [label="Math Formula _Variable_"]
+	66 [label="Column Filter"]
+	62 [label="Line Plot"]
+	46 [label="Missing Value"]
+	52 [label="Table Row to Variable"]
+	45 [label="Lag Column"]
+	rankdir=LR
+}

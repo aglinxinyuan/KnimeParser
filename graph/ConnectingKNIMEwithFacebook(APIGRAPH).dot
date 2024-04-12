@@ -1,0 +1,144 @@
+digraph {
+	579 -> 577
+	362 -> 361
+	424 -> 425
+	347 -> 349
+	368 -> 393
+	370 -> 419
+	401 -> 403
+	565 -> 566
+	402 -> 400
+	552 -> 79
+	348 -> 350
+	79 -> 82
+	83 -> 84
+	349 -> 348
+	387 -> 388
+	85 -> 94
+	425 -> 572
+	582 -> 583
+	396 -> 398
+	567 -> 552
+	399 -> 397
+	422 -> 83
+	394 -> 403
+	365 -> 368
+	391 -> 386
+	397 -> 395
+	351 -> 352
+	349 -> 355
+	395 -> 401
+	385 -> 394
+	402 -> 399
+	423 -> 424
+	349 -> 392
+	392 -> 391
+	393 -> 370
+	420 -> 423
+	581 -> 582
+	352 -> 363
+	355 -> 356
+	392 -> 389
+	419 -> 418
+	576 -> 579
+	554 -> 567
+	559 -> 569
+	572 -> 576
+	566 -> 562
+	356 -> 365
+	398 -> 401
+	349 -> 351
+	82 -> 422
+	388 -> 394
+	558 -> 573
+	556 -> 573
+	350 -> 362
+	389 -> 387
+	361 -> 368
+	84 -> 85
+	580 -> 581
+	569 -> 573
+	400 -> 396
+	95 -> 96
+	363 -> 361
+	573 -> 565
+	425 -> 580
+	573 -> 554
+	96 -> 347
+	403 -> 393
+	349 -> 402
+	94 -> 95
+	560 -> 559
+	418 -> 420
+	562 -> 574
+	386 -> 385
+	351 [label="Row Filter"]
+	401 [label=Joiner]
+	400 [label="Nominal Value Row Filter"]
+	582 [label="String Manipulation"]
+	79 [label="JSON to Table"]
+	365 [label="Column Filter"]
+	559 [label="String Manipulation"]
+	419 [label="String Manipulation"]
+	562 [label="GET Request"]
+	558 [label="String Input"]
+	398 [label="Column Filter"]
+	576 [label="Date_Time to String"]
+	394 [label=Joiner]
+	581 [label="Date_Time to String"]
+	363 [label="Column Filter"]
+	423 [label="Column Resorter"]
+	573 [label="Merge Variables"]
+	387 [label="Rule Engine"]
+	403 [label=Concatenate]
+	84 [label=RowID]
+	425 [label="String To Number"]
+	565 [label="String Manipulation _Variable_"]
+	420 [label=Sorter]
+	424 [label="Column Filter"]
+	348 [label="Row Filter"]
+	361 [label=Joiner]
+	566 [label="Variable to Table Row"]
+	392 [label="Row Filter"]
+	85 [label="Row Filter"]
+	386 [label="Rule Engine"]
+	579 [label="String Manipulation"]
+	580 [label="Nominal Value Row Filter"]
+	391 [label="Nominal Value Row Filter"]
+	397 [label="Rule Engine"]
+	385 [label="Column Filter"]
+	396 [label="Rule Engine"]
+	418 [label="String to Date_Time"]
+	583 [label="Bar Chart"]
+	567 [label="Variable to Table Row"]
+	356 [label="Rule Engine"]
+	388 [label="Column Filter"]
+	560 [label="Table Creator"]
+	368 [label=Joiner]
+	399 [label="Nominal Value Row Filter"]
+	352 [label="Rule Engine"]
+	83 [label=Transpose]
+	569 [label="Table Row to Variable"]
+	370 [label="Loop End"]
+	422 [label="Number To String"]
+	94 [label="String Manipulation"]
+	577 [label="Bar Chart"]
+	350 [label="Rule Engine"]
+	389 [label="Nominal Value Row Filter"]
+	96 [label="String Manipulation"]
+	574 [label="Interactive Table _local_"]
+	362 [label="Column Filter"]
+	355 [label="Row Filter"]
+	395 [label="Column Filter"]
+	82 [label="Column Filter"]
+	572 [label="Nominal Value Row Filter"]
+	393 [label=Joiner]
+	554 [label="String Manipulation _Variable_"]
+	95 [label="String Manipulation"]
+	552 [label="GET Request"]
+	349 [label="Column Filter"]
+	402 [label="Row Filter"]
+	556 [label="String Input"]
+	347 [label="Group Loop Start"]
+	rankdir=LR
+}

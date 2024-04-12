@@ -1,0 +1,29 @@
+digraph {
+	15 -> 3
+	14 -> 17
+	11 -> 19
+	16 -> 6
+	7 -> 20
+	3 -> 16
+	19 -> 8
+	6 -> 10
+	16 -> 7
+	8 -> 14
+	17 -> 18
+	20 -> 8
+	10 -> 11
+	16 [label="Extract Date_Time Fields"]
+	20 [label="Column Renamer"]
+	7 [label="Moving Aggregation"]
+	11 [label="Missing Value"]
+	18 [label="Table View"]
+	6 [label=GroupBy]
+	8 [label=Joiner]
+	15 [label="Excel Reader"]
+	14 [label="Math Formula"]
+	17 [label="Column Filter"]
+	3 [label="String to Date_Time"]
+	10 [label="Lag Column"]
+	19 [label="Column Renamer"]
+	rankdir=LR
+}

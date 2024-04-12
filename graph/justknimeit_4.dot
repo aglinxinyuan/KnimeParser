@@ -1,0 +1,16 @@
+digraph {
+	18 -> 19
+	15 -> 21
+	20 -> 16
+	21 -> 20
+	17 -> 18
+	16 -> 17
+	16 [label="Lag Column"]
+	20 [label=Sorter]
+	21 [label="String to Date_Time"]
+	18 [label="Column Filter"]
+	15 [label="CSV Reader"]
+	17 [label="Rule Engine"]
+	19 [label="Table Writer"]
+	rankdir=LR
+}

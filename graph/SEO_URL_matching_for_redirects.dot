@@ -1,0 +1,10 @@
+digraph {
+	3 -> 1
+	2 -> 1
+	1 -> 4
+	1 [label="String Matcher"]
+	4 [label="Excel Writer"]
+	3 [label="Table Creator"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

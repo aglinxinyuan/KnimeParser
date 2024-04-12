@@ -1,0 +1,18 @@
+digraph {
+	1149 -> 1157
+	1154 -> 1149
+	1151 -> 1145
+	1145 -> 1148
+	1148 -> 1154
+	1137 -> 1151
+	1157 -> 1159
+	1157 [label="String Manipulation"]
+	1159 [label="Rule Engine"]
+	1151 [label=RowID]
+	1148 [label="Collection Size"]
+	1145 [label="Column Aggregator"]
+	1149 [label="Cross Joiner"]
+	1154 [label="Collection to String"]
+	1137 [label="Table Creator"]
+	rankdir=LR
+}

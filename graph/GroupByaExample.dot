@@ -1,0 +1,16 @@
+digraph {
+	3 -> 7
+	3 -> 8
+	3 -> 4
+	10 -> 3
+	3 -> 5
+	3 -> 6
+	5 [label=GroupBy]
+	7 [label=GroupBy]
+	4 [label=GroupBy]
+	6 [label=GroupBy]
+	8 [label=GroupBy]
+	3 [label="Table Manipulator"]
+	10 [label="Table Reader"]
+	rankdir=LR
+}

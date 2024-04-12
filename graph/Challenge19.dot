@@ -1,0 +1,16 @@
+digraph {
+	22 -> 24
+	6 -> 5
+	4 -> 14
+	5 -> 4
+	25 -> 5
+	14 -> 22
+	5 [label="Column Appender"]
+	24 [label=GroupBy]
+	22 [label="Loop End"]
+	4 [label="Column List Loop Start"]
+	6 [label="Table Creator"]
+	25 [label="Excel Reader"]
+	14 [label="Column Expressions"]
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	4 -> 8
+	15 -> 4
+	4 -> 16
+	16 -> 14
+	4 -> 12
+	4 -> 9
+	3 -> 15
+	1 -> 3
+	8 -> 12
+	16 [label="XLS Row and Column Sizer"]
+	1 [label="CSV Reader"]
+	9 [label="XLS Font Formatter"]
+	4 [label="XLS Control Table Generator"]
+	8 [label="XLS Sheet Properties"]
+	15 [label="Rule Engine"]
+	14 [label="XLS Formatter _apply_"]
+	3 [label="XLS Control Table Generator"]
+	12 [label="XLS Background Colorizer"]
+	rankdir=LR
+}

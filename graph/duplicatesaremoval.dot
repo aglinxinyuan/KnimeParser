@@ -1,0 +1,27 @@
+digraph {
+	3 -> 9
+	7 -> 8
+	4 -> 5
+	11 -> 2
+	1 -> 11
+	2 -> 13
+	8 -> 3
+	5 -> 7
+	13 -> 4
+	11 -> 12
+	6 -> 7
+	4 -> 6
+	5 [label=RowID]
+	13 [label=Sorter]
+	1 [label="Excel Reader"]
+	7 [label=Joiner]
+	9 [label=Sorter]
+	11 [label="Math Formula"]
+	4 [label="Row Splitter"]
+	6 [label=RowID]
+	8 [label=Concatenate]
+	3 [label="Loop End"]
+	2 [label="Group Loop Start"]
+	12 [label="Column Expressions"]
+	rankdir=LR
+}

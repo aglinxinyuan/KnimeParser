@@ -1,0 +1,45 @@
+digraph {
+	739 -> 740
+	752 -> 755
+	750 -> 754
+	740 -> 751
+	740 -> 749
+	749 -> 750
+	3 -> 737
+	740 -> 750
+	752 -> 760
+	737 -> 738
+	741 -> 742
+	742 -> 757
+	740 -> 742
+	748 -> 2
+	740 -> 752
+	740 -> 741
+	750 -> 761
+	739 -> 12
+	738 -> 739
+	742 -> 753
+	2 -> 3
+	751 -> 752
+	750 [label="Decision Tree Predictor"]
+	741 [label="Random Forest Learner"]
+	740 [label=Partitioning]
+	751 [label="Naive Bayes Learner"]
+	738 [label="Row Filter"]
+	3 [label="Data Explorer"]
+	761 [label="ROC Curve"]
+	739 [label="Row Filter"]
+	752 [label="Naive Bayes Predictor"]
+	12 [label="Box Plot"]
+	748 [label="File Upload"]
+	737 [label="Missing Value"]
+	742 [label="Random Forest Predictor"]
+	755 [label="Scorer _JavaScript_"]
+	757 [label="ROC Curve"]
+	760 [label="ROC Curve"]
+	749 [label="Decision Tree Learner"]
+	753 [label="Scorer _JavaScript_"]
+	754 [label="Scorer _JavaScript_"]
+	2 [label="File Reader"]
+	rankdir=LR
+}

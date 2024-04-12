@@ -1,0 +1,48 @@
+digraph {
+	18 -> 13
+	15 -> 14
+	7 -> 8
+	4 -> 3
+	10 -> 9
+	14 -> 17
+	6 -> 16
+	21 -> 29
+	1 -> 4
+	6 -> 22
+	29 -> 30
+	17 -> 18
+	1 -> 2
+	21 -> 28
+	6 -> 15
+	6 -> 10
+	6 -> 7
+	6 -> 14
+	3 -> 6
+	16 -> 6
+	5 -> 6
+	22 -> 21
+	2 -> 5
+	28 -> 29
+	7 [label=GroupBy]
+	9 [label="Scatter Plot"]
+	18 [label="Column Filter"]
+	21 [label=Partitioning]
+	8 [label="Pie chart _local_"]
+	17 [label="Row Filter"]
+	3 [label="Missing Value"]
+	6 [label=Concatenate]
+	15 [label="Linear Regression Learner"]
+	10 [label="Color Manager"]
+	16 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	22 [label="Row Filter"]
+	28 [label="Decision Tree Learner"]
+	4 [label="Row Filter"]
+	14 [label="Regression Predictor"]
+	5 [label="Row Filter"]
+	13 [label="Numeric Scorer"]
+	29 [label="Decision Tree Predictor"]
+	30 [label=Scorer]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

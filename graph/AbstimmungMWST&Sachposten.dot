@@ -1,0 +1,60 @@
+digraph {
+	474 -> 465
+	474 -> 457
+	461 -> 474
+	464 -> 469
+	483 -> 481
+	474 -> 481
+	476 -> 480
+	472 -> 458
+	462 -> 460
+	463 -> 468
+	466 -> 480
+	474 -> 484
+	478 -> 461
+	476 -> 472
+	482 -> 456
+	478 -> 464
+	467 -> 477
+	458 -> 460
+	474 -> 471
+	476 -> 458
+	456 -> 470
+	480 -> 459
+	460 -> 479
+	477 -> 476
+	483 -> 463
+	470 -> 467
+	464 -> 462
+	476 -> 466
+	459 -> 474
+	468 -> 478
+	474 [label=Joiner]
+	459 [label=GroupBy]
+	476 [label="Rule_based Row Splitter"]
+	483 [label="Excel Reader"]
+	469 [label=GroupBy]
+	471 [label=GroupBy]
+	458 [label=Joiner]
+	482 [label="Excel Reader"]
+	461 [label=GroupBy]
+	463 [label="Rule_based Row Splitter"]
+	462 [label=GroupBy]
+	467 [label="Column Expressions"]
+	464 [label="Rule_based Row Splitter"]
+	465 [label="Math Formula"]
+	480 [label=Joiner]
+	484 [label="Excel Writer"]
+	481 [label=Joiner]
+	468 [label="Rule_based Row Splitter"]
+	457 [label=GroupBy]
+	456 [label="Math Formula"]
+	470 [label="Rule_based Row Splitter"]
+	478 [label="Rule_based Row Splitter"]
+	479 [label=GroupBy]
+	472 [label=GroupBy]
+	460 [label=Joiner]
+	477 [label="Rule_based Row Splitter"]
+	466 [label=GroupBy]
+	rankdir=LR
+}

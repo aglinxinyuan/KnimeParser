@@ -1,0 +1,35 @@
+digraph {
+	3 -> 9
+	12 -> 13
+	7 -> 8
+	11 -> 12
+	18 -> 19
+	3 -> 7
+	20 -> 23
+	1 -> 2
+	8 -> 10
+	9 -> 11
+	3 -> 17
+	19 -> 20
+	13 -> 4
+	17 -> 18
+	2 -> 3
+	10 -> 12
+	13 [label="Color Manager"]
+	20 [label="Column Combiner"]
+	1 [label="CSV Reader"]
+	7 [label="Column Filter"]
+	9 [label="Column Filter"]
+	11 [label="Constant Value Column"]
+	4 [label="Scatter Plot _Plotly_"]
+	18 [label="Constant Value Column"]
+	23 [label="Python View"]
+	8 [label="Column Rename"]
+	12 [label="Table Manipulator"]
+	17 [label="Constant Value Column"]
+	3 [label="Row Filter"]
+	2 [label="Row Filter"]
+	10 [label="Constant Value Column"]
+	19 [label="Column Combiner"]
+	rankdir=LR
+}

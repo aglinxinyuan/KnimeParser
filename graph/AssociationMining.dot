@@ -1,0 +1,20 @@
+digraph {
+	9 -> 16
+	12 -> 9
+	8 -> 6
+	15 -> 12
+	7 -> 15
+	6 -> 9
+	16 -> 18
+	5 -> 7
+	5 [label="Table Creator"]
+	16 [label=GroupBy]
+	7 [label="Cell Splitter"]
+	9 [label=Joiner]
+	18 [label="Collection to String"]
+	6 [label="Category To Number"]
+	15 [label="Create Collection Column"]
+	8 [label="Table Creator"]
+	12 [label=Ungroup]
+	rankdir=LR
+}

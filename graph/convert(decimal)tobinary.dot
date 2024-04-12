@@ -1,0 +1,113 @@
+digraph {
+	85 -> 87
+	44 -> 47
+	53 -> 27
+	80 -> 51
+	8 -> 9
+	52 -> 55
+	2 -> 6
+	39 -> 40
+	8 -> 3
+	34 -> 35
+	54 -> 53
+	39 -> 41
+	52 -> 54
+	40 -> 41
+	56 -> 2
+	3 -> 10
+	51 -> 52
+	12 -> 30
+	87 -> 88
+	56 -> 79
+	9 -> 3
+	30 -> 31
+	31 -> 32
+	56 -> 42
+	27 -> 56
+	91 -> 93
+	7 -> 15
+	11 -> 12
+	10 -> 11
+	37 -> 38
+	14 -> 7
+	41 -> 45
+	33 -> 34
+	81 -> 89
+	47 -> 49
+	15 -> 16
+	90 -> 82
+	45 -> 43
+	85 -> 86
+	35 -> 36
+	89 -> 85
+	36 -> 37
+	6 -> 14
+	88 -> 90
+	73 -> 80
+	36 -> 35
+	86 -> 88
+	32 -> 33
+	43 -> 44
+	38 -> 39
+	49 -> 79
+	55 -> 58
+	34 -> 36
+	82 -> 91
+	79 -> 81
+	35 -> 79
+	58 -> 27
+	16 -> 8
+	42 -> 34
+	91 [label="Column Filter"]
+	27 [label="Column Rename"]
+	55 [label="Rule Engine"]
+	7 [label="Rule Engine"]
+	79 [label="Column Appender"]
+	89 [label="Math Formula"]
+	45 [label=RowID]
+	9 [label="Column Filter"]
+	52 [label="Math Formula"]
+	58 [label="Table Row to Variable"]
+	8 [label="Column Filter"]
+	32 [label="String Manipulation"]
+	3 [label="Recursive Loop End"]
+	80 [label="Chunk Loop Start"]
+	49 [label="String Manipulation"]
+	41 [label="Recursive Loop End"]
+	31 [label="String Manipulation"]
+	51 [label="Math Formula"]
+	56 [label="Math Formula"]
+	6 [label="Math Formula"]
+	15 [label="Column Filter"]
+	54 [label="Column Splitter"]
+	10 [label=RowID]
+	12 [label=Pivoting]
+	85 [label="Rule_based Row Splitter"]
+	16 [label="Column Rename"]
+	86 [label="String Manipulation"]
+	90 [label=Sorter]
+	42 [label="Recursive Loop Start"]
+	53 [label="Column Splitter"]
+	87 [label="String Manipulation"]
+	11 [label="Cell Splitter"]
+	47 [label="Column Aggregator"]
+	93 [label="Table View"]
+	14 [label="Math Formula"]
+	38 [label="Math Formula"]
+	73 [label="Table Creator"]
+	81 [label="Loop End"]
+	43 [label="Cell Splitter"]
+	35 [label="End IF"]
+	44 [label=Pivoting]
+	34 [label="IF Switch"]
+	82 [label="Column Resorter"]
+	36 [label="String Manipulation"]
+	88 [label=Concatenate]
+	40 [label="Column Filter"]
+	39 [label="Column Filter"]
+	33 [label="Rule Engine"]
+	30 [label="Column Aggregator"]
+	2 [label="Recursive Loop Start"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

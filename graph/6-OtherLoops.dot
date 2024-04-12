@@ -1,0 +1,21 @@
+digraph {
+	20 -> 1
+	10 -> 19
+	18 -> 4
+	14 -> 15
+	9 -> 10
+	8 -> 18
+	1 -> 14
+	4 -> 9
+	20 [label="Table Reader"]
+	1 [label="Column List Loop Start"]
+	9 [label="Column Filter"]
+	4 [label="Math Formula"]
+	18 [label="Recursive Loop Start"]
+	8 [label="Table Creator"]
+	15 [label="Loop End _Column Append_"]
+	14 [label=GroupBy]
+	10 [label="Column Rename"]
+	19 [label="Recursive Loop End"]
+	rankdir=LR
+}

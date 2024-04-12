@@ -1,0 +1,19 @@
+digraph {
+	1 -> 8
+	3 -> 4
+	3 -> 5
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	4 -> 6
+	5 [label="Missing Value"]
+	1 [label="CSV Reader"]
+	7 [label="Column Rename"]
+	4 [label="Rule Engine"]
+	8 [label="Line Plot"]
+	6 [label=Concatenate]
+	3 [label="Row Splitter"]
+	2 [label="Lag Column"]
+	rankdir=LR
+}

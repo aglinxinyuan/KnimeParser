@@ -1,0 +1,183 @@
+digraph {
+	745 -> 747
+	645 -> 636
+	599 -> 598
+	630 -> 608
+	603 -> 601
+	744 -> 745
+	709 -> 710
+	706 -> 711
+	644 -> 643
+	624 -> 610
+	621 -> 620
+	715 -> 714
+	634 -> 632
+	728 -> 748
+	727 -> 728
+	706 -> 725
+	623 -> 622
+	601 -> 600
+	726 -> 721
+	642 -> 641
+	600 -> 609
+	618 -> 623
+	633 -> 611
+	607 -> 599
+	644 -> 637
+	612 -> 607
+	608 -> 607
+	710 -> 730
+	722 -> 724
+	730 -> 728
+	719 -> 720
+	647 -> 646
+	706 -> 707
+	619 -> 615
+	641 -> 639
+	622 -> 633
+	637 -> 635
+	636 -> 605
+	712 -> 718
+	625 -> 606
+	615 -> 738
+	616 -> 648
+	627 -> 619
+	610 -> 621
+	740 -> 741
+	708 -> 709
+	643 -> 642
+	646 -> 738
+	705 -> 728
+	620 -> 616
+	638 -> 640
+	635 -> 604
+	742 -> 743
+	606 -> 608
+	648 -> 649
+	598 -> 645
+	738 -> 740
+	704 -> 631
+	609 -> 618
+	721 -> 717
+	635 -> 634
+	707 -> 708
+	639 -> 635
+	711 -> 742
+	637 -> 605
+	724 -> 727
+	631 -> 628
+	711 -> 715
+	646 -> 634
+	645 -> 644
+	743 -> 744
+	600 -> 633
+	737 -> 739
+	725 -> 711
+	720 -> 721
+	739 -> 740
+	714 -> 712
+	717 -> 723
+	705 -> 706
+	632 -> 629
+	597 -> 625
+	629 -> 704
+	604 -> 603
+	640 -> 605
+	741 -> 742
+	716 -> 711
+	649 -> 646
+	718 -> 719
+	723 -> 722
+	639 -> 605
+	628 -> 627
+	608 -> 638
+	602 -> 622
+	611 -> 610
+	748 -> 737
+	646 [label=Joiner]
+	609 [label=GroupBy]
+	741 [label="Cell Splitter"]
+	601 [label="Cell Splitter By Position"]
+	638 [label="Column Filter"]
+	738 [label="Column Rename"]
+	635 [label=Concatenate]
+	649 [label="Column Aggregator"]
+	724 [label="Column Aggregator"]
+	710 [label="Column Filter"]
+	598 [label="String Manipulation"]
+	615 [label="Cell Splitter By Position"]
+	642 [label="Column Aggregator"]
+	630 [label="Table Creator"]
+	611 [label=Ungroup]
+	600 [label=GroupBy]
+	633 [label="Column Appender"]
+	716 [label=Joiner]
+	718 [label="Column Appender"]
+	743 [label="Column Filter"]
+	715 [label="Math Formula"]
+	712 [label="Row Filter"]
+	745 [label=GroupBy]
+	728 [label=Concatenate]
+	599 [label="RDKit Canon SMILES"]
+	604 [label="Molecule Type Cast"]
+	720 [label="Group Loop Start"]
+	597 [label="SDF Reader"]
+	623 [label="Table Row to Variable"]
+	709 [label="String Manipulation"]
+	624 [label="Table Creator"]
+	621 [label="Column Appender"]
+	603 [label="RDKit To InChI"]
+	730 [label=Joiner]
+	602 [label="Table Creator"]
+	618 [label="Math Formula"]
+	717 [label="Row Filter"]
+	748 [label="Column Rename"]
+	708 [label="String Manipulation"]
+	645 [label="Row Splitter"]
+	737 [label="Column Filter"]
+	620 [label="Row Filter"]
+	605 [label=Concatenate]
+	628 [label=Ungroup]
+	722 [label="Column Aggregator"]
+	719 [label=Ungroup]
+	726 [label="Table Creator"]
+	721 [label="Column Appender"]
+	705 [label=Joiner]
+	616 [label="Loop End"]
+	607 [label="RDKit Salt Stripper"]
+	714 [label="Table Row to Variable"]
+	711 [label="SDF Reader"]
+	632 [label="Row Splitter"]
+	627 [label="Molecule Type Cast"]
+	640 [label="RDKit Canon SMILES"]
+	725 [label=GroupBy]
+	742 [label=Joiner]
+	631 [label="Column Aggregator"]
+	634 [label="String Manipulation"]
+	723 [label="Loop End"]
+	636 [label="Column Filter"]
+	608 [label="RDKit Molecule Substructure Filter"]
+	747 [label="CSV Writer"]
+	606 [label="RDKit To Molecule"]
+	648 [label="Column Aggregator"]
+	610 [label="Group Loop Start"]
+	706 [label=Joiner]
+	641 [label="Molecule Type Cast"]
+	629 [label="Cell Splitter"]
+	740 [label=Concatenate]
+	619 [label="RDKit To InChI"]
+	739 [label="Column Rename"]
+	625 [label="Molecule Type Cast"]
+	647 [label="Column Filter"]
+	612 [label="Table Creator"]
+	644 [label="Row Splitter"]
+	643 [label="Cell Splitter"]
+	704 [label=Joiner]
+	707 [label="String Manipulation"]
+	637 [label="Column Filter"]
+	744 [label="Column Resorter"]
+	639 [label="Column Filter"]
+	622 [label="Row Filter"]
+	727 [label=Joiner]
+	rankdir=LR
+}

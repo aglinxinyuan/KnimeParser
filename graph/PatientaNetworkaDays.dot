@@ -1,0 +1,28 @@
+digraph {
+	1 -> 17
+	7 -> 14
+	14 -> 17
+	19 -> 16
+	15 -> 16
+	3 -> 4
+	17 -> 19
+	14 -> 15
+	2 -> 3
+	6 -> 7
+	5 -> 2
+	4 -> 6
+	1 -> 5
+	5 [label="String to Date_Time"]
+	16 [label=Joiner]
+	1 [label="Table Creator"]
+	7 [label="Extract Date_Time Fields"]
+	4 [label="Rule_based Row Filter"]
+	6 [label="Date_Time Difference"]
+	15 [label=GroupBy]
+	14 [label="Column Expressions"]
+	17 [label=Joiner]
+	3 [label="Lag Column"]
+	2 [label="Lag Column"]
+	19 [label=Sorter]
+	rankdir=LR
+}

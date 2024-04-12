@@ -1,0 +1,17 @@
+digraph {
+	33 -> 35
+	33 -> 120
+	34 -> 33
+	120 -> 30
+	37 -> 33
+	1 -> 35
+	35 -> 120
+	120 [label="Python Script"]
+	35 [label="Keras Network Executor"]
+	1 [label="Keras Network Reader"]
+	34 [label="Model Reader"]
+	33 [label="Normalizer _Apply_"]
+	30 [label="Rule Engine"]
+	37 [label="CSV Reader"]
+	rankdir=LR
+}

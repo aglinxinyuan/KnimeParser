@@ -1,0 +1,15 @@
+digraph {
+	14 -> 33
+	11 -> 14
+	2 -> 14
+	1 -> 2
+	14 -> 9
+	2 -> 11
+	1 [label="File Reader"]
+	9 [label="Interactive Table _local_"]
+	11 [label="Simple Regression Tree Learner"]
+	14 [label="Simple Regression Tree Predictor"]
+	33 [label="Numeric Scorer"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

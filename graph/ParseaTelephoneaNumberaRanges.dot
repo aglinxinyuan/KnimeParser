@@ -1,0 +1,39 @@
+digraph {
+	6 -> 14
+	31 -> 30
+	8 -> 6
+	9 -> 31
+	30 -> 32
+	4 -> 8
+	18 -> 25
+	5 -> 22
+	32 -> 29
+	9 -> 13
+	25 -> 20
+	20 -> 5
+	26 -> 27
+	13 -> 18
+	22 -> 26
+	27 -> 28
+	14 -> 9
+	28 -> 29
+	5 [label="Counter Generation"]
+	27 [label="Column Filter"]
+	32 [label="Table Row to Variable"]
+	13 [label="Math Formula"]
+	20 [label="Group Loop Start"]
+	22 [label="Lag Column"]
+	29 [label="String Manipulation"]
+	31 [label="Column Filter"]
+	9 [label="Row Splitter"]
+	28 [label="Loop End"]
+	4 [label="Table Creator"]
+	18 [label="One Row to Many"]
+	26 [label="Column Expressions"]
+	6 [label="Cell Splitter"]
+	8 [label="Regex Extractor"]
+	25 [label="Column Filter"]
+	14 [label="Column Rename"]
+	30 [label="String Manipulation"]
+	rankdir=LR
+}

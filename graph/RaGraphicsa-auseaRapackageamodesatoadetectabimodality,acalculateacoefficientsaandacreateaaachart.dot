@@ -1,0 +1,24 @@
+digraph {
+	247 -> 248
+	248 -> 2401
+	2402 -> 15
+	241 -> 242
+	243 -> 2400
+	242 -> 243
+	1 -> 2402
+	2403 -> 247
+	2402 -> 2403
+	15 -> 241
+	242 [label="Renderer to Image"]
+	247 [label="Math Formula _Multi Column_"]
+	248 [label="Number To String"]
+	2400 [label="Image Writer _Port_"]
+	1 [label="R Source _Table_"]
+	2403 [label="R to Table"]
+	2402 [label="Table to R"]
+	2401 [label="Table Row to Variable"]
+	241 [label="Image To Table"]
+	243 [label="Table To Image"]
+	15 [label="R View _Workspace_"]
+	rankdir=LR
+}

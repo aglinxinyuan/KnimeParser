@@ -1,0 +1,14 @@
+digraph {
+	84 -> 85
+	81 -> 83
+	85 -> 86
+	82 -> 83
+	83 -> 84
+	86 [label=Sorter]
+	84 [label="Math Formula"]
+	82 [label="Table Creator"]
+	83 [label=Joiner]
+	85 [label="Column Filter"]
+	81 [label="Table Reader"]
+	rankdir=LR
+}

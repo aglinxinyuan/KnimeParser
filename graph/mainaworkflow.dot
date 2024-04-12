@@ -1,0 +1,21 @@
+digraph {
+	1 -> 8
+	7 -> 16
+	4 -> 5
+	8 -> 2
+	5 -> 6
+	8 -> 4
+	2 -> 3
+	6 -> 7
+	3 -> 6
+	5 [label="Table to JSON"]
+	16 [label="Column Filter"]
+	1 [label="Table Creator"]
+	7 [label="JSON to Table"]
+	4 [label="Column Filter"]
+	6 [label="Call Local Workflow _Row Based_"]
+	8 [label="Row Filter"]
+	3 [label="Table Row to Variable"]
+	2 [label="String Manipulation"]
+	rankdir=LR
+}

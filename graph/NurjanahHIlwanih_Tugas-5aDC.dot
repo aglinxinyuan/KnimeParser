@@ -1,0 +1,28 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	3 -> 4
+	2 -> 4
+	5 -> 6
+	11 -> 12
+	9 -> 10
+	6 -> 7
+	10 -> 11
+	1 -> 3
+	5 [label="Column Filter"]
+	13 [label="String Manipulation"]
+	1 [label="Excel Reader"]
+	7 [label="Round Double"]
+	9 [label="Math Formula"]
+	11 [label="Math Formula"]
+	4 [label=Joiner]
+	6 [label="Row Filter"]
+	8 [label="Math Formula"]
+	12 [label="Math Formula"]
+	3 [label="Duplicate Row Filter"]
+	2 [label="Excel Reader"]
+	10 [label="Math Formula"]
+	rankdir=LR
+}

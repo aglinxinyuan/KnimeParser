@@ -1,0 +1,10 @@
+digraph {
+	3 -> 2
+	3 -> 5
+	4 -> 5
+	5 [label="RDKit Two Component Reaction"]
+	4 [label="Table Creator"]
+	3 [label="Table Creator"]
+	2 [label="RDKit One Component Reaction"]
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	76 -> 65
+	75 -> 26
+	30 -> 64
+	65 -> 75
+	79 -> 22
+	77 -> 3
+	79 -> 48
+	5 -> 22
+	5 -> 76
+	3 -> 5
+	78 -> 77
+	64 -> 48
+	5 -> 63
+	26 -> 30
+	22 -> 76
+	22 -> 63
+	5 [label=Partitioning]
+	48 [label="Reference Row Filter"]
+	64 [label="Column Filter"]
+	79 [label="Table Reader"]
+	22 [label="StanfordNLP NE Learner"]
+	65 [label="Tag Filter"]
+	26 [label=GroupBy]
+	63 [label="StanfordNLP NE Scorer"]
+	76 [label="StanfordNLP NE Tagger"]
+	77 [label="Strings To Document"]
+	30 [label="Term to String"]
+	3 [label="Column Filter"]
+	75 [label="Bag Of Words Creator"]
+	78 [label="Table Reader"]
+	rankdir=LR
+}

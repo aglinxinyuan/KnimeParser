@@ -1,0 +1,23 @@
+digraph {
+	262 -> 263
+	263 -> 266
+	263 -> 271
+	265 -> 264
+	269 -> 262
+	266 -> 267
+	261 -> 265
+	271 -> 270
+	267 -> 268
+	265 [label=Pivoting]
+	263 [label=Unpivoting]
+	264 [label=Unpivoting]
+	262 [label=Pivoting]
+	267 [label=GroupBy]
+	270 [label=Pivoting]
+	261 [label="Table Creator"]
+	269 [label="Table Creator"]
+	266 [label="String Manipulation"]
+	271 [label="Cell Splitter"]
+	268 [label="Split Collection Column"]
+	rankdir=LR
+}

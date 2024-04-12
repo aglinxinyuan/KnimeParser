@@ -1,0 +1,13 @@
+digraph {
+	10 -> 9
+	8 -> 9
+	8 -> 2
+	5 -> 10
+	2 -> 5
+	5 [label="Column Aggregator"]
+	9 [label="Math Formula _Multi Column_"]
+	8 [label="CSV Reader"]
+	2 [label=GroupBy]
+	10 [label="Table Row to Variable"]
+	rankdir=LR
+}

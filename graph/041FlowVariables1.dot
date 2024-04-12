@@ -1,0 +1,16 @@
+digraph {
+	484 -> 486
+	486 -> 479
+	488 -> 477
+	477 -> 484
+	479 -> 483
+	483 -> 480
+	483 [label="Renderer to Image"]
+	479 [label="RDKit Descriptor Calculation"]
+	477 [label="RDKit Canon SMILES"]
+	488 [label="Table Reader"]
+	480 [label="Tile View"]
+	484 [label="RDKit Substructure Filter"]
+	486 [label="RDKit Molecule Highlighting"]
+	rankdir=LR
+}

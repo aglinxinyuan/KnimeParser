@@ -1,0 +1,65 @@
+digraph {
+	68 -> 181
+	70 -> 177
+	27 -> 37
+	65 -> 66
+	37 -> 175
+	68 -> 70
+	27 -> 38
+	116 -> 29
+	121 -> 52
+	177 -> 67
+	68 -> 116
+	116 -> 66
+	99 -> 24
+	122 -> 27
+	38 -> 28
+	1 -> 2
+	30 -> 132
+	37 -> 38
+	70 -> 74
+	68 -> 64
+	30 -> 99
+	2 -> 181
+	178 -> 177
+	66 -> 70
+	24 -> 166
+	1 -> 178
+	64 -> 65
+	166 -> 37
+	37 -> 116
+	2 -> 67
+	29 -> 121
+	67 -> 68
+	52 -> 30
+	68 -> 37
+	28 -> 29
+	27 [label=X_Partitioner]
+	74 [label="ROC Curve _local_"]
+	122 [label="Parameter Optimization Loop Start"]
+	121 [label="Rule Engine"]
+	24 [label="Parameter Optimization Loop End"]
+	64 [label="Rule Engine"]
+	177 [label="Bar Chart"]
+	166 [label="Table Row to Variable"]
+	1 [label="Excel Reader"]
+	68 [label="Column Filter"]
+	28 [label=X_Aggregator]
+	67 [label="Rule Engine"]
+	178 [label="Number To String"]
+	38 [label="Gradient Boosted Trees Predictor"]
+	175 [label="Model Writer"]
+	99 [label="Table Row to Variable"]
+	66 [label="Column Filter"]
+	29 [label="Rule Engine"]
+	70 [label="Column Rename"]
+	65 [label="Row Filter"]
+	116 [label="Gradient Boosted Trees Predictor"]
+	181 [label="Model Writer"]
+	52 [label="Math Formula"]
+	30 [label=GroupBy]
+	2 [label=Partitioning]
+	37 [label="Gradient Boosted Trees Learner"]
+	132 [label="Interactive Table _local_"]
+	rankdir=LR
+}

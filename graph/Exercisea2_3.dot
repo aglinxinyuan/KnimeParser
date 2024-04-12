@@ -1,0 +1,21 @@
+digraph {
+	20 -> 21
+	2 -> 21
+	12 -> 2
+	13 -> 6
+	13 -> 19
+	7 -> 20
+	2 -> 7
+	21 -> 22
+	19 -> 12
+	20 [label="Random Forest Learner"]
+	13 [label="Table Reader"]
+	7 [label="Equal Size Sampling"]
+	22 [label=Scorer]
+	21 [label="Random Forest Predictor"]
+	6 [label=Statistics]
+	2 [label=Partitioning]
+	12 [label="Missing Value"]
+	19 [label="Column Filter"]
+	rankdir=LR
+}

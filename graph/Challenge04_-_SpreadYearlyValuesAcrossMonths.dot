@@ -1,0 +1,23 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	3 -> 5
+	2 -> 6
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	5 -> 9
+	6 -> 8
+	5 [label="Cross Joiner"]
+	1 [label="Table Reader"]
+	7 [label="Table Creator"]
+	9 [label=Concatenate]
+	4 [label="Table Creator"]
+	6 [label="Math Formula"]
+	8 [label="Cross Joiner"]
+	3 [label="Math Formula"]
+	2 [label="Row Splitter"]
+	10 [label="Column Merger"]
+	rankdir=LR
+}

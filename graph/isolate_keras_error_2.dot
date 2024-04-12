@@ -1,0 +1,24 @@
+digraph {
+	437 -> 441
+	444 -> 443
+	442 -> 443
+	432 -> 446
+	435 -> 436
+	433 -> 445
+	436 -> 445
+	441 -> 442
+	431 -> 446
+	441 [label="Keras LSTM Layer"]
+	437 [label="Keras Input Layer"]
+	436 [label="Keras Dense Layer"]
+	433 [label="Data Generator"]
+	446 [label="Keras Network Learner"]
+	443 [label="Keras Network Learner"]
+	432 [label="Data Generator"]
+	444 [label="Data Generator"]
+	445 [label="Keras Network Learner"]
+	431 [label="Keras Input Layer"]
+	435 [label="Keras Input Layer"]
+	442 [label="Keras Dense Layer"]
+	rankdir=LR
+}

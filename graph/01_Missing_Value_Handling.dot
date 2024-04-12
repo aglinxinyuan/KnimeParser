@@ -1,0 +1,21 @@
+digraph {
+	93 -> 94
+	92 -> 95
+	24 -> 93
+	88 -> 23
+	92 -> 94
+	24 -> 90
+	23 -> 26
+	26 -> 24
+	90 -> 92
+	24 [label=Partitioning]
+	94 [label="Missing Value _Apply_"]
+	92 [label="Missing Value"]
+	90 [label="Rule Engine"]
+	23 [label="Rule Engine"]
+	26 [label="Column Filter"]
+	88 [label="CSV Reader"]
+	95 [label="Column Auto Type Cast"]
+	93 [label="Rule Engine"]
+	rankdir=LR
+}

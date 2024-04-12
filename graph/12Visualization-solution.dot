@@ -1,0 +1,63 @@
+digraph {
+	33 -> 105
+	106 -> 107
+	109 -> 114
+	108 -> 109
+	22 -> 33
+	122 -> 155
+	106 -> 109
+	110 -> 106
+	135 -> 134
+	163 -> 160
+	21 -> 163
+	160 -> 159
+	137 -> 155
+	20 -> 23
+	109 -> 16
+	21 -> 20
+	134 -> 124
+	106 -> 115
+	16 -> 21
+	138 -> 123
+	16 -> 138
+	114 -> 110
+	115 -> 108
+	138 -> 122
+	120 -> 140
+	105 -> 106
+	107 -> 108
+	164 -> 20
+	155 -> 120
+	123 -> 135
+	124 -> 137
+	23 -> 22
+	21 [label="Document Vector"]
+	138 [label="Document Data Extractor"]
+	108 [label="Case Converter"]
+	122 [label=GroupBy]
+	105 [label="Number Filter"]
+	163 [label="Color Manager"]
+	137 [label=Auto_Binner]
+	109 [label="Snowball Stemmer"]
+	114 [label="Tag Filter"]
+	110 [label="Bag Of Words Creator"]
+	16 [label=TF]
+	164 [label="Table Reader"]
+	123 [label=Pivot]
+	115 [label="Stop Word Filter"]
+	22 [label="Column Filter"]
+	23 [label="Strings To Document"]
+	124 [label="Math Formula"]
+	159 [label="Decision Tree Learner"]
+	106 [label="Punctuation Erasure"]
+	135 [label="Missing Value"]
+	134 [label=Normalizer]
+	160 [label="Column Filter"]
+	107 [label=GroupBy]
+	20 [label="Document Data Extractor"]
+	120 [label="Color Manager"]
+	140 [label="Tag Cloud _JavaScript_"]
+	155 [label=Joiner]
+	33 [label="POS Tagger"]
+	rankdir=LR
+}

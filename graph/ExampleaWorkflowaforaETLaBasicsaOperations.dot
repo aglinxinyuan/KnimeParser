@@ -1,0 +1,30 @@
+digraph {
+	32 -> 24
+	3 -> 32
+	21 -> 29
+	30 -> 25
+	29 -> 27
+	4 -> 25
+	4 -> 22
+	25 -> 31
+	4 -> 21
+	26 -> 30
+	21 -> 28
+	28 -> 26
+	27 -> 30
+	24 -> 4
+	24 [label=Sorter]
+	27 [label="Row Filter"]
+	30 [label=Concatenate]
+	22 [label=GroupBy]
+	29 [label="Row Filter"]
+	28 [label="Row Filter"]
+	31 [label="CSV Writer"]
+	4 [label="Column Filter"]
+	21 [label=GroupBy]
+	26 [label="Row Filter"]
+	25 [label=Joiner]
+	32 [label="String to Date_Time"]
+	3 [label="File Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,74 @@
+digraph {
+	20 -> 21
+	4 -> 5
+	32 -> 36
+	23 -> 24
+	13 -> 14
+	9 -> 13
+	18 -> 27
+	4 -> 6
+	6 -> 8
+	22 -> 23
+	26 -> 32
+	21 -> 29
+	1 -> 4
+	30 -> 33
+	11 -> 19
+	24 -> 30
+	10 -> 16
+	37 -> 35
+	25 -> 26
+	17 -> 18
+	14 -> 15
+	7 -> 10
+	33 -> 37
+	29 -> 33
+	28 -> 30
+	5 -> 7
+	8 -> 12
+	8 -> 11
+	27 -> 32
+	12 -> 22
+	7 -> 9
+	36 -> 34
+	19 -> 20
+	25 -> 27
+	15 -> 26
+	16 -> 17
+	28 -> 29
+	27 [label=Joiner]
+	7 [label="Column Filter"]
+	9 [label="Row Filter"]
+	26 [label=Joiner]
+	18 [label="Top k Selector"]
+	21 [label="Top k Selector"]
+	8 [label="Column Filter"]
+	32 [label=Concatenate]
+	17 [label=RowID]
+	19 [label="One Row to Many"]
+	24 [label="Top k Selector"]
+	6 [label="Row Filter"]
+	15 [label="Top k Selector"]
+	25 [label="Table Creator"]
+	12 [label="Row Filter"]
+	10 [label="Row Filter"]
+	16 [label="One Row to Many"]
+	1 [label="Table Reader"]
+	22 [label="One Row to Many"]
+	28 [label="Table Creator"]
+	11 [label="Row Filter"]
+	4 [label="Column Expressions"]
+	23 [label=RowID]
+	14 [label=RowID]
+	5 [label="Row Filter"]
+	13 [label="One Row to Many"]
+	20 [label=RowID]
+	35 [label="Table View"]
+	34 [label="Table View"]
+	29 [label=Joiner]
+	36 [label="Table Manipulator"]
+	33 [label=Concatenate]
+	30 [label=Joiner]
+	37 [label="Table Manipulator"]
+	rankdir=LR
+}

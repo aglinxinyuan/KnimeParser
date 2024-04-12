@@ -1,0 +1,38 @@
+digraph {
+	112 -> 98
+	98 -> 110
+	103 -> 96
+	112 -> 110
+	105 -> 104
+	114 -> 87
+	89 -> 112
+	86 -> 105
+	112 -> 113
+	96 -> 111
+	112 -> 111
+	77 -> 86
+	93 -> 114
+	110 -> 113
+	111 -> 98
+	113 -> 104
+	77 -> 93
+	112 -> 103
+	112 -> 96
+	87 -> 89
+	86 [label="Excel Writer"]
+	114 [label="Constant Value Column"]
+	111 [label="XLS Font Formatter"]
+	113 [label="XLS Conditional Formatter"]
+	96 [label="XLS Cell Formatter"]
+	103 [label="XLS Border Formatter"]
+	104 [label="XLS Formatter _apply_"]
+	112 [label="XLS Control Table from Cell Range"]
+	87 [label="XLS Control Table Generator"]
+	89 [label="XLS Control Table from Cell Range"]
+	98 [label="XLS Background Colorizer"]
+	77 [label="Excel Reader"]
+	93 [label="Rule Engine"]
+	105 [label="Path to String _Variable_"]
+	110 [label="XLS Sheet Properties"]
+	rankdir=LR
+}

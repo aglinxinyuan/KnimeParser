@@ -1,0 +1,35 @@
+digraph {
+	47 -> 9
+	11 -> 45
+	10 -> 42
+	14 -> 16
+	42 -> 110
+	31 -> 109
+	110 -> 111
+	41 -> 31
+	111 -> 46
+	109 -> 11
+	17 -> 14
+	111 -> 12
+	9 -> 10
+	12 -> 17
+	46 -> 41
+	16 -> 31
+	16 [label="Column Rename"]
+	14 [label="Extract Column Header"]
+	42 [label="Try _Data Ports_"]
+	41 [label="Table Creator"]
+	31 [label="Catch Errors _Data Ports_"]
+	9 [label="String Manipulation"]
+	45 [label=Pivoting]
+	11 [label="Loop End"]
+	46 [label="Active Branch Inverter"]
+	47 [label="Table Reader"]
+	109 [label="Java Snippet"]
+	111 [label="JSON to Table"]
+	12 [label=Transpose]
+	17 [label=RowID]
+	110 [label="GET Request"]
+	10 [label="Chunk Loop Start"]
+	rankdir=LR
+}

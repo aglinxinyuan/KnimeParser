@@ -1,0 +1,77 @@
+digraph {
+	295 -> 298
+	276 -> 275
+	258 -> 143
+	315 -> 305
+	274 -> 292
+	255 -> 253
+	247 -> 143
+	261 -> 262
+	249 -> 250
+	259 -> 129
+	257 -> 260
+	294 -> 315
+	316 -> 274
+	129 -> 260
+	262 -> 249
+	256 -> 129
+	277 -> 248
+	292 -> 276
+	250 -> 240
+	254 -> 249
+	248 -> 312
+	248 -> 247
+	249 -> 277
+	294 -> 295
+	253 -> 262
+	276 -> 296
+	240 -> 254
+	305 -> 313
+	314 -> 294
+	249 -> 248
+	248 -> 278
+	298 -> 313
+	294 -> 257
+	246 -> 248
+	143 -> 261
+	294 -> 261
+	258 -> 315
+	261 -> 295
+	260 -> 261
+	257 -> 258
+	246 [label="SQLite Connector"]
+	247 [label="DB Reader"]
+	292 [label=k_Means]
+	275 [label="OSM Map View"]
+	259 [label="Table Reader"]
+	295 [label="Regression Predictor"]
+	254 [label="Column Filter"]
+	313 [label="Column Appender"]
+	256 [label="CSV Reader"]
+	315 [label=Joiner]
+	253 [label="Column Filter"]
+	277 [label="Decision Tree Learner"]
+	316 [label="Table Reader"]
+	129 [label="Cell Replacer"]
+	240 [label="Missing Value"]
+	260 [label=Joiner]
+	274 [label="Row Filter"]
+	262 [label=Joiner]
+	294 [label="Row Splitter"]
+	261 [label=Joiner]
+	143 [label=Concatenate]
+	296 [label="Scatter Plot _JavaScript_"]
+	250 [label="Number To String"]
+	257 [label="Excel Reader"]
+	298 [label="Numeric Scorer"]
+	278 [label="JavaScript ROC Curve"]
+	314 [label="Table Reader"]
+	248 [label="DB Table Selector"]
+	258 [label="CSV Reader"]
+	255 [label="CSV Reader"]
+	249 [label="Duplicate Row Filter"]
+	305 [label="Numeric Scorer"]
+	276 [label="Color Manager"]
+	312 [label=Scorer]
+	rankdir=LR
+}

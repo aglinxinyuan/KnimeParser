@@ -1,0 +1,21 @@
+digraph {
+	17 -> 15
+	9 -> 14
+	9 -> 17
+	13 -> 7
+	7 -> 11
+	15 -> 16
+	11 -> 14
+	16 -> 7
+	1 -> 9
+	16 [label="Send Email"]
+	13 [label="String Configuration"]
+	1 [label="Table Creator"]
+	7 [label="Catch Errors _Var Ports_"]
+	9 [label="Recursive Loop Start"]
+	11 [label="Rule Engine Variable"]
+	15 [label=Wait___]
+	14 [label="Recursive Loop End"]
+	17 [label="Try _Variable Ports_"]
+	rankdir=LR
+}

@@ -1,0 +1,42 @@
+digraph {
+	12 -> 15
+	13 -> 15
+	9 -> 14
+	11 -> 5
+	9 -> 13
+	1 -> 4
+	10 -> 6
+	18 -> 19
+	4 -> 16
+	4 -> 11
+	14 -> 15
+	17 -> 18
+	5 -> 10
+	16 -> 18
+	8 -> 11
+	15 -> 16
+	15 -> 17
+	9 -> 12
+	7 -> 5
+	11 -> 7
+	6 -> 9
+	16 -> 17
+	5 [label="XGBoost Predictor"]
+	16 [label=Partitioning]
+	14 [label="Table Row to Variable"]
+	13 [label="Table Row to Variable"]
+	1 [label="CSV Reader"]
+	7 [label="XGBoost Tree Ensemble Learner"]
+	9 [label="Parameter Optimization Loop End"]
+	11 [label=X_Partitioner]
+	4 [label="Number To String"]
+	18 [label="XGBoost Predictor"]
+	6 [label=Scorer]
+	8 [label="Parameter Optimization Loop Start"]
+	15 [label="Merge Variables"]
+	12 [label="Table Row to Variable"]
+	17 [label="XGBoost Tree Ensemble Learner"]
+	10 [label=X_Aggregator]
+	19 [label=Scorer]
+	rankdir=LR
+}

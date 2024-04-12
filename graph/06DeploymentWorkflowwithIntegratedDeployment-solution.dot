@@ -1,0 +1,22 @@
+digraph {
+	1188 -> 105
+	110 -> 108
+	112 -> 1195
+	1193 -> 112
+	1194 -> 1188
+	106 -> 108
+	108 -> 112
+	105 -> 110
+	109 -> 110
+	1194 [label="Container Input _Table_"]
+	1193 [label="PortObject Reference Reader"]
+	1195 [label="Container Output _Table_"]
+	112 [label="Rule Engine"]
+	1188 [label="Domain Calculator"]
+	108 [label="Random Forest Predictor"]
+	109 [label="PortObject Reference Reader"]
+	105 [label="Number To String"]
+	110 [label="Missing Value _Apply_"]
+	106 [label="PortObject Reference Reader"]
+	rankdir=LR
+}

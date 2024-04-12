@@ -1,0 +1,53 @@
+digraph {
+	6 -> 5
+	41 -> 42
+	15 -> 14
+	38 -> 36
+	6 -> 23
+	36 -> 39
+	40 -> 41
+	22 -> 27
+	6 -> 16
+	29 -> 30
+	17 -> 18
+	44 -> 45
+	37 -> 38
+	47 -> 48
+	6 -> 7
+	19 -> 29
+	43 -> 44
+	48 -> 46
+	19 -> 20
+	30 -> 28
+	17 -> 22
+	27 [label="Table View"]
+	7 [label="Python View"]
+	45 [label="Row Filter"]
+	18 [label="Python View"]
+	17 [label="CSV Reader"]
+	19 [label="CSV Reader"]
+	41 [label="JSON to Table"]
+	6 [label="CSV Reader"]
+	15 [label="CSV Reader"]
+	16 [label="Python View"]
+	48 [label="JSON to Table"]
+	42 [label="Row Filter"]
+	22 [label=GroupBy]
+	28 [label="Table View"]
+	23 [label="Python View"]
+	47 [label="JSON Reader"]
+	14 [label="Python View"]
+	38 [label="JSON to Table"]
+	5 [label="Python View"]
+	20 [label="Python View"]
+	43 [label="JSON Reader"]
+	44 [label="JSON to Table"]
+	29 [label=Pivot]
+	36 [label="Missing Value"]
+	46 [label="Row Filter"]
+	40 [label="JSON Reader"]
+	39 [label="Table View"]
+	30 [label=Ungroup]
+	37 [label="JSON Reader"]
+	rankdir=LR
+}

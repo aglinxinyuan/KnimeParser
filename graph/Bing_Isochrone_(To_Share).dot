@@ -1,0 +1,47 @@
+digraph {
+	714 -> 720
+	732 -> 707
+	721 -> 714
+	753 -> 725
+	752 -> 753
+	716 -> 733
+	706 -> 732
+	709 -> 719
+	717 -> 716
+	705 -> 723
+	755 -> 717
+	733 -> 724
+	723 -> 706
+	704 -> 705
+	752 -> 709
+	707 -> 752
+	720 -> 716
+	752 -> 754
+	725 -> 755
+	755 -> 756
+	750 -> 704
+	719 -> 721
+	750 [label="Table Reader"]
+	705 [label=Unpivoting]
+	714 [label="String Manipulation"]
+	756 [label="View Geometries as Map"]
+	752 [label="Reproject Geometries"]
+	724 [label="View Geometries as Map"]
+	704 [label="JSON to Table"]
+	707 [label="Create Point from 2D Coordinates"]
+	717 [label="Extract Column Properties"]
+	725 [label="Add Column using ECQL expressions"]
+	716 [label="Inject Column Properties"]
+	755 [label="Union of Geometries"]
+	723 [label="Column Filter"]
+	720 [label="String Manipulation"]
+	753 [label="Row Filter"]
+	732 [label="Column Rename"]
+	754 [label="View Geometries as Map"]
+	733 [label="Column Filter"]
+	706 [label="Split Collection Column"]
+	719 [label="String Manipulation"]
+	709 [label="Union of Geometries"]
+	721 [label="String Manipulation"]
+	rankdir=LR
+}

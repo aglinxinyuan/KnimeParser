@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="CSV Reader"]
+	4 [label="Rule_based Row Filter"]
+	3 [label="Duplicate Row Filter"]
+	2 [label="Missing Value"]
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	1 -> 8
+	31 -> 29
+	30 -> 20
+	8 -> 9
+	20 -> 2
+	29 -> 30
+	9 -> 10
+	10 -> 31
+	20 [label="Table to JSON"]
+	1 [label="JSON Input"]
+	29 [label="Variable to Table Row"]
+	31 [label=Scorer]
+	9 [label="Table Row to Variable"]
+	8 [label="JSON to Table"]
+	30 [label="Column Rename"]
+	2 [label="JSON Output"]
+	10 [label="Table Reader"]
+	rankdir=LR
+}

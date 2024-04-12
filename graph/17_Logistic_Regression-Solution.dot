@@ -1,0 +1,15 @@
+digraph {
+	6 -> 3
+	3 -> 7
+	5 -> 6
+	2 -> 3
+	6 -> 2
+	1 -> 5
+	5 [label="Normalizer _PMML_"]
+	1 [label="File Reader"]
+	7 [label=Scorer]
+	6 [label=Partitioning]
+	3 [label="Logistic Regression Predictor"]
+	2 [label="Logistic Regression Learner"]
+	rankdir=LR
+}

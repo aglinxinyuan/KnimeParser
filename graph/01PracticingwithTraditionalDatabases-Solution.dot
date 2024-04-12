@@ -1,0 +1,21 @@
+digraph {
+	56 -> 57
+	50 -> 52
+	59 -> 50
+	52 -> 56
+	59 -> 51
+	22 -> 48
+	58 -> 59
+	58 -> 50
+	48 -> 59
+	48 [label="DB Table Remover"]
+	57 [label="DB Reader"]
+	50 [label="DB Insert"]
+	22 [label="H2 Connector"]
+	51 [label="DB SQL Executor"]
+	56 [label="DB Connection Table Writer"]
+	58 [label="Table Reader"]
+	52 [label="DB Row Filter"]
+	59 [label="DB Table Creator"]
+	rankdir=LR
+}

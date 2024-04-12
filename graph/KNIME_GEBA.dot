@@ -1,0 +1,24 @@
+digraph {
+	6 -> 5
+	5 -> 8
+	13 -> 6
+	13 -> 2
+	8 -> 9
+	13 -> 3
+	13 -> 4
+	9 -> 10
+	10 -> 11
+	5 -> 7
+	5 [label=Normalizer]
+	13 [label="CSV Reader"]
+	7 [label="Table View"]
+	9 [label=PCA]
+	11 [label="Scatter Plot"]
+	4 [label="Scatter Plot"]
+	6 [label="Missing Value"]
+	8 [label=k_Means]
+	3 [label="Box Plot"]
+	2 [label=Histogram]
+	10 [label="Color Manager"]
+	rankdir=LR
+}

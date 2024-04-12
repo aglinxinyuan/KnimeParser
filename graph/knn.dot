@@ -1,0 +1,24 @@
+digraph {
+	11 -> 10
+	10 -> 6
+	8 -> 6
+	3 -> 4
+	7 -> 11
+	11 -> 8
+	2 -> 3
+	3 -> 1
+	6 -> 9
+	1 -> 5
+	5 [label=Scorer]
+	1 [label="K Nearest Neighbor"]
+	7 [label="CSV Reader"]
+	9 [label=Scorer]
+	11 [label=Normalizer]
+	4 [label=GroupBy]
+	6 [label="K Nearest Neighbor _Distance Function_"]
+	8 [label=Partitioning]
+	3 [label=Partitioning]
+	2 [label="CSV Reader"]
+	10 [label="Numeric Distances"]
+	rankdir=LR
+}

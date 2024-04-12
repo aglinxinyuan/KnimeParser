@@ -1,0 +1,26 @@
+digraph {
+	10580 -> 10582
+	1 -> 10583
+	10562 -> 10561
+	10559 -> 10561
+	10583 -> 10570
+	10561 -> 13
+	10570 -> 10580
+	13 -> 10579
+	10580 -> 10581
+	10558 -> 10559
+	1 -> 10562
+	10582 [label="Top k Selector"]
+	10562 [label=GroupBy]
+	10558 [label="Excel Reader"]
+	10581 [label="Top k Selector"]
+	13 [label="Math Formula"]
+	10559 [label="String Manipulation"]
+	1 [label="CSV Reader"]
+	10583 [label="Row Filter"]
+	10579 [label="Top k Selector"]
+	10580 [label="Nominal Value Row Splitter"]
+	10561 [label=Joiner]
+	10570 [label=GroupBy]
+	rankdir=LR
+}

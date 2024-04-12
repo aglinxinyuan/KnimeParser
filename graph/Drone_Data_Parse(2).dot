@@ -1,0 +1,27 @@
+digraph {
+	1 -> 4
+	18 -> 19
+	7 -> 18
+	11 -> 16
+	19 -> 20
+	17 -> 20
+	1 -> 9
+	9 -> 10
+	6 -> 7
+	10 -> 11
+	16 -> 17
+	4 -> 6
+	16 [label="Math Formula"]
+	20 [label=Joiner]
+	1 [label="CSV Reader"]
+	7 [label="Column Rename"]
+	9 [label="Rule_based Row Filter"]
+	11 [label="Column Rename"]
+	4 [label="Rule_based Row Filter"]
+	18 [label="Math Formula"]
+	6 [label="Column Filter"]
+	17 [label="Number To String"]
+	10 [label="Column Filter"]
+	19 [label="Number To String"]
+	rankdir=LR
+}

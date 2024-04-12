@@ -1,0 +1,27 @@
+digraph {
+	12 -> 10
+	5 -> 8
+	13 -> 10
+	12 -> 13
+	4 -> 5
+	3 -> 4
+	5 -> 12
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	5 [label=k_Means]
+	13 [label="Decision Tree Learner"]
+	1 [label="CSV Reader"]
+	7 [label="Scatter Plot"]
+	11 [label=Scorer]
+	4 [label="Column Filter"]
+	10 [label="Decision Tree Predictor"]
+	6 [label="Color Manager"]
+	8 [label="Silhouette Coefficient"]
+	3 [label="Category To Number"]
+	2 [label="Missing Value"]
+	12 [label=Partitioning]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	2 -> 4
+	3 -> 2
+	4 [label="Column Filter"]
+	3 [label="GET Request"]
+	2 [label="JSON to Table"]
+	rankdir=LR
+}

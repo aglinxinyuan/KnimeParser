@@ -1,0 +1,16 @@
+digraph {
+	1 -> 8
+	4 -> 5
+	3 -> 7
+	7 -> 4
+	8 -> 2
+	2 -> 3
+	5 [label="Excel Reader"]
+	1 [label="List Files_Folders"]
+	7 [label="Row Filter"]
+	4 [label="Table Row to Variable"]
+	8 [label="Path to URI"]
+	3 [label=Sorter]
+	2 [label="Files_Folders Meta Info"]
+	rankdir=LR
+}

@@ -1,0 +1,19 @@
+digraph {
+	13 -> 10
+	7 -> 3
+	12 -> 6
+	12 -> 14
+	14 -> 11
+	3 -> 13
+	10 -> 11
+	6 -> 7
+	14 [label="Cell Splitter By Position"]
+	13 [label="KCS SAP Executor"]
+	7 [label="Table Manipulator"]
+	11 [label=Joiner]
+	6 [label="Column Expressions"]
+	12 [label="KCS SAP Executor"]
+	3 [label="Group Loop Start"]
+	10 [label="Loop End _deprecated_"]
+	rankdir=LR
+}

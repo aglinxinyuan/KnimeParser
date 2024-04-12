@@ -1,0 +1,22 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	1 -> 4
+	8 -> 9
+	11 -> 12
+	9 -> 10
+	6 -> 7
+	10 -> 11
+	4 -> 6
+	13 [label="Column Resorter"]
+	1 [label="Table Creator"]
+	7 [label="JSON to Table"]
+	9 [label="Create Collection Column"]
+	11 [label="JSON to Table"]
+	4 [label="JSON to Table"]
+	8 [label="JSON to Table"]
+	6 [label=Ungroup]
+	12 [label="Column Filter"]
+	10 [label=Ungroup]
+	rankdir=LR
+}

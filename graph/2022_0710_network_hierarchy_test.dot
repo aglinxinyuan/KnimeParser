@@ -1,0 +1,14 @@
+digraph {
+	12 -> 15
+	9 -> 14
+	13 -> 9
+	14 -> 10
+	15 -> 13
+	13 [label="Object Inserter"]
+	9 [label="Node Neighbor Extractor"]
+	10 [label="Network Viewer _local_"]
+	15 [label="String Manipulation"]
+	14 [label="Hierarchy Extractor"]
+	12 [label="Table Creator"]
+	rankdir=LR
+}

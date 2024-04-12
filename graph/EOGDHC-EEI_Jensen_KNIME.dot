@@ -1,0 +1,119 @@
+digraph {
+	12 -> 10
+	5 -> 8
+	15 -> 42
+	31 -> 52
+	65 -> 61
+	4 -> 39
+	19 -> 46
+	42 -> 43
+	15 -> 56
+	65 -> 66
+	21 -> 22
+	40 -> 41
+	28 -> 26
+	23 -> 48
+	22 -> 19
+	32 -> 50
+	63 -> 58
+	8 -> 6
+	26 -> 33
+	56 -> 62
+	29 -> 30
+	54 -> 55
+	50 -> 51
+	6 -> 40
+	30 -> 27
+	14 -> 15
+	1 -> 2
+	39 -> 38
+	44 -> 45
+	11 -> 12
+	16 -> 14
+	46 -> 47
+	48 -> 49
+	63 -> 65
+	20 -> 24
+	9 -> 11
+	58 -> 67
+	27 -> 31
+	24 -> 25
+	10 -> 44
+	36 -> 35
+	7 -> 5
+	52 -> 53
+	3 -> 4
+	33 -> 32
+	34 -> 36
+	35 -> 37
+	10 -> 56
+	62 -> 63
+	17 -> 16
+	37 -> 54
+	2 -> 3
+	25 -> 23
+	18 -> 21
+	27 [label="String To Number"]
+	55 [label="Scatter Plot _Plotly_"]
+	7 [label="Table Creator"]
+	9 [label="Table Creator"]
+	45 [label="Scatter Plot _Plotly_"]
+	52 [label="Color Manager"]
+	18 [label="Table Creator"]
+	21 [label=RowID]
+	26 [label=RowID]
+	58 [label="Color Manager"]
+	8 [label="String To Number"]
+	32 [label=Unpivoting]
+	17 [label="Table Creator"]
+	3 [label="String To Number"]
+	19 [label=Unpivoting]
+	24 [label=RowID]
+	49 [label="Scatter Plot _Plotly_"]
+	41 [label="Scatter Plot _Plotly_"]
+	31 [label=Unpivoting]
+	51 [label="Scatter Plot _Plotly_"]
+	56 [label=Joiner]
+	6 [label=Unpivoting]
+	15 [label=Unpivoting]
+	25 [label="String To Number"]
+	54 [label="Color Manager"]
+	12 [label="String To Number"]
+	10 [label=Unpivoting]
+	16 [label=RowID]
+	48 [label="Color Manager"]
+	50 [label="Color Manager"]
+	1 [label="Table Creator"]
+	42 [label="Color Manager"]
+	22 [label="String To Number"]
+	53 [label="Scatter Plot _Plotly_"]
+	28 [label="Table Creator"]
+	67 [label="3D Scatter Plot _Plotly_"]
+	11 [label=RowID]
+	4 [label=Unpivoting]
+	23 [label=Unpivoting]
+	47 [label="Scatter Plot _Plotly_"]
+	63 [label="Column Rename"]
+	61 [label="Data Explorer"]
+	14 [label="String To Number"]
+	38 [label="Scatter Plot _Plotly_"]
+	5 [label=RowID]
+	20 [label="Table Creator"]
+	35 [label="String To Number"]
+	44 [label="Color Manager"]
+	34 [label="Table Creator"]
+	43 [label="Scatter Plot _Plotly_"]
+	29 [label="Table Creator"]
+	62 [label="Column Combiner"]
+	65 [label="Rule_based Row Filter"]
+	36 [label=RowID]
+	66 [label=Statistics]
+	46 [label="Color Manager"]
+	40 [label="Color Manager"]
+	39 [label="Color Manager"]
+	33 [label="String To Number"]
+	30 [label=RowID]
+	2 [label=RowID]
+	37 [label=Unpivoting]
+	rankdir=LR
+}

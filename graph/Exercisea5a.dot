@@ -1,0 +1,53 @@
+digraph {
+	54 -> 59
+	192 -> 194
+	73 -> 68
+	59 -> 60
+	68 -> 188
+	61 -> 195
+	199 -> 200
+	54 -> 60
+	191 -> 61
+	68 -> 199
+	191 -> 66
+	66 -> 67
+	66 -> 70
+	190 -> 191
+	60 -> 61
+	67 -> 69
+	69 -> 71
+	195 -> 193
+	188 -> 189
+	201 -> 54
+	72 -> 68
+	60 -> 66
+	54 -> 190
+	194 -> 193
+	70 -> 72
+	71 -> 73
+	54 -> 191
+	194 [label="Column Rename"]
+	200 [label="Scatter Plot"]
+	201 [label="CSV Reader"]
+	190 [label="Linear Regression Learner"]
+	189 [label="Scatter Plot"]
+	188 [label="Color Manager"]
+	54 [label=Partitioning]
+	59 [label="Simple Regression Tree Learner"]
+	68 [label=Concatenate]
+	67 [label=Joiner]
+	191 [label="Regression Predictor"]
+	72 [label="Constant Value Column"]
+	61 [label="Numeric Scorer"]
+	195 [label="Column Rename"]
+	60 [label="Simple Regression Tree Predictor"]
+	199 [label="Color Manager"]
+	192 [label="Numeric Scorer"]
+	66 [label="Column Splitter"]
+	70 [label="Constant Value Column"]
+	71 [label="Column Rename"]
+	69 [label="Constant Value Column"]
+	193 [label=Joiner]
+	73 [label="Constant Value Column"]
+	rankdir=LR
+}

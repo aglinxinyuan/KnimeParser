@@ -1,0 +1,12 @@
+digraph {
+	2 -> 6
+	6 -> 7
+	1 -> 7
+	7 -> 5
+	5 [label=Scorer]
+	1 [label="CSV Reader"]
+	7 [label="Random Forest Predictor"]
+	6 [label="Random Forest Learner"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

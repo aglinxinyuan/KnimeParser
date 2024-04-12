@@ -1,0 +1,15 @@
+digraph {
+	3 -> 4
+	10 -> 3
+	1 -> 10
+	6 -> 7
+	4 -> 6
+	3 -> 6
+	1 [label="CSV Reader"]
+	7 [label="Numeric Scorer"]
+	4 [label="Linear Regression Learner"]
+	6 [label="Regression Predictor"]
+	3 [label=Partitioning]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,118 @@
+digraph {
+	41 -> 42
+	38 -> 51
+	5 -> 4
+	23 -> 24
+	79 -> 12
+	31 -> 38
+	42 -> 43
+	30 -> 46
+	39 -> 40
+	65 -> 66
+	80 -> 82
+	59 -> 60
+	52 -> 54
+	54 -> 56
+	48 -> 45
+	2 -> 8
+	22 -> 23
+	37 -> 41
+	68 -> 70
+	13 -> 20
+	6 -> 4
+	12 -> 80
+	20 -> 23
+	47 -> 64
+	40 -> 35
+	32 -> 65
+	45 -> 49
+	39 -> 35
+	56 -> 59
+	8 -> 4
+	32 -> 52
+	13 -> 31
+	8 -> 12
+	46 -> 47
+	51 -> 32
+	77 -> 78
+	76 -> 77
+	49 -> 51
+	70 -> 75
+	35 -> 44
+	52 -> 62
+	82 -> 83
+	64 -> 65
+	24 -> 25
+	32 -> 30
+	62 -> 64
+	55 -> 54
+	60 -> 61
+	3 -> 6
+	46 -> 55
+	61 -> 62
+	75 -> 76
+	38 -> 39
+	66 -> 69
+	40 -> 45
+	6 -> 13
+	41 -> 48
+	65 -> 68
+	70 -> 79
+	31 -> 37
+	4 -> 9
+	55 [label=GroupBy]
+	79 [label=GroupBy]
+	9 [label="Rule_based Row Splitter"]
+	52 [label=GroupBy]
+	8 [label="String Replacer"]
+	32 [label="Row Splitter"]
+	3 [label="CSV Reader"]
+	78 [label="Row Splitter"]
+	80 [label="Math Formula"]
+	24 [label="Row Splitter"]
+	64 [label=Joiner]
+	49 [label="Missing Value"]
+	41 [label="Row Splitter"]
+	31 [label="Row Splitter"]
+	51 [label=Concatenate]
+	56 [label="Row Filter"]
+	6 [label="Row Splitter"]
+	54 [label=Joiner]
+	25 [label=GroupBy]
+	12 [label=Joiner]
+	59 [label="Duplicate Row Filter"]
+	75 [label=GroupBy]
+	48 [label="Column Filter"]
+	42 [label="Table Difference Finder"]
+	22 [label="Table Creator"]
+	68 [label="Duplicate Row Filter"]
+	23 [label=Joiner]
+	4 [label=Joiner]
+	47 [label="String Manipulation"]
+	61 [label="Column Filter"]
+	76 [label=Rank]
+	37 [label="String Replacer"]
+	77 [label="Row Filter"]
+	83 [label="Row Filter"]
+	38 [label="Row Splitter"]
+	60 [label="String Manipulation"]
+	5 [label=GroupBy]
+	43 [label="Empty Table Switch"]
+	35 [label="Table Difference Finder"]
+	44 [label="Empty Table Switch"]
+	62 [label=Concatenate]
+	66 [label="Duplicate Row Filter"]
+	20 [label=GroupBy]
+	13 [label="Row Splitter"]
+	65 [label=Concatenate]
+	69 [label="Row Filter"]
+	70 [label="Row Splitter"]
+	46 [label=Ungroup]
+	82 [label=Rank]
+	40 [label="Row Splitter"]
+	39 [label="Row Splitter"]
+	30 [label="Cell Splitter"]
+	2 [label="Excel Reader"]
+	45 [label=Concatenate]
+	rankdir=LR
+}

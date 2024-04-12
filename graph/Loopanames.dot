@@ -1,0 +1,47 @@
+digraph {
+	20 -> 21
+	10 -> 13
+	14 -> 16
+	13 -> 14
+	7 -> 12
+	1 -> 6
+	15 -> 13
+	12 -> 21
+	2 -> 4
+	3 -> 7
+	11 -> 17
+	17 -> 18
+	9 -> 6
+	3 -> 9
+	16 -> 21
+	5 -> 18
+	19 -> 17
+	18 -> 20
+	4 -> 15
+	6 -> 7
+	4 -> 14
+	2 -> 3
+	2 -> 5
+	5 -> 19
+	7 [label="Column Appender"]
+	9 [label="Extract Table Dimension"]
+	18 [label="Column Appender"]
+	21 [label=Concatenate]
+	17 [label="Chunk Loop Start"]
+	3 [label="Rule_based Row Filter"]
+	19 [label="Extract Table Dimension"]
+	6 [label="Chunk Loop Start"]
+	15 [label="Extract Table Dimension"]
+	12 [label="Loop End _Column Append_"]
+	10 [label="Table Creator"]
+	16 [label="Loop End _Column Append_"]
+	1 [label="Table Creator"]
+	11 [label="Table Creator"]
+	4 [label="Rule_based Row Filter"]
+	14 [label="Column Appender"]
+	5 [label="Rule_based Row Filter"]
+	13 [label="Chunk Loop Start"]
+	20 [label="Loop End _Column Append_"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	82 -> 143
+	143 -> 144
+	147 -> 141
+	140 -> 147
+	146 -> 147
+	144 -> 146
+	144 [label="OpenAI Embeddings Connector"]
+	140 [label="Table Creator"]
+	82 [label="Credentials Configuration"]
+	143 [label="OpenAI Authenticator"]
+	147 [label="Vector Store Retriever"]
+	146 [label="FAISS Vector Store Reader"]
+	141 [label=Ungroup]
+	rankdir=LR
+}

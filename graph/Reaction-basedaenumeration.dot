@@ -1,0 +1,32 @@
+digraph {
+	27 -> 155
+	155 -> 156
+	31 -> 158
+	16 -> 27
+	153 -> 154
+	27 -> 153
+	27 -> 157
+	17 -> 19
+	157 -> 159
+	19 -> 18
+	27 -> 31
+	27 -> 28
+	16 -> 17
+	28 -> 29
+	16 [label="Molecule Reader _to MAE_"]
+	27 [label="Reaction Based Enumeration"]
+	157 [label="Get Help"]
+	29 [label="Table Viewer"]
+	31 [label="Get Help"]
+	28 [label=MAE_to_Smiles]
+	158 [label="Table Viewer"]
+	156 [label="Table Viewer"]
+	18 [label="Table Viewer"]
+	155 [label="Get Help"]
+	153 [label="Get Help"]
+	154 [label="Table Viewer"]
+	159 [label="Table Viewer"]
+	17 [label="Reaction Based Enumeration"]
+	19 [label=MAE_to_Smiles]
+	rankdir=LR
+}

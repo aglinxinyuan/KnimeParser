@@ -1,0 +1,103 @@
+digraph {
+	145 -> 89
+	385 -> 375
+	237 -> 387
+	168 -> 164
+	381 -> 379
+	153 -> 162
+	375 -> 376
+	242 -> 242
+	159 -> 160
+	46 -> 62
+	162 -> 166
+	94 -> 168
+	153 -> 161
+	94 -> 87
+	160 -> 145
+	93 -> 145
+	385 -> 381
+	159 -> 169
+	165 -> 170
+	166 -> 161
+	159 -> 153
+	238 -> 240
+	171 -> 168
+	92 -> 93
+	382 -> 385
+	242 -> 157
+	149 -> 150
+	240 -> 388
+	379 -> 241
+	377 -> 381
+	158 -> 241
+	164 -> 165
+	378 -> 240
+	157 -> 160
+	387 -> 378
+	165 -> 171
+	121 -> 149
+	165 -> 94
+	240 -> 379
+	170 -> 153
+	150 -> 46
+	68 -> 94
+	242 -> 164
+	241 -> 239
+	160 -> 165
+	376 -> 377
+	388 -> 242
+	94 -> 92
+	62 -> 158
+	87 -> 121
+	378 -> 385
+	169 -> 164
+	161 -> 94
+	157 -> 164
+	90 -> 93
+	89 -> 94
+	92 -> 90
+	170 [label="Table Row to Variable"]
+	165 [label="Inject Variables _Data_"]
+	242 [label="Parallel Chunk Start"]
+	377 [label="Create Collection Column"]
+	169 [label="Extract Table Spec"]
+	89 [label="RProp MLP Learner"]
+	379 [label="Column Appender"]
+	153 [label="Split Collection Column"]
+	162 [label=Transpose]
+	121 [label="Row Filter"]
+	149 [label="Column Filter"]
+	381 [label="End IF"]
+	145 [label=X_Partitioner]
+	239 [label="Container Output _Table_"]
+	168 [label="CASE Switch Data _End_"]
+	237 [label="Container Input _Table_"]
+	92 [label="Column Splitter"]
+	161 [label="Insert Column Header"]
+	376 [label="Column Filter"]
+	238 [label="Container Input _Variable_"]
+	171 [label="Column Filter"]
+	166 [label="Column Rename _Regex_"]
+	240 [label="Column Splitter"]
+	150 [label="Column Rename"]
+	164 [label="Column Appender"]
+	90 [label="One to Many"]
+	87 [label=Scorer]
+	68 [label="String Manipulation _Variable_"]
+	385 [label="Java IF _Table_"]
+	382 [label="Extract Table Dimension"]
+	158 [label="Loop End"]
+	159 [label="Column Splitter"]
+	388 [label="Missing Value"]
+	93 [label="Column Appender"]
+	378 [label="Column Splitter"]
+	160 [label="Table Row to Variable"]
+	375 [label="Cell Splitter"]
+	94 [label=Normalizer]
+	62 [label=GroupBy]
+	157 [label="Chunk Loop Start"]
+	241 [label="Parallel Chunk End"]
+	46 [label="Loop End"]
+	387 [label="Domain Calculator"]
+	rankdir=LR
+}

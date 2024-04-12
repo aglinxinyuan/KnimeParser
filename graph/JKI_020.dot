@@ -1,0 +1,61 @@
+digraph {
+	28 -> 24
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	13 -> 14
+	21 -> 22
+	2 -> 3
+	27 -> 26
+	27 -> 28
+	2 -> 4
+	22 -> 23
+	12 -> 13
+	20 -> 19
+	17 -> 18
+	1 -> 2
+	11 -> 12
+	16 -> 18
+	10 -> 11
+	19 -> 25
+	15 -> 16
+	3 -> 5
+	22 -> 20
+	11 -> 13
+	6 -> 7
+	23 -> 19
+	5 -> 6
+	25 -> 27
+	26 -> 28
+	9 -> 10
+	16 -> 17
+	27 [label="Math Formula"]
+	7 [label="Math Formula"]
+	9 [label="Date_Time Shift"]
+	18 [label=Joiner]
+	21 [label="Table Creator"]
+	26 [label=GroupBy]
+	8 [label="Date_Time Shift"]
+	17 [label=GroupBy]
+	3 [label="Math Formula"]
+	19 [label=Joiner]
+	24 [label="Column Rename"]
+	6 [label="Math Formula"]
+	15 [label="Table Creator"]
+	25 [label="Date_Time Difference"]
+	12 [label=GroupBy]
+	10 [label="Date_Time Difference"]
+	16 [label="Java Snippet"]
+	1 [label="Table Creator"]
+	22 [label="Extract Date_Time Fields"]
+	28 [label=Joiner]
+	11 [label="Math Formula"]
+	4 [label="Math Formula"]
+	23 [label="Math Formula"]
+	14 [label="Column Rename"]
+	5 [label=Joiner]
+	13 [label=Joiner]
+	20 [label="Math Formula"]
+	2 [label="Extract Date_Time Fields"]
+	rankdir=LR
+}

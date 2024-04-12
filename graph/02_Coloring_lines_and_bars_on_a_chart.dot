@@ -1,0 +1,39 @@
+digraph {
+	92 -> 37
+	76 -> 91
+	91 -> 96
+	3 -> 76
+	91 -> 75
+	38 -> 92
+	96 -> 95
+	36 -> 38
+	42 -> 43
+	43 -> 41
+	47 -> 77
+	45 -> 36
+	38 -> 44
+	38 -> 42
+	91 -> 47
+	75 -> 77
+	41 -> 44
+	38 -> 94
+	91 [label="String Manipulation"]
+	94 [label="Line Plot _Plotly_"]
+	43 [label=Transpose]
+	92 [label="Color Manager"]
+	44 [label="Line Plot"]
+	42 [label="Extract Column Header"]
+	96 [label="Color Manager"]
+	41 [label="Color Manager"]
+	36 [label=Pivoting]
+	47 [label="Color Manager"]
+	76 [label=Sorter]
+	77 [label="Bar Chart"]
+	37 [label="Line Plot _Plotly_"]
+	95 [label="Bar Chart"]
+	75 [label=Pivoting]
+	3 [label="Table Creator"]
+	38 [label="Range Filter"]
+	45 [label="Table Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	46 -> 50
+	46 -> 49
+	49 -> 47
+	45 -> 50
+	47 -> 51
+	39 -> 49
+	50 -> 48
+	48 -> 52
+	48 [label="Tag Filter"]
+	50 [label="Dictionary Tagger"]
+	49 [label="Dictionary Tagger"]
+	51 [label="Bag Of Words Creator"]
+	46 [label="Table Reader"]
+	47 [label="Tag Filter"]
+	52 [label="Bag Of Words Creator"]
+	39 [label="Table Creator"]
+	45 [label="Table Creator"]
+	rankdir=LR
+}

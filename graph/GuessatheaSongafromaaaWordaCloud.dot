@@ -1,0 +1,101 @@
+digraph {
+	93 -> 223
+	44 -> 67
+	671 -> 48
+	227 -> 91
+	54 -> 57
+	57 -> 58
+	54 -> 47
+	83 -> 84
+	54 -> 56
+	66 -> 49
+	225 -> 224
+	430 -> 664
+	224 -> 228
+	55 -> 47
+	92 -> 237
+	48 -> 51
+	53 -> 50
+	1157 -> 671
+	67 -> 93
+	229 -> 90
+	54 -> 55
+	44 -> 54
+	91 -> 230
+	93 -> 92
+	229 -> 232
+	229 -> 235
+	224 -> 60
+	93 -> 83
+	53 -> 44
+	90 -> 89
+	60 -> 51
+	66 -> 83
+	57 -> 53
+	228 -> 226
+	51 -> 60
+	230 -> 229
+	1156 -> 1157
+	50 -> 48
+	93 -> 225
+	60 -> 94
+	225 -> 226
+	56 -> 55
+	236 -> 235
+	61 -> 62
+	226 -> 227
+	49 -> 94
+	664 -> 1156
+	84 -> 66
+	92 -> 224
+	235 -> 234
+	232 -> 236
+	62 -> 61
+	47 -> 53
+	62 -> 66
+	48 -> 83
+	91 [label=Sorter]
+	57 [label="Case Converter"]
+	227 [label="Missing Value"]
+	55 [label="URL to File Path _Variable_"]
+	89 [label="Text Output"]
+	230 [label="Row Filter"]
+	224 [label="Rule Engine"]
+	58 [label="Stop Word Filter"]
+	225 [label="Table Creator"]
+	228 [label=GroupBy]
+	1157 [label="Table Row to Variable"]
+	237 [label="Generic JavaScript View"]
+	92 [label="WrappedNode Input"]
+	671 [label="Generic JavaScript View"]
+	84 [label="String Manipulation _Variable_"]
+	49 [label="Loop End"]
+	236 [label="Constant Value Column"]
+	51 [label="Java Edit Variable"]
+	56 [label="N Chars Filter"]
+	54 [label="Excel Reader _XLS_"]
+	48 [label="Table Row To Variable Loop Start"]
+	223 [label="Generic JavaScript View"]
+	50 [label="Column Filter"]
+	90 [label="Table Row to Variable"]
+	53 [label="Row Filter"]
+	67 [label="Generic Loop Start"]
+	47 [label=Shuffle]
+	61 [label="Merge Variables"]
+	430 [label="Generic JavaScript View"]
+	93 [label="WrappedNode Output"]
+	83 [label="String Manipulation _Variable_"]
+	60 [label="String Input"]
+	1156 [label="Table Creator"]
+	232 [label="Math Formula"]
+	94 [label="WrappedNode Output"]
+	229 [label="Math Formula"]
+	44 [label=TF]
+	62 [label="Variable to Table Row"]
+	66 [label="Rule Engine Variable"]
+	235 [label=Concatenate]
+	664 [label="Generic JavaScript View"]
+	226 [label=Joiner]
+	234 [label="Bar Chart _JavaScript_"]
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	12 -> 15
+	16 -> 29
+	36 -> 29
+	12 -> 38
+	15 -> 37
+	15 -> 16
+	16 -> 38
+	16 -> 33
+	36 -> 16
+	16 -> 36
+	16 [label="Column Resorter"]
+	29 [label="Generic JavaScript View"]
+	36 [label="WrappedNode Input"]
+	15 [label="Math Formula"]
+	37 [label="WrappedNode Output"]
+	33 [label="Generic JavaScript View"]
+	38 [label="Generic JavaScript View"]
+	12 [label="File Reader"]
+	rankdir=LR
+}

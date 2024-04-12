@@ -1,0 +1,8 @@
+digraph {
+	1 -> 2
+	1 -> 5
+	1 [label="CSV Reader"]
+	5 [label="Conditional Box Plot"]
+	2 [label="Data Explorer"]
+	rankdir=LR
+}

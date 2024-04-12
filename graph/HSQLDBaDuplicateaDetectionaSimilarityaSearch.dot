@@ -1,0 +1,68 @@
+digraph {
+	39 -> 36
+	37 -> 36
+	41 -> 43
+	38 -> 36
+	42 -> 43
+	49 -> 46
+	46 -> 50
+	23 -> 44
+	60 -> 5
+	52 -> 58
+	56 -> 59
+	6 -> 41
+	49 -> 45
+	6 -> 37
+	6 -> 62
+	43 -> 40
+	36 -> 40
+	58 -> 56
+	62 -> 23
+	60 -> 16
+	45 -> 47
+	44 -> 29
+	47 -> 48
+	6 -> 42
+	17 -> 55
+	6 -> 38
+	47 -> 52
+	48 -> 7
+	55 -> 58
+	40 -> 23
+	17 -> 19
+	5 -> 6
+	29 -> 49
+	16 -> 17
+	6 -> 39
+	55 [label="String To Number"]
+	7 [label="Data to Report"]
+	45 [label=GroupBy]
+	52 [label=GroupBy]
+	58 [label="Cross Joiner"]
+	17 [label="DB Reader"]
+	19 [label="Data to Report"]
+	49 [label=GroupBy]
+	41 [label="String Distances"]
+	56 [label="Math Formula _Multi Column_"]
+	6 [label="DB Reader"]
+	59 [label="Data to Report"]
+	16 [label="DB Table Selector"]
+	48 [label=GroupBy]
+	50 [label="Data to Report"]
+	42 [label="String Distances"]
+	23 [label="Similarity Search"]
+	47 [label="Row Splitter"]
+	38 [label="String Distances"]
+	60 [label="DB Connector"]
+	5 [label="DB Table Selector"]
+	43 [label="Aggregated Distance"]
+	44 [label="Rule_based Row Filter"]
+	62 [label=RowID]
+	29 [label=Sorter]
+	36 [label="Aggregated Distance"]
+	46 [label=GroupBy]
+	40 [label="Aggregated Distance"]
+	39 [label="String Distances"]
+	37 [label="String Distances"]
+	rankdir=LR
+}

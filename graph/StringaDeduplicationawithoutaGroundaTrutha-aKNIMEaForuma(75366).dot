@@ -1,0 +1,113 @@
+digraph {
+	72 -> 127
+	110 -> 102
+	104 -> 99
+	93 -> 94
+	121 -> 123
+	113 -> 116
+	73 -> 71
+	120 -> 118
+	68 -> 93
+	75 -> 104
+	106 -> 91
+	64 -> 60
+	119 -> 126
+	115 -> 117
+	57 -> 61
+	3 -> 104
+	68 -> 70
+	123 -> 124
+	99 -> 103
+	116 -> 115
+	96 -> 73
+	111 -> 114
+	103 -> 108
+	102 -> 111
+	64 -> 12
+	90 -> 97
+	91 -> 92
+	61 -> 64
+	70 -> 3
+	95 -> 96
+	72 -> 115
+	105 -> 3
+	66 -> 67
+	124 -> 125
+	106 -> 108
+	108 -> 110
+	68 -> 71
+	68 -> 87
+	105 -> 91
+	75 -> 90
+	87 -> 73
+	71 -> 70
+	118 -> 119
+	70 -> 97
+	92 -> 3
+	89 -> 90
+	75 -> 89
+	72 -> 68
+	117 -> 120
+	105 -> 106
+	12 -> 66
+	105 -> 101
+	100 -> 103
+	114 -> 113
+	94 -> 95
+	3 -> 101
+	97 -> 105
+	67 -> 72
+	101 -> 100
+	125 -> 92
+	71 -> 75
+	91 [label=GroupBy]
+	57 [label="Excel Reader"]
+	103 [label="Merge Variables"]
+	126 [label="Excel Writer"]
+	89 [label="Table Reader"]
+	97 [label="Reference Row Filter"]
+	108 [label="Catch Errors _Var Ports_"]
+	105 [label="Empty Table Switch"]
+	121 [label="Integer Slider Configuration"]
+	3 [label="Similarity Search"]
+	64 [label="Missing Value"]
+	92 [label="Table Row to Variable"]
+	119 [label="Column Filter"]
+	114 [label="Rule_based Row Filter"]
+	110 [label="Merge Variables"]
+	75 [label="Table Reader"]
+	12 [label="String Manipulation"]
+	123 [label="Variable to Table Row"]
+	125 [label="Table Row to Variable"]
+	90 [label="Reference Row Filter"]
+	115 [label=Joiner]
+	68 [label="Column Filter"]
+	87 [label="Table Writer"]
+	67 [label="Rule_based Row Filter"]
+	127 [label="Table Writer"]
+	72 [label="Counter Generation"]
+	101 [label="Reference Row Filter"]
+	61 [label="Duplicate Row Filter"]
+	124 [label="Math Formula"]
+	93 [label="Constant Value Column"]
+	100 [label="Table Writer"]
+	106 [label="Try _Variable Ports_"]
+	117 [label="Rule Engine"]
+	60 [label=RowID]
+	94 [label="Constant Value Column"]
+	99 [label="Table Writer"]
+	113 [label="Duplicate Row Filter"]
+	96 [label="Rule_based Row Filter"]
+	120 [label="Rule Engine"]
+	104 [label=Concatenate]
+	66 [label="Duplicate Row Filter"]
+	102 [label="Variable Loop End"]
+	70 [label="Rule_based Row Filter"]
+	71 [label="Table Row To Variable Loop Start"]
+	118 [label=Sorter]
+	116 [label="Column Rename"]
+	95 [label="Constant Value Column"]
+	111 [label="Table Reader"]
+	73 [label="Table Writer"]
+	rankdir=LR
+}

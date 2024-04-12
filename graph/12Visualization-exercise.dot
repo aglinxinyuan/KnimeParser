@@ -1,0 +1,41 @@
+digraph {
+	33 -> 105
+	106 -> 107
+	109 -> 114
+	108 -> 109
+	22 -> 33
+	106 -> 109
+	110 -> 106
+	20 -> 23
+	109 -> 16
+	21 -> 20
+	106 -> 115
+	154 -> 20
+	16 -> 21
+	21 -> 95
+	114 -> 110
+	115 -> 108
+	21 -> 21
+	95 -> 136
+	105 -> 106
+	107 -> 108
+	23 -> 22
+	16 [label=TF]
+	114 [label="Tag Filter"]
+	107 [label=GroupBy]
+	20 [label="Row Filter"]
+	115 [label="Stop Word Filter"]
+	22 [label="Column Filter"]
+	136 [label="Decision Tree Learner"]
+	23 [label="Strings To Document"]
+	21 [label="Document Vector"]
+	154 [label="Table Reader"]
+	108 [label="Row Filter"]
+	109 [label="Reference Row Filter"]
+	95 [label="Column Filter"]
+	105 [label="Number Filter"]
+	110 [label="Bag Of Words Creator"]
+	106 [label="Term To String"]
+	33 [label="POS Tagger"]
+	rankdir=LR
+}

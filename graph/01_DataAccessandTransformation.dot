@@ -1,0 +1,9 @@
+digraph {
+	241 -> 242
+	214 -> 216
+	216 [label="DB Table Selector"]
+	242 [label="RDKit Count_Based Fingerprint"]
+	214 [label="SQLite Connector"]
+	241 [label="RDKit Fingerprint"]
+	rankdir=LR
+}

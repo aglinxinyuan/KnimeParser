@@ -1,0 +1,49 @@
+digraph {
+	158 -> 159
+	144 -> 139
+	143 -> 95
+	156 -> 158
+	146 -> 145
+	148 -> 146
+	167 -> 168
+	153 -> 144
+	159 -> 148
+	162 -> 164
+	139 -> 166
+	91 -> 95
+	146 -> 155
+	139 -> 156
+	170 -> 169
+	95 -> 153
+	164 -> 163
+	168 -> 170
+	146 -> 165
+	146 -> 151
+	156 -> 157
+	157 -> 158
+	91 [label="File Reader"]
+	170 [label="Number To String"]
+	165 [label="2D_3D Scatterplot"]
+	167 [label="Random Data Generator"]
+	169 [label="Parallel Coordinates Plot"]
+	153 [label=Shuffle]
+	162 [label="Table Creator"]
+	145 [label="Scatter Plot _local_"]
+	163 [label="Line Plot"]
+	151 [label="Scatter Plot"]
+	168 [label=Normalizer]
+	156 [label="Column Filter"]
+	146 [label="Color Manager"]
+	166 [label="Parallel Coordinates Plot"]
+	164 [label=Normalizer]
+	148 [label="Shape Manager"]
+	144 [label="Number To String"]
+	143 [label="Excel Reader _XLS_"]
+	158 [label="Weka Cluster Assigner _3_7_"]
+	159 [label="Number To String"]
+	139 [label="Normalizer _PMML_"]
+	157 [label="SimpleKMeans _3_7_"]
+	155 [label="3D Scatter Plot _Plotly_"]
+	95 [label=Joiner]
+	rankdir=LR
+}

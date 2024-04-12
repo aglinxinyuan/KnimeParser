@@ -1,0 +1,21 @@
+digraph {
+	6 -> 16
+	12 -> 13
+	15 -> 14
+	14 -> 5
+	13 -> 6
+	10 -> 14
+	16 -> 10
+	11 -> 13
+	10 -> 15
+	5 [label=Scorer]
+	16 [label="One to Many"]
+	13 [label=Concatenate]
+	11 [label="CSV Reader"]
+	6 [label=Normalizer]
+	15 [label="RProp MLP Learner"]
+	14 [label="MultiLayerPerceptron Predictor"]
+	12 [label="File Reader"]
+	10 [label=Partitioning]
+	rankdir=LR
+}

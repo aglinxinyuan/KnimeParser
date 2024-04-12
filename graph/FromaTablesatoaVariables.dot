@@ -1,0 +1,26 @@
+digraph {
+	3 -> 10
+	6 -> 3
+	7 -> 8
+	5 -> 4
+	8 -> 9
+	8 -> 10
+	2 -> 9
+	4 -> 11
+	8 -> 11
+	1 -> 6
+	1 -> 2
+	1 -> 5
+	5 [label="Create Collection Column"]
+	1 [label="Table Creator"]
+	7 [label="Data Generator"]
+	9 [label="Column Filter"]
+	11 [label="Column Filter"]
+	4 [label="Table Row to Variable"]
+	6 [label=Transpose]
+	8 [label="Column Rename"]
+	3 [label="Table Column to Variable"]
+	2 [label="Table Row to Variable"]
+	10 [label="Column Filter"]
+	rankdir=LR
+}

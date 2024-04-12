@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	3 -> 4
+	4 -> 5
+	5 [label=Partitioning]
+	1 [label="Table Reader"]
+	4 [label="Create Collection Column"]
+	3 [label="Create Collection Column"]
+	2 [label="Create Collection Column"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	3 -> 5
+	4 -> 6
+	5 -> 7
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	6 -> 8
+	5 [label="Row Filter _Labs_"]
+	1 [label="CSV Reader"]
+	7 [label="Column Filter"]
+	4 [label=Rank]
+	6 [label="Row Filter _Labs_"]
+	8 [label="Column Filter"]
+	3 [label=Rank]
+	2 [label=GroupBy]
+	rankdir=LR
+}

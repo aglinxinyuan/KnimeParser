@@ -1,0 +1,30 @@
+digraph {
+	6 -> 4
+	4 -> 5
+	14 -> 17
+	8 -> 9
+	12 -> 14
+	9 -> 11
+	7 -> 13
+	13 -> 8
+	1 -> 2
+	2 -> 3
+	8 -> 12
+	5 -> 7
+	3 -> 6
+	5 [label="Date_Time Difference"]
+	13 [label="Column Rename"]
+	1 [label="CSV Reader"]
+	7 [label=GroupBy]
+	9 [label="Row Filter"]
+	11 [label=Sorter]
+	4 [label="String to Date_Time"]
+	6 [label="Row Filter"]
+	8 [label=Rank]
+	14 [label="Math Formula"]
+	17 [label="Parallel Coordinates Plot"]
+	3 [label="Math Formula"]
+	2 [label="Row Filter"]
+	12 [label=Rank]
+	rankdir=LR
+}

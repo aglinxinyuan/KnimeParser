@@ -1,0 +1,14 @@
+digraph {
+	1725 -> 1724
+	1558 -> 1725
+	1727 -> 1558
+	1724 -> 1726
+	1709 -> 1727
+	1709 [label="Create Temp Folder"]
+	1558 [label="Test Data Generator"]
+	1727 [label="Path to String _Variable_"]
+	1726 [label="ARFF Reader"]
+	1725 [label="Collection to String"]
+	1724 [label="ARFF Writer"]
+	rankdir=LR
+}

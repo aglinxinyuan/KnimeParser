@@ -1,0 +1,14 @@
+digraph {
+	6 -> 16
+	9 -> 14
+	16 -> 10
+	14 -> 15
+	15 -> 6
+	16 [label="Table to JSON"]
+	9 [label="Container Input _JSON_"]
+	6 [label=Statistics]
+	15 [label=Ungroup]
+	14 [label="JSON Path"]
+	10 [label="Container Output _JSON_"]
+	rankdir=LR
+}

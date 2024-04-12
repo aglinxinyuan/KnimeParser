@@ -1,0 +1,43 @@
+digraph {
+	8247 -> 8246
+	8460 -> 68
+	6 -> 8239
+	8463 -> 6
+	8248 -> 8247
+	69 -> 70
+	8246 -> 8249
+	8239 -> 8241
+	68 -> 69
+	8460 -> 8245
+	8241 -> 8458
+	4 -> 8463
+	70 -> 71
+	8245 -> 8248
+	8241 -> 8240
+	8246 -> 8459
+	71 -> 73
+	8462 -> 4
+	8461 -> 8463
+	8463 [label="Shape Screening"]
+	8246 [label="Parallel Chunk End"]
+	8462 [label="Molecule Reader"]
+	8239 [label="Ungroup MAE"]
+	8461 [label="Molecule Reader"]
+	8249 [label="Table Viewer"]
+	8247 [label="Row Filter"]
+	8460 [label="Table Reader"]
+	6 [label="Parallel Chunk End"]
+	8241 [label="Extract MAE Properties"]
+	8459 [label="Molecule Writer"]
+	8458 [label="Molecule Writer"]
+	8240 [label="Table Viewer"]
+	8245 [label="Parallel Chunk Start"]
+	68 [label="Chunk Loop Start"]
+	4 [label="Parallel Chunk Start"]
+	70 [label="Row Filter"]
+	69 [label="Ungroup MAE"]
+	71 [label="Loop End"]
+	8248 [label="Ungroup MAE"]
+	73 [label="Text Viewer"]
+	rankdir=LR
+}

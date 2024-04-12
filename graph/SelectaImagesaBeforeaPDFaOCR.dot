@@ -1,0 +1,29 @@
+digraph {
+	41 -> 42
+	42 -> 15
+	37 -> 8
+	9 -> 37
+	39 -> 40
+	8 -> 2
+	36 -> 41
+	40 -> 36
+	15 -> 13
+	9 -> 42
+	2 -> 39
+	12 -> 11
+	13 -> 12
+	13 [label="Image Normalizer"]
+	42 [label=Joiner]
+	41 [label="Row Filter"]
+	9 [label="Tika Parser"]
+	36 [label="Table Editor"]
+	11 [label="Image Viewer"]
+	8 [label="Path to URI"]
+	40 [label="Constant Value Column"]
+	15 [label="Image Reader _Table_"]
+	39 [label="Renderer to Image"]
+	12 [label=Tess4J]
+	2 [label="Read Images"]
+	37 [label="String to Path"]
+	rankdir=LR
+}

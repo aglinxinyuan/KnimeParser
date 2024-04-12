@@ -1,0 +1,56 @@
+digraph {
+	219 -> 246
+	159 -> 13
+	1169 -> 1168
+	13 -> 230
+	237 -> 229
+	229 -> 162
+	232 -> 229
+	161 -> 159
+	1164 -> 219
+	161 -> 236
+	234 -> 1213
+	162 -> 161
+	227 -> 235
+	235 -> 237
+	219 -> 227
+	236 -> 13
+	234 -> 1214
+	227 -> 164
+	234 -> 227
+	230 -> 231
+	231 -> 234
+	246 -> 1170
+	1213 -> 1214
+	164 -> 232
+	1170 -> 227
+	1214 -> 247
+	247 -> 248
+	1215 -> 1164
+	231 [label="Rule_based Row Filter"]
+	246 [label="Capture Workflow Start"]
+	247 [label="Capture Workflow End"]
+	227 [label="String To Number"]
+	1164 [label="Date_Time_based Row Filter"]
+	1168 [label="Container Input _Table_"]
+	1170 [label="Container Input _Table_"]
+	230 [label="Rule_based Row Filter"]
+	162 [label="String To Number"]
+	237 [label="Missing Value _Apply_"]
+	1169 [label="Column Filter"]
+	236 [label="Numeric Outliers _Apply_"]
+	161 [label="Rule Engine"]
+	164 [label="Numeric Outliers"]
+	219 [label=Partitioning]
+	159 [label="Numeric Outliers"]
+	1213 [label="XGBoost Tree Ensemble Learner"]
+	232 [label="Missing Value"]
+	229 [label="Row Filter"]
+	248 [label="Workflow Writer"]
+	13 [label="Rule_based Row Filter"]
+	1214 [label="XGBoost Predictor"]
+	235 [label="Numeric Outliers _Apply_"]
+	1215 [label="Table Reader"]
+	234 [label="Number To String"]
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	3 -> 7
+	2 -> 3
+	1 -> 2
+	1 [label="Table Creator"]
+	7 [label=Pivoting]
+	3 [label="Column Expressions"]
+	2 [label="Column Expressions"]
+	rankdir=LR
+}

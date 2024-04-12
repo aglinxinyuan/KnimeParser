@@ -1,0 +1,16 @@
+digraph {
+	2 -> 10
+	10 -> 14
+	5 -> 13
+	2 -> 16
+	2 -> 5
+	16 -> 17
+	5 [label="RDKit Fingerprint"]
+	16 [label="RDKit Fingerprint"]
+	13 [label=Cardinality]
+	14 [label=Cardinality]
+	17 [label=Cardinality]
+	2 [label="Table Reader"]
+	10 [label="RDKit Fingerprint"]
+	rankdir=LR
+}

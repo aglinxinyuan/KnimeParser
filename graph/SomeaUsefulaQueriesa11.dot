@@ -1,0 +1,18 @@
+digraph {
+	64 -> 66
+	66 -> 67
+	5 -> 13
+	5 -> 6
+	5 -> 63
+	5 -> 64
+	5 -> 57
+	5 [label="Amazon Redshift Connector"]
+	64 [label="DB Query Reader"]
+	57 [label="DB Query Reader"]
+	13 [label="DB Query Reader"]
+	66 [label="Rule Engine"]
+	67 [label=GroupBy]
+	63 [label="DB Query Reader"]
+	6 [label="DB Query Reader"]
+	rankdir=LR
+}

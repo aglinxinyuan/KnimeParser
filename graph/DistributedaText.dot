@@ -1,0 +1,21 @@
+digraph {
+	22 -> 24
+	20 -> 21
+	19 -> 20
+	19 -> 26
+	21 -> 22
+	26 -> 27
+	24 -> 25
+	25 -> 26
+	27 -> 28
+	24 [label=GroupBy]
+	27 [label="Column Aggregator"]
+	20 [label="Column Name Extractor"]
+	22 [label="Group Loop Start"]
+	28 [label="Loop End"]
+	26 [label="Column Filter"]
+	21 [label="String Manipulation"]
+	25 [label="Table Row to Variable"]
+	19 [label="Table Creator"]
+	rankdir=LR
+}

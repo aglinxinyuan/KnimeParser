@@ -1,0 +1,53 @@
+digraph {
+	53 -> 54
+	54 -> 59
+	49 -> 53
+	56 -> 61
+	59 -> 60
+	50 -> 54
+	59 -> 64
+	53 -> 50
+	59 -> 71
+	48 -> 49
+	61 -> 58
+	59 -> 63
+	66 -> 67
+	57 -> 56
+	47 -> 48
+	49 -> 61
+	61 -> 66
+	48 -> 52
+	61 -> 62
+	61 -> 65
+	52 -> 53
+	48 -> 46
+	50 -> 57
+	67 -> 68
+	71 -> 69
+	50 -> 56
+	49 -> 59
+	57 [label="Color Manager"]
+	58 [label="Scatter Plot"]
+	64 [label="Scatter Plot"]
+	49 [label="Normalizer _PMML_"]
+	56 [label="Color Appender"]
+	54 [label="Cluster Assigner"]
+	59 [label="Denormalizer _PMML_"]
+	48 [label="Missing Value"]
+	50 [label=k_Means]
+	53 [label="Reference Row Splitter"]
+	68 [label="Table View"]
+	67 [label="Column Filter"]
+	47 [label="CSV Reader"]
+	61 [label="Denormalizer _PMML_"]
+	63 [label="Scatter Plot"]
+	60 [label="CSV Writer"]
+	62 [label="Scatter Plot"]
+	66 [label=GroupBy]
+	71 [label=GroupBy]
+	65 [label="Scatter Plot"]
+	69 [label="Column Filter"]
+	46 [label=Statistics]
+	52 [label="Row Splitter"]
+	rankdir=LR
+}

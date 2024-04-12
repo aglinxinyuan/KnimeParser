@@ -1,0 +1,83 @@
+digraph {
+	23 -> 12
+	23 -> 40
+	35 -> 7
+	41 -> 43
+	34 -> 37
+	29 -> 35
+	10 -> 3
+	36 -> 32
+	39 -> 40
+	24 -> 38
+	3 -> 48
+	23 -> 37
+	40 -> 41
+	33 -> 8
+	23 -> 35
+	48 -> 23
+	23 -> 38
+	6 -> 29
+	23 -> 14
+	26 -> 31
+	38 -> 44
+	25 -> 26
+	44 -> 45
+	46 -> 47
+	30 -> 25
+	9 -> 8
+	2 -> 10
+	28 -> 5
+	31 -> 36
+	45 -> 46
+	14 -> 30
+	8 -> 34
+	28 -> 6
+	38 -> 39
+	25 -> 39
+	14 -> 33
+	33 -> 9
+	37 -> 27
+	43 -> 42
+	30 -> 26
+	9 -> 44
+	23 -> 36
+	5 -> 6
+	12 -> 28
+	27 [label="Scorer _JavaScript_"]
+	7 [label="Numeric Scorer"]
+	9 [label="Logistic Regression Learner"]
+	45 [label="Column Filter"]
+	26 [label="Decision Tree Predictor"]
+	8 [label="Logistic Regression Predictor"]
+	32 [label="Scorer _JavaScript_"]
+	3 [label="String to Number"]
+	24 [label="CSV Reader"]
+	41 [label="Column Filter"]
+	31 [label=X_Aggregator]
+	6 [label="Regression Predictor"]
+	25 [label="Decision Tree Learner"]
+	12 [label="Column Filter"]
+	10 [label="Rule Engine"]
+	48 [label="Numeric Outliers"]
+	42 [label="CSV Writer"]
+	28 [label=X_Partitioner]
+	23 [label=Normalizer]
+	47 [label="CSV Writer"]
+	14 [label="Column Filter"]
+	38 [label="Normalizer _Apply_"]
+	5 [label="Linear Regression Learner"]
+	43 [label="Column Renamer"]
+	35 [label=Denormalizer]
+	44 [label="Logistic Regression Predictor"]
+	34 [label=X_Aggregator]
+	29 [label=X_Aggregator]
+	36 [label=Denormalizer]
+	46 [label="Column Renamer"]
+	40 [label=Denormalizer]
+	39 [label="Decision Tree Predictor"]
+	33 [label=X_Partitioner]
+	30 [label=X_Partitioner]
+	2 [label="CSV Reader"]
+	37 [label=Denormalizer]
+	rankdir=LR
+}

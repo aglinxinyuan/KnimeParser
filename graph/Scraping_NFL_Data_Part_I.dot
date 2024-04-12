@@ -1,0 +1,19 @@
+digraph {
+	926 -> 927
+	932 -> 930
+	935 -> 934
+	927 -> 932
+	940 -> 935
+	934 -> 938
+	934 -> 933
+	938 [label="Excel Writer"]
+	927 [label="Webpage Retriever"]
+	930 [label="Interactive Table _legacy_"]
+	933 [label="Interactive Table _legacy_"]
+	932 [label=XPath]
+	935 [label="Webpage Retriever"]
+	940 [label="Excel Reader"]
+	926 [label="Table Creator"]
+	934 [label=XPath]
+	rankdir=LR
+}

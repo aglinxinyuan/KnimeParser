@@ -1,0 +1,16 @@
+digraph {
+	11 -> 10
+	9 -> 5
+	7 -> 5
+	9 -> 11
+	7 -> 10
+	6 -> 7
+	9 -> 6
+	5 [label="Stacked Area Chart"]
+	7 [label="Color Manager"]
+	9 [label="Table Creator"]
+	11 [label="Row Filter"]
+	6 [label="Extract Table Spec"]
+	10 [label="Bar Chart"]
+	rankdir=LR
+}

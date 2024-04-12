@@ -1,0 +1,38 @@
+digraph {
+	13 -> 15
+	24 -> 26
+	17 -> 23
+	30 -> 31
+	15 -> 16
+	31 -> 32
+	14 -> 22
+	20 -> 14
+	23 -> 25
+	29 -> 30
+	21 -> 17
+	26 -> 28
+	22 -> 21
+	16 -> 20
+	28 -> 27
+	25 -> 24
+	27 -> 29
+	16 [label="String to Date_Time"]
+	24 [label="One Row to Many"]
+	27 [label="Date_Time Shift"]
+	32 [label="Table Manipulator"]
+	13 [label="Excel Reader"]
+	20 [label=Sorter]
+	22 [label="Lag Column"]
+	29 [label="Date_Time to String"]
+	28 [label="Math Formula"]
+	31 [label="String to Date_Time"]
+	23 [label="Rule Engine"]
+	21 [label=Sorter]
+	26 [label=Rank]
+	15 [label="Column Combiner"]
+	25 [label="Double to Integer"]
+	14 [label="Lag Column"]
+	17 [label="Date_Time Difference"]
+	30 [label="String to Date_Time"]
+	rankdir=LR
+}

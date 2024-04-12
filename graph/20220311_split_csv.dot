@@ -1,0 +1,38 @@
+digraph {
+	9 -> 7
+	22 -> 6
+	12 -> 13
+	1 -> 4
+	23 -> 10
+	20 -> 21
+	6 -> 11
+	13 -> 9
+	24 -> 4
+	4 -> 22
+	17 -> 19
+	10 -> 17
+	19 -> 18
+	10 -> 20
+	21 -> 18
+	7 -> 6
+	22 -> 12
+	11 -> 23
+	24 [label="Variable Creator"]
+	20 [label="Column Filter"]
+	13 [label="Table Row to Variable"]
+	1 [label="Table Creator"]
+	7 [label="String to Path _Variable_"]
+	22 [label="Chunk Loop Start"]
+	9 [label="String Manipulation _Variable_"]
+	11 [label="Variable to Table Row"]
+	4 [label="Group Loop Start"]
+	23 [label="Loop End"]
+	18 [label="CSV Writer"]
+	21 [label="Column Resorter"]
+	6 [label="CSV Writer"]
+	12 [label="Value Counter"]
+	17 [label="String Manipulation _Variable_"]
+	10 [label="Loop End"]
+	19 [label="String to Path _Variable_"]
+	rankdir=LR
+}

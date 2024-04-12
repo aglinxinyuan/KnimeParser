@@ -1,0 +1,33 @@
+digraph {
+	233 -> 246
+	212 -> 251
+	241 -> 230
+	246 -> 253
+	254 -> 253
+	251 -> 252
+	244 -> 246
+	230 -> 231
+	240 -> 242
+	252 -> 240
+	231 -> 232
+	232 -> 233
+	212 -> 252
+	233 -> 254
+	240 -> 241
+	242 -> 244
+	231 [label="Spark Column Filter"]
+	232 [label="Spark Column Rename"]
+	233 [label="Spark Missing Value"]
+	246 [label="Spark Missing Value _Apply_"]
+	240 [label="Spark Column Filter"]
+	251 [label="DB Table Selector"]
+	242 [label="Spark Row Filter"]
+	253 [label="Spark Predictor _Classification_"]
+	244 [label="Spark Column Filter"]
+	230 [label="Spark SQL Query"]
+	241 [label="Spark Row Filter"]
+	212 [label="Create Local Big Data Environment"]
+	252 [label="Hive to Spark"]
+	254 [label="Spark Decision Tree Learner"]
+	rankdir=LR
+}

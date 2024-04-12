@@ -1,0 +1,23 @@
+digraph {
+	5 -> 17
+	16 -> 13
+	15 -> 16
+	1 -> 15
+	18 -> 4
+	5 -> 1
+	17 -> 18
+	4 -> 1
+	1 -> 14
+	14 -> 9
+	5 [label="Table Creator"]
+	16 [label="Bar Chart"]
+	13 [label="Image Writer _Port_"]
+	1 [label="CASE Switch Start"]
+	9 [label="Excel Writer"]
+	4 [label="Rule Engine Variable"]
+	18 [label="Table Row to Variable"]
+	15 [label="End IF"]
+	14 [label="End IF"]
+	17 [label="Rule Engine"]
+	rankdir=LR
+}

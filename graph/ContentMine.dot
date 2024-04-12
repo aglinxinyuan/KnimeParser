@@ -1,0 +1,41 @@
+digraph {
+	9 -> 32
+	38 -> 43
+	38 -> 39
+	44 -> 46
+	45 -> 49
+	32 -> 34
+	40 -> 41
+	39 -> 40
+	35 -> 36
+	22 -> 31
+	34 -> 35
+	47 -> 48
+	46 -> 42
+	44 -> 45
+	31 -> 37
+	41 -> 44
+	48 -> 45
+	37 -> 38
+	9 [label="List Files"]
+	49 [label="Document Viewer"]
+	41 [label="Markup Tag Filter"]
+	31 [label="HTML Parser"]
+	48 [label=XPath]
+	42 [label="Document Viewer"]
+	22 [label="List Files"]
+	47 [label="XML Reader"]
+	37 [label=XPath]
+	38 [label=XPath]
+	43 [label=XPath]
+	35 [label=XPath]
+	44 [label="Oscar Tagger"]
+	34 [label=XPath]
+	36 [label=XPath]
+	46 [label="Abner Tagger"]
+	40 [label="Strings To Document"]
+	39 [label=XPath]
+	32 [label="HTML Parser"]
+	45 [label="Dictionary Tagger"]
+	rankdir=LR
+}

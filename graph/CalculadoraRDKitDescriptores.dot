@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="Excel Reader"]
+	4 [label="Excel Writer"]
+	3 [label="RDKit Descriptor Calculation"]
+	2 [label="Molecule Type Cast"]
+	rankdir=LR
+}

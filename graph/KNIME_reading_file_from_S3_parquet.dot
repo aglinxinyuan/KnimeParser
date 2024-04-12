@@ -1,0 +1,28 @@
+digraph {
+	48 -> 139
+	141 -> 134
+	55 -> 142
+	50 -> 142
+	140 -> 141
+	2 -> 1
+	142 -> 140
+	136 -> 142
+	139 -> 142
+	138 -> 139
+	1 -> 142
+	137 -> 48
+	48 [label="Merge Variables"]
+	55 [label="String Widget"]
+	50 [label="String Widget"]
+	1 [label="Amazon S3 Connector"]
+	137 [label="String to Path _Variable_"]
+	139 [label="Merge Variables"]
+	140 [label="Table Column to Variable"]
+	136 [label="String Widget"]
+	142 [label="Transfer Files"]
+	138 [label="String to Path _Variable_"]
+	134 [label="Parquet Reader"]
+	2 [label="Amazon Authentication"]
+	141 [label="String to Path _Variable_"]
+	rankdir=LR
+}

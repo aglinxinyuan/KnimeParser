@@ -1,0 +1,35 @@
+digraph {
+	51 -> 52
+	41 -> 42
+	53 -> 54
+	31 -> 35
+	4 -> 49
+	1 -> 31
+	4 -> 55
+	52 -> 53
+	34 -> 36
+	31 -> 32
+	32 -> 4
+	42 -> 51
+	36 -> 38
+	54 -> 4
+	38 -> 42
+	35 -> 34
+	55 [label="Table View"]
+	35 [label="Extract Date_Time Fields"]
+	1 [label="Excel Reader"]
+	34 [label=GroupBy]
+	49 [label=GroupBy]
+	53 [label="Date_Time Shift"]
+	41 [label="Variable Creator"]
+	31 [label="String to Date_Time"]
+	36 [label="Math Formula"]
+	51 [label="Variable Expressions"]
+	42 [label="Merge Variables"]
+	4 [label="Binner _Dictionary_"]
+	54 [label="Extract Date_Time Fields"]
+	52 [label="Create Date_Time Range"]
+	32 [label=RowID]
+	38 [label="Table Row to Variable"]
+	rankdir=LR
+}

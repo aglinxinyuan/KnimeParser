@@ -1,0 +1,27 @@
+digraph {
+	291 -> 303
+	279 -> 283
+	290 -> 300
+	302 -> 280
+	302 -> 279
+	300 -> 289
+	281 -> 282
+	280 -> 281
+	293 -> 303
+	292 -> 289
+	279 -> 281
+	283 [label="DB Reader"]
+	292 [label="Table Reader"]
+	290 [label="CSV Reader"]
+	289 [label=Concatenate]
+	280 [label="DB Table Selector"]
+	293 [label="Table Reader"]
+	291 [label="Excel Reader"]
+	303 [label=Joiner]
+	302 [label="SQLite Connector"]
+	300 [label="Number To String"]
+	279 [label="DB Table Selector"]
+	282 [label="DB Reader"]
+	281 [label="DB Joiner"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	178 -> 170
+	160 -> 178
+	175 -> 170
+	107 -> 177
+	170 -> 179
+	170 -> 180
+	160 -> 177
+	175 [label="H2O MOJO Reader"]
+	170 [label="Snowflake H2O MOJO Predictor _Classification_"]
+	107 [label="CSV Reader"]
+	179 [label="DB Connection Table Writer"]
+	180 [label="DB Reader"]
+	178 [label="DB Table Selector"]
+	177 [label="DB Writer"]
+	160 [label="Snowflake Connector"]
+	rankdir=LR
+}

@@ -1,0 +1,60 @@
+digraph {
+	66 -> 68
+	26 -> 57
+	78 -> 66
+	62 -> 34
+	66 -> 76
+	57 -> 58
+	56 -> 61
+	59 -> 60
+	73 -> 40
+	63 -> 64
+	73 -> 2
+	76 -> 74
+	58 -> 62
+	55 -> 56
+	68 -> 74
+	73 -> 26
+	40 -> 56
+	26 -> 64
+	2 -> 59
+	66 -> 67
+	26 -> 58
+	33 -> 57
+	60 -> 36
+	64 -> 65
+	40 -> 55
+	75 -> 76
+	67 -> 68
+	66 -> 75
+	34 -> 63
+	2 -> 60
+	74 -> 71
+	57 [label="Random Forest Learner"]
+	55 [label="Random Forest Learner"]
+	26 [label=Partitioning]
+	58 [label="Random Forest Predictor"]
+	74 [label="Column Appender"]
+	78 [label="Table Reader"]
+	64 [label="Random Forest Learner"]
+	56 [label="Random Forest Predictor"]
+	75 [label="Decision Tree Learner"]
+	59 [label="Random Forest Learner"]
+	68 [label="Random Forest Predictor"]
+	67 [label="Random Forest Learner"]
+	63 [label="Table Row to Variable"]
+	61 [label=Scorer]
+	76 [label="Decision Tree Predictor"]
+	73 [label="Table Reader"]
+	60 [label="Random Forest Predictor"]
+	34 [label="Parameter Optimization Loop End"]
+	62 [label=Scorer]
+	66 [label=Partitioning]
+	65 [label="Model Writer"]
+	36 [label=X_Aggregator]
+	71 [label="Binary Classification Inspector"]
+	40 [label=Partitioning]
+	33 [label="Parameter Optimization Loop Start"]
+	2 [label=X_Partitioner]
+	rankdir=LR
+}

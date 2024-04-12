@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	2 -> 5
+	5 -> 4
+	1 -> 2
+	5 [label="Color Manager"]
+	1 [label="CSV Reader"]
+	4 [label="Bar Chart"]
+	3 [label="Data to Report"]
+	2 [label=Pivoting]
+	rankdir=LR
+}

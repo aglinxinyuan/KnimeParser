@@ -1,0 +1,24 @@
+digraph {
+	10 -> 12
+	3 -> 7
+	8 -> 9
+	3 -> 8
+	7 -> 11
+	2 -> 4
+	3 -> 5
+	7 -> 12
+	2 -> 3
+	10 -> 11
+	7 -> 10
+	5 [label=Denormalizer]
+	7 [label="Distance Matrix Calculate"]
+	9 [label="Value Counter"]
+	11 [label="Hierarchical Cluster View"]
+	4 [label=Histogram]
+	10 [label="Hierarchical Clustering _DistMatrix_"]
+	8 [label=k_Means]
+	3 [label=Normalizer]
+	2 [label="Excel Reader"]
+	12 [label="Hierarchical Cluster Assigner _local_"]
+	rankdir=LR
+}

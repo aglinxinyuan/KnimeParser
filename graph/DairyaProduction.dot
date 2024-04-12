@@ -1,0 +1,23 @@
+digraph {
+	11 -> 15
+	20 -> 21
+	7 -> 11
+	20 -> 19
+	11 -> 14
+	11 -> 17
+	18 -> 20
+	17 -> 16
+	17 -> 18
+	16 -> 18
+	16 [label="XGBoost Tree Ensemble Learner _Regression_"]
+	20 [label="Double To Int"]
+	7 [label="Excel Reader"]
+	11 [label="Column Filter"]
+	18 [label="XGBoost Predictor _Regression_"]
+	21 [label="Math Formula"]
+	15 [label="Scatter Plot"]
+	14 [label="Linear Correlation"]
+	17 [label=Partitioning]
+	19 [label=Scorer]
+	rankdir=LR
+}

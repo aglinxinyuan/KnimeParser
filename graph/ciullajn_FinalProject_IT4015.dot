@@ -1,0 +1,25 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	9 -> 11
+	1 -> 5
+	9 -> 13
+	1 -> 2
+	9 -> 10
+	10 -> 12
+	1 -> 3
+	6 -> 8
+	5 [label="Column Expressions"]
+	13 [label="Data to Report"]
+	1 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	9 [label=GroupBy]
+	11 [label="Pie_Donut Chart"]
+	6 [label="CSV Reader"]
+	8 [label=Joiner]
+	12 [label="Image to Report"]
+	3 [label="Row Filter"]
+	2 [label="Row Filter"]
+	10 [label="Bar Chart"]
+	rankdir=LR
+}

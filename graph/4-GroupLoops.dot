@@ -1,0 +1,28 @@
+digraph {
+	14 -> 5
+	18 -> 19
+	10 -> 19
+	19 -> 14
+	21 -> 14
+	15 -> 16
+	22 -> 14
+	23 -> 14
+	17 -> 18
+	9 -> 10
+	19 -> 15
+	5 -> 9
+	16 -> 17
+	5 [label="String to Date_Time"]
+	16 [label="Moving Average"]
+	22 [label="Table Reader"]
+	9 [label="Modify Time"]
+	23 [label="Table Reader"]
+	21 [label="Table Reader"]
+	18 [label=Pivoting]
+	15 [label="Group Loop Start"]
+	14 [label=Concatenate]
+	17 [label="Loop End"]
+	10 [label=GroupBy]
+	19 [label=Sorter]
+	rankdir=LR
+}

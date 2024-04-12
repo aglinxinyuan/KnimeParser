@@ -1,0 +1,14 @@
+digraph {
+	9 -> 7
+	10 -> 13
+	8 -> 9
+	13 -> 14
+	7 -> 10
+	13 [label=Pivot]
+	7 [label="Date_Time_based Row Filter"]
+	9 [label="Modify Time"]
+	8 [label="CSV Reader"]
+	14 [label="Line Plot"]
+	10 [label="Extract Date_Time Fields"]
+	rankdir=LR
+}

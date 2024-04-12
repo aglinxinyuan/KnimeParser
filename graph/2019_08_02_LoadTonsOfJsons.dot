@@ -1,0 +1,14 @@
+digraph {
+	7 -> 8
+	5 -> 4
+	2 -> 7
+	2 -> 5
+	4 -> 6
+	5 [label="Table Row To Variable Loop Start"]
+	7 [label="Load text_based files"]
+	4 [label="JSON Reader"]
+	6 [label="Loop End"]
+	8 [label="String to JSON"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

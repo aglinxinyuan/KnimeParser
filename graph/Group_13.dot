@@ -1,0 +1,55 @@
+digraph {
+	20 -> 21
+	1 -> 31
+	36 -> 21
+	38 -> 22
+	35 -> 18
+	3 -> 35
+	27 -> 28
+	1 -> 25
+	1 -> 29
+	26 -> 27
+	17 -> 18
+	25 -> 26
+	14 -> 15
+	33 -> 15
+	21 -> 38
+	28 -> 3
+	3 -> 33
+	18 -> 37
+	35 -> 17
+	33 -> 14
+	36 -> 20
+	34 -> 16
+	3 -> 36
+	1 -> 30
+	15 -> 34
+	1 -> 32
+	37 -> 19
+	27 [label="Math Formula"]
+	18 [label="Gradient Boosted Trees Predictor"]
+	21 [label="SVM Predictor"]
+	26 [label="Date_Time Difference"]
+	17 [label="Gradient Boosted Trees Learner"]
+	3 [label="Missing Value"]
+	19 [label=Scorer]
+	31 [label="Box Plot"]
+	15 [label="Random Forest Predictor"]
+	25 [label="String to Date_Time"]
+	16 [label=Scorer]
+	30 [label="Extract Table Spec"]
+	1 [label="CSV Reader"]
+	22 [label=Scorer]
+	28 [label="Column Filter"]
+	14 [label="Random Forest Learner"]
+	38 [label=X_Aggregator]
+	20 [label="SVM Learner"]
+	35 [label=X_Partitioner]
+	34 [label=X_Aggregator]
+	29 [label=Statistics]
+	36 [label=X_Partitioner]
+	33 [label=X_Partitioner]
+	32 [label="Bar Chart"]
+	37 [label=X_Aggregator]
+	rankdir=LR
+}

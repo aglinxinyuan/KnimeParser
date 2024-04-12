@@ -1,0 +1,26 @@
+digraph {
+	17 -> 12
+	6 -> 16
+	12 -> 13
+	19 -> 9
+	6 -> 14
+	18 -> 9
+	14 -> 17
+	20 -> 6
+	14 -> 15
+	17 -> 11
+	9 -> 6
+	16 [label=Statistics]
+	13 [label="CSV Writer"]
+	20 [label="File Reader"]
+	9 [label=Joiner]
+	11 [label="Table Writer"]
+	18 [label="File Reader"]
+	6 [label=Joiner]
+	15 [label=Statistics]
+	14 [label="Row Sampling"]
+	17 [label="Number To String"]
+	12 [label="Row Filter"]
+	19 [label="File Reader"]
+	rankdir=LR
+}

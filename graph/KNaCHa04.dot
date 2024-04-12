@@ -1,0 +1,14 @@
+digraph {
+	3 -> 4
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	4 -> 6
+	1 [label="CSV Reader"]
+	7 [label="Table Manipulator"]
+	4 [label="Lag Column"]
+	6 [label="Column Expressions"]
+	3 [label=Sorter]
+	2 [label="String to Date_Time"]
+	rankdir=LR
+}

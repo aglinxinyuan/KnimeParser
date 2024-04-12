@@ -1,0 +1,23 @@
+digraph {
+	9 -> 7
+	3 -> 2
+	5 -> 4
+	1 -> 10
+	5 -> 1
+	7 -> 1
+	2 -> 5
+	6 -> 9
+	10 -> 11
+	4 -> 6
+	5 [label="Chunk Loop Start"]
+	1 [label="Image Resizer"]
+	7 [label="Table Row to Variable"]
+	9 [label="Math Formula"]
+	11 [label="Image Viewer"]
+	4 [label=Ungroup]
+	6 [label=Sorter]
+	3 [label="Image Generator"]
+	2 [label="Image Properties"]
+	10 [label="Loop End"]
+	rankdir=LR
+}

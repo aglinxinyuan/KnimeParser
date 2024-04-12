@@ -1,0 +1,23 @@
+digraph {
+	3 -> 9
+	6 -> 4
+	7 -> 5
+	3 -> 7
+	9 -> 11
+	11 -> 8
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	5 [label="Data to Report"]
+	1 [label="Table Creator"]
+	7 [label=Joiner]
+	9 [label="Java Snippet"]
+	11 [label="Column to Grid"]
+	4 [label="Data to Report"]
+	6 [label=Sorter]
+	8 [label="Data to Report"]
+	3 [label="Extract Color"]
+	2 [label="Color Manager"]
+	rankdir=LR
+}

@@ -1,0 +1,51 @@
+digraph {
+	41 -> 42
+	6 -> 5
+	7 -> 16
+	4 -> 5
+	38 -> 36
+	42 -> 43
+	3 -> 34
+	34 -> 35
+	12 -> 18
+	17 -> 37
+	6 -> 4
+	18 -> 17
+	35 -> 31
+	20 -> 17
+	39 -> 38
+	42 -> 39
+	37 -> 38
+	5 -> 7
+	4 -> 40
+	2 -> 20
+	12 -> 6
+	2 -> 35
+	20 -> 42
+	17 -> 19
+	3 -> 12
+	7 [label=X_Aggregator]
+	18 [label="Decision Tree Learner"]
+	17 [label="Decision Tree Predictor"]
+	3 [label="CSV Reader"]
+	19 [label=Scorer]
+	41 [label="Model Reader"]
+	31 [label="Numeric Scorer"]
+	6 [label=X_Partitioner]
+	12 [label="Number To String"]
+	16 [label=Scorer]
+	42 [label="Decision Tree Predictor"]
+	4 [label="Decision Tree Learner"]
+	38 [label="Column Appender"]
+	5 [label="Decision Tree Predictor"]
+	20 [label="Number To String"]
+	35 [label="Simple Regression Tree Predictor"]
+	43 [label=Scorer]
+	34 [label="Simple Regression Tree Learner"]
+	36 [label="ROC Curve _local_"]
+	40 [label="Model Writer"]
+	39 [label="Column Filter"]
+	2 [label="CSV Reader"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

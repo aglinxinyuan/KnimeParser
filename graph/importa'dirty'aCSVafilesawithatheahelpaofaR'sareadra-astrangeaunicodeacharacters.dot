@@ -1,0 +1,48 @@
+digraph {
+	29 -> 34
+	29 -> 37
+	31 -> 35
+	37 -> 36
+	23 -> 29
+	28 -> 20
+	1 -> 36
+	18 -> 19
+	30 -> 33
+	37 -> 35
+	37 -> 26
+	29 -> 32
+	19 -> 23
+	16 -> 18
+	28 -> 30
+	15 -> 17
+	29 -> 25
+	28 -> 1
+	20 -> 26
+	37 -> 33
+	20 -> 38
+	19 -> 20
+	19 -> 28
+	17 -> 16
+	18 [label=Sorter]
+	26 [label="Table Writer"]
+	32 [label="Java Edit Variable _simple_"]
+	17 [label="String to URI"]
+	19 [label="Row Filter"]
+	31 [label="CSV Reader _Labs_ "]
+	15 [label="List Files"]
+	25 [label="Java Edit Variable _simple_"]
+	16 [label="File Meta Info"]
+	1 [label="File Reader"]
+	28 [label="Table Row to Variable"]
+	23 [label="URL to File Path"]
+	38 [label="CSV Writer _Labs_"]
+	20 [label="R Snippet"]
+	35 [label="Table Writer"]
+	34 [label="Java Edit Variable _simple_"]
+	29 [label="Table Row to Variable"]
+	36 [label="Table Writer"]
+	33 [label="Table Writer"]
+	30 [label="CSV Reader"]
+	37 [label="Java Edit Variable _simple_"]
+	rankdir=LR
+}

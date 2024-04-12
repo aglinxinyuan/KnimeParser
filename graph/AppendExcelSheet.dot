@@ -1,0 +1,24 @@
+digraph {
+	3077 -> 3081
+	3064 -> 3065
+	3076 -> 3077
+	3083 -> 3078
+	1 -> 3066
+	3065 -> 3080
+	3082 -> 3081
+	3081 -> 3078
+	3078 -> 3066
+	3080 -> 3082
+	3083 [label="KNIME Server Connection"]
+	3066 [label="Excel Sheet Appender _XLS_"]
+	3064 [label="Create Temp Dir"]
+	3078 [label="Download _ Upload from List"]
+	1 [label="Table Creator"]
+	3081 [label="Column Appender"]
+	3080 [label="Variable to Table Row"]
+	3077 [label="String to URI"]
+	3065 [label="Create File Name"]
+	3082 [label="String to URI"]
+	3076 [label="Table Creator"]
+	rankdir=LR
+}

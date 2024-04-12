@@ -1,0 +1,16 @@
+digraph {
+	5 -> 4
+	1 -> 10
+	6 -> 10
+	4 -> 11
+	4 -> 1
+	10 -> 11
+	4 -> 6
+	5 [label="Google Authentication"]
+	1 [label="Google Sheets Reader"]
+	11 [label="Google Sheets Writer"]
+	4 [label="Google Sheets Connection"]
+	6 [label="Google Sheets Reader"]
+	10 [label=Joiner]
+	rankdir=LR
+}

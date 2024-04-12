@@ -1,0 +1,60 @@
+digraph {
+	13 -> 14
+	21 -> 25
+	17 -> 20
+	22 -> 27
+	23 -> 28
+	3 -> 7
+	21 -> 41
+	33 -> 40
+	31 -> 32
+	30 -> 31
+	19 -> 39
+	18 -> 22
+	14 -> 15
+	17 -> 18
+	19 -> 23
+	17 -> 21
+	29 -> 31
+	20 -> 24
+	15 -> 16
+	7 -> 13
+	27 -> 31
+	28 -> 31
+	25 -> 30
+	18 -> 42
+	32 -> 33
+	24 -> 29
+	17 -> 19
+	3 -> 17
+	20 -> 43
+	16 -> 17
+	27 [label="Column Rename"]
+	7 [label="Column Filter"]
+	18 [label="R to Table"]
+	21 [label="R to Table"]
+	32 [label="Column Resorter"]
+	17 [label="Table to R"]
+	3 [label="Excel Reader _XLS_"]
+	19 [label="R to Table"]
+	24 [label="Column Filter"]
+	41 [label="Excel Sheet Appender _XLS_"]
+	31 [label=Concatenate]
+	15 [label="Math Formula"]
+	25 [label="Column Filter"]
+	16 [label="Table Row to Variable"]
+	42 [label="Excel Sheet Appender _XLS_"]
+	22 [label="Column Filter"]
+	28 [label="Column Rename"]
+	23 [label="Column Filter"]
+	14 [label="Math Formula"]
+	13 [label="Extract Table Dimension"]
+	20 [label="R to Table"]
+	43 [label="Excel Sheet Appender _XLS_"]
+	29 [label="Column Rename"]
+	40 [label="Excel Sheet Appender _XLS_"]
+	39 [label="Excel Sheet Appender _XLS_"]
+	33 [label=Sorter]
+	30 [label="Column Rename"]
+	rankdir=LR
+}

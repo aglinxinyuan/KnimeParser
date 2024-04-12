@@ -1,0 +1,17 @@
+digraph {
+	14 -> 5
+	5 -> 4
+	4 -> 17
+	18 -> 17
+	4 -> 12
+	10 -> 4
+	5 -> 10
+	5 [label=Partitioning]
+	14 [label="CSV Reader"]
+	4 [label="Decision Tree Predictor"]
+	18 [label="Microsoft Authenticator"]
+	12 [label=Scorer]
+	17 [label="Send to Power BI"]
+	10 [label="Decision Tree Learner"]
+	rankdir=LR
+}

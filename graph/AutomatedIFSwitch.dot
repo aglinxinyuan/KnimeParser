@@ -1,0 +1,19 @@
+digraph {
+	24 -> 28
+	23 -> 27
+	29 -> 25
+	25 -> 23
+	27 -> 26
+	28 -> 26
+	25 -> 24
+	26 -> 19
+	24 [label=Auto_Binner]
+	27 [label="Column Rename"]
+	29 [label="CSV Reader"]
+	28 [label="Column Rename"]
+	23 [label=Auto_Binner]
+	26 [label="End IF"]
+	25 [label="IF Switch"]
+	19 [label=GroupBy]
+	rankdir=LR
+}

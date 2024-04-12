@@ -1,0 +1,19 @@
+digraph {
+	8 -> 6
+	2 -> 13
+	12 -> 14
+	2 -> 8
+	1 -> 2
+	6 -> 7
+	14 -> 6
+	13 -> 12
+	13 [label="Rule Engine"]
+	1 [label="Excel Reader"]
+	7 [label="Variable Loop End"]
+	6 [label="Excel Writer"]
+	8 [label="String Manipulation _Variable_"]
+	14 [label=Sorter]
+	2 [label="Group Loop Start"]
+	12 [label="Row Aggregator"]
+	rankdir=LR
+}

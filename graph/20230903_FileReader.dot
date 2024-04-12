@@ -1,0 +1,25 @@
+digraph {
+	9 -> 7
+	11 -> 10
+	12 -> 13
+	8 -> 10
+	9 -> 11
+	2 -> 6
+	8 -> 7
+	2 -> 3
+	2 -> 5
+	2 -> 4
+	5 [label="Duplicate Row Filter"]
+	13 [label="Rule_based Row Filter"]
+	7 [label="Reference Row Filter"]
+	9 [label="Excel Reader"]
+	11 [label=GroupBy]
+	4 [label="Nominal Value Row Filter"]
+	6 [label="Duplicate Row Filter"]
+	8 [label="Excel Reader"]
+	12 [label="Excel Reader"]
+	3 [label="Nominal Value Row Splitter"]
+	2 [label="Excel Reader"]
+	10 [label="Reference Row Filter"]
+	rankdir=LR
+}

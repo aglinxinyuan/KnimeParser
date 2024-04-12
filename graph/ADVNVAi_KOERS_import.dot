@@ -1,0 +1,18 @@
+digraph {
+	348 -> 349
+	354 -> 355
+	350 -> 351
+	349 -> 350
+	351 -> 354
+	347 -> 348
+	355 -> 356
+	351 [label="Constant Value Column"]
+	350 [label="Constant Value Column"]
+	355 [label="Column Resorter"]
+	354 [label="String Manipulation"]
+	356 [label="CSV Writer"]
+	349 [label="JSON Path"]
+	348 [label="MongoDB Reader"]
+	347 [label="MongoDB Connector"]
+	rankdir=LR
+}

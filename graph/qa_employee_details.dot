@@ -1,0 +1,68 @@
+digraph {
+	153 -> 155
+	103 -> 151
+	150 -> 160
+	154 -> 161
+	159 -> 157
+	173 -> 174
+	155 -> 154
+	142 -> 143
+	162 -> 165
+	160 -> 159
+	103 -> 124
+	162 -> 166
+	166 -> 169
+	158 -> 157
+	103 -> 140
+	140 -> 142
+	150 -> 171
+	103 -> 110
+	168 -> 167
+	157 -> 162
+	140 -> 173
+	143 -> 141
+	169 -> 170
+	174 -> 175
+	124 -> 150
+	141 -> 154
+	146 -> 172
+	169 -> 168
+	161 -> 158
+	110 -> 116
+	116 -> 143
+	116 -> 146
+	172 -> 175
+	151 -> 153
+	170 [label=GroupBy]
+	165 [label=GroupBy]
+	167 [label="Python Script _1_1_"]
+	103 [label="Microsoft SQL Server Connector"]
+	169 [label="Rule Engine"]
+	153 [label="DB Reader"]
+	162 [label="Rule Engine"]
+	151 [label="DB Table Selector"]
+	168 [label="Column Filter"]
+	161 [label="Rule Engine"]
+	154 [label=Joiner]
+	110 [label="DB Table Selector"]
+	146 [label="DB GroupBy"]
+	171 [label=GroupBy]
+	141 [label="DB Reader"]
+	166 [label="Rule Engine"]
+	150 [label="DB Reader"]
+	173 [label="DB GroupBy"]
+	143 [label="DB Joiner"]
+	142 [label="DB Row Filter"]
+	158 [label="Rule Engine"]
+	174 [label="DB Reader"]
+	124 [label="DB Table Selector"]
+	172 [label="DB Reader"]
+	159 [label="Column Rename"]
+	160 [label=GroupBy]
+	175 [label=Joiner]
+	140 [label="DB Table Selector"]
+	157 [label=Joiner]
+	116 [label="DB Row Filter"]
+	155 [label="Column Rename"]
+	rankdir=LR
+}

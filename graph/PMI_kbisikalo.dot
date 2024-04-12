@@ -1,0 +1,26 @@
+digraph {
+	15 -> 7
+	22 -> 24
+	24 -> 19
+	38 -> 35
+	35 -> 36
+	7 -> 13
+	19 -> 15
+	1 -> 38
+	25 -> 23
+	23 -> 22
+	36 -> 25
+	24 [label="Principal Moment of Intertia _PMI__Derived Properties"]
+	13 [label="Image Writer _Port_"]
+	35 [label="RDKit Canon SMILES"]
+	1 [label="SDF Reader"]
+	7 [label="PMI Triangle Scatter Plot"]
+	22 [label="RDKit Optimize Geometry"]
+	36 [label="Molecule Type Cast"]
+	23 [label="RDKit Add Hs"]
+	15 [label="Color Manager"]
+	25 [label="RDKit Salt Stripper"]
+	38 [label="Rule_based Row Splitter"]
+	19 [label="RDKit Descriptor Calculation"]
+	rankdir=LR
+}

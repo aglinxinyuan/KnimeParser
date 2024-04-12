@@ -1,0 +1,22 @@
+digraph {
+	137 -> 143
+	156 -> 158
+	149 -> 155
+	160 -> 137
+	158 -> 159
+	159 -> 137
+	143 -> 147
+	157 -> 158
+	147 -> 149
+	137 [label="DB Table Creator"]
+	157 [label="CSV Reader"]
+	156 [label="Excel Reader"]
+	143 [label="DB Loader"]
+	158 [label=Joiner]
+	155 [label="Bar Chart"]
+	147 [label="DB GroupBy"]
+	159 [label="Numeric Binner"]
+	149 [label="DB Reader"]
+	160 [label="Snowflake Connector"]
+	rankdir=LR
+}

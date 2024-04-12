@@ -1,0 +1,30 @@
+digraph {
+	11 -> 10
+	60 -> 7
+	10 -> 23
+	24 -> 15
+	23 -> 24
+	42 -> 53
+	15 -> 17
+	53 -> 60
+	17 -> 20
+	9 -> 10
+	19 -> 15
+	20 -> 18
+	7 -> 9
+	24 [label="Case Converter"]
+	20 [label="Tag Filter"]
+	7 [label="POS Tagger"]
+	42 [label="Table Creator"]
+	53 [label="RSS Feed Reader"]
+	9 [label="StanfordNLP NE Tagger"]
+	23 [label="Punctuation Erasure"]
+	11 [label="Table Creator"]
+	18 [label="Tagged Document Viewer"]
+	15 [label="Stop Word Filter"]
+	17 [label="Tag Filter"]
+	60 [label="Column Filter"]
+	10 [label="Wildcard Tagger"]
+	19 [label="Table Creator"]
+	rankdir=LR
+}

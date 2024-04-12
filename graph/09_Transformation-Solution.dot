@@ -1,0 +1,15 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	6 -> 10
+	1 -> 2
+	2 -> 3
+	5 [label="String Manipulation"]
+	1 [label="File Reader"]
+	4 [label="Math Formula"]
+	6 [label="File Reader"]
+	3 [label="Rule Engine"]
+	2 [label="Rule Engine"]
+	10 [label="Column Expressions"]
+	rankdir=LR
+}

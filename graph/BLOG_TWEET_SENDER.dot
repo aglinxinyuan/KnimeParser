@@ -1,0 +1,29 @@
+digraph {
+	1022 -> 1030
+	1030 -> 1027
+	2 -> 1
+	1030 -> 1028
+	38 -> 1031
+	1026 -> 1022
+	1 -> 1026
+	11 -> 1026
+	1027 -> 1025
+	1025 -> 38
+	10 -> 11
+	37 -> 38
+	1028 -> 1025
+	1030 [label="Group Loop Start"]
+	1028 [label="Table Column to Variable"]
+	1 [label="RSS Feed Reader"]
+	1022 [label="Column Filter"]
+	38 [label="Twitter Post Tweet"]
+	1026 [label="Rule_based Row Filter"]
+	11 [label="Table Row to Variable"]
+	1025 [label="Merge Variables"]
+	1027 [label="Table Column to Variable"]
+	37 [label="Twitter API Connector"]
+	2 [label="Table Creator"]
+	10 [label="Create Date_Time Range"]
+	1031 [label="Loop End"]
+	rankdir=LR
+}

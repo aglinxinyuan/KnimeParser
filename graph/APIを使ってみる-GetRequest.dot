@@ -1,0 +1,12 @@
+digraph {
+	40 -> 41
+	41 -> 39
+	38 -> 40
+	35 -> 38
+	35 [label="Table Creator"]
+	41 [label="String to JSON"]
+	40 [label="GET Request"]
+	39 [label="JSON to Table"]
+	38 [label="String Manipulation"]
+	rankdir=LR
+}

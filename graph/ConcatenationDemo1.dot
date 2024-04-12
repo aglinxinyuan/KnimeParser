@@ -1,0 +1,15 @@
+digraph {
+	1 -> 4
+	4 -> 5
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	5 [label="Row Filter"]
+	1 [label="File Reader"]
+	4 [label="Row Filter"]
+	6 [label=Concatenate]
+	3 [label="Row Filter"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

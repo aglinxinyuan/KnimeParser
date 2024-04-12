@@ -1,0 +1,14 @@
+digraph {
+	1 -> 3
+	4 -> 5
+	3 -> 4
+	7 -> 6
+	5 -> 7
+	5 [label="Math Formula"]
+	1 [label="Excel Reader"]
+	7 [label="Column Renamer"]
+	4 [label="Cell Splitter"]
+	6 [label="Bar Chart"]
+	3 [label="Row Filter"]
+	rankdir=LR
+}

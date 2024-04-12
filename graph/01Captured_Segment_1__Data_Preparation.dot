@@ -1,0 +1,14 @@
+digraph {
+	332 -> 910
+	910 -> 882
+	911 -> 332
+	308 -> 912
+	882 -> 308
+	308 [label="Strings To Document"]
+	910 [label=RowID]
+	911 [label="Workflow Service Input"]
+	912 [label="Workflow Service Output"]
+	332 [label="Duplicate Row Filter"]
+	882 [label="Column Filter"]
+	rankdir=LR
+}

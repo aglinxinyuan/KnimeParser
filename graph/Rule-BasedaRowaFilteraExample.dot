@@ -1,0 +1,10 @@
+digraph {
+	8 -> 3
+	8 -> 1
+	8 -> 4
+	1 [label="Rule_based Row Filter"]
+	4 [label="Rule_based Row Filter"]
+	3 [label="Rule_based Row Filter"]
+	8 [label="Table Reader"]
+	rankdir=LR
+}

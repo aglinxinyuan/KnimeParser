@@ -1,0 +1,53 @@
+digraph {
+	281 -> 272
+	3 -> 2
+	272 -> 278
+	34 -> 277
+	36 -> 33
+	282 -> 276
+	33 -> 260
+	18 -> 19
+	260 -> 32
+	1 -> 262
+	278 -> 282
+	33 -> 34
+	281 -> 274
+	1 -> 274
+	7 -> 18
+	276 -> 276
+	35 -> 36
+	6 -> 7
+	274 -> 273
+	273 -> 281
+	262 -> 3
+	283 -> 272
+	5 -> 6
+	35 -> 34
+	2 -> 5
+	19 -> 35
+	7 [label=Sorter]
+	18 [label="Python Script"]
+	3 [label="String to Date_Time"]
+	19 [label="Python Script"]
+	283 [label="Row Filter"]
+	277 [label="Scorer _JavaScript_"]
+	6 [label="Rule Engine"]
+	282 [label="Shape Manager"]
+	281 [label="Excel Reader"]
+	260 [label="Gradient Boosted Trees to PMML"]
+	274 [label="String To Number"]
+	262 [label="Missing Value"]
+	1 [label="CSV Reader"]
+	272 [label=Joiner]
+	278 [label="Color Manager"]
+	5 [label="Rule Engine"]
+	35 [label=Partitioning]
+	34 [label="Gradient Boosted Trees Predictor"]
+	36 [label="Equal Size Sampling"]
+	276 [label="OSM Map View"]
+	273 [label=GroupBy]
+	33 [label="Gradient Boosted Trees Learner"]
+	32 [label="PMML Writer"]
+	2 [label="Extract Date_Time Fields"]
+	rankdir=LR
+}

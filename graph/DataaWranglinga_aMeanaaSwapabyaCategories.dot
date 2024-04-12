@@ -1,0 +1,45 @@
+digraph {
+	42 -> 43
+	29 -> 42
+	34 -> 35
+	30 -> 32
+	34 -> 38
+	29 -> 21
+	43 -> 45
+	32 -> 35
+	45 -> 34
+	46 -> 47
+	33 -> 44
+	21 -> 46
+	41 -> 40
+	21 -> 30
+	39 -> 31
+	32 -> 33
+	37 -> 39
+	44 -> 34
+	38 -> 31
+	35 -> 37
+	31 -> 41
+	32 -> 45
+	47 -> 30
+	45 [label=Joiner]
+	21 [label=Rank]
+	41 [label="Column Filter"]
+	31 [label="Recursive Loop End"]
+	30 [label="Recursive Loop Start"]
+	42 [label=GroupBy]
+	47 [label="Table Row to Variable"]
+	38 [label=RowID]
+	43 [label="Column Rename"]
+	35 [label=Joiner]
+	44 [label="Column Rename"]
+	34 [label=Joiner]
+	29 [label="Table Creator"]
+	46 [label=GroupBy]
+	40 [label=Sorter]
+	39 [label=RowID]
+	33 [label=GroupBy]
+	32 [label="Row Splitter"]
+	37 [label="Math Formula"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	9 -> 7
+	11 -> 10
+	7 -> 8
+	7 -> 11
+	3 -> 4
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	8 -> 5
+	9 -> 6
+	4 -> 9
+	5 [label="Bar Chart"]
+	1 [label="Google Authentication"]
+	7 [label=GroupBy]
+	9 [label="String To Number"]
+	11 [label=Sorter]
+	4 [label="Rule Engine"]
+	6 [label="Google Sheets Writer"]
+	8 [label=Sorter]
+	3 [label="Google Sheets Reader"]
+	2 [label="Google Sheets Connection"]
+	10 [label="Bar Chart"]
+	rankdir=LR
+}

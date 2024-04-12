@@ -1,0 +1,16 @@
+digraph {
+	230 -> 231
+	229 -> 230
+	231 -> 235
+	231 -> 234
+	231 -> 232
+	231 -> 233
+	231 [label="DB Reader"]
+	232 [label="Data Explorer"]
+	233 [label="Sunburst Chart"]
+	229 [label="Microsoft SQL Server Connector"]
+	235 [label="Crosstab _local_"]
+	230 [label="DB Table Selector"]
+	234 [label=Statistics]
+	rankdir=LR
+}

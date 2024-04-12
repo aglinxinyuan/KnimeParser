@@ -1,0 +1,20 @@
+digraph {
+	6 -> 4
+	3 -> 5
+	8 -> 3
+	7 -> 6
+	9 -> 10
+	2 -> 8
+	5 -> 7
+	4 -> 9
+	5 [label="Counting Loop Start"]
+	7 [label=Concatenate]
+	9 [label="Benchmark End"]
+	4 [label="Recursive Loop End"]
+	8 [label="Benchmark Start"]
+	6 [label="Loop End"]
+	3 [label="Recursive Loop Start"]
+	2 [label="Table Creator"]
+	10 [label=Ungroup]
+	rankdir=LR
+}

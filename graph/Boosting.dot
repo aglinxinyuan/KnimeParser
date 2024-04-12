@@ -1,0 +1,12 @@
+digraph {
+	11 -> 10
+	1 -> 11
+	11 -> 4
+	1 -> 10
+	10 -> 4
+	1 [label="Boosting Learner Loop Start"]
+	4 [label="Boosting Learner Loop End"]
+	11 [label="Naive Bayes Learner"]
+	10 [label="Naive Bayes Predictor"]
+	rankdir=LR
+}

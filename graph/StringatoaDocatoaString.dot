@@ -1,0 +1,16 @@
+digraph {
+	7 -> 8
+	3 -> 6
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	7 -> 9
+	7 [label="Stop Word Filter"]
+	9 [label="Sentence Extractor"]
+	6 [label="Strings To Document"]
+	8 [label="Document Viewer"]
+	3 [label=GroupBy]
+	2 [label="Random Data Generator"]
+	10 [label=GroupBy]
+	rankdir=LR
+}

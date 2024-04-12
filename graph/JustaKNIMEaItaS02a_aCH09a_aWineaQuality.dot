@@ -1,0 +1,115 @@
+digraph {
+	42 -> 44
+	13 -> 35
+	41 -> 42
+	15 -> 14
+	14 -> 16
+	2205 -> 2209
+	2211 -> 2208
+	42 -> 43
+	57 -> 58
+	3 -> 35
+	2210 -> 2203
+	55 -> 35
+	17 -> 35
+	51 -> 38
+	12 -> 13
+	56 -> 48
+	52 -> 58
+	54 -> 55
+	2210 -> 2202
+	2203 -> 2209
+	58 -> 26
+	25 -> 26
+	11 -> 12
+	10 -> 11
+	45 -> 35
+	49 -> 45
+	2204 -> 2211
+	56 -> 57
+	46 -> 47
+	22 -> 24
+	44 -> 51
+	47 -> 50
+	2208 -> 2205
+	8 -> 22
+	16 -> 21
+	2 -> 15
+	16 -> 9
+	58 -> 56
+	1 -> 10
+	35 -> 36
+	43 -> 49
+	12 -> 17
+	24 -> 58
+	52 -> 59
+	48 -> 52
+	50 -> 59
+	26 -> 2
+	2202 -> 2207
+	52 -> 57
+	36 -> 44
+	13 -> 2
+	3 -> 25
+	9 -> 2204
+	9 -> 2210
+	21 -> 9
+	2207 -> 2208
+	55 -> 8
+	52 -> 46
+	52 -> 56
+	57 -> 55
+	38 -> 54
+	59 -> 56
+	38 -> 45
+	1 -> 3
+	57 [label=Transpose]
+	55 [label="Column Rename"]
+	9 [label="Recursive Loop End"]
+	21 [label="Column Filter"]
+	26 [label="Column Appender"]
+	58 [label="Column Filter"]
+	8 [label="Recursive Loop Start"]
+	17 [label="Column Rename"]
+	3 [label=Normalizer]
+	24 [label="Table Row to Variable"]
+	49 [label="Column Rename _Regex_"]
+	41 [label="Group Loop Start"]
+	51 [label=RowID]
+	2203 [label="Color Manager"]
+	2208 [label="Column Resorter"]
+	56 [label="Extract Column Header"]
+	15 [label="Row Filter"]
+	54 [label="Rule Engine"]
+	25 [label="Column Filter"]
+	10 [label="Extract Column Header"]
+	59 [label="Box Plot _local_"]
+	12 [label="Rule_based Row Splitter"]
+	16 [label="Row Splitter"]
+	48 [label="Loop End _Column Append_"]
+	2211 [label="Math Formula _Multi Column_"]
+	50 [label="Column Rename _Regex_"]
+	1 [label="CSV Reader"]
+	42 [label="Table Row to Variable"]
+	22 [label=GroupBy]
+	2210 [label="Column Filter"]
+	11 [label=Transpose]
+	47 [label="Column Filter"]
+	14 [label=Sorter]
+	2205 [label="Constant Value Column"]
+	38 [label="Column Filter"]
+	2202 [label=GroupBy]
+	43 [label="Column Filter"]
+	35 [label="Linear Correlation"]
+	44 [label="Row Filter"]
+	13 [label="Table Row to Variable"]
+	36 [label="Row Filter"]
+	2207 [label="Table Row to Variable"]
+	46 [label="Math Formula"]
+	2204 [label=Pivoting]
+	2209 [label="Bar Chart"]
+	52 [label=RowID]
+	2 [label="Linear Regression Learner"]
+	45 [label="Cross Joiner"]
+	rankdir=LR
+}

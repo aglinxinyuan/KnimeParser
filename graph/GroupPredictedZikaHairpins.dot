@@ -1,0 +1,27 @@
+digraph {
+	7 -> 8
+	11 -> 12
+	4 -> 5
+	1 -> 2
+	8 -> 10
+	3 -> 4
+	9 -> 10
+	5 -> 6
+	1 -> 9
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	5 [label="Row Splitter"]
+	1 [label="File Reader"]
+	7 [label="Rule Engine"]
+	9 [label="Column Filter"]
+	11 [label=GroupBy]
+	4 [label="String Manipulation"]
+	6 [label="Math Formula"]
+	8 [label="Row Splitter"]
+	12 [label="Excel Writer _XLS_ _deprecated_"]
+	3 [label="Similarity Search"]
+	2 [label=GroupBy]
+	10 [label=Joiner]
+	rankdir=LR
+}

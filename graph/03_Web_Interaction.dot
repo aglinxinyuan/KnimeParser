@@ -1,0 +1,22 @@
+digraph {
+	877 -> 867
+	873 -> 877
+	872 -> 875
+	871 -> 873
+	870 -> 872
+	867 -> 868
+	869 -> 870
+	874 -> 869
+	875 -> 871
+	875 [label="Text Sender"]
+	872 [label=Clicker]
+	874 [label="Web Interaction Start"]
+	877 [label="Row Filter"]
+	870 [label=Clicker]
+	867 [label="Column Filter"]
+	869 [label=Navigator]
+	871 [label=Clicker]
+	873 [label="Content Retriever"]
+	868 [label="Excel Writer"]
+	rankdir=LR
+}

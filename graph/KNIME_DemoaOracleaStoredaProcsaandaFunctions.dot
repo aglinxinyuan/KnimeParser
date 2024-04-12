@@ -1,0 +1,24 @@
+digraph {
+	4 -> 7
+	12 -> 13
+	4 -> 14
+	8 -> 9
+	9 -> 4
+	4 -> 16
+	4 -> 11
+	13 -> 8
+	4 -> 15
+	10 -> 12
+	16 [label="DB Query Reader"]
+	13 [label="DB SQL Executor"]
+	7 [label="DB Query Reader"]
+	9 [label="DB SQL Executor"]
+	11 [label="DB Query Reader"]
+	4 [label="DB SQL Executor"]
+	8 [label="DB Table Creator"]
+	15 [label="DB Query Reader"]
+	14 [label="DB Query Reader"]
+	12 [label="DB SQL Executor"]
+	10 [label="Oracle Connector"]
+	rankdir=LR
+}

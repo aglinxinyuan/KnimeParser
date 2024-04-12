@@ -1,0 +1,43 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	15 -> 9
+	18 -> 19
+	13 -> 5
+	14 -> 15
+	11 -> 12
+	17 -> 18
+	1 -> 2
+	10 -> 11
+	18 -> 20
+	12 -> 16
+	9 -> 10
+	6 -> 7
+	6 -> 14
+	3 -> 4
+	5 -> 6
+	2 -> 3
+	4 -> 13
+	16 -> 17
+	7 [label=Sorter]
+	9 [label="Column Expressions"]
+	18 [label="Loop End"]
+	8 [label="Lag Column"]
+	17 [label="Column Filter"]
+	3 [label=Unpivoting]
+	19 [label=GroupBy]
+	6 [label="Group Loop Start"]
+	15 [label="Table Row to Variable"]
+	12 [label="Column Expressions"]
+	10 [label="Row Filter"]
+	16 [label="Row Filter"]
+	1 [label="Excel Reader"]
+	11 [label="Lag Column"]
+	4 [label="Column Rename"]
+	14 [label="Top k Selector"]
+	5 [label="Column Filter"]
+	13 [label="String To Number"]
+	20 [label=GroupBy]
+	2 [label="Column Expressions"]
+	rankdir=LR
+}

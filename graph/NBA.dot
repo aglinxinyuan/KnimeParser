@@ -1,0 +1,53 @@
+digraph {
+	35 -> 7
+	41 -> 38
+	38 -> 51
+	49 -> 47
+	52 -> 55
+	51 -> 52
+	25 -> 41
+	32 -> 50
+	31 -> 32
+	47 -> 58
+	1 -> 29
+	35 -> 31
+	25 -> 28
+	25 -> 35
+	25 -> 42
+	1 -> 38
+	1 -> 14
+	7 -> 9
+	48 -> 47
+	52 -> 57
+	50 -> 52
+	9 -> 48
+	1 -> 9
+	47 -> 56
+	29 -> 49
+	1 -> 32
+	28 -> 29
+	57 [label="Line Plot _local_"]
+	55 [label="Interactive Table _local_"]
+	7 [label="Linear Regression Learner"]
+	9 [label="Regression Predictor"]
+	58 [label="Interactive Table _local_"]
+	49 [label="Column Filter"]
+	41 [label="Polynomial Regression Learner"]
+	31 [label="Linear Regression Learner"]
+	51 [label="Column Filter"]
+	56 [label="Line Plot _local_"]
+	25 [label="Table Creator"]
+	48 [label="Column Filter"]
+	50 [label="Column Filter"]
+	1 [label="Table Creator"]
+	42 [label=Statistics]
+	28 [label="Polynomial Regression Learner"]
+	47 [label=Concatenate]
+	14 [label=Statistics]
+	38 [label="Regression Predictor"]
+	35 [label="Math Formula"]
+	29 [label="Regression Predictor"]
+	52 [label=Concatenate]
+	32 [label="Regression Predictor"]
+	rankdir=LR
+}

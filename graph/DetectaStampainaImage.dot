@@ -1,0 +1,24 @@
+digraph {
+	11 -> 10
+	4 -> 5
+	15 -> 16
+	3 -> 4
+	10 -> 3
+	2 -> 7
+	5 -> 2
+	9 -> 15
+	12 -> 11
+	7 -> 9
+	5 [label=Inverter]
+	16 [label="Column Rename"]
+	7 [label="Connected Component Analysis"]
+	9 [label="Labeling Filter"]
+	11 [label="Image Reader _Table_"]
+	4 [label="Morphological Image Operations"]
+	10 [label=Projector]
+	15 [label="Labeling Properties"]
+	3 [label="Global Thresholder"]
+	2 [label="Fill Holes"]
+	12 [label="List Files"]
+	rankdir=LR
+}

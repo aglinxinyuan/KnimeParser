@@ -1,0 +1,77 @@
+digraph {
+	51 -> 2148
+	2175 -> 2130
+	16 -> 2150
+	21 -> 22
+	51 -> 2143
+	17 -> 2151
+	2131 -> 1975
+	41 -> 21
+	2127 -> 2140
+	2150 -> 52
+	52 -> 51
+	58 -> 20
+	2127 -> 2129
+	46 -> 2130
+	2126 -> 2127
+	2178 -> 2141
+	2130 -> 2131
+	2177 -> 2126
+	2143 -> 2144
+	2131 -> 42
+	2127 -> 2143
+	20 -> 2140
+	2152 -> 21
+	49 -> 51
+	2140 -> 2135
+	2178 -> 2133
+	2178 -> 2177
+	22 -> 62
+	1975 -> 49
+	2151 -> 22
+	2129 -> 46
+	2178 -> 2135
+	62 -> 58
+	2135 -> 2179
+	2149 -> 2141
+	42 -> 41
+	16 -> 2152
+	2175 -> 2177
+	2148 -> 2133
+	2144 -> 2149
+	2152 [label="Column Renamer"]
+	2129 [label="Duplicate Row Filter"]
+	2135 [label="DB Insert"]
+	21 [label="Cross Joiner"]
+	58 [label="Rule_based Row Filter"]
+	2149 [label="Row Filter"]
+	17 [label="Create Date_Time Range"]
+	49 [label="Rule_based Row Filter"]
+	41 [label="Column Filter"]
+	1975 [label=Rank]
+	51 [label="Cross Joiner"]
+	2130 [label=Concatenate]
+	2140 [label=Joiner]
+	2143 [label=Joiner]
+	2127 [label="DB Reader"]
+	2131 [label="Duplicate Row Filter"]
+	16 [label="Create Date_Time Range"]
+	2178 [label="H2 Connector"]
+	2175 [label="Table Creator"]
+	42 [label="Rule_based Row Filter"]
+	2177 [label="DB Table Creator"]
+	22 [label="Cross Joiner"]
+	2144 [label="Duplicate Row Filter"]
+	2133 [label="DB Update"]
+	2151 [label="Column Renamer"]
+	2148 [label="Row Filter"]
+	20 [label="Constant Value Column"]
+	62 [label="Duplicate Row Filter"]
+	2150 [label="Column Renamer"]
+	46 [label="Column Filter"]
+	2179 [label="DB Reader"]
+	2126 [label="DB Table Selector"]
+	52 [label="Constant Value Column"]
+	2141 [label="DB Insert"]
+	rankdir=LR
+}

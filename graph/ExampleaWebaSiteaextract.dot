@@ -1,0 +1,18 @@
+digraph {
+	479 -> 493
+	493 -> 497
+	496 -> 495
+	499 -> 498
+	497 -> 499
+	494 -> 496
+	493 -> 494
+	498 [label=Ungroup]
+	479 [label="Webpage Retriever"]
+	493 [label="XML To JSON"]
+	496 [label="Column Filter"]
+	494 [label="JSON Path"]
+	497 [label="JSON Path"]
+	499 [label="Column Filter"]
+	495 [label=Ungroup]
+	rankdir=LR
+}

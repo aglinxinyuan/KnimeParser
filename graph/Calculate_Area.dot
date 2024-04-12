@@ -1,0 +1,18 @@
+digraph {
+	93 -> 103
+	95 -> 97
+	94 -> 93
+	97 -> 102
+	103 -> 95
+	39 -> 93
+	37 -> 94
+	94 [label="String To Number"]
+	103 [label=Projection]
+	102 [label="Geospatial View"]
+	97 [label="Math Formula"]
+	95 [label=Area]
+	93 [label=Joiner]
+	39 [label="US2020 TIGER Map"]
+	37 [label="US2020 Census Data"]
+	rankdir=LR
+}

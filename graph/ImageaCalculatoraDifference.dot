@@ -1,0 +1,15 @@
+digraph {
+	32 -> 25
+	24 -> 32
+	35 -> 31
+	25 -> 30
+	34 -> 24
+	24 [label=Splitter]
+	30 [label="Table Cell Viewer"]
+	35 [label="Image Reader"]
+	34 [label="Image Reader"]
+	31 [label="Table Cell Viewer"]
+	25 [label="Image Calculator"]
+	32 [label="Column Rename"]
+	rankdir=LR
+}

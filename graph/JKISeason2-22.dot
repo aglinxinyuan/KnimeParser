@@ -1,0 +1,39 @@
+digraph {
+	107 -> 104
+	84 -> 96
+	70 -> 92
+	70 -> 99
+	92 -> 101
+	20 -> 84
+	96 -> 95
+	95 -> 67
+	106 -> 107
+	68 -> 66
+	100 -> 102
+	104 -> 103
+	66 -> 70
+	68 -> 100
+	102 -> 106
+	67 -> 68
+	101 -> 100
+	99 -> 98
+	107 [label="Column Aggregator"]
+	99 [label="Color Manager"]
+	20 [label="Image Reader"]
+	92 [label="Row Splitter"]
+	96 [label="Column Filter"]
+	84 [label=Splitter]
+	66 [label="Image Segment Features"]
+	70 [label=k_Means]
+	68 [label="Connected Component Analysis"]
+	98 [label="Bubble Chart _Plotly_"]
+	67 [label="Global Thresholder"]
+	102 [label="Loop End"]
+	104 [label="Renderer to Image"]
+	101 [label="Table Row To Variable Loop Start"]
+	95 [label="Column Rename"]
+	100 [label="Labeling Filter"]
+	106 [label="Labeling to RGB Img"]
+	103 [label="Tile View"]
+	rankdir=LR
+}

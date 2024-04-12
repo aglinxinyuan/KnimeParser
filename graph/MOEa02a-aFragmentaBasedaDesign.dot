@@ -1,0 +1,51 @@
+digraph {
+	24 -> 26
+	15 -> 18
+	32 -> 22
+	31 -> 14
+	17 -> 20
+	3 -> 28
+	18 -> 19
+	28 -> 7
+	5 -> 28
+	18 -> 17
+	14 -> 15
+	33 -> 20
+	10 -> 12
+	20 -> 24
+	3 -> 5
+	30 -> 11
+	22 -> 20
+	24 -> 25
+	11 -> 10
+	7 -> 27
+	19 -> 20
+	29 -> 2
+	3 -> 11
+	2 -> 3
+	27 [label="Interactive Table _local_"]
+	7 [label="Molecule Properties"]
+	18 [label="Complex Separator"]
+	26 [label="Interactive Table _local_"]
+	32 [label="MDB Reader"]
+	17 [label="Column Filter"]
+	3 [label="Complex Splitter"]
+	19 [label="Atom Selector"]
+	24 [label="Murcko Framework"]
+	31 [label="PDB Reader"]
+	15 [label=Protonate3D]
+	25 [label="Interactive Table _local_"]
+	12 [label="Interactive Table _local_"]
+	10 [label=SHED]
+	22 [label=Conformations]
+	28 [label="MedChem Transformer"]
+	11 [label=BREED]
+	14 [label="Fix Bond Orders"]
+	5 [label="Launch MOE"]
+	20 [label="Scaffold Replacer"]
+	29 [label="MOE Reader"]
+	33 [label="Pharmacophore Reader"]
+	30 [label="MDB Reader"]
+	2 [label=QuickPrep]
+	rankdir=LR
+}

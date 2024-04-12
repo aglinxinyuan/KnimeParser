@@ -1,0 +1,30 @@
+digraph {
+	273 -> 276
+	276 -> 277
+	424 -> 271
+	403 -> 404
+	272 -> 273
+	271 -> 272
+	273 -> 5
+	273 -> 275
+	277 -> 5
+	273 -> 418
+	266 -> 271
+	406 -> 403
+	426 -> 266
+	5 [label=Concatenate]
+	275 [label="Row Aggregator"]
+	403 [label="DB Table Selector"]
+	418 [label=Pivot]
+	277 [label="Constant Value Column"]
+	272 [label="Rule Engine"]
+	273 [label="String to Date_Time"]
+	266 [label="Table Cropper"]
+	276 [label=GroupBy]
+	404 [label="DB Reader"]
+	271 [label="Value Lookup"]
+	406 [label="SQLite Connector"]
+	424 [label="CSV Reader"]
+	426 [label="Excel Reader"]
+	rankdir=LR
+}

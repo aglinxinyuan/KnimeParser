@@ -1,0 +1,14 @@
+digraph {
+	6 -> 5
+	1 -> 4
+	3 -> 2
+	4 -> 6
+	1 -> 3
+	5 [label=Pivoting]
+	1 [label="Table Creator"]
+	4 [label="Cell Splitter"]
+	6 [label=Unpivoting]
+	3 [label="Constant Value Column"]
+	2 [label=Pivoting]
+	rankdir=LR
+}

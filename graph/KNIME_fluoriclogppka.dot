@@ -1,0 +1,10 @@
+digraph {
+	3 -> 9
+	2 -> 4
+	3 -> 2
+	4 [label="Table View"]
+	3 [label="Table Creator"]
+	2 [label="Python Script"]
+	9 [label="RDKit From Molecule"]
+	rankdir=LR
+}

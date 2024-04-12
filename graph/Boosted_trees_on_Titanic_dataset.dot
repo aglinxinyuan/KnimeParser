@@ -1,0 +1,27 @@
+digraph {
+	33 -> 34
+	33 -> 35
+	35 -> 29
+	21 -> 25
+	28 -> 33
+	32 -> 31
+	29 -> 32
+	26 -> 28
+	28 -> 34
+	27 -> 29
+	34 -> 19
+	21 -> 26
+	27 [label="CSV Reader"]
+	35 [label="Gradient Boosted Trees to PMML"]
+	34 [label="Gradient Boosted Trees Predictor"]
+	29 [label="JPMML Classifier"]
+	28 [label=Partitioning]
+	31 [label="CSV Writer"]
+	21 [label="File Reader"]
+	26 [label="Number To String _PMML_"]
+	25 [label="Extract Table Dimension"]
+	33 [label="Gradient Boosted Trees Learner"]
+	32 [label="Column Filter"]
+	19 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	264 -> 1
+	263 -> 1
+	1 -> 4
+	4 -> 5
+	5 [label="Excel Writer _XLS_"]
+	263 [label="File Importer"]
+	264 [label="File Importer"]
+	1 [label=MetaboliteSpectralMatcher]
+	4 [label=MzTabReader]
+	rankdir=LR
+}

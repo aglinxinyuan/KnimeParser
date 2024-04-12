@@ -1,0 +1,22 @@
+digraph {
+	15 -> 7
+	44 -> 43
+	10 -> 9
+	9 -> 44
+	5 -> 15
+	14 -> 15
+	1 -> 2
+	7 -> 10
+	2 -> 5
+	5 [label="Image Reader _Table_"]
+	43 [label="Labeling Properties"]
+	1 [label="List Files_Folders"]
+	7 [label="Global Thresholder"]
+	44 [label="Labeling Filter"]
+	9 [label="Connected Component Analysis"]
+	15 [label=Convolver]
+	14 [label="Convolution Kernel Creator"]
+	2 [label="Path to String"]
+	10 [label="Fill Holes"]
+	rankdir=LR
+}

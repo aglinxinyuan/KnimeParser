@@ -1,0 +1,39 @@
+digraph {
+	12 -> 15
+	49 -> 50
+	51 -> 45
+	44 -> 14
+	48 -> 49
+	13 -> 45
+	43 -> 54
+	3 -> 4
+	3 -> 5
+	45 -> 43
+	50 -> 43
+	54 -> 51
+	14 -> 11
+	15 -> 13
+	45 -> 53
+	11 -> 12
+	4 -> 44
+	53 -> 46
+	5 [label="SPARQL List Graph Names"]
+	48 [label="Table Creator"]
+	14 [label="String Manipulation"]
+	13 [label="String Manipulation"]
+	43 [label=Joiner]
+	44 [label="Column Rename"]
+	49 [label="GET Request"]
+	50 [label="JSON Path"]
+	53 [label="Size Manager"]
+	51 [label="Column Filter"]
+	11 [label="String Manipulation"]
+	4 [label="SPARQL Query"]
+	46 [label="OSM Map View"]
+	15 [label="String Manipulation"]
+	54 [label="String To Number"]
+	12 [label="String Manipulation"]
+	3 [label="SPARQL Endpoint"]
+	45 [label="String To Number"]
+	rankdir=LR
+}

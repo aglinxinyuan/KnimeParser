@@ -1,0 +1,32 @@
+digraph {
+	6 -> 17
+	18 -> 6
+	17 -> 9
+	26 -> 4
+	4 -> 18
+	4 -> 6
+	17 -> 19
+	19 -> 20
+	23 -> 25
+	15 -> 11
+	9 -> 15
+	3 -> 26
+	16 -> 4
+	17 -> 11
+	11 -> 23
+	16 [label="H2O Local Context"]
+	20 [label="ROC Curve _JavaScript_"]
+	9 [label=GroupBy]
+	11 [label="Rule Engine"]
+	4 [label="Table to H2O"]
+	26 [label="Duplicate Row Filter"]
+	18 [label="H2O Isolation Forest"]
+	23 [label="Row Filter"]
+	6 [label="H2O Anomaly Detector"]
+	15 [label="Table Row to Variable"]
+	25 [label="Value Counter"]
+	17 [label="H2O to Table"]
+	3 [label="CSV Reader"]
+	19 [label="Number To String"]
+	rankdir=LR
+}

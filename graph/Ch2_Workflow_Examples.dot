@@ -1,0 +1,62 @@
+digraph {
+	41 -> 42
+	5 -> 16
+	8 -> 21
+	20 -> 13
+	13 -> 43
+	7 -> 11
+	15 -> 18
+	42 -> 43
+	21 -> 25
+	12 -> 13
+	16 -> 42
+	11 -> 19
+	4 -> 16
+	31 -> 32
+	26 -> 31
+	31 -> 33
+	6 -> 41
+	26 -> 45
+	25 -> 15
+	15 -> 22
+	8 -> 41
+	10 -> 20
+	45 -> 46
+	19 -> 12
+	15 -> 24
+	43 -> 34
+	43 -> 26
+	43 -> 44
+	23 -> 22
+	7 [label="SQLite Connector"]
+	21 [label="Number To String"]
+	18 [label="Row Filter"]
+	26 [label=GroupBy]
+	8 [label="File Reader"]
+	19 [label="DB Row Filter"]
+	24 [label="Row Filter"]
+	41 [label=Joiner]
+	31 [label="String Manipulation"]
+	6 [label="Excel Reader _XLS_"]
+	15 [label="Column Filter"]
+	25 [label="String To Number"]
+	12 [label="DB Reader"]
+	10 [label="File Reader"]
+	16 [label=Joiner]
+	42 [label=Joiner]
+	22 [label="Reference Row Filter"]
+	11 [label="DB Table Selector"]
+	4 [label="Table Reader"]
+	23 [label="Table Creator"]
+	5 [label="File Reader"]
+	20 [label="Column Rename"]
+	13 [label=Concatenate]
+	43 [label=Joiner]
+	44 [label=Pivoting]
+	34 [label="String Manipulation _Multi Column_"]
+	46 [label="String Manipulation"]
+	33 [label="Math Formula"]
+	32 [label="Math Formula _Multi Column_"]
+	45 [label="String Manipulation"]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	113 -> 1
+	114 -> 115
+	112 -> 119
+	115 -> 116
+	116 -> 111
+	100 -> 114
+	117 -> 118
+	112 -> 117
+	115 -> 112
+	111 -> 117
+	112 -> 111
+	1 -> 100
+	118 -> 119
+	113 [label="Microsoft Authenticator"]
+	1 [label="SharePoint Online Connector"]
+	112 [label="Microsoft SQL Server Connector"]
+	119 [label="DB Writer"]
+	115 [label="Column Filter"]
+	118 [label="Duplicate Row Filter"]
+	116 [label="Date_Time to String"]
+	100 [label="Excel Reader"]
+	111 [label="DB Writer"]
+	114 [label="Column Renamer"]
+	117 [label="DB Query Reader"]
+	rankdir=LR
+}

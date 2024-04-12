@@ -1,0 +1,41 @@
+digraph {
+	13 -> 14
+	2 -> 3
+	12 -> 13
+	18 -> 19
+	8 -> 6
+	10 -> 8
+	11 -> 12
+	20 -> 17
+	1 -> 2
+	9 -> 11
+	14 -> 18
+	6 -> 7
+	7 -> 9
+	4 -> 10
+	3 -> 4
+	19 -> 20
+	8 -> 7
+	17 -> 16
+	15 -> 10
+	7 [label="SVM Predictor"]
+	9 [label=Scorer]
+	18 [label="Row Filter"]
+	8 [label=Partitioning]
+	17 [label="Table Column to Variable"]
+	3 [label="Math Formula"]
+	19 [label="Constant Value Column"]
+	6 [label="SVM Learner"]
+	15 [label="Parameter Optimization Loop Start"]
+	12 [label="Row Filter"]
+	10 [label="Counting Loop Start"]
+	16 [label="Parameter Optimization Loop End"]
+	1 [label="CSV Reader"]
+	11 [label="Loop End _2 ports_"]
+	4 [label=Normalizer]
+	14 [label="Math Formula"]
+	13 [label="Column Filter"]
+	20 [label=RowID]
+	2 [label="Math Formula"]
+	rankdir=LR
+}

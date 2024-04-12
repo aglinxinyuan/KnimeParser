@@ -1,0 +1,37 @@
+digraph {
+	881 -> 334
+	313 -> 880
+	334 -> 335
+	309 -> 275
+	335 -> 304
+	297 -> 302
+	308 -> 882
+	882 -> 334
+	880 -> 309
+	304 -> 305
+	303 -> 297
+	275 -> 878
+	302 -> 313
+	881 -> 335
+	332 -> 308
+	879 -> 332
+	305 -> 303
+	313 [label="Missing Value"]
+	334 [label="Dictionary Tagger"]
+	275 [label="Category To Class"]
+	335 [label="Dictionary Tagger"]
+	308 [label="Strings To Document"]
+	302 [label=Pivoting]
+	304 [label="Tag Filter"]
+	303 [label=TF]
+	878 [label=Scorer]
+	305 [label="Bag Of Words Creator"]
+	879 [label="CSV Reader"]
+	881 [label="Excel Reader"]
+	309 [label="Rule Engine"]
+	880 [label="Math Formula"]
+	332 [label="Duplicate Row Filter"]
+	297 [label="Tags To String"]
+	882 [label="Column Filter"]
+	rankdir=LR
+}

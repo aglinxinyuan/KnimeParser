@@ -1,0 +1,14 @@
+digraph {
+	3 -> 4
+	6 -> 10
+	1 -> 2
+	2 -> 3
+	4 -> 6
+	1 [label="Tika Parser"]
+	4 [label="Row Filter"]
+	6 [label="String Manipulation"]
+	3 [label=Ungroup]
+	2 [label="Cell Splitter"]
+	10 [label="CSV Writer"]
+	rankdir=LR
+}

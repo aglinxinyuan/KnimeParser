@@ -1,0 +1,32 @@
+digraph {
+	8239 -> 139
+	8227 -> 8226
+	8233 -> 8232
+	8228 -> 8239
+	8238 -> 8188
+	8226 -> 8235
+	8237 -> 8188
+	8232 -> 8228
+	8226 -> 8237
+	8237 -> 8201
+	8188 -> 8231
+	8237 -> 182
+	8231 -> 8227
+	8226 -> 8233
+	139 -> 8238
+	8232 [label="Math Formula"]
+	8235 [label="Histogram Chart _JFreeChart_"]
+	8231 [label="Column Rename"]
+	8227 [label=Sorter]
+	139 [label="Similarity Matrix _from Molecules_"]
+	8226 [label=GroupBy]
+	8228 [label="Column Rename"]
+	8201 [label="Text Viewer"]
+	8239 [label="Molecule Reader _to MAE_"]
+	8238 [label=Unpivoting]
+	182 [label="CSV Writer"]
+	8237 [label="Integer Input"]
+	8188 [label="Row Filter"]
+	8233 [label=GroupBy]
+	rankdir=LR
+}

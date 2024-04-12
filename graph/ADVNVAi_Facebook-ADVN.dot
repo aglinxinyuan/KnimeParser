@@ -1,0 +1,46 @@
+digraph {
+	340 -> 337
+	330 -> 339
+	64 -> 325
+	326 -> 330
+	337 -> 334
+	322 -> 16
+	52 -> 64
+	332 -> 326
+	16 -> 265
+	330 -> 344
+	324 -> 320
+	325 -> 320
+	339 -> 337
+	323 -> 324
+	334 -> 52
+	339 -> 341
+	344 -> 343
+	320 -> 321
+	321 -> 322
+	301 -> 265
+	341 -> 342
+	324 [label="Table Row to Variable"]
+	322 [label="JSON Transformer"]
+	330 [label="String Manipulation"]
+	64 [label="Java Snippet"]
+	339 [label="String Manipulation"]
+	341 [label="String Manipulation"]
+	343 [label="File Meta Info _legacy_"]
+	325 [label="String Manipulation"]
+	344 [label="Path to URI"]
+	332 [label="Variable Creator"]
+	16 [label="JSON Writer"]
+	265 [label="MongoDB Writer"]
+	334 [label="Column Filter"]
+	342 [label=GroupBy]
+	337 [label=Joiner]
+	321 [label="String to JSON"]
+	301 [label="MongoDB Connector"]
+	340 [label="Excel Reader"]
+	326 [label="List Files_Folders"]
+	323 [label="Create Date_Time Range"]
+	52 [label="String Manipulation"]
+	320 [label="Constant Value Column"]
+	rankdir=LR
+}

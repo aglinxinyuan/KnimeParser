@@ -1,0 +1,28 @@
+digraph {
+	262 -> 263
+	263 -> 265
+	264 -> 255
+	260 -> 261
+	260 -> 263
+	257 -> 258
+	261 -> 262
+	258 -> 264
+	259 -> 260
+	256 -> 257
+	259 -> 258
+	259 -> 256
+	253 -> 259
+	260 [label="DB Reader"]
+	264 [label="DB Sorter"]
+	263 [label=Joiner]
+	265 [label=Sorter]
+	256 [label="DB GroupBy"]
+	262 [label="Row Filter"]
+	253 [label="H2 Connector"]
+	258 [label="DB Joiner"]
+	261 [label=GroupBy]
+	255 [label="DB Reader"]
+	257 [label="DB Row Filter"]
+	259 [label="DB Table Selector"]
+	rankdir=LR
+}

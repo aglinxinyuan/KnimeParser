@@ -1,0 +1,23 @@
+digraph {
+	20 -> 21
+	1 -> 18
+	18 -> 19
+	1 -> 27
+	1 -> 12
+	1 -> 21
+	19 -> 20
+	1 -> 24
+	27 -> 28
+	1 -> 25
+	24 [label="JavaScript Bar Chart"]
+	27 [label="Constant Value Column"]
+	20 [label="Color Manager"]
+	1 [label="Table Reader"]
+	28 [label="JavaScript Bar Chart"]
+	18 [label="Extract Column Header"]
+	21 [label="JavaScript Bar Chart"]
+	25 [label="JavaScript Bar Chart"]
+	12 [label="JavaScript Bar Chart"]
+	19 [label=Transpose]
+	rankdir=LR
+}

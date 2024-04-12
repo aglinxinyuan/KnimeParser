@@ -1,0 +1,15 @@
+digraph {
+	18 -> 19
+	5 -> 18
+	20 -> 2
+	19 -> 20
+	22 -> 21
+	5 [label="Fixed Width File Reader"]
+	20 [label="CSV Writer"]
+	22 [label="HTTP_S_ Connector"]
+	18 [label="Cell Splitter"]
+	21 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	19 [label="Column Filter"]
+	rankdir=LR
+}

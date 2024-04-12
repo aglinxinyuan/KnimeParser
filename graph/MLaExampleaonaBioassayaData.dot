@@ -1,0 +1,41 @@
+digraph {
+	31 -> 34
+	4 -> 3
+	4 -> 5
+	3 -> 15
+	34 -> 38
+	2 -> 4
+	15 -> 9
+	9 -> 33
+	9 -> 31
+	37 -> 34
+	38 -> 35
+	33 -> 34
+	29 -> 31
+	9 -> 36
+	9 -> 29
+	9 -> 40
+	36 -> 37
+	9 -> 41
+	5 -> 3
+	9 -> 37
+	35 -> 28
+	5 [label="Variable Creator"]
+	35 [label="Column Renamer"]
+	34 [label=Joiner]
+	41 [label="Bar Chart"]
+	38 [label=Joiner]
+	31 [label="Random Forest Predictor"]
+	9 [label="Number to String"]
+	29 [label="Random Forest Learner"]
+	36 [label="SVM Learner"]
+	4 [label="Python Script"]
+	28 [label="Binary Classification Inspector"]
+	15 [label="Column Renamer"]
+	40 [label="Bar Chart"]
+	33 [label="K Nearest Neighbor"]
+	3 [label="Python Script"]
+	2 [label="Conda Environment Propagation"]
+	37 [label="SVM Predictor"]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	18 -> 25
+	27 -> 17
+	25 -> 26
+	17 -> 18
+	26 -> 24
+	24 [label="GET Request"]
+	27 [label="Credentials Configuration"]
+	18 [label="List Files_Folders"]
+	26 [label="String Manipulation"]
+	25 [label="Path to String"]
+	17 [label="KNIME Server Connector"]
+	rankdir=LR
+}

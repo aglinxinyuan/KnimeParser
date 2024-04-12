@@ -1,0 +1,21 @@
+digraph {
+	276 -> 275
+	299 -> 292
+	299 -> 300
+	300 -> 276
+	276 -> 296
+	298 -> 274
+	292 -> 300
+	274 -> 299
+	300 -> 297
+	274 [label="Row Filter"]
+	292 [label=k_Means]
+	275 [label="MISSING OSM Map View"]
+	299 [label=Normalizer]
+	296 [label="Scatter Plot"]
+	300 [label=Denormalizer]
+	276 [label="Color Manager"]
+	298 [label="Table Reader"]
+	297 [label="Silhouette Coefficient"]
+	rankdir=LR
+}

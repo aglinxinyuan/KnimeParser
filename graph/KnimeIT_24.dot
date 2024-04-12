@@ -1,0 +1,12 @@
+digraph {
+	2 -> 9
+	8 -> 9
+	1 -> 8
+	9 -> 5
+	5 [label=Scorer]
+	1 [label="CSV Reader"]
+	9 [label="XGBoost Predictor"]
+	8 [label="XGBoost Tree Ensemble Learner"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

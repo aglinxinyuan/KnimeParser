@@ -1,0 +1,18 @@
+digraph {
+	55 -> 59
+	58 -> 60
+	41 -> 55
+	59 -> 58
+	61 -> 38
+	38 -> 40
+	60 -> 61
+	55 [label="Constant Value Column"]
+	41 [label="Table Creator"]
+	58 [label="Column Aggregator"]
+	61 [label="Column Rename"]
+	40 [label=XPath]
+	38 [label="POST Request"]
+	60 [label="Column Filter"]
+	59 [label="Column Resorter"]
+	rankdir=LR
+}

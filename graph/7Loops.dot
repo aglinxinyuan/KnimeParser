@@ -1,0 +1,29 @@
+digraph {
+	33 -> 34
+	35 -> 32
+	4 -> 5
+	32 -> 33
+	30 -> 31
+	31 -> 32
+	5 -> 28
+	29 -> 30
+	3 -> 4
+	30 -> 35
+	1 -> 2
+	2 -> 3
+	2 -> 5
+	5 [label="Rule Engine"]
+	35 [label="Math Formula _Variable_"]
+	1 [label="CSV Reader"]
+	34 [label="Loop End _deprecated_"]
+	29 [label="CSV Reader"]
+	28 [label="Loop End _deprecated_"]
+	31 [label="Math Formula"]
+	4 [label="Table Row to Variable"]
+	32 [label="Column Rename"]
+	33 [label="Column Filter"]
+	30 [label="Counting Loop Start"]
+	3 [label=GroupBy]
+	2 [label="Group Loop Start"]
+	rankdir=LR
+}

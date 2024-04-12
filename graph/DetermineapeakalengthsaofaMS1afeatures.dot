@@ -1,0 +1,41 @@
+digraph {
+	288 -> 291
+	8 -> 9
+	2 -> 295
+	6 -> 8
+	293 -> 294
+	301 -> 297
+	299 -> 2
+	294 -> 296
+	297 -> 285
+	291 -> 292
+	286 -> 288
+	295 -> 6
+	301 -> 290
+	285 -> 286
+	295 -> 8
+	292 -> 300
+	300 -> 301
+	296 -> 299
+	299 -> 295
+	9 -> 293
+	292 [label="Math Formula"]
+	290 [label=Histogram]
+	285 [label="Loop End"]
+	294 [label="Counter Generation"]
+	299 [label="Input Files"]
+	296 [label=Sorter]
+	9 [label="URI Port to Variable"]
+	293 [label="Line Reader"]
+	291 [label="Value Counter"]
+	300 [label="Moving Aggregation"]
+	8 [label=ZipLoopStart]
+	6 [label=ZipLoopEnd]
+	288 [label=Sorter]
+	301 [label="Column Rename"]
+	286 [label="Numeric Binner"]
+	295 [label="Column Filter"]
+	2 [label=ZipLoopStart]
+	297 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,44 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	34 -> 35
+	1 -> 6
+	4 -> 27
+	28 -> 34
+	6 -> 11
+	30 -> 31
+	31 -> 32
+	25 -> 26
+	11 -> 24
+	26 -> 36
+	24 -> 25
+	6 -> 7
+	36 -> 10
+	9 -> 28
+	28 -> 4
+	28 -> 36
+	1 -> 9
+	4 -> 30
+	27 -> 29
+	27 [label=GroupBy]
+	7 [label="Table Manipulator"]
+	9 [label=Joiner]
+	26 [label="KCS SAP Executor"]
+	8 [label="KCS SAP Executor"]
+	24 [label="String Manipulation"]
+	31 [label="Duplicate Row Filter"]
+	6 [label="Column Expressions"]
+	25 [label="Duplicate Row Filter"]
+	10 [label="Tableau Writer"]
+	30 [label="Table Manipulator"]
+	1 [label="KCS SAP Executor"]
+	28 [label="Table Manipulator"]
+	11 [label="Table Manipulator"]
+	4 [label="String Manipulation"]
+	35 [label="Pie_Donut Chart"]
+	34 [label=GroupBy]
+	29 [label="Bar Chart"]
+	36 [label=Joiner]
+	32 [label="Bar Chart"]
+	rankdir=LR
+}

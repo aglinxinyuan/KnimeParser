@@ -1,0 +1,19 @@
+digraph {
+	1 -> 8
+	7 -> 3
+	4 -> 2
+	8 -> 2
+	5 -> 6
+	2 -> 5
+	6 -> 7
+	5 -> 7
+	5 [label="H2O Partitioning"]
+	1 [label="CSV Reader"]
+	7 [label="H2O Predictor _Classification_"]
+	4 [label="H2O Local Context"]
+	8 [label="Domain Calculator"]
+	6 [label="H2O AutoML Learner"]
+	3 [label="H2O to Table"]
+	2 [label="Table to H2O"]
+	rankdir=LR
+}

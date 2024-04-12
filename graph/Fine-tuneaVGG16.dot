@@ -1,0 +1,29 @@
+digraph {
+	252 -> 287
+	291 -> 285
+	290 -> 270
+	290 -> 289
+	287 -> 285
+	289 -> 291
+	288 -> 289
+	288 -> 290
+	270 -> 289
+	285 -> 294
+	285 -> 288
+	289 -> 288
+	289 -> 270
+	291 -> 225
+	225 -> 289
+	290 -> 291
+	225 [label=RowID]
+	290 [label="Column Rename"]
+	289 [label="Number To String"]
+	285 [label="Rule Engine"]
+	252 [label="DL Python Network Creator"]
+	294 [label=Scorer]
+	270 [label="DL Keras Network Learner"]
+	287 [label="Keras Freeze Layers"]
+	291 [label="Many to One"]
+	288 [label="One to Many"]
+	rankdir=LR
+}

@@ -1,0 +1,52 @@
+digraph {
+	50 -> 13
+	56 -> 58
+	14 -> 17
+	68 -> 67
+	4 -> 6
+	21 -> 78
+	23 -> 14
+	6 -> 12
+	77 -> 76
+	76 -> 68
+	45 -> 48
+	68 -> 69
+	75 -> 45
+	17 -> 21
+	69 -> 74
+	77 -> 79
+	13 -> 16
+	79 -> 13
+	13 -> 4
+	67 -> 69
+	78 -> 75
+	16 -> 23
+	12 -> 50
+	48 -> 56
+	74 -> 71
+	79 [label="Don_t Save Start"]
+	21 [label="Column Filter"]
+	58 [label=GroupBy]
+	74 [label="Slice Iterator Loop End"]
+	17 [label="Voronoi Segmentation"]
+	78 [label="Don_t Save End"]
+	56 [label="Loop End"]
+	6 [label="Connected Component Analysis"]
+	75 [label="Slice Iterator Loop Start"]
+	12 [label="Column Rename"]
+	16 [label="Morphological Image Operations"]
+	48 [label="Column Filter"]
+	50 [label="Waehlby Cell Clump Splitter"]
+	68 [label="Java IF _Table_"]
+	67 [label=Inverter]
+	23 [label="Column Rename"]
+	4 [label="Global Thresholder"]
+	76 [label="Slice Iterator Loop Start"]
+	77 [label="Image Reader"]
+	14 [label="Connected Component Analysis"]
+	13 [label="Gaussian Convolution"]
+	69 [label="End IF"]
+	71 [label="Table Cell Viewer"]
+	45 [label="Image Segment Features"]
+	rankdir=LR
+}

@@ -1,0 +1,77 @@
+digraph {
+	12 -> 15
+	13 -> 15
+	24 -> 26
+	7 -> 8
+	41 -> 7
+	4 -> 5
+	8 -> 9
+	23 -> 24
+	12 -> 14
+	9 -> 30
+	27 -> 28
+	34 -> 10
+	41 -> 5
+	29 -> 30
+	32 -> 34
+	26 -> 27
+	17 -> 22
+	42 -> 31
+	5 -> 10
+	39 -> 43
+	10 -> 12
+	37 -> 38
+	1 -> 41
+	22 -> 29
+	29 -> 39
+	42 -> 45
+	43 -> 40
+	15 -> 16
+	41 -> 36
+	14 -> 13
+	36 -> 37
+	11 -> 10
+	17 -> 23
+	38 -> 39
+	41 -> 34
+	30 -> 42
+	28 -> 22
+	16 -> 17
+	43 -> 46
+	27 [label="Column Combiner"]
+	7 [label="Rule_based Row Filter"]
+	9 [label="Column Rename"]
+	45 [label="Parquet Writer"]
+	26 [label="Constant Value Column"]
+	8 [label="Column Filter"]
+	32 [label="Integer Widget"]
+	17 [label=RowID]
+	24 [label=Transpose]
+	41 [label="String To Number _PMML_"]
+	31 [label="Table Writer"]
+	15 [label="Rule_based Row Filter"]
+	10 [label="Math Formula"]
+	12 [label="Rule_based Row Filter"]
+	16 [label="Column Filter"]
+	1 [label="Table Reader"]
+	42 [label=RowID]
+	22 [label="Insert Column Header"]
+	28 [label="Column Filter"]
+	23 [label="Extract Column Header"]
+	4 [label="Integer Widget"]
+	11 [label="Integer Widget"]
+	14 [label=GroupBy]
+	38 [label="Column Rename"]
+	5 [label="Rule_based Row Filter"]
+	13 [label="Table Row To Variable Loop Start"]
+	43 [label=RowID]
+	34 [label="Rule_based Row Filter"]
+	29 [label="Loop End _Column Append_"]
+	36 [label="Rule_based Row Filter"]
+	46 [label="Parquet Writer"]
+	40 [label="Table Writer"]
+	39 [label=Joiner]
+	30 [label=Joiner]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,44 @@
+digraph {
+	21 -> 23
+	7 -> 8
+	8 -> 21
+	7 -> 16
+	4 -> 5
+	21 -> 22
+	12 -> 18
+	32 -> 29
+	2 -> 29
+	22 -> 12
+	8 -> 16
+	23 -> 18
+	8 -> 22
+	2 -> 28
+	18 -> 24
+	6 -> 7
+	24 -> 20
+	29 -> 4
+	16 -> 23
+	31 -> 2
+	28 -> 4
+	5 -> 6
+	31 -> 28
+	5 [label="Column Rename _Regex_"]
+	16 [label="Reference Column Filter"]
+	24 [label="Linear Correlation"]
+	20 [label="Interactive Table _local_"]
+	7 [label="Column Rename _Regex_"]
+	29 [label="3D Csp3_ Grid Probe"]
+	22 [label="PCA Apply"]
+	28 [label="3D Csp3_ Grid Probe"]
+	31 [label="Read MDB"]
+	23 [label="PCA Apply"]
+	4 [label="Split Collection Column"]
+	21 [label="PCA Compute"]
+	18 [label="Regression Predictor"]
+	6 [label="Split Collection Column"]
+	8 [label="Low Variance Filter"]
+	32 [label="Read MDB"]
+	2 [label="3D Grid Generator"]
+	12 [label="Linear Regression Learner"]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	70 -> 71
+	66 -> 65
+	69 -> 68
+	58 -> 71
+	24 -> 40
+	23 -> 24
+	58 -> 67
+	63 -> 67
+	68 -> 65
+	71 -> 63
+	40 -> 58
+	67 -> 69
+	24 [label="Kafka Consumer"]
+	66 [label="Kafka Connector"]
+	70 [label="Keras Network Reader"]
+	68 [label="Table to JSON"]
+	71 [label="Keras Network Executor"]
+	67 [label=Joiner]
+	65 [label="Kafka Producer"]
+	23 [label="Kafka Connector"]
+	69 [label="Table Manipulator"]
+	58 [label="Column Filter"]
+	63 [label="Rule Engine"]
+	40 [label="JSON to Table"]
+	rankdir=LR
+}

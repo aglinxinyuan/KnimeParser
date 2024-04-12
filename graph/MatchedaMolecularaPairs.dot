@@ -1,0 +1,20 @@
+digraph {
+	7 -> 104
+	97 -> 8
+	8 -> 6
+	4 -> 97
+	3 -> 4
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	1 [label="File Reader"]
+	7 [label="Fragments to MMPs"]
+	104 [label=GroupBy]
+	97 [label="RDKit Canon SMILES"]
+	4 [label="Speedy SMILES Strip Double Bond Geometry"]
+	8 [label="Duplicate Row Filter"]
+	6 [label="MMP Molecule Fragment _RDKit_"]
+	3 [label="Speedy SMILES Strip Stereochemistry"]
+	2 [label="Speedy SMILES De_salt"]
+	rankdir=LR
+}

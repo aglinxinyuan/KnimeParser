@@ -1,0 +1,40 @@
+digraph {
+	33 -> 296
+	771 -> 29
+	296 -> 769
+	775 -> 777
+	31 -> 42
+	30 -> 31
+	29 -> 30
+	296 -> 776
+	296 -> 774
+	45 -> 33
+	33 -> 43
+	46 -> 45
+	42 -> 46
+	775 -> 773
+	296 -> 772
+	770 -> 771
+	774 -> 775
+	769 -> 768
+	774 [label=GroupBy]
+	31 [label="N Chars Filter"]
+	775 [label=Sorter]
+	773 [label="GroupBy Bar Chart _JFreeChart_"]
+	770 [label="Excel Reader _XLS_"]
+	42 [label="Stop Word Filter"]
+	768 [label="Tag Cloud _JavaScript_"]
+	296 [label="Topic Extractor _Parallel LDA_"]
+	777 [label="Bar Chart"]
+	771 [label="Strings To Document"]
+	776 [label="Send to Power BI"]
+	43 [label="Tagged Document Viewer"]
+	29 [label="Punctuation Erasure"]
+	769 [label="Color Manager"]
+	772 [label="Tableau Writer _Hyper_"]
+	46 [label="Stanford Tagger"]
+	33 [label="Case Converter"]
+	30 [label="Number Filter"]
+	45 [label="Stanford Lemmatizer"]
+	rankdir=LR
+}

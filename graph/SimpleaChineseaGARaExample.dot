@@ -1,0 +1,30 @@
+digraph {
+	1888 -> 1834
+	5 -> 4
+	5 -> 1900
+	1834 -> 1900
+	1891 -> 1923
+	1887 -> 1888
+	1922 -> 1891
+	7 -> 1887
+	6 -> 1834
+	4 -> 1890
+	1890 -> 1891
+	1900 -> 1922
+	4 -> 6
+	1889 -> 1900
+	5 [label="Credentials Configuration"]
+	7 [label="PDF Parser"]
+	1900 [label="Vector Store Retriever"]
+	1887 [label="Sentence Extractor"]
+	1890 [label="OpenAI LLM Connector"]
+	4 [label="OpenAI Authenticator"]
+	1889 [label="Table Creator"]
+	6 [label="OpenAI Embeddings Connector"]
+	1923 [label="Table View _JavaScript_"]
+	1922 [label="String Manipulation"]
+	1834 [label="FAISS Vector Store Creator"]
+	1891 [label="LLM Prompter"]
+	1888 [label="Row Filter"]
+	rankdir=LR
+}

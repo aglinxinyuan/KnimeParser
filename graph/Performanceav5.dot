@@ -1,0 +1,117 @@
+digraph {
+	110 -> 114
+	31 -> 35
+	6 -> 31
+	99 -> 102
+	103 -> 97
+	108 -> 109
+	72 -> 65
+	2 -> 6
+	35 -> 92
+	85 -> 82
+	111 -> 113
+	73 -> 76
+	54 -> 53
+	72 -> 35
+	84 -> 83
+	104 -> 98
+	110 -> 106
+	87 -> 88
+	31 -> 116
+	69 -> 70
+	71 -> 65
+	102 -> 111
+	113 -> 103
+	58 -> 59
+	57 -> 59
+	56 -> 93
+	56 -> 57
+	114 -> 115
+	59 -> 61
+	76 -> 77
+	71 -> 57
+	86 -> 85
+	78 -> 100
+	61 -> 72
+	100 -> 102
+	77 -> 79
+	72 -> 73
+	2 -> 104
+	83 -> 81
+	112 -> 111
+	60 -> 61
+	70 -> 71
+	82 -> 80
+	109 -> 110
+	98 -> 99
+	89 -> 90
+	106 -> 112
+	65 -> 69
+	92 -> 54
+	86 -> 84
+	74 -> 75
+	71 -> 73
+	73 -> 107
+	75 -> 78
+	53 -> 55
+	88 -> 89
+	107 -> 108
+	73 -> 74
+	57 [label=Joiner]
+	55 [label=Sorter]
+	103 [label="Column Resorter"]
+	79 [label="Math Formula"]
+	89 [label=GroupBy]
+	97 [label="Excel Writer _XLS_"]
+	58 [label="Excel Reader _XLS_"]
+	74 [label=GroupBy]
+	108 [label="Rule Engine"]
+	78 [label="Math Formula"]
+	92 [label="Row Filter"]
+	84 [label=GroupBy]
+	98 [label=GroupBy]
+	31 [label="DB Query Reader"]
+	56 [label=GroupBy]
+	6 [label="DB SQL Executor"]
+	109 [label="Rule Engine"]
+	54 [label="Column Filter"]
+	114 [label=GroupBy]
+	110 [label="Rule Engine"]
+	85 [label=GroupBy]
+	59 [label=Joiner]
+	86 [label="Row Filter"]
+	75 [label="Math Formula"]
+	90 [label="Excel Writer _XLS_"]
+	112 [label="Column Rename"]
+	115 [label="Excel Writer _XLS_"]
+	53 [label="Math Formula"]
+	87 [label=Pivoting]
+	72 [label="Math Formula"]
+	61 [label=Joiner]
+	76 [label=GroupBy]
+	77 [label="Math Formula"]
+	93 [label="Excel Writer _XLS_"]
+	100 [label="Column Rename"]
+	106 [label=GroupBy]
+	83 [label="Math Formula"]
+	60 [label="Excel Reader _XLS_"]
+	81 [label="Math Formula"]
+	107 [label="Rule Engine"]
+	99 [label="Column Rename"]
+	113 [label="Column Filter"]
+	35 [label="Row Filter"]
+	104 [label="DB Query Reader"]
+	102 [label=Joiner]
+	70 [label="Rule_based Row Filter"]
+	82 [label="Math Formula"]
+	65 [label="Rule_based Row Filter"]
+	69 [label=Sorter]
+	71 [label=GroupBy]
+	116 [label="Row Filter"]
+	88 [label="Missing Value"]
+	111 [label=Joiner]
+	80 [label="Math Formula"]
+	73 [label="Reference Row Filter"]
+	2 [label="Microsoft SQL Server Connector"]
+	rankdir=LR
+}

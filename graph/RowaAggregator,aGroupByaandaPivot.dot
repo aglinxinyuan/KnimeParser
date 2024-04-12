@@ -1,0 +1,10 @@
+digraph {
+	341 -> 339
+	341 -> 338
+	341 -> 342
+	338 [label=GroupBy]
+	342 [label="Row Aggregator"]
+	339 [label=Pivot]
+	341 [label="Table Reader"]
+	rankdir=LR
+}

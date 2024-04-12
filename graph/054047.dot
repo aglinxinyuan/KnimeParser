@@ -1,0 +1,44 @@
+digraph {
+	4 -> 3
+	6 -> 27
+	13 -> 14
+	19 -> 21
+	1 -> 4
+	18 -> 19
+	27 -> 18
+	5 -> 10
+	1 -> 2
+	9 -> 8
+	18 -> 20
+	31 -> 16
+	27 -> 31
+	6 -> 7
+	7 -> 9
+	27 -> 19
+	27 -> 16
+	1 -> 13
+	5 -> 6
+	16 -> 17
+	1 -> 5
+	27 [label=Partitioning]
+	7 [label="Color Manager"]
+	9 [label="Shape Manager"]
+	18 [label="Decision Tree Learner"]
+	21 [label=Scorer]
+	8 [label="Scatter Plot"]
+	17 [label=Scorer]
+	3 [label="Pie chart _local_"]
+	19 [label="Decision Tree Predictor"]
+	31 [label="Logistic Regression Learner"]
+	6 [label=k_Means]
+	10 [label="Hierarchical Clustering"]
+	16 [label="Logistic Regression Predictor"]
+	1 [label="CSV Reader"]
+	4 [label="Color Manager"]
+	14 [label="Pie chart _local_"]
+	5 [label=Partitioning]
+	13 [label="Color Manager"]
+	20 [label="Decision Tree View"]
+	2 [label=Statistics]
+	rankdir=LR
+}

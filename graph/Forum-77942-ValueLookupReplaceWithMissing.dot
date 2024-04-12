@@ -1,0 +1,8 @@
+digraph {
+	44 -> 42
+	43 -> 42
+	44 [label="Table Creator"]
+	42 [label="Value Lookup"]
+	43 [label="Table Creator"]
+	rankdir=LR
+}

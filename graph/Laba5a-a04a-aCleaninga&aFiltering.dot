@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="XML Reader"]
+	4 [label="Tagged Document Viewer"]
+	3 [label="Tag Filter"]
+	2 [label="Case Converter"]
+	rankdir=LR
+}

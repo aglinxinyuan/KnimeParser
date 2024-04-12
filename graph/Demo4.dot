@@ -1,0 +1,17 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	6 -> 10
+	1 -> 2
+	7 -> 10
+	2 -> 5
+	5 [label=Concatenate]
+	1 [label="File Reader"]
+	7 [label="File Reader"]
+	4 [label="DB Query Reader"]
+	6 [label="Table Reader"]
+	3 [label="SQLite Connector"]
+	2 [label="Column Rename"]
+	10 [label="Cell Replacer"]
+	rankdir=LR
+}

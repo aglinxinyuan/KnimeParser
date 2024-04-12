@@ -1,0 +1,28 @@
+digraph {
+	220 -> 234
+	237 -> 236
+	222 -> 223
+	238 -> 239
+	218 -> 237
+	223 -> 221
+	240 -> 227
+	236 -> 238
+	223 -> 227
+	234 -> 223
+	227 -> 218
+	207 -> 240
+	227 [label="Keras Network Executor"]
+	237 [label="Many to One"]
+	223 [label="Keras Network Learner"]
+	222 [label="DL Python Network Creator"]
+	207 [label="Table Reader"]
+	236 [label="String Replacer"]
+	239 [label=Scorer]
+	220 [label="Table Reader"]
+	234 [label="Column Expressions"]
+	238 [label="Column Expressions"]
+	218 [label=GroupBy]
+	240 [label="Column Expressions"]
+	221 [label="Model Writer"]
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	7 -> 3
+	6 -> 4
+	1 -> 2
+	8 -> 9
+	4 -> 8
+	2 -> 7
+	4 -> 9
+	9 -> 10
+	3 -> 6
+	1 [label="CSV Reader"]
+	7 [label="Rule Engine"]
+	9 [label="Naive Bayes Predictor"]
+	4 [label=Partitioning]
+	6 [label="Normalizer _PMML_"]
+	8 [label="Naive Bayes Learner"]
+	3 [label="Category To Number"]
+	2 [label="Column Rename"]
+	10 [label=Scorer]
+	rankdir=LR
+}

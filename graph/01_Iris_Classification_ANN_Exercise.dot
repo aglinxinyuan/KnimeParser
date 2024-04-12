@@ -1,0 +1,15 @@
+digraph {
+	40 -> 33
+	57 -> 45
+	35 -> 40
+	46 -> 35
+	35 -> 33
+	45 -> 46
+	57 [label="Table Reader"]
+	35 [label=Partitioning]
+	46 [label="Create Collection Column"]
+	40 [label=Normalizer]
+	33 [label="Normalizer _Apply_"]
+	45 [label="Rule Engine"]
+	rankdir=LR
+}

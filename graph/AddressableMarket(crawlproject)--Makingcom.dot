@@ -1,0 +1,30 @@
+digraph {
+	588 -> 591
+	602 -> 604
+	595 -> 597
+	610 -> 599
+	604 -> 608
+	591 -> 589
+	586 -> 590
+	602 -> 612
+	604 -> 603
+	608 -> 610
+	590 -> 595
+	589 -> 586
+	597 -> 602
+	612 [label="Row Splitter"]
+	590 [label="Loop End"]
+	588 [label="Read Excel Sheet Names"]
+	599 [label="Excel Writer"]
+	595 [label="Case Converter"]
+	604 [label="Row Splitter"]
+	589 [label="Table Row To Variable Loop Start"]
+	597 [label="Rule Engine"]
+	602 [label="Duplicate Row Filter"]
+	610 [label=GroupBy]
+	586 [label="Excel Reader"]
+	591 [label="Row Filter"]
+	603 [label="Row Splitter"]
+	608 [label="Rule Engine"]
+	rankdir=LR
+}

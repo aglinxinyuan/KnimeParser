@@ -1,0 +1,42 @@
+digraph {
+	7 -> 8
+	23 -> 24
+	26 -> 30
+	15 -> 13
+	4 -> 6
+	12 -> 13
+	1 -> 4
+	14 -> 15
+	25 -> 26
+	10 -> 12
+	13 -> 23
+	2 -> 7
+	6 -> 10
+	27 -> 31
+	28 -> 27
+	24 -> 22
+	14 -> 27
+	30 -> 28
+	8 -> 14
+	27 [label=Joiner]
+	7 [label="Row Filter"]
+	26 [label="Row Filter"]
+	8 [label="Row Filter"]
+	24 [label="Column Rename"]
+	31 [label="Math Formula"]
+	6 [label="Row Filter"]
+	15 [label=GroupBy]
+	25 [label="CSV Reader"]
+	12 [label=GroupBy]
+	10 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	22 [label="Box Plot"]
+	28 [label="Math Formula"]
+	23 [label=Transpose]
+	4 [label="Row Filter"]
+	14 [label="Math Formula"]
+	13 [label=Concatenate]
+	30 [label="Row Filter"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	15 -> 19
+	13 -> 26
+	16 -> 12
+	28 -> 24
+	13 -> 20
+	29 -> 28
+	30 -> 23
+	24 -> 30
+	30 -> 34
+	19 -> 20
+	35 -> 16
+	27 -> 29
+	26 -> 28
+	14 -> 15
+	13 -> 27
+	19 -> 35
+	19 -> 13
+	16 [label="Color Manager"]
+	27 [label="Constant Value Column"]
+	24 [label="Color Manager"]
+	20 [label="Silhouette Coefficient"]
+	13 [label=k_Means]
+	35 [label=k_Means]
+	34 [label="Bubble Chart _Plotly_"]
+	29 [label="Constant Value Column"]
+	28 [label=Concatenate]
+	23 [label="Scatter Plot"]
+	26 [label="Constant Value Column"]
+	15 [label="Missing Value"]
+	14 [label="CSV Reader"]
+	30 [label="Size Manager"]
+	12 [label="3D Scatter Plot _Plotly_"]
+	19 [label="Distance Matrix Calculate"]
+	rankdir=LR
+}

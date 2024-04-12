@@ -1,0 +1,34 @@
+digraph {
+	234 -> 129
+	252 -> 254
+	143 -> 145
+	250 -> 143
+	251 -> 129
+	146 -> 249
+	247 -> 143
+	240 -> 146
+	254 -> 144
+	145 -> 144
+	129 -> 145
+	248 -> 247
+	253 -> 240
+	144 -> 146
+	246 -> 248
+	246 [label="SQLite Connector"]
+	247 [label="DB Reader"]
+	248 [label="DB Table Selector"]
+	251 [label="CSV Reader"]
+	144 [label=Joiner]
+	253 [label="Excel Reader"]
+	143 [label=Concatenate]
+	250 [label="CSV Reader"]
+	249 [label="Duplicate Row Filter"]
+	234 [label="Table Reader"]
+	252 [label="CSV Reader"]
+	145 [label=Joiner]
+	146 [label=Joiner]
+	129 [label="Cell Replacer"]
+	240 [label="String Manipulation"]
+	254 [label="Column Filter"]
+	rankdir=LR
+}

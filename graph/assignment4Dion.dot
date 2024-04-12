@@ -1,0 +1,36 @@
+digraph {
+	11 -> 15
+	12 -> 13
+	6 -> 11
+	8 -> 9
+	2 -> 16
+	13 -> 14
+	1 -> 5
+	3 -> 5
+	5 -> 6
+	17 -> 18
+	9 -> 10
+	15 -> 13
+	7 -> 6
+	10 -> 12
+	16 -> 17
+	6 -> 8
+	5 [label=Joiner]
+	16 [label="Column Filter"]
+	14 [label="Bar Chart"]
+	13 [label=Concatenate]
+	1 [label="Excel Reader"]
+	7 [label="Excel Reader"]
+	9 [label="Row Filter"]
+	11 [label="Constant Value Column"]
+	18 [label="Row Filter"]
+	6 [label=Joiner]
+	8 [label="Row Filter"]
+	15 [label="Column Filter"]
+	12 [label="Column Filter"]
+	17 [label="Date_Time Difference"]
+	3 [label="Excel Reader"]
+	2 [label="Excel Reader"]
+	10 [label="Constant Value Column"]
+	rankdir=LR
+}

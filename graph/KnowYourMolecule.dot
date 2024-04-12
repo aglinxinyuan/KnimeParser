@@ -1,0 +1,79 @@
+digraph {
+	66 -> 68
+	37 -> 97
+	8787 -> 56
+	51 -> 8448
+	69 -> 62
+	81 -> 83
+	65 -> 66
+	14 -> 8449
+	82 -> 85
+	68 -> 67
+	72 -> 84
+	62 -> 14
+	37 -> 8787
+	8782 -> 8781
+	86 -> 81
+	56 -> 65
+	83 -> 86
+	86 -> 90
+	86 -> 87
+	87 -> 86
+	86 -> 89
+	97 -> 92
+	81 -> 82
+	15 -> 51
+	69 -> 73
+	8785 -> 8781
+	84 -> 87
+	68 -> 71
+	85 -> 86
+	86 -> 79
+	8449 -> 8785
+	67 -> 69
+	8787 -> 37
+	15 -> 8448
+	62 -> 72
+	56 -> 8790
+	67 -> 71
+	77 -> 56
+	83 -> 85
+	8448 -> 8782
+	8781 -> 8448
+	73 -> 81
+	79 [label="CSV Writer"]
+	89 [label="CSV Writer"]
+	97 [label="RDKit Interactive Table"]
+	8449 [label="RDKit From Molecule"]
+	92 [label="HiLite Row Filter"]
+	84 [label="Row Splitter"]
+	8790 [label="CSV Writer"]
+	51 [label="ChEMBLdb Connector Input"]
+	56 [label=Joiner]
+	15 [label=MarvinSketch]
+	8781 [label="Fingerprint Similarity"]
+	85 [label="Reference Row Filter"]
+	86 [label="Reference Row Filter"]
+	8785 [label="RDKit Fingerprint"]
+	8787 [label="Row Filter"]
+	90 [label="CSV Writer"]
+	8448 [label="RDKit From Molecule"]
+	68 [label="Row Splitter"]
+	87 [label="CSV Writer"]
+	67 [label="Row Splitter"]
+	72 [label="Math Formula"]
+	77 [label="ChEMBLdb Connector Input"]
+	14 [label="Molecule Type Cast"]
+	83 [label="Row Splitter"]
+	81 [label="Value Counter"]
+	8782 [label="RDKit Fingerprint"]
+	62 [label=GroupBy]
+	66 [label="String To Number"]
+	82 [label="Math Formula"]
+	65 [label="Row Splitter"]
+	71 [label=Concatenate]
+	69 [label="Row Splitter"]
+	73 [label="Row Splitter"]
+	37 [label=Sorter]
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	24 -> 27
+	46 -> 47
+	48 -> 49
+	36 -> 35
+	26 -> 39
+	49 -> 37
+	34 -> 36
+	27 -> 37
+	47 -> 48
+	25 -> 27
+	37 -> 26
+	35 -> 46
+	24 -> 34
+	24 [label="Table Creator"]
+	27 [label=Joiner]
+	48 [label="Create Collection Column"]
+	35 [label="Table Row To Variable Loop Start"]
+	34 [label="Extract Column Header"]
+	49 [label="Table Row to Variable"]
+	36 [label=Transpose]
+	46 [label="String Manipulation _Variable_"]
+	26 [label="Column Comparator"]
+	47 [label="Variable to Table Row"]
+	25 [label="Table Creator"]
+	39 [label="Loop End _Column Append_"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

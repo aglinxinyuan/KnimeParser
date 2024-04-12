@@ -1,0 +1,59 @@
+digraph {
+	41 -> 42
+	1 -> 27
+	1 -> 31
+	42 -> 43
+	19 -> 18
+	27 -> 28
+	27 -> 44
+	38 -> 41
+	1 -> 17
+	22 -> 21
+	31 -> 30
+	27 -> 47
+	21 -> 20
+	33 -> 49
+	18 -> 22
+	44 -> 45
+	1 -> 32
+	33 -> 35
+	29 -> 31
+	36 -> 48
+	48 -> 38
+	1 -> 18
+	32 -> 33
+	34 -> 36
+	17 -> 19
+	47 -> 46
+	35 -> 34
+	49 -> 38
+	28 -> 29
+	27 [label="Network Analyzer"]
+	18 [label="Node Name Filter"]
+	21 [label="Shortest Path"]
+	32 [label="Network To Row"]
+	17 [label="Node Table"]
+	19 [label="Row Filter"]
+	49 [label=RowID]
+	41 [label="Loop End"]
+	31 [label="Node Name Filter"]
+	48 [label=RowID]
+	1 [label="Network Reader"]
+	42 [label=Sorter]
+	22 [label="Edge Degree Filter"]
+	28 [label=Sorter]
+	47 [label=Sorter]
+	38 [label=Joiner]
+	20 [label="Network Viewer"]
+	35 [label="Row To Network"]
+	44 [label=Sorter]
+	34 [label="Network Analyzer"]
+	43 [label="Row Filter"]
+	29 [label="Row Filter"]
+	36 [label=GroupBy]
+	46 [label="Row Filter"]
+	33 [label="Chunk Loop Start"]
+	30 [label="Edge Degree Filter"]
+	45 [label="Row Filter"]
+	rankdir=LR
+}

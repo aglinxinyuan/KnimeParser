@@ -1,0 +1,21 @@
+digraph {
+	24 -> 18
+	21 -> 23
+	24 -> 21
+	8 -> 19
+	19 -> 20
+	21 -> 22
+	8 -> 20
+	24 -> 17
+	24 -> 8
+	24 [label="R Source _Table_"]
+	20 [label="R Predictor"]
+	22 [label="R View _Workspace_"]
+	23 [label="R View _Workspace_"]
+	21 [label="Table to R"]
+	18 [label="R View _Table_"]
+	8 [label=Partitioning]
+	17 [label="R Snippet"]
+	19 [label="R Learner"]
+	rankdir=LR
+}

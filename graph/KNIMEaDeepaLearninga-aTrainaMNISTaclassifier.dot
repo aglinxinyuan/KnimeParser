@@ -1,0 +1,53 @@
+digraph {
+	54 -> 42
+	53 -> 54
+	56 -> 58
+	65 -> 85
+	63 -> 73
+	52 -> 60
+	60 -> 56
+	87 -> 20
+	42 -> 56
+	54 -> 56
+	65 -> 84
+	63 -> 89
+	73 -> 65
+	60 -> 54
+	58 -> 57
+	57 -> 59
+	59 -> 63
+	53 -> 57
+	62 -> 54
+	55 -> 60
+	42 -> 87
+	59 -> 62
+	53 -> 56
+	56 -> 55
+	59 -> 52
+	89 -> 87
+	57 -> 60
+	88 -> 89
+	62 -> 63
+	20 -> 53
+	57 [label=Transpose]
+	55 [label="Table Row to Variable"]
+	89 [label="DL Keras Network Learner"]
+	58 [label="String To Number"]
+	84 [label=Scorer]
+	56 [label="Column Filter"]
+	54 [label="Column Appender"]
+	85 [label="Image Viewer"]
+	59 [label=RowID]
+	42 [label="Column Rename"]
+	53 [label="Chunk Loop Start"]
+	87 [label="DL Network Executor"]
+	63 [label="Loop End"]
+	60 [label="Rule_based Row Filter"]
+	20 [label="Many to One"]
+	62 [label="Column Appender"]
+	65 [label="Column Resorter"]
+	88 [label="DL Python Network Creator"]
+	52 [label="Image Reader _Table_"]
+	73 [label="Column Auto Type Cast"]
+	rankdir=LR
+}

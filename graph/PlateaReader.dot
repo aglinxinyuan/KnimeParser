@@ -1,0 +1,24 @@
+digraph {
+	16 -> 15
+	14 -> 16
+	5 -> 4
+	4 -> 8
+	18 -> 14
+	8 -> 7
+	11 -> 13
+	17 -> 11
+	13 -> 12
+	5 [label="Table Creator"]
+	16 [label="Column Rename"]
+	13 [label="Column Rename"]
+	7 [label="Create Well Position"]
+	11 [label="R Snippet"]
+	4 [label="R Snippet"]
+	18 [label="Table Creator"]
+	8 [label="Column Rename"]
+	15 [label="Create Well Position"]
+	14 [label="R Snippet"]
+	17 [label="Table Creator"]
+	12 [label="Create Well Position"]
+	rankdir=LR
+}

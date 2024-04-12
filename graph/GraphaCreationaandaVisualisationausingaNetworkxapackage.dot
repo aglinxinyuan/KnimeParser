@@ -1,0 +1,14 @@
+digraph {
+	1 -> 4
+	4 -> 2
+	3 -> 4
+	5 -> 2
+	2 -> 11
+	5 [label="Conda Environment Propagation"]
+	1 [label="Table Creator"]
+	11 [label="Image Output Widget"]
+	4 [label=Joiner]
+	3 [label="Table Creator"]
+	2 [label="Python Script _Labs_"]
+	rankdir=LR
+}

@@ -1,0 +1,52 @@
+digraph {
+	20 -> 21
+	33 -> 23
+	38 -> 36
+	13 -> 14
+	34 -> 26
+	23 -> 35
+	27 -> 38
+	12 -> 13
+	10 -> 6
+	6 -> 11
+	26 -> 33
+	7 -> 34
+	11 -> 12
+	26 -> 23
+	35 -> 27
+	26 -> 25
+	36 -> 29
+	6 -> 7
+	18 -> 15
+	3 -> 6
+	15 -> 20
+	21 -> 3
+	19 -> 20
+	25 -> 23
+	20 -> 18
+	14 -> 19
+	27 [label=Unpivoting]
+	7 [label="Loop End _Column Append_"]
+	26 [label="Row Splitter"]
+	18 [label="Chunk Loop Start"]
+	21 [label="Cell Splitter"]
+	3 [label="Column List Loop Start"]
+	19 [label="Row Filter"]
+	6 [label="Column Expressions"]
+	15 [label="Cell Splitter"]
+	25 [label=Transpose]
+	10 [label="Excel Reader"]
+	12 [label=GroupBy]
+	11 [label="Column Combiner"]
+	23 [label="Insert Column Header"]
+	14 [label=Ungroup]
+	38 [label="Column Rename"]
+	13 [label="Cell Splitter"]
+	20 [label="Column Rename"]
+	35 [label="Column Rename"]
+	34 [label="Missing Value Column Filter"]
+	29 [label="Loop End"]
+	36 [label="Column Filter"]
+	33 [label="Table Row to Variable"]
+	rankdir=LR
+}

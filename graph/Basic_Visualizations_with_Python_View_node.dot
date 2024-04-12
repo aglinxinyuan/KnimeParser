@@ -1,0 +1,19 @@
+digraph {
+	15 -> 19
+	21 -> 23
+	16 -> 24
+	24 -> 19
+	19 -> 18
+	21 -> 20
+	18 -> 21
+	15 -> 24
+	24 [label=Concatenate]
+	16 [label="Table Creator"]
+	20 [label="Python View"]
+	23 [label="Python View"]
+	18 [label="Math Formula"]
+	21 [label="Missing Value"]
+	15 [label="Table Creator"]
+	19 [label="Lag Column"]
+	rankdir=LR
+}

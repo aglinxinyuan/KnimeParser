@@ -1,0 +1,16 @@
+digraph {
+	10 -> 9
+	10 -> 7
+	10 -> 5
+	10 -> 8
+	10 -> 4
+	7 -> 6
+	5 [label="Row Sampling"]
+	7 [label=Sorter]
+	9 [label="Row Sampling"]
+	4 [label="Row Sampling"]
+	8 [label="Row Sampling"]
+	6 [label="Row Sampling"]
+	10 [label="Table Reader"]
+	rankdir=LR
+}

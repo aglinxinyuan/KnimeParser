@@ -1,0 +1,31 @@
+digraph {
+	237 -> 238
+	239 -> 236
+	238 -> 239
+	244 -> 246
+	4 -> 235
+	246 -> 247
+	242 -> 241
+	1 -> 2
+	243 -> 242
+	245 -> 244
+	2 -> 4
+	240 -> 243
+	245 [label="Excel Reader"]
+	242 [label="URL to File Path _Variable_"]
+	246 [label="URL to File Path _Variable_"]
+	247 [label="Python Script"]
+	237 [label="Excel Reader"]
+	1 [label="Excel Reader"]
+	235 [label="Python Script"]
+	236 [label="Python Script"]
+	244 [label="Path to String _Variable_"]
+	241 [label="Python Script"]
+	243 [label="Path to String _Variable_"]
+	4 [label="URL to File Path _Variable_"]
+	239 [label="URL to File Path _Variable_"]
+	238 [label="Path to String _Variable_"]
+	2 [label="Path to String _Variable_"]
+	240 [label="Excel Reader"]
+	rankdir=LR
+}

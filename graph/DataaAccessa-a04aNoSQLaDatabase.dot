@@ -1,0 +1,23 @@
+digraph {
+	6 -> 5
+	68 -> 70
+	66 -> 69
+	73 -> 72
+	66 -> 64
+	64 -> 73
+	33 -> 5
+	69 -> 68
+	66 -> 3
+	5 [label="MongoDB Writer"]
+	64 [label="MongoDB Reader"]
+	66 [label="MongoDB Connector"]
+	70 [label="Interactive Table _local_"]
+	68 [label="JSON to Table"]
+	69 [label="MongoDB Reader"]
+	72 [label="Interactive Table _local_"]
+	6 [label="MongoDB Connector"]
+	33 [label="JSON Reader"]
+	3 [label="MongoDB Reader"]
+	73 [label="JSON to Table"]
+	rankdir=LR
+}

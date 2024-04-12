@@ -1,0 +1,10 @@
+digraph {
+	2 -> 6
+	5 -> 6
+	7 -> 2
+	5 [label="PortObject Reference Reader"]
+	7 [label="Excel Reader _XLS_"]
+	6 [label="Decision Tree Predictor"]
+	2 [label=Normalizer]
+	rankdir=LR
+}

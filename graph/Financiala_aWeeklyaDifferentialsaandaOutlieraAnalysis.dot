@@ -1,0 +1,21 @@
+digraph {
+	11 -> 10
+	5 -> 4
+	10 -> 14
+	12 -> 14
+	4 -> 11
+	14 -> 15
+	15 -> 13
+	10 -> 12
+	1 -> 5
+	5 [label="Group Loop Start"]
+	13 [label="Loop End"]
+	1 [label="File Reader"]
+	11 [label="Lag Column"]
+	4 [label=Unpivoting]
+	15 [label=Pivoting]
+	14 [label="Cross Joiner"]
+	12 [label="Numeric Outliers"]
+	10 [label="Math Formula"]
+	rankdir=LR
+}

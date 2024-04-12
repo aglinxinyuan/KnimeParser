@@ -1,0 +1,20 @@
+digraph {
+	1 -> 8
+	7 -> 8
+	4 -> 3
+	8 -> 5
+	1 -> 6
+	3 -> 1
+	6 -> 7
+	2 -> 4
+	1 -> 5
+	5 [label="Loop End"]
+	1 [label="Excel Reader"]
+	7 [label="String to Path _Variable_"]
+	4 [label="Chunk Loop Start"]
+	6 [label="String Manipulation _Variable_"]
+	8 [label="Excel Writer"]
+	3 [label="Table Row to Variable"]
+	2 [label="List Files_Folders"]
+	rankdir=LR
+}

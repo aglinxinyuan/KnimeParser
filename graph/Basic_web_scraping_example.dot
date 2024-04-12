@@ -1,0 +1,20 @@
+digraph {
+	622 -> 623
+	620 -> 624
+	615 -> 622
+	623 -> 618
+	624 -> 621
+	614 -> 615
+	613 -> 614
+	621 -> 614
+	620 [label="Table Creator"]
+	615 [label="Find Elements"]
+	613 [label="WebDriver Factory"]
+	624 [label="Row Sampling"]
+	621 [label="Table Row To Variable Loop Start"]
+	622 [label="Extract Text"]
+	623 [label=Cookies]
+	618 [label="Loop End"]
+	614 [label="Start WebDriver"]
+	rankdir=LR
+}

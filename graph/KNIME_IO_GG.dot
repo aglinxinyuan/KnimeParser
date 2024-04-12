@@ -1,0 +1,78 @@
+digraph {
+	24 -> 26
+	42 -> 52
+	31 -> 52
+	1 -> 73
+	5 -> 4
+	20 -> 32
+	32 -> 22
+	42 -> 46
+	30 -> 21
+	48 -> 74
+	4 -> 8
+	48 -> 51
+	31 -> 32
+	29 -> 30
+	46 -> 35
+	40 -> 42
+	69 -> 70
+	38 -> 52
+	28 -> 67
+	32 -> 52
+	26 -> 36
+	19 -> 22
+	5 -> 70
+	13 -> 4
+	45 -> 46
+	4 -> 28
+	38 -> 32
+	67 -> 69
+	49 -> 50
+	22 -> 38
+	31 -> 40
+	36 -> 52
+	35 -> 49
+	70 -> 29
+	1 -> 13
+	32 -> 31
+	30 -> 52
+	35 -> 48
+	21 -> 31
+	18 -> 21
+	42 -> 26
+	21 [label=Joiner]
+	26 [label=Joiner]
+	18 [label="Excel Reader"]
+	8 [label="Excel Writer"]
+	74 [label="Excel Writer"]
+	32 [label=Joiner]
+	19 [label="Excel Reader"]
+	24 [label="Excel Reader"]
+	49 [label="Row Filter"]
+	31 [label="Column Resorter"]
+	51 [label="Excel Writer"]
+	48 [label="Row Filter"]
+	50 [label="Excel Writer"]
+	1 [label="Excel Reader"]
+	42 [label="Column Resorter"]
+	22 [label=Joiner]
+	28 [label="Column Filter"]
+	67 [label="String Replacer"]
+	4 [label=Joiner]
+	38 [label="Column Resorter"]
+	5 [label="Excel Reader"]
+	13 [label="String to Number"]
+	20 [label="Excel Reader"]
+	35 [label="Column Resorter"]
+	29 [label="Column Resorter"]
+	70 [label=Joiner]
+	69 [label="String Replacer"]
+	36 [label="Column Renamer"]
+	46 [label="Column Appender"]
+	40 [label="String Manipulation"]
+	52 [label="Excel Writer"]
+	73 [label="Table Validator"]
+	30 [label="Column Renamer"]
+	45 [label="Table Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,58 @@
+digraph {
+	279 -> 404
+	394 -> 396
+	191 -> 69
+	400 -> 394
+	291 -> 279
+	394 -> 395
+	361 -> 299
+	33 -> 393
+	399 -> 72
+	196 -> 190
+	69 -> 30
+	299 -> 403
+	29 -> 33
+	195 -> 191
+	197 -> 397
+	395 -> 402
+	394 -> 299
+	392 -> 400
+	30 -> 29
+	394 -> 291
+	190 -> 191
+	299 -> 291
+	393 -> 197
+	396 -> 395
+	394 -> 361
+	198 -> 392
+	397 -> 198
+	394 -> 279
+	72 -> 190
+	400 [label="Category To Class"]
+	404 [label=Scorer]
+	394 [label=Partitioning]
+	190 [label="Dictionary Tagger"]
+	403 [label=Scorer]
+	196 [label="CSV Reader"]
+	291 [label="Decision Tree Learner"]
+	361 [label="XGBoost Tree Ensemble Learner"]
+	197 [label="Bag Of Words Creator"]
+	392 [label="Document Vector"]
+	397 [label="Term To String"]
+	299 [label="XGBoost Predictor"]
+	396 [label="Gradient Boosted Trees Learner"]
+	191 [label="Dictionary Tagger"]
+	72 [label="Column Filter"]
+	279 [label="Decision Tree Predictor"]
+	198 [label=TF]
+	399 [label="Table Reader"]
+	195 [label="CSV Reader"]
+	395 [label="Gradient Boosted Trees Predictor"]
+	29 [label="Punctuation Erasure"]
+	69 [label="Stop Word Filter"]
+	402 [label=Scorer]
+	393 [label="N Chars Filter"]
+	33 [label="Case Converter"]
+	30 [label="Number Filter"]
+	rankdir=LR
+}

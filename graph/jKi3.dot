@@ -1,0 +1,34 @@
+digraph {
+	4 -> 7
+	7 -> 8
+	14 -> 16
+	1 -> 4
+	18 -> 19
+	7 -> 5
+	2 -> 15
+	4 -> 14
+	8 -> 13
+	15 -> 16
+	5 -> 10
+	17 -> 18
+	10 -> 11
+	16 -> 17
+	13 -> 12
+	5 [label="Row Filter"]
+	16 [label=Joiner]
+	13 [label=Rank]
+	1 [label="CSV Reader"]
+	7 [label=GroupBy]
+	11 [label="Row Filter"]
+	4 [label="Row Filter"]
+	18 [label=Rank]
+	8 [label="Row Filter"]
+	15 [label="String Manipulation"]
+	14 [label=GroupBy]
+	17 [label="Math Formula"]
+	12 [label="Row Filter"]
+	2 [label="Excel Reader"]
+	10 [label=Rank]
+	19 [label="Row Filter"]
+	rankdir=LR
+}

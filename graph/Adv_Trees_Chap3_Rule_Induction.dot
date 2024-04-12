@@ -1,0 +1,10 @@
+digraph {
+	2 -> 1
+	16 -> 2
+	14 -> 16
+	1 [label="M5Rules _3_7_"]
+	16 [label="Column Filter"]
+	14 [label="Excel Reader"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

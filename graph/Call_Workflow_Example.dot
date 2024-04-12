@@ -1,0 +1,8 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	1 [label="Table Creator"]
+	3 [label="Rule_based Row Filter"]
+	2 [label="Call Workflow _Table Based_"]
+	rankdir=LR
+}

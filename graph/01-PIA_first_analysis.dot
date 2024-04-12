@@ -1,0 +1,22 @@
+digraph {
+	574 -> 573
+	576 -> 567
+	577 -> 591
+	591 -> 568
+	568 -> 570
+	567 -> 574
+	576 -> 590
+	570 -> 567
+	590 -> 591
+	577 -> 590
+	570 [label="PIA Compiler"]
+	590 [label=XTandemAdapter]
+	574 [label=Ungroup]
+	573 [label="Row Filter"]
+	567 [label="PIA Analysis"]
+	576 [label="Input File"]
+	591 [label=PeptideIndexer]
+	577 [label="Input File"]
+	568 [label="Port to URI"]
+	rankdir=LR
+}

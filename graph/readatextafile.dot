@@ -1,0 +1,14 @@
+digraph {
+	5 -> 4
+	8 -> 7
+	2 -> 5
+	4 -> 6
+	6 -> 8
+	5 [label="String Manipulation"]
+	7 [label="String To Number"]
+	4 [label="Cell Splitter"]
+	6 [label="Column Rename"]
+	8 [label="Column Filter"]
+	2 [label="Line Reader"]
+	rankdir=LR
+}

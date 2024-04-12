@@ -1,0 +1,25 @@
+digraph {
+	2226 -> 2224
+	20 -> 21
+	1 -> 2223
+	21 -> 23
+	2223 -> 2225
+	22 -> 20
+	2225 -> 2226
+	2225 -> 2
+	3 -> 22
+	22 -> 21
+	1 -> 3
+	2225 [label="Number To String"]
+	20 [label="Random Forest Learner"]
+	2223 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	22 [label=Partitioning]
+	2226 [label="Table Row to Variable"]
+	23 [label="Scorer _JavaScript_"]
+	21 [label="Random Forest Predictor"]
+	2224 [label="Text Output Widget"]
+	3 [label="Number To String"]
+	2 [label="Bar Chart"]
+	rankdir=LR
+}

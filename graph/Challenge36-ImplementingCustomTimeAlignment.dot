@@ -1,0 +1,21 @@
+digraph {
+	5 -> 8
+	4 -> 5
+	8 -> 9
+	3 -> 4
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	9 -> 6
+	5 [label="Create Date_Time Range"]
+	1 [label="CSV Reader"]
+	7 [label=Sorter]
+	9 [label="Rule_based Row Filter"]
+	4 [label="Table Row to Variable"]
+	6 [label=Joiner]
+	8 [label="Extract Date_Time Fields"]
+	3 [label=GroupBy]
+	2 [label="String to Date_Time"]
+	rankdir=LR
+}

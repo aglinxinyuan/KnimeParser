@@ -1,0 +1,29 @@
+digraph {
+	18 -> 13
+	12 -> 13
+	9 -> 3
+	3 -> 2
+	11 -> 17
+	4 -> 12
+	3 -> 11
+	1 -> 6
+	17 -> 18
+	8 -> 5
+	5 -> 9
+	2 -> 4
+	6 -> 8
+	5 [label="Column Expressions"]
+	13 [label=Joiner]
+	1 [label="CSV Reader"]
+	9 [label="Double To Int"]
+	11 [label=GroupBy]
+	4 [label=Sorter]
+	18 [label="Row Filter"]
+	6 [label="String to Date_Time"]
+	8 [label="Date_Time Difference"]
+	17 [label=Sorter]
+	3 [label="Row Filter"]
+	2 [label=GroupBy]
+	12 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,15 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	4 -> 6
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	5 [label="Scorer _JavaScript_"]
+	1 [label="CSV Reader"]
+	4 [label="Decision Tree Predictor"]
+	6 [label="ROC Curve"]
+	3 [label="Decision Tree Learner"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

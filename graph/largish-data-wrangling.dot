@@ -1,0 +1,26 @@
+digraph {
+	6 -> 5
+	1 -> 2
+	2 -> 10
+	8 -> 6
+	3 -> 8
+	9 -> 13
+	11 -> 12
+	2 -> 3
+	1 -> 14
+	5 -> 9
+	13 -> 11
+	5 [label="Extract Date_Time Fields"]
+	13 [label="Row Filter"]
+	1 [label="File Reader"]
+	12 [label="Scatter Plot"]
+	9 [label=GroupBy]
+	11 [label=Sorter]
+	8 [label="Math Formula"]
+	6 [label="String to Date_Time"]
+	14 [label="Extract Table Dimension"]
+	3 [label="Missing Value"]
+	2 [label="Column Filter"]
+	10 [label=Statistics]
+	rankdir=LR
+}

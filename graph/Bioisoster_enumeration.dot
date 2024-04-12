@@ -1,0 +1,58 @@
+digraph {
+	2 -> 23
+	29 -> 28
+	2 -> 1
+	1 -> 23
+	28 -> 26
+	1 -> 51
+	30 -> 55
+	55 -> 56
+	51 -> 15542
+	26 -> 27
+	15420 -> 15535
+	12 -> 31
+	27 -> 30
+	30 -> 25
+	15543 -> 15544
+	26 -> 22
+	2 -> 57
+	55 -> 31
+	15537 -> 15538
+	51 -> 54
+	15535 -> 15537
+	1 -> 15543
+	15542 -> 15541
+	15538 -> 57
+	31 -> 29
+	52 -> 53
+	30 -> 52
+	23 -> 22
+	27 [label="Extract Properties"]
+	15544 [label="Table Viewer"]
+	57 [label="Bioisostere Replacement"]
+	55 [label="MacroModel Minimization"]
+	26 [label="Group MAE"]
+	15420 [label="String Configuration"]
+	15542 [label="Get Help"]
+	31 [label="Cell Splitter"]
+	51 [label="Get Help"]
+	56 [label="Molecule Writer _from MAE_"]
+	25 [label="Table Viewer"]
+	54 [label="Table Viewer"]
+	15538 [label="String Manipulation _Variable_"]
+	12 [label="Extract Properties"]
+	1 [label="Bioisostere Replacement"]
+	22 [label="Reference Row Splitter"]
+	53 [label="Table Viewer"]
+	28 [label="Set MAE Properties"]
+	23 [label="Extract Properties"]
+	15537 [label="String Manipulation _Variable_"]
+	29 [label="Column Rename"]
+	15543 [label="Get Help"]
+	15541 [label="Table Viewer"]
+	15535 [label="String Manipulation _Variable_"]
+	52 [label=MAE_to_Smiles]
+	30 [label=Sorter]
+	2 [label="Molecule Reader _to MAE_"]
+	rankdir=LR
+}

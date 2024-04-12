@@ -1,0 +1,35 @@
+digraph {
+	255 -> 373
+	388 -> 377
+	366 -> 387
+	377 -> 376
+	387 -> 371
+	371 -> 388
+	374 -> 388
+	376 -> 378
+	371 -> 254
+	378 -> 380
+	371 -> 374
+	376 -> 381
+	373 -> 374
+	375 -> 374
+	388 -> 378
+	254 -> 255
+	381 -> 382
+	374 [label=IDMapper]
+	375 [label="Input File"]
+	380 [label="Output File"]
+	366 [label="Input Files"]
+	377 [label=FeatureLinkerUnlabeledKD]
+	378 [label=GNPSExport]
+	255 [label=MetaboliteAdductDecharger]
+	382 [label="Output File"]
+	373 [label=MapAlignerPoseClustering]
+	388 [label=ZipLoopEnd]
+	376 [label=FileFilter]
+	387 [label=ZipLoopStart]
+	381 [label=TextExporter]
+	371 [label=HighResPrecursorMassCorrector]
+	254 [label=FeatureFinderMetabo]
+	rankdir=LR
+}

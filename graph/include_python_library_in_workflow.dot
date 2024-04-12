@@ -1,0 +1,10 @@
+digraph {
+	248 -> 247
+	6 -> 5
+	247 -> 5
+	5 [label="Python Script"]
+	247 [label="Extract Context Properties"]
+	248 [label="Conda Environment Propagation"]
+	6 [label="Table Creator"]
+	rankdir=LR
+}

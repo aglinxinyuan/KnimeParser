@@ -1,0 +1,29 @@
+digraph {
+	6 -> 16
+	14 -> 17
+	2 -> 15
+	18 -> 14
+	15 -> 4
+	16 -> 9
+	17 -> 2
+	12 -> 5
+	4 -> 11
+	5 -> 6
+	11 -> 12
+	9 -> 10
+	6 -> 9
+	5 [label=Partitioning]
+	16 [label="Random Forest Learner"]
+	14 [label="Column Rename"]
+	9 [label="Random Forest Predictor"]
+	11 [label=Auto_Binner]
+	4 [label="Color Manager"]
+	18 [label="CSV Reader"]
+	6 [label="Missing Value"]
+	15 [label="Row Filter"]
+	12 [label="Category To Number"]
+	17 [label="Rule Engine"]
+	2 [label="Duplicate Row Filter"]
+	10 [label=Scorer]
+	rankdir=LR
+}

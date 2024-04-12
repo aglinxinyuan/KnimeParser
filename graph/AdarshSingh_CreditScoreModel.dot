@@ -1,0 +1,113 @@
+digraph {
+	42 -> 44
+	41 -> 42
+	20 -> 21
+	7 -> 8
+	21 -> 23
+	4 -> 5
+	8 -> 9
+	23 -> 24
+	49 -> 53
+	13 -> 14
+	39 -> 40
+	1 -> 45
+	34 -> 35
+	19 -> 21
+	40 -> 41
+	2 -> 3
+	27 -> 28
+	2 -> 4
+	51 -> 52
+	12 -> 13
+	4 -> 16
+	31 -> 32
+	29 -> 30
+	50 -> 51
+	26 -> 27
+	1 -> 2
+	17 -> 18
+	14 -> 15
+	11 -> 12
+	25 -> 26
+	10 -> 11
+	37 -> 38
+	5 -> 7
+	46 -> 47
+	48 -> 49
+	3 -> 31
+	35 -> 36
+	45 -> 46
+	24 -> 25
+	6 -> 7
+	47 -> 44
+	18 -> 15
+	43 -> 37
+	3 -> 19
+	49 -> 50
+	38 -> 39
+	32 -> 33
+	33 -> 30
+	44 -> 48
+	34 -> 36
+	30 -> 48
+	19 -> 20
+	15 -> 48
+	5 -> 6
+	36 -> 43
+	9 -> 10
+	16 -> 17
+	28 -> 29
+	27 [label="Constant Value Column"]
+	7 [label="MultiLayerPerceptron Predictor"]
+	9 [label=Scorer]
+	45 [label="Decision Tree Learner"]
+	52 [label="PMML Writer"]
+	18 [label="Rule Engine"]
+	21 [label="SVM Predictor"]
+	26 [label="Column Filter"]
+	8 [label=X_Aggregator]
+	32 [label="PMML To Cell"]
+	17 [label="PMML To Cell"]
+	3 [label=Normalizer]
+	19 [label=X_Partitioner]
+	24 [label=Scorer]
+	49 [label=Sorter]
+	41 [label="Constant Value Column"]
+	31 [label="SVM Learner"]
+	51 [label="Cell To PMML"]
+	6 [label="RProp MLP Learner"]
+	15 [label="Cross Joiner"]
+	25 [label="Row Filter"]
+	12 [label="Constant Value Column"]
+	10 [label="Row Filter"]
+	16 [label="RProp MLP Learner"]
+	48 [label=Concatenate]
+	50 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	42 [label=RowID]
+	53 [label="Bar Chart"]
+	28 [label="Constant Value Column"]
+	11 [label="Column Filter"]
+	4 [label=Normalizer]
+	23 [label=X_Aggregator]
+	47 [label="Rule Engine"]
+	14 [label=RowID]
+	38 [label="Row Filter"]
+	5 [label=X_Partitioner]
+	13 [label="Constant Value Column"]
+	20 [label="SVM Learner"]
+	35 [label="Decision Tree Learner"]
+	34 [label=X_Partitioner]
+	43 [label=X_Aggregator]
+	29 [label=RowID]
+	44 [label="Cross Joiner"]
+	36 [label="Decision Tree Predictor"]
+	46 [label="PMML To Cell"]
+	40 [label="Constant Value Column"]
+	39 [label="Column Filter"]
+	33 [label="Rule Engine"]
+	30 [label="Cross Joiner"]
+	2 [label="Category To Number"]
+	37 [label=Scorer]
+	rankdir=LR
+}

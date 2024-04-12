@@ -1,0 +1,10 @@
+digraph {
+	2 -> 5
+	1 -> 3
+	3 -> 5
+	1 [label="Microsoft SQL Server Connector"]
+	3 [label="DB Query Reader"]
+	2 [label="Microsoft SQL Server Connector"]
+	5 [label="DB Merge"]
+	rankdir=LR
+}

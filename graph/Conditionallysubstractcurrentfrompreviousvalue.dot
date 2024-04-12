@@ -1,0 +1,53 @@
+digraph {
+	21 -> 25
+	4 -> 31
+	19 -> 21
+	2 -> 3
+	27 -> 28
+	3 -> 10
+	6 -> 16
+	16 -> 15
+	20 -> 19
+	31 -> 32
+	10 -> 17
+	26 -> 27
+	25 -> 26
+	17 -> 30
+	28 -> 32
+	31 -> 6
+	15 -> 17
+	3 -> 31
+	29 -> 19
+	30 -> 29
+	24 -> 25
+	16 -> 27
+	32 -> 33
+	3 -> 4
+	15 -> 20
+	29 -> 24
+	9 -> 10
+	6 -> 9
+	27 [label="Column Appender"]
+	9 [label="String Manipulation _Variable_"]
+	21 [label="Column Rename _Regex_"]
+	26 [label="Loop End _Column Append_"]
+	32 [label=Concatenate]
+	17 [label="Column Filter"]
+	3 [label="String Manipulation"]
+	19 [label="Math Formula"]
+	24 [label="String Manipulation _Variable_"]
+	31 [label="Reference Row Splitter"]
+	6 [label="Group Loop Start"]
+	15 [label="Column List Loop Start"]
+	25 [label="Column Rename _Regex_"]
+	10 [label="Rule_based Row Filter"]
+	16 [label="Column Splitter"]
+	28 [label="Loop End"]
+	4 [label=GroupBy]
+	20 [label="Column Rename _Regex_"]
+	29 [label="Table Row to Variable"]
+	33 [label="Column Filter"]
+	30 [label="Column Rename _Regex_"]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,23 @@
+digraph {
+	20 -> 21
+	4 -> 5
+	3 -> 1509
+	18 -> 19
+	3 -> 4
+	21 -> 5
+	19 -> 20
+	7 -> 6
+	6 -> 1509
+	5 -> 7
+	5 [label=MatchAnnotator]
+	20 [label="URL to File Path _Variable_"]
+	1509 [label=Joiner]
+	7 [label="Nominal Value Row Filter"]
+	4 [label="Matcher MM7_x"]
+	18 [label="Table Creator"]
+	21 [label="URL to File Path _Variable_"]
+	6 [label=DedupClusterer]
+	3 [label="IndexReader MM7_x"]
+	19 [label="Table Row to Variable"]
+	rankdir=LR
+}

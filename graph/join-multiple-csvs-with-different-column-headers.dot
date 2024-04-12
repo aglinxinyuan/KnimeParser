@@ -1,0 +1,31 @@
+digraph {
+	45 -> 61
+	44 -> 47
+	61 -> 62
+	32 -> 43
+	58 -> 60
+	47 -> 50
+	43 -> 44
+	30 -> 43
+	60 -> 59
+	33 -> 43
+	62 -> 63
+	50 -> 58
+	44 -> 45
+	59 -> 61
+	43 [label=Concatenate]
+	50 [label="Chunk Loop Start"]
+	44 [label="Group Loop Start"]
+	62 [label="Loop End"]
+	47 [label="Column Filter"]
+	58 [label="Missing Value Column Filter"]
+	61 [label="Constant Value Column"]
+	63 [label="Column Resorter"]
+	32 [label="Table Creator"]
+	33 [label="Table Creator"]
+	30 [label="Table Creator"]
+	60 [label=RowID]
+	45 [label="Table Row to Variable"]
+	59 [label="Loop End _Column Append_"]
+	rankdir=LR
+}

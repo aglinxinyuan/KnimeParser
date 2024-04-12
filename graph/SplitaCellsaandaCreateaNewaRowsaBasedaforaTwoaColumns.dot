@@ -1,0 +1,21 @@
+digraph {
+	20 -> 21
+	24 -> 28
+	20 -> 26
+	23 -> 24
+	28 -> 25
+	26 -> 27
+	21 -> 22
+	27 -> 28
+	22 -> 23
+	24 [label=Unpivoting]
+	27 [label=Unpivoting]
+	20 [label="Excel Reader"]
+	22 [label="Cell Splitter"]
+	28 [label="Column Appender"]
+	23 [label="String Manipulation _Multi Column_"]
+	26 [label="Cell Splitter"]
+	21 [label="String Manipulation"]
+	25 [label="Table Manipulator"]
+	rankdir=LR
+}

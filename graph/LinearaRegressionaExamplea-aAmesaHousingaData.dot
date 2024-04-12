@@ -1,0 +1,19 @@
+digraph {
+	29 -> 31
+	44 -> 65
+	31 -> 32
+	44 -> 29
+	63 -> 30
+	29 -> 32
+	32 -> 63
+	44 -> 66
+	30 [label="Numeric Scorer"]
+	44 [label="CSV Reader"]
+	66 [label="Scatter Plot"]
+	29 [label=Partitioning]
+	31 [label="Linear Regression Learner"]
+	65 [label=Statistics]
+	63 [label="Missing Value"]
+	32 [label="Regression Predictor"]
+	rankdir=LR
+}

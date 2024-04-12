@@ -1,0 +1,26 @@
+digraph {
+	330 -> 335
+	334 -> 330
+	340 -> 339
+	350 -> 351
+	349 -> 336
+	340 -> 350
+	349 -> 350
+	339 -> 338
+	336 -> 339
+	1 -> 334
+	335 -> 349
+	336 -> 340
+	351 [label="Numeric Scorer"]
+	334 [label="Cell Splitter"]
+	339 [label="Simple Regression Tree Predictor"]
+	350 [label="Simple Regression Tree Predictor"]
+	1 [label="CSV Reader"]
+	335 [label="Normalizer _PMML_"]
+	330 [label="Column Filter"]
+	338 [label="Numeric Scorer"]
+	336 [label=Partitioning]
+	349 [label="Rule_based Row Splitter"]
+	340 [label="Simple Regression Tree Learner"]
+	rankdir=LR
+}

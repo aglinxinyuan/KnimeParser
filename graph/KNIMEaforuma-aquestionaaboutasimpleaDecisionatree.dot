@@ -1,0 +1,50 @@
+digraph {
+	472 -> 480
+	476 -> 497
+	473 -> 495
+	473 -> 496
+	474 -> 476
+	467 -> 490
+	471 -> 472
+	481 -> 473
+	474 -> 492
+	473 -> 467
+	474 -> 467
+	478 -> 494
+	501 -> 500
+	467 -> 491
+	473 -> 474
+	467 -> 498
+	500 -> 504
+	474 -> 478
+	480 -> 501
+	480 -> 481
+	467 -> 499
+	500 -> 502
+	504 -> 505
+	501 -> 504
+	474 [label="Decision Tree Learner"]
+	476 [label="Decision Tree to Ruleset"]
+	498 [label="Binary Classification Inspector"]
+	501 [label=Partitioning]
+	502 [label="Weka Classifier Writer _3_7_"]
+	504 [label="Weka Predictor _3_7_"]
+	490 [label="Scorer _JavaScript_"]
+	471 [label="Excel Reader"]
+	505 [label="Scorer _JavaScript_"]
+	467 [label="Decision Tree Predictor"]
+	480 [label=RowID]
+	499 [label="Excel Writer"]
+	500 [label="JRip _3_7_"]
+	481 [label="Rule Engine"]
+	496 [label="Table Writer"]
+	494 [label="CSV Writer"]
+	497 [label="CSV Writer"]
+	491 [label=Scorer]
+	495 [label="Table Writer"]
+	478 [label="PMML to SQL"]
+	492 [label="PMML Writer"]
+	472 [label="Column Rename"]
+	473 [label=Partitioning]
+	rankdir=LR
+}

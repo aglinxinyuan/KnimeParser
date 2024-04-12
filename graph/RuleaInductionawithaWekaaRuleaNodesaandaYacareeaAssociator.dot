@@ -1,0 +1,49 @@
+digraph {
+	392 -> 393
+	258 -> 157
+	392 -> 395
+	392 -> 399
+	256 -> 257
+	261 -> 262
+	257 -> 261
+	397 -> 392
+	158 -> 258
+	1 -> 262
+	1 -> 254
+	397 -> 401
+	392 -> 391
+	401 -> 404
+	399 -> 394
+	3 -> 1
+	157 -> 1
+	254 -> 255
+	255 -> 256
+	403 -> 397
+	397 -> 390
+	2 -> 3
+	392 -> 158
+	401 [label="JRip _3_7_"]
+	404 [label="Weka Classifier Writer _3_7_"]
+	394 [label="FilteredAssociator _3_7_"]
+	3 [label=GroupBy]
+	254 [label="Split Collection Column"]
+	256 [label="Split Collection Column"]
+	403 [label="Table Reader"]
+	392 [label="Column Filter"]
+	390 [label="HotSpot _3_7_"]
+	262 [label="Excel Writer"]
+	1 [label="Yacaree Associator"]
+	391 [label="GeneralizedSequentialPatterns _3_7_"]
+	397 [label="Column Filter"]
+	261 [label="Excel Writer"]
+	158 [label="Column Filter"]
+	399 [label="Column Filter"]
+	257 [label="Column Rename _Regex_"]
+	395 [label="Tertius _3_7_"]
+	157 [label="Create Collection Column"]
+	258 [label="Rule Engine"]
+	255 [label="Column Rename _Regex_"]
+	393 [label="PredictiveApriori _3_7_"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

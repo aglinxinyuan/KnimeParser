@@ -1,0 +1,12 @@
+digraph {
+	3 -> 27
+	27 -> 32
+	33 -> 35
+	32 -> 33
+	27 [label="DB Query Reader"]
+	35 [label=Area]
+	33 [label=Projection]
+	32 [label="WKT to Geometry"]
+	3 [label="Oracle Connector"]
+	rankdir=LR
+}

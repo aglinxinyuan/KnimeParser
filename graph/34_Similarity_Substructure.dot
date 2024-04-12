@@ -1,0 +1,21 @@
+digraph {
+	2 -> 18
+	20 -> 21
+	6 -> 22
+	19 -> 3
+	18 -> 3
+	2 -> 6
+	21 -> 22
+	1 -> 2
+	6 -> 19
+	20 [label="Table Creator"]
+	1 [label="CSV Reader"]
+	22 [label="RDKit Molecule Substructure Filter"]
+	18 [label="RDKit Fingerprint"]
+	21 [label="Molecule Type Cast"]
+	6 [label="RDKit To Molecule"]
+	3 [label="Similarity Search"]
+	2 [label="Molecule Type Cast"]
+	19 [label="RDKit Fingerprint"]
+	rankdir=LR
+}

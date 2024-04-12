@@ -1,0 +1,20 @@
+digraph {
+	13 -> 10
+	8 -> 9
+	5 -> 13
+	12 -> 8
+	3 -> 12
+	13 -> 8
+	9 -> 10
+	10 -> 11
+	12 -> 11
+	5 [label="CSV Reader"]
+	13 [label="String Manipulation"]
+	9 [label="Row Filter"]
+	11 [label=Joiner]
+	10 [label=Joiner]
+	8 [label="String Matcher"]
+	3 [label="CSV Reader"]
+	12 [label="String Manipulation"]
+	rankdir=LR
+}

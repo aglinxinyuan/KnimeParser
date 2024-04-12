@@ -1,0 +1,25 @@
+digraph {
+	21 -> 19
+	2 -> 1
+	21 -> 25
+	6 -> 21
+	1 -> 6
+	25 -> 26
+	19 -> 23
+	26 -> 27
+	28 -> 22
+	23 -> 28
+	27 -> 23
+	27 [label="String to Path _Variable_"]
+	1 [label="Amazon S3 Connector"]
+	22 [label="Loop End"]
+	28 [label="Variable to Table Row"]
+	23 [label="Table Writer"]
+	21 [label="Table Row To Variable Loop Start"]
+	26 [label="String Manipulation _Variable_"]
+	6 [label="Transfer Files"]
+	25 [label="Math Formula _Variable_"]
+	2 [label="Amazon Authentication"]
+	19 [label="Excel Reader"]
+	rankdir=LR
+}

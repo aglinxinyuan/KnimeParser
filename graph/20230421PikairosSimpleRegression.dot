@@ -1,0 +1,23 @@
+digraph {
+	5 -> 8
+	8 -> 9
+	4 -> 8
+	3 -> 4
+	3 -> 5
+	2 -> 4
+	5 -> 7
+	1 -> 2
+	2 -> 3
+	2 -> 5
+	4 -> 6
+	5 [label="Simple Regression Tree Predictor"]
+	1 [label="Excel Reader"]
+	7 [label="Numeric Scorer"]
+	9 [label="Excel Writer"]
+	4 [label="Simple Regression Tree Predictor"]
+	6 [label="Numeric Scorer"]
+	8 [label=Concatenate]
+	3 [label="Simple Regression Tree Learner"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

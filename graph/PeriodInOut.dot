@@ -1,0 +1,19 @@
+digraph {
+	4 -> 7
+	5 -> 8
+	6 -> 5
+	7 -> 8
+	3 -> 5
+	2 -> 4
+	6 -> 7
+	1 -> 3
+	5 [label="Column Appender"]
+	1 [label="Table Creator"]
+	7 [label="Column Appender"]
+	4 [label=Sorter]
+	8 [label=Joiner]
+	6 [label="Table Creator"]
+	3 [label=Sorter]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,81 @@
+digraph {
+	12 -> 26
+	13 -> 15
+	5 -> 8
+	91 -> 89
+	14 -> 16
+	7 -> 25
+	26 -> 14
+	72 -> 79
+	8 -> 9
+	13 -> 14
+	79 -> 82
+	25 -> 72
+	25 -> 12
+	90 -> 5
+	72 -> 67
+	69 -> 70
+	67 -> 70
+	17 -> 13
+	12 -> 75
+	9 -> 25
+	81 -> 82
+	9 -> 17
+	9 -> 72
+	15 -> 16
+	68 -> 71
+	88 -> 91
+	1 -> 88
+	76 -> 78
+	80 -> 83
+	3 -> 91
+	12 -> 17
+	75 -> 77
+	70 -> 68
+	82 -> 80
+	67 -> 69
+	4 -> 7
+	12 -> 76
+	75 -> 76
+	89 -> 4
+	16 -> 19
+	79 -> 81
+	9 -> 26
+	91 -> 90
+	91 [label=Joiner]
+	7 [label="Category to Number"]
+	79 [label=X_Partitioner]
+	89 [label="Column Filter"]
+	9 [label=Normalizer]
+	26 [label=Denormalizer]
+	8 [label="Numeric Outliers"]
+	17 [label=Denormalizer]
+	3 [label="CSV Reader"]
+	19 [label=Scorer]
+	78 [label=Scorer]
+	15 [label="Decision Tree Learner"]
+	25 [label=Joiner]
+	75 [label="Random Forest Learner"]
+	12 [label=Partitioning]
+	16 [label="Decision Tree Predictor"]
+	1 [label="CSV Reader"]
+	90 [label="Column Filter"]
+	68 [label=X_Aggregator]
+	67 [label=X_Partitioner]
+	72 [label=Denormalizer]
+	4 [label="Missing Value"]
+	76 [label="Random Forest Predictor"]
+	77 [label="Tree Ensemble Statistics"]
+	14 [label="Color Appender"]
+	83 [label=Scorer]
+	81 [label="Decision Tree Learner"]
+	5 [label="Missing Value"]
+	13 [label="Color Manager"]
+	70 [label="Decision Tree Predictor"]
+	82 [label="Decision Tree Predictor"]
+	69 [label="Decision Tree Learner"]
+	71 [label=Scorer]
+	88 [label="Row Sampling"]
+	80 [label=X_Aggregator]
+	rankdir=LR
+}

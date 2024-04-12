@@ -1,0 +1,36 @@
+digraph {
+	23 -> 21
+	11 -> 10
+	21 -> 24
+	32 -> 25
+	12 -> 19
+	24 -> 30
+	30 -> 31
+	31 -> 32
+	19 -> 22
+	32 -> 27
+	20 -> 22
+	12 -> 20
+	25 -> 27
+	35 -> 34
+	27 -> 35
+	10 -> 12
+	22 -> 23
+	24 [label="Extract Date_Time Fields"]
+	27 [label="DB Writer"]
+	32 [label="String Manipulation"]
+	20 [label=GroupBy]
+	35 [label="DB Connection Extractor"]
+	34 [label="DB Connection Closer"]
+	22 [label="Column Appender"]
+	31 [label="Column Resorter"]
+	11 [label="SQLite Connector"]
+	21 [label="Create Date_Time Range"]
+	23 [label="Table Row To Variable"]
+	10 [label="DB Table Selector"]
+	25 [label="SQLite Connector"]
+	30 [label=RowID]
+	12 [label="DB Reader"]
+	19 [label=GroupBy]
+	rankdir=LR
+}

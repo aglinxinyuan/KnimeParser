@@ -1,0 +1,34 @@
+digraph {
+	97 -> 98
+	96 -> 98
+	85 -> 87
+	96 -> 97
+	86 -> 88
+	89 -> 92
+	87 -> 90
+	85 -> 89
+	96 -> 83
+	88 -> 91
+	85 -> 86
+	83 -> 85
+	91 -> 93
+	83 -> 84
+	87 -> 89
+	81 -> 97
+	86 [label="DB Row Filter"]
+	91 [label="DB Sorter"]
+	96 [label="Create Local Big Data Environment"]
+	92 [label="DB Reader"]
+	90 [label="DB Reader"]
+	84 [label="DB Table Remover"]
+	87 [label="DB GroupBy"]
+	89 [label="DB Joiner"]
+	98 [label="DB Loader"]
+	97 [label="DB Table Creator"]
+	88 [label="DB Column Filter"]
+	93 [label="DB Reader"]
+	83 [label="DB SQL Executor"]
+	85 [label="DB Table Selector"]
+	81 [label="Data Generator"]
+	rankdir=LR
+}

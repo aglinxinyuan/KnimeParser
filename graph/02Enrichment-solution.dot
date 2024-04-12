@@ -1,0 +1,14 @@
+digraph {
+	38 -> 20
+	20 -> 33
+	34 -> 35
+	22 -> 34
+	33 -> 22
+	20 [label="Row Filter"]
+	35 [label="Tagged Document Viewer"]
+	34 [label="POS Tagger"]
+	22 [label="Column Filter"]
+	33 [label="Strings To Document"]
+	38 [label="Table Reader"]
+	rankdir=LR
+}

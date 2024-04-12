@@ -1,0 +1,27 @@
+digraph {
+	6 -> 5
+	18 -> 9
+	1 -> 2
+	20 -> 19
+	2 -> 4
+	15 -> 17
+	22 -> 20
+	9 -> 21
+	21 -> 22
+	17 -> 18
+	4 -> 6
+	5 [label="Column Renamer"]
+	20 [label="Column Filter"]
+	1 [label="GET Request"]
+	22 [label=Ungroup]
+	9 [label="GET Request"]
+	4 [label=Ungroup]
+	21 [label="JSON Path"]
+	18 [label="String Manipulation"]
+	6 [label="Column Filter"]
+	15 [label="Table Creator"]
+	17 [label="String Manipulation"]
+	2 [label="JSON Path"]
+	19 [label="Column Renamer"]
+	rankdir=LR
+}

@@ -1,0 +1,66 @@
+digraph {
+	292 -> 306
+	308 -> 309
+	315 -> 316
+	316 -> 311
+	288 -> 285
+	296 -> 155
+	286 -> 287
+	306 -> 307
+	151 -> 286
+	316 -> 310
+	290 -> 296
+	155 -> 156
+	294 -> 155
+	156 -> 292
+	148 -> 296
+	285 -> 294
+	313 -> 314
+	295 -> 155
+	137 -> 296
+	314 -> 315
+	307 -> 308
+	148 -> 151
+	286 -> 296
+	310 -> 316
+	309 -> 306
+	288 -> 289
+	289 -> 295
+	288 -> 290
+	287 -> 288
+	308 -> 305
+	293 -> 292
+	293 -> 156
+	152 -> 148
+	292 -> 293
+	316 -> 292
+	306 [label=GroupBy]
+	292 [label="Send Email"]
+	289 [label="Cell To Model"]
+	307 [label=Pivoting]
+	308 [label="Column Rename _Regex_"]
+	286 [label="CASE Switch Variable _Start_"]
+	295 [label="DL4J Feedforward Predictor _Classification_"]
+	151 [label="Table Row to Variable"]
+	313 [label="Create Date_Time Range"]
+	290 [label="Cell To Model"]
+	137 [label="Table Reader"]
+	315 [label="Table Row to Variable"]
+	316 [label="Merge Variables"]
+	156 [label="CASE Switch Data _End_"]
+	311 [label="Data to Report"]
+	288 [label="CASE Switch Variable _Start_"]
+	309 [label=GroupBy]
+	148 [label="Rule Engine"]
+	285 [label="Cell To Model"]
+	294 [label="Random Forest Predictor"]
+	310 [label="Table Row to Variable"]
+	296 [label="Gradient Boosted Trees Predictor"]
+	287 [label="Rule Engine Variable"]
+	293 [label="Table Row to Variable"]
+	314 [label="Date_Time to String"]
+	155 [label="CASE Switch Data _End_"]
+	305 [label="JavaScript Bar Chart"]
+	152 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	11 -> 10
+	4 -> 5
+	14 -> 17
+	4 -> 16
+	9 -> 11
+	2 -> 4
+	3 -> 4
+	16 -> 14
+	1 -> 2
+	5 -> 9
+	1 -> 3
+	5 [label=Sorter]
+	16 [label="Color Manager"]
+	1 [label="PostgreSQL Connector"]
+	9 [label="Row Filter"]
+	11 [label="Column Filter"]
+	4 [label=Concatenate]
+	14 [label="Scatter Plot"]
+	17 [label="Image to Report"]
+	3 [label="DB Query Reader"]
+	2 [label="DB Query Reader"]
+	10 [label="Data to Report"]
+	rankdir=LR
+}

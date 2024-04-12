@@ -1,0 +1,16 @@
+digraph {
+	154 -> 155
+	110 -> 150
+	152 -> 154
+	150 -> 128
+	151 -> 154
+	155 -> 110
+	150 [label=Sorter]
+	155 [label="Ungroup MAE"]
+	154 [label="Induced Fit Docking"]
+	152 [label="Molecule Reader"]
+	110 [label="Extract MAE Properties"]
+	128 [label="Run Maestro"]
+	151 [label="Molecule Reader"]
+	rankdir=LR
+}

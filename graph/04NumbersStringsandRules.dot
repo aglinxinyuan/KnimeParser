@@ -1,0 +1,17 @@
+digraph {
+	20 -> 21
+	25 -> 19
+	26 -> 20
+	19 -> 18
+	21 -> 22
+	25 -> 23
+	20 [label="Math Formula"]
+	22 [label="Rule Engine"]
+	23 [label="Column Expressions"]
+	18 [label="String Manipulation"]
+	21 [label="Math Formula"]
+	26 [label="CSV Reader"]
+	25 [label="CSV Reader"]
+	19 [label="String Manipulation"]
+	rankdir=LR
+}

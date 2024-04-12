@@ -1,0 +1,14 @@
+digraph {
+	6 -> 4
+	5 -> 4
+	1 -> 2
+	2 -> 3
+	3 -> 6
+	5 [label="Table Creator"]
+	1 [label="Table Creator"]
+	4 [label="Constant Value Column"]
+	6 [label="Table Row to Variable"]
+	3 [label="Column Filter"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

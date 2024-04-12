@@ -1,0 +1,48 @@
+digraph {
+	8 -> 9
+	4 -> 6
+	38 -> 2
+	1 -> 4
+	31 -> 32
+	10 -> 8
+	5 -> 10
+	1 -> 2
+	5 -> 43
+	33 -> 34
+	29 -> 31
+	5 -> 46
+	2 -> 38
+	38 -> 30
+	26 -> 29
+	38 -> 32
+	4 -> 10
+	38 -> 3
+	32 -> 33
+	43 -> 44
+	3 -> 4
+	46 -> 45
+	30 -> 26
+	2 -> 5
+	9 [label="Bar Chart"]
+	26 [label="Math Formula"]
+	8 [label="Missing Value"]
+	32 [label="Row Filter"]
+	3 [label="Rule Engine"]
+	31 [label="Table Row to Variable"]
+	6 [label="Pie_Donut Chart"]
+	10 [label=Concatenate]
+	1 [label="Column Filter"]
+	4 [label="Top k Selector"]
+	38 [label="Row Filter"]
+	5 [label="Top k Selector"]
+	43 [label="Math Formula"]
+	44 [label="Top k Selector"]
+	34 [label="Bar Chart"]
+	29 [label="Top k Selector"]
+	46 [label="Math Formula"]
+	33 [label="Column Filter"]
+	30 [label="Column Filter"]
+	2 [label="Column Filter"]
+	45 [label="Top k Selector"]
+	rankdir=LR
+}

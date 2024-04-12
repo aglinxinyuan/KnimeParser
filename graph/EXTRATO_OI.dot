@@ -1,0 +1,30 @@
+digraph {
+	1362 -> 1361
+	6 -> 1355
+	1381 -> 1379
+	1361 -> 1380
+	1385 -> 1384
+	1361 -> 1364
+	1356 -> 1362
+	1381 -> 1382
+	1355 -> 1356
+	5 -> 6
+	1380 -> 1381
+	1384 -> 1383
+	1381 -> 1385
+	5 [label="Tika Parser"]
+	1383 [label="String To Number"]
+	1380 [label="Domain Calculator"]
+	1379 [label="Excel Writer"]
+	1362 [label=RowID]
+	1355 [label="Table Transposer"]
+	1381 [label="Value Filter _legacy_"]
+	1385 [label="Domain Calculator"]
+	1384 [label="Value Filter _legacy_"]
+	1361 [label="Row Filter"]
+	6 [label="Cell Splitter"]
+	1382 [label="String To Number"]
+	1364 [label="Extract Table Spec"]
+	1356 [label="Cell Splitter"]
+	rankdir=LR
+}

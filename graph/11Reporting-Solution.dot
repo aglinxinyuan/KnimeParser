@@ -1,0 +1,23 @@
+digraph {
+	2 -> 12
+	12 -> 7
+	13 -> 2
+	8 -> 9
+	12 -> 8
+	4 -> 11
+	12 -> 4
+	7 -> 10
+	6 -> 7
+	9 -> 6
+	13 [label="Table Reader"]
+	7 [label="Bar Chart"]
+	9 [label=Transpose]
+	11 [label="Data to Report"]
+	4 [label=Sorter]
+	10 [label="Image to Report"]
+	6 [label="Color Manager"]
+	8 [label="Extract Column Header"]
+	2 [label=Pivoting]
+	12 [label="Rule Engine"]
+	rankdir=LR
+}

@@ -1,0 +1,24 @@
+digraph {
+	29 -> 31
+	1 -> 30
+	29 -> 2
+	1 -> 24
+	25 -> 26
+	24 -> 25
+	26 -> 27
+	29 -> 33
+	27 -> 28
+	28 -> 29
+	24 [label="Row Filter"]
+	27 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	29 [label="Row Filter"]
+	28 [label="Row Filter"]
+	31 [label="Value Counter"]
+	26 [label="Row Filter"]
+	25 [label="Row Filter"]
+	33 [label=GroupBy]
+	30 [label="Value Counter"]
+	2 [label="Linear Regression Learner"]
+	rankdir=LR
+}

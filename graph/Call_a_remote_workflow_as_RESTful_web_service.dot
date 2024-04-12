@@ -1,0 +1,12 @@
+digraph {
+	11 -> 2
+	2 -> 7
+	9 -> 11
+	10 -> 9
+	7 [label="JSON Path"]
+	9 [label="Create Service Deployment"]
+	11 [label="String Manipulation _Variable_"]
+	2 [label="POST Request"]
+	10 [label="KNIME Space Connector"]
+	rankdir=LR
+}

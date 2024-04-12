@@ -1,0 +1,28 @@
+digraph {
+	7 -> 3
+	2 -> 3
+	1 -> 7
+	12 -> 14
+	8 -> 9
+	1 -> 13
+	14 -> 15
+	11 -> 12
+	9 -> 10
+	7 -> 9
+	13 -> 12
+	3 -> 6
+	13 [label=Partitioning]
+	1 [label="CSV Reader"]
+	7 [label=Partitioning]
+	9 [label="Random Forest Predictor"]
+	11 [label="Naive Bayes Learner"]
+	10 [label=Scorer]
+	8 [label="Random Forest Learner"]
+	15 [label=Scorer]
+	6 [label=Scorer]
+	14 [label="Rule Engine"]
+	3 [label="Decision Tree Predictor"]
+	2 [label="Decision Tree Learner"]
+	12 [label="Naive Bayes Predictor"]
+	rankdir=LR
+}

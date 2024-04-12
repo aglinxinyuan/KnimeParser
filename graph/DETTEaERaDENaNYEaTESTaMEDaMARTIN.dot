@@ -1,0 +1,50 @@
+digraph {
+	12 -> 26
+	29 -> 28
+	13 -> 14
+	21 -> 22
+	1 -> 4
+	29 -> 30
+	26 -> 27
+	27 -> 21
+	22 -> 29
+	33 -> 34
+	15 -> 16
+	6 -> 15
+	6 -> 10
+	9 -> 12
+	6 -> 7
+	34 -> 6
+	5 -> 32
+	10 -> 26
+	16 -> 27
+	32 -> 33
+	6 -> 13
+	21 -> 31
+	6 -> 9
+	1 -> 5
+	27 [label=Joiner]
+	7 [label=GroupBy]
+	9 [label="Date_Time Difference"]
+	26 [label=Joiner]
+	21 [label=Normalizer]
+	31 [label="Math Formula"]
+	6 [label="Row Filter"]
+	15 [label=GroupBy]
+	12 [label=GroupBy]
+	10 [label=GroupBy]
+	16 [label=GroupBy]
+	30 [label="Bar Chart"]
+	1 [label="Excel Reader"]
+	22 [label=k_Means]
+	28 [label="Scatter Plot"]
+	4 [label="Statistics View"]
+	14 [label=GroupBy]
+	5 [label="Row Filter"]
+	13 [label=GroupBy]
+	34 [label="Row Filter"]
+	29 [label="Color Manager"]
+	33 [label="Row Filter"]
+	32 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	15338 -> 15349
+	45 -> 15348
+	15403 -> 15338
+	15404 -> 15405
+	15403 -> 15348
+	15348 -> 15404
+	15273 -> 15403
+	15349 [label="Run Maestro"]
+	15405 [label="Run Maestro"]
+	15273 [label="SDF Reader"]
+	15338 [label="Ligand Alignment"]
+	15403 [label=LigPrep]
+	15348 [label="Ligand Alignment"]
+	15404 [label="Extract Properties"]
+	45 [label="Molecule Reader _to MAE_"]
+	rankdir=LR
+}

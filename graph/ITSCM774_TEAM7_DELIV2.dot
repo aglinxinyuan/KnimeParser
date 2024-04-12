@@ -1,0 +1,32 @@
+digraph {
+	8 -> 9
+	1 -> 11
+	9 -> 18
+	4 -> 6
+	11 -> 5
+	21 -> 20
+	5 -> 6
+	1 -> 2
+	9 -> 10
+	8 -> 17
+	10 -> 12
+	12 -> 21
+	5 -> 19
+	6 -> 8
+	5 [label="Missing Value"]
+	20 [label=Statistics]
+	1 [label="File Reader"]
+	9 [label="Numeric Outliers"]
+	11 [label="Duplicate Row Filter"]
+	4 [label="Table Creator"]
+	18 [label="Box Plot"]
+	21 [label="Math Formula"]
+	10 [label="Rule Engine"]
+	6 [label="Cell Replacer"]
+	8 [label="Category To Number"]
+	12 [label="Rule Engine"]
+	17 [label="Box Plot"]
+	2 [label=Statistics]
+	19 [label=Statistics]
+	rankdir=LR
+}

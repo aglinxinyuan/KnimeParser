@@ -1,0 +1,14 @@
+digraph {
+	20 -> 21
+	27 -> 25
+	21 -> 16
+	16 -> 25
+	26 -> 27
+	16 [label="RDKit Functional Group Filter"]
+	27 [label="Molecule Type Cast"]
+	20 [label="File Reader"]
+	26 [label="Table Creator"]
+	21 [label="RDKit From Molecule"]
+	25 [label="RDKit Chemical Transformation"]
+	rankdir=LR
+}

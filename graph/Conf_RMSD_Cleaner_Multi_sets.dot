@@ -1,0 +1,17 @@
+digraph {
+	1 -> 4
+	4 -> 3
+	3 -> 2
+	3 -> 7
+	2 -> 6
+	7 -> 6
+	2 -> 8
+	1 [label="List Files"]
+	7 [label="Java Edit Variable"]
+	4 [label="Table Row To Variable Loop Start"]
+	6 [label="SDF Writer"]
+	8 [label="Loop End"]
+	3 [label="SDF Reader"]
+	2 [label="RDKit RMSD Filter"]
+	rankdir=LR
+}

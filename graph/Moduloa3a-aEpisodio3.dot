@@ -1,0 +1,32 @@
+digraph {
+	375 -> 373
+	373 -> 413
+	424 -> 271
+	403 -> 404
+	368 -> 375
+	273 -> 368
+	272 -> 273
+	271 -> 272
+	373 -> 412
+	404 -> 368
+	373 -> 374
+	266 -> 271
+	406 -> 403
+	426 -> 266
+	374 [label="Line Plot"]
+	375 [label="Extract Date_Time Fields"]
+	413 [label="Tile View _JavaScript_"]
+	403 [label="DB Table Selector"]
+	368 [label=Joiner]
+	373 [label=Pivot]
+	412 [label="Stacked Area Chart"]
+	272 [label="Rule Engine"]
+	273 [label="String to Date_Time"]
+	266 [label="Table Cropper"]
+	404 [label="DB Reader"]
+	406 [label="SQLite Connector"]
+	271 [label="Value Lookup"]
+	424 [label="CSV Reader"]
+	426 [label="Excel Reader"]
+	rankdir=LR
+}

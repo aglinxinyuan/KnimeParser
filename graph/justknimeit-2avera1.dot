@@ -1,0 +1,63 @@
+digraph {
+	12 -> 15
+	5 -> 8
+	24 -> 28
+	20 -> 21
+	21 -> 23
+	10 -> 9
+	25 -> 36
+	19 -> 18
+	34 -> 35
+	12 -> 21
+	35 -> 30
+	1 -> 4
+	4 -> 11
+	11 -> 12
+	29 -> 33
+	33 -> 34
+	30 -> 36
+	15 -> 16
+	9 -> 11
+	18 -> 20
+	25 -> 30
+	36 -> 37
+	4 -> 7
+	7 -> 5
+	32 -> 33
+	8 -> 10
+	25 -> 33
+	17 -> 19
+	23 -> 25
+	32 -> 1
+	16 -> 17
+	28 -> 29
+	7 [label="Column Filter"]
+	9 [label="Table Row to Variable"]
+	18 [label="Column Rename"]
+	21 [label="Interval Loop Start"]
+	8 [label="Column Filter"]
+	32 [label="Local File Browser Configuration"]
+	17 [label="Row Filter"]
+	19 [label="Double To Int"]
+	24 [label="Table Creator"]
+	15 [label=Statistics]
+	25 [label="Column Splitter"]
+	10 [label="Double To Int"]
+	12 [label="Rule_based Row Filter"]
+	16 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	28 [label=Joiner]
+	11 [label="Interval Loop Start"]
+	4 [label="Cell Splitter"]
+	23 [label="Rule_based Row Filter"]
+	5 [label=Statistics]
+	20 [label="Table Row to Variable"]
+	35 [label="String to Path _Variable_"]
+	34 [label="String Manipulation _Variable_"]
+	29 [label="Table Row to Variable"]
+	36 [label="Loop End"]
+	33 [label="String Manipulation _Variable_"]
+	30 [label="CSV Writer"]
+	37 [label="Loop End"]
+	rankdir=LR
+}

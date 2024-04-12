@@ -1,0 +1,20 @@
+digraph {
+	5 -> 3
+	4 -> 8
+	3 -> 4
+	8 -> 2
+	2 -> 7
+	6 -> 1
+	1 -> 2
+	3 -> 1
+	4 -> 6
+	5 [label="Credentials Configuration"]
+	1 [label="Workflow Reader"]
+	7 [label="Variable Loop End"]
+	4 [label="List Files_Folders"]
+	6 [label="Table Row To Variable Loop Start"]
+	8 [label="Create Temp Folder"]
+	3 [label="KNIME Server Connector"]
+	2 [label="Workflow Writer"]
+	rankdir=LR
+}

@@ -1,0 +1,73 @@
+digraph {
+	13 -> 15
+	30 -> 7
+	4 -> 5
+	62 -> 20
+	12 -> 47
+	46 -> 61
+	16 -> 20
+	28 -> 26
+	4 -> 6
+	20 -> 45
+	29 -> 30
+	22 -> 16
+	44 -> 54
+	25 -> 28
+	6 -> 66
+	47 -> 22
+	48 -> 63
+	61 -> 64
+	45 -> 44
+	52 -> 66
+	15 -> 25
+	6 -> 48
+	6 -> 62
+	63 -> 44
+	7 -> 13
+	26 -> 12
+	60 -> 63
+	60 -> 29
+	6 -> 43
+	64 -> 52
+	44 -> 49
+	56 -> 60
+	54 -> 50
+	3 -> 4
+	60 -> 62
+	50 -> 46
+	43 -> 56
+	7 [label="Extract Column Header"]
+	26 [label="Table Row to Variable _deprecated_"]
+	3 [label="Table Creator"]
+	64 [label="Missing Value"]
+	49 [label="Rule Engine"]
+	56 [label="Column Aggregator"]
+	6 [label=Pivoting]
+	15 [label="Column Rename"]
+	25 [label="Extract Table Dimension"]
+	54 [label="Rule Engine"]
+	12 [label="Python Script _1_1_ _deprecated_"]
+	16 [label="Table Row to Variable _deprecated_"]
+	48 [label="Column Filter"]
+	50 [label="Column Filter"]
+	22 [label="Chunk Loop Start"]
+	28 [label="Math Formula"]
+	4 [label=Unpivoting]
+	47 [label="Collection to String"]
+	61 [label="Loop End"]
+	63 [label="Reference Row Filter"]
+	60 [label="Group Loop Start"]
+	5 [label="String Manipulation"]
+	13 [label=Transpose]
+	43 [label="Column Filter"]
+	20 [label="Column Filter"]
+	62 [label="Reference Row Filter"]
+	66 [label=Joiner]
+	29 [label="Constant Value Column Filter"]
+	44 [label="Column Appender"]
+	46 [label="Loop End _Column Append_"]
+	52 [label="Constant Value Column Filter"]
+	30 [label="Column Filter"]
+	45 [label="Column Aggregator"]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	15 -> 3
+	3 -> 5
+	5 [label="Scatter Plot"]
+	3 [label="Color Manager"]
+	15 [label="Table Reader"]
+	rankdir=LR
+}

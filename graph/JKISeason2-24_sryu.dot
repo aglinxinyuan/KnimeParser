@@ -1,0 +1,88 @@
+digraph {
+	51 -> 40
+	49 -> 47
+	12 -> 7
+	13 -> 14
+	53 -> 51
+	2 -> 12
+	58 -> 62
+	30 -> 31
+	45 -> 49
+	29 -> 30
+	54 -> 55
+	28 -> 53
+	14 -> 15
+	1 -> 2
+	25 -> 35
+	11 -> 12
+	39 -> 43
+	37 -> 38
+	65 -> 56
+	21 -> 35
+	23 -> 21
+	15 -> 16
+	44 -> 61
+	35 -> 36
+	47 -> 48
+	7 -> 13
+	24 -> 25
+	36 -> 37
+	62 -> 64
+	30 -> 40
+	16 -> 17
+	38 -> 39
+	64 -> 57
+	61 -> 65
+	43 -> 44
+	62 -> 61
+	28 -> 51
+	40 -> 45
+	56 -> 54
+	3 -> 11
+	2 -> 3
+	57 -> 23
+	31 -> 28
+	57 [label="Row Splitter"]
+	55 [label="Table View"]
+	7 [label="String Similarity"]
+	45 [label="Rule Engine"]
+	21 [label="NGram Creator"]
+	58 [label="CSV Reader"]
+	17 [label="Table View"]
+	3 [label=GroupBy]
+	24 [label="Strings To Document"]
+	64 [label=GroupBy]
+	49 [label="Rule Engine"]
+	31 [label=GroupBy]
+	51 [label="Similarity Search"]
+	56 [label="Rule Engine"]
+	15 [label="Rule Engine"]
+	25 [label="NGram Creator"]
+	54 [label="Color Manager"]
+	12 [label="Cross Joiner"]
+	16 [label="Color Manager"]
+	48 [label="Table View"]
+	1 [label="CSV Reader"]
+	53 [label=RowID]
+	28 [label="Row Splitter"]
+	23 [label="Strings To Document"]
+	11 [label="Row Filter"]
+	47 [label="Color Manager"]
+	61 [label=Joiner]
+	14 [label="Rule Engine"]
+	38 [label="Math Formula"]
+	43 [label="String Manipulation"]
+	35 [label="Cross Joiner"]
+	44 [label="String Manipulation"]
+	13 [label="Duplicate Row Filter"]
+	62 [label="Cell Splitter"]
+	29 [label="CSV Reader"]
+	65 [label="Rule Engine"]
+	36 [label="Rule Engine"]
+	40 [label=Joiner]
+	39 [label="Duplicate Row Filter"]
+	30 [label="Cell Splitter"]
+	2 [label="Cell Splitter"]
+	37 [label=GroupBy]
+	rankdir=LR
+}

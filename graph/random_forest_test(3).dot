@@ -1,0 +1,40 @@
+digraph {
+	44 -> 47
+	4 -> 5
+	16 -> 20
+	46 -> 50
+	49 -> 44
+	46 -> 49
+	1 -> 22
+	14 -> 15
+	1 -> 2
+	7 -> 15
+	7 -> 14
+	44 -> 36
+	5 -> 46
+	15 -> 16
+	50 -> 49
+	3 -> 4
+	16 -> 19
+	2 -> 3
+	2 -> 5
+	5 [label="Reference Column Filter"]
+	16 [label=Scorer]
+	20 [label="ROC Curve _local_"]
+	50 [label="Decision Tree Learner"]
+	1 [label="CSV Reader"]
+	7 [label=Partitioning]
+	44 [label=X_Aggregator]
+	22 [label="Value Counter"]
+	49 [label="Decision Tree Predictor"]
+	36 [label=Scorer]
+	46 [label=X_Partitioner]
+	4 [label="Correlation Filter"]
+	47 [label="ROC Curve _local_"]
+	15 [label="Weka Predictor _3_7_"]
+	14 [label="AdaBoostM1 _3_7_"]
+	3 [label="Linear Correlation _deprecated_"]
+	2 [label="Low Variance Filter"]
+	19 [label=Scorer]
+	rankdir=LR
+}

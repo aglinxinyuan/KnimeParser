@@ -1,0 +1,18 @@
+digraph {
+	17 -> 15
+	24 -> 23
+	15 -> 20
+	15 -> 22
+	18 -> 17
+	15 -> 23
+	25 -> 24
+	24 [label="Google Sheets Connection"]
+	20 [label="CSV Writer"]
+	22 [label="Table Writer"]
+	23 [label="Google Sheets Writer"]
+	18 [label="File Reader"]
+	15 [label=Sorter]
+	25 [label="Google Authentication"]
+	17 [label=Pivoting]
+	rankdir=LR
+}

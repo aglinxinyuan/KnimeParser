@@ -1,0 +1,36 @@
+digraph {
+	103 -> 57
+	101 -> 99
+	98 -> 95
+	48 -> 103
+	94 -> 99
+	57 -> 104
+	106 -> 101
+	102 -> 106
+	99 -> 96
+	96 -> 107
+	102 -> 98
+	95 -> 101
+	109 -> 108
+	104 -> 102
+	98 -> 94
+	104 -> 109
+	107 -> 109
+	95 -> 94
+	94 [label="Random Forest Predictor"]
+	48 [label="File Reader"]
+	99 [label="Conformal Classification"]
+	107 [label="Capture Workflow End"]
+	103 [label="Capture Workflow Start"]
+	96 [label="Conformal Scorer"]
+	102 [label=Partitioning]
+	57 [label="Number To String"]
+	104 [label="Capture Workflow End"]
+	98 [label="Conformal Partitioning"]
+	101 [label="Random Forest Predictor"]
+	95 [label="Random Forest Learner"]
+	109 [label="Workflow Combiner"]
+	108 [label="Workflow Writer"]
+	106 [label="Capture Workflow Start"]
+	rankdir=LR
+}

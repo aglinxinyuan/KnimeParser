@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="XML Reader"]
+	4 [label=IDF]
+	3 [label=TF]
+	2 [label="Bag Of Words Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,53 @@
+digraph {
+	12 -> 10
+	10 -> 13
+	9 -> 14
+	4 -> 3
+	8 -> 9
+	1924 -> 1925
+	5 -> 1878
+	2 -> 4
+	1921 -> 1920
+	3 -> 1924
+	1923 -> 1919
+	6 -> 4
+	12 -> 3
+	6 -> 12
+	5 -> 1920
+	14 -> 15
+	3 -> 5
+	12 -> 8
+	15 -> 11
+	1 -> 7
+	1922 -> 1921
+	11 -> 10
+	1920 -> 1923
+	1925 -> 1926
+	7 -> 6
+	1878 -> 1922
+	7 [label="Column Rename"]
+	9 [label="Duplicate Row Filter"]
+	8 [label="Rule_based Row Filter"]
+	1925 [label="DB Table Selector"]
+	3 [label="DB Table Creator"]
+	1878 [label="DB Query"]
+	6 [label="String to Date_Time"]
+	15 [label="Rule_based Row Filter"]
+	10 [label=Joiner]
+	12 [label="Counter Generation"]
+	1 [label="Excel Reader"]
+	11 [label="Column Rename"]
+	4 [label="DB Table Remover"]
+	1924 [label="DB SQL Executor"]
+	1921 [label="DB Column Rename"]
+	1922 [label="DB Row Filter"]
+	1923 [label="DB Sorter"]
+	14 [label=Sorter]
+	5 [label="DB Writer"]
+	1920 [label="DB Joiner"]
+	13 [label=Sorter]
+	1919 [label="DB Reader"]
+	1926 [label="DB Reader"]
+	2 [label="H2 Connector"]
+	rankdir=LR
+}

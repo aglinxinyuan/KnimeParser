@@ -1,0 +1,12 @@
+digraph {
+	3 -> 7
+	2 -> 3
+	3 -> 4
+	4 -> 6
+	7 [label="Geospatial View"]
+	4 [label="Geometry To Point"]
+	6 [label="Geospatial View"]
+	3 [label="WKT to Geometry"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

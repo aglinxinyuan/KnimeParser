@@ -1,0 +1,14 @@
+digraph {
+	4 -> 5
+	78 -> 4
+	2 -> 78
+	1 -> 2
+	6 -> 78
+	5 [label="Output Folder"]
+	1 [label="Input Files"]
+	4 [label=ZipLoopEnd]
+	6 [label="Input File"]
+	2 [label=ZipLoopStart]
+	78 [label=XTandemAdapter]
+	rankdir=LR
+}

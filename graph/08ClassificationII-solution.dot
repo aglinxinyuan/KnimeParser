@@ -1,0 +1,57 @@
+digraph {
+	33 -> 105
+	106 -> 107
+	109 -> 114
+	108 -> 109
+	22 -> 33
+	106 -> 109
+	110 -> 106
+	20 -> 23
+	175 -> 173
+	109 -> 16
+	155 -> 20
+	21 -> 173
+	173 -> 172
+	21 -> 20
+	106 -> 115
+	154 -> 20
+	95 -> 146
+	16 -> 21
+	172 -> 176
+	176 -> 132
+	21 -> 95
+	114 -> 110
+	115 -> 108
+	21 -> 21
+	174 -> 175
+	146 -> 132
+	105 -> 106
+	107 -> 108
+	23 -> 22
+	114 -> 174
+	21 [label="Document Vector"]
+	108 [label="Case Converter"]
+	105 [label="Number Filter"]
+	154 [label="Table Reader"]
+	109 [label="Snowball Stemmer"]
+	114 [label="Tag Filter"]
+	110 [label="Bag Of Words Creator"]
+	146 [label="Decision Tree Learner"]
+	16 [label=TF]
+	115 [label="Stop Word Filter"]
+	22 [label="Column Filter"]
+	173 [label="Document Vector Applier"]
+	174 [label="Bag Of Words Creator"]
+	23 [label="Strings To Document"]
+	176 [label="Color Manager"]
+	172 [label="Document Data Extractor"]
+	106 [label="Punctuation Erasure"]
+	175 [label=TF]
+	107 [label=GroupBy]
+	20 [label="Row Filter"]
+	155 [label="Table Reader"]
+	95 [label="Column Filter"]
+	33 [label="POS Tagger"]
+	132 [label="Decision Tree Predictor"]
+	rankdir=LR
+}

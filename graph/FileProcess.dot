@@ -1,0 +1,16 @@
+digraph {
+	14 -> 4
+	9 -> 10
+	1 -> 14
+	10 -> 12
+	12 -> 11
+	4 -> 9
+	1 [label="Python Source"]
+	9 [label="Vocabulary Extractor"]
+	11 [label="CSV Writer"]
+	4 [label="Word2Vec Learner"]
+	14 [label="Case Converter"]
+	12 [label="Table Manipulator"]
+	10 [label="Python Script"]
+	rankdir=LR
+}

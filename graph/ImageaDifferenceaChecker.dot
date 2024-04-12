@@ -1,0 +1,16 @@
+digraph {
+	13 -> 10
+	7 -> 8
+	10 -> 9
+	9 -> 12
+	1 -> 7
+	8 -> 12
+	13 [label="Image Generator"]
+	1 [label="Image Generator"]
+	7 [label="Renderer to Image"]
+	9 [label="Table To Image"]
+	10 [label="Renderer to Image"]
+	8 [label="Table To Image"]
+	12 [label="Image Difference Checker"]
+	rankdir=LR
+}

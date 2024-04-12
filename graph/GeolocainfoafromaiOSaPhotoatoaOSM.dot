@@ -1,0 +1,42 @@
+digraph {
+	12 -> 15
+	21 -> 23
+	5 -> 4
+	8 -> 9
+	14 -> 8
+	13 -> 14
+	8 -> 3
+	5 -> 15
+	20 -> 17
+	10 -> 12
+	4 -> 2
+	16 -> 21
+	19 -> 16
+	3 -> 5
+	18 -> 20
+	17 -> 19
+	1 -> 13
+	8 -> 18
+	23 -> 22
+	9 [label="String to JSON"]
+	18 [label="Column Filter"]
+	21 [label="JSON Path"]
+	8 [label="Duplicate Row Filter"]
+	17 [label="String Manipulation"]
+	3 [label="String to Date_Time"]
+	19 [label="Row Filter"]
+	15 [label="Google Sheets Updater"]
+	12 [label="Google Sheets Connection"]
+	10 [label="Google Authentication"]
+	16 [label="GET Request"]
+	1 [label="CSV Reader"]
+	22 [label="OSM Map View"]
+	23 [label="Color Manager"]
+	4 [label="Color Manager"]
+	14 [label="Row Filter"]
+	5 [label="Extract Date_Time Fields"]
+	13 [label="Row Filter"]
+	20 [label="Duplicate Row Filter"]
+	2 [label="OSM Map View"]
+	rankdir=LR
+}

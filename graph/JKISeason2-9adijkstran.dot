@@ -1,0 +1,57 @@
+digraph {
+	6 -> 5
+	5 -> 16
+	4 -> 5
+	49 -> 43
+	14 -> 8
+	55 -> 52
+	12 -> 13
+	8 -> 45
+	6 -> 4
+	6 -> 11
+	13 -> 9
+	46 -> 48
+	6 -> 12
+	46 -> 44
+	17 -> 18
+	11 -> 12
+	1 -> 41
+	41 -> 6
+	48 -> 49
+	15 -> 8
+	47 -> 48
+	45 -> 46
+	56 -> 55
+	44 -> 49
+	18 -> 14
+	8 -> 47
+	9 -> 15
+	16 -> 17
+	43 -> 56
+	55 [label=Sorter]
+	9 [label=Transpose]
+	18 [label="Table Row to Variable"]
+	8 [label="Math Formula"]
+	17 [label=Transpose]
+	49 [label="Column Appender"]
+	41 [label="Column List Loop Start"]
+	56 [label="Math Formula"]
+	6 [label=Partitioning]
+	15 [label="Column Rename"]
+	12 [label="Gradient Boosted Trees Predictor _Regression_"]
+	16 [label="Extract Table Dimension"]
+	48 [label="Column Appender"]
+	1 [label="CSV Reader"]
+	11 [label="Gradient Boosted Trees Learner _Regression_"]
+	4 [label="Linear Regression Learner"]
+	47 [label="Column Filter"]
+	14 [label="Math Formula _Variable_"]
+	5 [label="Regression Predictor"]
+	13 [label="Numeric Scorer"]
+	43 [label="Loop End"]
+	44 [label="Variable to Table Row"]
+	46 [label="Column Filter"]
+	52 [label="Bar Chart _Labs_"]
+	45 [label="Column Rename"]
+	rankdir=LR
+}

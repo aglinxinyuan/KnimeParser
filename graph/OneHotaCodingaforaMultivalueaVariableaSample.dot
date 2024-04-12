@@ -1,0 +1,53 @@
+digraph {
+	20 -> 21
+	21 -> 23
+	7 -> 8
+	7 -> 16
+	8 -> 9
+	14 -> 4
+	5 -> 22
+	18 -> 5
+	22 -> 6
+	12 -> 13
+	11 -> 12
+	18 -> 11
+	10 -> 11
+	15 -> 19
+	17 -> 13
+	1 -> 15
+	23 -> 3
+	9 -> 12
+	6 -> 7
+	15 -> 2
+	3 -> 4
+	4 -> 18
+	19 -> 20
+	1 -> 13
+	9 -> 10
+	2 -> 5
+	16 -> 17
+	7 [label=GroupBy]
+	9 [label="Column Filter"]
+	18 [label="Row Filter"]
+	21 [label=Transpose]
+	8 [label="Cell Splitter"]
+	17 [label="Column Filter"]
+	3 [label=GroupBy]
+	19 [label=GroupBy]
+	6 [label="Rule Engine"]
+	15 [label="Column Filter"]
+	12 [label="Insert Column Header"]
+	10 [label="Extract Column Header"]
+	16 [label="String Manipulation"]
+	1 [label="Table Creator"]
+	22 [label="String Manipulation"]
+	11 [label="Column Appender"]
+	4 [label="String Manipulation"]
+	23 [label="Column Rename"]
+	14 [label="Variable Creator"]
+	5 [label="Cross Joiner"]
+	13 [label="Column Appender"]
+	20 [label="Cell Splitter"]
+	2 [label="Math Formula"]
+	rankdir=LR
+}

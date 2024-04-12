@@ -1,0 +1,10 @@
+digraph {
+	10 -> 7
+	8 -> 10
+	6 -> 8
+	7 [label=Pivoting]
+	10 [label="Moving Aggregation"]
+	6 [label="Table Creator"]
+	8 [label="Column Expressions"]
+	rankdir=LR
+}

@@ -1,0 +1,37 @@
+digraph {
+	80 -> 78
+	89 -> 87
+	74 -> 72
+	86 -> 88
+	72 -> 79
+	75 -> 80
+	88 -> 89
+	72 -> 73
+	72 -> 86
+	85 -> 86
+	80 -> 76
+	79 -> 80
+	72 -> 75
+	75 -> 77
+	71 -> 74
+	72 -> 88
+	70 -> 71
+	73 -> 75
+	86 [label="Decision Tree Learner"]
+	79 [label="Random Forest Learner"]
+	70 [label="CSV Reader"]
+	89 [label=Scorer]
+	71 [label="Rule Engine"]
+	87 [label="Parameter Optimization Loop End"]
+	72 [label=Partitioning]
+	88 [label="Decision Tree Predictor"]
+	76 [label="ROC Curve"]
+	74 [label="Column Filter"]
+	77 [label=Scorer]
+	85 [label="Parameter Optimization Loop Start"]
+	80 [label="Random Forest Predictor"]
+	73 [label="Decision Tree Learner"]
+	75 [label="Decision Tree Predictor"]
+	78 [label="Binary Classification Inspector"]
+	rankdir=LR
+}

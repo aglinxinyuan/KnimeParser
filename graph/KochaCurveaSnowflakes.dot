@@ -1,0 +1,71 @@
+digraph {
+	6 -> 5
+	5 -> 8
+	8 -> 21
+	3 -> 2
+	4 -> 5
+	34 -> 37
+	13 -> 14
+	29 -> 10
+	32 -> 22
+	2 -> 4
+	21 -> 29
+	12 -> 13
+	22 -> 19
+	40 -> 28
+	18 -> 19
+	31 -> 32
+	26 -> 31
+	38 -> 35
+	25 -> 26
+	14 -> 15
+	39 -> 38
+	11 -> 12
+	16 -> 18
+	10 -> 11
+	37 -> 38
+	30 -> 25
+	24 -> 23
+	16 -> 30
+	20 -> 24
+	15 -> 16
+	22 -> 20
+	35 -> 40
+	19 -> 20
+	28 -> 4
+	30 -> 26
+	21 [label="File Reader"]
+	18 [label="Java Edit Variable"]
+	26 [label=Concatenate]
+	8 [label="Java Edit Variable"]
+	32 [label="Column Rename"]
+	3 [label="Create Temp Dir"]
+	19 [label="CSV Writer"]
+	24 [label="Color Manager"]
+	31 [label="Counter Generation"]
+	6 [label="Empty Table Creator"]
+	15 [label="Java Snippet"]
+	25 [label="Row Splitter"]
+	12 [label="Row Filter"]
+	10 [label="Lag Column"]
+	16 [label=Pivoting]
+	22 [label="Column Filter"]
+	28 [label="Counter Generation"]
+	11 [label="Lag Column"]
+	4 [label="CSV Writer"]
+	23 [label="Scatter Plot _JFreeChart_"]
+	14 [label=Unpivoting]
+	38 [label=Concatenate]
+	5 [label="Counting Loop Start"]
+	13 [label="Java Snippet"]
+	20 [label="Loop End"]
+	35 [label="Java Snippet"]
+	34 [label="Empty Table Creator"]
+	29 [label=Sorter]
+	40 [label="Column Filter"]
+	39 [label="Table Creator"]
+	30 [label=Sorter]
+	2 [label="Java Edit Variable"]
+	37 [label="Counter Generation"]
+	rankdir=LR
+}

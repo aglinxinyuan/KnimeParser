@@ -1,0 +1,31 @@
+digraph {
+	21 -> 123
+	127 -> 130
+	130 -> 131
+	123 -> 125
+	2 -> 126
+	127 -> 1
+	129 -> 128
+	124 -> 1
+	128 -> 130
+	125 -> 124
+	22 -> 21
+	126 -> 20
+	20 -> 22
+	1 -> 129
+	123 [label="Math Formula"]
+	20 [label="String Replacer"]
+	126 [label="MoSS MCSS Molecule Similarity"]
+	1 [label="Score Erosion"]
+	125 [label="Column Rename"]
+	22 [label="String Replacer"]
+	127 [label="Parameter Optimization Loop Start"]
+	128 [label=GroupBy]
+	21 [label="String To Number"]
+	131 [label="Loop End"]
+	129 [label=RowID]
+	124 [label=Normalizer]
+	130 [label="Variable To TableColumn"]
+	2 [label="SDF Reader"]
+	rankdir=LR
+}

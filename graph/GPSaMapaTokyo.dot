@@ -1,0 +1,72 @@
+digraph {
+	46 -> 51
+	41 -> 43
+	71 -> 72
+	65 -> 66
+	35 -> 18
+	34 -> 35
+	40 -> 50
+	40 -> 41
+	38 -> 40
+	21 -> 24
+	63 -> 61
+	69 -> 70
+	61 -> 64
+	68 -> 69
+	17 -> 21
+	47 -> 50
+	66 -> 67
+	19 -> 17
+	22 -> 20
+	18 -> 28
+	64 -> 65
+	70 -> 71
+	24 -> 22
+	50 -> 59
+	27 -> 19
+	38 -> 39
+	20 -> 38
+	30 -> 34
+	67 -> 68
+	28 -> 25
+	62 -> 63
+	59 -> 46
+	25 -> 27
+	43 -> 47
+	27 [label="Column Filter"]
+	21 [label="Extract Date_Time Fields"]
+	18 [label="XML Reader"]
+	17 [label="String to Date_Time"]
+	19 [label=XPath]
+	24 [label="Column Expressions"]
+	64 [label="JSON Reader"]
+	41 [label=GroupBy]
+	51 [label="OSM Map View"]
+	25 [label=Ungroup]
+	59 [label=RowID]
+	50 [label=Joiner]
+	22 [label="Column Filter"]
+	68 [label="Column Expressions"]
+	28 [label=XPath]
+	67 [label="Column Filter"]
+	72 [label="Line Plot _Plotly_"]
+	47 [label="Domain Calculator"]
+	61 [label="Path to String _Variable_"]
+	63 [label="Table Row To Variable Loop Start"]
+	38 [label="Loop End"]
+	43 [label="Column Expressions"]
+	20 [label="Column Resorter"]
+	35 [label="Path to String _Variable_"]
+	34 [label="Table Row To Variable Loop Start"]
+	62 [label="List Files_Folders"]
+	66 [label="Loop End"]
+	70 [label=GroupBy]
+	65 [label="JSON to Table"]
+	69 [label="UNIX Timestamp to Date_Time"]
+	71 [label="Column Rename"]
+	46 [label="Color Manager"]
+	40 [label=RowID]
+	39 [label="OSM Map View"]
+	30 [label="List Files_Folders"]
+	rankdir=LR
+}

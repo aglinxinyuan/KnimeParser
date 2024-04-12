@@ -1,0 +1,78 @@
+digraph {
+	12 -> 10
+	6 -> 5
+	21 -> 23
+	53 -> 54
+	16 -> 24
+	7 -> 11
+	30 -> 46
+	16 -> 50
+	16 -> 20
+	55 -> 52
+	46 -> 41
+	4 -> 6
+	6 -> 8
+	24 -> 21
+	54 -> 55
+	14 -> 15
+	1 -> 2
+	11 -> 12
+	45 -> 26
+	46 -> 47
+	47 -> 41
+	30 -> 36
+	15 -> 16
+	25 -> 53
+	50 -> 49
+	36 -> 37
+	34 -> 45
+	20 -> 35
+	4 -> 14
+	3 -> 4
+	6 -> 13
+	30 -> 34
+	37 -> 45
+	8 -> 7
+	16 -> 25
+	41 -> 26
+	2 -> 3
+	23 -> 22
+	55 [label=Sorter]
+	7 [label=GroupBy]
+	45 [label=Joiner]
+	26 [label="Bar Chart"]
+	21 [label=GroupBy]
+	8 [label="Constant Value Column"]
+	3 [label=Ungroup]
+	24 [label="Number To String"]
+	49 [label="Bar Chart"]
+	41 [label=Joiner]
+	6 [label=Ungroup]
+	15 [label=Ungroup]
+	25 [label="Row Filter"]
+	54 [label=GroupBy]
+	12 [label=Sorter]
+	10 [label="Bar Chart"]
+	16 [label=GroupBy]
+	50 [label=Sorter]
+	1 [label="JSON Reader _deprecated_"]
+	22 [label="Bar Chart"]
+	53 [label="Number To String"]
+	11 [label="Row Filter"]
+	47 [label="Color Manager"]
+	4 [label="JSON to Table"]
+	23 [label=Sorter]
+	14 [label="Collection Size"]
+	5 [label="Bar Chart"]
+	13 [label=GroupBy]
+	20 [label="Row Filter"]
+	35 [label="CSV Writer"]
+	34 [label=Sorter]
+	36 [label="Rule Engine"]
+	46 [label="Column Splitter"]
+	52 [label="Bar Chart"]
+	30 [label="CSV Reader"]
+	2 [label="JSON Path"]
+	37 [label=Pivoting]
+	rankdir=LR
+}

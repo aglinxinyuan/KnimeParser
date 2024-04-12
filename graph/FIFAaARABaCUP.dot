@@ -1,0 +1,42 @@
+digraph {
+	41 -> 42
+	42 -> 47
+	39 -> 40
+	40 -> 41
+	43 -> 54
+	49 -> 55
+	37 -> 38
+	52 -> 49
+	46 -> 53
+	49 -> 51
+	53 -> 43
+	36 -> 50
+	35 -> 36
+	47 -> 48
+	50 -> 37
+	38 -> 39
+	43 -> 44
+	43 -> 52
+	47 -> 46
+	55 [label="Row Filter"]
+	39 [label="Case Converter"]
+	49 [label="Term To String"]
+	41 [label="N Chars Filter"]
+	51 [label=GroupBy]
+	54 [label=GroupBy]
+	48 [label="Tagged Document Viewer"]
+	50 [label="Duplicate Row Filter"]
+	42 [label="Number Filter"]
+	53 [label="Tag Stripper"]
+	47 [label="StanfordNLP NE Tagger"]
+	38 [label="Stop Word Filter"]
+	43 [label="Bag Of Words Creator"]
+	35 [label="Twitter API Connector"]
+	44 [label="Tag Cloud"]
+	36 [label="Twitter Search"]
+	46 [label="Tag Filter"]
+	40 [label="Punctuation Erasure"]
+	52 [label=DF]
+	37 [label="Strings To Document"]
+	rankdir=LR
+}

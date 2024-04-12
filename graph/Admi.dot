@@ -1,0 +1,17 @@
+digraph {
+	12 -> 13
+	10 -> 12
+	9 -> 39
+	8 -> 9
+	39 -> 10
+	11 -> 12
+	10 -> 11
+	13 [label=Scorer]
+	9 [label=k_Means]
+	11 [label="Decision Tree Learner"]
+	8 [label="Excel Reader"]
+	39 [label="Column Filter"]
+	12 [label="Decision Tree Predictor"]
+	10 [label=Partitioning]
+	rankdir=LR
+}

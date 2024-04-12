@@ -1,0 +1,21 @@
+digraph {
+	10 -> 9
+	2 -> 10
+	9 -> 11
+	3 -> 4
+	5 -> 6
+	1 -> 2
+	6 -> 2
+	4 -> 6
+	1 -> 5
+	5 [label="Extract Table Spec"]
+	1 [label="Table Creator"]
+	9 [label="Lag Column"]
+	11 [label="Math Formula"]
+	4 [label=Transpose]
+	6 [label="Column Appender"]
+	3 [label="Table Creator"]
+	2 [label="Insert Column Header"]
+	10 [label=Sorter]
+	rankdir=LR
+}

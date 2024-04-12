@@ -1,0 +1,20 @@
+digraph {
+	6 -> 16
+	6 -> 18
+	1 -> 12
+	13 -> 14
+	6 -> 13
+	6 -> 15
+	1 -> 6
+	1 -> 3
+	16 [label="Extract Missing Value Cause"]
+	13 [label=Statistics]
+	1 [label="CSV Reader"]
+	18 [label="Column Filter"]
+	6 [label="Column Filter"]
+	15 [label="Missing Value Column Filter"]
+	14 [label="Math Formula"]
+	3 [label="Interactive Table _local_"]
+	12 [label="Extract Table Dimension"]
+	rankdir=LR
+}

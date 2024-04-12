@@ -1,0 +1,121 @@
+digraph {
+	39 -> 36
+	24 -> 28
+	7 -> 8
+	23 -> 40
+	20 -> 30
+	4 -> 5
+	41 -> 47
+	41 -> 43
+	23 -> 24
+	19 -> 14
+	30 -> 56
+	20 -> 33
+	19 -> 15
+	34 -> 35
+	15 -> 21
+	23 -> 37
+	2 -> 3
+	27 -> 26
+	33 -> 58
+	19 -> 30
+	46 -> 49
+	19 -> 33
+	15 -> 55
+	30 -> 31
+	31 -> 32
+	49 -> 60
+	1 -> 5
+	50 -> 51
+	11 -> 17
+	10 -> 22
+	1 -> 2
+	14 -> 15
+	15 -> 27
+	22 -> 11
+	19 -> 54
+	8 -> 16
+	37 -> 38
+	41 -> 45
+	33 -> 34
+	48 -> 49
+	16 -> 9
+	45 -> 47
+	47 -> 48
+	21 -> 18
+	45 -> 46
+	6 -> 7
+	49 -> 50
+	43 -> 53
+	17 -> 23
+	24 -> 12
+	43 -> 44
+	38 -> 39
+	42 -> 41
+	43 -> 52
+	3 -> 4
+	23 -> 19
+	19 -> 20
+	20 -> 14
+	5 -> 6
+	9 -> 10
+	49 -> 59
+	19 -> 42
+	27 [label="Color Manager"]
+	55 [label="Python View"]
+	7 [label="Row Filter"]
+	9 [label="RDKit Fingerprint"]
+	45 [label="RDKit Diversity Picker"]
+	52 [label="Python View"]
+	21 [label="Tile View"]
+	18 [label="Table View"]
+	26 [label="Scatter Plot"]
+	58 [label="Python View"]
+	8 [label="Loop End"]
+	32 [label="Scatter Plot"]
+	17 [label="Renderer to Image"]
+	3 [label=Sorter]
+	19 [label="Create Bit Vector"]
+	24 [label="Column Filter"]
+	49 [label=Concatenate]
+	41 [label="MDS _DistMatrix_"]
+	31 [label="Color Manager"]
+	51 [label="Scatter Plot"]
+	56 [label="Python View"]
+	6 [label="Group Loop Start"]
+	15 [label="Hierarchical Cluster Assigner"]
+	54 [label="Python View"]
+	10 [label="Python Script"]
+	12 [label="Scatter Plot"]
+	59 [label="Python View"]
+	16 [label="RDKit From Molecule"]
+	48 [label="Constant Value Column"]
+	50 [label="Color Manager"]
+	1 [label="File Reader _Complex Format_"]
+	42 [label="Distance Matrix Calculate"]
+	22 [label=RowID]
+	53 [label="Python View"]
+	28 [label="Scatter Plot _Plotly_"]
+	11 [label="Color Manager"]
+	4 [label="Row Filter"]
+	23 [label="Column Filter"]
+	47 [label="Reference Row Filter"]
+	14 [label="Hierarchical Clustering _DistMatrix_"]
+	38 [label="Column Rename"]
+	60 [label="Python View"]
+	5 [label="Reference Row Filter"]
+	20 [label="Bit Vector Distances"]
+	35 [label="Scatter Plot"]
+	43 [label="Color Manager"]
+	34 [label="Color Manager"]
+	44 [label="Scatter Plot"]
+	36 [label="Tile View"]
+	46 [label="Constant Value Column"]
+	40 [label="Scatter Plot"]
+	39 [label="Column Resorter"]
+	33 [label=DBSCAN]
+	30 [label=k_Medoids]
+	2 [label=GroupBy]
+	37 [label=Sorter]
+	rankdir=LR
+}

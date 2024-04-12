@@ -1,0 +1,87 @@
+digraph {
+	6 -> 55
+	53 -> 54
+	19 -> 47
+	19 -> 43
+	52 -> 9
+	55 -> 62
+	5 -> 12
+	58 -> 61
+	55 -> 7
+	35 -> 5
+	30 -> 31
+	45 -> 49
+	29 -> 30
+	12 -> 3
+	43 -> 45
+	55 -> 56
+	40 -> 38
+	38 -> 42
+	3 -> 13
+	19 -> 45
+	28 -> 30
+	60 -> 6
+	9 -> 51
+	33 -> 28
+	29 -> 27
+	56 -> 53
+	45 -> 47
+	44 -> 24
+	4 -> 35
+	50 -> 48
+	6 -> 7
+	48 -> 52
+	47 -> 44
+	19 -> 49
+	12 -> 2
+	46 -> 19
+	55 -> 58
+	30 -> 34
+	57 -> 60
+	24 -> 50
+	2 -> 3
+	49 -> 44
+	28 -> 29
+	27 [label="Decision Tree View"]
+	57 [label="CSV Reader"]
+	55 [label=k_Means]
+	7 [label="Cluster Assigner"]
+	9 [label=Heatmap]
+	58 [label=Normalizer]
+	3 [label="Logistic Regression Predictor"]
+	19 [label="Category To Number"]
+	24 [label=Sorter]
+	49 [label="Hierarchical Cluster Assigner _local_"]
+	31 [label="Scorer _deprecated_"]
+	51 [label="Column Filter"]
+	56 [label="Color Manager"]
+	6 [label=Partitioning]
+	54 [label="Scatter Plot _local_"]
+	12 [label=Partitioning]
+	48 [label="Domain Calculator"]
+	50 [label="Column Filter"]
+	42 [label="Value Counter"]
+	53 [label="Shape Manager"]
+	28 [label=Partitioning]
+	4 [label="CSV Reader"]
+	47 [label="Hierarchical Cluster Assigner"]
+	61 [label="Bar Chart"]
+	38 [label="Missing Value"]
+	60 [label="Missing Value"]
+	5 [label=Normalizer]
+	13 [label="Scorer _JavaScript_"]
+	35 [label="Category To Number"]
+	43 [label="Numeric Distances"]
+	34 [label="Scorer _JavaScript_"]
+	44 [label="Joiner _deprecated_"]
+	29 [label="Decision Tree Learner"]
+	62 [label="Excel Writer"]
+	46 [label="CSV Reader"]
+	40 [label="CSV Reader"]
+	52 [label=Normalizer]
+	33 [label="CSV Reader"]
+	30 [label="Decision Tree Predictor"]
+	2 [label="Logistic Regression Learner"]
+	45 [label="Hierarchical Clustering _DistMatrix_"]
+	rankdir=LR
+}

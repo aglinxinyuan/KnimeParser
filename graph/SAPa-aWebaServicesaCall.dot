@@ -1,0 +1,31 @@
+digraph {
+	560 -> 563
+	555 -> 559
+	556 -> 557
+	564 -> 565
+	559 -> 562
+	562 -> 563
+	547 -> 555
+	558 -> 562
+	555 -> 560
+	555 -> 558
+	555 -> 556
+	561 -> 564
+	563 -> 564
+	555 -> 561
+	555 -> 566
+	561 [label=XPath]
+	564 [label=Joiner]
+	547 [label="POST Request"]
+	559 [label=XPath]
+	565 [label="Nominal Value Row Splitter"]
+	558 [label=XPath]
+	557 [label="JSON to Table"]
+	556 [label="XML To JSON"]
+	560 [label=XPath]
+	563 [label=Joiner]
+	566 [label=XPath]
+	562 [label=Joiner]
+	555 [label="Column Filter"]
+	rankdir=LR
+}

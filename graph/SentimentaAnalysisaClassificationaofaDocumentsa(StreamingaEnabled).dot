@@ -1,0 +1,64 @@
+digraph {
+	276 -> 277
+	299 -> 276
+	8 -> 9
+	300 -> 29
+	67 -> 10
+	291 -> 279
+	301 -> 33
+	275 -> 277
+	30 -> 31
+	34 -> 299
+	29 -> 30
+	279 -> 286
+	298 -> 299
+	11 -> 12
+	6 -> 66
+	31 -> 301
+	10 -> 11
+	277 -> 291
+	8 -> 11
+	33 -> 34
+	279 -> 275
+	12 -> 279
+	66 -> 67
+	289 -> 296
+	279 -> 280
+	276 -> 6
+	276 -> 278
+	300 -> 299
+	297 -> 296
+	277 -> 279
+	296 -> 300
+	278 -> 8
+	9 -> 10
+	289 [label="File Reader"]
+	275 [label="Category to class"]
+	280 [label=Scorer]
+	9 [label=GroupBy]
+	8 [label="Term to String"]
+	286 [label="ROC Curve"]
+	277 [label="WrappedNode Output"]
+	31 [label="N Chars Filter"]
+	291 [label="Decision Tree Learner"]
+	6 [label="Column Filter"]
+	10 [label="Row Filter"]
+	12 [label=TF]
+	299 [label="WrappedNode Output"]
+	296 [label=Concatenate]
+	67 [label="Java Edit Variable"]
+	11 [label="Reference Row Filter"]
+	279 [label="Document Vector"]
+	301 [label="Stop Word Filter"]
+	298 [label="WrappedNode Input"]
+	278 [label="Bag Of Words Creator"]
+	34 [label="Snowball Stemmer"]
+	66 [label="Extract Table Dimension"]
+	29 [label="Punctuation Erasure"]
+	300 [label="Strings To Document"]
+	276 [label="WrappedNode Input"]
+	33 [label="Case converter"]
+	30 [label="Number Filter"]
+	297 [label="File Reader"]
+	rankdir=LR
+}

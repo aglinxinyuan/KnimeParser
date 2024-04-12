@@ -1,0 +1,23 @@
+digraph {
+	12 -> 13
+	11 -> 12
+	10 -> 12
+	4 -> 5
+	8 -> 9
+	7 -> 6
+	9 -> 10
+	10 -> 11
+	5 -> 7
+	6 -> 8
+	5 [label="String to Date_Time"]
+	13 [label=RowID]
+	7 [label=Sorter]
+	9 [label="Column Expressions"]
+	11 [label=GroupBy]
+	4 [label="Table Creator"]
+	8 [label="Lag Column"]
+	6 [label=Rank]
+	12 [label=Joiner]
+	10 [label="Java Snippet"]
+	rankdir=LR
+}

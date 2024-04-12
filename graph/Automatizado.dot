@@ -1,0 +1,8 @@
+digraph {
+	27 -> 28
+	26 -> 27
+	26 [label="GET Request"]
+	27 [label="JSON to Table"]
+	28 [label="Table View"]
+	rankdir=LR
+}

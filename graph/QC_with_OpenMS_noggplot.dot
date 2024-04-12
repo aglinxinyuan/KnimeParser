@@ -1,0 +1,86 @@
+digraph {
+	2 -> 27
+	38 -> 97
+	4 -> 5
+	2 -> 81
+	106 -> 107
+	6 -> 75
+	31 -> 104
+	6 -> 81
+	97 -> 29
+	34 -> 35
+	98 -> 93
+	57 -> 61
+	33 -> 106
+	76 -> 27
+	61 -> 31
+	93 -> 38
+	65 -> 59
+	81 -> 75
+	102 -> 107
+	61 -> 111
+	99 -> 50
+	23 -> 56
+	1 -> 2
+	29 -> 100
+	130 -> 131
+	63 -> 65
+	31 -> 105
+	111 -> 4
+	76 -> 131
+	105 -> 102
+	35 -> 36
+	2 -> 130
+	61 -> 98
+	104 -> 33
+	75 -> 76
+	100 -> 106
+	131 -> 27
+	59 -> 57
+	50 -> 38
+	56 -> 27
+	62 -> 63
+	107 -> 35
+	57 -> 23
+	27 -> 61
+	36 -> 56
+	27 [label=Image2FilePort]
+	57 [label=QCExtractor]
+	97 [label="R View _Table_"]
+	105 [label="R View _Table_"]
+	98 [label=QCExtractor]
+	31 [label=QCIDReader]
+	131 [label=IDMapper]
+	56 [label="R View _Table_"]
+	6 [label="Input File"]
+	75 [label=PeptideIndexer]
+	59 [label="R View _Table_"]
+	50 [label=QCIDReader]
+	1 [label="Input Files"]
+	23 [label=QCFeatureReader]
+	4 [label=ZipLoopEnd]
+	76 [label=FalseDiscoveryRate]
+	61 [label=QCEmbedder]
+	63 [label="Port to URI"]
+	100 [label=QCEmbedder]
+	93 [label=QCPrecursorReader]
+	106 [label=QCEmbedder]
+	38 [label=Concatenate]
+	81 [label=XTandemAdapter]
+	5 [label="Output Folder"]
+	107 [label=QCEmbedder]
+	99 [label=QCExtractor]
+	35 [label="Port to URI"]
+	104 [label="R View _Table_"]
+	62 [label=QCExtractor]
+	102 [label=Image2FilePort]
+	29 [label=Image2FilePort]
+	34 [label="Input File"]
+	65 [label="URL to File Path"]
+	36 [label="Table Row to Variable"]
+	130 [label=FeatureFinderCentroided]
+	111 [label=QCShrinker]
+	33 [label=Image2FilePort]
+	2 [label=ZipLoopStart]
+	rankdir=LR
+}

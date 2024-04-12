@@ -1,0 +1,16 @@
+digraph {
+	33 -> 21
+	26 -> 2
+	21 -> 32
+	26 -> 31
+	2 -> 33
+	23 -> 26
+	31 [label="JavaScript Scatter Plot"]
+	23 [label="Data Generator"]
+	21 [label="Loop End"]
+	26 [label="Color Manager"]
+	33 [label="Math Formula"]
+	32 [label="JavaScript Scatter Plot"]
+	2 [label="Counting Loop Start"]
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	18 -> 175
+	179 -> 25
+	12 -> 196
+	201 -> 9
+	180 -> 179
+	178 -> 179
+	9 -> 18
+	175 -> 177
+	196 -> 182
+	9 -> 196
+	9 -> 12
+	178 -> 180
+	9 -> 180
+	177 -> 178
+	9 -> 10
+	10 -> 12
+	182 -> 18
+	175 [label="Catch Errors _Var Ports_"]
+	180 [label="Call Workflow Service"]
+	179 [label="CASE Switch End"]
+	201 [label="String Configuration"]
+	196 [label="Call Workflow Service"]
+	9 [label="Mountpoint Connector"]
+	18 [label="Call Workflow Service"]
+	178 [label="CASE Switch Start"]
+	10 [label="Call Workflow Service"]
+	182 [label="Try _Variable Ports_"]
+	25 [label="Send Email"]
+	177 [label="Variable Expressions"]
+	12 [label="Call Workflow Service"]
+	rankdir=LR
+}

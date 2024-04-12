@@ -1,0 +1,13 @@
+digraph {
+	3 -> 4
+	3 -> 5
+	1 -> 2
+	2 -> 5
+	2 -> 4
+	5 [label="Keras Network Learner"]
+	1 [label="DL Python Network Creator"]
+	4 [label="Keras Network Executor"]
+	3 [label="Data Generator"]
+	2 [label="DL Python Network Editor"]
+	rankdir=LR
+}

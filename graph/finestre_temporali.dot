@@ -1,0 +1,33 @@
+digraph {
+	12 -> 27
+	23 -> 29
+	17 -> 10
+	30 -> 23
+	18 -> 14
+	12 -> 19
+	15 -> 4
+	4 -> 11
+	26 -> 15
+	11 -> 12
+	14 -> 30
+	10 -> 18
+	24 -> 17
+	23 -> 28
+	24 [label="File Reader"]
+	27 [label=Pivoting]
+	29 [label=Pivoting]
+	28 [label=GroupBy]
+	11 [label="String to Date_Time"]
+	4 [label="Column Filter"]
+	18 [label="String Manipulation"]
+	23 [label="Extract Date_Time Fields"]
+	10 [label="Column Filter"]
+	26 [label="File Reader"]
+	15 [label="Table Editor"]
+	14 [label="String to Date_Time"]
+	17 [label="Table Editor"]
+	30 [label=Sorter]
+	12 [label="Extract Date_Time Fields"]
+	19 [label=GroupBy]
+	rankdir=LR
+}

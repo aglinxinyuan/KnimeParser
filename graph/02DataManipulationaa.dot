@@ -1,0 +1,30 @@
+digraph {
+	49 -> 50
+	41 -> 42
+	48 -> 49
+	38 -> 36
+	42 -> 6
+	36 -> 40
+	47 -> 48
+	45 -> 46
+	44 -> 45
+	36 -> 37
+	46 -> 50
+	43 -> 46
+	48 [label="Column Filter"]
+	43 [label="CSV Reader"]
+	50 [label=Concatenate]
+	44 [label="CSV Reader"]
+	42 [label="Rule Engine"]
+	49 [label="Row Filter"]
+	41 [label="CSV Reader"]
+	36 [label="Rule Engine"]
+	45 [label="Column Filter"]
+	46 [label=Joiner]
+	47 [label="CSV Reader"]
+	6 [label=Pivoting]
+	40 [label=GroupBy]
+	38 [label="CSV Reader"]
+	37 [label=GroupBy]
+	rankdir=LR
+}

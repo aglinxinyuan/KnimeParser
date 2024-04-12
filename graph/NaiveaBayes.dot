@@ -1,0 +1,13 @@
+digraph {
+	16 -> 11
+	7 -> 16
+	15 -> 16
+	7 -> 15
+	1 -> 7
+	16 [label="Naive Bayes Predictor"]
+	1 [label="File Reader"]
+	7 [label=Partitioning]
+	11 [label=Scorer]
+	15 [label="Naive Bayes Learner"]
+	rankdir=LR
+}

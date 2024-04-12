@@ -1,0 +1,18 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	3 -> 4
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	5 [label="Split Collection Column"]
+	1 [label="CSV Reader"]
+	7 [label="Column Renamer"]
+	4 [label="Association Rule Learner"]
+	6 [label="Column Combiner"]
+	8 [label="CSV Writer"]
+	3 [label="Cell Splitter"]
+	2 [label=GroupBy]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	3 -> 8
+	7 -> 4
+	8 -> 7
+	1 -> 2
+	2 -> 3
+	1 [label="Tika Parser"]
+	7 [label="Rule_based Row Filter"]
+	4 [label="Duplicate Row Filter"]
+	8 [label="String Manipulation"]
+	3 [label=Transpose]
+	2 [label="Cell Splitter"]
+	rankdir=LR
+}

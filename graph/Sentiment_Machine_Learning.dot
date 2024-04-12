@@ -1,0 +1,41 @@
+digraph {
+	34 -> 35
+	289 -> 7
+	291 -> 279
+	275 -> 277
+	30 -> 31
+	29 -> 30
+	31 -> 297
+	12 -> 296
+	277 -> 291
+	33 -> 34
+	36 -> 12
+	297 -> 33
+	279 -> 280
+	293 -> 29
+	35 -> 36
+	6 -> 293
+	296 -> 275
+	277 -> 279
+	7 -> 6
+	289 [label="File Reader"]
+	275 [label="Category To Class"]
+	7 [label="Strings To Document"]
+	280 [label=Scorer]
+	277 [label=Partitioning]
+	31 [label="N Chars Filter"]
+	291 [label="Decision Tree Learner"]
+	6 [label="Column Filter"]
+	12 [label=TF]
+	296 [label="Document Vector"]
+	293 [label="POS Tagger"]
+	279 [label="Decision Tree Predictor"]
+	35 [label="Tag Filter"]
+	34 [label="Snowball Stemmer"]
+	29 [label="Punctuation Erasure"]
+	36 [label="Bag Of Words Creator"]
+	33 [label="Case Converter"]
+	30 [label="Number Filter"]
+	297 [label="Stop Word Filter"]
+	rankdir=LR
+}

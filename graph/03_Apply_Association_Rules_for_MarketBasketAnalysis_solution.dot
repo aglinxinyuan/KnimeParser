@@ -1,0 +1,20 @@
+digraph {
+	125 -> 122
+	121 -> 70
+	115 -> 116
+	123 -> 114
+	131 -> 121
+	123 -> 131
+	114 -> 131
+	116 -> 114
+	123 [label="Table Reader"]
+	125 [label="Table Reader"]
+	115 [label="Table Creator"]
+	70 [label="Row Filter"]
+	116 [label="Cell Splitter"]
+	131 [label=Joiner]
+	121 [label=Sorter]
+	122 [label="Number To String"]
+	114 [label="Subset Matcher"]
+	rankdir=LR
+}

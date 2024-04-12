@@ -1,0 +1,22 @@
+digraph {
+	12 -> 13
+	14 -> 16
+	16 -> 23
+	23 -> 24
+	15 -> 16
+	13 -> 14
+	26 -> 12
+	14 -> 15
+	24 -> 25
+	14 -> 23
+	16 [label=DBSCAN]
+	24 [label="Color Manager"]
+	13 [label="Missing Value"]
+	23 [label=Denormalizer]
+	26 [label="CSV Reader"]
+	15 [label="Numeric Distances"]
+	25 [label="Scatter Plot"]
+	14 [label=Normalizer]
+	12 [label="Column Filter"]
+	rankdir=LR
+}

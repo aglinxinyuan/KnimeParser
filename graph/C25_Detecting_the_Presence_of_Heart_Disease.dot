@@ -1,0 +1,64 @@
+digraph {
+	44 -> 47
+	29 -> 42
+	39 -> 40
+	51 -> 48
+	34 -> 35
+	36 -> 39
+	12 -> 13
+	30 -> 33
+	33 -> 29
+	47 -> 51
+	37 -> 34
+	4 -> 12
+	40 -> 38
+	10 -> 4
+	41 -> 44
+	48 -> 49
+	38 -> 43
+	16 -> 30
+	4 -> 49
+	13 -> 16
+	43 -> 41
+	1 -> 10
+	4 -> 34
+	35 -> 36
+	4 -> 48
+	4 -> 35
+	48 -> 52
+	10 -> 52
+	49 -> 50
+	42 -> 41
+	52 -> 53
+	28 -> 12
+	4 -> 13
+	52 [label="XGBoost Predictor"]
+	49 [label="XGBoost Predictor"]
+	41 [label=Concatenate]
+	51 [label="Table Row to Variable"]
+	10 [label="Number To String"]
+	12 [label="XGBoost Tree Ensemble Learner"]
+	16 [label=Scorer]
+	48 [label="XGBoost Tree Ensemble Learner"]
+	50 [label=Scorer]
+	1 [label="CSV Reader"]
+	42 [label="Constant Value Column"]
+	53 [label=Scorer]
+	28 [label="Parameter Optimization Loop Start"]
+	4 [label=Partitioning]
+	47 [label="Row Filter"]
+	38 [label="Parameter Optimization Loop End"]
+	13 [label="XGBoost Predictor"]
+	35 [label="XGBoost Predictor"]
+	43 [label="Constant Value Column"]
+	34 [label="XGBoost Tree Ensemble Learner"]
+	44 [label=Sorter]
+	29 [label="Parameter Optimization Loop End"]
+	36 [label=Scorer]
+	40 [label="Table Column to Variable"]
+	39 [label="Math Formula"]
+	33 [label="Table Column to Variable"]
+	30 [label="Math Formula"]
+	37 [label="Parameter Optimization Loop Start"]
+	rankdir=LR
+}

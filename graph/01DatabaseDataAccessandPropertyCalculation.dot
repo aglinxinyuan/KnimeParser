@@ -1,0 +1,18 @@
+digraph {
+	295 -> 445
+	305 -> 295
+	445 -> 447
+	305 -> 294
+	214 -> 216
+	305 -> 445
+	297 -> 305
+	294 [label="Parallel Coordinates Plot"]
+	216 [label="DB Table Selector"]
+	445 [label="Filter Apply"]
+	305 [label="Interactive Range Slider Filter Widget"]
+	447 [label="Table Writer"]
+	214 [label="SQLite Connector"]
+	295 [label="Tile View"]
+	297 [label="Color Manager"]
+	rankdir=LR
+}

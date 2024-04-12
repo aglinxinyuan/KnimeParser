@@ -1,0 +1,15 @@
+digraph {
+	404 -> 397
+	408 -> 404
+	406 -> 407
+	397 -> 405
+	397 -> 406
+	405 -> 406
+	408 [label="Excel Reader"]
+	405 [label="M5Rules _3_7_"]
+	397 [label="Column Filter"]
+	407 [label="Numeric Scorer"]
+	406 [label="Weka Predictor _3_7_"]
+	404 [label="Column Rename"]
+	rankdir=LR
+}

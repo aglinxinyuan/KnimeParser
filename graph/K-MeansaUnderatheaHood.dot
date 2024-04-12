@@ -1,0 +1,52 @@
+digraph {
+	18 -> 9
+	21 -> 22
+	16 -> 20
+	1 -> 17
+	12 -> 13
+	18 -> 19
+	20 -> 23
+	18 -> 4
+	4 -> 12
+	14 -> 15
+	17 -> 18
+	10 -> 11
+	3 -> 21
+	9 -> 8
+	15 -> 16
+	17 -> 3
+	4 -> 15
+	24 -> 25
+	13 -> 11
+	19 -> 24
+	8 -> 10
+	23 -> 19
+	16 -> 19
+	11 -> 14
+	22 -> 18
+	2 -> 3
+	4 -> 9
+	9 [label=Concatenate]
+	21 [label="Math Formula"]
+	18 [label="Recursive Loop Start"]
+	8 [label="Distance Matrix Calculate"]
+	17 [label="Row Sampling"]
+	3 [label="Row Sampling"]
+	19 [label="Recursive Loop End"]
+	24 [label="Color Manager"]
+	15 [label=Joiner]
+	25 [label="Scatter Plot"]
+	10 [label="Distance Matrix Pair Extractor"]
+	12 [label=RowID]
+	16 [label="Loop End"]
+	1 [label="CSV Reader"]
+	22 [label=RowID]
+	11 [label="Row Filter"]
+	4 [label="Chunk Loop Start"]
+	23 [label=RowID]
+	14 [label="Top k Selector"]
+	13 [label="Table Row to Variable"]
+	20 [label=GroupBy]
+	2 [label="Integer Configuration"]
+	rankdir=LR
+}

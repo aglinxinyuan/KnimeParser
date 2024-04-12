@@ -1,0 +1,62 @@
+digraph {
+	44 -> 43
+	34 -> 35
+	21 -> 22
+	2 -> 17
+	22 -> 23
+	20 -> 31
+	1 -> 17
+	37 -> 41
+	40 -> 37
+	18 -> 19
+	25 -> 26
+	17 -> 18
+	39 -> 38
+	44 -> 45
+	29 -> 32
+	33 -> 34
+	23 -> 30
+	35 -> 36
+	30 -> 29
+	24 -> 25
+	36 -> 37
+	31 -> 40
+	37 -> 39
+	19 -> 20
+	3 -> 17
+	32 -> 31
+	26 -> 28
+	41 -> 44
+	28 -> 29
+	45 [label="Row Filter"]
+	18 [label="DB Column Filter"]
+	21 [label="DB Table Selector"]
+	26 [label="DB Row Filter"]
+	17 [label="DB Table Selector"]
+	3 [label="Microsoft SQL Server Connector"]
+	19 [label="DB Row Filter"]
+	24 [label="DB Table Selector"]
+	41 [label="Extract Date_Time Fields"]
+	31 [label=Concatenate]
+	25 [label="DB Column Filter"]
+	30 [label="DB Reader"]
+	1 [label="Microsoft SQL Server Connector"]
+	22 [label="DB Column Filter"]
+	28 [label="DB Reader"]
+	23 [label="DB Row Filter"]
+	38 [label="Pie Chart"]
+	20 [label="DB Reader"]
+	35 [label="DB Row Filter"]
+	44 [label=GroupBy]
+	34 [label="DB Column Filter"]
+	43 [label="Pie Chart"]
+	29 [label=Concatenate]
+	36 [label="DB Reader"]
+	40 [label="Duplicate Row Filter"]
+	39 [label="Duplicate Row Filter"]
+	33 [label="DB Table Selector"]
+	32 [label=GroupBy]
+	2 [label="Microsoft SQL Server Connector"]
+	37 [label=Joiner]
+	rankdir=LR
+}

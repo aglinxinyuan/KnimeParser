@@ -1,0 +1,16 @@
+digraph {
+	489 -> 490
+	489 -> 485
+	489 -> 486
+	488 -> 485
+	486 -> 490
+	486 -> 487
+	487 -> 488
+	490 [label="R Predictor"]
+	489 [label="R Source _Table_"]
+	488 [label="R Model Reader"]
+	486 [label="R Learner"]
+	487 [label="R Model Writer"]
+	485 [label="R Predictor"]
+	rankdir=LR
+}

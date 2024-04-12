@@ -1,0 +1,12 @@
+digraph {
+	6 -> 11
+	11 -> 10
+	12 -> 9
+	11 -> 12
+	9 [label="Conditional Box Plot"]
+	11 [label="Number To String"]
+	6 [label="Excel Reader _XLS_"]
+	12 [label="String Manipulation"]
+	10 [label="Numeric Outliers"]
+	rankdir=LR
+}

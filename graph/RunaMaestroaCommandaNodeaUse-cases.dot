@@ -1,0 +1,32 @@
+digraph {
+	88 -> 10146
+	15301 -> 101
+	87 -> 2
+	12 -> 9
+	87 -> 15301
+	10146 -> 89
+	2 -> 88
+	6 -> 12
+	11 -> 5
+	12 -> 86
+	5 -> 6
+	101 -> 15298
+	2 -> 10147
+	2 -> 11
+	5 [label="Add Hydrogens"]
+	86 [label="Molecule Writer"]
+	15301 [label="Run Maestro Command"]
+	15298 [label="Table Viewer"]
+	10146 [label="KNIME_Maestro Connector"]
+	87 [label="Molecule Reader"]
+	89 [label="Loop End"]
+	9 [label="Run Maestro"]
+	11 [label="Run Maestro Command"]
+	10147 [label="Run Maestro"]
+	88 [label="Chunk Loop Start"]
+	101 [label=Ligfilter]
+	6 [label="MacroModel Single Point Energy"]
+	2 [label="Delete Atoms"]
+	12 [label="Run Maestro Command"]
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	2273 -> 2274
+	2263 -> 2271
+	2255 -> 2256
+	2252 -> 2255
+	2271 -> 2275
+	2253 -> 2252
+	2233 -> 2263
+	2261 -> 2263
+	2263 -> 2272
+	2256 -> 2275
+	2260 -> 2261
+	2249 -> 2254
+	2274 -> 2249
+	2272 -> 2273
+	2254 -> 2253
+	2255 [label="XLS Border Formatter"]
+	2254 [label="XLS Font Formatter"]
+	2256 [label="XLS Background Colorizer"]
+	2272 [label="XLS Control Table Generator"]
+	2271 [label="Excel Writer"]
+	2274 [label="XLS Control Table Generator"]
+	2249 [label="XLS Cell Merger"]
+	2263 [label=Concatenate]
+	2260 [label="Table Creator"]
+	2233 [label="Table Creator"]
+	2273 [label="Rule Engine"]
+	2252 [label="XLS Row and Column Sizer"]
+	2275 [label="XLS Formatter _apply_"]
+	2261 [label="Add Empty Rows"]
+	2253 [label="XLS Cell Formatter"]
+	rankdir=LR
+}

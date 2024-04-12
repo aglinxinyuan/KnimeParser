@@ -1,0 +1,8 @@
+digraph {
+	73 -> 23
+	23 -> 26
+	23 [label="Rule Engine"]
+	26 [label="Column Filter"]
+	73 [label="CSV Reader"]
+	rankdir=LR
+}

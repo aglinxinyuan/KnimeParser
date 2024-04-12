@@ -1,0 +1,38 @@
+digraph {
+	135 -> 141
+	140 -> 149
+	142 -> 143
+	140 -> 135
+	150 -> 151
+	140 -> 148
+	140 -> 144
+	140 -> 141
+	148 -> 149
+	144 -> 145
+	146 -> 147
+	140 -> 154
+	149 -> 150
+	1 -> 140
+	140 -> 152
+	145 -> 146
+	152 -> 148
+	140 -> 145
+	141 -> 142
+	150 [label="Color Manager"]
+	148 [label=DBSCAN]
+	144 [label="Hierarchical Clustering"]
+	1 [label="Table Reader"]
+	145 [label=Denormalizer]
+	140 [label=Normalizer]
+	142 [label="Color Manager"]
+	143 [label="Scatter Plot"]
+	147 [label="Scatter Plot"]
+	154 [label="Scatter Plot"]
+	152 [label="Numeric Distances"]
+	135 [label=k_Means]
+	149 [label=Denormalizer]
+	146 [label="Color Manager"]
+	141 [label=Denormalizer]
+	151 [label="Scatter Plot"]
+	rankdir=LR
+}

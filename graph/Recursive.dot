@@ -1,0 +1,22 @@
+digraph {
+	4 -> 3
+	7 -> 34
+	33 -> 7
+	3 -> 31
+	31 -> 33
+	3 -> 34
+	1 -> 2
+	6 -> 7
+	2 -> 4
+	3 -> 6
+	1 [label="Table Creator"]
+	34 [label="Call Workflow _Table Based_"]
+	7 [label="Java Edit Variable"]
+	31 [label="Extract Context Properties"]
+	4 [label="Math Formula"]
+	6 [label="Java Edit Variable"]
+	33 [label="String Manipulation _Variable_"]
+	3 [label="Loop End"]
+	2 [label="Counting Loop Start"]
+	rankdir=LR
+}

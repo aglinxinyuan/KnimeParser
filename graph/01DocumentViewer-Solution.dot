@@ -1,0 +1,20 @@
+digraph {
+	38 -> 3
+	39 -> 37
+	22 -> 37
+	35 -> 20
+	20 -> 33
+	40 -> 38
+	33 -> 22
+	37 -> 38
+	20 [label="Row Filter"]
+	35 [label="Table Reader"]
+	22 [label="Column Filter"]
+	40 [label="CSV Reader"]
+	39 [label="CSV Reader"]
+	33 [label="Strings To Document"]
+	3 [label="Document Viewer"]
+	38 [label="Dictionary Tagger"]
+	37 [label="Dictionary Tagger"]
+	rankdir=LR
+}

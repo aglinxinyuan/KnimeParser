@@ -1,0 +1,118 @@
+digraph {
+	41 -> 42
+	58 -> 64
+	14 -> 16
+	42 -> 52
+	20 -> 80
+	54 -> 57
+	65 -> 66
+	2 -> 6
+	15 -> 21
+	58 -> 63
+	16 -> 78
+	40 -> 49
+	1 -> 19
+	40 -> 41
+	79 -> 40
+	59 -> 60
+	78 -> 15
+	2 -> 8
+	63 -> 64
+	2 -> 4
+	58 -> 66
+	80 -> 2
+	40 -> 48
+	27 -> 43
+	64 -> 68
+	58 -> 65
+	40 -> 42
+	50 -> 51
+	55 -> 56
+	64 -> 72
+	40 -> 43
+	58 -> 59
+	15 -> 54
+	43 -> 25
+	8 -> 77
+	46 -> 47
+	48 -> 49
+	15 -> 22
+	2 -> 7
+	54 -> 58
+	60 -> 76
+	60 -> 61
+	70 -> 71
+	49 -> 50
+	61 -> 62
+	58 -> 60
+	66 -> 73
+	77 -> 14
+	40 -> 27
+	43 -> 44
+	15 -> 79
+	52 -> 53
+	19 -> 20
+	56 -> 54
+	66 -> 75
+	2 -> 3
+	2 -> 5
+	73 -> 74
+	64 -> 70
+	43 -> 46
+	27 [label="Simple Regression Tree Learner"]
+	57 [label="Linear Correlation"]
+	55 [label="Excel Reader"]
+	7 [label="Linear Correlation"]
+	79 [label="Numeric Binner"]
+	52 [label="Column Filter"]
+	21 [label=Statistics]
+	58 [label=Partitioning]
+	8 [label="Extract Date_Time Fields"]
+	74 [label="Line Plot _local_"]
+	3 [label=Statistics]
+	19 [label="String to Date_Time"]
+	78 [label="Row Filter"]
+	64 [label="Simple Regression Tree Predictor"]
+	49 [label="Regression Predictor"]
+	41 [label="Random Forest Learner _Regression_"]
+	51 [label="Line Plot _local_"]
+	56 [label="String to Date_Time"]
+	6 [label="Scatter Plot _local_"]
+	15 [label="Missing Value"]
+	54 [label=Joiner]
+	25 [label="Scorer _deprecated_"]
+	75 [label="Numeric Scorer"]
+	59 [label="Linear Regression Learner"]
+	16 [label="Row Filter"]
+	48 [label="Linear Regression Learner"]
+	50 [label="Column Filter"]
+	1 [label="Excel Reader"]
+	42 [label="Random Forest Predictor _Regression_"]
+	22 [label="Linear Correlation"]
+	53 [label="Line Plot _local_"]
+	68 [label="Scorer _deprecated_"]
+	72 [label="Numeric Scorer"]
+	4 [label="Box Plot _local_"]
+	47 [label="Line Plot _local_"]
+	63 [label="Simple Regression Tree Learner"]
+	77 [label="Missing Value"]
+	61 [label="Column Filter"]
+	76 [label="Numeric Scorer"]
+	14 [label="Missing Value Column Filter"]
+	60 [label="Regression Predictor"]
+	5 [label="Conditional Box Plot"]
+	20 [label="String to Date_Time"]
+	43 [label="Simple Regression Tree Predictor"]
+	44 [label="Numeric Scorer"]
+	66 [label="Random Forest Predictor _Regression_"]
+	62 [label="Line Plot _local_"]
+	70 [label="Column Filter"]
+	65 [label="Random Forest Learner _Regression_"]
+	71 [label="Line Plot _local_"]
+	46 [label="Column Filter"]
+	40 [label=Partitioning]
+	80 [label="String Manipulation"]
+	73 [label="Column Filter"]
+	2 [label="String To Number"]
+	rankdir=LR
+}

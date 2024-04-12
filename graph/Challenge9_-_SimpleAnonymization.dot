@@ -1,0 +1,24 @@
+digraph {
+	6 -> 9
+	4 -> 5
+	8 -> 10
+	3 -> 4
+	3 -> 5
+	5 -> 6
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	2 -> 8
+	5 [label="Target Shuffling"]
+	1 [label="CSV Reader"]
+	7 [label="Column Rename _Regex_"]
+	9 [label="Row Filter"]
+	4 [label="Table Row to Variable"]
+	8 [label="Row Filter"]
+	6 [label="Loop End _Column Append_"]
+	3 [label="Column List Loop Start"]
+	2 [label="Column Filter"]
+	10 [label="Table Difference Finder"]
+	rankdir=LR
+}

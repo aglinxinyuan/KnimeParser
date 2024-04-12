@@ -1,0 +1,27 @@
+digraph {
+	35 -> 30
+	6 -> 36
+	36 -> 42
+	33 -> 32
+	27 -> 20
+	20 -> 33
+	35 -> 36
+	26 -> 35
+	42 -> 22
+	30 -> 6
+	22 -> 27
+	41 -> 6
+	27 [label="Date_Time Widget"]
+	20 [label="Variable to Table Row"]
+	35 [label="Try _Variable Ports_"]
+	42 [label="Rule Engine Variable"]
+	22 [label="Extract Context Properties"]
+	41 [label="Table Creator"]
+	36 [label="Catch Errors _Var Ports_"]
+	26 [label="Date_Time Widget"]
+	6 [label=Breakpoint]
+	32 [label="CSV Writer"]
+	33 [label="Table Manipulator"]
+	30 [label="Integer Configuration"]
+	rankdir=LR
+}

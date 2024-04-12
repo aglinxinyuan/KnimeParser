@@ -1,0 +1,19 @@
+digraph {
+	3 -> 32
+	3 -> 50
+	3 -> 49
+	137 -> 139
+	138 -> 137
+	2 -> 3
+	3 -> 1
+	50 [label="Split Collection Column"]
+	1 [label="Column Rename"]
+	49 [label=Ungroup]
+	137 [label="Cell Splitter"]
+	139 [label="Split Collection Column"]
+	138 [label="Table Creator"]
+	32 [label="String Manipulation"]
+	3 [label="Create Collection Column"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

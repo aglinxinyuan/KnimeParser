@@ -1,0 +1,35 @@
+digraph {
+	68 -> 111
+	3 -> 70
+	39 -> 101
+	101 -> 56
+	103 -> 68
+	3 -> 68
+	3 -> 25
+	3 -> 39
+	3 -> 56
+	99 -> 100
+	25 -> 101
+	56 -> 70
+	3 -> 22
+	22 -> 101
+	75 -> 22
+	70 -> 68
+	100 -> 25
+	76 -> 39
+	111 [label=Ungroup]
+	99 [label="File Reader"]
+	103 [label="Table Creator"]
+	70 [label="Amazon Personalize Create Campaign"]
+	22 [label="Amazon Personalize Upload User Data"]
+	68 [label="Amazon Personalize User Personalization Predictor"]
+	101 [label="Merge Variables"]
+	100 [label="Row Filter"]
+	56 [label="Amazon Personalize User Personalization Learner"]
+	76 [label="File Reader"]
+	25 [label="Amazon Personalize Upload Interactions"]
+	39 [label="Amazon Personalize Upload Items"]
+	3 [label="Amazon Authentication"]
+	75 [label="File Reader"]
+	rankdir=LR
+}

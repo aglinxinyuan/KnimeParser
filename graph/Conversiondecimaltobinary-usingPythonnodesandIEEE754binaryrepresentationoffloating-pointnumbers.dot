@@ -1,0 +1,8 @@
+digraph {
+	5 -> 6
+	4 -> 5
+	5 [label="Python Script"]
+	4 [label="Table Creator"]
+	6 [label="Parquet Writer"]
+	rankdir=LR
+}

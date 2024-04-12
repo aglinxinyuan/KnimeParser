@@ -1,0 +1,29 @@
+digraph {
+	12 -> 15
+	22 -> 24
+	1 -> 8
+	15 -> 14
+	7 -> 11
+	14 -> 22
+	3 -> 4
+	8 -> 7
+	4 -> 21
+	21 -> 22
+	11 -> 12
+	2 -> 3
+	3 -> 1
+	24 [label="CSV Writer"]
+	1 [label="Google Sheets Reader"]
+	7 [label="Date_Time Difference"]
+	22 [label=Joiner]
+	11 [label="Extract Date_Time Fields"]
+	4 [label="Google Sheets Reader"]
+	21 [label="String Manipulation"]
+	8 [label="String to Date_Time"]
+	15 [label="Rule Engine"]
+	14 [label="Math Formula"]
+	3 [label="Google Sheets Connector"]
+	2 [label="Google Authenticator"]
+	12 [label="Rule Engine"]
+	rankdir=LR
+}

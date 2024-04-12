@@ -1,0 +1,12 @@
+digraph {
+	1 -> 3
+	2 -> 5
+	3 -> 4
+	4 -> 2
+	5 [label="Image Writer"]
+	1 [label="Data Generator"]
+	4 [label="Image To Table"]
+	3 [label="R View _Table_"]
+	2 [label="PNG Image to ImgPlus"]
+	rankdir=LR
+}

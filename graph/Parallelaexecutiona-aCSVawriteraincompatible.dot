@@ -1,0 +1,58 @@
+digraph {
+	3 -> 40
+	6 -> 3
+	20 -> 21
+	32 -> 19
+	29 -> 28
+	12 -> 38
+	2 -> 6
+	39 -> 40
+	7 -> 12
+	4 -> 27
+	1 -> 4
+	21 -> 2
+	30 -> 31
+	31 -> 32
+	38 -> 35
+	13 -> 39
+	29 -> 33
+	7 -> 13
+	35 -> 36
+	37 -> 13
+	36 -> 37
+	33 -> 30
+	11 -> 7
+	21 -> 5
+	19 -> 20
+	5 -> 6
+	3 -> 11
+	2 -> 3
+	27 -> 29
+	27 [label=Unpivoting]
+	7 [label="CSV Reader"]
+	21 [label="Column Resorter"]
+	32 [label="Column Rename _Regex_"]
+	3 [label="Parallel Chunk End"]
+	19 [label="Constant Value Column"]
+	31 [label=RowID]
+	6 [label="CSV Writer"]
+	12 [label="Active Branch Inverter"]
+	1 [label="Test Data Generator"]
+	28 [label="String Replacer"]
+	11 [label="Try _Variable Ports_"]
+	4 [label=Ungroup]
+	38 [label="CSV Reader"]
+	5 [label="Create Temp Dir"]
+	13 [label="Catch Errors _Data Ports_"]
+	20 [label="Constant Value Column"]
+	35 [label="String Manipulation"]
+	29 [label="Column Auto Type Cast"]
+	36 [label="String Manipulation"]
+	40 [label="Reference Row Filter"]
+	39 [label="Rule_based Row Filter"]
+	33 [label="String Replacer"]
+	30 [label=Pivoting]
+	2 [label="Parallel Chunk Start"]
+	37 [label="String Replacer"]
+	rankdir=LR
+}

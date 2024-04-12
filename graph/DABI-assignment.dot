@@ -1,0 +1,58 @@
+digraph {
+	9 -> 7
+	18 -> 30
+	14 -> 16
+	29 -> 26
+	27 -> 28
+	4 -> 6
+	10 -> 23
+	18 -> 19
+	15 -> 5
+	18 -> 25
+	31 -> 32
+	23 -> 14
+	18 -> 22
+	26 -> 27
+	17 -> 18
+	29 -> 32
+	7 -> 10
+	3 -> 9
+	18 -> 29
+	18 -> 24
+	29 -> 27
+	29 -> 31
+	1 -> 15
+	18 -> 20
+	6 -> 7
+	5 -> 6
+	18 -> 21
+	16 -> 17
+	27 [label="Regression Predictor"]
+	7 [label=Joiner]
+	9 [label="Constant Value Column"]
+	18 [label="Column Aggregator"]
+	21 [label="Scatter Plot"]
+	26 [label="Linear Regression Learner"]
+	32 [label="PNN Predictor"]
+	17 [label="Column Aggregator"]
+	3 [label="CSV Reader"]
+	19 [label="Scatter Plot"]
+	24 [label="Scatter Plot"]
+	31 [label="PNN Learner _DDA_"]
+	6 [label=Joiner]
+	15 [label="Double To Int"]
+	25 [label="Linear Correlation"]
+	10 [label="Missing Value"]
+	16 [label="Column Aggregator"]
+	1 [label="CSV Reader"]
+	22 [label="Scatter Plot"]
+	28 [label="Numeric Scorer"]
+	23 [label="Column Aggregator"]
+	4 [label="CSV Reader"]
+	14 [label="Column Aggregator"]
+	5 [label="Column Rename"]
+	20 [label="Scatter Plot"]
+	29 [label=Partitioning]
+	30 [label="Numeric Outliers"]
+	rankdir=LR
+}

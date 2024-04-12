@@ -1,0 +1,24 @@
+digraph {
+	100 -> 101
+	82 -> 99
+	2 -> 82
+	82 -> 11
+	99 -> 9
+	11 -> 99
+	9 -> 10
+	2 -> 5
+	6 -> 9
+	6 -> 98
+	5 [label="Variable to Table Row"]
+	99 [label="CASE Switch End"]
+	82 [label="Try _Variable Ports_"]
+	98 [label="Parquet Writer"]
+	9 [label="ORC Writer"]
+	11 [label="Delete Files_Folders"]
+	101 [label="Row Filter"]
+	6 [label="Data Generator"]
+	100 [label="Extract System Properties"]
+	2 [label="Extract Context Properties"]
+	10 [label="ORC Reader"]
+	rankdir=LR
+}

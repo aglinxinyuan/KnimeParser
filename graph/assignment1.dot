@@ -1,0 +1,60 @@
+digraph {
+	7 -> 19
+	6 -> 5
+	5 -> 8
+	20 -> 21
+	34 -> 37
+	12 -> 14
+	7 -> 12
+	25 -> 24
+	7 -> 20
+	29 -> 30
+	4 -> 36
+	7 -> 10
+	4 -> 29
+	10 -> 11
+	34 -> 33
+	4 -> 34
+	7 -> 13
+	4 -> 26
+	13 -> 12
+	7 -> 9
+	24 -> 4
+	4 -> 7
+	4 -> 38
+	36 -> 35
+	7 -> 5
+	3 -> 4
+	19 -> 20
+	24 -> 2
+	7 -> 6
+	9 -> 10
+	7 [label=Partitioning]
+	9 [label="Logistic Regression Learner"]
+	26 [label="Linear Correlation"]
+	21 [label=Scorer]
+	8 [label=Scorer]
+	3 [label="Table Creator"]
+	19 [label="Tree Ensemble Learner"]
+	24 [label="Column Renamer"]
+	6 [label="Random Forest Learner"]
+	25 [label="CSV Reader"]
+	10 [label="Logistic Regression Predictor"]
+	12 [label="Decision Tree Predictor"]
+	11 [label=Scorer]
+	4 [label="String Replacer _Dictionary_"]
+	14 [label=Scorer]
+	38 [label="Rank Correlation"]
+	5 [label="Random Forest Predictor"]
+	13 [label="Decision Tree Learner"]
+	20 [label="Tree Ensemble Predictor"]
+	35 [label="Pie Chart"]
+	34 [label="String To Number"]
+	29 [label="String To Number"]
+	36 [label="Color Manager"]
+	33 [label="Stacked Area Chart"]
+	30 [label="Scatter Plot Matrix"]
+	2 [label=Statistics]
+	37 [label="Pie Chart"]
+	rankdir=LR
+}

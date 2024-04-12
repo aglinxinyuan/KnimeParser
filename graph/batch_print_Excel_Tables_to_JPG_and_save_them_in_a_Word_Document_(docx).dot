@@ -1,0 +1,32 @@
+digraph {
+	18 -> 13
+	5 -> 3
+	6 -> 9
+	1 -> 2
+	14 -> 18
+	11 -> 14
+	3 -> 4
+	11 -> 17
+	15 -> 11
+	17 -> 18
+	9 -> 10
+	2 -> 5
+	2 -> 3
+	10 -> 11
+	4 -> 6
+	5 [label="Create File_Folder Variables"]
+	13 [label="Variable Loop End"]
+	1 [label="Data Generator"]
+	9 [label="Path to URI"]
+	11 [label="Table Row To Variable Loop Start"]
+	4 [label="Variable Loop End"]
+	18 [label="Merge Variables"]
+	6 [label="List Files_Folders"]
+	15 [label="Conda Environment Propagation"]
+	14 [label="Python Script"]
+	17 [label="Python Script"]
+	3 [label="Excel Writer"]
+	2 [label="Group Loop Start"]
+	10 [label="URL to File Path"]
+	rankdir=LR
+}

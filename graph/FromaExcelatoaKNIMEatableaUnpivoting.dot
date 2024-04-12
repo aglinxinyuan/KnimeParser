@@ -1,0 +1,23 @@
+digraph {
+	129 -> 130
+	124 -> 125
+	128 -> 129
+	125 -> 126
+	127 -> 128
+	132 -> 131
+	130 -> 132
+	121 -> 124
+	126 -> 127
+	124 -> 127
+	126 [label="Column Combiner"]
+	125 [label=Transpose]
+	127 [label="Insert Column Header"]
+	131 [label="Column Rename"]
+	129 [label="Cell Splitter"]
+	124 [label="Row Splitter"]
+	130 [label="Column Filter"]
+	121 [label="Table Creator"]
+	128 [label=Unpivoting]
+	132 [label="Column Resorter"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	15 -> 19
+	2 -> 15
+	1 -> 14
+	14 -> 19
+	1 [label="Table Creator"]
+	15 [label="Column Combiner"]
+	14 [label="Column Combiner"]
+	2 [label="Table Creator"]
+	19 [label="Similarity Search"]
+	rankdir=LR
+}

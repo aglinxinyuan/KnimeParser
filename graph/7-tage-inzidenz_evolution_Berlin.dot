@@ -1,0 +1,14 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	13 -> 2
+	8 -> 9
+	2 -> 7
+	13 [label="CSV Reader"]
+	7 [label="Rule Engine"]
+	9 [label="Scatter Plot _Plotly_"]
+	8 [label="Color Manager"]
+	2 [label="String to Date_Time"]
+	12 [label="HTTP_S_ Connector"]
+	rankdir=LR
+}

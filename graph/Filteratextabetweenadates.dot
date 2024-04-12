@@ -1,0 +1,18 @@
+digraph {
+	27 -> 25
+	5 -> 18
+	18 -> 27
+	27 -> 12
+	12 -> 31
+	18 -> 26
+	26 -> 28
+	5 [label="Excel Reader _XLS_"]
+	27 [label="String Manipulation"]
+	31 [label="Regex Split"]
+	28 [label="Sentence Extractor"]
+	18 [label="Column Filter"]
+	26 [label="Strings To Document"]
+	25 [label="Rule_based Row Splitter"]
+	12 [label="Regex Split"]
+	rankdir=LR
+}

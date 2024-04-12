@@ -1,0 +1,17 @@
+digraph {
+	38 -> 41
+	37 -> 36
+	42 -> 7
+	36 -> 38
+	36 -> 7
+	38 -> 40
+	7 -> 41
+	7 [label="Inductive Miner"]
+	42 [label="Event Log Reader"]
+	41 [label="Process Tree Writer"]
+	36 [label="Table Row To Variable Loop Start"]
+	40 [label="Variable Loop End"]
+	38 [label="Create File Name _legacy_"]
+	37 [label="Excel Reader"]
+	rankdir=LR
+}

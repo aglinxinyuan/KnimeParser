@@ -1,0 +1,28 @@
+digraph {
+	11 -> 6
+	11 -> 24
+	25 -> 9
+	24 -> 23
+	1 -> 10
+	9 -> 27
+	11 -> 25
+	7 -> 29
+	26 -> 28
+	27 -> 26
+	6 -> 7
+	10 -> 11
+	24 [label="Nominal Value Row Filter"]
+	27 [label=GroupBy]
+	1 [label="Table Reader"]
+	7 [label="Normalize Plates _Z_Score_"]
+	29 [label="Range Splitter"]
+	28 [label=Sorter]
+	9 [label="Normalize Plates _NPI_"]
+	11 [label=GroupBy]
+	23 [label="Outlier Removal"]
+	26 [label="Split Columns by Header"]
+	6 [label="Normalize Plates _POC_"]
+	25 [label="Combine Columns by Header"]
+	10 [label="String Manipulation"]
+	rankdir=LR
+}

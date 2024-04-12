@@ -1,0 +1,17 @@
+digraph {
+	7 -> 8
+	4 -> 3
+	3 -> 5
+	5 -> 6
+	6 -> 7
+	2 -> 4
+	3 -> 6
+	5 [label=GroupBy]
+	7 [label="Math Formula"]
+	4 [label="Row Filter"]
+	6 [label="Cross Joiner"]
+	8 [label=Sorter]
+	3 [label=GroupBy]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	4 -> 14
+	8 -> 9
+	3 -> 5
+	2 -> 4
+	4 -> 10
+	14 -> 11
+	11 -> 12
+	6 -> 7
+	1 -> 3
+	3 -> 6
+	5 [label="Cluster Assigner"]
+	13 [label="Scatter Plot _local_"]
+	1 [label="CSV Reader"]
+	7 [label="Color Manager"]
+	12 [label="Shape Manager"]
+	9 [label="Scatter Plot _local_"]
+	11 [label="Color Manager"]
+	4 [label=Partitioning]
+	6 [label=k_Means]
+	8 [label="Shape Manager"]
+	14 [label=k_Means]
+	3 [label=Partitioning]
+	2 [label="Table Reader"]
+	10 [label="Cluster Assigner"]
+	rankdir=LR
+}

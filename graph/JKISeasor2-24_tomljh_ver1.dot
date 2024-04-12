@@ -1,0 +1,30 @@
+digraph {
+	3 -> 9
+	12 -> 13
+	7 -> 3
+	9 -> 5
+	8 -> 9
+	5 -> 11
+	3 -> 4
+	16 -> 14
+	13 -> 16
+	10 -> 8
+	7 -> 12
+	11 -> 12
+	1 -> 7
+	4 -> 10
+	5 [label="Similarity Search"]
+	16 [label="Color Manager"]
+	14 [label="Table View"]
+	13 [label="Table Manipulator"]
+	1 [label="CSV Reader"]
+	7 [label="Cell Splitter"]
+	9 [label="Row Splitter"]
+	11 [label="Numeric Outliers"]
+	4 [label=GroupBy]
+	8 [label="Table Row To Variable"]
+	12 [label="Value Lookup"]
+	3 [label=GroupBy]
+	10 [label="Double To Integer"]
+	rankdir=LR
+}

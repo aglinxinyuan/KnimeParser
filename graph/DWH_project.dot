@@ -1,0 +1,148 @@
+digraph {
+	53 -> 73
+	110 -> 114
+	34 -> 41
+	34 -> 37
+	106 -> 107
+	67 -> 50
+	49 -> 53
+	13 -> 14
+	79 -> 82
+	49 -> 56
+	56 -> 76
+	10 -> 39
+	85 -> 101
+	34 -> 35
+	73 -> 76
+	34 -> 42
+	109 -> 111
+	67 -> 48
+	34 -> 38
+	85 -> 109
+	45 -> 40
+	34 -> 43
+	30 -> 33
+	49 -> 55
+	72 -> 43
+	101 -> 103
+	47 -> 51
+	6 -> 11
+	49 -> 60
+	85 -> 108
+	64 -> 72
+	105 -> 113
+	14 -> 15
+	77 -> 61
+	85 -> 88
+	49 -> 75
+	85 -> 104
+	75 -> 73
+	76 -> 77
+	1 -> 37
+	78 -> 80
+	33 -> 35
+	81 -> 82
+	34 -> 39
+	103 -> 112
+	108 -> 110
+	2 -> 38
+	60 -> 77
+	5 -> 13
+	15 -> 12
+	29 -> 64
+	82 -> 83
+	79 -> 80
+	61 -> 78
+	84 -> 85
+	3 -> 19
+	111 -> 115
+	4 -> 7
+	11 -> 42
+	20 -> 10
+	48 -> 47
+	49 -> 79
+	49 -> 62
+	12 -> 41
+	89 -> 106
+	79 -> 81
+	19 -> 20
+	50 -> 47
+	104 -> 105
+	88 -> 89
+	55 -> 61
+	7 -> 45
+	62 -> 78
+	80 -> 81
+	34 -> 40
+	55 [label="DB Table Selector"]
+	103 [label="DB Reader"]
+	7 [label="Missing Value"]
+	79 [label="DB Table Selector"]
+	89 [label="DB Reader"]
+	108 [label="DB Query"]
+	105 [label="DB Reader"]
+	3 [label="CSV Reader"]
+	19 [label="String to Number"]
+	78 [label="DB Joiner"]
+	80 [label="DB Joiner"]
+	64 [label="String to Date_Time"]
+	49 [label="PostgreSQL Connector"]
+	84 [label="PostgreSQL Connector"]
+	41 [label="DB Writer"]
+	51 [label="DB Connection Table Writer"]
+	56 [label="DB Table Selector"]
+	6 [label="CSV Reader"]
+	15 [label="String Manipulation"]
+	109 [label="DB Query"]
+	114 [label="Table Editor _JavaScript_"]
+	110 [label="DB Reader"]
+	12 [label="String to Date_Time"]
+	10 [label="String to Date_Time"]
+	75 [label="DB Table Selector"]
+	85 [label="DB Table Selector"]
+	48 [label="DB Table Selector"]
+	50 [label="DB Table Selector"]
+	1 [label="CSV Reader"]
+	42 [label="DB Writer"]
+	112 [label="Table Editor _JavaScript_"]
+	53 [label="DB Table Selector"]
+	115 [label="Table Editor _JavaScript_"]
+	67 [label="PostgreSQL Connector"]
+	11 [label="Duplicate Row Filter"]
+	4 [label="CSV Reader"]
+	47 [label="DB Joiner"]
+	72 [label="Column Filter"]
+	61 [label="DB Joiner"]
+	76 [label="DB Joiner"]
+	37 [label="DB Writer"]
+	77 [label="DB Joiner"]
+	14 [label="String Manipulation"]
+	101 [label="DB Query"]
+	106 [label="Color Manager"]
+	83 [label="DB Connection Table Writer"]
+	38 [label="DB Writer"]
+	60 [label="DB Table Selector"]
+	73 [label="DB Joiner"]
+	5 [label="CSV Reader"]
+	81 [label="DB Joiner"]
+	107 [label="Scatter Plot"]
+	113 [label="Table Editor _JavaScript_"]
+	13 [label="String Manipulation"]
+	20 [label="Missing Value"]
+	35 [label="DB Writer"]
+	34 [label="PostgreSQL Connector"]
+	43 [label="DB Writer"]
+	29 [label="CSV Reader"]
+	62 [label="DB Table Selector"]
+	82 [label="DB Joiner"]
+	104 [label="DB Query"]
+	88 [label="DB Query"]
+	40 [label="DB Writer"]
+	111 [label="DB Reader"]
+	39 [label="DB Writer"]
+	33 [label="Missing Value"]
+	30 [label="Excel Reader"]
+	2 [label="CSV Reader"]
+	45 [label="Math Formula"]
+	rankdir=LR
+}

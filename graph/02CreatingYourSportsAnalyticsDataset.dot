@@ -1,0 +1,112 @@
+digraph {
+	20 -> 21
+	2 -> 74
+	4 -> 5
+	882 -> 881
+	8 -> 9
+	38 -> 36
+	13 -> 14
+	54 -> 57
+	39 -> 40
+	56 -> 61
+	60 -> 56
+	29 -> 38
+	21 -> 22
+	63 -> 75
+	2 -> 3
+	38 -> 41
+	12 -> 13
+	16 -> 35
+	884 -> 885
+	41 -> 39
+	22 -> 16
+	18 -> 8
+	18 -> 22
+	14 -> 15
+	76 -> 68
+	37 -> 38
+	57 -> 59
+	68 -> 69
+	72 -> 3
+	44 -> 882
+	5 -> 18
+	45 -> 43
+	61 -> 63
+	3 -> 73
+	19 -> 12
+	36 -> 37
+	35 -> 29
+	10 -> 15
+	74 -> 5
+	75 -> 76
+	58 -> 60
+	43 -> 44
+	69 -> 72
+	55 -> 58
+	3 -> 4
+	40 -> 45
+	881 -> 884
+	5 -> 54
+	15 -> 20
+	5 -> 69
+	1139 -> 2
+	59 -> 56
+	9 -> 10
+	1140 -> 1141
+	20 -> 18
+	739 -> 2
+	5 -> 19
+	57 [label="Column Rename"]
+	55 [label="Column Filter"]
+	9 [label="Rule Engine"]
+	45 [label="Loop End"]
+	18 [label="Math Formula"]
+	21 [label="Math Formula"]
+	58 [label="Column Rename"]
+	8 [label="Constant Value Column"]
+	74 [label="Math Formula"]
+	3 [label="Column Rename"]
+	19 [label="Column Rename"]
+	739 [label="CSV Reader"]
+	885 [label="Column Resorter"]
+	1139 [label="Table Creator"]
+	41 [label="Constant Value Column"]
+	1141 [label="Table Manipulator"]
+	56 [label=Concatenate]
+	15 [label=Concatenate]
+	54 [label="Column Filter"]
+	10 [label="Column Filter"]
+	12 [label="Constant Value Column"]
+	882 [label="Constant Value Column"]
+	16 [label=Sorter]
+	59 [label="Constant Value Column"]
+	75 [label="Math Formula"]
+	22 [label=Concatenate]
+	68 [label=Pivoting]
+	72 [label="Column Aggregator"]
+	4 [label="Rule Engine"]
+	884 [label="String Manipulation"]
+	61 [label=Sorter]
+	63 [label="Group Loop Start"]
+	76 [label="Loop End"]
+	14 [label="Column Filter"]
+	1140 [label="Excel Reader"]
+	38 [label=Sorter]
+	60 [label="Constant Value Column"]
+	5 [label="String to Date_Time"]
+	13 [label="Rule Engine"]
+	35 [label="Group Loop Start"]
+	20 [label="Row Splitter"]
+	43 [label="Column Filter"]
+	44 [label="Column Rename"]
+	29 [label="Moving Aggregation"]
+	69 [label=Joiner]
+	36 [label="Math Formula"]
+	40 [label="Moving Aggregation"]
+	881 [label="Constant Value Column"]
+	39 [label="Group Loop Start"]
+	73 [label="Column Resorter"]
+	2 [label="Column Filter"]
+	37 [label="Column Rename"]
+	rankdir=LR
+}

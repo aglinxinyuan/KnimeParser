@@ -1,0 +1,46 @@
+digraph {
+	12 -> 10
+	7 -> 8
+	4 -> 3
+	3 -> 2
+	8 -> 9
+	12 -> 13
+	1 -> 4
+	18 -> 19
+	11 -> 19
+	14 -> 15
+	17 -> 18
+	5 -> 14
+	5 -> 18
+	15 -> 16
+	11 -> 20
+	18 -> 20
+	11 -> 13
+	9 -> 12
+	6 -> 7
+	11 -> 10
+	5 -> 6
+	2 -> 5
+	16 -> 17
+	7 [label="Row Filter"]
+	9 [label=Sorter]
+	18 [label=Joiner]
+	8 [label="Java Snippet Row Filter"]
+	17 [label=Sorter]
+	3 [label=GroupBy]
+	19 [label="Apply Transforms _RDKit_ _Experimental_"]
+	6 [label=GroupBy]
+	15 [label="Row Filter"]
+	10 [label="Apply Transforms _RDKit_ _Experimental_"]
+	12 [label=Ungroup]
+	16 [label="Java Snippet Row Filter"]
+	1 [label="File Reader"]
+	11 [label=MarvinSketch]
+	4 [label="Speedy SMILES De_salt"]
+	14 [label=GroupBy]
+	5 [label="Fragments to MMPs"]
+	13 [label="Apply Transforms _RDKit_ _Experimental_"]
+	20 [label="Apply Transforms _RDKit_ _Experimental_"]
+	2 [label="MMP Molecule Fragment _RDKit_"]
+	rankdir=LR
+}

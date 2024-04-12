@@ -1,0 +1,22 @@
+digraph {
+	778 -> 3
+	6 -> 11
+	8 -> 6
+	12 -> 780
+	780 -> 2
+	6 -> 12
+	11 -> 12
+	2 -> 3
+	779 -> 778
+	778 -> 8
+	778 [label=Partitioning]
+	11 [label="Decision Tree Learner"]
+	6 [label=Partitioning]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	779 [label="Excel Reader"]
+	3 [label="Feature Selection Filter"]
+	2 [label="Feature Selection Loop End"]
+	12 [label="Decision Tree Predictor"]
+	780 [label=Scorer]
+	rankdir=LR
+}

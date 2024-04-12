@@ -1,0 +1,14 @@
+digraph {
+	3 -> 7
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	7 -> 6
+	5 [label="Microsoft Authenticator"]
+	1 [label="DB Connector"]
+	7 [label=GroupBy]
+	6 [label="Send to Power BI"]
+	3 [label="DB Reader"]
+	2 [label="DB Table Selector"]
+	rankdir=LR
+}

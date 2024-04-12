@@ -1,0 +1,8 @@
+digraph {
+	8 -> 9
+	1 -> 8
+	1 [label="File Reader"]
+	8 [label="Numeric Binner"]
+	9 [label=Statistics]
+	rankdir=LR
+}

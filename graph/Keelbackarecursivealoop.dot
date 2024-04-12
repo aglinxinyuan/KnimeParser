@@ -1,0 +1,60 @@
+digraph {
+	31 -> 26
+	4 -> 5
+	8 -> 9
+	5 -> 11
+	30 -> 32
+	32 -> 29
+	18 -> 19
+	13 -> 9
+	18 -> 16
+	20 -> 16
+	14 -> 15
+	23 -> 18
+	20 -> 22
+	28 -> 30
+	30 -> 25
+	27 -> 32
+	26 -> 25
+	15 -> 8
+	15 -> 4
+	9 -> 11
+	9 -> 4
+	11 -> 10
+	33 -> 30
+	19 -> 20
+	25 -> 27
+	26 -> 28
+	22 -> 21
+	16 -> 17
+	17 -> 22
+	24 -> 20
+	27 [label="Table Row to Variable"]
+	9 [label="Recursive Loop Start"]
+	18 [label="String to Path"]
+	21 [label="Recursive Loop End"]
+	26 [label="String to Path"]
+	8 [label="Extract Table Dimension"]
+	17 [label="Table Row to Variable"]
+	19 [label="Extract Table Dimension"]
+	24 [label="Table Creator"]
+	31 [label="Table Creator"]
+	15 [label="String to Path"]
+	25 [label="Java Snippet Row Filter"]
+	10 [label="Recursive Loop End"]
+	16 [label="Java Snippet Row Filter"]
+	30 [label="Recursive Loop Start"]
+	22 [label="Call Workflow _Table Based_"]
+	28 [label="Extract Table Dimension"]
+	11 [label="Call Workflow _Table Based_"]
+	4 [label="Java Snippet Row Filter"]
+	23 [label="Table Creator"]
+	14 [label="Table Creator"]
+	5 [label="Table Row to Variable"]
+	13 [label="Table Creator"]
+	20 [label="Recursive Loop Start"]
+	29 [label="Recursive Loop End"]
+	33 [label="Table Creator"]
+	32 [label="Call Workflow _Table Based_"]
+	rankdir=LR
+}

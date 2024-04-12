@@ -1,0 +1,15 @@
+digraph {
+	15 -> 16
+	1 -> 15
+	1 -> 13
+	1 -> 14
+	16 -> 17
+	1 -> 16
+	16 [label=Joiner]
+	13 [label="Missing Value"]
+	1 [label="CSV Reader"]
+	15 [label=GroupBy]
+	14 [label="Missing Value"]
+	17 [label="Rule Engine"]
+	rankdir=LR
+}

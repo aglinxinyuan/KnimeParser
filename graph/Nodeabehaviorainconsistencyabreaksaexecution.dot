@@ -1,0 +1,26 @@
+digraph {
+	1 -> 8
+	1 -> 4
+	1 -> 2
+	1 -> 11
+	1 -> 12
+	1 -> 10
+	1 -> 6
+	1 -> 9
+	1 -> 7
+	1 -> 3
+	1 -> 5
+	5 [label="Number To String"]
+	1 [label="Empty Table Creator"]
+	7 [label="Tags To String"]
+	9 [label="Date_Time to String"]
+	11 [label="Collection to String"]
+	4 [label="URI to String"]
+	6 [label="Number To String _PMML_"]
+	8 [label="Term To String"]
+	12 [label="Fingerprint to String"]
+	3 [label="Binary Objects to Strings"]
+	2 [label="Path to String"]
+	10 [label="Duration to String"]
+	rankdir=LR
+}

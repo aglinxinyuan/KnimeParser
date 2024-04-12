@@ -1,0 +1,44 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	20 -> 13
+	19 -> 14
+	2 -> 1
+	8 -> 9
+	20 -> 3
+	19 -> 21
+	11 -> 1
+	14 -> 15
+	11 -> 12
+	5 -> 7
+	8 -> 11
+	15 -> 16
+	11 -> 10
+	15 -> 20
+	17 -> 19
+	5 -> 6
+	20 -> 18
+	1 -> 3
+	7 [label="JSON to Table"]
+	9 [label="Row Filter"]
+	21 [label="Container Output _JSON_"]
+	18 [label="Row Filter"]
+	8 [label="Table Manipulator"]
+	17 [label="Line Reader"]
+	3 [label="BERT Predictor"]
+	19 [label="String to JSON"]
+	6 [label="Container Output _JSON_"]
+	15 [label="Table Manipulator"]
+	12 [label="Table View"]
+	10 [label="Row Filter"]
+	16 [label="Row Filter"]
+	1 [label="BERT Classification Learner"]
+	11 [label="Duplicate Filter"]
+	4 [label="Line Reader"]
+	14 [label="JSON to Table"]
+	5 [label="String to JSON"]
+	20 [label="Duplicate Filter"]
+	13 [label="Table View"]
+	2 [label="BERT Model Selector"]
+	rankdir=LR
+}

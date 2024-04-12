@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="Table Reader"]
+	4 [label="Association Rule Learner"]
+	3 [label="Create Collection Column"]
+	2 [label="Cell Splitter"]
+	rankdir=LR
+}

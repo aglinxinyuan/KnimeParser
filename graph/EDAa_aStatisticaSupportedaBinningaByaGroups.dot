@@ -1,0 +1,75 @@
+digraph {
+	2268 -> 2270
+	2272 -> 157
+	2262 -> 2281
+	2273 -> 2279
+	2259 -> 2264
+	1487 -> 2289
+	2264 -> 2262
+	2276 -> 2283
+	2265 -> 2266
+	2289 -> 2290
+	2262 -> 2263
+	157 -> 2275
+	2266 -> 2269
+	2263 -> 2267
+	2252 -> 2290
+	2275 -> 2278
+	2262 -> 2282
+	2267 -> 2268
+	2276 -> 2291
+	2282 -> 2283
+	2287 -> 1487
+	2260 -> 2252
+	2278 -> 2276
+	17 -> 2260
+	2263 -> 2265
+	2276 -> 17
+	2281 -> 2284
+	2283 -> 2284
+	2252 -> 2286
+	2284 -> 2292
+	2286 -> 2287
+	2272 -> 2273
+	2256 -> 2259
+	2279 -> 2276
+	2255 -> 2256
+	2290 -> 2256
+	2290 -> 2254
+	2254 -> 2255
+	2270 [label="Column Resorter"]
+	2283 [label=Joiner]
+	2276 [label="Insert Column Header"]
+	2279 [label="Column Filter"]
+	2260 [label=Sorter]
+	2273 [label=Unpivoting]
+	2275 [label="Math Formula _Multi Column_"]
+	17 [label=Unpivoting]
+	2266 [label=Pivoting]
+	2284 [label=Joiner]
+	2264 [label="Column Filter"]
+	2254 [label="Column Filter"]
+	2272 [label="Table Creator"]
+	2289 [label="Java Edit Variable _simple_"]
+	2268 [label=Pivoting]
+	2287 [label="Table Row to Variable"]
+	2290 [label="Rule Engine"]
+	2255 [label="Value Counter"]
+	2267 [label=GroupBy]
+	2286 [label=Statistics]
+	2278 [label="String Manipulation"]
+	2265 [label=GroupBy]
+	1487 [label="Java Edit Variable _simple_"]
+	2252 [label="Group Loop Start"]
+	2292 [label="Column Resorter"]
+	2262 [label=Sorter]
+	2256 [label=Joiner]
+	2291 [label=Statistics]
+	2269 [label="Column Resorter"]
+	157 [label="Data Generator"]
+	2263 [label="Rule Engine"]
+	2259 [label="Loop End"]
+	2282 [label=Pivoting]
+	2281 [label=Pivoting]
+	rankdir=LR
+}

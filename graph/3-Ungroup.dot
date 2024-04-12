@@ -1,0 +1,19 @@
+digraph {
+	6 -> 8
+	10 -> 2
+	10 -> 3
+	3 -> 5
+	8 -> 7
+	2 -> 4
+	7 -> 9
+	5 [label=Ungroup]
+	7 [label="Cell Splitter"]
+	9 [label=Ungroup]
+	4 [label=Ungroup]
+	6 [label="Table Reader"]
+	8 [label="Counter Generation"]
+	3 [label=GroupBy]
+	2 [label=GroupBy]
+	10 [label="Table Reader"]
+	rankdir=LR
+}

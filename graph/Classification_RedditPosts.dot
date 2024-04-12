@@ -1,0 +1,102 @@
+digraph {
+	42 -> 44
+	44 -> 47
+	20 -> 21
+	7 -> 8
+	60 -> 57
+	21 -> 23
+	13 -> 14
+	41 -> 46
+	39 -> 40
+	50 -> 33
+	36 -> 39
+	27 -> 28
+	23 -> 28
+	57 -> 61
+	37 -> 49
+	38 -> 41
+	12 -> 13
+	18 -> 19
+	45 -> 50
+	22 -> 71
+	29 -> 30
+	51 -> 53
+	40 -> 42
+	32 -> 34
+	14 -> 15
+	50 -> 58
+	17 -> 18
+	11 -> 12
+	33 -> 37
+	10 -> 11
+	52 -> 41
+	28 -> 70
+	49 -> 51
+	54 -> 45
+	30 -> 22
+	15 -> 16
+	41 -> 58
+	47 -> 48
+	28 -> 31
+	71 -> 70
+	48 -> 52
+	23 -> 27
+	22 -> 7
+	58 -> 60
+	52 -> 38
+	8 -> 10
+	53 -> 32
+	34 -> 36
+	70 -> 61
+	19 -> 20
+	16 -> 17
+	27 [label="Tree Ensemble Learner"]
+	57 [label=GroupBy]
+	7 [label="Strings To Document"]
+	45 [label="Number To String"]
+	52 [label=Partitioning]
+	18 [label=IDF]
+	21 [label="Category To Class"]
+	58 [label=Joiner]
+	8 [label="Case Converter"]
+	32 [label="Stop Word Filter"]
+	17 [label=TF]
+	19 [label="Column Expressions"]
+	49 [label="Number Filter"]
+	41 [label="Tree Ensemble Predictor"]
+	31 [label="Scorer _JavaScript_"]
+	51 [label="Punctuation Erasure"]
+	15 [label="N Chars Filter"]
+	54 [label="CSV Reader"]
+	10 [label="Number Filter"]
+	12 [label="POS Tagger"]
+	16 [label="Bag Of Words Creator"]
+	48 [label="Category To Class"]
+	50 [label="Row Sampling"]
+	42 [label=IDF]
+	22 [label="Row Sampling"]
+	53 [label="POS Tagger"]
+	28 [label="Tree Ensemble Predictor"]
+	11 [label="Punctuation Erasure"]
+	23 [label=Partitioning]
+	47 [label="Document Vector"]
+	61 [label=Joiner]
+	14 [label="Porter Stemmer"]
+	38 [label="Tree Ensemble Learner"]
+	60 [label="Category To Number"]
+	13 [label="Stop Word Filter"]
+	20 [label="Document Vector"]
+	44 [label="Column Expressions"]
+	34 [label="Porter Stemmer"]
+	70 [label=Joiner]
+	29 [label="CSV Reader"]
+	71 [label="Counter Generation"]
+	36 [label="N Chars Filter"]
+	46 [label="Scorer _JavaScript_"]
+	40 [label=TF]
+	39 [label="Bag Of Words Creator"]
+	33 [label="Strings To Document"]
+	30 [label="Number To String"]
+	37 [label="Case Converter"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	3 -> 4
+	4 -> 5
+	5 [label="Scatter Plot"]
+	1 [label="CSV Reader"]
+	4 [label="Nominal Value Row Filter"]
+	3 [label="Nominal Value Row Filter"]
+	2 [label="Nominal Value Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,35 @@
+digraph {
+	7 -> 8
+	18 -> 24
+	26 -> 25
+	4 -> 5
+	2 -> 1
+	8 -> 9
+	6 -> 7
+	3 -> 4
+	62 -> 63
+	25 -> 18
+	26 -> 61
+	24 -> 60
+	63 -> 64
+	1 -> 3
+	5 [label="Table Manipulator"]
+	24 [label="Column Filter"]
+	64 [label="Table Manipulator"]
+	1 [label="Webpage Retriever"]
+	7 [label="HTTP Retriever"]
+	62 [label="Twitter API Connector"]
+	9 [label="Table Manipulator"]
+	4 [label=XPath]
+	18 [label="Column Rename"]
+	26 [label="List Audio Files"]
+	61 [label="Table Manipulator"]
+	6 [label="Table Creator"]
+	8 [label="Feed Parser"]
+	25 [label="CMUSphinx4 SR"]
+	63 [label="Twitter Search"]
+	3 [label="Table Manipulator"]
+	2 [label="Table Creator"]
+	60 [label="Table Manipulator"]
+	rankdir=LR
+}

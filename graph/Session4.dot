@@ -1,0 +1,59 @@
+digraph {
+	437 -> 512
+	517 -> 518
+	512 -> 509
+	520 -> 521
+	459 -> 460
+	451 -> 449
+	430 -> 436
+	446 -> 517
+	509 -> 511
+	446 -> 518
+	519 -> 517
+	450 -> 446
+	514 -> 513
+	436 -> 437
+	449 -> 515
+	437 -> 459
+	461 -> 462
+	437 -> 450
+	509 -> 514
+	434 -> 430
+	446 -> 449
+	1 -> 434
+	446 -> 451
+	460 -> 461
+	449 -> 516
+	435 -> 436
+	459 -> 461
+	518 -> 520
+	511 -> 510
+	459 [label=Partitioning]
+	449 [label="Decision Tree Predictor"]
+	521 [label="Parameter Optimization Loop End"]
+	514 [label="Color Manager"]
+	511 [label="Color Manager"]
+	509 [label=k_Means]
+	461 [label="Regression Predictor"]
+	462 [label="Numeric Scorer"]
+	436 [label=Joiner]
+	451 [label="Decision Tree Learner"]
+	437 [label="Column Renamer"]
+	450 [label="Column Filter"]
+	517 [label="Random Forest Learner"]
+	510 [label="Scatter Plot"]
+	434 [label="Numeric Outliers"]
+	1 [label="Excel Reader"]
+	520 [label=Scorer]
+	446 [label=Partitioning]
+	512 [label=Normalizer]
+	430 [label=GroupBy]
+	515 [label=Scorer]
+	435 [label="Table Reader"]
+	516 [label="ROC Curve"]
+	519 [label="Parameter Optimization Loop Start"]
+	513 [label="Scatter Plot"]
+	460 [label="Linear Regression Learner"]
+	518 [label="Random Forest Predictor"]
+	rankdir=LR
+}

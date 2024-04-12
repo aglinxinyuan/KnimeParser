@@ -1,0 +1,51 @@
+digraph {
+	71 -> 72
+	78 -> 79
+	59 -> 60
+	80 -> 89
+	15 -> 55
+	62 -> 67
+	55 -> 56
+	57 -> 59
+	56 -> 57
+	45 -> 42
+	77 -> 78
+	78 -> 80
+	1 -> 15
+	68 -> 71
+	72 -> 73
+	75 -> 77
+	60 -> 61
+	61 -> 62
+	75 -> 76
+	62 -> 77
+	42 -> 50
+	67 -> 68
+	50 -> 56
+	73 -> 75
+	57 [label="Column Renamer"]
+	55 [label="Row Filter"]
+	79 [label="Linear Correlation"]
+	89 [label="Workflow Service Output"]
+	78 [label="Row Filter"]
+	56 [label=Joiner]
+	15 [label="Row Filter"]
+	75 [label="Information Gain Calculator"]
+	59 [label="Column Aggregator"]
+	50 [label="Row Filter"]
+	1 [label="Call Workflow Service"]
+	42 [label="Row Filter"]
+	68 [label=RowID]
+	67 [label="Table Transposer"]
+	72 [label="Column Filter"]
+	61 [label="Column Aggregator"]
+	77 [label=Joiner]
+	76 [label="Table Transposer"]
+	60 [label="Column Aggregator"]
+	62 [label="Column Renamer"]
+	71 [label="Rule Engine"]
+	80 [label="Column Filter"]
+	73 [label="Row Filter"]
+	45 [label="Call Workflow Service"]
+	rankdir=LR
+}

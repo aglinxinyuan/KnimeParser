@@ -1,0 +1,14 @@
+digraph {
+	7 -> 5
+	3 -> 7
+	2 -> 7
+	5 -> 6
+	1 -> 2
+	5 [label="Table to JSON"]
+	1 [label="Container Input _JSON_"]
+	7 [label="Decision Tree Predictor"]
+	6 [label="Container Output _JSON_"]
+	3 [label="Model Reader"]
+	2 [label="JSON to Table"]
+	rankdir=LR
+}

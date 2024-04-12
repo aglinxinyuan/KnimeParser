@@ -1,0 +1,13 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	1 -> 6
+	6 -> 7
+	6 -> 8
+	1 [label="File Reader"]
+	7 [label="Linear Regression Learner"]
+	9 [label="Numeric Scorer"]
+	6 [label=Partitioning]
+	8 [label="Regression Predictor"]
+	rankdir=LR
+}

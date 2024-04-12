@@ -1,0 +1,17 @@
+digraph {
+	114 -> 115
+	117 -> 114
+	115 -> 116
+	111 -> 112
+	112 -> 117
+	117 -> 115
+	324 -> 112
+	324 [label="Table Reader"]
+	112 [label="Table to Spark"]
+	115 [label="Spark Predictor _Classification_"]
+	116 [label="Spark Scorer"]
+	111 [label="Create Local Big Data Environment"]
+	114 [label="Spark Logistic Regression Learner"]
+	117 [label="Spark Partitioning"]
+	rankdir=LR
+}

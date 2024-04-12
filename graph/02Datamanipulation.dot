@@ -1,0 +1,15 @@
+digraph {
+	295 -> 445
+	305 -> 295
+	305 -> 294
+	445 -> 456
+	305 -> 445
+	297 -> 305
+	294 [label="Parallel Coordinates Plot"]
+	456 [label="Excel Writer"]
+	445 [label="Filter Apply"]
+	305 [label="Interactive Range Slider Filter Widget"]
+	295 [label="Tile View"]
+	297 [label="Color Manager"]
+	rankdir=LR
+}

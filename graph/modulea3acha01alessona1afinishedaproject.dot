@@ -1,0 +1,30 @@
+digraph {
+	11 -> 10
+	7 -> 8
+	3 -> 2
+	14 -> 9
+	13 -> 14
+	2 -> 4
+	12 -> 8
+	1 -> 6
+	9 -> 10
+	4 -> 13
+	6 -> 7
+	10 -> 12
+	14 -> 6
+	1 -> 3
+	14 [label="Table Row to Variable"]
+	13 [label="Nominal Value Row Filter"]
+	1 [label="Excel Reader"]
+	7 [label=GroupBy]
+	9 [label="String Manipulation _Variable_"]
+	11 [label="Date_Time Widget"]
+	4 [label="Column Filter"]
+	6 [label="Row Filter"]
+	8 [label="Excel Writer"]
+	12 [label="String to Path _Variable_"]
+	3 [label="Row Filter"]
+	2 [label="Duplicate Row Filter"]
+	10 [label="String Manipulation _Variable_"]
+	rankdir=LR
+}

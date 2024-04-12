@@ -1,0 +1,21 @@
+digraph {
+	14 -> 6
+	28 -> 14
+	7 -> 27
+	15 -> 28
+	2 -> 7
+	5 -> 6
+	27 -> 15
+	5 -> 2
+	1 -> 5
+	5 [label="Google Sheets Connector"]
+	27 [label="String Replacer"]
+	1 [label="Google Authenticator"]
+	7 [label="Column Filter"]
+	28 [label="Column Resorter"]
+	6 [label="Google Sheets Updater"]
+	15 [label="String Manipulation"]
+	14 [label="Column Renamer"]
+	2 [label="Google Sheets Reader"]
+	rankdir=LR
+}

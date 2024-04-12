@@ -1,0 +1,107 @@
+digraph {
+	2 -> 23
+	56 -> 58
+	62 -> 20
+	28 -> 41
+	8 -> 9
+	49 -> 18
+	41 -> 46
+	39 -> 40
+	3 -> 65
+	63 -> 69
+	8 -> 39
+	65 -> 66
+	18 -> 27
+	7 -> 12
+	59 -> 60
+	42 -> 46
+	19 -> 30
+	1 -> 25
+	51 -> 52
+	34 -> 43
+	40 -> 34
+	12 -> 9
+	5 -> 48
+	8 -> 19
+	30 -> 31
+	55 -> 56
+	8 -> 25
+	69 -> 70
+	6 -> 63
+	32 -> 44
+	29 -> 32
+	68 -> 39
+	58 -> 59
+	25 -> 26
+	44 -> 45
+	46 -> 47
+	48 -> 49
+	31 -> 45
+	20 -> 29
+	66 -> 67
+	45 -> 47
+	27 -> 33
+	33 -> 43
+	8 -> 20
+	70 -> 68
+	60 -> 61
+	61 -> 62
+	43 -> 44
+	23 -> 19
+	52 -> 56
+	9 -> 28
+	67 -> 51
+	8 -> 18
+	26 -> 42
+	27 [label="DB Writer"]
+	55 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	9 [label="DB Table Creator"]
+	52 [label="String Manipulation"]
+	18 [label="DB Table Creator"]
+	26 [label="DB Writer"]
+	58 [label="Column Combiner"]
+	8 [label="PostgreSQL Connector"]
+	32 [label="DB Reader"]
+	3 [label="CSV Reader"]
+	19 [label="DB Table Creator"]
+	49 [label="Missing Value"]
+	41 [label="DB Reader"]
+	31 [label="DB Reader"]
+	51 [label="String Manipulation"]
+	56 [label=Joiner]
+	6 [label="CSV Reader"]
+	25 [label="DB Table Creator"]
+	12 [label="Duplicate Row Filter"]
+	59 [label="Column Combiner"]
+	48 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	42 [label="DB Reader"]
+	68 [label="String to Date_Time"]
+	28 [label="DB Writer"]
+	67 [label="String Replacer"]
+	23 [label="String to Date_Time"]
+	47 [label=Joiner]
+	63 [label="Rule Engine"]
+	61 [label="Column Merger"]
+	60 [label="Column Merger"]
+	5 [label="CSV Reader"]
+	20 [label="DB Table Creator"]
+	43 [label=Joiner]
+	44 [label=Joiner]
+	34 [label="DB Reader"]
+	62 [label="Column Filter"]
+	29 [label="DB Writer"]
+	66 [label="String Replacer"]
+	65 [label="String Replacer"]
+	69 [label="Rule Engine"]
+	70 [label="Rule Engine"]
+	46 [label=Joiner]
+	40 [label="DB Writer"]
+	39 [label="DB Table Creator"]
+	33 [label="DB Reader"]
+	30 [label="DB Writer"]
+	2 [label="CSV Reader"]
+	45 [label=Joiner]
+	rankdir=LR
+}

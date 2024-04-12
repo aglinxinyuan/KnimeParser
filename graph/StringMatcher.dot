@@ -1,0 +1,32 @@
+digraph {
+	9 -> 7
+	17 -> 12
+	1 -> 4
+	4 -> 2
+	10 -> 9
+	8 -> 9
+	12 -> 14
+	13 -> 14
+	11 -> 8
+	14 -> 15
+	2 -> 5
+	6 -> 2
+	16 -> 17
+	5 [label="Loop End"]
+	16 [label="Table Creator"]
+	14 [label="String Matcher"]
+	13 [label="Table Creator"]
+	1 [label="Table Creator"]
+	7 [label="Loop End"]
+	9 [label="String Matcher"]
+	11 [label="Table Creator"]
+	4 [label="Chunk Loop Start"]
+	6 [label="Table Creator"]
+	8 [label="Chunk Loop Start"]
+	15 [label="Loop End"]
+	12 [label="Chunk Loop Start"]
+	17 [label=Sorter]
+	2 [label="String Matcher"]
+	10 [label="Table Creator"]
+	rankdir=LR
+}

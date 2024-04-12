@@ -1,0 +1,34 @@
+digraph {
+	7 -> 858
+	836 -> 853
+	858 -> 8
+	847 -> 859
+	847 -> 836
+	850 -> 2
+	841 -> 838
+	852 -> 7
+	839 -> 836
+	3 -> 847
+	841 -> 849
+	2 -> 851
+	8 -> 839
+	851 -> 3
+	853 -> 841
+	841 [label="Rule Engine"]
+	838 [label=Sorter]
+	858 [label="Row Filter"]
+	849 [label=GroupBy]
+	859 [label=Histogram]
+	851 [label="Row Filter"]
+	7 [label="RDKit From Molecule"]
+	839 [label="RDKit Descriptor Calculation"]
+	852 [label="SDF Reader"]
+	850 [label="Table Creator"]
+	847 [label="RDKit Descriptor Calculation"]
+	8 [label="RDKit Fingerprint"]
+	853 [label="Column Filter"]
+	3 [label="RDKit Fingerprint"]
+	2 [label="RDKit From Molecule"]
+	836 [label="Similarity Search"]
+	rankdir=LR
+}

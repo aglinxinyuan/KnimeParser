@@ -1,0 +1,18 @@
+digraph {
+	9 -> 19
+	31 -> 15228
+	15228 -> 29
+	23 -> 19
+	19 -> 20
+	20 -> 31
+	29 -> 15227
+	20 [label="Extract Properties"]
+	15227 [label="Table Viewer"]
+	29 [label="Batch Test"]
+	31 [label="CSV Writer"]
+	9 [label="Molecule Reader _to MAE_"]
+	23 [label="QSARModel Reader"]
+	15228 [label="Save Workflow"]
+	19 [label="AutoQSAR Predict"]
+	rankdir=LR
+}

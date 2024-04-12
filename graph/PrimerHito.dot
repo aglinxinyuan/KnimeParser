@@ -1,0 +1,16 @@
+digraph {
+	5 -> 4
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	2 -> 5
+	4 -> 9
+	5 [label="String to Date_Time"]
+	1 [label="CSV Reader"]
+	9 [label="Rule_based Row Filter"]
+	4 [label="Date_Time Difference"]
+	6 [label=Statistics]
+	3 [label=GroupBy]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

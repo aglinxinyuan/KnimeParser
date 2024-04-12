@@ -1,0 +1,15 @@
+digraph {
+	29 -> 112
+	111 -> 114
+	56 -> 111
+	112 -> 165
+	141 -> 29
+	165 [label="RDKit Generate Coords"]
+	112 [label="Duplicate Row Filter"]
+	29 [label="RDKit Canon SMILES"]
+	56 [label="Constant Value Column"]
+	111 [label=Concatenate]
+	114 [label="RDKit Descriptor Calculation"]
+	141 [label="RDKit Two Component Reaction"]
+	rankdir=LR
+}

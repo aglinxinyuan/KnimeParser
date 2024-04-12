@@ -1,0 +1,29 @@
+digraph {
+	3 -> 9
+	12 -> 13
+	4 -> 5
+	1 -> 2
+	7 -> 11
+	13 -> 14
+	9 -> 12
+	5 -> 6
+	11 -> 12
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	5 [label="Keras Dense Layer"]
+	14 [label=Scorer]
+	13 [label="Rule Engine"]
+	1 [label="CSV Reader"]
+	7 [label="Keras Dense Layer"]
+	9 [label=Partitioning]
+	11 [label="Keras Network Learner"]
+	4 [label="Keras Input Layer"]
+	6 [label="Keras Dense Layer"]
+	12 [label="Keras Network Executor"]
+	3 [label=Normalizer]
+	2 [label="One to Many"]
+	10 [label=Partitioning]
+	rankdir=LR
+}

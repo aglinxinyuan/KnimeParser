@@ -1,0 +1,47 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	29 -> 26
+	26 -> 30
+	25 -> 29
+	2 -> 4
+	18 -> 19
+	20 -> 23
+	30 -> 31
+	31 -> 32
+	29 -> 30
+	17 -> 18
+	1 -> 2
+	15 -> 16
+	22 -> 20
+	9 -> 29
+	24 -> 22
+	19 -> 20
+	23 -> 25
+	9 -> 15
+	2 -> 3
+	16 -> 17
+	7 [label="Excel Reader"]
+	9 [label="Row Filter"]
+	18 [label="Case Converter"]
+	26 [label=GroupBy]
+	8 [label="Column Filter"]
+	32 [label="Column Rename"]
+	17 [label="Strings To Document"]
+	3 [label=Statistics]
+	19 [label="Punctuation Erasure"]
+	24 [label="Excel Reader"]
+	31 [label="Column Filter"]
+	15 [label="Cell Splitter"]
+	25 [label="Rule Engine"]
+	16 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	22 [label="String Manipulation"]
+	23 [label="Sentence Extractor"]
+	4 [label="Box Plot _local_"]
+	20 [label="Stop Word Filter"]
+	29 [label=Joiner]
+	30 [label=Joiner]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

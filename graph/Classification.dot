@@ -1,0 +1,82 @@
+digraph {
+	12 -> 15
+	24 -> 26
+	20 -> 21
+	4 -> 5
+	8 -> 9
+	23 -> 24
+	29 -> 35
+	9 -> 13
+	3 -> 28
+	22 -> 23
+	18 -> 19
+	12 -> 9
+	31 -> 32
+	29 -> 30
+	26 -> 27
+	1 -> 2
+	17 -> 18
+	11 -> 12
+	25 -> 26
+	10 -> 11
+	3 -> 32
+	9 -> 36
+	15 -> 16
+	3 -> 5
+	1 -> 10
+	3 -> 31
+	12 -> 8
+	18 -> 20
+	24 -> 25
+	36 -> 37
+	1 -> 14
+	29 -> 36
+	4 -> 7
+	14 -> 3
+	32 -> 33
+	9 -> 34
+	3 -> 4
+	19 -> 20
+	5 -> 6
+	3 -> 29
+	17 -> 22
+	28 -> 29
+	27 [label="Scorer _JavaScript_"]
+	7 [label="Decision Tree View"]
+	9 [label="Logistic Regression Predictor"]
+	18 [label=Partitioning]
+	21 [label="Scorer _JavaScript_"]
+	26 [label="Logistic Regression Predictor"]
+	8 [label="Logistic Regression Learner"]
+	17 [label="CSV Reader"]
+	3 [label=Partitioning]
+	19 [label="Decision Tree Learner"]
+	24 [label=Partitioning]
+	31 [label="SVM Learner"]
+	6 [label="Scorer _JavaScript_"]
+	15 [label="K Nearest Neighbor"]
+	25 [label="Logistic Regression Learner"]
+	10 [label="One to Many"]
+	12 [label=Partitioning]
+	16 [label="Scorer _JavaScript_"]
+	30 [label="Scorer _JavaScript_"]
+	1 [label="CSV Reader"]
+	22 [label="One to Many"]
+	28 [label="Random Forest Learner"]
+	11 [label=Normalizer]
+	4 [label="Decision Tree Learner"]
+	23 [label=Normalizer]
+	14 [label="Numeric Binner"]
+	5 [label="Decision Tree Predictor"]
+	13 [label="Scorer _JavaScript_"]
+	20 [label="Decision Tree Predictor"]
+	35 [label="ROC Curve"]
+	34 [label="ROC Curve"]
+	29 [label="Random Forest Predictor"]
+	36 [label=Joiner]
+	33 [label="Scorer _JavaScript_"]
+	32 [label="SVM Predictor"]
+	2 [label="Data Explorer"]
+	37 [label="ROC Curve"]
+	rankdir=LR
+}

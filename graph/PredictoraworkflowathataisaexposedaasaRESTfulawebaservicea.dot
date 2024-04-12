@@ -1,0 +1,14 @@
+digraph {
+	16 -> 10
+	14 -> 15
+	15 -> 10
+	10 -> 11
+	18 -> 10
+	16 [label="Model Reader"]
+	11 [label="Container Output _Table_"]
+	18 [label="Container Input _Table_"]
+	15 [label="Container Input _Variable_"]
+	14 [label="String Configuration"]
+	10 [label="Random Forest Predictor"]
+	rankdir=LR
+}

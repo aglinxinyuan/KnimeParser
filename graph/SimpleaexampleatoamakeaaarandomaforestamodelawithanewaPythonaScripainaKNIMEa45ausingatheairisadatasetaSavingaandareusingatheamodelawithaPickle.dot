@@ -1,0 +1,65 @@
+digraph {
+	259 -> 2400
+	105 -> 254
+	247 -> 5
+	5 -> 2401
+	258 -> 259
+	249 -> 250
+	2402 -> 7
+	105 -> 251
+	46 -> 249
+	250 -> 105
+	251 -> 3
+	104 -> 2405
+	3 -> 2402
+	254 -> 256
+	105 -> 2402
+	255 -> 252
+	248 -> 46
+	105 -> 252
+	256 -> 255
+	57 -> 48
+	56 -> 57
+	2401 -> 257
+	105 -> 3
+	6 -> 251
+	251 -> 254
+	48 -> 47
+	6 -> 252
+	105 -> 256
+	47 -> 248
+	105 -> 2401
+	257 -> 258
+	104 -> 105
+	5 -> 6
+	5 -> 2403
+	247 [label="Table Reader"]
+	57 [label="Variable to Table Row"]
+	7 [label="Python Object Reader"]
+	2401 [label="Python Script _Labs_"]
+	252 [label="Python Script _Labs_"]
+	105 [label="Merge Variables"]
+	3 [label="Python Object Writer"]
+	259 [label="Table To Image"]
+	254 [label="Python Script _Labs_"]
+	256 [label="Merge Variables"]
+	56 [label="Extract Context Properties"]
+	6 [label=Partitioning]
+	2405 [label="Python Edit Variable"]
+	48 [label="String Manipulation"]
+	251 [label="Python Script _Labs_"]
+	2403 [label="Parquet Writer"]
+	47 [label="String Manipulation"]
+	250 [label="String to Path _Variable_"]
+	257 [label="Image To Table"]
+	5 [label="Column Rename"]
+	248 [label="Column Rename"]
+	2400 [label="Image Writer _Port_"]
+	104 [label="Conda Environment Propagation"]
+	258 [label="Renderer to Image"]
+	2402 [label="Merge Variables"]
+	255 [label="Python Script _Labs_"]
+	46 [label="Java Snippet _simple_"]
+	249 [label="Table Row to Variable"]
+	rankdir=LR
+}

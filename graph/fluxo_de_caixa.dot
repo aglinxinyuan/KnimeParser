@@ -1,0 +1,39 @@
+digraph {
+	13 -> 10
+	12 -> 13
+	16 -> 15
+	7 -> 8
+	11 -> 12
+	8 -> 10
+	10 -> 14
+	3 -> 4
+	9 -> 11
+	5 -> 7
+	17 -> 18
+	14 -> 15
+	1 -> 2
+	2 -> 3
+	6 -> 9
+	16 -> 17
+	1 -> 16
+	1 -> 5
+	5 [label=GroupBy]
+	16 [label="Date_Time_based Row Filter"]
+	13 [label="Column Expressions"]
+	1 [label="Excel Reader"]
+	7 [label="Date_Time_based Row Filter"]
+	12 [label="Column Filter"]
+	9 [label="String to Date_Time"]
+	11 [label="String To Number"]
+	4 [label=Concatenate]
+	18 [label="Value Filter _legacy_"]
+	6 [label="Excel Reader"]
+	8 [label="Math Formula"]
+	15 [label=Joiner]
+	14 [label="Row Filter"]
+	17 [label="Domain Calculator"]
+	3 [label=Pivot]
+	2 [label="Extract Date_Time Fields"]
+	10 [label=Joiner]
+	rankdir=LR
+}

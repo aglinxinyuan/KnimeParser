@@ -1,0 +1,21 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	3 -> 4
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	5 [label=GroupBy]
+	1 [label="Table Creator"]
+	7 [label="Cell Splitter"]
+	9 [label=Shuffle]
+	4 [label=Shuffle]
+	6 [label="Table Creator"]
+	8 [label=Transpose]
+	3 [label=Transpose]
+	2 [label="Cell Splitter"]
+	10 [label=GroupBy]
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	51 -> 81
+	100 -> 99
+	46 -> 51
+	96 -> 97
+	96 -> 98
+	48 -> 47
+	97 -> 100
+	7 -> 53
+	1 -> 95
+	81 -> 96
+	81 -> 82
+	52 -> 48
+	47 -> 46
+	82 -> 1
+	3 -> 52
+	53 -> 46
+	48 [label="String Manipulation"]
+	99 [label="Python Script _1_1_"]
+	96 [label="Java Edit Variable _simple_"]
+	1 [label="Python Source"]
+	7 [label="Extract System Properties"]
+	53 [label="Table Column to Variable"]
+	82 [label="Java Edit Variable _simple_"]
+	98 [label="Python Source"]
+	51 [label="Table Row to Variable"]
+	46 [label="Java Snippet _simple_"]
+	47 [label="String Manipulation"]
+	97 [label="Parquet Reader"]
+	95 [label="Parquet Reader"]
+	100 [label="Column Rename"]
+	52 [label="Variable to Table Row"]
+	3 [label="Extract Context Properties"]
+	81 [label="Java Edit Variable _simple_"]
+	rankdir=LR
+}

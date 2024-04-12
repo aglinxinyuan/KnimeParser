@@ -1,0 +1,14 @@
+digraph {
+	2 -> 6
+	1 -> 2
+	2 -> 3
+	2 -> 5
+	2 -> 4
+	5 [label="CSV Reader"]
+	1 [label="Microsoft Authentication"]
+	4 [label="Excel Reader"]
+	6 [label="Table Reader"]
+	3 [label="File Reader"]
+	2 [label="Azure Blob Storage Connector"]
+	rankdir=LR
+}

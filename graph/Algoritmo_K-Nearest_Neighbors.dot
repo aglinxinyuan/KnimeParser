@@ -1,0 +1,20 @@
+digraph {
+	1 -> 8
+	8 -> 9
+	3 -> 4
+	3 -> 5
+	5 -> 6
+	2 -> 3
+	6 -> 7
+	9 -> 2
+	5 [label=Partitioning]
+	1 [label="CSV Reader"]
+	7 [label=Scorer]
+	9 [label="Many to One"]
+	4 [label="Scatter Plot"]
+	8 [label="Many to One"]
+	6 [label="K Nearest Neighbor"]
+	3 [label="Color Manager"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

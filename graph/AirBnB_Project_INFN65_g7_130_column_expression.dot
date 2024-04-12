@@ -1,0 +1,39 @@
+digraph {
+	42 -> 29
+	9 -> 7
+	29 -> 39
+	12 -> 13
+	22 -> 19
+	10 -> 42
+	19 -> 43
+	10 -> 9
+	5 -> 8
+	8 -> 10
+	7 -> 11
+	18 -> 5
+	43 -> 42
+	13 -> 17
+	17 -> 20
+	11 -> 12
+	39 -> 38
+	20 -> 22
+	5 [label="Column Splitter"]
+	13 [label="Missing Value"]
+	20 [label="Table Transposer"]
+	43 [label="Column Filter"]
+	7 [label=Ungroup]
+	42 [label="Column Appender"]
+	29 [label="Column List Loop Start"]
+	22 [label="Row to Column Names"]
+	9 [label="Cell Splitter"]
+	11 [label="Column Filter"]
+	18 [label="CSV Reader"]
+	8 [label=GroupBy]
+	39 [label="Column Expressions"]
+	17 [label="String Manipulation"]
+	12 [label=GroupBy]
+	38 [label="Loop End _Column Append_"]
+	10 [label="String Cleaner"]
+	19 [label="String Manipulation _Multi Column_"]
+	rankdir=LR
+}

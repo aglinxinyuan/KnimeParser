@@ -1,0 +1,50 @@
+digraph {
+	288 -> 282
+	264 -> 266
+	269 -> 285
+	279 -> 295
+	266 -> 267
+	277 -> 275
+	288 -> 294
+	292 -> 283
+	272 -> 271
+	267 -> 268
+	290 -> 288
+	292 -> 279
+	283 -> 287
+	291 -> 292
+	279 -> 277
+	287 -> 288
+	271 -> 273
+	270 -> 272
+	268 -> 270
+	285 -> 292
+	281 -> 282
+	292 -> 293
+	273 -> 269
+	292 [label=Joiner]
+	275 [label="Table to PDF"]
+	269 [label="POST Request"]
+	295 [label="Row Filter"]
+	283 [label="Constant Value Column"]
+	290 [label="Date_Time Input"]
+	277 [label="Column Filter"]
+	291 [label="Table Creator"]
+	288 [label="JSON Transformer"]
+	282 [label="MongoDB Writer"]
+	271 [label="JSON Transformer"]
+	281 [label="MongoDB Connector"]
+	268 [label="String Manipulation"]
+	285 [label="JSON Path"]
+	294 [label="JSON Writer"]
+	287 [label="String to JSON"]
+	293 [label=GroupBy]
+	279 [label="Image Reader _Table_"]
+	266 [label="MongoDB Reader"]
+	272 [label="String to JSON"]
+	264 [label="MongoDB Connector"]
+	267 [label="JSON Path"]
+	270 [label="Constant Value Column"]
+	273 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	29 -> 14
+	27 -> 26
+	26 -> 29
+	8 -> 14
+	27 [label="DL4J Model Initializer"]
+	29 [label="Dense Layer"]
+	26 [label="Dense Layer"]
+	8 [label="Data Generator"]
+	14 [label="DL4J Feedforward Learner _Classification_"]
+	rankdir=LR
+}

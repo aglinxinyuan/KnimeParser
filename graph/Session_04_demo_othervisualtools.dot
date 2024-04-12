@@ -1,0 +1,10 @@
+digraph {
+	4 -> 1
+	4 -> 3
+	4 -> 2
+	1 [label="Send to Power BI"]
+	4 [label="Excel Reader _XLS_"]
+	3 [label="Tableau Writer"]
+	2 [label="Send to Tableau Server"]
+	rankdir=LR
+}

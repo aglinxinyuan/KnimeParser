@@ -1,0 +1,16 @@
+digraph {
+	21 -> 23
+	24 -> 23
+	22 -> 16
+	27 -> 22
+	23 -> 22
+	25 -> 24
+	16 [label="XLS Formatter _apply_"]
+	24 [label="XLS Row and Column Sizer"]
+	27 [label="Table Creator"]
+	22 [label="XLS Row and Column Sizer"]
+	23 [label="XLS Row and Column Sizer"]
+	21 [label="XLS Control Table from Cell Range"]
+	25 [label="XLS Control Table from Cell Range"]
+	rankdir=LR
+}

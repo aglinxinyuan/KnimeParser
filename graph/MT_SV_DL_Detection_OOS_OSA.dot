@@ -1,0 +1,30 @@
+digraph {
+	170 -> 166
+	165 -> 169
+	204 -> 207
+	206 -> 213
+	201 -> 207
+	167 -> 166
+	164 -> 165
+	207 -> 206
+	213 -> 212
+	169 -> 170
+	162 -> 164
+	163 -> 162
+	166 -> 201
+	170 [label="Image Resizer"]
+	165 [label=Splitter]
+	201 [label="Many to One"]
+	164 [label="Image Reader _Table_"]
+	167 [label="TensorFlow 2 Network Reader"]
+	169 [label=Transpose]
+	207 [label=Joiner]
+	206 [label=GroupBy]
+	213 [label="Column Rename"]
+	212 [label="CSV Writer"]
+	162 [label="Path to String"]
+	204 [label="File Reader"]
+	163 [label="List Files_Folders"]
+	166 [label="TensorFlow 2 Network Executor"]
+	rankdir=LR
+}

@@ -1,0 +1,80 @@
+digraph {
+	264 -> 266
+	53 -> 19
+	60 -> 197
+	191 -> 203
+	19 -> 18
+	266 -> 267
+	190 -> 186
+	254 -> 266
+	60 -> 196
+	50 -> 54
+	55 -> 57
+	198 -> 202
+	203 -> 52
+	52 -> 201
+	185 -> 198
+	18 -> 17
+	54 -> 55
+	52 -> 213
+	56 -> 59
+	59 -> 184
+	21 -> 48
+	196 -> 191
+	267 -> 53
+	202 -> 203
+	48 -> 50
+	184 -> 185
+	202 -> 199
+	17 -> 21
+	199 -> 190
+	57 -> 56
+	65 -> 60
+	10 -> 15
+	190 -> 65
+	15 -> 254
+	212 -> 211
+	210 -> 212
+	186 -> 60
+	201 -> 210
+	9 -> 10
+	210 [label=GroupBy]
+	203 [label="End IF"]
+	57 [label=Ungroup]
+	55 [label="JSON Path"]
+	9 [label="Variable Creator"]
+	21 [label="Column Filter"]
+	18 [label="Files to Binary Objects"]
+	17 [label="Base64 Encoder"]
+	184 [label="String Manipulation"]
+	19 [label="String to URI"]
+	254 [label="String to Path _Variable_"]
+	201 [label="Column Filter"]
+	190 [label="Chunk Loop Start"]
+	211 [label="CSV Writer"]
+	185 [label="String Manipulation"]
+	196 [label="Column Filter"]
+	56 [label="JSON Path"]
+	15 [label="String Manipulation _Variable_"]
+	54 [label="Column Filter"]
+	197 [label="Image Writer"]
+	10 [label="String Manipulation _Variable_"]
+	59 [label="GET Request"]
+	48 [label="String Manipulation"]
+	50 [label="POST Request"]
+	53 [label="Chunk Loop Start"]
+	191 [label="Loop End"]
+	202 [label="Empty Table Switch"]
+	198 [label="Rule_based Row Filter"]
+	266 [label="MongoDB Reader"]
+	60 [label="Image Cropper"]
+	199 [label="String Manipulation"]
+	264 [label="MongoDB Connector"]
+	267 [label="JSON Path"]
+	65 [label="Image Reader _Table_"]
+	186 [label="Table Row to Variable"]
+	212 [label="String Manipulation"]
+	52 [label="Loop End"]
+	213 [label=GroupBy]
+	rankdir=LR
+}

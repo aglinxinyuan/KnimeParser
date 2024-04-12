@@ -1,0 +1,14 @@
+digraph {
+	5 -> 8
+	9 -> 10
+	7 -> 9
+	10 -> 11
+	8 -> 11
+	5 [label="Excel Reader"]
+	7 [label="CSV Reader"]
+	9 [label="Extract Column Header"]
+	11 [label="Insert Column Header"]
+	8 [label="Extract Column Header"]
+	10 [label=Transpose]
+	rankdir=LR
+}

@@ -1,0 +1,13 @@
+digraph {
+	20 -> 21
+	11 -> 19
+	1 -> 21
+	11 -> 20
+	1 -> 19
+	20 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	11 [label="GeoFile Reader"]
+	21 [label=Joiner]
+	19 [label=Joiner]
+	rankdir=LR
+}

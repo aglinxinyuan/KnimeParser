@@ -1,0 +1,84 @@
+digraph {
+	41 -> 42
+	21 -> 23
+	37 -> 36
+	7 -> 11
+	13 -> 14
+	31 -> 47
+	39 -> 40
+	34 -> 35
+	40 -> 41
+	27 -> 26
+	30 -> 32
+	7 -> 49
+	21 -> 29
+	12 -> 13
+	18 -> 19
+	43 -> 45
+	11 -> 8
+	29 -> 30
+	18 -> 51
+	31 -> 33
+	21 -> 34
+	20 -> 22
+	21 -> 15
+	15 -> 17
+	14 -> 21
+	9 -> 12
+	36 -> 48
+	9 -> 50
+	43 -> 44
+	11 -> 43
+	36 -> 38
+	19 -> 20
+	23 -> 25
+	32 -> 31
+	35 -> 37
+	17 -> 16
+	26 -> 28
+	22 -> 21
+	25 -> 27
+	27 [label="Row Filter"]
+	7 [label="CSV Reader"]
+	9 [label="CSV Reader"]
+	45 [label="Excel Writer"]
+	21 [label=Joiner]
+	18 [label="CSV Reader"]
+	26 [label="Row to Column Names"]
+	8 [label="Bar Chart"]
+	32 [label="Row Filter"]
+	17 [label="Round Double"]
+	19 [label="Duplicate Row Filter"]
+	49 [label=Statistics]
+	41 [label="Row Aggregator"]
+	31 [label="Row to Column Names"]
+	51 [label=Statistics]
+	15 [label="Math Formula"]
+	25 [label="Table Transposer"]
+	12 [label="Rule_based Row Filter"]
+	16 [label="Bar Chart"]
+	48 [label="Excel Writer"]
+	50 [label=Statistics]
+	42 [label="Excel Writer"]
+	22 [label="String Manipulation"]
+	28 [label="Line Plot"]
+	11 [label="Row Filter"]
+	23 [label="Row Filter"]
+	47 [label="Excel Writer"]
+	14 [label="Column Filter"]
+	38 [label="Line Plot"]
+	43 [label="Row Aggregator"]
+	13 [label="String Manipulation"]
+	20 [label="Column Filter"]
+	34 [label="Row Filter"]
+	35 [label="Table Transposer"]
+	29 [label="Row Filter"]
+	44 [label="Bar Chart"]
+	36 [label="Row to Column Names"]
+	40 [label="Row Filter"]
+	39 [label="CSV Reader"]
+	33 [label="Line Plot"]
+	30 [label="Table Transposer"]
+	37 [label="Row Filter"]
+	rankdir=LR
+}

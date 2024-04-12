@@ -1,0 +1,36 @@
+digraph {
+	15 -> 19
+	12 -> 15
+	10 -> 13
+	7 -> 8
+	8 -> 9
+	19 -> 17
+	13 -> 14
+	3 -> 5
+	14 -> 12
+	17 -> 20
+	1 -> 2
+	9 -> 10
+	2 -> 5
+	6 -> 7
+	10 -> 11
+	5 -> 7
+	5 [label=Joiner]
+	14 [label="Row Filter"]
+	13 [label="Rule Engine"]
+	20 [label="Excel Writer"]
+	1 [label="Excel Reader"]
+	7 [label=Joiner]
+	9 [label="Column Filter"]
+	11 [label="Excel Writer"]
+	6 [label="Excel Reader"]
+	8 [label="String Manipulation"]
+	15 [label="Math Formula"]
+	12 [label=GroupBy]
+	17 [label=Sorter]
+	3 [label="Excel Reader"]
+	2 [label="Row Filter"]
+	10 [label="Column Resorter"]
+	19 [label=GroupBy]
+	rankdir=LR
+}

@@ -1,0 +1,35 @@
+digraph {
+	12 -> 10
+	5 -> 8
+	12 -> 9
+	11 -> 14
+	3 -> 5
+	13 -> 16
+	9 -> 13
+	14 -> 15
+	17 -> 18
+	2 -> 3
+	8 -> 12
+	15 -> 13
+	6 -> 7
+	10 -> 11
+	16 -> 17
+	7 -> 9
+	5 [label="Row Filter"]
+	16 [label=RowID]
+	13 [label=Concatenate]
+	7 [label=RowID]
+	9 [label=Joiner]
+	11 [label="String Manipulation"]
+	18 [label="Loop End"]
+	10 [label="Cell Splitter"]
+	6 [label="Table Creator"]
+	8 [label=RowID]
+	15 [label="Column Filter"]
+	14 [label="Column Rename"]
+	17 [label=Transpose]
+	3 [label="Chunk Loop Start"]
+	2 [label="Line Reader"]
+	12 [label="Row Splitter"]
+	rankdir=LR
+}

@@ -1,0 +1,151 @@
+digraph {
+	54 -> 84
+	4 -> 5
+	71 -> 72
+	43 -> 54
+	14 -> 79
+	11 -> 12
+	34 -> 80
+	27 -> 32
+	12 -> 22
+	41 -> 82
+	65 -> 73
+	67 -> 75
+	29 -> 76
+	12 -> 24
+	48 -> 46
+	59 -> 56
+	1 -> 5
+	12 -> 26
+	12 -> 10
+	73 -> 75
+	9 -> 14
+	8 -> 9
+	16 -> 40
+	80 -> 29
+	61 -> 60
+	54 -> 83
+	7 -> 2
+	58 -> 59
+	77 -> 78
+	49 -> 51
+	16 -> 55
+	84 -> 85
+	76 -> 48
+	65 -> 69
+	3 -> 8
+	29 -> 41
+	69 -> 66
+	83 -> 49
+	42 -> 44
+	67 -> 66
+	79 -> 11
+	61 -> 70
+	84 -> 86
+	63 -> 64
+	38 -> 15
+	82 -> 43
+	58 -> 67
+	58 -> 56
+	12 -> 25
+	78 -> 27
+	49 -> 61
+	70 -> 71
+	40 -> 39
+	55 -> 58
+	36 -> 38
+	43 -> 42
+	62 -> 63
+	82 -> 45
+	28 -> 77
+	12 -> 28
+	66 -> 68
+	38 -> 16
+	41 -> 83
+	51 -> 52
+	29 -> 53
+	32 -> 34
+	58 -> 65
+	50 -> 51
+	5 -> 7
+	56 -> 57
+	75 -> 74
+	60 -> 63
+	62 -> 71
+	29 -> 36
+	84 -> 50
+	49 -> 62
+	2 -> 3
+	27 [label="Column Filter"]
+	57 [label="Numeric Scorer"]
+	55 [label="Column Filter"]
+	7 [label="Missing Value Column Filter"]
+	79 [label="String Manipulation"]
+	9 [label="String to Date_Time"]
+	52 [label="Numeric Scorer"]
+	26 [label="Linear Correlation"]
+	58 [label=Partitioning]
+	8 [label="String to Date_Time"]
+	74 [label=Scorer]
+	3 [label="String to Date_Time"]
+	78 [label="Math Formula _Multi Column_"]
+	39 [label="Scatter Plot _local_"]
+	24 [label="Scatter Plot _local_"]
+	64 [label=Scorer]
+	49 [label=Partitioning]
+	84 [label=Partitioning]
+	41 [label=Normalizer]
+	51 [label="Regression Predictor"]
+	56 [label="Regression Predictor"]
+	15 [label="Hierarchical Clustering"]
+	25 [label="Conditional Box Plot"]
+	54 [label="Column Filter"]
+	66 [label="Decision Tree Predictor"]
+	10 [label=Statistics]
+	12 [label="Extract Date_Time Fields"]
+	59 [label="Linear Regression Learner"]
+	16 [label=k_Means]
+	48 [label="Create Bit Vector"]
+	75 [label="Logistic Regression Predictor"]
+	85 [label="Column Filter"]
+	86 [label="Column Filter"]
+	50 [label="Linear Regression Learner"]
+	1 [label="Excel Reader"]
+	42 [label="Color Manager"]
+	22 [label="Box Plot _local_"]
+	53 [label="Linear Correlation"]
+	28 [label="Math Formula _Multi Column_"]
+	67 [label="Column Filter"]
+	68 [label=Scorer]
+	11 [label="Extract Date_Time Fields"]
+	4 [label="Excel Reader"]
+	72 [label=Scorer]
+	76 [label="One to Many"]
+	77 [label="Math Formula _Multi Column_"]
+	61 [label="Column Filter"]
+	63 [label="Decision Tree Predictor"]
+	14 [label="String Manipulation"]
+	83 [label=Denormalizer]
+	38 [label=Normalizer]
+	60 [label="Decision Tree Learner"]
+	5 [label=Joiner]
+	43 [label=k_Means]
+	44 [label="Scatter Plot _local_"]
+	34 [label="Column Expressions"]
+	62 [label="Column Filter"]
+	29 [label=GroupBy]
+	82 [label="One to Many"]
+	65 [label="Column Filter"]
+	36 [label="Numeric Outliers"]
+	70 [label="Logistic Regression Learner"]
+	46 [label="Association Rule Learner"]
+	71 [label="Logistic Regression Predictor"]
+	69 [label="Decision Tree Learner"]
+	40 [label="Color Manager"]
+	80 [label="Duplicate Row Filter"]
+	73 [label="Logistic Regression Learner"]
+	32 [label="Missing Value"]
+	2 [label="String To Number"]
+	45 [label="Hierarchical Clustering"]
+	rankdir=LR
+}

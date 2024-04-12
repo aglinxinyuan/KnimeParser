@@ -1,0 +1,27 @@
+digraph {
+	33 -> 34
+	28 -> 32
+	26 -> 29
+	31 -> 24
+	29 -> 30
+	31 -> 33
+	26 -> 27
+	34 -> 30
+	24 -> 25
+	25 -> 26
+	32 -> 30
+	27 -> 28
+	28 -> 29
+	24 [label="Recursive Loop Start"]
+	27 [label="Fingerprint Similarity"]
+	30 [label="Recursive Loop End"]
+	34 [label="Table Row to Variable"]
+	29 [label=Concatenate]
+	28 [label="Rule_based Row Splitter"]
+	31 [label="Table Reader"]
+	26 [label="Row Splitter"]
+	25 [label=Sorter]
+	33 [label=GroupBy]
+	32 [label="Column Filter"]
+	rankdir=LR
+}

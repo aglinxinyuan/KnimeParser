@@ -1,0 +1,20 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	3 -> 4
+	5 -> 6
+	1 -> 6
+	2 -> 3
+	6 -> 7
+	7 -> 9
+	5 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	7 [label="Color Manager"]
+	9 [label="Scatter Plot _local_"]
+	4 [label="Column Rename"]
+	6 [label=Joiner]
+	8 [label="Scatter Matrix _local_"]
+	3 [label=Unpivoting]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

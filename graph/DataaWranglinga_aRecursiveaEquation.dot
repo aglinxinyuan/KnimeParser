@@ -1,0 +1,43 @@
+digraph {
+	2429 -> 2428
+	4 -> 3
+	2418 -> 2417
+	3 -> 2426
+	2427 -> 2414
+	2 -> 8
+	2 -> 4
+	2417 -> 2432
+	2426 -> 2431
+	8 -> 2423
+	1 -> 2
+	2428 -> 2430
+	2427 -> 2429
+	2424 -> 2431
+	32 -> 2417
+	2431 -> 2427
+	2423 -> 2424
+	8 -> 2426
+	2431 -> 32
+	32 -> 2414
+	2430 -> 2418
+	2414 -> 2432
+	2430 [label="Column Filter"]
+	2423 [label=GroupBy]
+	2424 [label="Table Row to Variable"]
+	2427 [label="Math Formula"]
+	1 [label="Table Creator"]
+	2428 [label="Rule Engine"]
+	4 [label="Column Rename"]
+	2414 [label=Joiner]
+	2432 [label="Recursive Loop End"]
+	8 [label=Rank]
+	2426 [label="Rule Engine"]
+	2418 [label="Math Formula"]
+	2417 [label=Joiner]
+	2429 [label="Lag Column"]
+	32 [label="Row Splitter"]
+	3 [label="Table Row to Variable"]
+	2 [label="Row Splitter"]
+	2431 [label="Recursive Loop Start"]
+	rankdir=LR
+}

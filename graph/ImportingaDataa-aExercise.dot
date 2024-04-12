@@ -1,0 +1,75 @@
+digraph {
+	42 -> 44
+	42 -> 43
+	21 -> 36
+	39 -> 40
+	39 -> 41
+	30 -> 32
+	12 -> 21
+	24 -> 53
+	24 -> 18
+	47 -> 45
+	21 -> 24
+	30 -> 31
+	2 -> 50
+	11 -> 12
+	26 -> 23
+	24 -> 55
+	10 -> 11
+	26 -> 19
+	56 -> 57
+	21 -> 26
+	33 -> 34
+	21 -> 42
+	24 -> 54
+	33 -> 35
+	21 -> 47
+	36 -> 37
+	24 -> 22
+	21 -> 30
+	50 -> 52
+	21 -> 33
+	36 -> 38
+	2 -> 9
+	21 -> 39
+	47 -> 46
+	9 -> 10
+	57 [label="OSM Map View"]
+	55 [label="Math Formula"]
+	9 [label="Cell Splitter"]
+	45 [label="Bar Chart"]
+	52 [label="Bar Chart"]
+	21 [label="Math Formula"]
+	18 [label="Bar Chart"]
+	26 [label=Sorter]
+	32 [label="Bar Chart"]
+	19 [label="Bar Chart"]
+	24 [label=Sorter]
+	41 [label="Bar Chart"]
+	31 [label="Bar Chart"]
+	56 [label="CSV Reader"]
+	54 [label="Math Formula"]
+	10 [label="Column Filter"]
+	12 [label="Column Rename"]
+	50 [label=Auto_Binner]
+	42 [label=Sorter]
+	22 [label="Bar Chart"]
+	53 [label="Math Formula"]
+	11 [label="Cell Splitter By Position"]
+	23 [label="Bar Chart"]
+	47 [label=Sorter]
+	38 [label="Bar Chart"]
+	43 [label="Bar Chart"]
+	35 [label="Bar Chart"]
+	44 [label="Bar Chart"]
+	34 [label="Bar Chart"]
+	36 [label=Sorter]
+	46 [label="Bar Chart"]
+	40 [label="Bar Chart"]
+	39 [label=Sorter]
+	33 [label=Sorter]
+	30 [label=Sorter]
+	2 [label="CSV Reader"]
+	37 [label="Bar Chart"]
+	rankdir=LR
+}

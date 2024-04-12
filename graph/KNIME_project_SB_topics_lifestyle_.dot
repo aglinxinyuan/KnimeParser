@@ -1,0 +1,16 @@
+digraph {
+	9 -> 520
+	520 -> 516
+	516 -> 508
+	521 -> 520
+	20 -> 9
+	1 -> 520
+	520 [label="Symanto Zero_shot"]
+	20 [label="CSV Reader"]
+	1 [label="Symanto Authentication"]
+	521 [label="Table Creator"]
+	9 [label="Duplicate Row Filter"]
+	508 [label="Table View"]
+	516 [label=Sorter]
+	rankdir=LR
+}

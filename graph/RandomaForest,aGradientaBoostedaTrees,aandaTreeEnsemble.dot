@@ -1,0 +1,27 @@
+digraph {
+	2 -> 18
+	2 -> 26
+	2 -> 28
+	18 -> 19
+	2 -> 29
+	31 -> 2
+	29 -> 30
+	17 -> 18
+	25 -> 26
+	26 -> 27
+	2 -> 25
+	2 -> 17
+	28 -> 29
+	27 [label="Scorer _JavaScript_"]
+	29 [label="Tree Ensemble Predictor"]
+	28 [label="Tree Ensemble Learner"]
+	31 [label="CSV Reader"]
+	18 [label="Random Forest Predictor"]
+	26 [label="Gradient Boosted Trees Predictor"]
+	25 [label="Gradient Boosted Trees Learner"]
+	17 [label="Random Forest Learner"]
+	30 [label="Scorer _JavaScript_"]
+	2 [label=Partitioning]
+	19 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

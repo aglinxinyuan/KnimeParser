@@ -1,0 +1,88 @@
+digraph {
+	221 -> 161
+	279 -> 283
+	269 -> 291
+	280 -> 281
+	285 -> 287
+	286 -> 287
+	309 -> 187
+	232 -> 296
+	276 -> 299
+	269 -> 176
+	296 -> 297
+	278 -> 280
+	309 -> 192
+	300 -> 289
+	162 -> 166
+	167 -> 166
+	163 -> 165
+	307 -> 309
+	284 -> 300
+	231 -> 296
+	166 -> 168
+	301 -> 276
+	187 -> 192
+	162 -> 163
+	161 -> 162
+	192 -> 176
+	176 -> 301
+	220 -> 195
+	283 -> 231
+	165 -> 166
+	289 -> 269
+	307 -> 187
+	219 -> 220
+	278 -> 279
+	287 -> 219
+	281 -> 282
+	293 -> 307
+	295 -> 232
+	291 -> 293
+	195 -> 221
+	283 -> 295
+	287 -> 289
+	168 -> 295
+	299 -> 297
+	163 -> 167
+	279 -> 281
+	231 [label="Constant Value Column"]
+	165 [label="String Manipulation"]
+	167 [label="String Manipulation"]
+	289 [label=Concatenate]
+	284 [label="File Reader"]
+	307 [label="Row Splitter"]
+	280 [label="DB Table Selector"]
+	162 [label="Row Splitter"]
+	269 [label="Numeric Outliers"]
+	286 [label="Excel Reader _XLS_"]
+	295 [label=Joiner]
+	163 [label="Row Splitter"]
+	283 [label="DB Reader"]
+	168 [label="String Manipulation"]
+	161 [label="Cell Splitter"]
+	291 [label="Value Counter"]
+	309 [label="Counter Generation"]
+	282 [label="DB Reader"]
+	281 [label="DB Joiner"]
+	166 [label="Concatenate _Optional in_"]
+	285 [label="Table Reader"]
+	299 [label="Duplicate Row Filter"]
+	296 [label=Concatenate]
+	287 [label=Joiner]
+	293 [label=RowID]
+	219 [label=Unpivoting]
+	176 [label="Cell Replacer"]
+	279 [label="DB Table Selector"]
+	301 [label="Rule Engine"]
+	195 [label="Column Rename"]
+	278 [label="SQLite Connector"]
+	232 [label="Rule Engine"]
+	192 [label=Joiner]
+	300 [label="Number To String"]
+	187 [label="Similarity Search"]
+	276 [label="Missing Value"]
+	220 [label="Row Filter"]
+	297 [label=Joiner]
+	221 [label="Column Filter"]
+	rankdir=LR
+}

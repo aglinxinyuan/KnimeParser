@@ -1,0 +1,49 @@
+digraph {
+	69 -> 34
+	57 -> 68
+	71 -> 36
+	72 -> 62
+	2 -> 72
+	45 -> 29
+	29 -> 21
+	57 -> 37
+	57 -> 35
+	44 -> 45
+	73 -> 35
+	28 -> 30
+	10 -> 29
+	21 -> 57
+	62 -> 69
+	72 -> 69
+	34 -> 73
+	35 -> 36
+	30 -> 29
+	36 -> 37
+	62 -> 71
+	74 -> 75
+	68 -> 62
+	73 -> 74
+	57 -> 69
+	57 [label="Create Local Big Data Environment"]
+	21 [label="Java Edit Variable"]
+	74 [label="DB Connection Table Writer"]
+	10 [label="Extract Context Properties"]
+	75 [label="DB Reader"]
+	68 [label="DB Table Remover"]
+	28 [label="Extract System Properties"]
+	72 [label="Column Rename"]
+	37 [label="DB Query Reader"]
+	35 [label="Hive to Spark"]
+	44 [label="Create Directory"]
+	34 [label="DB GroupBy"]
+	62 [label="DB Table Creator"]
+	29 [label="Merge Variables"]
+	69 [label="DB Loader"]
+	36 [label="Spark to Hive"]
+	71 [label="DB SQL Executor"]
+	73 [label="DB Column Rename"]
+	30 [label="Table Column to Variable"]
+	2 [label="Data Generator"]
+	45 [label="Create Directory"]
+	rankdir=LR
+}

@@ -1,0 +1,74 @@
+digraph {
+	12 -> 300
+	299 -> 279
+	4 -> 305
+	36 -> 30
+	32 -> 36
+	8 -> 9
+	306 -> 307
+	2 -> 3
+	7 -> 6
+	277 -> 35
+	291 -> 279
+	279 -> 302
+	305 -> 306
+	11 -> 12
+	10 -> 11
+	8 -> 11
+	6 -> 34
+	34 -> 33
+	29 -> 303
+	35 -> 8
+	275 -> 291
+	300 -> 299
+	30 -> 29
+	9 -> 10
+	35 -> 12
+	1 -> 7
+	292 -> 275
+	12 -> 292
+	292 -> 300
+	304 -> 305
+	33 -> 32
+	303 -> 277
+	4 -> 306
+	314 -> 4
+	3 -> 308
+	308 -> 314
+	279 -> 294
+	306 [label="BERT Predictor"]
+	292 [label="Document Vector"]
+	275 [label="Category To Class"]
+	7 [label="Strings To Document"]
+	308 [label=Shuffle]
+	307 [label=Scorer]
+	9 [label=GroupBy]
+	302 [label="ROC Curve"]
+	304 [label="BERT Model Selector"]
+	8 [label="Term To String"]
+	3 [label="Column Filter"]
+	277 [label=Partitioning]
+	291 [label="Decision Tree Learner"]
+	6 [label="Column Filter"]
+	12 [label=TF]
+	10 [label="Row Filter"]
+	30 [label="Case Converter"]
+	1 [label="CSV Reader"]
+	294 [label=Scorer]
+	299 [label="Category To Class"]
+	11 [label="Reference Row Filter"]
+	4 [label=Partitioning]
+	279 [label="Decision Tree Predictor"]
+	314 [label="String Manipulation"]
+	35 [label="Bag Of Words Creator"]
+	34 [label="Punctuation Erasure"]
+	29 [label="Snowball Stemmer"]
+	36 [label="Stop Word Filter"]
+	303 [label=Shuffle]
+	300 [label="Document Vector Applier"]
+	305 [label="BERT Classification Learner"]
+	33 [label="Number Filter"]
+	32 [label="N Chars Filter"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

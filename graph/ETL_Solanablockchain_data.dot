@@ -1,0 +1,86 @@
+digraph {
+	11 -> 32
+	21 -> 23
+	4 -> 5
+	42 -> 43
+	39 -> 40
+	13 -> 18
+	2 -> 3
+	27 -> 28
+	12 -> 13
+	30 -> 31
+	40 -> 42
+	11 -> 17
+	37 -> 35
+	26 -> 27
+	1 -> 2
+	11 -> 12
+	25 -> 44
+	20 -> 22
+	10 -> 11
+	28 -> 30
+	33 -> 34
+	15 -> 16
+	43 -> 41
+	6 -> 10
+	9 -> 10
+	36 -> 37
+	11 -> 26
+	18 -> 15
+	7 -> 9
+	38 -> 39
+	32 -> 33
+	31 -> 29
+	11 -> 38
+	34 -> 36
+	17 -> 19
+	19 -> 20
+	23 -> 25
+	8 -> 7
+	3 -> 11
+	5 -> 6
+	22 -> 21
+	27 [label="Row Filter"]
+	7 [label="MongoDB Reader"]
+	9 [label="JSON to Table"]
+	26 [label="Column Filter"]
+	18 [label="Row Filter"]
+	21 [label="Date Field Extractor _legacy_"]
+	8 [label="MongoDB Connector"]
+	17 [label="Column Filter"]
+	3 [label="JSON to Table"]
+	19 [label="Row Filter"]
+	41 [label="Bar Chart"]
+	31 [label=Sorter]
+	6 [label="JSON to Table"]
+	15 [label=GroupBy]
+	25 [label=Sorter]
+	12 [label="Column Filter"]
+	10 [label=Joiner]
+	16 [label="Scatter Plot"]
+	30 [label="Top k Selector"]
+	1 [label="MongoDB Connector"]
+	42 [label="Top k Selector"]
+	22 [label="String to Date_Time _legacy_"]
+	28 [label=GroupBy]
+	11 [label=Joiner]
+	4 [label="MongoDB Connector"]
+	23 [label=GroupBy]
+	38 [label="Column Filter"]
+	5 [label="MongoDB Reader"]
+	13 [label="Row Filter"]
+	20 [label="Row Filter"]
+	44 [label="Line Plot"]
+	34 [label=GroupBy]
+	35 [label="Bar Chart"]
+	29 [label="Bar Chart"]
+	43 [label=Sorter]
+	36 [label="Top k Selector"]
+	40 [label=GroupBy]
+	39 [label="Row Filter"]
+	33 [label="Row Filter"]
+	32 [label="Column Filter"]
+	2 [label="MongoDB Reader"]
+	37 [label=Sorter]
+	rankdir=LR
+}

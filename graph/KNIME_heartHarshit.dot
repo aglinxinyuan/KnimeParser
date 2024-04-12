@@ -1,0 +1,88 @@
+digraph {
+	6 -> 3
+	21 -> 23
+	41 -> 43
+	8 -> 9
+	31 -> 38
+	13 -> 14
+	6 -> 23
+	25 -> 36
+	39 -> 40
+	34 -> 35
+	21 -> 22
+	37 -> 40
+	40 -> 41
+	6 -> 19
+	38 -> 41
+	6 -> 16
+	11 -> 6
+	21 -> 24
+	18 -> 19
+	3 -> 7
+	1 -> 12
+	29 -> 30
+	26 -> 31
+	35 -> 39
+	14 -> 15
+	17 -> 32
+	36 -> 37
+	15 -> 29
+	6 -> 7
+	12 -> 11
+	6 -> 14
+	10 -> 26
+	7 -> 9
+	20 -> 34
+	33 -> 39
+	32 -> 33
+	6 -> 18
+	3 -> 8
+	6 -> 13
+	6 -> 21
+	19 -> 20
+	23 -> 25
+	44 -> 42
+	9 -> 10
+	30 -> 38
+	16 -> 17
+	7 [label="Normalizer _Apply_"]
+	9 [label="SVM Predictor"]
+	18 [label="Logistic Regression Learner"]
+	21 [label="Decision Tree Learner"]
+	26 [label="Column Filter"]
+	8 [label="SVM Learner"]
+	17 [label=Scorer]
+	3 [label=Normalizer]
+	19 [label="Logistic Regression Predictor"]
+	24 [label="Decision Tree to Ruleset"]
+	41 [label=Concatenate]
+	31 [label="Row Filter"]
+	6 [label=Partitioning]
+	15 [label=Scorer]
+	25 [label=Scorer]
+	10 [label=Scorer]
+	12 [label="Number To String"]
+	16 [label="K Nearest Neighbor"]
+	30 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	42 [label="Bar Chart"]
+	22 [label="Decision Tree View"]
+	23 [label="Decision Tree Predictor"]
+	11 [label=PCA]
+	14 [label="Naive Bayes Predictor"]
+	38 [label=Concatenate]
+	13 [label="Naive Bayes Learner"]
+	20 [label=Scorer]
+	35 [label="Row Filter"]
+	34 [label="Column Filter"]
+	43 [label="CSV Writer"]
+	29 [label="Column Filter"]
+	44 [label="CSV Reader"]
+	36 [label="Column Filter"]
+	40 [label=Concatenate]
+	39 [label=Concatenate]
+	33 [label="Row Filter"]
+	32 [label="Column Filter"]
+	37 [label="Row Filter"]
+	rankdir=LR
+}

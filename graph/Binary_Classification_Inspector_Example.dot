@@ -1,0 +1,42 @@
+digraph {
+	24 -> 26
+	5 -> 16
+	17 -> 24
+	41 -> 14
+	5 -> 11
+	14 -> 22
+	21 -> 17
+	19 -> 18
+	37 -> 2
+	20 -> 17
+	22 -> 24
+	26 -> 25
+	40 -> 13
+	5 -> 13
+	16 -> 19
+	11 -> 14
+	13 -> 20
+	2 -> 5
+	18 -> 21
+	39 -> 16
+	18 [label="Column Rename"]
+	21 [label="Column Filter"]
+	26 [label="Binary Classification Inspector"]
+	17 [label=Joiner]
+	19 [label=Normalizer]
+	24 [label=Joiner]
+	41 [label="Model Reader"]
+	25 [label="Table Writer"]
+	16 [label="Fingerprint Bayesian Predictor"]
+	22 [label="Column Rename"]
+	11 [label="Expand Bit Vector"]
+	14 [label="XGBoost Predictor"]
+	5 [label="RDKit Fingerprint"]
+	13 [label="Random Forest Predictor"]
+	20 [label="Column Rename"]
+	40 [label="Model Reader"]
+	39 [label="Model Reader"]
+	2 [label="Molecule Type Cast"]
+	37 [label="Table Reader"]
+	rankdir=LR
+}

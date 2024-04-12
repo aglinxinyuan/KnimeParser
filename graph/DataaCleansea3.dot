@@ -1,0 +1,6 @@
+digraph {
+	1 -> 2
+	1 [label="CSV Reader"]
+	2 [label="Number Formatter"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	3 -> 9
+	7 -> 8
+	15 -> 10
+	3 -> 7
+	3 -> 4
+	13 -> 14
+	14 -> 15
+	1 -> 2
+	2 -> 3
+	10 -> 11
+	13 [label="MySQL Connector"]
+	1 [label="MySQL Connector"]
+	7 [label="Python Script _legacy_"]
+	9 [label="Row Filter"]
+	11 [label="CSV Writer"]
+	4 [label="CSV Writer"]
+	8 [label="CSV Writer"]
+	15 [label="DB Reader"]
+	14 [label="DB Table Selector"]
+	3 [label="DB Reader"]
+	2 [label="DB Table Selector"]
+	10 [label="Python Script _legacy_"]
+	rankdir=LR
+}

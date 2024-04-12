@@ -1,0 +1,51 @@
+digraph {
+	30 -> 14
+	5 -> 11
+	7 -> 12
+	30 -> 32
+	11 -> 23
+	27 -> 7
+	30 -> 33
+	5 -> 20
+	30 -> 31
+	25 -> 28
+	23 -> 18
+	30 -> 19
+	23 -> 13
+	30 -> 36
+	30 -> 17
+	7 -> 30
+	30 -> 29
+	28 -> 27
+	30 -> 37
+	30 -> 34
+	23 -> 16
+	30 -> 15
+	30 -> 35
+	27 [label="DB Reader"]
+	7 [label="Row Filter"]
+	18 [label="Box Plot"]
+	32 [label="Scatter Plot"]
+	17 [label="Bar Chart"]
+	19 [label=Histogram]
+	31 [label="Scatter Plot"]
+	15 [label="Rank Correlation"]
+	25 [label="SQLite Connector"]
+	12 [label="Data Explorer"]
+	16 [label="Data Explorer"]
+	28 [label="DB Table Selector"]
+	11 [label="Row Filter"]
+	23 [label="String To Number"]
+	14 [label="Linear Correlation"]
+	5 [label="CSV Reader"]
+	20 [label="Scatter Plot"]
+	13 [label=Statistics]
+	35 [label="Radar Plot _Plotly_"]
+	34 [label="Parallel Coordinates Plot"]
+	29 [label="Bar Chart"]
+	36 [label="Sunburst Chart"]
+	33 [label="Scatter Matrix _local_"]
+	30 [label="String To Number"]
+	37 [label="Scatter Plot"]
+	rankdir=LR
+}

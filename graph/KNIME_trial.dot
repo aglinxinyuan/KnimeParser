@@ -1,0 +1,27 @@
+digraph {
+	245 -> 5
+	246 -> 4
+	245 -> 12
+	11 -> 248
+	4 -> 11
+	12 -> 4
+	12 -> 246
+	1 -> 2
+	245 -> 9
+	245 -> 7
+	2 -> 245
+	4 -> 247
+	245 [label="Row Filter"]
+	5 [label="Pie_Donut Chart"]
+	246 [label="Decision Tree Learner"]
+	247 [label="Line Plot _local_"]
+	248 [label=Histogram]
+	1 [label="Excel Reader"]
+	7 [label="Bar Chart"]
+	9 [label=Statistics]
+	11 [label="Scatter Plot"]
+	4 [label="Decision Tree Predictor"]
+	2 [label="Column Filter"]
+	12 [label=Partitioning]
+	rankdir=LR
+}

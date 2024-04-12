@@ -1,0 +1,26 @@
+digraph {
+	7 -> 14
+	4 -> 5
+	7 -> 5
+	5 -> 4
+	4 -> 4
+	14 -> 9
+	3 -> 4
+	2 -> 4
+	9 -> 10
+	10 -> 11
+	11 -> 13
+	13 -> 12
+	5 [label="DB Table Creator"]
+	13 [label="Number To String"]
+	7 [label="Impala Connector"]
+	12 [label="Bar Chart"]
+	9 [label="DB GroupBy"]
+	11 [label="DB Reader"]
+	4 [label="Double To Int"]
+	14 [label="DB Table Selector"]
+	3 [label="Parquet Reader"]
+	2 [label="HttpFS Connection"]
+	10 [label="DB Sorter"]
+	rankdir=LR
+}

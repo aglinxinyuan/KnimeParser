@@ -1,0 +1,60 @@
+digraph {
+	321 -> 320
+	315 -> 316
+	295 -> 275
+	292 -> 317
+	286 -> 287
+	132 -> 134
+	132 -> 133
+	134 -> 135
+	292 -> 284
+	281 -> 292
+	322 -> 319
+	313 -> 314
+	133 -> 135
+	314 -> 315
+	284 -> 287
+	323 -> 324
+	287 -> 288
+	284 -> 285
+	278 -> 132
+	317 -> 314
+	317 -> 318
+	135 -> 281
+	285 -> 286
+	318 -> 313
+	288 -> 293
+	292 -> 321
+	320 -> 323
+	319 -> 320
+	321 -> 322
+	275 -> 278
+	133 [label="Missing Value"]
+	292 [label="Column Filter"]
+	320 [label="XGBoost Predictor"]
+	324 [label="Scorer _JavaScript_"]
+	275 [label="Column Filter"]
+	284 [label=X_Partitioner]
+	322 [label=SMOTE]
+	286 [label="Decision Tree Learner"]
+	295 [label="CSV Reader"]
+	313 [label="Random Forest Learner"]
+	315 [label=X_Aggregator]
+	316 [label="Scorer _JavaScript_"]
+	288 [label=X_Aggregator]
+	281 [label="Java Snippet"]
+	319 [label="XGBoost Tree Ensemble Learner"]
+	285 [label=SMOTE]
+	287 [label="Decision Tree Predictor"]
+	293 [label="Scorer _JavaScript_"]
+	321 [label=X_Partitioner]
+	135 [label=Concatenate]
+	134 [label="Missing Value"]
+	278 [label="Missing Value"]
+	314 [label="Random Forest Predictor"]
+	318 [label=SMOTE]
+	323 [label=X_Aggregator]
+	317 [label=X_Partitioner]
+	132 [label="Row Splitter"]
+	rankdir=LR
+}

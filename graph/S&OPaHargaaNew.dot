@@ -1,0 +1,26 @@
+digraph {
+	162 -> 200
+	202 -> 201
+	208 -> 209
+	203 -> 202
+	14 -> 162
+	206 -> 209
+	205 -> 211
+	211 -> 206
+	209 -> 210
+	200 -> 203
+	201 -> 205
+	210 [label="DB Insert"]
+	201 [label="Extract Date_Time Fields"]
+	203 [label="String to Date_Time"]
+	211 [label="String To Number"]
+	208 [label="Snowflake Connector"]
+	206 [label="Column Renamer"]
+	205 [label=Unpivot]
+	162 [label="Google Sheets Connector"]
+	202 [label="String To Number"]
+	14 [label="Google Authenticator"]
+	200 [label="Google Sheets Reader"]
+	209 [label="DB Table Creator"]
+	rankdir=LR
+}

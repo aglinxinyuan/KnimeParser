@@ -1,0 +1,39 @@
+digraph {
+	1414 -> 1405
+	1122 -> 1127
+	1113 -> 1122
+	1116 -> 1124
+	1123 -> 1124
+	1107 -> 813
+	807 -> 1107
+	1405 -> 807
+	1404 -> 1109
+	1109 -> 1126
+	1127 -> 1134
+	1126 -> 1116
+	1415 -> 1405
+	813 -> 1404
+	1413 -> 1414
+	1412 -> 1415
+	1414 -> 1113
+	1124 -> 1113
+	1122 [label="Cell Splitter"]
+	1414 [label="Column Aggregator"]
+	1123 [label="Table Creator"]
+	1405 [label=Joiner]
+	1412 [label="Table Reader"]
+	1124 [label=Concatenate]
+	807 [label="Cross Joiner"]
+	1113 [label="Rule Engine _Dictionary_"]
+	1109 [label="Table View"]
+	813 [label="Duplicate Row Filter"]
+	1126 [label="Row Filter"]
+	1134 [label="Table Writer"]
+	1415 [label="Column Aggregator"]
+	1413 [label="Table Reader"]
+	1116 [label="String Manipulation"]
+	1107 [label="String Similarity"]
+	1404 [label="Row Filter"]
+	1127 [label="Column Rename"]
+	rankdir=LR
+}

@@ -1,0 +1,46 @@
+digraph {
+	4 -> 39
+	34 -> 35
+	35 -> 30
+	2 -> 4
+	39 -> 37
+	18 -> 19
+	22 -> 25
+	9 -> 27
+	31 -> 33
+	17 -> 18
+	20 -> 22
+	33 -> 34
+	30 -> 36
+	38 -> 9
+	3 -> 4
+	19 -> 20
+	29 -> 2
+	2 -> 3
+	28 -> 12
+	27 -> 29
+	27 [label="String Manipulation"]
+	9 [label="Column Filter"]
+	18 [label="String Manipulation"]
+	17 [label="CSV Reader"]
+	3 [label="Decision Tree Learner"]
+	19 [label="Cell Splitter"]
+	31 [label="CSV Reader"]
+	25 [label="String Manipulation"]
+	12 [label="Missing Value"]
+	22 [label="Column Filter"]
+	28 [label="String Manipulation _Multi Column_"]
+	4 [label="Decision Tree Predictor"]
+	38 [label="CSV Reader"]
+	20 [label="Table Manipulator"]
+	35 [label="Column Filter"]
+	34 [label="Table Manipulator"]
+	29 [label="Rule_based Row Filter"]
+	36 [label="Rule_based Row Filter"]
+	39 [label="Row Filter"]
+	33 [label="Cell Splitter"]
+	30 [label="String Manipulation"]
+	2 [label=Partitioning]
+	37 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

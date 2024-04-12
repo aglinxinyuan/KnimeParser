@@ -1,0 +1,32 @@
+digraph {
+	5 -> 8
+	24 -> 28
+	1 -> 4
+	4 -> 5
+	8 -> 9
+	10 -> 14
+	1 -> 10
+	14 -> 26
+	1 -> 2
+	2 -> 3
+	3 -> 13
+	10 -> 11
+	26 -> 24
+	13 -> 12
+	5 [label=Ungroup]
+	24 [label=Sorter]
+	13 [label="Node Degree Filter"]
+	1 [label="Network Reader"]
+	12 [label="Network Viewer"]
+	28 [label="Cell Splitter"]
+	9 [label="Histogram _interactive_"]
+	11 [label="Network Viewer"]
+	4 [label="Partition Table"]
+	26 [label="Column Filter"]
+	8 [label="Color Manager"]
+	14 [label="Feature Table"]
+	3 [label="Edge Degree Filter"]
+	2 [label="Partition Filter"]
+	10 [label="Partition Graph Creator"]
+	rankdir=LR
+}

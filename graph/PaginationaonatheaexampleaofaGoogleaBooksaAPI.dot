@@ -1,0 +1,29 @@
+digraph {
+	291 -> 295
+	290 -> 292
+	287 -> 291
+	285 -> 286
+	282 -> 284
+	289 -> 291
+	292 -> 282
+	288 -> 289
+	286 -> 287
+	287 -> 288
+	283 -> 285
+	284 -> 293
+	293 -> 283
+	283 [label="String Manipulation _Variable_"]
+	292 [label="GET Request"]
+	290 [label="Variable Creator"]
+	285 [label="GET Request"]
+	289 [label="Math Formula _Variable_"]
+	284 [label="Table Row to Variable"]
+	287 [label=Ungroup]
+	293 [label="Generic Loop Start"]
+	291 [label="Variable Condition Loop End"]
+	288 [label="Extract Table Dimension"]
+	286 [label="JSON Path"]
+	282 [label="JSON Path"]
+	295 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

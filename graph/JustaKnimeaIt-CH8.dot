@@ -1,0 +1,54 @@
+digraph {
+	41 -> 42
+	29 -> 35
+	7 -> 11
+	42 -> 43
+	19 -> 18
+	1 -> 6
+	37 -> 40
+	40 -> 41
+	1 -> 4
+	38 -> 37
+	25 -> 26
+	11 -> 12
+	27 -> 30
+	18 -> 24
+	15 -> 16
+	30 -> 29
+	1 -> 38
+	24 -> 25
+	6 -> 7
+	28 -> 27
+	1 -> 18
+	17 -> 19
+	26 -> 28
+	12 -> 34
+	16 -> 17
+	27 [label="Math Formula"]
+	7 [label="Missing Value"]
+	18 [label=Joiner]
+	26 [label=Unpivoting]
+	17 [label="Constant Value Column"]
+	19 [label="String Manipulation"]
+	24 [label="Missing Value"]
+	41 [label="Rule Engine"]
+	6 [label=Normalizer]
+	15 [label="File Reader"]
+	25 [label="Rule Engine"]
+	12 [label=GroupBy]
+	16 [label="Cell Splitter"]
+	1 [label="Excel Reader"]
+	42 [label="String Replacer"]
+	28 [label="String To Number"]
+	11 [label=Unpivoting]
+	4 [label="GroupBy Bar Chart _JFreeChart_"]
+	38 [label="Missing Value"]
+	43 [label=GroupBy]
+	35 [label=Rank]
+	34 [label=Rank]
+	29 [label=GroupBy]
+	40 [label=Unpivoting]
+	30 [label=Normalizer]
+	37 [label="Math Formula _Multi Column_"]
+	rankdir=LR
+}

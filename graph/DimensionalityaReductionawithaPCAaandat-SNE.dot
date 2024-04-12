@@ -1,0 +1,12 @@
+digraph {
+	392 -> 388
+	383 -> 391
+	392 -> 383
+	388 -> 390
+	391 [label="Scatter Plot"]
+	388 [label=PCA]
+	392 [label="File Reader"]
+	390 [label="Scatter Plot"]
+	383 [label="t_SNE _L_ Jonsson_"]
+	rankdir=LR
+}

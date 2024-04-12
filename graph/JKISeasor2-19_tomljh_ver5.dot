@@ -1,0 +1,58 @@
+digraph {
+	888 -> 889
+	883 -> 884
+	868 -> 871
+	864 -> 866
+	849 -> 850
+	884 -> 885
+	882 -> 883
+	866 -> 851
+	1 -> 824
+	885 -> 886
+	867 -> 854
+	889 -> 851
+	850 -> 867
+	871 -> 869
+	889 -> 890
+	851 -> 848
+	887 -> 888
+	865 -> 864
+	824 -> 882
+	1 -> 847
+	851 -> 849
+	886 -> 887
+	870 -> 871
+	868 -> 870
+	863 -> 865
+	889 -> 868
+	854 -> 881
+	848 -> 849
+	888 [label="Missing Value"]
+	866 [label="Table Row To Variable Loop Start"]
+	867 [label="Table Row To Variable"]
+	847 [label="Data Explorer"]
+	865 [label="Data Explorer"]
+	887 [label="Rule Engine"]
+	849 [label="Random Forest Predictor"]
+	885 [label="Rule Engine"]
+	883 [label="Rule Engine"]
+	848 [label="Random Forest Learner"]
+	824 [label="Number To String"]
+	869 [label="Scorer _JavaScript_"]
+	854 [label="Variable Loop End"]
+	868 [label=Partitioning]
+	882 [label="Rule Engine"]
+	1 [label="CSV Reader"]
+	889 [label="Numeric Outliers"]
+	886 [label="Rule Engine"]
+	884 [label="Rule Engine"]
+	890 [label="Box Plot"]
+	851 [label=Partitioning]
+	864 [label="Math Formula"]
+	863 [label="Data Generator"]
+	870 [label="Random Forest Learner"]
+	850 [label="Scorer _JavaScript_"]
+	871 [label="Random Forest Predictor"]
+	881 [label="Box Plot"]
+	rankdir=LR
+}

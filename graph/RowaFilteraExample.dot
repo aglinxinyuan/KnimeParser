@@ -1,0 +1,14 @@
+digraph {
+	8 -> 6
+	8 -> 3
+	8 -> 2
+	8 -> 5
+	2 -> 4
+	5 [label="Row Filter"]
+	4 [label="Row Filter"]
+	8 [label="Table Reader"]
+	6 [label="Row Filter"]
+	3 [label="Row Filter"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	3 -> 9
+	5 -> 8
+	4 -> 5
+	1 -> 11
+	3 -> 4
+	1 -> 10
+	5 -> 12
+	1 -> 9
+	9 -> 10
+	2 -> 3
+	10 -> 11
+	1 -> 5
+	5 [label=Joiner]
+	1 [label="Table Reader"]
+	9 [label="Cell Replacer"]
+	11 [label="Cell Replacer"]
+	4 [label=Unpivoting]
+	8 [label="Interactive Histogram _local_"]
+	12 [label="Bar Chart"]
+	3 [label="Cell Splitter"]
+	2 [label="CSV Reader"]
+	10 [label="Cell Replacer"]
+	rankdir=LR
+}

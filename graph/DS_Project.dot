@@ -1,0 +1,18 @@
+digraph {
+	3 -> 7
+	5 -> 4
+	1 -> 5
+	8 -> 2
+	7 -> 6
+	4 -> 6
+	6 -> 8
+	5 [label="String Manipulation"]
+	1 [label="Excel Reader"]
+	7 [label="Column Rename"]
+	4 [label=GroupBy]
+	6 [label=Joiner]
+	8 [label=Normalizer]
+	3 [label="CSV Reader"]
+	2 [label="Line Plot"]
+	rankdir=LR
+}

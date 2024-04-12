@@ -1,0 +1,18 @@
+digraph {
+	3 -> 5
+	4 -> 6
+	5 -> 7
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	6 -> 8
+	5 [label="Column Rename"]
+	1 [label="CSV Reader"]
+	7 [label=GroupBy]
+	4 [label="Regex Split"]
+	6 [label="Column Rename"]
+	8 [label=GroupBy]
+	3 [label="Cell Splitter"]
+	2 [label=RowID]
+	rankdir=LR
+}

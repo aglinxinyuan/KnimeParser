@@ -1,0 +1,22 @@
+digraph {
+	24 -> 21
+	18 -> 19
+	20 -> 23
+	23 -> 24
+	16 -> 24
+	19 -> 20
+	23 -> 16
+	25 -> 18
+	22 -> 21
+	20 -> 22
+	16 [label=XPath]
+	24 [label="End IF"]
+	20 [label="Row Splitter"]
+	22 [label="Column Filter"]
+	23 [label="Empty Table Switch"]
+	18 [label="Recursive Loop Start"]
+	21 [label="Recursive Loop End"]
+	25 [label="Table Creator"]
+	19 [label="GET Request"]
+	rankdir=LR
+}

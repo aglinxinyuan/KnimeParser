@@ -1,0 +1,20 @@
+digraph {
+	16182 -> 16173
+	16177 -> 15262
+	15271 -> 485
+	15258 -> 485
+	15262 -> 15258
+	21 -> 16182
+	16173 -> 16180
+	16180 -> 16177
+	15271 [label="Credentials Configuration"]
+	15262 [label="Renderer to Image"]
+	16173 [label="LiveDesign Input"]
+	16177 [label="Radar Plot Appender"]
+	21 [label="SDF Reader"]
+	16180 [label="Edit Numeric Domain"]
+	15258 [label="Column Filter"]
+	16182 [label="Column Expressions"]
+	485 [label="Upload as LiveDesign Model"]
+	rankdir=LR
+}

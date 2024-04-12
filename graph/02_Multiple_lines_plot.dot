@@ -1,0 +1,10 @@
+digraph {
+	38 -> 100
+	36 -> 38
+	45 -> 36
+	45 [label="Table Reader"]
+	38 [label="Range Filter"]
+	36 [label=Pivoting]
+	100 [label="Line Plot"]
+	rankdir=LR
+}

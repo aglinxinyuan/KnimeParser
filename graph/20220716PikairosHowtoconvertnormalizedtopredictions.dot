@@ -1,0 +1,33 @@
+digraph {
+	115 -> 121
+	125 -> 128
+	101 -> 114
+	124 -> 101
+	128 -> 127
+	83 -> 117
+	114 -> 117
+	125 -> 126
+	114 -> 129
+	119 -> 115
+	83 -> 121
+	123 -> 83
+	121 -> 114
+	117 -> 125
+	115 -> 123
+	83 -> 124
+	123 [label="Math Formula"]
+	125 [label="Round Double"]
+	126 [label="Numeric Scorer"]
+	115 [label=Partitioning]
+	119 [label="CSV Reader"]
+	128 [label="Column Filter"]
+	127 [label="Scatter Plot _local_"]
+	101 [label="RProp MLP Learner"]
+	124 [label="Column Filter"]
+	114 [label="MultiLayerPerceptron Predictor"]
+	121 [label="Normalizer _Apply_"]
+	117 [label=Denormalizer]
+	83 [label=Normalizer]
+	129 [label="Numeric Scorer"]
+	rankdir=LR
+}

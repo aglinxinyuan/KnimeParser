@@ -1,0 +1,26 @@
+digraph {
+	209 -> 237
+	208 -> 209
+	254 -> 245
+	1 -> 237
+	261 -> 259
+	255 -> 244
+	244 -> 253
+	259 -> 144
+	245 -> 244
+	237 -> 211
+	245 [label="Image to Labeling"]
+	211 [label="Interactive Segmentation View"]
+	237 [label=Joiner]
+	208 [label="Image Converter"]
+	144 [label="DL Python Network Learner"]
+	1 [label="Table Reader"]
+	253 [label="Interactive Segmentation View"]
+	244 [label=Joiner]
+	255 [label="Table Reader"]
+	261 [label="Conda Environment Propagation"]
+	259 [label="TensorFlow 2 Network Reader"]
+	209 [label="Image to Labeling"]
+	254 [label="Image Converter"]
+	rankdir=LR
+}

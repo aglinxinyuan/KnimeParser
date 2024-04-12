@@ -1,0 +1,64 @@
+digraph {
+	1062 -> 1063
+	1020 -> 1021
+	1065 -> 1048
+	1021 -> 1022
+	1084 -> 1085
+	1022 -> 1045
+	1069 -> 1064
+	1087 -> 1088
+	1086 -> 1087
+	1046 -> 1062
+	1075 -> 1073
+	1060 -> 1061
+	1088 -> 1089
+	1064 -> 1065
+	1045 -> 1046
+	1085 -> 1086
+	1083 -> 1084
+	1074 -> 1080
+	1063 -> 1068
+	1073 -> 1074
+	1068 -> 1069
+	1048 -> 1070
+	1050 -> 1082
+	1070 -> 1071
+	1071 -> 1050
+	1082 -> 1075
+	1080 -> 1076
+	1081 -> 1083
+	1061 -> 1045
+	1076 -> 1081
+	1045 [label="Column Appender"]
+	1083 [label="Column Filter"]
+	1074 [label="Cell Splitter"]
+	1081 [label="Cell Splitter"]
+	1060 [label="Table Creator"]
+	1071 [label="Column Filter"]
+	1075 [label="Column Filter"]
+	1065 [label="Column Comparator"]
+	1080 [label="Column Filter"]
+	1061 [label="Column Aggregator"]
+	1085 [label="Bag Of Words Creator"]
+	1088 [label="Document Data Extractor"]
+	1069 [label="Cell Splitter"]
+	1086 [label=TF]
+	1063 [label="Math Formula"]
+	1064 [label="Column Comparator"]
+	1073 [label=RowID]
+	1022 [label="Extract Date_Time Fields"]
+	1076 [label=GroupBy]
+	1089 [label="Table Manipulator"]
+	1068 [label="Column Filter"]
+	1020 [label="Table Creator"]
+	1048 [label="Column Aggregator"]
+	1082 [label="Column Expressions"]
+	1087 [label="Document Vector"]
+	1070 [label="Column Aggregator"]
+	1084 [label="Strings To Document"]
+	1021 [label="Extract Date_Time Fields"]
+	1050 [label="Rule Engine"]
+	1046 [label="Missing Value"]
+	1062 [label=Ungroup]
+	rankdir=LR
+}

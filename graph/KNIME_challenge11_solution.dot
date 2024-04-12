@@ -1,0 +1,32 @@
+digraph {
+	114 -> 116
+	101 -> 114
+	101 -> 117
+	100 -> 102
+	105 -> 107
+	101 -> 105
+	101 -> 111
+	107 -> 108
+	102 -> 101
+	110 -> 109
+	111 -> 113
+	105 -> 110
+	98 -> 100
+	108 -> 106
+	114 [label=GroupBy]
+	107 [label=GroupBy]
+	111 [label=GroupBy]
+	110 [label=GroupBy]
+	113 [label="GroupBy Bar Chart _JFreeChart_"]
+	102 [label="Row Filter"]
+	98 [label="Table Reader"]
+	101 [label="Column Expressions"]
+	116 [label="GroupBy Bar Chart _JFreeChart_"]
+	108 [label=Pivoting]
+	100 [label="Date_Time Difference"]
+	109 [label="GroupBy Bar Chart _JFreeChart_"]
+	105 [label=Auto_Binner]
+	117 [label=GroupBy]
+	106 [label="GroupBy Bar Chart _JFreeChart_"]
+	rankdir=LR
+}

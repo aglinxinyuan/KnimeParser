@@ -1,0 +1,14 @@
+digraph {
+	212 -> 247
+	212 -> 249
+	212 -> 248
+	212 -> 246
+	247 -> 249
+	246 -> 248
+	246 [label="DB Table Selector"]
+	247 [label="DB Table Selector"]
+	248 [label="Hive to Spark"]
+	249 [label="Hive to Spark"]
+	212 [label="Create Local Big Data Environment"]
+	rankdir=LR
+}

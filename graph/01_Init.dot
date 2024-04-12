@@ -1,0 +1,12 @@
+digraph {
+	1 -> 17
+	24 -> 2
+	25 -> 24
+	17 -> 25
+	24 [label="Table to JSON"]
+	1 [label="JSON Input"]
+	25 [label="Column Filter"]
+	17 [label="JSON to Table"]
+	2 [label="JSON Output"]
+	rankdir=LR
+}

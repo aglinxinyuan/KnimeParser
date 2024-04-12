@@ -1,0 +1,18 @@
+digraph {
+	3 -> 10
+	1 -> 4
+	4 -> 3
+	3 -> 7
+	3 -> 6
+	3 -> 8
+	7 -> 9
+	1 [label="CSV Reader"]
+	7 [label="Table View"]
+	9 [label="Linear Correlation"]
+	4 [label="String to Date_Time"]
+	6 [label="Line Plot"]
+	8 [label="Excel Writer"]
+	3 [label="Table Manipulator"]
+	10 [label="Histogram _local_"]
+	rankdir=LR
+}

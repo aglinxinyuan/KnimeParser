@@ -1,0 +1,30 @@
+digraph {
+	4 -> 7
+	1 -> 20
+	18 -> 2
+	20 -> 18
+	2 -> 10
+	2 -> 3
+	3 -> 4
+	2 -> 9
+	2 -> 19
+	9 -> 10
+	4 -> 13
+	10 -> 11
+	2 -> 4
+	10 -> 15
+	20 [label="Missing Value"]
+	13 [label="Pie_Donut Chart"]
+	1 [label="CSV Reader"]
+	7 [label=Scorer]
+	9 [label="Logistic Regression Learner"]
+	11 [label=Scorer]
+	4 [label="Decision Tree Predictor"]
+	18 [label=Normalizer]
+	15 [label="Pie_Donut Chart"]
+	3 [label="Decision Tree Learner"]
+	2 [label=Partitioning]
+	10 [label="Logistic Regression Predictor"]
+	19 [label="Pie_Donut Chart"]
+	rankdir=LR
+}

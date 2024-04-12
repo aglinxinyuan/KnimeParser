@@ -1,0 +1,65 @@
+digraph {
+	74 -> 77
+	96 -> 104
+	81 -> 83
+	74 -> 76
+	78 -> 79
+	85 -> 89
+	97 -> 103
+	103 -> 96
+	74 -> 78
+	96 -> 100
+	94 -> 90
+	91 -> 88
+	89 -> 95
+	96 -> 102
+	95 -> 86
+	86 -> 97
+	96 -> 105
+	94 -> 85
+	103 -> 88
+	78 -> 80
+	81 -> 82
+	96 -> 101
+	82 -> 83
+	84 -> 94
+	94 -> 93
+	88 -> 106
+	74 -> 75
+	94 -> 92
+	80 -> 81
+	103 -> 91
+	73 -> 74
+	91 [label="Linear Correlation"]
+	103 [label="Numeric Outliers"]
+	79 [label=Statistics]
+	89 [label="Rule_based Row Filter"]
+	97 [label="Domain Calculator"]
+	74 [label="Column Rename"]
+	105 [label="Interactive Histogram _local_"]
+	78 [label="Nominal Value Row Filter"]
+	92 [label=Statistics]
+	84 [label="File Reader"]
+	85 [label="Nominal Value Row Filter"]
+	75 [label=Statistics]
+	86 [label="Missing Value"]
+	90 [label="Box Plot"]
+	101 [label="Scatter Plot"]
+	76 [label="Box Plot"]
+	77 [label="Scatter Plot"]
+	93 [label="Scatter Plot"]
+	100 [label="Bar Chart"]
+	106 [label="Math Formula"]
+	83 [label="Correlation Filter"]
+	81 [label="Missing Value"]
+	94 [label="Column Rename"]
+	96 [label="Color Manager"]
+	102 [label="Conditional Box Plot"]
+	104 [label="Parallel Coordinates Plot"]
+	82 [label="Linear Correlation"]
+	88 [label="Correlation Filter"]
+	95 [label="Row Filter"]
+	80 [label="Rule_based Row Filter"]
+	73 [label="File Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	6 -> 5
+	3 -> 8
+	3 -> 4
+	7 -> 2
+	2 -> 3
+	3 -> 6
+	5 [label="Pie_Donut Chart _JavaScript_"]
+	7 [label="CSV Reader"]
+	4 [label="Stacked Area Chart _JavaScript_"]
+	6 [label="Color Manager"]
+	8 [label=Histogram]
+	3 [label="Row Filter"]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

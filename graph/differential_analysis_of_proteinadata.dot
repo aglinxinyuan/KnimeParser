@@ -1,0 +1,63 @@
+digraph {
+	5 -> 8
+	29 -> 28
+	36 -> 849
+	23 -> 34
+	34 -> 38
+	17 -> 26
+	43 -> 23
+	30 -> 31
+	20 -> 19
+	31 -> 32
+	19 -> 39
+	38 -> 42
+	11 -> 12
+	10 -> 11
+	28 -> 30
+	3 -> 9
+	32 -> 43
+	38 -> 46
+	868 -> 869
+	849 -> 866
+	17 -> 5
+	8 -> 20
+	39 -> 32
+	26 -> 29
+	12 -> 17
+	866 -> 868
+	42 -> 40
+	9 -> 10
+	38 -> 45
+	40 -> 36
+	9 [label=Transpose]
+	866 [label="Renderer to Image"]
+	26 [label=GroupBy]
+	8 [label="Independent groups t_test"]
+	17 [label="Column Rename _Regex_"]
+	3 [label="CSV Reader"]
+	19 [label="Column Filter"]
+	849 [label="Image To Table"]
+	31 [label="Column Filter"]
+	869 [label="Image Writer _Port_"]
+	12 [label="Column List Loop Start"]
+	10 [label=RowID]
+	868 [label="Table To Image"]
+	30 [label="Math Formula"]
+	42 [label="Rule Engine"]
+	28 [label=Transpose]
+	11 [label="String Manipulation"]
+	23 [label="Math Formula"]
+	38 [label="R Snippet"]
+	5 [label="Math Formula"]
+	20 [label="Row Filter"]
+	43 [label="Loop End"]
+	34 [label="Math Formula"]
+	29 [label="Column Filter"]
+	36 [label="Scatter Plot _JavaScript_"]
+	46 [label=Histogram]
+	40 [label="Color Manager"]
+	39 [label="Column Rename"]
+	32 [label="Column Appender"]
+	45 [label=Histogram]
+	rankdir=LR
+}

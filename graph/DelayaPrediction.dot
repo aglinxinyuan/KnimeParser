@@ -1,0 +1,60 @@
+digraph {
+	7 -> 19
+	18 -> 13
+	2 -> 324
+	8 -> 9
+	20 -> 9
+	294 -> 344
+	364 -> 7
+	345 -> 294
+	12 -> 18
+	294 -> 335
+	340 -> 345
+	344 -> 324
+	294 -> 316
+	324 -> 346
+	316 -> 335
+	316 -> 341
+	335 -> 342
+	15 -> 16
+	20 -> 2
+	19 -> 8
+	342 -> 343
+	17 -> 12
+	8 -> 15
+	338 -> 20
+	365 -> 7
+	294 -> 20
+	13 -> 20
+	20 -> 344
+	9 -> 340
+	16 -> 17
+	341 -> 342
+	324 [label="Python Script _Labs_"]
+	7 [label=Concatenate]
+	365 [label="Table Reader"]
+	9 [label="Column Appender"]
+	18 [label="String Manipulation"]
+	8 [label="Column Splitter"]
+	17 [label="String Manipulation _Multi Column_"]
+	19 [label="Row Filter _Labs_"]
+	341 [label="Linear Regression Learner"]
+	335 [label="Normalizer Apply _PMML_"]
+	316 [label="Normalizer _PMML_"]
+	343 [label="Scatter Plot _Plotly_"]
+	338 [label="Conda Environment Propagation"]
+	344 [label="Python Script _Labs_"]
+	15 [label="String Manipulation _Multi Column_"]
+	12 [label="String Manipulation"]
+	16 [label="String Manipulation _Multi Column_"]
+	294 [label=Partitioning]
+	346 [label="Scatter Plot _Plotly_"]
+	342 [label="Regression Predictor"]
+	345 [label="Column Resorter"]
+	340 [label="Column Filter"]
+	364 [label="Table Reader"]
+	13 [label="String to Date_Time"]
+	20 [label="Column Filter"]
+	2 [label="Python Script _Labs_"]
+	rankdir=LR
+}

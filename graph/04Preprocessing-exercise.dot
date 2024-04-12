@@ -1,0 +1,12 @@
+digraph {
+	300 -> 297
+	298 -> 120
+	297 -> 299
+	299 -> 298
+	120 [label="POS Tagger"]
+	299 [label="Strings To Document"]
+	300 [label="Table Reader"]
+	298 [label="Column Filter"]
+	297 [label="Row Filter"]
+	rankdir=LR
+}

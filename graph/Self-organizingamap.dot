@@ -1,0 +1,59 @@
+digraph {
+	8239 -> 15192
+	16180 -> 16181
+	15147 -> 15200
+	15145 -> 15197
+	16181 -> 15252
+	15199 -> 15202
+	15199 -> 15200
+	15143 -> 15145
+	15139 -> 15196
+	15252 -> 16
+	44 -> 8239
+	453 -> 16
+	15200 -> 16180
+	15146 -> 15147
+	16191 -> 44
+	15197 -> 15150
+	15144 -> 15152
+	15417 -> 16179
+	15152 -> 15147
+	15201 -> 15198
+	15196 -> 15144
+	15202 -> 15201
+	15200 -> 15201
+	15139 -> 15143
+	15192 -> 15132
+	15150 -> 15146
+	16179 -> 16191
+	15147 -> 15199
+	15132 -> 15139
+	15200 [label=Joiner]
+	15147 [label="Insert Column Header"]
+	15198 [label="Scatter Plot"]
+	8239 [label="Chemistry External Tool"]
+	15199 [label=GroupBy]
+	15143 [label="Column Filter"]
+	15150 [label="Column Filter"]
+	15192 [label="Cell Splitter"]
+	15132 [label=Ungroup]
+	15201 [label="Color Appender"]
+	15202 [label="Color Manager"]
+	15196 [label="Cell Splitter"]
+	16 [label="Upload as LiveDesign Model"]
+	15417 [label="SDF Reader"]
+	16181 [label="Column Resorter"]
+	16180 [label="Column Rename"]
+	15197 [label="Cell Splitter"]
+	453 [label="Credentials Configuration"]
+	16179 [label="LiveDesign Input"]
+	15139 [label="Row Splitter"]
+	15144 [label="Column Filter"]
+	44 [label="Canvas Fingerprint Generation"]
+	15152 [label="Column Filter"]
+	15145 [label="Row Filter"]
+	15252 [label="Column Filter"]
+	15146 [label=Transpose]
+	16191 [label=Molecule_to_MAE]
+	rankdir=LR
+}

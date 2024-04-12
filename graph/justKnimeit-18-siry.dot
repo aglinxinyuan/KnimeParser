@@ -1,0 +1,28 @@
+digraph {
+	12 -> 13
+	15 -> 14
+	14 -> 16
+	2 -> 12
+	2 -> 15
+	1 -> 15
+	1 -> 10
+	2 -> 9
+	10 -> 17
+	1 -> 9
+	9 -> 10
+	10 -> 11
+	16 -> 17
+	13 -> 11
+	16 [label="Duplicate Row Filter"]
+	14 [label="String Similarity"]
+	13 [label="Table Row to Variable"]
+	1 [label="Excel Reader"]
+	9 [label="String Matcher"]
+	11 [label="Column Rename"]
+	15 [label="Cross Joiner"]
+	12 [label="Extract Table Spec"]
+	17 [label=Joiner]
+	2 [label="Excel Reader"]
+	10 [label=Joiner]
+	rankdir=LR
+}

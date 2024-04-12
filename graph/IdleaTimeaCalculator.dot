@@ -1,0 +1,39 @@
+digraph {
+	68 -> 69
+	86 -> 74
+	76 -> 77
+	80 -> 66
+	75 -> 88
+	81 -> 74
+	69 -> 86
+	77 -> 90
+	66 -> 82
+	74 -> 75
+	84 -> 87
+	88 -> 89
+	89 -> 76
+	83 -> 84
+	90 -> 78
+	87 -> 86
+	80 -> 81
+	82 -> 68
+	86 [label=Joiner]
+	90 [label="Column Resorter"]
+	66 [label=GroupBy]
+	84 [label="String to Duration"]
+	82 [label="Table Row to Variable"]
+	68 [label="Create Date_Time Range"]
+	69 [label="Extract Date_Time Fields"]
+	87 [label="Extract Duration Fields"]
+	89 [label="Column Filter"]
+	78 [label="Loop End"]
+	88 [label="Math Formula"]
+	76 [label="Constant Value Column"]
+	74 [label="Rule_based Row Filter"]
+	77 [label="Constant Value Column"]
+	80 [label="Table Creator"]
+	83 [label="Table Creator"]
+	75 [label=GroupBy]
+	81 [label="Table Row To Variable Loop Start"]
+	rankdir=LR
+}

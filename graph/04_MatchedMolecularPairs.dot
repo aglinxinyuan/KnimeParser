@@ -1,0 +1,11 @@
+digraph {
+	119 -> 120
+	118 -> 119
+	80 -> 56
+	120 [label="Rule_based Row Filter"]
+	119 [label="Column Filter"]
+	118 [label="Table Reader"]
+	56 [label="Column Rename"]
+	80 [label="Column Resorter"]
+	rankdir=LR
+}

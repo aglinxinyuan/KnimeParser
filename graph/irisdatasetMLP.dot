@@ -1,0 +1,53 @@
+digraph {
+	35 -> 10
+	37 -> 8
+	8 -> 9
+	2 -> 6
+	21 -> 22
+	9 -> 30
+	33 -> 22
+	21 -> 11
+	2 -> 4
+	38 -> 37
+	5 -> 37
+	10 -> 36
+	31 -> 33
+	26 -> 27
+	1 -> 2
+	25 -> 26
+	22 -> 24
+	23 -> 32
+	22 -> 34
+	34 -> 23
+	37 -> 9
+	33 -> 21
+	5 -> 33
+	9 -> 35
+	1 -> 5
+	27 [label=Scorer]
+	9 [label="SVM Predictor"]
+	21 [label="RProp MLP Learner"]
+	26 [label="Logistic Regression Predictor"]
+	8 [label="SVM Learner"]
+	32 [label="Parameter Optimization Loop End"]
+	24 [label="ROC Curve _local_"]
+	31 [label="Parameter Optimization Loop Start"]
+	6 [label="Linear Correlation"]
+	25 [label="Logistic Regression Learner"]
+	10 [label=Scorer]
+	1 [label="CSV Reader"]
+	22 [label="MultiLayerPerceptron Predictor"]
+	11 [label="PMML Writer"]
+	4 [label="Scatter Matrix _local_"]
+	23 [label=Scorer]
+	38 [label="Parameter Optimization Loop Start"]
+	5 [label=Normalizer]
+	35 [label=X_Aggregator]
+	34 [label=X_Aggregator]
+	36 [label="Parameter Optimization Loop End"]
+	33 [label=X_Partitioner]
+	30 [label="ROC Curve _local_"]
+	2 [label="Color Manager"]
+	37 [label=X_Partitioner]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	3 -> 9
+	4 -> 7
+	9 -> 4
+	8 -> 3
+	9 -> 10
+	7 [label="WrappedNode Output"]
+	9 [label="Row Filter"]
+	4 [label="Row Splitter"]
+	8 [label="Data Generator"]
+	3 [label="Math Formula"]
+	10 [label="WrappedNode Output"]
+	rankdir=LR
+}

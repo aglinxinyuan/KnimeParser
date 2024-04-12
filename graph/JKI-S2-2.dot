@@ -1,0 +1,26 @@
+digraph {
+	12 -> 10
+	5 -> 3
+	10 -> 2
+	7 -> 17
+	11 -> 7
+	1 -> 15
+	2 -> 7
+	15 -> 12
+	17 -> 20
+	2 -> 5
+	2 -> 17
+	12 -> 11
+	5 [label="Color Manager"]
+	20 [label="CSV Writer"]
+	1 [label="CSV Reader"]
+	7 [label="Cluster Assigner"]
+	11 [label="Constant Value Column"]
+	15 [label=Sorter]
+	12 [label="Row Splitter"]
+	17 [label=Concatenate]
+	3 [label="Scatter Plot"]
+	2 [label=k_Means]
+	10 [label="Constant Value Column"]
+	rankdir=LR
+}

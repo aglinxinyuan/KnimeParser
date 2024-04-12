@@ -1,0 +1,30 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	7 -> 10
+	8 -> 10
+	1 -> 5
+	9 -> 12
+	7 -> 12
+	1 -> 6
+	1 -> 2
+	1 -> 7
+	2 -> 3
+	10 -> 11
+	2 -> 4
+	7 -> 9
+	5 [label="Decision Tree Learner"]
+	13 [label=Scorer]
+	1 [label="Table Reader"]
+	7 [label=Partitioning]
+	9 [label="Decision Tree Learner"]
+	11 [label=Scorer]
+	4 [label="Scatter Plot _JavaScript_"]
+	6 [label="Decision Tree Learner"]
+	8 [label="Decision Tree Learner"]
+	12 [label="Decision Tree Predictor"]
+	3 [label="Scatter Plot _JavaScript_"]
+	2 [label="Color Manager"]
+	10 [label="Decision Tree Predictor"]
+	rankdir=LR
+}

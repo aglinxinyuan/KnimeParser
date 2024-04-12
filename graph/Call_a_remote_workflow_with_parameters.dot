@@ -1,0 +1,14 @@
+digraph {
+	4 -> 7
+	4 -> 3
+	7 -> 5
+	5 -> 15
+	10 -> 15
+	5 [label="Table to JSON"]
+	7 [label="Variable to Table Row"]
+	4 [label="Integer Configuration"]
+	15 [label="Call Workflow _Row Based_"]
+	3 [label="WrappedNode Output"]
+	10 [label="KNIME Server Connector"]
+	rankdir=LR
+}

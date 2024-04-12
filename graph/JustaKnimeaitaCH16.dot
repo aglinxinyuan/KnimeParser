@@ -1,0 +1,15 @@
+digraph {
+	7 -> 8
+	8 -> 6
+	2 -> 6
+	2 -> 7
+	1 -> 2
+	6 -> 9
+	1 [label="CSV Reader"]
+	7 [label="Create File_Folder Variables"]
+	9 [label="Variable Loop End"]
+	6 [label="CSV Writer"]
+	8 [label="Create Folder"]
+	2 [label="Group Loop Start"]
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	1978 -> 1981
+	1984 -> 1985
+	1976 -> 1983
+	1983 -> 1988
+	1977 -> 1982
+	1982 -> 1976
+	1981 -> 1982
+	1985 -> 1988
+	1988 [label="Subset Matcher"]
+	1981 [label="String Manipulation"]
+	1982 [label="Cross Joiner"]
+	1984 [label="Table Creator"]
+	1985 [label=GroupBy]
+	1976 [label="Rule Engine _Dictionary_"]
+	1977 [label="Table Creator"]
+	1978 [label="Table Creator"]
+	1983 [label=GroupBy]
+	rankdir=LR
+}

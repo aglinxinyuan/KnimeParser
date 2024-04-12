@@ -1,0 +1,38 @@
+digraph {
+	394 -> 398
+	21 -> 6
+	418 -> 7
+	8 -> 9
+	7 -> 416
+	416 -> 417
+	417 -> 415
+	398 -> 401
+	416 -> 19
+	401 -> 397
+	403 -> 394
+	19 -> 413
+	418 -> 414
+	413 -> 21
+	19 -> 403
+	6 -> 417
+	8 -> 403
+	6 -> 8
+	401 [label="Row to Column Header"]
+	416 [label="Row Splitter _Labs_"]
+	7 [label="Missing Value"]
+	403 [label=Denormalizer]
+	397 [label="Table View"]
+	418 [label="CSV Reader"]
+	9 [label="Scatter Plot"]
+	415 [label="CSV Writer"]
+	21 [label=PCA]
+	398 [label=Transpose]
+	6 [label=k_Means]
+	8 [label="Color Manager"]
+	413 [label="Numeric Outliers"]
+	414 [label="Data Explorer"]
+	394 [label=GroupBy]
+	417 [label="Cluster Assigner"]
+	19 [label=Normalizer]
+	rankdir=LR
+}

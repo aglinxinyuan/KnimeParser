@@ -1,0 +1,51 @@
+digraph {
+	104 -> 97
+	21 -> 23
+	41 -> 43
+	81 -> 83
+	108 -> 81
+	107 -> 86
+	104 -> 94
+	78 -> 88
+	97 -> 98
+	23 -> 84
+	100 -> 92
+	99 -> 101
+	88 -> 21
+	95 -> 96
+	96 -> 97
+	102 -> 87
+	86 -> 41
+	98 -> 99
+	92 -> 102
+	43 -> 108
+	104 -> 107
+	94 -> 95
+	101 -> 100
+	83 -> 78
+	97 [label="Reference Row Filter"]
+	21 [label=TF]
+	108 [label="Stop Word Filter"]
+	78 [label="Tag Filter"]
+	92 [label="String Manipulation"]
+	84 [label="JavaScript Tag Cloud"]
+	41 [label="Punctuation Erasure"]
+	98 [label=GroupBy]
+	86 [label="Stanford tagger"]
+	87 [label="JavaScript Stacked Area Chart"]
+	23 [label="Frequency Filter"]
+	101 [label="Column Rename _Regex_"]
+	100 [label="Missing Value"]
+	83 [label="Column Filter"]
+	81 [label="Stanford Lemmatizer"]
+	94 [label=GroupBy]
+	99 [label=Pivoting]
+	107 [label="Strings To Document"]
+	43 [label="Number Filter"]
+	96 [label="Row Filter"]
+	102 [label="String to Date_Time"]
+	104 [label="Table Reader"]
+	88 [label="Bag of Words Creator"]
+	95 [label=Sorter]
+	rankdir=LR
+}

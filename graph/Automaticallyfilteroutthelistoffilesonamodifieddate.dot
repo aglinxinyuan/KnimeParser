@@ -1,0 +1,48 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	39 -> 41
+	56 -> 50
+	50 -> 45
+	59 -> 64
+	11 -> 12
+	58 -> 59
+	4 -> 61
+	10 -> 11
+	46 -> 56
+	55 -> 3
+	41 -> 58
+	2 -> 7
+	63 -> 13
+	40 -> 39
+	13 -> 40
+	12 -> 63
+	3 -> 4
+	45 -> 55
+	64 -> 46
+	9 -> 10
+	55 [label=RowID]
+	7 [label="Files_Folders Meta Info"]
+	9 [label="Date_Time to String"]
+	58 [label="String Manipulation"]
+	8 [label="Column Filter"]
+	3 [label=Transpose]
+	64 [label="Column Filter"]
+	41 [label=Transpose]
+	56 [label="Column Rename"]
+	12 [label="Rule_based Row Filter"]
+	10 [label="String to Date_Time"]
+	59 [label="Row Filter"]
+	50 [label="String Manipulation"]
+	11 [label="Date_Time Difference"]
+	4 [label="Table Column to Variable"]
+	63 [label=RowID]
+	61 [label="File Reader"]
+	13 [label="Column Filter"]
+	46 [label=Transpose]
+	40 [label="Path to String"]
+	39 [label="Cell Splitter"]
+	2 [label="List Files_Folders"]
+	45 [label="Column Resorter"]
+	rankdir=LR
+}

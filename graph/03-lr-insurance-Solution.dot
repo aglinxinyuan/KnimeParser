@@ -1,0 +1,56 @@
+digraph {
+	35 -> 7
+	7 -> 36
+	14 -> 22
+	19 -> 21
+	14 -> 29
+	2 -> 17
+	28 -> 26
+	23 -> 28
+	35 -> 30
+	18 -> 1
+	21 -> 24
+	18 -> 19
+	35 -> 3
+	35 -> 33
+	35 -> 31
+	17 -> 18
+	19 -> 23
+	36 -> 16
+	24 -> 27
+	1 -> 20
+	18 -> 2
+	35 -> 4
+	14 -> 32
+	2 -> 18
+	19 -> 24
+	19 -> 28
+	36 -> 14
+	16 -> 17
+	27 [label="Numeric Scorer"]
+	7 [label="Column Filter"]
+	18 [label="Math Formula"]
+	21 [label="Polynomial Regression Learner"]
+	26 [label="Numeric Scorer"]
+	17 [label="Category To Number"]
+	3 [label="Scatter Matrix _local_"]
+	19 [label=Partitioning]
+	24 [label="Regression Predictor"]
+	31 [label="Scatter Plot _Plotly_"]
+	16 [label="Math Formula"]
+	30 [label="Linear Correlation"]
+	1 [label=X_Aggregator]
+	22 [label="Linear Regression Learner"]
+	28 [label="Regression Predictor"]
+	23 [label="Linear Regression Learner"]
+	4 [label="Data Explorer"]
+	14 [label="Color Manager"]
+	20 [label="Numeric Scorer"]
+	35 [label="CSV Reader"]
+	29 [label="3D Scatter Plot _Plotly_"]
+	36 [label="Numeric Outliers"]
+	33 [label="Box Plot"]
+	32 [label="Violin Plot _Plotly_"]
+	2 [label=X_Partitioner]
+	rankdir=LR
+}

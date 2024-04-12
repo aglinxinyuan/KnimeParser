@@ -1,0 +1,19 @@
+digraph {
+	44 -> 47
+	3 -> 43
+	3 -> 4
+	31 -> 43
+	43 -> 41
+	4 -> 31
+	47 -> 46
+	41 -> 44
+	43 [label="Value Lookup"]
+	44 [label="Column Resorter"]
+	41 [label=Pivot]
+	31 [label="Rule Engine"]
+	46 [label="Excel Writer"]
+	4 [label="Row Aggregator"]
+	47 [label="Missing Value"]
+	3 [label="Excel Reader"]
+	rankdir=LR
+}

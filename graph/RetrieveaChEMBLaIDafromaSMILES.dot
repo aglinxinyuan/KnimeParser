@@ -1,0 +1,16 @@
+digraph {
+	42 -> 44
+	41 -> 42
+	43 -> 42
+	36 -> 43
+	44 -> 38
+	38 -> 45
+	43 [label="String Manipulation"]
+	44 [label="String Manipulation"]
+	42 [label="String Replacer _Dictionary_"]
+	41 [label="Table Creator"]
+	36 [label="Table Reader"]
+	38 [label="GET Request"]
+	45 [label=XPath]
+	rankdir=LR
+}

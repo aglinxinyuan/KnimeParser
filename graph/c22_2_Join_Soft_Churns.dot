@@ -1,0 +1,26 @@
+digraph {
+	66 -> 68
+	18 -> 61
+	64 -> 66
+	66 -> 65
+	65 -> 70
+	63 -> 67
+	68 -> 71
+	18 -> 60
+	65 -> 68
+	60 -> 63
+	67 -> 65
+	61 -> 64
+	64 [label="DB Reader"]
+	66 [label="Column Combiner"]
+	70 [label="Interactive Table _local_"]
+	68 [label=Joiner]
+	65 [label=Joiner]
+	67 [label="Column Combiner"]
+	71 [label="Interactive Table _local_"]
+	18 [label="SQLite Connector"]
+	63 [label="DB Reader"]
+	61 [label="DB Table Selector"]
+	60 [label="DB Table Selector"]
+	rankdir=LR
+}

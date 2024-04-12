@@ -1,0 +1,28 @@
+digraph {
+	1 -> 17
+	7 -> 8
+	1 -> 20
+	1 -> 18
+	8 -> 9
+	20 -> 7
+	9 -> 21
+	21 -> 22
+	1 -> 2
+	1 -> 19
+	22 -> 15
+	1 -> 16
+	16 [label=SCHC]
+	20 [label="Peano Curve"]
+	1 [label="GeoFile Reader"]
+	7 [label="Math Formula"]
+	22 [label=" MSSC Refiner"]
+	9 [label="Math Formula"]
+	18 [label=AZP]
+	21 [label=" MSSC Initialization"]
+	8 [label=Normalizer]
+	15 [label="GeoFile Writer"]
+	17 [label=REDCAP]
+	2 [label=SKATER]
+	19 [label=MaxP]
+	rankdir=LR
+}

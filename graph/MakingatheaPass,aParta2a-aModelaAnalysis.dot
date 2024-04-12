@@ -1,0 +1,54 @@
+digraph {
+	62 -> 65
+	63 -> 27
+	57 -> 58
+	3 -> 34
+	3 -> 44
+	3 -> 42
+	23 -> 26
+	64 -> 23
+	43 -> 69
+	3 -> 57
+	3 -> 43
+	26 -> 27
+	63 -> 29
+	27 -> 30
+	44 -> 68
+	42 -> 69
+	29 -> 23
+	3 -> 60
+	65 -> 32
+	41 -> 29
+	69 -> 68
+	32 -> 3
+	3 -> 51
+	30 -> 65
+	62 -> 41
+	3 -> 61
+	60 -> 59
+	27 [label=Denormalizer]
+	57 [label="Java Snippet"]
+	26 [label="Column Rename"]
+	58 [label="Bar Chart"]
+	3 [label="Java Snippet"]
+	64 [label="Model Reader"]
+	41 [label="Column Filter"]
+	51 [label=Statistics]
+	59 [label="Scatter Plot _JFreeChart_"]
+	30 [label="Column Rename"]
+	42 [label="Numeric Scorer"]
+	68 [label="Column Appender"]
+	23 [label="Keras Network Executor"]
+	61 [label=Histogram]
+	63 [label="Model Reader"]
+	60 [label="Color Manager"]
+	43 [label="Numeric Scorer"]
+	44 [label="Numeric Scorer"]
+	34 [label=GroupBy]
+	62 [label="CSV Reader"]
+	29 [label="Normalizer _Apply_"]
+	65 [label=Joiner]
+	69 [label="Column Appender"]
+	32 [label="Java Snippet"]
+	rankdir=LR
+}

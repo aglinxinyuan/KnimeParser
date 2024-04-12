@@ -1,0 +1,17 @@
+digraph {
+	1 -> 8
+	7 -> 3
+	3 -> 8
+	2 -> 4
+	1 -> 2
+	6 -> 7
+	4 -> 6
+	1 [label="SQLite Connector"]
+	7 [label="DB Column Rename"]
+	4 [label="DB Column Filter"]
+	8 [label="DB Writer"]
+	6 [label="DB GroupBy"]
+	3 [label="DB Reader"]
+	2 [label="DB Table Selector"]
+	rankdir=LR
+}

@@ -1,0 +1,6 @@
+digraph {
+	15 -> 5
+	5 [label="External Tool"]
+	15 [label="Table Creator"]
+	rankdir=LR
+}

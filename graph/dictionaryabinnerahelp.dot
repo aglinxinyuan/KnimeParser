@@ -1,0 +1,17 @@
+digraph {
+	20 -> 21
+	17 -> 21
+	19 -> 20
+	18 -> 22
+	21 -> 18
+	20 -> 18
+	16 -> 17
+	16 [label="Excel Reader"]
+	20 [label="Group Loop Start"]
+	22 [label="Loop End"]
+	21 [label="Row Filter"]
+	18 [label="Binner _Dictionary_"]
+	17 [label=GroupBy]
+	19 [label="Excel Reader"]
+	rankdir=LR
+}

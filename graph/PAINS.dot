@@ -1,0 +1,10 @@
+digraph {
+	71 -> 74
+	56 -> 71
+	45 -> 56
+	74 [label="RDKit Functional Group Filter"]
+	56 [label="RDKit From Molecule"]
+	71 [label="RDKit Salt Stripper"]
+	45 [label="Table Creator"]
+	rankdir=LR
+}

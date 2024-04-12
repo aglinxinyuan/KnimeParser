@@ -1,0 +1,59 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	13 -> 14
+	22 -> 27
+	27 -> 28
+	19 -> 30
+	2 -> 4
+	12 -> 13
+	18 -> 19
+	26 -> 27
+	1 -> 2
+	14 -> 15
+	11 -> 12
+	10 -> 11
+	22 -> 29
+	22 -> 24
+	17 -> 32
+	30 -> 22
+	15 -> 16
+	32 -> 18
+	7 -> 30
+	24 -> 25
+	22 -> 26
+	6 -> 7
+	29 -> 24
+	5 -> 6
+	9 -> 10
+	16 -> 17
+	27 [label="XGBoost Predictor"]
+	7 [label="Row Sampling"]
+	9 [label="Case Converter"]
+	18 [label="Document Vector"]
+	26 [label="XGBoost Tree Ensemble Learner"]
+	8 [label="Strings To Document"]
+	17 [label="Column Expressions"]
+	19 [label="Category To Class"]
+	24 [label="Tree Ensemble Predictor"]
+	6 [label="Number To String"]
+	15 [label=TF]
+	25 [label=Scorer]
+	12 [label="Stop Word Filter"]
+	10 [label="Number Filter"]
+	16 [label=IDF]
+	30 [label=Joiner]
+	1 [label="HDFS Connector"]
+	22 [label=Partitioning]
+	28 [label=Scorer]
+	11 [label="Punctuation Erasure"]
+	4 [label="Column Rename"]
+	14 [label="Bag Of Words Creator"]
+	5 [label="Rule Engine"]
+	13 [label="Porter Stemmer"]
+	29 [label="Tree Ensemble Learner"]
+	32 [label="Frequency Filter"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

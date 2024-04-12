@@ -1,0 +1,16 @@
+digraph {
+	7 -> 8
+	4 -> 3
+	3 -> 5
+	10 -> 4
+	5 -> 6
+	6 -> 7
+	5 [label=Pivoting]
+	7 [label="Table Manipulator"]
+	4 [label="Column Filter"]
+	6 [label=Unpivoting]
+	8 [label=Sorter]
+	3 [label="Rule_based Row Filter"]
+	10 [label="Table Reader"]
+	rankdir=LR
+}

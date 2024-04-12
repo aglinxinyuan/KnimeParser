@@ -1,0 +1,22 @@
+digraph {
+	11 -> 10
+	7 -> 8
+	10 -> 6
+	4 -> 5
+	8 -> 9
+	5 -> 11
+	1 -> 2
+	2 -> 3
+	5 [label="JSON to Table"]
+	1 [label="JSON Reader"]
+	7 [label="JSON Reader"]
+	9 [label="Python View"]
+	11 [label="Python Script"]
+	4 [label="JSON Reader"]
+	8 [label="JSON to Table"]
+	6 [label="Python View"]
+	3 [label="Python View"]
+	2 [label="JSON to Table"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

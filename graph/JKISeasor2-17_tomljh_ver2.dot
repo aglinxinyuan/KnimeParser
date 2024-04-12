@@ -1,0 +1,27 @@
+digraph {
+	44 -> 47
+	46 -> 47
+	58 -> 55
+	52 -> 53
+	48 -> 60
+	55 -> 61
+	47 -> 48
+	45 -> 46
+	44 -> 45
+	53 -> 58
+	60 -> 52
+	59 -> 44
+	48 [label="Extract Context Properties"]
+	55 [label="CSV Writer"]
+	44 [label="Try _Variable Ports_"]
+	53 [label="Rule Engine"]
+	46 [label="String to Date_Time"]
+	47 [label="Catch Errors _Var Ports_"]
+	58 [label="Table Manipulator"]
+	61 [label="CSV Reader"]
+	52 [label="Variable to Table Row"]
+	60 [label="Date_Time Widget"]
+	45 [label="Table Creator"]
+	59 [label="Date_Time Widget"]
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	4 -> 3
+	2 -> 4
+	1 -> 2
+	1 [label="Snowflake Connector"]
+	4 [label="DB Row Filter"]
+	3 [label="DB Reader"]
+	2 [label="DB Table Selector"]
+	rankdir=LR
+}

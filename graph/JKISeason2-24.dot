@@ -1,0 +1,70 @@
+digraph {
+	20 -> 21
+	15 -> 14
+	34 -> 2
+	28 -> 40
+	4 -> 5
+	41 -> 43
+	42 -> 43
+	21 -> 17
+	19 -> 21
+	40 -> 41
+	2 -> 4
+	8 -> 23
+	18 -> 19
+	5 -> 20
+	22 -> 8
+	31 -> 33
+	4 -> 11
+	1 -> 2
+	38 -> 42
+	32 -> 35
+	37 -> 38
+	23 -> 9
+	5 -> 18
+	35 -> 36
+	28 -> 31
+	24 -> 25
+	36 -> 37
+	11 -> 15
+	25 -> 9
+	14 -> 5
+	33 -> 32
+	9 -> 26
+	28 -> 36
+	26 -> 28
+	17 -> 22
+	9 [label=Joiner]
+	18 [label="Table Row to Variable"]
+	21 [label="Column Rename"]
+	26 [label="Rule Engine"]
+	8 [label="Value Counter"]
+	17 [label="Loop End _Column Append_"]
+	19 [label="String Manipulation _Variable_"]
+	24 [label="Math Formula _Multi Column_"]
+	41 [label="Column Filter"]
+	31 [label=Unpivoting]
+	15 [label="String Manipulation"]
+	25 [label="Column Aggregator"]
+	1 [label="CSV Reader"]
+	42 [label="Table Manipulator"]
+	22 [label="Column Filter"]
+	28 [label="Row Splitter"]
+	11 [label=GroupBy]
+	4 [label="Table Manipulator"]
+	23 [label="Column Rename"]
+	14 [label="Chunk Loop Start"]
+	38 [label="Row Filter"]
+	5 [label="Similarity Search"]
+	20 [label="Column Filter"]
+	35 [label="String Manipulation"]
+	43 [label=Concatenate]
+	34 [label="Variable Creator"]
+	36 [label="Reference Row Filter"]
+	40 [label="Constant Value Column"]
+	33 [label="Row Filter"]
+	32 [label="Table Manipulator"]
+	2 [label="Cell Splitter"]
+	37 [label=Rank]
+	rankdir=LR
+}

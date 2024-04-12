@@ -1,0 +1,41 @@
+digraph {
+	20 -> 21
+	4 -> 5
+	13 -> 14
+	3 -> 20
+	2 -> 4
+	12 -> 13
+	3 -> 14
+	5 -> 20
+	18 -> 8
+	14 -> 15
+	11 -> 12
+	10 -> 11
+	15 -> 16
+	4 -> 15
+	21 -> 9
+	8 -> 10
+	9 -> 10
+	20 -> 18
+	16 -> 17
+	1 -> 5
+	5 [label="Column Appender"]
+	16 [label="Column Filter"]
+	20 [label="Column Appender"]
+	13 [label="Table Transposer"]
+	1 [label="GeoFile Reader"]
+	12 [label=RowID]
+	9 [label="Rule_based Row Filter"]
+	11 [label="Duplicate Row Filter"]
+	4 [label=GroupBy]
+	18 [label="P_median Solver"]
+	21 [label="MCLP Solver"]
+	8 [label="Rule_based Row Filter"]
+	15 [label="Column Appender"]
+	14 [label="Reference Column Filter"]
+	17 [label="P_center Solver"]
+	3 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	10 [label=Concatenate]
+	rankdir=LR
+}

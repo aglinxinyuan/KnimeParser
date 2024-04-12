@@ -1,0 +1,37 @@
+digraph {
+	1931 -> 1900
+	1888 -> 1834
+	1933 -> 1900
+	1834 -> 1835
+	1835 -> 1933
+	1915 -> 1916
+	1911 -> 1915
+	1887 -> 1888
+	1911 -> 1931
+	1936 -> 1834
+	1930 -> 1915
+	1922 -> 6
+	1938 -> 6
+	1916 -> 1912
+	6 -> 1930
+	26 -> 1887
+	1900 -> 1922
+	1936 [label="GPT4All Embeddings Connector"]
+	1931 [label="Column Filter"]
+	1912 [label="Excel Writer"]
+	1900 [label="Vector Store Retriever"]
+	1915 [label="Column Appender"]
+	1887 [label="Sentence Extractor"]
+	1930 [label="Column Filter"]
+	26 [label="PDF Parser"]
+	1933 [label="Model Reader"]
+	1835 [label="Model Writer"]
+	6 [label="LLM Prompter"]
+	1922 [label="String Manipulation"]
+	1916 [label="Table View _JavaScript_"]
+	1938 [label="GPT4All Chat Model Connector"]
+	1834 [label="FAISS Vector Store Creator"]
+	1911 [label="Excel Reader"]
+	1888 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,44 @@
+digraph {
+	24 -> 26
+	37 -> 36
+	36 -> 30
+	31 -> 38
+	21 -> 22
+	20 -> 31
+	41 -> 32
+	35 -> 39
+	38 -> 35
+	30 -> 23
+	6 -> 41
+	33 -> 37
+	23 -> 21
+	20 -> 24
+	35 -> 36
+	22 -> 35
+	34 -> 19
+	26 -> 37
+	19 -> 20
+	6 -> 30
+	32 -> 23
+	41 -> 35
+	21 [label="Math Formula"]
+	26 [label="Table Editor"]
+	19 [label="String Manipulation"]
+	24 [label="String to Date_Time"]
+	41 [label="DB Table Selector"]
+	31 [label="Excel Reader"]
+	6 [label="SQLite Connector"]
+	30 [label="DB Writer"]
+	22 [label="Rule Engine"]
+	23 [label="Math Formula"]
+	38 [label="Extract Date_Time Fields"]
+	20 [label="String Manipulation"]
+	35 [label=Joiner]
+	34 [label="CSV Reader"]
+	36 [label=Joiner]
+	39 [label="DB GroupBy"]
+	33 [label="Table Reader"]
+	32 [label="Excel Reader"]
+	37 [label=Joiner]
+	rankdir=LR
+}

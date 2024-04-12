@@ -1,0 +1,62 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	29 -> 35
+	36 -> 39
+	27 -> 28
+	39 -> 37
+	30 -> 31
+	32 -> 34
+	31 -> 32
+	26 -> 27
+	24 -> 33
+	25 -> 26
+	37 -> 38
+	9 -> 17
+	23 -> 33
+	19 -> 22
+	35 -> 36
+	22 -> 35
+	6 -> 7
+	34 -> 25
+	2 -> 21
+	33 -> 30
+	1 -> 21
+	3 -> 4
+	21 -> 3
+	17 -> 19
+	5 -> 6
+	28 -> 29
+	27 [label="Stop Word Filter"]
+	7 [label="Number Filter"]
+	9 [label="Stop Word Filter"]
+	21 [label=Concatenate]
+	26 [label="N Chars Filter"]
+	8 [label="N Chars Filter"]
+	32 [label="Stanford Lemmatizer"]
+	17 [label="Case Converter"]
+	3 [label="POS Tagger"]
+	19 [label="Bag Of Words Creator"]
+	24 [label="Flat File Document Parser"]
+	31 [label="Stanford Tagger"]
+	6 [label="Punctuation Erasure"]
+	25 [label="Number Filter"]
+	1 [label="Flat File Document Parser"]
+	22 [label="Document Vector"]
+	28 [label="Case Converter"]
+	23 [label="Flat File Document Parser"]
+	4 [label="Stanford Tagger"]
+	38 [label=Scorer]
+	5 [label="Stanford Lemmatizer"]
+	35 [label="Document Vector Applier"]
+	34 [label="Punctuation Erasure"]
+	29 [label="Bag Of Words Creator"]
+	36 [label="Category to Class"]
+	39 [label="Column Filter"]
+	33 [label=Concatenate]
+	30 [label="POS Tagger"]
+	2 [label="Flat File Document Parser"]
+	37 [label="Random Forest Learner"]
+	rankdir=LR
+}

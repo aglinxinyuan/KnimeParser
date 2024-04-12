@@ -1,0 +1,10 @@
+digraph {
+	2 -> 36
+	39 -> 37
+	37 -> 2
+	39 [label="Table Reader"]
+	37 [label="Rule Engine"]
+	2 [label="Independent groups t_test"]
+	36 [label="Rule Engine"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	4 -> 7
+	1 -> 5
+	5 -> 4
+	6 -> 4
+	5 [label="DB Query Reader"]
+	1 [label="SQLite Connector"]
+	7 [label="DB Connection Closer"]
+	4 [label="DB Writer"]
+	6 [label="MySQL Connector"]
+	rankdir=LR
+}

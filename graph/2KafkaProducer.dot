@@ -1,0 +1,14 @@
+digraph {
+	57 -> 10
+	11 -> 36
+	36 -> 25
+	10 -> 11
+	39 -> 25
+	57 [label="MySQL Connector"]
+	36 [label="Table to JSON"]
+	11 [label="DB Reader"]
+	25 [label="Kafka Producer"]
+	39 [label="Kafka Connector"]
+	10 [label="DB Table Selector"]
+	rankdir=LR
+}

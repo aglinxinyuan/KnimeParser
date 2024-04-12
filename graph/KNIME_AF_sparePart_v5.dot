@@ -1,0 +1,67 @@
+digraph {
+	18 -> 30
+	14 -> 16
+	10 -> 32
+	12 -> 14
+	21 -> 8
+	7 -> 12
+	34 -> 35
+	3 -> 28
+	24 -> 18
+	38 -> 37
+	6 -> 11
+	28 -> 7
+	31 -> 32
+	11 -> 17
+	10 -> 8
+	36 -> 8
+	25 -> 10
+	9 -> 19
+	33 -> 34
+	21 -> 10
+	24 -> 31
+	16 -> 21
+	20 -> 24
+	35 -> 8
+	30 -> 29
+	29 -> 36
+	32 -> 33
+	19 -> 20
+	35 -> 37
+	5 -> 6
+	17 -> 25
+	10 -> 18
+	16 -> 8
+	4 -> 9
+	7 [label=GroupBy]
+	9 [label="Row Filter"]
+	18 [label=Joiner]
+	21 [label=GroupBy]
+	8 [label="Excel Writer"]
+	17 [label="Case Converter"]
+	3 [label="Excel Reader"]
+	19 [label="Column Rename"]
+	24 [label="String To Number"]
+	31 [label="Row Filter"]
+	6 [label="Row Filter"]
+	25 [label="String To Number"]
+	10 [label=Joiner]
+	12 [label="Column Rename"]
+	16 [label=GroupBy]
+	30 [label="Missing Value"]
+	28 [label="Rule_based Row Filter"]
+	11 [label="Column Rename"]
+	4 [label="Excel Reader"]
+	14 [label="Case Converter"]
+	38 [label="Conda Environment Propagation"]
+	5 [label="CSV Reader"]
+	20 [label="Case Converter"]
+	35 [label="Math Formula"]
+	34 [label="Math Formula"]
+	29 [label="Math Formula"]
+	36 [label="Math Formula"]
+	33 [label="Missing Value"]
+	32 [label=Joiner]
+	37 [label="Python Script"]
+	rankdir=LR
+}

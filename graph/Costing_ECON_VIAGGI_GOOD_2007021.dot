@@ -1,0 +1,207 @@
+digraph {
+	882 -> 881
+	875 -> 774
+	836 -> 838
+	823 -> 824
+	812 -> 813
+	833 -> 834
+	1034 -> 1037
+	1035 -> 1030
+	770 -> 1005
+	985 -> 1011
+	988 -> 1007
+	844 -> 845
+	881 -> 1018
+	1006 -> 1007
+	1033 -> 1034
+	750 -> 751
+	826 -> 825
+	760 -> 763
+	808 -> 810
+	769 -> 770
+	811 -> 807
+	902 -> 873
+	867 -> 871
+	846 -> 844
+	764 -> 766
+	1032 -> 1033
+	751 -> 752
+	837 -> 839
+	835 -> 836
+	839 -> 841
+	1047 -> 988
+	846 -> 833
+	761 -> 760
+	842 -> 843
+	820 -> 822
+	807 -> 815
+	1041 -> 1040
+	758 -> 761
+	1005 -> 1006
+	766 -> 768
+	759 -> 758
+	819 -> 821
+	810 -> 816
+	838 -> 837
+	1007 -> 1024
+	834 -> 835
+	1040 -> 1042
+	987 -> 989
+	767 -> 769
+	754 -> 755
+	1018 -> 1024
+	803 -> 812
+	843 -> 844
+	1008 -> 1011
+	827 -> 831
+	1042 -> 1043
+	1043 -> 1044
+	871 -> 882
+	1044 -> 1046
+	989 -> 1047
+	763 -> 762
+	866 -> 867
+	818 -> 819
+	762 -> 765
+	831 -> 829
+	756 -> 757
+	815 -> 808
+	845 -> 840
+	805 -> 803
+	816 -> 817
+	1044 -> 1045
+	52 -> 750
+	983 -> 985
+	832 -> 804
+	824 -> 826
+	1039 -> 1041
+	825 -> 827
+	765 -> 764
+	768 -> 767
+	752 -> 753
+	1026 -> 1039
+	1030 -> 1032
+	753 -> 754
+	840 -> 846
+	873 -> 874
+	844 -> 1030
+	774 -> 1008
+	794 -> 804
+	1017 -> 1018
+	804 -> 805
+	829 -> 832
+	1040 -> 1035
+	1011 -> 1026
+	817 -> 818
+	813 -> 811
+	822 -> 823
+	874 -> 875
+	1024 -> 1040
+	1007 -> 1008
+	755 -> 756
+	757 -> 759
+	821 -> 820
+	841 -> 842
+	758 [label="String Manipulation"]
+	1032 [label="Rule_based Row Filter"]
+	1034 [label=GroupBy]
+	866 [label="List Files"]
+	1045 [label=GroupBy]
+	840 [label="String To Number _deprecated_"]
+	874 [label="Column Filter"]
+	831 [label="String Manipulation"]
+	1017 [label="Table Creator"]
+	1042 [label=GroupBy]
+	875 [label="Column Rename"]
+	837 [label="Rule Engine"]
+	768 [label="String Manipulation"]
+	1024 [label=Joiner]
+	1040 [label=Joiner]
+	1041 [label="String Manipulation"]
+	818 [label="String Manipulation"]
+	807 [label="String Manipulation"]
+	760 [label="String Manipulation"]
+	754 [label="String Manipulation"]
+	881 [label="Loop End"]
+	1011 [label=Joiner]
+	988 [label="Rule Engine"]
+	750 [label="String Manipulation"]
+	774 [label="String Manipulation"]
+	823 [label="String Manipulation"]
+	867 [label="Table Row To Variable Loop Start"]
+	816 [label="String Manipulation"]
+	987 [label="CSV Reader"]
+	819 [label="String Manipulation"]
+	762 [label="String Manipulation"]
+	1008 [label=Joiner]
+	756 [label="String Manipulation"]
+	827 [label="Column Filter"]
+	832 [label="String Manipulation"]
+	824 [label="String Manipulation"]
+	770 [label="Column Filter"]
+	822 [label="String Manipulation"]
+	838 [label="String To Number _deprecated_"]
+	882 [label="String To Number"]
+	1043 [label="Rule_based Row Filter"]
+	833 [label="String Manipulation"]
+	839 [label="Math Formula"]
+	1026 [label="Rule_based Row Filter"]
+	805 [label="String Manipulation"]
+	763 [label="String Manipulation"]
+	812 [label="String Manipulation"]
+	1005 [label="Column Expressions"]
+	1018 [label=Joiner]
+	766 [label="Column Filter"]
+	769 [label="String To Number _deprecated_"]
+	759 [label="String Manipulation"]
+	1035 [label="Math Formula"]
+	804 [label="String Manipulation"]
+	52 [label="CSV Reader"]
+	1046 [label=GroupBy]
+	846 [label="Column Filter"]
+	820 [label="String Manipulation"]
+	835 [label="String Manipulation"]
+	826 [label="String Manipulation"]
+	836 [label="String Manipulation"]
+	829 [label="String Manipulation"]
+	752 [label="String Manipulation"]
+	985 [label="String Manipulation"]
+	1047 [label="String Manipulation"]
+	842 [label="String Manipulation"]
+	821 [label="String Manipulation"]
+	983 [label="CSV Reader"]
+	1006 [label="Rule Engine"]
+	794 [label="CSV Reader"]
+	1039 [label="String Manipulation"]
+	902 [label="CSV Reader"]
+	765 [label="String Manipulation"]
+	1033 [label="Rule_based Row Filter"]
+	817 [label="String Manipulation"]
+	757 [label="String Manipulation"]
+	825 [label="String Manipulation"]
+	834 [label="String Manipulation"]
+	813 [label="String Manipulation"]
+	811 [label="String Manipulation"]
+	753 [label="String Manipulation"]
+	845 [label="Math Formula"]
+	843 [label="String To Number _deprecated_"]
+	767 [label="Rule_based Row Filter"]
+	1030 [label=Joiner]
+	1037 [label="Excel Writer _XLS_"]
+	1007 [label=Concatenate]
+	751 [label="String Manipulation"]
+	761 [label="String Manipulation"]
+	844 [label="String To Number _deprecated_"]
+	764 [label="String Manipulation"]
+	841 [label="String Manipulation"]
+	1044 [label=Joiner]
+	989 [label="Number To String"]
+	755 [label="String Manipulation"]
+	873 [label="Row Filter"]
+	808 [label="String Manipulation"]
+	810 [label="String Manipulation"]
+	871 [label="Excel Reader _XLS_ _deprecated_"]
+	803 [label="String Manipulation"]
+	815 [label="String Manipulation"]
+	rankdir=LR
+}

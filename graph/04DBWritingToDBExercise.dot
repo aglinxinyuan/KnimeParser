@@ -1,0 +1,33 @@
+digraph {
+	195 -> 193
+	196 -> 193
+	183 -> 184
+	177 -> 191
+	185 -> 187
+	186 -> 194
+	184 -> 185
+	187 -> 188
+	195 -> 177
+	190 -> 195
+	185 -> 186
+	191 -> 192
+	194 -> 190
+	177 -> 190
+	188 -> 196
+	190 -> 192
+	190 [label="Strings to Binary Objects"]
+	192 [label=Joiner]
+	185 [label="DB Column Filter"]
+	188 [label="DB Column Filter"]
+	196 [label="DB Reader"]
+	191 [label="Create Date_Time Range"]
+	186 [label="DB Row Filter"]
+	194 [label="DB Reader"]
+	183 [label="SQLite Connector"]
+	187 [label="DB Row Filter"]
+	193 [label="Decision Tree Predictor"]
+	177 [label="PMML To Cell"]
+	184 [label="DB Table Selector"]
+	195 [label="Decision Tree Learner"]
+	rankdir=LR
+}

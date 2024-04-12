@@ -1,0 +1,10 @@
+digraph {
+	30 -> 7
+	7 -> 22
+	22 -> 29
+	7 [label=" Multilevel Thresholding"]
+	22 [label="Image Calculator"]
+	29 [label="Table Cell Viewer"]
+	30 [label="Image Reader"]
+	rankdir=LR
+}

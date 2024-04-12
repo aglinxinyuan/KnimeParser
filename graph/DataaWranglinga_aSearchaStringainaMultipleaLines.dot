@@ -1,0 +1,18 @@
+digraph {
+	279 -> 283
+	282 -> 659
+	284 -> 658
+	283 -> 284
+	658 -> 285
+	283 -> 282
+	285 -> 288
+	283 [label="Google Sheets Connection"]
+	658 [label="Cell Splitter"]
+	285 [label="Rule Engine"]
+	284 [label="Google Sheets Reader"]
+	279 [label="Google Authentication"]
+	288 [label="Column Filter"]
+	282 [label="Google Sheets Reader"]
+	659 [label="String Manipulation"]
+	rankdir=LR
+}

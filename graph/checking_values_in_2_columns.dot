@@ -1,0 +1,54 @@
+digraph {
+	29 -> 37
+	31 -> 35
+	2 -> 6
+	28 -> 20
+	39 -> 29
+	8 -> 5
+	27 -> 28
+	33 -> 36
+	35 -> 30
+	6 -> 4
+	30 -> 33
+	4 -> 8
+	32 -> 34
+	21 -> 20
+	26 -> 27
+	34 -> 30
+	20 -> 22
+	37 -> 38
+	21 -> 26
+	36 -> 40
+	5 -> 21
+	2 -> 7
+	36 -> 37
+	40 -> 39
+	7 -> 3
+	3 -> 8
+	27 [label="Table Row to Variable"]
+	7 [label="Column Filter"]
+	21 [label="Java Snippet"]
+	26 [label="Extract Table Dimension"]
+	8 [label="Column Appender"]
+	3 [label=Sorter]
+	31 [label="Column Filter"]
+	6 [label="Column Filter"]
+	30 [label="Column Appender"]
+	22 [label="Column Filter"]
+	28 [label="Java Edit Variable _simple_"]
+	4 [label=Sorter]
+	38 [label="Column Filter"]
+	5 [label="Rule Engine"]
+	20 [label="Row Filter"]
+	35 [label=Sorter]
+	34 [label=Sorter]
+	29 [label="Java Edit Variable _simple_"]
+	36 [label="Java Snippet"]
+	40 [label="Extract Table Dimension"]
+	39 [label="Table Row to Variable"]
+	33 [label="Rule Engine"]
+	32 [label="Column Filter"]
+	2 [label="Table Creator"]
+	37 [label="Row Filter"]
+	rankdir=LR
+}

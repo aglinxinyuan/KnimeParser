@@ -1,0 +1,27 @@
+digraph {
+	15 -> 19
+	5 -> 16
+	15 -> 3
+	9 -> 5
+	9 -> 17
+	3 -> 4
+	4 -> 20
+	20 -> 9
+	3 -> 21
+	20 -> 18
+	16 -> 17
+	17 -> 22
+	5 [label=SMOTE]
+	16 [label="Random Forest Learner"]
+	20 [label="Number To String"]
+	22 [label=Scorer]
+	9 [label=Partitioning]
+	4 [label="Java Snippet"]
+	21 [label="Linear Correlation"]
+	18 [label=Statistics]
+	15 [label="CSV Reader"]
+	17 [label="Random Forest Predictor"]
+	3 [label="Missing Value"]
+	19 [label=Statistics]
+	rankdir=LR
+}

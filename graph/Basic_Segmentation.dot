@@ -1,0 +1,12 @@
+digraph {
+	11 -> 6
+	8 -> 10
+	6 -> 9
+	6 -> 8
+	9 [label="Table Cell Viewer"]
+	11 [label="Image Reader"]
+	6 [label="Global Thresholder"]
+	8 [label="Connected Component Analysis"]
+	10 [label="Interactive Segmentation View"]
+	rankdir=LR
+}

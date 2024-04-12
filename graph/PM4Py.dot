@@ -1,0 +1,27 @@
+digraph {
+	43 -> 34
+	15 -> 43
+	41 -> 42
+	42 -> 15
+	47 -> 45
+	43 -> 35
+	40 -> 47
+	45 -> 43
+	42 -> 46
+	42 -> 48
+	40 -> 41
+	43 -> 36
+	48 [label="Process Tree Reader"]
+	43 [label="Alignment_Based Replayer"]
+	35 [label="Performance Checker"]
+	42 [label="Python Script"]
+	34 [label="Fitness Checker"]
+	41 [label="Filter Event Table By Frequency"]
+	36 [label="Precision Checker"]
+	46 [label="Image Writer _Port_"]
+	47 [label="String to Date_Time"]
+	40 [label="CSV Reader"]
+	15 [label="Petri Net Reader"]
+	45 [label="Modify Time Zone"]
+	rankdir=LR
+}

@@ -1,0 +1,22 @@
+digraph {
+	20 -> 15
+	10 -> 19
+	21 -> 8
+	16 -> 7
+	12 -> 20
+	19 -> 13
+	7 -> 10
+	8 -> 16
+	13 -> 12
+	16 [label="String Manipulation"]
+	20 [label="Column Resorter"]
+	13 [label="Column Filter"]
+	7 [label="Row Filter"]
+	21 [label="CSV Reader"]
+	8 [label="Duplicate Row Filter"]
+	15 [label="CSV Writer"]
+	12 [label="Column Rename"]
+	10 [label="Row Filter"]
+	19 [label="Missing Value"]
+	rankdir=LR
+}

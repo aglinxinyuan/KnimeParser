@@ -1,0 +1,48 @@
+digraph {
+	12 -> 10
+	8 -> 3
+	24 -> 7
+	3 -> 15
+	27 -> 28
+	1 -> 8
+	3 -> 14
+	16 -> 10
+	15 -> 31
+	8 -> 25
+	10 -> 17
+	18 -> 22
+	26 -> 27
+	17 -> 18
+	25 -> 26
+	9 -> 16
+	29 -> 23
+	14 -> 30
+	30 -> 24
+	31 -> 29
+	23 -> 6
+	28 -> 12
+	27 [label="Row Filter"]
+	7 [label=Sorter]
+	9 [label="Excel Reader"]
+	18 [label=Sorter]
+	26 [label="Row Filter"]
+	8 [label="Missing Value"]
+	17 [label="Math Formula"]
+	3 [label="Row Splitter"]
+	24 [label="Top k Selector"]
+	31 [label="Row Filter"]
+	6 [label=Sorter]
+	15 [label=GroupBy]
+	25 [label="Row Filter"]
+	12 [label=GroupBy]
+	10 [label=Joiner]
+	16 [label="String Replacer"]
+	1 [label="CSV Reader"]
+	22 [label="Top k Selector"]
+	28 [label="Row Filter"]
+	23 [label="Top k Selector"]
+	14 [label=GroupBy]
+	29 [label="Row Filter"]
+	30 [label="Row Filter"]
+	rankdir=LR
+}

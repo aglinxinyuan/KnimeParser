@@ -1,0 +1,28 @@
+digraph {
+	5 -> 8
+	8 -> 13
+	7 -> 5
+	21 -> 19
+	8 -> 9
+	14 -> 18
+	19 -> 17
+	9 -> 11
+	11 -> 14
+	15 -> 6
+	18 -> 21
+	6 -> 7
+	5 [label="Global Thresholder"]
+	13 [label="Interactive Segmentation View"]
+	7 [label=Inverter]
+	9 [label="Segment Features"]
+	11 [label=GroupBy]
+	18 [label="Lag Column"]
+	21 [label="Missing Value"]
+	6 [label="Interactive Annotator"]
+	8 [label="Connected Component Analysis"]
+	15 [label="Image Reader"]
+	14 [label="Column Rename"]
+	17 [label="Line Chart _JFreeChart_"]
+	19 [label="Math Formula"]
+	rankdir=LR
+}

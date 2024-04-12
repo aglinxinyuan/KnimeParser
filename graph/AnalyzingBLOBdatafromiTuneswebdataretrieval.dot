@@ -1,0 +1,14 @@
+digraph {
+	12 -> 13
+	4 -> 8
+	26 -> 4
+	11 -> 12
+	8 -> 11
+	13 [label="JSON to Table"]
+	11 [label="JSON Path"]
+	4 [label="Binary Objects to Strings"]
+	26 [label="Table Reader"]
+	8 [label="String to JSON"]
+	12 [label=Ungroup]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	3 -> 1
+	2 -> 1
+	1 [label="Table View"]
+	3 [label="CSS Editor"]
+	2 [label="Data Generator"]
+	rankdir=LR
+}

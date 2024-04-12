@@ -1,0 +1,17 @@
+digraph {
+	307 -> 310
+	304 -> 306
+	306 -> 308
+	3 -> 307
+	2 -> 3
+	307 -> 306
+	307 -> 304
+	306 [label="Fuzzy Rule Predictor"]
+	310 [label="PNN Learner _DDA_"]
+	307 [label=Partitioning]
+	308 [label="Numeric Scorer"]
+	304 [label="Fuzzy Rule Learner"]
+	3 [label="Table Manipulator"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

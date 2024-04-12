@@ -1,0 +1,12 @@
+digraph {
+	12 -> 13
+	10 -> 11
+	13 -> 14
+	11 -> 12
+	13 [label="Cell Splitter"]
+	11 [label="Column Aggregator"]
+	10 [label="File Reader"]
+	14 [label="Column Resorter"]
+	12 [label="Cell Splitter"]
+	rankdir=LR
+}

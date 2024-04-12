@@ -1,0 +1,23 @@
+digraph {
+	10 -> 13
+	16 -> 15
+	8 -> 10
+	15 -> 4
+	13 -> 14
+	4 -> 18
+	19 -> 8
+	11 -> 16
+	19 -> 4
+	14 -> 11
+	16 [label="String Manipulation"]
+	13 [label="Cell Splitter"]
+	11 [label=GroupBy]
+	4 [label="Column Aggregator"]
+	18 [label="Loop End _Column Append_"]
+	8 [label="Extract Column Header"]
+	15 [label="Table Row To Variable Loop Start"]
+	14 [label="Rule Engine"]
+	10 [label=Transpose]
+	19 [label="CSV Reader"]
+	rankdir=LR
+}

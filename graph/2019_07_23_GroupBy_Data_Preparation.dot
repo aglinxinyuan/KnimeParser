@@ -1,0 +1,17 @@
+digraph {
+	51 -> 52
+	53 -> 54
+	53 -> 57
+	55 -> 58
+	52 -> 53
+	54 -> 55
+	57 -> 58
+	57 [label="Rule_based Row Filter"]
+	55 [label=GroupBy]
+	53 [label="Missing Value"]
+	51 [label="Table Creator"]
+	58 [label=Joiner]
+	54 [label="Rule_based Row Filter"]
+	52 [label="Rule Engine"]
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	878 -> 877
+	882 -> 883
+	880 -> 879
+	247 -> 880
+	879 -> 882
+	878 -> 880
+	247 [label="Extract Context Properties"]
+	877 [label="Python Script"]
+	883 [label="Table Writer"]
+	878 [label="Conda Environment Propagation"]
+	879 [label="Python Script _Labs_"]
+	880 [label="Merge Variables"]
+	882 [label="Parquet Reader"]
+	rankdir=LR
+}

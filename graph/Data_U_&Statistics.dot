@@ -1,0 +1,56 @@
+digraph {
+	80 -> 76
+	37 -> 40
+	33 -> 8
+	8 -> 75
+	11 -> 36
+	31 -> 33
+	4 -> 11
+	82 -> 10
+	8 -> 4
+	4 -> 76
+	33 -> 37
+	10 -> 11
+	37 -> 38
+	76 -> 11
+	34 -> 3
+	38 -> 47
+	33 -> 35
+	11 -> 41
+	1 -> 34
+	3 -> 31
+	75 -> 4
+	3 -> 27
+	42 -> 4
+	36 -> 37
+	83 -> 8
+	43 -> 44
+	8 -> 10
+	80 -> 75
+	27 [label="Linear Correlation"]
+	8 [label="Row Splitter"]
+	3 [label="String To Number"]
+	41 [label="Value Counter"]
+	31 [label="Duplicate Row Filter"]
+	10 [label="Row Sampling"]
+	75 [label="Number To String"]
+	1 [label="CSV Reader"]
+	42 [label="Parameter Optimization Loop Start"]
+	11 [label=Concatenate]
+	4 [label=SMOTE]
+	47 [label="Math Formula"]
+	76 [label="String To Number"]
+	83 [label="Column Selection Configuration"]
+	38 [label=Scorer]
+	43 [label="Parameter Optimization Loop End"]
+	35 [label="Value Counter"]
+	44 [label="Table Row to Variable"]
+	34 [label="Number To String"]
+	82 [label="Double Configuration"]
+	36 [label="Random Forest Learner"]
+	40 [label="Binary Classification Inspector"]
+	80 [label="Column Filter Configuration"]
+	33 [label=Partitioning]
+	37 [label="Random Forest Predictor"]
+	rankdir=LR
+}

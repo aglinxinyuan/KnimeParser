@@ -1,0 +1,44 @@
+digraph {
+	10 -> 13
+	87 -> 24
+	23 -> 24
+	22 -> 5
+	25 -> 22
+	2 -> 12
+	13 -> 5
+	5 -> 15
+	28 -> 30
+	6 -> 28
+	12 -> 87
+	24 -> 25
+	22 -> 35
+	22 -> 28
+	3 -> 6
+	11 -> 10
+	82 -> 3
+	43 -> 35
+	84 -> 2
+	35 -> 41
+	3 [label="OpenAI Authenticator"]
+	24 [label="Column Appender"]
+	84 [label="CSV Reader"]
+	41 [label=Scorer]
+	6 [label="OpenAI Chat Model Connector"]
+	15 [label=Scorer]
+	25 [label="Missing Value"]
+	10 [label="HF Hub Authenticator"]
+	12 [label=Shuffle]
+	22 [label="String Manipulation"]
+	87 [label="Missing Value"]
+	28 [label="LLM Prompter"]
+	11 [label="Credentials Configuration"]
+	23 [label="Table Creator"]
+	5 [label="LLM Prompter"]
+	13 [label="HF Hub LLM Connector"]
+	35 [label="LLM Prompter"]
+	43 [label="GPT4All LLM Connector"]
+	82 [label="Credentials Configuration"]
+	30 [label=Scorer]
+	2 [label="Row Sampling"]
+	rankdir=LR
+}

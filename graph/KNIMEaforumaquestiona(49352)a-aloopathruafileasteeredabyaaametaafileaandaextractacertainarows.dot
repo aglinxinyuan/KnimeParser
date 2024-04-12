@@ -1,0 +1,57 @@
+digraph {
+	13 -> 15
+	27 -> 24
+	7 -> 8
+	4 -> 3
+	8 -> 9
+	15 -> 18
+	9 -> 13
+	23 -> 26
+	2 -> 4
+	18 -> 19
+	17 -> 10
+	21 -> 20
+	25 -> 26
+	26 -> 27
+	19 -> 23
+	10 -> 12
+	20 -> 22
+	5 -> 7
+	17 -> 21
+	25 -> 14
+	3 -> 5
+	13 -> 16
+	22 -> 28
+	28 -> 25
+	1 -> 13
+	12 -> 28
+	16 -> 17
+	14 -> 19
+	27 [label="Merge Variables"]
+	7 [label="Java Snippet _simple_"]
+	9 [label="Table Row to Variable"]
+	18 [label="Java Snippet _simple_"]
+	21 [label="Create File_Folder Variables"]
+	26 [label="Catch Errors _Var Ports_"]
+	8 [label="String to Path"]
+	17 [label="Table Row to Variable"]
+	3 [label="Column Expressions"]
+	19 [label=Joiner]
+	24 [label="Variable Loop End"]
+	15 [label="Regex Split"]
+	25 [label="Try _Variable Ports_"]
+	12 [label="Create File_Folder Variables"]
+	10 [label="Create File_Folder Variables"]
+	16 [label=GroupBy]
+	1 [label="Excel Reader"]
+	22 [label="Create File_Folder Variables"]
+	28 [label="Merge Variables"]
+	23 [label="Excel Writer"]
+	4 [label="Variable to Table Row"]
+	14 [label="Excel Reader"]
+	5 [label="Column Expressions"]
+	13 [label="Group Loop Start"]
+	20 [label="Java Edit Variable _simple_"]
+	2 [label="Extract Context Properties"]
+	rankdir=LR
+}

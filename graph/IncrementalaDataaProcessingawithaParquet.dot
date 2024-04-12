@@ -1,0 +1,33 @@
+digraph {
+	1212 -> 1228
+	1185 -> 1187
+	1193 -> 1189
+	1187 -> 1188
+	1188 -> 1189
+	1216 -> 1217
+	1213 -> 1218
+	1224 -> 1211
+	1190 -> 1191
+	1191 -> 1194
+	1214 -> 1227
+	1189 -> 1190
+	1216 [label="Google Authentication _API Key_"]
+	1194 [label="List Files_Folders"]
+	1211 [label="Google Drive Connector"]
+	1228 [label="SharePoint Online Connector"]
+	1193 [label="Create File_Folder Variables"]
+	1214 [label="Amazon Authentication"]
+	1218 [label="Azure Blob Storage Connector"]
+	1224 [label="Google Authentication"]
+	1188 [label="String Manipulation"]
+	1187 [label=GroupBy]
+	1185 [label="Parquet Reader"]
+	1217 [label="Google Cloud Storage Connector"]
+	1190 [label="Parquet Writer"]
+	1212 [label="Microsoft Authentication"]
+	1189 [label="Group Loop Start"]
+	1191 [label="Variable Loop End"]
+	1213 [label="Microsoft Authentication"]
+	1227 [label="Amazon S3 Connector"]
+	rankdir=LR
+}

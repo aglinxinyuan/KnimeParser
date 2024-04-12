@@ -1,0 +1,65 @@
+digraph {
+	405 -> 14
+	14 -> 16
+	407 -> 375
+	8 -> 9
+	17 -> 406
+	407 -> 376
+	377 -> 375
+	408 -> 409
+	406 -> 408
+	373 -> 12
+	12 -> 13
+	16 -> 15
+	10 -> 6
+	18 -> 19
+	6 -> 11
+	15 -> 404
+	407 -> 383
+	1 -> 2
+	21 -> 383
+	4 -> 2
+	13 -> 405
+	5 -> 18
+	19 -> 8
+	11 -> 20
+	410 -> 407
+	404 -> 17
+	376 -> 377
+	9 -> 10
+	2 -> 5
+	20 -> 373
+	409 -> 410
+	377 [label="String to Path _Variable_"]
+	405 [label="JSON Path"]
+	9 [label="String to JSON"]
+	18 [label="Row Filter"]
+	21 [label="MongoDB Connector"]
+	8 [label="Constant Value Column"]
+	404 [label="String Manipulation"]
+	17 [label=GroupBy]
+	19 [label="Chunk Loop Start"]
+	383 [label="MongoDB Writer"]
+	408 [label="String to JSON"]
+	373 [label="Row Filter"]
+	407 [label="JSON Transformer"]
+	6 [label="POST Request"]
+	15 [label="JSON Path"]
+	406 [label="Constant Value Column"]
+	376 [label="String Manipulation _Variable_"]
+	12 [label="String Manipulation"]
+	10 [label="JSON Transformer"]
+	16 [label=Ungroup]
+	1 [label="MongoDB Connector"]
+	11 [label="JSON Path"]
+	4 [label="Variable Creator"]
+	14 [label="JSON Path"]
+	409 [label="String Manipulation"]
+	5 [label="JSON Path"]
+	375 [label="JSON Writer"]
+	20 [label="Loop End"]
+	13 [label="GET Request"]
+	410 [label="String Manipulation"]
+	2 [label="MongoDB Reader"]
+	rankdir=LR
+}

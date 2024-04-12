@@ -1,0 +1,56 @@
+digraph {
+	102 -> 47
+	111 -> 112
+	71 -> 101
+	39 -> 40
+	113 -> 102
+	1 -> 19
+	68 -> 95
+	1 -> 17
+	99 -> 101
+	43 -> 45
+	40 -> 42
+	101 -> 50
+	40 -> 43
+	102 -> 111
+	42 -> 102
+	112 -> 100
+	49 -> 68
+	49 -> 71
+	47 -> 49
+	50 -> 41
+	46 -> 113
+	17 -> 39
+	43 -> 49
+	45 -> 46
+	19 -> 40
+	95 -> 71
+	102 -> 41
+	95 -> 99
+	17 -> 19
+	100 -> 41
+	17 [label="Create Temp Dir"]
+	19 [label="String Manipulation"]
+	49 [label="Row Filter"]
+	41 [label="Recursive Loop End _2 ports_"]
+	50 [label="Loop End"]
+	1 [label="Table Creator"]
+	42 [label=Sorter]
+	112 [label="Table Row to Variable"]
+	68 [label="Table Row to Variable"]
+	47 [label="Table Row To Variable Loop Start"]
+	101 [label="Constant Value Column"]
+	100 [label="Rule Engine Variable"]
+	99 [label="String Manipulation _Variable_"]
+	111 [label="Extract Table Dimension"]
+	113 [label="Math Formula _Variable_"]
+	43 [label=Sorter]
+	102 [label="Row Splitter"]
+	71 [label="Constant Value Column"]
+	46 [label="Table Row to Variable"]
+	40 [label="Recursive Loop Start _2 ports_"]
+	95 [label="Java Edit Variable _simple_"]
+	39 [label="Table Creator"]
+	45 [label="Extract Table Dimension"]
+	rankdir=LR
+}

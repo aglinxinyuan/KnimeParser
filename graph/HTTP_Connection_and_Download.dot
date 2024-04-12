@@ -1,0 +1,26 @@
+digraph {
+	35 -> 34
+	24 -> 27
+	34 -> 25
+	39 -> 23
+	23 -> 34
+	39 -> 38
+	25 -> 26
+	20 -> 39
+	40 -> 41
+	38 -> 40
+	26 -> 24
+	24 [label="Binary Objects to Files"]
+	27 [label="Column Filter"]
+	20 [label=HttpRetriever]
+	35 [label="Table Creator"]
+	34 [label=Concatenate]
+	41 [label="Column Filter"]
+	23 [label=HttpResultDataExtractor]
+	26 [label="String to URI"]
+	40 [label="Column Rename"]
+	25 [label="Java Snippet"]
+	39 [label="Fuzzy Numeric Row Splitter"]
+	38 [label=HttpResultDataExtractor]
+	rankdir=LR
+}

@@ -1,0 +1,20 @@
+digraph {
+	7 -> 3
+	3 -> 8
+	1 -> 9
+	5 -> 6
+	1 -> 2
+	9 -> 10
+	2 -> 5
+	6 -> 7
+	5 [label="Column Expressions"]
+	1 [label="File Reader"]
+	7 [label="Column Expressions"]
+	9 [label="String Manipulation"]
+	8 [label="Column Filter"]
+	6 [label="Column Expressions"]
+	3 [label="Cell Splitter"]
+	2 [label="String Manipulation"]
+	10 [label="Cell Splitter"]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	4 -> 2
+	3 -> 4
+	5 -> 6
+	2 -> 5
+	2 -> 11
+	5 [label="String to Path _Variable_"]
+	11 [label="String to Path _Variable_"]
+	4 [label="Path to String _Variable_"]
+	6 [label="Create Folder"]
+	3 [label="Create Folder"]
+	2 [label="Java Edit Variable"]
+	rankdir=LR
+}

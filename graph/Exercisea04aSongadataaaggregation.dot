@@ -1,0 +1,19 @@
+digraph {
+	7 -> 8
+	10 -> 9
+	8 -> 10
+	9 -> 11
+	2 -> 7
+	1 -> 2
+	2 -> 4
+	4 -> 10
+	1 [label="Table Reader"]
+	7 [label=Pivoting]
+	9 [label="Math Formula _Multi Column_"]
+	11 [label="Column Rename"]
+	4 [label=GroupBy]
+	8 [label="Missing Value"]
+	2 [label="Rule Engine"]
+	10 [label=Joiner]
+	rankdir=LR
+}

@@ -1,0 +1,69 @@
+digraph {
+	2170 -> 2171
+	1415 -> 1044
+	1879 -> 1980
+	2180 -> 2179
+	1878 -> 1863
+	1044 -> 1042
+	1043 -> 1401
+	2166 -> 2172
+	2167 -> 2168
+	1981 -> 1982
+	1980 -> 2027
+	2160 -> 2176
+	1864 -> 1879
+	2165 -> 2167
+	2173 -> 2180
+	2172 -> 2173
+	1042 -> 1043
+	2176 -> 1877
+	2027 -> 2165
+	1403 -> 1876
+	1982 -> 2164
+	1863 -> 2175
+	1877 -> 1878
+	2166 -> 2168
+	2177 -> 1403
+	2169 -> 2178
+	2168 -> 2170
+	2175 -> 1876
+	2171 -> 2169
+	2164 -> 1864
+	1401 -> 2177
+	2027 -> 2166
+	1876 -> 1981
+	2169 [label="Column Resorter"]
+	1981 [label="Rule Engine"]
+	1415 [label="CSV Reader"]
+	2170 [label="Math Formula"]
+	2160 [label="Table Reader"]
+	2171 [label="Round Double"]
+	1403 [label="Rule Engine"]
+	2165 [label=Pivoting]
+	1982 [label="Math Formula"]
+	1863 [label="Rule Engine"]
+	1878 [label="Rule Engine"]
+	1876 [label=Joiner]
+	1879 [label="Missing Value"]
+	2167 [label=Concatenate]
+	1042 [label="Rule Engine"]
+	1401 [label="Column Rename"]
+	2173 [label="Round Double"]
+	1044 [label="String Manipulation _Multi Column_"]
+	1043 [label="Rule Engine"]
+	2177 [label="Column Aggregator"]
+	2175 [label="Rule Engine"]
+	2178 [label="Column Rename"]
+	2176 [label="Rule Engine"]
+	1877 [label="Column Aggregator"]
+	2172 [label="Math Formula"]
+	1864 [label="Math Formula"]
+	2164 [label="Rule Engine"]
+	2168 [label=Joiner]
+	2180 [label="Column Resorter"]
+	2179 [label="Column Rename"]
+	2027 [label="Rule Engine"]
+	2166 [label=GroupBy]
+	1980 [label="Rule Engine"]
+	rankdir=LR
+}

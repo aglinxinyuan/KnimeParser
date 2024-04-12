@@ -1,0 +1,40 @@
+digraph {
+	32 -> 24
+	20 -> 21
+	12 -> 13
+	24 -> 31
+	4 -> 5
+	35 -> 26
+	26 -> 37
+	34 -> 20
+	3 -> 4
+	33 -> 2
+	10 -> 20
+	5 -> 10
+	29 -> 32
+	2 -> 3
+	34 -> 21
+	36 -> 37
+	21 -> 12
+	37 -> 29
+	21 [label="Joiner _Labs_"]
+	26 [label="Row Filter"]
+	3 [label=GroupBy]
+	24 [label=Sorter]
+	31 [label=Ungroup]
+	12 [label="Column Rename"]
+	10 [label=Ungroup]
+	4 [label="Association Rule Learner"]
+	5 [label=Sorter]
+	20 [label="Joiner _Labs_"]
+	13 [label="Column Resorter"]
+	35 [label="CSV Reader"]
+	34 [label="CSV Reader"]
+	29 [label=GroupBy]
+	36 [label="CSV Reader"]
+	33 [label="CSV Reader"]
+	32 [label="Association Rule Learner"]
+	2 [label="Row Filter"]
+	37 [label="Joiner _Labs_"]
+	rankdir=LR
+}

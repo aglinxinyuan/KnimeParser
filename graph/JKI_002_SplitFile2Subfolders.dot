@@ -1,0 +1,27 @@
+digraph {
+	111 -> 115
+	1 -> 4
+	108 -> 118
+	4 -> 5
+	107 -> 114
+	113 -> 115
+	114 -> 113
+	107 -> 111
+	118 -> 110
+	5 -> 118
+	115 -> 117
+	110 -> 107
+	5 [label="Column Rename"]
+	107 [label="Group Loop Start"]
+	113 [label="String to Path _Variable_"]
+	1 [label="CSV Reader"]
+	115 [label="CSV Writer"]
+	118 [label=Joiner]
+	4 [label="Cell Splitter"]
+	117 [label="Variable Loop End"]
+	108 [label="Table Creator"]
+	111 [label="Column Filter"]
+	114 [label="Table Row to Variable"]
+	110 [label="String Manipulation"]
+	rankdir=LR
+}

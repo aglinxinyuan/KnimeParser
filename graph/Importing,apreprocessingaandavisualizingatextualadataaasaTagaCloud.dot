@@ -1,0 +1,54 @@
+digraph {
+	27 -> 85
+	41 -> 42
+	21 -> 23
+	42 -> 43
+	19 -> 21
+	32 -> 40
+	82 -> 41
+	30 -> 32
+	46 -> 78
+	29 -> 30
+	87 -> 46
+	46 -> 84
+	78 -> 83
+	44 -> 87
+	81 -> 82
+	27 -> 39
+	32 -> 86
+	23 -> 27
+	3 -> 81
+	83 -> 19
+	43 -> 44
+	2 -> 3
+	84 -> 28
+	1 -> 3
+	28 -> 29
+	27 [label="Color Manager"]
+	21 [label=TF]
+	3 [label=Concatenate]
+	19 [label="Tags to String"]
+	78 [label="Tag Filter"]
+	84 [label="Bag Of Words Creator"]
+	41 [label="Punctuation Erasure"]
+	85 [label="Tag Cloud _JavaScript_"]
+	86 [label="Tag Cloud _JavaScript_"]
+	30 [label="Frequency Filter"]
+	1 [label="Table Reader"]
+	42 [label="N Chars Filter"]
+	87 [label="Stop Word Filter"]
+	28 [label="Tags to String"]
+	23 [label="Frequency Filter"]
+	83 [label="Bag Of Words Creator"]
+	81 [label="POS Tagger"]
+	43 [label="Number Filter"]
+	44 [label="Case converter"]
+	29 [label=TF]
+	82 [label="Abner Tagger"]
+	46 [label="Snowball Stemmer"]
+	40 [label="Tag Cloud"]
+	39 [label="Tag Cloud"]
+	32 [label="Color Manager"]
+	2 [label="Table Reader"]
+	rankdir=LR
+}

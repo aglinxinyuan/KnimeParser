@@ -1,0 +1,20 @@
+digraph {
+	6 -> 3
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	3 -> 4
+	2 -> 6
+	1 -> 2
+	4 -> 9
+	5 [label="RDKit Molecule Catalog Filter"]
+	1 [label="CSV Reader"]
+	7 [label="CSV Reader"]
+	9 [label="RDKit Molecule Substructure Filter"]
+	4 [label="Rule_based Row Filter"]
+	6 [label="RDKit To Molecule"]
+	8 [label="Molecule Type Cast"]
+	3 [label="RDKit Descriptor Calculation"]
+	2 [label="Molecule Type Cast"]
+	rankdir=LR
+}

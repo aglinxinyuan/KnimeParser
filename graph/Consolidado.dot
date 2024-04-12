@@ -1,0 +1,15 @@
+digraph {
+	8 -> 9
+	9 -> 1
+	1 -> 6
+	9 -> 10
+	6 -> 7
+	7 -> 10
+	1 [label="Excel Reader"]
+	7 [label="Column Resorter"]
+	9 [label="SharePoint Online Connector"]
+	8 [label="Microsoft Authenticator"]
+	6 [label="Math Formula"]
+	10 [label="Excel Writer"]
+	rankdir=LR
+}

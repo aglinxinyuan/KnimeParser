@@ -1,0 +1,29 @@
+digraph {
+	5 -> 8
+	2 -> 12
+	4 -> 5
+	4 -> 3
+	11 -> 2
+	2 -> 10
+	1 -> 11
+	12 -> 14
+	3 -> 5
+	2 -> 6
+	2 -> 9
+	13 -> 4
+	14 -> 13
+	5 [label="Regression Predictor"]
+	14 [label="One to Many"]
+	13 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	9 [label="Scatter Plot Matrix"]
+	11 [label="Color Manager"]
+	4 [label=Partitioning]
+	6 [label="3D Scatter Plot _Plotly_"]
+	8 [label="Numeric Scorer"]
+	12 [label="Math Formula"]
+	3 [label="Linear Regression Learner"]
+	2 [label="Data Explorer"]
+	10 [label="Conditional Box Plot _JavaScript_"]
+	rankdir=LR
+}

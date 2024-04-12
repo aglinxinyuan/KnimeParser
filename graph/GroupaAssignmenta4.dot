@@ -1,0 +1,56 @@
+digraph {
+	12 -> 10
+	20 -> 21
+	8 -> 9
+	23 -> 24
+	1 -> 8
+	9 -> 3
+	21 -> 24
+	20 -> 23
+	29 -> 30
+	17 -> 18
+	10 -> 11
+	14 -> 7
+	9 -> 19
+	24 -> 27
+	17 -> 21
+	29 -> 31
+	19 -> 16
+	18 -> 20
+	24 -> 25
+	14 -> 13
+	10 -> 15
+	11 -> 14
+	3 -> 11
+	3 -> 12
+	12 -> 28
+	3 -> 29
+	16 -> 17
+	28 -> 29
+	27 [label="ROC Curve"]
+	7 [label=Scorer]
+	9 [label="Column Filter"]
+	18 [label="Equal Size Sampling"]
+	21 [label="Normalizer _Apply_"]
+	8 [label="Number To String"]
+	17 [label=Partitioning]
+	3 [label=Partitioning]
+	19 [label="Category To Number"]
+	24 [label="MultiLayerPerceptron Predictor"]
+	31 [label=Scorer]
+	15 [label="Decision Tree to Ruleset"]
+	25 [label=Scorer]
+	10 [label="Decision Tree Learner"]
+	12 [label="Equal Size Sampling"]
+	16 [label="One to Many"]
+	1 [label="CSV Reader"]
+	28 [label="Random Forest Learner"]
+	11 [label="Decision Tree Predictor"]
+	23 [label="RProp MLP Learner"]
+	14 [label="Row Filter"]
+	13 [label="ROC Curve"]
+	20 [label=Normalizer]
+	29 [label="Random Forest Predictor"]
+	30 [label="ROC Curve"]
+	rankdir=LR
+}

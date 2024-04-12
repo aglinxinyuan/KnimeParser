@@ -1,0 +1,25 @@
+digraph {
+	50 -> 52
+	47 -> 49
+	14 -> 27
+	7 -> 26
+	50 -> 51
+	49 -> 48
+	45 -> 25
+	44 -> 24
+	24 [label="Table Writer"]
+	27 [label="Table Writer"]
+	48 [label="Delete Files"]
+	50 [label="Empty Table Creator"]
+	44 [label="Table Creator"]
+	7 [label="Table Creator"]
+	49 [label="String to URI"]
+	51 [label="Call Local Workflow"]
+	52 [label="Call Local Workflow"]
+	26 [label="Table Writer"]
+	47 [label="List Files"]
+	25 [label="Table Writer"]
+	14 [label="Table Creator"]
+	45 [label="Table Creator"]
+	rankdir=LR
+}

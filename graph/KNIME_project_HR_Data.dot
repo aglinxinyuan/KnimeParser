@@ -1,0 +1,37 @@
+digraph {
+	9 -> 7
+	7 -> 14
+	7 -> 8
+	6 -> 18
+	1 -> 2
+	6 -> 7
+	3 -> 4
+	7 -> 18
+	11 -> 17
+	7 -> 12
+	6 -> 10
+	7 -> 15
+	2 -> 3
+	14 -> 13
+	1 -> 16
+	9 -> 6
+	4 -> 9
+	16 [label=Statistics]
+	13 [label="Sunburst Chart"]
+	1 [label="Excel Reader _XLS_"]
+	7 [label="Decision Tree Predictor"]
+	12 [label="ROC Curve"]
+	9 [label=Partitioning]
+	11 [label="PMML Reader"]
+	4 [label="Color Manager"]
+	18 [label="Decision Tree View"]
+	6 [label="Decision Tree Learner"]
+	15 [label="CSV Writer"]
+	8 [label=Scorer]
+	14 [label="Interactive Range Slider Filter Widget"]
+	17 [label="Model Writer"]
+	3 [label="String Manipulation"]
+	2 [label="Column Filter"]
+	10 [label="PMML Writer"]
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	194 -> 79
+	128 -> 129
+	126 -> 128
+	129 -> 188
+	65 -> 194
+	79 -> 195
+	185 -> 197
+	188 -> 65
+	195 -> 185
+	1 -> 126
+	191 -> 195
+	190 -> 191
+	79 -> 185
+	195 [label="BERT Classification Learner"]
+	190 [label="Conda Environment Propagation"]
+	185 [label="BERT Predictor"]
+	126 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	79 [label=Partitioning]
+	188 [label="String Manipulation"]
+	65 [label=Shuffle]
+	128 [label="Row Filter"]
+	191 [label="BERT Model Selector"]
+	194 [label="Number To String"]
+	197 [label=Scorer]
+	129 [label="Row Filter"]
+	rankdir=LR
+}

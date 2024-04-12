@@ -1,0 +1,36 @@
+digraph {
+	9 -> 7
+	12 -> 13
+	4 -> 5
+	18 -> 19
+	11 -> 9
+	15 -> 8
+	1 -> 11
+	16 -> 10
+	13 -> 14
+	10 -> 17
+	6 -> 10
+	7 -> 12
+	5 -> 6
+	14 -> 15
+	17 -> 18
+	8 -> 16
+	5 [label="Row Splitter"]
+	16 [label="Column Filter"]
+	14 [label="String to Path"]
+	13 [label="String Manipulation"]
+	1 [label="List Files_Folders"]
+	7 [label="Table Row To Variable Loop Start"]
+	9 [label="String to Path"]
+	11 [label="String Manipulation"]
+	4 [label="CSV Reader"]
+	18 [label="Variable Loop End"]
+	6 [label="Random Forest Learner"]
+	8 [label="CSV Reader"]
+	15 [label="Table Row To Variable Loop Start"]
+	12 [label="List Files_Folders"]
+	17 [label="CSV Writer"]
+	10 [label="Random Forest Predictor"]
+	19 [label="Loop End"]
+	rankdir=LR
+}

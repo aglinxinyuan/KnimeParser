@@ -1,0 +1,46 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	9 -> 30
+	4 -> 6
+	1 -> 4
+	303 -> 294
+	30 -> 31
+	10 -> 22
+	10 -> 11
+	290 -> 292
+	31 -> 303
+	9 -> 11
+	4 -> 7
+	300 -> 305
+	21 -> 32
+	32 -> 294
+	293 -> 300
+	294 -> 290
+	292 -> 293
+	9 -> 10
+	11 -> 21
+	1 -> 5
+	292 [label="Constant Value Column"]
+	7 [label="Column Filter"]
+	9 [label=Partitioning]
+	21 [label=Scorer]
+	8 [label="Color Manager"]
+	32 [label="Row Filter"]
+	290 [label="Constant Value Column"]
+	31 [label=Scorer]
+	6 [label=Statistics]
+	10 [label="Decision Tree Learner"]
+	1 [label="CSV Reader"]
+	294 [label="Column Filter"]
+	22 [label="PMML Writer"]
+	293 [label=RowID]
+	11 [label="Decision Tree Predictor"]
+	4 [label="Numeric Binner"]
+	5 [label=Statistics]
+	303 [label="Row Filter"]
+	300 [label=Concatenate]
+	305 [label="Bar Chart"]
+	30 [label="K Nearest Neighbor"]
+	rankdir=LR
+}

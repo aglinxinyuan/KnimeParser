@@ -1,0 +1,18 @@
+digraph {
+	62 -> 13
+	6 -> 61
+	13 -> 4
+	20 -> 62
+	61 -> 64
+	4 -> 6
+	64 -> 63
+	64 [label="Column Filter"]
+	20 [label="Image Reader"]
+	13 [label="Gaussian Convolution"]
+	62 [label=Splitter]
+	4 [label="Global Thresholder"]
+	61 [label="Labeling Properties"]
+	6 [label="Connected Component Analysis"]
+	63 [label="Image Viewer"]
+	rankdir=LR
+}

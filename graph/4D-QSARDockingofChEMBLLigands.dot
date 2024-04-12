@@ -1,0 +1,63 @@
+digraph {
+	1381 -> 1379
+	23 -> 1375
+	1376 -> 1378
+	1364 -> 1351
+	1366 -> 1365
+	1331 -> 1333
+	1322 -> 1381
+	1375 -> 1364
+	23 -> 1373
+	1379 -> 1380
+	1331 -> 1367
+	1377 -> 1347
+	1347 -> 1348
+	1373 -> 1349
+	1375 -> 1330
+	1375 -> 1345
+	1348 -> 1369
+	1329 -> 1331
+	1329 -> 1323
+	1369 -> 1351
+	1378 -> 1377
+	1375 -> 1366
+	1365 -> 1354
+	1380 -> 1323
+	1349 -> 1374
+	1323 -> 1331
+	1348 -> 1365
+	1330 -> 1329
+	1367 -> 1376
+	1374 -> 1322
+	1345 -> 1333
+	1372 -> 23
+	1376 [label="Row Filter"]
+	1347 [label="String Manipulation"]
+	1354 [label="Variable Loop End"]
+	1372 [label="List Files"]
+	1369 [label="Column Filter"]
+	1375 [label="String Manipulation _Variable_"]
+	1349 [label="Column Filter"]
+	1365 [label="SDF Writer"]
+	1378 [label=Sorter]
+	1333 [label="SeeSAR Project Writer"]
+	1345 [label="Create File Name"]
+	1377 [label=Rank]
+	1351 [label="CSV Writer"]
+	1373 [label="CSV Reader"]
+	1364 [label="Create File Name"]
+	1366 [label="Create File Name"]
+	1367 [label="Column Filter"]
+	1374 [label=OpenBabel]
+	1323 [label="FlexX Docking"]
+	23 [label="Table Row To Variable Loop Start"]
+	1331 [label="Assess Affinity with Hyde in SeeSAR"]
+	1329 [label="SeeSAR Project Reader"]
+	1330 [label="Create File Name"]
+	1380 [label="Row Filter"]
+	1379 [label="Generate 3D Coordinates"]
+	1322 [label="Generate Protomers _ Tautomers with Naomi"]
+	1348 [label=RowID]
+	1381 [label="Row Filter"]
+	rankdir=LR
+}

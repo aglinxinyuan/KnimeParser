@@ -1,0 +1,28 @@
+digraph {
+	12 -> 13
+	1 -> 4
+	4 -> 2
+	4 -> 3
+	14 -> 8
+	13 -> 14
+	3 -> 5
+	10 -> 8
+	3 -> 11
+	11 -> 12
+	9 -> 10
+	2 -> 3
+	5 -> 9
+	5 [label="Numeric Scorer"]
+	14 [label="Math Formula _Variable_"]
+	13 [label="Table Row to Variable"]
+	1 [label="Data Generator"]
+	9 [label=Transpose]
+	11 [label="Extract Table Dimension"]
+	4 [label=Partitioning]
+	8 [label="Math Formula"]
+	12 [label=Transpose]
+	3 [label="Regression Predictor"]
+	2 [label="Linear Regression Learner"]
+	10 [label="Column Rename"]
+	rankdir=LR
+}

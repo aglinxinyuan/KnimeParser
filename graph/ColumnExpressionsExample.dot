@@ -1,0 +1,10 @@
+digraph {
+	3 -> 1
+	6 -> 3
+	1 -> 4
+	1 [label="Column Expressions"]
+	4 [label="Column Filter"]
+	3 [label="Table Manipulator"]
+	6 [label="Table Reader"]
+	rankdir=LR
+}

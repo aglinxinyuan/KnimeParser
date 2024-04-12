@@ -1,0 +1,38 @@
+digraph {
+	10 -> 40
+	31 -> 21
+	41 -> 42
+	7 -> 8
+	39 -> 37
+	42 -> 10
+	6 -> 14
+	21 -> 32
+	39 -> 31
+	9 -> 39
+	8 -> 6
+	13 -> 14
+	31 -> 32
+	30 -> 31
+	40 -> 43
+	37 -> 30
+	14 -> 9
+	32 -> 41
+	39 [label="Group Loop Start"]
+	30 [label="Variable Expressions"]
+	13 [label="Variable Creator"]
+	43 [label="Column Filter"]
+	7 [label="Credentials Configuration"]
+	42 [label=Ungroup]
+	41 [label="JSON Path"]
+	31 [label="CASE Switch Start"]
+	9 [label="GET Request"]
+	21 [label="XML To JSON"]
+	6 [label="CSV Reader"]
+	8 [label="HTTP_S_ Connector"]
+	40 [label="Loop End"]
+	14 [label="Column Expressions"]
+	37 [label="Table Row to Variable"]
+	32 [label="CASE Switch End"]
+	10 [label="JSON to Table"]
+	rankdir=LR
+}

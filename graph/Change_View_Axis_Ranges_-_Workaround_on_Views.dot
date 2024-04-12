@@ -1,0 +1,75 @@
+digraph {
+	13 -> 15
+	20 -> 21
+	15 -> 14
+	7 -> 16
+	35 -> 43
+	31 -> 42
+	12 -> 14
+	21 -> 25
+	1 -> 23
+	39 -> 41
+	17 -> 20
+	29 -> 43
+	33 -> 31
+	45 -> 50
+	30 -> 33
+	43 -> 45
+	27 -> 47
+	34 -> 46
+	18 -> 17
+	10 -> 12
+	9 -> 11
+	23 -> 3
+	28 -> 31
+	14 -> 9
+	4 -> 7
+	36 -> 35
+	16 -> 6
+	37 -> 27
+	44 -> 28
+	41 -> 34
+	42 -> 48
+	24 -> 20
+	27 [label="Color Manager"]
+	7 [label="Constant Value Column"]
+	9 [label="Color Manager"]
+	45 [label="Color Manager"]
+	18 [label="Table Creator"]
+	21 [label="Color Manager"]
+	17 [label="Constant Value Column"]
+	3 [label="Parallel Coordinates Plot"]
+	24 [label="Data Generator"]
+	41 [label="Constant Value Column"]
+	31 [label=Concatenate]
+	6 [label="Parallel Coordinates Plot"]
+	15 [label="Constant Value Column"]
+	25 [label="Parallel Coordinates Plot"]
+	12 [label="Constant Value Column"]
+	10 [label="Table Creator"]
+	16 [label="Color Manager"]
+	48 [label="Scatter Plot _Plotly_"]
+	50 [label="Scatter Plot _Plotly_"]
+	1 [label="Data Generator"]
+	42 [label="Color Manager"]
+	28 [label="Constant Value Column"]
+	23 [label="Color Manager"]
+	4 [label="Table Creator"]
+	11 [label="Parallel Coordinates Plot"]
+	47 [label="Scatter Plot _Plotly_"]
+	14 [label=Concatenate]
+	13 [label="Table Creator"]
+	20 [label=Concatenate]
+	43 [label=Concatenate]
+	34 [label="Color Manager"]
+	35 [label="Constant Value Column"]
+	29 [label="Data Generator"]
+	44 [label="Table Creator"]
+	36 [label="Table Creator"]
+	46 [label="Scatter Plot _Plotly_"]
+	39 [label="Table Creator"]
+	33 [label="Constant Value Column"]
+	30 [label="Table Creator"]
+	37 [label="Data Generator"]
+	rankdir=LR
+}

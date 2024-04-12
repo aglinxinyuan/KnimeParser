@@ -1,0 +1,14 @@
+digraph {
+	929 -> 928
+	310 -> 926
+	297 -> 310
+	300 -> 297
+	928 -> 300
+	310 [label="Table To Image"]
+	926 [label="Image Output Widget"]
+	300 [label="Image Reader _Table_"]
+	928 [label="Path to String"]
+	929 [label="List Files_Folders"]
+	297 [label="Renderer to Image"]
+	rankdir=LR
+}

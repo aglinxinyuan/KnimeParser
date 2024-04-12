@@ -1,0 +1,28 @@
+digraph {
+	162 -> 10
+	17 -> 163
+	165 -> 14
+	10 -> 14
+	164 -> 14
+	166 -> 172
+	163 -> 166
+	13 -> 17
+	171 -> 173
+	172 -> 171
+	14 -> 13
+	173 -> 174
+	165 [label="Excel Reader"]
+	164 [label="Excel Reader"]
+	171 [label="Call Local Workflow _Row Based_"]
+	13 [label="Duplicate Row Filter"]
+	173 [label="Loop End"]
+	174 [label="Binary Objects to Files"]
+	10 [label="Row Sampling"]
+	162 [label="Rule_based Row Filter"]
+	172 [label="Table to JSON"]
+	14 [label=Joiner]
+	17 [label="Date_Time to String"]
+	163 [label="Column Expressions"]
+	166 [label="Group Loop Start"]
+	rankdir=LR
+}

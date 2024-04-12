@@ -1,0 +1,42 @@
+digraph {
+	10 -> 13
+	21 -> 19
+	14 -> 17
+	13 -> 14
+	21 -> 20
+	14 -> 15
+	17 -> 18
+	20 -> 22
+	10 -> 12
+	15 -> 16
+	14 -> 18
+	3 -> 5
+	14 -> 21
+	9 -> 10
+	7 -> 9
+	3 -> 8
+	19 -> 20
+	8 -> 7
+	2 -> 3
+	14 -> 23
+	7 [label="String To Number"]
+	9 [label="String Replacer"]
+	18 [label="Decision Tree Predictor"]
+	21 [label=Partitioning]
+	8 [label="String Replacer"]
+	17 [label="Decision Tree Learner"]
+	3 [label="Column Filter"]
+	19 [label="SVM Learner"]
+	15 [label=Pivoting]
+	12 [label="One to Many"]
+	10 [label="String Replacer"]
+	16 [label="Scatter Plot"]
+	22 [label=Scorer]
+	23 [label=Statistics]
+	14 [label="String Replacer"]
+	5 [label="Histogram _interactive_"]
+	13 [label="String Replacer"]
+	20 [label="SVM Predictor"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

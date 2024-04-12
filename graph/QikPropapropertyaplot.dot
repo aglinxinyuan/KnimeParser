@@ -1,0 +1,30 @@
+digraph {
+	15245 -> 15251
+	137 -> 15210
+	15243 -> 15241
+	21 -> 15253
+	15210 -> 15239
+	15252 -> 137
+	15241 -> 15242
+	15244 -> 15245
+	15256 -> 15255
+	15239 -> 15243
+	15251 -> 15256
+	15242 -> 15244
+	15253 -> 15252
+	15256 [label="Column Resorter"]
+	15241 [label="Edit Numeric Domain"]
+	137 [label="Domain Calculator"]
+	15251 [label="Radar Plot Appender"]
+	15255 [label="Table Viewer"]
+	15242 [label="Edit Numeric Domain"]
+	15245 [label="Edit Numeric Domain"]
+	21 [label="SDF Reader"]
+	15253 [label=LigPrep]
+	15252 [label=QikProp]
+	15244 [label="Edit Numeric Domain"]
+	15210 [label="Column Filter"]
+	15239 [label="Column Resorter"]
+	15243 [label="Column Rename"]
+	rankdir=LR
+}

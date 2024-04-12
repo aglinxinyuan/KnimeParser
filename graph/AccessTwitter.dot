@@ -1,0 +1,12 @@
+digraph {
+	12 -> 17
+	1 -> 14
+	1 -> 12
+	14 -> 18
+	1 [label="Twitter API Connector"]
+	18 [label="Strings To Document"]
+	14 [label="Twitter Timeline"]
+	17 [label="Strings To Document"]
+	12 [label="Twitter Search"]
+	rankdir=LR
+}

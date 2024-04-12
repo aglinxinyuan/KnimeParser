@@ -1,0 +1,10 @@
+digraph {
+	2 -> 6
+	5 -> 2
+	1 -> 5
+	1 [label="Table Creator"]
+	6 [label=GroupBy]
+	5 [label=Sorter]
+	2 [label=GroupBy]
+	rankdir=LR
+}

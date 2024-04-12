@@ -1,0 +1,45 @@
+digraph {
+	6 -> 3
+	10 -> 55
+	25 -> 22
+	1 -> 6
+	57 -> 22
+	19 -> 21
+	55 -> 35
+	3 -> 7
+	10 -> 19
+	7 -> 10
+	39 -> 57
+	25 -> 42
+	36 -> 22
+	3 -> 39
+	55 -> 39
+	3 -> 5
+	35 -> 36
+	24 -> 25
+	42 -> 22
+	55 -> 19
+	10 -> 38
+	40 -> 19
+	55 -> 40
+	57 [label="Decision Tree Predictor"]
+	55 [label=Partitioning]
+	7 [label="Rule_based Row Splitter"]
+	21 [label="Naive Bayes Predictor"]
+	3 [label="Column Filter"]
+	19 [label="Naive Bayes Learner"]
+	24 [label="Naive Bayes Learner"]
+	6 [label="Rule Engine"]
+	25 [label="Naive Bayes Predictor"]
+	10 [label="Missing Value"]
+	1 [label="CSV Reader"]
+	42 [label=X_Aggregator]
+	22 [label=Scorer]
+	38 [label=Statistics]
+	5 [label=Statistics]
+	35 [label="Tree Ensemble Learner"]
+	36 [label="Tree Ensemble Predictor"]
+	40 [label=X_Partitioner]
+	39 [label="Scatter Plot Matrix"]
+	rankdir=LR
+}

@@ -1,0 +1,48 @@
+digraph {
+	42 -> 44
+	31 -> 34
+	34 -> 41
+	20 -> 21
+	42 -> 43
+	41 -> 46
+	2 -> 19
+	17 -> 20
+	2 -> 16
+	46 -> 40
+	21 -> 12
+	12 -> 30
+	30 -> 31
+	40 -> 42
+	29 -> 32
+	22 -> 12
+	41 -> 45
+	33 -> 34
+	17 -> 23
+	32 -> 33
+	16 -> 23
+	19 -> 20
+	23 -> 22
+	21 [label="Constant Value Column"]
+	17 [label="File Reader"]
+	19 [label="Row Filter"]
+	41 [label="Column Filter"]
+	31 [label="Column Combiner"]
+	12 [label=Concatenate]
+	16 [label="Row Filter"]
+	30 [label="Column Resorter"]
+	42 [label="Math Formula"]
+	22 [label="Constant Value Column"]
+	23 [label=Joiner]
+	20 [label=Joiner]
+	43 [label="R Plot"]
+	44 [label="CSV Writer"]
+	34 [label=Joiner]
+	29 [label="File Reader"]
+	46 [label="Column Combiner"]
+	40 [label=GroupBy]
+	33 [label="Column Combiner"]
+	32 [label="Column Resorter"]
+	2 [label="File Reader"]
+	45 [label="CSV Writer"]
+	rankdir=LR
+}

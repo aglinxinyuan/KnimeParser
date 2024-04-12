@@ -1,0 +1,29 @@
+digraph {
+	11 -> 15
+	8 -> 15
+	9 -> 15
+	17 -> 21
+	15 -> 16
+	17 -> 2
+	17 -> 19
+	19 -> 20
+	17 -> 18
+	20 -> 18
+	16 -> 17
+	17 -> 22
+	10 -> 15
+	16 [label="Column Filter"]
+	20 [label="Color Manager"]
+	22 [label="Generic JavaScript View"]
+	9 [label="CSV Reader"]
+	11 [label="CSV Reader"]
+	18 [label="Line Plot"]
+	21 [label="Line Plot _local_"]
+	8 [label="CSV Reader"]
+	15 [label="Column Appender"]
+	17 [label="String to Date_Time"]
+	2 [label="Line Plot _Plotly_"]
+	10 [label="CSV Reader"]
+	19 [label="Extract Table Spec"]
+	rankdir=LR
+}

@@ -1,0 +1,17 @@
+digraph {
+	15 -> 19
+	18 -> 19
+	15 -> 18
+	21 -> 16
+	20 -> 16
+	16 -> 18
+	16 -> 17
+	16 [label=Joiner]
+	20 [label="Table Reader"]
+	18 [label="Row Filter"]
+	21 [label="Table Reader"]
+	15 [label="Variable Creator"]
+	17 [label="Row Filter"]
+	19 [label="Row Filter"]
+	rankdir=LR
+}

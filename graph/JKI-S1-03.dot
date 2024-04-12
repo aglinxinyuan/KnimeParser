@@ -1,0 +1,18 @@
+digraph {
+	9 -> 7
+	7 -> 8
+	1 -> 4
+	10 -> 5
+	1 -> 10
+	2 -> 9
+	5 -> 7
+	5 [label=GroupBy]
+	1 [label="CSV Reader"]
+	7 [label="Value Lookup"]
+	9 [label="String Replacer"]
+	4 [label=Pivot]
+	8 [label="Column Expressions"]
+	2 [label="Excel Reader"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

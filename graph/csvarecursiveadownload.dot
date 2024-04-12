@@ -1,0 +1,28 @@
+digraph {
+	22 -> 24
+	20 -> 21
+	16 -> 15
+	18 -> 16
+	14 -> 18
+	11 -> 14
+	19 -> 20
+	23 -> 25
+	21 -> 22
+	15 -> 23
+	24 -> 8
+	8 -> 11
+	16 [label="Table Row to Variable"]
+	24 [label="Variable Expressions"]
+	20 [label="Extract Date_Time Fields"]
+	22 [label="Table Row To Variable Loop Start"]
+	11 [label="Row Filter"]
+	18 [label="String to Path"]
+	23 [label="Loop End"]
+	21 [label="Column Filter"]
+	8 [label=Bash]
+	15 [label="File Reader"]
+	25 [label="CSV Writer"]
+	14 [label="Cell Splitter"]
+	19 [label="Create Date_Time Range"]
+	rankdir=LR
+}

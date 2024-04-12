@@ -1,0 +1,54 @@
+digraph {
+	42 -> 44
+	41 -> 42
+	143 -> 145
+	142 -> 46
+	147 -> 141
+	39 -> 41
+	30 -> 39
+	48 -> 51
+	45 -> 49
+	56 -> 140
+	51 -> 56
+	25 -> 28
+	44 -> 45
+	5 -> 7
+	5 -> 47
+	145 -> 147
+	146 -> 143
+	7 -> 30
+	2 -> 47
+	45 -> 46
+	28 -> 27
+	144 -> 146
+	141 -> 142
+	27 -> 144
+	49 -> 48
+	27 [label="DB Reader"]
+	7 [label="Row Filter"]
+	145 [label="Row Filter"]
+	49 [label="Math Formula"]
+	41 [label="Row Filter"]
+	51 [label="Math Formula"]
+	56 [label="Number To String"]
+	25 [label="SQLite Connector"]
+	146 [label="String To Number"]
+	141 [label="Constant Value Column Filter"]
+	48 [label="Category To Number"]
+	144 [label="Row Filter"]
+	42 [label="Missing Value Column Filter"]
+	28 [label="DB Table Selector"]
+	142 [label="Missing Value"]
+	143 [label="Row Filter"]
+	47 [label=Joiner]
+	147 [label="Missing Value Column Filter"]
+	5 [label="CSV Reader"]
+	44 [label="Constant Value Column Filter"]
+	140 [label="Column Filter"]
+	46 [label=Concatenate]
+	39 [label="Row Filter"]
+	30 [label="String To Number"]
+	2 [label="CSV Reader"]
+	45 [label="Missing Value"]
+	rankdir=LR
+}

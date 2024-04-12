@@ -1,0 +1,23 @@
+digraph {
+	12 -> 15
+	4 -> 5
+	3 -> 4
+	13 -> 14
+	6 -> 13
+	14 -> 12
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	13 -> 12
+	5 [label="Cell Splitter"]
+	13 [label="Row Splitter"]
+	1 [label="Tika Parser"]
+	4 [label=Transpose]
+	6 [label="Column Filter"]
+	15 [label="Table View"]
+	14 [label=Transpose]
+	3 [label="Column Filter"]
+	2 [label="Cell Splitter"]
+	12 [label="Insert Column Header"]
+	rankdir=LR
+}

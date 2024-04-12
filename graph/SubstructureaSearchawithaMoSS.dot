@@ -1,0 +1,18 @@
+digraph {
+	37 -> 60
+	51 -> 37
+	54 -> 51
+	53 -> 51
+	60 -> 45
+	51 -> 59
+	59 -> 44
+	44 [label="Interactive Table"]
+	53 [label="File Reader"]
+	45 [label="Interactive Table"]
+	51 [label=Joiner]
+	37 [label=MoSS]
+	54 [label="SDF Reader"]
+	60 [label=MolConverter]
+	59 [label=MolConverter]
+	rankdir=LR
+}

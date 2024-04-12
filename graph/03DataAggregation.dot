@@ -1,0 +1,24 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	4 -> 8
+	9 -> 11
+	9 -> 12
+	1 -> 7
+	2 -> 3
+	6 -> 7
+	5 -> 9
+	3 -> 6
+	5 [label="Table Reader"]
+	1 [label="CSV Reader"]
+	7 [label=Concatenate]
+	9 [label="Cell Replacer"]
+	11 [label=GroupBy]
+	4 [label="Excel Reader"]
+	6 [label="DB Reader"]
+	8 [label=Joiner]
+	3 [label="DB Table Selector"]
+	2 [label="SQLite Connector"]
+	12 [label=Pivoting]
+	rankdir=LR
+}

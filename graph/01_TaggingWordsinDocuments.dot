@@ -1,0 +1,16 @@
+digraph {
+	5 -> 127
+	5 -> 129
+	130 -> 124
+	127 -> 128
+	124 -> 126
+	126 -> 5
+	5 [label="Column Filter"]
+	126 [label="Strings To Document"]
+	127 [label="POS tagger"]
+	128 [label="Stanford tagger"]
+	124 [label="Row Filter"]
+	130 [label="Table Reader"]
+	129 [label="OpenNLP NE tagger"]
+	rankdir=LR
+}

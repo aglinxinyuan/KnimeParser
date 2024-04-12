@@ -1,0 +1,81 @@
+digraph {
+	41 -> 42
+	7 -> 8
+	42 -> 46
+	27 -> 28
+	23 -> 26
+	12 -> 13
+	13 -> 20
+	34 -> 43
+	38 -> 62
+	46 -> 34
+	31 -> 32
+	49 -> 54
+	1 -> 49
+	8 -> 58
+	58 -> 38
+	8 -> 12
+	24 -> 27
+	38 -> 7
+	9 -> 8
+	33 -> 35
+	29 -> 31
+	53 -> 57
+	27 -> 39
+	17 -> 5
+	54 -> 17
+	39 -> 32
+	60 -> 61
+	3 -> 6
+	26 -> 28
+	5 -> 3
+	32 -> 33
+	35 -> 41
+	57 -> 60
+	62 -> 63
+	61 -> 38
+	36 -> 47
+	8 -> 53
+	6 -> 9
+	28 -> 29
+	27 [label="Column Filter"]
+	57 [label="String Manipulation"]
+	7 [label="String Manipulation"]
+	9 [label="Kuhlen Stemmer"]
+	26 [label="Column Filter"]
+	58 [label="Column Filter"]
+	8 [label="Bag Of Words Creator"]
+	17 [label="Strings To Document"]
+	3 [label="N Chars Filter"]
+	24 [label="Excel Reader"]
+	49 [label="String Manipulation _Multi Column_"]
+	41 [label="Punctuation Erasure"]
+	31 [label="Column Rename"]
+	6 [label="Stop Word Filter"]
+	54 [label="Row Filter"]
+	12 [label=GroupBy]
+	1 [label="Excel Reader"]
+	42 [label="Stop Word Filter"]
+	53 [label=GroupBy]
+	28 [label=Joiner]
+	23 [label="Excel Reader"]
+	47 [label="Row Filter"]
+	61 [label="Row Filter"]
+	63 [label="Row Filter"]
+	38 [label="Cross Joiner"]
+	60 [label="String Manipulation"]
+	5 [label="Punctuation Erasure"]
+	13 [label=Sorter]
+	20 [label="Row Filter"]
+	35 [label="Strings To Document"]
+	34 [label="Bag Of Words Creator"]
+	43 [label=GroupBy]
+	29 [label="Column Filter"]
+	62 [label=GroupBy]
+	36 [label="Table Creator"]
+	46 [label="Case Converter"]
+	39 [label="Row Filter"]
+	33 [label="Row Filter"]
+	32 [label=Concatenate]
+	rankdir=LR
+}

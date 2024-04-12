@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	1 -> 5
+	3 -> 4
+	4 -> 5
+	5 [label="DB Writer"]
+	1 [label="PostgreSQL Connector"]
+	4 [label=Ungroup]
+	3 [label="JSON Path"]
+	2 [label="Container Input _JSON_"]
+	rankdir=LR
+}

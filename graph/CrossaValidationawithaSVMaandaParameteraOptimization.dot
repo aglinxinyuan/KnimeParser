@@ -1,0 +1,19 @@
+digraph {
+	18 -> 2
+	21 -> 2
+	20 -> 19
+	2 -> 19
+	16 -> 22
+	19 -> 1
+	1 -> 16
+	2 -> 20
+	16 [label=Scorer]
+	20 [label="SVM Learner"]
+	1 [label=X_Aggregator]
+	22 [label="Parameter Optimization Loop End"]
+	18 [label="Table Reader"]
+	21 [label="Parameter Optimization Loop Start"]
+	2 [label=X_Partitioner]
+	19 [label="SVM Predictor"]
+	rankdir=LR
+}

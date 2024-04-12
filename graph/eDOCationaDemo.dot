@@ -1,0 +1,20 @@
+digraph {
+	7 -> 8
+	10 -> 9
+	8 -> 10
+	3 -> 5
+	2 -> 6
+	6 -> 7
+	2 -> 4
+	3 -> 6
+	5 [label=Statistics]
+	7 [label="Row Filter"]
+	9 [label="Scatter Plot"]
+	4 [label=Statistics]
+	6 [label=Joiner]
+	8 [label="Number To String"]
+	3 [label="CSV Reader"]
+	2 [label="Excel Reader"]
+	10 [label="Color Manager"]
+	rankdir=LR
+}

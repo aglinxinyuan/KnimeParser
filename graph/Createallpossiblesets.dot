@@ -1,0 +1,30 @@
+digraph {
+	68 -> 69
+	48 -> 49
+	50 -> 52
+	66 -> 67
+	63 -> 65
+	49 -> 53
+	69 -> 63
+	53 -> 66
+	52 -> 48
+	62 -> 63
+	65 -> 50
+	64 -> 65
+	62 -> 68
+	63 -> 64
+	48 [label="Create Collection Column"]
+	64 [label="Cross Joiner"]
+	50 [label="Column Aggregator"]
+	49 [label="Duplicate Row Filter"]
+	66 [label="Counter Generation"]
+	53 [label="Split Collection Column"]
+	62 [label="Table Creator"]
+	68 [label="Extract Table Dimension"]
+	65 [label="Recursive Loop End"]
+	67 [label=Unpivoting]
+	69 [label="Math Formula _Variable_"]
+	63 [label="Recursive Loop Start"]
+	52 [label="Split Collection Column"]
+	rankdir=LR
+}

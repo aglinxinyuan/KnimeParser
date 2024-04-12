@@ -1,0 +1,19 @@
+digraph {
+	9 -> 8
+	4 -> 5
+	12 -> 9
+	8 -> 6
+	4 -> 12
+	5 -> 6
+	1 -> 2
+	2 -> 4
+	5 [label="Credentials Configuration"]
+	1 [label="Extract Context Properties"]
+	9 [label="Space Connector"]
+	4 [label="CASE Switch Start"]
+	6 [label="CASE Switch End"]
+	8 [label="Call Workflow Service"]
+	2 [label="Rule Engine Variable"]
+	12 [label="KNIME Hub Authenticator"]
+	rankdir=LR
+}

@@ -1,0 +1,74 @@
+digraph {
+	93 -> 94
+	42 -> 43
+	90 -> 83
+	52 -> 91
+	64 -> 73
+	3 -> 42
+	33 -> 101
+	87 -> 88
+	52 -> 64
+	33 -> 29
+	43 -> 45
+	69 -> 32
+	94 -> 96
+	92 -> 93
+	99 -> 98
+	52 -> 61
+	52 -> 96
+	91 -> 92
+	64 -> 63
+	40 -> 56
+	74 -> 67
+	33 -> 52
+	96 -> 99
+	33 -> 84
+	84 -> 87
+	35 -> 58
+	40 -> 80
+	52 -> 35
+	44 -> 40
+	89 -> 90
+	32 -> 33
+	88 -> 89
+	99 -> 100
+	45 -> 69
+	35 -> 44
+	91 [label="Duplicate Row Filter"]
+	89 [label="String To Number _PMML_"]
+	52 [label="Column Filter Configuration"]
+	58 [label=Statistics]
+	74 [label="Read from KML"]
+	3 [label="CSV Reader"]
+	64 [label="Date_Time_based Row Filter"]
+	92 [label="Table View"]
+	84 [label=RowID]
+	98 [label="Line Plot _Plotly_"]
+	56 [label="Scatter Plot _local_"]
+	90 [label="Row Filter _Labs_"]
+	42 [label="Cell Splitter"]
+	87 [label="Cell Splitter"]
+	67 [label="View Geometries as Map"]
+	101 [label="Linear Correlation"]
+	61 [label=GroupBy]
+	63 [label="Bar Chart"]
+	93 [label="Row Filter _Labs_"]
+	100 [label="Scatter Plot"]
+	83 [label="Bar Chart"]
+	73 [label="Tile View"]
+	94 [label="Column Filter"]
+	99 [label="Color Manager"]
+	43 [label="Column Rename"]
+	35 [label="Date_Time_based Row Filter"]
+	44 [label="Color Manager"]
+	96 [label=Joiner]
+	29 [label="CSV Writer"]
+	69 [label="Extract Date_Time Fields"]
+	88 [label="Column Filter"]
+	40 [label="Line Plot _Plotly_"]
+	80 [label="Scatter Plot _JFreeChart_"]
+	33 [label="Missing Value"]
+	32 [label="Column Filter"]
+	45 [label="String to Date_Time"]
+	rankdir=LR
+}

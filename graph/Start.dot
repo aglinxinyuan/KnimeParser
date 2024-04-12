@@ -1,0 +1,58 @@
+digraph {
+	13 -> 14
+	34 -> 35
+	41 -> 39
+	34 -> 18
+	38 -> 34
+	54 -> 55
+	31 -> 3
+	1 -> 24
+	22 -> 11
+	4 -> 24
+	31 -> 1
+	45 -> 43
+	12 -> 22
+	24 -> 25
+	31 -> 4
+	48 -> 52
+	39 -> 33
+	18 -> 35
+	54 -> 29
+	40 -> 31
+	3 -> 25
+	43 -> 44
+	31 -> 24
+	31 -> 2
+	49 -> 42
+	55 [label="GWR Predictor"]
+	52 [label="Transfer Files"]
+	18 [label="Google Sheets Reader"]
+	3 [label="File Reader _Complex Format_"]
+	24 [label="Excel Cell Updater"]
+	49 [label="FTP Connection _legacy_"]
+	41 [label="Google Authentication _API Key_"]
+	31 [label="Google Drive Connector"]
+	25 [label="Excel Writer"]
+	54 [label="GWR Model"]
+	12 [label="Python Object Reader _legacy_"]
+	48 [label="FTP Connector"]
+	1 [label="Excel Reader"]
+	42 [label="Download _legacy_"]
+	22 [label="mbox Reader"]
+	11 [label="RSS Feed Reader"]
+	4 [label="CSV Reader"]
+	14 [label="Image Reader _Table_"]
+	38 [label="Google Authentication"]
+	13 [label="Image Reader"]
+	35 [label="Google Sheets Writer"]
+	43 [label="Google Analytics Connection"]
+	34 [label="Google Sheets Connection"]
+	44 [label="Google Analytics Query"]
+	29 [label="Model Writer"]
+	40 [label="Google Authentication"]
+	39 [label="Google Cloud Storage Connection _legacy_"]
+	33 [label="Google Cloud Storage File Picker _legacy_"]
+	2 [label="File Reader"]
+	45 [label="Google Authentication"]
+	rankdir=LR
+}

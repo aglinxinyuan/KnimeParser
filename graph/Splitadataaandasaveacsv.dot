@@ -1,0 +1,17 @@
+digraph {
+	32 -> 38
+	38 -> 39
+	32 -> 36
+	42 -> 32
+	43 -> 38
+	36 -> 43
+	44 -> 32
+	43 [label="String to Path _Variable_"]
+	44 [label="CSV Reader"]
+	42 [label="Variable Creator"]
+	36 [label="String Manipulation _Variable_"]
+	39 [label="Variable Loop End"]
+	32 [label="Group Loop Start"]
+	38 [label="CSV Writer"]
+	rankdir=LR
+}

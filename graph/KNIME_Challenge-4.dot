@@ -1,0 +1,16 @@
+digraph {
+	1 -> 4
+	4 -> 2
+	7 -> 6
+	2 -> 5
+	5 -> 7
+	6 -> 8
+	5 [label="Lag Column"]
+	1 [label="CSV Reader"]
+	7 [label="Missing Value"]
+	4 [label="String to Date_Time"]
+	6 [label="Math Formula"]
+	8 [label="Column Filter"]
+	2 [label="Line Plot"]
+	rankdir=LR
+}

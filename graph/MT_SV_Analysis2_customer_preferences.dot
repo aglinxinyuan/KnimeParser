@@ -1,0 +1,26 @@
+digraph {
+	88 -> 90
+	63 -> 87
+	49 -> 50
+	87 -> 88
+	63 -> 65
+	51 -> 64
+	50 -> 51
+	63 -> 82
+	82 -> 85
+	85 -> 84
+	64 -> 63
+	64 [label="Cell Splitter"]
+	50 [label="Column Filter"]
+	90 [label=Heatmap]
+	49 [label="Excel Reader"]
+	84 [label=Heatmap]
+	82 [label=Pivoting]
+	87 [label=Pivoting]
+	65 [label="Bar Chart"]
+	51 [label="Row Splitter"]
+	88 [label="Column Rename"]
+	63 [label=Ungroup]
+	85 [label="Column Rename"]
+	rankdir=LR
+}

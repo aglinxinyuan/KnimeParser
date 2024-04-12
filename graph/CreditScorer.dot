@@ -1,0 +1,14 @@
+digraph {
+	77 -> 78
+	96 -> 55
+	55 -> 98
+	97 -> 77
+	78 -> 55
+	96 [label="PortObject Reference Reader"]
+	55 [label="Random Forest Predictor"]
+	98 [label="Workflow Service Output"]
+	97 [label="Workflow Service Input"]
+	77 [label="String Manipulation _Multi Column_"]
+	78 [label="Rule Engine"]
+	rankdir=LR
+}

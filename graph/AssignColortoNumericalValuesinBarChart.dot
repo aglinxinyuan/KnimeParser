@@ -1,0 +1,45 @@
+digraph {
+	7 -> 17
+	44 -> 46
+	39 -> 40
+	8 -> 33
+	3 -> 44
+	3 -> 7
+	24 -> 30
+	33 -> 24
+	30 -> 31
+	31 -> 32
+	46 -> 26
+	40 -> 42
+	17 -> 18
+	44 -> 45
+	3 -> 39
+	45 -> 46
+	24 -> 25
+	25 -> 32
+	29 -> 8
+	36 -> 42
+	3 -> 36
+	42 -> 26
+	7 [label=Sorter]
+	18 [label="GroupBy Bar Chart _JFreeChart_"]
+	26 [label="Bar Chart"]
+	8 [label=Pivoting]
+	17 [label="Color Manager"]
+	3 [label="Table Creator"]
+	24 [label="Extract Column Header"]
+	31 [label="Color Manager"]
+	25 [label=Transpose]
+	30 [label=Transpose]
+	42 [label=Joiner]
+	44 [label="Column Splitter"]
+	29 [label="Constant Value Column"]
+	36 [label=Sorter]
+	46 [label=Joiner]
+	40 [label=Pivoting]
+	39 [label="Rule Engine"]
+	33 [label="Column Filter"]
+	32 [label=Joiner]
+	45 [label="Color Manager"]
+	rankdir=LR
+}

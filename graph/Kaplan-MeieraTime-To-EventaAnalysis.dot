@@ -1,0 +1,8 @@
+digraph {
+	32 -> 10
+	29 -> 32
+	29 [label="XPT Reader _Beta_"]
+	10 [label="Kaplan_Meier Estimator"]
+	32 [label="Column Expressions"]
+	rankdir=LR
+}

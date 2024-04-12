@@ -1,0 +1,53 @@
+digraph {
+	1870 -> 1874
+	1870 -> 1872
+	1864 -> 1865
+	1839 -> 1840
+	1 -> 6
+	6 -> 8
+	3 -> 7
+	1859 -> 1860
+	1870 -> 1871
+	9 -> 1839
+	1842 -> 1859
+	1 -> 1872
+	1862 -> 1864
+	1869 -> 1
+	1868 -> 1869
+	1 -> 7
+	1860 -> 1863
+	7 -> 1870
+	1840 -> 1841
+	1844 -> 1842
+	3 -> 8
+	1841 -> 1844
+	8 -> 7
+	1863 -> 1862
+	1867 -> 1868
+	1865 -> 1867
+	1841 [label="String Manipulation"]
+	7 [label="DB Loader"]
+	9 [label="Extract Context Properties"]
+	1868 [label="Delete Files_Folders"]
+	8 [label="DB Table Creator"]
+	1867 [label="Delete Files_Folders"]
+	1860 [label="Table Row to Variable"]
+	3 [label="Data Generator"]
+	1865 [label="Create Folder"]
+	1840 [label="String Manipulation"]
+	1839 [label="Table Creator"]
+	1863 [label="String to Path _Variable_"]
+	1869 [label="Delete Files_Folders"]
+	6 [label="DB Table Remover"]
+	1862 [label="Create Folder"]
+	1859 [label="String Manipulation"]
+	1872 [label="Hive to Spark"]
+	1874 [label="DB Query"]
+	1 [label="Create Local Big Data Environment"]
+	1870 [label="DB Table Selector"]
+	1864 [label="Create Folder"]
+	1842 [label="String Manipulation"]
+	1844 [label="String Manipulation"]
+	1871 [label="DB Query"]
+	rankdir=LR
+}

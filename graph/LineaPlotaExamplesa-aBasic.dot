@@ -1,0 +1,17 @@
+digraph {
+	18 -> 19
+	147 -> 150
+	147 -> 148
+	20 -> 148
+	19 -> 20
+	147 -> 149
+	147 -> 18
+	150 [label="JavaScript Line Plot"]
+	148 [label="JavaScript Line Plot"]
+	20 [label="Color Manager"]
+	18 [label="Extract Column Header"]
+	147 [label="Table Reader"]
+	149 [label="JavaScript Line Plot"]
+	19 [label=Transpose]
+	rankdir=LR
+}

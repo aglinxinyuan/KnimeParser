@@ -1,0 +1,61 @@
+digraph {
+	27 -> 85
+	20 -> 21
+	21 -> 23
+	93 -> 94
+	21 -> 19
+	23 -> 24
+	21 -> 25
+	25 -> 22
+	83 -> 84
+	19 -> 21
+	79 -> 78
+	24 -> 92
+	22 -> 23
+	94 -> 19
+	99 -> 17
+	17 -> 92
+	92 -> 93
+	17 -> 86
+	87 -> 83
+	27 -> 100
+	84 -> 19
+	89 -> 91
+	85 -> 86
+	86 -> 79
+	24 -> 25
+	23 -> 27
+	78 -> 87
+	19 -> 20
+	86 -> 93
+	17 -> 19
+	91 -> 90
+	25 -> 27
+	93 -> 89
+	90 -> 92
+	91 [label="Column Filter"]
+	27 [label="Color Manager"]
+	79 [label="Punctuation Erasure"]
+	89 [label=GroupBy]
+	21 [label=TF]
+	17 [label="SPARQL Select Query"]
+	19 [label="Tags to String"]
+	78 [label="Case converter"]
+	24 [label="Column Filter"]
+	92 [label="Strings To Document"]
+	84 [label="Bag Of Words Creator"]
+	25 [label="Row Filter"]
+	85 [label="Strings To Document"]
+	86 [label="POS Tagger"]
+	90 [label="Row Filter"]
+	22 [label="Row Filter"]
+	87 [label="Stop Word Filter"]
+	23 [label="Frequency Filter"]
+	93 [label="Bag Of Words Creator"]
+	100 [label="Tag Cloud"]
+	83 [label="Tag Filter"]
+	94 [label="SPARQL Query"]
+	99 [label="SPARQL Endpoint"]
+	20 [label="String Manipulation"]
+	rankdir=LR
+}

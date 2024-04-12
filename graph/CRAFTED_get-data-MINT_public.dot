@@ -1,0 +1,78 @@
+digraph {
+	424 -> 425
+	392 -> 395
+	465 -> 467
+	392 -> 386
+	354 -> 467
+	385 -> 392
+	431 -> 423
+	408 -> 397
+	386 -> 398
+	432 -> 369
+	369 -> 429
+	369 -> 432
+	397 -> 396
+	396 -> 391
+	346 -> 348
+	389 -> 394
+	394 -> 395
+	368 -> 385
+	394 -> 403
+	430 -> 431
+	423 -> 427
+	427 -> 428
+	458 -> 465
+	423 -> 424
+	398 -> 455
+	395 -> 394
+	402 -> 408
+	376 -> 395
+	428 -> 430
+	348 -> 368
+	391 -> 389
+	384 -> 394
+	455 -> 402
+	384 -> 385
+	425 -> 428
+	355 -> 354
+	355 -> 458
+	456 -> 369
+	467 -> 456
+	423 -> 368
+	432 [label="String Manipulation"]
+	354 [label=XPath]
+	398 [label="Row Filter"]
+	458 [label=XPath]
+	394 [label="JSON Transformer"]
+	431 [label="Rule Engine"]
+	384 [label="Table Creator"]
+	423 [label="String Manipulation"]
+	408 [label="Python Script"]
+	467 [label=Joiner]
+	403 [label="Loop End"]
+	425 [label="String Manipulation"]
+	465 [label="Row Filter"]
+	376 [label="MongoDB Connector"]
+	424 [label="String Manipulation"]
+	348 [label="String to Path _Variable_"]
+	392 [label="Missing Value"]
+	386 [label="Row Filter"]
+	428 [label=Concatenate]
+	427 [label="Constant Value Column"]
+	391 [label="Constant Value Column"]
+	397 [label="String Manipulation"]
+	385 [label="Cell Replacer"]
+	396 [label="Python Script"]
+	429 [label=GroupBy]
+	456 [label="Column Merger"]
+	346 [label="Variable Creator"]
+	430 [label="Rule Engine"]
+	369 [label="String Manipulation"]
+	368 [label="String Manipulation"]
+	455 [label="Row Filter"]
+	389 [label="String to JSON"]
+	395 [label="MongoDB Writer"]
+	355 [label="XML Reader"]
+	402 [label="Chunk Loop Start"]
+	rankdir=LR
+}

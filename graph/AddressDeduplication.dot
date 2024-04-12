@@ -1,0 +1,26 @@
+digraph {
+	42 -> 29
+	42 -> 27
+	53 -> 42
+	39 -> 11
+	53 -> 43
+	27 -> 33
+	43 -> 41
+	41 -> 11
+	42 -> 39
+	43 -> 39
+	33 -> 39
+	29 -> 33
+	11 -> 13
+	27 [label="String Distances"]
+	13 [label="Rule Engine"]
+	43 [label=GroupBy]
+	42 [label=RowID]
+	29 [label="String Distances"]
+	41 [label="Column Rename _Regex_"]
+	53 [label="ARFF Reader"]
+	11 [label=Joiner]
+	39 [label="Similarity Search"]
+	33 [label="Aggregated Distance"]
+	rankdir=LR
+}

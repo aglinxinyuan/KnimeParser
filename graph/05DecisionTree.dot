@@ -1,0 +1,13 @@
+digraph {
+	38 -> 39
+	39 -> 40
+	1 -> 38
+	40 -> 41
+	38 -> 40
+	1 [label="CSV Reader"]
+	41 [label="Scorer _JavaScript_"]
+	40 [label="Decision Tree Predictor"]
+	39 [label="Decision Tree Learner"]
+	38 [label=Partitioning]
+	rankdir=LR
+}

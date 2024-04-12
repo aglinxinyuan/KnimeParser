@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	3 -> 4
+	4 -> 5
+	5 [label=Pivoting]
+	1 [label="Excel Reader"]
+	4 [label=GroupBy]
+	3 [label="Rule Engine"]
+	2 [label=Unpivoting]
+	rankdir=LR
+}

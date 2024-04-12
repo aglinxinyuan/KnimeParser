@@ -1,0 +1,56 @@
+digraph {
+	12 -> 15
+	40 -> 8
+	20 -> 21
+	8 -> 9
+	7 -> 40
+	4 -> 23
+	3 -> 7
+	30 -> 31
+	29 -> 30
+	26 -> 31
+	30 -> 27
+	16 -> 14
+	17 -> 18
+	22 -> 24
+	24 -> 23
+	15 -> 16
+	23 -> 5
+	18 -> 20
+	25 -> 30
+	13 -> 12
+	7 -> 9
+	23 -> 6
+	30 -> 26
+	9 -> 10
+	1 -> 3
+	27 [label="Bar Chart"]
+	7 [label="Group Loop Start"]
+	9 [label="Excel Writer"]
+	18 [label="Table Row To Variable Loop Start"]
+	21 [label="Loop End"]
+	26 [label="Scatter Plot"]
+	8 [label="Create File_Folder Variables"]
+	17 [label="Read Excel Sheet Names"]
+	3 [label="Rule Engine"]
+	24 [label="Rule Engine Variable"]
+	31 [label="CASE Switch End"]
+	6 [label="Bar Chart"]
+	15 [label="Group Loop Start"]
+	25 [label="Single Selection Configuration"]
+	12 [label="Rule Engine"]
+	10 [label="Variable Loop End"]
+	16 [label="Excel Writer"]
+	1 [label="CSV Reader"]
+	22 [label="Single Selection Configuration"]
+	23 [label="IF Switch"]
+	4 [label="Data Generator"]
+	14 [label="Variable Loop End"]
+	5 [label="Scatter Plot"]
+	13 [label="CSV Reader"]
+	20 [label="Excel Reader"]
+	29 [label="Data Generator"]
+	40 [label="String Manipulation _Variable_"]
+	30 [label="CASE Switch Start"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	12 -> 13
+	21 -> 24
+	24 -> 35
+	90 -> 13
+	12 -> 14
+	13 -> 14
+	35 -> 22
+	19 -> 89
+	22 -> 12
+	11 -> 21
+	14 -> 19
+	24 [label="Category To Number"]
+	13 [label="Decision Tree Learner"]
+	35 [label="Number To String"]
+	90 [label="Parameter Optimization Loop Start"]
+	22 [label="Column Filter"]
+	89 [label="Parameter Optimization Loop End"]
+	11 [label="CSV Reader"]
+	21 [label="Rule Engine"]
+	14 [label="Decision Tree Predictor"]
+	12 [label=Partitioning]
+	19 [label=Scorer]
+	rankdir=LR
+}

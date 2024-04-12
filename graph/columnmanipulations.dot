@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	3 -> 4
+	4 -> 5
+	5 [label="Column Filter"]
+	1 [label="Table Creator"]
+	4 [label="String Manipulation"]
+	3 [label="Rule Engine"]
+	2 [label="Cell Splitter"]
+	rankdir=LR
+}

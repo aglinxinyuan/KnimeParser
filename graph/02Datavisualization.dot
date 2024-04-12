@@ -1,0 +1,26 @@
+digraph {
+	20 -> 21
+	17 -> 24
+	21 -> 14
+	19 -> 17
+	16 -> 19
+	15 -> 16
+	18 -> 20
+	25 -> 27
+	14 -> 15
+	24 -> 25
+	17 -> 22
+	16 [label="Bag Of Words Creator"]
+	24 [label=Sorter]
+	27 [label="Bar Chart"]
+	20 [label="Row Filter"]
+	22 [label="Tag Cloud"]
+	21 [label="Strings To Document"]
+	18 [label="Table Reader"]
+	15 [label="Punctuation Erasure"]
+	25 [label="Row Filter"]
+	14 [label="Case Converter"]
+	17 [label="Term To String"]
+	19 [label=TF]
+	rankdir=LR
+}

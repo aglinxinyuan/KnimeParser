@@ -1,0 +1,22 @@
+digraph {
+	4 -> 7
+	4 -> 8
+	3 -> 4
+	3 -> 5
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	5 -> 9
+	4 -> 6
+	6 -> 8
+	5 [label="Hierarchical Clustering"]
+	1 [label="Excel Reader"]
+	7 [label="Hierarchical Cluster View"]
+	9 [label="Bar Chart"]
+	4 [label="Distance Matrix Calculate"]
+	6 [label="Hierarchical Clustering _DistMatrix_"]
+	8 [label="Hierarchical Cluster Assigner _local_"]
+	3 [label=Normalizer]
+	2 [label="Number To String"]
+	rankdir=LR
+}

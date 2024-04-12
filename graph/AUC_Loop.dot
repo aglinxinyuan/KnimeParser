@@ -1,0 +1,27 @@
+digraph {
+	6 -> 5
+	11 -> 10
+	7 -> 8
+	1 -> 4
+	4 -> 2
+	8 -> 9
+	9 -> 11
+	3 -> 5
+	2 -> 6
+	4 -> 11
+	5 -> 7
+	2 -> 3
+	4 -> 6
+	5 [label="Logistic Regression Predictor"]
+	1 [label="Data Generator"]
+	7 [label="Column Filter"]
+	9 [label="Loop End _Column Append_"]
+	11 [label="Joiner _Labs_"]
+	4 [label=Partitioning]
+	6 [label="Reference Column Filter"]
+	8 [label="Column Rename _Regex_"]
+	3 [label="Logistic Regression Learner"]
+	2 [label="Column List Loop Start"]
+	10 [label="ROC Curve"]
+	rankdir=LR
+}

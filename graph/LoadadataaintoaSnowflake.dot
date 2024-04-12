@@ -1,0 +1,24 @@
+digraph {
+	33 -> 34
+	31 -> 21
+	22 -> 32
+	32 -> 33
+	39 -> 21
+	35 -> 36
+	34 -> 35
+	21 -> 18
+	18 -> 22
+	36 -> 37
+	35 [label="DB Row Filter"]
+	34 [label="DB Query"]
+	22 [label="DB Table Selector"]
+	31 [label="CSV Reader"]
+	36 [label="DB GroupBy"]
+	18 [label="DB Loader"]
+	21 [label="DB Table Creator"]
+	39 [label="Snowflake Connector"]
+	33 [label="DB Sorter"]
+	32 [label="DB Row Sampling"]
+	37 [label="DB Reader"]
+	rankdir=LR
+}

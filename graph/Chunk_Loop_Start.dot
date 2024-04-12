@@ -1,0 +1,10 @@
+digraph {
+	2 -> 5
+	5 -> 4
+	1 -> 2
+	1 [label="Table Creator"]
+	4 [label="Loop End"]
+	5 [label="Value Counter"]
+	2 [label="Chunk Loop Start"]
+	rankdir=LR
+}

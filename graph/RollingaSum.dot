@@ -1,0 +1,14 @@
+digraph {
+	4 -> 2
+	5 -> 4
+	2 -> 6
+	6 -> 7
+	1 -> 5
+	5 [label="Group Loop Start"]
+	1 [label="Table Creator"]
+	7 [label="Column Expressions"]
+	4 [label=Rank]
+	6 [label="Loop End"]
+	2 [label="Moving Aggregator"]
+	rankdir=LR
+}

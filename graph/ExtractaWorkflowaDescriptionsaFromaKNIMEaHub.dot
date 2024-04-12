@@ -1,0 +1,33 @@
+digraph {
+	41 -> 42
+	53 -> 35
+	51 -> 50
+	48 -> 49
+	53 -> 42
+	56 -> 45
+	47 -> 49
+	54 -> 41
+	49 -> 53
+	42 -> 43
+	50 -> 47
+	43 -> 56
+	45 -> 58
+	58 -> 59
+	35 -> 54
+	48 [label="String Configuration"]
+	43 [label="Content Retriever"]
+	35 [label="Content Retriever"]
+	50 [label=Navigator]
+	42 [label=Navigator]
+	49 [label="Text Sender"]
+	41 [label="Table Row To Variable Loop Start"]
+	53 [label=Clicker]
+	51 [label="Web Interaction Start"]
+	47 [label=Clicker]
+	56 [label=XPath]
+	58 [label="String Manipulation _Multi Column_"]
+	54 [label="Row Filter"]
+	45 [label="Loop End"]
+	59 [label="Row Filter"]
+	rankdir=LR
+}

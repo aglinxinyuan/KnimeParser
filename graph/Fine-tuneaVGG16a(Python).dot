@@ -1,0 +1,30 @@
+digraph {
+	229 -> 196
+	253 -> 223
+	223 -> 221
+	196 -> 228
+	221 -> 258
+	258 -> 196
+	199 -> 211
+	257 -> 258
+	232 -> 199
+	84 -> 253
+	256 -> 257
+	228 -> 199
+	223 -> 229
+	229 -> 232
+	232 [label=RowID]
+	228 [label="Rule Engine"]
+	211 [label=Scorer]
+	223 [label=Partitioning]
+	229 [label="Column Filter"]
+	256 [label="DL Python Network Creator"]
+	257 [label="DL Python Network Editor"]
+	84 [label="Table Reader"]
+	196 [label="DL Python Network Executor"]
+	253 [label="Category To Number"]
+	258 [label="DL Python Network Learner"]
+	221 [label=Shuffle]
+	199 [label=Joiner]
+	rankdir=LR
+}

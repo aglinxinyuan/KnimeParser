@@ -1,0 +1,17 @@
+digraph {
+	333 -> 9
+	12 -> 334
+	334 -> 7
+	6 -> 10
+	9 -> 12
+	9 -> 10
+	10 -> 12
+	334 [label=Scorer]
+	7 [label="Parameter Optimization Loop End"]
+	9 [label=Partitioning]
+	333 [label="Data Generator"]
+	10 [label="Decision Tree Learner"]
+	6 [label="Parameter Optimization Loop Start"]
+	12 [label="Decision Tree Predictor"]
+	rankdir=LR
+}

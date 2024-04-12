@@ -1,0 +1,54 @@
+digraph {
+	20 -> 21
+	12 -> 14
+	4 -> 27
+	1 -> 19
+	21 -> 11
+	1 -> 25
+	1 -> 4
+	4 -> 22
+	17 -> 7
+	18 -> 8
+	25 -> 26
+	11 -> 12
+	7 -> 14
+	14 -> 18
+	7 -> 18
+	19 -> 4
+	22 -> 20
+	9 -> 10
+	12 -> 17
+	13 -> 12
+	3 -> 19
+	8 -> 28
+	20 -> 10
+	27 -> 8
+	19 -> 26
+	2 -> 3
+	4 -> 13
+	10 -> 21
+	11 -> 13
+	27 [label=RowID]
+	7 [label="Table Row to Variable"]
+	9 [label="Table Creator"]
+	18 [label="Merge Variables"]
+	21 [label="CASE Switch End"]
+	26 [label="Rule_based Row Filter"]
+	8 [label="Variable Condition Loop End"]
+	17 [label=GroupBy]
+	3 [label="Table Row to Variable"]
+	19 [label="Merge Variables"]
+	25 [label="Moving Aggregation"]
+	12 [label=Concatenate]
+	10 [label="Table Writer"]
+	1 [label="Table Creator"]
+	22 [label="Java Edit Variable _simple_"]
+	28 [label=RowID]
+	11 [label="Table Reader"]
+	4 [label="Chunk Loop Start"]
+	14 [label="Table Writer"]
+	13 [label="Reference Column Filter"]
+	20 [label="CASE Switch Start"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

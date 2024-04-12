@@ -1,0 +1,38 @@
+digraph {
+	16 -> 34
+	13 -> 15
+	16 -> 26
+	16 -> 28
+	16 -> 30
+	31 -> 29
+	34 -> 33
+	12 -> 14
+	30 -> 31
+	9 -> 11
+	33 -> 32
+	15 -> 17
+	17 -> 16
+	1 -> 9
+	14 -> 13
+	28 -> 27
+	11 -> 13
+	16 [label=GroupBy]
+	27 [label="Sunburst Chart"]
+	13 [label=Joiner]
+	1 [label="CSV Reader"]
+	34 [label="Column Expressions"]
+	29 [label="Sunburst Chart"]
+	28 [label="Color Manager"]
+	9 [label="Column Expressions"]
+	31 [label="Color Manager"]
+	11 [label="Column Expressions"]
+	26 [label="Sunburst Chart"]
+	15 [label="Table Editor"]
+	32 [label="Sunburst Chart"]
+	14 [label="Column Expressions"]
+	33 [label="Color Manager"]
+	17 [label="Column Resorter"]
+	30 [label="Color Manager"]
+	12 [label="Excel Reader"]
+	rankdir=LR
+}

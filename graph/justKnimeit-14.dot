@@ -1,0 +1,24 @@
+digraph {
+	9 -> 7
+	5 -> 8
+	4 -> 5
+	10 -> 9
+	8 -> 10
+	7 -> 11
+	13 -> 12
+	3 -> 4
+	11 -> 13
+	1 -> 3
+	5 [label=Sorter]
+	13 [label="Row Filter _Labs_"]
+	1 [label="Table Creator"]
+	7 [label="Math Formula"]
+	9 [label="Math Formula"]
+	11 [label="Math Formula"]
+	4 [label="Lag Column"]
+	8 [label="Lag Column"]
+	12 [label="Column Filter"]
+	3 [label=Sorter]
+	10 [label="Missing Value"]
+	rankdir=LR
+}

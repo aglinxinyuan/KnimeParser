@@ -1,0 +1,14 @@
+digraph {
+	9 -> 8
+	8 -> 10
+	9 -> 11
+	11 -> 12
+	6 -> 9
+	9 [label="XLog to Table Converter"]
+	11 [label="DFG Miner"]
+	8 [label="DFG Miner"]
+	6 [label="XES Reader"]
+	12 [label="DFG Visualizer"]
+	10 [label="DFG Visualizer"]
+	rankdir=LR
+}

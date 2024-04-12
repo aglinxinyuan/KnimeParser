@@ -1,0 +1,47 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	12 -> 14
+	1 -> 19
+	2 -> 11
+	20 -> 19
+	14 -> 15
+	17 -> 18
+	1 -> 2
+	11 -> 12
+	10 -> 11
+	13 -> 6
+	15 -> 16
+	1 -> 10
+	1 -> 18
+	3 -> 4
+	15 -> 20
+	1 -> 13
+	9 -> 10
+	18 -> 21
+	16 -> 17
+	1 -> 5
+	7 [label="List Files_Folders"]
+	9 [label="Row Filter"]
+	18 [label="DB Insert"]
+	21 [label="Loop End"]
+	8 [label="Path to String"]
+	17 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	19 [label="DB Insert"]
+	6 [label="DB Reader"]
+	15 [label="Table Row To Variable Loop Start"]
+	12 [label="DB Reader"]
+	10 [label="DB Writer"]
+	16 [label="String to Path _Variable_"]
+	1 [label="Microsoft Access Connector"]
+	11 [label="DB Joiner"]
+	4 [label="Row Filter"]
+	14 [label="Row Filter"]
+	5 [label="DB Writer"]
+	13 [label="DB Table Selector"]
+	20 [label="Variable to Table Row"]
+	2 [label="DB Table Selector"]
+	rankdir=LR
+}

@@ -1,0 +1,108 @@
+digraph {
+	42 -> 44
+	41 -> 42
+	3 -> 50
+	11 -> 32
+	3 -> 41
+	3 -> 49
+	11 -> 33
+	11 -> 3
+	42 -> 43
+	54 -> 53
+	4 -> 54
+	11 -> 27
+	4 -> 45
+	3 -> 42
+	40 -> 37
+	6 -> 36
+	11 -> 19
+	46 -> 48
+	11 -> 4
+	11 -> 16
+	50 -> 51
+	11 -> 25
+	11 -> 17
+	11 -> 12
+	11 -> 22
+	10 -> 11
+	11 -> 29
+	37 -> 38
+	4 -> 40
+	46 -> 47
+	9 -> 8
+	6 -> 35
+	4 -> 37
+	3 -> 5
+	11 -> 20
+	11 -> 34
+	45 -> 46
+	11 -> 26
+	11 -> 28
+	53 -> 56
+	3 -> 6
+	49 -> 50
+	50 -> 52
+	37 -> 39
+	8 -> 10
+	11 -> 14
+	4 -> 53
+	4 -> 46
+	53 -> 55
+	5 -> 6
+	1 -> 9
+	11 -> 18
+	11 -> 30
+	11 -> 13
+	11 -> 21
+	27 [label="Density Plot"]
+	55 [label=Scorer]
+	9 [label="Duplicate Row Filter"]
+	52 [label="ROC Curve"]
+	26 [label="Density Plot"]
+	18 [label="Bar Chart"]
+	21 [label="Bar Chart"]
+	8 [label="Missing Value Column Filter"]
+	32 [label="Box Plot"]
+	17 [label="Bar Chart"]
+	3 [label=Partitioning]
+	19 [label="Bar Chart"]
+	49 [label="Decision Tree Learner"]
+	41 [label="Random Forest Learner"]
+	51 [label=Scorer]
+	56 [label="ROC Curve"]
+	6 [label="Naive Bayes Predictor"]
+	54 [label="Gradient Boosted Trees Learner"]
+	25 [label="Density Plot"]
+	10 [label="Number To String"]
+	12 [label=Statistics]
+	16 [label="Bar Chart"]
+	48 [label="ROC Curve"]
+	50 [label="Decision Tree Predictor"]
+	1 [label="CSV Reader"]
+	42 [label="Random Forest Predictor"]
+	53 [label="Gradient Boosted Trees Predictor"]
+	22 [label="Density Plot"]
+	28 [label="Density Plot"]
+	11 [label="Missing Value"]
+	4 [label=Partitioning]
+	47 [label=Scorer]
+	37 [label="Naive Bayes Predictor"]
+	14 [label=Histogram]
+	38 [label=Scorer]
+	5 [label="Naive Bayes Learner"]
+	13 [label=Histogram]
+	35 [label=Scorer]
+	20 [label="Bar Chart"]
+	34 [label="Box Plot"]
+	43 [label=Scorer]
+	29 [label="Box Plot"]
+	44 [label="ROC Curve"]
+	36 [label="ROC Curve"]
+	46 [label="Random Forest Predictor"]
+	40 [label="Naive Bayes Learner"]
+	39 [label="ROC Curve"]
+	33 [label="Box Plot"]
+	30 [label="Box Plot"]
+	45 [label="Random Forest Learner"]
+	rankdir=LR
+}

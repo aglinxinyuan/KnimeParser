@@ -1,0 +1,17 @@
+digraph {
+	6 -> 8
+	8 -> 10
+	5 -> 7
+	7 -> 9
+	4 -> 6
+	1 -> 5
+	5 [label="Column Filter"]
+	1 [label="Excel Reader"]
+	7 [label="Column Renamer"]
+	9 [label="Table View"]
+	4 [label="Excel Reader"]
+	6 [label="Column Filter"]
+	8 [label="Column Renamer"]
+	10 [label="Table View"]
+	rankdir=LR
+}

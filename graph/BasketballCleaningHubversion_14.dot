@@ -1,0 +1,93 @@
+digraph {
+	41 -> 42
+	20 -> 21
+	4 -> 5
+	29 -> 48
+	29 -> 26
+	29 -> 35
+	42 -> 43
+	29 -> 42
+	29 -> 47
+	6 -> 8
+	21 -> 24
+	26 -> 27
+	1 -> 2
+	11 -> 12
+	25 -> 26
+	23 -> 18
+	29 -> 33
+	29 -> 32
+	8 -> 11
+	33 -> 34
+	17 -> 30
+	48 -> 49
+	23 -> 30
+	13 -> 6
+	15 -> 16
+	5 -> 13
+	6 -> 15
+	18 -> 20
+	47 -> 48
+	28 -> 31
+	35 -> 36
+	36 -> 37
+	6 -> 7
+	29 -> 25
+	6 -> 14
+	29 -> 36
+	7 -> 9
+	17 -> 23
+	32 -> 33
+	31 -> 29
+	8 -> 10
+	3 -> 4
+	17 -> 19
+	29 -> 41
+	30 -> 28
+	2 -> 3
+	18 -> 21
+	16 -> 17
+	27 [label=Scorer]
+	7 [label="Row Filter"]
+	9 [label="CSV Writer"]
+	18 [label=Partitioning]
+	21 [label="Random Forest Predictor"]
+	26 [label="MultiLayerPerceptron Predictor"]
+	8 [label="Row Filter"]
+	32 [label="PNN Learner _DDA_"]
+	17 [label=Normalizer]
+	3 [label="Cell Splitter By Position"]
+	19 [label="Linear Correlation"]
+	24 [label=Scorer]
+	49 [label=Scorer]
+	41 [label="Fuzzy Rule Learner"]
+	31 [label=Normalizer]
+	6 [label="Column Resorter"]
+	15 [label="Missing Value"]
+	25 [label="RProp MLP Learner"]
+	12 [label="CSV Writer"]
+	10 [label="CSV Writer"]
+	16 [label="Numeric Outliers"]
+	48 [label="SVM Predictor"]
+	1 [label="CSV Reader"]
+	42 [label="Fuzzy Rule Predictor"]
+	28 [label="Column Rename"]
+	11 [label="Column Filter"]
+	4 [label="Rule Engine"]
+	23 [label="Number To String"]
+	47 [label="SVM Learner"]
+	14 [label=Statistics]
+	5 [label="Column Filter"]
+	13 [label="Category To Number"]
+	20 [label="Random Forest Learner"]
+	35 [label="Gradient Boosted Trees Learner"]
+	34 [label=Scorer]
+	43 [label=Scorer]
+	29 [label=Partitioning]
+	36 [label="Gradient Boosted Trees Predictor"]
+	33 [label="PNN Predictor"]
+	30 [label=Denormalizer]
+	2 [label="Math Formula"]
+	37 [label=Scorer]
+	rankdir=LR
+}

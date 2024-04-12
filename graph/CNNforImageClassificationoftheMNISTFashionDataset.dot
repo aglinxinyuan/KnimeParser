@@ -1,0 +1,47 @@
+digraph {
+	7 -> 8
+	4 -> 3
+	8 -> 21
+	5 -> 4
+	22 -> 19
+	19 -> 32
+	18 -> 19
+	3 -> 7
+	17 -> 18
+	25 -> 28
+	10 -> 12
+	22 -> 24
+	9 -> 22
+	2 -> 7
+	24 -> 25
+	28 -> 27
+	19 -> 24
+	21 -> 9
+	34 -> 16
+	12 -> 34
+	16 -> 17
+	1 -> 5
+	27 [label=Scorer]
+	7 [label="Cell Replacer"]
+	9 [label="Create Collection Column"]
+	21 [label="Image Calculator"]
+	18 [label="Keras Dense Layer"]
+	8 [label="Category To Number"]
+	17 [label="Keras Dense Layer"]
+	3 [label="String Manipulation"]
+	19 [label="Keras Network Learner"]
+	24 [label="Keras Network Executor"]
+	25 [label="Many to One"]
+	12 [label="Keras Convolution 2D Layer"]
+	10 [label="Keras Input Layer"]
+	16 [label="Keras Flatten Layer"]
+	1 [label="List Files_Folders"]
+	22 [label=Partitioning]
+	28 [label="Column Expressions"]
+	4 [label="Image Reader _Table_"]
+	5 [label="Path to String"]
+	34 [label="Keras Max Pooling 2D Layer"]
+	32 [label="Keras Network Writer"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

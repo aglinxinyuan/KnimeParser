@@ -1,0 +1,8 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	4 [label="Image Viewer"]
+	3 [label="Python Script"]
+	2 [label="Image Generator"]
+	rankdir=LR
+}

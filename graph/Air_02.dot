@@ -1,0 +1,16 @@
+digraph {
+	2 -> 26
+	36 -> 35
+	1 -> 28
+	21 -> 22
+	35 -> 21
+	35 [label="Math Formula"]
+	1 [label="Excel Reader"]
+	22 [label="Rule Engine"]
+	28 [label="Row Filter"]
+	36 [label="Excel Reader"]
+	21 [label="Math Formula"]
+	26 [label="Row Filter"]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

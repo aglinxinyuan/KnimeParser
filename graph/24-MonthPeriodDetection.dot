@@ -1,0 +1,32 @@
+digraph {
+	104 -> 97
+	94 -> 104
+	97 -> 96
+	85 -> 92
+	105 -> 106
+	106 -> 107
+	84 -> 87
+	92 -> 88
+	92 -> 105
+	96 -> 105
+	82 -> 83
+	83 -> 84
+	87 -> 92
+	88 -> 94
+	87 -> 85
+	94 [label="Math Formula"]
+	107 [label="Loop End"]
+	96 [label="Table Row to Variable"]
+	92 [label="Rule_based Row Splitter"]
+	104 [label="Element Selector"]
+	84 [label="Group Loop Start"]
+	82 [label="Table Creator"]
+	87 [label="String to Date_Time"]
+	97 [label="Rule Engine"]
+	106 [label="Loop End"]
+	88 [label="Date_Time Difference"]
+	105 [label="Constant Value Column"]
+	83 [label="Cell Splitter"]
+	85 [label="Table Row To Variable Loop Start"]
+	rankdir=LR
+}

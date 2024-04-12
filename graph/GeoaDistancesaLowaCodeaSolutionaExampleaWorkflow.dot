@@ -1,0 +1,16 @@
+digraph {
+	5 -> 4
+	25 -> 5
+	18 -> 25
+	23 -> 17
+	17 -> 18
+	24 -> 17
+	5 [label="Round Double"]
+	24 [label="CSV Reader"]
+	23 [label="CSV Reader"]
+	4 [label="Table View"]
+	18 [label="String To Number"]
+	25 [label="Python Script _Labs_"]
+	17 [label=Joiner]
+	rankdir=LR
+}

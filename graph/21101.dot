@@ -1,0 +1,25 @@
+digraph {
+	5 -> 20
+	13 -> 14
+	3 -> 5
+	17 -> 19
+	20 -> 14
+	19 -> 18
+	18 -> 20
+	14 -> 15
+	2 -> 16
+	2 -> 3
+	16 -> 17
+	5 [label=XPath]
+	16 [label=XPath]
+	20 [label=Joiner]
+	13 [label="Network Creator"]
+	18 [label="Column Filter"]
+	15 [label="Network Viewer"]
+	14 [label="Object Inserter"]
+	17 [label=XPath]
+	3 [label=XPath]
+	2 [label="XML Reader"]
+	19 [label="String Manipulation"]
+	rankdir=LR
+}

@@ -1,0 +1,35 @@
+digraph {
+	891 -> 860
+	888 -> 889
+	889 -> 890
+	890 -> 891
+	886 -> 887
+	852 -> 862
+	860 -> 859
+	857 -> 856
+	859 -> 870
+	1209 -> 852
+	862 -> 852
+	859 -> 885
+	887 -> 888
+	885 -> 886
+	1208 -> 852
+	856 -> 852
+	885 [label="Column Filter"]
+	856 [label="Table Row to Variable"]
+	859 [label="Column Resorter"]
+	888 [label=XPath]
+	889 [label=XPath]
+	886 [label=XPath]
+	852 [label="Java Edit Variable _simple_"]
+	891 [label=XPath]
+	870 [label="Interactive Table"]
+	862 [label="Variable to Table Row"]
+	857 [label="String Replacer"]
+	887 [label=XPath]
+	1208 [label=MarvinSketch]
+	890 [label=XPath]
+	1209 [label="Double Input"]
+	860 [label=Sorter]
+	rankdir=LR
+}

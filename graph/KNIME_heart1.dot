@@ -1,0 +1,32 @@
+digraph {
+	11 -> 6
+	6 -> 3
+	4 -> 5
+	3 -> 7
+	8 -> 9
+	3 -> 8
+	1 -> 12
+	13 -> 14
+	6 -> 13
+	14 -> 15
+	9 -> 10
+	6 -> 7
+	12 -> 11
+	6 -> 14
+	7 -> 9
+	5 [label="Conditional Box Plot"]
+	13 [label="Naive Bayes Learner"]
+	1 [label="CSV Reader"]
+	7 [label="Normalizer _Apply_"]
+	9 [label="SVM Predictor"]
+	11 [label=PCA]
+	4 [label="Color Manager"]
+	10 [label=Scorer]
+	8 [label="SVM Learner"]
+	6 [label=Partitioning]
+	15 [label=Scorer]
+	14 [label="Naive Bayes Predictor"]
+	3 [label=Normalizer]
+	12 [label="Number To String"]
+	rankdir=LR
+}

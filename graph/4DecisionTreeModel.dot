@@ -1,0 +1,20 @@
+digraph {
+	33 -> 34
+	32 -> 33
+	31 -> 29
+	31 -> 30
+	30 -> 35
+	35 -> 36
+	29 -> 32
+	29 -> 33
+	36 -> 31
+	35 [label="Rule Engine"]
+	34 [label="Scorer _JavaScript_"]
+	29 [label=Partitioning]
+	31 [label="Column Filter"]
+	36 [label="Rule Engine"]
+	32 [label="Decision Tree Learner"]
+	33 [label="Decision Tree Predictor"]
+	30 [label="Rule Engine"]
+	rankdir=LR
+}

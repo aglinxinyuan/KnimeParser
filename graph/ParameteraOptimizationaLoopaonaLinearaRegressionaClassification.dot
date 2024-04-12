@@ -1,0 +1,21 @@
+digraph {
+	324 -> 338
+	330 -> 338
+	338 -> 339
+	337 -> 325
+	330 -> 339
+	340 -> 341
+	341 -> 337
+	332 -> 330
+	339 -> 340
+	339 [label="Regression Predictor"]
+	324 [label="Parameter Optimization Loop Start"]
+	341 [label="Row Filter"]
+	330 [label=Partitioning]
+	338 [label="Linear Regression Learner"]
+	337 [label="Table Row to Variable"]
+	325 [label="Parameter Optimization Loop End"]
+	332 [label="Data Generator"]
+	340 [label="Numeric Scorer"]
+	rankdir=LR
+}

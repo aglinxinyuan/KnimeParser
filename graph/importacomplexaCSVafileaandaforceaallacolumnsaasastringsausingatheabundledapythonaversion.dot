@@ -1,0 +1,52 @@
+digraph {
+	1 -> 1725
+	2 -> 1726
+	1731 -> 1736
+	1726 -> 1731
+	1730 -> 1733
+	54 -> 46
+	1738 -> 1739
+	1741 -> 1742
+	1725 -> 2
+	57 -> 48
+	81 -> 1730
+	56 -> 57
+	58 -> 1738
+	1742 -> 1740
+	1733 -> 2
+	1736 -> 1729
+	46 -> 55
+	48 -> 47
+	1739 -> 1741
+	55 -> 58
+	1729 -> 1734
+	7 -> 54
+	47 -> 46
+	58 -> 81
+	57 [label="Variable to Table Row"]
+	55 [label="Table Row to Variable"]
+	7 [label="Extract System Properties"]
+	1731 [label="Parquet Reader"]
+	58 [label="String to Path _Variable_"]
+	1741 [label="String to Path _Variable_"]
+	56 [label="Extract Context Properties"]
+	54 [label="Table Column to Variable"]
+	1725 [label="Collection to String"]
+	1736 [label=RowID]
+	1729 [label="Table Writer"]
+	48 [label="String Manipulation"]
+	1738 [label="Java Edit Variable _simple_"]
+	1742 [label="Python Script"]
+	1 [label="Test Data Generator"]
+	1726 [label="Python Script"]
+	47 [label="String Manipulation"]
+	81 [label="Java Edit Variable _simple_"]
+	1733 [label="String to Path _Variable_"]
+	1739 [label="Java Edit Variable _simple_"]
+	46 [label="Java Snippet _simple_"]
+	1740 [label="Parquet Reader"]
+	1730 [label="Java Edit Variable _simple_"]
+	2 [label="CSV Writer"]
+	1734 [label="Table Reader"]
+	rankdir=LR
+}

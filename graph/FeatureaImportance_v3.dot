@@ -1,0 +1,56 @@
+digraph {
+	32 -> 6
+	6 -> 5
+	5 -> 8
+	20 -> 21
+	21 -> 23
+	20 -> 30
+	8 -> 9
+	23 -> 24
+	12 -> 14
+	19 -> 18
+	27 -> 28
+	32 -> 2
+	5 -> 20
+	18 -> 25
+	31 -> 32
+	26 -> 27
+	17 -> 18
+	25 -> 26
+	32 -> 14
+	9 -> 16
+	6 -> 20
+	24 -> 19
+	6 -> 10
+	15 -> 12
+	13 -> 8
+	14 -> 13
+	10 -> 15
+	16 -> 17
+	27 [label="Loop End"]
+	9 [label="Numeric Scorer"]
+	18 [label="Math Formula"]
+	21 [label="Numeric Scorer"]
+	26 [label=GroupBy]
+	8 [label="Regression Predictor"]
+	32 [label="Column Filter"]
+	17 [label="Row Filter"]
+	19 [label="Table Row to Variable"]
+	24 [label="Column Rename"]
+	31 [label="CSV Reader"]
+	6 [label=Partitioning]
+	15 [label=Unpivoting]
+	25 [label="Loop End"]
+	12 [label="Table Row To Variable Loop Start"]
+	10 [label="Extract Column Header"]
+	16 [label="String Manipulation"]
+	28 [label="Bar Chart _Labs_"]
+	23 [label="Row Filter"]
+	14 [label="Counting Loop Start"]
+	5 [label="Linear Regression Learner"]
+	20 [label="Regression Predictor"]
+	13 [label="Target Shuffling"]
+	30 [label="Scatter Plot _Labs_"]
+	2 [label=Statistics]
+	rankdir=LR
+}

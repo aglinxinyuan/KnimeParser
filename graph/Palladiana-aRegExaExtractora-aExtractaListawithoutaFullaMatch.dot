@@ -1,0 +1,26 @@
+digraph {
+	130 -> 133
+	130 -> 131
+	129 -> 130
+	138 -> 139
+	129 -> 132
+	132 -> 134
+	137 -> 138
+	133 -> 137
+	136 -> 135
+	129 -> 139
+	129 -> 135
+	134 -> 136
+	133 [label=Ungroup]
+	137 [label=GroupBy]
+	139 [label="Table Difference Checker"]
+	136 [label="Column Rename"]
+	131 [label="Collection Size"]
+	138 [label="Column Rename"]
+	130 [label="Regex Extractor"]
+	135 [label="Table Difference Checker"]
+	134 [label=GroupBy]
+	129 [label="Table Creator"]
+	132 [label="Regex Extractor"]
+	rankdir=LR
+}

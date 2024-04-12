@@ -1,0 +1,8 @@
+digraph {
+	8 -> 7
+	7 -> 5
+	5 [label="DB Reader"]
+	7 [label="DB Table Selector"]
+	8 [label="SQLite Connector"]
+	rankdir=LR
+}

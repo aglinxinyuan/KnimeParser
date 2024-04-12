@@ -1,0 +1,33 @@
+digraph {
+	15 -> 19
+	16 -> 12
+	9 -> 8
+	8 -> 13
+	13 -> 2
+	12 -> 14
+	15 -> 16
+	3 -> 16
+	10 -> 5
+	1 -> 13
+	14 -> 15
+	9 -> 10
+	2 -> 3
+	16 -> 5
+	5 -> 7
+	7 -> 9
+	5 [label="Labeling Filter"]
+	16 [label=Joiner]
+	14 [label="Column Filter"]
+	13 [label=Projector]
+	1 [label="Image Reader"]
+	7 [label="Labeling Arithmetic"]
+	9 [label="Column Rename"]
+	8 [label="Segment Features"]
+	15 [label="Column Rename"]
+	12 [label="Math Formula"]
+	3 [label="Connected Component Analysis"]
+	2 [label="Global Thresholder"]
+	10 [label="Segment Features"]
+	19 [label="Interactive Table"]
+	rankdir=LR
+}

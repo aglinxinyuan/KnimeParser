@@ -1,0 +1,23 @@
+digraph {
+	1342 -> 1340
+	1778 -> 1315
+	1336 -> 1342
+	1340 -> 1338
+	1338 -> 1343
+	1343 -> 1339
+	1341 -> 1341
+	1335 -> 1336
+	1315 -> 1335
+	1339 -> 1315
+	1339 [label="Column Rename"]
+	1340 [label="String Manipulation"]
+	1778 [label="Excel Reader"]
+	1342 [label="Cell Splitter"]
+	1341 [label="Missing Value"]
+	1335 [label="Column Expressions"]
+	1336 [label="Cell Splitter"]
+	1343 [label="Math Formula"]
+	1338 [label="Column Filter"]
+	1315 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

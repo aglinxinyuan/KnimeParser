@@ -1,0 +1,10 @@
+digraph {
+	2 -> 5
+	6 -> 2
+	1 -> 6
+	1 [label="Excel Reader"]
+	2 [label="Python Script"]
+	5 [label=Sorter]
+	6 [label=Sorter]
+	rankdir=LR
+}

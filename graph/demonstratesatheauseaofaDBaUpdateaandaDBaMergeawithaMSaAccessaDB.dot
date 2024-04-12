@@ -1,0 +1,65 @@
+digraph {
+	92 -> 68
+	74 -> 76
+	76 -> 83
+	85 -> 103
+	92 -> 85
+	79 -> 76
+	77 -> 73
+	97 -> 96
+	89 -> 84
+	2 -> 72
+	103 -> 94
+	100 -> 95
+	98 -> 95
+	82 -> 79
+	90 -> 91
+	77 -> 68
+	74 -> 84
+	76 -> 97
+	77 -> 103
+	103 -> 84
+	97 -> 104
+	84 -> 90
+	77 -> 98
+	95 -> 82
+	94 -> 88
+	98 -> 99
+	98 -> 76
+	97 -> 102
+	88 -> 89
+	72 -> 77
+	68 -> 98
+	99 -> 100
+	73 -> 74
+	83 -> 78
+	91 [label="DB Reader"]
+	103 [label="DB Table Creator"]
+	79 [label="DB Reader"]
+	89 [label="DB Reader"]
+	97 [label="DB Connection Extractor"]
+	74 [label="Math Formula _Multi Column_"]
+	78 [label="DB Reader"]
+	92 [label="Microsoft Access Connector"]
+	84 [label="DB Merge"]
+	98 [label="DB Table Creator"]
+	85 [label="DB Table Remover"]
+	90 [label="DB Sorter"]
+	68 [label="DB Table Remover"]
+	72 [label="Column Rename"]
+	76 [label="DB Update"]
+	77 [label="Java Snippet _simple_"]
+	100 [label="DB Reader"]
+	83 [label="DB Sorter"]
+	94 [label="DB Insert"]
+	99 [label="DB Table Selector"]
+	96 [label="DB Table Selector"]
+	102 [label="DB Query Reader"]
+	104 [label="DB Query Reader"]
+	82 [label="DB Sorter"]
+	88 [label="DB Sorter"]
+	95 [label="DB Insert"]
+	73 [label=Partitioning]
+	2 [label="Data Generator"]
+	rankdir=LR
+}

@@ -1,0 +1,41 @@
+digraph {
+	452 -> 377
+	15426 -> 15420
+	377 -> 9687
+	15425 -> 15426
+	473 -> 15428
+	15420 -> 15427
+	15420 -> 469
+	15422 -> 15425
+	446 -> 9688
+	469 -> 473
+	15427 -> 15429
+	9687 -> 473
+	466 -> 15426
+	414 -> 9688
+	15428 -> 15421
+	15421 -> 446
+	9688 -> 159
+	15420 -> 473
+	15429 -> 15428
+	446 -> 414
+	15426 [label="Cross Joiner"]
+	9688 [label=Concatenate]
+	377 [label="Extract Properties"]
+	15420 [label="Chunk Loop Start"]
+	469 [label="Molecule Writer _from MAE_"]
+	15425 [label="Column Rename"]
+	446 [label="Row Splitter"]
+	15429 [label="Column Rename"]
+	15422 [label="Molecule Reader _to MAE_"]
+	15427 [label="Extract Properties"]
+	452 [label="Molecule Reader _to MAE_"]
+	9687 [label=LigPrep]
+	466 [label="Glide Grid Reader"]
+	159 [label="Run Maestro"]
+	414 [label="Run Maestro Command"]
+	15421 [label="Loop End"]
+	15428 [label="Cross Joiner"]
+	473 [label="Glide Ligand Docking"]
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="Excel Reader"]
+	4 [label="Column Filter"]
+	3 [label="Rule Engine"]
+	2 [label=Joiner]
+	rankdir=LR
+}

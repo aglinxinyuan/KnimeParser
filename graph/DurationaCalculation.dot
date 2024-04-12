@@ -1,0 +1,28 @@
+digraph {
+	17 -> 28
+	41 -> 42
+	35 -> 38
+	38 -> 37
+	28 -> 30
+	32 -> 39
+	39 -> 40
+	30 -> 35
+	40 -> 41
+	22 -> 28
+	16 -> 17
+	37 -> 32
+	16 [label="Table Creator"]
+	35 [label="Group Loop Start"]
+	42 [label=Sorter]
+	22 [label="Date_Time Input"]
+	41 [label="Loop End"]
+	28 [label="Rule Engine"]
+	40 [label="Math Formula"]
+	32 [label="Date_Time Difference"]
+	39 [label="Column Merger"]
+	17 [label="String to Date_Time"]
+	30 [label="String to Date_Time"]
+	38 [label=Sorter]
+	37 [label="Date_Time Difference"]
+	rankdir=LR
+}

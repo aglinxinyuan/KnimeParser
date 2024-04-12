@@ -1,0 +1,44 @@
+digraph {
+	40 -> 22
+	24 -> 44
+	51 -> 49
+	44 -> 46
+	22 -> 33
+	24 -> 43
+	34 -> 42
+	38 -> 34
+	18 -> 51
+	58 -> 15
+	17 -> 18
+	47 -> 49
+	33 -> 38
+	15 -> 17
+	49 -> 22
+	45 -> 53
+	39 -> 33
+	59 -> 15
+	42 -> 24
+	46 -> 45
+	18 [label="Column Rename"]
+	58 [label="CSV Reader"]
+	17 [label="Cell Splitter"]
+	24 [label="Rule_based Row Filter"]
+	49 [label=Joiner]
+	51 [label="Column Combiner"]
+	15 [label=Concatenate]
+	59 [label="CSV Reader"]
+	42 [label="Column Rename"]
+	22 [label=Joiner]
+	53 [label="CSV Writer"]
+	47 [label="CSV Reader"]
+	38 [label="String Replacer"]
+	43 [label="Column Filter"]
+	44 [label=GroupBy]
+	34 [label=Unpivoting]
+	46 [label=Sorter]
+	40 [label="Excel Reader"]
+	39 [label="CSV Reader"]
+	33 [label=Joiner]
+	45 [label="Column Resorter"]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	8 -> 6
+	8 -> 9
+	8 -> 7
+	8 -> 4
+	8 -> 5
+	5 [label="Metadata Harvest"]
+	7 [label="Metadata Harvest"]
+	9 [label="Metadata Harvest"]
+	4 [label="Metadata Harvest"]
+	8 [label="MdH Core Selection"]
+	6 [label="Metadata Harvest"]
+	rankdir=LR
+}

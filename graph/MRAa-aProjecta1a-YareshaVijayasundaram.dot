@@ -1,0 +1,24 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	1 -> 2
+	2 -> 3
+	8 -> 9
+	3 -> 4
+	5 -> 6
+	7 -> 6
+	9 -> 10
+	7 -> 9
+	6 -> 8
+	5 [label=Auto_Binner]
+	1 [label="Excel Reader"]
+	7 [label="Table Creator"]
+	9 [label="Cell Replacer"]
+	4 [label=GroupBy]
+	6 [label="Cell Replacer"]
+	8 [label="Cell Replacer"]
+	3 [label="Date_Time Difference"]
+	2 [label="Math Formula"]
+	10 [label="Excel Writer"]
+	rankdir=LR
+}

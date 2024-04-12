@@ -1,0 +1,10 @@
+digraph {
+	1 -> 2
+	4 -> 5
+	1 -> 5
+	1 [label="Table Reader"]
+	4 [label="H2 Connector"]
+	5 [label="Database Writer"]
+	2 [label="Excel Writer _XLS_"]
+	rankdir=LR
+}

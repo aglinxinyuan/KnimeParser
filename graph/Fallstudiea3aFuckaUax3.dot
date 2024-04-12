@@ -1,0 +1,78 @@
+digraph {
+	56 -> 68
+	42 -> 44
+	44 -> 43
+	44 -> 57
+	54 -> 59
+	3 -> 41
+	56 -> 58
+	4 -> 39
+	2 -> 45
+	47 -> 55
+	55 -> 48
+	39 -> 41
+	52 -> 54
+	68 -> 67
+	70 -> 47
+	55 -> 52
+	2 -> 4
+	46 -> 2
+	70 -> 46
+	39 -> 37
+	56 -> 48
+	48 -> 68
+	29 -> 70
+	55 -> 56
+	9 -> 27
+	55 -> 53
+	50 -> 58
+	4 -> 63
+	45 -> 42
+	53 -> 52
+	48 -> 50
+	53 -> 59
+	63 -> 62
+	2 -> 42
+	45 -> 57
+	50 -> 49
+	54 -> 51
+	38 -> 9
+	3 -> 4
+	2 -> 3
+	3 -> 63
+	27 -> 29
+	27 [label="String Manipulation"]
+	57 [label="Decision Tree View _JavaScript_"]
+	55 [label=Partitioning]
+	9 [label="Column Filter"]
+	45 [label="Decision Tree Learner"]
+	52 [label="Decision Tree Predictor"]
+	58 [label="Decision Tree View _JavaScript_"]
+	3 [label="Decision Tree Learner"]
+	49 [label="Scorer _JavaScript_"]
+	41 [label="Decision Tree View _JavaScript_"]
+	51 [label="Scorer _JavaScript_"]
+	56 [label="Decision Tree Learner"]
+	54 [label="Row Filter"]
+	59 [label="Decision Tree View _JavaScript_"]
+	48 [label="Decision Tree Predictor"]
+	50 [label="Row Filter"]
+	42 [label="Decision Tree Predictor"]
+	53 [label="Decision Tree Learner"]
+	68 [label="Decision Tree To Image"]
+	67 [label="Image Writer _Port_"]
+	4 [label="Decision Tree Predictor"]
+	47 [label="Rule_based Row Filter"]
+	63 [label="Decision Tree To Image"]
+	38 [label="CSV Reader"]
+	43 [label="Scorer _JavaScript_"]
+	44 [label="Row Filter"]
+	62 [label="Image Writer _Port_"]
+	29 [label="Rule_based Row Filter"]
+	70 [label="Table Manipulator"]
+	46 [label="Rule_based Row Filter"]
+	39 [label="Row Filter"]
+	2 [label=Partitioning]
+	37 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

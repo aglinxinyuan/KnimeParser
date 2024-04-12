@@ -1,0 +1,25 @@
+digraph {
+	1184 -> 4
+	4 -> 5
+	5 -> 4
+	4 -> 4
+	14 -> 9
+	3 -> 4
+	1184 -> 5
+	1184 -> 14
+	9 -> 10
+	10 -> 11
+	11 -> 13
+	13 -> 12
+	5 [label="DB Table Creator"]
+	14 [label="DB Table Selector"]
+	13 [label="Number To String"]
+	9 [label="DB GroupBy"]
+	1184 [label="Create Local Big Data Environment"]
+	11 [label="DB Reader"]
+	4 [label="Double To Int"]
+	12 [label="Bar Chart"]
+	3 [label="Parquet Reader"]
+	10 [label="DB Sorter"]
+	rankdir=LR
+}

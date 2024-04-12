@@ -1,0 +1,14 @@
+digraph {
+	1 -> 4
+	4 -> 5
+	3 -> 4
+	5 -> 6
+	2 -> 3
+	5 [label="JSON to Table"]
+	1 [label="Variable Creator"]
+	4 [label="POST Request"]
+	6 [label="Column Filter"]
+	3 [label="Table to JSON"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

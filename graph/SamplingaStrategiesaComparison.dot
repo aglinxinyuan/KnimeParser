@@ -1,0 +1,62 @@
+digraph {
+	20 -> 21
+	29 -> 35
+	41 -> 46
+	5 -> 40
+	19 -> 21
+	35 -> 30
+	6 -> 25
+	30 -> 39
+	33 -> 29
+	49 -> 39
+	26 -> 27
+	40 -> 47
+	39 -> 38
+	44 -> 45
+	6 -> 24
+	45 -> 48
+	48 -> 49
+	47 -> 49
+	27 -> 39
+	4 -> 26
+	24 -> 25
+	3 -> 27
+	40 -> 3
+	47 -> 44
+	44 -> 41
+	40 -> 33
+	33 -> 30
+	25 -> 39
+	3 -> 4
+	19 -> 20
+	46 -> 45
+	21 -> 39
+	40 -> 6
+	40 -> 19
+	27 [label="Random Forest Predictor"]
+	26 [label="Random Forest Learner"]
+	21 [label="Random Forest Predictor"]
+	3 [label=Partitioning]
+	19 [label=Partitioning]
+	24 [label="Random Forest Learner"]
+	49 [label="Random Forest Predictor"]
+	41 [label="Bootstrap Sampling"]
+	6 [label=Partitioning]
+	25 [label="Random Forest Predictor"]
+	48 [label="Random Forest Learner"]
+	4 [label=SMOTE]
+	47 [label=Partitioning]
+	38 [label="Binary Classification Inspector"]
+	5 [label="CSV Reader"]
+	20 [label="Random Forest Learner"]
+	35 [label="Random Forest Learner"]
+	44 [label="Row Splitter"]
+	29 [label="Equal Size Sampling"]
+	46 [label=Shuffle]
+	40 [label="Column Auto Type Cast"]
+	39 [label="Column Appender"]
+	33 [label=Partitioning]
+	30 [label="Random Forest Predictor"]
+	45 [label=Concatenate]
+	rankdir=LR
+}

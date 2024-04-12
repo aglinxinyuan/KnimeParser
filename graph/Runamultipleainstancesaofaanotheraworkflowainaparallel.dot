@@ -1,0 +1,14 @@
+digraph {
+	17 -> 24
+	18 -> 16
+	25 -> 17
+	23 -> 16
+	16 -> 25
+	16 [label="Parallel Chunk Start"]
+	24 [label=Scorer]
+	23 [label="Variable Creator"]
+	18 [label="Table Reader"]
+	25 [label="Call Workflow _Table Based_"]
+	17 [label="Parallel Chunk End"]
+	rankdir=LR
+}

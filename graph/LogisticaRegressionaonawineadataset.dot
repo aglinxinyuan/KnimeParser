@@ -1,0 +1,28 @@
+digraph {
+	10 -> 13
+	14 -> 3
+	10 -> 12
+	3 -> 2
+	2 -> 16
+	3 -> 4
+	2 -> 9
+	9 -> 15
+	9 -> 10
+	1 -> 14
+	10 -> 11
+	2 -> 4
+	4 -> 10
+	16 [label="Model Writer"]
+	13 [label="Binary Classification Inspector"]
+	1 [label="Table Reader"]
+	12 [label="ROC Curve"]
+	9 [label="Logistic Regression Learner"]
+	11 [label="Scorer _JavaScript_"]
+	4 [label="Normalizer _Apply_"]
+	15 [label="Model Writer"]
+	14 [label="Column Filter"]
+	3 [label=Partitioning]
+	2 [label=Normalizer]
+	10 [label="Logistic Regression Predictor"]
+	rankdir=LR
+}

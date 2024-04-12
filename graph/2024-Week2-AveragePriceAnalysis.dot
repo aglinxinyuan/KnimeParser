@@ -1,0 +1,28 @@
+digraph {
+	1 -> 8
+	24 -> 31
+	28 -> 27
+	3 -> 5
+	8 -> 3
+	31 -> 25
+	25 -> 26
+	26 -> 28
+	29 -> 33
+	5 -> 24
+	2 -> 8
+	27 -> 29
+	5 [label="Extract Date_Time Fields"]
+	24 [label=GroupBy]
+	27 [label="Column Renamer"]
+	1 [label="CSV Reader"]
+	29 [label="Rule Engine"]
+	31 [label=Unpivot]
+	28 [label=Ungroup]
+	26 [label=Pivot]
+	8 [label=Concatenate]
+	25 [label="Column Renamer"]
+	33 [label="CSV Writer"]
+	3 [label="String to Date_Time"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

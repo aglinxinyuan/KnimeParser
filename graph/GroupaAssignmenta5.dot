@@ -1,0 +1,25 @@
+digraph {
+	6 -> 5
+	12 -> 13
+	7 -> 8
+	8 -> 9
+	12 -> 14
+	2 -> 4
+	5 -> 7
+	11 -> 12
+	9 -> 10
+	4 -> 6
+	5 [label=k_Means]
+	14 [label="Association Rule Learner"]
+	13 [label="Association Rule Learner"]
+	7 [label=PCA]
+	9 [label="Shape Manager"]
+	11 [label="File Reader"]
+	4 [label=Normalizer]
+	6 [label="One to Many"]
+	8 [label="Color Manager"]
+	12 [label="Cell Splitter"]
+	2 [label="CSV Reader"]
+	10 [label="Scatter Plot _local_"]
+	rankdir=LR
+}

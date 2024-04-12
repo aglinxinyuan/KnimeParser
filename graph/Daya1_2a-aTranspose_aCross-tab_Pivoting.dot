@@ -1,0 +1,26 @@
+digraph {
+	3 -> 15
+	7 -> 8
+	9 -> 5
+	12 -> 2
+	9 -> 17
+	8 -> 6
+	5 -> 11
+	17 -> 7
+	11 -> 18
+	9 -> 12
+	2 -> 3
+	5 [label=Crosstab]
+	7 [label="Column Filter"]
+	9 [label="Table Reader"]
+	11 [label=Sorter]
+	18 [label="Row Filter"]
+	8 [label=Sorter]
+	15 [label=Sorter]
+	6 [label=Transpose]
+	17 [label=Statistics]
+	3 [label=Transpose]
+	2 [label=Pivoting]
+	12 [label="String To Number"]
+	rankdir=LR
+}

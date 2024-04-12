@@ -1,0 +1,31 @@
+digraph {
+	10 -> 13
+	20 -> 21
+	18 -> 19
+	1 -> 2
+	14 -> 4
+	3 -> 14
+	16 -> 19
+	13 -> 16
+	19 -> 20
+	10 -> 17
+	17 -> 18
+	9 -> 10
+	2 -> 3
+	4 -> 9
+	16 [label=RowID]
+	13 [label="Value Counter"]
+	20 [label="Math Formula"]
+	1 [label="Excel Reader"]
+	9 [label="Math Formula"]
+	4 [label="Moving Aggregation"]
+	18 [label="Math Formula"]
+	21 [label="Column Rename"]
+	14 [label=Sorter]
+	17 [label=GroupBy]
+	3 [label="Math Formula"]
+	2 [label="Column Aggregator"]
+	10 [label="Rule Engine"]
+	19 [label=Joiner]
+	rankdir=LR
+}

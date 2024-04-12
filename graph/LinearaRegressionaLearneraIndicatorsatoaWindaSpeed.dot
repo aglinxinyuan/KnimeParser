@@ -1,0 +1,36 @@
+digraph {
+	3 -> 9
+	5 -> 8
+	4 -> 3
+	4 -> 5
+	10 -> 9
+	10 -> 7
+	4 -> 14
+	7 -> 11
+	15 -> 16
+	1 -> 10
+	9 -> 13
+	10 -> 4
+	10 -> 8
+	14 -> 15
+	8 -> 12
+	6 -> 7
+	4 -> 6
+	10 -> 15
+	5 [label="Linear Regression Learner"]
+	16 [label="Numeric Scorer"]
+	13 [label="Numeric Scorer"]
+	1 [label="CSV Reader"]
+	7 [label="Regression Predictor"]
+	12 [label="Numeric Scorer"]
+	9 [label="Regression Predictor"]
+	11 [label="Numeric Scorer"]
+	4 [label="Missing Value Column Filter"]
+	6 [label="Linear Regression Learner"]
+	8 [label="Regression Predictor"]
+	15 [label="Regression Predictor"]
+	14 [label="Linear Regression Learner"]
+	3 [label="Linear Regression Learner"]
+	10 [label=Partitioning]
+	rankdir=LR
+}

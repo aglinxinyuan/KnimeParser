@@ -1,0 +1,62 @@
+digraph {
+	18 -> 13
+	20 -> 21
+	14 -> 16
+	18 -> 32
+	17 -> 24
+	13 -> 14
+	27 -> 37
+	34 -> 35
+	21 -> 22
+	39 -> 41
+	19 -> 21
+	29 -> 14
+	16 -> 20
+	30 -> 33
+	26 -> 27
+	25 -> 26
+	32 -> 15
+	37 -> 38
+	33 -> 34
+	15 -> 17
+	35 -> 36
+	11 -> 13
+	24 -> 25
+	18 -> 15
+	13 -> 29
+	17 -> 23
+	38 -> 39
+	16 -> 19
+	23 -> 25
+	10 -> 18
+	22 -> 30
+	27 [label="Java Edit Variable"]
+	18 [label="Java Snippet"]
+	21 [label="DB Joiner"]
+	26 [label=Sorter]
+	32 [label="Java Edit Variable"]
+	17 [label=GroupBy]
+	19 [label="DB Column Filter"]
+	24 [label="Column Filter"]
+	41 [label="Java Snippet"]
+	15 [label="Column Filter"]
+	25 [label=Joiner]
+	10 [label="CSV Reader"]
+	16 [label="DB GroupBy"]
+	22 [label="DB Sorter"]
+	11 [label="H2 Connector"]
+	23 [label="Column Filter"]
+	14 [label="DB Column Filter"]
+	38 [label="Java Snippet"]
+	13 [label="DB Writer"]
+	20 [label="DB Column Filter"]
+	35 [label="String To Number"]
+	34 [label="Java Snippet"]
+	29 [label="Java Edit Variable"]
+	36 [label="Java Snippet"]
+	39 [label="String To Number"]
+	33 [label="Table Creator"]
+	30 [label="Java Edit Variable"]
+	37 [label="Table Creator"]
+	rankdir=LR
+}

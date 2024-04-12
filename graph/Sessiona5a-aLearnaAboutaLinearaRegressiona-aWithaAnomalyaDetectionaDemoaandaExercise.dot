@@ -1,0 +1,84 @@
+digraph {
+	157 -> 156
+	168 -> 166
+	115 -> 116
+	119 -> 114
+	132 -> 134
+	150 -> 160
+	114 -> 132
+	134 -> 135
+	151 -> 115
+	117 -> 122
+	123 -> 124
+	123 -> 119
+	116 -> 121
+	164 -> 116
+	164 -> 157
+	118 -> 132
+	162 -> 164
+	121 -> 129
+	150 -> 154
+	152 -> 155
+	129 -> 131
+	126 -> 127
+	166 -> 168
+	152 -> 116
+	162 -> 163
+	128 -> 118
+	114 -> 115
+	122 -> 126
+	131 -> 130
+	135 -> 129
+	136 -> 123
+	114 -> 152
+	133 -> 134
+	114 -> 122
+	121 -> 162
+	121 -> 160
+	152 -> 151
+	121 -> 161
+	156 -> 116
+	160 -> 151
+	127 -> 128
+	118 -> 129
+	152 -> 115
+	166 -> 167
+	151 -> 166
+	133 [label="Column Filter"]
+	167 [label="Value Counter"]
+	126 [label="Math Formula"]
+	136 [label="Table Reader"]
+	162 [label="Rule Engine"]
+	122 [label="Math Formula"]
+	121 [label="Linear Correlation"]
+	163 [label="Value Counter"]
+	151 [label=Concatenate]
+	168 [label="Math Formula"]
+	119 [label=Normalizer]
+	156 [label="IsolationForest _3_7_"]
+	161 [label=GroupBy]
+	131 [label="Row Filter"]
+	154 [label=Statistics]
+	114 [label=Partitioning]
+	129 [label=Transpose]
+	166 [label="Rule Engine"]
+	150 [label="Excel Reader"]
+	164 [label="Row Filter"]
+	123 [label="Rule Engine"]
+	115 [label="Linear Regression Learner"]
+	127 [label=GroupBy]
+	124 [label="Value Counter"]
+	135 [label="Linear Correlation"]
+	117 [label="Parameter Optimization Loop Start"]
+	134 [label="Math Formula"]
+	160 [label="Math Formula"]
+	157 [label="Column Filter"]
+	118 [label="Parameter Optimization Loop End"]
+	116 [label="Regression Predictor"]
+	155 [label=Statistics]
+	130 [label=Concatenate]
+	152 [label=Partitioning]
+	128 [label="Table Row to Variable"]
+	132 [label="Table Row to Variable"]
+	rankdir=LR
+}

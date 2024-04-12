@@ -1,0 +1,18 @@
+digraph {
+	12 -> 15
+	18 -> 19
+	15 -> 18
+	19 -> 20
+	20 -> 16
+	22 -> 21
+	16 -> 22
+	16 [label="Loop End"]
+	20 [label="Math Formula"]
+	22 [label="Color Manager"]
+	18 [label="Interval Loop Start"]
+	21 [label="Scatter Plot"]
+	15 [label="Number To String"]
+	12 [label="Visual 2D Data Generator"]
+	19 [label="Math Formula"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	5 -> 4
+	4 -> 210
+	3 -> 5
+	5 [label="DB Table Selector"]
+	210 [label=Statistics]
+	4 [label="DB Reader"]
+	3 [label="DB SQL Executor"]
+	2 [label="MySQL Connector"]
+	rankdir=LR
+}

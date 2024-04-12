@@ -1,0 +1,40 @@
+digraph {
+	1 -> 170
+	176 -> 177
+	173 -> 9
+	180 -> 174
+	190 -> 180
+	157 -> 18
+	159 -> 165
+	17 -> 18
+	170 -> 157
+	177 -> 179
+	190 -> 173
+	189 -> 190
+	165 -> 190
+	165 -> 189
+	18 -> 159
+	174 -> 173
+	175 -> 176
+	179 -> 174
+	9 -> 181
+	175 [label="Keras Input Layer"]
+	170 [label="Missing Value Column Filter"]
+	165 [label=Partitioning]
+	179 [label="Keras Dense Layer"]
+	190 [label="Normalizer _Apply_"]
+	180 [label="Rule Engine"]
+	189 [label=Normalizer]
+	1 [label="CSV Reader"]
+	157 [label="Missing Value"]
+	173 [label="Keras Network Executor"]
+	9 [label="Rule Engine"]
+	174 [label="Keras Network Learner"]
+	18 [label="Cell Replacer"]
+	176 [label="Keras Dense Layer"]
+	159 [label="Category To Number"]
+	181 [label=Scorer]
+	177 [label="Keras Dense Layer"]
+	17 [label="Excel Reader"]
+	rankdir=LR
+}

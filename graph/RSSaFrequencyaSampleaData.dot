@@ -1,0 +1,8 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	1 [label="Table Creator"]
+	3 [label="Feed Parser"]
+	2 [label="HTTP Retriever"]
+	rankdir=LR
+}

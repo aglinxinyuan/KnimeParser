@@ -1,0 +1,20 @@
+digraph {
+	67 -> 70
+	70 -> 73
+	74 -> 76
+	76 -> 70
+	65 -> 66
+	66 -> 75
+	77 -> 67
+	75 -> 77
+	66 [label="Math Formula"]
+	70 [label="Distance Matrix Calculate"]
+	65 [label="Data Generator"]
+	67 [label="Mahalanobis Distance"]
+	76 [label=RowID]
+	77 [label="Column Filter"]
+	74 [label="Table Creator"]
+	73 [label="Split Collection Column"]
+	75 [label="Column Rename"]
+	rankdir=LR
+}

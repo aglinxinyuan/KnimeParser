@@ -1,0 +1,17 @@
+digraph {
+	7 -> 8
+	13 -> 23
+	8 -> 9
+	13 -> 7
+	9 -> 11
+	11 -> 12
+	23 -> 11
+	13 [label="H2 Connector"]
+	7 [label="DB Table Selector"]
+	9 [label="DB Row Filter"]
+	11 [label="DB Joiner"]
+	23 [label="DB Table Selector"]
+	8 [label="DB GroupBy"]
+	12 [label="DB Reader"]
+	rankdir=LR
+}

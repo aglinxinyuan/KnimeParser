@@ -1,0 +1,12 @@
+digraph {
+	138 -> 142
+	143 -> 140
+	143 -> 139
+	139 -> 138
+	139 [label="DB Table Selector"]
+	140 [label="DB Query Reader"]
+	143 [label="Snowflake Connector"]
+	142 [label="DB Reader"]
+	138 [label="DB Row Filter"]
+	rankdir=LR
+}

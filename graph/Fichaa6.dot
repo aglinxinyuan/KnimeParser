@@ -1,0 +1,19 @@
+digraph {
+	6 -> 8
+	7 -> 8
+	1 -> 4
+	8 -> 9
+	1 -> 6
+	1 -> 2
+	6 -> 7
+	1 -> 5
+	5 [label="Box Plot"]
+	1 [label="CSV Reader"]
+	7 [label="Decision Tree Learner"]
+	9 [label=Scorer]
+	4 [label="Rank Correlation"]
+	6 [label=Partitioning]
+	8 [label="Decision Tree Predictor"]
+	2 [label=Statistics]
+	rankdir=LR
+}

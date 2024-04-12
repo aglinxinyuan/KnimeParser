@@ -1,0 +1,12 @@
+digraph {
+	21 -> 10
+	13 -> 9
+	21 -> 8
+	21 -> 9
+	13 [label="Table Creator"]
+	9 [label="Reference Row Filter"]
+	21 [label="File Reader"]
+	8 [label="Nominal Value Row Filter"]
+	10 [label="Rule_based Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	17 -> 15
+	12 -> 10
+	7 -> 8
+	7 -> 16
+	4 -> 3
+	8 -> 9
+	14 -> 18
+	18 -> 17
+	10 -> 15
+	9 -> 12
+	16 -> 14
+	15 -> 13
+	6 -> 7
+	13 -> 11
+	3 -> 6
+	16 [label="Polygon To Line"]
+	13 [label="Missing Value"]
+	7 [label=Buffer]
+	9 [label="Row Filter"]
+	11 [label="Geospatial View"]
+	4 [label="Table Creator"]
+	18 [label="Column Filter"]
+	10 [label="Column Filter"]
+	8 [label="OSM POIs"]
+	6 [label=Projection]
+	15 [label=Concatenate]
+	14 [label=Projection]
+	17 [label="Column Rename"]
+	3 [label="Lat_Lon to Geometry"]
+	12 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,40 @@
+digraph {
+	862 -> 866
+	888 -> 889
+	896 -> 897
+	892 -> 891
+	889 -> 890
+	6 -> 862
+	887 -> 894
+	849 -> 859
+	886 -> 887
+	866 -> 885
+	891 -> 849
+	870 -> 6
+	894 -> 896
+	859 -> 869
+	885 -> 886
+	890 -> 892
+	897 -> 888
+	871 -> 6
+	888 [label=XPath]
+	866 [label="GET Request"]
+	887 [label=XPath]
+	849 [label="Molecule Type Cast"]
+	885 [label="Column Filter"]
+	862 [label="Variable to Table Row"]
+	869 [label=MarvinView]
+	6 [label="Java Edit Variable _simple_"]
+	859 [label="Column Resorter"]
+	889 [label=XPath]
+	886 [label=XPath]
+	896 [label="String Manipulation"]
+	892 [label=XPath]
+	890 [label=XPath]
+	894 [label="Column Rename"]
+	897 [label="String Manipulation"]
+	891 [label=XPath]
+	870 [label="String Input"]
+	871 [label="Double Input"]
+	rankdir=LR
+}

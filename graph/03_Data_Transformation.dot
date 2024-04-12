@@ -1,0 +1,16 @@
+digraph {
+	20 -> 21
+	18 -> 19
+	19 -> 20
+	2 -> 3
+	3 -> 21
+	1 -> 3
+	20 [label="DB Reader"]
+	1 [label="CSV Reader"]
+	21 [label=Joiner]
+	18 [label="SQLite Connector"]
+	3 [label="Cell Replacer"]
+	2 [label="Excel Reader"]
+	19 [label="DB Table Selector"]
+	rankdir=LR
+}

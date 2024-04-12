@@ -1,0 +1,27 @@
+digraph {
+	20 -> 21
+	21 -> 23
+	18 -> 19
+	17 -> 24
+	15 -> 16
+	19 -> 20
+	18 -> 20
+	17 -> 25
+	17 -> 18
+	21 -> 22
+	14 -> 15
+	16 -> 17
+	16 [label="Missing Value"]
+	24 [label="Box Plot"]
+	20 [label="Random Forest Predictor"]
+	22 [label=Scorer]
+	23 [label="Bar Chart"]
+	18 [label=X_Partitioner]
+	21 [label=X_Aggregator]
+	15 [label="Column Filter"]
+	25 [label="Linear Correlation"]
+	14 [label="CSV Reader"]
+	17 [label="Rule Engine"]
+	19 [label="Random Forest Learner"]
+	rankdir=LR
+}

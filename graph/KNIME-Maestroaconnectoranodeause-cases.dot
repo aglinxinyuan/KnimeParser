@@ -1,0 +1,45 @@
+digraph {
+	28 -> 8349
+	8253 -> 8352
+	8350 -> 8351
+	28 -> 8253
+	8330 -> 8335
+	8346 -> 8334
+	8352 -> 8350
+	8346 -> 8330
+	8348 -> 8353
+	28 -> 8350
+	8255 -> 28
+	8335 -> 8337
+	8340 -> 8332
+	8336 -> 8337
+	8334 -> 8340
+	8332 -> 8336
+	8342 -> 8347
+	8337 -> 8338
+	8335 -> 8354
+	8349 -> 8348
+	8353 -> 8352
+	8334 [label="Row Filter"]
+	8347 [label="Table Viewer"]
+	8350 [label=Concatenate]
+	8346 [label="Molecule Reader"]
+	8351 [label="Run Maestro"]
+	8342 [label="KNIME_Maestro Connector"]
+	8353 [label="Table Row to Variable"]
+	8335 [label="Extract MAE Properties"]
+	8330 [label=QikProp]
+	8352 [label="Prime Side Chain Sampling"]
+	8336 [label="Extract MAE Properties"]
+	8253 [label="Protein Preparation Wizard"]
+	8340 [label="KNIME_Maestro Connector"]
+	8332 [label=QikProp]
+	8354 [label="Table Viewer"]
+	28 [label="Align Binding Sites"]
+	8338 [label="Table Viewer"]
+	8349 [label="Row Filter"]
+	8348 [label="KNIME_Maestro Connector"]
+	8337 [label="Concatenate _Optional in_"]
+	8255 [label="Get PDB"]
+	rankdir=LR
+}

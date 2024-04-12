@@ -1,0 +1,46 @@
+digraph {
+	35 -> 42
+	29 -> 28
+	41 -> 43
+	6 -> 27
+	42 -> 43
+	42 -> 14
+	40 -> 24
+	36 -> 39
+	40 -> 37
+	27 -> 43
+	35 -> 33
+	39 -> 42
+	40 -> 38
+	39 -> 43
+	43 -> 36
+	27 -> 39
+	33 -> 43
+	35 -> 40
+	44 -> 37
+	42 -> 40
+	36 -> 44
+	37 -> 33
+	36 -> 38
+	43 -> 38
+	37 -> 6
+	6 -> 39
+	24 [label="Image to Report"]
+	27 [label="WrappedNode Input"]
+	14 [label="Data to Report"]
+	43 [label="PMML Writer"]
+	35 [label="WrappedNode Input"]
+	44 [label="Table Reader"]
+	42 [label=Scorer]
+	29 [label="File Upload Widget"]
+	41 [label="Create Temp Folder"]
+	28 [label="WrappedNode Output"]
+	36 [label="WrappedNode Input"]
+	6 [label=Partitioning]
+	40 [label=Heatmap]
+	39 [label="PMML Predictor"]
+	33 [label="Column Filter"]
+	38 [label="Image Output Widget"]
+	37 [label="WrappedNode Output"]
+	rankdir=LR
+}

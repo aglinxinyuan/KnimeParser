@@ -1,0 +1,26 @@
+digraph {
+	12 -> 10
+	4 -> 5
+	12 -> 9
+	12 -> 7
+	3 -> 4
+	6 -> 12
+	12 -> 8
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	12 -> 11
+	5 [label="String Manipulation"]
+	1 [label="CSV Reader"]
+	7 [label="Bar Chart"]
+	9 [label="Line Plot"]
+	11 [label="Box Plot"]
+	4 [label="String Manipulation"]
+	10 [label="Scatter Plot"]
+	6 [label="Rule_based Row Filter"]
+	8 [label=Histogram]
+	3 [label="String Manipulation"]
+	2 [label="Missing Value"]
+	12 [label="String To Number"]
+	rankdir=LR
+}

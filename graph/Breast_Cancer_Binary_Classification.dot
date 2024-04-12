@@ -1,0 +1,39 @@
+digraph {
+	284 -> 288
+	2 -> 372
+	378 -> 376
+	3 -> 280
+	371 -> 280
+	372 -> 363
+	363 -> 284
+	379 -> 373
+	371 -> 377
+	225 -> 369
+	288 -> 289
+	373 -> 371
+	280 -> 284
+	1 -> 2
+	376 -> 370
+	369 -> 378
+	370 -> 379
+	363 -> 3
+	225 [label="Keras Input Layer"]
+	371 [label="Keras Dense Layer"]
+	377 [label="DL Python Network Editor"]
+	289 [label=Scorer]
+	1 [label="CSV Reader"]
+	284 [label="Keras Network Executor"]
+	378 [label="Keras Batch Normalization Layer"]
+	280 [label="Keras Network Learner"]
+	372 [label="Category To Number"]
+	379 [label="Keras Batch Normalization Layer"]
+	373 [label="Keras Dropout Layer"]
+	369 [label="Keras Dense Layer"]
+	376 [label="Keras Dropout Layer"]
+	288 [label="Rule Engine"]
+	3 [label=Partitioning]
+	2 [label="Missing Value"]
+	363 [label=Partitioning]
+	370 [label="Keras Dense Layer"]
+	rankdir=LR
+}

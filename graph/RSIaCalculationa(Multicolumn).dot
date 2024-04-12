@@ -1,0 +1,33 @@
+digraph {
+	24 -> 18
+	18 -> 23
+	21 -> 24
+	20 -> 19
+	1 -> 10
+	10 -> 17
+	25 -> 22
+	19 -> 26
+	26 -> 27
+	26 -> 28
+	22 -> 21
+	23 -> 20
+	17 -> 25
+	28 -> 27
+	27 -> 29
+	24 [label="Math Formula"]
+	27 [label="Column Rename"]
+	20 [label="Lag Column"]
+	1 [label="Table Creator"]
+	22 [label="Lag Column"]
+	29 [label="Loop End _Column Append_"]
+	28 [label="String Manipulation _Variable_"]
+	23 [label="Lag Column"]
+	18 [label="Moving Average"]
+	26 [label="Column Filter"]
+	21 [label="Math Formula"]
+	25 [label="Column Rename"]
+	17 [label="Column List Loop Start"]
+	10 [label="Counter Generation"]
+	19 [label="Column Expressions"]
+	rankdir=LR
+}

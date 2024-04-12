@@ -1,0 +1,19 @@
+digraph {
+	1088 -> 1086
+	1091 -> 23
+	1092 -> 1090
+	6 -> 1086
+	1088 -> 6
+	23 -> 1090
+	1090 -> 1088
+	1086 -> 1089
+	1086 [label="Decision Tree Predictor"]
+	1088 [label=Partitioning]
+	1092 [label="Table Reader"]
+	1089 [label="Binary Classification Inspector"]
+	23 [label="String Manipulation _Variable_"]
+	1091 [label="Extract Context Properties"]
+	6 [label="Decision Tree Learner"]
+	1090 [label="Python Script _Labs_"]
+	rankdir=LR
+}

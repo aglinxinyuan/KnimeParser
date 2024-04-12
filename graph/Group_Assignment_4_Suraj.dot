@@ -1,0 +1,56 @@
+digraph {
+	13 -> 15
+	10 -> 13
+	20 -> 21
+	14 -> 16
+	4 -> 5
+	23 -> 24
+	12 -> 14
+	11 -> 3
+	21 -> 22
+	2 -> 11
+	6 -> 8
+	22 -> 23
+	20 -> 23
+	14 -> 15
+	17 -> 18
+	1 -> 2
+	11 -> 20
+	15 -> 17
+	6 -> 7
+	5 -> 9
+	13 -> 12
+	3 -> 6
+	11 -> 10
+	3 -> 4
+	17 -> 19
+	23 -> 25
+	5 -> 6
+	16 -> 17
+	7 [label=Scorer]
+	9 [label="Decision Tree to Ruleset"]
+	18 [label=Scorer]
+	21 [label="Equal Size Sampling"]
+	8 [label="ROC Curve"]
+	17 [label="MultiLayerPerceptron Predictor"]
+	3 [label=Partitioning]
+	19 [label="ROC Curve"]
+	24 [label="ROC Curve"]
+	6 [label="Decision Tree Predictor"]
+	15 [label="Normalizer _Apply_"]
+	25 [label=Scorer]
+	12 [label="Equal Size Sampling"]
+	10 [label="One to Many"]
+	16 [label="RProp MLP Learner"]
+	1 [label="File Reader"]
+	22 [label="Random Forest Learner"]
+	11 [label="Column Filter"]
+	4 [label="Equal Size Sampling"]
+	23 [label="Random Forest Predictor"]
+	14 [label=Normalizer]
+	5 [label="Decision Tree Learner"]
+	13 [label=Partitioning]
+	20 [label=Partitioning]
+	2 [label="Number To String"]
+	rankdir=LR
+}

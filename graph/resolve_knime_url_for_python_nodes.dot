@@ -1,0 +1,8 @@
+digraph {
+	8 -> 10
+	11 -> 8
+	11 [label="String Configuration"]
+	8 [label="URL to File Path _Variable_"]
+	10 [label="Python Script"]
+	rankdir=LR
+}

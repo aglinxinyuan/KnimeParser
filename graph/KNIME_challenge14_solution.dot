@@ -1,0 +1,20 @@
+digraph {
+	18 -> 19
+	20 -> 23
+	21 -> 16
+	6 -> 21
+	24 -> 6
+	22 -> 20
+	19 -> 22
+	16 -> 18
+	16 [label="Moving Aggregation"]
+	24 [label="HTTP_S_ Connector"]
+	20 [label="Rule_based Row Filter"]
+	22 [label=Sorter]
+	23 [label="Column Filter"]
+	21 [label="Counter Generation"]
+	18 [label=Sorter]
+	6 [label="CSV Reader"]
+	19 [label="Moving Aggregation"]
+	rankdir=LR
+}

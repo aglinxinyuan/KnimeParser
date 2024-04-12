@@ -1,0 +1,27 @@
+digraph {
+	12 -> 13
+	2 -> 12
+	6 -> 11
+	13 -> 9
+	2 -> 13
+	2 -> 6
+	8 -> 7
+	5 -> 6
+	13 -> 8
+	1 -> 2
+	7 -> 10
+	2 -> 5
+	6 -> 8
+	5 [label="SVM Learner"]
+	13 [label="Naive Bayes Predictor"]
+	1 [label="File Reader"]
+	7 [label="Prediction Fusion"]
+	9 [label=Scorer]
+	11 [label=Scorer]
+	10 [label=Scorer]
+	6 [label="SVM Predictor"]
+	8 [label=Joiner]
+	2 [label=Partitioning]
+	12 [label="Naive Bayes Learner"]
+	rankdir=LR
+}

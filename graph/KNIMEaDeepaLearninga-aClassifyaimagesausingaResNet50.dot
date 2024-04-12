@@ -1,0 +1,70 @@
+digraph {
+	33 -> 73
+	51 -> 50
+	33 -> 45
+	71 -> 72
+	17 -> 78
+	73 -> 72
+	72 -> 65
+	23 -> 28
+	65 -> 34
+	71 -> 78
+	53 -> 61
+	30 -> 45
+	50 -> 36
+	36 -> 71
+	26 -> 23
+	28 -> 30
+	46 -> 47
+	48 -> 49
+	49 -> 51
+	60 -> 64
+	53 -> 57
+	55 -> 60
+	64 -> 62
+	63 -> 26
+	47 -> 48
+	45 -> 46
+	78 -> 73
+	22 -> 26
+	53 -> 56
+	56 -> 55
+	61 -> 62
+	32 -> 33
+	57 -> 60
+	62 -> 63
+	20 -> 53
+	57 [label=Transpose]
+	55 [label="Table Row to Variable"]
+	26 [label="Cross Joiner"]
+	32 [label="List Files"]
+	17 [label="DL Keras Network Reader"]
+	78 [label="DL Network Executor"]
+	64 [label="Column Rename _Regex_"]
+	49 [label="Image Calculator"]
+	51 [label="Column Resorter"]
+	56 [label="Column Filter"]
+	33 [label="Image Reader _Table_"]
+	48 [label="Image Calculator"]
+	50 [label=Merger]
+	53 [label="Chunk Loop Start"]
+	22 [label="File Reader"]
+	28 [label="Column Filter"]
+	23 [label="Rule_based Row Filter"]
+	47 [label="Image Calculator"]
+	72 [label="Column Appender"]
+	61 [label="Column Filter"]
+	63 [label="Loop End"]
+	60 [label="Rule_based Row Filter"]
+	20 [label="Many to One"]
+	62 [label="Column Appender"]
+	34 [label="Image Viewer"]
+	71 [label="Column Rename"]
+	36 [label="Dimension Swapper"]
+	65 [label="Column Resorter"]
+	46 [label="Column Rename"]
+	73 [label="Image Converter"]
+	30 [label="Column Rename"]
+	45 [label=Splitter]
+	rankdir=LR
+}

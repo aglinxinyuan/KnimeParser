@@ -1,0 +1,41 @@
+digraph {
+	103 -> 97
+	100 -> 104
+	97 -> 98
+	87 -> 88
+	90 -> 91
+	86 -> 87
+	91 -> 92
+	85 -> 93
+	93 -> 86
+	99 -> 104
+	87 -> 91
+	102 -> 94
+	98 -> 99
+	89 -> 90
+	95 -> 97
+	87 -> 90
+	94 -> 95
+	88 -> 89
+	95 -> 103
+	99 -> 100
+	86 [label="Group Loop Start"]
+	91 [label=Concatenate]
+	94 [label="Row Filter"]
+	99 [label="Row Filter"]
+	103 [label="Math Formula _Variable_"]
+	92 [label="Loop End"]
+	90 [label="Constant Value Column"]
+	104 [label="Variable Condition Loop End"]
+	102 [label="CSV Reader"]
+	87 [label="Row Splitter"]
+	89 [label="Table Row to Variable"]
+	98 [label="Math Formula"]
+	97 [label="Row Filter"]
+	88 [label=GroupBy]
+	100 [label="Extract Table Dimension"]
+	95 [label="Generic Loop Start"]
+	93 [label="Missing Value"]
+	85 [label="CSV Reader"]
+	rankdir=LR
+}

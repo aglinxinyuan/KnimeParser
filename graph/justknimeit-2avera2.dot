@@ -1,0 +1,33 @@
+digraph {
+	33 -> 34
+	1 -> 39
+	24 -> 28
+	29 -> 33
+	32 -> 33
+	36 -> 37
+	25 -> 33
+	30 -> 36
+	25 -> 36
+	39 -> 40
+	34 -> 35
+	25 -> 30
+	32 -> 1
+	40 -> 25
+	35 -> 30
+	28 -> 29
+	24 [label="Table Creator"]
+	32 [label="Local File Browser Configuration"]
+	35 [label="String to Path _Variable_"]
+	1 [label="CSV Reader"]
+	34 [label="String Manipulation _Variable_"]
+	29 [label="Table Row to Variable"]
+	28 [label=Joiner]
+	36 [label="Loop End"]
+	40 [label="Group Loop Start"]
+	25 [label="Column Splitter"]
+	39 [label="Group Loop Start"]
+	33 [label="String Manipulation _Variable_"]
+	30 [label="CSV Writer"]
+	37 [label="Loop End"]
+	rankdir=LR
+}

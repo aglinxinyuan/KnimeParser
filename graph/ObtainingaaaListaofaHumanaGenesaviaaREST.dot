@@ -1,0 +1,16 @@
+digraph {
+	9 -> 7
+	5 -> 4
+	4 -> 8
+	8 -> 9
+	7 -> 10
+	1 -> 5
+	5 [label="String Manipulation"]
+	1 [label="CSV Reader"]
+	7 [label="JSON to Table"]
+	9 [label=Ungroup]
+	4 [label="GET Request"]
+	8 [label="JSON Path"]
+	10 [label="Column Filter"]
+	rankdir=LR
+}

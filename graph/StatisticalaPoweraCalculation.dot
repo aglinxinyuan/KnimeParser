@@ -1,0 +1,45 @@
+digraph {
+	42 -> 44
+	2 -> 6
+	48 -> 45
+	1 -> 77
+	41 -> 39
+	49 -> 31
+	50 -> 51
+	6 -> 40
+	39 -> 42
+	77 -> 61
+	1 -> 2
+	46 -> 47
+	47 -> 49
+	45 -> 46
+	48 -> 84
+	40 -> 39
+	61 -> 48
+	44 -> 48
+	43 -> 42
+	31 -> 50
+	85 -> 45
+	49 [label="Math Formula"]
+	84 [label="Math Formula"]
+	41 [label="Slider Input"]
+	31 [label="R Snippet"]
+	51 [label="Math Formula"]
+	6 [label="Column Filter"]
+	85 [label="Slider Input"]
+	48 [label="Math Formula"]
+	50 [label="R Snippet"]
+	1 [label="Excel Reader _XLS_"]
+	42 [label="Math Formula"]
+	47 [label="Math Formula"]
+	61 [label="Table Row to Variable"]
+	77 [label="Linear Correlation"]
+	43 [label="Slider Input"]
+	44 [label="Math Formula"]
+	46 [label="Math Formula"]
+	40 [label="Row Filter"]
+	39 [label="Math Formula"]
+	2 [label=Statistics]
+	45 [label="Math Formula"]
+	rankdir=LR
+}

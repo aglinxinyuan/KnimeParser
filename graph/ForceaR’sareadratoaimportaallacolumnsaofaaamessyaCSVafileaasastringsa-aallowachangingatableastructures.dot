@@ -1,0 +1,23 @@
+digraph {
+	33 -> 34
+	35 -> 20
+	31 -> 33
+	23 -> 36
+	32 -> 23
+	20 -> 37
+	36 -> 20
+	23 -> 35
+	37 -> 38
+	34 -> 32
+	20 [label="R Snippet"]
+	35 [label="Table Row To Variable Loop Start"]
+	34 [label="Files_Folders Meta Info"]
+	31 [label="List Files_Folders"]
+	36 [label="Column Filter"]
+	23 [label="URL to File Path"]
+	33 [label="Path to URI"]
+	32 [label=Sorter]
+	38 [label="Table Writer"]
+	37 [label="Loop End"]
+	rankdir=LR
+}

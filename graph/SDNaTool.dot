@@ -1,0 +1,15 @@
+digraph {
+	9 -> 8
+	7 -> 8
+	8 -> 13
+	1 -> 2
+	8 -> 12
+	13 [label="Data to Report"]
+	1 [label="GET Request"]
+	7 [label="CSV Reader"]
+	9 [label="Table Creator"]
+	8 [label="Insert Column Header"]
+	2 [label=XPath]
+	12 [label="Rule_based Row Filter"]
+	rankdir=LR
+}

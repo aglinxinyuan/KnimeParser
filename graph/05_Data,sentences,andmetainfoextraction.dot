@@ -1,0 +1,18 @@
+digraph {
+	417 -> 133
+	133 -> 128
+	420 -> 417
+	418 -> 419
+	128 -> 414
+	128 -> 107
+	128 -> 418
+	133 [label="Strings To Document"]
+	107 [label="Sentence Extractor"]
+	418 [label="Meta Info Inserter"]
+	419 [label="Meta Info Extractor"]
+	420 [label="Table Reader"]
+	414 [label="Document Data Extractor"]
+	417 [label="Row Filter"]
+	128 [label="Column Filter"]
+	rankdir=LR
+}

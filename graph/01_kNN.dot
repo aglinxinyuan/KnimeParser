@@ -1,0 +1,16 @@
+digraph {
+	11 -> 12
+	12 -> 5
+	11 -> 5
+	4 -> 11
+	4 -> 12
+	13 -> 4
+	5 -> 10
+	5 [label="K Nearest Neighbor"]
+	13 [label="Table Reader"]
+	11 [label=Normalizer]
+	4 [label=Partitioning]
+	12 [label="Normalizer _Apply_"]
+	10 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

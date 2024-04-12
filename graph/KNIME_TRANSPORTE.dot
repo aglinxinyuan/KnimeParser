@@ -1,0 +1,28 @@
+digraph {
+	12 -> 13
+	1 -> 4
+	12 -> 9
+	1 -> 7
+	1 -> 12
+	13 -> 14
+	1 -> 15
+	1 -> 2
+	9 -> 10
+	10 -> 11
+	16 -> 17
+	1 -> 16
+	16 [label="Rule Engine"]
+	13 [label="Row Aggregator"]
+	1 [label="CSV Reader"]
+	7 [label=Heatmap]
+	9 [label="Row Aggregator"]
+	11 [label="Image Writer _Port_"]
+	4 [label=Statistics]
+	10 [label="Bar Chart"]
+	15 [label="Color Manager"]
+	14 [label="Bar Chart"]
+	17 [label="Rule Engine"]
+	2 [label="Bar Chart"]
+	12 [label="Math Formula"]
+	rankdir=LR
+}

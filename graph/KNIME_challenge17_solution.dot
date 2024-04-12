@@ -1,0 +1,45 @@
+digraph {
+	7 -> 8
+	14 -> 17
+	5 -> 4
+	13 -> 14
+	19 -> 21
+	4 -> 6
+	17 -> 15
+	12 -> 13
+	16 -> 15
+	1 -> 22
+	3 -> 14
+	5 -> 20
+	20 -> 19
+	11 -> 12
+	8 -> 11
+	22 -> 2
+	5 -> 18
+	3 -> 5
+	13 -> 16
+	18 -> 20
+	6 -> 7
+	2 -> 3
+	7 [label="Lag Column"]
+	18 [label=GroupBy]
+	21 [label=Sorter]
+	8 [label="Column Expressions"]
+	17 [label=Pivoting]
+	3 [label="Table Manipulator"]
+	19 [label=GroupBy]
+	6 [label=Sorter]
+	15 [label="Line Plot"]
+	12 [label=Sorter]
+	16 [label="Color Manager"]
+	1 [label="CSV Reader"]
+	22 [label="Row Filter"]
+	11 [label=GroupBy]
+	4 [label=GroupBy]
+	14 [label=Joiner]
+	5 [label="Extract Date_Time Fields"]
+	20 [label=Joiner]
+	13 [label="Row Filter"]
+	2 [label=Unpivoting]
+	rankdir=LR
+}

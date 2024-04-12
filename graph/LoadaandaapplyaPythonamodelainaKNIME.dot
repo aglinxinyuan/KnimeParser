@@ -1,0 +1,10 @@
+digraph {
+	260 -> 7
+	262 -> 258
+	7 -> 258
+	260 [label="Conda Environment Propagation"]
+	7 [label="Python Object Reader"]
+	258 [label="Python Predictor"]
+	262 [label="Table Reader"]
+	rankdir=LR
+}

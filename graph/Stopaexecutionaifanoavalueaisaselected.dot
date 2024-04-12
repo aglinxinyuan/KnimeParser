@@ -1,0 +1,17 @@
+digraph {
+	6 -> 4
+	4 -> 5
+	2 -> 7
+	1 -> 2
+	2 -> 3
+	5 -> 7
+	3 -> 6
+	5 [label="Rule Engine Variable"]
+	1 [label="Table Creator"]
+	7 [label="IF Switch"]
+	4 [label="Table Row to Variable"]
+	6 [label="Number To String"]
+	3 [label=Sorter]
+	2 [label="Table View"]
+	rankdir=LR
+}

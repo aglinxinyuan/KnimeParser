@@ -1,0 +1,20 @@
+digraph {
+	6 -> 5
+	7 -> 8
+	8 -> 9
+	3 -> 4
+	5 -> 7
+	1 -> 2
+	2 -> 3
+	4 -> 6
+	5 [label="Column Renamer"]
+	1 [label="Call Workflow Service"]
+	7 [label="Rule_based Row Filter"]
+	9 [label="CSV Writer"]
+	4 [label="Column Aggregator"]
+	6 [label="Column Aggregator"]
+	8 [label="Column Filter"]
+	3 [label="Row Filter"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

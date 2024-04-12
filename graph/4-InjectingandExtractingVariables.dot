@@ -1,0 +1,30 @@
+digraph {
+	5 -> 8
+	7 -> 8
+	18 -> 6
+	8 -> 13
+	18 -> 14
+	19 -> 5
+	15 -> 16
+	18 -> 5
+	13 -> 16
+	20 -> 14
+	14 -> 15
+	6 -> 7
+	16 -> 17
+	21 -> 15
+	5 [label=Joiner]
+	16 [label="Inject Variables _Data_"]
+	13 [label="Extract Variables _Data_"]
+	20 [label="Table Reader"]
+	7 [label="Table Column to Variable"]
+	18 [label="Table Reader"]
+	21 [label="Table Reader"]
+	6 [label=GroupBy]
+	8 [label="Row Filter"]
+	15 [label=Joiner]
+	14 [label=Joiner]
+	17 [label="Row Filter"]
+	19 [label="Table Reader"]
+	rankdir=LR
+}

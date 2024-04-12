@@ -1,0 +1,28 @@
+digraph {
+	114 -> 115
+	110 -> 114
+	115 -> 110
+	111 -> 16
+	19 -> 16
+	16 -> 19
+	116 -> 115
+	33 -> 116
+	19 -> 114
+	156 -> 33
+	114 -> 111
+	110 -> 16
+	115 -> 117
+	33 -> 16
+	117 -> 33
+	16 [label=TF]
+	111 [label="Row Filter"]
+	110 [label="Term To String"]
+	115 [label="Bag Of Words Creator"]
+	156 [label="Table Reader"]
+	116 [label="Number Filter"]
+	114 [label=GroupBy]
+	33 [label="POS Tagger"]
+	117 [label="Stop Word Filter"]
+	19 [label="Document Vector"]
+	rankdir=LR
+}

@@ -1,0 +1,23 @@
+digraph {
+	7 -> 8
+	3 -> 7
+	8 -> 9
+	7 -> 4
+	11 -> 5
+	5 -> 12
+	9 -> 10
+	10 -> 11
+	1 -> 3
+	4 -> 9
+	5 [label=Pivoting]
+	1 [label="Excel Reader"]
+	7 [label="Rule_based Row Splitter"]
+	9 [label=Concatenate]
+	11 [label="Column Expressions"]
+	4 [label="Random Number Assigner"]
+	10 [label="Missing Value"]
+	8 [label="Random Number Assigner"]
+	3 [label=Unpivoting]
+	12 [label="Column Resorter"]
+	rankdir=LR
+}

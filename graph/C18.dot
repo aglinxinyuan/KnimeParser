@@ -1,0 +1,28 @@
+digraph {
+	4 -> 2
+	1872 -> 11
+	8 -> 10
+	7 -> 4
+	10 -> 1873
+	3 -> 5
+	1873 -> 1872
+	1870 -> 1871
+	1871 -> 1872
+	6 -> 7
+	2 -> 8
+	5 -> 7
+	5 [label="Path to String"]
+	1872 [label=Concatenate]
+	7 [label="String Manipulation"]
+	1871 [label="Lat_Lon to Geometry"]
+	4 [label="Table Row To Variable Loop Start"]
+	11 [label="Geospatial View"]
+	1873 [label="Constant Value Column"]
+	8 [label="Loop End"]
+	6 [label="Extract Context Properties"]
+	1870 [label="Table Creator"]
+	3 [label="List Files_Folders"]
+	2 [label="GeoFile Reader"]
+	10 [label="Unary Union"]
+	rankdir=LR
+}

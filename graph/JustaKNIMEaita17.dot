@@ -1,0 +1,32 @@
+digraph {
+	33 -> 34
+	44 -> 47
+	49 -> 50
+	35 -> 38
+	38 -> 49
+	38 -> 39
+	43 -> 44
+	52 -> 53
+	42 -> 43
+	40 -> 42
+	39 -> 40
+	50 -> 51
+	38 -> 52
+	34 -> 35
+	43 [label="Math Formula"]
+	35 [label="Row Filter"]
+	44 [label="Top k Selector"]
+	34 [label=Unpivoting]
+	49 [label="Row Filter"]
+	42 [label=GroupBy]
+	50 [label=GroupBy]
+	53 [label="Line Plot"]
+	51 [label="Top k Selector"]
+	52 [label="Row Filter"]
+	47 [label="Bar Chart"]
+	40 [label=GroupBy]
+	39 [label="Extract Date_Time Fields"]
+	33 [label="CSV Reader"]
+	38 [label="Table Manipulator"]
+	rankdir=LR
+}

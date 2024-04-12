@@ -1,0 +1,14 @@
+digraph {
+	345 -> 347
+	253 -> 251
+	250 -> 251
+	346 -> 253
+	251 -> 345
+	251 [label="Random Forest Predictor"]
+	253 [label="RDKit Fingerprint"]
+	346 [label="Workflow Service Input"]
+	250 [label="PortObject Reference Reader"]
+	345 [label="Column Filter"]
+	347 [label="Workflow Service Output"]
+	rankdir=LR
+}

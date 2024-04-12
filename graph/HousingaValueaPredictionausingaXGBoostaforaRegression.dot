@@ -1,0 +1,37 @@
+digraph {
+	97 -> 79
+	78 -> 80
+	95 -> 97
+	94 -> 93
+	96 -> 95
+	81 -> 76
+	76 -> 96
+	85 -> 91
+	88 -> 91
+	91 -> 94
+	79 -> 88
+	80 -> 83
+	83 -> 81
+	94 -> 84
+	85 -> 94
+	34 -> 85
+	80 -> 81
+	85 -> 80
+	91 [label="XGBoost Tree Ensemble Learner _Regression_"]
+	94 [label="XGBoost Predictor _Regression_"]
+	96 [label="Column Filter"]
+	34 [label="File Reader"]
+	79 [label="Parameter Optimization Loop End"]
+	81 [label="XGBoost Predictor _Regression_"]
+	84 [label="Scatter Plot _JavaScript_"]
+	97 [label="Table Row to Variable"]
+	88 [label="Table Row to Variable"]
+	76 [label=X_Aggregator]
+	95 [label=Statistics]
+	93 [label="Numeric Scorer"]
+	80 [label=X_Partitioner]
+	83 [label="XGBoost Tree Ensemble Learner _Regression_"]
+	85 [label=Partitioning]
+	78 [label="Parameter Optimization Loop Start"]
+	rankdir=LR
+}

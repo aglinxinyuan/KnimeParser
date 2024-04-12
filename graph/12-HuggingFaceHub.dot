@@ -1,0 +1,12 @@
+digraph {
+	82 -> 89
+	127 -> 83
+	90 -> 83
+	89 -> 90
+	90 [label="HF Hub LLM Connector"]
+	82 [label="Credentials Configuration"]
+	89 [label="HF Hub Authenticator"]
+	127 [label="Table Creator"]
+	83 [label="LLM Prompter"]
+	rankdir=LR
+}

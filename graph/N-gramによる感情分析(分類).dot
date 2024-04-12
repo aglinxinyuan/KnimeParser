@@ -1,0 +1,95 @@
+digraph {
+	262 -> 264
+	31 -> 34
+	41 -> 42
+	38 -> 87
+	296 -> 312
+	141 -> 230
+	305 -> 311
+	6 -> 295
+	34 -> 35
+	301 -> 305
+	289 -> 7
+	29 -> 43
+	141 -> 167
+	305 -> 307
+	264 -> 292
+	43 -> 31
+	16 -> 140
+	140 -> 141
+	292 -> 295
+	167 -> 168
+	292 -> 263
+	168 -> 169
+	169 -> 230
+	42 -> 31
+	258 -> 262
+	288 -> 256
+	293 -> 16
+	37 -> 38
+	6 -> 34
+	301 -> 308
+	295 -> 296
+	35 -> 36
+	308 -> 305
+	230 -> 296
+	36 -> 37
+	307 -> 310
+	295 -> 309
+	296 -> 307
+	230 -> 288
+	309 -> 296
+	257 -> 258
+	87 -> 256
+	135 -> 258
+	296 -> 7
+	302 -> 301
+	263 -> 296
+	295 -> 302
+	7 -> 6
+	256 -> 257
+	295 -> 292
+	263 [label="Column Resorter"]
+	167 [label=GroupBy]
+	292 [label="Column Rename"]
+	289 [label="File Reader"]
+	7 [label="Strings To Document"]
+	169 [label="Row Filter"]
+	307 [label=Joiner]
+	308 [label="Decision Tree Learner"]
+	230 [label="Reference Row Filter"]
+	302 [label="Category to class"]
+	295 [label=Partitioning]
+	168 [label="Column Rename"]
+	256 [label="NGram creator"]
+	41 [label="Table Creator"]
+	31 [label="Java Edit Variable"]
+	311 [label=Scorer]
+	6 [label="Column Filter"]
+	288 [label="String to Term"]
+	309 [label="Decision Tree Learner"]
+	141 [label="Column Filter"]
+	16 [label=TF]
+	262 [label="Column Rename"]
+	42 [label="Table Row to Variable"]
+	310 [label="ROC Curve"]
+	87 [label="Stop Word Filter"]
+	296 [label="Decision Tree Predictor"]
+	293 [label="Bag Of Words Creator"]
+	135 [label="NGram creator"]
+	301 [label=Partitioning]
+	257 [label="Row Filter"]
+	38 [label="Snowball Stemmer"]
+	264 [label=Joiner]
+	43 [label="Table Row to Variable"]
+	35 [label="Number Filter"]
+	34 [label="Punctuation Erasure"]
+	29 [label="Extract Table Dimension"]
+	140 [label="Term to String"]
+	258 [label="Reference Row Filter"]
+	36 [label="N Chars Filter"]
+	305 [label="Decision Tree Predictor"]
+	312 [label=Scorer]
+	37 [label="Case converter"]
+	rankdir=LR
+}

@@ -1,0 +1,41 @@
+digraph {
+	5 -> 8
+	27 -> 20
+	7 -> 12
+	6 -> 8
+	15 -> 9
+	2 -> 11
+	4 -> 8
+	12 -> 3
+	26 -> 27
+	11 -> 12
+	1 -> 2
+	16 -> 18
+	21 -> 26
+	15 -> 16
+	3 -> 5
+	3 -> 6
+	8 -> 15
+	11 -> 7
+	3 -> 4
+	18 -> 21
+	5 [label=Pivot]
+	16 [label="Row Filter"]
+	27 [label="Column Renamer"]
+	20 [label="Line Plot"]
+	1 [label="Excel Reader"]
+	7 [label="Rule Engine"]
+	9 [label="Excel Writer"]
+	11 [label="IF Switch"]
+	26 [label=Pivot]
+	21 [label="Row Filter"]
+	18 [label=Unpivot]
+	4 [label=Pivot]
+	6 [label=Pivot]
+	8 [label=Concatenate]
+	15 [label="Column Resorter"]
+	3 [label=GroupBy]
+	2 [label="Extract Date_Time Fields"]
+	12 [label="End IF"]
+	rankdir=LR
+}

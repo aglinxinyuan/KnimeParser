@@ -1,0 +1,12 @@
+digraph {
+	23 -> 24
+	1 -> 21
+	21 -> 22
+	22 -> 23
+	24 [label=Ungroup]
+	1 [label="JSON Reader"]
+	22 [label=Ungroup]
+	23 [label="JSON Path"]
+	21 [label="JSON Path"]
+	rankdir=LR
+}

@@ -1,0 +1,22 @@
+digraph {
+	329 -> 326
+	330 -> 324
+	324 -> 332
+	328 -> 327
+	331 -> 330
+	332 -> 326
+	327 -> 329
+	325 -> 328
+	333 -> 331
+	326 [label="Column Appender"]
+	324 [label="Regression Predictor"]
+	329 [label="Numeric Scorer"]
+	330 [label="Linear Regression Learner"]
+	333 [label="Table Reader"]
+	325 [label=GroupBy]
+	328 [label="Column Rename"]
+	327 [label=Joiner]
+	331 [label="Row Splitter"]
+	332 [label="Numeric Scorer"]
+	rankdir=LR
+}

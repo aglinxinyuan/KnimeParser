@@ -1,0 +1,18 @@
+digraph {
+	13 -> 9
+	18 -> 14
+	12 -> 14
+	17 -> 18
+	9 -> 10
+	15 -> 13
+	10 -> 12
+	13 [label="Column Resorter"]
+	9 [label="Column To XML"]
+	18 [label="Java Edit Variable"]
+	10 [label="Column To XML"]
+	15 [label="Table Creator"]
+	14 [label="XML Row Combine and Write"]
+	17 [label="Extract Context Properties"]
+	12 [label="XML Column Combiner"]
+	rankdir=LR
+}

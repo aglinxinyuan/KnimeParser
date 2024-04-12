@@ -1,0 +1,91 @@
+digraph {
+	12 -> 26
+	13 -> 15
+	5 -> 8
+	14 -> 16
+	7 -> 25
+	26 -> 14
+	72 -> 79
+	76 -> 86
+	8 -> 9
+	13 -> 14
+	79 -> 82
+	16 -> 66
+	25 -> 72
+	25 -> 12
+	80 -> 85
+	2 -> 4
+	16 -> 65
+	72 -> 67
+	69 -> 70
+	1 -> 2
+	76 -> 87
+	68 -> 73
+	68 -> 74
+	80 -> 84
+	67 -> 70
+	17 -> 13
+	12 -> 75
+	9 -> 25
+	81 -> 82
+	9 -> 17
+	9 -> 72
+	15 -> 16
+	68 -> 71
+	3 -> 5
+	76 -> 78
+	80 -> 83
+	75 -> 77
+	12 -> 17
+	70 -> 68
+	82 -> 80
+	67 -> 69
+	4 -> 7
+	12 -> 76
+	75 -> 76
+	16 -> 19
+	79 -> 81
+	9 -> 26
+	1 -> 3
+	7 [label="Category to Number"]
+	79 [label=X_Partitioner]
+	9 [label=Normalizer]
+	26 [label=Denormalizer]
+	8 [label="Numeric Outliers"]
+	74 [label="Lift Chart _JavaScript_"]
+	17 [label=Denormalizer]
+	3 [label="Column Filter"]
+	19 [label=Scorer]
+	78 [label=Scorer]
+	84 [label="ROC Curve _JavaScript_"]
+	15 [label="Decision Tree Learner"]
+	25 [label=Joiner]
+	75 [label="Random Forest Learner"]
+	12 [label=Partitioning]
+	86 [label="ROC Curve _JavaScript_"]
+	16 [label="Decision Tree Predictor"]
+	85 [label="Lift Chart _JavaScript_"]
+	1 [label="CSV Reader"]
+	68 [label=X_Aggregator]
+	87 [label="Lift Chart _JavaScript_"]
+	67 [label=X_Partitioner]
+	72 [label=Denormalizer]
+	4 [label="Missing Value"]
+	76 [label="Random Forest Predictor"]
+	77 [label="Tree Ensemble Statistics"]
+	14 [label="Color Appender"]
+	83 [label=Scorer]
+	81 [label="Decision Tree Learner"]
+	5 [label="Missing Value"]
+	13 [label="Color Manager"]
+	66 [label="Lift Chart _JavaScript_"]
+	70 [label="Decision Tree Predictor"]
+	82 [label="Decision Tree Predictor"]
+	65 [label="ROC Curve _JavaScript_"]
+	69 [label="Decision Tree Learner"]
+	71 [label=Scorer]
+	80 [label=X_Aggregator]
+	73 [label="ROC Curve _JavaScript_"]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

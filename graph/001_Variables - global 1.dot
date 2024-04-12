@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	6 -> 2
+	2 -> 4
+	3 -> 5
+	5 [label="Rule Engine"]
+	4 [label="Number To String"]
+	6 [label="CSV Reader"]
+	3 [label="Number To String"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

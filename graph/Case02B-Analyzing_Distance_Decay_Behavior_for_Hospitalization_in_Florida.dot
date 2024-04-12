@@ -1,0 +1,56 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	4 -> 5
+	23 -> 24
+	7 -> 11
+	13 -> 14
+	21 -> 22
+	23 -> 26
+	22 -> 23
+	12 -> 13
+	2 -> 12
+	14 -> 15
+	17 -> 18
+	1 -> 2
+	7 -> 10
+	15 -> 16
+	6 -> 7
+	23 -> 27
+	7 -> 9
+	3 -> 4
+	17 -> 19
+	19 -> 20
+	23 -> 25
+	5 -> 6
+	2 -> 3
+	16 -> 17
+	27 [label="Linear Regression Learner"]
+	7 [label="Math Formula"]
+	9 [label="Linear Regression Learner"]
+	18 [label="Line Plot _JavaScript_"]
+	21 [label="Math Formula"]
+	26 [label="Linear Regression Learner"]
+	8 [label="Linear Regression Learner"]
+	17 [label="Row Filter"]
+	3 [label="Math Formula"]
+	19 [label="Math Formula"]
+	24 [label="Linear Regression Learner"]
+	6 [label="Math Formula"]
+	15 [label="Moving Aggregator"]
+	25 [label="Linear Regression Learner"]
+	10 [label="Linear Regression Learner"]
+	12 [label="Math Formula"]
+	16 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	22 [label="Math Formula"]
+	11 [label="Linear Regression Learner"]
+	4 [label="Math Formula"]
+	23 [label="Math Formula"]
+	14 [label="Math Formula"]
+	5 [label="Math Formula"]
+	13 [label=GroupBy]
+	20 [label="Math Formula"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

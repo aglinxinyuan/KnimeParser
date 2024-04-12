@@ -1,0 +1,59 @@
+digraph {
+	9 -> 14
+	7 -> 8
+	23 -> 29
+	4 -> 5
+	8 -> 9
+	13 -> 14
+	3 -> 15
+	3 -> 10
+	30 -> 31
+	31 -> 32
+	18 -> 22
+	14 -> 15
+	10 -> 11
+	37 -> 38
+	22 -> 29
+	15 -> 19
+	33 -> 34
+	24 -> 23
+	21 -> 18
+	36 -> 37
+	6 -> 7
+	22 -> 28
+	32 -> 33
+	34 -> 36
+	15 -> 20
+	5 -> 6
+	11 -> 13
+	7 [label="Column Filter"]
+	9 [label="Add Empty Rows"]
+	18 [label="Column Renamer"]
+	21 [label="CSV Reader"]
+	8 [label="Column Renamer"]
+	32 [label="Column Filter"]
+	3 [label="CSV Reader"]
+	19 [label="CSV Writer"]
+	24 [label="Credentials Configuration"]
+	31 [label="String Manipulation _Multi Column_"]
+	6 [label="Cell Splitter"]
+	15 [label="Column Renamer _Dictionary_"]
+	10 [label="Column Name Extractor"]
+	22 [label="Column Rename _Regex_"]
+	28 [label="CSV Writer"]
+	11 [label=Unpivot]
+	4 [label="Line Reader"]
+	23 [label="MySQL Connector"]
+	14 [label="Column Appender"]
+	38 [label="CSV Writer"]
+	5 [label="Top k Row Filter"]
+	13 [label="Column Filter"]
+	20 [label="Table Writer"]
+	34 [label="Column Auto Type Cast"]
+	29 [label="DB Loader"]
+	36 [label="Missing Value"]
+	33 [label="Column Rename _Regex_"]
+	30 [label="CSV Reader"]
+	37 [label="Rule Engine"]
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	11 -> 22
+	22 -> 24
+	34 -> 25
+	38 -> 36
+	23 -> 7
+	23 -> 34
+	39 -> 35
+	35 -> 33
+	21 -> 39
+	39 -> 40
+	34 -> 11
+	21 -> 36
+	23 -> 4
+	34 -> 21
+	19 -> 23
+	34 -> 10
+	24 [label="Column Combiner"]
+	35 [label="Cell Splitter"]
+	7 [label="Regex Split"]
+	34 [label="Cell Splitter"]
+	22 [label="Column Resorter"]
+	36 [label="DB Writer"]
+	11 [label="Case Converter"]
+	21 [label="String Manipulation"]
+	23 [label="Rule Engine"]
+	4 [label="Cell Splitter By Position"]
+	10 [label="String Replacer"]
+	40 [label="String To Number"]
+	25 [label="String Manipulation"]
+	39 [label="Number To String"]
+	33 [label="Double To Int"]
+	38 [label="SQLite Connector"]
+	19 [label="CSV Reader"]
+	rankdir=LR
+}

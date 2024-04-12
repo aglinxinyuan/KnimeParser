@@ -1,0 +1,47 @@
+digraph {
+	10 -> 13
+	4 -> 5
+	10 -> 9
+	565 -> 563
+	568 -> 570
+	11 -> 8
+	26 -> 565
+	571 -> 572
+	14 -> 26
+	7 -> 10
+	570 -> 571
+	9 -> 11
+	6 -> 7
+	13 -> 11
+	567 -> 569
+	26 -> 563
+	3 -> 4
+	6 -> 567
+	569 -> 568
+	572 -> 7
+	8 -> 14
+	5 -> 6
+	2 -> 3
+	570 [label="Column Expressions"]
+	7 [label="Row Filter"]
+	9 [label="String Manipulation"]
+	26 [label="Row Splitter"]
+	8 [label="Cell Splitter"]
+	3 [label="Cell Splitter"]
+	565 [label=Transpose]
+	6 [label=Transpose]
+	571 [label="Row Filter"]
+	10 [label="Row Splitter"]
+	567 [label="Column Expressions"]
+	4 [label="Column Filter"]
+	11 [label=Concatenate]
+	563 [label="Insert Column Header"]
+	14 [label="Column Filter"]
+	569 [label=RowID]
+	5 [label="Cell Splitter"]
+	13 [label="Column Expressions"]
+	572 [label="Table Row to Variable"]
+	2 [label="Tika Parser"]
+	568 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,38 @@
+digraph {
+	2 -> 5
+	10 -> 13
+	12 -> 13
+	9 -> 8
+	11 -> 10
+	1 -> 2
+	5 -> 11
+	15 -> 16
+	7 -> 12
+	2 -> 14
+	14 -> 15
+	4 -> 9
+	2 -> 3
+	8 -> 12
+	6 -> 7
+	16 -> 17
+	2 -> 4
+	3 -> 6
+	5 [label="Row Filter"]
+	16 [label=GroupBy]
+	13 [label=Joiner]
+	1 [label="Excel Reader"]
+	7 [label="Column Rename"]
+	9 [label=GroupBy]
+	11 [label=GroupBy]
+	4 [label="Row Filter"]
+	10 [label="Column Rename"]
+	6 [label=GroupBy]
+	8 [label="Column Rename"]
+	15 [label="Row Filter"]
+	14 [label="Rule Engine"]
+	17 [label=Pivoting]
+	3 [label="Row Filter"]
+	2 [label=Unpivoting]
+	12 [label=Joiner]
+	rankdir=LR
+}

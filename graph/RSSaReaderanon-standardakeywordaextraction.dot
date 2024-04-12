@@ -1,0 +1,22 @@
+digraph {
+	551 -> 552
+	548 -> 549
+	544 -> 545
+	545 -> 546
+	546 -> 547
+	543 -> 544
+	5 -> 543
+	549 -> 551
+	547 -> 548
+	5 [label="XML Reader"]
+	545 [label="Row Filter"]
+	551 [label="Regex Extractor"]
+	543 [label="Cell Splitter"]
+	548 [label="Cell Splitter"]
+	547 [label="Cell Splitter"]
+	546 [label="Row Filter"]
+	549 [label="Column Filter"]
+	544 [label=Transpose]
+	552 [label="Column Filter"]
+	rankdir=LR
+}

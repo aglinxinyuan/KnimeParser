@@ -1,0 +1,40 @@
+digraph {
+	7 -> 8
+	7 -> 16
+	4 -> 5
+	8 -> 9
+	13 -> 14
+	3 -> 10
+	12 -> 13
+	1 -> 4
+	14 -> 15
+	11 -> 12
+	1 -> 2
+	10 -> 11
+	15 -> 16
+	3 -> 5
+	9 -> 12
+	3 -> 17
+	5 -> 6
+	2 -> 3
+	8 -> 18
+	5 [label=Concatenate]
+	16 [label=Joiner]
+	14 [label="Math Formula"]
+	13 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	7 [label="GeoFile Reader"]
+	9 [label="Coordinates XYZ"]
+	11 [label="Coordinates XYZ"]
+	4 [label="Lat_Lon to Geometry"]
+	18 [label="GeoFile Writer"]
+	6 [label="Geospatial View"]
+	8 [label="Geometry To Point"]
+	15 [label=GroupBy]
+	12 [label="Cross Joiner"]
+	17 [label="GeoFile Writer"]
+	3 [label=Geocoding]
+	2 [label="String Manipulation"]
+	10 [label=Projection]
+	rankdir=LR
+}

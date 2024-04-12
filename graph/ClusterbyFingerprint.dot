@@ -1,0 +1,44 @@
+digraph {
+	85 -> 87
+	104 -> 106
+	89 -> 108
+	106 -> 105
+	53 -> 8278
+	8264 -> 41
+	8277 -> 81
+	45 -> 50
+	53 -> 50
+	8264 -> 44
+	44 -> 45
+	87 -> 86
+	8278 -> 104
+	8277 -> 85
+	50 -> 41
+	45 -> 53
+	8278 -> 83
+	50 -> 88
+	88 -> 89
+	83 -> 82
+	41 -> 8277
+	89 [label=Sorter]
+	108 [label="Text Viewer"]
+	105 [label="Line Plot"]
+	41 [label="Lookup and Add Columns"]
+	85 [label="Row Filter"]
+	86 [label="Text Viewer"]
+	50 [label="Hierarchical Clustering _from Matrix_"]
+	8264 [label="Smiles Reader"]
+	53 [label="Build Report for Clustering _from Matrix_"]
+	87 [label="Column Filter"]
+	8277 [label="Column Resorter"]
+	106 [label="Column Filter"]
+	83 [label="Column Filter"]
+	8278 [label=RowID]
+	81 [label="Text Viewer"]
+	44 [label="Fingerprint Generation"]
+	104 [label="Row Filter"]
+	82 [label="Line Plot"]
+	88 [label=GroupBy]
+	45 [label="Generate Pairwise Matrix"]
+	rankdir=LR
+}

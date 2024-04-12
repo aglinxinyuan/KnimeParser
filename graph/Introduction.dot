@@ -1,0 +1,12 @@
+digraph {
+	4 -> 3
+	4 -> 5
+	2 -> 4
+	7 -> 2
+	5 [label="CSV Writer"]
+	7 [label="CSV Reader"]
+	4 [label="Column Filter"]
+	3 [label="Bar Chart"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,11 @@
+digraph {
+	3 -> 2
+	5 -> 4
+	1 -> 2
+	5 [label="Table Reader"]
+	1 [label="KNIME Server Connection"]
+	4 [label="Call Workflow _Table Based_"]
+	3 [label="Table Reader"]
+	2 [label="Call Workflow _Table Based_"]
+	rankdir=LR
+}

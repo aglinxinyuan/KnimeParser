@@ -1,0 +1,16 @@
+digraph {
+	2 -> 10
+	10 -> 5
+	1 -> 9
+	9 -> 10
+	6 -> 9
+	5 -> 7
+	5 [label=Scorer]
+	1 [label="CSV Reader"]
+	7 [label="Parameter Optimization Loop End"]
+	9 [label="Gradient Boosted Trees Learner"]
+	6 [label="Parameter Optimization Loop Start"]
+	2 [label="CSV Reader"]
+	10 [label="Gradient Boosted Trees Predictor"]
+	rankdir=LR
+}

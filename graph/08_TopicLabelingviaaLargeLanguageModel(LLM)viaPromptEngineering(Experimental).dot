@@ -1,0 +1,54 @@
+digraph {
+	1809 -> 1808
+	145 -> 171
+	106 -> 176
+	1808 -> 1810
+	82 -> 106
+	1803 -> 1804
+	137 -> 145
+	176 -> 178
+	1805 -> 1814
+	1810 -> 1805
+	1802 -> 1803
+	447 -> 1812
+	1806 -> 1807
+	1812 -> 1814
+	16 -> 1816
+	1814 -> 1815
+	1812 -> 1802
+	179 -> 177
+	178 -> 177
+	1816 -> 447
+	171 -> 177
+	177 -> 1806
+	1807 -> 1809
+	1804 -> 179
+	447 -> 145
+	176 -> 171
+	106 -> 137
+	1806 [label=RowID]
+	1815 [label="Table View"]
+	145 [label="FAISS Vector Store Creator"]
+	1812 [label="Row Filter"]
+	1804 [label="String Manipulation _Variable_"]
+	1809 [label="Column Filter"]
+	137 [label="OpenAI Embeddings Connector"]
+	177 [label="Agent Prompter"]
+	171 [label="Vector Store to Tool"]
+	16 [label="CSV Reader"]
+	1802 [label="Chunk Loop Start"]
+	1810 [label="Constant Value Column"]
+	178 [label="OpenAI Functions Agent Creator"]
+	176 [label="OpenAI Chat Model Connector"]
+	1803 [label="Table Row To Variable"]
+	106 [label="OpenAI Authenticator"]
+	179 [label="Table Creator"]
+	1808 [label="Column Renamer"]
+	1807 [label="Table Transposer"]
+	82 [label="Credentials Configuration"]
+	447 [label=Partitioning]
+	1816 [label="Row Sampling"]
+	1805 [label="Loop End"]
+	1814 [label=Joiner]
+	rankdir=LR
+}

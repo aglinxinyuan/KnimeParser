@@ -1,0 +1,26 @@
+digraph {
+	33 -> 69
+	129 -> 130
+	32 -> 33
+	1 -> 69
+	118 -> 120
+	31 -> 33
+	131 -> 118
+	69 -> 131
+	130 -> 118
+	120 -> 126
+	126 -> 119
+	120 [label="Table Row to Variable"]
+	126 [label="CASE Switch Variable _Start_"]
+	1 [label="Keras Network Reader"]
+	119 [label="Send Email"]
+	69 [label="Keras Network Executor"]
+	31 [label="File Reader"]
+	118 [label="Rule Engine"]
+	131 [label="Math Formula"]
+	130 [label="Table Row to Variable"]
+	33 [label="Normalizer _Apply_"]
+	32 [label="Model Reader"]
+	129 [label="Table Reader"]
+	rankdir=LR
+}

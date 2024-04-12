@@ -1,0 +1,57 @@
+digraph {
+	41 -> 57
+	42 -> 47
+	102 -> 92
+	42 -> 53
+	63 -> 64
+	97 -> 98
+	40 -> 43
+	92 -> 93
+	64 -> 96
+	100 -> 102
+	58 -> 56
+	53 -> 47
+	47 -> 48
+	54 -> 58
+	59 -> 62
+	60 -> 63
+	55 -> 54
+	48 -> 59
+	96 -> 98
+	95 -> 97
+	56 -> 60
+	55 -> 58
+	63 -> 95
+	43 -> 42
+	57 -> 55
+	62 -> 63
+	99 -> 100
+	95 -> 96
+	57 [label="Table Row To Variable Loop Start"]
+	55 [label="File Reader"]
+	97 [label="Vocabulary Extractor"]
+	58 [label="Variable to Table Column"]
+	64 [label="Rule Engine"]
+	92 [label="Column Filter"]
+	41 [label="List Files"]
+	98 [label="Split Collection Column"]
+	56 [label="Loop End"]
+	54 [label=GroupBy]
+	59 [label="Java Snippet"]
+	48 [label="Loop End"]
+	42 [label="File Reader"]
+	53 [label=GroupBy]
+	47 [label="Variable to Table Column"]
+	63 [label="Column Rename"]
+	100 [label="Numeric Distances"]
+	93 [label=Scorer]
+	60 [label="Java Snippet"]
+	99 [label="Split Collection Column"]
+	43 [label="Table Row To Variable Loop Start"]
+	96 [label="Word Vector Apply"]
+	102 [label="K Nearest Neighbor _Distance Function_"]
+	62 [label="Column Rename"]
+	40 [label="List Files"]
+	95 [label="Doc2Vec Learner"]
+	rankdir=LR
+}

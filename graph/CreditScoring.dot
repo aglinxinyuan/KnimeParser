@@ -1,0 +1,67 @@
+digraph {
+	60 -> 53
+	40 -> 2
+	34 -> 35
+	28 -> 34
+	7 -> 40
+	39 -> 2
+	58 -> 40
+	34 -> 38
+	1 -> 58
+	293 -> 39
+	9 -> 294
+	31 -> 32
+	39 -> 35
+	7 -> 35
+	1 -> 2
+	53 -> 62
+	34 -> 9
+	290 -> 292
+	33 -> 34
+	32 -> 7
+	33 -> 28
+	53 -> 59
+	34 -> 39
+	62 -> 54
+	35 -> 22
+	40 -> 9
+	22 -> 34
+	39 -> 9
+	40 -> 33
+	54 -> 61
+	39 -> 60
+	7 -> 39
+	58 -> 39
+	38 -> 60
+	294 -> 290
+	2 -> 32
+	292 -> 293
+	293 -> 38
+	2 -> 31
+	292 [label="Constant Value Column"]
+	7 [label=X_Aggregator]
+	9 [label="Row Filter"]
+	58 [label="Category To Number"]
+	290 [label="Constant Value Column"]
+	31 [label="Decision Tree Learner"]
+	54 [label="Cell To PMML"]
+	59 [label="Bar Chart"]
+	1 [label="CSV Reader"]
+	294 [label="Column Filter"]
+	22 [label="PMML To Cell"]
+	53 [label=Sorter]
+	28 [label="PMML To Cell"]
+	293 [label=RowID]
+	61 [label="PMML Writer"]
+	38 [label="Cross Joiner"]
+	60 [label=Concatenate]
+	35 [label="Rule Engine"]
+	34 [label="Rule Engine"]
+	62 [label="Row Filter"]
+	40 [label=Normalizer]
+	39 [label=Scorer]
+	33 [label="Decision Tree Learner"]
+	32 [label="Decision Tree Predictor"]
+	2 [label=X_Partitioner]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	6 -> 8
+	8 -> 10
+	7 -> 6
+	5 -> 7
+	1 -> 5
+	5 [label="Column List Loop Start"]
+	1 [label="Table Creator"]
+	7 [label="Column Rename _Regex_"]
+	6 [label="Loop End"]
+	8 [label=GroupBy]
+	10 [label="Column Rename"]
+	rankdir=LR
+}

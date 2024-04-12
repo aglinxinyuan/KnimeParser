@@ -1,0 +1,42 @@
+digraph {
+	8 -> 30
+	31 -> 10
+	13 -> 18
+	15 -> 13
+	27 -> 15
+	6 -> 8
+	1 -> 4
+	10 -> 11
+	33 -> 35
+	4 -> 2
+	29 -> 31
+	35 -> 36
+	30 -> 29
+	11 -> 28
+	28 -> 27
+	7 -> 33
+	18 -> 7
+	5 -> 6
+	2 -> 5
+	27 [label="Column Rename"]
+	7 [label="Loop End"]
+	18 [label="Column Expressions"]
+	8 [label="Read Excel Sheet Names"]
+	31 [label="Column Filter"]
+	6 [label="Table Row To Variable Loop Start"]
+	15 [label="String To Number"]
+	10 [label="Table Row To Variable Loop Start"]
+	1 [label="List Files_Folders"]
+	28 [label="Rule_based Row Filter"]
+	11 [label="Excel Reader"]
+	4 [label="Path to String"]
+	5 [label="Rule_based Row Filter"]
+	13 [label="Row Filter"]
+	35 [label=GroupBy]
+	29 [label="Rule_based Row Filter"]
+	36 [label="Top k Selector"]
+	33 [label="Loop End"]
+	30 [label="Path to String"]
+	2 [label="Rule_based Row Filter"]
+	rankdir=LR
+}

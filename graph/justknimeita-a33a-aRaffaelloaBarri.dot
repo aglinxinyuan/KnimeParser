@@ -1,0 +1,68 @@
+digraph {
+	31 -> 34
+	2 -> 6
+	12 -> 13
+	8 -> 1
+	6 -> 9
+	9 -> 5
+	18 -> 17
+	30 -> 27
+	14 -> 15
+	11 -> 22
+	32 -> 35
+	27 -> 21
+	10 -> 12
+	3 -> 32
+	23 -> 30
+	19 -> 16
+	5 -> 18
+	20 -> 24
+	1 -> 10
+	24 -> 25
+	16 -> 33
+	22 -> 26
+	28 -> 27
+	13 -> 11
+	15 -> 2
+	26 -> 20
+	11 -> 14
+	17 -> 19
+	30 -> 28
+	33 -> 3
+	21 -> 31
+	25 -> 23
+	5 -> 19
+	27 [label="Column Expressions"]
+	9 [label="String to Path _Variable_"]
+	18 [label="Row Filter"]
+	21 [label="Loop End"]
+	26 [label="Rule_based Row Filter"]
+	8 [label="Create Folder"]
+	17 [label="Table Row to Variable"]
+	3 [label="Loop End"]
+	19 [label="Column Expressions"]
+	24 [label="Table Row to Variable"]
+	31 [label=GroupBy]
+	6 [label="Table Row to Variable"]
+	15 [label="Row Filter"]
+	25 [label="String to Path _Variable_"]
+	12 [label="Cell Splitter"]
+	10 [label="Column Expressions"]
+	16 [label="Rule_based Row Filter"]
+	30 [label="Row Splitter"]
+	1 [label="Unzip Files _legacy_"]
+	22 [label="Row Filter"]
+	28 [label="Table Row to Variable"]
+	11 [label="Row Splitter"]
+	23 [label="Excel Reader"]
+	14 [label="Row Splitter"]
+	5 [label="Excel Reader"]
+	13 [label="Column Filter"]
+	20 [label="Chunk Loop Start"]
+	35 [label="Top k Selector"]
+	34 [label="Top k Selector"]
+	33 [label="String To Number"]
+	32 [label=GroupBy]
+	2 [label="Chunk Loop Start"]
+	rankdir=LR
+}

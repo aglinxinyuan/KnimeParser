@@ -1,0 +1,26 @@
+digraph {
+	33 -> 34
+	33 -> 35
+	1 -> 31
+	36 -> 38
+	31 -> 32
+	31 -> 33
+	1 -> 19
+	40 -> 41
+	36 -> 37
+	38 -> 40
+	33 -> 36
+	35 [label="Bar Chart"]
+	1 [label="CSV Reader"]
+	34 [label="Statistics View"]
+	41 [label="Box Plot"]
+	31 [label="Missing Value"]
+	36 [label="Rule Engine"]
+	37 [label="Bar Chart"]
+	40 [label="Column Renamer"]
+	33 [label="Cell Splitter"]
+	32 [label="Statistics View"]
+	38 [label="Column Filter"]
+	19 [label="Statistics View"]
+	rankdir=LR
+}

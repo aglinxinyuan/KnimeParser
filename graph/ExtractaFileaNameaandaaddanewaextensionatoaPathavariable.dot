@@ -1,0 +1,16 @@
+digraph {
+	3 -> 9
+	4 -> 7
+	10 -> 9
+	3 -> 4
+	1 -> 2
+	7 -> 10
+	1 [label="Data Generator"]
+	7 [label="URL to File Path _Variable_"]
+	9 [label="Excel Writer"]
+	4 [label="Path to String _Variable_"]
+	3 [label="CSV Reader"]
+	2 [label="CSV Writer"]
+	10 [label="Create File_Folder Variables"]
+	rankdir=LR
+}

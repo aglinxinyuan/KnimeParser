@@ -1,0 +1,31 @@
+digraph {
+	404 -> 419
+	404 -> 418
+	423 -> 266
+	422 -> 271
+	403 -> 404
+	273 -> 368
+	272 -> 273
+	271 -> 272
+	273 -> 420
+	273 -> 419
+	404 -> 368
+	273 -> 418
+	266 -> 271
+	406 -> 403
+	404 -> 420
+	423 [label="Excel Reader"]
+	403 [label="DB Table Selector"]
+	418 [label=Joiner]
+	419 [label=Joiner]
+	368 [label=Joiner]
+	420 [label=Joiner]
+	272 [label="Rule Engine"]
+	273 [label="String to Date_Time"]
+	266 [label="Table Cropper"]
+	404 [label="DB Reader"]
+	406 [label="SQLite Connector"]
+	271 [label="Value Lookup"]
+	422 [label="CSV Reader"]
+	rankdir=LR
+}

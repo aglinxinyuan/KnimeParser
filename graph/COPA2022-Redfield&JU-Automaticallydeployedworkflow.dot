@@ -1,0 +1,16 @@
+digraph {
+	101 -> 99
+	94 -> 99
+	99 -> 96
+	95 -> 101
+	57 -> 101
+	106 -> 57
+	94 [label="BufferedDataTable Reference Reader"]
+	99 [label="Conformal Classification"]
+	57 [label="Number To String"]
+	96 [label="Conformal Scorer"]
+	101 [label="Random Forest Predictor"]
+	95 [label="PortObject Reference Reader"]
+	106 [label="Workflow Service Input"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	2 -> 1
+	1 -> 4
+	1 -> 5
+	5 [label="Row Filter"]
+	1 [label="String Similarity"]
+	4 [label="Table View"]
+	3 [label="Table View"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

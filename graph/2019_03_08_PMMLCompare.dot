@@ -1,0 +1,15 @@
+digraph {
+	6 -> 3
+	7 -> 8
+	3 -> 7
+	4 -> 8
+	3 -> 4
+	1 -> 6
+	1 [label="Data Generator"]
+	7 [label="Normalizer _PMML_"]
+	4 [label=Normalizer]
+	6 [label=Stresser]
+	8 [label="Table Difference Checker"]
+	3 [label="Numeric Outliers"]
+	rankdir=LR
+}

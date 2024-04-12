@@ -1,0 +1,114 @@
+digraph {
+	66 -> 68
+	24 -> 26
+	54 -> 44
+	173 -> 14
+	115 -> 116
+	25 -> 19
+	74 -> 72
+	97 -> 99
+	173 -> 56
+	77 -> 73
+	66 -> 115
+	121 -> 79
+	14 -> 24
+	97 -> 98
+	10 -> 54
+	37 -> 173
+	148 -> 149
+	28 -> 47
+	122 -> 102
+	69 -> 70
+	25 -> 20
+	150 -> 103
+	173 -> 120
+	25 -> 28
+	149 -> 145
+	146 -> 147
+	98 -> 100
+	29 -> 55
+	173 -> 64
+	173 -> 148
+	103 -> 104
+	150 -> 98
+	24 -> 23
+	15 -> 25
+	66 -> 67
+	122 -> 97
+	117 -> 118
+	173 -> 77
+	120 -> 121
+	116 -> 150
+	77 -> 65
+	173 -> 63
+	102 -> 103
+	145 -> 146
+	173 -> 66
+	70 -> 71
+	67 -> 69
+	24 -> 22
+	44 -> 37
+	149 -> 146
+	66 -> 117
+	118 -> 122
+	24 -> 29
+	173 -> 15
+	79 -> 74
+	67 -> 68
+	25 -> 27
+	27 [label="Box Plot"]
+	55 [label=Statistics]
+	103 [label="Logistic Regression Predictor"]
+	79 [label="One to Many"]
+	97 [label="Decision Tree Learner"]
+	26 [label="Box Plot"]
+	74 [label="Create Bit Vector"]
+	122 [label="Column Filter"]
+	121 [label="Row Filter"]
+	145 [label="Linear Regression Learner"]
+	149 [label=Partitioning]
+	19 [label=Statistics]
+	24 [label="Column Filter"]
+	64 [label="Scatter Plot _local_"]
+	98 [label="Decision Tree Predictor"]
+	56 [label="Conditional Box Plot"]
+	15 [label="Numeric Row Splitter"]
+	54 [label="Table Manipulator"]
+	25 [label="Column Filter"]
+	146 [label="Regression Predictor"]
+	10 [label="Excel Reader"]
+	150 [label="Column Filter"]
+	148 [label="Row Filter"]
+	115 [label=Sorter]
+	22 [label="Histogram _local_"]
+	68 [label="Cluster Assigner"]
+	28 [label="Math Formula"]
+	173 [label="Row Filter"]
+	67 [label=k_Means]
+	23 [label=Statistics]
+	47 [label=Statistics]
+	72 [label="Association Rule Learner"]
+	147 [label="Numeric Scorer"]
+	63 [label="Conditional Box Plot"]
+	77 [label=Normalizer]
+	100 [label=Scorer]
+	14 [label="Numeric Row Splitter"]
+	117 [label=Sorter]
+	99 [label="Decision Tree View"]
+	20 [label="Histogram _local_"]
+	120 [label=Sorter]
+	44 [label="Duplicate Row Filter"]
+	66 [label=Partitioning]
+	102 [label="Logistic Regression Learner"]
+	29 [label="Math Formula"]
+	70 [label="Shape Manager"]
+	69 [label="Color Manager"]
+	71 [label="Scatter Plot _local_"]
+	65 [label="Linear Correlation"]
+	104 [label=Scorer]
+	116 [label="Row Filter"]
+	118 [label="Row Filter"]
+	73 [label="Hierarchical Clustering"]
+	37 [label="Extract Date_Time Fields"]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	1 -> 4
+	10 -> 6
+	4 -> 5
+	1 -> 2
+	11 -> 7
+	5 -> 11
+	6 -> 12
+	9 -> 13
+	2 -> 14
+	14 -> 10
+	13 -> 12
+	7 -> 9
+	5 [label="Regex Split"]
+	13 [label="Column Auto Type Cast"]
+	1 [label="Line Reader"]
+	7 [label=RowID]
+	9 [label="Column Rename"]
+	11 [label="Column Filter"]
+	4 [label="Row Filter"]
+	10 [label="Column Filter"]
+	6 [label=RowID]
+	14 [label="String Manipulation"]
+	2 [label="Row Filter"]
+	12 [label=Joiner]
+	rankdir=LR
+}

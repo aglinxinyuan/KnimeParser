@@ -1,0 +1,27 @@
+digraph {
+	11 -> 6
+	4 -> 5
+	2 -> 13
+	3 -> 4
+	2 -> 7
+	7 -> 12
+	1 -> 9
+	9 -> 10
+	6 -> 2
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	5 [label="Scatter Plot _local_"]
+	13 [label="Silhouette Coefficient"]
+	1 [label="CSV Reader"]
+	7 [label="Cluster Assigner"]
+	9 [label=RowID]
+	11 [label=Normalizer]
+	4 [label="Shape Manager"]
+	10 [label="Missing Value"]
+	6 [label=Partitioning]
+	3 [label="Color Manager"]
+	2 [label=k_Means]
+	12 [label="CSV Writer"]
+	rankdir=LR
+}

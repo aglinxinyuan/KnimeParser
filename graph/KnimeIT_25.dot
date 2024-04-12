@@ -1,0 +1,23 @@
+digraph {
+	11 -> 10
+	12 -> 13
+	9 -> 14
+	14 -> 5
+	10 -> 9
+	8 -> 9
+	1 -> 11
+	13 -> 8
+	10 -> 12
+	2 -> 11
+	5 [label=Scorer]
+	13 [label="Double To Int"]
+	1 [label="CSV Reader"]
+	9 [label="XGBoost Predictor"]
+	11 [label=Concatenate]
+	8 [label="XGBoost Tree Ensemble Learner"]
+	14 [label=X_Aggregator]
+	12 [label=SMOTE]
+	2 [label="CSV Reader"]
+	10 [label=X_Partitioner]
+	rankdir=LR
+}

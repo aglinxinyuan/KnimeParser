@@ -1,0 +1,22 @@
+digraph {
+	53 -> 54
+	43 -> 44
+	37 -> 39
+	41 -> 43
+	44 -> 53
+	33 -> 32
+	32 -> 37
+	39 -> 41
+	40 -> 39
+	43 [label="Loop End"]
+	44 [label=GroupBy]
+	41 [label="String Manipulation"]
+	53 [label="Row Filter"]
+	40 [label="Table Creator"]
+	54 [label="Rule Engine"]
+	39 [label=Joiner]
+	33 [label="Table Creator"]
+	32 [label="Counting Loop Start"]
+	37 [label="String Manipulation"]
+	rankdir=LR
+}

@@ -1,0 +1,54 @@
+digraph {
+	44 -> 43
+	40 -> 22
+	35 -> 38
+	17 -> 40
+	34 -> 35
+	28 -> 34
+	22 -> 23
+	40 -> 28
+	39 -> 44
+	30 -> 31
+	20 -> 19
+	31 -> 32
+	37 -> 28
+	27 -> 30
+	33 -> 34
+	19 -> 22
+	18 -> 20
+	24 -> 25
+	36 -> 37
+	38 -> 39
+	32 -> 33
+	37 -> 39
+	28 -> 25
+	23 -> 36
+	25 -> 27
+	16 -> 17
+	17 -> 22
+	27 [label="String Similarity"]
+	18 [label="Value Counter"]
+	17 [label="Cell Splitter"]
+	19 [label="Row Filter"]
+	24 [label="Table Row To Variable Loop Start"]
+	31 [label="Column Filter"]
+	25 [label="Variable to Table Column"]
+	16 [label="CSV Reader"]
+	30 [label="Column Rename"]
+	22 [label=Joiner]
+	28 [label="Reference Row Filter"]
+	23 [label=Concatenate]
+	38 [label="Constant Value Column"]
+	20 [label=RowID]
+	35 [label="Column Filter"]
+	44 [label="Color Manager"]
+	34 [label="Column Appender"]
+	43 [label="Table View"]
+	36 [label="Column Filter"]
+	40 [label="Row Splitter"]
+	39 [label=Concatenate]
+	33 [label="Many to One"]
+	32 [label="Loop End _Column Append_"]
+	37 [label="Constant Value Column"]
+	rankdir=LR
+}

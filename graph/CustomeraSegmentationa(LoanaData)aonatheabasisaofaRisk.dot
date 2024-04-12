@@ -1,0 +1,85 @@
+digraph {
+	12 -> 44
+	15 -> 14
+	35 -> 7
+	38 -> 8
+	24 -> 42
+	15 -> 18
+	42 -> 43
+	39 -> 40
+	7 -> 24
+	13 -> 18
+	15 -> 13
+	13 -> 46
+	11 -> 45
+	5 -> 48
+	11 -> 17
+	25 -> 26
+	14 -> 52
+	13 -> 31
+	15 -> 19
+	14 -> 47
+	11 -> 50
+	15 -> 16
+	12 -> 25
+	15 -> 17
+	42 -> 8
+	13 -> 51
+	15 -> 12
+	15 -> 11
+	12 -> 16
+	48 -> 34
+	48 -> 35
+	6 -> 38
+	34 -> 6
+	14 -> 32
+	7 -> 9
+	8 -> 15
+	12 -> 29
+	24 -> 41
+	12 -> 49
+	7 -> 23
+	11 -> 30
+	6 -> 39
+	14 -> 19
+	7 [label="Missing Value Column Filter"]
+	9 [label=Statistics]
+	52 [label="Kruskal_Wallis Test"]
+	18 [label="Cluster Assigner"]
+	26 [label="Shape Manager"]
+	8 [label=Joiner]
+	32 [label="One_way ANOVA"]
+	17 [label="Cluster Assigner"]
+	19 [label="Cluster Assigner"]
+	24 [label=Normalizer]
+	49 [label="Kruskal_Wallis Test"]
+	41 [label="Box Plot _JavaScript_"]
+	31 [label="One_way ANOVA"]
+	51 [label="Kruskal_Wallis Test"]
+	6 [label="Missing Value Column Filter"]
+	15 [label=Partitioning]
+	25 [label="Color Manager"]
+	12 [label=k_Means]
+	16 [label="Cluster Assigner"]
+	48 [label="Row Sampling"]
+	50 [label="Kruskal_Wallis Test"]
+	42 [label="Numeric Outliers"]
+	23 [label="Box Plot _legacy_"]
+	11 [label=k_Means]
+	47 [label="Silhouette Coefficient"]
+	14 [label=k_Means]
+	38 [label="Category to Number"]
+	5 [label="CSV Reader"]
+	13 [label=k_Means]
+	35 [label="Column Filter"]
+	44 [label="Silhouette Coefficient"]
+	34 [label="Column Filter"]
+	43 [label="Box Plot _JavaScript_"]
+	29 [label="One_way ANOVA"]
+	46 [label="Silhouette Coefficient"]
+	40 [label="Math Formula"]
+	39 [label="Value Counter"]
+	30 [label="One_way ANOVA"]
+	45 [label="Silhouette Coefficient"]
+	rankdir=LR
+}

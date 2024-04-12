@@ -1,0 +1,20 @@
+digraph {
+	25 -> 2
+	18 -> 2
+	5 -> 4
+	5 -> 26
+	23 -> 17
+	17 -> 18
+	2 -> 5
+	24 -> 17
+	5 [label="Round Double"]
+	24 [label="CSV Reader"]
+	23 [label="CSV Reader"]
+	4 [label="Table View"]
+	26 [label="Table Writer"]
+	18 [label="String To Number"]
+	25 [label="Conda Environment Propagation"]
+	17 [label=Joiner]
+	2 [label="Python Script _Labs_"]
+	rankdir=LR
+}

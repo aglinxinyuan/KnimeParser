@@ -1,0 +1,14 @@
+digraph {
+	899 -> 908
+	907 -> 898
+	895 -> 898
+	898 -> 899
+	906 -> 898
+	907 [label="Workflow Service Input"]
+	899 [label="Missing Value"]
+	908 [label="Workflow Service Output"]
+	898 [label=Joiner]
+	906 [label="Workflow Service Input"]
+	895 [label="Document Data Extractor"]
+	rankdir=LR
+}

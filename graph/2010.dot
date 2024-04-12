@@ -1,0 +1,122 @@
+digraph {
+	29 -> 37
+	55 -> 2
+	53 -> 54
+	41 -> 42
+	13 -> 14
+	21 -> 25
+	42 -> 43
+	39 -> 40
+	57 -> 58
+	59 -> 60
+	27 -> 28
+	51 -> 52
+	37 -> 41
+	68 -> 70
+	23 -> 59
+	63 -> 68
+	55 -> 57
+	1 -> 22
+	5 -> 20
+	32 -> 34
+	31 -> 32
+	69 -> 21
+	54 -> 55
+	50 -> 51
+	26 -> 27
+	58 -> 59
+	44 -> 45
+	28 -> 30
+	21 -> 26
+	64 -> 66
+	65 -> 67
+	33 -> 35
+	70 -> 73
+	34 -> 33
+	20 -> 24
+	8 -> 50
+	4 -> 20
+	33 -> 38
+	46 -> 70
+	3 -> 5
+	35 -> 36
+	28 -> 31
+	45 -> 46
+	36 -> 37
+	2 -> 56
+	33 -> 39
+	70 -> 71
+	9 -> 50
+	38 -> 39
+	43 -> 44
+	24 -> 63
+	52 -> 53
+	3 -> 4
+	29 -> 40
+	67 -> 68
+	5 -> 23
+	65 -> 64
+	60 -> 65
+	22 -> 21
+	73 -> 74
+	28 -> 29
+	27 [label="Rule Engine"]
+	57 [label="String Manipulation"]
+	55 [label="Number To String"]
+	9 [label="Excel Reader"]
+	45 [label="String Manipulation"]
+	52 [label="Row Filter"]
+	21 [label=Concatenate]
+	26 [label="Numeric Outliers"]
+	58 [label="Column Aggregator"]
+	8 [label="Table Reader"]
+	74 [label="Excel Writer"]
+	32 [label="Value Counter"]
+	3 [label="SQLite Connector"]
+	24 [label="DB Reader"]
+	64 [label="Rule Engine"]
+	41 [label="Duplicate Row Filter"]
+	31 [label="Duplicate Row Filter"]
+	51 [label=Unpivot]
+	56 [label="Column Expressions"]
+	25 [label="Data Explorer"]
+	54 [label="Cell Splitter"]
+	59 [label=Joiner]
+	50 [label=Joiner]
+	1 [label="CSV Reader"]
+	42 [label="Column Filter"]
+	22 [label="Number To String"]
+	53 [label="Table Manipulator"]
+	28 [label="Missing Value"]
+	68 [label=Concatenate]
+	67 [label="Rule Engine"]
+	23 [label="DB Reader"]
+	4 [label="DB Table Selector"]
+	63 [label="Constant Value Column"]
+	14 [label="Constant Value Column"]
+	38 [label="Counter Generation"]
+	60 [label="Table Manipulator"]
+	73 [label="Column Renamer"]
+	5 [label="DB Table Selector"]
+	20 [label="DB Joiner"]
+	13 [label="Table Creator"]
+	35 [label="Constant Value Column"]
+	34 [label=RowID]
+	43 [label="String Manipulation"]
+	29 [label="Duplicate Row Filter"]
+	44 [label="String Manipulation"]
+	70 [label=Joiner]
+	36 [label="Table Editor _JavaScript_"]
+	65 [label="Constant Value Column"]
+	46 [label="String Manipulation"]
+	66 [label="Missing Value"]
+	69 [label="Table Reader"]
+	71 [label="Excel Writer"]
+	40 [label="String Replacer _Dictionary_"]
+	39 [label="Similarity Search"]
+	33 [label="Row Splitter"]
+	30 [label="Data Explorer"]
+	2 [label="Column Expressions"]
+	37 [label="String Replacer _Dictionary_"]
+	rankdir=LR
+}

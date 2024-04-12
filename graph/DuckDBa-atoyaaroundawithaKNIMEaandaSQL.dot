@@ -1,0 +1,90 @@
+digraph {
+	250 -> 1946
+	1907 -> 1927
+	1922 -> 1934
+	1936 -> 1938
+	1938 -> 1941
+	1953 -> 1954
+	1921 -> 1928
+	1945 -> 1951
+	46 -> 249
+	254 -> 250
+	1946 -> 1947
+	1922 -> 1923
+	1935 -> 1936
+	1936 -> 1955
+	1928 -> 1931
+	1929 -> 1938
+	248 -> 46
+	1942 -> 1945
+	1949 -> 1950
+	1934 -> 1935
+	249 -> 254
+	1926 -> 1924
+	1921 -> 1922
+	1943 -> 1934
+	57 -> 48
+	1907 -> 1946
+	1941 -> 1945
+	1955 -> 1929
+	1931 -> 1943
+	56 -> 57
+	250 -> 254
+	1923 -> 1953
+	1923 -> 1947
+	1938 -> 1937
+	1923 -> 1926
+	250 -> 1927
+	1934 -> 1929
+	1941 -> 1942
+	1954 -> 1926
+	1945 -> 1952
+	1906 -> 1907
+	48 -> 47
+	1927 -> 1955
+	1927 -> 1928
+	47 -> 248
+	1947 -> 1949
+	1924 -> 1933
+	1951 -> 1952
+	1947 [label="DB SQL Executor"]
+	1931 [label="DB Query"]
+	57 [label="Variable to Table Row"]
+	1929 [label="DB SQL Executor"]
+	1954 [label="DB Reader"]
+	1952 [label="DB Query Reader"]
+	1938 [label="DB Table Selector"]
+	1936 [label="DB Reader"]
+	1955 [label="Merge Variables"]
+	254 [label="Java Edit Variable _simple_"]
+	1953 [label="DB Table Selector"]
+	1935 [label="DB Table Selector"]
+	1934 [label="DB SQL Executor"]
+	1937 [label="DB Reader"]
+	1933 [label="DB Reader"]
+	56 [label="Extract Context Properties"]
+	1951 [label="DB Query Reader"]
+	1941 [label="DB GroupBy"]
+	1950 [label="DB Reader"]
+	48 [label="String Manipulation"]
+	1907 [label="Column Rename"]
+	47 [label="String Manipulation"]
+	250 [label="String to Path _Variable_"]
+	1921 [label="DB Connector"]
+	1946 [label="CSV Writer"]
+	1922 [label="DB SQL Executor"]
+	1923 [label="DB SQL Executor"]
+	1928 [label="DB Table Selector"]
+	1924 [label="DB Table Selector"]
+	1949 [label="DB Table Selector"]
+	248 [label="Column Rename"]
+	1942 [label="DB Reader"]
+	46 [label="Java Snippet _simple_"]
+	249 [label="Table Row to Variable"]
+	1945 [label="DB Connection Extractor"]
+	1927 [label="Parquet Writer"]
+	1943 [label="DB Reader"]
+	1926 [label="DB SQL Executor"]
+	1906 [label="Data Generator"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	12 -> 15
+	15 -> 14
+	9 -> 3
+	4 -> 5
+	11 -> 9
+	8 -> 10
+	3 -> 4
+	8 -> 11
+	14 -> 13
+	10 -> 12
+	8 -> 12
+	5 [label="Scatter Plot"]
+	14 [label="Shape Manager"]
+	13 [label="Scatter Plot"]
+	9 [label=k_Medoids]
+	11 [label="Distance Matrix Calculate"]
+	4 [label="Shape Manager"]
+	8 [label="Table Reader"]
+	15 [label="Color Manager"]
+	12 [label=k_Medoids]
+	3 [label="Color Manager"]
+	10 [label="Numeric Distances"]
+	rankdir=LR
+}

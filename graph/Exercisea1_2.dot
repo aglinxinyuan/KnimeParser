@@ -1,0 +1,12 @@
+digraph {
+	1 -> 6
+	1 -> 4
+	1 -> 3
+	4 -> 5
+	5 [label="Table Writer"]
+	1 [label="CSV Reader"]
+	4 [label="Column Rename"]
+	6 [label=Statistics]
+	3 [label="Interactive Table"]
+	rankdir=LR
+}

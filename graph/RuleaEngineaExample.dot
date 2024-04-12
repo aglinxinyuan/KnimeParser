@@ -1,0 +1,8 @@
+digraph {
+	6 -> 3
+	3 -> 4
+	4 [label="Rule Engine"]
+	3 [label="Table Manipulator"]
+	6 [label="Table Reader"]
+	rankdir=LR
+}

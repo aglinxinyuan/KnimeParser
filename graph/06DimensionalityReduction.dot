@@ -1,0 +1,34 @@
+digraph {
+	9 -> 19
+	12 -> 15
+	7 -> 8
+	8 -> 9
+	4 -> 8
+	15 -> 21
+	21 -> 20
+	12 -> 16
+	1 -> 7
+	12 -> 17
+	2 -> 3
+	6 -> 7
+	5 -> 9
+	16 -> 17
+	3 -> 6
+	5 [label="Table Reader"]
+	16 [label="PCA Compute"]
+	20 [label="Scatter Plot"]
+	1 [label="CSV Reader"]
+	7 [label=Concatenate]
+	9 [label="Cell Replacer"]
+	4 [label="Excel Reader"]
+	21 [label="Color Manager"]
+	6 [label="DB Reader"]
+	8 [label=Joiner]
+	15 [label=PCA]
+	17 [label="PCA Apply"]
+	3 [label="DB Table Selector"]
+	2 [label="SQLite Connector"]
+	12 [label="CSV Reader"]
+	19 [label="Column Filter"]
+	rankdir=LR
+}

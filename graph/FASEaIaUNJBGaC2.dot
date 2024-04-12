@@ -1,0 +1,52 @@
+digraph {
+	30 -> 14
+	32 -> 25
+	5 -> 4
+	8 -> 9
+	27 -> 28
+	25 -> 24
+	26 -> 32
+	17 -> 15
+	4 -> 8
+	10 -> 17
+	14 -> 15
+	1 -> 2
+	12 -> 31
+	15 -> 23
+	10 -> 12
+	29 -> 5
+	23 -> 21
+	17 -> 30
+	24 -> 27
+	2 -> 10
+	12 -> 4
+	29 -> 19
+	26 -> 24
+	10 -> 26
+	12 -> 29
+	5 -> 31
+	27 [label=X_Aggregator]
+	9 [label=Scorer]
+	26 [label=X_Partitioner]
+	21 [label=Scorer]
+	8 [label=X_Aggregator]
+	32 [label=SMOTE]
+	17 [label=X_Partitioner]
+	19 [label="Excel Writer"]
+	24 [label="Naive Bayes Predictor"]
+	31 [label="Decision Tree To Image"]
+	15 [label="Random Forest Predictor"]
+	25 [label="Naive Bayes Learner"]
+	12 [label=X_Partitioner]
+	10 [label="Category To Number"]
+	1 [label="Excel Reader"]
+	28 [label=Scorer]
+	23 [label=X_Aggregator]
+	4 [label="Decision Tree Predictor"]
+	14 [label="Random Forest Learner"]
+	5 [label="Decision Tree Learner"]
+	29 [label=SMOTE]
+	30 [label=SMOTE]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

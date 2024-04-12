@@ -1,0 +1,23 @@
+digraph {
+	4 -> 19
+	20 -> 15
+	13 -> 2
+	15 -> 16
+	3 -> 4
+	13 -> 17
+	4 -> 21
+	17 -> 4
+	16 -> 17
+	2 -> 20
+	16 [label="Top k Selector"]
+	20 [label=Sorter]
+	13 [label="CSV Reader"]
+	4 [label="Object Inserter"]
+	21 [label="Network Viewer _local_"]
+	15 [label="Missing Value"]
+	17 [label="Reference Row Filter"]
+	3 [label="Network Creator"]
+	2 [label=GroupBy]
+	19 [label="Network Viewer _local_"]
+	rankdir=LR
+}

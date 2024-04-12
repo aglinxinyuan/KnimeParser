@@ -1,0 +1,10 @@
+digraph {
+	6 -> 4
+	1 -> 3
+	3 -> 6
+	1 [label="Table Creator"]
+	4 [label="Column Aggregator"]
+	3 [label="Regex Extractor"]
+	6 [label="Column Auto Type Cast"]
+	rankdir=LR
+}

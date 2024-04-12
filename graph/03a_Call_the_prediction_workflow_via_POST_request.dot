@@ -1,0 +1,32 @@
+digraph {
+	262 -> 263
+	22 -> 19
+	23 -> 14
+	19 -> 20
+	14 -> 12
+	264 -> 269
+	20 -> 266
+	18 -> 22
+	12 -> 18
+	266 -> 267
+	269 -> 270
+	270 -> 268
+	263 -> 264
+	267 -> 268
+	263 [label="JSON to Table"]
+	264 [label="Column Filter"]
+	14 [label="Create Collection Column"]
+	262 [label="JSON Path"]
+	20 [label=Ungroup]
+	267 [label="Column Filter"]
+	270 [label=Transpose]
+	22 [label="POST Request"]
+	269 [label="Extract Column Header"]
+	23 [label="Table Reader"]
+	18 [label="Table to JSON"]
+	266 [label="JSON to Table"]
+	12 [label="Table to JSON"]
+	19 [label="JSON Path"]
+	268 [label="Insert Column Header"]
+	rankdir=LR
+}

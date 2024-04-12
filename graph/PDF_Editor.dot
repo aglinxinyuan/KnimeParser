@@ -1,0 +1,12 @@
+digraph {
+	9 -> 10
+	3 -> 1
+	7 -> 8
+	1 [label="R Snippet"]
+	7 [label="Table Creator"]
+	9 [label="Table Creator"]
+	8 [label="R Snippet"]
+	3 [label="Table Creator"]
+	10 [label="R Snippet"]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	6 -> 7
+	5 -> 7
+	5 [label="Variable Creator"]
+	7 [label="Python Script _Labs_"]
+	6 [label="Table Creator"]
+	rankdir=LR
+}

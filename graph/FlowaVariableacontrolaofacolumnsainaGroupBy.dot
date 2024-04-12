@@ -1,0 +1,16 @@
+digraph {
+	2542 -> 2545
+	2543 -> 2544
+	2533 -> 2540
+	2545 -> 2543
+	2539 -> 2543
+	2540 -> 2542
+	2539 [label="Table Creator"]
+	2543 [label=GroupBy]
+	2540 [label="Chunk Loop Start"]
+	2545 [label="Table Row to Variable"]
+	2533 [label="Table Creator"]
+	2542 [label="Create Collection Column"]
+	2544 [label="Loop End"]
+	rankdir=LR
+}

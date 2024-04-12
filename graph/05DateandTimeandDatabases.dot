@@ -1,0 +1,16 @@
+digraph {
+	5 -> 4
+	42 -> 43
+	6 -> 42
+	1 -> 2
+	6 -> 41
+	5 [label="CSV Reader"]
+	43 [label=GroupBy]
+	1 [label="CSV Reader"]
+	42 [label="Row Filter"]
+	41 [label=GroupBy]
+	4 [label="Extract Date_Time Fields"]
+	6 [label="CSV Reader"]
+	2 [label="String to Date_Time"]
+	rankdir=LR
+}

@@ -1,0 +1,17 @@
+digraph {
+	31 -> 34
+	5 -> 31
+	5 -> 34
+	24 -> 25
+	25 -> 29
+	34 -> 24
+	1 -> 5
+	5 [label="XLog2Table Converter"]
+	24 [label=GroupBy]
+	1 [label="Event Log Reader"]
+	34 [label="Reference Row Filter"]
+	29 [label="Math Formula"]
+	31 [label=GroupBy]
+	25 [label="Date_Time Difference"]
+	rankdir=LR
+}

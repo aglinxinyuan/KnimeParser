@@ -1,0 +1,19 @@
+digraph {
+	91 -> 89
+	86 -> 91
+	89 -> 90
+	87 -> 88
+	90 -> 87
+	85 -> 86
+	86 -> 87
+	84 -> 89
+	86 [label="Group Loop Start"]
+	91 [label="String Manipulation _Variable_"]
+	90 [label="Table Row to Variable"]
+	84 [label="List Files"]
+	87 [label="Excel Sheet Appender _XLS_"]
+	89 [label="Rule_based Row Filter"]
+	88 [label="Variable Loop End"]
+	85 [label="Excel Reader _XLS_"]
+	rankdir=LR
+}

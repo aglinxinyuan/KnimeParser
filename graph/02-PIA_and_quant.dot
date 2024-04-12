@@ -1,0 +1,74 @@
+digraph {
+	637 -> 638
+	302 -> 309
+	641 -> 576
+	633 -> 67
+	638 -> 639
+	574 -> 637
+	635 -> 636
+	330 -> 641
+	309 -> 636
+	309 -> 573
+	586 -> 587
+	302 -> 575
+	573 -> 307
+	593 -> 62
+	607 -> 608
+	590 -> 591
+	584 -> 583
+	576 -> 577
+	577 -> 584
+	300 -> 634
+	636 -> 574
+	585 -> 586
+	307 -> 308
+	634 -> 302
+	593 -> 300
+	608 -> 308
+	583 -> 586
+	309 -> 607
+	329 -> 330
+	575 -> 329
+	587 -> 590
+	62 -> 633
+	640 -> 641
+	308 -> 635
+	639 -> 640
+	67 -> 309
+	293 -> 634
+	584 [label="Column Filter"]
+	329 [label="PIA Compiler"]
+	587 [label="One_way ANOVA"]
+	607 [label="URI Port to Variable"]
+	307 [label="PIA Compiler"]
+	308 [label="PIA Analysis"]
+	302 [label=ZipLoopEnd]
+	330 [label="PIA Analysis"]
+	638 [label=FeatureLinkerUnlabeledQT]
+	576 [label="URI Port to Variable"]
+	635 [label=IDFilter]
+	573 [label="Port to URI"]
+	640 [label=IDConflictResolver]
+	309 [label=ZipLoopStart]
+	585 [label="Table Creator"]
+	637 [label=MapAlignerIdentification]
+	590 [label="Row Filter"]
+	583 [label=Transpose]
+	633 [label=FeatureFinderCentroided]
+	67 [label=ZipLoopEnd]
+	293 [label="Input File"]
+	639 [label=ConsensusMapNormalizer]
+	634 [label=XTandemAdapter]
+	591 [label=Joiner]
+	636 [label=IDMapper]
+	575 [label="Port to URI"]
+	608 [label="URL to File Path _Variable_"]
+	574 [label=ZipLoopEnd]
+	62 [label=ZipLoopStart]
+	300 [label=ZipLoopStart]
+	593 [label="Input Files"]
+	586 [label=Joiner]
+	577 [label="CSV Reader"]
+	641 [label=ProteinQuantifier]
+	rankdir=LR
+}

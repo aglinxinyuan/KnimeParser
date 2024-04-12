@@ -1,0 +1,53 @@
+digraph {
+	20 -> 21
+	21 -> 23
+	2 -> 3
+	30 -> 9
+	30 -> 32
+	6 -> 8
+	22 -> 23
+	16 -> 15
+	30 -> 5
+	25 -> 26
+	1 -> 2
+	30 -> 6
+	3 -> 30
+	10 -> 11
+	30 -> 22
+	30 -> 11
+	22 -> 20
+	15 -> 17
+	24 -> 25
+	30 -> 24
+	23 -> 16
+	30 -> 26
+	30 -> 15
+	5 -> 6
+	26 -> 28
+	9 -> 10
+	11 -> 13
+	9 [label="Equal Size Sampling"]
+	21 [label="Loop End"]
+	26 [label="XGBoost Predictor"]
+	8 [label=Scorer]
+	32 [label=GroupBy]
+	17 [label=Scorer]
+	3 [label="Missing Value"]
+	24 [label=SMOTE]
+	6 [label="XGBoost Predictor"]
+	15 [label="XGBoost Predictor"]
+	25 [label="XGBoost Tree Ensemble Learner"]
+	10 [label="XGBoost Tree Ensemble Learner"]
+	16 [label="XGBoost Tree Ensemble Learner"]
+	1 [label="CSV Reader"]
+	22 [label="Row Splitter"]
+	28 [label=Scorer]
+	23 [label=Concatenate]
+	11 [label="XGBoost Predictor"]
+	5 [label="XGBoost Tree Ensemble Learner"]
+	20 [label="Counting Loop Start"]
+	13 [label=Scorer]
+	30 [label=Partitioning]
+	2 [label="Data Explorer"]
+	rankdir=LR
+}

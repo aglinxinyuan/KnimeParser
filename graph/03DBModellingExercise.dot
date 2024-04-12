@@ -1,0 +1,20 @@
+digraph {
+	187 -> 188
+	183 -> 184
+	186 -> 189
+	185 -> 187
+	184 -> 185
+	185 -> 186
+	188 -> 191
+	189 -> 190
+	190 [label="Number To String"]
+	185 [label="DB Column Filter"]
+	189 [label="DB Reader"]
+	188 [label="DB Column Filter"]
+	191 [label="DB Reader"]
+	186 [label="DB Row Filter"]
+	183 [label="SQLite Connector"]
+	187 [label="DB Row Filter"]
+	184 [label="DB Table Selector"]
+	rankdir=LR
+}

@@ -1,0 +1,14 @@
+digraph {
+	7 -> 3
+	4 -> 5
+	3 -> 4
+	2 -> 7
+	6 -> 2
+	5 [label="Excel Writer _XLS_"]
+	7 [label="Column Renamer"]
+	4 [label="Association Rule Learner"]
+	6 [label="Excel Reader _XLS_"]
+	3 [label="Cell Splitter"]
+	2 [label=GroupBy]
+	rankdir=LR
+}

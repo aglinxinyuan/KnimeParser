@@ -1,0 +1,52 @@
+digraph {
+	150 -> 143
+	26 -> 30
+	145 -> 119
+	117 -> 119
+	125 -> 126
+	117 -> 145
+	119 -> 128
+	10 -> 50
+	8 -> 50
+	143 -> 144
+	143 -> 8
+	52 -> 26
+	50 -> 48
+	30 -> 156
+	117 -> 146
+	145 -> 146
+	152 -> 153
+	48 -> 52
+	144 -> 117
+	120 -> 122
+	128 -> 120
+	122 -> 125
+	153 -> 145
+	156 -> 157
+	157 -> 158
+	126 [label="Column Filter"]
+	26 [label=GroupBy]
+	153 [label="String Manipulation"]
+	8 [label="Punctuation Erasure"]
+	122 [label=GroupBy]
+	145 [label="StanfordNLP NE Learner"]
+	119 [label="StanfordNLP NE Tagger"]
+	156 [label="Document Data Extractor"]
+	146 [label="StanfordNLP NE Scorer"]
+	10 [label="Table Creator"]
+	48 [label="Tag Filter"]
+	150 [label="File Reader"]
+	144 [label="Column Filter"]
+	50 [label="Dictionary Tagger"]
+	125 [label="Term To String"]
+	143 [label="Strings To Document"]
+	158 [label="String Manipulation"]
+	117 [label=Partitioning]
+	120 [label="Bag Of Words Creator"]
+	157 [label="String Manipulation"]
+	152 [label="File Reader"]
+	52 [label="Bag Of Words Creator"]
+	30 [label="Term To String"]
+	128 [label="Tag Filter"]
+	rankdir=LR
+}

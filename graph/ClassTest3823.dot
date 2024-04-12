@@ -1,0 +1,30 @@
+digraph {
+	3 -> 9
+	3 -> 10
+	3 -> 7
+	1 -> 2
+	3 -> 8
+	3 -> 4
+	3 -> 5
+	3 -> 11
+	3 -> 12
+	11 -> 12
+	9 -> 10
+	2 -> 3
+	3 -> 13
+	3 -> 6
+	5 [label="Histogram _Labs_"]
+	13 [label="Missing Value Column Filter"]
+	1 [label="CSV Reader"]
+	7 [label="Independent groups t_test"]
+	9 [label="Linear Regression Learner"]
+	11 [label="Logistic Regression Learner"]
+	4 [label="Pie Chart _Labs_"]
+	6 [label="Crosstab _local_"]
+	8 [label="One_way ANOVA"]
+	12 [label="Logistic Regression Predictor"]
+	3 [label=Partitioning]
+	2 [label=Partitioning]
+	10 [label="Regression Predictor"]
+	rankdir=LR
+}

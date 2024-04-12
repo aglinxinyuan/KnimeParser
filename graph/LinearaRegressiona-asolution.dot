@@ -1,0 +1,15 @@
+digraph {
+	29 -> 31
+	31 -> 32
+	44 -> 29
+	29 -> 32
+	63 -> 30
+	32 -> 63
+	30 [label="Numeric Scorer"]
+	44 [label="File Reader"]
+	29 [label=Partitioning]
+	31 [label="Linear Regression Learner"]
+	63 [label="Missing Value"]
+	32 [label="Regression Predictor"]
+	rankdir=LR
+}

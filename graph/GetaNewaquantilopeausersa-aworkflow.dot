@@ -1,0 +1,36 @@
+digraph {
+	12 -> 10
+	11 -> 12
+	24 -> 21
+	10 -> 9
+	23 -> 24
+	1 -> 11
+	22 -> 14
+	13 -> 16
+	15 -> 17
+	9 -> 13
+	18 -> 20
+	17 -> 18
+	19 -> 23
+	20 -> 22
+	16 -> 17
+	14 -> 19
+	16 [label="Regex Extractor"]
+	24 [label="Column Filter"]
+	14 [label="Date_Time_based Row Filter"]
+	13 [label=GroupBy]
+	20 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	22 [label="Constant Value Column"]
+	9 [label="String to Date_Time"]
+	11 [label="Column Filter"]
+	18 [label="Column Rename"]
+	23 [label="Row Filter"]
+	21 [label="CSV Writer"]
+	15 [label="CSV Reader"]
+	12 [label=Sorter]
+	17 [label=Joiner]
+	10 [label="String Manipulation"]
+	19 [label="Date_Time to legacy Date_Time"]
+	rankdir=LR
+}

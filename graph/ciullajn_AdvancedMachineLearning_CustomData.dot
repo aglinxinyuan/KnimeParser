@@ -1,0 +1,19 @@
+digraph {
+	2 -> 95
+	96 -> 97
+	97 -> 100
+	100 -> 101
+	2 -> 96
+	94 -> 95
+	1 -> 2
+	95 -> 96
+	94 [label="Parameter Optimization Loop Start"]
+	96 [label="Random Forest Predictor _Regression_"]
+	1 [label="CSV Reader"]
+	97 [label="Numeric Scorer"]
+	101 [label="Parameter Optimization Loop End"]
+	95 [label="Random Forest Learner _Regression_"]
+	100 [label="Table Column to Variable"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

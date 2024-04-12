@@ -1,0 +1,86 @@
+digraph {
+	226 -> 18
+	228 -> 216
+	208 -> 209
+	22 -> 207
+	219 -> 210
+	214 -> 212
+	214 -> 220
+	216 -> 217
+	221 -> 210
+	208 -> 230
+	211 -> 232
+	212 -> 213
+	214 -> 215
+	233 -> 226
+	18 -> 19
+	218 -> 210
+	210 -> 219
+	230 -> 231
+	213 -> 214
+	230 -> 228
+	209 -> 210
+	228 -> 235
+	20 -> 210
+	224 -> 225
+	214 -> 210
+	235 -> 236
+	226 -> 213
+	19 -> 210
+	211 -> 230
+	217 -> 20
+	231 -> 232
+	233 -> 212
+	231 -> 22
+	225 -> 236
+	216 -> 211
+	219 -> 212
+	207 -> 208
+	228 -> 208
+	236 -> 210
+	233 -> 214
+	214 -> 218
+	208 -> 20
+	211 -> 220
+	212 -> 228
+	211 -> 228
+	220 -> 219
+	211 -> 221
+	212 -> 224
+	232 -> 228
+	208 -> 222
+	232 -> 233
+	20 -> 231
+	210 -> 211
+	210 [label="Feature Selection Loop Start _1_1_"]
+	231 [label="Column Filter"]
+	222 [label="Table Row to Variable"]
+	230 [label="Rule_based Row Filter"]
+	18 [label="String to Date_Time"]
+	224 [label="Column Filter"]
+	217 [label="Date_Time Shift"]
+	221 [label=Sorter]
+	209 [label="String Manipulation"]
+	19 [label="Column Filter"]
+	233 [label="Math Formula"]
+	225 [label="Math Formula"]
+	228 [label="Numeric Scorer"]
+	211 [label="Feature Selection Loop End"]
+	208 [label=RowID]
+	236 [label="Cross Joiner"]
+	216 [label="Table Column to Variable"]
+	214 [label="Row Splitter"]
+	218 [label="Column Filter"]
+	22 [label="One to Many"]
+	207 [label="Lag Column"]
+	219 [label="Linear Regression Learner"]
+	232 [label="Regression Predictor"]
+	20 [label="Extract Date_Time Fields"]
+	235 [label=Transpose]
+	212 [label="Regression Predictor"]
+	226 [label="Container Input _Table_"]
+	220 [label="Feature Selection Filter"]
+	215 [label="Table Row to Variable"]
+	213 [label="Rule Engine"]
+	rankdir=LR
+}

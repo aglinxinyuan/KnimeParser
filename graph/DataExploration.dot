@@ -1,0 +1,32 @@
+digraph {
+	161 -> 162
+	162 -> 165
+	155 -> 156
+	153 -> 155
+	167 -> 165
+	159 -> 160
+	158 -> 161
+	168 -> 167
+	155 -> 157
+	156 -> 159
+	155 -> 164
+	154 -> 155
+	160 -> 162
+	164 -> 168
+	157 -> 158
+	165 [label="Column Appender"]
+	168 [label=GroupBy]
+	164 [label="Rule_based Row Filter"]
+	167 [label="Column Rename"]
+	157 [label="Row Filter"]
+	156 [label="Row Filter"]
+	158 [label=GroupBy]
+	161 [label="Column Rename"]
+	153 [label="Table Creator"]
+	155 [label=Joiner]
+	154 [label="Table Creator"]
+	159 [label=GroupBy]
+	162 [label="Column Appender"]
+	160 [label="Column Rename"]
+	rankdir=LR
+}

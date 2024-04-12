@@ -1,0 +1,23 @@
+digraph {
+	7 -> 8
+	1 -> 4
+	6 -> 9
+	4 -> 5
+	3 -> 7
+	8 -> 6
+	9 -> 10
+	2 -> 3
+	5 -> 2
+	3 -> 6
+	5 [label="Missing Value"]
+	1 [label="CSV Reader"]
+	7 [label=GroupBy]
+	9 [label="Row Filter"]
+	4 [label="Lag Column"]
+	6 [label="Rule Engine"]
+	8 [label="Table Row to Variable"]
+	3 [label="Moving Aggregation"]
+	2 [label="Rule Engine"]
+	10 [label="Column Filter"]
+	rankdir=LR
+}

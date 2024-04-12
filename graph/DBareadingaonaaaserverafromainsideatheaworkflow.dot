@@ -1,0 +1,8 @@
+digraph {
+	22 -> 21
+	21 -> 23
+	23 [label="DB Query Reader"]
+	21 [label="SQLite Connector"]
+	22 [label="String Configuration"]
+	rankdir=LR
+}

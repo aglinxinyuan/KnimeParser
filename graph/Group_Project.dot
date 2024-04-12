@@ -1,0 +1,10 @@
+digraph {
+	1 -> 2
+	1 -> 9
+	1 -> 5
+	1 [label="CSV Reader"]
+	5 [label="Column Filter"]
+	2 [label=Statistics]
+	9 [label="Box Plot _local_"]
+	rankdir=LR
+}

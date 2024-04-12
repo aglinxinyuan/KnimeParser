@@ -1,0 +1,25 @@
+digraph {
+	17 -> 15
+	13 -> 15
+	17 -> 13
+	14 -> 6
+	17 -> 6
+	17 -> 9
+	6 -> 13
+	12 -> 8
+	17 -> 8
+	17 -> 3
+	8 -> 14
+	9 -> 12
+	17 -> 12
+	13 [label="Compress Files_Folder"]
+	9 [label="Transfer Files"]
+	8 [label="CSV Reader"]
+	6 [label="CSV Writer"]
+	15 [label="Delete Files_Folders"]
+	14 [label="Table Manipulator"]
+	17 [label="SMB Connector"]
+	3 [label="List Files_Folders"]
+	12 [label="Decompress Files"]
+	rankdir=LR
+}

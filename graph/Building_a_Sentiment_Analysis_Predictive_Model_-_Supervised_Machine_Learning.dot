@@ -1,0 +1,109 @@
+digraph {
+	335 -> 79
+	390 -> 395
+	334 -> 335
+	401 -> 386
+	338 -> 334
+	104 -> 339
+	101 -> 105
+	390 -> 401
+	897 -> 898
+	390 -> 394
+	390 -> 886
+	8 -> 320
+	390 -> 898
+	394 -> 395
+	338 -> 335
+	885 -> 887
+	915 -> 914
+	91 -> 104
+	79 -> 88
+	321 -> 876
+	885 -> 886
+	332 -> 308
+	86 -> 8
+	308 -> 334
+	879 -> 332
+	390 -> 897
+	8 -> 101
+	401 -> 400
+	396 -> 397
+	904 -> 902
+	390 -> 400
+	903 -> 888
+	321 -> 374
+	98 -> 97
+	897 -> 882
+	397 -> 884
+	391 -> 390
+	89 -> 97
+	884 -> 903
+	902 -> 396
+	886 -> 889
+	374 -> 391
+	105 -> 106
+	395 -> 881
+	106 -> 86
+	390 -> 396
+	390 -> 397
+	97 -> 91
+	390 -> 885
+	88 -> 89
+	394 -> 880
+	339 -> 86
+	898 -> 896
+	400 -> 878
+	888 -> 915
+	320 -> 321
+	91 [label="N Chars Filter"]
+	374 [label="Document Data Extractor"]
+	400 [label="MultiLayerPerceptron Predictor"]
+	888 [label="Timer Info"]
+	401 [label="RProp MLP Learner"]
+	79 [label="Case Converter"]
+	89 [label="Stop Word Filter"]
+	308 [label="Strings To Document"]
+	97 [label="Dictionary Filter"]
+	887 [label="Model Writer"]
+	8 [label="Term To String"]
+	105 [label="Row Splitter"]
+	394 [label="Gradient Boosted Trees Learner"]
+	880 [label="Model Writer"]
+	885 [label="SVM Learner"]
+	339 [label="Porter Stemmer"]
+	335 [label="Dictionary Tagger"]
+	98 [label="Table Creator"]
+	338 [label="Excel Reader"]
+	879 [label="CSV Reader"]
+	332 [label="Duplicate Row Filter"]
+	390 [label=Partitioning]
+	882 [label="Model Writer"]
+	86 [label="Bag Of Words Creator"]
+	386 [label="Model Writer"]
+	334 [label="Dictionary Tagger"]
+	904 [label="Table Creator"]
+	902 [label="Parameter Optimization Loop Start _Table_"]
+	889 [label=Scorer]
+	391 [label="Column Filter"]
+	397 [label="Random Forest Predictor"]
+	396 [label="Random Forest Learner"]
+	886 [label="SVM Predictor"]
+	896 [label=Scorer]
+	101 [label=GroupBy]
+	878 [label=Scorer]
+	915 [label="Column Filter"]
+	321 [label="Document Vector"]
+	884 [label=Scorer]
+	106 [label="Dictionary Filter"]
+	897 [label="NaiveBayesMultinomial _3_7_"]
+	876 [label="Model Writer"]
+	104 [label="Number Filter"]
+	395 [label="Gradient Boosted Trees Predictor"]
+	88 [label="Punctuation Erasure"]
+	903 [label="Parameter Optimization Loop End"]
+	898 [label="Weka Predictor _3_7_"]
+	914 [label="Math Formula"]
+	881 [label=Scorer]
+	320 [label=TF]
+	rankdir=LR
+}

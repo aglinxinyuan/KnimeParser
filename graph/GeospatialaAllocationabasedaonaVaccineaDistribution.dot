@@ -1,0 +1,28 @@
+digraph {
+	32 -> 19
+	18 -> 19
+	2 -> 84
+	19 -> 25
+	20 -> 32
+	80 -> 34
+	83 -> 30
+	17 -> 20
+	1 -> 2
+	30 -> 80
+	84 -> 30
+	25 -> 83
+	30 [label="Euclidean Distance"]
+	20 [label="String Manipulation"]
+	1 [label="Table Creator"]
+	84 [label="Math Formula"]
+	34 [label="Geospatial View"]
+	18 [label="US2020 TIGER Map"]
+	25 [label="Geometry To Point"]
+	80 [label=P_median]
+	17 [label="US2020 Census Data"]
+	32 [label="String To Number"]
+	83 [label="Math Formula"]
+	2 [label="WKT to Geometry"]
+	19 [label=Joiner]
+	rankdir=LR
+}

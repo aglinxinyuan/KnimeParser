@@ -1,0 +1,31 @@
+digraph {
+	6 -> 17
+	10 -> 6
+	4 -> 5
+	19 -> 5
+	1 -> 12
+	12 -> 14
+	1 -> 21
+	15 -> 20
+	19 -> 4
+	2 -> 19
+	14 -> 15
+	1 -> 2
+	19 -> 10
+	17 -> 12
+	4 -> 6
+	5 [label="Hierarchical Cluster View"]
+	20 [label="Network Viewer _local_"]
+	1 [label="Network Reader"]
+	21 [label="Network Viewer _local_"]
+	4 [label="Hierarchical Clustering _DistMatrix_"]
+	10 [label="Column Filter"]
+	6 [label="Hierarchical Cluster Assigner"]
+	15 [label="Partition Graph Creator"]
+	14 [label="Partition Filter"]
+	17 [label=RowID]
+	2 [label="Node Adjacency Matrix"]
+	12 [label="Assign Partition"]
+	19 [label="Distance Matrix Calculate"]
+	rankdir=LR
+}

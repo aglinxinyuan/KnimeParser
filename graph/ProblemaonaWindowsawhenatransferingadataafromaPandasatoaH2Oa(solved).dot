@@ -1,0 +1,67 @@
+digraph {
+	53 -> 73
+	53 -> 74
+	3 -> 50
+	7 -> 51
+	53 -> 75
+	72 -> 244
+	63 -> 73
+	63 -> 74
+	54 -> 53
+	52 -> 54
+	67 -> 65
+	53 -> 76
+	53 -> 78
+	63 -> 76
+	55 -> 46
+	46 -> 52
+	63 -> 82
+	53 -> 244
+	72 -> 83
+	53 -> 79
+	63 -> 244
+	83 -> 75
+	72 -> 73
+	72 -> 74
+	82 -> 83
+	50 -> 48
+	67 -> 69
+	48 -> 47
+	1 -> 67
+	67 -> 64
+	67 -> 71
+	79 -> 81
+	47 -> 46
+	72 -> 76
+	82 -> 75
+	55 [label="Java Edit Variable _simple_"]
+	7 [label="Extract System Properties"]
+	79 [label="Python Source"]
+	74 [label="Python Script _2_2_"]
+	3 [label="Extract Context Properties"]
+	78 [label="Python Source"]
+	64 [label="Table Writer"]
+	51 [label="Table Column to Variable"]
+	54 [label="Java Snippet _simple_"]
+	75 [label="Python Script _2_2_"]
+	48 [label="String Manipulation"]
+	50 [label="Variable to Table Row"]
+	1 [label="File Reader"]
+	53 [label="Table Row to Variable"]
+	244 [label="Python Script _2_2_"]
+	67 [label=Partitioning]
+	72 [label="Table Reader"]
+	47 [label="String Manipulation"]
+	63 [label="Table Reader"]
+	76 [label="Python Script _2_2_"]
+	83 [label="Missing Value _Apply_"]
+	81 [label="Python Script _1_2_"]
+	82 [label="Missing Value"]
+	65 [label="Table Writer"]
+	71 [label="Parquet Writer"]
+	69 [label="Parquet Writer"]
+	46 [label="Java Snippet _simple_"]
+	52 [label="Java Snippet _simple_"]
+	73 [label="Python Script _2_2_"]
+	rankdir=LR
+}

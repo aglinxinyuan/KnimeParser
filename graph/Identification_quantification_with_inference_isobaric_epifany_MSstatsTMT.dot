@@ -1,0 +1,56 @@
+digraph {
+	7 -> 8
+	231 -> 222
+	5 -> 235
+	235 -> 226
+	227 -> 260
+	240 -> 246
+	3 -> 7
+	248 -> 252
+	258 -> 240
+	222 -> 257
+	259 -> 5
+	246 -> 254
+	240 -> 261
+	239 -> 250
+	256 -> 3
+	250 -> 253
+	231 -> 240
+	251 -> 226
+	258 -> 222
+	5 -> 3
+	254 -> 252
+	8 -> 251
+	231 -> 227
+	10 -> 239
+	226 -> 10
+	255 -> 254
+	253 -> 231
+	231 [label=IDConflictResolver]
+	246 [label="URI Port to Variable"]
+	227 [label=MzTabExporter]
+	7 [label=PSMFeatureExtractor]
+	222 [label=ProteinQuantifier]
+	8 [label=PercolatorAdapter]
+	252 [label="R View _Workspace_"]
+	239 [label=FileMerger]
+	3 [label=MSGFPlusAdapter]
+	259 [label="File Importer"]
+	254 [label="Merge Variables"]
+	256 [label="File Importer"]
+	253 [label=IDFilter]
+	240 [label=MSstatsConverter]
+	10 [label=ZipLoopEnd]
+	260 [label="File Exporter"]
+	251 [label=IDFilter]
+	261 [label="File Exporter"]
+	250 [label=Epifany]
+	257 [label="File Exporter"]
+	5 [label=ZipLoopStart]
+	248 [label="R Source _Workspace_"]
+	235 [label=IsobaricAnalyzer]
+	258 [label="File Importer"]
+	255 [label="String Configuration"]
+	226 [label=IDMapper]
+	rankdir=LR
+}

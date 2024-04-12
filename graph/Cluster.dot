@@ -1,0 +1,81 @@
+digraph {
+	6 -> 5
+	1 -> 27
+	1 -> 31
+	14 -> 17
+	2 -> 6
+	19 -> 18
+	27 -> 26
+	31 -> 30
+	31 -> 13
+	1 -> 40
+	40 -> 42
+	31 -> 33
+	1 -> 24
+	1 -> 2
+	39 -> 38
+	29 -> 32
+	10 -> 12
+	15 -> 19
+	1 -> 37
+	33 -> 35
+	24 -> 23
+	9 -> 8
+	1 -> 15
+	1 -> 10
+	35 -> 36
+	30 -> 29
+	1 -> 7
+	13 -> 22
+	1 -> 14
+	12 -> 11
+	7 -> 9
+	37 -> 39
+	42 -> 41
+	1 -> 30
+	23 -> 25
+	1 -> 13
+	17 -> 16
+	26 -> 28
+	22 -> 21
+	1 -> 33
+	27 [label="Hierarchical Clustering"]
+	7 [label=k_Means]
+	9 [label="Color Manager"]
+	18 [label="Scatter Plot"]
+	21 [label="Scatter Plot"]
+	26 [label="Color Manager"]
+	8 [label="Scatter Plot"]
+	32 [label="Scatter Plot"]
+	17 [label="Color Manager"]
+	19 [label="Color Manager"]
+	24 [label="Hierarchical Clustering"]
+	41 [label="Scatter Plot"]
+	31 [label="Numeric Distances"]
+	6 [label="Color Manager"]
+	15 [label="Hierarchical Clustering"]
+	25 [label="Scatter Plot"]
+	12 [label="Color Manager"]
+	10 [label=k_Means]
+	16 [label="Scatter Plot"]
+	1 [label="CSV Reader"]
+	42 [label="Color Manager"]
+	22 [label="Color Manager"]
+	28 [label="Scatter Plot"]
+	11 [label="Scatter Plot"]
+	23 [label="Color Manager"]
+	14 [label="Fuzzy c_Means"]
+	38 [label="Scatter Plot"]
+	5 [label="Scatter Plot"]
+	13 [label=DBSCAN]
+	35 [label="Color Manager"]
+	29 [label="Color Manager"]
+	36 [label="Scatter Plot"]
+	40 [label="Fuzzy c_Means"]
+	39 [label="Color Manager"]
+	33 [label=DBSCAN]
+	30 [label=DBSCAN]
+	2 [label=k_Means]
+	37 [label="Fuzzy c_Means"]
+	rankdir=LR
+}

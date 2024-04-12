@@ -1,0 +1,12 @@
+digraph {
+	127 -> 126
+	124 -> 126
+	82 -> 106
+	106 -> 124
+	126 [label="LLM Prompter"]
+	82 [label="Credentials Configuration"]
+	127 [label="Table Creator"]
+	124 [label="OpenAI LLM Connector"]
+	106 [label="OpenAI Authenticator"]
+	rankdir=LR
+}

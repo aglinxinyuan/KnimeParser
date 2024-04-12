@@ -1,0 +1,19 @@
+digraph {
+	12 -> 13
+	2 -> 10
+	13 -> 14
+	1 -> 10
+	2 -> 14
+	14 -> 15
+	11 -> 12
+	10 -> 11
+	13 [label=GroupBy]
+	1 [label="Excel Reader"]
+	11 [label="Column Expressions"]
+	15 [label="Table Manipulator"]
+	14 [label=Joiner]
+	12 [label="Row Filter"]
+	2 [label="Excel Reader"]
+	10 [label="Cross Joiner"]
+	rankdir=LR
+}

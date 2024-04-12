@@ -1,0 +1,60 @@
+digraph {
+	15265 -> 15266
+	15274 -> 15227
+	15227 -> 15234
+	15296 -> 15298
+	15234 -> 15289
+	15286 -> 15296
+	15290 -> 15286
+	15227 -> 15278
+	15272 -> 15227
+	15298 -> 15292
+	15268 -> 15272
+	15299 -> 15292
+	15297 -> 15299
+	15266 -> 15274
+	15291 -> 15290
+	15267 -> 15268
+	15243 -> 15200
+	15289 -> 15291
+	15200 -> 15228
+	15292 -> 15288
+	15214 -> 15198
+	15198 -> 15243
+	15286 -> 15287
+	15214 -> 15297
+	15292 -> 15294
+	15193 -> 15214
+	15228 -> 15267
+	15214 -> 15286
+	15228 -> 15265
+	15278 -> 15289
+	15266 [label="Row Filter"]
+	15298 [label="Set Molecule Title"]
+	15227 [label="Column Appender"]
+	15200 [label=GroupBy]
+	15198 [label="Extract Atom_bond Properties"]
+	15289 [label="Concatenate _Optional in_"]
+	15278 [label="String Manipulation"]
+	15193 [label="Get PDB"]
+	15268 [label="Row Filter"]
+	15265 [label="Moving Aggregation"]
+	15267 [label="Moving Aggregation"]
+	15294 [label="Molecule Writer _from MAE_"]
+	15243 [label="Row Filter"]
+	15274 [label="Counter Generation"]
+	15296 [label="Extract Properties"]
+	15292 [label="Concatenate _Optional in_"]
+	15290 [label="Column Filter"]
+	15287 [label="Table Viewer"]
+	15297 [label="Constant Value Column"]
+	15286 [label="Chemistry External Tool"]
+	15299 [label="Set Molecule Title"]
+	15234 [label="String Manipulation"]
+	15291 [label=Sorter]
+	15228 [label=Sorter]
+	15214 [label="Protein Preparation Wizard"]
+	15272 [label="Counter Generation"]
+	15288 [label="Run Maestro"]
+	rankdir=LR
+}

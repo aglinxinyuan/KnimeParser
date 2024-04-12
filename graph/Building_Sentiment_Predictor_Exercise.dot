@@ -1,0 +1,54 @@
+digraph {
+	335 -> 79
+	334 -> 335
+	338 -> 334
+	104 -> 339
+	101 -> 105
+	8 -> 320
+	338 -> 335
+	91 -> 104
+	79 -> 88
+	321 -> 876
+	332 -> 308
+	86 -> 8
+	308 -> 334
+	879 -> 332
+	8 -> 101
+	321 -> 374
+	98 -> 97
+	391 -> 390
+	89 -> 97
+	374 -> 391
+	105 -> 106
+	106 -> 86
+	97 -> 91
+	88 -> 89
+	339 -> 86
+	320 -> 321
+	91 [label="N Chars Filter"]
+	374 [label="Document Data Extractor"]
+	79 [label="Case Converter"]
+	89 [label="Stop Word Filter"]
+	308 [label="Strings To Document"]
+	97 [label="Dictionary Filter"]
+	8 [label="Term To String"]
+	105 [label="Row Splitter"]
+	339 [label="Porter Stemmer"]
+	335 [label="Dictionary Tagger"]
+	98 [label="Table Creator"]
+	338 [label="Excel Reader"]
+	879 [label="CSV Reader"]
+	332 [label="Duplicate Row Filter"]
+	390 [label=Partitioning]
+	86 [label="Bag Of Words Creator"]
+	334 [label="Dictionary Tagger"]
+	391 [label="Column Filter"]
+	101 [label=GroupBy]
+	321 [label="Document Vector"]
+	106 [label="Dictionary Filter"]
+	876 [label="Model Writer"]
+	104 [label="Number Filter"]
+	88 [label="Punctuation Erasure"]
+	320 [label=TF]
+	rankdir=LR
+}

@@ -1,0 +1,60 @@
+digraph {
+	3 -> 40
+	42 -> 44
+	44 -> 43
+	3 -> 41
+	4 -> 39
+	2 -> 45
+	47 -> 55
+	39 -> 40
+	55 -> 48
+	39 -> 41
+	29 -> 47
+	52 -> 54
+	55 -> 52
+	2 -> 4
+	46 -> 2
+	29 -> 46
+	39 -> 37
+	56 -> 48
+	55 -> 56
+	9 -> 27
+	55 -> 53
+	45 -> 42
+	53 -> 52
+	48 -> 50
+	2 -> 42
+	50 -> 49
+	54 -> 51
+	38 -> 9
+	3 -> 4
+	2 -> 3
+	27 -> 29
+	27 [label="String Manipulation"]
+	55 [label=Partitioning]
+	9 [label="Column Filter"]
+	45 [label="Decision Tree Learner"]
+	52 [label="Decision Tree Predictor"]
+	3 [label="Decision Tree Learner"]
+	49 [label="Scorer _JavaScript_"]
+	41 [label="Decision Tree View _JavaScript_"]
+	51 [label="Scorer _JavaScript_"]
+	56 [label="Decision Tree Learner"]
+	54 [label="Row Filter"]
+	48 [label="Decision Tree Predictor"]
+	50 [label="Row Filter"]
+	42 [label="Decision Tree Predictor"]
+	53 [label="Decision Tree Learner"]
+	4 [label="Decision Tree Predictor"]
+	47 [label="Rule_based Row Filter"]
+	38 [label="CSV Reader"]
+	43 [label="Scorer _JavaScript_"]
+	44 [label="Row Filter"]
+	29 [label="Rule_based Row Filter"]
+	46 [label="Rule_based Row Filter"]
+	40 [label="Decision Tree To Image"]
+	39 [label="Row Filter"]
+	2 [label=Partitioning]
+	37 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

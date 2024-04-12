@@ -1,0 +1,19 @@
+digraph {
+	13 -> 18
+	16 -> 13
+	18 -> 19
+	14 -> 18
+	17 -> 14
+	1 -> 2
+	2 -> 16
+	2 -> 17
+	16 [label="RDKit Functional Group Filter"]
+	13 [label="Row Sampling"]
+	1 [label="File Reader"]
+	18 [label="RDKit Two Component Reaction"]
+	14 [label="Row Sampling"]
+	17 [label="RDKit Functional Group Filter"]
+	2 [label="Molecule to RDKit"]
+	19 [label="RDKit Canon SMILES"]
+	rankdir=LR
+}

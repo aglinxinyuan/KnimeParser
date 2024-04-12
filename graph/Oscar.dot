@@ -1,0 +1,52 @@
+digraph {
+	18 -> 30
+	37 -> 36
+	33 -> 45
+	5 -> 4
+	29 -> 42
+	39 -> 40
+	40 -> 41
+	10 -> 16
+	4 -> 17
+	17 -> 18
+	37 -> 43
+	33 -> 35
+	4 -> 2
+	36 -> 29
+	2 -> 10
+	32 -> 46
+	16 -> 32
+	41 -> 29
+	38 -> 39
+	32 -> 33
+	43 -> 44
+	35 -> 37
+	36 -> 43
+	35 -> 34
+	30 -> 38
+	18 [label="Table Manipulator"]
+	32 [label="Rule Engine"]
+	17 [label="Google Sheets Reader"]
+	41 [label="Column Filter"]
+	10 [label="Table Manipulator"]
+	16 [label="Row Filter"]
+	42 [label=Scorer]
+	4 [label="Google Sheets Connection"]
+	37 [label="Column Filter"]
+	38 [label="Rule Engine"]
+	5 [label="Google Authentication"]
+	43 [label="MultiLayerPerceptron Predictor"]
+	35 [label="Rule Engine"]
+	44 [label=Scorer]
+	34 [label="Row Filter"]
+	29 [label="MultiLayerPerceptron Predictor"]
+	36 [label="RProp MLP Learner"]
+	46 [label="Row Filter"]
+	40 [label="Rule Engine"]
+	39 [label="Rule Engine"]
+	33 [label="Rule Engine"]
+	30 [label="Column Filter"]
+	2 [label="Google Sheets Reader"]
+	45 [label="Row Filter"]
+	rankdir=LR
+}

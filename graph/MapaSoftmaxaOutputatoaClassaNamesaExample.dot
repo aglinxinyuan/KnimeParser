@@ -1,0 +1,50 @@
+digraph {
+	54 -> 42
+	53 -> 54
+	56 -> 58
+	52 -> 60
+	92 -> 94
+	42 -> 56
+	54 -> 56
+	90 -> 91
+	63 -> 89
+	93 -> 95
+	60 -> 54
+	58 -> 57
+	57 -> 59
+	59 -> 63
+	62 -> 54
+	42 -> 90
+	98 -> 97
+	96 -> 98
+	89 -> 90
+	59 -> 52
+	94 -> 93
+	63 -> 92
+	88 -> 89
+	95 -> 96
+	91 -> 97
+	91 [label="Column Expressions"]
+	57 [label=Sorter]
+	89 [label="DL Keras Network Learner"]
+	97 [label=Joiner]
+	58 [label="String To Number"]
+	92 [label="Extract Column Header"]
+	98 [label=RowID]
+	56 [label="String Manipulation"]
+	54 [label="Column Appender"]
+	59 [label=RowID]
+	90 [label="Keras Network Executor"]
+	42 [label="Column Rename"]
+	53 [label="CSV Reader"]
+	63 [label="Column Resorter"]
+	93 [label=Transpose]
+	60 [label="Image Calculator"]
+	94 [label="Column Filter"]
+	96 [label="Column Rename"]
+	62 [label="File Reader"]
+	88 [label="DL Python Network Creator"]
+	95 [label="Counter Generation"]
+	52 [label="Image Reader _Table_"]
+	rankdir=LR
+}

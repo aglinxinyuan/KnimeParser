@@ -1,0 +1,95 @@
+digraph {
+	175 -> 153
+	153 -> 196
+	158 -> 159
+	148 -> 193
+	175 -> 184
+	147 -> 148
+	78 -> 79
+	179 -> 180
+	80 -> 76
+	76 -> 137
+	151 -> 154
+	155 -> 154
+	150 -> 148
+	76 -> 183
+	150 -> 151
+	156 -> 158
+	141 -> 143
+	153 -> 136
+	197 -> 148
+	153 -> 184
+	146 -> 147
+	161 -> 138
+	150 -> 156
+	184 -> 178
+	182 -> 176
+	148 -> 151
+	142 -> 144
+	77 -> 78
+	182 -> 179
+	153 -> 154
+	192 -> 160
+	139 -> 76
+	153 -> 156
+	138 -> 175
+	143 -> 144
+	137 -> 141
+	136 -> 139
+	178 -> 181
+	176 -> 180
+	79 -> 80
+	145 -> 146
+	141 -> 142
+	160 -> 161
+	183 -> 182
+	144 -> 148
+	180 -> 150
+	157 -> 158
+	154 -> 157
+	181 -> 76
+	158 -> 152
+	79 [label="Counter Generation"]
+	136 [label="Column List Loop Start"]
+	153 [label=Normalizer]
+	138 [label="Column Filter"]
+	182 [label="Column Splitter"]
+	145 [label="Keras Input Layer"]
+	184 [label="Normalizer _Apply_"]
+	78 [label=Transpose]
+	151 [label="Keras Network Executor"]
+	180 [label="Column Appender"]
+	137 [label="Loop End _Column Append_"]
+	196 [label="Model Writer"]
+	156 [label=Denormalizer]
+	161 [label="Extract Date_Time Fields"]
+	183 [label="Loop End _Column Append_"]
+	154 [label=Denormalizer]
+	197 [label="Conda Environment Propagation"]
+	146 [label="Keras LSTM Layer"]
+	141 [label="Column Splitter"]
+	150 [label=Partitioning]
+	148 [label="Keras Network Learner"]
+	144 [label="Column Appender"]
+	143 [label="Create Collection Column"]
+	142 [label="Column Filter"]
+	158 [label="Column Appender"]
+	178 [label="Column List Loop Start"]
+	176 [label="Column Filter"]
+	76 [label="Reference Column Resorter"]
+	77 [label="Extract Column Header"]
+	147 [label="Keras Dense Layer"]
+	159 [label="Line Plot _Plotly_"]
+	160 [label="String to Date_Time"]
+	175 [label=Partitioning]
+	179 [label="Create Collection Column"]
+	192 [label="CSV Reader"]
+	139 [label="Lag Column"]
+	157 [label="Math Formula"]
+	155 [label="Column Rename"]
+	193 [label="Keras Network Writer"]
+	152 [label="Numeric Scorer"]
+	181 [label="Lag Column"]
+	80 [label=Sorter]
+	rankdir=LR
+}

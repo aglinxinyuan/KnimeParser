@@ -1,0 +1,24 @@
+digraph {
+	11 -> 10
+	9 -> 8
+	3 -> 2
+	4 -> 6
+	2 -> 4
+	7 -> 6
+	6 -> 9
+	10 -> 12
+	1 -> 3
+	8 -> 11
+	1 [label="Excel Reader"]
+	7 [label="Table Creator"]
+	9 [label=RowID]
+	11 [label="Column Expressions"]
+	4 [label="Column List Loop Start"]
+	6 [label="Binner _Dictionary_"]
+	8 [label=GroupBy]
+	12 [label=Pivoting]
+	3 [label=RowID]
+	2 [label=Transpose]
+	10 [label="Loop End"]
+	rankdir=LR
+}

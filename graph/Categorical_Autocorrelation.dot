@@ -1,0 +1,14 @@
+digraph {
+	12 -> 14
+	15 -> 16
+	14 -> 15
+	11 -> 12
+	10 -> 12
+	16 [label="Line Plot _Plotly_"]
+	11 [label="Table Creator"]
+	10 [label="Empty Table Creator"]
+	15 [label="Linear Correlation"]
+	14 [label="Lag Column"]
+	12 [label="Cross Joiner"]
+	rankdir=LR
+}

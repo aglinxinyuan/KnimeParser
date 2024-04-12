@@ -1,0 +1,18 @@
+digraph {
+	14 -> 5
+	5 -> 4
+	4 -> 16
+	15 -> 16
+	10 -> 4
+	5 -> 15
+	5 -> 10
+	16 -> 17
+	5 [label=Partitioning]
+	16 [label="Tree Ensemble Predictor"]
+	4 [label="Decision Tree Predictor"]
+	15 [label="Tree Ensemble Learner"]
+	14 [label="CSV Reader"]
+	17 [label="ROC Curve"]
+	10 [label="Decision Tree Learner"]
+	rankdir=LR
+}

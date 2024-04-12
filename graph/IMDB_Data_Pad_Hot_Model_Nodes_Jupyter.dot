@@ -1,0 +1,59 @@
+digraph {
+	262 -> 263
+	280 -> 281
+	282 -> 284
+	266 -> 270
+	276 -> 280
+	270 -> 271
+	268 -> 269
+	269 -> 266
+	279 -> 261
+	261 -> 267
+	264 -> 265
+	279 -> 277
+	283 -> 282
+	284 -> 285
+	271 -> 273
+	259 -> 260
+	267 -> 283
+	273 -> 272
+	265 -> 266
+	277 -> 276
+	274 -> 279
+	268 -> 270
+	281 -> 282
+	285 -> 286
+	267 -> 284
+	259 -> 262
+	263 -> 264
+	275 -> 279
+	260 -> 268
+	263 [label="Keras Dense Layer"]
+	275 [label="Integer Input"]
+	284 [label="Keras Network Executor"]
+	280 [label="Keras Flatten Layer"]
+	269 [label=Partitioning]
+	286 [label=Scorer]
+	259 [label="Integer Input"]
+	283 [label=Partitioning]
+	277 [label="Keras Input Layer"]
+	282 [label="Keras Network Learner"]
+	271 [label="Rule Engine"]
+	268 [label="Column Splitter"]
+	260 [label="Python Source"]
+	274 [label="Integer Input"]
+	265 [label="Keras Dense Layer"]
+	281 [label="Keras Dense Layer"]
+	262 [label="Keras Input Layer"]
+	285 [label="Double To Int"]
+	261 [label="Python Source"]
+	279 [label="Merge Variables"]
+	266 [label="Keras Network Learner"]
+	272 [label=Scorer]
+	264 [label="Keras Dense Layer"]
+	267 [label="Column Splitter"]
+	270 [label="Keras Network Executor"]
+	276 [label="Keras Embedding Layer"]
+	273 [label="Double To Int"]
+	rankdir=LR
+}

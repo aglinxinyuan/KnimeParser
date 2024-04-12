@@ -1,0 +1,36 @@
+digraph {
+	24 -> 26
+	23 -> 24
+	65 -> 66
+	14 -> 11
+	11 -> 23
+	61 -> 60
+	61 -> 23
+	26 -> 27
+	61 -> 64
+	24 -> 27
+	26 -> 64
+	61 -> 29
+	61 -> 66
+	65 -> 60
+	66 -> 60
+	59 -> 10
+	10 -> 14
+	27 -> 29
+	60 -> 59
+	24 [label="Spark Partitioning"]
+	27 [label="Spark Transformations Applier"]
+	64 [label="Spark to Parquet"]
+	66 [label="DB Table Creator"]
+	29 [label="Spark to Parquet"]
+	65 [label="Table Reader"]
+	11 [label="DB Query"]
+	23 [label="Hive to Spark"]
+	26 [label="Spark Missing Value"]
+	61 [label="Create Local Big Data Environment"]
+	14 [label="DB Column Filter"]
+	60 [label="DB Loader"]
+	10 [label="DB Row Filter"]
+	59 [label="DB Table Selector"]
+	rankdir=LR
+}

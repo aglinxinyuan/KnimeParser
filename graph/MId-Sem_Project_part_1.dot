@@ -1,0 +1,24 @@
+digraph {
+	12 -> 2
+	1 -> 11
+	3 -> 4
+	2 -> 6
+	4 -> 10
+	2 -> 7
+	11 -> 12
+	2 -> 3
+	6 -> 7
+	2 -> 4
+	7 -> 9
+	1 [label="CSV Reader"]
+	7 [label="Logistic Regression Predictor"]
+	9 [label="Scorer _JavaScript_"]
+	11 [label="Numeric Outliers"]
+	4 [label="Decision Tree Predictor"]
+	6 [label="Logistic Regression Learner"]
+	12 [label="Missing Value"]
+	3 [label="Decision Tree Learner"]
+	2 [label=Partitioning]
+	10 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

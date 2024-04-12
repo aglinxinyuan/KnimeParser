@@ -1,0 +1,30 @@
+digraph {
+	31 -> 34
+	22 -> 7
+	2 -> 23
+	32 -> 33
+	7 -> 16
+	16 -> 24
+	24 -> 29
+	30 -> 31
+	24 -> 30
+	23 -> 16
+	29 -> 32
+	1 -> 2
+	23 -> 22
+	33 -> 31
+	16 [label="Row Filter"]
+	24 [label="Rule Engine"]
+	1 [label="CSV Reader"]
+	7 [label="Table Row To Variable Loop Start"]
+	34 [label="Variable Loop End"]
+	22 [label=GroupBy]
+	29 [label="Table Row to Variable"]
+	31 [label="CSV Writer"]
+	23 [label="String Manipulation"]
+	32 [label="String Manipulation _Variable_"]
+	33 [label="String to Path _Variable_"]
+	30 [label="Column Filter"]
+	2 [label="Cell Splitter"]
+	rankdir=LR
+}

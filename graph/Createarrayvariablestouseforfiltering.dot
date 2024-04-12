@@ -1,0 +1,12 @@
+digraph {
+	33 -> 35
+	35 -> 36
+	34 -> 36
+	32 -> 33
+	35 [label="Table Row to Variable"]
+	34 [label="Table Creator"]
+	36 [label="Column Filter"]
+	33 [label=GroupBy]
+	32 [label="Table Creator"]
+	rankdir=LR
+}

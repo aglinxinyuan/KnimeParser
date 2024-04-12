@@ -1,0 +1,213 @@
+digraph {
+	936 -> 937
+	968 -> 961
+	1211 -> 1212
+	1114 -> 1124
+	961 -> 962
+	1272 -> 1185
+	1123 -> 1124
+	1196 -> 1167
+	838 -> 1141
+	958 -> 956
+	913 -> 920
+	932 -> 1194
+	932 -> 941
+	956 -> 1209
+	1124 -> 1113
+	1284 -> 1285
+	838 -> 856
+	1209 -> 1173
+	73 -> 1118
+	1195 -> 1196
+	1121 -> 1119
+	1166 -> 1258
+	850 -> 2
+	1283 -> 1284
+	934 -> 936
+	74 -> 75
+	1090 -> 1093
+	942 -> 947
+	944 -> 1114
+	948 -> 1112
+	1174 -> 1173
+	1210 -> 1212
+	956 -> 1174
+	73 -> 72
+	1183 -> 1185
+	961 -> 1273
+	944 -> 948
+	838 -> 855
+	1093 -> 1095
+	847 -> 836
+	1177 -> 1167
+	937 -> 938
+	1195 -> 1173
+	938 -> 939
+	841 -> 838
+	857 -> 1119
+	941 -> 1154
+	76 -> 1121
+	851 -> 932
+	57 -> 73
+	931 -> 932
+	1279 -> 1280
+	1118 -> 1120
+	1147 -> 1152
+	962 -> 1173
+	956 -> 1211
+	853 -> 841
+	958 -> 1203
+	961 -> 1173
+	1135 -> 1138
+	910 -> 913
+	836 -> 853
+	919 -> 1104
+	961 -> 1184
+	1022 -> 1157
+	1194 -> 1196
+	1128 -> 1129
+	856 -> 1132
+	58 -> 57
+	941 -> 1195
+	1184 -> 1185
+	908 -> 909
+	920 -> 1101
+	961 -> 1150
+	966 -> 968
+	939 -> 1147
+	855 -> 1136
+	854 -> 3
+	1092 -> 1090
+	968 -> 1174
+	1095 -> 1244
+	73 -> 76
+	1273 -> 1185
+	1156 -> 1160
+	939 -> 941
+	1166 -> 1167
+	1168 -> 1167
+	3 -> 847
+	1203 -> 1168
+	1212 -> 1167
+	1179 -> 1167
+	941 -> 1193
+	1174 -> 1167
+	1185 -> 1167
+	947 -> 944
+	1141 -> 1142
+	2 -> 854
+	957 -> 958
+	75 -> 58
+	1244 -> 851
+	913 -> 919
+	909 -> 910
+	911 -> 908
+	931 -> 1092
+	941 -> 1150
+	1194 [label="Rule_based Row Filter"]
+	1104 [label="Constant Value Column"]
+	942 [label="Rule_based Row Filter"]
+	1279 [label="Molecule Properties"]
+	847 [label="RDKit Descriptor Calculation"]
+	3 [label="RDKit Fingerprint"]
+	1273 [label="Rule_based Row Filter"]
+	1284 [label="Rule_based Row Filter"]
+	957 [label="RDKit From Molecule"]
+	1142 [label="Constant Value Column"]
+	966 [label="Speedy SMILES Element Count _C_ N_ O_"]
+	1166 [label="Rule_based Row Filter"]
+	1141 [label="Row Filter"]
+	853 [label="Column Filter"]
+	1128 [label="Row Filter"]
+	1112 [label="Constant Value Column"]
+	75 [label="Molecule Type Cast"]
+	944 [label="Speedy SMILES Charge Count"]
+	1121 [label="Column Filter"]
+	1174 [label="Rule_based Row Filter"]
+	937 [label="Rule Engine"]
+	1138 [label="Constant Value Column"]
+	1272 [label="Rule_based Row Filter"]
+	919 [label="Rule_based Row Filter"]
+	1160 [label="Constant Value Column"]
+	958 [label="RDKit Descriptor Calculation"]
+	1123 [label="Rule_based Row Filter"]
+	1168 [label="Column Filter"]
+	1179 [label="Rule_based Row Filter"]
+	1129 [label="Constant Value Column"]
+	1177 [label="Rule_based Row Filter"]
+	58 [label="RDKit From Molecule"]
+	941 [label="Rule_based Row Filter"]
+	1119 [label="Constant Value Column"]
+	1210 [label="Rule_based Row Filter"]
+	838 [label=Sorter]
+	938 [label="Rule Engine"]
+	856 [label="Row Filter"]
+	1120 [label="Constant Value Column"]
+	1095 [label="Column Filter"]
+	1022 [label="Rule_based Row Filter"]
+	1147 [label="Rule_based Row Filter"]
+	857 [label="Row Filter"]
+	1154 [label="Constant Value Column"]
+	1118 [label="Column Filter"]
+	1132 [label="Constant Value Column"]
+	1101 [label="Constant Value Column"]
+	1211 [label="Rule_based Row Filter"]
+	1135 [label="Row Filter"]
+	851 [label="RDKit Fingerprint"]
+	1113 [label="Constant Value Column"]
+	850 [label="Table Creator"]
+	1280 [label="Rule_based Row Filter"]
+	1212 [label=Concatenate]
+	962 [label="Rule_based Row Filter"]
+	911 [label="Table Creator"]
+	939 [label="Math Formula"]
+	57 [label="RDKit Substructure Counter"]
+	1193 [label="Rule_based Row Filter"]
+	909 [label="Molecule Type Cast"]
+	910 [label="RDKit From Molecule"]
+	947 [label="Speedy SMILES Clean Charges"]
+	836 [label="Similarity Search"]
+	1157 [label="Constant Value Column"]
+	1184 [label="Rule_based Row Filter"]
+	956 [label="Rule_based Row Filter"]
+	854 [label="Row Filter"]
+	931 [label="RDKit From Molecule"]
+	1283 [label="RDKit Descriptor Calculation"]
+	1195 [label="Rule_based Row Filter"]
+	932 [label="RDKit Descriptor Calculation"]
+	1136 [label="Constant Value Column"]
+	72 [label="RDKit Interactive Table"]
+	1203 [label="Rule_based Row Filter"]
+	1167 [label="Constant Value Column"]
+	1114 [label="Rule_based Row Filter"]
+	1196 [label=Concatenate]
+	1285 [label="Rule_based Row Filter"]
+	934 [label="Rule Engine"]
+	948 [label="Rule_based Row Filter"]
+	1124 [label=Concatenate]
+	920 [label="Rule_based Row Filter"]
+	1093 [label="Rule Engine"]
+	74 [label="Table Creator"]
+	855 [label="Row Filter"]
+	1150 [label="Constant Value Column"]
+	1258 [label="Constant Value Column"]
+	1209 [label="Rule_based Row Filter"]
+	968 [label="Molecule Properties"]
+	1092 [label="RDKit Canon SMILES"]
+	1183 [label="Rule_based Row Filter"]
+	961 [label="Rule_based Row Filter"]
+	1090 [label="Rule_based Row Splitter"]
+	841 [label="Rule Engine"]
+	1185 [label=Concatenate]
+	76 [label="Column Filter"]
+	936 [label="Rule Engine"]
+	1156 [label="Rule_based Row Filter"]
+	1244 [label="RDKit Salt Stripper"]
+	908 [label="Column Rename"]
+	1152 [label="Constant Value Column"]
+	913 [label="RDKit Substructure Counter"]
+	1173 [label="Constant Value Column"]
+	73 [label="Row Splitter"]
+	2 [label="RDKit From Molecule"]
+	rankdir=LR
+}

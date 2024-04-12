@@ -1,0 +1,20 @@
+digraph {
+	5 -> 25
+	4 -> 2
+	3 -> 4
+	2 -> 24
+	25 -> 26
+	26 -> 28
+	24 -> 5
+	28 -> 27
+	5 [label="Loop End"]
+	24 [label="Column Expressions"]
+	27 [label="OSM Map View"]
+	28 [label="Size Manager"]
+	4 [label="Table Row To Variable Loop Start"]
+	26 [label="Color Manager"]
+	25 [label="Shape Manager"]
+	3 [label="List Files_Folders"]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

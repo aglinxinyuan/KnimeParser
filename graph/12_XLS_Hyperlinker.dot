@@ -1,0 +1,19 @@
+digraph {
+	20 -> 21
+	21 -> 23
+	20 -> 24
+	19 -> 20
+	23 -> 16
+	25 -> 26
+	24 -> 25
+	26 -> 23
+	24 [label="XLS Control Table Generator"]
+	16 [label="XLS Formatter _apply_"]
+	20 [label="XLS Control Table Generator"]
+	23 [label="XLS Font Formatter"]
+	21 [label="XLS Hyperlinker"]
+	26 [label="XLS Control Table Generator"]
+	25 [label="Rule Engine"]
+	19 [label="Table Creator"]
+	rankdir=LR
+}

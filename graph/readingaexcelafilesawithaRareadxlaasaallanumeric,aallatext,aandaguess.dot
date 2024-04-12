@@ -1,0 +1,78 @@
+digraph {
+	35 -> 42
+	26 -> 57
+	46 -> 51
+	17 -> 61
+	35 -> 38
+	45 -> 51
+	42 -> 43
+	41 -> 46
+	57 -> 58
+	51 -> 48
+	34 -> 35
+	59 -> 39
+	60 -> 56
+	28 -> 34
+	36 -> 39
+	39 -> 50
+	33 -> 36
+	63 -> 64
+	14 -> 50
+	38 -> 48
+	34 -> 46
+	56 -> 26
+	54 -> 55
+	58 -> 59
+	31 -> 39
+	41 -> 45
+	28 -> 32
+	50 -> 41
+	15 -> 16
+	55 -> 60
+	61 -> 63
+	43 -> 50
+	48 -> 15
+	50 -> 62
+	40 -> 39
+	28 -> 45
+	50 -> 15
+	32 -> 33
+	62 -> 61
+	59 -> 14
+	16 -> 17
+	57 [label="Table Row To Variable Loop Start"]
+	55 [label="Path to URI"]
+	26 [label=Sorter]
+	58 [label="Read Excel Sheet Names"]
+	17 [label="Column Resorter"]
+	64 [label="Loop End"]
+	41 [label=Transpose]
+	31 [label="R Source _Table_"]
+	51 [label=Joiner]
+	56 [label="Files_Folders Meta Info"]
+	15 [label="Constant Value Column"]
+	54 [label="List Files_Folders"]
+	59 [label="Table Row To Variable Loop Start"]
+	16 [label="Constant Value Column"]
+	48 [label="Reference Column Resorter"]
+	50 [label=Joiner]
+	42 [label="Extract Table Spec"]
+	28 [label="R Snippet"]
+	61 [label="Table Writer"]
+	63 [label="Variable Loop End"]
+	14 [label="URL to File Path _Variable_"]
+	38 [label="Extract Table Spec"]
+	60 [label="URL to File Path"]
+	43 [label="Rule_based Row Filter"]
+	35 [label="R Snippet"]
+	34 [label="R Snippet"]
+	62 [label="String to Path _Variable_"]
+	36 [label="Math Formula"]
+	46 [label="Reference Column Filter"]
+	40 [label="Double Input"]
+	39 [label="Rule_based Row Filter"]
+	33 [label="Column Filter"]
+	32 [label=Statistics]
+	45 [label="Reference Column Filter"]
+	rankdir=LR
+}

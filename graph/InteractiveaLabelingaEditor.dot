@@ -1,0 +1,12 @@
+digraph {
+	11 -> 6
+	13 -> 14
+	8 -> 13
+	6 -> 8
+	13 [label="Interactive Labeling Editor"]
+	11 [label="Image Reader"]
+	6 [label="Global Thresholder"]
+	8 [label="Connected Component Analysis"]
+	14 [label="Interactive Segmentation View"]
+	rankdir=LR
+}

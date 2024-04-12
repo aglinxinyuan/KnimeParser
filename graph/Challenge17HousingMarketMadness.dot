@@ -1,0 +1,59 @@
+digraph {
+	24 -> 26
+	53 -> 54
+	30 -> 53
+	23 -> 24
+	42 -> 43
+	21 -> 22
+	42 -> 46
+	1 -> 16
+	22 -> 23
+	38 -> 41
+	29 -> 30
+	40 -> 42
+	59 -> 58
+	25 -> 28
+	54 -> 60
+	1 -> 50
+	17 -> 21
+	26 -> 25
+	16 -> 30
+	49 -> 51
+	53 -> 38
+	50 -> 49
+	60 -> 61
+	41 -> 40
+	46 -> 33
+	61 -> 59
+	16 -> 17
+	28 -> 29
+	21 [label=RowID]
+	26 [label="Column Filter"]
+	58 [label="Line Plot"]
+	17 [label=Transpose]
+	24 [label="Group Loop Start"]
+	49 [label=GroupBy]
+	41 [label=RowID]
+	51 [label=Sorter]
+	25 [label=Transpose]
+	54 [label="Column Filter"]
+	59 [label=RowID]
+	16 [label="Column Splitter"]
+	50 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	42 [label=RowID]
+	22 [label="String to Date_Time"]
+	53 [label="Row Splitter"]
+	28 [label="Column Aggregator"]
+	23 [label="Extract Date_Time Fields"]
+	61 [label=Transpose]
+	38 [label="Column Filter"]
+	60 [label=RowID]
+	43 [label=Statistics]
+	29 [label="Loop End _Column Append_"]
+	46 [label="Column Filter"]
+	40 [label=Transpose]
+	33 [label="Line Plot"]
+	30 [label=Joiner]
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	4 -> 7
+	6 -> 5
+	1 -> 8
+	1 -> 4
+	4 -> 5
+	3 -> 8
+	6 -> 7
+	2 -> 8
+	2 -> 4
+	3 -> 6
+	5 [label=Concatenate]
+	1 [label="CSV Reader"]
+	7 [label=Concatenate]
+	4 [label=Concatenate]
+	8 [label=Concatenate]
+	6 [label="Table Manipulator"]
+	3 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

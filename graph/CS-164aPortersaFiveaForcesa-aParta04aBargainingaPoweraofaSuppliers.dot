@@ -1,0 +1,24 @@
+digraph {
+	15 -> 19
+	12 -> 13
+	5 -> 16
+	6 -> 14
+	4 -> 5
+	3 -> 4
+	13 -> 14
+	19 -> 48
+	14 -> 15
+	4 -> 6
+	5 [label="Price War"]
+	16 [label="Column Filter"]
+	48 [label="Pie chart _local_"]
+	13 [label="Feature Table To List"]
+	4 [label="Matrix Distributions"]
+	6 [label="Customer Distributions"]
+	15 [label="Price War"]
+	14 [label="Product Generator"]
+	3 [label="Table Creator"]
+	12 [label="Table Creator"]
+	19 [label="Column Filter"]
+	rankdir=LR
+}

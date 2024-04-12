@@ -1,0 +1,17 @@
+digraph {
+	4 -> 7
+	5 -> 4
+	3 -> 4
+	3 -> 5
+	1 -> 2
+	2 -> 3
+	7 -> 6
+	5 [label="Column Expressions"]
+	1 [label="Table Creator"]
+	7 [label=RowID]
+	4 [label="Insert Column Header"]
+	6 [label="Loop End _Column Append_"]
+	3 [label="Column Splitter"]
+	2 [label="Chunk Loop Start"]
+	rankdir=LR
+}

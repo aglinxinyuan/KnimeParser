@@ -1,0 +1,14 @@
+digraph {
+	3 -> 9
+	9 -> 8
+	8 -> 2
+	1 -> 7
+	7 -> 9
+	1 [label="JSON Input"]
+	7 [label="JSON to Table"]
+	9 [label="Tree Ensemble Predictor"]
+	8 [label="Columns to JSON"]
+	3 [label="Model Reader"]
+	2 [label="JSON Output"]
+	rankdir=LR
+}

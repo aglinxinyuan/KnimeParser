@@ -1,0 +1,31 @@
+digraph {
+	6 -> 3
+	14 -> 6
+	7 -> 3
+	10 -> 6
+	10 -> 7
+	13 -> 7
+	8 -> 10
+	12 -> 14
+	3 -> 20
+	14 -> 10
+	18 -> 8
+	11 -> 13
+	13 -> 8
+	17 -> 18
+	16 -> 17
+	16 [label="Create File_Folder Variables"]
+	14 [label="WKT to Geometry"]
+	20 [label="Geospatial View"]
+	13 [label="Lat_Lon to Geometry"]
+	7 [label="Constant Value Column"]
+	11 [label="CSV Reader"]
+	18 [label="URL to File Path _Variable_"]
+	6 [label="Constant Value Column"]
+	8 [label="GeoPackage Writer"]
+	12 [label="CSV Reader"]
+	17 [label="Path to String _Variable_"]
+	3 [label=Concatenate]
+	10 [label="GeoPackage Writer"]
+	rankdir=LR
+}

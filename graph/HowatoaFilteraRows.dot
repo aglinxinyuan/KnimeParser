@@ -1,0 +1,16 @@
+digraph {
+	24 -> 22
+	24 -> 9
+	24 -> 7
+	24 -> 25
+	24 -> 4
+	24 -> 11
+	24 [label="File Reader"]
+	7 [label="Row Filter"]
+	22 [label="Row Filter"]
+	9 [label="Row Filter"]
+	11 [label="Row Filter"]
+	4 [label="Row Filter"]
+	25 [label="Row Splitter"]
+	rankdir=LR
+}

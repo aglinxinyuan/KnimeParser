@@ -1,0 +1,27 @@
+digraph {
+	20 -> 21
+	61 -> 62
+	21 -> 24
+	62 -> 20
+	63 -> 62
+	63 -> 61
+	24 -> 25
+	59 -> 60
+	25 -> 26
+	59 -> 65
+	62 -> 66
+	60 -> 63
+	24 [label="Rule_based Row Filter"]
+	20 [label="Column Expressions"]
+	62 [label="Tree Ensemble Predictor _Regression_"]
+	66 [label="Numeric Scorer"]
+	65 [label=Statistics]
+	26 [label="Interactive Table"]
+	21 [label=Statistics]
+	63 [label=Partitioning]
+	61 [label="Tree Ensemble Learner _Regression_"]
+	25 [label="Column Filter"]
+	60 [label=Normalizer]
+	59 [label="CSV Reader"]
+	rankdir=LR
+}

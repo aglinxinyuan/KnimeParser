@@ -1,0 +1,12 @@
+digraph {
+	91 -> 89
+	89 -> 94
+	93 -> 94
+	92 -> 89
+	91 [label="DL Python Network Creator"]
+	94 [label="Keras Network Executor"]
+	92 [label="Table Creator"]
+	89 [label="Keras Network Learner"]
+	93 [label="Table Creator"]
+	rankdir=LR
+}

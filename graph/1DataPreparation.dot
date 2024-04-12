@@ -1,0 +1,23 @@
+digraph {
+	4 -> 5
+	16 -> 21
+	4 -> 16
+	19 -> 17
+	15 -> 16
+	17 -> 2
+	15 -> 20
+	5 -> 15
+	17 -> 4
+	4 -> 6
+	5 [label=Shuffle]
+	16 [label="Normalizer _Apply_"]
+	20 [label="CSV Writer"]
+	4 [label=Partitioning]
+	21 [label="CSV Writer"]
+	6 [label=Concatenate]
+	15 [label=Normalizer]
+	17 [label="Missing Value"]
+	2 [label="Row Sampling"]
+	19 [label="CSV Reader"]
+	rankdir=LR
+}

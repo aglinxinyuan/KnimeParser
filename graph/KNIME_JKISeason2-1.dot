@@ -1,0 +1,21 @@
+digraph {
+	4 -> 7
+	11 -> 6
+	7 -> 8
+	4 -> 2
+	3 -> 4
+	6 -> 12
+	11 -> 12
+	1 -> 3
+	8 -> 11
+	1 [label="Table Reader"]
+	7 [label=Unpivoting]
+	11 [label="Column Combiner"]
+	4 [label="Column Rename"]
+	6 [label="Color Manager"]
+	8 [label=GroupBy]
+	3 [label="Cell Splitter"]
+	2 [label=GroupBy]
+	12 [label="Line Plot"]
+	rankdir=LR
+}

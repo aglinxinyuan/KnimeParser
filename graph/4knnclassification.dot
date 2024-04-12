@@ -1,0 +1,12 @@
+digraph {
+	2 -> 24
+	24 -> 29
+	24 -> 8
+	1 -> 2
+	24 [label="K Nearest Neighbor"]
+	1 [label="File Reader"]
+	29 [label=Scorer]
+	8 [label="ROC Curve _local_"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

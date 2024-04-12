@@ -1,0 +1,31 @@
+digraph {
+	10 -> 26
+	10 -> 13
+	10 -> 11
+	10 -> 12
+	10 -> 14
+	28 -> 29
+	15 -> 16
+	10 -> 33
+	29 -> 30
+	10 -> 16
+	35 -> 34
+	27 -> 28
+	10 -> 35
+	16 [label="Reference Row Filter"]
+	27 [label="SQLite Connector"]
+	13 [label="Rule_based Row Filter"]
+	35 [label="String to Date_Time"]
+	34 [label="Date_Time_based Row Filter"]
+	29 [label="DB Row Filter"]
+	28 [label="DB Table Selector"]
+	11 [label="Row Filter"]
+	26 [label="Geo_Coordinate Row Filter"]
+	10 [label="Table Creator"]
+	15 [label="Table Creator"]
+	14 [label="Java Snippet Row Filter"]
+	33 [label="Row Filter _Labs_"]
+	30 [label="DB Reader"]
+	12 [label="Nominal Value Row Filter"]
+	rankdir=LR
+}

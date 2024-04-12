@@ -1,0 +1,21 @@
+digraph {
+	6 -> 3
+	1 -> 8
+	4 -> 5
+	3 -> 4
+	2 -> 6
+	8 -> 2
+	5 -> 10
+	9 -> 10
+	4 -> 9
+	5 [label="Top k Selector"]
+	1 [label="CSV Reader"]
+	9 [label="Top k Selector"]
+	4 [label="Row Filter"]
+	6 [label="Date_Time Difference"]
+	8 [label="Table Manipulator"]
+	3 [label=GroupBy]
+	2 [label="Column Expressions"]
+	10 [label=Joiner]
+	rankdir=LR
+}

@@ -1,0 +1,24 @@
+digraph {
+	12 -> 10
+	12 -> 13
+	4 -> 5
+	1 -> 2
+	3 -> 4
+	3 -> 5
+	5 -> 12
+	4 -> 11
+	11 -> 12
+	2 -> 3
+	2 -> 8
+	5 [label="Normalizer _Apply_"]
+	13 [label="Scorer _JavaScript_"]
+	1 [label="Table Reader"]
+	11 [label="Naive Bayes Learner"]
+	4 [label=Normalizer]
+	10 [label="ROC Curve"]
+	8 [label="Scatter Plot"]
+	3 [label=Partitioning]
+	2 [label="Color Manager"]
+	12 [label="Naive Bayes Predictor"]
+	rankdir=LR
+}

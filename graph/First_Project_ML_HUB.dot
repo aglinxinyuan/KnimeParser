@@ -1,0 +1,39 @@
+digraph {
+	2 -> 18
+	8 -> 22
+	19 -> 6
+	7 -> 8
+	21 -> 6
+	4 -> 5
+	18 -> 19
+	1 -> 2
+	15 -> 16
+	3 -> 4
+	11 -> 14
+	14 -> 26
+	16 -> 14
+	2 -> 3
+	6 -> 9
+	6 -> 7
+	10 -> 15
+	7 [label="Decision Tree Predictor"]
+	9 [label="PMML Writer"]
+	21 [label="Parameter Optimization Loop Start"]
+	18 [label="Python Script _1_1_"]
+	26 [label="Data to Report"]
+	8 [label=Scorer]
+	3 [label="Category To Number"]
+	19 [label="Tag Cloud"]
+	6 [label="Decision Tree Learner"]
+	15 [label="Number To String"]
+	10 [label="File Reader"]
+	16 [label="Category To Number"]
+	1 [label="File Reader"]
+	22 [label="Parameter Optimization Loop End"]
+	11 [label="PMML Reader"]
+	4 [label="Color Manager"]
+	14 [label="JPMML Classifier"]
+	5 [label=Partitioning]
+	2 [label="Number To String"]
+	rankdir=LR
+}

@@ -1,0 +1,19 @@
+digraph {
+	1 -> 4
+	4 -> 5
+	7 -> 2
+	8 -> 7
+	1 -> 6
+	1 -> 2
+	5 -> 9
+	6 -> 8
+	5 [label="Split Collection Column"]
+	1 [label="Table Creator"]
+	7 [label="Table Row to Variable"]
+	9 [label="String Manipulation"]
+	4 [label="Column Expressions"]
+	6 [label="Extract Column Header"]
+	8 [label="Column Rename"]
+	2 [label="String Manipulation"]
+	rankdir=LR
+}

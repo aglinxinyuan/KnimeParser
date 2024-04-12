@@ -1,0 +1,22 @@
+digraph {
+	351 -> 348
+	348 -> 343
+	344 -> 351
+	4 -> 343
+	343 -> 354
+	353 -> 348
+	4 -> 17
+	4 -> 353
+	351 -> 353
+	343 -> 355
+	351 [label="Table Editor"]
+	353 [label="DB Table Creator"]
+	355 [label="DB Query Reader"]
+	343 [label="DB SQL Executor"]
+	4 [label="SQLite Connector"]
+	354 [label="DB Query Reader"]
+	344 [label="CSV Reader"]
+	348 [label="DB Insert"]
+	17 [label="DB Query Reader"]
+	rankdir=LR
+}

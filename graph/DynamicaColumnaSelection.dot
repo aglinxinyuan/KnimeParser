@@ -1,0 +1,14 @@
+digraph {
+	153 -> 169
+	153 -> 174
+	174 -> 176
+	173 -> 171
+	169 -> 173
+	169 [label="Extract Table Spec"]
+	173 [label="Table View"]
+	174 [label="Column Filter Widget"]
+	153 [label="Table Creator"]
+	176 [label="Extract Table Spec"]
+	171 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,67 @@
+digraph {
+	322 -> 301
+	359 -> 371
+	366 -> 367
+	368 -> 365
+	324 -> 318
+	354 -> 366
+	295 -> 323
+	320 -> 325
+	318 -> 356
+	354 -> 355
+	365 -> 320
+	326 -> 357
+	358 -> 360
+	301 -> 303
+	357 -> 358
+	355 -> 356
+	323 -> 322
+	354 -> 365
+	295 -> 320
+	325 -> 326
+	369 -> 319
+	3 -> 324
+	319 -> 354
+	295 -> 355
+	352 -> 369
+	303 -> 2
+	322 -> 304
+	356 -> 357
+	318 -> 325
+	360 -> 359
+	365 -> 323
+	8 -> 323
+	2 -> 3
+	304 -> 301
+	367 -> 368
+	324 [label="Table to H2O"]
+	365 [label=Partitioning]
+	322 [label="H2O Partitioning"]
+	367 [label="Math Formula _Variable_"]
+	304 [label="H2O Generalized Linear Model Learner _Regression_"]
+	354 [label="Rule_based Row Splitter"]
+	8 [label="Feature Selection Loop Start _1_1_"]
+	295 [label="H2O Local Context"]
+	3 [label="Feature Selection Filter"]
+	357 [label="H2O Column Filter"]
+	366 [label="Extract Table Dimension"]
+	325 [label="H2O Predictor _Regression_"]
+	359 [label="Column Appender"]
+	319 [label="Lag Column"]
+	358 [label="H2O to Table"]
+	356 [label="H2O Predictor _Regression_"]
+	360 [label="Math Formula"]
+	369 [label="Workflow Service Input"]
+	368 [label="Math Formula _Variable_"]
+	301 [label="H2O Predictor _Regression_"]
+	352 [label="Table Reader"]
+	371 [label="Workflow Service Output"]
+	326 [label="H2O Numeric Scorer"]
+	318 [label="H2O Generalized Linear Model Learner _Regression_"]
+	355 [label="Table to H2O"]
+	323 [label="Table to H2O"]
+	303 [label="H2O Numeric Scorer"]
+	2 [label="Feature Selection Loop End"]
+	320 [label="Table to H2O"]
+	rankdir=LR
+}

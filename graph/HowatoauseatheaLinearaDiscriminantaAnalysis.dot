@@ -1,0 +1,14 @@
+digraph {
+	9 -> 5
+	5 -> 11
+	12 -> 14
+	11 -> 12
+	14 -> 13
+	5 [label="Linear Discriminant Analysis"]
+	13 [label="Scatter Plot"]
+	9 [label="File Reader"]
+	11 [label="Column Filter"]
+	14 [label="Column Resorter"]
+	12 [label="Color Manager"]
+	rankdir=LR
+}

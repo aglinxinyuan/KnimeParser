@@ -1,0 +1,14 @@
+digraph {
+	30 -> 3
+	2 -> 30
+	31 -> 7
+	3 -> 31
+	1 -> 2
+	1 [label="Excel Reader"]
+	7 [label="Excel Writer"]
+	31 [label="Math Formula _Multi Column_"]
+	30 [label="Column Expressions"]
+	3 [label="String Cleaner"]
+	2 [label="String Cleaner"]
+	rankdir=LR
+}

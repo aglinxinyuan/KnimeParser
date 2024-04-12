@@ -1,0 +1,24 @@
+digraph {
+	1 -> 2
+	2 -> 9
+	2 -> 7
+	7 -> 6
+	9 -> 10
+	2 -> 5
+	2 -> 3
+	2 -> 8
+	2 -> 4
+	2 -> 11
+	5 [label="Data Explorer"]
+	1 [label="CSV Reader"]
+	7 [label="Rule Engine"]
+	9 [label="String Manipulation"]
+	11 [label="String Manipulation"]
+	4 [label="Bar Chart"]
+	8 [label="Duplicate Row Filter"]
+	6 [label="Pie Chart"]
+	3 [label=Histogram]
+	2 [label="Column Renamer"]
+	10 [label="String to Date_Time"]
+	rankdir=LR
+}

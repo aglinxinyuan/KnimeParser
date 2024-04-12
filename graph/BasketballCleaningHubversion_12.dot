@@ -1,0 +1,49 @@
+digraph {
+	20 -> 21
+	4 -> 5
+	6 -> 8
+	21 -> 24
+	1 -> 2
+	11 -> 12
+	23 -> 18
+	8 -> 11
+	13 -> 6
+	15 -> 16
+	5 -> 13
+	6 -> 15
+	18 -> 20
+	6 -> 7
+	6 -> 14
+	7 -> 9
+	17 -> 23
+	8 -> 10
+	3 -> 4
+	17 -> 19
+	2 -> 3
+	18 -> 21
+	16 -> 17
+	7 [label="Row Filter"]
+	9 [label="CSV Writer"]
+	18 [label=Partitioning]
+	21 [label="Random Forest Predictor"]
+	8 [label="Row Filter"]
+	17 [label=Normalizer]
+	3 [label="Cell Splitter By Position"]
+	19 [label="Linear Correlation"]
+	24 [label=Scorer]
+	6 [label="Column Resorter"]
+	15 [label="Missing Value"]
+	12 [label="CSV Writer"]
+	10 [label="CSV Writer"]
+	16 [label="Numeric Outliers"]
+	1 [label="CSV Reader"]
+	11 [label="Column Filter"]
+	4 [label="Rule Engine"]
+	23 [label="Number To String"]
+	14 [label=Statistics]
+	5 [label="Column Filter"]
+	13 [label="Category To Number"]
+	20 [label="Random Forest Learner"]
+	2 [label="Math Formula"]
+	rankdir=LR
+}

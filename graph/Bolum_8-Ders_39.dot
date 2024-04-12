@@ -1,0 +1,15 @@
+digraph {
+	3 -> 4
+	1 -> 5
+	1 -> 2
+	2 -> 3
+	4 -> 6
+	3 -> 6
+	5 [label="Scatter Plot"]
+	1 [label="Excel Reader"]
+	4 [label="Linear Regression Learner"]
+	6 [label="Regression Predictor"]
+	3 [label=Partitioning]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

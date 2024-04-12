@@ -1,0 +1,11 @@
+digraph {
+	3 -> 6
+	5 -> 3
+	4 -> 6
+	4 -> 5
+	5 [label="DB Query Reader"]
+	4 [label="SQLite Connector"]
+	3 [label=GroupBy]
+	6 [label="DB Writer"]
+	rankdir=LR
+}

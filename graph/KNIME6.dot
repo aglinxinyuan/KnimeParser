@@ -1,0 +1,38 @@
+digraph {
+	3 -> 9
+	17 -> 15
+	12 -> 13
+	8 -> 9
+	6 -> 7
+	3 -> 8
+	9 -> 11
+	3 -> 16
+	13 -> 14
+	8 -> 10
+	3 -> 17
+	5 -> 6
+	3 -> 12
+	1 -> 2
+	2 -> 3
+	3 -> 13
+	16 -> 17
+	4 -> 6
+	5 [label="File Reader"]
+	16 [label="Random Forest Learner _Regression_"]
+	13 [label="Regression Predictor"]
+	1 [label="File Reader"]
+	7 [label="Data to Report"]
+	9 [label="Gradient Boosted Trees Predictor _Regression_"]
+	11 [label="Numeric Scorer"]
+	4 [label="Model Reader"]
+	10 [label="Model Writer"]
+	8 [label="Gradient Boosted Trees Learner _Regression_"]
+	6 [label="Gradient Boosted Trees Predictor _Regression_"]
+	15 [label="Numeric Scorer"]
+	14 [label="Numeric Scorer"]
+	17 [label="Random Forest Predictor _Regression_"]
+	3 [label=Partitioning]
+	2 [label="Missing Value"]
+	12 [label="Linear Regression Learner"]
+	rankdir=LR
+}

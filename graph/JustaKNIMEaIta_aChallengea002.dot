@@ -1,0 +1,26 @@
+digraph {
+	285 -> 286
+	2015 -> 2014
+	286 -> 289
+	2014 -> 2016
+	286 -> 287
+	1 -> 285
+	288 -> 2013
+	288 -> 289
+	287 -> 288
+	2017 -> 2014
+	2013 -> 2015
+	289 -> 2017
+	2014 [label="CSV Writer"]
+	2015 [label="String to Path _Variable_"]
+	289 [label="Rule_based Row Filter"]
+	1 [label="CSV Reader"]
+	285 [label="String to Date_Time"]
+	2016 [label="Variable Loop End"]
+	287 [label=GroupBy]
+	2017 [label="Column Filter"]
+	2013 [label="Java Edit Variable _simple_"]
+	288 [label="Table Row To Variable Loop Start"]
+	286 [label="Extract Date_Time Fields"]
+	rankdir=LR
+}

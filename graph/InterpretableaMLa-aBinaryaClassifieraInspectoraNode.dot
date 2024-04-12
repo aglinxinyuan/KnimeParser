@@ -1,0 +1,45 @@
+digraph {
+	20 -> 30
+	22 -> 33
+	25 -> 22
+	27 -> 28
+	20 -> 27
+	20 -> 31
+	30 -> 31
+	31 -> 32
+	11 -> 25
+	10 -> 11
+	20 -> 11
+	11 -> 35
+	10 -> 34
+	5 -> 9
+	20 -> 28
+	28 -> 23
+	33 -> 21
+	20 -> 10
+	32 -> 33
+	9 -> 20
+	2 -> 5
+	23 -> 22
+	1 -> 5
+	27 [label="Gradient Boosted Trees Learner"]
+	9 [label="Rule Engine"]
+	21 [label="Binary Classification Inspector"]
+	31 [label="Random Forest Predictor"]
+	25 [label="Column Rename"]
+	10 [label="Decision Tree Learner"]
+	30 [label="Random Forest Learner"]
+	1 [label="Table Reader"]
+	22 [label=Joiner]
+	28 [label="Gradient Boosted Trees Predictor"]
+	11 [label="Decision Tree Predictor"]
+	23 [label="Column Rename"]
+	5 [label=Joiner]
+	20 [label=Partitioning]
+	35 [label="CSV Writer"]
+	34 [label="Decision Tree To Image"]
+	33 [label=Joiner]
+	32 [label="Column Rename"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

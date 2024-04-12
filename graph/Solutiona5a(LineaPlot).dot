@@ -1,0 +1,23 @@
+digraph {
+	18 -> 19
+	152 -> 18
+	152 -> 149
+	19 -> 20
+	20 -> 148
+	152 -> 150
+	150 -> 154
+	152 -> 153
+	152 -> 148
+	152 -> 151
+	150 [label="Line Plot"]
+	148 [label="Line Plot"]
+	20 [label="Color Manager"]
+	18 [label="Extract Column Header"]
+	153 [label="Data to Report"]
+	154 [label="Image to Report"]
+	152 [label="Table Reader"]
+	149 [label="Line Plot"]
+	19 [label=Transpose]
+	151 [label="Line Plot _Plotly_"]
+	rankdir=LR
+}

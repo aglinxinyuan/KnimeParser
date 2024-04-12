@@ -1,0 +1,119 @@
+digraph {
+	4 -> 32
+	53 -> 54
+	7 -> 8
+	38 -> 51
+	67 -> 66
+	14 -> 17
+	8 -> 9
+	54 -> 57
+	57 -> 58
+	34 -> 28
+	37 -> 63
+	66 -> 50
+	27 -> 26
+	25 -> 24
+	32 -> 24
+	18 -> 19
+	22 -> 25
+	51 -> 67
+	8 -> 68
+	69 -> 70
+	8 -> 71
+	40 -> 47
+	17 -> 18
+	19 -> 23
+	15 -> 75
+	14 -> 42
+	20 -> 4
+	47 -> 61
+	31 -> 27
+	64 -> 63
+	8 -> 76
+	16 -> 21
+	63 -> 65
+	65 -> 30
+	9 -> 22
+	58 -> 56
+	35 -> 36
+	28 -> 31
+	8 -> 62
+	36 -> 37
+	62 -> 64
+	8 -> 48
+	8 -> 26
+	8 -> 35
+	75 -> 76
+	42 -> 40
+	72 -> 68
+	16 -> 73
+	56 -> 60
+	21 -> 32
+	61 -> 48
+	70 -> 72
+	15 -> 20
+	14 -> 69
+	60 -> 34
+	50 -> 53
+	23 -> 4
+	24 -> 37
+	30 -> 38
+	73 -> 74
+	74 -> 71
+	27 [label="Column Resorter"]
+	57 [label="Column Expressions"]
+	7 [label="Google Authentication"]
+	9 [label="Google Sheets Reader"]
+	26 [label="Google Sheets Updater"]
+	21 [label="Column Filter"]
+	18 [label="Nominal Value Row Splitter"]
+	58 [label="Column Expressions"]
+	8 [label="Google Sheets Connection"]
+	74 [label="Date_Time to String"]
+	17 [label="Column Filter"]
+	19 [label="Nominal Value Row Splitter"]
+	24 [label=Joiner]
+	64 [label="String To Number"]
+	31 [label="Column Filter"]
+	51 [label="Date_Time Difference"]
+	56 [label="Rule Engine"]
+	15 [label="Excel Reader _XLS_"]
+	25 [label="String To Number"]
+	54 [label="Date_Time Difference"]
+	75 [label="Date_Time to String"]
+	16 [label="Excel Reader _XLS_"]
+	48 [label="Google Sheets Updater"]
+	30 [label="Math Formula"]
+	50 [label="Column Expressions"]
+	42 [label="Nominal Value Row Splitter"]
+	22 [label="Column Filter"]
+	68 [label="Google Sheets Updater"]
+	28 [label="Column Rename"]
+	53 [label="Rule Engine"]
+	67 [label="Date_Time Difference"]
+	23 [label="Nominal Value Row Splitter"]
+	4 [label=Joiner]
+	47 [label="Top k Selector"]
+	72 [label="Date_Time to String"]
+	76 [label="Google Sheets Updater"]
+	63 [label=Joiner]
+	61 [label="Date_Time to String"]
+	14 [label="Excel Reader _XLS_"]
+	38 [label="Math Formula"]
+	60 [label="Date_Time to String"]
+	20 [label="Column Filter"]
+	35 [label="Google Sheets Reader"]
+	62 [label="Google Sheets Reader"]
+	34 [label="Double To Int"]
+	66 [label="Math Formula"]
+	70 [label="Nominal Value Row Splitter"]
+	71 [label="Google Sheets Updater"]
+	69 [label="Nominal Value Row Splitter"]
+	36 [label="Column Filter"]
+	65 [label=Sorter]
+	40 [label="Column Filter"]
+	73 [label="Nominal Value Row Splitter"]
+	32 [label=Joiner]
+	37 [label=Joiner]
+	rankdir=LR
+}

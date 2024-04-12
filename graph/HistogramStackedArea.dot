@@ -1,0 +1,11 @@
+digraph {
+	5 -> 3
+	3 -> 4
+	1 -> 2
+	5 [label="CSV Reader"]
+	1 [label="CSV Reader"]
+	4 [label="Stacked Area Chart _Labs_"]
+	3 [label="String to Date_Time"]
+	2 [label="Histogram _Labs_"]
+	rankdir=LR
+}

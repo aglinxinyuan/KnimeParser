@@ -1,0 +1,22 @@
+digraph {
+	3 -> 32
+	43 -> 27
+	33 -> 44
+	42 -> 43
+	40 -> 42
+	44 -> 45
+	32 -> 40
+	29 -> 33
+	27 -> 29
+	27 [label="String Manipulation _Multi Column_"]
+	43 [label="JSON Path"]
+	44 [label=XPath]
+	42 [label="XML To JSON"]
+	29 [label="String to Date_Time"]
+	40 [label=XPath]
+	33 [label="Webpage Retriever"]
+	32 [label="Webpage Retriever"]
+	3 [label="Table Creator"]
+	45 [label="Row Filter"]
+	rankdir=LR
+}

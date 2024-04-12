@@ -1,0 +1,54 @@
+digraph {
+	6 -> 5
+	20 -> 21
+	7 -> 8
+	17 -> 24
+	8 -> 9
+	12 -> 14
+	15 -> 18
+	21 -> 16
+	2 -> 3
+	4 -> 8
+	5 -> 20
+	20 -> 19
+	18 -> 17
+	9 -> 23
+	22 -> 17
+	14 -> 15
+	1 -> 2
+	19 -> 23
+	20 -> 22
+	10 -> 11
+	5 -> 7
+	15 -> 16
+	13 -> 12
+	7 -> 9
+	3 -> 4
+	9 -> 10
+	11 -> 13
+	7 [label="SeeSAR Project Reader"]
+	9 [label="Assess Affinity with Hyde in SeeSAR"]
+	18 [label="Column Filter"]
+	21 [label="Create File Name"]
+	8 [label="FlexX Docking"]
+	17 [label="CSV Writer"]
+	3 [label="Generate Protomers _ Tautomers with Naomi"]
+	19 [label="Create File Name"]
+	24 [label="Variable Loop End"]
+	6 [label="List Files"]
+	15 [label=RowID]
+	12 [label=Rank]
+	10 [label="Row Filter"]
+	16 [label="SDF Writer"]
+	1 [label="Excel Reader _XLS_"]
+	22 [label="Create File Name"]
+	23 [label="SeeSAR Project Writer"]
+	4 [label="Generate 3D Coordinates"]
+	11 [label="Column Filter"]
+	14 [label="String Manipulation"]
+	5 [label="Table Row To Variable Loop Start"]
+	20 [label="String Manipulation _Variable_"]
+	13 [label=Sorter]
+	2 [label=OpenBabel]
+	rankdir=LR
+}

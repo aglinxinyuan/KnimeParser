@@ -1,0 +1,36 @@
+digraph {
+	129 -> 271
+	240 -> 276
+	268 -> 129
+	244 -> 255
+	274 -> 129
+	260 -> 261
+	272 -> 276
+	271 -> 272
+	269 -> 156
+	275 -> 240
+	267 -> 263
+	156 -> 143
+	276 -> 244
+	143 -> 271
+	263 -> 272
+	261 -> 143
+	260 [label="SQLite Connector"]
+	274 [label="Table Reader"]
+	263 [label="Column Filter"]
+	267 [label="CSV Reader"]
+	275 [label="Excel Reader"]
+	156 [label="Column Rename"]
+	143 [label=Concatenate]
+	244 [label=GroupBy]
+	255 [label="Bar Chart"]
+	261 [label="DB Query Reader"]
+	276 [label=Joiner]
+	272 [label=Joiner]
+	269 [label="CSV Reader"]
+	271 [label=Joiner]
+	129 [label="Cell Replacer"]
+	240 [label="String Manipulation"]
+	268 [label="CSV Reader"]
+	rankdir=LR
+}

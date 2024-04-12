@@ -1,0 +1,18 @@
+digraph {
+	89 -> 90
+	93 -> 94
+	90 -> 91
+	86 -> 92
+	91 -> 94
+	91 -> 93
+	92 -> 93
+	91 -> 92
+	86 [label="Table Creator"]
+	91 [label="OpenAI Chat Model Connector"]
+	94 [label="Chat Model Prompter"]
+	92 [label="Chat Model Prompter"]
+	90 [label="OpenAI Authenticator"]
+	89 [label="Credentials Configuration"]
+	93 [label="Chat Model Prompter"]
+	rankdir=LR
+}

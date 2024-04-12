@@ -1,0 +1,22 @@
+digraph {
+	86 -> 91
+	100 -> 101
+	86 -> 92
+	99 -> 102
+	86 -> 100
+	95 -> 86
+	99 -> 100
+	92 -> 93
+	86 -> 99
+	91 -> 92
+	86 [label=Partitioning]
+	91 [label="Decision Tree Learner"]
+	99 [label="Random Forest Learner"]
+	92 [label="Decision Tree Predictor"]
+	102 [label="Math Formula"]
+	101 [label=Scorer]
+	93 [label=Scorer]
+	100 [label="Random Forest Predictor"]
+	95 [label="Table Reader"]
+	rankdir=LR
+}

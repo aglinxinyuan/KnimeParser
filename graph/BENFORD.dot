@@ -1,0 +1,41 @@
+digraph {
+	32 -> 25
+	33 -> 25
+	21 -> 22
+	15 -> 13
+	22 -> 19
+	24 -> 30
+	19 -> 31
+	1 -> 24
+	29 -> 32
+	33 -> 37
+	33 -> 20
+	22 -> 29
+	17 -> 21
+	12 -> 19
+	1 -> 15
+	22 -> 37
+	13 -> 12
+	30 -> 28
+	31 -> 20
+	28 -> 29
+	24 [label="String Manipulation"]
+	13 [label="String Manipulation"]
+	20 [label="Bar Chart"]
+	1 [label="Table Creator"]
+	22 [label="Number To String"]
+	29 [label=Joiner]
+	28 [label=GroupBy]
+	31 [label="Math Formula"]
+	21 [label="Math Formula"]
+	15 [label="String Manipulation"]
+	32 [label="Math Formula"]
+	37 [label="Bar Chart"]
+	33 [label="CSS Editor"]
+	17 [label="Table Creator"]
+	30 [label="String Manipulation"]
+	25 [label="Bar Chart"]
+	12 [label=GroupBy]
+	19 [label=Joiner]
+	rankdir=LR
+}

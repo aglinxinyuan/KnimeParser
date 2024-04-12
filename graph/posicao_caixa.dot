@@ -1,0 +1,37 @@
+digraph {
+	56 -> 57
+	51 -> 52
+	48 -> 49
+	13 -> 42
+	49 -> 51
+	56 -> 46
+	46 -> 48
+	13 -> 47
+	13 -> 50
+	50 -> 49
+	13 -> 17
+	17 -> 53
+	59 -> 56
+	42 -> 46
+	58 -> 59
+	47 -> 48
+	53 -> 58
+	51 -> 54
+	48 [label=Joiner]
+	57 [label="Row Filter"]
+	13 [label="PostgreSQL Connector"]
+	50 [label="DB Query Reader"]
+	42 [label="DB Query Reader"]
+	49 [label=Joiner]
+	53 [label="Extract Date_Time Fields"]
+	51 [label="Math Formula"]
+	46 [label=Joiner]
+	47 [label="DB Query Reader"]
+	58 [label="Domain Calculator"]
+	56 [label="Column Expressions"]
+	54 [label=Pivot]
+	52 [label="Excel Writer"]
+	17 [label="DB Query Reader"]
+	59 [label="Value Filter _legacy_"]
+	rankdir=LR
+}

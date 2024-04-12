@@ -1,0 +1,86 @@
+digraph {
+	116 -> 117
+	208 -> 196
+	129 -> 205
+	196 -> 19
+	201 -> 48
+	196 -> 25
+	185 -> 113
+	200 -> 56
+	199 -> 55
+	208 -> 199
+	123 -> 124
+	124 -> 101
+	19 -> 33
+	114 -> 58
+	115 -> 109
+	128 -> 129
+	125 -> 126
+	187 -> 121
+	113 -> 58
+	121 -> 104
+	104 -> 128
+	101 -> 115
+	126 -> 127
+	32 -> 185
+	57 -> 202
+	56 -> 57
+	48 -> 49
+	115 -> 187
+	202 -> 203
+	71 -> 185
+	55 -> 203
+	122 -> 123
+	58 -> 116
+	70 -> 71
+	25 -> 32
+	118 -> 125
+	203 -> 205
+	196 -> 70
+	49 -> 202
+	117 -> 109
+	109 -> 118
+	127 -> 104
+	33 -> 114
+	203 [label=Joiner]
+	57 [label="Column Expressions"]
+	55 [label="Column Expressions"]
+	126 [label="Column Rename _Regex_"]
+	58 [label=Joiner]
+	122 [label="Column Expressions"]
+	121 [label="Column Rename"]
+	200 [label="Python Source"]
+	19 [label="Python Source"]
+	201 [label="Python Source"]
+	185 [label=Joiner]
+	208 [label="Variable Creator"]
+	49 [label="Column Expressions"]
+	196 [label="Variable Creator"]
+	56 [label=Sorter]
+	109 [label=Joiner]
+	25 [label="Python Source"]
+	114 [label="Column Rename"]
+	129 [label="Column Filter"]
+	48 [label=Sorter]
+	123 [label="Column Filter"]
+	125 [label="Column Rename _Regex_"]
+	115 [label="Rule_based Row Splitter"]
+	127 [label="Column Resorter"]
+	101 [label="Recursive Loop Start"]
+	124 [label="Column Resorter"]
+	202 [label=Joiner]
+	117 [label="Column Rename _Regex_"]
+	199 [label="Python Source"]
+	113 [label="Column Rename"]
+	104 [label="Recursive Loop End"]
+	70 [label="Python Source"]
+	71 [label="Column Expressions"]
+	118 [label="Column Expressions"]
+	116 [label="Column Rename _Regex_"]
+	205 [label=Joiner]
+	187 [label=Concatenate]
+	33 [label="Column Expressions"]
+	32 [label="Column Expressions"]
+	128 [label="Column Expressions"]
+	rankdir=LR
+}

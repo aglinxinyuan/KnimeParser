@@ -1,0 +1,27 @@
+digraph {
+	209 -> 237
+	208 -> 209
+	255 -> 253
+	258 -> 257
+	230 -> 231
+	231 -> 232
+	253 -> 256
+	237 -> 211
+	259 -> 258
+	254 -> 255
+	231 [label="Path to String"]
+	232 [label="Image Reader _Table_"]
+	211 [label="Interactive Segmentation View"]
+	237 [label=Joiner]
+	208 [label="Image Converter"]
+	256 [label="Interactive Segmentation View"]
+	253 [label=Joiner]
+	258 [label="Path to String"]
+	230 [label="List Files_Folders"]
+	255 [label="Image to Labeling"]
+	257 [label="Image Reader _Table_"]
+	259 [label="List Files_Folders"]
+	209 [label="Image to Labeling"]
+	254 [label="Image Converter"]
+	rankdir=LR
+}

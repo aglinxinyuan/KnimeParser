@@ -1,0 +1,25 @@
+digraph {
+	6 -> 9
+	4 -> 5
+	3 -> 8
+	9 -> 11
+	8 -> 7
+	5 -> 6
+	1 -> 2
+	7 -> 10
+	2 -> 3
+	10 -> 11
+	2 -> 4
+	5 [label="Math Formula"]
+	1 [label="Data Generator"]
+	7 [label="Math Formula"]
+	9 [label=GroupBy]
+	11 [label=Concatenate]
+	4 [label="Math Formula"]
+	8 [label="Math Formula"]
+	6 [label="Math Formula"]
+	3 [label="Python Script _1_1_"]
+	2 [label="Data Explorer"]
+	10 [label=GroupBy]
+	rankdir=LR
+}

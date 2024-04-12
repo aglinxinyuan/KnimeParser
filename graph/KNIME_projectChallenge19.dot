@@ -1,0 +1,16 @@
+digraph {
+	9 -> 7
+	10 -> 9
+	3 -> 4
+	1 -> 2
+	2 -> 3
+	4 -> 10
+	1 [label="Excel Reader"]
+	7 [label=Pivoting]
+	9 [label=Sorter]
+	4 [label="Column Expressions"]
+	3 [label="Column Expressions"]
+	2 [label=Unpivoting]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

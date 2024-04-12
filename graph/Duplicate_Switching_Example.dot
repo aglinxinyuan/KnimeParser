@@ -1,0 +1,18 @@
+digraph {
+	64 -> 223
+	227 -> 228
+	231 -> 232
+	223 -> 227
+	229 -> 231
+	231 -> 233
+	228 -> 229
+	231 [label="CASE Switch Variable _Start_"]
+	233 [label="File Reader"]
+	232 [label="File Reader"]
+	228 [label=Sorter]
+	229 [label="Table Row to Variable"]
+	64 [label="Data Generator"]
+	227 [label="Rule Engine"]
+	223 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

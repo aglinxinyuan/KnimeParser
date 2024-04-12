@@ -1,0 +1,24 @@
+digraph {
+	4 -> 7
+	5 -> 3
+	7 -> 8
+	3 -> 2
+	3 -> 4
+	2 -> 6
+	6 -> 15
+	2 -> 16
+	6 -> 7
+	2 -> 4
+	1 -> 5
+	5 [label="Column Filter"]
+	16 [label="Model Writer"]
+	1 [label="Table Reader"]
+	7 [label="Regression Predictor"]
+	4 [label="Normalizer _Apply_"]
+	6 [label="Linear Regression Learner"]
+	15 [label="Model Writer"]
+	8 [label="Numeric Scorer"]
+	3 [label=Partitioning]
+	2 [label=Normalizer]
+	rankdir=LR
+}

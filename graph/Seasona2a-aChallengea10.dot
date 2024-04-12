@@ -1,0 +1,16 @@
+digraph {
+	18 -> 23
+	1 -> 12
+	18 -> 25
+	25 -> 27
+	12 -> 18
+	23 -> 26
+	27 [label="Column Renamer"]
+	1 [label="Excel Reader"]
+	23 [label=GroupBy]
+	18 [label="Cell Splitter"]
+	26 [label="Column Renamer"]
+	25 [label=GroupBy]
+	12 [label=Sorter]
+	rankdir=LR
+}

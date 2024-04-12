@@ -1,0 +1,23 @@
+digraph {
+	13 -> 9
+	2 -> 3
+	6 -> 13
+	11 -> 17
+	3 -> 11
+	17 -> 4
+	1 -> 2
+	9 -> 10
+	4 -> 13
+	4 -> 6
+	13 [label="K Nearest Neighbor _Distance Function_"]
+	1 [label="File Reader"]
+	9 [label="Color Manager"]
+	11 [label="Row Filter"]
+	4 [label=Partitioning]
+	6 [label="Numeric Distances"]
+	17 [label="Rule Engine"]
+	3 [label="Row Filter"]
+	2 [label="Column Filter"]
+	10 [label="Scatter Plot _local_"]
+	rankdir=LR
+}

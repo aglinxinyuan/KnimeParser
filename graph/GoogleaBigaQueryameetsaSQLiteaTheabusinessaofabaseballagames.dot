@@ -1,0 +1,78 @@
+digraph {
+	116 -> 117
+	117 -> 106
+	169 -> 41
+	113 -> 116
+	107 -> 112
+	111 -> 112
+	112 -> 140
+	108 -> 109
+	132 -> 134
+	106 -> 105
+	109 -> 105
+	106 -> 109
+	104 -> 98
+	134 -> 136
+	112 -> 104
+	108 -> 106
+	105 -> 104
+	113 -> 109
+	112 -> 113
+	142 -> 109
+	111 -> 71
+	98 -> 107
+	173 -> 89
+	71 -> 67
+	167 -> 173
+	89 -> 105
+	112 -> 111
+	170 -> 169
+	174 -> 175
+	104 -> 116
+	136 -> 125
+	141 -> 142
+	112 -> 141
+	67 -> 105
+	168 -> 170
+	67 -> 135
+	112 -> 106
+	107 -> 108
+	41 -> 173
+	116 -> 107
+	166 -> 167
+	175 -> 166
+	135 -> 132
+	170 [label="DB Table Selector"]
+	167 [label="DB Reader"]
+	169 [label="DB Reader"]
+	89 [label="Math Formula"]
+	136 [label="Column Rename"]
+	108 [label="String Manipulation"]
+	105 [label="Missing Value"]
+	168 [label="SQLite Connector"]
+	41 [label="String to Date_Time"]
+	98 [label="Modify Time Zone"]
+	109 [label="String Manipulation"]
+	141 [label="Rule_based Row Filter"]
+	166 [label="DB Table Selector"]
+	125 [label="JavaScript Bar Chart"]
+	112 [label="String Manipulation"]
+	173 [label=Joiner]
+	67 [label="Rule Engine"]
+	142 [label="Column Filter"]
+	174 [label="Google Authentication _API Key_"]
+	135 [label=GroupBy]
+	106 [label="String Manipulation"]
+	117 [label="Rule Engine"]
+	134 [label=Sorter]
+	175 [label="Google BigQuery Connector"]
+	107 [label="String Manipulation"]
+	113 [label="String Manipulation"]
+	104 [label=Auto_Binner]
+	140 [label="JavaScript Sunburst Chart"]
+	71 [label="Rule Engine"]
+	116 [label="Math Formula"]
+	111 [label="String Manipulation"]
+	132 [label="Math Formula"]
+	rankdir=LR
+}

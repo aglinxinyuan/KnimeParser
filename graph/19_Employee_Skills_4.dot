@@ -1,0 +1,41 @@
+digraph {
+	41 -> 42
+	21 -> 23
+	7 -> 8
+	8 -> 21
+	4 -> 5
+	4 -> 3
+	42 -> 43
+	40 -> 41
+	2 -> 4
+	3 -> 7
+	1 -> 2
+	32 -> 35
+	39 -> 21
+	36 -> 40
+	35 -> 36
+	25 -> 32
+	5 -> 3
+	38 -> 39
+	23 -> 25
+	7 [label="Column Auto Type Cast"]
+	21 [label="String Manipulation _Multi Column_"]
+	8 [label=RowID]
+	3 [label="Insert Column Header"]
+	41 [label="Loop End _Column Append_"]
+	25 [label="Column Filter"]
+	1 [label="Excel Reader"]
+	42 [label="Column Aggregator"]
+	23 [label="String Manipulation _Multi Column_"]
+	4 [label=Partitioning]
+	38 [label="Table Creator"]
+	5 [label=Transpose]
+	43 [label="Column Rename"]
+	35 [label="Column Aggregator"]
+	36 [label="Column Filter"]
+	40 [label="Column Rename"]
+	39 [label="Table Row To Variable Loop Start"]
+	32 [label=Transpose]
+	2 [label=Transpose]
+	rankdir=LR
+}

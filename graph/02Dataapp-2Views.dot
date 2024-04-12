@@ -1,0 +1,19 @@
+digraph {
+	1 -> 55
+	295 -> 445
+	346 -> 87
+	59 -> 346
+	56 -> 297
+	55 -> 87
+	87 -> 56
+	55 [label="RDKit From Molecule"]
+	1 [label="Table Reader"]
+	87 [label="RDKit Descriptor Calculation"]
+	346 [label="Table Row to Variable"]
+	56 [label="Renderer to Image"]
+	445 [label="Filter Apply"]
+	295 [label="Tile View"]
+	297 [label="Color Manager"]
+	59 [label=GroupBy]
+	rankdir=LR
+}

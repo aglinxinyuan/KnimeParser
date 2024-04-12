@@ -1,0 +1,29 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	11 -> 14
+	6 -> 12
+	7 -> 12
+	11 -> 13
+	14 -> 15
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	12 -> 11
+	5 -> 7
+	5 [label=Auto_Binner]
+	13 [label="Excel Writer"]
+	1 [label="Excel Reader"]
+	7 [label="Value Lookup"]
+	11 [label="Value Lookup"]
+	4 [label=GroupBy]
+	10 [label="Table Creator"]
+	6 [label="Table Creator"]
+	15 [label="Excel Writer"]
+	14 [label=k_Means]
+	3 [label="Row Filter"]
+	2 [label="Data Explorer"]
+	12 [label="Value Lookup"]
+	rankdir=LR
+}

@@ -1,0 +1,205 @@
+digraph {
+	87 -> 2720
+	2719 -> 2720
+	2723 -> 2729
+	2691 -> 2718
+	2727 -> 2730
+	2711 -> 2710
+	2030 -> 2634
+	2719 -> 2722
+	47 -> 2730
+	2724 -> 2726
+	2541 -> 2714
+	47 -> 2725
+	2687 -> 2686
+	1871 -> 426
+	1623 -> 1625
+	2638 -> 2716
+	2733 -> 2735
+	2717 -> 2643
+	2541 -> 2731
+	2721 -> 43
+	57 -> 56
+	87 -> 2541
+	1868 -> 1869
+	2733 -> 2734
+	87 -> 2721
+	2632 -> 2706
+	2633 -> 1712
+	2707 -> 2706
+	2684 -> 2685
+	2631 -> 1712
+	43 -> 47
+	60 -> 59
+	51 -> 50
+	1619 -> 1623
+	87 -> 2731
+	1625 -> 2631
+	1711 -> 2633
+	1882 -> 1883
+	1602 -> 1631
+	1713 -> 1632
+	2683 -> 2684
+	426 -> 430
+	1713 -> 1619
+	1638 -> 1711
+	2714 -> 2711
+	1883 -> 1884
+	2718 -> 2719
+	46 -> 53
+	53 -> 57
+	430 -> 1613
+	50 -> 49
+	2541 -> 2715
+	2725 -> 2724
+	2688 -> 2712
+	56 -> 60
+	2638 -> 2624
+	1884 -> 1885
+	2716 -> 2717
+	2689 -> 2710
+	47 -> 2732
+	2712 -> 2713
+	2730 -> 2733
+	1631 -> 1632
+	2713 -> 2714
+	1613 -> 1873
+	2726 -> 2727
+	2715 -> 2541
+	2643 -> 2682
+	2686 -> 2688
+	87 -> 2638
+	47 -> 2723
+	87 -> 2711
+	1870 -> 1871
+	2586 -> 2706
+	2688 -> 2689
+	2728 -> 2727
+	1869 -> 1870
+	2685 -> 2687
+	2634 -> 1638
+	2722 -> 43
+	2625 -> 2541
+	2723 -> 2728
+	2729 -> 2728
+	48 -> 47
+	2720 -> 1867
+	43 -> 53
+	2642 -> 2643
+	1881 -> 1882
+	1632 -> 1619
+	1634 -> 2030
+	2731 -> 2638
+	1885 -> 2721
+	87 -> 2717
+	59 -> 87
+	1632 -> 1634
+	87 -> 2710
+	2624 -> 2625
+	2682 -> 2683
+	61 -> 50
+	47 -> 52
+	2710 -> 2691
+	1712 -> 2632
+	2706 -> 2715
+	52 -> 53
+	1880 -> 1881
+	28 -> 51
+	49 -> 48
+	1867 -> 1868
+	1879 -> 1880
+	2732 -> 46
+	2586 [label="String Input"]
+	1613 [label="String Manipulation"]
+	1868 [label="Rule Engine"]
+	1867 [label="Extract Table Spec"]
+	2732 [label="DB Query"]
+	2632 [label="Table Row to Variable"]
+	2706 [label="Merge Variables"]
+	2634 [label="Extract Date_Time Fields"]
+	2685 [label="String to Date_Time"]
+	2625 [label="Table Row to Variable"]
+	2731 [label="Create Folder"]
+	2719 [label="Table Row to Variable"]
+	1602 [label="Java Edit Variable _simple_"]
+	2711 [label="Create File_Folder Variables"]
+	28 [label="Extract System Properties"]
+	1884 [label="String Manipulation"]
+	47 [label="Create Folder"]
+	1873 [label="Table Row to Variable"]
+	1870 [label="Column Filter"]
+	2684 [label="Constant Value Column"]
+	1623 [label="String Manipulation"]
+	2631 [label="Table Row to Variable"]
+	2728 [label="DB SQL Executor"]
+	1632 [label="Constant Value Column"]
+	1871 [label=Transpose]
+	2724 [label="DB Query"]
+	2718 [label="Row Filter"]
+	2733 [label="DB Connection Extractor"]
+	1712 [label="String Manipulation"]
+	426 [label="Column Combiner"]
+	1882 [label="Column Combiner"]
+	2541 [label="Create File_Folder Variables"]
+	1869 [label="String Manipulation"]
+	2735 [label="DB Query Reader"]
+	1880 [label="Column Filter"]
+	2734 [label="DB Query Reader"]
+	53 [label="Create Folder"]
+	1625 [label="Column Filter"]
+	2643 [label="Column Rename"]
+	60 [label="Create Folder"]
+	2030 [label="Date_Time to String"]
+	1713 [label="Empty Table Creator"]
+	43 [label="DB SQL Executor"]
+	52 [label="Create Folder"]
+	2682 [label="Counting Loop Start"]
+	2714 [label="Merge Variables"]
+	1631 [label="Java Edit Variable _simple_"]
+	57 [label="Delete Files_Folders"]
+	2723 [label="DB Connection Extractor"]
+	2716 [label="Column Rename"]
+	2722 [label="Java Edit Variable _simple_"]
+	2715 [label="Merge Variables"]
+	2638 [label="List Files_Folders"]
+	56 [label="Delete Files_Folders"]
+	1879 [label="String Manipulation"]
+	2717 [label="Delete Files_Folders _Table_"]
+	59 [label="Create Folder"]
+	2687 [label="Math Formula"]
+	2707 [label="String Input"]
+	2725 [label="DB Column Filter"]
+	61 [label="Extract Context Properties"]
+	430 [label="Column Filter"]
+	2729 [label="Java Edit Variable _simple_"]
+	2624 [label="Row Filter"]
+	1883 [label="Column Filter"]
+	46 [label="DB Reader"]
+	2710 [label="ORC Writer"]
+	2686 [label="Date_Time Shift"]
+	2712 [label="Row Filter"]
+	2713 [label="Table Row to Variable"]
+	2730 [label="DB Connection Table Writer"]
+	1711 [label="Rule Engine"]
+	2683 [label=Partitioning]
+	1881 [label=Transpose]
+	49 [label="Java Edit Variable"]
+	51 [label="Table Column to Variable"]
+	2727 [label="DB Table Creator"]
+	2721 [label="DB SQL Executor"]
+	2633 [label="Rule Engine"]
+	2691 [label="Variable Loop End"]
+	48 [label="String to Path _Variable_"]
+	50 [label="Merge Variables"]
+	2642 [label="Data Generator"]
+	87 [label="Create Local Big Data Environment"]
+	1638 [label="Rule Engine"]
+	2720 [label="ORC Reader"]
+	2688 [label="Date_Time to String"]
+	2726 [label="DB Reader"]
+	2689 [label="Column Filter"]
+	1634 [label="String to Date_Time"]
+	1885 [label="Table Row to Variable"]
+	1619 [label="Constant Value Column"]
+	rankdir=LR
+}

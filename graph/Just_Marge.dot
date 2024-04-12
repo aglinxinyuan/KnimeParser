@@ -1,0 +1,36 @@
+digraph {
+	48 -> 47
+	38 -> 39
+	43 -> 44
+	49 -> 47
+	47 -> 38
+	30 -> 43
+	46 -> 48
+	28 -> 29
+	30 -> 46
+	29 -> 30
+	40 -> 49
+	45 -> 46
+	26 -> 27
+	44 -> 45
+	27 -> 28
+	46 -> 41
+	41 -> 40
+	27 [label="Table Row To Variable Loop Start"]
+	48 [label="Row Filter"]
+	43 [label="Path to String _Variable_"]
+	44 [label="String Manipulation _Variable_"]
+	49 [label="Constant Value Column"]
+	29 [label="Table Row To Variable Loop Start"]
+	41 [label="Path to String"]
+	28 [label="List Files_Folders"]
+	46 [label="IF Switch"]
+	26 [label="List Files_Folders"]
+	47 [label="End IF"]
+	40 [label="Image Reader _Table_"]
+	39 [label="Loop End"]
+	30 [label="List Files_Folders"]
+	38 [label="Loop End"]
+	45 [label="Rule Engine Variable"]
+	rankdir=LR
+}

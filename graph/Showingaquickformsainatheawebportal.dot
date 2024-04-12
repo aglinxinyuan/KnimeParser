@@ -1,0 +1,19 @@
+digraph {
+	10 -> 9
+	4 -> 14
+	8 -> 10
+	11 -> 4
+	10 -> 8
+	12 -> 4
+	13 -> 4
+	14 -> 10
+	13 [label="String Widget"]
+	9 [label="JavaScript Table View"]
+	11 [label="WrappedNode Output"]
+	4 [label="Merge Variables"]
+	8 [label="WrappedNode Output"]
+	14 [label="Variable to Table Row"]
+	12 [label="Double Widget"]
+	10 [label="WrappedNode Input"]
+	rankdir=LR
+}

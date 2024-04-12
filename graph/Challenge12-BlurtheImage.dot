@@ -1,0 +1,10 @@
+digraph {
+	2 -> 5
+	5 -> 6
+	1 -> 2
+	1 [label="List Files_Folders"]
+	6 [label="Gaussian Convolution"]
+	5 [label="Image Reader _Table_"]
+	2 [label="Path to String"]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	1 [label="Python Source"]
+	3 [label="Image Column Writer"]
+	2 [label="String To SVG"]
+	rankdir=LR
+}

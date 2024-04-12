@@ -1,0 +1,49 @@
+digraph {
+	54 -> 42
+	53 -> 54
+	56 -> 58
+	65 -> 85
+	63 -> 73
+	52 -> 60
+	42 -> 56
+	65 -> 84
+	86 -> 25
+	25 -> 20
+	73 -> 65
+	60 -> 54
+	58 -> 57
+	57 -> 59
+	60 -> 64
+	53 -> 57
+	55 -> 60
+	42 -> 25
+	64 -> 62
+	59 -> 62
+	53 -> 56
+	56 -> 55
+	59 -> 52
+	57 -> 60
+	62 -> 63
+	20 -> 53
+	57 [label=Transpose]
+	55 [label="Table Row to Variable"]
+	58 [label="String To Number"]
+	64 [label="Column Rename _Regex_"]
+	84 [label=Scorer]
+	56 [label="Column Filter"]
+	54 [label="Column Appender"]
+	25 [label="DL Network Executor"]
+	85 [label="Image Viewer"]
+	59 [label=RowID]
+	86 [label="TensorFlow Network Reader"]
+	42 [label="Column Rename"]
+	53 [label="Chunk Loop Start"]
+	63 [label="Loop End"]
+	60 [label="Rule_based Row Filter"]
+	20 [label="Many to One"]
+	62 [label="Column Appender"]
+	65 [label="Column Resorter"]
+	52 [label="Image Reader _Table_"]
+	73 [label="Column Auto Type Cast"]
+	rankdir=LR
+}

@@ -1,0 +1,67 @@
+digraph {
+	7 -> 8
+	22 -> 32
+	4 -> 5
+	12 -> 14
+	26 -> 21
+	21 -> 22
+	27 -> 26
+	9 -> 3
+	18 -> 19
+	38 -> 37
+	30 -> 39
+	30 -> 31
+	32 -> 34
+	29 -> 30
+	14 -> 28
+	31 -> 32
+	20 -> 25
+	1 -> 2
+	17 -> 18
+	11 -> 12
+	8 -> 17
+	10 -> 11
+	5 -> 7
+	8 -> 10
+	3 -> 4
+	34 -> 36
+	36 -> 38
+	19 -> 20
+	2 -> 9
+	5 -> 6
+	25 -> 27
+	28 -> 29
+	27 [label="Column Filter"]
+	7 [label="Bag Of Words Creator"]
+	9 [label="String Manipulation"]
+	18 [label="Term To String"]
+	21 [label=GroupBy]
+	26 [label="Python Script"]
+	8 [label=TF]
+	17 [label="Term Co_Occurrence Counter"]
+	3 [label="Strings To Document"]
+	19 [label="Term To String"]
+	31 [label="Top k Selector"]
+	6 [label="Document Viewer"]
+	25 [label="String Manipulation"]
+	12 [label=Sorter]
+	10 [label="Term To String"]
+	30 [label=GroupBy]
+	1 [label="Excel Reader"]
+	22 [label=Sorter]
+	28 [label="Column Filter"]
+	11 [label=GroupBy]
+	4 [label="Stop Word Filter"]
+	14 [label="Row Filter"]
+	38 [label=GroupBy]
+	5 [label="Punctuation Erasure"]
+	20 [label="String Manipulation"]
+	34 [label="String Manipulation"]
+	29 [label="Python Script"]
+	36 [label="Python Script"]
+	39 [label="Tag Cloud"]
+	32 [label="Cross Joiner"]
+	2 [label="String Manipulation"]
+	37 [label="Tag Cloud"]
+	rankdir=LR
+}

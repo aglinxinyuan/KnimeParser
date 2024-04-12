@@ -1,0 +1,21 @@
+digraph {
+	11 -> 10
+	1 -> 4
+	11 -> 9
+	1 -> 11
+	12 -> 14
+	10 -> 8
+	9 -> 10
+	10 -> 12
+	1 -> 3
+	14 [label="Scatter Plot _Plotly_"]
+	1 [label="CSV Reader"]
+	9 [label="Simple Regression Tree Learner"]
+	11 [label=Partitioning]
+	4 [label=Statistics]
+	8 [label="Numeric Scorer _deprecated_"]
+	12 [label="Column Filter"]
+	3 [label="Data Explorer"]
+	10 [label="Simple Regression Tree Predictor"]
+	rankdir=LR
+}

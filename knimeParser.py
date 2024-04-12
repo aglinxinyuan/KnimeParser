@@ -107,7 +107,7 @@ class Parser:
 
         output = "graph/" + filename.split("/")[-1].split(".")[0]
         self.graph.attr(rankdir='LR')
-        self.graph.render(filename=output + ".dot", cleanup=True, view=view)
+        self.graph.render(filename=output + ".dot", view=view)
         cycles = nx.find_cycle(nx_graph)
         content = (f"Workflow Name: {self.workflow_name}\n"
                    f"Tree: {len(cycles) == 0}\n"
@@ -130,5 +130,5 @@ class Parser:
 
 
 if __name__ == "__main__":
-    #Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
-    Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)
+    Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
+    #Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)

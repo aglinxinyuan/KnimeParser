@@ -1,0 +1,16 @@
+digraph {
+	15269 -> 15272
+	15272 -> 15274
+	15274 -> 2
+	15270 -> 1
+	1 -> 15269
+	15273 -> 15272
+	15273 [label="LiveDesign Connection"]
+	15274 [label="Extract Properties"]
+	1 [label="Container Input _Table_"]
+	15270 [label="Table Creator"]
+	15269 [label="Table Row to Variable"]
+	15272 [label="Import from LiveDesign"]
+	2 [label="Container Output _Table_"]
+	rankdir=LR
+}

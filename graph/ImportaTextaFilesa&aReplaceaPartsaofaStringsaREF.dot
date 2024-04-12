@@ -1,0 +1,31 @@
+digraph {
+	157 -> 30
+	28 -> 24
+	2 -> 26
+	29 -> 31
+	1 -> 2
+	2 -> 10
+	10 -> 25
+	31 -> 16
+	30 -> 29
+	26 -> 27
+	24 -> 16
+	16 -> 18
+	27 -> 28
+	25 -> 30
+	16 [label="CSV Writer"]
+	24 [label="String to Path _Variable_"]
+	27 [label="String Manipulation _Variable_"]
+	1 [label="List Files_Folders"]
+	29 [label="Column Expressions"]
+	157 [label="Boolean Configuration"]
+	28 [label="String Manipulation _Variable_"]
+	31 [label="Loop End _Column Append_"]
+	26 [label="Path to String _Variable_"]
+	18 [label="Variable Loop End"]
+	25 [label="Missing Value"]
+	30 [label="Column List Loop Start"]
+	2 [label="Table Row to Variable Loop Start"]
+	10 [label="File Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,32 @@
+digraph {
+	6 -> 956
+	952 -> 953
+	951 -> 955
+	946 -> 961
+	962 -> 961
+	986 -> 960
+	945 -> 946
+	945 -> 962
+	956 -> 952
+	960 -> 6
+	943 -> 960
+	955 -> 952
+	953 -> 945
+	1383 -> 986
+	960 -> 951
+	1383 [label="Workflow Reader"]
+	945 [label="Column Splitter"]
+	951 [label="JSON Path"]
+	946 [label="Row Filter"]
+	952 [label=Concatenate]
+	986 [label="Workflow Summary Extractor"]
+	955 [label="Row Filter"]
+	953 [label=Ungroup]
+	6 [label="JSON Path"]
+	943 [label="Integer Configuration"]
+	956 [label="Row Filter"]
+	962 [label="Column Filter"]
+	961 [label="Recursive Loop End"]
+	960 [label="Recursive Loop Start"]
+	rankdir=LR
+}

@@ -1,0 +1,111 @@
+digraph {
+	3 -> 1891
+	1891 -> 1892
+	1882 -> 1893
+	59 -> 86
+	1905 -> 1896
+	51 -> 50
+	1884 -> 1895
+	1910 -> 1908
+	1898 -> 1899
+	1892 -> 1897
+	1896 -> 1898
+	1903 -> 1900
+	1878 -> 1883
+	1894 -> 1895
+	1888 -> 1889
+	1909 -> 1903
+	1909 -> 1884
+	1893 -> 1899
+	1909 -> 1875
+	1902 -> 1904
+	1909 -> 2
+	1901 -> 1902
+	56 -> 7
+	1908 -> 1887
+	1899 -> 1911
+	1908 -> 1878
+	1897 -> 1896
+	86 -> 1875
+	1895 -> 1905
+	1909 -> 1853
+	1900 -> 1901
+	50 -> 49
+	1887 -> 1888
+	57 -> 56
+	1909 -> 1910
+	61 -> 50
+	1908 -> 1879
+	6 -> 7
+	6 -> 57
+	1886 -> 1894
+	1890 -> 1898
+	1879 -> 1882
+	1889 -> 1890
+	47 -> 52
+	48 -> 47
+	86 -> 1910
+	7 -> 60
+	52 -> 53
+	1875 -> 1853
+	28 -> 51
+	1853 -> 1910
+	53 -> 5
+	49 -> 48
+	1883 -> 1886
+	5 -> 6
+	2 -> 3
+	1904 -> 1905
+	60 -> 59
+	1875 [label="DB Table Remover"]
+	57 [label="Delete Files_Folders"]
+	1901 [label="String Manipulation"]
+	1908 [label="DB Table Selector"]
+	7 [label="Flow Variable End IF"]
+	1900 [label=GroupBy]
+	1903 [label="Rule_based Row Filter"]
+	1887 [label="DB Query"]
+	1893 [label="Column Rename"]
+	1894 [label="Column Filter"]
+	1899 [label=Joiner]
+	1911 [label="Excel Writer"]
+	3 [label="Rule_based Row Filter"]
+	1891 [label="Column Filter"]
+	1888 [label="DB Reader"]
+	1905 [label=Joiner]
+	1897 [label="Column Resorter"]
+	49 [label="Java Edit Variable"]
+	1882 [label="DB Reader"]
+	51 [label="Table Column to Variable"]
+	1878 [label="DB Query"]
+	56 [label="Delete Files_Folders"]
+	6 [label="Flow Variable IF Switch"]
+	1879 [label="DB GroupBy"]
+	1910 [label="DB Loader"]
+	1898 [label=Joiner]
+	59 [label="Create Folder"]
+	86 [label="Create Local Big Data Environment"]
+	48 [label="String to Path _Variable_"]
+	50 [label="Merge Variables"]
+	53 [label="Create Folder"]
+	28 [label="Extract System Properties"]
+	1884 [label=GroupBy]
+	1892 [label="Column Rename"]
+	1909 [label="Excel Reader"]
+	47 [label="Create Folder"]
+	61 [label="Extract Context Properties"]
+	1902 [label=GroupBy]
+	60 [label="Create Folder"]
+	5 [label="Java Edit Variable _simple_"]
+	1895 [label=Joiner]
+	1883 [label="DB Reader"]
+	1890 [label="Column Filter"]
+	1886 [label="Rule_based Row Filter"]
+	1889 [label="Rule_based Row Filter"]
+	1853 [label="DB Table Creator"]
+	1904 [label="Column Rename"]
+	52 [label="Create Folder"]
+	1896 [label=Joiner]
+	2 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

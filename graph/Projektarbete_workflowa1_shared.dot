@@ -1,0 +1,54 @@
+digraph {
+	41 -> 42
+	22 -> 39
+	39 -> 40
+	39 -> 41
+	42 -> 46
+	20 -> 39
+	36 -> 39
+	30 -> 39
+	26 -> 39
+	35 -> 39
+	46 -> 44
+	31 -> 39
+	44 -> 45
+	24 -> 39
+	29 -> 39
+	34 -> 39
+	27 -> 39
+	45 -> 43
+	28 -> 39
+	23 -> 39
+	37 -> 39
+	25 -> 39
+	32 -> 39
+	21 -> 39
+	33 -> 39
+	27 [label="File Reader"]
+	45 [label="Row Filter"]
+	21 [label="File Reader"]
+	26 [label="File Reader"]
+	24 [label="File Reader"]
+	41 [label="Duplicate Row Filter"]
+	31 [label="File Reader"]
+	25 [label="File Reader"]
+	30 [label="File Reader"]
+	42 [label="Column Filter"]
+	22 [label="File Reader"]
+	28 [label="File Reader"]
+	23 [label="File Reader"]
+	20 [label="File Reader"]
+	35 [label="File Reader"]
+	44 [label="Row Filter"]
+	34 [label="File Reader"]
+	43 [label=Statistics]
+	29 [label="File Reader"]
+	36 [label="File Reader"]
+	46 [label="Row Filter"]
+	40 [label=Statistics]
+	39 [label=Concatenate]
+	33 [label="File Reader"]
+	32 [label="File Reader"]
+	37 [label="File Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,15 @@
+digraph {
+	1960 -> 1961
+	1959 -> 1961
+	1959 -> 15
+	14 -> 1959
+	15 -> 1960
+	1961 -> 1962
+	1961 [label="Random Forest Predictor"]
+	1960 [label="Random Forest Learner"]
+	1959 [label=Partitioning]
+	1962 [label=Scorer]
+	15 [label="Equal Size Sampling"]
+	14 [label="Excel Reader"]
+	rankdir=LR
+}

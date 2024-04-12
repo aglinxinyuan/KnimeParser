@@ -1,0 +1,22 @@
+digraph {
+	42 -> 35
+	38 -> 39
+	34 -> 33
+	34 -> 40
+	40 -> 36
+	39 -> 41
+	35 -> 34
+	36 -> 37
+	37 -> 38
+	35 [label="RDKit Add Hs"]
+	34 [label="RDKit Optimize Geometry"]
+	42 [label="SDF Reader"]
+	41 [label="Principal Moment of Intertia _PMI__Derived Properties"]
+	36 [label="Canonical SMILES"]
+	40 [label="Column Filter"]
+	39 [label="RDKit Optimize Geometry"]
+	33 [label="Principal Moment of Intertia _PMI__Derived Properties"]
+	38 [label="RDKit Add Hs"]
+	37 [label="Molecule Type Cast"]
+	rankdir=LR
+}

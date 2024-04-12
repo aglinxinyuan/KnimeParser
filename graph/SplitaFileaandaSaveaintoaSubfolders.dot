@@ -1,0 +1,23 @@
+digraph {
+	6 -> 8
+	7 -> 8
+	10 -> 6
+	3 -> 5
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	5 -> 9
+	5 -> 7
+	8 -> 12
+	5 [label="Group Loop Start"]
+	1 [label="CSV Reader"]
+	7 [label="Column Filter"]
+	9 [label="String Manipulation"]
+	10 [label="String to Path"]
+	6 [label="Table Row to Variable"]
+	8 [label="CSV Writer"]
+	3 [label="Extract Date_Time Fields"]
+	2 [label="String to Date_Time"]
+	12 [label="Variable Loop End"]
+	rankdir=LR
+}

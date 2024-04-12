@@ -1,0 +1,28 @@
+digraph {
+	1 -> 17
+	1 -> 18
+	4 -> 5
+	2 -> 10
+	21 -> 25
+	17 -> 19
+	18 -> 17
+	19 -> 22
+	10 -> 4
+	21 -> 22
+	1 -> 2
+	19 -> 21
+	22 -> 23
+	5 [label=Normalizer]
+	1 [label="CSV Reader"]
+	22 [label="Naive Bayes Predictor"]
+	23 [label=Scorer]
+	18 [label="Linear Correlation"]
+	4 [label=Shuffle]
+	21 [label="Naive Bayes Learner"]
+	25 [label="PMML Writer"]
+	17 [label="Correlation Filter"]
+	2 [label="Missing Value Column Filter"]
+	10 [label="Number to String"]
+	19 [label=Partitioning]
+	rankdir=LR
+}

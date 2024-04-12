@@ -1,0 +1,31 @@
+digraph {
+	33 -> 34
+	18 -> 19
+	32 -> 33
+	9 -> 17
+	3 -> 6
+	34 -> 37
+	1 -> 2
+	8 -> 9
+	38 -> 8
+	17 -> 18
+	2 -> 3
+	38 -> 9
+	37 -> 38
+	6 -> 8
+	1 [label="DL4J Model Initializer"]
+	34 [label="Java Snippet"]
+	38 [label=Shuffle]
+	9 [label="DL4J Feedforward Predictor"]
+	18 [label="Row Sampling"]
+	6 [label="Dense Layer"]
+	8 [label="DL4J Feedforward Learner"]
+	33 [label="Image Reader _Table_"]
+	17 [label=Sorter]
+	32 [label="List Files"]
+	3 [label="Pooling Layer"]
+	2 [label="Convolution Layer"]
+	37 [label="Column Filter"]
+	19 [label="Image Viewer"]
+	rankdir=LR
+}

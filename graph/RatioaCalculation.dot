@@ -1,0 +1,10 @@
+digraph {
+	25 -> 26
+	27 -> 28
+	26 -> 27
+	26 [label="Moving Aggregation"]
+	27 [label="Math Formula"]
+	28 [label="Rule Engine"]
+	25 [label="Excel Reader _XLS_"]
+	rankdir=LR
+}

@@ -1,0 +1,67 @@
+digraph {
+	419 -> 421
+	367 -> 371
+	430 -> 422
+	432 -> 407
+	434 -> 443
+	424 -> 428
+	422 -> 423
+	335 -> 402
+	440 -> 441
+	426 -> 428
+	425 -> 429
+	421 -> 431
+	407 -> 419
+	429 -> 428
+	428 -> 434
+	418 -> 419
+	429 -> 427
+	432 -> 418
+	403 -> 432
+	431 -> 430
+	371 -> 372
+	427 -> 426
+	423 -> 424
+	402 -> 403
+	419 -> 440
+	419 -> 433
+	334 -> 372
+	430 -> 425
+	433 -> 435
+	372 -> 335
+	436 -> 434
+	435 -> 436
+	442 -> 443
+	441 -> 442
+	432 [label="Column Expressions"]
+	419 [label="IF Switch"]
+	367 [label="Table Creator"]
+	431 [label="String Manipulation"]
+	426 [label="Table Row to Variable"]
+	423 [label=Ungroup]
+	440 [label="JSON Path"]
+	442 [label="Column Filter"]
+	436 [label="Column Filter"]
+	335 [label="GET Request"]
+	403 [label="JSON Path"]
+	425 [label="Column Filter"]
+	443 [label="End IF"]
+	372 [label="String Manipulation"]
+	407 [label="Column Filter"]
+	424 [label="Column Filter"]
+	334 [label="Table Creator"]
+	428 [label="Recursive Loop End"]
+	427 [label="Column Expressions"]
+	434 [label=Concatenate]
+	433 [label="JSON Path"]
+	429 [label="JSON Path"]
+	418 [label="Table Row to Variable"]
+	421 [label="Recursive Loop Start"]
+	430 [label="GET Request"]
+	371 [label="Table Row to Variable"]
+	435 [label=Ungroup]
+	422 [label="JSON Path"]
+	441 [label=Ungroup]
+	402 [label="Column Filter"]
+	rankdir=LR
+}

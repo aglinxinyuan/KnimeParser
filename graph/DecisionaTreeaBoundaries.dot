@@ -1,0 +1,45 @@
+digraph {
+	127 -> 130
+	119 -> 120
+	92 -> 89
+	91 -> 94
+	12 -> 92
+	121 -> 122
+	128 -> 129
+	123 -> 125
+	97 -> 88
+	129 -> 131
+	119 -> 122
+	120 -> 121
+	89 -> 91
+	122 -> 123
+	130 -> 128
+	94 -> 88
+	128 -> 132
+	96 -> 127
+	127 -> 128
+	12 -> 119
+	88 -> 96
+	125 -> 130
+	91 [label="Column Filter"]
+	89 [label="Decision Tree to Ruleset"]
+	97 [label="Table Creator"]
+	122 [label="Math Formula"]
+	121 [label="Table Row to Variable"]
+	92 [label="Decision Tree Learner"]
+	119 [label="Quasirandom Sequence Generator _Apache_"]
+	131 [label="Image To Table"]
+	129 [label="Scatter Plot _JFreeChart_"]
+	12 [label="Table Reader"]
+	123 [label="Math Formula"]
+	125 [label="Column Rename"]
+	127 [label="Color Manager"]
+	94 [label=RowID]
+	96 [label="Column Rename"]
+	120 [label=GroupBy]
+	88 [label=Joiner]
+	130 [label="Rule Engine _Dictionary_"]
+	128 [label="Color Appender"]
+	132 [label="2D_3D Scatterplot"]
+	rankdir=LR
+}

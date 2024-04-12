@@ -1,0 +1,20 @@
+digraph {
+	4 -> 8
+	3 -> 4
+	3 -> 5
+	5 -> 7
+	1 -> 2
+	2 -> 3
+	5 -> 9
+	4 -> 6
+	5 [label="Value Counter"]
+	1 [label="Excel Reader"]
+	7 [label="Table View"]
+	9 [label="Excel Writer"]
+	4 [label="Value Counter"]
+	6 [label="Table View"]
+	8 [label="Excel Writer"]
+	3 [label="Duplicate Row Filter"]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

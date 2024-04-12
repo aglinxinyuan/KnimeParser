@@ -1,0 +1,33 @@
+digraph {
+	70 -> 58
+	38 -> 71
+	70 -> 62
+	65 -> 70
+	70 -> 28
+	71 -> 68
+	70 -> 39
+	58 -> 72
+	28 -> 39
+	69 -> 70
+	70 -> 38
+	67 -> 65
+	28 -> 72
+	57 -> 67
+	58 -> 38
+	39 -> 71
+	62 -> 71
+	57 [label="Table Creator"]
+	62 [label="Rule Engine"]
+	70 [label="CASE Switch Start"]
+	68 [label="Scorer _JavaScript_"]
+	71 [label="CASE Switch End"]
+	28 [label="PNN Learner _DDA_"]
+	67 [label="Value Selection Widget"]
+	72 [label="CASE Switch End"]
+	65 [label="Rule Engine Variable"]
+	69 [label="CSV Reader"]
+	58 [label="Decision Tree Learner"]
+	39 [label="PNN Predictor"]
+	38 [label="Decision Tree Predictor"]
+	rankdir=LR
+}

@@ -1,0 +1,29 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	11 -> 12
+	2 -> 12
+	7 -> 15
+	8 -> 9
+	3 -> 4
+	2 -> 7
+	4 -> 10
+	1 -> 2
+	2 -> 3
+	2 -> 8
+	2 -> 4
+	2 -> 11
+	13 [label=Scorer]
+	1 [label="CSV Reader"]
+	7 [label="XGBoost Tree Ensemble Learner"]
+	9 [label=Scorer]
+	11 [label="Random Forest Learner"]
+	4 [label="Random Forest Predictor"]
+	10 [label=Scorer]
+	8 [label="XGBoost Predictor"]
+	15 [label="Top k Selector"]
+	3 [label="Random Forest Learner"]
+	2 [label=Partitioning]
+	12 [label="Random Forest Predictor"]
+	rankdir=LR
+}

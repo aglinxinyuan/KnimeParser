@@ -1,0 +1,12 @@
+digraph {
+	4 -> 6
+	3 -> 4
+	1 -> 3
+	6 -> 8
+	1 [label="Excel Reader"]
+	4 [label="Rule Engine"]
+	6 [label="Column Rename"]
+	8 [label=Pivoting]
+	3 [label=Unpivoting]
+	rankdir=LR
+}

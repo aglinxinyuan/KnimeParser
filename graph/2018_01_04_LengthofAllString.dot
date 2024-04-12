@@ -1,0 +1,30 @@
+digraph {
+	13 -> 15
+	4 -> 5
+	12 -> 9
+	1 -> 2
+	3 -> 4
+	1 -> 14
+	1 -> 6
+	11 -> 12
+	7 -> 10
+	14 -> 13
+	2 -> 3
+	6 -> 7
+	10 -> 11
+	5 [label=GroupBy]
+	13 [label="Column Expressions"]
+	1 [label="Data Generator"]
+	7 [label="Column Rename _Regex_"]
+	12 [label="Loop End"]
+	9 [label=GroupBy]
+	11 [label=GroupBy]
+	4 [label="String Manipulation"]
+	6 [label="Column List Loop Start"]
+	15 [label=GroupBy]
+	14 [label="Column Filter"]
+	3 [label=Ungroup]
+	2 [label="Column Aggregator"]
+	10 [label="String Manipulation"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	116 -> 117
+	115 -> 116
+	121 -> 120
+	119 -> 121
+	120 -> 10
+	120 -> 115
+	119 -> 4
+	120 [label=k_Means]
+	119 [label="CSV Reader"]
+	115 [label="Color Manager"]
+	116 [label="Shape Manager"]
+	4 [label="Linear Correlation"]
+	121 [label="One to Many"]
+	117 [label="Scatter Plot _local_"]
+	10 [label="Value Counter"]
+	rankdir=LR
+}

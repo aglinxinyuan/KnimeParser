@@ -1,0 +1,55 @@
+digraph {
+	1045 -> 1030
+	1027 -> 1029
+	782 -> 117
+	1029 -> 1030
+	1006 -> 1030
+	767 -> 957
+	1005 -> 1007
+	116 -> 783
+	1030 -> 1031
+	1007 -> 1030
+	1030 -> 984
+	1031 -> 1026
+	779 -> 781
+	984 -> 1027
+	117 -> 784
+	766 -> 771
+	783 -> 958
+	22 -> 115
+	784 -> 116
+	115 -> 779
+	957 -> 958
+	1005 -> 1006
+	781 -> 117
+	783 -> 766
+	958 -> 1027
+	1044 -> 22
+	771 -> 767
+	784 [label="Stop Word Filter"]
+	1030 [label="K Nearest Neighbor"]
+	1007 [label="Column Filter"]
+	1045 [label="Table Reader"]
+	782 [label="File Reader"]
+	1031 [label="Column Rename"]
+	781 [label="POS Tagger"]
+	957 [label="Document Vector"]
+	984 [label="Column Filter"]
+	1006 [label="Column Filter"]
+	1044 [label="Table Reader"]
+	115 [label="Punctuation Erasure"]
+	22 [label="Strings To Document"]
+	1026 [label="Table Writer"]
+	771 [label="Column Rename"]
+	779 [label="Case Converter"]
+	117 [label="Dictionary Tagger"]
+	1005 [label="Row Splitter"]
+	783 [label="Stanford Lemmatizer"]
+	766 [label="Chi_Square Keyword Extractor"]
+	116 [label="Number Filter"]
+	1027 [label=Joiner]
+	958 [label=Joiner]
+	767 [label=Joiner]
+	1029 [label="Column Merger"]
+	rankdir=LR
+}

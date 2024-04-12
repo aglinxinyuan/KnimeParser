@@ -1,0 +1,32 @@
+digraph {
+	26 -> 5
+	4 -> 25
+	17 -> 9
+	45 -> 41
+	16 -> 9
+	9 -> 4
+	5 -> 27
+	45 -> 43
+	18 -> 4
+	25 -> 26
+	45 -> 11
+	45 -> 22
+	27 -> 45
+	4 -> 24
+	5 [label="Missing Value"]
+	24 [label=Statistics]
+	27 [label="Number To String"]
+	16 [label="CSV Reader"]
+	43 [label="Bar Chart"]
+	41 [label=Histogram]
+	22 [label="Scatter Plot Matrix"]
+	9 [label=Joiner]
+	11 [label="Scatter Plot"]
+	4 [label=Concatenate]
+	18 [label="CSV Reader"]
+	26 [label="Missing Value Column Filter"]
+	25 [label="Duplicate Row Filter"]
+	17 [label="CSV Reader"]
+	45 [label="Rule Engine"]
+	rankdir=LR
+}

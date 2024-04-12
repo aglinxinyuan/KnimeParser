@@ -1,0 +1,77 @@
+digraph {
+	3170 -> 3171
+	3187 -> 3188
+	3210 -> 3208
+	3176 -> 3174
+	3211 -> 3213
+	3224 -> 3169
+	3222 -> 3168
+	3178 -> 3179
+	3179 -> 3175
+	3177 -> 3178
+	3191 -> 3187
+	3160 -> 3187
+	3208 -> 3211
+	3187 -> 3211
+	3221 -> 3222
+	8 -> 3160
+	3174 -> 3177
+	3192 -> 3191
+	3175 -> 3212
+	3171 -> 3179
+	3214 -> 3223
+	3225 -> 3173
+	3213 -> 3214
+	3223 -> 3212
+	3187 -> 3167
+	8 -> 3184
+	3206 -> 3207
+	3188 -> 3225
+	3168 -> 3224
+	3209 -> 3206
+	3173 -> 3184
+	3205 -> 3192
+	3211 -> 3221
+	3207 -> 3210
+	3212 -> 3188
+	3169 -> 3170
+	3160 -> 3205
+	3167 -> 3209
+	3187 -> 3176
+	3205 -> 8
+	3173 [label="Loop End"]
+	8 [label="Column Splitter"]
+	3213 [label="Column Filter"]
+	3174 [label=RowID]
+	3210 [label="Row Filter"]
+	3192 [label="Column Filter"]
+	3224 [label="Row Filter"]
+	3191 [label="Table Row to Variable"]
+	3177 [label="Constant Value Column"]
+	3175 [label=RowID]
+	3225 [label="String Replacer"]
+	3209 [label="Extract Table Dimension"]
+	3176 [label="Column Filter"]
+	3167 [label="Row Filter"]
+	3214 [label="Constant Value Column"]
+	3178 [label=RowID]
+	3205 [label="Table Reader"]
+	3179 [label="Column Appender"]
+	3223 [label="String Manipulation"]
+	3169 [label=Transpose]
+	3206 [label="Rule Engine"]
+	3207 [label="Column Filter"]
+	3168 [label="Column Filter"]
+	3171 [label="String Manipulation"]
+	3160 [label="Chunk Loop Start"]
+	3187 [label="CASE Switch Start"]
+	3188 [label="CASE Switch End"]
+	3208 [label="Table Row to Variable"]
+	3170 [label="Column Aggregator"]
+	3221 [label="Strings To Document"]
+	3212 [label="CASE Switch End"]
+	3211 [label="CASE Switch Start"]
+	3222 [label="Sentence Extractor"]
+	3184 [label=Joiner]
+	rankdir=LR
+}

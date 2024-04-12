@@ -1,0 +1,25 @@
+digraph {
+	210 -> 245
+	179 -> 246
+	189 -> 243
+	245 -> 179
+	179 -> 177
+	191 -> 210
+	243 -> 191
+	178 -> 177
+	323 -> 189
+	322 -> 323
+	179 -> 178
+	210 [label="Lag Column"]
+	179 [label="Linear Regression Learner"]
+	246 [label="Loop End _Column Append_"]
+	245 [label="Missing Value"]
+	189 [label="Extract Time Window _legacy_"]
+	322 [label="File Reader"]
+	191 [label="Column Rename"]
+	243 [label="Column List Loop Start"]
+	178 [label="Java Edit Variable"]
+	323 [label="String to Date_Time _legacy_"]
+	177 [label="PMML Writer"]
+	rankdir=LR
+}

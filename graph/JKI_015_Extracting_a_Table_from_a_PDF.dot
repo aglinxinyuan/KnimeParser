@@ -1,0 +1,20 @@
+digraph {
+	370 -> 371
+	1 -> 364
+	368 -> 369
+	367 -> 370
+	365 -> 2
+	2 -> 368
+	369 -> 367
+	364 -> 365
+	371 [label=RowID]
+	370 [label="Column Rename"]
+	1 [label="Tika Parser"]
+	365 [label=Transpose]
+	367 [label="Row Splitter"]
+	369 [label="String To Number"]
+	368 [label="Column Filter"]
+	2 [label="Cell Splitter"]
+	364 [label="Cell Splitter"]
+	rankdir=LR
+}

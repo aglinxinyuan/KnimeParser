@@ -1,0 +1,10 @@
+digraph {
+	5 -> 14
+	14 -> 15
+	1 -> 5
+	1 [label="Tika Parser"]
+	14 [label="Cell Splitter"]
+	5 [label="String Manipulation"]
+	15 [label=Ungroup]
+	rankdir=LR
+}

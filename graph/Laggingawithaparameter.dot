@@ -1,0 +1,19 @@
+digraph {
+	7 -> 3
+	3 -> 8
+	3 -> 5
+	2 -> 7
+	1 -> 7
+	8 -> 5
+	5 -> 9
+	9 -> 6
+	5 [label="Lag Column"]
+	1 [label="Table Creator"]
+	7 [label=Joiner]
+	9 [label="Column Rename _Regex_"]
+	8 [label="Table Row to Variable"]
+	6 [label="Loop End"]
+	3 [label="Group Loop Start"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

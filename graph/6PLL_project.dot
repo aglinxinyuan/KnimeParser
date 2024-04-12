@@ -1,0 +1,23 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	9 -> 11
+	3 -> 4
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	5 [label="CSV Writer"]
+	1 [label="File Reader"]
+	7 [label="Column Filter"]
+	9 [label="Row Filter"]
+	11 [label="Table to JSON"]
+	4 [label="Row Filter"]
+	6 [label="File Reader"]
+	8 [label="Row Filter"]
+	3 [label="Row Filter"]
+	2 [label="Column Filter"]
+	10 [label="CSV Writer"]
+	rankdir=LR
+}

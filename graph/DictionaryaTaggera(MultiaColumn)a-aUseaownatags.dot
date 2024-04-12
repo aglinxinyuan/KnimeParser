@@ -1,0 +1,29 @@
+digraph {
+	5 -> 8
+	20 -> 21
+	7 -> 8
+	8 -> 28
+	4 -> 5
+	8 -> 19
+	10 -> 27
+	27 -> 8
+	19 -> 20
+	21 -> 22
+	26 -> 27
+	9 -> 10
+	7 -> 9
+	5 [label="Strings To Document"]
+	27 [label="Merge Variables"]
+	20 [label="Bag Of Words Creator"]
+	7 [label="Table Creator"]
+	22 [label="Tags To String"]
+	28 [label="Tagged Document Viewer"]
+	9 [label="Extract Column Header"]
+	4 [label="Table Creator"]
+	21 [label="Term To String"]
+	26 [label="String Input"]
+	10 [label="Table Row to Variable"]
+	8 [label="Dictionary Tagger _Multi Column_"]
+	19 [label="Modifiable Term Filter"]
+	rankdir=LR
+}

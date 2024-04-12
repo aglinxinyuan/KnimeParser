@@ -1,0 +1,58 @@
+digraph {
+	16 -> 11
+	7 -> 8
+	4 -> 5
+	21 -> 19
+	17 -> 24
+	8 -> 9
+	13 -> 14
+	9 -> 13
+	23 -> 28
+	6 -> 22
+	20 -> 23
+	22 -> 8
+	27 -> 18
+	11 -> 17
+	26 -> 27
+	1 -> 2
+	14 -> 15
+	25 -> 26
+	10 -> 12
+	15 -> 16
+	24 -> 25
+	12 -> 11
+	3 -> 4
+	19 -> 20
+	5 -> 6
+	2 -> 3
+	18 -> 21
+	27 [label="Column Rename"]
+	7 [label="CSV Reader"]
+	9 [label="Column Rename"]
+	18 [label="Nominal Value Row Filter"]
+	21 [label="String Manipulation"]
+	26 [label="Column Filter"]
+	8 [label=Joiner]
+	17 [label="Column Expressions"]
+	3 [label="Column Rename"]
+	19 [label=GroupBy]
+	24 [label="Rule Engine"]
+	6 [label="Rule Engine"]
+	15 [label="Duplicate Row Filter"]
+	25 [label="Column Expressions"]
+	12 [label="Duplicate Row Filter"]
+	10 [label="CSV Reader"]
+	16 [label="Rule_based Row Filter"]
+	1 [label="CSV Reader"]
+	22 [label="Rule_based Row Filter"]
+	28 [label="Excel Writer"]
+	11 [label=Joiner]
+	4 [label="Cell Splitter"]
+	23 [label="Column Rename"]
+	14 [label="Column Resorter"]
+	5 [label="Column Rename"]
+	13 [label="Column Filter"]
+	20 [label="Nominal Value Row Filter"]
+	2 [label="Cell Splitter"]
+	rankdir=LR
+}

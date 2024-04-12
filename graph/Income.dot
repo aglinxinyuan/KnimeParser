@@ -1,0 +1,22 @@
+digraph {
+	9 -> 7
+	12 -> 13
+	7 -> 8
+	8 -> 10
+	1 -> 12
+	13 -> 16
+	11 -> 16
+	6 -> 9
+	10 -> 11
+	16 [label=Concatenate]
+	13 [label="Constant Value Column"]
+	1 [label="CSV Reader"]
+	7 [label="Math Formula"]
+	9 [label="Rule Engine"]
+	11 [label="Constant Value Column"]
+	10 [label="Column Filter"]
+	6 [label="CSV Reader"]
+	8 [label=GroupBy]
+	12 [label=GroupBy]
+	rankdir=LR
+}

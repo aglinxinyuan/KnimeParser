@@ -1,0 +1,9 @@
+digraph {
+	3 -> 4
+	1 -> 2
+	1 [label="File Reader"]
+	4 [label="Bar Chart"]
+	3 [label="File Reader"]
+	2 [label="Pie_Donut Chart"]
+	rankdir=LR
+}

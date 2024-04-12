@@ -1,0 +1,9 @@
+digraph {
+	1050 -> 1051
+	1049 -> 1048
+	1048 [label="Interactive Table _local_"]
+	1049 [label="CSV Reader"]
+	1050 [label="Excel Reader"]
+	1051 [label="Interactive Table _local_"]
+	rankdir=LR
+}

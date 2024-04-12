@@ -1,0 +1,15 @@
+digraph {
+	232 -> 238
+	234 -> 246
+	238 -> 234
+	243 -> 237
+	246 -> 243
+	238 -> 243
+	232 [label="OSM Boundary Map"]
+	246 [label=Buffer]
+	237 [label="Geospatial View"]
+	243 [label=Concatenate]
+	234 [label="Geometry To Point"]
+	238 [label=Projection]
+	rankdir=LR
+}

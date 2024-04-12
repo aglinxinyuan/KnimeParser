@@ -1,0 +1,39 @@
+digraph {
+	104 -> 71
+	110 -> 106
+	71 -> 109
+	81 -> 106
+	103 -> 116
+	109 -> 112
+	100 -> 81
+	96 -> 103
+	117 -> 110
+	109 -> 101
+	94 -> 108
+	116 -> 71
+	82 -> 81
+	101 -> 100
+	112 -> 82
+	106 -> 94
+	108 -> 114
+	69 -> 104
+	114 [label="Rule_based Row Filter"]
+	94 [label="Column Resorter"]
+	96 [label="CSV Reader"]
+	103 [label="Java Snippet"]
+	104 [label=GroupBy]
+	112 [label="Row Filter"]
+	82 [label="Create Bit Vector"]
+	71 [label=Joiner]
+	69 [label="CSV Reader"]
+	101 [label="Row Filter"]
+	100 [label="Create Bit Vector"]
+	116 [label="String To Number"]
+	117 [label="CSV Reader"]
+	109 [label="Rule_based Row Filter"]
+	108 [label=Sorter]
+	106 [label=Joiner]
+	110 [label="Column Rename"]
+	81 [label="Fingerprint Similarity"]
+	rankdir=LR
+}

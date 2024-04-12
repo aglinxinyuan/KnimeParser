@@ -1,0 +1,32 @@
+digraph {
+	609 -> 610
+	592 -> 589
+	601 -> 606
+	606 -> 607
+	588 -> 591
+	591 -> 592
+	610 -> 611
+	607 -> 608
+	608 -> 609
+	611 -> 613
+	597 -> 598
+	590 -> 597
+	589 -> 590
+	598 -> 601
+	590 [label="Row Filter"]
+	613 [label="Excel Writer"]
+	588 [label="List Files"]
+	609 [label=Pivoting]
+	611 [label="Math Formula _Multi Column_"]
+	607 [label="Math Formula"]
+	601 [label="Java Snippet _simple_"]
+	592 [label="Table Reader"]
+	589 [label=GroupBy]
+	597 [label="Row Filter"]
+	606 [label=Ungroup]
+	610 [label="Missing Value"]
+	591 [label="Table Row to Variable"]
+	598 [label=Ungroup]
+	608 [label=GroupBy]
+	rankdir=LR
+}

@@ -1,0 +1,30 @@
+digraph {
+	12 -> 35
+	54 -> 28
+	12 -> 2
+	2 -> 35
+	35 -> 3
+	3 -> 4
+	12 -> 49
+	51 -> 17
+	2 -> 50
+	28 -> 17
+	52 -> 28
+	4 -> 42
+	53 -> 12
+	50 [label="PMML Writer"]
+	35 [label=Denormalizer]
+	42 [label="Scatter Plot"]
+	49 [label="Model Writer"]
+	53 [label="Table Reader"]
+	28 [label="Normalizer _Apply_"]
+	51 [label="PMML Reader"]
+	4 [label="Shape Manager"]
+	54 [label="Table Reader"]
+	52 [label="Model Reader"]
+	17 [label="Cluster Assigner"]
+	3 [label="Color Manager"]
+	2 [label=k_Means]
+	12 [label=Normalizer]
+	rankdir=LR
+}

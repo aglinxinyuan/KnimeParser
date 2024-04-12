@@ -1,0 +1,24 @@
+digraph {
+	4 -> 7
+	3 -> 32
+	36 -> 35
+	37 -> 33
+	3 -> 4
+	28 -> 37
+	28 -> 33
+	32 -> 28
+	35 -> 34
+	7 -> 32
+	33 -> 36
+	35 [label=RowID]
+	7 [label="Table Row to Variable"]
+	34 [label="Hierarchical Clustering"]
+	28 [label=Partitioning]
+	36 [label=GroupBy]
+	4 [label="Math Formula"]
+	33 [label="Recursive Loop End"]
+	32 [label="Recursive Loop Start"]
+	3 [label="CSV Reader"]
+	37 [label="Math Formula"]
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	33 -> 34
+	36 -> 35
+	32 -> 33
+	34 -> 36
+	2 -> 33
+	1 -> 32
+	35 [label="Table Writer"]
+	1 [label="Table Reader"]
+	34 [label="Column Merger"]
+	36 [label="Column Filter"]
+	33 [label=Joiner]
+	32 [label=GroupBy]
+	2 [label="Table Reader"]
+	rankdir=LR
+}

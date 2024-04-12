@@ -1,0 +1,19 @@
+digraph {
+	7 -> 5
+	5 -> 4
+	3 -> 8
+	1 -> 2
+	2 -> 3
+	8 -> 5
+	6 -> 7
+	3 -> 6
+	5 [label="CSV Writer"]
+	1 [label="CSV Reader"]
+	7 [label="String to Path _Variable_"]
+	4 [label="Variable Loop End"]
+	6 [label="String Manipulation _Variable_"]
+	8 [label="Column Filter"]
+	3 [label="Group Loop Start"]
+	2 [label="Regex Split"]
+	rankdir=LR
+}

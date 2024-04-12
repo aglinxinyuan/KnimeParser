@@ -1,0 +1,145 @@
+digraph {
+	1869 -> 1874
+	1904 -> 1868
+	1905 -> 1906
+	1924 -> 1925
+	1859 -> 1860
+	1860 -> 1866
+	1861 -> 1860
+	1873 -> 1870
+	76 -> 4
+	1859 -> 1943
+	3 -> 1858
+	76 -> 1864
+	1906 -> 1909
+	1907 -> 1956
+	1858 -> 1859
+	1861 -> 1868
+	1916 -> 1917
+	1937 -> 1945
+	1859 -> 1861
+	1926 -> 1946
+	76 -> 1952
+	60 -> 59
+	51 -> 50
+	1904 -> 1954
+	1869 -> 1924
+	1866 -> 1869
+	1941 -> 1944
+	1946 -> 1945
+	1952 -> 1865
+	1921 -> 1922
+	1874 -> 1875
+	1869 -> 1940
+	76 -> 1953
+	50 -> 49
+	1869 -> 1913
+	1906 -> 1907
+	1917 -> 1923
+	1953 -> 1865
+	1920 -> 1938
+	1905 -> 1907
+	76 -> 3
+	1868 -> 1954
+	1866 -> 1890
+	1869 -> 1873
+	1869 -> 1921
+	1869 -> 1941
+	1909 -> 1908
+	48 -> 47
+	1927 -> 1928
+	1947 -> 61
+	2 -> 1858
+	76 -> 1899
+	1865 -> 1904
+	1869 -> 1926
+	1860 -> 1953
+	1869 -> 1920
+	1869 -> 1916
+	1869 -> 1927
+	1864 -> 1952
+	59 -> 76
+	1860 -> 1871
+	1938 -> 1937
+	76 -> 2
+	1861 -> 1866
+	4 -> 1859
+	61 -> 50
+	47 -> 52
+	1913 -> 1914
+	52 -> 53
+	28 -> 51
+	1890 -> 1951
+	49 -> 48
+	53 -> 60
+	76 -> 1861
+	1861 -> 1871
+	1904 -> 1905
+	1954 -> 1872
+	1875 [label="DB Reader"]
+	1947 [label="String Input"]
+	1866 [label="DB SQL Executor"]
+	1908 [label="Spark to Table"]
+	1944 [label="DB Reader"]
+	1954 [label="Spark to Hive"]
+	1952 [label="Hive to Spark"]
+	1868 [label="DB Table Remover"]
+	1938 [label="DB Column Filter"]
+	1899 [label="Destroy Spark Context"]
+	1925 [label="DB Reader"]
+	1906 [label="Spark Category To Number"]
+	1860 [label="DB Connection Table Writer"]
+	3 [label="DB Table Selector"]
+	1953 [label="Hive to Spark"]
+	1865 [label="Spark Joiner"]
+	1905 [label="Spark SQL Query"]
+	49 [label="Java Edit Variable"]
+	1940 [label="DB Reader"]
+	1937 [label="DB Connection Table Writer"]
+	51 [label="Table Column to Variable"]
+	1861 [label="DB Table Remover"]
+	1869 [label="DB Table Selector"]
+	1951 [label=Transpose]
+	1941 [label="DB Query"]
+	59 [label="Create Folder"]
+	1859 [label="DB Joiner"]
+	48 [label="String to Path _Variable_"]
+	1914 [label="DB Reader"]
+	1874 [label="DB GroupBy"]
+	1872 [label="DB Reader"]
+	50 [label="Merge Variables"]
+	1907 [label="Spark Transformations Applier"]
+	1858 [label="DB Joiner"]
+	53 [label="Create Folder"]
+	28 [label="Extract System Properties"]
+	1909 [label="Spark Column Filter"]
+	47 [label="Create Folder"]
+	4 [label="DB Table Selector"]
+	1873 [label="DB Sorter"]
+	76 [label="Create Local Big Data Environment"]
+	61 [label="Extract Context Properties"]
+	1924 [label="DB Query"]
+	1921 [label="DB Query"]
+	1870 [label="DB Reader"]
+	1917 [label="DB Column Filter"]
+	1923 [label="DB Reader"]
+	1922 [label="DB Reader"]
+	1946 [label="DB Column Filter"]
+	1928 [label="DB Reader"]
+	60 [label="Create Folder"]
+	1864 [label="DB Table Selector"]
+	1920 [label="DB Row Filter"]
+	1913 [label="DB Query"]
+	1956 [label="Spark to Table"]
+	1926 [label="DB Query"]
+	1871 [label="DB Query Reader"]
+	1904 [label="Persist Spark DataFrame_RDD"]
+	1890 [label="DB Query Reader"]
+	1945 [label="DB Connection Table Writer"]
+	1927 [label="DB Query"]
+	1943 [label="DB Reader"]
+	52 [label="Create Folder"]
+	2 [label="DB Table Selector"]
+	1916 [label="DB Column Rename"]
+	rankdir=LR
+}

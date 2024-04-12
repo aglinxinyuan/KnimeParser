@@ -1,0 +1,47 @@
+digraph {
+	361 -> 362
+	360 -> 361
+	357 -> 368
+	4 -> 6
+	354 -> 355
+	368 -> 364
+	1 -> 2
+	354 -> 353
+	355 -> 360
+	355 -> 362
+	349 -> 4
+	362 -> 363
+	366 -> 369
+	349 -> 353
+	233 -> 304
+	359 -> 357
+	364 -> 366
+	355 -> 359
+	6 -> 7
+	304 -> 348
+	4 -> 233
+	2 -> 349
+	7 [label="Line Plot"]
+	304 [label="String Manipulation"]
+	354 [label="H2 Connector"]
+	363 [label="DB Reader"]
+	233 [label=Pivot]
+	357 [label="DB Pivot"]
+	366 [label="String Manipulation"]
+	6 [label=Pivot]
+	359 [label="DB Row Filter"]
+	361 [label="DB Row Filter"]
+	348 [label="Stacked Area Chart"]
+	1 [label="Excel Reader"]
+	4 [label="Date_Time_based Row Filter"]
+	360 [label="DB GroupBy"]
+	369 [label="Stacked Area Chart"]
+	368 [label="DB Sorter"]
+	364 [label="DB Reader"]
+	362 [label="DB Joiner"]
+	355 [label="DB Table Selector"]
+	349 [label="Extract Date_Time Fields"]
+	353 [label="DB Writer"]
+	2 [label="String to Date_Time"]
+	rankdir=LR
+}

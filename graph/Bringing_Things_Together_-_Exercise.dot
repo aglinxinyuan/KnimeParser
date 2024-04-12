@@ -1,0 +1,27 @@
+digraph {
+	37 -> 43
+	40 -> 37
+	46 -> 47
+	49 -> 50
+	45 -> 50
+	46 -> 48
+	43 -> 45
+	40 -> 41
+	42 -> 43
+	40 -> 38
+	44 -> 45
+	48 [label=Pivoting]
+	43 [label=Joiner]
+	50 [label=Concatenate]
+	44 [label="CSV Reader"]
+	42 [label="CSV Reader"]
+	49 [label="CSV Reader"]
+	41 [label=GroupBy]
+	45 [label=Joiner]
+	46 [label="CSV Reader"]
+	47 [label=Pivoting]
+	40 [label="CSV Reader"]
+	38 [label=GroupBy]
+	37 [label=GroupBy]
+	rankdir=LR
+}

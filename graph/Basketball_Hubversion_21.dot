@@ -1,0 +1,105 @@
+digraph {
+	3 -> 156
+	29 -> 79
+	176 -> 173
+	15 -> 150
+	85 -> 136
+	4 -> 5
+	161 -> 177
+	29 -> 84
+	167 -> 170
+	177 -> 178
+	156 -> 164
+	156 -> 4
+	4 -> 161
+	156 -> 163
+	180 -> 183
+	134 -> 29
+	180 -> 179
+	150 -> 85
+	136 -> 153
+	183 -> 185
+	4 -> 158
+	1 -> 2
+	4 -> 154
+	13 -> 149
+	168 -> 172
+	171 -> 175
+	168 -> 167
+	170 -> 186
+	161 -> 160
+	136 -> 134
+	172 -> 176
+	5 -> 13
+	6 -> 15
+	177 -> 180
+	154 -> 159
+	79 -> 80
+	175 -> 174
+	185 -> 184
+	161 -> 165
+	77 -> 84
+	179 -> 181
+	170 -> 169
+	181 -> 182
+	161 -> 166
+	161 -> 168
+	185 -> 187
+	161 -> 171
+	84 -> 79
+	2 -> 3
+	149 -> 6
+	4 -> 155
+	170 [label="String To Number"]
+	165 [label="Bar Chart"]
+	167 [label=SMOTE]
+	79 [label="DL4J Feedforward Predictor _Classification_"]
+	169 [label=Histogram]
+	136 [label="Column Rename"]
+	153 [label="Data Explorer"]
+	182 [label=Histogram]
+	149 [label=Auto_Binner]
+	184 [label=Histogram]
+	3 [label="Cell Splitter By Position"]
+	163 [label="Box Plot"]
+	180 [label="Number To String"]
+	168 [label="Number To String"]
+	185 [label="String To Number"]
+	84 [label="DL4J Feedforward Learner _Classification_"]
+	156 [label="Missing Value"]
+	161 [label="Number To String"]
+	183 [label=SMOTE]
+	6 [label="Column Resorter"]
+	15 [label="Missing Value"]
+	154 [label="Data Explorer"]
+	177 [label="Row Filter"]
+	85 [label="Column Filter"]
+	166 [label=Histogram]
+	171 [label=Auto_Binner]
+	150 [label="Category To Number"]
+	164 [label="Box Plot"]
+	1 [label="CSV Reader"]
+	173 [label=Histogram]
+	158 [label="Bar Chart"]
+	174 [label=Histogram]
+	4 [label="Rule Engine"]
+	178 [label=Histogram]
+	176 [label="String To Number"]
+	77 [label="DL4J Model Initializer"]
+	159 [label="Row Filter"]
+	172 [label="Equal Size Sampling"]
+	134 [label=Normalizer]
+	160 [label="Bar Chart"]
+	5 [label="Column Filter"]
+	175 [label="String To Number"]
+	179 [label="Equal Size Sampling"]
+	13 [label="Category To Number"]
+	29 [label=Partitioning]
+	186 [label="Linear Correlation"]
+	155 [label="Bar Chart"]
+	181 [label="String To Number"]
+	187 [label="Linear Correlation"]
+	80 [label=Scorer]
+	2 [label="Math Formula"]
+	rankdir=LR
+}

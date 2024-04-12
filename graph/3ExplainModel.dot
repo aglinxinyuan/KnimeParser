@@ -1,0 +1,21 @@
+digraph {
+	10 -> 7
+	8 -> 6
+	1 -> 12
+	7 -> 2
+	6 -> 10
+	12 -> 8
+	9 -> 10
+	6 -> 9
+	2 -> 11
+	1 [label="Table Reader"]
+	7 [label=Scorer]
+	9 [label="Random Forest Learner"]
+	11 [label="Table Writer"]
+	10 [label="Random Forest Predictor"]
+	6 [label=Partitioning]
+	8 [label="Feature Selection Loop Start"]
+	2 [label="Feature Selection Loop End"]
+	12 [label="Column Filter"]
+	rankdir=LR
+}

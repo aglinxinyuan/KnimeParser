@@ -1,0 +1,23 @@
+digraph {
+	12 -> 13
+	2 -> 12
+	2 -> 10
+	8 -> 9
+	12 -> 8
+	3 -> 11
+	11 -> 12
+	2 -> 3
+	1 -> 14
+	14 -> 2
+	13 [label=Scorer]
+	1 [label="CSV Reader"]
+	12 [label="Tree Ensemble Predictor"]
+	9 [label=Sorter]
+	11 [label="Tree Ensemble Learner"]
+	8 [label="Rule_based Row Filter"]
+	14 [label="Number To String"]
+	3 [label="Equal Size Sampling"]
+	2 [label=Partitioning]
+	10 [label=SMOTE]
+	rankdir=LR
+}

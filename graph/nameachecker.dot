@@ -1,0 +1,10 @@
+digraph {
+	6 -> 7
+	7 -> 8
+	5 -> 6
+	5 [label="Amazon Redshift Connector"]
+	7 [label="Regex Split"]
+	6 [label="DB Query Reader"]
+	8 [label="Row Splitter"]
+	rankdir=LR
+}

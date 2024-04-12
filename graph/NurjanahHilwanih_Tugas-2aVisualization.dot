@@ -1,0 +1,46 @@
+digraph {
+	12 -> 15
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	13 -> 14
+	6 -> 1
+	2 -> 3
+	12 -> 21
+	12 -> 13
+	10 -> 6
+	14 -> 20
+	1 -> 2
+	16 -> 18
+	15 -> 16
+	12 -> 22
+	1 -> 7
+	16 -> 19
+	3 -> 4
+	5 -> 6
+	12 -> 20
+	9 -> 10
+	16 -> 17
+	7 [label=Pivot]
+	9 [label=Sorter]
+	21 [label="Bar Chart _JavaScript_"]
+	18 [label="Table View _JavaScript_"]
+	8 [label=RowID]
+	17 [label="Table View _JavaScript_"]
+	3 [label="Math Formula"]
+	19 [label="Table View _JavaScript_"]
+	6 [label=Joiner]
+	15 [label="Column Resorter"]
+	12 [label=RowID]
+	10 [label="Column Renamer"]
+	16 [label="Color Manager"]
+	1 [label="Math Formula"]
+	22 [label="Bar Chart _JavaScript_"]
+	4 [label=Sorter]
+	14 [label="Color Manager"]
+	5 [label="Column Renamer"]
+	13 [label="Extract Table Spec"]
+	20 [label="Bar Chart _JavaScript_"]
+	2 [label="Math Formula"]
+	rankdir=LR
+}

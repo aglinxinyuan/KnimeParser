@@ -1,0 +1,110 @@
+digraph {
+	12 -> 15
+	5 -> 51
+	34 -> 41
+	9 -> 14
+	6 -> 31
+	30 -> 47
+	61 -> 56
+	8 -> 9
+	16 -> 40
+	48 -> 39
+	36 -> 32
+	1 -> 6
+	33 -> 8
+	56 -> 50
+	5 -> 50
+	22 -> 19
+	63 -> 51
+	3 -> 18
+	2 -> 24
+	49 -> 60
+	31 -> 33
+	32 -> 44
+	14 -> 15
+	5 -> 52
+	20 -> 17
+	25 -> 35
+	21 -> 48
+	18 -> 22
+	17 -> 21
+	29 -> 27
+	49 -> 64
+	29 -> 23
+	5 -> 53
+	15 -> 16
+	40 -> 30
+	19 -> 17
+	22 -> 20
+	39 -> 30
+	9 -> 12
+	46 -> 32
+	49 -> 61
+	42 -> 29
+	44 -> 49
+	59 -> 52
+	27 -> 25
+	49 -> 62
+	23 -> 25
+	64 -> 53
+	62 -> 63
+	47 -> 46
+	41 -> 26
+	28 -> 36
+	26 -> 42
+	35 -> 28
+	24 -> 34
+	60 -> 59
+	27 [label="String Manipulation"]
+	9 [label="Column Rename"]
+	52 [label="DB Writer"]
+	18 [label="Cell Splitter"]
+	21 [label="Table Manipulator"]
+	26 [label="Cell Splitter"]
+	8 [label="Cell Splitter"]
+	32 [label=Joiner]
+	17 [label=Joiner]
+	3 [label="Excel Reader"]
+	19 [label="String Manipulation"]
+	24 [label="Table Manipulator"]
+	64 [label="Column Filter"]
+	49 [label="Column Rename"]
+	41 [label="String Manipulation"]
+	31 [label="String Manipulation"]
+	51 [label="DB Writer"]
+	56 [label="Duplicate Row Filter"]
+	6 [label="Table Manipulator"]
+	15 [label=Joiner]
+	25 [label=Joiner]
+	12 [label="String Manipulation"]
+	59 [label="Duplicate Row Filter"]
+	16 [label="Table Manipulator"]
+	48 [label="String Manipulation"]
+	50 [label="DB Writer"]
+	1 [label="Excel Reader"]
+	42 [label="Round Double"]
+	22 [label="Column Rename"]
+	53 [label="DB Writer"]
+	28 [label="Table Manipulator"]
+	23 [label="String Manipulation"]
+	47 [label="Column Rename"]
+	61 [label="Column Filter"]
+	63 [label="Duplicate Row Filter"]
+	14 [label="String Manipulation"]
+	60 [label="Column Filter"]
+	5 [label="PostgreSQL Connector"]
+	20 [label="String Manipulation"]
+	35 [label="String Manipulation"]
+	44 [label=GroupBy]
+	34 [label="Double To Int"]
+	62 [label="Column Filter"]
+	29 [label="Column Rename"]
+	36 [label="String Manipulation _Multi Column_"]
+	46 [label="Rule Engine"]
+	40 [label="String Manipulation _Multi Column_"]
+	39 [label="String Manipulation _Multi Column_"]
+	33 [label="String Manipulation"]
+	30 [label=Joiner]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

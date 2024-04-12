@@ -1,0 +1,42 @@
+digraph {
+	53 -> 75
+	71 -> 72
+	78 -> 79
+	74 -> 66
+	18 -> 74
+	18 -> 77
+	77 -> 76
+	68 -> 69
+	65 -> 18
+	66 -> 67
+	66 -> 70
+	76 -> 78
+	64 -> 65
+	79 -> 80
+	70 -> 71
+	75 -> 76
+	51 -> 64
+	79 -> 81
+	67 -> 68
+	79 [label=Sorter]
+	18 [label="Row Filter"]
+	74 [label="Row Filter"]
+	78 [label="Column Expressions"]
+	64 [label="Table Manipulator"]
+	51 [label="CSV Reader"]
+	75 [label="String Manipulation"]
+	53 [label="Excel Reader"]
+	68 [label=Sorter]
+	67 [label=GroupBy]
+	72 [label="Row Filter"]
+	76 [label=Joiner]
+	77 [label=GroupBy]
+	81 [label="Bar Chart"]
+	66 [label="Row Splitter"]
+	70 [label=GroupBy]
+	65 [label=Sorter]
+	69 [label="Row Filter"]
+	71 [label=Sorter]
+	80 [label=GroupBy]
+	rankdir=LR
+}

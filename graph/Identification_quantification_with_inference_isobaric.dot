@@ -1,0 +1,58 @@
+digraph {
+	7 -> 8
+	231 -> 222
+	5 -> 235
+	222 -> 225
+	235 -> 226
+	240 -> 246
+	248 -> 252
+	241 -> 240
+	246 -> 254
+	239 -> 250
+	250 -> 253
+	231 -> 240
+	6 -> 7
+	251 -> 226
+	3 -> 6
+	5 -> 3
+	241 -> 222
+	254 -> 252
+	8 -> 251
+	227 -> 228
+	231 -> 227
+	10 -> 239
+	240 -> 242
+	226 -> 10
+	255 -> 254
+	253 -> 231
+	2 -> 5
+	1 -> 3
+	231 [label=IDConflictResolver]
+	242 [label="Output Folder"]
+	246 [label="URI Port to Variable"]
+	227 [label=MzTabExporter]
+	7 [label=PSMFeatureExtractor]
+	222 [label=ProteinQuantifier]
+	8 [label=PercolatorAdapter]
+	252 [label="R View _Workspace_"]
+	239 [label=FileMerger]
+	3 [label=MSGFPlusAdapter]
+	254 [label="Merge Variables"]
+	225 [label="Output Folder"]
+	228 [label="Output Folder"]
+	253 [label=IDFilter]
+	6 [label=PeptideIndexer]
+	240 [label=MSstatsConverter]
+	10 [label=ZipLoopEnd]
+	251 [label=IDFilter]
+	1 [label="Input File"]
+	250 [label=Epifany]
+	5 [label=ZipLoopStart]
+	248 [label="R Source _Workspace_"]
+	235 [label=IsobaricAnalyzer]
+	255 [label="String Configuration"]
+	241 [label="Input File"]
+	226 [label=IDMapper]
+	2 [label="Input Files"]
+	rankdir=LR
+}

@@ -1,0 +1,52 @@
+digraph {
+	380 -> 257
+	383 -> 328
+	260 -> 374
+	348 -> 328
+	255 -> 248
+	384 -> 342
+	257 -> 365
+	372 -> 262
+	328 -> 342
+	365 -> 260
+	342 -> 372
+	262 -> 343
+	374 -> 328
+	379 -> 257
+	375 -> 364
+	260 -> 376
+	377 -> 364
+	254 -> 255
+	381 -> 260
+	343 -> 382
+	364 -> 257
+	343 -> 383
+	260 -> 262
+	248 -> 257
+	378 -> 364
+	374 [label="URI Port to Variable"]
+	377 [label="File Importer"]
+	365 [label=ZipLoopEnd]
+	379 [label="File Importer"]
+	381 [label="File Importer"]
+	383 [label="File Exporter"]
+	254 [label=FeatureFinderMetabo]
+	384 [label="File Importer"]
+	343 [label=ZipLoopEnd]
+	372 [label=FileFilter]
+	376 [label="File Exporter"]
+	328 [label="Merge Variables"]
+	348 [label="String Input"]
+	260 [label=AssayGeneratorMetabo]
+	262 [label=OpenSwathWorkflow]
+	382 [label="File Exporter"]
+	342 [label="Python Source"]
+	378 [label="File Importer"]
+	257 [label=HighResPrecursorMassCorrector]
+	364 [label=ZipLoopStart]
+	380 [label="File Importer"]
+	375 [label="File Importer"]
+	248 [label=AccurateMassSearch]
+	255 [label=MetaboliteAdductDecharger]
+	rankdir=LR
+}

@@ -1,0 +1,38 @@
+digraph {
+	5 -> 8
+	7 -> 8
+	20 -> 15
+	4 -> 5
+	19 -> 21
+	8 -> 9
+	23 -> 19
+	3 -> 4
+	15 -> 22
+	24 -> 7
+	21 -> 20
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	10 -> 12
+	12 -> 11
+	11 -> 23
+	5 [label="Table Row to Variable"]
+	24 [label="Pharmacophore Reader"]
+	20 [label="String to Path _Variable_"]
+	1 [label="Ph4List _SOAP_"]
+	7 [label="Pharmacophore to String"]
+	22 [label="Interactive Table _local_"]
+	9 [label="Column Filter"]
+	11 [label="HTTP Connection _legacy_"]
+	4 [label="Row Filter"]
+	23 [label="Download _legacy_"]
+	21 [label="Table Row to Variable"]
+	8 [label="Ph4Search _SOAP_"]
+	15 [label="MDB Reader"]
+	12 [label="Table Row to Variable"]
+	3 [label=Ungroup]
+	2 [label="Cell Splitter"]
+	10 [label="Extract URI Info"]
+	19 [label="URL to File Path"]
+	rankdir=LR
+}

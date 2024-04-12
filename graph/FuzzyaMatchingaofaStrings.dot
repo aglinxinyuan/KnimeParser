@@ -1,0 +1,20 @@
+digraph {
+	4 -> 7
+	5 -> 3
+	10 -> 9
+	5 -> 4
+	1 -> 5
+	4 -> 10
+	7 -> 9
+	4 -> 6
+	4 -> 9
+	5 [label="Random Label Assigner"]
+	1 [label="Empty Table Creator"]
+	7 [label="String Distances"]
+	9 [label="Similarity Search"]
+	4 [label=GroupBy]
+	6 [label="String Matcher"]
+	3 [label=Stresser]
+	10 [label="String Manipulation"]
+	rankdir=LR
+}

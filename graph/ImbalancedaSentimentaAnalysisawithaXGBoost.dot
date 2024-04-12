@@ -1,0 +1,62 @@
+digraph {
+	361 -> 275
+	374 -> 375
+	380 -> 66
+	71 -> 12
+	277 -> 363
+	292 -> 361
+	276 -> 373
+	68 -> 70
+	277 -> 377
+	30 -> 31
+	29 -> 30
+	277 -> 299
+	69 -> 33
+	31 -> 69
+	33 -> 34
+	375 -> 277
+	66 -> 67
+	363 -> 299
+	276 -> 375
+	373 -> 374
+	378 -> 362
+	70 -> 71
+	34 -> 68
+	12 -> 292
+	299 -> 378
+	376 -> 377
+	67 -> 71
+	277 -> 376
+	377 -> 378
+	275 -> 276
+	276 -> 381
+	374 [label="Math Formula"]
+	292 [label="Document Vector"]
+	377 [label="XGBoost Predictor"]
+	275 [label="Category To Class"]
+	381 [label="Bar Chart"]
+	363 [label="XGBoost Tree Ensemble Learner"]
+	277 [label=Partitioning]
+	31 [label="N Chars Filter"]
+	373 [label=Statistics]
+	376 [label="XGBoost Tree Ensemble Learner"]
+	361 [label="Create Bit Vector"]
+	12 [label=TF]
+	299 [label="XGBoost Predictor"]
+	68 [label="Bag Of Words Creator"]
+	67 [label="Java Edit Variable"]
+	378 [label=Joiner]
+	380 [label="Table Reader"]
+	375 [label=Joiner]
+	34 [label="Snowball Stemmer"]
+	66 [label="Extract Table Dimension"]
+	29 [label="Punctuation Erasure"]
+	70 [label=DF]
+	69 [label="Stop Word Filter"]
+	71 [label="Row Filter"]
+	362 [label="Binary Classification Inspector"]
+	276 [label="Color Manager"]
+	33 [label="Case converter"]
+	30 [label="Number Filter"]
+	rankdir=LR
+}

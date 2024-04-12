@@ -1,0 +1,12 @@
+digraph {
+	16 -> 17
+	15 -> 16
+	14 -> 15
+	17 -> 18
+	16 [label="Color Manager"]
+	18 [label="OSM Map View"]
+	15 [label="Shape Manager"]
+	14 [label="Table Creator"]
+	17 [label="Size Manager"]
+	rankdir=LR
+}

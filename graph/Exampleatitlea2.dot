@@ -1,0 +1,21 @@
+digraph {
+	14 -> 2
+	5 -> 4
+	4 -> 11
+	5 -> 7
+	5 -> 10
+	4 -> 12
+	10 -> 4
+	2 -> 5
+	14 -> 9
+	5 [label=Partitioning]
+	7 [label="Interactive Table"]
+	9 [label=Statistics]
+	11 [label="JavaScript Scatter Plot"]
+	4 [label="Decision Tree Predictor"]
+	10 [label="Decision Tree Learner"]
+	14 [label="CSV Reader"]
+	2 [label="Color Manager"]
+	12 [label=Scorer]
+	rankdir=LR
+}

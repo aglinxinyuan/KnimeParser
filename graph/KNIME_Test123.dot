@@ -1,0 +1,12 @@
+digraph {
+	3 -> 2
+	6 -> 4
+	2 -> 5
+	3 -> 6
+	5 [label="List Files_Folders"]
+	4 [label="Excel Reader"]
+	6 [label="SharePoint Online Connector"]
+	3 [label="Microsoft Authenticator"]
+	2 [label="SharePoint Online Connector"]
+	rankdir=LR
+}

@@ -1,0 +1,24 @@
+digraph {
+	6 -> 3
+	12 -> 13
+	1 -> 4
+	1 -> 2
+	1 -> 12
+	12 -> 14
+	1 -> 10
+	14 -> 15
+	1 -> 6
+	1 -> 5
+	5 [label=Heatmap]
+	14 [label="HeatMap _JFreeChart_"]
+	13 [label=Heatmap]
+	1 [label="CSV Reader"]
+	4 [label="Stacked Area Chart"]
+	6 [label="Color Manager"]
+	15 [label="Image Writer _Port_"]
+	12 [label="Distance Matrix Calculate"]
+	3 [label="Scatter Matrix _local_"]
+	2 [label="Box Plot"]
+	10 [label="Pie_Donut Chart"]
+	rankdir=LR
+}

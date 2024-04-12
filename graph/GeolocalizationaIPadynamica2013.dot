@@ -1,0 +1,59 @@
+digraph {
+	4 -> 3
+	120 -> 118
+	2 -> 6
+	114 -> 1
+	4 -> 120
+	7 -> 154
+	5 -> 2
+	4 -> 6
+	1 -> 4
+	123 -> 124
+	126 -> 123
+	159 -> 1
+	125 -> 126
+	10 -> 151
+	10 -> 8
+	1 -> 2
+	119 -> 124
+	158 -> 114
+	123 -> 159
+	153 -> 154
+	124 -> 125
+	9 -> 11
+	3 -> 5
+	8 -> 2
+	124 -> 159
+	6 -> 7
+	118 -> 119
+	7 -> 9
+	11 -> 10
+	3 -> 4
+	2 -> 9
+	2 -> 3
+	126 [label="DB Reader"]
+	7 [label="Image Converter"]
+	9 [label="Variable to Table Column"]
+	153 [label="Create Temp Dir"]
+	8 [label="PNG Image to ImgPlus"]
+	3 [label="Column Rename _Regex_"]
+	151 [label="Data to Report"]
+	119 [label="Column Filter"]
+	6 [label="Image Resizer"]
+	154 [label="Image Writer"]
+	114 [label="Rule_based Row Filter"]
+	10 [label="Loop End"]
+	123 [label=RowID]
+	125 [label="DB Table Selector"]
+	1 [label="Constant Value Column"]
+	158 [label="File Reader"]
+	11 [label="String Manipulation"]
+	4 [label=Merger]
+	124 [label="SQLite Connector"]
+	159 [label=Joiner]
+	5 [label="Color Manager"]
+	120 [label="Cell Splitter"]
+	118 [label="Math Formula"]
+	2 [label=Transpose]
+	rankdir=LR
+}

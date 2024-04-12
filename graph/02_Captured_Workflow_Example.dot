@@ -1,0 +1,19 @@
+digraph {
+	102 -> 64
+	65 -> 103
+	101 -> 65
+	60 -> 61
+	61 -> 65
+	64 -> 60
+	96 -> 61
+	64 -> 96
+	64 [label="Rule_based Row Splitter"]
+	96 [label="Constant Value Column"]
+	103 [label="Container Output _Table_"]
+	102 [label="Container Input _Table_"]
+	65 [label="Decision Tree Predictor"]
+	101 [label="PortObject Reference Reader"]
+	61 [label=Concatenate]
+	60 [label="Constant Value Column"]
+	rankdir=LR
+}

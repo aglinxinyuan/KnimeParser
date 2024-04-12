@@ -1,0 +1,27 @@
+digraph {
+	24 -> 26
+	24 -> 31
+	8 -> 13
+	29 -> 27
+	13 -> 14
+	31 -> 32
+	13 -> 25
+	14 -> 31
+	32 -> 27
+	14 -> 26
+	26 -> 28
+	25 -> 24
+	28 -> 29
+	24 [label="Row Aggregator"]
+	27 [label="Excel Writer"]
+	13 [label="Rule_based Row Filter"]
+	29 [label=Sorter]
+	31 [label="Column Appender"]
+	28 [label="Column Renamer"]
+	26 [label="Value Lookup"]
+	8 [label="Excel Reader"]
+	25 [label="Duplicate Row Filter"]
+	14 [label="Row Aggregator"]
+	32 [label="Column Renamer"]
+	rankdir=LR
+}

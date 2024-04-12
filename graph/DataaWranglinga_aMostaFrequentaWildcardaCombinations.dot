@@ -1,0 +1,48 @@
+digraph {
+	1 -> 294
+	315 -> 312
+	297 -> 298
+	298 -> 319
+	294 -> 321
+	304 -> 314
+	313 -> 305
+	303 -> 304
+	301 -> 313
+	294 -> 297
+	314 -> 315
+	324 -> 300
+	2 -> 307
+	312 -> 316
+	316 -> 325
+	323 -> 324
+	300 -> 315
+	321 -> 323
+	322 -> 321
+	305 -> 303
+	319 -> 322
+	300 -> 301
+	307 -> 304
+	324 [label=RowID]
+	307 [label="String Manipulation"]
+	322 [label=Unpivoting]
+	304 [label="Rule Engine"]
+	313 [label="Column Rename _Regex_"]
+	315 [label="Cross Joiner"]
+	316 [label=Sorter]
+	325 [label=RowID]
+	319 [label="R Source _Table_"]
+	1 [label="Table Creator"]
+	294 [label="Math Formula"]
+	321 [label="Cell Replacer"]
+	301 [label=Transpose]
+	298 [label="Table Row to Variable"]
+	314 [label=GroupBy]
+	303 [label="Table Column to Variable"]
+	323 [label=Pivoting]
+	300 [label="Group Loop Start"]
+	305 [label="String Manipulation"]
+	312 [label="Loop End"]
+	2 [label="Table Creator"]
+	297 [label=GroupBy]
+	rankdir=LR
+}

@@ -1,0 +1,41 @@
+digraph {
+	14 -> 43
+	30 -> 25
+	41 -> 42
+	42 -> 45
+	39 -> 18
+	50 -> 15
+	25 -> 39
+	15 -> 51
+	51 -> 19
+	52 -> 16
+	18 -> 14
+	28 -> 29
+	29 -> 30
+	26 -> 31
+	43 -> 41
+	16 -> 50
+	19 -> 13
+	31 -> 28
+	52 [label="CSV Reader"]
+	18 [label="Column Filter"]
+	26 [label="CSV Reader"]
+	19 [label="Column Expressions"]
+	41 [label="Column Filter"]
+	31 [label="Column Expressions"]
+	51 [label="Column Filter"]
+	15 [label="Column Aggregator"]
+	25 [label=Joiner]
+	16 [label="Duplicate Row Filter"]
+	50 [label=GroupBy]
+	42 [label="Column Rename"]
+	28 [label="String Manipulation _Multi Column_"]
+	14 [label=GroupBy]
+	43 [label="Split Collection Column"]
+	13 [label="Association Rule Learner _Borgelt_"]
+	29 [label="String Manipulation _Multi Column_"]
+	39 [label="Rule_based Row Filter"]
+	30 [label="String Manipulation _Multi Column_"]
+	45 [label="Column Aggregator"]
+	rankdir=LR
+}

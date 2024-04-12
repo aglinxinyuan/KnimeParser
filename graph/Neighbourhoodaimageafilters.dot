@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="Image Reader"]
+	4 [label="Image Viewer"]
+	3 [label="Global Thresholder"]
+	2 [label="Average Filter"]
+	rankdir=LR
+}

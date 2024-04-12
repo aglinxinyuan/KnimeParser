@@ -1,0 +1,8 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	1 [label="String Input"]
+	3 [label="PostgreSQL Connector"]
+	2 [label="Credentials Configuration"]
+	rankdir=LR
+}

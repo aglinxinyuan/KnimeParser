@@ -1,0 +1,32 @@
+digraph {
+	5 -> 8
+	1 -> 22
+	21 -> 24
+	21 -> 19
+	7 -> 4
+	21 -> 25
+	21 -> 16
+	21 -> 17
+	8 -> 7
+	25 -> 20
+	15 -> 21
+	21 -> 18
+	1 -> 7
+	1 -> 5
+	5 [label="Moving Average"]
+	16 [label="Data Explorer"]
+	24 [label="Rank Correlation"]
+	20 [label="Scatter Plot"]
+	1 [label="CSV Reader"]
+	7 [label=Joiner]
+	22 [label="Line Plot"]
+	4 [label="Line Plot"]
+	21 [label="Column Filter"]
+	18 [label="Box Plot"]
+	8 [label="Column Rename"]
+	15 [label="CSV Reader"]
+	25 [label="Color Manager"]
+	17 [label="Numeric Outliers"]
+	19 [label="Bar Chart"]
+	rankdir=LR
+}

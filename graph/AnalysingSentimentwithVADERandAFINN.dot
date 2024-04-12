@@ -1,0 +1,105 @@
+digraph {
+	923 -> 955
+	20 -> 21
+	21 -> 109
+	954 -> 950
+	109 -> 100
+	892 -> 930
+	894 -> 931
+	954 -> 952
+	108 -> 109
+	136 -> 137
+	892 -> 893
+	132 -> 134
+	895 -> 932
+	134 -> 141
+	134 -> 136
+	943 -> 951
+	21 -> 29
+	923 -> 922
+	948 -> 954
+	951 -> 948
+	922 -> 925
+	924 -> 945
+	137 -> 890
+	921 -> 920
+	942 -> 933
+	95 -> 100
+	952 -> 958
+	943 -> 947
+	948 -> 949
+	100 -> 953
+	925 -> 924
+	100 -> 111
+	105 -> 107
+	138 -> 134
+	895 -> 942
+	18 -> 20
+	100 -> 105
+	924 -> 942
+	933 -> 946
+	894 -> 895
+	954 -> 959
+	131 -> 138
+	107 -> 921
+	920 -> 923
+	950 -> 957
+	933 -> 943
+	21 -> 138
+	891 -> 892
+	890 -> 891
+	893 -> 894
+	953 -> 951
+	134 -> 953
+	942 [label=Joiner]
+	948 [label="Rule_based Row Filter"]
+	136 [label="Tag Filter"]
+	920 [label="Tags To String"]
+	950 [label="Tagged Document Viewer"]
+	18 [label="CSV Reader"]
+	21 [label="Strings To Document"]
+	924 [label="Rule Engine"]
+	138 [label="Dictionary Tagger"]
+	947 [label="Table Manipulator"]
+	108 [label="Excel Reader"]
+	921 [label=TF]
+	105 [label="Tag Filter"]
+	922 [label="Missing Value"]
+	930 [label="Table Manipulator"]
+	957 [label="CSV Writer"]
+	959 [label="CSV Writer"]
+	933 [label=Sorter]
+	137 [label="Bag Of Words Creator"]
+	952 [label="Tagged Document Viewer"]
+	955 [label="Table Manipulator"]
+	131 [label="Excel Reader"]
+	109 [label="Dictionary Tagger"]
+	943 [label="Rule Engine"]
+	949 [label="Table Manipulator"]
+	895 [label="Rule Engine"]
+	141 [label="Tagged Document Viewer"]
+	931 [label="Table Manipulator"]
+	951 [label=Joiner]
+	932 [label="Table Manipulator"]
+	946 [label="Table Manipulator"]
+	953 [label=Joiner]
+	100 [label="Dictionary Tagger"]
+	890 [label=TF]
+	892 [label=Pivoting]
+	894 [label="Math Formula"]
+	134 [label="Dictionary Tagger"]
+	107 [label="Bag Of Words Creator"]
+	945 [label="Table Manipulator"]
+	20 [label=RowID]
+	925 [label="Math Formula"]
+	29 [label="Document Viewer"]
+	891 [label="Tags To String"]
+	893 [label="Missing Value"]
+	923 [label=Pivoting]
+	954 [label="Table Manipulator"]
+	95 [label="Excel Reader"]
+	111 [label="Tagged Document Viewer"]
+	958 [label="CSV Writer"]
+	132 [label="Excel Reader"]
+	rankdir=LR
+}

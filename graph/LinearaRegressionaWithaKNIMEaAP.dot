@@ -1,0 +1,33 @@
+digraph {
+	8 -> 15
+	7 -> 8
+	14 -> 16
+	8 -> 9
+	12 -> 14
+	10 -> 5
+	13 -> 16
+	17 -> 7
+	21 -> 17
+	17 -> 8
+	18 -> 20
+	11 -> 12
+	15 -> 13
+	16 -> 18
+	10 -> 21
+	5 [label="Scatter Plot"]
+	16 [label=Concatenate]
+	13 [label="Constant Value Column"]
+	20 [label="Scatter Plot"]
+	7 [label="Linear Regression Learner"]
+	9 [label="Numeric Scorer"]
+	11 [label="Column Filter"]
+	21 [label="Missing Value"]
+	18 [label="Color Manager"]
+	10 [label="Table Reader"]
+	8 [label="Regression Predictor"]
+	15 [label="Column Filter"]
+	14 [label="Constant Value Column"]
+	17 [label=Partitioning]
+	12 [label="Column Rename"]
+	rankdir=LR
+}

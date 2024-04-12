@@ -1,0 +1,12 @@
+digraph {
+	3 -> 7
+	5 -> 4
+	5 -> 6
+	3 -> 5
+	5 [label="Column Filter"]
+	7 [label="Table Writer"]
+	4 [label="Linear Correlation"]
+	6 [label="Rank Correlation"]
+	3 [label="File Reader"]
+	rankdir=LR
+}

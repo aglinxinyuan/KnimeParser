@@ -1,0 +1,20 @@
+digraph {
+	9 -> 7
+	7 -> 8
+	1 -> 4
+	4 -> 5
+	1 -> 2
+	2 -> 10
+	5 -> 6
+	1 -> 9
+	5 [label="JSON Path"]
+	1 [label="JSON Reader"]
+	7 [label="JSON Path"]
+	9 [label="JSON Path"]
+	4 [label="JSON Path"]
+	6 [label=Ungroup]
+	8 [label=Ungroup]
+	2 [label="JSON To XML"]
+	10 [label=XPath]
+	rankdir=LR
+}

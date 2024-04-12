@@ -1,0 +1,45 @@
+digraph {
+	35 -> 34
+	20 -> 21
+	27 -> 24
+	21 -> 16
+	33 -> 19
+	34 -> 28
+	16 -> 35
+	29 -> 30
+	22 -> 17
+	26 -> 27
+	25 -> 26
+	19 -> 23
+	33 -> 20
+	34 -> 32
+	34 -> 31
+	19 -> 22
+	36 -> 34
+	34 -> 25
+	33 -> 3
+	17 -> 36
+	28 -> 29
+	27 [label="Math Formula"]
+	21 [label=RowID]
+	26 [label="Math Formula"]
+	32 [label="Math Formula _Multi Column_"]
+	17 [label=Sorter]
+	3 [label=GroupBy]
+	19 [label=Pivoting]
+	24 [label="Constant Value Column"]
+	31 [label="Java Snippet _simple_"]
+	25 [label="Math Formula"]
+	16 [label=Sorter]
+	22 [label=RowID]
+	28 [label="Java Snippet"]
+	23 [label=Unpivoting]
+	20 [label=Pivoting]
+	35 [label="Column Renamer"]
+	34 [label=Joiner]
+	29 [label="Java Snippet"]
+	36 [label="Column Renamer"]
+	33 [label="CSV Reader"]
+	30 [label="Java Snippet"]
+	rankdir=LR
+}

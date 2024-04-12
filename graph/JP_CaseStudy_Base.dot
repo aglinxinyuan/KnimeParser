@@ -1,0 +1,12 @@
+digraph {
+	127 -> 124
+	125 -> 127
+	1 -> 125
+	1 -> 129
+	125 [label="Row Aggregator"]
+	1 [label="CSV Reader"]
+	127 [label="Math Formula"]
+	124 [label="Rule_based Row Filter"]
+	129 [label="Pie Chart"]
+	rankdir=LR
+}

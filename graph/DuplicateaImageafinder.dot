@@ -1,0 +1,24 @@
+digraph {
+	3 -> 9
+	12 -> 13
+	15 -> 8
+	13 -> 14
+	8 -> 2
+	7 -> 12
+	14 -> 15
+	9 -> 10
+	2 -> 3
+	10 -> 11
+	13 [label="Duplicate Row Filter"]
+	7 [label="List Files_Folders"]
+	9 [label="Duplicate Row Filter"]
+	11 [label=Sorter]
+	10 [label="Rule_based Row Splitter"]
+	8 [label="Path to URI"]
+	15 [label="Column Filter"]
+	14 [label="Row Filter"]
+	3 [label="String Manipulation"]
+	2 [label="Read Images"]
+	12 [label="Files_Folders Meta Info"]
+	rankdir=LR
+}

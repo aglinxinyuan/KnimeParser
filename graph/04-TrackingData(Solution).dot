@@ -1,0 +1,18 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	3 -> 4
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	5 [label="Math Formula"]
+	1 [label="CSV Reader"]
+	7 [label="Loop End"]
+	4 [label="Lag Column"]
+	6 [label=GroupBy]
+	8 [label="Scatter Plot _local_"]
+	3 [label="Lag Column"]
+	2 [label="Group Loop Start"]
+	rankdir=LR
+}

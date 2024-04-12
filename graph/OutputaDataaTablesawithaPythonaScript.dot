@@ -1,0 +1,19 @@
+digraph {
+	2 -> 12
+	4 -> 14
+	3 -> 6
+	2 -> 11
+	4 -> 13
+	1 -> 5
+	5 [label="Table Writer"]
+	13 [label="Table View"]
+	1 [label="Python Script _Labs_"]
+	11 [label="Table View"]
+	4 [label="Python Script _Labs_"]
+	6 [label="Table Writer"]
+	14 [label="Table View"]
+	3 [label="Python Script _Labs_"]
+	2 [label="Python Script _Labs_"]
+	12 [label="Table View"]
+	rankdir=LR
+}

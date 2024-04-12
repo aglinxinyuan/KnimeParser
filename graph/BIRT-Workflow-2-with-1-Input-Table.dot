@@ -1,0 +1,16 @@
+digraph {
+	3 -> 7
+	8 -> 9
+	4 -> 8
+	7 -> 4
+	1 -> 2
+	2 -> 3
+	1 [label="Container Input _JSON_"]
+	7 [label="String to Path _Variable_"]
+	9 [label="Image to Report"]
+	4 [label="Excel Reader"]
+	8 [label="Bar Chart"]
+	3 [label="Table Row to Variable"]
+	2 [label="JSON to Table"]
+	rankdir=LR
+}

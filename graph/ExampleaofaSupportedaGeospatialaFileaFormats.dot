@@ -1,0 +1,26 @@
+digraph {
+	3 -> 15
+	1 -> 8
+	10 -> 9
+	4 -> 14
+	8 -> 7
+	6 -> 10
+	11 -> 12
+	2 -> 3
+	14 -> 13
+	13 [label="Geospatial View"]
+	1 [label="GeoFile Reader"]
+	7 [label="Geospatial View"]
+	12 [label="Geospatial View"]
+	9 [label="Geospatial View Static"]
+	11 [label="GeoFile Reader"]
+	4 [label="Table Creator"]
+	8 [label="Row Filter"]
+	15 [label="Geospatial View"]
+	6 [label="GeoPackage Reader"]
+	14 [label="WKT to Geometry"]
+	3 [label="Lat_Lon to Geometry"]
+	2 [label="Table Creator"]
+	10 [label=Projection]
+	rankdir=LR
+}

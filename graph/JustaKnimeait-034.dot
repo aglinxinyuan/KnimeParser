@@ -1,0 +1,14 @@
+digraph {
+	4 -> 8
+	3 -> 4
+	8 -> 7
+	1 -> 3
+	7 -> 9
+	1 [label="Table Creator"]
+	7 [label=Transpose]
+	9 [label="Column Combiner"]
+	4 [label=Transpose]
+	8 [label=Shuffle]
+	3 [label="Cell Splitter"]
+	rankdir=LR
+}

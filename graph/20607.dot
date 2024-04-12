@@ -1,0 +1,17 @@
+digraph {
+	843 -> 844
+	842 -> 840
+	844 -> 838
+	839 -> 843
+	839 -> 841
+	841 -> 842
+	840 -> 844
+	841 [label="Extract Column Header"]
+	844 [label="Color Appender"]
+	839 [label="Data Generator"]
+	842 [label=Transpose]
+	843 [label=Unpivoting]
+	840 [label="Color Manager"]
+	838 [label="Scatter Plot"]
+	rankdir=LR
+}

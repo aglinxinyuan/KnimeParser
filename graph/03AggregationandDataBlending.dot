@@ -1,0 +1,33 @@
+digraph {
+	21 -> 10
+	21 -> 23
+	16 -> 17
+	21 -> 7
+	2 -> 1
+	15 -> 17
+	19 -> 20
+	18 -> 20
+	2 -> 3
+	14 -> 13
+	21 -> 21
+	11 -> 13
+	22 -> 23
+	16 [label="CSV Reader"]
+	13 [label=Joiner]
+	20 [label=Joiner]
+	1 [label=GroupBy]
+	7 [label="Row Filter"]
+	22 [label="CSV Reader"]
+	11 [label="CSV Reader"]
+	21 [label="CSV Reader"]
+	18 [label="CSV Reader"]
+	23 [label=Concatenate]
+	15 [label="CSV Reader"]
+	14 [label="CSV Reader"]
+	17 [label=Joiner]
+	3 [label=GroupBy]
+	2 [label="CSV Reader"]
+	10 [label=Pivoting]
+	19 [label="CSV Reader"]
+	rankdir=LR
+}

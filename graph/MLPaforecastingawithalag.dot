@@ -1,0 +1,55 @@
+digraph {
+	21 -> 6
+	4 -> 5
+	11 -> 9
+	8 -> 9
+	14 -> 11
+	24 -> 14
+	24 -> 21
+	18 -> 19
+	20 -> 23
+	1 -> 12
+	4 -> 22
+	4 -> 11
+	25 -> 26
+	8 -> 4
+	17 -> 18
+	23 -> 21
+	9 -> 25
+	13 -> 17
+	24 -> 16
+	6 -> 14
+	13 -> 24
+	12 -> 2
+	3 -> 8
+	19 -> 20
+	5 -> 6
+	2 -> 3
+	4 -> 13
+	16 -> 17
+	22 -> 13
+	9 [label=Denormalizer]
+	18 [label="Rule Engine"]
+	21 [label="Column Appender"]
+	26 [label="JavaScript Line Plot"]
+	8 [label=Normalizer]
+	17 [label="Reference Row Filter"]
+	3 [label="Counter Generation"]
+	19 [label="Rule Engine"]
+	24 [label="Row Splitter"]
+	6 [label="MultiLayerPerceptron Predictor"]
+	25 [label="Missing Value"]
+	12 [label="Lag Column"]
+	16 [label="Math Formula"]
+	1 [label="Table Creator"]
+	22 [label="Column Filter"]
+	11 [label=Concatenate]
+	4 [label="Row Splitter"]
+	23 [label="Column Filter"]
+	14 [label="Recursive Loop End _2 ports_"]
+	5 [label="RProp MLP Learner"]
+	13 [label="Recursive Loop Start _2 ports_"]
+	20 [label="Rule Engine"]
+	2 [label="Add Empty Rows"]
+	rankdir=LR
+}

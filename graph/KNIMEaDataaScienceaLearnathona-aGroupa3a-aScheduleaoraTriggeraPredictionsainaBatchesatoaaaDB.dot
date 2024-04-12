@@ -1,0 +1,14 @@
+digraph {
+	160 -> 161
+	158 -> 161
+	158 -> 166
+	165 -> 158
+	164 -> 158
+	165 [label="Table Reader"]
+	164 [label="Model Reader"]
+	161 [label="DB Writer"]
+	158 [label="Random Forest Predictor"]
+	160 [label="SQLite Connector"]
+	166 [label="Table Writer"]
+	rankdir=LR
+}

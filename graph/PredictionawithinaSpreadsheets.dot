@@ -1,0 +1,43 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	13 -> 14
+	21 -> 17
+	12 -> 13
+	18 -> 19
+	14 -> 15
+	17 -> 18
+	5 -> 7
+	16 -> 21
+	19 -> 25
+	15 -> 16
+	9 -> 11
+	19 -> 22
+	9 -> 12
+	6 -> 7
+	3 -> 6
+	17 -> 19
+	2 -> 5
+	1 -> 5
+	7 [label="Value Lookup"]
+	9 [label="Rule Engine"]
+	21 [label="Domain Calculator"]
+	18 [label="Gradient Boosted Trees Learner"]
+	8 [label="Missing Value"]
+	17 [label=Partitioning]
+	3 [label="Excel Reader"]
+	19 [label="Gradient Boosted Trees Predictor"]
+	6 [label="Column Renamer"]
+	15 [label="Column Renamer"]
+	25 [label="ROC Curve"]
+	12 [label="Date_Time Difference"]
+	16 [label="Table Cropper"]
+	1 [label="Excel Reader"]
+	22 [label=Scorer]
+	11 [label="Bar Chart"]
+	14 [label="Column Resorter"]
+	5 [label="Value Lookup"]
+	13 [label="Rule Engine"]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,30 @@
+digraph {
+	89 -> 90
+	86 -> 91
+	86 -> 89
+	95 -> 87
+	86 -> 88
+	86 -> 92
+	81 -> 83
+	95 -> 86
+	81 -> 84
+	88 -> 89
+	95 -> 85
+	92 -> 93
+	95 -> 81
+	91 -> 92
+	86 [label=Partitioning]
+	91 [label="Decision Tree Learner"]
+	92 [label="Decision Tree Predictor"]
+	90 [label=Scorer]
+	84 [label="Scatter Plot"]
+	89 [label="Decision Tree Predictor"]
+	87 [label="Decision Tree Learner"]
+	88 [label="Decision Tree Learner"]
+	95 [label="Table Reader"]
+	93 [label=Scorer]
+	83 [label="Scatter Plot"]
+	85 [label="Decision Tree Learner"]
+	81 [label="Color Manager"]
+	rankdir=LR
+}

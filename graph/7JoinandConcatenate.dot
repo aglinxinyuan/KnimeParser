@@ -1,0 +1,8 @@
+digraph {
+	3 -> 5
+	1 -> 5
+	1 [label="CSV Reader"]
+	5 [label=Joiner]
+	3 [label="CSV Reader"]
+	rankdir=LR
+}

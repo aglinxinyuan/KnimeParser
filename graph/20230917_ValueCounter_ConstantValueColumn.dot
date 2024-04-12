@@ -1,0 +1,14 @@
+digraph {
+	6 -> 4
+	7 -> 6
+	5 -> 3
+	1 -> 2
+	5 [label="Excel Reader"]
+	1 [label="Excel Reader"]
+	7 [label="Excel Reader"]
+	4 [label=GroupBy]
+	6 [label="Constant Value Column"]
+	3 [label="Constant Value Column"]
+	2 [label="Value Counter"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	1 -> 8
+	8 -> 9
+	12 -> 14
+	9 -> 11
+	11 -> 4
+	4 -> 12
+	14 -> 13
+	13 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	9 [label="Group Loop Start"]
+	11 [label="Moving Aggregator"]
+	4 [label="Column Expressions"]
+	8 [label=Unpivot]
+	14 [label="Column Renamer"]
+	12 [label="Loop End"]
+	rankdir=LR
+}

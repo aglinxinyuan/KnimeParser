@@ -1,0 +1,88 @@
+digraph {
+	18 -> 13
+	58 -> 25
+	21 -> 23
+	13 -> 14
+	49 -> 46
+	34 -> 35
+	39 -> 41
+	46 -> 50
+	27 -> 59
+	30 -> 33
+	55 -> 56
+	51 -> 53
+	56 -> 44
+	26 -> 27
+	17 -> 18
+	20 -> 17
+	25 -> 26
+	31 -> 37
+	36 -> 58
+	27 -> 30
+	48 -> 49
+	25 -> 57
+	40 -> 30
+	28 -> 39
+	35 -> 36
+	47 -> 48
+	22 -> 28
+	60 -> 61
+	41 -> 40
+	52 -> 53
+	15 -> 20
+	19 -> 20
+	23 -> 25
+	53 -> 55
+	44 -> 42
+	30 -> 44
+	33 -> 60
+	50 -> 56
+	14 -> 23
+	30 -> 38
+	24 -> 34
+	33 -> 31
+	27 [label="Column Resorter"]
+	57 [label="Excel Writer"]
+	55 [label="Duplicate Row Filter"]
+	52 [label="Excel Reader"]
+	18 [label="String Manipulation"]
+	21 [label="Excel Reader"]
+	26 [label="Column Filter"]
+	58 [label="String Manipulation"]
+	17 [label="Column Renamer"]
+	19 [label="Excel Reader"]
+	24 [label="Excel Reader"]
+	49 [label="String Manipulation"]
+	41 [label="String To Number"]
+	31 [label="Rule_based Row Filter"]
+	51 [label="Excel Reader"]
+	56 [label="Cross Joiner"]
+	15 [label="Excel Reader"]
+	25 [label=Joiner]
+	59 [label="Excel Writer"]
+	48 [label="Column Renamer"]
+	50 [label=Ungroup]
+	42 [label="Excel Writer"]
+	22 [label="CSV Reader"]
+	53 [label=Joiner]
+	28 [label="String Manipulation"]
+	23 [label=Joiner]
+	47 [label="Excel Reader"]
+	61 [label="Excel Writer"]
+	14 [label=Ungroup]
+	38 [label="Excel Writer"]
+	60 [label="Rule_based Row Filter"]
+	20 [label=Joiner]
+	13 [label="Cell Splitter"]
+	44 [label=Joiner]
+	34 [label="String Manipulation"]
+	35 [label="String Manipulation"]
+	36 [label="String Manipulation"]
+	46 [label="Cell Splitter"]
+	40 [label="Math Formula"]
+	39 [label="String Manipulation"]
+	33 [label="Column Auto Type Cast"]
+	30 [label=Joiner]
+	37 [label="Excel Writer"]
+	rankdir=LR
+}

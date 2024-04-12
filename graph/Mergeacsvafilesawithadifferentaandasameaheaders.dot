@@ -1,0 +1,58 @@
+digraph {
+	23 -> 24
+	13 -> 14
+	11 -> 5
+	5 -> 12
+	26 -> 21
+	34 -> 35
+	36 -> 446
+	35 -> 13
+	35 -> 9
+	28 -> 7
+	32 -> 34
+	7 -> 35
+	18 -> 17
+	22 -> 36
+	5 -> 15
+	25 -> 26
+	21 -> 28
+	10 -> 11
+	15 -> 16
+	19 -> 17
+	14 -> 18
+	12 -> 22
+	24 -> 25
+	36 -> 37
+	16 -> 19
+	9 -> 10
+	17 -> 12
+	31 -> 28
+	7 [label="Java Snippet _simple_"]
+	9 [label="Rule_based Row Filter"]
+	18 [label="Column Rename"]
+	21 [label="Table Row To Variable Loop Start"]
+	26 [label=Sorter]
+	17 [label=Joiner]
+	19 [label="Column Rename"]
+	24 [label="String to URI"]
+	31 [label="R Source _Table_"]
+	15 [label="Extract Column Header"]
+	25 [label="File Meta Info"]
+	10 [label=GroupBy]
+	12 [label="Insert Column Header"]
+	16 [label=Transpose]
+	446 [label="Excel Sheet Appender _XLS_"]
+	22 [label="Loop End"]
+	28 [label="R Snippet"]
+	11 [label="Table Row to Variable"]
+	23 [label="List Files"]
+	14 [label=Transpose]
+	5 [label="CSV Reader"]
+	13 [label="Extract Column Header"]
+	35 [label="Column Rename"]
+	34 [label="Table Column to Variable"]
+	36 [label="Column Resorter"]
+	32 [label="Table Creator"]
+	37 [label="Table Writer"]
+	rankdir=LR
+}

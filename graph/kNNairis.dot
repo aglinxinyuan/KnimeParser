@@ -1,0 +1,20 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	3 -> 5
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	5 -> 9
+	2 -> 8
+	4 -> 9
+	5 [label="Normalizer _Apply_"]
+	1 [label="Table Reader"]
+	9 [label="K Nearest Neighbor"]
+	4 [label=Normalizer]
+	8 [label="Scatter Plot"]
+	3 [label=Partitioning]
+	2 [label="Color Manager"]
+	10 [label="Scorer _JavaScript_"]
+	rankdir=LR
+}

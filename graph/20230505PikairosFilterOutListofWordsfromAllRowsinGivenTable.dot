@@ -1,0 +1,24 @@
+digraph {
+	12 -> 23
+	1 -> 22
+	7 -> 20
+	20 -> 19
+	11 -> 20
+	19 -> 18
+	7 -> 21
+	11 -> 18
+	18 -> 12
+	21 -> 11
+	22 -> 11
+	20 [label="Row Filter"]
+	1 [label="Table Creator"]
+	7 [label="Table Creator"]
+	22 [label="String Manipulation"]
+	11 [label="Recursive Loop Start"]
+	21 [label="Extract Table Dimension"]
+	18 [label="String Manipulation"]
+	23 [label="Rule_based Row Splitter"]
+	12 [label="Recursive Loop End"]
+	19 [label="Table Row to Variable"]
+	rankdir=LR
+}

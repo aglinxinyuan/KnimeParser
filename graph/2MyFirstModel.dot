@@ -1,0 +1,32 @@
+digraph {
+	29 -> 34
+	16 -> 35
+	16 -> 30
+	29 -> 31
+	32 -> 16
+	34 -> 33
+	35 -> 33
+	19 -> 20
+	20 -> 16
+	19 -> 28
+	16 -> 37
+	32 -> 29
+	33 -> 36
+	20 -> 27
+	28 -> 29
+	16 [label="Decision Tree Predictor"]
+	27 [label="Decision Tree View _JavaScript_"]
+	20 [label="Decision Tree Learner"]
+	35 [label="Column Renamer"]
+	34 [label="Column Renamer"]
+	29 [label="Naive Bayes Predictor"]
+	28 [label="Naive Bayes Learner"]
+	31 [label="Scorer _JavaScript_"]
+	36 [label="ROC Curve"]
+	37 [label=Scorer]
+	32 [label="CSV Reader"]
+	33 [label=Joiner]
+	30 [label="Scorer _JavaScript_"]
+	19 [label="CSV Reader"]
+	rankdir=LR
+}

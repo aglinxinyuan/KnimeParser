@@ -1,0 +1,21 @@
+digraph {
+	7 -> 8
+	9 -> 3
+	10 -> 6
+	6 -> 11
+	8 -> 10
+	3 -> 5
+	2 -> 9
+	8 -> 2
+	5 -> 10
+	5 [label="Labeling Arithmetic"]
+	7 [label="Image Reader"]
+	9 [label="Rotation 2D"]
+	11 [label=Ungroup]
+	6 [label="Labeling to PNG Images"]
+	8 [label="Gaussian Convolution"]
+	3 [label="Connected Component Analysis"]
+	2 [label="Global Thresholder"]
+	10 [label=Joiner]
+	rankdir=LR
+}

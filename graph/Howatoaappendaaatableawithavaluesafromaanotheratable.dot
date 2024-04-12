@@ -1,0 +1,8 @@
+digraph {
+	1 -> 4
+	2 -> 4
+	1 [label="Table Creator"]
+	4 [label="Random Matcher"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

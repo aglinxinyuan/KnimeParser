@@ -1,0 +1,32 @@
+digraph {
+	14 -> 8
+	13 -> 7
+	8 -> 9
+	15 -> 16
+	20 -> 19
+	10 -> 15
+	6 -> 10
+	9 -> 12
+	1 -> 6
+	12 -> 20
+	7 -> 10
+	6 -> 9
+	6 -> 7
+	16 -> 17
+	6 -> 8
+	16 [label="Table Row to Variable"]
+	14 [label="Parameter Optimization Loop Start"]
+	20 [label="Table Column to Variable"]
+	13 [label="Parameter Optimization Loop Start"]
+	1 [label="CSV Reader"]
+	7 [label="Logistic Regression Learner"]
+	9 [label="Decision Tree Predictor"]
+	8 [label="Decision Tree Learner"]
+	6 [label=Partitioning]
+	15 [label="ROC Curve"]
+	12 [label=Scorer]
+	17 [label="Parameter Optimization Loop End"]
+	10 [label="Logistic Regression Predictor"]
+	19 [label="Parameter Optimization Loop End"]
+	rankdir=LR
+}

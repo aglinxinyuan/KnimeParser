@@ -1,0 +1,20 @@
+digraph {
+	289 -> 2014
+	2015 -> 2014
+	288 -> 289
+	2014 -> 2016
+	288 -> 2013
+	287 -> 288
+	1 -> 289
+	1 -> 287
+	2013 -> 2015
+	2014 [label="CSV Writer"]
+	2015 [label="String to Path _Variable_"]
+	289 [label="Rule_based Row Filter"]
+	1 [label="CSV Reader"]
+	2016 [label="Variable Loop End"]
+	287 [label=GroupBy]
+	2013 [label="Java Edit Variable _simple_"]
+	288 [label="Table Row To Variable Loop Start"]
+	rankdir=LR
+}

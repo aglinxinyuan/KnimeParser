@@ -1,0 +1,57 @@
+digraph {
+	436 -> 438
+	299 -> 433
+	440 -> 283
+	440 -> 400
+	398 -> 440
+	440 -> 284
+	410 -> 439
+	443 -> 444
+	89 -> 435
+	434 -> 442
+	438 -> 441
+	444 -> 89
+	285 -> 294
+	286 -> 294
+	283 -> 287
+	435 -> 434
+	441 -> 439
+	400 -> 441
+	391 -> 410
+	284 -> 285
+	294 -> 397
+	437 -> 436
+	439 -> 440
+	287 -> 286
+	397 -> 391
+	442 -> 437
+	435 -> 436
+	442 -> 397
+	441 -> 442
+	400 [label="Keras Dropout Layer"]
+	284 [label="Constant Value Column"]
+	89 [label="String Manipulation"]
+	398 [label="Keras Input Layer"]
+	286 [label="Create Collection Column"]
+	442 [label="Keras Dense Layer"]
+	438 [label="Document Data Extractor"]
+	283 [label="Constant Value Column"]
+	439 [label="TensorFlow Network Writer"]
+	440 [label="Keras LSTM Layer"]
+	436 [label="Dictionary Replacer"]
+	443 [label="CSV Reader"]
+	437 [label="Number To String"]
+	285 [label="Create Collection Column"]
+	434 [label="Unique Term Extractor"]
+	294 [label="Column Appender"]
+	433 [label=GroupBy]
+	299 [label="Table Reader"]
+	391 [label="DL Python Network Editor"]
+	397 [label="Keras Network Learner"]
+	287 [label="Column Resorter"]
+	435 [label="Strings To Document"]
+	441 [label="Keras Dense Layer"]
+	444 [label=GroupBy]
+	410 [label="Keras to TensorFlow Network Converter"]
+	rankdir=LR
+}

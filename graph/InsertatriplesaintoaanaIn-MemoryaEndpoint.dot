@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	6 -> 3
+	3 -> 4
+	4 [label="SPARQL Select Query"]
+	6 [label="Table Reader"]
+	3 [label="SPARQL Insert"]
+	2 [label="In_Memory Endpoint"]
+	rankdir=LR
+}

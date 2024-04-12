@@ -1,0 +1,62 @@
+digraph {
+	2 -> 1
+	13 -> 14
+	27 -> 48
+	48 -> 45
+	1 -> 51
+	46 -> 48
+	58 -> 48
+	29 -> 30
+	18 -> 17
+	14 -> 28
+	29 -> 32
+	10 -> 11
+	49 -> 45
+	48 -> 49
+	49 -> 51
+	1 -> 48
+	50 -> 49
+	19 -> 22
+	59 -> 48
+	32 -> 33
+	31 -> 29
+	17 -> 19
+	19 -> 20
+	26 -> 48
+	67 -> 51
+	60 -> 48
+	65 -> 51
+	66 -> 51
+	27 [label="String Widget"]
+	18 [label="File Reader"]
+	26 [label="String Widget"]
+	58 [label="String Widget"]
+	32 [label="DB GroupBy"]
+	17 [label="Column Filter"]
+	19 [label=GroupBy]
+	49 [label="Merge Variables"]
+	31 [label="Microsoft SQL Server Connector"]
+	51 [label="Transfer Files"]
+	10 [label="CSV Reader"]
+	59 [label="String Widget"]
+	48 [label="Merge Variables"]
+	50 [label="String to Path _Variable_"]
+	1 [label="Amazon S3 Connector"]
+	22 [label="Rule_based Row Filter"]
+	28 [label="DB Reader"]
+	67 [label="String Widget"]
+	11 [label="Parquet Writer"]
+	14 [label="DB Table Selector"]
+	60 [label="String Widget"]
+	13 [label="MySQL Connector"]
+	20 [label=GroupBy]
+	66 [label="String Widget"]
+	29 [label="DB Table Selector"]
+	65 [label="String Widget"]
+	46 [label="String to Path _Variable_"]
+	33 [label="DB Reader"]
+	30 [label="DB Reader"]
+	2 [label="Amazon Authentication"]
+	45 [label="Transfer Files"]
+	rankdir=LR
+}

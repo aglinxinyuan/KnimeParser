@@ -1,0 +1,24 @@
+digraph {
+	12 -> 15
+	5 -> 8
+	12 -> 13
+	7 -> 8
+	8 -> 9
+	12 -> 14
+	12 -> 16
+	9 -> 10
+	10 -> 12
+	6 -> 8
+	5 [label="File Reader"]
+	16 [label="Scatter Plot Matrix"]
+	14 [label=Statistics]
+	13 [label=Histogram]
+	7 [label="File Reader"]
+	9 [label="Duplicate Row Filter"]
+	6 [label="File Reader"]
+	8 [label=Concatenate]
+	15 [label="Scatter Plot"]
+	12 [label="Column Filter"]
+	10 [label="Missing Value"]
+	rankdir=LR
+}

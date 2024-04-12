@@ -1,0 +1,22 @@
+digraph {
+	578 -> 575
+	13 -> 559
+	1 -> 11
+	3 -> 4
+	579 -> 578
+	4 -> 558
+	559 -> 579
+	558 -> 579
+	11 -> 13
+	579 [label=Joiner]
+	578 [label=Sorter]
+	13 [label="JSON to Table"]
+	1 [label="Kafka Connector"]
+	559 [label="Round Double"]
+	575 [label="Line Plot"]
+	11 [label="Kafka Consumer"]
+	4 [label="Column Rename"]
+	558 [label="Round Double"]
+	3 [label="MDF Reader"]
+	rankdir=LR
+}

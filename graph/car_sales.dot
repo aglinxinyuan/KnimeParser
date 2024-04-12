@@ -1,0 +1,18 @@
+digraph {
+	6 -> 8
+	16 -> 11
+	8 -> 9
+	17 -> 14
+	8 -> 16
+	8 -> 17
+	8 -> 12
+	16 [label=GroupBy]
+	9 [label="Line Plot"]
+	11 [label="Bar Chart"]
+	6 [label="CSV Reader"]
+	8 [label="Missing Value"]
+	14 [label=Histogram]
+	17 [label=GroupBy]
+	12 [label="Scatter Plot Matrix"]
+	rankdir=LR
+}

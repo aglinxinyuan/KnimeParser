@@ -1,0 +1,25 @@
+digraph {
+	55 -> 59
+	58 -> 49
+	34 -> 57
+	52 -> 55
+	29 -> 49
+	57 -> 58
+	58 -> 52
+	59 -> 60
+	49 -> 52
+	26 -> 29
+	27 -> 26
+	27 [label="DL4J Model Initializer"]
+	57 [label=Normalizer]
+	55 [label="Numeric Scorer"]
+	34 [label="File Reader"]
+	49 [label="DL4J Feedforward Learner _Regression_"]
+	29 [label="Dense Layer"]
+	26 [label="Dense Layer"]
+	58 [label=X_Partitioner]
+	52 [label="DL4J Feedforward Predictor _Regression_"]
+	60 [label="Loop End"]
+	59 [label=Transpose]
+	rankdir=LR
+}

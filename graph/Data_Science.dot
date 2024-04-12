@@ -1,0 +1,21 @@
+digraph {
+	9 -> 7
+	12 -> 6
+	8 -> 9
+	5 -> 12
+	11 -> 13
+	7 -> 10
+	6 -> 7
+	10 -> 11
+	12 -> 11
+	5 [label="CSV Reader"]
+	13 [label="ROC Curve"]
+	7 [label="Python Object Writer"]
+	9 [label="Java Edit Variable"]
+	11 [label="Python Predictor"]
+	6 [label="Python Learner"]
+	8 [label="Extract Context Properties"]
+	12 [label=Partitioning]
+	10 [label="Python Object Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,112 @@
+digraph {
+	308 -> 309
+	126 -> 303
+	312 -> 311
+	8 -> 9
+	301 -> 306
+	303 -> 57
+	306 -> 307
+	67 -> 62
+	67 -> 10
+	59 -> 126
+	30 -> 31
+	29 -> 30
+	306 -> 304
+	315 -> 314
+	307 -> 318
+	309 -> 310
+	57 -> 62
+	11 -> 12
+	6 -> 66
+	305 -> 306
+	130 -> 131
+	10 -> 11
+	8 -> 11
+	69 -> 33
+	12 -> 295
+	31 -> 69
+	57 -> 300
+	33 -> 34
+	66 -> 67
+	127 -> 308
+	314 -> 316
+	301 -> 302
+	132 -> 312
+	295 -> 296
+	57 -> 130
+	296 -> 298
+	68 -> 8
+	302 -> 315
+	57 -> 67
+	1 -> 129
+	318 -> 317
+	94 -> 59
+	57 -> 305
+	12 -> 94
+	34 -> 68
+	131 -> 301
+	291 -> 7
+	311 -> 313
+	1 -> 291
+	300 -> 301
+	62 -> 131
+	317 -> 319
+	131 -> 132
+	7 -> 6
+	9 -> 10
+	296 -> 299
+	62 -> 127
+	306 [label="Naive Bayes Predictor"]
+	57 [label=Partitioning]
+	126 [label="Column Filter"]
+	7 [label="Strings To Document"]
+	308 [label="Row Filter"]
+	307 [label=Scorer]
+	9 [label=GroupBy]
+	302 [label=Scorer]
+	304 [label="ROC Curve _JavaScript_"]
+	8 [label="Term To String"]
+	295 [label="Category To Class"]
+	313 [label="Table View"]
+	315 [label="Row Filter"]
+	316 [label="Table View"]
+	31 [label="N Chars Filter"]
+	311 [label="Row Aggregator"]
+	291 [label="String to Date_Time"]
+	131 [label="Decision Tree Predictor"]
+	6 [label="Column Filter"]
+	309 [label="Row Aggregator"]
+	129 [label=Partitioning]
+	10 [label="Row Filter"]
+	12 [label=TF]
+	59 [label="Category To Class"]
+	319 [label="Table View"]
+	1 [label="CSV Reader"]
+	310 [label="Table View"]
+	299 [label="Tag Cloud _JavaScript_"]
+	68 [label="Bag Of Words Creator"]
+	127 [label=Scorer]
+	67 [label="Java Edit Variable"]
+	296 [label="Row Splitter"]
+	11 [label="Reference Row Filter"]
+	301 [label="XGBoost Predictor"]
+	298 [label="Tag Cloud _JavaScript_"]
+	314 [label="Row Aggregator"]
+	94 [label="Document Vector"]
+	317 [label="Row Aggregator"]
+	34 [label="Snowball Stemmer"]
+	66 [label="Extract Table Dimension"]
+	29 [label="Punctuation Erasure"]
+	62 [label="SVM Predictor"]
+	69 [label="Stop Word Filter"]
+	312 [label="Row Filter"]
+	318 [label="Row Filter"]
+	303 [label="Equal Size Sampling"]
+	300 [label="XGBoost Tree Ensemble Learner"]
+	305 [label="Naive Bayes Learner"]
+	130 [label="Decision Tree Learner"]
+	33 [label="Case Converter"]
+	30 [label="Number Filter"]
+	132 [label=Scorer]
+	rankdir=LR
+}

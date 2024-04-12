@@ -1,0 +1,16 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 6
+	5 -> 1
+	1 -> 7
+	3 -> 1
+	5 [label="Table Row to Variable"]
+	1 [label="Chunk Loop Start"]
+	7 [label=Transpose]
+	4 [label="Table Creator"]
+	8 [label=Transpose]
+	6 [label="Loop End"]
+	3 [label="Data Generator"]
+	rankdir=LR
+}

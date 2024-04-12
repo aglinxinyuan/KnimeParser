@@ -1,0 +1,54 @@
+digraph {
+	681 -> 656
+	674 -> 676
+	690 -> 675
+	644 -> 702
+	678 -> 674
+	700 -> 701
+	668 -> 643
+	687 -> 682
+	667 -> 666
+	676 -> 687
+	663 -> 683
+	702 -> 690
+	675 -> 678
+	629 -> 700
+	704 -> 702
+	681 -> 701
+	705 -> 703
+	669 -> 644
+	703 -> 704
+	683 -> 674
+	678 -> 663
+	666 -> 668
+	656 -> 675
+	682 -> 681
+	681 -> 700
+	688 -> 690
+	681 [label="Visualization Property Extractor"]
+	669 [label="File Reader"]
+	705 [label="File Reader"]
+	629 [label="Network Creator"]
+	678 [label="Duplicate Row Filter"]
+	688 [label="Table Creator"]
+	674 [label=Joiner]
+	702 [label=Joiner]
+	668 [label="Row Filter"]
+	663 [label=GroupBy]
+	704 [label="Row Filter"]
+	643 [label=Joiner]
+	644 [label="Row Filter"]
+	675 [label="String Manipulation"]
+	667 [label="File Reader"]
+	690 [label="Cell Replacer"]
+	703 [label="Column Rename"]
+	683 [label="Column Rename"]
+	682 [label="Color Manager"]
+	676 [label=RowID]
+	666 [label="Column Rename"]
+	701 [label="Feature Inserter"]
+	687 [label="Constant Value Column"]
+	700 [label="Object Inserter"]
+	656 [label="Table Editor"]
+	rankdir=LR
+}

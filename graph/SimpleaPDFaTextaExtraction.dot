@@ -1,0 +1,13 @@
+digraph {
+	26 -> 28
+	28 -> 1310
+	1309 -> 1311
+	1311 -> 1312
+	1311 [label="Column Filter"]
+	1309 [label="Tika Parser"]
+	28 [label="Document Data Extractor"]
+	26 [label="PDF Parser"]
+	1312 [label="Table View"]
+	1310 [label="Table View"]
+	rankdir=LR
+}

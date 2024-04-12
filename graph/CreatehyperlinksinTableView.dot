@@ -1,0 +1,10 @@
+digraph {
+	1020 -> 1021
+	1018 -> 1020
+	1 -> 1018
+	1 [label="Table Creator"]
+	1020 [label="String Manipulation"]
+	1018 [label="String Manipulation"]
+	1021 [label="Table View"]
+	rankdir=LR
+}

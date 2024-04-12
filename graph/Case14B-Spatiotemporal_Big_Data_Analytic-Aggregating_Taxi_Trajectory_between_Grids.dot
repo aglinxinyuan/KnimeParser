@@ -1,0 +1,58 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	14 -> 16
+	8 -> 9
+	23 -> 24
+	13 -> 14
+	15 -> 18
+	7 -> 22
+	4 -> 6
+	6 -> 8
+	11 -> 23
+	3 -> 10
+	12 -> 13
+	18 -> 19
+	3 -> 7
+	14 -> 20
+	14 -> 15
+	17 -> 18
+	1 -> 2
+	11 -> 12
+	10 -> 11
+	5 -> 7
+	22 -> 24
+	9 -> 12
+	24 -> 25
+	3 -> 6
+	16 -> 17
+	19 -> 20
+	2 -> 3
+	11 -> 13
+	7 [label="Spatial Join"]
+	9 [label=GroupBy]
+	18 [label=Concatenate]
+	21 [label="Kepler_gl Geoview "]
+	8 [label=Joiner]
+	17 [label="Column Renamer"]
+	3 [label="Create Grid"]
+	19 [label="Points To Line"]
+	24 [label=Joiner]
+	6 [label="Spatial Join"]
+	15 [label="Column Filter"]
+	25 [label="Kepler_gl Geoview "]
+	12 [label=Joiner]
+	10 [label=Projection]
+	16 [label="Column Filter"]
+	1 [label="GeoPackage Reader"]
+	22 [label=GroupBy]
+	11 [label="Geometry To Point"]
+	4 [label="GeoPackage Reader"]
+	23 [label="Coordinates XYZ"]
+	14 [label="Math Formula"]
+	5 [label="GeoPackage Reader"]
+	13 [label=Joiner]
+	20 [label=Joiner]
+	2 [label=Projection]
+	rankdir=LR
+}

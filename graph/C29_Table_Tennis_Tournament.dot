@@ -1,0 +1,45 @@
+digraph {
+	37 -> 36
+	38 -> 36
+	42 -> 43
+	34 -> 35
+	44 -> 5
+	38 -> 37
+	30 -> 31
+	5 -> 26
+	40 -> 42
+	32 -> 35
+	33 -> 34
+	31 -> 23
+	1 -> 44
+	23 -> 32
+	23 -> 33
+	1 -> 42
+	24 -> 25
+	25 -> 30
+	26 -> 24
+	35 -> 40
+	25 -> 31
+	43 -> 38
+	25 -> 23
+	26 [label=Sorter]
+	32 [label="Column Filter"]
+	24 [label="Recursive Loop Start"]
+	31 [label="Rule_based Row Filter"]
+	25 [label="Row Splitter"]
+	1 [label="CSV Reader"]
+	42 [label=Joiner]
+	23 [label="Recursive Loop End"]
+	38 [label="Distance Matrix Calculate"]
+	5 [label="Distance Matrix Pair Extractor"]
+	43 [label=RowID]
+	35 [label=Concatenate]
+	44 [label="Distance Matrix Calculate"]
+	34 [label="Column Renamer"]
+	36 [label="Hierarchical Cluster Assigner"]
+	40 [label=RowID]
+	33 [label="Column Filter"]
+	30 [label="Table Row To Variable"]
+	37 [label="Hierarchical Clustering _DistMatrix_"]
+	rankdir=LR
+}

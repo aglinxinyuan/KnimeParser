@@ -1,0 +1,12 @@
+digraph {
+	22 -> 20
+	19 -> 18
+	18 -> 22
+	17 -> 22
+	20 [label=Scorer]
+	22 [label="Call Workflow _Table Based_"]
+	18 [label="Table Reader"]
+	17 [label="WrappedNode Input"]
+	19 [label="Single Selection Configuration"]
+	rankdir=LR
+}

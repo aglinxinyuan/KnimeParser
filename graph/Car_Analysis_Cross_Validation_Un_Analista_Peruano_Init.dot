@@ -1,0 +1,47 @@
+digraph {
+	27 -> 24
+	4 -> 5
+	19 -> 14
+	7 -> 11
+	26 -> 21
+	7 -> 12
+	13 -> 18
+	2 -> 3
+	2 -> 4
+	18 -> 19
+	12 -> 9
+	11 -> 12
+	1 -> 2
+	17 -> 13
+	26 -> 25
+	13 -> 19
+	8 -> 20
+	25 -> 21
+	22 -> 26
+	3 -> 4
+	20 -> 7
+	21 -> 27
+	27 [label=X_Aggregator]
+	7 [label=Partitioning]
+	9 [label=Scorer]
+	18 [label="Naive Bayes Learner"]
+	21 [label="Random Forest Predictor"]
+	26 [label=X_Partitioner]
+	8 [label="File Reader"]
+	17 [label="File Reader"]
+	3 [label="Random Forest Learner"]
+	19 [label="Naive Bayes Predictor"]
+	24 [label=Scorer]
+	25 [label="Random Forest Learner"]
+	12 [label="Logistic Regression Predictor"]
+	1 [label="File Reader"]
+	22 [label="File Reader"]
+	11 [label="Logistic Regression Learner"]
+	4 [label="Random Forest Predictor"]
+	14 [label=Scorer]
+	5 [label=Scorer]
+	20 [label="Missing Value"]
+	13 [label=Partitioning]
+	2 [label=Partitioning]
+	rankdir=LR
+}

@@ -1,0 +1,10 @@
+digraph {
+	2 -> 4
+	1 -> 3
+	3 -> 2
+	1 [label="Image Generator"]
+	4 [label="Loop End"]
+	3 [label="Chunk Loop Start"]
+	2 [label="ImageJ Macro"]
+	rankdir=LR
+}

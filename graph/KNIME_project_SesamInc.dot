@@ -1,0 +1,23 @@
+digraph {
+	5 -> 8
+	7 -> 8
+	18 -> 19
+	12 -> 6
+	13 -> 7
+	14 -> 18
+	11 -> 5
+	8 -> 14
+	8 -> 18
+	6 -> 8
+	5 [label="Constant Value Column"]
+	13 [label="Image Reader"]
+	7 [label="Constant Value Column"]
+	11 [label="Image Reader"]
+	18 [label=Joiner]
+	6 [label="Constant Value Column"]
+	8 [label=Concatenate]
+	14 [label="Image Features"]
+	12 [label="Image Reader"]
+	19 [label="Column Filter"]
+	rankdir=LR
+}

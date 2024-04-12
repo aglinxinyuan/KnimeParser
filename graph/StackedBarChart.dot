@@ -1,0 +1,21 @@
+digraph {
+	6 -> 18
+	27 -> 25
+	18 -> 27
+	28 -> 20
+	18 -> 20
+	25 -> 26
+	26 -> 28
+	6 -> 7
+	7 -> 9
+	27 [label="Column Filter"]
+	20 [label="Bar Chart"]
+	7 [label="Color Manager"]
+	28 [label="Color Manager"]
+	9 [label="Histogram _local_"]
+	18 [label=Pivoting]
+	26 [label=Transpose]
+	6 [label="File Reader"]
+	25 [label="Extract Column Header"]
+	rankdir=LR
+}

@@ -1,0 +1,32 @@
+digraph {
+	9 -> 15
+	21 -> 23
+	8 -> 21
+	17 -> 10
+	16 -> 8
+	23 -> 24
+	2 -> 1
+	12 -> 25
+	15 -> 17
+	1 -> 6
+	11 -> 12
+	24 -> 25
+	6 -> 9
+	10 -> 11
+	16 [label="Microsoft SQL Server Connector"]
+	24 [label="DB Reader"]
+	1 [label="Azure Blob Store File Picker"]
+	9 [label="String Manipulation"]
+	11 [label="Column Rename"]
+	21 [label="DB Query"]
+	23 [label="DB Connection Table Writer"]
+	6 [label="File Reader"]
+	15 [label="String to Date_Time"]
+	8 [label="DB Table Selector"]
+	12 [label="Column Resorter"]
+	25 [label=Concatenate]
+	17 [label="String to Date_Time"]
+	2 [label="Azure Blob Store Connection"]
+	10 [label="Column Filter"]
+	rankdir=LR
+}

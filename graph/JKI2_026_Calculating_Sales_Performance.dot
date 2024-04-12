@@ -1,0 +1,24 @@
+digraph {
+	5 -> 8
+	6 -> 5
+	7 -> 8
+	10 -> 9
+	8 -> 10
+	4 -> 8
+	7 -> 4
+	1 -> 2
+	2 -> 3
+	5 -> 7
+	3 -> 6
+	5 [label="Row Splitter"]
+	1 [label="CSV Reader"]
+	7 [label="Row Splitter"]
+	9 [label="Table View"]
+	4 [label="Column Expressions"]
+	6 [label="Math Formula"]
+	8 [label=Concatenate]
+	3 [label="Lag Column"]
+	2 [label="Lag Column"]
+	10 [label=Sorter]
+	rankdir=LR
+}

@@ -1,0 +1,17 @@
+digraph {
+	5 -> 14
+	10 -> 2
+	12 -> 2
+	13 -> 14
+	5 -> 13
+	14 -> 15
+	2 -> 5
+	5 [label="H2O Partitioner"]
+	13 [label="H2O Gradient Boosting Machine Learner"]
+	15 [label="H2O Multinomial Scorer"]
+	14 [label="H2O Predictor _Classification_"]
+	12 [label="Table Reader"]
+	2 [label="H2O Table to Frame"]
+	10 [label="H2O Local Context"]
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	17 -> 13
+	20 -> 17
+	13 -> 19
+	7 -> 17
+	5 -> 20
+	20 -> 7
+	3 -> 5
+	1 -> 2
+	2 -> 3
+	5 [label="Group Loop Start"]
+	20 [label="Group Loop Start"]
+	13 [label="Variable Loop End"]
+	1 [label="CSV Reader"]
+	7 [label="Create File_Folder Variables"]
+	17 [label="Excel Writer"]
+	3 [label="Extract Date_Time Fields"]
+	2 [label="String to Date_Time"]
+	19 [label="Loop End"]
+	rankdir=LR
+}

@@ -1,0 +1,89 @@
+digraph {
+	214 -> 193
+	222 -> 198
+	93 -> 94
+	94 -> 204
+	231 -> 222
+	197 -> 196
+	216 -> 217
+	214 -> 216
+	189 -> 193
+	92 -> 94
+	48 -> 54
+	54 -> 53
+	155 -> 154
+	94 -> 97
+	156 -> 190
+	230 -> 231
+	154 -> 156
+	91 -> 93
+	196 -> 218
+	53 -> 62
+	227 -> 226
+	204 -> 205
+	93 -> 92
+	83 -> 204
+	217 -> 219
+	91 -> 193
+	198 -> 193
+	198 -> 228
+	216 -> 193
+	197 -> 217
+	189 -> 97
+	97 -> 193
+	205 -> 97
+	83 -> 91
+	228 -> 226
+	82 -> 83
+	56 -> 198
+	55 -> 54
+	56 -> 55
+	193 -> 197
+	48 -> 222
+	190 -> 194
+	194 -> 193
+	62 -> 82
+	94 -> 193
+	197 -> 230
+	217 -> 193
+	94 -> 216
+	91 -> 97
+	194 -> 198
+	91 [label="Category To Number"]
+	231 [label="Table Manipulator"]
+	227 [label="Microsoft Authentication"]
+	55 [label="DB Table Selector"]
+	222 [label="Table to Spark"]
+	230 [label=Joiner]
+	97 [label=Denormalizer]
+	194 [label="Double To Int"]
+	217 [label="Line Plot"]
+	228 [label="DB Reader"]
+	190 [label="Column Appender"]
+	92 [label=Normalizer]
+	189 [label="Column Splitter"]
+	196 [label="Line Plot"]
+	156 [label="Column Rename"]
+	216 [label=Denormalizer]
+	56 [label="MySQL Connector"]
+	154 [label=Denormalizer]
+	54 [label="DB to Spark"]
+	204 [label="Random Forest Learner _Regression_"]
+	197 [label="String to Date_Time"]
+	214 [label="Column Splitter"]
+	218 [label="Numeric Scorer"]
+	48 [label="Create Local Big Data Environment"]
+	53 [label="Persist Spark DataFrame_RDD"]
+	219 [label="Numeric Scorer"]
+	93 [label=Partitioning]
+	198 [label="Column Filter"]
+	83 [label="Extract Date_Time Fields"]
+	94 [label="Normalizer _Apply_"]
+	62 [label="Spark to Table"]
+	82 [label="String to Date_Time"]
+	205 [label="Random Forest Predictor _Regression_"]
+	155 [label="Column Rename"]
+	193 [label="Number To Category _Apply_"]
+	226 [label="Send to Power BI"]
+	rankdir=LR
+}

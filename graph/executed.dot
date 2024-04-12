@@ -1,0 +1,44 @@
+digraph {
+	15018 -> 15017
+	15031 -> 15018
+	15017 -> 15037
+	15031 -> 15026
+	15005 -> 15021
+	1 -> 15038
+	15005 -> 15032
+	15035 -> 15021
+	15032 -> 14994
+	15005 -> 15017
+	15021 -> 15031
+	15021 -> 15005
+	1 -> 15000
+	15003 -> 15002
+	15036 -> 15033
+	15015 -> 15021
+	15038 -> 15035
+	15037 -> 15033
+	15013 -> 15021
+	14995 -> 14996
+	15018 [label="Chemistry External Tool"]
+	15003 [label="Get Help"]
+	14995 [label="Get Help"]
+	14994 [label="Chemistry External Tool"]
+	15037 [label="String to Path"]
+	15036 [label="Credentials Configuration"]
+	15017 [label="Chemistry External Tool"]
+	15013 [label="Table Creator"]
+	15021 [label="Chemistry External Tool"]
+	15033 [label="Upload as LiveDesign Protocol"]
+	15005 [label=RowID]
+	15015 [label="Table Creator"]
+	1 [label="SDF Reader"]
+	15031 [label="CASE Switch Data _Start_ _deprecated_"]
+	14996 [label="Table Viewer"]
+	15000 [label="Run Maestro"]
+	15002 [label="Table Viewer"]
+	15035 [label="Chemistry External Tool"]
+	15032 [label="CASE Switch Data _Start_ _deprecated_"]
+	15026 [label="Molecule Writer _from MAE_"]
+	15038 [label="Add Hydrogens"]
+	rankdir=LR
+}

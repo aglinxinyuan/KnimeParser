@@ -1,0 +1,10 @@
+digraph {
+	8 -> 6
+	6 -> 9
+	7 -> 6
+	7 [label="File Reader"]
+	8 [label="CSV Reader"]
+	6 [label=Joiner]
+	9 [label="Table View"]
+	rankdir=LR
+}

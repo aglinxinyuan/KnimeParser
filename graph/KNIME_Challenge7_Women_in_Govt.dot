@@ -1,0 +1,27 @@
+digraph {
+	7 -> 8
+	11 -> 12
+	12 -> 14
+	14 -> 18
+	18 -> 17
+	8 -> 11
+	5 -> 6
+	1 -> 2
+	14 -> 13
+	6 -> 7
+	2 -> 8
+	8 -> 12
+	5 [label="Google Authentication"]
+	13 [label="GroupBy Bar Chart _JFreeChart_"]
+	1 [label="CSV Reader"]
+	7 [label="Google Sheets Reader"]
+	11 [label="Rule Engine"]
+	18 [label="Color Manager"]
+	6 [label="Google Sheets Connection"]
+	8 [label=Joiner]
+	14 [label=Sorter]
+	17 [label="Bubble Chart _Plotly_"]
+	2 [label="String To Number"]
+	12 [label=Concatenate]
+	rankdir=LR
+}

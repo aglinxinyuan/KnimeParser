@@ -1,0 +1,16 @@
+digraph {
+	20 -> 21
+	18 -> 19
+	15 -> 17
+	19 -> 20
+	17 -> 16
+	16 -> 18
+	16 [label="Google Sheets Reader"]
+	20 [label="JSON Path"]
+	18 [label="String Manipulation"]
+	21 [label=Ungroup]
+	15 [label="Google Authentication"]
+	17 [label="Google Sheets Connection"]
+	19 [label="GET Request"]
+	rankdir=LR
+}

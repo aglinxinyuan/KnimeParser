@@ -1,0 +1,22 @@
+digraph {
+	15 -> 7
+	9 -> 316
+	7 -> 313
+	324 -> 9
+	313 -> 324
+	316 -> 325
+	14 -> 15
+	4 -> 15
+	9 -> 10
+	313 [label="Fill Holes"]
+	324 [label="Image Cropper"]
+	7 [label="Global Thresholder"]
+	316 [label="Segment Features"]
+	9 [label="Connected Component Analysis"]
+	4 [label="Image Reader"]
+	325 [label="Labeling Properties"]
+	15 [label=Convolver]
+	14 [label="Convolution Kernel Creator"]
+	10 [label="Interactive Segmentation View"]
+	rankdir=LR
+}

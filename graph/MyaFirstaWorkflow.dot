@@ -1,0 +1,25 @@
+digraph {
+	43 -> 29
+	47 -> 38
+	46 -> 34
+	47 -> 39
+	44 -> 35
+	45 -> 34
+	30 -> 40
+	40 -> 36
+	35 -> 29
+	43 [label="Excel Reader"]
+	35 [label="Table Cropper"]
+	44 [label="Excel Reader"]
+	34 [label="Value Lookup"]
+	29 [label=Concatenate]
+	36 [label="String To Number"]
+	46 [label="Excel Reader"]
+	47 [label="Excel Reader"]
+	40 [label="Column Merger"]
+	39 [label="Bar Chart"]
+	30 [label="Excel Reader"]
+	38 [label="Row Aggregator"]
+	45 [label="Excel Reader"]
+	rankdir=LR
+}

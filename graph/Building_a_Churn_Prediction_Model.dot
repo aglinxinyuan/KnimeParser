@@ -1,0 +1,21 @@
+digraph {
+	65 -> 107
+	113 -> 105
+	101 -> 65
+	61 -> 65
+	61 -> 101
+	112 -> 113
+	105 -> 61
+	111 -> 113
+	101 -> 109
+	107 [label=Scorer]
+	113 [label=Joiner]
+	112 [label="Excel Reader"]
+	65 [label="Decision Tree Predictor"]
+	101 [label="Decision Tree Learner"]
+	61 [label=Partitioning]
+	109 [label="PMML Writer"]
+	111 [label="CSV Reader"]
+	105 [label="Number To String"]
+	rankdir=LR
+}

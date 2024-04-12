@@ -1,0 +1,43 @@
+digraph {
+	8 -> 13
+	29 -> 10
+	39 -> 29
+	36 -> 33
+	22 -> 27
+	27 -> 28
+	18 -> 19
+	19 -> 5
+	10 -> 36
+	10 -> 17
+	17 -> 18
+	33 -> 20
+	20 -> 22
+	28 -> 30
+	6 -> 37
+	30 -> 40
+	13 -> 29
+	37 -> 33
+	17 -> 19
+	6 -> 30
+	5 -> 6
+	27 [label="Table Row to Variable"]
+	18 [label="Math Formula"]
+	8 [label="Table Creator"]
+	17 [label="Row Splitter"]
+	19 [label=Concatenate]
+	6 [label="Math Formula"]
+	10 [label="Column Filter"]
+	22 [label="Rule Engine"]
+	28 [label="Java Edit Variable"]
+	5 [label="Math Formula"]
+	13 [label="Table Row to Variable"]
+	20 [label="Math Formula"]
+	29 [label="Recursive Loop Start"]
+	36 [label=GroupBy]
+	40 [label="Excel Writer"]
+	39 [label="Table Creator"]
+	33 [label=Joiner]
+	30 [label="Recursive Loop End"]
+	37 [label=GroupBy]
+	rankdir=LR
+}

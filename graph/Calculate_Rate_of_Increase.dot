@@ -1,0 +1,8 @@
+digraph {
+	2 -> 3
+	4 -> 2
+	4 [label="CSV Reader"]
+	3 [label="Math Formula"]
+	2 [label="Lag Column"]
+	rankdir=LR
+}

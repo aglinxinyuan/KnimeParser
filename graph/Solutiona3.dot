@@ -1,0 +1,15 @@
+digraph {
+	316 -> 294
+	294 -> 322
+	322 -> 293
+	296 -> 322
+	294 -> 296
+	323 -> 316
+	294 [label=Partitioning]
+	322 [label="Logistic Regression Predictor"]
+	296 [label="Logistic Regression Learner"]
+	316 [label="Normalizer _PMML_"]
+	293 [label=Scorer]
+	323 [label="File Reader"]
+	rankdir=LR
+}

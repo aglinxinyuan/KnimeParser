@@ -1,0 +1,8 @@
+digraph {
+	2 -> 5
+	4 -> 2
+	5 [label="Workflow Service Output"]
+	4 [label="Workflow Service Input"]
+	2 [label=Statistics]
+	rankdir=LR
+}

@@ -1,0 +1,22 @@
+digraph {
+	6 -> 16
+	10 -> 9
+	17 -> 10
+	7 -> 17
+	3 -> 5
+	8 -> 7
+	9 -> 13
+	5 -> 6
+	16 -> 8
+	5 [label="Path to URI"]
+	16 [label=Splitter]
+	13 [label="Interactive Segmentation View"]
+	7 [label="Global Thresholder"]
+	9 [label="Connected Component Analysis"]
+	6 [label="Image Reader _Table_"]
+	8 [label="Gaussian Convolution"]
+	17 [label="Column Filter"]
+	3 [label="List Files_Folders"]
+	10 [label="Fill Holes"]
+	rankdir=LR
+}

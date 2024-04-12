@@ -1,0 +1,16 @@
+digraph {
+	355 -> 367
+	357 -> 381
+	367 -> 357
+	368 -> 367
+	358 -> 355
+	381 -> 378
+	357 [label="RDKit Salt Stripper"]
+	355 [label="RDKit Remove Hs"]
+	358 [label="Table Reader"]
+	367 [label="RDKit Salt Stripper"]
+	378 [label="RDKit Canon SMILES"]
+	368 [label="Table Creator"]
+	381 [label="RDKit Structure Normalizer"]
+	rankdir=LR
+}

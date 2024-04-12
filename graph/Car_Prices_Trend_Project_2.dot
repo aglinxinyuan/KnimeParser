@@ -1,0 +1,120 @@
+digraph {
+	42 -> 52
+	39 -> 103
+	37 -> 101
+	108 -> 109
+	65 -> 66
+	46 -> 96
+	42 -> 112
+	105 -> 84
+	46 -> 94
+	63 -> 64
+	2 -> 4
+	106 -> 87
+	68 -> 70
+	87 -> 88
+	63 -> 68
+	37 -> 98
+	41 -> 39
+	45 -> 41
+	56 -> 108
+	64 -> 68
+	50 -> 51
+	112 -> 83
+	46 -> 42
+	1 -> 2
+	36 -> 97
+	46 -> 104
+	91 -> 92
+	61 -> 64
+	39 -> 46
+	48 -> 49
+	48 -> 50
+	58 -> 47
+	63 -> 65
+	46 -> 95
+	84 -> 87
+	61 -> 63
+	41 -> 99
+	56 -> 109
+	4 -> 34
+	83 -> 105
+	42 -> 58
+	47 -> 48
+	45 -> 46
+	64 -> 65
+	4 -> 35
+	109 -> 110
+	67 -> 69
+	42 -> 61
+	49 -> 50
+	83 -> 106
+	105 -> 106
+	3 -> 4
+	63 -> 67
+	34 -> 36
+	36 -> 38
+	35 -> 37
+	52 -> 56
+	38 -> 91
+	64 -> 67
+	37 -> 45
+	38 -> 111
+	45 -> 102
+	111 -> 42
+	91 [label="Value Counter"]
+	103 [label="Box Plot _legacy_"]
+	97 [label="Statistics View"]
+	52 [label=Normalizer]
+	58 [label="Column Filter"]
+	108 [label="Logistic Regression Learner"]
+	105 [label=Normalizer]
+	3 [label="CSV Reader"]
+	64 [label="Normalizer _Apply_"]
+	92 [label="Math Formula"]
+	49 [label="Decision Tree Learner"]
+	84 [label="SVM Learner"]
+	41 [label="Numeric Outliers"]
+	98 [label="Statistics View"]
+	51 [label=Scorer]
+	56 [label=Partitioning]
+	109 [label="Logistic Regression Predictor"]
+	110 [label=Scorer]
+	48 [label=Partitioning]
+	50 [label="Decision Tree Predictor"]
+	1 [label="CSV Reader"]
+	42 [label=Joiner]
+	112 [label="Column Filter"]
+	68 [label="K Nearest Neighbor"]
+	87 [label="SVM Predictor"]
+	67 [label="K Nearest Neighbor"]
+	4 [label=Joiner]
+	101 [label="Box Plot _legacy_"]
+	47 [label="Color Manager"]
+	61 [label=Partitioning]
+	63 [label=Normalizer]
+	37 [label="Missing Value Column Filter"]
+	106 [label="Normalizer _Apply_"]
+	83 [label=Partitioning]
+	38 [label="Missing Value"]
+	94 [label="Statistics View"]
+	99 [label="Statistics View"]
+	96 [label="Linear Correlation"]
+	35 [label="Column Filter"]
+	102 [label="Box Plot _legacy_"]
+	34 [label="Column Filter"]
+	104 [label="Box Plot _legacy_"]
+	66 [label=Scorer]
+	70 [label=Scorer]
+	65 [label="K Nearest Neighbor"]
+	36 [label="Missing Value Column Filter"]
+	69 [label=Scorer]
+	46 [label=Denormalizer]
+	88 [label=Scorer]
+	95 [label=Statistics]
+	111 [label="Category to Number"]
+	39 [label="Missing Value"]
+	2 [label="Row Sampling"]
+	45 [label=Normalizer]
+	rankdir=LR
+}

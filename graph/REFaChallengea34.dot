@@ -1,0 +1,20 @@
+digraph {
+	12 -> 13
+	3 -> 4
+	13 -> 14
+	10 -> 8
+	1 -> 2
+	2 -> 3
+	8 -> 12
+	4 -> 10
+	14 [label="String Manipulation"]
+	13 [label="String Manipulation"]
+	1 [label="Table Creator"]
+	4 [label="String Manipulation"]
+	8 [label=GroupBy]
+	12 [label="Collection to String"]
+	3 [label="Bag Of Words Creator"]
+	2 [label="Strings To Document"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

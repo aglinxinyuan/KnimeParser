@@ -1,0 +1,22 @@
+digraph {
+	1 -> 37
+	2 -> 21
+	37 -> 36
+	37 -> 39
+	2 -> 40
+	1 -> 30
+	30 -> 35
+	1 -> 2
+	2 -> 25
+	35 [label="Pie_Donut Chart"]
+	1 [label="File Reader"]
+	36 [label=Histogram]
+	21 [label="Pie_Donut Chart"]
+	40 [label="Pie_Donut Chart"]
+	25 [label="Bar Chart"]
+	39 [label="Bar Chart"]
+	30 [label="Color Manager"]
+	2 [label="Color Manager"]
+	37 [label="Color Manager"]
+	rankdir=LR
+}

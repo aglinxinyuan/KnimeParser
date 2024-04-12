@@ -1,0 +1,53 @@
+digraph {
+	14 -> 16
+	19 -> 321
+	4 -> 5
+	13 -> 14
+	2 -> 3
+	10 -> 320
+	17 -> 15
+	321 -> 24
+	14 -> 15
+	8 -> 4
+	5 -> 10
+	5 -> 7
+	15 -> 19
+	11 -> 319
+	320 -> 11
+	9 -> 12
+	9 -> 10
+	12 -> 11
+	24 -> 318
+	7 -> 9
+	319 -> 13
+	3 -> 8
+	5 -> 6
+	318 -> 23
+	16 -> 17
+	1 -> 3
+	7 [label=GroupBy]
+	9 [label="Rule_based Row Splitter"]
+	8 [label="Column Auto Type Cast"]
+	17 [label="Column Renamer"]
+	3 [label=Concatenate]
+	19 [label="Column Expressions"]
+	24 [label="Group Loop Start"]
+	6 [label="Excel Writer"]
+	15 [label=Joiner]
+	12 [label="Column Expressions"]
+	10 [label=Joiner]
+	16 [label=GroupBy]
+	319 [label="Column Auto Type Cast"]
+	1 [label="Excel Reader"]
+	11 [label=Concatenate]
+	4 [label="Column Filter"]
+	23 [label="Variable Loop End"]
+	321 [label="Column Filter"]
+	14 [label="Column Filter"]
+	5 [label="Rule_based Row Splitter"]
+	13 [label=Sorter]
+	318 [label="Excel Writer"]
+	2 [label="Excel Reader"]
+	320 [label="Column Filter"]
+	rankdir=LR
+}

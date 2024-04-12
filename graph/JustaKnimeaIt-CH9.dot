@@ -1,0 +1,19 @@
+digraph {
+	3 -> 8
+	3 -> 4
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	8 -> 5
+	6 -> 7
+	5 -> 7
+	5 [label="Extract Column Header"]
+	1 [label="CSV Reader"]
+	7 [label="Anonymity Assessment"]
+	4 [label="Column Rename"]
+	8 [label="Column Filter"]
+	6 [label=Anonymization]
+	3 [label=Shuffle]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

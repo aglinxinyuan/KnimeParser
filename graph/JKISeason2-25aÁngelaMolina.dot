@@ -1,0 +1,35 @@
+digraph {
+	8 -> 22
+	21 -> 10
+	27 -> 24
+	19 -> 24
+	9 -> 8
+	10 -> 9
+	7 -> 5
+	12 -> 19
+	19 -> 5
+	13 -> 21
+	5 -> 13
+	19 -> 27
+	25 -> 26
+	11 -> 12
+	24 -> 25
+	22 -> 27
+	19 -> 13
+	5 [label="XGBoost Tree Ensemble Learner"]
+	24 [label="XGBoost Predictor"]
+	27 [label="XGBoost Tree Ensemble Learner"]
+	13 [label="XGBoost Predictor"]
+	7 [label="Parameter Optimization Loop Start"]
+	22 [label="Table Row To Variable"]
+	9 [label="Table Row To Variable"]
+	11 [label="CSV Reader"]
+	21 [label="Scorer _JavaScript_"]
+	26 [label="Math Formula"]
+	8 [label="Parameter Optimization Loop End"]
+	25 [label="Scorer _JavaScript_"]
+	12 [label="Number To String"]
+	10 [label="Math Formula"]
+	19 [label=Partitioning]
+	rankdir=LR
+}

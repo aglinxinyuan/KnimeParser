@@ -1,0 +1,36 @@
+digraph {
+	37 -> 36
+	1 -> 27
+	41 -> 43
+	30 -> 31
+	36 -> 38
+	36 -> 39
+	35 -> 33
+	36 -> 41
+	39 -> 42
+	29 -> 32
+	35 -> 34
+	38 -> 40
+	27 -> 28
+	27 -> 30
+	27 -> 29
+	27 [label="Row Filter"]
+	43 [label="Column Filter"]
+	35 [label="CSV Reader"]
+	1 [label="CSV Reader"]
+	34 [label="Column Filter"]
+	42 [label="Column Filter"]
+	29 [label="Row Filter"]
+	41 [label="Row Filter"]
+	28 [label="Row Filter"]
+	31 [label="Row Filter"]
+	36 [label="Rule Engine"]
+	40 [label="Column Filter"]
+	32 [label="Row Filter"]
+	39 [label="Row Filter"]
+	33 [label="Column Filter"]
+	30 [label="Row Filter"]
+	38 [label="Row Filter"]
+	37 [label="CSV Reader"]
+	rankdir=LR
+}

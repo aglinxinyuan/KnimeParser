@@ -1,0 +1,14 @@
+digraph {
+	4 -> 7
+	5 -> 8
+	4 -> 5
+	1 -> 2
+	2 -> 4
+	5 [label="Keras Network Writer"]
+	1 [label="Keras Input Layer"]
+	7 [label="DL Python Network Editor"]
+	4 [label="Keras Dense Layer"]
+	8 [label="TensorFlow 2 Network Reader"]
+	2 [label="Keras Dense Layer"]
+	rankdir=LR
+}

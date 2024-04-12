@@ -1,0 +1,51 @@
+digraph {
+	12 -> 10
+	24 -> 28
+	20 -> 9
+	7 -> 12
+	4 -> 23
+	23 -> 28
+	2 -> 22
+	22 -> 6
+	12 -> 13
+	19 -> 9
+	29 -> 13
+	25 -> 26
+	6 -> 24
+	9 -> 17
+	13 -> 19
+	15 -> 4
+	1 -> 15
+	26 -> 11
+	10 -> 20
+	24 -> 25
+	29 -> 11
+	11 -> 7
+	23 -> 25
+	17 -> 16
+	26 -> 10
+	28 -> 29
+	7 [label="Create Bit Vector"]
+	9 [label="Similarity Search"]
+	26 [label=GroupBy]
+	17 [label="Row Filter"]
+	19 [label=RowID]
+	24 [label=Ungroup]
+	6 [label="Cell Splitter"]
+	15 [label="String Manipulation"]
+	25 [label="Reference Row Filter"]
+	10 [label=Joiner]
+	12 [label="Rule_based Row Splitter"]
+	16 [label="Interactive Table _local_"]
+	1 [label="Excel Reader"]
+	22 [label="String Manipulation"]
+	28 [label="Reference Row Filter"]
+	23 [label=Ungroup]
+	4 [label="Cell Splitter"]
+	11 [label=Concatenate]
+	20 [label=RowID]
+	13 [label=Joiner]
+	29 [label=GroupBy]
+	2 [label="Excel Reader"]
+	rankdir=LR
+}

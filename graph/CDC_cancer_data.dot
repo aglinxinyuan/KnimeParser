@@ -1,0 +1,34 @@
+digraph {
+	13 -> 15
+	12 -> 11
+	14 -> 17
+	2 -> 10
+	5 -> 4
+	1 -> 12
+	15 -> 16
+	8 -> 9
+	10 -> 5
+	8 -> 7
+	2 -> 14
+	17 -> 11
+	11 -> 13
+	4 -> 6
+	6 -> 8
+	5 [label="Missing Value"]
+	16 [label="Row Filter"]
+	13 [label="Math Formula"]
+	1 [label="Excel Reader"]
+	7 [label="Row Filter"]
+	9 [label="Row Filter"]
+	11 [label=Joiner]
+	4 [label=GroupBy]
+	6 [label=Sorter]
+	8 [label="Row Splitter"]
+	15 [label=Sorter]
+	14 [label="Missing Value"]
+	17 [label=GroupBy]
+	12 [label="String Manipulation"]
+	2 [label="CSV Reader"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

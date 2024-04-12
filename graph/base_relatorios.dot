@@ -1,0 +1,26 @@
+digraph {
+	33 -> 27
+	23 -> 30
+	32 -> 33
+	1 -> 42
+	36 -> 3
+	42 -> 31
+	31 -> 4
+	4 -> 23
+	30 -> 32
+	27 -> 44
+	44 -> 3
+	27 [label="Loop End"]
+	1 [label="Excel Reader"]
+	42 [label="Date_Time_based Row Filter"]
+	44 [label="Row Filter"]
+	31 [label="Extract Date_Time Fields"]
+	36 [label="SQLite Connector"]
+	23 [label="Group Loop Start"]
+	4 [label="Date_Time to String"]
+	32 [label="Column Renamer"]
+	33 [label="Column Expressions"]
+	30 [label="Lag Column"]
+	3 [label="DB Writer"]
+	rankdir=LR
+}

@@ -1,0 +1,51 @@
+digraph {
+	84 -> 88
+	72 -> 79
+	81 -> 83
+	74 -> 76
+	84 -> 86
+	74 -> 78
+	70 -> 2
+	4 -> 6
+	2 -> 4
+	4 -> 68
+	83 -> 80
+	73 -> 84
+	79 -> 83
+	76 -> 78
+	78 -> 75
+	88 -> 87
+	86 -> 88
+	3 -> 4
+	79 -> 81
+	78 -> 77
+	83 -> 82
+	88 -> 85
+	2 -> 3
+	71 -> 74
+	79 [label=Partitioning]
+	74 [label=Partitioning]
+	3 [label="Naive Bayes Learner"]
+	78 [label="Naive Bayes Predictor"]
+	84 [label=Partitioning]
+	6 [label="Scorer _JavaScript_"]
+	75 [label="ROC Curve"]
+	85 [label="ROC Curve"]
+	86 [label="Naive Bayes Learner"]
+	68 [label="ROC Curve"]
+	87 [label="Scorer _JavaScript_"]
+	72 [label="CSV Reader"]
+	4 [label="Naive Bayes Predictor"]
+	76 [label="Naive Bayes Learner"]
+	77 [label="Scorer _JavaScript_"]
+	83 [label="Naive Bayes Predictor"]
+	81 [label="Naive Bayes Learner"]
+	70 [label="CSV Reader"]
+	82 [label="Scorer _JavaScript_"]
+	71 [label="CSV Reader"]
+	88 [label="Naive Bayes Predictor"]
+	80 [label="ROC Curve"]
+	73 [label="CSV Reader"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

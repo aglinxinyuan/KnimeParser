@@ -1,0 +1,28 @@
+digraph {
+	4 -> 7
+	16 -> 12
+	12 -> 13
+	13 -> 6
+	3 -> 4
+	10 -> 16
+	6 -> 15
+	1 -> 2
+	9 -> 10
+	2 -> 3
+	5 -> 9
+	7 -> 9
+	5 [label="Get Users"]
+	16 [label="Rule_based Row Splitter"]
+	13 [label="Table Row To Variable Loop Start"]
+	1 [label="GET Request"]
+	7 [label="Rule Engine"]
+	9 [label=Joiner]
+	4 [label="Table Manipulator"]
+	6 [label="Message Slack User"]
+	15 [label="Loop End"]
+	12 [label="Constant Value Column"]
+	3 [label=XPath]
+	2 [label=XPath]
+	10 [label="Rule_based Row Splitter"]
+	rankdir=LR
+}

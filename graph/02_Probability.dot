@@ -1,0 +1,22 @@
+digraph {
+	4 -> 7
+	7 -> 14
+	7 -> 25
+	7 -> 11
+	3 -> 4
+	11 -> 16
+	21 -> 22
+	7 -> 15
+	25 -> 21
+	16 [label="Bar Chart"]
+	7 [label=Pivoting]
+	22 [label="Bar Chart"]
+	11 [label="Math Formula _Multi Column_"]
+	4 [label="Row Filter"]
+	21 [label="Math Formula _Multi Column_"]
+	15 [label="Bar Chart"]
+	25 [label="Rule_based Row Filter"]
+	14 [label="Bar Chart"]
+	3 [label="CSV Reader"]
+	rankdir=LR
+}

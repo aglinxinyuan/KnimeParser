@@ -1,0 +1,26 @@
+digraph {
+	108 -> 107
+	103 -> 104
+	110 -> 103
+	109 -> 111
+	111 -> 112
+	108 -> 109
+	104 -> 105
+	112 -> 103
+	102 -> 108
+	115 -> 102
+	107 -> 109
+	107 -> 110
+	107 [label="Polynomial Regression Learner"]
+	111 [label="Numeric Scorer"]
+	103 [label="Column Appender"]
+	102 [label="Column List Loop Start"]
+	104 [label="Constant Value Column"]
+	112 [label=Transpose]
+	115 [label="Table Reader"]
+	108 [label=Partitioning]
+	109 [label="Regression Predictor"]
+	105 [label="Loop End"]
+	110 [label="Model to Cell"]
+	rankdir=LR
+}

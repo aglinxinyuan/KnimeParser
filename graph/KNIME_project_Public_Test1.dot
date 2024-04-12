@@ -1,0 +1,38 @@
+digraph {
+	12 -> 15
+	20 -> 21
+	10 -> 2
+	18 -> 19
+	8 -> 9
+	4 -> 8
+	12 -> 14
+	9 -> 11
+	15 -> 16
+	1 -> 10
+	19 -> 20
+	9 -> 12
+	14 -> 15
+	17 -> 18
+	21 -> 22
+	16 -> 18
+	16 -> 17
+	2 -> 4
+	16 [label="Missing Value"]
+	14 [label=GroupBy]
+	20 [label="Rule Engine"]
+	1 [label="CSV Reader"]
+	22 [label="Column Renamer"]
+	9 [label="Rule Engine"]
+	11 [label="String Manipulation"]
+	4 [label="Column Expressions"]
+	18 [label=Joiner]
+	21 [label="Column Filter"]
+	8 [label="Row Filter"]
+	15 [label=Joiner]
+	12 [label="Column Expressions"]
+	17 [label=GroupBy]
+	2 [label="String to Number"]
+	10 [label="String Manipulation"]
+	19 [label="Missing Value"]
+	rankdir=LR
+}

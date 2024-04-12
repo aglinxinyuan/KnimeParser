@@ -1,0 +1,34 @@
+digraph {
+	24 -> 27
+	19 -> 24
+	34 -> 3
+	35 -> 19
+	21 -> 24
+	19 -> 21
+	34 -> 33
+	34 -> 4
+	34 -> 31
+	34 -> 35
+	19 -> 28
+	34 -> 30
+	19 -> 23
+	28 -> 26
+	23 -> 28
+	34 -> 32
+	24 [label="Regression Predictor"]
+	27 [label="Numeric Scorer"]
+	30 [label="Linear Correlation"]
+	35 [label="Numeric Outliers"]
+	34 [label="File Reader"]
+	28 [label="Regression Predictor"]
+	31 [label="Scatter Plot _Plotly_"]
+	23 [label="Linear Regression Learner"]
+	21 [label="Polynomial Regression Learner"]
+	26 [label="Numeric Scorer"]
+	4 [label="Data Explorer"]
+	33 [label="Box Plot"]
+	32 [label="Violin Plot _Plotly_"]
+	3 [label="Scatter Matrix _local_"]
+	19 [label=Partitioning]
+	rankdir=LR
+}

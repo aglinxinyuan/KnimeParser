@@ -1,0 +1,16 @@
+digraph {
+	38 -> 41
+	35 -> 38
+	26 -> 39
+	39 -> 35
+	23 -> 26
+	26 -> 40
+	35 [label="Math Formula"]
+	41 [label="Scatter Plot"]
+	23 [label="Data Generator"]
+	26 [label="Color Manager"]
+	40 [label="Scatter Plot"]
+	39 [label="Recursive Loop Start"]
+	38 [label="Recursive Loop End"]
+	rankdir=LR
+}

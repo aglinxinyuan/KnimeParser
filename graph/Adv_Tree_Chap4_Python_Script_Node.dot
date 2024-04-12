@@ -1,0 +1,15 @@
+digraph {
+	1957 -> 1958
+	1958 -> 1962
+	14 -> 15
+	1959 -> 1958
+	1959 -> 1957
+	15 -> 1959
+	1958 [label="Python Script _Labs_"]
+	1959 [label=Partitioning]
+	1962 [label=Scorer]
+	1957 [label="Python Script _Labs_"]
+	15 [label="Equal Size Sampling"]
+	14 [label="Excel Reader"]
+	rankdir=LR
+}

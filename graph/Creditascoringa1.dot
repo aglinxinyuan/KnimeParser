@@ -1,0 +1,93 @@
+digraph {
+	73 -> 74
+	53 -> 54
+	71 -> 72
+	65 -> 66
+	40 -> 2
+	34 -> 35
+	302 -> 58
+	58 -> 63
+	28 -> 34
+	39 -> 298
+	58 -> 40
+	34 -> 38
+	63 -> 64
+	74 -> 298
+	7 -> 41
+	293 -> 39
+	38 -> 298
+	41 -> 9
+	298 -> 52
+	9 -> 294
+	302 -> 2
+	31 -> 32
+	63 -> 76
+	35 -> 39
+	69 -> 70
+	68 -> 69
+	290 -> 292
+	32 -> 7
+	64 -> 66
+	77 -> 78
+	33 -> 34
+	33 -> 28
+	76 -> 77
+	66 -> 67
+	72 -> 73
+	39 -> 9
+	64 -> 65
+	52 -> 59
+	78 -> 74
+	70 -> 71
+	40 -> 33
+	54 -> 61
+	7 -> 39
+	52 -> 53
+	294 -> 290
+	67 -> 68
+	2 -> 32
+	292 -> 293
+	293 -> 38
+	2 -> 31
+	292 [label="Constant Value Column"]
+	7 [label=X_Aggregator]
+	9 [label="Row Filter"]
+	302 [label="CSV Reader"]
+	52 [label=Sorter]
+	58 [label="Category To Number"]
+	74 [label="Cross Joiner"]
+	78 [label="Rule Engine"]
+	64 [label=X_Partitioner]
+	290 [label="Constant Value Column"]
+	41 [label=Scorer]
+	31 [label="SVM Learner"]
+	54 [label="Cell To PMML"]
+	59 [label="Bar Chart"]
+	294 [label="Column Filter"]
+	53 [label="Row Filter"]
+	68 [label=Scorer]
+	28 [label="PMML To Cell"]
+	67 [label=X_Aggregator]
+	293 [label=RowID]
+	72 [label="Constant Value Column"]
+	76 [label="RProp MLP Learner"]
+	77 [label="PMML To Cell"]
+	63 [label=Normalizer]
+	61 [label="PMML Writer"]
+	298 [label=Concatenate]
+	38 [label="Cross Joiner"]
+	73 [label=RowID]
+	35 [label="Rule Engine"]
+	34 [label="PMML To Cell"]
+	66 [label="MultiLayerPerceptron Predictor"]
+	70 [label="Column Filter"]
+	69 [label="Row Filter"]
+	71 [label="Constant Value Column"]
+	65 [label="RProp MLP Learner"]
+	40 [label=Normalizer]
+	39 [label="Cross Joiner"]
+	33 [label="SVM Learner"]
+	32 [label="SVM Predictor"]
+	2 [label=X_Partitioner]
+	rankdir=LR
+}

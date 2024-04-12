@@ -1,0 +1,23 @@
+digraph {
+	6 -> 1000
+	992 -> 994
+	4 -> 1000
+	6 -> 999
+	2 -> 4
+	991 -> 992
+	999 -> 1001
+	1001 -> 4
+	994 -> 6
+	993 -> 991
+	999 [label="DB Table Selector"]
+	1001 [label="DB Reader"]
+	992 [label="String Manipulation"]
+	4 [label="XGBoost Predictor"]
+	994 [label="Table Row To Variable"]
+	1000 [label="DB Writer"]
+	6 [label="DB Connector"]
+	991 [label="URL to File Path"]
+	2 [label="Model Reader"]
+	993 [label="Table Creator"]
+	rankdir=LR
+}

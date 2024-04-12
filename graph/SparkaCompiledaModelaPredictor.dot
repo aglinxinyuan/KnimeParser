@@ -1,0 +1,31 @@
+digraph {
+	110 -> 205
+	214 -> 177
+	203 -> 105
+	112 -> 106
+	215 -> 203
+	214 -> 178
+	106 -> 105
+	212 -> 203
+	175 -> 213
+	109 -> 205
+	205 -> 112
+	178 -> 110
+	177 -> 109
+	105 -> 175
+	175 [label="Spark Reader"]
+	214 [label="File Reader _Complex Format_"]
+	203 [label="Table to Spark"]
+	112 [label="Table to PMML Ensemble"]
+	205 [label=Concatenate]
+	178 [label="RProp MLP Learner"]
+	212 [label="Create Local Big Data Environment"]
+	109 [label="PMML To Cell"]
+	177 [label="Decision Tree Learner"]
+	105 [label="Spark PMML Predictor"]
+	110 [label="PMML To Cell"]
+	106 [label="PMML Compiler"]
+	215 [label="File Reader _Complex Format_"]
+	213 [label=Scorer]
+	rankdir=LR
+}

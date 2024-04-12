@@ -1,0 +1,23 @@
+digraph {
+	1 -> 8
+	10 -> 9
+	4 -> 5
+	3 -> 4
+	8 -> 7
+	5 -> 6
+	1 -> 2
+	7 -> 10
+	2 -> 3
+	6 -> 7
+	5 [label=GroupBy]
+	1 [label="Data Generator"]
+	7 [label="Line Plot _JavaScript_"]
+	9 [label="Loop End"]
+	4 [label="Chunk Loop Start"]
+	8 [label="Math Formula"]
+	6 [label="Table Row to Variable"]
+	3 [label="Row Filter"]
+	2 [label="Extract Table Spec"]
+	10 [label="Image to Table"]
+	rankdir=LR
+}

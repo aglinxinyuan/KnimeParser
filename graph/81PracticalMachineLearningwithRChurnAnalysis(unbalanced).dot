@@ -1,0 +1,26 @@
+digraph {
+	1 -> 8
+	4 -> 5
+	3 -> 2
+	2 -> 10
+	12 -> 3
+	4 -> 10
+	2 -> 5
+	3 -> 13
+	10 -> 11
+	5 -> 9
+	2 -> 4
+	8 -> 12
+	5 [label="Logistic Regression Predictor"]
+	13 [label="Value Counter"]
+	1 [label="CSV Reader"]
+	9 [label=Scorer]
+	11 [label=Scorer]
+	4 [label="Logistic Regression Learner"]
+	8 [label="One to Many"]
+	12 [label="Column Filter"]
+	3 [label=Normalizer]
+	2 [label=Partitioning]
+	10 [label="Logistic Regression Predictor"]
+	rankdir=LR
+}

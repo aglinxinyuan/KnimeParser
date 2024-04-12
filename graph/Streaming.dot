@@ -1,0 +1,17 @@
+digraph {
+	3 -> 9
+	13 -> 3
+	11 -> 13
+	9 -> 10
+	10 -> 12
+	12 -> 11
+	8 -> 12
+	13 [label="Gaussian Convolution"]
+	9 [label="Sobel Filter"]
+	11 [label="Subnode Input"]
+	10 [label="Min Filter"]
+	8 [label="Image Generator"]
+	3 [label="Sigma Filter"]
+	12 [label="Subnode Output"]
+	rankdir=LR
+}

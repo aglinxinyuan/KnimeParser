@@ -1,0 +1,18 @@
+digraph {
+	1 -> 8
+	1 -> 4
+	1 -> 2
+	1 -> 10
+	8 -> 7
+	7 -> 6
+	1 -> 5
+	5 [label="Box Plot"]
+	1 [label="File Reader"]
+	7 [label="Color Manager"]
+	4 [label="Box Plot"]
+	8 [label="Number To String"]
+	6 [label="Scatter Plot"]
+	2 [label=Statistics]
+	10 [label=Statistics]
+	rankdir=LR
+}

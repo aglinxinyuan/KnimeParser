@@ -1,0 +1,35 @@
+digraph {
+	486 -> 477
+	479 -> 486
+	6 -> 470
+	473 -> 474
+	477 -> 485
+	464 -> 466
+	484 -> 487
+	476 -> 479
+	464 -> 485
+	466 -> 470
+	477 -> 478
+	487 -> 483
+	464 -> 6
+	470 -> 476
+	470 -> 473
+	474 -> 475
+	474 [label="DB Reader"]
+	476 [label="DB GroupBy"]
+	483 [label="Interactive Table _local_"]
+	479 [label="DB Sorter"]
+	475 [label="Interactive Table _local_"]
+	487 [label="DB Query Reader"]
+	464 [label="SQLite Connector"]
+	477 [label="DB Reader"]
+	470 [label="DB Joiner"]
+	466 [label="DB Table Selector"]
+	6 [label="DB Table Selector"]
+	486 [label="DB Column Rename"]
+	478 [label="Interactive Table _local_"]
+	484 [label="SQLite Connector"]
+	485 [label="DB Writer"]
+	473 [label="DB Row Filter"]
+	rankdir=LR
+}

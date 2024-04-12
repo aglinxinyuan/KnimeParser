@@ -1,0 +1,18 @@
+digraph {
+	15 -> 7
+	12 -> 13
+	3 -> 5
+	1 -> 15
+	7 -> 13
+	1 -> 49
+	5 -> 49
+	5 [label="Table to JSON"]
+	13 [label="DB Writer"]
+	1 [label="Kafka Connector"]
+	49 [label="Kafka Producer"]
+	7 [label="JSON to Table"]
+	15 [label="Kafka Consumer"]
+	3 [label="CSV Reader"]
+	12 [label="SQLite Connector"]
+	rankdir=LR
+}

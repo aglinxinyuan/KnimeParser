@@ -1,0 +1,28 @@
+digraph {
+	13 -> 15
+	7 -> 8
+	11 -> 9
+	5 -> 4
+	12 -> 14
+	5 -> 13
+	6 -> 10
+	14 -> 15
+	9 -> 10
+	6 -> 7
+	10 -> 12
+	4 -> 6
+	8 -> 11
+	5 [label="Table Creator"]
+	14 [label="XLS Background Colorizer"]
+	13 [label="Excel Writer _XLS_"]
+	7 [label="Color Manager"]
+	9 [label="String Manipulation"]
+	11 [label="Column Rename"]
+	4 [label="XLS Control Table Generator"]
+	6 [label="Rule Engine"]
+	8 [label="Extract Color"]
+	15 [label="XLS Formatter _apply_"]
+	12 [label="XLS Control Table Generator"]
+	10 [label=Joiner]
+	rankdir=LR
+}

@@ -1,0 +1,95 @@
+digraph {
+	17 -> 29
+	23 -> 40
+	14 -> 16
+	29 -> 28
+	27 -> 41
+	32 -> 36
+	13 -> 14
+	10 -> 33
+	25 -> 22
+	8 -> 33
+	2 -> 3
+	34 -> 42
+	16 -> 20
+	17 -> 37
+	4 -> 6
+	6 -> 8
+	8 -> 27
+	19 -> 32
+	8 -> 23
+	21 -> 24
+	23 -> 38
+	30 -> 31
+	11 -> 16
+	11 -> 17
+	20 -> 25
+	14 -> 15
+	1 -> 2
+	10 -> 11
+	11 -> 29
+	31 -> 27
+	28 -> 30
+	8 -> 22
+	17 -> 21
+	38 -> 43
+	24 -> 23
+	11 -> 20
+	40 -> 32
+	28 -> 31
+	7 -> 9
+	11 -> 15
+	38 -> 39
+	3 -> 4
+	11 -> 14
+	26 -> 34
+	8 -> 7
+	41 -> 34
+	40 -> 19
+	22 -> 18
+	41 -> 26
+	9 -> 10
+	11 -> 13
+	11 -> 21
+	27 [label="Number To Category _Apply_"]
+	7 [label="Column Filter"]
+	9 [label="Numeric Outliers"]
+	21 [label=Denormalizer]
+	18 [label="Decision Tree Learner"]
+	26 [label="Logistic Regression Learner"]
+	8 [label="Category To Number"]
+	17 [label=k_Means]
+	3 [label="Math Formula"]
+	19 [label="Decision Tree Learner"]
+	24 [label="Double To Int"]
+	41 [label=Partitioning]
+	31 [label="Correlation Filter"]
+	6 [label="Date_Time Difference"]
+	15 [label="Hierarchical Cluster View"]
+	25 [label="Double To Int"]
+	10 [label=Partitioning]
+	16 [label="Hierarchical Cluster Assigner"]
+	30 [label="Linear Correlation"]
+	1 [label="CSV Reader"]
+	42 [label=Scorer]
+	22 [label="Number To Category _Apply_"]
+	28 [label="Double To Int"]
+	23 [label="Number To Category _Apply_"]
+	4 [label="Math Formula"]
+	11 [label=Normalizer]
+	14 [label="Hierarchical Clustering _DistMatrix_"]
+	38 [label="Color Manager"]
+	13 [label="Numeric Distances"]
+	20 [label=Denormalizer]
+	43 [label="Pie_Donut Chart"]
+	34 [label="Logistic Regression Predictor"]
+	29 [label=Denormalizer]
+	36 [label=Scorer]
+	40 [label=Partitioning]
+	39 [label="Scatter Plot"]
+	33 [label="Number To Category _Apply_"]
+	32 [label="Decision Tree Predictor"]
+	2 [label="String to Date_Time"]
+	37 [label="Bar Chart"]
+	rankdir=LR
+}

@@ -1,0 +1,59 @@
+digraph {
+	37 -> 36
+	4 -> 5
+	29 -> 28
+	23 -> 24
+	17 -> 20
+	10 -> 27
+	28 -> 26
+	16 -> 15
+	20 -> 23
+	12 -> 32
+	26 -> 31
+	24 -> 33
+	25 -> 28
+	10 -> 12
+	5 -> 7
+	33 -> 35
+	24 -> 23
+	15 -> 17
+	12 -> 16
+	9 -> 10
+	7 -> 9
+	11 -> 10
+	31 -> 12
+	32 -> 33
+	36 -> 38
+	35 -> 37
+	35 -> 34
+	19 -> 15
+	27 -> 29
+	27 [label="Punctuation Erasure"]
+	7 [label="POS Tagger"]
+	9 [label="StanfordNLP NE Tagger"]
+	26 [label="Tag Filter"]
+	17 [label="Tag Filter"]
+	19 [label="Table Creator"]
+	24 [label="Column Filter"]
+	31 [label="Tag Filter"]
+	15 [label="Stop Word Filter"]
+	25 [label="Table Creator"]
+	12 [label="Constant Value Column"]
+	10 [label="Wildcard Tagger"]
+	16 [label="Case Converter"]
+	28 [label="Stop Word Filter"]
+	11 [label="Table Creator"]
+	4 [label="Tika Parser"]
+	23 [label="Constant Value Column"]
+	38 [label="Math Formula"]
+	5 [label="Strings To Document"]
+	20 [label="Tag Filter"]
+	35 [label="Bag Of Words Creator"]
+	34 [label=DF]
+	29 [label="Case Converter"]
+	36 [label=IDF]
+	33 [label=Concatenate]
+	32 [label="Column Filter"]
+	37 [label=TF]
+	rankdir=LR
+}

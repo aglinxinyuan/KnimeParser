@@ -1,0 +1,25 @@
+digraph {
+	11 -> 12
+	4 -> 5
+	1 -> 12
+	8 -> 7
+	5 -> 6
+	1 -> 2
+	9 -> 10
+	7 -> 9
+	10 -> 11
+	2 -> 4
+	6 -> 8
+	5 [label="Moving Aggregation"]
+	1 [label="Table Creator"]
+	7 [label=Pivoting]
+	9 [label=RowID]
+	11 [label="Column Rename _Regex_"]
+	4 [label=Unpivoting]
+	10 [label="Loop End"]
+	6 [label="Math Formula"]
+	8 [label="Math Formula"]
+	2 [label="Group Loop Start"]
+	12 [label=Joiner]
+	rankdir=LR
+}

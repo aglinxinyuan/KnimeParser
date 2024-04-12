@@ -1,0 +1,22 @@
+digraph {
+	1362 -> 1361
+	6 -> 1355
+	1367 -> 1363
+	1361 -> 1364
+	1361 -> 1363
+	1356 -> 1362
+	1363 -> 1366
+	1355 -> 1356
+	5 -> 6
+	5 [label="Tika Parser"]
+	1366 [label="Column Filter"]
+	1367 [label="Table Creator"]
+	1362 [label=RowID]
+	1355 [label=Transpose]
+	1361 [label="Row Filter"]
+	6 [label="Cell Splitter"]
+	1364 [label="Extract Table Spec"]
+	1356 [label="Cell Splitter"]
+	1363 [label="Insert Column Header"]
+	rankdir=LR
+}

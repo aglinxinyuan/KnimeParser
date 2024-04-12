@@ -1,0 +1,21 @@
+digraph {
+	92 -> 56
+	93 -> 94
+	92 -> 91
+	56 -> 91
+	93 -> 90
+	53 -> 93
+	90 -> 94
+	50 -> 53
+	53 -> 92
+	56 -> 90
+	91 [label="Column Appender"]
+	94 [label="Column Appender"]
+	92 [label="Column Splitter"]
+	50 [label="File Reader"]
+	90 [label="Normalizer _Apply_"]
+	53 [label=Partitioning]
+	56 [label=Normalizer]
+	93 [label="Column Splitter"]
+	rankdir=LR
+}

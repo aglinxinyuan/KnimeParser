@@ -1,0 +1,33 @@
+digraph {
+	122 -> 119
+	92 -> 91
+	119 -> 120
+	91 -> 59
+	118 -> 122
+	120 -> 121
+	121 -> 126
+	126 -> 41
+	89 -> 88
+	91 -> 90
+	91 -> 93
+	127 -> 126
+	126 -> 92
+	91 -> 53
+	91 [label="Bar Chart"]
+	120 [label="Numeric Binner"]
+	126 [label="Random Forest Predictor"]
+	92 [label="One to Many"]
+	90 [label="Image to Report"]
+	119 [label="Column Filter"]
+	41 [label="CSV Writer"]
+	89 [label="Color Manager"]
+	127 [label="Model Reader"]
+	118 [label="Excel Reader _XLS_ _deprecated_"]
+	53 [label="Image to Report"]
+	88 [label="Scatter Plot"]
+	93 [label="Image to Report"]
+	122 [label="Row Filter"]
+	121 [label="Column Aggregator"]
+	59 [label="Image to Report"]
+	rankdir=LR
+}

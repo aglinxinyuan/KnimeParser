@@ -1,0 +1,72 @@
+digraph {
+	221 -> 161
+	279 -> 283
+	269 -> 291
+	280 -> 281
+	285 -> 287
+	221 -> 168
+	232 -> 296
+	276 -> 299
+	296 -> 297
+	278 -> 280
+	289 -> 231
+	300 -> 289
+	231 -> 296
+	301 -> 276
+	187 -> 192
+	192 -> 176
+	176 -> 301
+	220 -> 195
+	289 -> 269
+	307 -> 187
+	289 -> 295
+	219 -> 220
+	307 -> 192
+	278 -> 279
+	290 -> 287
+	287 -> 219
+	281 -> 282
+	293 -> 307
+	295 -> 232
+	291 -> 293
+	195 -> 221
+	161 -> 219
+	301 -> 300
+	287 -> 289
+	168 -> 295
+	299 -> 297
+	279 -> 281
+	231 [label="Constant Value Column"]
+	289 [label=Concatenate]
+	280 [label="DB Table Selector"]
+	307 [label="Row Splitter"]
+	269 [label="Numeric Outliers"]
+	295 [label=Joiner]
+	283 [label="DB Reader"]
+	168 [label="String Manipulation"]
+	290 [label="Excel Reader"]
+	161 [label="Cell Splitter"]
+	291 [label="Value Counter"]
+	282 [label="DB Reader"]
+	281 [label="DB Joiner"]
+	285 [label="Table Reader"]
+	299 [label="Duplicate Row Filter"]
+	296 [label=Concatenate]
+	287 [label=Joiner]
+	293 [label=RowID]
+	219 [label=Unpivoting]
+	176 [label="Cell Replacer"]
+	279 [label="DB Table Selector"]
+	301 [label="CSV Reader"]
+	195 [label="Column Rename"]
+	278 [label="SQLite Connector"]
+	232 [label="Rule Engine"]
+	192 [label=Joiner]
+	300 [label="Number To String"]
+	187 [label="Similarity Search"]
+	220 [label="Row Filter"]
+	276 [label="Missing Value"]
+	297 [label=Joiner]
+	221 [label="Column Filter"]
+	rankdir=LR
+}

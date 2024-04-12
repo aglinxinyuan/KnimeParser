@@ -1,0 +1,8 @@
+digraph {
+	6 -> 5
+	5 -> 11
+	5 [label="Python Script _Labs_"]
+	11 [label="Image Output Widget"]
+	6 [label="Data Generator"]
+	rankdir=LR
+}

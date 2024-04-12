@@ -1,0 +1,24 @@
+digraph {
+	97 -> 98
+	95 -> 97
+	96 -> 95
+	86 -> 84
+	83 -> 86
+	92 -> 94
+	91 -> 93
+	93 -> 92
+	94 -> 96
+	84 -> 91
+	86 [label="Cell Splitter By Position"]
+	91 [label="Lag Column"]
+	94 [label="Extract Date_Time Fields"]
+	96 [label="Math Formula"]
+	92 [label="Date_Time Difference"]
+	84 [label="String to Date_Time"]
+	98 [label="Math Formula"]
+	97 [label="Math Formula"]
+	95 [label=GroupBy]
+	93 [label="Rule Engine"]
+	83 [label="Excel Reader"]
+	rankdir=LR
+}

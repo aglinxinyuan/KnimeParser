@@ -1,0 +1,15 @@
+digraph {
+	4 -> 5
+	2 -> 6
+	8 -> 7
+	1 -> 2
+	6 -> 7
+	5 [label="Constant Value Column"]
+	1 [label="Microsoft Authentication"]
+	7 [label="Send to Power BI"]
+	4 [label="Create Date_Time Range"]
+	6 [label="CSV Reader"]
+	8 [label="Microsoft Authentication"]
+	2 [label="SharePoint Online Connector"]
+	rankdir=LR
+}

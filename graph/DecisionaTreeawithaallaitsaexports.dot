@@ -1,0 +1,33 @@
+digraph {
+	466 -> 472
+	246 -> 146
+	465 -> 467
+	466 -> 468
+	466 -> 467
+	244 -> 245
+	1 -> 465
+	465 -> 466
+	468 -> 469
+	466 -> 459
+	467 -> 470
+	467 -> 471
+	471 -> 244
+	245 -> 246
+	459 -> 464
+	245 [label="Renderer to Image"]
+	459 [label="PMML to SQL"]
+	246 [label="Table To Image"]
+	467 [label="Decision Tree Predictor"]
+	472 [label="PMML Writer"]
+	468 [label="Decision Tree to Ruleset"]
+	1 [label="Table Reader"]
+	469 [label="CSV Writer"]
+	464 [label="CSV Writer"]
+	244 [label="Image To Table"]
+	465 [label=Partitioning]
+	471 [label="ROC Curve _JavaScript_"]
+	470 [label="ROC Curve"]
+	466 [label="Decision Tree Learner"]
+	146 [label="Image Port Writer"]
+	rankdir=LR
+}

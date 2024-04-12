@@ -1,0 +1,53 @@
+digraph {
+	2 -> 27
+	17 -> 24
+	13 -> 14
+	2 -> 6
+	21 -> 22
+	2 -> 8
+	2 -> 11
+	2 -> 12
+	18 -> 19
+	1 -> 2
+	23 -> 21
+	2 -> 28
+	24 -> 23
+	2 -> 10
+	15 -> 16
+	14 -> 18
+	2 -> 7
+	22 -> 26
+	20 -> 15
+	2 -> 13
+	19 -> 20
+	2 -> 9
+	2 -> 5
+	23 -> 22
+	16 -> 17
+	27 [label="Bar Chart"]
+	7 [label=Histogram]
+	9 [label="Bar Chart"]
+	18 [label="Row Filter"]
+	21 [label="Linear Regression Learner"]
+	26 [label="Numeric Scorer"]
+	8 [label=Histogram]
+	17 [label="Row Sampling"]
+	19 [label="Row Filter"]
+	24 [label=Normalizer]
+	6 [label=Histogram]
+	15 [label="Category to Number"]
+	12 [label="Bar Chart"]
+	10 [label="Bar Chart"]
+	16 [label="Column Filter"]
+	1 [label="Excel Reader"]
+	22 [label="Regression Predictor"]
+	28 [label="Bar Chart"]
+	11 [label="Scatter Plot"]
+	23 [label=Partitioning]
+	14 [label="Row Filter"]
+	5 [label=Histogram]
+	13 [label="Row Filter"]
+	20 [label="Row Filter"]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

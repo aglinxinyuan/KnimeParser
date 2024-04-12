@@ -1,0 +1,39 @@
+digraph {
+	56 -> 57
+	23 -> 70
+	23 -> 52
+	52 -> 51
+	25 -> 50
+	55 -> 58
+	63 -> 67
+	52 -> 48
+	49 -> 48
+	50 -> 49
+	57 -> 58
+	62 -> 63
+	48 -> 53
+	64 -> 67
+	58 -> 59
+	51 -> 54
+	64 -> 63
+	57 [label="DB Table Creator"]
+	55 [label="CSV Reader"]
+	58 [label="DB Insert"]
+	64 [label="CSV Reader"]
+	49 [label="Table Manipulator"]
+	51 [label="DB Table Selector"]
+	56 [label="PostgreSQL Connector"]
+	25 [label="Excel Reader"]
+	54 [label="DB Reader"]
+	59 [label="DB Reader"]
+	48 [label="DB Insert"]
+	50 [label="Number To String"]
+	53 [label="DB Reader"]
+	67 [label="DB Insert"]
+	23 [label="PostgreSQL Connector"]
+	63 [label="DB Table Creator"]
+	62 [label="PostgreSQL Connector"]
+	70 [label="DB Table Creator"]
+	52 [label="DB SQL Executor"]
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	28 -> 32
+	29 -> 30
+	30 -> 28
+	25 -> 26
+	28 -> 31
+	26 -> 27
+	30 -> 24
+	27 -> 29
+	26 -> 28
+	24 [label="Petri Net Visualizer"]
+	27 [label="Filter Event Table by Frequency"]
+	30 [label="Process Tree to Petri Net"]
+	29 [label="Inductive Miner _Table_"]
+	28 [label="Alignment_Based Replayer"]
+	31 [label="Alignment_Based Precision Evaluator"]
+	26 [label="Event Log to Table"]
+	25 [label="XES Reader"]
+	32 [label="Alignment_Based Fitness Evaluator"]
+	rankdir=LR
+}

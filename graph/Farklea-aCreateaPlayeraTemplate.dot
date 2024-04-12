@@ -1,0 +1,30 @@
+digraph {
+	4 -> 7
+	16 -> 15
+	11 -> 12
+	18 -> 19
+	3 -> 8
+	9 -> 4
+	12 -> 16
+	17 -> 18
+	2 -> 3
+	8 -> 16
+	6 -> 2
+	7 -> 6
+	16 -> 17
+	16 [label="Reference Row Splitter"]
+	7 [label="Java Edit Variable"]
+	9 [label="Empty Table Creator"]
+	11 [label="File Reader"]
+	4 [label="Counting Loop Start"]
+	18 [label="Constant Value Column"]
+	8 [label="Loop End"]
+	6 [label="Empty Table Creator"]
+	15 [label="CSV Writer"]
+	17 [label="Constant Value Column"]
+	3 [label="Duplicate Row Filter"]
+	2 [label="Java Snippet"]
+	12 [label=GroupBy]
+	19 [label="CSV Writer"]
+	rankdir=LR
+}

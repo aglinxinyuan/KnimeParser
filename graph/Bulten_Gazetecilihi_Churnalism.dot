@@ -1,0 +1,49 @@
+digraph {
+	336 -> 337
+	315 -> 313
+	307 -> 325
+	313 -> 316
+	337 -> 340
+	325 -> 335
+	321 -> 356
+	340 -> 327
+	314 -> 315
+	340 -> 322
+	333 -> 326
+	327 -> 334
+	325 -> 332
+	341 -> 340
+	314 -> 313
+	322 -> 323
+	326 -> 303
+	323 -> 314
+	328 -> 333
+	347 -> 321
+	334 -> 328
+	303 -> 307
+	356 -> 336
+	307 [label="Column Filter"]
+	322 [label="Bag Of Words Creator"]
+	327 [label="Bag Of Words Creator"]
+	313 [label="Similarity Search"]
+	341 [label="Table Creator"]
+	335 [label="R Snippet"]
+	315 [label="Row Filter"]
+	316 [label="Column Filter"]
+	325 [label="Missing Value"]
+	336 [label="Punctuation Erasure"]
+	328 [label=TF]
+	332 [label="CSV Writer"]
+	334 [label="Term To String"]
+	333 [label=GroupBy]
+	356 [label="Number Filter"]
+	337 [label="Stop Word Filter"]
+	321 [label="Strings To Document"]
+	340 [label="Stop Word Filter"]
+	314 [label="Document Vector"]
+	326 [label="Row Filter"]
+	303 [label=Pivoting]
+	323 [label=TF]
+	347 [label="Table Creator"]
+	rankdir=LR
+}

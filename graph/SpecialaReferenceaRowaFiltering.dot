@@ -1,0 +1,27 @@
+digraph {
+	205 -> 211
+	202 -> 203
+	200 -> 212
+	200 -> 202
+	201 -> 206
+	211 -> 214
+	214 -> 212
+	212 -> 215
+	203 -> 204
+	215 -> 213
+	206 -> 204
+	204 -> 205
+	214 [label="Rule Engine"]
+	201 [label="Table Creator"]
+	203 [label=Unpivoting]
+	211 [label=RowID]
+	206 [label="Constant Value Column"]
+	205 [label=GroupBy]
+	212 [label=Joiner]
+	202 [label="Cell Splitter"]
+	215 [label="Row Filter"]
+	204 [label="Cell Replacer"]
+	200 [label="Table Creator"]
+	213 [label="Column Filter"]
+	rankdir=LR
+}

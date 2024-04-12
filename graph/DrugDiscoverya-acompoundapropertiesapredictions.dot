@@ -1,0 +1,119 @@
+digraph {
+	103 -> 109
+	64 -> 32
+	24 -> 59
+	63 -> 60
+	23 -> 24
+	48 -> 143
+	57 -> 141
+	39 -> 40
+	19 -> 53
+	132 -> 134
+	54 -> 53
+	148 -> 32
+	4 -> 45
+	109 -> 105
+	30 -> 32
+	7 -> 133
+	20 -> 54
+	4 -> 51
+	47 -> 68
+	111 -> 107
+	144 -> 145
+	20 -> 19
+	55 -> 56
+	134 -> 133
+	133 -> 135
+	152 -> 32
+	107 -> 6
+	149 -> 150
+	107 -> 19
+	142 -> 64
+	68 -> 69
+	56 -> 57
+	150 -> 156
+	69 -> 114
+	107 -> 4
+	19 -> 58
+	45 -> 47
+	114 -> 152
+	143 -> 144
+	24 -> 64
+	141 -> 58
+	157 -> 111
+	59 -> 62
+	6 -> 7
+	58 -> 32
+	107 -> 24
+	145 -> 146
+	60 -> 142
+	48 -> 145
+	51 -> 45
+	135 -> 32
+	40 -> 149
+	105 -> 106
+	146 -> 148
+	32 -> 39
+	26 -> 48
+	61 -> 59
+	62 -> 63
+	53 -> 55
+	107 -> 26
+	7 -> 132
+	106 -> 157
+	23 -> 61
+	133 [label="Column Expressions"]
+	57 [label="Column Rename _deprecated_"]
+	55 [label="Loop End"]
+	103 [label="SDF Reader"]
+	7 [label="Molecular Properties"]
+	26 [label="Molecular Properties"]
+	58 [label=Joiner]
+	32 [label=Joiner]
+	145 [label="Column Expressions"]
+	149 [label="Column Aggregator"]
+	105 [label="RDKit Canon SMILES"]
+	19 [label="RDKit Substructure Counter"]
+	39 [label=Joiner]
+	24 [label="RDKit Substructure Counter"]
+	64 [label=Joiner]
+	156 [label="Column Expressions"]
+	51 [label="Math Formula"]
+	56 [label=GroupBy]
+	6 [label="RDKit Descriptor Calculation"]
+	109 [label="Column Rename _deprecated_"]
+	54 [label="Table Row To Variable Loop Start"]
+	114 [label="Column Expressions"]
+	146 [label="Column Expressions"]
+	141 [label="Constant Value Column"]
+	59 [label="RDKit Substructure Filter"]
+	48 [label="RDKit Descriptor Calculation"]
+	150 [label="Column Aggregator"]
+	148 [label="Column Expressions"]
+	144 [label="Table Row To Variable"]
+	53 [label="RDKit Substructure Filter"]
+	68 [label="Column Filter"]
+	142 [label="Constant Value Column"]
+	143 [label=GroupBy]
+	23 [label="Table Creator"]
+	47 [label="Missing Value"]
+	4 [label="RDKit Molecule Catalog Filter"]
+	61 [label="Table Row To Variable Loop Start"]
+	63 [label=GroupBy]
+	135 [label="Column Expressions"]
+	106 [label="Speedy SMILES De_salt"]
+	134 [label="Table Row To Variable"]
+	60 [label="Column Rename _deprecated_"]
+	107 [label=Sorter]
+	20 [label="Table Creator"]
+	62 [label="Loop End"]
+	157 [label="Row Splitter"]
+	69 [label="Number To String"]
+	40 [label=Joiner]
+	111 [label="Column Filter"]
+	152 [label="String To Number"]
+	30 [label=Joiner]
+	45 [label=Concatenate]
+	132 [label=GroupBy]
+	rankdir=LR
+}

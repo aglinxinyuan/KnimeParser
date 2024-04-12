@@ -1,0 +1,28 @@
+digraph {
+	7 -> 8
+	5 -> 4
+	8 -> 9
+	9 -> 11
+	3 -> 4
+	4 -> 6
+	2 -> 6
+	1 -> 2
+	9 -> 10
+	2 -> 5
+	6 -> 7
+	10 -> 12
+	1 -> 3
+	5 [label=GroupBy]
+	1 [label="Database Connector"]
+	7 [label=GroupBy]
+	9 [label="Column Filter"]
+	11 [label="Rule_based Row Filter"]
+	4 [label="Parameterized Database Query"]
+	6 [label=Joiner]
+	8 [label="Column Resorter"]
+	12 [label="Rule Engine"]
+	3 [label="Database Table Selector"]
+	2 [label="Database Reader"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

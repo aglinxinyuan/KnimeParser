@@ -1,0 +1,128 @@
+digraph {
+	336 -> 346
+	363 -> 326
+	396 -> 323
+	339 -> 325
+	361 -> 386
+	360 -> 336
+	331 -> 373
+	344 -> 341
+	355 -> 361
+	354 -> 325
+	319 -> 348
+	357 -> 355
+	351 -> 348
+	352 -> 351
+	323 -> 364
+	394 -> 395
+	347 -> 340
+	350 -> 352
+	399 -> 396
+	382 -> 381
+	379 -> 361
+	385 -> 386
+	317 -> 354
+	347 -> 339
+	397 -> 346
+	381 -> 382
+	317 -> 335
+	317 -> 331
+	348 -> 317
+	390 -> 391
+	326 -> 317
+	378 -> 379
+	333 -> 355
+	316 -> 317
+	350 -> 351
+	320 -> 319
+	373 -> 334
+	358 -> 359
+	361 -> 395
+	347 -> 350
+	391 -> 348
+	380 -> 378
+	359 -> 369
+	369 -> 358
+	323 -> 326
+	334 -> 381
+	359 -> 390
+	342 -> 343
+	358 -> 373
+	384 -> 383
+	333 -> 356
+	317 -> 318
+	365 -> 363
+	339 -> 344
+	325 -> 333
+	351 -> 399
+	380 -> 361
+	356 -> 357
+	360 -> 359
+	361 -> 397
+	380 -> 384
+	350 -> 350
+	383 -> 380
+	335 -> 360
+	346 -> 347
+	386 -> 359
+	318 -> 320
+	348 -> 346
+	347 -> 348
+	364 -> 365
+	341 -> 342
+	351 [label="Column Appender"]
+	365 [label="String to Path _Variable_"]
+	379 [label="String to Path _Variable_"]
+	354 [label="Column Rename"]
+	394 [label="MongoDB Connector"]
+	381 [label="Constant Value Column"]
+	383 [label="String Manipulation"]
+	384 [label="String Manipulation"]
+	363 [label="Create Folder"]
+	339 [label="Image Reader _Table_"]
+	357 [label="Table Row to Variable"]
+	341 [label="JSON Path"]
+	335 [label="Column Expressions"]
+	316 [label="Variable Creator"]
+	343 [label="String Manipulation"]
+	373 [label="Cross Joiner"]
+	325 [label=Joiner]
+	344 [label="String to JSON"]
+	336 [label="String Manipulation"]
+	348 [label="Loop End"]
+	361 [label="Row Filter"]
+	359 [label=GroupBy]
+	390 [label="JSON Path"]
+	386 [label=Joiner]
+	334 [label="Loop End"]
+	319 [label="Math Formula"]
+	391 [label="Duplicate Row Filter"]
+	397 [label="Loop End"]
+	385 [label="Table Creator"]
+	396 [label="Chunk Loop Start"]
+	382 [label="String to JSON"]
+	346 [label="Chunk Loop Start"]
+	358 [label=Sorter]
+	342 [label="Collection to String"]
+	333 [label="Row Filter"]
+	356 [label=GroupBy]
+	360 [label="String Manipulation _Multi Column_"]
+	369 [label="Row Filter"]
+	378 [label="String Manipulation _Variable_"]
+	399 [label="Row Filter"]
+	331 [label=RowID]
+	352 [label="Column Rename"]
+	340 [label="Column Filter"]
+	380 [label="JSON Transformer"]
+	364 [label="String Manipulation _Variable_"]
+	326 [label="Chunk Loop Start"]
+	350 [label=RowID]
+	318 [label="Math Formula"]
+	395 [label="MongoDB Writer"]
+	355 [label="Math Formula"]
+	323 [label="String Manipulation"]
+	317 [label="Python Script"]
+	347 [label="Python Script"]
+	320 [label="Math Formula"]
+	rankdir=LR
+}

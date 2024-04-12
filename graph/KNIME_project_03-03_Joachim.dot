@@ -1,0 +1,47 @@
+digraph {
+	115 -> 116
+	2 -> 117
+	117 -> 121
+	121 -> 139
+	108 -> 109
+	123 -> 121
+	136 -> 137
+	11 -> 117
+	2 -> 11
+	135 -> 115
+	21 -> 2
+	110 -> 131
+	129 -> 133
+	133 -> 135
+	139 -> 136
+	11 -> 123
+	13 -> 109
+	110 -> 129
+	109 -> 110
+	116 -> 21
+	1 -> 13
+	137 -> 125
+	13 -> 108
+	133 [label="Rule Engine"]
+	136 [label="Rule Engine"]
+	21 [label="Category To Number"]
+	108 [label="Value Counter"]
+	121 [label="Gradient Boosted Trees Predictor"]
+	137 [label="Rule Engine"]
+	131 [label=GroupBy]
+	109 [label=Joiner]
+	110 [label="Row Filter"]
+	129 [label="String Replacer"]
+	123 [label="Gradient Boosted Trees Learner"]
+	125 [label=Scorer]
+	1 [label="CSV Reader"]
+	115 [label=Auto_Binner]
+	11 [label="Missing Value"]
+	135 [label="Row Filter"]
+	117 [label="Missing Value _Apply_"]
+	13 [label="Duplicate Row Filter"]
+	139 [label="Row Filter"]
+	116 [label="Color Manager"]
+	2 [label=Partitioning]
+	rankdir=LR
+}

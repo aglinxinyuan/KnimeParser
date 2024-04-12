@@ -1,0 +1,10 @@
+digraph {
+	35 -> 5
+	5 -> 36
+	1 -> 35
+	1 [label="CSV Reader"]
+	5 [label="Table Manipulator"]
+	36 [label="Generic JavaScript View"]
+	35 [label="Rule Engine"]
+	rankdir=LR
+}

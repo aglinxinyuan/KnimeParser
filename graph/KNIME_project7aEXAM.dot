@@ -1,0 +1,55 @@
+digraph {
+	13 -> 35
+	29 -> 37
+	2 -> 27
+	17 -> 40
+	19 -> 18
+	3 -> 28
+	35 -> 21
+	6 -> 9
+	44 -> 45
+	9 -> 19
+	9 -> 17
+	26 -> 4
+	19 -> 36
+	1 -> 26
+	27 -> 5
+	9 -> 29
+	5 -> 9
+	39 -> 31
+	28 -> 6
+	13 -> 29
+	38 -> 39
+	10 -> 38
+	6 -> 13
+	9 -> 44
+	9 -> 10
+	4 -> 13
+	27 [label="Duplicate Row Filter"]
+	9 [label=Joiner]
+	45 [label="Sunburst Chart"]
+	26 [label="Duplicate Row Filter"]
+	18 [label="Bar Chart"]
+	21 [label="Sunburst Chart"]
+	17 [label=GroupBy]
+	3 [label="Excel Reader"]
+	19 [label=GroupBy]
+	31 [label="Bar Chart"]
+	6 [label=GroupBy]
+	10 [label=GroupBy]
+	1 [label="Excel Reader"]
+	28 [label="Duplicate Row Filter"]
+	4 [label=GroupBy]
+	38 [label="Row Filter"]
+	5 [label=GroupBy]
+	13 [label=Joiner]
+	35 [label=GroupBy]
+	44 [label=GroupBy]
+	29 [label=Joiner]
+	36 [label="Conditional Box Plot _legacy_"]
+	40 [label="Pie Chart"]
+	39 [label="Row Filter"]
+	2 [label="Excel Reader"]
+	37 [label="CSV Writer"]
+	rankdir=LR
+}

@@ -1,0 +1,27 @@
+digraph {
+	43 -> 34
+	33 -> 34
+	3 -> 2
+	35 -> 43
+	1 -> 113
+	114 -> 113
+	113 -> 3
+	113 -> 114
+	31 -> 33
+	113 -> 4
+	34 -> 35
+	4 -> 34
+	2 -> 34
+	113 [label="Rule_based Row Filter"]
+	43 [label="Column Rename"]
+	35 [label=GroupBy]
+	1 [label="Excel Reader"]
+	34 [label="Joiner _deprecated_"]
+	31 [label=RowID]
+	4 [label=GroupBy]
+	114 [label="Column Rename"]
+	33 [label=Ungroup]
+	3 [label=GroupBy]
+	2 [label="Association Rule Learner _Borgelt_"]
+	rankdir=LR
+}

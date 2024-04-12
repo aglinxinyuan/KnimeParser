@@ -1,0 +1,45 @@
+digraph {
+	31 -> 34
+	18 -> 13
+	12 -> 14
+	27 -> 28
+	13 -> 21
+	19 -> 13
+	3 -> 10
+	20 -> 23
+	14 -> 20
+	1 -> 12
+	11 -> 12
+	22 -> 24
+	24 -> 27
+	27 -> 32
+	28 -> 32
+	21 -> 14
+	10 -> 20
+	32 -> 33
+	9 -> 10
+	23 -> 22
+	33 -> 31
+	27 [label="Math Formula"]
+	9 [label="Table Creator"]
+	21 [label="Number To String"]
+	18 [label="CSV Reader"]
+	3 [label="CSV Reader"]
+	19 [label="CSV Reader"]
+	24 [label=Pivoting]
+	31 [label="Table Manipulator"]
+	12 [label=Joiner]
+	10 [label=Joiner]
+	1 [label="CSV Reader"]
+	22 [label="Extract Date_Time Fields"]
+	28 [label=GroupBy]
+	11 [label="Table Creator"]
+	23 [label="String to Date_Time"]
+	14 [label=Joiner]
+	20 [label=Joiner]
+	13 [label=Concatenate]
+	34 [label="CSV Writer"]
+	33 [label="Column Expressions"]
+	32 [label=Joiner]
+	rankdir=LR
+}

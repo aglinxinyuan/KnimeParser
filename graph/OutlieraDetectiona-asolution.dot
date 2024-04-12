@@ -1,0 +1,46 @@
+digraph {
+	782 -> 23
+	82 -> 66
+	23 -> 26
+	63 -> 64
+	66 -> 780
+	82 -> 780
+	77 -> 78
+	78 -> 80
+	81 -> 72
+	81 -> 82
+	780 -> 778
+	72 -> 73
+	66 -> 774
+	774 -> 778
+	26 -> 24
+	24 -> 77
+	778 -> 784
+	83 -> 72
+	78 -> 64
+	82 -> 73
+	80 -> 81
+	774 -> 775
+	64 -> 83
+	784 [label="Rule_based Row Filter"]
+	774 [label=Normalizer]
+	26 [label="Column Filter"]
+	782 [label="CSV Reader"]
+	78 [label="Missing Value"]
+	24 [label=Partitioning]
+	64 [label="Missing Value _Apply_"]
+	778 [label="Normalizer _Apply_"]
+	775 [label="Rule_based Row Filter"]
+	72 [label="Reference Column Filter"]
+	23 [label="Rule Engine"]
+	63 [label="Rule Engine"]
+	77 [label="Rule Engine"]
+	83 [label="Column Auto Type Cast"]
+	81 [label="Missing Value Column Filter"]
+	66 [label="Numeric Outliers"]
+	82 [label="Missing Value"]
+	80 [label="Column Auto Type Cast"]
+	73 [label="Missing Value _Apply_"]
+	780 [label="Numeric Outliers _Apply_"]
+	rankdir=LR
+}

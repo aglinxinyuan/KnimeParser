@@ -1,0 +1,52 @@
+digraph {
+	13 -> 15
+	7 -> 8
+	8 -> 13
+	4 -> 5
+	8 -> 9
+	2 -> 8
+	2 -> 4
+	18 -> 23
+	12 -> 13
+	1 -> 4
+	18 -> 19
+	18 -> 25
+	18 -> 22
+	17 -> 18
+	11 -> 12
+	10 -> 11
+	18 -> 24
+	15 -> 16
+	18 -> 20
+	9 -> 12
+	6 -> 7
+	18 -> 26
+	5 -> 6
+	18 -> 21
+	16 -> 17
+	7 [label=GroupBy]
+	9 [label="Geometry To Point"]
+	18 [label="Math Formula"]
+	21 [label="Linear Regression Learner"]
+	26 [label="Python Script"]
+	8 [label=Joiner]
+	17 [label="Math Formula"]
+	19 [label="Linear Regression Learner"]
+	24 [label="Linear Regression Learner"]
+	6 [label="Math Formula"]
+	15 [label="Math Formula"]
+	25 [label="Python Script"]
+	10 [label="GeoFile Reader"]
+	12 [label="Euclidean Distance"]
+	16 [label="Math Formula"]
+	1 [label="GeoFile Reader"]
+	22 [label="Linear Regression Learner"]
+	11 [label="Row Filter"]
+	4 [label=Overlay]
+	23 [label="Linear Regression Learner"]
+	5 [label=Area]
+	13 [label=Joiner]
+	20 [label="Linear Regression Learner"]
+	2 [label="GeoFile Reader"]
+	rankdir=LR
+}

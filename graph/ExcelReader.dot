@@ -1,0 +1,12 @@
+digraph {
+	77 -> 86
+	87 -> 88
+	76 -> 84
+	86 [label="Excel Writer"]
+	84 [label="Excel Writer _XLS_ _deprecated_"]
+	87 [label="Excel Reader"]
+	88 [label="Excel Writer"]
+	76 [label="Excel Reader _XLS_ _deprecated_"]
+	77 [label="Excel Reader"]
+	rankdir=LR
+}

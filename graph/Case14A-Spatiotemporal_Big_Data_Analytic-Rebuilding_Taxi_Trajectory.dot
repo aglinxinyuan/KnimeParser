@@ -1,0 +1,48 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	15 -> 18
+	2 -> 3
+	12 -> 13
+	18 -> 19
+	11 -> 16
+	11 -> 17
+	14 -> 15
+	17 -> 18
+	1 -> 2
+	11 -> 12
+	10 -> 11
+	8 -> 11
+	17 -> 21
+	4 -> 7
+	11 -> 15
+	3 -> 4
+	11 -> 14
+	15 -> 20
+	5 -> 6
+	9 -> 10
+	16 -> 17
+	7 [label="Moving Aggregation"]
+	9 [label=GroupBy]
+	18 [label=Concatenate]
+	21 [label="GeoPackage Writer"]
+	8 [label="String Manipulation"]
+	17 [label=Joiner]
+	3 [label="String to Date_Time"]
+	19 [label="Points To Line"]
+	6 [label="Kepler_gl Geoview "]
+	15 [label=Joiner]
+	12 [label="Points To Line"]
+	10 [label="Row Filter"]
+	16 [label=GroupBy]
+	1 [label="CSV Reader"]
+	11 [label="Reference Row Filter"]
+	4 [label=Rank]
+	14 [label=GroupBy]
+	5 [label="Points To Line"]
+	13 [label="GeoPackage Writer"]
+	20 [label="GeoPackage Writer"]
+	2 [label="Lat_Lon to Geometry"]
+	rankdir=LR
+}

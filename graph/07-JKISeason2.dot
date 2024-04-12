@@ -1,0 +1,18 @@
+digraph {
+	10 -> 13
+	7 -> 3
+	3 -> 5
+	9 -> 12
+	5 -> 10
+	1 -> 7
+	5 -> 9
+	5 [label="Rule_based Row Splitter"]
+	13 [label="Line Plot _JavaScript_"]
+	1 [label="CSV Reader"]
+	7 [label="Row Filter"]
+	9 [label="Row Splitter"]
+	12 [label="Line Plot _JavaScript_"]
+	3 [label="Rule_based Row Filter"]
+	10 [label="Row Splitter"]
+	rankdir=LR
+}

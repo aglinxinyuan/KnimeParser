@@ -1,0 +1,23 @@
+digraph {
+	23 -> 10
+	26 -> 16
+	13 -> 14
+	10 -> 25
+	14 -> 23
+	17 -> 16
+	16 -> 14
+	26 -> 13
+	11 -> 26
+	24 -> 11
+	16 [label="Amazon S3 Connector"]
+	24 [label="Container Input _Table_"]
+	13 [label="SAS7BDAT Reader"]
+	11 [label="Parallel Chunk Start"]
+	26 [label="Table Row to Variable"]
+	23 [label="Variable to Table Row"]
+	25 [label="Container Output _Table_"]
+	14 [label="Parquet Writer"]
+	17 [label="Amazon Authentication"]
+	10 [label="Parallel Chunk End"]
+	rankdir=LR
+}

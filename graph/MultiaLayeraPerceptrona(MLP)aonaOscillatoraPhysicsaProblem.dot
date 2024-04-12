@@ -1,0 +1,52 @@
+digraph {
+	16 -> 12
+	4 -> 3
+	21 -> 19
+	5 -> 4
+	13 -> 14
+	15 -> 18
+	13 -> 21
+	4 -> 6
+	4 -> 8
+	20 -> 19
+	1 -> 5
+	5 -> 15
+	14 -> 15
+	1 -> 2
+	17 -> 18
+	22 -> 11
+	5 -> 7
+	15 -> 16
+	13 -> 16
+	1 -> 10
+	19 -> 22
+	13 -> 17
+	18 -> 20
+	7 -> 13
+	6 -> 7
+	3 -> 6
+	4 -> 9
+	7 [label=Denormalizer]
+	9 [label="Scatter Plot"]
+	21 [label="Constant Value Column"]
+	18 [label="Column Appender"]
+	8 [label="Line Plot"]
+	17 [label="Column Filter"]
+	3 [label="RProp MLP Learner"]
+	19 [label=Concatenate]
+	6 [label="MultiLayerPerceptron Predictor"]
+	15 [label=Denormalizer]
+	12 [label="Line Plot"]
+	10 [label="Scatter Plot"]
+	16 [label="Column Appender"]
+	1 [label="Python Script"]
+	22 [label="Color Manager"]
+	11 [label="Scatter Plot"]
+	4 [label=Partitioning]
+	14 [label="Column Renamer"]
+	5 [label=Normalizer]
+	13 [label="Column Splitter"]
+	20 [label="Constant Value Column"]
+	2 [label="Line Plot"]
+	rankdir=LR
+}

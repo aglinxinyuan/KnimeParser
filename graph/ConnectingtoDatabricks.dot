@@ -1,0 +1,59 @@
+digraph {
+	860 -> 877
+	100 -> 860
+	100 -> 861
+	868 -> 881
+	854 -> 880
+	881 -> 102
+	883 -> 884
+	868 -> 102
+	869 -> 867
+	880 -> 878
+	102 -> 877
+	869 -> 883
+	855 -> 868
+	100 -> 884
+	878 -> 855
+	903 -> 893
+	100 -> 881
+	100 -> 855
+	877 -> 876
+	869 -> 861
+	100 -> 102
+	868 -> 869
+	100 -> 883
+	849 -> 854
+	100 -> 885
+	864 -> 865
+	100 -> 893
+	865 -> 860
+	100 -> 850
+	861 -> 877
+	100 -> 876
+	869 -> 884
+	100 -> 864
+	867 [label="Bar Chart"]
+	865 [label="Spark GroupBy"]
+	855 [label="Parquet Reader"]
+	880 [label="Extract URI Info"]
+	849 [label="Databricks File System Connection"]
+	885 [label="DB Table Selector"]
+	883 [label="DB Table Creator"]
+	869 [label="Row Filter"]
+	854 [label="List Remote Files"]
+	868 [label=Sorter]
+	877 [label="Merge Variables"]
+	861 [label="Parquet Writer"]
+	878 [label="Table Row to Variable"]
+	884 [label="DB Loader"]
+	100 [label="Create Databricks Environment"]
+	860 [label="Spark to Parquet"]
+	876 [label="Destroy Spark Context"]
+	102 [label="DB Loader"]
+	864 [label="CSV to Spark"]
+	893 [label="DB Loader"]
+	850 [label="DB Table Selector"]
+	903 [label="Table Creator"]
+	881 [label="DB Table Creator"]
+	rankdir=LR
+}

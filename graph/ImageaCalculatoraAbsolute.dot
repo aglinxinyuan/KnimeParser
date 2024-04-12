@@ -1,0 +1,12 @@
+digraph {
+	19 -> 21
+	21 -> 28
+	29 -> 19
+	18 -> 19
+	29 [label="Image Reader"]
+	28 [label="Table Cell Viewer"]
+	18 [label="Convolution Kernel Creator"]
+	21 [label="Image Calculator"]
+	19 [label=Convolver]
+	rankdir=LR
+}

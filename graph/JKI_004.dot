@@ -1,0 +1,14 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	1 -> 6
+	1 -> 2
+	2 -> 3
+	5 [label="Column Filter"]
+	1 [label="CSV Reader"]
+	4 [label="Rule Engine"]
+	6 [label="Java Snippet"]
+	3 [label="Missing Value"]
+	2 [label="Lag Column"]
+	rankdir=LR
+}

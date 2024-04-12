@@ -1,0 +1,11 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	2 -> 4
+	1 -> 2
+	1 [label="CSV Reader"]
+	4 [label="Hierarchical Cluster View"]
+	3 [label="Hierarchical Clustering _DistMatrix_"]
+	2 [label="Distance Matrix Calculate"]
+	rankdir=LR
+}

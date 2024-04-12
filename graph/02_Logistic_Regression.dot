@@ -1,0 +1,71 @@
+digraph {
+	53 -> 23
+	56 -> 77
+	66 -> 85
+	78 -> 79
+	84 -> 53
+	784 -> 786
+	82 -> 66
+	56 -> 66
+	23 -> 26
+	780 -> 786
+	56 -> 78
+	59 -> 23
+	63 -> 64
+	66 -> 780
+	55 -> 56
+	53 -> 66
+	66 -> 785
+	77 -> 78
+	78 -> 80
+	81 -> 72
+	81 -> 82
+	85 -> 56
+	780 -> 778
+	72 -> 73
+	66 -> 774
+	786 -> 84
+	774 -> 778
+	26 -> 24
+	24 -> 77
+	778 -> 784
+	85 -> 55
+	66 -> 74
+	83 -> 72
+	78 -> 64
+	82 -> 73
+	80 -> 81
+	775 -> 785
+	774 -> 775
+	64 -> 83
+	784 [label="Rule_based Row Filter"]
+	55 [label=Normalizer]
+	774 [label=Normalizer]
+	79 [label=Scorer]
+	26 [label="Column Filter"]
+	74 [label="Reference Column Filter"]
+	78 [label="Logistic Regression Predictor"]
+	24 [label=Partitioning]
+	64 [label="Missing Value _Apply_"]
+	84 [label=Normalizer]
+	778 [label="Normalizer _Apply_"]
+	56 [label="Normalizer _Apply_"]
+	775 [label="Rule_based Row Filter"]
+	85 [label="Reference Column Filter"]
+	59 [label="CSV Reader"]
+	785 [label="Reference Row Filter"]
+	53 [label="Low Variance Filter"]
+	72 [label="Reference Column Filter"]
+	23 [label="Rule Engine"]
+	63 [label="Rule Engine"]
+	77 [label="Logistic Regression Learner"]
+	83 [label="Column Auto Type Cast"]
+	81 [label="Missing Value Column Filter"]
+	66 [label="Numeric Outliers"]
+	82 [label="Missing Value"]
+	80 [label="Column Auto Type Cast"]
+	73 [label="Missing Value _Apply_"]
+	786 [label="Reference Row Filter"]
+	780 [label="Numeric Outliers _Apply_"]
+	rankdir=LR
+}

@@ -1,0 +1,16 @@
+digraph {
+	1 -> 4
+	3 -> 8
+	8 -> 4
+	9 -> 10
+	2 -> 3
+	4 -> 9
+	1 [label="Table Reader"]
+	9 [label="Color Manager"]
+	4 [label=Joiner]
+	8 [label=Ungroup]
+	3 [label="Cell Splitter"]
+	2 [label="CSV Reader"]
+	10 [label="Interactive Histogram _local_"]
+	rankdir=LR
+}

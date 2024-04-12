@@ -1,0 +1,25 @@
+digraph {
+	7 -> 8
+	12 -> 9
+	9 -> 11
+	13 -> 14
+	1 -> 5
+	11 -> 13
+	5 -> 6
+	6 -> 7
+	12 -> 11
+	14 -> 2
+	8 -> 12
+	5 [label="Rule Engine"]
+	13 [label=Sorter]
+	1 [label="Excel Reader"]
+	7 [label="Missing Value"]
+	9 [label=Rank]
+	11 [label=Concatenate]
+	6 [label="Missing Value"]
+	8 [label="Rule Engine"]
+	14 [label="Column Filter"]
+	2 [label="Line Plot _Labs_"]
+	12 [label="Row Splitter"]
+	rankdir=LR
+}

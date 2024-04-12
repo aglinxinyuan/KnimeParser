@@ -1,0 +1,18 @@
+digraph {
+	20 -> 13
+	12 -> 19
+	13 -> 7
+	1 -> 12
+	19 -> 20
+	1 -> 9
+	13 -> 22
+	13 [label="Missing Value"]
+	20 [label="Rule Engine"]
+	1 [label="File Reader"]
+	7 [label="Interactive Table _local_"]
+	22 [label="CSV Writer"]
+	9 [label=Statistics]
+	12 [label="Column Filter"]
+	19 [label="Rule Engine"]
+	rankdir=LR
+}

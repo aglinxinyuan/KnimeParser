@@ -1,0 +1,18 @@
+digraph {
+	11 -> 10
+	14 -> 17
+	9 -> 11
+	18 -> 16
+	18 -> 5
+	16 -> 14
+	5 -> 9
+	5 [label=Sorter]
+	16 [label="Color Manager"]
+	9 [label="Row Filter"]
+	11 [label="Column Filter"]
+	18 [label="Excel Reader"]
+	14 [label="Scatter Plot _JavaScript_"]
+	17 [label="Image to Report"]
+	10 [label="Data to Report"]
+	rankdir=LR
+}

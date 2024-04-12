@@ -1,0 +1,16 @@
+digraph {
+	4 -> 5
+	3 -> 4
+	8 -> 7
+	2 -> 3
+	6 -> 2
+	7 -> 2
+	5 [label="Scatter Plot"]
+	7 [label="Column Filter Configuration"]
+	4 [label="Color Manager"]
+	6 [label="Integer Configuration"]
+	8 [label="Table Reader"]
+	3 [label=PCA]
+	2 [label=k_Means]
+	rankdir=LR
+}

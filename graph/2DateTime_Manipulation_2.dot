@@ -1,0 +1,32 @@
+digraph {
+	34 -> 57
+	51 -> 19
+	55 -> 16
+	55 -> 34
+	51 -> 31
+	55 -> 11
+	23 -> 58
+	31 -> 55
+	29 -> 51
+	19 -> 59
+	29 -> 33
+	33 -> 18
+	51 -> 23
+	35 -> 29
+	16 [label=GroupBy]
+	57 [label="Line Plot"]
+	55 [label="Extract Date_Time Fields"]
+	35 [label="CSV Reader"]
+	34 [label="Date_Time Difference"]
+	29 [label="String to Date_Time"]
+	31 [label="Date_Time_based Row Filter"]
+	51 [label=Sorter]
+	23 [label="Moving Aggregation"]
+	18 [label="Row Filter"]
+	11 [label="Row Filter"]
+	58 [label="Line Plot"]
+	33 [label="Date_Time Difference"]
+	19 [label="Moving Average"]
+	59 [label="Line Plot"]
+	rankdir=LR
+}

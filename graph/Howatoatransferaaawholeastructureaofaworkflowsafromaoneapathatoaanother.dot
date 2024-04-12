@@ -1,0 +1,47 @@
+digraph {
+	7 -> 25
+	13 -> 14
+	42 -> 7
+	39 -> 40
+	27 -> 28
+	38 -> 41
+	41 -> 39
+	3 -> 14
+	24 -> 13
+	31 -> 32
+	13 -> 3
+	26 -> 31
+	14 -> 15
+	40 -> 43
+	25 -> 26
+	28 -> 30
+	12 -> 27
+	33 -> 34
+	15 -> 12
+	32 -> 33
+	43 -> 42
+	30 -> 42
+	27 [label="Path to String _Variable_"]
+	7 [label="List Files_Folders"]
+	26 [label="String Manipulation"]
+	3 [label="Delete Files_Folders"]
+	24 [label="Create File_Folder Variables"]
+	41 [label="Path to String _Variable_"]
+	31 [label="Column Filter"]
+	15 [label="Merge Variables"]
+	25 [label="Path to String"]
+	12 [label="Create Folder"]
+	30 [label="Java Edit Variable _simple_"]
+	42 [label="Merge Variables"]
+	28 [label="URL to File Path _Variable_"]
+	14 [label="Catch Errors _Var Ports_"]
+	38 [label="Create File_Folder Variables"]
+	13 [label="Try _Variable Ports_"]
+	43 [label="String to Path _Variable_"]
+	34 [label="Transfer Files _Table_"]
+	40 [label="Java Edit Variable _simple_"]
+	39 [label="URL to File Path _Variable_"]
+	33 [label="String to Path"]
+	32 [label="String to Path"]
+	rankdir=LR
+}

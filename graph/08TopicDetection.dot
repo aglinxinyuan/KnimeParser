@@ -1,0 +1,38 @@
+digraph {
+	11 -> 10
+	4 -> 5
+	29 -> 28
+	10 -> 27
+	31 -> 38
+	26 -> 31
+	39 -> 40
+	5 -> 7
+	59 -> 60
+	27 -> 29
+	25 -> 28
+	9 -> 10
+	38 -> 40
+	28 -> 26
+	40 -> 58
+	58 -> 59
+	7 -> 9
+	5 [label="Strings To Document"]
+	27 [label="Punctuation Erasure"]
+	60 [label="Tag Cloud"]
+	7 [label="POS Tagger"]
+	29 [label="Case Converter"]
+	28 [label="Stop Word Filter"]
+	9 [label="StanfordNLP NE Tagger"]
+	31 [label="Tag Filter"]
+	11 [label="Table Creator"]
+	4 [label="Tika Parser"]
+	26 [label="Tag Filter"]
+	58 [label="Topic Extractor _Parallel LDA_"]
+	40 [label="Column Appender"]
+	25 [label="Table Creator"]
+	39 [label="Table Creator"]
+	38 [label="Column Filter"]
+	10 [label="Wildcard Tagger"]
+	59 [label="Color Manager"]
+	rankdir=LR
+}

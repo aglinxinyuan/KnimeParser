@@ -1,0 +1,39 @@
+digraph {
+	812 -> 813
+	18 -> 23
+	813 -> 811
+	25 -> 813
+	812 -> 815
+	2 -> 10
+	16 -> 24
+	15 -> 16
+	1 -> 15
+	27 -> 16
+	22 -> 18
+	24 -> 25
+	10 -> 20
+	25 -> 26
+	10 -> 27
+	811 -> 815
+	18 -> 21
+	20 -> 22
+	812 [label="Shapefile Polygon Reader"]
+	16 [label=Joiner]
+	27 [label="Row Splitter"]
+	24 [label=GroupBy]
+	20 [label=GroupBy]
+	1 [label="Excel Reader"]
+	22 [label="Row Splitter"]
+	813 [label=Joiner]
+	23 [label="Top k Selector"]
+	18 [label="Row Splitter"]
+	21 [label="Top k Selector"]
+	26 [label="Top k Selector"]
+	811 [label="Color Manager"]
+	15 [label="String Manipulation"]
+	25 [label="Math Formula"]
+	815 [label="OSM Map to Image"]
+	2 [label="CSV Reader"]
+	10 [label="Row Splitter"]
+	rankdir=LR
+}

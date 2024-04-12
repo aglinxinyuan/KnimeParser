@@ -1,0 +1,11 @@
+digraph {
+	2 -> 25
+	2 -> 26
+	27 -> 26
+	25 -> 27
+	26 [label="Rule_based Row Filter"]
+	27 [label="Table Row to Variable"]
+	2 [label="Table Reader"]
+	25 [label=GroupBy]
+	rankdir=LR
+}

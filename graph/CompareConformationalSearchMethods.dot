@@ -1,0 +1,45 @@
+digraph {
+	50 -> 113
+	15 -> 46
+	9 -> 13
+	8248 -> 8249
+	8248 -> 3
+	3 -> 10
+	4 -> 11
+	46 -> 47
+	13 -> 45
+	8248 -> 4
+	47 -> 49
+	33 -> 47
+	45 -> 46
+	50 -> 48
+	8249 -> 32
+	8248 -> 2
+	49 -> 50
+	11 -> 15
+	32 -> 33
+	10 -> 14
+	2 -> 9
+	14 -> 45
+	9 [label="Extract MAE Properties"]
+	3 [label="Conformational Search"]
+	8249 [label=ConfGen]
+	49 [label="Column Filter"]
+	15 [label=Rename]
+	10 [label="Extract MAE Properties"]
+	48 [label="Text Viewer"]
+	50 [label=MAE_to_Smiles]
+	11 [label="Extract MAE Properties"]
+	4 [label="Conformational Search"]
+	47 [label=Joiner]
+	14 [label=Rename]
+	113 [label="CSV Writer"]
+	13 [label=Rename]
+	46 [label=Joiner]
+	8248 [label="Molecule Reader _to MAE_"]
+	33 [label=Rename]
+	32 [label="Extract MAE Properties"]
+	2 [label="Conformational Search"]
+	45 [label=Joiner]
+	rankdir=LR
+}

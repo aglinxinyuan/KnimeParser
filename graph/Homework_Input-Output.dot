@@ -1,0 +1,56 @@
+digraph {
+	41 -> 42
+	5 -> 4
+	1 -> 19
+	4 -> 6
+	38 -> 41
+	1 -> 17
+	6 -> 25
+	30 -> 33
+	6 -> 22
+	30 -> 31
+	18 -> 17
+	30 -> 27
+	1 -> 2
+	38 -> 42
+	6 -> 24
+	1 -> 20
+	42 -> 45
+	6 -> 26
+	3 -> 5
+	30 -> 29
+	1 -> 7
+	6 -> 21
+	23 -> 25
+	32 -> 31
+	30 -> 28
+	27 [label=Statistics]
+	7 [label="Send to Power BI"]
+	21 [label=Statistics]
+	26 [label="Scatter Plot"]
+	18 [label="MySQL Connector"]
+	32 [label="MySQL Connector"]
+	17 [label="DB Writer"]
+	3 [label="Google Authentication"]
+	19 [label="Scatter Plot"]
+	24 [label="CSV Writer"]
+	41 [label="Table Column to Variable"]
+	31 [label="DB Writer"]
+	6 [label="String To Number"]
+	25 [label="DB Writer"]
+	1 [label="CSV Reader"]
+	42 [label="Table Row To Variable Loop Start"]
+	22 [label="Send to Power BI"]
+	28 [label="Scatter Plot"]
+	23 [label="MySQL Connector"]
+	4 [label="Google Sheets Reader"]
+	38 [label="List Files_Folders"]
+	5 [label="Google Sheets Connection"]
+	20 [label=Statistics]
+	29 [label="Send to Power BI"]
+	33 [label="CSV Writer"]
+	30 [label="CSV Reader"]
+	2 [label="CSV Writer"]
+	45 [label="CSV Reader"]
+	rankdir=LR
+}

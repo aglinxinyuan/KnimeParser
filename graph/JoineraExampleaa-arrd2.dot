@@ -1,0 +1,8 @@
+digraph {
+	26 -> 29
+	28 -> 29
+	26 [label="Table Creator"]
+	29 [label=Joiner]
+	28 [label="Table Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,76 @@
+digraph {
+	127 -> 130
+	106 -> 107
+	118 -> 21
+	108 -> 109
+	113 -> 114
+	136 -> 137
+	132 -> 133
+	122 -> 118
+	120 -> 116
+	134 -> 135
+	106 -> 109
+	22 -> 120
+	119 -> 22
+	16 -> 122
+	114 -> 136
+	109 -> 16
+	116 -> 115
+	112 -> 113
+	117 -> 110
+	137 -> 138
+	114 -> 121
+	120 -> 126
+	110 -> 124
+	130 -> 131
+	58 -> 110
+	115 -> 123
+	123 -> 112
+	133 -> 134
+	20 -> 119
+	21 -> 95
+	125 -> 20
+	122 -> 127
+	95 -> 58
+	58 -> 117
+	107 -> 108
+	131 -> 132
+	121 -> 106
+	133 [label="Term To String"]
+	126 [label="Tagged Document Viewer"]
+	136 [label="Topic Extractor _Parallel LDA_"]
+	21 [label="Color Manager"]
+	58 [label=Partitioning]
+	138 [label="Tag Cloud"]
+	108 [label="Row Filter"]
+	122 [label="Document Vector"]
+	121 [label="Bag Of Words Creator"]
+	137 [label="Row Filter"]
+	119 [label="Strings To Document"]
+	131 [label="Row Filter"]
+	109 [label="Reference Row Filter"]
+	114 [label="Tag Filter"]
+	110 [label="Decision Tree Predictor"]
+	16 [label=TF]
+	123 [label="Stop Word Filter"]
+	125 [label="Table Reader"]
+	112 [label="Case converter"]
+	115 [label="Punctuation Erasure"]
+	22 [label="Column Filter"]
+	127 [label="Distance Matrix Calculate"]
+	124 [label=Scorer]
+	106 [label="Term to String"]
+	135 [label="Tag Cloud"]
+	117 [label="Decision Tree Learner"]
+	134 [label=GroupBy]
+	107 [label=GroupBy]
+	113 [label="Snowball Stemmer"]
+	20 [label="Row Filter"]
+	120 [label="POS Tagger"]
+	118 [label="Document Data Extractor"]
+	116 [label="Number Filter"]
+	130 [label=k_Medoids]
+	95 [label="Column Filter"]
+	132 [label="Bag Of Words Creator"]
+	rankdir=LR
+}

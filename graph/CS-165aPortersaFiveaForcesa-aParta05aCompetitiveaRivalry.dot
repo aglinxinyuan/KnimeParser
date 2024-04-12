@@ -1,0 +1,48 @@
+digraph {
+	21 -> 23
+	20 -> 13
+	32 -> 16
+	7 -> 4
+	20 -> 27
+	2 -> 4
+	19 -> 9
+	10 -> 21
+	8 -> 19
+	4 -> 8
+	29 -> 32
+	11 -> 22
+	21 -> 28
+	22 -> 29
+	22 -> 24
+	27 -> 32
+	28 -> 32
+	19 -> 11
+	6 -> 7
+	32 -> 30
+	32 -> 33
+	9 -> 20
+	19 -> 10
+	27 [label="Column Filter"]
+	7 [label="Correlation Pairs To Matrix"]
+	9 [label="Row Filter"]
+	21 [label="Column Rename"]
+	8 [label="Price War"]
+	19 [label="Column Filter"]
+	24 [label="Scatter Plot _JFreeChart_"]
+	6 [label="Table Creator"]
+	10 [label="Row Filter"]
+	16 [label="Line Chart _JFreeChart_"]
+	30 [label="Line Chart _JFreeChart_"]
+	22 [label="Column Rename"]
+	28 [label="Column Filter"]
+	11 [label="Row Filter"]
+	4 [label="Matrix Distributions"]
+	23 [label="Scatter Plot _JFreeChart_"]
+	20 [label="Column Rename"]
+	13 [label="Scatter Plot _JFreeChart_"]
+	29 [label="Column Filter"]
+	33 [label="Excel Writer"]
+	32 [label="Column Appender"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

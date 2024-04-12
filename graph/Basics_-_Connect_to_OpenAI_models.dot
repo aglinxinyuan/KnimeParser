@@ -1,0 +1,48 @@
+digraph {
+	1 -> 143
+	128 -> 131
+	4 -> 5
+	119 -> 120
+	2 -> 6
+	142 -> 143
+	6 -> 8
+	121 -> 122
+	125 -> 126
+	1 -> 2
+	126 -> 127
+	2 -> 119
+	2 -> 125
+	2 -> 122
+	124 -> 125
+	143 -> 141
+	122 -> 123
+	118 -> 119
+	128 -> 141
+	3 -> 4
+	7 -> 6
+	2 -> 3
+	126 [label="JSON Path"]
+	7 [label="Container Input _JSON_"]
+	128 [label="List Audio Files"]
+	8 [label="JSON Path"]
+	122 [label="POST Request"]
+	121 [label="Container Input _JSON_"]
+	3 [label="GET Request"]
+	119 [label="POST Request"]
+	131 [label="Audio Viewer"]
+	6 [label="POST Request"]
+	141 [label="Python Script"]
+	123 [label="JSON Path"]
+	125 [label="POST Request"]
+	1 [label="String Widget"]
+	127 [label="Read Images"]
+	143 [label="Merge Variables"]
+	142 [label="Conda Environment Propagation"]
+	4 [label="JSON Path"]
+	124 [label="Container Input _JSON_"]
+	5 [label=Ungroup]
+	120 [label="JSON Path"]
+	118 [label="Container Input _JSON_"]
+	2 [label="String Manipulation _Variable_"]
+	rankdir=LR
+}

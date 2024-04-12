@@ -1,0 +1,14 @@
+digraph {
+	2 -> 1
+	2 -> 9
+	1 -> 9
+	8 -> 4
+	4 -> 1
+	2 -> 8
+	1 [label="Table View"]
+	9 [label="HiLite Row Splitter"]
+	4 [label="HiLite Table _legacy_"]
+	8 [label="Nominal Value Row Filter"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

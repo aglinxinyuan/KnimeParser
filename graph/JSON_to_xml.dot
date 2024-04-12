@@ -1,0 +1,23 @@
+digraph {
+	9 -> 8
+	5 -> 16
+	14 -> 6
+	6 -> 4
+	8 -> 14
+	14 -> 15
+	5 -> 15
+	16 -> 17
+	5 -> 7
+	7 -> 9
+	5 [label="Container Input _JSON_"]
+	16 [label="JSON To XML"]
+	7 [label="JSON to Table"]
+	9 [label="Column Rename _Regex_"]
+	4 [label=XPath]
+	6 [label="JSON To XML"]
+	15 [label="Column Appender"]
+	8 [label="Table to JSON"]
+	14 [label="JSON Path"]
+	17 [label=XPath]
+	rankdir=LR
+}

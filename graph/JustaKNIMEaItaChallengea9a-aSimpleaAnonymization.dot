@@ -1,0 +1,21 @@
+digraph {
+	7 -> 8
+	10 -> 2
+	4 -> 5
+	8 -> 9
+	3 -> 8
+	3 -> 4
+	5 -> 6
+	2 -> 3
+	6 -> 7
+	5 [label="Target Shuffling"]
+	7 [label="Loop End _Column Append_"]
+	9 [label="Column Rename _Regex_"]
+	4 [label="Column List Loop Start"]
+	8 [label="Column Appender"]
+	6 [label="Column Rename"]
+	3 [label="Column Splitter"]
+	2 [label="Column Filter"]
+	10 [label="CSV Reader"]
+	rankdir=LR
+}

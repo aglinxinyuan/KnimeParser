@@ -1,0 +1,43 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	12 -> 13
+	14 -> 15
+	11 -> 12
+	1 -> 2
+	5 -> 7
+	21 -> 14
+	9 -> 11
+	15 -> 16
+	19 -> 17
+	3 -> 5
+	18 -> 20
+	7 -> 9
+	16 -> 19
+	3 -> 4
+	5 -> 6
+	2 -> 3
+	17 -> 22
+	7 [label="Punctuation Erasure"]
+	9 [label="Bag Of Words Creator"]
+	21 [label="Strings To Document"]
+	18 [label="Table Reader"]
+	8 [label="Document Viewer"]
+	17 [label="Term To String"]
+	3 [label="Strings To Document"]
+	19 [label=TF]
+	6 [label="Document Viewer"]
+	15 [label="Punctuation Erasure"]
+	12 [label="Term To String"]
+	16 [label="Bag Of Words Creator"]
+	1 [label="Table Reader"]
+	22 [label="Tag Cloud"]
+	11 [label=TF]
+	4 [label="Document Viewer"]
+	14 [label="Case Converter"]
+	5 [label="Case Converter"]
+	13 [label="Tag Cloud"]
+	20 [label="Row Filter"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,86 @@
+digraph {
+	18 -> 30
+	6 -> 5
+	5 -> 8
+	53 -> 54
+	41 -> 42
+	15 -> 14
+	19 -> 14
+	14 -> 51
+	51 -> 49
+	12 -> 14
+	2 -> 6
+	21 -> 22
+	54 -> 18
+	2 -> 16
+	42 -> 18
+	2 -> 17
+	2 -> 11
+	17 -> 15
+	2 -> 22
+	22 -> 23
+	47 -> 45
+	39 -> 37
+	20 -> 19
+	23 -> 14
+	55 -> 53
+	11 -> 12
+	10 -> 11
+	37 -> 38
+	2 -> 20
+	14 -> 43
+	14 -> 47
+	46 -> 18
+	38 -> 18
+	2 -> 10
+	30 -> 36
+	43 -> 41
+	45 -> 46
+	50 -> 18
+	9 -> 2
+	49 -> 50
+	2 -> 21
+	14 -> 55
+	14 -> 39
+	8 -> 14
+	1 -> 9
+	2 -> 5
+	16 -> 17
+	55 [label="Column Filter"]
+	9 [label=PCA]
+	18 [label=RowID]
+	21 [label="Naive Bayes Learner"]
+	8 [label=Scorer]
+	17 [label="Logistic Regression Predictor"]
+	19 [label=Scorer]
+	49 [label="Constant Value Column"]
+	41 [label="Constant Value Column"]
+	51 [label="Column Filter"]
+	6 [label="Random Forest Learner"]
+	15 [label=Scorer]
+	54 [label="Constant Value Column"]
+	10 [label="Decision Tree Learner"]
+	12 [label=Scorer]
+	16 [label="Logistic Regression Learner"]
+	50 [label="Constant Value Column"]
+	1 [label="CSV Reader"]
+	42 [label="Constant Value Column"]
+	53 [label="Constant Value Column"]
+	22 [label="Naive Bayes Predictor"]
+	11 [label="Decision Tree Predictor"]
+	47 [label="Column Filter"]
+	23 [label=Scorer]
+	37 [label="Constant Value Column"]
+	14 [label="Row Filter"]
+	38 [label="Constant Value Column"]
+	5 [label="Random Forest Predictor"]
+	43 [label="Column Filter"]
+	20 [label="K Nearest Neighbor"]
+	36 [label="Bar Chart"]
+	46 [label="Constant Value Column"]
+	39 [label="Column Filter"]
+	30 [label=Concatenate]
+	2 [label=Partitioning]
+	45 [label="Constant Value Column"]
+	rankdir=LR
+}

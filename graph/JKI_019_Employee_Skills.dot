@@ -1,0 +1,24 @@
+digraph {
+	21 -> 23
+	20 -> 30
+	23 -> 25
+	19 -> 22
+	30 -> 28
+	1 -> 29
+	29 -> 19
+	25 -> 20
+	22 -> 21
+	28 -> 26
+	20 [label=Transpose]
+	1 [label="Excel Reader"]
+	22 [label="Row Filter"]
+	29 [label=Unpivoting]
+	28 [label="Column Resorter"]
+	23 [label=GroupBy]
+	21 [label="Numeric Binner"]
+	26 [label="Loop End _deprecated_"]
+	25 [label=RowID]
+	30 [label="Constant Value Column"]
+	19 [label="Group Loop Start"]
+	rankdir=LR
+}

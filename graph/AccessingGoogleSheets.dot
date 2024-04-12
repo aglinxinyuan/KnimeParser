@@ -1,0 +1,8 @@
+digraph {
+	279 -> 280
+	280 -> 278
+	280 [label="Google Sheets Connection"]
+	279 [label="Google Authentication"]
+	278 [label="Google Sheets Reader"]
+	rankdir=LR
+}

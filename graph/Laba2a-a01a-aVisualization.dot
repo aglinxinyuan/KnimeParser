@@ -1,0 +1,12 @@
+digraph {
+	6 -> 3
+	6 -> 2
+	3 -> 4
+	4 -> 5
+	5 [label="Table View"]
+	4 [label="Scatter Plot"]
+	6 [label="Excel Reader"]
+	3 [label="Color Manager"]
+	2 [label="Data Explorer"]
+	rankdir=LR
+}

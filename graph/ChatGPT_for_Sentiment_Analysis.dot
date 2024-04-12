@@ -1,0 +1,35 @@
+digraph {
+	84 -> 85
+	7 -> 93
+	7 -> 90
+	7 -> 8
+	86 -> 85
+	90 -> 89
+	2 -> 1
+	91 -> 92
+	85 -> 91
+	1 -> 84
+	94 -> 95
+	91 -> 94
+	89 -> 85
+	93 -> 95
+	6 -> 7
+	95 -> 96
+	91 [label="Loop End"]
+	86 [label="Table Creator"]
+	94 [label="Row Filter"]
+	96 [label="Rule Engine"]
+	92 [label="Timer Info"]
+	1 [label="OpenAI Authenticator"]
+	84 [label="OpenAI Chat Model Connector"]
+	7 [label="Row Sampling"]
+	90 [label="Chunk Loop Start"]
+	89 [label="Table Row to Variable"]
+	6 [label="CSV Reader"]
+	8 [label=GroupBy]
+	93 [label="Counter Generation"]
+	95 [label=Joiner]
+	2 [label="Credentials Configuration"]
+	85 [label="Chat Model Prompter"]
+	rankdir=LR
+}

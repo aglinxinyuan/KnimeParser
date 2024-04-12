@@ -1,0 +1,27 @@
+digraph {
+	22 -> 19
+	22 -> 3
+	22 -> 5
+	5 -> 18
+	4 -> 16
+	20 -> 7
+	23 -> 7
+	22 -> 4
+	3 -> 17
+	5 -> 21
+	22 -> 2
+	5 [label="Numeric Outliers"]
+	16 [label=Histogram]
+	20 [label="Table Reader"]
+	7 [label="Numeric Outliers _Apply_"]
+	22 [label="Table Reader"]
+	23 [label="Model Reader"]
+	4 [label="Numeric Outliers"]
+	21 [label="Model Writer"]
+	18 [label=Histogram]
+	17 [label=Histogram]
+	3 [label="Numeric Outliers"]
+	2 [label=Statistics]
+	19 [label="Data Explorer"]
+	rankdir=LR
+}

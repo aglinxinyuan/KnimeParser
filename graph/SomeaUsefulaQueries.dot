@@ -1,0 +1,26 @@
+digraph {
+	68 -> 70
+	64 -> 66
+	5 -> 13
+	71 -> 67
+	5 -> 6
+	5 -> 63
+	71 -> 70
+	66 -> 71
+	69 -> 68
+	5 -> 64
+	5 -> 57
+	5 [label="Amazon Redshift Connector"]
+	64 [label="DB Query Reader"]
+	57 [label="DB Query Reader"]
+	13 [label="DB Query Reader"]
+	66 [label="Rule Engine"]
+	70 [label="Google Sheets Appender"]
+	68 [label="Google Sheets Connector"]
+	71 [label="Rule Engine"]
+	69 [label="Google Authenticator"]
+	67 [label=GroupBy]
+	63 [label="DB Query Reader"]
+	6 [label="DB Query Reader"]
+	rankdir=LR
+}

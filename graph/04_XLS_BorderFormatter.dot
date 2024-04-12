@@ -1,0 +1,18 @@
+digraph {
+	24 -> 22
+	20 -> 21
+	4 -> 5
+	23 -> 24
+	22 -> 16
+	5 -> 23
+	21 -> 22
+	5 [label="XLS Control Table Generator"]
+	16 [label="XLS Formatter _apply_"]
+	24 [label="Constant Value Column"]
+	20 [label="XLS Control Table from Cell Range"]
+	22 [label="XLS Border Formatter"]
+	23 [label="Row Filter"]
+	4 [label="Excel Reader _XLS_"]
+	21 [label="XLS Border Formatter"]
+	rankdir=LR
+}

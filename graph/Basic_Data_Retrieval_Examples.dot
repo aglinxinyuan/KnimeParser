@@ -1,0 +1,36 @@
+digraph {
+	22 -> 12
+	9 -> 8
+	10 -> 9
+	12 -> 24
+	20 -> 17
+	27 -> 20
+	19 -> 18
+	24 -> 14
+	25 -> 27
+	21 -> 22
+	7 -> 10
+	26 -> 27
+	14 -> 15
+	8 -> 11
+	15 -> 26
+	24 [label="Table Manipulator"]
+	27 [label="Reference Row Filter"]
+	14 [label="JSON Path"]
+	20 [label="Color Manager"]
+	7 [label="Webpage Retriever"]
+	22 [label="String Manipulation"]
+	9 [label="Cell Splitter"]
+	11 [label="Column Rename"]
+	26 [label="Tika Language Detector"]
+	18 [label="RSS Feed Reader"]
+	21 [label="Table Creator"]
+	8 [label=Ungroup]
+	15 [label=Ungroup]
+	25 [label="Table Creator"]
+	12 [label="GET Request"]
+	17 [label="Table View"]
+	10 [label=XPath]
+	19 [label="Table Creator"]
+	rankdir=LR
+}

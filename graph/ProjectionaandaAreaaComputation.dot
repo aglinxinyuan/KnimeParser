@@ -1,0 +1,30 @@
+digraph {
+	34 -> 44
+	44 -> 43
+	34 -> 17
+	35 -> 37
+	39 -> 40
+	43 -> 41
+	35 -> 36
+	34 -> 35
+	17 -> 16
+	44 -> 42
+	17 -> 39
+	34 -> 15
+	37 -> 38
+	16 [label="Geospatial View Static"]
+	43 [label=Area]
+	35 [label=Projection]
+	44 [label=Projection]
+	34 [label="OSM Boundary Map"]
+	42 [label="Geospatial View Static"]
+	41 [label="Math Formula"]
+	36 [label="Geospatial View Static"]
+	15 [label="Geospatial View Static"]
+	40 [label="Math Formula"]
+	39 [label=Area]
+	17 [label=Projection]
+	38 [label="Math Formula"]
+	37 [label=Area]
+	rankdir=LR
+}

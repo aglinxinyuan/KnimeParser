@@ -1,0 +1,16 @@
+digraph {
+	7 -> 8
+	1 -> 20
+	5 -> 20
+	20 -> 19
+	9 -> 10
+	5 [label="Row Filter"]
+	20 [label="Conditional Box Plot _local_"]
+	1 [label="CSV Reader"]
+	7 [label=GroupBy]
+	9 [label=GroupBy]
+	8 [label=Transpose]
+	10 [label=Transpose]
+	19 [label=Statistics]
+	rankdir=LR
+}

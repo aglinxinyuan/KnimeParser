@@ -1,0 +1,45 @@
+digraph {
+	12 -> 15
+	7 -> 8
+	8 -> 13
+	4 -> 3
+	23 -> 24
+	21 -> 22
+	19 -> 21
+	22 -> 23
+	1 -> 4
+	1 -> 2
+	17 -> 18
+	5 -> 7
+	8 -> 11
+	8 -> 12
+	7 -> 14
+	17 -> 21
+	13 -> 11
+	13 -> 12
+	17 -> 19
+	19 -> 20
+	16 -> 17
+	7 [label=Normalizer]
+	18 [label="Model Writer"]
+	21 [label=Denormalizer]
+	8 [label="Distance Matrix Calculate"]
+	17 [label=Normalizer]
+	3 [label="Histogram _legacy_"]
+	19 [label=k_Means]
+	24 [label="Scatter Plot"]
+	15 [label="Scatter Plot"]
+	12 [label="Hierarchical Cluster Assigner _local_"]
+	16 [label="CSV Reader"]
+	1 [label="CSV Reader"]
+	22 [label="Color Manager"]
+	11 [label="Hierarchical Cluster View"]
+	4 [label="Missing Value"]
+	23 [label="Shape Manager"]
+	14 [label="Hierarchical Clustering"]
+	5 [label="CSV Reader"]
+	13 [label="Hierarchical Clustering _DistMatrix_"]
+	20 [label="PMML Writer"]
+	2 [label="Histogram _legacy_"]
+	rankdir=LR
+}

@@ -1,0 +1,8 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	1 [label="Data Generator"]
+	3 [label="Table Reader"]
+	2 [label="Table Writer"]
+	rankdir=LR
+}
