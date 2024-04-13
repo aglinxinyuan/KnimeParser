@@ -1,0 +1,88 @@
+digraph {
+	146 -> 163
+	183 -> 184
+	182 -> 178
+	161 -> 152
+	170 -> 173
+	179 -> 180
+	185 -> 188
+	162 -> 160
+	2 -> 151
+	153 -> 183
+	150 -> 148
+	160 -> 159
+	191 -> 172
+	140 -> 144
+	131 -> 125
+	132 -> 140
+	125 -> 132
+	148 -> 149
+	163 -> 166
+	187 -> 139
+	158 -> 162
+	178 -> 187
+	139 -> 144
+	142 -> 144
+	143 -> 144
+	171 -> 173
+	173 -> 175
+	190 -> 173
+	122 -> 131
+	188 -> 142
+	151 -> 161
+	181 -> 182
+	152 -> 153
+	144 -> 146
+	184 -> 143
+	175 -> 176
+	165 -> 191
+	166 -> 150
+	159 -> 185
+	172 -> 171
+	180 -> 181
+	172 -> 2
+	170 [label="Integer Input _Labs_"]
+	165 [label="Table Reader"]
+	153 [label="Reference Row Filter"]
+	182 [label="Reference Row Filter"]
+	162 [label=Sorter]
+	122 [label=GroupBy]
+	149 [label="Data to Report"]
+	184 [label="R View _Table_"]
+	163 [label="Variable to Table Column"]
+	151 [label=GroupBy]
+	180 [label=Sorter]
+	190 [label="List Files"]
+	185 [label=GroupBy]
+	188 [label="R View _Table_"]
+	161 [label=Sorter]
+	131 [label="Column Rename"]
+	183 [label=GroupBy]
+	146 [label=Transpose]
+	171 [label="Value Filter _Labs_"]
+	166 [label="Column Resorter"]
+	150 [label="Column Rename"]
+	148 [label="Loop End"]
+	144 [label="Concatenate _Optional in_"]
+	125 [label="Size Manager"]
+	173 [label="Read Images"]
+	142 [label="Image To Table"]
+	143 [label="Image To Table"]
+	158 [label=GroupBy]
+	178 [label=GroupBy]
+	191 [label="Domain Calculator"]
+	176 [label="Image to Report"]
+	159 [label="Reference Row Filter"]
+	172 [label="Subnode Input"]
+	160 [label="Row Filter"]
+	175 [label="Table To Image"]
+	179 [label=GroupBy]
+	139 [label="Image To Table"]
+	140 [label="Image To Table"]
+	187 [label="R View _Table_"]
+	181 [label="Row Filter"]
+	152 [label="Row Filter"]
+	2 [label="Group Loop Start"]
+	132 [label="OSM Map to Image"]
+	rankdir=LR
+}

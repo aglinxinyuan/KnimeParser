@@ -1,0 +1,13 @@
+digraph {
+	2 -> 18
+	18 -> 2
+	2 -> 19
+	19 -> 18
+	1 -> 19
+	18 -> 1
+	1 [label=X_Aggregator]
+	18 [label="Table Reader"]
+	2 [label=X_Partitioner]
+	19 [label=Scorer]
+	rankdir=LR
+}

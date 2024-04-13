@@ -1,0 +1,36 @@
+digraph {
+	40 -> 33
+	35 -> 40
+	35 -> 57
+	36 -> 37
+	34 -> 53
+	55 -> 60
+	57 -> 33
+	58 -> 34
+	33 -> 32
+	32 -> 34
+	57 -> 58
+	40 -> 32
+	42 -> 36
+	32 -> 59
+	60 -> 35
+	53 -> 56
+	40 -> 58
+	37 -> 32
+	57 [label=Partitioning]
+	55 [label="Table Reader"]
+	35 [label=Partitioning]
+	34 [label="Keras Network Executor"]
+	42 [label="Keras Input Layer"]
+	53 [label="Rule Engine"]
+	36 [label="Keras Dense Layer"]
+	58 [label="Normalizer _Apply_"]
+	56 [label=Scorer]
+	40 [label=Normalizer]
+	33 [label="Normalizer _Apply_"]
+	32 [label="Keras Network Learner"]
+	60 [label="One to Many"]
+	37 [label="Keras Dense Layer"]
+	59 [label="Keras Network Writer"]
+	rankdir=LR
+}

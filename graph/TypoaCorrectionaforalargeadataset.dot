@@ -1,0 +1,40 @@
+digraph {
+	20 -> 21
+	33 -> 27
+	25 -> 19
+	25 -> 17
+	27 -> 37
+	39 -> 40
+	45 -> 25
+	17 -> 20
+	40 -> 41
+	46 -> 35
+	25 -> 20
+	35 -> 45
+	19 -> 17
+	41 -> 36
+	38 -> 39
+	37 -> 39
+	21 -> 33
+	48 -> 46
+	35 -> 37
+	27 -> 36
+	27 [label="Loop End"]
+	48 [label="Table Reader"]
+	20 [label="Hierarchical Cluster Assigner"]
+	35 [label="Recursive Loop Start"]
+	41 [label="Table Column to Variable"]
+	36 [label="Recursive Loop End"]
+	45 [label=Shuffle]
+	46 [label="String Manipulation"]
+	21 [label=GroupBy]
+	40 [label="Rule Engine"]
+	25 [label="Chunk Loop Start"]
+	39 [label=Joiner]
+	33 [label="Column Filter"]
+	17 [label="Hierarchical Clustering _DistMatrix_"]
+	38 [label="Extract Table Dimension"]
+	37 [label="Extract Table Dimension"]
+	19 [label="String Distances"]
+	rankdir=LR
+}

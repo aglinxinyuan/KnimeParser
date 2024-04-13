@@ -1,0 +1,31 @@
+digraph {
+	12 -> 13
+	7 -> 8
+	17 -> 6
+	2 -> 3
+	11 -> 14
+	13 -> 14
+	2 -> 9
+	8 -> 3
+	3 -> 11
+	14 -> 15
+	11 -> 12
+	9 -> 10
+	6 -> 9
+	6 -> 7
+	10 -> 12
+	14 [label=Joiner]
+	13 [label="Column Filter"]
+	7 [label="Column Aggregator"]
+	9 [label="Spacy Vectorizer"]
+	11 [label="Split Collection Column"]
+	6 [label="Column Splitter"]
+	8 [label=Ungroup]
+	15 [label="Column Rename"]
+	12 [label="Similarity Search"]
+	17 [label="CSV Reader"]
+	3 [label="Spacy Vectorizer"]
+	2 [label="Spacy Model Selector"]
+	10 [label="Split Collection Column"]
+	rankdir=LR
+}

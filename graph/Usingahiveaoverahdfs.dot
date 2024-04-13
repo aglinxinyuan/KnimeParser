@@ -1,0 +1,31 @@
+digraph {
+	69 -> 65
+	66 -> 67
+	66 -> 74
+	68 -> 64
+	69 -> 76
+	69 -> 75
+	64 -> 60
+	64 -> 65
+	68 -> 60
+	68 -> 74
+	68 -> 72
+	68 -> 73
+	68 -> 67
+	65 -> 60
+	60 -> 59
+	64 [label="Table Reader"]
+	66 [label="CSV Reader"]
+	68 [label="HDFS Connector"]
+	65 [label="DB Table Creator"]
+	67 [label="Table Writer"]
+	69 [label="Hive Connector"]
+	72 [label="Set Files_Folders Permissions"]
+	76 [label="DB Query Reader"]
+	74 [label="CSV Writer"]
+	75 [label="DB Table Selector"]
+	73 [label="CSV Reader"]
+	60 [label="DB Loader"]
+	59 [label="DB Table Selector"]
+	rankdir=LR
+}

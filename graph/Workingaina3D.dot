@@ -1,0 +1,31 @@
+digraph {
+	12 -> 13
+	1 -> 3
+	7 -> 15
+	5 -> 4
+	15 -> 8
+	13 -> 14
+	3 -> 5
+	7 -> 13
+	11 -> 12
+	9 -> 10
+	6 -> 7
+	10 -> 11
+	4 -> 6
+	4 -> 9
+	5 [label="RDKit Add Hs"]
+	14 [label="JavaScript Scatter Plot"]
+	13 [label=Joiner]
+	1 [label="SDF Reader"]
+	7 [label="Python Script _1_1_"]
+	9 [label="RDKit Optimize Geometry"]
+	11 [label="Python Script _1_1_"]
+	4 [label="RDKit Add Conformers"]
+	6 [label="RDKit Remove Hs"]
+	15 [label=Sorter]
+	8 [label="Histogram _interactive_"]
+	12 [label="Column Rename"]
+	3 [label="Row Filter"]
+	10 [label="RDKit Remove Hs"]
+	rankdir=LR
+}

@@ -1,0 +1,40 @@
+digraph {
+	44 -> 47
+	12 -> 14
+	39 -> 12
+	42 -> 43
+	38 -> 37
+	40 -> 42
+	27 -> 18
+	14 -> 15
+	45 -> 48
+	47 -> 49
+	12 -> 17
+	43 -> 48
+	17 -> 27
+	44 -> 49
+	15 -> 40
+	43 -> 44
+	37 -> 39
+	18 -> 14
+	36 -> 38
+	39 [label="Modify Time"]
+	27 [label="String to Path _Variable_"]
+	48 [label="Transfer Files"]
+	43 [label="Compress Files_Folder _Table_"]
+	44 [label="Decompress Files"]
+	42 [label="List Files_Folders"]
+	49 [label="Transfer Files _Table_"]
+	36 [label="File Reader"]
+	45 [label="KNIME Server Connector"]
+	18 [label="Create Folder"]
+	47 [label="Transfer Files _Table_"]
+	40 [label="Variable Loop End"]
+	15 [label="Variable Loop End"]
+	14 [label="Table Writer"]
+	37 [label="Group Loop Start"]
+	17 [label="Java Edit Variable"]
+	38 [label="Extract Date_Time Fields"]
+	12 [label="Group Loop Start"]
+	rankdir=LR
+}

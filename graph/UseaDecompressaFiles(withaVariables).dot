@@ -1,0 +1,12 @@
+digraph {
+	24 -> 22
+	22 -> 20
+	23 -> 24
+	21 -> 23
+	24 [label="String to Path"]
+	20 [label="Decompress Files"]
+	22 [label="Table Row to Variable"]
+	23 [label="String to Path"]
+	21 [label="Table Creator"]
+	rankdir=LR
+}

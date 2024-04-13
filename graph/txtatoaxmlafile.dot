@@ -1,0 +1,16 @@
+digraph {
+	15 -> 16
+	17 -> 19
+	19 -> 20
+	14 -> 15
+	19 -> 10
+	16 -> 17
+	16 [label=GroupBy]
+	20 [label="XML Writer"]
+	10 [label=XPath]
+	15 [label="Column Expressions"]
+	14 [label="File Reader"]
+	17 [label="String To XML"]
+	19 [label="Column Rename"]
+	rankdir=LR
+}

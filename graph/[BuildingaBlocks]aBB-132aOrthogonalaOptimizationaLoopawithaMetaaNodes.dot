@@ -1,0 +1,100 @@
+digraph {
+	24 -> 26
+	46 -> 71
+	53 -> 54
+	65 -> 29
+	46 -> 17
+	30 -> 18
+	46 -> 12
+	64 -> 55
+	15 -> 56
+	59 -> 55
+	27 -> 65
+	12 -> 67
+	13 -> 46
+	31 -> 18
+	61 -> 55
+	12 -> 70
+	46 -> 49
+	17 -> 15
+	55 -> 57
+	26 -> 55
+	22 -> 25
+	69 -> 67
+	30 -> 31
+	16 -> 57
+	29 -> 30
+	55 -> 56
+	25 -> 65
+	12 -> 55
+	69 -> 70
+	57 -> 20
+	61 -> 19
+	58 -> 59
+	17 -> 46
+	52 -> 24
+	55 -> 13
+	68 -> 69
+	59 -> 29
+	19 -> 51
+	27 -> 55
+	12 -> 64
+	59 -> 65
+	54 -> 58
+	60 -> 61
+	17 -> 27
+	49 -> 50
+	59 -> 59
+	61 -> 20
+	49 -> 66
+	20 -> 52
+	55 -> 58
+	25 -> 55
+	26 -> 65
+	49 -> 48
+	18 -> 53
+	17 -> 16
+	51 -> 22
+	56 -> 19
+	65 -> 68
+	27 [label="Constant Value Column"]
+	57 [label=Concatenate]
+	55 [label="Row Splitter"]
+	18 [label="Recursive Loop End"]
+	26 [label="Constant Value Column"]
+	58 [label=Concatenate]
+	17 [label="Recursive Loop Start"]
+	19 [label="Simulate Market"]
+	24 [label="Column Filter"]
+	64 [label="Recursive Loop Start"]
+	49 [label="Math Formula"]
+	31 [label="Row Filter"]
+	51 [label="Row Filter"]
+	56 [label=Concatenate]
+	15 [label="Math Formula"]
+	25 [label="Constant Value Column"]
+	54 [label="Row Filter"]
+	12 [label="Simulate Market"]
+	59 [label="Simulate Market"]
+	16 [label="Math Formula"]
+	48 [label="Histogram Chart _JFreeChart_"]
+	50 [label="Histogram Chart _JFreeChart_"]
+	53 [label=Sorter]
+	22 [label="Column Filter"]
+	68 [label=Sorter]
+	67 [label="Profit Engine"]
+	61 [label="Column Filter"]
+	60 [label="Column Filter"]
+	13 [label="Column Filter"]
+	20 [label="Simulate Market"]
+	66 [label="Histogram Chart _JFreeChart_"]
+	29 [label=Sorter]
+	70 [label="Profit Engine"]
+	65 [label="Recursive Loop End"]
+	71 [label="Linear Correlation"]
+	69 [label="Row Filter"]
+	46 [label="Constant Value Column"]
+	52 [label="Row Filter"]
+	30 [label="Row Filter"]
+	rankdir=LR
+}

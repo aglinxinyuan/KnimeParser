@@ -1,0 +1,29 @@
+digraph {
+	97 -> 104
+	61 -> 107
+	67 -> 61
+	107 -> 106
+	100 -> 67
+	107 -> 101
+	97 -> 107
+	110 -> 97
+	103 -> 108
+	105 -> 108
+	108 -> 100
+	61 -> 109
+	109 -> 110
+	107 [label="Decision Tree Predictor"]
+	103 [label="Excel Reader"]
+	104 [label="Model Writer"]
+	67 [label="Color Manager"]
+	97 [label="Decision Tree Learner"]
+	101 [label="ROC Curve"]
+	61 [label=Partitioning]
+	109 [label=SMOTE]
+	100 [label="Number To String"]
+	108 [label=Joiner]
+	105 [label="CSV Reader"]
+	110 [label=Shuffle]
+	106 [label=Scorer]
+	rankdir=LR
+}

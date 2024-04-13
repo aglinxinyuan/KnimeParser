@@ -1,0 +1,54 @@
+digraph {
+	7 -> 12
+	21 -> 22
+	15 -> 282
+	282 -> 263
+	16 -> 275
+	23 -> 26
+	22 -> 23
+	12 -> 282
+	12 -> 13
+	16 -> 15
+	29 -> 21
+	263 -> 277
+	11 -> 12
+	12 -> 279
+	13 -> 16
+	279 -> 280
+	271 -> 272
+	24 -> 16
+	26 -> 29
+	15 -> 24
+	26 -> 262
+	12 -> 24
+	11 -> 7
+	278 -> 271
+	3 -> 11
+	272 -> 3
+	275 -> 276
+	263 [label="Column Filter"]
+	275 [label="Number To String"]
+	7 [label="Hierarchical Clustering _DistMatrix_"]
+	280 [label="Table Writer"]
+	21 [label="Group Loop Start"]
+	26 [label="Column Filter"]
+	3 [label="RDKit Fingerprint"]
+	24 [label=GroupBy]
+	277 [label="CSV Writer"]
+	15 [label="Row Filter"]
+	282 [label=Joiner]
+	271 [label="Molecule Type Cast"]
+	12 [label="Hierarchical Cluster Assigner _local_"]
+	16 [label=Sorter]
+	262 [label="SDF Writer"]
+	22 [label="Row Filter"]
+	23 [label="Loop End"]
+	11 [label="Distance Matrix Calculate"]
+	279 [label="Column Filter"]
+	272 [label="RDKit From Molecule"]
+	278 [label="CSV Reader"]
+	13 [label=GroupBy]
+	29 [label=Sorter]
+	276 [label="Line Plot"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	1 -> 4
+	3 -> 4
+	2 -> 4
+	4 -> 5
+	5 [label="Simulate Market"]
+	1 [label="Table Creator"]
+	4 [label="Tune Market"]
+	3 [label="Table Creator"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	28 -> 69
+	70 -> 68
+	69 -> 68
+	29 -> 70
+	29 [label="Table Creator"]
+	68 [label="Python Script"]
+	28 [label="Table Creator"]
+	69 [label="String To Number"]
+	70 [label="String To Number"]
+	rankdir=LR
+}

@@ -1,0 +1,9 @@
+digraph {
+	2 -> 6
+	1 -> 5
+	1 [label="R Source _Table_"]
+	6 [label="Table Writer"]
+	5 [label="Table Writer"]
+	2 [label="R Source _Table_"]
+	rankdir=LR
+}

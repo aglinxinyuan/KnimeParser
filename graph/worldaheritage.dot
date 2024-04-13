@@ -1,0 +1,17 @@
+digraph {
+	1 -> 17
+	15 -> 14
+	5 -> 16
+	14 -> 5
+	1 -> 15
+	17 -> 18
+	16 -> 17
+	5 [label="OSM Boundary Map"]
+	16 [label="Loop End"]
+	1 [label="CSV Reader"]
+	18 [label="Spatial Heatmap"]
+	15 [label="Column Filter"]
+	14 [label="Table Row to Variable Loop Start"]
+	17 [label=Joiner]
+	rankdir=LR
+}

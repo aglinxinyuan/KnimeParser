@@ -1,0 +1,48 @@
+digraph {
+	13 -> 15
+	15 -> 14
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	208 -> 207
+	59 -> 60
+	2 -> 3
+	61 -> 204
+	11 -> 210
+	11 -> 12
+	14 -> 59
+	10 -> 11
+	6 -> 7
+	60 -> 61
+	3 -> 4
+	207 -> 209
+	204 -> 208
+	5 -> 6
+	9 -> 10
+	11 -> 13
+	1 -> 3
+	210 [label="Table View"]
+	7 [label="Tags To String"]
+	9 [label=GroupBy]
+	8 [label="Term To String"]
+	3 [label="Spacy Tokenizer"]
+	209 [label=GroupBy]
+	208 [label="Column Filter"]
+	6 [label=DF]
+	15 [label="Row Filter"]
+	204 [label="JSON Path"]
+	12 [label="Tag Cloud"]
+	10 [label="Row Filter"]
+	59 [label="Column Resorter"]
+	1 [label="CSV Reader"]
+	207 [label="Column Resorter"]
+	11 [label=Sorter]
+	4 [label="Spacy NER"]
+	61 [label="GET Request"]
+	14 [label="Constant Value Column"]
+	60 [label="Column Aggregator"]
+	5 [label="Bag Of Words Creator"]
+	13 [label="URL Encode"]
+	2 [label="Spacy Model Selector"]
+	rankdir=LR
+}

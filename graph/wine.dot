@@ -1,0 +1,86 @@
+digraph {
+	21 -> 295
+	20 -> 21
+	4 -> 5
+	4 -> 6
+	6 -> 8
+	18 -> 295
+	8 -> 295
+	295 -> 299
+	9 -> 294
+	4 -> 16
+	308 -> 307
+	4 -> 17
+	301 -> 303
+	4 -> 11
+	1 -> 2
+	17 -> 18
+	11 -> 12
+	310 -> 312
+	10 -> 11
+	290 -> 292
+	12 -> 295
+	309 -> 306
+	4 -> 20
+	296 -> 298
+	303 -> 302
+	11 -> 13
+	4 -> 15
+	6 -> 7
+	300 -> 304
+	4 -> 10
+	307 -> 310
+	298 -> 297
+	3 -> 4
+	15 -> 20
+	305 -> 309
+	306 -> 308
+	294 -> 290
+	292 -> 293
+	5 -> 6
+	2 -> 3
+	299 -> 296
+	304 -> 301
+	16 -> 17
+	306 [label="Constant Value Column"]
+	292 [label="Constant Value Column"]
+	7 [label="ROC Curve"]
+	308 [label="Constant Value Column"]
+	307 [label=RowID]
+	9 [label="Row Filter"]
+	302 [label=RowID]
+	304 [label="Column Filter"]
+	18 [label=Scorer]
+	21 [label=Scorer]
+	8 [label=Scorer]
+	17 [label="Naive Bayes Predictor"]
+	295 [label="Row Filter"]
+	3 [label="Color Manager"]
+	290 [label="Constant Value Column"]
+	6 [label="Decision Tree Predictor"]
+	15 [label="SVM Learner"]
+	309 [label="Column Filter"]
+	10 [label="Random Forest Learner"]
+	12 [label=Scorer]
+	16 [label="Naive Bayes Learner"]
+	1 [label="CSV Reader"]
+	294 [label="Column Filter"]
+	310 [label=Concatenate]
+	299 [label="Column Filter"]
+	296 [label="Constant Value Column"]
+	293 [label=RowID]
+	11 [label="Random Forest Predictor"]
+	4 [label=Partitioning]
+	301 [label="Constant Value Column"]
+	298 [label="Constant Value Column"]
+	5 [label="Decision Tree Learner"]
+	20 [label="SVM Predictor"]
+	13 [label="ROC Curve"]
+	303 [label="Constant Value Column"]
+	300 [label="Row Filter"]
+	305 [label="Row Filter"]
+	312 [label="Bar Chart"]
+	2 [label="Round Double"]
+	297 [label=RowID]
+	rankdir=LR
+}

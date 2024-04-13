@@ -1,0 +1,30 @@
+digraph {
+	116 -> 117
+	114 -> 115
+	108 -> 103
+	111 -> 109
+	117 -> 118
+	106 -> 113
+	110 -> 111
+	106 -> 107
+	115 -> 112
+	113 -> 114
+	109 -> 108
+	112 -> 116
+	107 -> 110
+	114 [label="Math Formula"]
+	107 [label="Row Filter"]
+	111 [label="String to Date_Time"]
+	113 [label="Row Filter"]
+	103 [label="Bar Chart"]
+	112 [label=Pivoting]
+	115 [label="String to Date_Time"]
+	118 [label="Bar Chart"]
+	116 [label=Sorter]
+	117 [label="Moving Aggregation"]
+	108 [label="Moving Aggregation"]
+	109 [label=Sorter]
+	106 [label="CSV Reader"]
+	110 [label="Math Formula"]
+	rankdir=LR
+}

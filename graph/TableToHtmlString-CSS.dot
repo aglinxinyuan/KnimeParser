@@ -1,0 +1,19 @@
+digraph {
+	38 -> 41
+	40 -> 34
+	32 -> 34
+	33 -> 32
+	35 -> 33
+	33 -> 37
+	37 -> 38
+	41 -> 40
+	35 [label="Table Creator"]
+	34 [label="Send Email"]
+	41 [label="Column Rename"]
+	40 [label="Table Row to Variable"]
+	33 [label="Table to HTML String"]
+	32 [label="CSS Editor"]
+	38 [label="String Manipulation"]
+	37 [label="String Manipulation"]
+	rankdir=LR
+}

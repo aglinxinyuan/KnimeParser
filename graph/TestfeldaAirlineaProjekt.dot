@@ -1,0 +1,12 @@
+digraph {
+	544 -> 546
+	544 -> 545
+	544 -> 548
+	546 -> 547
+	545 [label="Extract Table Dimension"]
+	548 [label=GroupBy]
+	547 [label="Excel Writer"]
+	546 [label="Extract Table Spec"]
+	544 [label="File Reader _deprecated_"]
+	rankdir=LR
+}

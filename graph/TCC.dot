@@ -1,0 +1,51 @@
+digraph {
+	8 -> 9
+	38 -> 36
+	10 -> 33
+	21 -> 17
+	10 -> 31
+	17 -> 15
+	1 -> 8
+	28 -> 42
+	1 -> 11
+	1 -> 2
+	28 -> 30
+	14 -> 18
+	1 -> 10
+	2 -> 7
+	17 -> 33
+	41 -> 40
+	15 -> 41
+	10 -> 38
+	22 -> 14
+	15 -> 35
+	33 -> 39
+	10 -> 21
+	17 -> 22
+	31 -> 28
+	7 [label="Bar Chart"]
+	9 [label="Bar Chart"]
+	21 [label="Row Filter"]
+	18 [label=Statistics]
+	8 [label="Python Script"]
+	17 [label="Row Filter"]
+	41 [label="String To Number"]
+	31 [label="Row Filter"]
+	15 [label="Row Filter"]
+	10 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	42 [label="Pie Chart"]
+	22 [label="Row Filter"]
+	28 [label="String To Number"]
+	11 [label="Row Filter"]
+	14 [label="String To Number"]
+	38 [label="Row Filter"]
+	35 [label="Pie Chart"]
+	36 [label="Pie Chart"]
+	40 [label="Pie Chart"]
+	39 [label="Pie Chart"]
+	33 [label="Python Script"]
+	30 [label=Statistics]
+	2 [label="Python Script"]
+	rankdir=LR
+}

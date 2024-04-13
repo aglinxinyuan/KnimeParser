@@ -1,0 +1,36 @@
+digraph {
+	9 -> 15
+	10 -> 19
+	5 -> 4
+	4 -> 8
+	15 -> 16
+	3 -> 16
+	14 -> 10
+	10 -> 15
+	8 -> 14
+	1 -> 6
+	17 -> 18
+	10 -> 20
+	2 -> 5
+	6 -> 7
+	16 -> 17
+	7 -> 9
+	5 [label="Column Filter"]
+	16 [label="Column Appender"]
+	20 [label="Decision Tree View"]
+	1 [label="File Reader"]
+	7 [label="Missing Value"]
+	9 [label="Category To Number"]
+	4 [label="Missing Value"]
+	18 [label=Scorer]
+	6 [label="Column Filter"]
+	8 [label="Category To Number"]
+	15 [label="Decision Tree Predictor"]
+	14 [label="Number To String"]
+	17 [label="Category To Number"]
+	3 [label="File Reader"]
+	2 [label="File Reader"]
+	10 [label="Decision Tree Learner"]
+	19 [label="Decision Tree To Image"]
+	rankdir=LR
+}

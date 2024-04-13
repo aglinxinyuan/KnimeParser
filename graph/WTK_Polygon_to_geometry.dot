@@ -1,0 +1,33 @@
+digraph {
+	787 -> 825
+	796 -> 797
+	826 -> 827
+	796 -> 826
+	795 -> 796
+	790 -> 793
+	1 -> 791
+	793 -> 792
+	1 -> 783
+	783 -> 787
+	787 -> 784
+	791 -> 790
+	825 -> 826
+	794 -> 795
+	792 -> 794
+	825 [label="Extract Column Properties"]
+	784 [label="View Geometries as Map"]
+	783 [label="Latitude_Longitude to Coordinate"]
+	794 [label=Transpose]
+	1 [label="CSV Reader"]
+	791 [label="Column Resorter"]
+	790 [label="Column Combiner"]
+	792 [label="String Manipulation"]
+	795 [label="Column Combiner"]
+	827 [label="View Geometries as Map"]
+	793 [label="Column Filter"]
+	797 [label="View Geometries as Map"]
+	826 [label="Inject Column Properties"]
+	796 [label="String Manipulation"]
+	787 [label="Create Point from 2D Coordinates"]
+	rankdir=LR
+}

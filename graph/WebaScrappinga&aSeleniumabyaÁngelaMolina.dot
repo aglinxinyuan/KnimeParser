@@ -1,0 +1,51 @@
+digraph {
+	51 -> 50
+	808 -> 808
+	806 -> 808
+	784 -> 49
+	818 -> 795
+	813 -> 808
+	808 -> 32
+	797 -> 796
+	31 -> 32
+	812 -> 808
+	819 -> 806
+	48 -> 49
+	49 -> 818
+	795 -> 797
+	32 -> 820
+	796 -> 819
+	52 -> 786
+	787 -> 786
+	785 -> 804
+	786 -> 785
+	815 -> 808
+	47 -> 52
+	804 -> 784
+	50 -> 47
+	784 [label=Clicker]
+	795 [label="Content Retriever"]
+	820 [label="Excel Writer"]
+	819 [label=Ungroup]
+	787 [label="String Configuration"]
+	815 [label="Table Manipulator"]
+	49 [label="Text Sender"]
+	31 [label="Create Date_Time Range"]
+	51 [label="Web Interaction Start"]
+	48 [label="String Configuration"]
+	50 [label=Navigator]
+	785 [label=Clicker]
+	47 [label=Clicker]
+	806 [label="Table Manipulator"]
+	808 [label=Concatenate]
+	796 [label="JSON Path"]
+	812 [label="Table Manipulator"]
+	818 [label=Clicker]
+	813 [label="Table Manipulator"]
+	804 [label=Clicker]
+	797 [label="XML To JSON"]
+	52 [label=Clicker]
+	786 [label="Text Sender"]
+	32 [label="Column Appender"]
+	rankdir=LR
+}

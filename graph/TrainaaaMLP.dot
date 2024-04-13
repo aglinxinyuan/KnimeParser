@@ -1,0 +1,27 @@
+digraph {
+	21 -> 30
+	24 -> 31
+	23 -> 24
+	13 -> 17
+	24 -> 25
+	29 -> 24
+	25 -> 27
+	30 -> 13
+	17 -> 25
+	17 -> 22
+	27 -> 28
+	22 -> 29
+	24 [label="DL Python Network Learner"]
+	27 [label="Many to One"]
+	13 [label=Normalizer]
+	22 [label="One to Many"]
+	29 [label="Column Resorter"]
+	31 [label="TensorFlow Network Writer"]
+	28 [label=Scorer]
+	23 [label="DL Python Network Creator"]
+	21 [label="Table Reader"]
+	25 [label="DL Network Executor"]
+	17 [label=Partitioning]
+	30 [label="Column Rename"]
+	rankdir=LR
+}

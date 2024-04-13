@@ -1,0 +1,24 @@
+digraph {
+	31 -> 34
+	35 -> 29
+	24 -> 30
+	30 -> 31
+	32 -> 28
+	33 -> 25
+	34 -> 26
+	28 -> 35
+	25 -> 24
+	26 -> 32
+	24 [label="Cell Splitter"]
+	35 [label="Row Splitter"]
+	34 [label="String Replacer"]
+	29 [label=Pivoting]
+	28 [label="Missing Value"]
+	31 [label="String Manipulation"]
+	26 [label="Rule Engine"]
+	32 [label="Missing Value"]
+	33 [label="Line Reader"]
+	30 [label="Rule Engine"]
+	25 [label="Row Filter"]
+	rankdir=LR
+}

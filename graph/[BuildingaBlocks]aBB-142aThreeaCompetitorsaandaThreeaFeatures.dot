@@ -1,0 +1,34 @@
+digraph {
+	31 -> 34
+	24 -> 26
+	33 -> 73
+	31 -> 74
+	29 -> 31
+	30 -> 31
+	29 -> 30
+	73 -> 72
+	72 -> 69
+	19 -> 20
+	31 -> 33
+	25 -> 27
+	26 -> 28
+	28 -> 30
+	20 -> 28
+	24 [label="Table Creator"]
+	27 [label="Correlation Pairs To Matrix"]
+	20 [label="Correlation Pairs To Matrix"]
+	34 [label=Statistics]
+	29 [label="Table Creator"]
+	28 [label="Correlation Concatenation"]
+	31 [label="Product Generator"]
+	69 [label="Pie chart"]
+	72 [label="Color Manager"]
+	26 [label="Correlation Pairs To Matrix"]
+	74 [label="Linear Correlation"]
+	25 [label="Table Creator"]
+	33 [label="Profit Engine"]
+	30 [label="Matrix Distributions"]
+	73 [label="Row Filter"]
+	19 [label="Table Creator"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	1 -> 8
+	4 -> 5
+	3 -> 4
+	5 -> 6
+	2 -> 3
+	8 -> 5
+	5 -> 7
+	5 [label="Keras Network Learner"]
+	1 [label="Excel Reader"]
+	7 [label="Keras Network Executor"]
+	4 [label="Keras Dense Layer"]
+	8 [label="Rule Engine"]
+	6 [label="Keras Network Writer"]
+	3 [label="Keras Dense Layer"]
+	2 [label="Keras Input Layer"]
+	rankdir=LR
+}

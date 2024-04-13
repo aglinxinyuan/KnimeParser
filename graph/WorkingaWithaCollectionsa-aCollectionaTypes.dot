@@ -1,0 +1,12 @@
+digraph {
+	22 -> 9
+	9 -> 12
+	8 -> 11
+	22 -> 8
+	22 [label="Table Creator"]
+	9 [label=GroupBy]
+	11 [label=Ungroup]
+	8 [label=GroupBy]
+	12 [label=Ungroup]
+	rankdir=LR
+}

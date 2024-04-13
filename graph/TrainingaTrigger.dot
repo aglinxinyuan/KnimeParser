@@ -1,0 +1,14 @@
+digraph {
+	1 -> 18
+	18 -> 19
+	21 -> 17
+	19 -> 21
+	17 -> 22
+	1 [label="List Files_Folders"]
+	22 [label="Variable Loop End"]
+	18 [label="Path to String"]
+	21 [label="Group Loop Start"]
+	17 [label="Call Workflow _Table Based_"]
+	19 [label="Empty Table Switch"]
+	rankdir=LR
+}

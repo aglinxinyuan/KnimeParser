@@ -1,0 +1,16 @@
+digraph {
+	6 -> 8
+	9 -> 3
+	2 -> 6
+	8 -> 7
+	1 -> 2
+	7 -> 9
+	1 [label="Container Input _JSON_"]
+	7 [label="Table to JSON"]
+	9 [label="JSON Path"]
+	6 [label="Java Snippet"]
+	8 [label="Column Filter"]
+	3 [label="Container Output _JSON_"]
+	2 [label="JSON Path"]
+	rankdir=LR
+}

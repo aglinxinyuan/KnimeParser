@@ -1,0 +1,112 @@
+digraph {
+	9 -> 15
+	53 -> 54
+	63 -> 60
+	8 -> 9
+	23 -> 24
+	78 -> 79
+	60 -> 67
+	59 -> 60
+	1 -> 6
+	83 -> 84
+	34 -> 44
+	40 -> 41
+	30 -> 32
+	41 -> 70
+	6 -> 8
+	22 -> 23
+	87 -> 84
+	18 -> 19
+	34 -> 43
+	24 -> 70
+	24 -> 30
+	30 -> 31
+	48 -> 72
+	32 -> 48
+	60 -> 69
+	37 -> 42
+	16 -> 18
+	87 -> 83
+	44 -> 71
+	32 -> 47
+	78 -> 80
+	24 -> 69
+	15 -> 16
+	19 -> 22
+	63 -> 59
+	9 -> 12
+	24 -> 71
+	24 -> 87
+	30 -> 63
+	47 -> 48
+	79 -> 80
+	24 -> 72
+	84 -> 85
+	44 -> 49
+	49 -> 50
+	31 -> 40
+	43 -> 44
+	30 -> 34
+	19 -> 20
+	24 -> 78
+	30 -> 26
+	80 -> 73
+	48 -> 53
+	67 -> 68
+	31 -> 41
+	9 -> 10
+	41 -> 37
+	73 -> 81
+	16 -> 17
+	79 [label="Decision Tree Learner"]
+	9 [label="String To Number"]
+	18 [label="String Replacer"]
+	26 [label="Linear Correlation"]
+	8 [label="Extract Date_Time Fields"]
+	32 [label=X_Partitioner]
+	17 [label="Bar Chart"]
+	19 [label="String Replacer"]
+	78 [label=X_Partitioner]
+	24 [label=Normalizer]
+	49 [label=X_Aggregator]
+	84 [label="Decision Tree Predictor"]
+	41 [label="Regression Predictor"]
+	31 [label=X_Partitioner]
+	6 [label="String to Date_Time"]
+	15 [label="Java Snippet"]
+	54 [label="Numeric Scorer"]
+	12 [label="Data Explorer"]
+	10 [label=Statistics]
+	59 [label="Polynomial Regression Learner"]
+	16 [label="Missing Value"]
+	48 [label="Gradient Boosted Trees Predictor _Regression_"]
+	85 [label=Scorer]
+	50 [label="Numeric Scorer"]
+	1 [label="CSV Reader"]
+	42 [label="Numeric Scorer"]
+	22 [label="Numeric Outliers"]
+	87 [label=Partitioning]
+	53 [label=X_Aggregator]
+	67 [label=X_Aggregator]
+	68 [label="Numeric Scorer"]
+	23 [label="Row Filter"]
+	72 [label=Denormalizer]
+	47 [label="Gradient Boosted Trees Learner _Regression_"]
+	63 [label=X_Partitioner]
+	83 [label="Decision Tree Learner"]
+	60 [label="Regression Predictor"]
+	81 [label=Scorer]
+	20 [label="Box Plot"]
+	43 [label="Random Forest Learner _Regression_"]
+	44 [label="Random Forest Predictor _Regression_"]
+	34 [label=X_Partitioner]
+	70 [label=Denormalizer]
+	69 [label=Denormalizer]
+	71 [label=Denormalizer]
+	40 [label="Linear Regression Learner"]
+	80 [label="Decision Tree Predictor"]
+	73 [label=X_Aggregator]
+	30 [label="Category To Number"]
+	37 [label=X_Aggregator]
+	rankdir=LR
+}

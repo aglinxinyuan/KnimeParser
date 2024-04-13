@@ -1,0 +1,6 @@
+digraph {
+	2 -> 3
+	3 [label="DB Numeric_Binner"]
+	2 [label="DB Joiner"]
+	rankdir=LR
+}

@@ -1,0 +1,22 @@
+digraph {
+	41 -> 42
+	38 -> 39
+	9 -> 36
+	36 -> 38
+	39 -> 40
+	8 -> 37
+	37 -> 9
+	41 -> 6
+	6 -> 8
+	42 [label="Rule Engine"]
+	41 [label="Excel Reader"]
+	36 [label="Term Grouper"]
+	9 [label="Stop word Filter"]
+	6 [label="BoW creator"]
+	8 [label="Punctuation Erasure"]
+	40 [label="Java Snippet _simple_"]
+	39 [label=IDF]
+	38 [label=TF]
+	37 [label="Case converter"]
+	rankdir=LR
+}

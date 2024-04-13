@@ -1,0 +1,44 @@
+digraph {
+	114 -> 116
+	5 -> 8
+	106 -> 107
+	135 -> 136
+	108 -> 109
+	136 -> 137
+	116 -> 133
+	133 -> 132
+	110 -> 133
+	137 -> 114
+	9 -> 8
+	23 -> 138
+	138 -> 139
+	132 -> 138
+	109 -> 110
+	4 -> 7
+	23 -> 135
+	107 -> 108
+	8 -> 7
+	7 -> 23
+	23 -> 106
+	133 [label=Joiner]
+	7 [label=Joiner]
+	136 [label=GroupBy]
+	9 [label="Excel Reader"]
+	138 [label=Joiner]
+	8 [label=Joiner]
+	108 [label="Math Formula"]
+	137 [label=GroupBy]
+	109 [label="Moving Aggregation"]
+	114 [label="Math Formula"]
+	110 [label="Rule Engine"]
+	23 [label="Table Manipulator"]
+	4 [label="Excel Reader"]
+	135 [label="Extract Date_Time Fields"]
+	106 [label=GroupBy]
+	5 [label="Excel Reader"]
+	107 [label=Sorter]
+	139 [label="CSV Writer"]
+	116 [label="Rule Engine"]
+	132 [label="Column Combiner"]
+	rankdir=LR
+}

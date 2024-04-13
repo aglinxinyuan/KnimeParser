@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	3 -> 4
+	1 -> 2
+	1 [label="Customer Distributions"]
+	4 [label="Scale Demographic"]
+	3 [label="Row Splitter"]
+	2 [label="Random Label Assigner"]
+	rankdir=LR
+}

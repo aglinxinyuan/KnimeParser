@@ -1,0 +1,12 @@
+digraph {
+	16 -> 36
+	16 -> 35
+	35 -> 29
+	36 -> 30
+	16 [label="Table Reader"]
+	35 [label="Scatter Plot _JavaScript_"]
+	29 [label="Image To Table"]
+	36 [label="Bar Chart _JavaScript_"]
+	30 [label="Image To Table"]
+	rankdir=LR
+}

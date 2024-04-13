@@ -1,0 +1,35 @@
+digraph {
+	23 -> 21
+	10 -> 13
+	17 -> 21
+	18 -> 24
+	16 -> 9
+	25 -> 16
+	13 -> 14
+	20 -> 25
+	23 -> 18
+	17 -> 16
+	11 -> 12
+	21 -> 22
+	12 -> 17
+	14 -> 15
+	15 -> 23
+	24 -> 20
+	16 [label=Joiner]
+	24 [label=Sorter]
+	13 [label="Column Filter"]
+	20 [label="Moving Aggregation"]
+	22 [label="Linear Correlation"]
+	9 [label="Linear Correlation"]
+	11 [label="CSV Reader"]
+	23 [label="Row Filter"]
+	21 [label=Joiner]
+	18 [label="String Manipulation"]
+	10 [label="CSV Reader"]
+	15 [label=GroupBy]
+	25 [label="Row Filter"]
+	14 [label="String Manipulation"]
+	17 [label="String Manipulation"]
+	12 [label="Column Filter"]
+	rankdir=LR
+}

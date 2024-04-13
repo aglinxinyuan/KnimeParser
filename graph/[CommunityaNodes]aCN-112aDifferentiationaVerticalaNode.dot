@@ -1,0 +1,28 @@
+digraph {
+	6 -> 5
+	9 -> 8
+	7 -> 8
+	14 -> 16
+	4 -> 3
+	2 -> 1
+	8 -> 10
+	13 -> 14
+	8 -> 11
+	8 -> 12
+	5 [label="Differentiation Vertical"]
+	16 [label="Scatter Plot _JFreeChart_"]
+	14 [label="Differentiation Vertical"]
+	13 [label="Customer Distributions"]
+	1 [label="Differentiation Vertical"]
+	7 [label="Table Creator"]
+	9 [label="Table Creator"]
+	11 [label="Row Filter"]
+	4 [label="Table Creator"]
+	6 [label="Table Creator"]
+	8 [label="Differentiation Vertical"]
+	12 [label="Row Filter"]
+	3 [label="Differentiation Vertical"]
+	2 [label="Table Creator"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

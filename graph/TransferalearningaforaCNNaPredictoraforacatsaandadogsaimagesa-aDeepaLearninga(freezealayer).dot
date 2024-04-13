@@ -1,0 +1,49 @@
+digraph {
+	322 -> 320
+	297 -> 298
+	292 -> 291
+	294 -> 293
+	222 -> 294
+	286 -> 323
+	290 -> 295
+	285 -> 252
+	296 -> 297
+	326 -> 222
+	252 -> 246
+	287 -> 247
+	247 -> 286
+	323 -> 322
+	325 -> 296
+	325 -> 295
+	291 -> 290
+	320 -> 319
+	295 -> 296
+	293 -> 292
+	246 -> 287
+	324 -> 325
+	319 -> 324
+	246 [label="Rule Engine"]
+	247 [label="Row Sampling"]
+	292 [label="Keras Dropout Layer"]
+	324 [label="Column Filter"]
+	222 [label="DL Python Network Creator"]
+	322 [label="Image Calculator"]
+	252 [label=Sorter]
+	286 [label="Path to String"]
+	295 [label="Keras Network Learner"]
+	290 [label="Keras Freeze Layers"]
+	291 [label="Keras Dense Layer"]
+	325 [label=Partitioning]
+	319 [label=RowID]
+	285 [label="List Files_Folders"]
+	294 [label="Keras Flatten Layer"]
+	296 [label="Keras Network Executor"]
+	287 [label="Rule Engine"]
+	293 [label="Keras Dense Layer"]
+	298 [label=Scorer]
+	326 [label="Conda Environment Propagation"]
+	323 [label="Image Reader _Table_"]
+	297 [label="Rule Engine"]
+	320 [label="Image Resizer"]
+	rankdir=LR
+}

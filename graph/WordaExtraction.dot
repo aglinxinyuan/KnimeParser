@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	2 -> 1
+	2 -> 4
+	1 [label="Regex Extractor"]
+	4 [label="String Manipulation"]
+	3 [label="Cell Splitter"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

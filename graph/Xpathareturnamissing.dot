@@ -1,0 +1,30 @@
+digraph {
+	2 -> 425
+	432 -> 433
+	436 -> 435
+	427 -> 430
+	431 -> 436
+	428 -> 427
+	430 -> 433
+	433 -> 434
+	426 -> 428
+	1 -> 2
+	432 -> 436
+	429 -> 432
+	425 -> 431
+	428 [label="String To XML"]
+	427 [label=XPath]
+	1 [label="Table Creator"]
+	433 [label="Column Appender"]
+	429 [label="Table Creator"]
+	425 [label=XPath]
+	432 [label="Column Aggregator"]
+	436 [label="Column Appender"]
+	434 [label="Column Comparator"]
+	430 [label="Column Aggregator"]
+	435 [label="Column Comparator"]
+	431 [label="Column Aggregator"]
+	2 [label="String To XML"]
+	426 [label="Table Creator"]
+	rankdir=LR
+}

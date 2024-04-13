@@ -1,0 +1,24 @@
+digraph {
+	1 -> 4
+	7 -> 3
+	11 -> 9
+	3 -> 8
+	7 -> 11
+	8 -> 2
+	12 -> 8
+	9 -> 12
+	1 -> 2
+	6 -> 7
+	4 -> 6
+	1 [label="Container Input _JSON_"]
+	7 [label="CASE Switch Variable _Start_"]
+	9 [label=Breakpoint]
+	11 [label="Variable to Table Row"]
+	4 [label="JSON to Table"]
+	8 [label="CASE Switch Variable _End_"]
+	6 [label="Table Row to Variable"]
+	3 [label=Wait___]
+	2 [label="Container Output _JSON_"]
+	12 [label="Table Row to Variable"]
+	rankdir=LR
+}

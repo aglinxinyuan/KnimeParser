@@ -1,0 +1,37 @@
+digraph {
+	7 -> 266
+	11 -> 263
+	12 -> 11
+	272 -> 264
+	274 -> 6
+	266 -> 276
+	277 -> 271
+	4 -> 268
+	272 -> 263
+	268 -> 275
+	271 -> 272
+	7 -> 259
+	272 -> 4
+	273 -> 12
+	264 -> 274
+	4 -> 274
+	6 -> 7
+	274 [label=Concatenate]
+	263 [label="RDKit Molecule Substructure Filter"]
+	264 [label="RDKit Molecule Catalog Filter"]
+	275 [label="CSV Writer"]
+	7 [label="Column Filter"]
+	277 [label="CSV Reader"]
+	11 [label="RDKit From Molecule"]
+	4 [label="RDKit Molecule Catalog Filter"]
+	273 [label="CSV Reader"]
+	6 [label="RDKit Molecule Highlighting"]
+	276 [label="CSV Writer"]
+	272 [label="RDKit From Molecule"]
+	266 [label="Column Filter"]
+	271 [label="Molecule Type Cast"]
+	259 [label="Table View"]
+	12 [label="Molecule Type Cast"]
+	268 [label="RDKit Molecule Catalog Filter"]
+	rankdir=LR
+}

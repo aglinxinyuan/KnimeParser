@@ -1,0 +1,15 @@
+digraph {
+	8 -> 1320
+	1317 -> 8
+	1317 -> 1320
+	1318 -> 1317
+	1320 -> 1319
+	6 -> 1318
+	1317 [label="Try _Data Ports_"]
+	1318 [label="Chunk Loop Start"]
+	6 [label="Excel Reader"]
+	8 [label="Webpage Retriever"]
+	1320 [label="Catch Errors _Data Ports_"]
+	1319 [label="Loop End"]
+	rankdir=LR
+}

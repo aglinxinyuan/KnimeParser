@@ -1,0 +1,31 @@
+digraph {
+	54 -> 52
+	49 -> 100
+	100 -> 277
+	272 -> 274
+	51 -> 49
+	261 -> 51
+	271 -> 272
+	54 -> 51
+	275 -> 259
+	273 -> 271
+	277 -> 260
+	274 -> 54
+	260 -> 275
+	52 -> 261
+	260 [label="Column Filter"]
+	274 [label="Workflow Service Input"]
+	275 [label="Workflow Service Output"]
+	49 [label="RDKit Molecule Highlighting"]
+	277 [label="Loop End"]
+	261 [label="Table Row to Variable"]
+	51 [label="RDKit Substructure Filter"]
+	273 [label="CSV Reader"]
+	272 [label="RDKit From Molecule"]
+	100 [label="Constant Value Column"]
+	52 [label="RDKit MCS"]
+	54 [label="Group Loop Start"]
+	271 [label="Molecule Type Cast"]
+	259 [label="Table View"]
+	rankdir=LR
+}

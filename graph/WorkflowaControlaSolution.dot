@@ -1,0 +1,37 @@
+digraph {
+	293 -> 299
+	297 -> 280
+	283 -> 298
+	282 -> 298
+	297 -> 279
+	291 -> 286
+	280 -> 283
+	279 -> 282
+	294 -> 293
+	87 -> 297
+	296 -> 87
+	292 -> 294
+	41 -> 291
+	281 -> 297
+	298 -> 284
+	295 -> 41
+	283 [label="Column Rename"]
+	292 [label="Read Excel Sheet Names"]
+	294 [label="Table Row To Variable Loop Start"]
+	284 [label="Row Filter"]
+	41 [label="Group Loop Start"]
+	87 [label="RDKit Descriptor Calculation"]
+	280 [label="Scatter Plot"]
+	299 [label="Loop End"]
+	293 [label="Excel Reader"]
+	291 [label="Excel Writer"]
+	295 [label="Table Reader"]
+	296 [label="Table Reader"]
+	279 [label="Parallel Coordinates Plot"]
+	286 [label="Variable Loop End"]
+	282 [label="Column Rename"]
+	298 [label="CASE Switch End"]
+	297 [label="CASE Switch Start"]
+	281 [label="Single Selection Configuration"]
+	rankdir=LR
+}

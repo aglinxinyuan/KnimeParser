@@ -1,0 +1,78 @@
+digraph {
+	6 -> 3
+	572 -> 578
+	36 -> 564
+	564 -> 46
+	586 -> 7
+	9 -> 587
+	574 -> 575
+	1 -> 585
+	3 -> 15
+	584 -> 586
+	581 -> 587
+	3 -> 10
+	562 -> 581
+	570 -> 36
+	565 -> 48
+	26 -> 39
+	563 -> 37
+	578 -> 562
+	37 -> 26
+	571 -> 572
+	578 -> 15
+	577 -> 576
+	48 -> 566
+	578 -> 10
+	3 -> 9
+	15 -> 588
+	570 -> 571
+	36 -> 574
+	588 -> 34
+	566 -> 37
+	39 -> 587
+	575 -> 577
+	585 -> 6
+	578 -> 9
+	576 -> 578
+	7 -> 3
+	46 -> 565
+	34 -> 36
+	15 -> 562
+	15 -> 34
+	585 -> 570
+	10 -> 587
+	570 [label="Extract Column Header"]
+	584 [label="Table Creator"]
+	564 [label="Table Row To Variable Loop Start"]
+	7 [label="Create Collection Column"]
+	587 [label="Excel Writer"]
+	9 [label="Column Filter"]
+	562 [label="Column Filter"]
+	26 [label="Column Comparator"]
+	576 [label="Table Row to Variable"]
+	3 [label=Joiner]
+	581 [label="Duplicate Row Filter"]
+	578 [label="Merge Variables"]
+	588 [label="Column Filter"]
+	565 [label="Variable to Table Row"]
+	6 [label="Create Collection Column"]
+	15 [label=Joiner]
+	571 [label="Create Collection Column"]
+	566 [label="Table Row to Variable"]
+	585 [label="Missing Value"]
+	10 [label="Column Filter"]
+	48 [label="Create Collection Column"]
+	1 [label="Table Creator"]
+	563 [label=Joiner]
+	575 [label=Transpose]
+	574 [label="String Manipulation"]
+	34 [label="Extract Column Header"]
+	36 [label=Transpose]
+	572 [label="Table Row to Variable"]
+	46 [label="String Manipulation _Variable_"]
+	586 [label="Missing Value"]
+	39 [label="Loop End _Column Append_"]
+	577 [label="Create Collection Column"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

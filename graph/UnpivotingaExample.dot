@@ -1,0 +1,15 @@
+digraph {
+	6 -> 3
+	5 -> 8
+	4 -> 5
+	8 -> 6
+	3 -> 4
+	5 -> 9
+	5 [label=Sorter]
+	9 [label=Unpivoting]
+	4 [label=Pivoting]
+	6 [label="Row Filter"]
+	8 [label=Unpivoting]
+	3 [label="String Manipulation"]
+	rankdir=LR
+}

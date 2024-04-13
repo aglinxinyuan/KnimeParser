@@ -1,0 +1,63 @@
+digraph {
+	264 -> 263
+	262 -> 263
+	168 -> 166
+	256 -> 254
+	254 -> 259
+	236 -> 243
+	261 -> 262
+	259 -> 255
+	257 -> 261
+	166 -> 146
+	240 -> 168
+	258 -> 260
+	220 -> 221
+	224 -> 225
+	219 -> 222
+	222 -> 223
+	221 -> 222
+	260 -> 264
+	231 -> 232
+	223 -> 231
+	236 -> 257
+	237 -> 236
+	225 -> 237
+	233 -> 224
+	227 -> 228
+	257 -> 258
+	263 -> 259
+	232 -> 233
+	236 -> 227
+	146 -> 219
+	231 [label=Sorter]
+	263 [label=Joiner]
+	227 [label=Pivoting]
+	222 [label=Concatenate]
+	224 [label="Cross Joiner"]
+	259 [label="Multi Feature Inserter"]
+	254 [label="Matrix to Network"]
+	225 [label="Column Rename"]
+	233 [label="Column Filter"]
+	168 [label="Row Filter"]
+	228 [label=RowID]
+	237 [label=Joiner]
+	256 [label=Transpose]
+	236 [label="Missing Value"]
+	146 [label=GroupBy]
+	240 [label="Table Reader"]
+	166 [label="Rule_based Row Filter"]
+	260 [label="Visualization Property Extractor"]
+	223 [label=GroupBy]
+	262 [label="Visualization Property Extractor"]
+	261 [label="Color Manager"]
+	219 [label="Column Filter"]
+	243 [label="Generic JavaScript View"]
+	257 [label=GroupBy]
+	232 [label="Row Filter"]
+	264 [label="Rule Engine"]
+	258 [label="Size Manager"]
+	255 [label="Network Viewer"]
+	220 [label="Column Filter"]
+	221 [label="Column Rename"]
+	rankdir=LR
+}

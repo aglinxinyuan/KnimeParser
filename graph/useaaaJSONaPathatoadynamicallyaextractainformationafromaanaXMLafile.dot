@@ -1,0 +1,32 @@
+digraph {
+	46 -> 47
+	12 -> 44
+	23 -> 35
+	35 -> 32
+	43 -> 12
+	30 -> 31
+	45 -> 49
+	32 -> 34
+	31 -> 33
+	44 -> 23
+	47 -> 48
+	34 -> 30
+	48 -> 45
+	33 -> 46
+	48 [label="Column Resorter"]
+	43 [label="List Files _deprecated_"]
+	35 [label="XML To JSON"]
+	44 [label="Table Row To Variable Loop Start"]
+	34 [label=Ungroup]
+	49 [label="Table Writer"]
+	31 [label="Rule_based Row Filter"]
+	45 [label="Loop End"]
+	23 [label="XML Reader"]
+	46 [label="Column Filter"]
+	47 [label="Constant Value Column"]
+	32 [label="JSON Path"]
+	33 [label="JSON Path"]
+	30 [label="Column Filter"]
+	12 [label="URL to File Path"]
+	rankdir=LR
+}

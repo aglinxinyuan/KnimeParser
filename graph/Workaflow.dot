@@ -1,0 +1,55 @@
+digraph {
+	72 -> 78
+	70 -> 15
+	78 -> 79
+	81 -> 80
+	70 -> 10
+	70 -> 7
+	17 -> 65
+	77 -> 72
+	11 -> 12
+	70 -> 3
+	76 -> 77
+	15 -> 17
+	82 -> 83
+	64 -> 65
+	78 -> 73
+	3 -> 81
+	3 -> 6
+	75 -> 76
+	65 -> 69
+	2 -> 70
+	3 -> 71
+	74 -> 75
+	79 -> 73
+	17 -> 64
+	7 -> 74
+	3 -> 82
+	7 [label="Strings To Document"]
+	79 [label="Row Filter"]
+	74 [label="Punctuation Erasure"]
+	17 [label=Partitioning]
+	3 [label=GroupBy]
+	78 [label="Document Vector"]
+	64 [label="Decision Tree Learner"]
+	6 [label="Table View"]
+	15 [label="Column Filter"]
+	10 [label="Table Row To Variable"]
+	12 [label="Network Analyzer"]
+	75 [label="Stop Word Filter"]
+	11 [label="Network Generator"]
+	72 [label="Bag Of Words Creator"]
+	76 [label="Case Converter"]
+	77 [label="Snowball Stemmer"]
+	83 [label="Table View"]
+	81 [label="Row Filter"]
+	70 [label="Missing Value"]
+	82 [label="Row Filter"]
+	71 [label="Pie_Donut Chart"]
+	65 [label="Decision Tree Predictor"]
+	69 [label=Scorer]
+	80 [label="Table View"]
+	73 [label="Similarity Search"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

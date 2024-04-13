@@ -1,0 +1,14 @@
+digraph {
+	89 -> 90
+	1 -> 87
+	88 -> 89
+	87 -> 4
+	4 -> 88
+	1 [label="CSV Reader"]
+	90 [label="Variable Condition Loop End"]
+	89 [label="Math Formula"]
+	87 [label="Generic Loop Start"]
+	4 [label="Row Filter"]
+	88 [label="Row Filter"]
+	rankdir=LR
+}

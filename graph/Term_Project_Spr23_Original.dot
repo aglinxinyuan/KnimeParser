@@ -1,0 +1,32 @@
+digraph {
+	17 -> 21
+	16 -> 17
+	18 -> 19
+	8 -> 9
+	8 -> 10
+	12 -> 14
+	9 -> 11
+	15 -> 18
+	22 -> 8
+	19 -> 20
+	20 -> 16
+	14 -> 15
+	11 -> 13
+	13 -> 12
+	16 [label="Missing Value"]
+	14 [label="Numeric Binner"]
+	13 [label="Row Filter"]
+	20 [label="Rule Engine"]
+	22 [label="CSV Reader"]
+	9 [label="Numeric Binner"]
+	11 [label="Row Filter"]
+	18 [label="Rule Engine"]
+	21 [label="Math Formula"]
+	8 [label="Row Filter"]
+	15 [label="Rule Engine"]
+	12 [label="Column Filter"]
+	17 [label="Math Formula"]
+	10 [label="Value Counter"]
+	19 [label="Rule Engine"]
+	rankdir=LR
+}

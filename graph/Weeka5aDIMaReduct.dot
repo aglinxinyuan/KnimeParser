@@ -1,0 +1,17 @@
+digraph {
+	4 -> 3
+	7 -> 4
+	1 -> 5
+	1 -> 6
+	1 -> 7
+	6 -> 7
+	7 -> 2
+	5 [label="Low Variance Filter"]
+	1 [label="Table Reader"]
+	7 [label="Correlation Filter"]
+	4 [label="Row Filter"]
+	6 [label="Linear Correlation"]
+	3 [label="CSV Writer"]
+	2 [label="Table Writer"]
+	rankdir=LR
+}

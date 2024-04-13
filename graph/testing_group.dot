@@ -1,0 +1,49 @@
+digraph {
+	15 -> 14
+	13 -> 38
+	24 -> 10
+	40 -> 29
+	1 -> 36
+	29 -> 32
+	10 -> 11
+	27 -> 30
+	1 -> 37
+	39 -> 13
+	34 -> 27
+	30 -> 40
+	10 -> 26
+	11 -> 15
+	40 -> 33
+	36 -> 35
+	32 -> 33
+	9 -> 34
+	13 -> 41
+	26 -> 15
+	1 -> 9
+	33 -> 39
+	1 -> 3
+	27 [label="Rule_based Row Filter"]
+	9 [label="Row Filter"]
+	26 [label="Equal Size Sampling"]
+	3 [label="Data Explorer"]
+	24 [label="Color Manager"]
+	41 [label="Math Formula _Multi Column_"]
+	15 [label="Decision Tree Predictor"]
+	10 [label=Partitioning]
+	30 [label="Rule_based Row Filter"]
+	1 [label="CSV Reader"]
+	11 [label="Decision Tree Learner"]
+	14 [label=Scorer]
+	38 [label=GroupBy]
+	13 [label=Auto_Binner]
+	35 [label="Rank Correlation"]
+	34 [label="Row Filter"]
+	29 [label=GroupBy]
+	36 [label="Category To Number"]
+	40 [label="Numeric Outliers"]
+	39 [label="Category To Number"]
+	33 [label=Joiner]
+	32 [label="Row Filter"]
+	37 [label=GroupBy]
+	rankdir=LR
+}

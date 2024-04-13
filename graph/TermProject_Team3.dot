@@ -1,0 +1,54 @@
+digraph {
+	1 -> 39
+	1 -> 27
+	10 -> 23
+	53 -> 61
+	52 -> 51
+	1 -> 40
+	1 -> 63
+	55 -> 53
+	1 -> 2
+	58 -> 59
+	1 -> 41
+	45 -> 52
+	1 -> 28
+	51 -> 55
+	5 -> 18
+	1 -> 10
+	51 -> 60
+	27 -> 25
+	58 -> 45
+	56 -> 45
+	23 -> 22
+	18 -> 21
+	40 -> 58
+	27 -> 29
+	1 -> 5
+	27 [label="Row Filter"]
+	55 [label="Numeric Binner"]
+	18 [label="Round Double"]
+	21 [label=GroupBy]
+	58 [label="Numeric Outliers"]
+	39 [label=Statistics]
+	41 [label="Box Plot"]
+	51 [label="Numeric Outliers"]
+	56 [label="Table Creator"]
+	25 [label="Pie_Donut Chart"]
+	10 [label="Math Formula"]
+	59 [label="Box Plot"]
+	1 [label="File Reader"]
+	22 [label=GroupBy]
+	53 [label="Numeric Binner"]
+	28 [label="Pie_Donut Chart"]
+	23 [label="Round Double"]
+	63 [label="Conditional Box Plot"]
+	61 [label="Column Filter"]
+	60 [label="Box Plot"]
+	5 [label="Math Formula"]
+	29 [label="Pie_Donut Chart"]
+	40 [label="Missing Value"]
+	52 [label="Rule Engine"]
+	2 [label="Pie_Donut Chart"]
+	45 [label="Cell Replacer"]
+	rankdir=LR
+}

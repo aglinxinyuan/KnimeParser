@@ -1,0 +1,25 @@
+digraph {
+	4 -> 3
+	10 -> 7
+	3 -> 6
+	5 -> 4
+	9 -> 11
+	6 -> 10
+	1 -> 2
+	2 -> 3
+	8 -> 5
+	2 -> 8
+	7 -> 9
+	5 [label="Constant Value Column"]
+	1 [label="Table Creator"]
+	7 [label="Recursive Loop End"]
+	9 [label=GroupBy]
+	11 [label=RowID]
+	4 [label="Recursive Loop Start"]
+	6 [label="Scale Purchased"]
+	8 [label=RowID]
+	3 [label="Simulate Market"]
+	2 [label="Customer Distributions"]
+	10 [label="Scale Purchased"]
+	rankdir=LR
+}

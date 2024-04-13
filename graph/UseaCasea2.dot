@@ -1,0 +1,40 @@
+digraph {
+	8 -> 15
+	7 -> 8
+	8 -> 13
+	4 -> 5
+	14 -> 17
+	13 -> 9
+	3 -> 2
+	16 -> 19
+	15 -> 18
+	4 -> 20
+	4 -> 21
+	4 -> 11
+	8 -> 14
+	11 -> 12
+	8 -> 16
+	5 -> 6
+	6 -> 7
+	2 -> 4
+	7 [label=Sorter]
+	9 [label="Line Plot"]
+	21 [label="Line Plot"]
+	18 [label="Line Plot"]
+	8 [label="Rule Engine"]
+	17 [label="Line Plot"]
+	3 [label="MySQL Connector"]
+	19 [label="Line Plot"]
+	6 [label=GroupBy]
+	15 [label="Row Filter"]
+	12 [label="Line Plot"]
+	16 [label="Row Filter"]
+	11 [label=GroupBy]
+	4 [label="String to Date_Time"]
+	14 [label="Row Filter"]
+	5 [label="Extract Date_Time Fields"]
+	20 [label=GroupBy]
+	13 [label="Row Filter"]
+	2 [label="DB Query Reader"]
+	rankdir=LR
+}

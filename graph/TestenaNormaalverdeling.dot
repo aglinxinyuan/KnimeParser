@@ -1,0 +1,28 @@
+digraph {
+	19 -> 9
+	7 -> 8
+	1 -> 2
+	19 -> 5
+	13 -> 14
+	2 -> 6
+	19 -> 11
+	7 -> 13
+	11 -> 12
+	7 -> 10
+	6 -> 19
+	6 -> 7
+	5 [label=Histogram]
+	14 [label="Shapiro_Wilk Test"]
+	13 [label=Partitioning]
+	1 [label="Empty Table Creator"]
+	7 [label=Sorter]
+	9 [label="Shapiro_Wilk Test"]
+	11 [label=Partitioning]
+	10 [label="Shapiro_Wilk Test"]
+	6 [label="Random Number Assigner"]
+	8 [label=Histogram]
+	12 [label="Shapiro_Wilk Test"]
+	2 [label="Gaussian Distributed Assigner"]
+	19 [label=Sorter]
+	rankdir=LR
+}

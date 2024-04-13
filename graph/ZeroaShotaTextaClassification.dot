@@ -1,0 +1,10 @@
+digraph {
+	11 -> 1
+	2 -> 1
+	1 -> 8
+	1 [label="Zero Shot Text Classifier"]
+	2 [label="BERT Model Selector"]
+	11 [label="Table Reader"]
+	8 [label=Scorer]
+	rankdir=LR
+}

@@ -1,0 +1,21 @@
+digraph {
+	45 -> 42
+	46 -> 47
+	47 -> 45
+	37 -> 39
+	36 -> 42
+	44 -> 46
+	41 -> 39
+	39 -> 44
+	46 -> 45
+	44 [label=Wait___]
+	42 [label="Loop End"]
+	41 [label=Wait___]
+	36 [label="CSV Reader"]
+	45 [label="DB Merge"]
+	46 [label="PostgreSQL Connector"]
+	47 [label="DB Query Reader"]
+	39 [label="Counting Loop Start"]
+	37 [label="CSV Reader"]
+	rankdir=LR
+}

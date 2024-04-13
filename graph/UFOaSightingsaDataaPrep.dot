@@ -1,0 +1,143 @@
+digraph {
+	21 -> 23
+	102 -> 104
+	89 -> 79
+	23 -> 24
+	106 -> 107
+	91 -> 78
+	108 -> 109
+	39 -> 40
+	103 -> 106
+	57 -> 58
+	42 -> 43
+	59 -> 60
+	52 -> 54
+	40 -> 41
+	27 -> 28
+	63 -> 64
+	31 -> 46
+	97 -> 98
+	87 -> 42
+	58 -> 62
+	55 -> 56
+	29 -> 30
+	51 -> 53
+	50 -> 51
+	54 -> 55
+	56 -> 59
+	85 -> 84
+	26 -> 27
+	84 -> 102
+	36 -> 97
+	32 -> 35
+	86 -> 87
+	44 -> 45
+	37 -> 38
+	25 -> 26
+	46 -> 47
+	48 -> 49
+	77 -> 78
+	86 -> 85
+	90 -> 89
+	41 -> 87
+	108 -> 110
+	105 -> 107
+	74 -> 80
+	80 -> 86
+	24 -> 25
+	64 -> 65
+	59 -> 34
+	84 -> 77
+	60 -> 61
+	49 -> 50
+	61 -> 62
+	91 -> 102
+	38 -> 39
+	50 -> 52
+	30 -> 37
+	43 -> 44
+	47 -> 57
+	34 -> 36
+	98 -> 96
+	79 -> 91
+	104 -> 105
+	107 -> 108
+	62 -> 63
+	53 -> 55
+	96 -> 59
+	35 -> 48
+	35 -> 34
+	22 -> 30
+	65 -> 90
+	45 -> 74
+	28 -> 29
+	91 [label="Date_Time_based Row Filter"]
+	27 [label="String to Date_Time"]
+	57 [label="String Manipulation"]
+	55 [label=Concatenate]
+	103 [label=GroupBy]
+	79 [label=Sorter]
+	89 [label="String to Date_Time"]
+	97 [label="Column Filter"]
+	26 [label="String to Date_Time"]
+	52 [label="Cell Splitter"]
+	58 [label="Constant Value Column"]
+	21 [label="CSV Reader"]
+	74 [label="String Manipulation"]
+	108 [label=Normalizer]
+	32 [label="Excel Reader"]
+	105 [label="Column Rename"]
+	78 [label="Excel Writer"]
+	80 [label=Sorter]
+	24 [label="Regex Extractor"]
+	64 [label="Duplicate Row Filter"]
+	84 [label="Row Filter"]
+	49 [label="Duplicate Row Filter"]
+	41 [label="Punctuation Erasure"]
+	98 [label="Column Rename"]
+	31 [label="Excel Reader"]
+	51 [label="Cell Splitter"]
+	56 [label="Column Expressions"]
+	109 [label="Linear Correlation"]
+	25 [label="String to Date_Time"]
+	54 [label="Column Expressions"]
+	110 [label="Scatter Plot"]
+	85 [label="Row Filter"]
+	59 [label="Constant Value Column"]
+	86 [label="String To Number"]
+	48 [label="Cell Splitter"]
+	50 [label="Row Splitter"]
+	90 [label="String Manipulation"]
+	42 [label="String To Number"]
+	22 [label="Excel Reader"]
+	87 [label=Statistics]
+	28 [label="Column Rename"]
+	53 [label="Column Expressions"]
+	23 [label="Missing Value"]
+	47 [label="Column Filter"]
+	61 [label="Column Resorter"]
+	63 [label=Sorter]
+	37 [label="Strings To Document"]
+	77 [label="Excel Writer"]
+	106 [label="Column Rename"]
+	38 [label="Stop Word Filter"]
+	60 [label="Column Filter"]
+	107 [label=Joiner]
+	43 [label="Column Filter"]
+	96 [label="String Manipulation"]
+	44 [label="Extract Date_Time Fields"]
+	34 [label="Regex Extractor"]
+	62 [label=Concatenate]
+	29 [label="Column Expressions"]
+	102 [label=GroupBy]
+	65 [label="Column Rename"]
+	36 [label="Duplicate Row Filter"]
+	104 [label="Extract Date_Time Fields"]
+	46 [label="String Manipulation"]
+	40 [label="Number Filter"]
+	39 [label="N Chars Filter"]
+	30 [label=Joiner]
+	45 [label="Column Rename"]
+	35 [label="Row Filter"]
+	rankdir=LR
+}

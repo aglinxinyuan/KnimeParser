@@ -1,0 +1,32 @@
+digraph {
+	11 -> 12
+	4 -> 15
+	17 -> 6
+	10 -> 9
+	1 -> 2
+	18 -> 14
+	1 -> 11
+	15 -> 17
+	8 -> 7
+	12 -> 16
+	14 -> 10
+	16 -> 18
+	2 -> 4
+	6 -> 8
+	16 [label="Row Filter"]
+	14 [label="Row Aggregator"]
+	1 [label="CSV Reader"]
+	7 [label="Pie Chart"]
+	9 [label="Pie Chart"]
+	11 [label="Rule_based Row Filter"]
+	4 [label="Column Filter"]
+	18 [label=Sorter]
+	6 [label="Row Aggregator"]
+	15 [label="Row Filter"]
+	8 [label="Number To String"]
+	12 [label="Column Filter"]
+	17 [label=Sorter]
+	2 [label="Rule_based Row Filter"]
+	10 [label="Number To String"]
+	rankdir=LR
+}

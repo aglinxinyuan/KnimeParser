@@ -1,0 +1,17 @@
+digraph {
+	5 -> 8
+	1 -> 4
+	4 -> 5
+	3 -> 5
+	8 -> 7
+	1 -> 2
+	2 -> 5
+	5 [label="Bundle Generator"]
+	1 [label="Table Creator"]
+	7 [label="Round Double"]
+	4 [label="Customer Distributions"]
+	8 [label="Linear Correlation"]
+	3 [label="Table Creator"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

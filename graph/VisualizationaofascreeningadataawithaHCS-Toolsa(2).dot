@@ -1,0 +1,8 @@
+digraph {
+	3 -> 4
+	4 -> 2
+	4 [label="Color Manager"]
+	3 [label="Table Reader"]
+	2 [label="Plate Heatmap Viewer"]
+	rankdir=LR
+}

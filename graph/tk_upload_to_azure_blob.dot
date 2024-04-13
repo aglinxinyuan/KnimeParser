@@ -1,0 +1,10 @@
+digraph {
+	104 -> 182
+	181 -> 104
+	179 -> 104
+	104 [label="String to URI"]
+	179 [label="List Files"]
+	182 [label=Upload]
+	181 [label="Azure Blob Store Connection"]
+	rankdir=LR
+}

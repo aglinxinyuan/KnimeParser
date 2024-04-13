@@ -1,0 +1,9 @@
+digraph {
+	58 -> 59
+	58 -> 2
+	2 -> 59
+	58 [label="File Reader"]
+	2 [label="Table Indexer"]
+	59 [label="Index Query"]
+	rankdir=LR
+}

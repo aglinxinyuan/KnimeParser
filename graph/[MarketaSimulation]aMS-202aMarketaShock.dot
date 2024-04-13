@@ -1,0 +1,47 @@
+digraph {
+	24 -> 28
+	10 -> 9
+	21 -> 22
+	7 -> 24
+	13 -> 18
+	10 -> 31
+	18 -> 23
+	12 -> 13
+	9 -> 31
+	1 -> 2
+	23 -> 21
+	4 -> 2
+	30 -> 8
+	6 -> 7
+	29 -> 8
+	31 -> 12
+	8 -> 10
+	2 -> 30
+	24 -> 29
+	3 -> 4
+	5 -> 6
+	2 -> 5
+	28 -> 29
+	7 [label="Recursive Loop Start"]
+	9 [label="Scale Purchased"]
+	18 [label="Row Filter"]
+	21 [label=GroupBy]
+	8 [label="Simulate Market"]
+	3 [label="Customer Distributions"]
+	24 [label="Java IF _Table_"]
+	31 [label="Column Appender"]
+	6 [label=RowID]
+	12 [label="Java Snippet"]
+	10 [label="Column Splitter"]
+	1 [label="Table Creator"]
+	22 [label="Line Chart _JFreeChart_"]
+	28 [label="Scale Purchased"]
+	23 [label="Row Filter"]
+	4 [label="Customer Distributions"]
+	5 [label="Math Formula _Multi Column_"]
+	13 [label="Recursive Loop End"]
+	29 [label="End IF"]
+	30 [label="Row Filter"]
+	2 [label="Customer Distributions"]
+	rankdir=LR
+}

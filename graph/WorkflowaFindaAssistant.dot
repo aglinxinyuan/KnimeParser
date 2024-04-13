@@ -1,0 +1,30 @@
+digraph {
+	24 -> 28
+	36 -> 35
+	4 -> 25
+	35 -> 26
+	22 -> 3
+	25 -> 33
+	34 -> 36
+	3 -> 4
+	28 -> 34
+	26 -> 29
+	33 -> 37
+	37 -> 24
+	23 -> 22
+	24 [label="Regex Split"]
+	35 [label="Column Filter"]
+	34 [label="String Manipulation"]
+	22 [label="String to Path _Variable_"]
+	29 [label=Sorter]
+	28 [label="Column Rename"]
+	36 [label="Row Filter"]
+	23 [label="Java Edit Variable"]
+	4 [label="Files_Folders Meta Info"]
+	26 [label="Column Resorter"]
+	25 [label="Path to String"]
+	33 [label="String Manipulation"]
+	3 [label="List Files_Folders"]
+	37 [label="String Manipulation"]
+	rankdir=LR
+}

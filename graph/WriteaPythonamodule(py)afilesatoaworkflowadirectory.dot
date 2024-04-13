@@ -1,0 +1,14 @@
+digraph {
+	1654 -> 1656
+	1658 -> 1655
+	63 -> 1654
+	1657 -> 1658
+	1656 -> 1657
+	1654 [label="String Manipulation _Variable_"]
+	1655 [label="Python Script"]
+	1658 [label="Table Row to Variable"]
+	1657 [label="URL to File Path"]
+	63 [label="Conda Environment Propagation"]
+	1656 [label="Variable to Table Row"]
+	rankdir=LR
+}

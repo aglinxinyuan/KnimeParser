@@ -1,0 +1,15 @@
+digraph {
+	1 -> 4
+	4 -> 5
+	3 -> 5
+	5 -> 6
+	6 -> 7
+	3 -> 6
+	5 [label="Dictionary Tagger"]
+	1 [label="Table Creator"]
+	7 [label="Document Data Extractor"]
+	4 [label="Strings To Document"]
+	6 [label="Dictionary Replacer"]
+	3 [label="Table Creator"]
+	rankdir=LR
+}

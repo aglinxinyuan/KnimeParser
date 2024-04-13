@@ -1,0 +1,24 @@
+digraph {
+	6 -> 5
+	11 -> 10
+	7 -> 8
+	8 -> 9
+	9 -> 11
+	2 -> 4
+	8 -> 11
+	1 -> 2
+	6 -> 7
+	4 -> 6
+	4 -> 10
+	5 [label=GroupBy]
+	1 [label="Table Creator"]
+	7 [label="Rule Engine"]
+	9 [label="Scale Purchased"]
+	11 [label=Concatenate]
+	4 [label="Simulate Market"]
+	6 [label="Conditional Label Assigner"]
+	8 [label="Row Splitter"]
+	2 [label="Matrix Distributions"]
+	10 [label="Simulate Market"]
+	rankdir=LR
+}

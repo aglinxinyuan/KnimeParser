@@ -1,0 +1,12 @@
+digraph {
+	1 -> 7
+	6 -> 1
+	7 -> 8
+	5 -> 6
+	5 [label="Table Creator"]
+	1 [label="Cell Splitter"]
+	7 [label="Column Rename"]
+	6 [label="Math Formula"]
+	8 [label="Table View"]
+	rankdir=LR
+}

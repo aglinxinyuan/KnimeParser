@@ -1,0 +1,44 @@
+digraph {
+	9 -> 7
+	6 -> 5
+	41 -> 42
+	2 -> 1
+	34 -> 35
+	2 -> 8
+	1 -> 8
+	2 -> 40
+	6 -> 40
+	37 -> 35
+	44 -> 45
+	2 -> 44
+	2 -> 7
+	2 -> 43
+	35 -> 36
+	6 -> 42
+	5 -> 9
+	37 -> 32
+	42 -> 40
+	8 -> 10
+	34 -> 36
+	1 -> 5
+	7 [label="Spark to Parquet"]
+	9 [label="Spark Column Rename"]
+	8 [label="Parquet to Spark"]
+	41 [label="Hive Connector"]
+	6 [label="Data Generator"]
+	10 [label="Spark to Table"]
+	1 [label="Create Spark Context _Livy_"]
+	42 [label="DB Table Creator"]
+	37 [label="Microsoft SQL Server Connector"]
+	5 [label="Table to Spark"]
+	43 [label="List Remote Files"]
+	35 [label="DB Table Creator"]
+	44 [label="Azure Blob Store File Picker"]
+	34 [label="Data Generator"]
+	36 [label="DB Loader"]
+	40 [label="DB Loader"]
+	32 [label="DB Table Selector"]
+	2 [label="Azure Blob Store Connection"]
+	45 [label="CSV Reader"]
+	rankdir=LR
+}

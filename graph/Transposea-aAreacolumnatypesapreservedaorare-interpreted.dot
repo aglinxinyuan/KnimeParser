@@ -1,0 +1,11 @@
+digraph {
+	1558 -> 1560
+	1558 -> 1
+	2 -> 1560
+	1 -> 2
+	1 [label=Transpose]
+	1558 [label="Test Data Generator"]
+	1560 [label="Table Difference Checker"]
+	2 [label=Transpose]
+	rankdir=LR
+}

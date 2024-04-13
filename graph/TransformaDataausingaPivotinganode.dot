@@ -1,0 +1,18 @@
+digraph {
+	34 -> 25
+	32 -> 20
+	33 -> 22
+	35 -> 30
+	36 -> 31
+	30 [label=Pivoting]
+	20 [label=Pivoting]
+	35 [label="Table Reader"]
+	34 [label="Table Reader"]
+	22 [label=Pivoting]
+	31 [label=Pivoting]
+	36 [label="Table Reader"]
+	25 [label=Pivoting]
+	33 [label="Table Reader"]
+	32 [label="Table Reader"]
+	rankdir=LR
+}

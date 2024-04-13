@@ -1,0 +1,40 @@
+digraph {
+	14 -> 16
+	4 -> 5
+	18 -> 19
+	19 -> 21
+	3 -> 4
+	14 -> 24
+	16 -> 19
+	18 -> 20
+	29 -> 2
+	26 -> 27
+	14 -> 15
+	2 -> 3
+	5 -> 6
+	19 -> 23
+	16 -> 18
+	28 -> 27
+	27 -> 30
+	6 -> 14
+	27 [label="Regression Predictor"]
+	18 [label="Linear Regression Learner"]
+	21 [label="Numeric Scorer"]
+	26 [label="Model Reader"]
+	3 [label="Row Filter"]
+	19 [label="Regression Predictor"]
+	24 [label="Excel Writer"]
+	6 [label="String To Number _PMML_"]
+	15 [label="Linear Correlation"]
+	16 [label=Partitioning]
+	28 [label="Excel Reader"]
+	23 [label="Line Plot"]
+	4 [label="String Replacer"]
+	14 [label="Column Filter"]
+	5 [label="Missing Value"]
+	20 [label="Model Writer"]
+	29 [label="Excel Reader"]
+	30 [label="Line Plot"]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,33 @@
+digraph {
+	20 -> 21
+	16 -> 15
+	14 -> 3
+	7 -> 16
+	18 -> 19
+	3 -> 7
+	1 -> 2
+	6 -> 17
+	3 -> 4
+	15 -> 18
+	2 -> 6
+	19 -> 20
+	17 -> 18
+	4 -> 1
+	2 -> 3
+	6 -> 14
+	16 [label=RowID]
+	20 [label="Column Resorter"]
+	1 [label=IDF]
+	7 [label=Sorter]
+	4 [label="Bag Of Words Creator"]
+	18 [label="Column Appender"]
+	21 [label="Loop End"]
+	6 [label="Group Loop Start"]
+	15 [label="Row Filter"]
+	14 [label=GroupBy]
+	17 [label=GroupBy]
+	3 [label=TF]
+	2 [label=TF]
+	19 [label="Column Filter"]
+	rankdir=LR
+}

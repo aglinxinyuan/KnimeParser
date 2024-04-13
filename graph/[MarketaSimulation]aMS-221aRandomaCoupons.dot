@@ -1,0 +1,81 @@
+digraph {
+	4 -> 32
+	6 -> 5
+	15 -> 14
+	44 -> 43
+	14 -> 16
+	32 -> 16
+	8 -> 9
+	40 -> 29
+	4 -> 27
+	3 -> 28
+	28 -> 15
+	27 -> 28
+	2 -> 4
+	34 -> 43
+	43 -> 23
+	16 -> 38
+	29 -> 30
+	7 -> 35
+	37 -> 44
+	10 -> 36
+	39 -> 42
+	38 -> 44
+	1 -> 2
+	32 -> 10
+	5 -> 7
+	4 -> 40
+	32 -> 7
+	27 -> 3
+	33 -> 43
+	32 -> 30
+	32 -> 13
+	12 -> 11
+	28 -> 6
+	23 -> 45
+	32 -> 33
+	36 -> 44
+	30 -> 34
+	45 -> 39
+	28 -> 8
+	13 -> 37
+	9 -> 10
+	28 -> 12
+	11 -> 13
+	35 -> 44
+	27 [label="Row Splitter"]
+	7 [label="Simulate Market"]
+	9 [label="Scale Demographic"]
+	45 [label="Missing Value"]
+	8 [label="Row Splitter"]
+	3 [label="Random Label Assigner"]
+	6 [label="Row Splitter"]
+	15 [label="Row Splitter"]
+	12 [label="Row Splitter"]
+	10 [label="Simulate Market"]
+	16 [label="Simulate Market"]
+	30 [label="Simulate Market"]
+	1 [label="Table Creator"]
+	42 [label="GroupBy Bar Chart _JFreeChart_"]
+	28 [label=Concatenate]
+	11 [label="Scale Demographic"]
+	4 [label="Simulate Market"]
+	23 [label="Row Splitter"]
+	14 [label="Scale Demographic"]
+	38 [label="Constant Value Column"]
+	5 [label="Scale Demographic"]
+	13 [label="Simulate Market"]
+	35 [label="Constant Value Column"]
+	43 [label=Concatenate]
+	34 [label="Constant Value Column"]
+	44 [label=Concatenate]
+	29 [label="Scale Demographic"]
+	36 [label="Constant Value Column"]
+	40 [label="Row Splitter"]
+	39 [label="Math Formula"]
+	33 [label="Constant Value Column"]
+	32 [label="Column Filter"]
+	2 [label="Customer Distributions"]
+	37 [label="Constant Value Column"]
+	rankdir=LR
+}

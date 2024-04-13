@@ -1,0 +1,42 @@
+digraph {
+	15 -> 13
+	4 -> 6
+	1 -> 16
+	1 -> 4
+	9 -> 3
+	18 -> 19
+	3 -> 14
+	14 -> 15
+	11 -> 12
+	17 -> 18
+	1 -> 2
+	19 -> 1
+	10 -> 11
+	2 -> 10
+	2 -> 7
+	5 -> 3
+	3 -> 8
+	1 -> 9
+	16 -> 17
+	1 -> 5
+	7 [label="Entropy Scorer"]
+	9 [label="Color Manager"]
+	18 [label="Entropy Scorer"]
+	8 [label="Entropy Scorer"]
+	17 [label=k_Means]
+	3 [label=DBSCAN]
+	19 [label="Loop End"]
+	6 [label="Entropy Scorer"]
+	15 [label="Shape Manager"]
+	12 [label="Scatter Matrix _local_"]
+	10 [label="Color Manager"]
+	16 [label="Counting Loop Start"]
+	1 [label="Counting Loop Start"]
+	11 [label="Shape Manager"]
+	4 [label="Hierarchical Clustering"]
+	14 [label="Color Manager"]
+	5 [label="Numeric Distances"]
+	13 [label="Scatter Matrix _local_"]
+	2 [label="Loop End"]
+	rankdir=LR
+}

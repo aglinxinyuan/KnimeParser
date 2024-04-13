@@ -1,0 +1,68 @@
+digraph {
+	37 -> 97
+	98 -> 37
+	104 -> 103
+	18 -> 5
+	1 -> 6
+	21 -> 22
+	31 -> 32
+	26 -> 31
+	22 -> 16
+	25 -> 26
+	25 -> 28
+	17 -> 18
+	27 -> 30
+	33 -> 34
+	36 -> 101
+	102 -> 97
+	10 -> 24
+	9 -> 17
+	28 -> 33
+	34 -> 102
+	30 -> 29
+	6 -> 7
+	29 -> 99
+	7 -> 9
+	20 -> 10
+	32 -> 100
+	19 -> 20
+	5 -> 23
+	16 -> 25
+	25 -> 27
+	27 [label="String to Date_Time"]
+	103 [label="Bar Chart"]
+	7 [label="URL to File Path"]
+	9 [label="Rule_based Row Filter"]
+	97 [label="Bar Chart"]
+	18 [label="Table Row to Variable"]
+	21 [label="Row Filter"]
+	26 [label="String to Date_Time"]
+	32 [label=GroupBy]
+	17 [label="Row Filter"]
+	19 [label="Row Filter"]
+	24 [label="Column Filter"]
+	98 [label="Table Creator"]
+	31 [label="Extract Date_Time Fields"]
+	6 [label="Path to URI"]
+	25 [label="Column Filter"]
+	10 [label="CSV Reader"]
+	16 [label="CSV Reader"]
+	1 [label="List Files_Folders"]
+	22 [label="Table Row to Variable"]
+	28 [label="String to Date_Time"]
+	23 [label="Column Filter"]
+	101 [label="Bar Chart"]
+	100 [label="Number To String"]
+	5 [label="CSV Reader"]
+	99 [label="Number To String"]
+	20 [label="Table Row to Variable"]
+	102 [label="Number To String"]
+	34 [label=GroupBy]
+	104 [label="Color Manager"]
+	29 [label=GroupBy]
+	36 [label="Color Manager"]
+	33 [label="Extract Date_Time Fields"]
+	30 [label="Extract Date_Time Fields"]
+	37 [label="Color Manager"]
+	rankdir=LR
+}

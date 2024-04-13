@@ -1,0 +1,43 @@
+digraph {
+	21 -> 19
+	13 -> 14
+	15 -> 18
+	2026 -> 2
+	2 -> 3
+	1684 -> 2025
+	6 -> 16
+	12 -> 13
+	14 -> 20
+	2025 -> 2026
+	10 -> 12
+	3 -> 9
+	21 -> 10
+	16 -> 21
+	20 -> 15
+	2024 -> 5
+	5 -> 6
+	9 -> 15
+	9 -> 10
+	15 -> 2027
+	2026 [label="Row Filter"]
+	9 [label="String Manipulation"]
+	18 [label=GroupBy]
+	21 [label="Snowball Stemmer"]
+	3 [label=Ungroup]
+	19 [label="Document Viewer"]
+	6 [label="Case Converter"]
+	15 [label=Joiner]
+	12 [label="Tag Filter"]
+	10 [label="Dictionary Tagger"]
+	16 [label="Diacritic Remover"]
+	1684 [label="Table Reader"]
+	2024 [label="Table Reader"]
+	2025 [label="Column Renamer"]
+	14 [label="Term To String"]
+	5 [label="Strings To Document"]
+	13 [label="Bag Of Words Creator"]
+	20 [label="Column Filter"]
+	2027 [label="Table Writer"]
+	2 [label="Cell Splitter"]
+	rankdir=LR
+}

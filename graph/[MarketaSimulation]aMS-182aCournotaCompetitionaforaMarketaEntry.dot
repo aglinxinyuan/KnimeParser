@@ -1,0 +1,33 @@
+digraph {
+	6 -> 8
+	10 -> 11
+	12 -> 13
+	1 -> 4
+	13 -> 45
+	8 -> 9
+	4 -> 8
+	13 -> 47
+	3 -> 4
+	11 -> 12
+	9 -> 10
+	2 -> 3
+	13 -> 46
+	13 -> 48
+	4 -> 9
+	48 [label="Line Chart _JFreeChart_"]
+	13 [label="Column Rename _Regex_"]
+	1 [label="Table Creator"]
+	9 [label="Price Maximize"]
+	45 [label="Line Chart _JFreeChart_"]
+	11 [label="Column Filter"]
+	4 [label="Matrix Distributions"]
+	47 [label="Line Chart _JFreeChart_"]
+	46 [label="Line Chart _JFreeChart_"]
+	8 [label="Java Snippet"]
+	6 [label="Tuning Loop Start"]
+	12 [label="Row Splitter"]
+	3 [label="Correlation Pairs To Matrix"]
+	2 [label="Table Creator"]
+	10 [label="Loop End"]
+	rankdir=LR
+}

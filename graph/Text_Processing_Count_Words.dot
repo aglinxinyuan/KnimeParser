@@ -1,0 +1,26 @@
+digraph {
+	41 -> 45
+	24 -> 26
+	28 -> 24
+	46 -> 47
+	38 -> 39
+	35 -> 37
+	39 -> 40
+	26 -> 35
+	45 -> 46
+	40 -> 41
+	37 -> 38
+	24 [label=GroupBy]
+	35 [label="POS Tagger"]
+	41 [label="Bag Of Words Creator"]
+	28 [label="Table Creator"]
+	45 [label=TF]
+	46 [label="Term To String"]
+	26 [label="Strings To Document"]
+	47 [label="Column Filter"]
+	40 [label="Case Converter"]
+	39 [label="Stop Word Filter"]
+	38 [label="Punctuation Erasure"]
+	37 [label="Number Filter"]
+	rankdir=LR
+}

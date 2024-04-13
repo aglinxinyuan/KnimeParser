@@ -1,0 +1,24 @@
+digraph {
+	1 -> 4
+	4 -> 2
+	4 -> 3
+	12 -> 9
+	8 -> 9
+	9 -> 11
+	3 -> 5
+	1 -> 10
+	12 -> 8
+	2 -> 3
+	10 -> 12
+	5 [label="Numeric Scorer"]
+	1 [label="CSV Reader"]
+	9 [label="Decision Tree Predictor"]
+	11 [label=Scorer]
+	4 [label=Partitioning]
+	8 [label="Decision Tree Learner"]
+	12 [label=Partitioning]
+	3 [label="Simple Regression Tree Predictor"]
+	2 [label="Simple Regression Tree Learner"]
+	10 [label="Number To String"]
+	rankdir=LR
+}

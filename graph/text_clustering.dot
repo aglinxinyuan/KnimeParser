@@ -1,0 +1,42 @@
+digraph {
+	7 -> 8
+	8 -> 9
+	13 -> 14
+	2 -> 3
+	12 -> 13
+	18 -> 19
+	14 -> 15
+	11 -> 12
+	17 -> 18
+	1 -> 2
+	16 -> 18
+	10 -> 11
+	15 -> 16
+	3 -> 5
+	6 -> 7
+	16 -> 19
+	3 -> 4
+	5 -> 6
+	9 -> 10
+	16 -> 17
+	7 [label="Number Filter"]
+	9 [label="Stop Word Filter"]
+	18 [label="Hierarchical Clustering _DistMatrix_"]
+	8 [label="Porter Stemmer"]
+	17 [label="Numeric Distances"]
+	3 [label="Strings To Document"]
+	19 [label="Hierarchical Cluster View"]
+	6 [label="Punctuation Erasure"]
+	15 [label="Category To Class"]
+	12 [label=IDF]
+	10 [label="Bag Of Words Creator"]
+	16 [label=RowID]
+	1 [label="HDFS Connector"]
+	11 [label=TF]
+	4 [label="Document Viewer"]
+	14 [label="Document Vector"]
+	5 [label="Case Converter"]
+	13 [label="Column Expressions"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

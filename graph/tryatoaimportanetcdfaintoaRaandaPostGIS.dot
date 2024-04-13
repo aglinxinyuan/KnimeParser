@@ -1,0 +1,6 @@
+digraph {
+	2 -> 5
+	5 [label="DB Table Selector"]
+	2 [label="PostgreSQL Connector"]
+	rankdir=LR
+}

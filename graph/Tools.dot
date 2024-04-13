@@ -1,0 +1,20 @@
+digraph {
+	13 -> 89
+	7 -> 8
+	16 -> 13
+	8 -> 10
+	15 -> 16
+	11 -> 14
+	14 -> 15
+	10 -> 11
+	16 [label="Column Filter"]
+	13 [label="Column Renamer"]
+	7 [label="File Reader"]
+	89 [label="Workflow Service Output"]
+	11 [label="Cell Splitter"]
+	8 [label="Row Filter"]
+	15 [label="Cell Splitter"]
+	14 [label="Cell Splitter"]
+	10 [label="Cell Splitter"]
+	rankdir=LR
+}

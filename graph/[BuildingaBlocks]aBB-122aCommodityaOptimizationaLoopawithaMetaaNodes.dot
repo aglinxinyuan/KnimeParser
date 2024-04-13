@@ -1,0 +1,110 @@
+digraph {
+	24 -> 26
+	53 -> 54
+	65 -> 29
+	46 -> 17
+	30 -> 18
+	64 -> 55
+	71 -> 72
+	15 -> 56
+	59 -> 55
+	27 -> 65
+	12 -> 67
+	74 -> 78
+	31 -> 18
+	13 -> 46
+	61 -> 55
+	17 -> 15
+	55 -> 57
+	26 -> 55
+	22 -> 25
+	69 -> 67
+	30 -> 31
+	16 -> 57
+	29 -> 30
+	55 -> 56
+	25 -> 65
+	12 -> 55
+	57 -> 20
+	48 -> 12
+	58 -> 59
+	61 -> 19
+	52 -> 24
+	55 -> 13
+	68 -> 69
+	48 -> 2
+	59 -> 29
+	19 -> 51
+	65 -> 71
+	70 -> 73
+	65 -> 70
+	27 -> 55
+	12 -> 64
+	72 -> 74
+	47 -> 48
+	59 -> 65
+	54 -> 58
+	50 -> 48
+	60 -> 61
+	17 -> 27
+	59 -> 59
+	61 -> 20
+	20 -> 52
+	55 -> 58
+	25 -> 55
+	26 -> 65
+	75 -> 78
+	78 -> 77
+	18 -> 53
+	17 -> 16
+	51 -> 22
+	56 -> 19
+	65 -> 68
+	73 -> 75
+	27 [label="Constant Value Column"]
+	57 [label=Concatenate]
+	55 [label="Row Splitter"]
+	18 [label="Recursive Loop End"]
+	26 [label="Constant Value Column"]
+	58 [label=Concatenate]
+	74 [label="Column Rename"]
+	17 [label="Recursive Loop Start"]
+	19 [label="Simulate Market"]
+	78 [label="Column Appender"]
+	24 [label="Column Filter"]
+	64 [label="Recursive Loop Start"]
+	31 [label="Row Filter"]
+	51 [label="Row Filter"]
+	56 [label=Concatenate]
+	15 [label="Math Formula"]
+	25 [label="Constant Value Column"]
+	54 [label="Row Filter"]
+	12 [label="Simulate Market"]
+	59 [label="Simulate Market"]
+	75 [label="Column Rename"]
+	16 [label="Math Formula"]
+	48 [label="Product Generator"]
+	50 [label="Customer Distributions"]
+	53 [label=Sorter]
+	22 [label="Column Filter"]
+	68 [label=Sorter]
+	67 [label="Profit Engine"]
+	72 [label="Column Filter"]
+	47 [label="Table Creator"]
+	61 [label="Column Filter"]
+	77 [label="Line Chart _JFreeChart_"]
+	60 [label="Column Filter"]
+	13 [label="Column Filter"]
+	20 [label="Simulate Market"]
+	29 [label=Sorter]
+	70 [label="Row Filter"]
+	65 [label="Recursive Loop End"]
+	71 [label="Row Filter"]
+	69 [label="Row Filter"]
+	46 [label="Constant Value Column"]
+	52 [label="Row Filter"]
+	73 [label="Column Filter"]
+	30 [label="Row Filter"]
+	2 [label="Histogram Chart _JFreeChart_"]
+	rankdir=LR
+}

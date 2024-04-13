@@ -1,0 +1,43 @@
+digraph {
+	40 -> 210
+	24 -> 28
+	209 -> 212
+	40 -> 213
+	208 -> 212
+	21 -> 22
+	30 -> 212
+	214 -> 33
+	210 -> 213
+	213 -> 212
+	28 -> 30
+	214 -> 210
+	22 -> 24
+	22 -> 40
+	214 -> 213
+	214 -> 22
+	47 -> 48
+	22 -> 28
+	214 -> 208
+	214 -> 48
+	212 -> 33
+	48 -> 209
+	43 -> 47
+	214 -> 47
+	210 [label="Spark to Parquet"]
+	24 [label="Spark Decision Tree Learner"]
+	48 [label="DB Loader"]
+	214 [label="Create Databricks Environment"]
+	43 [label="Data Generator"]
+	208 [label="List Files_Folders"]
+	22 [label="Table to Spark"]
+	28 [label="Spark Predictor _Classification_"]
+	21 [label="Data Generator"]
+	47 [label="DB Table Creator"]
+	212 [label="Merge Variables"]
+	40 [label="Spark Column Rename"]
+	33 [label="Destroy Spark Context"]
+	30 [label="Spark Scorer"]
+	209 [label="DB Reader"]
+	213 [label="Parquet to Spark"]
+	rankdir=LR
+}

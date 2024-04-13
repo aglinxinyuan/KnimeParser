@@ -1,0 +1,26 @@
+digraph {
+	6 -> 5
+	12 -> 13
+	7 -> 8
+	8 -> 9
+	3 -> 4
+	5 -> 7
+	11 -> 12
+	9 -> 10
+	2 -> 3
+	10 -> 11
+	4 -> 6
+	5 [label="Regex Extractor"]
+	13 [label="Loop End"]
+	7 [label="String to Date_Time"]
+	9 [label="Column Expressions"]
+	11 [label="Table Row to Variable Loop Start"]
+	4 [label="Column Expressions"]
+	6 [label="Column Filter"]
+	8 [label="String to Path"]
+	12 [label="Delete Files_Folders"]
+	3 [label="Regex Extractor"]
+	2 [label="Tika Parser"]
+	10 [label="Transfer Files _Table_"]
+	rankdir=LR
+}

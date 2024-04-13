@@ -1,0 +1,36 @@
+digraph {
+	21 -> 23
+	18 -> 19
+	18 -> 32
+	23 -> 24
+	22 -> 23
+	15 -> 16
+	13 -> 3
+	23 -> 33
+	26 -> 34
+	15 -> 31
+	14 -> 15
+	17 -> 18
+	27 -> 26
+	26 -> 28
+	27 [label="Table Creator"]
+	18 [label="Matrix Distributions"]
+	21 [label="Table Creator"]
+	26 [label="Matrix Distributions"]
+	17 [label="Table Creator"]
+	3 [label=Statistics]
+	19 [label=Statistics]
+	24 [label=Statistics]
+	31 [label="Linear Correlation"]
+	15 [label="Matrix Distributions"]
+	16 [label=Statistics]
+	22 [label="Table Creator"]
+	28 [label=Statistics]
+	23 [label="Matrix Distributions"]
+	14 [label="Table Creator"]
+	13 [label="Matrix Distributions"]
+	34 [label="Linear Correlation"]
+	33 [label="Linear Correlation"]
+	32 [label="Linear Correlation"]
+	rankdir=LR
+}

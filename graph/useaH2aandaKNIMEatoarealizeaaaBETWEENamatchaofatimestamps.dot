@@ -1,0 +1,32 @@
+digraph {
+	75 -> 76
+	78 -> 80
+	77 -> 71
+	80 -> 8
+	3 -> 68
+	3 -> 71
+	79 -> 72
+	78 -> 68
+	68 -> 80
+	71 -> 79
+	74 -> 75
+	77 -> 79
+	76 -> 24
+	72 -> 74
+	3 -> 74
+	8 -> 72
+	24 [label="Table Writer"]
+	79 [label="DB Table Creator"]
+	68 [label="DB Table Remover"]
+	71 [label="DB Table Remover"]
+	72 [label="DB Writer"]
+	76 [label="DB Reader"]
+	8 [label="DB Writer"]
+	74 [label="DB SQL Executor"]
+	77 [label="Table Reader"]
+	80 [label="DB Table Creator"]
+	3 [label="H2 Connector"]
+	75 [label="DB Table Selector"]
+	78 [label="Table Reader"]
+	rankdir=LR
+}

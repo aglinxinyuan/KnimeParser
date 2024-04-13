@@ -1,0 +1,18 @@
+digraph {
+	7 -> 14
+	13 -> 6
+	2 -> 8
+	1 -> 2
+	6 -> 7
+	11 -> 13
+	8 -> 11
+	13 [label="Column Resorter"]
+	1 [label="Excel Reader"]
+	7 [label="Loop End"]
+	11 [label="Column Aggregator"]
+	6 [label="Extract Column Header"]
+	8 [label="Missing Value Column Filter"]
+	14 [label="Column Rename"]
+	2 [label="Chunk Loop Start"]
+	rankdir=LR
+}

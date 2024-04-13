@@ -1,0 +1,28 @@
+digraph {
+	37 -> 47
+	46 -> 49
+	41 -> 42
+	43 -> 44
+	47 -> 38
+	44 -> 46
+	47 -> 39
+	42 -> 43
+	49 -> 48
+	39 -> 40
+	39 -> 41
+	40 -> 41
+	41 -> 44
+	48 [label="Loop End"]
+	43 [label="SARIMA Predictor"]
+	44 [label=Joiner]
+	42 [label="SARIMA Learner"]
+	49 [label="Table Transposer"]
+	41 [label=Partitioning]
+	46 [label="Numeric Scorer"]
+	47 [label="Math Formula"]
+	40 [label="Math Formula _Variable_"]
+	39 [label="Counting Loop Start"]
+	38 [label="Autocorrelation Plot"]
+	37 [label="Table Reader"]
+	rankdir=LR
+}

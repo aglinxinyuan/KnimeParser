@@ -1,0 +1,44 @@
+digraph {
+	5 -> 8
+	24 -> 15
+	15 -> 21
+	21 -> 22
+	18 -> 27
+	19 -> 21
+	23 -> 26
+	10 -> 23
+	26 -> 5
+	22 -> 25
+	11 -> 17
+	25 -> 28
+	8 -> 12
+	3 -> 9
+	8 -> 11
+	27 -> 19
+	12 -> 24
+	9 -> 10
+	8 -> 18
+	17 -> 22
+	28 -> 29
+	27 [label="Row Filter"]
+	9 [label="Row Filter"]
+	18 [label="Column Filter"]
+	21 [label="Insert Column Header"]
+	26 [label="Rule Engine"]
+	8 [label="Column Rename"]
+	17 [label="Row Filter"]
+	3 [label="Table Creator"]
+	19 [label=RowID]
+	24 [label="Row Filter"]
+	15 [label=Transpose]
+	25 [label="Loop End"]
+	10 [label="Chunk Loop Start"]
+	12 [label="Column Filter"]
+	22 [label="Cross Joiner"]
+	28 [label="Column Rename"]
+	11 [label="Column Filter"]
+	23 [label="Rule Engine"]
+	5 [label="Cell Splitter"]
+	29 [label="Constant Value Column"]
+	rankdir=LR
+}

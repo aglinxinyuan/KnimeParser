@@ -1,0 +1,113 @@
+digraph {
+	41 -> 42
+	9 -> 14
+	41 -> 43
+	26 -> 53
+	15 -> 18
+	9 -> 13
+	51 -> 48
+	39 -> 41
+	32 -> 40
+	30 -> 32
+	23 -> 26
+	2 -> 4
+	54 -> 30
+	18 -> 23
+	13 -> 20
+	53 -> 29
+	51 -> 47
+	49 -> 5
+	32 -> 34
+	11 -> 16
+	25 -> 54
+	51 -> 46
+	20 -> 25
+	31 -> 33
+	43 -> 51
+	26 -> 54
+	15 -> 19
+	24 -> 54
+	33 -> 35
+	29 -> 31
+	16 -> 21
+	4 -> 49
+	55 -> 5
+	9 -> 11
+	15 -> 16
+	42 -> 51
+	15 -> 17
+	9 -> 12
+	21 -> 53
+	12 -> 17
+	6 -> 7
+	5 -> 9
+	40 -> 39
+	49 -> 50
+	19 -> 24
+	51 -> 45
+	52 -> 38
+	31 -> 40
+	38 -> 39
+	7 -> 55
+	36 -> 52
+	3 -> 4
+	15 -> 20
+	34 -> 36
+	22 -> 53
+	49 -> 15
+	10 -> 18
+	9 -> 10
+	35 -> 52
+	17 -> 22
+	14 -> 19
+	55 [label="Table Row to Variable"]
+	7 [label="Recursive Loop Start"]
+	9 [label="Java Snippet"]
+	18 [label="Simulate Market"]
+	21 [label="Row Splitter"]
+	26 [label="Row Splitter"]
+	32 [label="Row Filter"]
+	17 [label="Simulate Market"]
+	3 [label="Customer Distributions"]
+	19 [label="Simulate Market"]
+	39 [label="Recursive Loop End"]
+	24 [label="Row Splitter"]
+	49 [label="Demand Shredder"]
+	41 [label="Row Splitter"]
+	31 [label="Row Filter"]
+	51 [label="Column Appender"]
+	6 [label="Table Creator"]
+	15 [label="Column Filter"]
+	25 [label="Row Splitter"]
+	54 [label=Concatenate]
+	12 [label="Java Snippet"]
+	10 [label="Java Snippet"]
+	16 [label="Simulate Market"]
+	48 [label="Line Chart _JFreeChart_"]
+	50 [label=GroupBy]
+	42 [label="Column Rename _Regex_"]
+	22 [label="Row Splitter"]
+	53 [label=Concatenate]
+	11 [label="Java Snippet"]
+	4 [label="Product Generator"]
+	23 [label="Row Splitter"]
+	47 [label="Line Chart _JFreeChart_"]
+	14 [label="Java Snippet"]
+	38 [label="Constant Value Column"]
+	5 [label="Column Filter"]
+	13 [label="Java Snippet"]
+	20 [label="Simulate Market"]
+	35 [label="Column Rename"]
+	34 [label="Column Filter"]
+	43 [label="Column Rename _Regex_"]
+	29 [label=Sorter]
+	36 [label="Column Rename"]
+	46 [label="Line Chart _JFreeChart_"]
+	40 [label=Concatenate]
+	52 [label="Column Appender"]
+	33 [label="Column Filter"]
+	30 [label=Sorter]
+	2 [label="Table Creator"]
+	45 [label="Line Chart _JFreeChart_"]
+	rankdir=LR
+}

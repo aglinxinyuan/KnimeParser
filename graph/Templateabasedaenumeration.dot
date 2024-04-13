@@ -1,0 +1,21 @@
+digraph {
+	24 -> 23
+	18 -> 19
+	29 -> 30
+	30 -> 28
+	22 -> 31
+	23 -> 31
+	28 -> 22
+	31 -> 18
+	30 -> 24
+	24 [label="RDKit Functional Group Filter"]
+	22 [label="Row Sampling"]
+	29 [label="File Reader"]
+	31 [label="RDKit Two Component Reaction"]
+	28 [label="RDKit Functional Group Filter"]
+	23 [label="Row Sampling"]
+	18 [label="RDKit Generate Coords"]
+	30 [label="RDKit From Molecule"]
+	19 [label="RDKit To Molecule"]
+	rankdir=LR
+}

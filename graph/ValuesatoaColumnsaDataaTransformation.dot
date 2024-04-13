@@ -1,0 +1,30 @@
+digraph {
+	33 -> 34
+	41 -> 42
+	32 -> 33
+	34 -> 39
+	46 -> 48
+	45 -> 47
+	42 -> 43
+	39 -> 35
+	36 -> 41
+	35 -> 36
+	47 -> 46
+	34 -> 44
+	44 -> 45
+	48 [label=Pivoting]
+	43 [label=Pivoting]
+	35 [label=Pivoting]
+	44 [label="One to Many"]
+	34 [label=Ungroup]
+	42 [label="Rule Engine"]
+	41 [label=Unpivoting]
+	36 [label="Column Filter"]
+	46 [label="Rule Engine"]
+	47 [label=Unpivoting]
+	39 [label="Constant Value Column"]
+	33 [label="Create Collection Column"]
+	32 [label="Table Creator"]
+	45 [label=GroupBy]
+	rankdir=LR
+}

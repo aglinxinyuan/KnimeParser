@@ -1,0 +1,14 @@
+digraph {
+	38 -> 39
+	44 -> 31
+	31 -> 37
+	39 -> 43
+	37 -> 38
+	43 [label="Generic JavaScript View"]
+	44 [label="Table Reader"]
+	31 [label="Column Filter"]
+	39 [label="Column Filter"]
+	38 [label="Rule_based Row Filter"]
+	37 [label="Java Snippet"]
+	rankdir=LR
+}

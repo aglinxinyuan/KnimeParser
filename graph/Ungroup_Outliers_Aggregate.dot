@@ -1,0 +1,20 @@
+digraph {
+	9 -> 7
+	6 -> 5
+	5 -> 10
+	1 -> 2
+	2 -> 3
+	12 -> 11
+	5 -> 7
+	5 [label="Numeric Outliers"]
+	1 [label="Table Creator"]
+	7 [label="Numeric Outliers _Apply_"]
+	9 [label="Table Creator"]
+	11 [label="Column Aggregator"]
+	6 [label="Table Creator"]
+	12 [label="Table Creator"]
+	3 [label=Ungroup]
+	2 [label="Cell Splitter"]
+	10 [label="Row Splitter"]
+	rankdir=LR
+}

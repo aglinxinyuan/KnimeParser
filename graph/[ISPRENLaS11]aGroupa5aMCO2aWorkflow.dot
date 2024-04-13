@@ -1,0 +1,84 @@
+digraph {
+	46 -> 51
+	53 -> 54
+	29 -> 28
+	62 -> 59
+	34 -> 35
+	27 -> 26
+	50 -> 27
+	59 -> 69
+	65 -> 62
+	51 -> 52
+	58 -> 62
+	67 -> 57
+	48 -> 51
+	31 -> 33
+	2 -> 50
+	28 -> 67
+	42 -> 55
+	67 -> 56
+	59 -> 72
+	61 -> 68
+	35 -> 45
+	33 -> 34
+	33 -> 35
+	54 -> 64
+	42 -> 71
+	57 -> 53
+	60 -> 58
+	72 -> 73
+	68 -> 58
+	35 -> 36
+	28 -> 31
+	45 -> 46
+	64 -> 65
+	36 -> 47
+	71 -> 70
+	52 -> 42
+	54 -> 61
+	47 -> 52
+	56 -> 60
+	31 -> 49
+	49 -> 48
+	26 -> 28
+	57 -> 54
+	27 [label="String Manipulation"]
+	57 [label=Partitioning]
+	55 [label="Table View"]
+	26 [label="String To Number"]
+	58 [label="Column Appender"]
+	64 [label="Numeric Scorer"]
+	49 [label="Column Filter"]
+	31 [label="Group Loop Start"]
+	51 [label="Column Appender"]
+	56 [label="Column Filter"]
+	54 [label="Simple Regression Tree Predictor"]
+	59 [label="Loop End"]
+	48 [label="Duplicate Row Filter"]
+	50 [label="String Manipulation"]
+	42 [label="Loop End"]
+	53 [label="Simple Regression Tree Learner"]
+	68 [label="Image To Table"]
+	28 [label="Cell Replacer"]
+	67 [label="Group Loop Start"]
+	72 [label="Column Filter"]
+	47 [label=Transpose]
+	61 [label="Line Chart _JFreeChart_"]
+	73 [label="Table to PDF"]
+	60 [label="Duplicate Row Filter"]
+	35 [label="Regression Predictor"]
+	34 [label="Polynomial Regression Learner"]
+	62 [label="Column Appender"]
+	29 [label="Table Creator"]
+	70 [label="Table to PDF"]
+	71 [label="Column Filter"]
+	36 [label="Numeric Scorer"]
+	69 [label="Table View"]
+	46 [label="Image To Table"]
+	65 [label=Transpose]
+	52 [label="Column Appender"]
+	33 [label=Partitioning]
+	2 [label="CSV Reader"]
+	45 [label="Line Chart _JFreeChart_"]
+	rankdir=LR
+}

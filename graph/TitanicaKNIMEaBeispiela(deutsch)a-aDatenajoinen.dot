@@ -1,0 +1,16 @@
+digraph {
+	6 -> 5
+	5 -> 451
+	450 -> 452
+	452 -> 4
+	449 -> 452
+	4 -> 6
+	5 [label=GroupBy]
+	450 [label="Table Reader"]
+	449 [label="Table Reader"]
+	4 [label="Math Formula"]
+	452 [label=Joiner]
+	6 [label="Math Formula"]
+	451 [label="Excel Writer"]
+	rankdir=LR
+}

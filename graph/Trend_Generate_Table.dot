@@ -1,0 +1,34 @@
+digraph {
+	17 -> 15
+	33 -> 34
+	41 -> 42
+	39 -> 17
+	32 -> 33
+	38 -> 17
+	15 -> 16
+	31 -> 32
+	16 -> 41
+	43 -> 38
+	35 -> 36
+	34 -> 35
+	39 -> 41
+	36 -> 43
+	32 -> 35
+	37 -> 38
+	16 [label="Reference Row Filter"]
+	43 [label="Column Rename"]
+	35 [label=Joiner]
+	34 [label="Row Filter"]
+	42 [label="Table Writer"]
+	41 [label=Concatenate]
+	31 [label="Table Reader"]
+	36 [label="Column Filter"]
+	15 [label=Joiner]
+	39 [label="Table Reader"]
+	33 [label="Similarity Search"]
+	17 [label=RowID]
+	32 [label=GroupBy]
+	38 [label="Cross Joiner"]
+	37 [label="Table Creator"]
+	rankdir=LR
+}

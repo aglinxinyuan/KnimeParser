@@ -1,0 +1,19 @@
+digraph {
+	7 -> 8
+	10 -> 7
+	9 -> 6
+	3 -> 5
+	5 -> 10
+	5 -> 9
+	1 -> 3
+	6 -> 8
+	5 [label="Rule_based Row Splitter"]
+	1 [label="Table Creator"]
+	7 [label="String Manipulation"]
+	9 [label="Column Rename"]
+	6 [label="String Manipulation"]
+	8 [label=Joiner]
+	3 [label=Transpose]
+	10 [label="Column Rename"]
+	rankdir=LR
+}

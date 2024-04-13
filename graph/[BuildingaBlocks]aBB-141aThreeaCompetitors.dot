@@ -1,0 +1,18 @@
+digraph {
+	20 -> 21
+	21 -> 23
+	73 -> 72
+	72 -> 69
+	19 -> 20
+	22 -> 21
+	23 -> 73
+	20 [label="Correlation Pairs To Matrix"]
+	22 [label="Table Creator"]
+	69 [label="Pie chart"]
+	23 [label="Profit Engine"]
+	21 [label="Matrix Distributions"]
+	72 [label="Color Manager"]
+	73 [label="Row Filter"]
+	19 [label="Table Creator"]
+	rankdir=LR
+}

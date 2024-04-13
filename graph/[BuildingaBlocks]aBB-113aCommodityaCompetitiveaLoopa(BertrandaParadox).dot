@@ -1,0 +1,58 @@
+digraph {
+	20 -> 21
+	37 -> 36
+	16 -> 29
+	34 -> 37
+	19 -> 21
+	28 -> 35
+	16 -> 34
+	40 -> 44
+	32 -> 34
+	31 -> 32
+	40 -> 42
+	27 -> 18
+	40 -> 43
+	21 -> 28
+	16 -> 18
+	29 -> 27
+	27 -> 3
+	36 -> 40
+	28 -> 33
+	36 -> 41
+	16 -> 3
+	18 -> 20
+	35 -> 36
+	12 -> 16
+	3 -> 19
+	21 -> 30
+	40 -> 45
+	30 -> 28
+	17 -> 16
+	33 -> 31
+	27 [label="Recursive Loop Start"]
+	45 [label="Line Chart _JFreeChart_"]
+	18 [label="Profit Engine"]
+	21 [label=Concatenate]
+	17 [label="Table Creator"]
+	3 [label="Profit Engine"]
+	19 [label="Row Filter"]
+	41 [label="Row Filter"]
+	31 [label="Row Filter"]
+	12 [label="Customer Distributions"]
+	16 [label="Product Generator"]
+	30 [label="Column Filter"]
+	42 [label="Line Chart _JFreeChart_"]
+	28 [label="Recursive Loop End"]
+	20 [label="Row Filter"]
+	35 [label="Column Filter"]
+	43 [label="Line Chart _JFreeChart_"]
+	34 [label="Profit Engine"]
+	44 [label="Line Chart _JFreeChart_"]
+	29 [label="Column Filter"]
+	36 [label=Concatenate]
+	40 [label="Row Filter"]
+	33 [label=Sorter]
+	32 [label="Column Filter"]
+	37 [label="Row Filter"]
+	rankdir=LR
+}

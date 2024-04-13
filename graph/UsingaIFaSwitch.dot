@@ -1,0 +1,14 @@
+digraph {
+	1 -> 4
+	4 -> 5
+	2 -> 1
+	2 -> 3
+	3 -> 1
+	1 -> 5
+	5 [label="End IF"]
+	1 [label="IF Switch"]
+	4 [label="String Manipulation"]
+	3 [label="Variable Expressions"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

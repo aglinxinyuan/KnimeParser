@@ -1,0 +1,38 @@
+digraph {
+	55 -> 59
+	262 -> 263
+	59 -> 262
+	276 -> 12
+	7 -> 275
+	263 -> 51
+	59 -> 7
+	258 -> 259
+	7 -> 272
+	257 -> 260
+	7 -> 274
+	275 -> 264
+	21 -> 257
+	259 -> 55
+	260 -> 258
+	12 -> 11
+	11 -> 21
+	260 [label="Math Formula"]
+	274 [label="CSV Writer"]
+	263 [label="Math Formula"]
+	264 [label=GroupBy]
+	257 [label="Math Formula"]
+	55 [label="Column Aggregator"]
+	275 [label="Constant Value Column"]
+	7 [label="Column Filter"]
+	262 [label="Math Formula"]
+	258 [label="Math Formula"]
+	51 [label="Box Plot"]
+	11 [label="RDKit From Molecule"]
+	21 [label="RDKit Descriptor Calculation"]
+	276 [label="CSV Reader"]
+	272 [label="Table View"]
+	259 [label="Math Formula"]
+	12 [label="Molecule Type Cast"]
+	59 [label="Numeric Row Splitter"]
+	rankdir=LR
+}

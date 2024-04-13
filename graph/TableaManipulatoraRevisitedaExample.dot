@@ -1,0 +1,8 @@
+digraph {
+	1 -> 3
+	1 -> 2
+	1 [label="Table Creator"]
+	3 [label="Table Manipulator"]
+	2 [label="Table Manipulator"]
+	rankdir=LR
+}

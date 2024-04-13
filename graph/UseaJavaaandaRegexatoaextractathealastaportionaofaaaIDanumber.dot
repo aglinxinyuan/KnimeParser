@@ -1,0 +1,10 @@
+digraph {
+	6 -> 10
+	1 -> 8
+	1 -> 6
+	1 [label="Table Creator"]
+	10 [label="String Manipulation"]
+	6 [label="Java Snippet _simple_"]
+	8 [label="R Snippet"]
+	rankdir=LR
+}

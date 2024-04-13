@@ -1,0 +1,40 @@
+digraph {
+	1 -> 8
+	15 -> 14
+	27 -> 9
+	4 -> 28
+	3 -> 7
+	31 -> 13
+	8 -> 6
+	12 -> 19
+	7 -> 4
+	14 -> 31
+	30 -> 29
+	9 -> 15
+	2 -> 3
+	2 -> 5
+	6 -> 2
+	28 -> 27
+	19 -> 30
+	13 -> 12
+	27 [label="Color Manager"]
+	7 [label="Abner Filter"]
+	9 [label="Term to Structure"]
+	8 [label="Document Data Extractor"]
+	3 [label="BoW creator"]
+	19 [label="Find Murcko Scaffolds"]
+	31 [label="Row Splitter"]
+	6 [label="Abner tagger"]
+	15 [label="Document Data Extractor"]
+	12 [label="Molecule to RDKit"]
+	1 [label="PDF Parser"]
+	28 [label="Tags to String"]
+	4 [label="Oscar Filter"]
+	14 [label="Column Filter"]
+	5 [label="Document Viewer"]
+	13 [label="Molecule Type Cast"]
+	29 [label="RDKit Interactive Table"]
+	30 [label=Sorter]
+	2 [label="Oscar tagger"]
+	rankdir=LR
+}

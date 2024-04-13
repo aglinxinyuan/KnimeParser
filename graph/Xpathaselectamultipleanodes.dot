@@ -1,0 +1,19 @@
+digraph {
+	20 -> 21
+	1 -> 20
+	18 -> 19
+	20 -> 3
+	3 -> 22
+	17 -> 18
+	16 -> 17
+	16 [label="Table Creator"]
+	20 [label="String To XML"]
+	1 [label="Table Creator"]
+	22 [label="XML Column Combiner"]
+	18 [label="HTTP Result Data Extractor"]
+	21 [label=XPath]
+	17 [label="HTTP Retriever"]
+	3 [label=XPath]
+	19 [label="HTML Parser"]
+	rankdir=LR
+}

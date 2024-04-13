@@ -1,0 +1,10 @@
+digraph {
+	2 -> 3
+	4 -> 2
+	3 -> 5
+	5 [label="Image Writer"]
+	4 [label="Image Reader"]
+	3 [label="Align image"]
+	2 [label="Align image"]
+	rankdir=LR
+}

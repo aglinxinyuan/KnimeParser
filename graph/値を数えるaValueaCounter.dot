@@ -1,0 +1,11 @@
+digraph {
+	157 -> 158
+	77 -> 157
+	159 -> 1
+	1 [label="Value Counter"]
+	157 [label="Constant Value Column"]
+	158 [label=GroupBy]
+	159 [label="Excel Reader"]
+	77 [label="Excel Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,41 @@
+digraph {
+	54 -> 28
+	53 -> 58
+	22 -> 54
+	61 -> 60
+	66 -> 65
+	63 -> 58
+	59 -> 64
+	47 -> 51
+	48 -> 22
+	65 -> 47
+	66 -> 47
+	28 -> 30
+	52 -> 66
+	63 -> 62
+	61 -> 63
+	63 -> 59
+	22 -> 28
+	62 -> 22
+	22 -> 53
+	60 -> 65
+	48 [label="Data Generator"]
+	64 [label="CSV Reader"]
+	66 [label="Column Rename"]
+	62 [label="Create Spark Context _Livy_"]
+	22 [label="Table to Spark"]
+	53 [label="Spark Column Rename"]
+	28 [label="Spark Predictor _Classification_"]
+	65 [label="DB Table Creator"]
+	51 [label="DB Reader"]
+	47 [label="DB Loader"]
+	58 [label="Spark to Parquet"]
+	61 [label="Google Authentication _API Key_"]
+	63 [label="Google Cloud Storage Connection"]
+	54 [label="Spark Decision Tree Learner"]
+	52 [label="Data Generator"]
+	30 [label="Spark Scorer"]
+	60 [label="Google BigQuery Connector"]
+	59 [label="Google Cloud Storage File Picker"]
+	rankdir=LR
+}

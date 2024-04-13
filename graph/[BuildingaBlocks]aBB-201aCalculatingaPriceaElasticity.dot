@@ -1,0 +1,34 @@
+digraph {
+	11 -> 6
+	10 -> 13
+	9 -> 16
+	5 -> 4
+	8 -> 9
+	16 -> 10
+	3 -> 4
+	13 -> 14
+	11 -> 16
+	4 -> 11
+	14 -> 15
+	1 -> 2
+	2 -> 3
+	7 -> 9
+	6 -> 7
+	6 -> 8
+	5 [label="Table Creator"]
+	16 [label="Column Appender"]
+	13 [label="Math Formula"]
+	1 [label="Table Creator"]
+	7 [label="Column Rename _Regex_"]
+	9 [label="Column Appender"]
+	11 [label="Row Splitter"]
+	4 [label="Reference Row Filter"]
+	6 [label="Row Splitter"]
+	8 [label="Column Rename _Regex_"]
+	15 [label="Column Filter"]
+	14 [label="Math Formula"]
+	3 [label="Profit Engine"]
+	2 [label="Customer Distributions"]
+	10 [label="Math Formula"]
+	rankdir=LR
+}

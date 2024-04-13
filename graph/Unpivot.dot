@@ -1,0 +1,46 @@
+digraph {
+	132 -> 133
+	124 -> 153
+	123 -> 124
+	42 -> 157
+	133 -> 136
+	157 -> 155
+	133 -> 158
+	151 -> 130
+	113 -> 115
+	120 -> 123
+	151 -> 113
+	153 -> 2
+	154 -> 42
+	42 -> 151
+	152 -> 120
+	137 -> 151
+	115 -> 152
+	130 -> 129
+	153 -> 42
+	151 -> 132
+	2 -> 137
+	129 -> 138
+	133 [label=GroupBy]
+	136 [label="Text Viewer"]
+	153 [label="Molecule Reader"]
+	138 [label="Text Viewer"]
+	151 [label="Row Filter"]
+	137 [label=Rename]
+	154 [label="Molecule Reader"]
+	129 [label=GroupBy]
+	123 [label=Transpose]
+	42 [label="Similarity Matrix _from Molecules_"]
+	115 [label="Java Snippet"]
+	158 [label="CSV Writer"]
+	124 [label="Java Snippet"]
+	113 [label="Inject Variables _Data_"]
+	120 [label="Column Filter"]
+	157 [label=RowID]
+	155 [label="Text Viewer"]
+	130 [label=Sorter]
+	152 [label=RowID]
+	2 [label="Loop End"]
+	132 [label=Sorter]
+	rankdir=LR
+}

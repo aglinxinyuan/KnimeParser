@@ -1,0 +1,12 @@
+digraph {
+	40 -> 44
+	43 -> 40
+	42 -> 40
+	41 -> 40
+	43 [label="Table Creator"]
+	44 [label=GroupBy]
+	42 [label="Table Creator"]
+	41 [label="Table Creator"]
+	40 [label="Geographic Feature"]
+	rankdir=LR
+}

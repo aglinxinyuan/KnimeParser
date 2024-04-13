@@ -1,0 +1,44 @@
+digraph {
+	13 -> 15
+	7 -> 8
+	8 -> 13
+	7 -> 16
+	3 -> 2
+	4 -> 5
+	13 -> 14
+	2 -> 6
+	2 -> 4
+	6 -> 8
+	17 -> 18
+	8 -> 17
+	10 -> 11
+	10 -> 12
+	7 -> 13
+	6 -> 7
+	7 -> 9
+	8 -> 10
+	17 -> 19
+	9 -> 10
+	16 -> 17
+	1 -> 3
+	7 [label=Normalizer]
+	9 [label="Decision Tree Learner"]
+	18 [label="Scorer _JavaScript_"]
+	8 [label="Normalizer _Apply_"]
+	17 [label="Naive Bayes Predictor"]
+	3 [label="Number To String"]
+	19 [label="ROC Curve"]
+	6 [label=Partitioning]
+	15 [label="ROC Curve"]
+	12 [label="ROC Curve"]
+	10 [label="Decision Tree Predictor"]
+	16 [label="Naive Bayes Learner"]
+	1 [label="Table Reader"]
+	11 [label="Scorer _JavaScript_"]
+	4 [label="Data Explorer"]
+	14 [label="Scorer _JavaScript_"]
+	5 [label="Scatter Plot"]
+	13 [label="K Nearest Neighbor"]
+	2 [label="Color Manager"]
+	rankdir=LR
+}

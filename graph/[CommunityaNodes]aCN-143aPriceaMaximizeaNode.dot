@@ -1,0 +1,15 @@
+digraph {
+	41 -> 43
+	42 -> 41
+	28 -> 39
+	31 -> 39
+	40 -> 41
+	43 [label=GroupBy]
+	42 [label="Table Creator"]
+	41 [label="Price Maximize"]
+	28 [label="Table Creator"]
+	31 [label="Table Creator"]
+	40 [label="Table Creator"]
+	39 [label="Price Maximize"]
+	rankdir=LR
+}

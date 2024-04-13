@@ -1,0 +1,55 @@
+digraph {
+	12 -> 462
+	2417 -> 2418
+	461 -> 2410
+	450 -> 452
+	456 -> 2415
+	456 -> 2412
+	450 -> 465
+	464 -> 461
+	2414 -> 2416
+	2418 -> 1288
+	460 -> 459
+	445 -> 446
+	459 -> 2417
+	1288 -> 1284
+	2416 -> 2413
+	453 -> 12
+	2415 -> 2414
+	450 -> 453
+	463 -> 464
+	2410 -> 447
+	446 -> 450
+	2401 -> 460
+	445 -> 2401
+	452 -> 447
+	465 -> 456
+	462 -> 463
+	459 [label="Notched Boxplot _JFreechart_"]
+	2401 [label="Number To String _PMML_"]
+	2414 [label="Renderer to Image"]
+	2416 [label="Table To Image"]
+	461 [label="Table Row to Variable"]
+	463 [label=Transpose]
+	462 [label="Column Filter"]
+	1284 [label="Image Writer"]
+	464 [label="Column Aggregator"]
+	465 [label="Color Manager"]
+	2410 [label="CSS Editor"]
+	12 [label="Java Snippet _simple_"]
+	1288 [label="PNG Image to ImgPlus"]
+	450 [label="Number To String"]
+	2415 [label="Image To Table"]
+	446 [label="Column Filter"]
+	456 [label="Bar Chart"]
+	452 [label="Color Manager"]
+	453 [label=GroupBy]
+	2418 [label="Renderer to Image"]
+	2413 [label="Image Writer _Port_"]
+	460 [label=Sorter]
+	445 [label="CSV Reader"]
+	447 [label="Pie_Donut Chart"]
+	2417 [label="Image To Table"]
+	2412 [label="Image Writer _Port_"]
+	rankdir=LR
+}

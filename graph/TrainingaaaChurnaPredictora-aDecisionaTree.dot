@@ -1,0 +1,27 @@
+digraph {
+	65 -> 102
+	67 -> 61
+	101 -> 65
+	108 -> 105
+	65 -> 111
+	61 -> 101
+	106 -> 108
+	61 -> 65
+	105 -> 67
+	107 -> 108
+	67 -> 112
+	67 -> 113
+	107 [label="CSV Reader"]
+	113 [label="Scatter Plot"]
+	102 [label="JavaScript ROC Curve"]
+	112 [label="Pie_Donut Chart"]
+	65 [label="Decision Tree Predictor"]
+	67 [label="Color Manager"]
+	101 [label="Decision Tree Learner"]
+	61 [label=Partitioning]
+	108 [label=Joiner]
+	111 [label="Scorer _JavaScript_"]
+	105 [label="Number To String"]
+	106 [label="Excel Reader"]
+	rankdir=LR
+}

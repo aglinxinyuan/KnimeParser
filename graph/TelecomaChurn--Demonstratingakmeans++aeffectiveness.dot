@@ -1,0 +1,33 @@
+digraph {
+	7 -> 14
+	7 -> 8
+	14 -> 16
+	4 -> 3
+	16 -> 15
+	8 -> 9
+	9 -> 11
+	13 -> 14
+	3 -> 5
+	7 -> 13
+	5 -> 6
+	9 -> 10
+	2 -> 3
+	6 -> 7
+	8 -> 12
+	5 [label="Column Filter"]
+	16 [label="Number To String"]
+	13 [label="SimpleKMeans _3_7_"]
+	7 [label=Normalizer]
+	9 [label="Color Manager"]
+	11 [label="3D Scatter Plot _Plotly_"]
+	4 [label="Excel Reader"]
+	10 [label="2D_3D Scatterplot"]
+	6 [label="Number To String"]
+	8 [label=k_Means]
+	15 [label="Silhouette Coefficient"]
+	14 [label="Weka Cluster Assigner _3_7_"]
+	3 [label=Joiner]
+	2 [label="CSV Reader"]
+	12 [label="Silhouette Coefficient"]
+	rankdir=LR
+}

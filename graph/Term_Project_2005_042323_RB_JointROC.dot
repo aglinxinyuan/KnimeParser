@@ -1,0 +1,178 @@
+digraph {
+	80 -> 126
+	106 -> 107
+	79 -> 72
+	15 -> 18
+	71 -> 72
+	78 -> 79
+	97 -> 96
+	42 -> 112
+	40 -> 119
+	61 -> 73
+	107 -> 102
+	52 -> 82
+	107 -> 126
+	96 -> 126
+	52 -> 78
+	72 -> 116
+	51 -> 31
+	71 -> 67
+	72 -> 77
+	14 -> 45
+	92 -> 97
+	16 -> 17
+	11 -> 13
+	112 -> 41
+	71 -> 126
+	13 -> 35
+	82 -> 58
+	96 -> 95
+	8 -> 9
+	45 -> 36
+	80 -> 123
+	72 -> 88
+	41 -> 118
+	52 -> 105
+	18 -> 19
+	20 -> 16
+	41 -> 111
+	52 -> 94
+	76 -> 77
+	96 -> 87
+	26 -> 25
+	41 -> 126
+	17 -> 21
+	119 -> 42
+	109 -> 108
+	47 -> 48
+	52 -> 28
+	72 -> 109
+	72 -> 97
+	31 -> 29
+	19 -> 20
+	88 -> 96
+	96 -> 7
+	77 -> 80
+	44 -> 46
+	61 -> 70
+	108 -> 106
+	38 -> 15
+	40 -> 112
+	9 -> 11
+	21 -> 56
+	55 -> 27
+	53 -> 14
+	70 -> 71
+	36 -> 38
+	72 -> 106
+	73 -> 69
+	126 -> 114
+	72 -> 124
+	83 -> 88
+	56 -> 49
+	29 -> 53
+	124 -> 76
+	94 -> 72
+	106 -> 103
+	54 -> 55
+	69 -> 70
+	52 -> 61
+	52 -> 40
+	46 -> 47
+	12 -> 54
+	105 -> 100
+	25 -> 43
+	52 -> 79
+	97 -> 83
+	96 -> 89
+	35 -> 12
+	116 -> 92
+	48 -> 52
+	50 -> 26
+	49 -> 50
+	100 -> 72
+	43 -> 44
+	27 -> 51
+	80 -> 73
+	103 [label="ROC Curve"]
+	126 [label="Column Appender"]
+	26 [label="Double To Int"]
+	12 [label="Column Filter"]
+	16 [label="Missing Value"]
+	28 [label="Data Explorer"]
+	11 [label="Row Filter"]
+	47 [label="Numeric Binner"]
+	107 [label=X_Aggregator]
+	29 [label="Numeric Binner"]
+	118 [label="ROC Curve"]
+	27 [label="Numeric Binner"]
+	79 [label=Normalizer]
+	9 [label="Numeric Binner"]
+	97 [label="Decision Tree Predictor"]
+	58 [label="Excel Writer"]
+	8 [label="Row Filter"]
+	108 [label="RProp MLP Learner"]
+	105 [label="One to Many"]
+	92 [label="Decision Tree Learner"]
+	119 [label="Equal Size Sampling"]
+	41 [label=X_Aggregator]
+	54 [label="Row Filter"]
+	53 [label="Row Filter"]
+	96 [label=X_Aggregator]
+	13 [label="Row Filter"]
+	44 [label="Row Filter"]
+	102 [label=Scorer]
+	43 [label="Row Filter"]
+	71 [label=X_Aggregator]
+	88 [label="Random Forest Predictor"]
+	52 [label="Column Filter"]
+	80 [label=X_Aggregator]
+	45 [label="Row Filter"]
+	55 [label="Row Filter"]
+	7 [label=Scorer]
+	18 [label="Rule Engine"]
+	21 [label="Math Formula"]
+	19 [label="Rule Engine"]
+	56 [label="Row Filter"]
+	15 [label="Rule Engine"]
+	25 [label="Missing Value"]
+	114 [label="ROC Curve"]
+	123 [label="ROC Curve"]
+	72 [label=X_Partitioner]
+	61 [label=X_Partitioner]
+	77 [label="PNN Predictor"]
+	124 [label="Equal Size Sampling"]
+	14 [label="Numeric Binner"]
+	83 [label="Random Forest Learner"]
+	38 [label="Row Filter"]
+	94 [label="Color Manager"]
+	35 [label="Row Filter"]
+	82 [label="Random Forest Learner"]
+	69 [label="Gradient Boosted Trees Learner"]
+	46 [label="Row Filter"]
+	116 [label="Equal Size Sampling"]
+	40 [label=X_Partitioner]
+	89 [label="ROC Curve"]
+	17 [label="Math Formula"]
+	78 [label="One to Many"]
+	49 [label="Rule Engine"]
+	31 [label="Numeric Binner"]
+	51 [label="Row Filter"]
+	109 [label="Equal Size Sampling"]
+	48 [label="Numeric Binner"]
+	50 [label="Rule Engine"]
+	112 [label="Logistic Regression Predictor"]
+	42 [label="Logistic Regression Learner"]
+	87 [label=Scorer]
+	67 [label=Scorer]
+	76 [label="PNN Learner _DDA_"]
+	100 [label=Normalizer]
+	106 [label="MultiLayerPerceptron Predictor"]
+	20 [label="Rule Engine"]
+	70 [label="Gradient Boosted Trees Predictor"]
+	36 [label="Numeric Binner"]
+	95 [label="ROC Curve"]
+	111 [label=Scorer]
+	73 [label="Equal Size Sampling"]
+	rankdir=LR
+}

@@ -1,0 +1,25 @@
+digraph {
+	124 -> 129
+	114 -> 115
+	126 -> 113
+	114 -> 116
+	116 -> 123
+	115 -> 116
+	129 -> 130
+	104 -> 113
+	123 -> 117
+	113 -> 114
+	117 -> 124
+	113 [label=Joiner]
+	123 [label="JSON Path"]
+	126 [label="Workflow Service Input"]
+	104 [label="Table Creator"]
+	115 [label="Table Row to Variable"]
+	116 [label="JSON Path"]
+	124 [label=Ungroup]
+	130 [label="Workflow Service Output"]
+	114 [label="Chunk Loop Start"]
+	117 [label="Loop End"]
+	129 [label="Table to JSON"]
+	rankdir=LR
+}

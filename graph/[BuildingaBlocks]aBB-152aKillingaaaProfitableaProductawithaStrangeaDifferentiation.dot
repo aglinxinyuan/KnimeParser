@@ -1,0 +1,23 @@
+digraph {
+	5 -> 3
+	7 -> 8
+	4 -> 5
+	2 -> 13
+	7 -> 4
+	3 -> 17
+	2 -> 7
+	17 -> 14
+	17 -> 8
+	1 -> 2
+	5 [label="Counter Generation"]
+	13 [label=Statistics]
+	1 [label="Table Creator"]
+	7 [label="Simulate Market"]
+	4 [label=Sorter]
+	8 [label="Simulate Market"]
+	14 [label=Statistics]
+	17 [label="Scale Demographic"]
+	3 [label="Scale Demographic"]
+	2 [label="Customer Distributions"]
+	rankdir=LR
+}

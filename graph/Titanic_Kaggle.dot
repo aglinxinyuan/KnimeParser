@@ -1,0 +1,42 @@
+digraph {
+	20 -> 21
+	15 -> 14
+	4 -> 3
+	8 -> 9
+	1 -> 4
+	18 -> 19
+	12 -> 9
+	17 -> 14
+	10 -> 12
+	4 -> 2
+	9 -> 11
+	14 -> 18
+	3 -> 5
+	13 -> 16
+	1 -> 10
+	13 -> 17
+	12 -> 8
+	10 -> 15
+	19 -> 20
+	2 -> 3
+	9 [label="Decision Tree Predictor"]
+	18 [label="Column Filter"]
+	21 [label="CSV Writer"]
+	8 [label="Decision Tree Learner"]
+	17 [label=RowID]
+	3 [label="Simple Regression Tree Predictor"]
+	19 [label=RowID]
+	15 [label="Decision Tree Learner"]
+	12 [label=Partitioning]
+	10 [label="Number To String"]
+	16 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	11 [label=Scorer]
+	4 [label=Partitioning]
+	14 [label="Decision Tree Predictor"]
+	5 [label="Numeric Scorer"]
+	13 [label="CSV Reader"]
+	20 [label="Column Resorter"]
+	2 [label="Simple Regression Tree Learner"]
+	rankdir=LR
+}

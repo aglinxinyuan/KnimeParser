@@ -1,0 +1,28 @@
+digraph {
+	13 -> 26
+	12 -> 13
+	13 -> 29
+	3 -> 4
+	31 -> 32
+	24 -> 32
+	4 -> 12
+	26 -> 30
+	32 -> 26
+	13 -> 27
+	13 -> 28
+	25 -> 24
+	24 [label="Duplicate Row Filter"]
+	27 [label="Pie Chart"]
+	30 [label="CSV Writer"]
+	13 [label="String To Number"]
+	29 [label="Bar Chart"]
+	28 [label="Line Plot"]
+	31 [label="Excel Reader"]
+	4 [label="Google Sheets Connector"]
+	26 [label=Joiner]
+	25 [label="Excel Reader"]
+	32 [label=Joiner]
+	3 [label="Google Authenticator"]
+	12 [label="Google Sheets Reader"]
+	rankdir=LR
+}

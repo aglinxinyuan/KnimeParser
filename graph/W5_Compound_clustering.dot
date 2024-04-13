@@ -1,0 +1,60 @@
+digraph {
+	280 -> 3
+	7 -> 12
+	28 -> 26
+	16 -> 275
+	26 -> 285
+	12 -> 13
+	16 -> 15
+	283 -> 277
+	11 -> 12
+	12 -> 279
+	286 -> 263
+	272 -> 280
+	13 -> 16
+	271 -> 272
+	24 -> 16
+	26 -> 29
+	22 -> 28
+	15 -> 24
+	15 -> 286
+	29 -> 22
+	12 -> 24
+	263 -> 283
+	12 -> 286
+	11 -> 7
+	275 -> 284
+	285 -> 262
+	278 -> 271
+	3 -> 11
+	279 -> 281
+	284 -> 276
+	263 [label="Column Filter"]
+	275 [label="Number To String"]
+	7 [label="Hierarchical Clustering _DistMatrix_"]
+	284 [label="Workflow Service Output"]
+	280 [label="Workflow Service Input"]
+	26 [label="Column Filter"]
+	286 [label=Joiner]
+	3 [label="RDKit Fingerprint"]
+	24 [label=GroupBy]
+	283 [label="Workflow Service Output"]
+	277 [label="CSV Writer"]
+	15 [label="Row Filter"]
+	271 [label="Molecule Type Cast"]
+	12 [label="Hierarchical Cluster Assigner _local_"]
+	281 [label="Table Writer"]
+	16 [label=Sorter]
+	262 [label="SDF Writer"]
+	285 [label="Workflow Service Output"]
+	22 [label="Row Filter"]
+	28 [label="Loop End"]
+	11 [label="Distance Matrix Calculate"]
+	279 [label="Column Filter"]
+	272 [label="RDKit From Molecule"]
+	278 [label="CSV Reader"]
+	13 [label=GroupBy]
+	29 [label="Group Loop Start"]
+	276 [label="Line Plot"]
+	rankdir=LR
+}

@@ -1,0 +1,48 @@
+digraph {
+	559 -> 562
+	557 -> 559
+	565 -> 566
+	551 -> 568
+	573 -> 574
+	564 -> 565
+	562 -> 567
+	568 -> 571
+	551 -> 558
+	567 -> 564
+	3 -> 539
+	566 -> 563
+	551 -> 559
+	569 -> 570
+	572 -> 571
+	558 -> 557
+	563 -> 539
+	572 -> 568
+	3 -> 556
+	551 -> 575
+	561 -> 573
+	539 -> 561
+	570 -> 572
+	570 [label="Rule Engine"]
+	564 [label=Unpivoting]
+	559 [label="Row Filter"]
+	558 [label=GroupBy]
+	557 [label="Table Row To Variable Loop Start"]
+	3 [label="XML Reader"]
+	551 [label="Table Creator"]
+	561 [label="Column Filter"]
+	573 [label="Variable to Table Column"]
+	565 [label="Column Aggregator"]
+	571 [label="Cell Replacer"]
+	566 [label=RowID]
+	567 [label="Missing Value"]
+	563 [label="Table Column to Variable"]
+	569 [label="Table Creator"]
+	575 [label="Row Filter"]
+	539 [label=XPath]
+	574 [label="Loop End"]
+	572 [label="Number To String"]
+	556 [label=XPath]
+	562 [label=RowID]
+	568 [label="Cell Replacer"]
+	rankdir=LR
+}

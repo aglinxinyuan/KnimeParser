@@ -1,0 +1,63 @@
+digraph {
+	24 -> 26
+	26 -> 47
+	46 -> 17
+	30 -> 18
+	23 -> 24
+	12 -> 14
+	21 -> 22
+	19 -> 21
+	16 -> 20
+	13 -> 46
+	31 -> 18
+	18 -> 45
+	17 -> 15
+	20 -> 23
+	22 -> 25
+	30 -> 31
+	27 -> 47
+	29 -> 30
+	4 -> 11
+	11 -> 12
+	47 -> 29
+	15 -> 19
+	25 -> 47
+	11 -> 2
+	12 -> 19
+	14 -> 13
+	18 -> 44
+	17 -> 27
+	18 -> 42
+	18 -> 43
+	12 -> 20
+	17 -> 16
+	27 [label="Constant Value Column"]
+	18 [label="Recursive Loop End"]
+	21 [label="Row Filter"]
+	26 [label="Constant Value Column"]
+	17 [label="Recursive Loop Start"]
+	19 [label="Simulate Market"]
+	24 [label="Column Filter"]
+	31 [label="Row Filter"]
+	15 [label="Math Formula"]
+	25 [label="Constant Value Column"]
+	12 [label="Simulate Market"]
+	16 [label="Math Formula"]
+	42 [label="Line Chart _JFreeChart_"]
+	22 [label="Column Filter"]
+	11 [label="Customer Distributions"]
+	4 [label="Table Creator"]
+	23 [label="Row Filter"]
+	47 [label=Concatenate]
+	14 [label="Row Filter"]
+	20 [label="Simulate Market"]
+	13 [label="Column Filter"]
+	43 [label="Line Chart _JFreeChart_"]
+	44 [label="Line Chart _JFreeChart_"]
+	29 [label=Sorter]
+	46 [label="Constant Value Column"]
+	30 [label="Row Filter"]
+	2 [label="Histogram Chart _JFreeChart_"]
+	45 [label="Line Chart _JFreeChart_"]
+	rankdir=LR
+}

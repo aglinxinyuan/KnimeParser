@@ -1,0 +1,18 @@
+digraph {
+	10 -> 9
+	5 -> 4
+	8 -> 9
+	8 -> 10
+	3 -> 5
+	8 -> 3
+	4 -> 6
+	6 -> 8
+	5 [label="Table Manipulator"]
+	9 [label="Insert Column Header"]
+	4 [label=Pivoting]
+	8 [label=Partitioning]
+	6 [label=Transpose]
+	3 [label=GroupBy]
+	10 [label=Transpose]
+	rankdir=LR
+}

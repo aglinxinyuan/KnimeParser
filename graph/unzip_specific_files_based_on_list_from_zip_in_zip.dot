@@ -1,0 +1,52 @@
+digraph {
+	262 -> 263
+	246 -> 258
+	214 -> 242
+	256 -> 254
+	258 -> 259
+	264 -> 106
+	99 -> 109
+	248 -> 251
+	109 -> 111
+	106 -> 109
+	254 -> 246
+	111 -> 107
+	251 -> 266
+	92 -> 267
+	263 -> 265
+	103 -> 92
+	107 -> 103
+	265 -> 264
+	266 -> 256
+	249 -> 248
+	244 -> 243
+	243 -> 249
+	259 -> 262
+	242 -> 244
+	242 [label="Variable Expressions"]
+	246 [label="R Source _Table_"]
+	263 [label="Table Row To Variable Loop Start"]
+	103 [label="Loop End"]
+	259 [label="List Files_Folders"]
+	254 [label="Create Folder"]
+	256 [label="String to Path _Variable_"]
+	92 [label="Loop End"]
+	109 [label=Joiner]
+	214 [label="Extract Context Properties _deprecated_"]
+	265 [label="URL to File Path _Variable_"]
+	251 [label="URL to File Path _Variable_"]
+	262 [label="Path to String"]
+	244 [label="String to Path _Variable_"]
+	243 [label="List Files_Folders"]
+	266 [label="Variable Expressions"]
+	106 [label="Variable to Table Column"]
+	107 [label="R Source _Table_"]
+	99 [label="Table Creator"]
+	248 [label="Table Row To Variable Loop Start"]
+	264 [label="R Source _Table_"]
+	267 [label="Delete Files_Folders"]
+	258 [label="Loop End"]
+	249 [label="Path to String"]
+	111 [label="Table Row To Variable Loop Start"]
+	rankdir=LR
+}

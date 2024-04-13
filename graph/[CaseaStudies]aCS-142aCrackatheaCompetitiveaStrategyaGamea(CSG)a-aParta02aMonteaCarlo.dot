@@ -1,0 +1,55 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	5 -> 4
+	12 -> 14
+	4 -> 6
+	16 -> 28
+	4 -> 25
+	20 -> 23
+	11 -> 19
+	5 -> 10
+	4 -> 29
+	20 -> 22
+	10 -> 11
+	8 -> 29
+	20 -> 24
+	15 -> 16
+	14 -> 18
+	3 -> 5
+	18 -> 20
+	19 -> 12
+	6 -> 7
+	18 -> 26
+	13 -> 12
+	10 -> 15
+	29 -> 11
+	1 -> 13
+	28 -> 11
+	7 [label=Transpose]
+	18 [label="Loop End"]
+	26 [label=GroupBy]
+	21 [label="Histogram Chart _JFreeChart_"]
+	8 [label="Column Rename _Regex_"]
+	3 [label="Table Creator"]
+	19 [label="Row Filter"]
+	24 [label="Histogram Chart _JFreeChart_"]
+	6 [label="Chunk Loop Start"]
+	15 [label="Column Filter"]
+	25 [label="Histogram Chart _JFreeChart_"]
+	12 [label="Price Maximize"]
+	10 [label="Constant Value Column"]
+	16 [label="Column Rename"]
+	1 [label="Table Creator"]
+	22 [label="Histogram Chart _JFreeChart_"]
+	28 [label="Table Row to Variable"]
+	11 [label=Concatenate]
+	4 [label="Customer Distributions"]
+	23 [label="Histogram Chart _JFreeChart_"]
+	14 [label="Column Filter"]
+	5 [label="Row Splitter"]
+	13 [label="Column Filter"]
+	20 [label="Row Filter"]
+	29 [label="Column Appender"]
+	rankdir=LR
+}

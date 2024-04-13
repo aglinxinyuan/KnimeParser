@@ -1,0 +1,51 @@
+digraph {
+	41 -> 42
+	35 -> 38
+	42 -> 52
+	37 -> 36
+	34 -> 37
+	39 -> 40
+	74 -> 40
+	40 -> 41
+	34 -> 43
+	44 -> 73
+	3 -> 46
+	42 -> 31
+	46 -> 47
+	75 -> 74
+	48 -> 49
+	35 -> 44
+	47 -> 48
+	35 -> 76
+	50 -> 35
+	49 -> 50
+	38 -> 39
+	45 -> 31
+	35 -> 34
+	73 -> 75
+	45 [label="Create Temp Dir"]
+	52 [label="XML Row Combine and Write"]
+	74 [label="XML Column Combiner"]
+	3 [label="XML Reader"]
+	49 [label=XPath]
+	41 [label="XML Row Combiner"]
+	31 [label="XML Combine and Write"]
+	75 [label="Column To XML"]
+	48 [label=XPath]
+	50 [label=XPath]
+	42 [label="Loop End"]
+	47 [label=XPath]
+	76 [label=GroupBy]
+	38 [label=GroupBy]
+	43 [label="Histogram _interactive_"]
+	35 [label="Column Filter"]
+	44 [label="Column To XML"]
+	34 [label="Color Manager"]
+	36 [label=Sorter]
+	46 [label=XPath]
+	40 [label="Row Filter"]
+	39 [label="TableRow To Variable Loop Start"]
+	73 [label="Column To XML"]
+	37 [label="Value Counter"]
+	rankdir=LR
+}

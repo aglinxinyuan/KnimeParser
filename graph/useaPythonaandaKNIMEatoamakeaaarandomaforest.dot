@@ -1,0 +1,24 @@
+digraph {
+	105 -> 2
+	6 -> 8
+	7 -> 8
+	105 -> 3
+	3 -> 7
+	246 -> 105
+	5 -> 6
+	2 -> 3
+	6 -> 2
+	4 -> 105
+	1 -> 5
+	5 [label="Column Rename"]
+	246 [label="Conda Environment Propagation"]
+	1 [label="Table Reader"]
+	7 [label="Python Object Reader"]
+	4 [label="Extract Context Properties"]
+	6 [label=Partitioning]
+	8 [label="Python Predictor"]
+	105 [label="Merge Variables"]
+	3 [label="Python Object Writer"]
+	2 [label="Python Learner"]
+	rankdir=LR
+}

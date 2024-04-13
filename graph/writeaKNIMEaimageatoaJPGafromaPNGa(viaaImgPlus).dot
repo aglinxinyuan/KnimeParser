@@ -1,0 +1,16 @@
+digraph {
+	1285 -> 1286
+	1286 -> 1288
+	2 -> 1282
+	2 -> 1285
+	1 -> 2
+	1288 -> 1284
+	1286 [label="Renderer to Image"]
+	1284 [label="Image Writer"]
+	1285 [label="Image To Table"]
+	1 [label="Table Creator"]
+	1282 [label="Image Writer _Port_"]
+	2 [label="Bar Chart"]
+	1288 [label="PNG Image to ImgPlus"]
+	rankdir=LR
+}

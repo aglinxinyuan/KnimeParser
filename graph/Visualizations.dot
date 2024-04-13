@@ -1,0 +1,21 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	2 -> 10
+	8 -> 9
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	6 -> 7
+	5 [label="String Manipulation"]
+	1 [label="CSV Reader"]
+	7 [label="String To Number"]
+	9 [label="CSV Writer"]
+	4 [label="CSV Reader"]
+	6 [label="String Manipulation"]
+	8 [label="Column Rename"]
+	3 [label="Pie_Donut Chart"]
+	2 [label="Color Manager"]
+	10 [label="Bar Chart"]
+	rankdir=LR
+}

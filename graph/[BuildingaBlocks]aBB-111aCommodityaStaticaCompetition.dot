@@ -1,0 +1,24 @@
+digraph {
+	3 -> 10
+	6 -> 5
+	12 -> 2
+	3 -> 7
+	16 -> 3
+	15 -> 12
+	12 -> 16
+	17 -> 16
+	16 -> 18
+	3 -> 6
+	5 [label="Histogram Chart _JFreeChart_"]
+	16 [label="Product Generator"]
+	7 [label="Scatter Plot _JFreeChart_"]
+	18 [label="Profit Engine"]
+	6 [label="Row Filter"]
+	15 [label="Table Creator"]
+	12 [label="Customer Distributions"]
+	17 [label="Table Creator"]
+	3 [label="Profit Engine"]
+	2 [label="Histogram Chart _JFreeChart_"]
+	10 [label="GroupBy Bar Chart _JFreeChart_"]
+	rankdir=LR
+}

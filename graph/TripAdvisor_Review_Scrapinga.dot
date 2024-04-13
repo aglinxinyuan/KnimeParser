@@ -1,0 +1,45 @@
+digraph {
+	66 -> 68
+	54 -> 52
+	65 -> 77
+	65 -> 66
+	63 -> 64
+	76 -> 69
+	77 -> 66
+	52 -> 66
+	76 -> 72
+	65 -> 70
+	73 -> 56
+	72 -> 73
+	64 -> 65
+	68 -> 72
+	70 -> 71
+	64 -> 52
+	75 -> 76
+	72 -> 64
+	65 -> 75
+	66 -> 54
+	69 -> 77
+	55 -> 68
+	71 -> 55
+	69 -> 63
+	56 -> 69
+	64 [label="String Manipulation"]
+	55 [label="Find Elements"]
+	66 [label="Extract Text"]
+	70 [label="Find Elements"]
+	68 [label="Quit WebDriver"]
+	69 [label="Find Elements"]
+	65 [label="String Manipulation"]
+	71 [label="Extract Text"]
+	72 [label="Find Elements"]
+	56 [label="Find Elements"]
+	63 [label="Column Rename"]
+	77 [label=Click]
+	76 [label=Wait]
+	54 [label="Find Elements"]
+	52 [label="Find Elements"]
+	73 [label="Extract Text"]
+	75 [label="Counting Loop Start"]
+	rankdir=LR
+}

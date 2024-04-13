@@ -1,0 +1,29 @@
+digraph {
+	290 -> 6
+	303 -> 287
+	287 -> 304
+	302 -> 292
+	292 -> 303
+	288 -> 290
+	300 -> 301
+	301 -> 302
+	287 -> 288
+	5 -> 300
+	6 -> 2
+	304 -> 288
+	1 -> 5
+	5 [label="JSON to Table"]
+	292 [label=GroupBy]
+	290 [label="Row Filter"]
+	1 [label="Container Input _JSON_"]
+	287 [label="Create Date_Time Range"]
+	302 [label="Table Reader"]
+	304 [label="Table Row to Variable"]
+	303 [label="Table Writer"]
+	300 [label="Table Row to Variable"]
+	6 [label="Table to JSON"]
+	288 [label="Constant Value Column"]
+	301 [label="String to Path _Variable_"]
+	2 [label="Container Output _JSON_"]
+	rankdir=LR
+}

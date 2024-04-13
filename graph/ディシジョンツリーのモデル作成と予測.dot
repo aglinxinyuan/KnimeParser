@@ -1,0 +1,18 @@
+digraph {
+	13 -> 10
+	7 -> 8
+	7 -> 3
+	12 -> 7
+	8 -> 10
+	10 -> 14
+	3 -> 8
+	3 -> 13
+	13 [label="Decision Tree Learner"]
+	7 [label=Partitioning]
+	12 [label="Table Reader"]
+	8 [label="Color Appender"]
+	14 [label=Scorer]
+	3 [label="Color Manager"]
+	10 [label="Decision Tree Predictor"]
+	rankdir=LR
+}

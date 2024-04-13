@@ -1,0 +1,154 @@
+digraph {
+	7 -> 8
+	73 -> 71
+	88 -> 65
+	78 -> 79
+	58 -> 63
+	59 -> 60
+	19 -> 21
+	47 -> 58
+	17 -> 18
+	64 -> 85
+	70 -> 73
+	72 -> 73
+	12 -> 11
+	24 -> 29
+	75 -> 78
+	5 -> 6
+	2 -> 5
+	73 -> 74
+	11 -> 13
+	1 -> 5
+	93 -> 85
+	8 -> 9
+	65 -> 66
+	25 -> 24
+	87 -> 59
+	18 -> 19
+	56 -> 15
+	92 -> 93
+	68 -> 69
+	77 -> 78
+	26 -> 25
+	48 -> 49
+	85 -> 86
+	22 -> 26
+	6 -> 7
+	60 -> 61
+	13 -> 14
+	21 -> 22
+	93 -> 84
+	63 -> 66
+	10 -> 12
+	58 -> 57
+	66 -> 67
+	28 -> 33
+	61 -> 85
+	23 -> 27
+	60 -> 62
+	58 -> 91
+	66 -> 64
+	78 -> 76
+	58 -> 68
+	53 -> 54
+	14 -> 17
+	57 -> 87
+	54 -> 56
+	16 -> 20
+	71 -> 85
+	27 -> 28
+	51 -> 52
+	50 -> 51
+	69 -> 70
+	91 -> 92
+	33 -> 48
+	90 -> 77
+	29 -> 23
+	76 -> 85
+	15 -> 16
+	69 -> 75
+	75 -> 90
+	63 -> 88
+	3 -> 6
+	4 -> 7
+	49 -> 50
+	52 -> 53
+	70 -> 89
+	89 -> 72
+	20 -> 47
+	57 -> 60
+	9 -> 10
+	91 [label="Equal Size Sampling"]
+	27 [label="Rule Engine"]
+	57 [label=X_Partitioner]
+	7 [label=Joiner]
+	79 [label=Scorer]
+	89 [label="Equal Size Sampling"]
+	9 [label="Numeric Binner"]
+	18 [label="Rule Engine"]
+	21 [label="Rule Engine"]
+	26 [label="Rule Engine"]
+	58 [label="Color Manager"]
+	8 [label="Row Filter"]
+	74 [label=Scorer]
+	17 [label="Rule Engine"]
+	3 [label="SAS7BDAT Reader"]
+	19 [label="Rule Engine"]
+	78 [label="Logistic Regression Predictor"]
+	24 [label="Rule Engine"]
+	64 [label=X_Aggregator]
+	92 [label="Decision Tree Learner"]
+	49 [label="Rule Engine"]
+	84 [label=Scorer]
+	51 [label="Rule Engine"]
+	56 [label="Rule Engine"]
+	6 [label=Joiner]
+	15 [label="Missing Value"]
+	25 [label="Rule Engine"]
+	54 [label="Rule Engine"]
+	12 [label="Row Filter"]
+	10 [label="Row Filter"]
+	59 [label="Decision Tree Learner"]
+	16 [label="Math Formula"]
+	48 [label="Rule Engine"]
+	85 [label="Column Appender"]
+	75 [label=X_Partitioner]
+	86 [label="ROC Curve"]
+	50 [label="Rule Engine"]
+	1 [label="SAS7BDAT Reader"]
+	90 [label="Equal Size Sampling"]
+	22 [label="Rule Engine"]
+	53 [label="Rule Engine"]
+	28 [label="Rule Engine"]
+	87 [label="Equal Size Sampling"]
+	68 [label="One to Many"]
+	11 [label="Column Filter"]
+	4 [label="SAS7BDAT Reader"]
+	47 [label="Column Filter"]
+	23 [label="Rule Engine"]
+	63 [label=X_Partitioner]
+	61 [label=X_Aggregator]
+	67 [label=Scorer]
+	72 [label="RProp MLP Learner"]
+	14 [label="Rule Engine"]
+	76 [label=X_Aggregator]
+	77 [label="Logistic Regression Learner"]
+	93 [label="Decision Tree Predictor"]
+	73 [label="MultiLayerPerceptron Predictor"]
+	60 [label="Decision Tree Predictor"]
+	5 [label=Joiner]
+	13 [label="Numeric Binner"]
+	20 [label="Math Formula"]
+	62 [label=Scorer]
+	66 [label="Random Forest Predictor"]
+	29 [label="Rule Engine"]
+	70 [label=X_Partitioner]
+	65 [label="Random Forest Learner"]
+	69 [label=Normalizer]
+	71 [label=X_Aggregator]
+	88 [label="Equal Size Sampling"]
+	52 [label="Rule Engine"]
+	33 [label="Rule Engine"]
+	2 [label="SAS7BDAT Reader"]
+	rankdir=LR
+}

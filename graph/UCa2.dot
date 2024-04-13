@@ -1,0 +1,14 @@
+digraph {
+	6 -> 22
+	2 -> 6
+	3 -> 11
+	1 -> 2
+	11 -> 22
+	1 [label="MySQL Connector"]
+	22 [label=Concatenate]
+	11 [label="Column Resorter"]
+	6 [label="Column Resorter"]
+	3 [label="Excel Reader"]
+	2 [label="DB Query Reader"]
+	rankdir=LR
+}

@@ -1,0 +1,17 @@
+digraph {
+	1 -> 4
+	4 -> 5
+	3 -> 4
+	3 -> 5
+	7 -> 6
+	2 -> 3
+	5 -> 7
+	5 [label="DB Insert"]
+	1 [label="PostgreSQL Connector"]
+	7 [label="DB Type Mapper"]
+	4 [label="DB Table Creator"]
+	6 [label="DB Reader"]
+	3 [label="Table to JSON"]
+	2 [label="Data Generator"]
+	rankdir=LR
+}

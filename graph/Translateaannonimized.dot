@@ -1,0 +1,12 @@
+digraph {
+	2 -> 3
+	1 -> 2
+	5 -> 4
+	3 -> 5
+	5 [label="String Manipulation _Variable_"]
+	1 [label="Python Source"]
+	4 [label="POST Request"]
+	3 [label="Table Row to Variable"]
+	2 [label="Extract Column Header"]
+	rankdir=LR
+}

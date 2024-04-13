@@ -1,0 +1,37 @@
+digraph {
+	3 -> 9
+	6 -> 16
+	21 -> 13
+	22 -> 10
+	22 -> 19
+	10 -> 12
+	4 -> 5
+	14 -> 20
+	13 -> 14
+	9 -> 21
+	9 -> 10
+	5 -> 6
+	1 -> 2
+	2 -> 3
+	16 -> 22
+	20 -> 18
+	12 -> 21
+	5 [label="Strings To Document"]
+	16 [label="Diacritic Remover"]
+	14 [label="Term To String"]
+	13 [label="Bag Of Words Creator"]
+	20 [label="Column Filter"]
+	1 [label="Table Creator"]
+	22 [label="Punctuation Erasure"]
+	9 [label="String Manipulation"]
+	4 [label="Table Creator"]
+	21 [label="Dictionary Replacer"]
+	18 [label=GroupBy]
+	6 [label="Case Converter"]
+	12 [label="Tag Filter"]
+	3 [label=Ungroup]
+	2 [label="Cell Splitter"]
+	10 [label="Dictionary Tagger"]
+	19 [label="Document Viewer"]
+	rankdir=LR
+}

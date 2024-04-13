@@ -1,0 +1,15 @@
+digraph {
+	53 -> 70
+	71 -> 55
+	55 -> 51
+	55 -> 53
+	50 -> 71
+	70 -> 51
+	55 [label="GET Request"]
+	50 [label="Table Creator"]
+	70 [label="Table Reader"]
+	53 [label="Active Branch Inverter"]
+	71 [label="Try _Data Ports_"]
+	51 [label="Catch Errors _Data Ports_"]
+	rankdir=LR
+}

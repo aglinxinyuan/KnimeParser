@@ -1,0 +1,52 @@
+digraph {
+	20 -> 21
+	21 -> 23
+	5 -> 17
+	13 -> 14
+	21 -> 25
+	19 -> 18
+	2 -> 3
+	27 -> 28
+	6 -> 8
+	1 -> 11
+	1 -> 5
+	26 -> 27
+	1 -> 2
+	1 -> 24
+	14 -> 15
+	11 -> 12
+	25 -> 26
+	1 -> 28
+	17 -> 19
+	23 -> 25
+	1 -> 13
+	5 -> 6
+	1 -> 9
+	9 -> 10
+	24 -> 20
+	27 [label="Feature Selection Loop End"]
+	9 [label=GroupBy]
+	18 [label="Bar Chart"]
+	21 [label=Partitioning]
+	26 [label=Scorer]
+	8 [label="Bar Chart"]
+	17 [label=Pivot]
+	3 [label="Bar Chart"]
+	19 [label="Column Renamer"]
+	24 [label="Column Filter"]
+	6 [label=Pivot]
+	15 [label=GroupBy]
+	25 [label="Naive Bayes Predictor"]
+	12 [label="Bar Chart"]
+	10 [label="Pie Chart"]
+	1 [label="Excel Reader"]
+	28 [label="Feature Selection Filter"]
+	11 [label=Pivot]
+	23 [label="Naive Bayes Learner"]
+	14 [label="Column Filter"]
+	5 [label="Math Formula"]
+	13 [label="Duplicate Row Filter"]
+	20 [label="Feature Selection Loop Start _1_1_"]
+	2 [label=Pivot]
+	rankdir=LR
+}

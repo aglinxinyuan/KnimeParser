@@ -1,0 +1,36 @@
+digraph {
+	68 -> 69
+	64 -> 66
+	77 -> 78
+	76 -> 77
+	67 -> 73
+	66 -> 67
+	76 -> 83
+	78 -> 79
+	67 -> 68
+	79 -> 80
+	83 -> 85
+	83 -> 84
+	64 -> 65
+	80 -> 81
+	64 -> 76
+	73 -> 75
+	64 [label="CSV Reader"]
+	66 [label=GroupBy]
+	79 [label="Moving Aggregation"]
+	81 [label="Line Plot"]
+	68 [label=GroupBy]
+	65 [label="Pie_Donut Chart"]
+	67 [label="Rule Engine"]
+	69 [label="Bar Chart"]
+	84 [label="Table View"]
+	76 [label=GroupBy]
+	77 [label="Math Formula"]
+	85 [label="Pie_Donut Chart"]
+	80 [label="Math Formula"]
+	73 [label="Rule_based Row Filter"]
+	83 [label=Sorter]
+	75 [label="Scatter Plot _Plotly_"]
+	78 [label=Sorter]
+	rankdir=LR
+}

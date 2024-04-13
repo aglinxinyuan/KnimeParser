@@ -1,0 +1,59 @@
+digraph {
+	9689 -> 64
+	468 -> 142
+	424 -> 159
+	149 -> 158
+	158 -> 467
+	468 -> 446
+	50 -> 411
+	446 -> 424
+	377 -> 365
+	411 -> 9689
+	464 -> 49
+	9687 -> 407
+	158 -> 151
+	364 -> 9687
+	410 -> 407
+	467 -> 413
+	145 -> 149
+	414 -> 424
+	9688 -> 410
+	64 -> 407
+	466 -> 468
+	9687 -> 468
+	452 -> 49
+	463 -> 49
+	446 -> 414
+	49 -> 9688
+	142 -> 145
+	365 -> 364
+	377 [label="Extract MAE Properties"]
+	365 [label="Java Snippet _simple_"]
+	145 [label="Extract MAE Properties"]
+	149 [label=Sorter]
+	151 [label="Run Spreadsheet Viewer"]
+	463 [label="Smiles Reader"]
+	467 [label="Enrichment Plotter"]
+	64 [label="Set MAE Properties"]
+	9688 [label=LigPrep]
+	49 [label="Java Snippet _simple_"]
+	464 [label="Smiles Reader"]
+	407 [label="Concatenate _Optional in_"]
+	424 [label=Concatenate]
+	50 [label="Java Snippet _simple_"]
+	9689 [label=LigPrep]
+	468 [label="Glide Ligand Docking"]
+	446 [label="Row Splitter"]
+	158 [label="Column Filter"]
+	142 [label="Glide Sort Results"]
+	452 [label="Molecule Reader _to MAE_"]
+	9687 [label=LigPrep]
+	159 [label="Run Maestro"]
+	413 [label="Table Viewer"]
+	414 [label="Run Maestro Command"]
+	411 [label="Column Rename"]
+	364 [label="Set MAE Properties"]
+	410 [label="Set MAE Properties"]
+	466 [label="Glide Grid Reader"]
+	rankdir=LR
+}

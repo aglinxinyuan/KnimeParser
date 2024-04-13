@@ -1,0 +1,22 @@
+digraph {
+	888 -> 889
+	888 -> 892
+	892 -> 891
+	889 -> 890
+	890 -> 899
+	892 -> 893
+	893 -> 890
+	894 -> 898
+	898 -> 888
+	891 -> 893
+	888 [label="Configurable IF_CASE Switch _Flow Variable Value_"]
+	889 [label="String Manipulation _Variable_"]
+	891 [label="String Manipulation _Variable_"]
+	899 [label="Variable Loop End"]
+	893 [label="Configurable End IF_CASE"]
+	890 [label="Configurable End IF_CASE"]
+	898 [label="Table Row To Variable Loop Start"]
+	892 [label="Configurable IF_CASE Switch _Flow Variable Value_"]
+	894 [label="Table Creator"]
+	rankdir=LR
+}

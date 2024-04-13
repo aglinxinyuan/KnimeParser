@@ -1,0 +1,44 @@
+digraph {
+	82 -> 99
+	46 -> 58
+	86 -> 100
+	101 -> 105
+	54 -> 46
+	103 -> 85
+	99 -> 101
+	81 -> 102
+	57 -> 48
+	86 -> 87
+	56 -> 57
+	102 -> 101
+	85 -> 86
+	48 -> 47
+	105 -> 103
+	104 -> 105
+	7 -> 54
+	47 -> 46
+	58 -> 81
+	100 -> 98
+	57 [label="Variable to Table Row"]
+	103 [label="Python Source"]
+	7 [label="Extract System Properties"]
+	58 [label="Table Row to Variable"]
+	105 [label="Merge Variables"]
+	98 [label="Parquet Reader"]
+	56 [label="Extract Context Properties"]
+	54 [label="Table Column to Variable"]
+	85 [label="SQLite Connector"]
+	86 [label="DB Table Selector"]
+	48 [label="String Manipulation"]
+	87 [label="DB Reader"]
+	47 [label="String Manipulation"]
+	101 [label="Parquet Writer"]
+	100 [label="Parquet Reader"]
+	81 [label="Java Edit Variable _simple_"]
+	99 [label="Column Rename"]
+	102 [label="String to Path _Variable_"]
+	104 [label="Conda Environment Propagation"]
+	82 [label="Data Generator"]
+	46 [label="Java Snippet _simple_"]
+	rankdir=LR
+}

@@ -1,0 +1,68 @@
+digraph {
+	57 -> 6
+	56 -> 4
+	53 -> 54
+	56 -> 58
+	8 -> 9
+	23 -> 50
+	6 -> 8
+	51 -> 52
+	6 -> 58
+	21 -> 24
+	48 -> 22
+	50 -> 51
+	42 -> 39
+	44 -> 45
+	23 -> 53
+	39 -> 43
+	37 -> 42
+	24 -> 23
+	45 -> 47
+	36 -> 41
+	4 -> 28
+	58 -> 9
+	35 -> 40
+	43 -> 44
+	9 -> 48
+	52 -> 53
+	55 -> 8
+	55 -> 4
+	41 -> 37
+	47 -> 46
+	46 -> 6
+	22 -> 21
+	28 -> 22
+	40 -> 36
+	57 [label="Excel Reader"]
+	55 [label="Excel Reader"]
+	9 [label="Simulate Market"]
+	45 [label="Math Formula"]
+	52 [label="Loop End"]
+	21 [label="Row Splitter"]
+	58 [label="Column Appender"]
+	8 [label=Concatenate]
+	24 [label="Constant Value Column"]
+	41 [label="Table Row To Variable Loop Start"]
+	51 [label="Loop End"]
+	56 [label="Excel Reader"]
+	6 [label="Product Generator"]
+	54 [label=Sorter]
+	48 [label="Java Snippet"]
+	50 [label="Loop End"]
+	42 [label="Table Row To Variable Loop Start"]
+	22 [label="Row Filter"]
+	53 [label=Concatenate]
+	28 [label="Constant Value Column"]
+	23 [label=GroupBy]
+	4 [label="Simulate Market"]
+	47 [label="Column Resorter"]
+	43 [label="Java Snippet"]
+	35 [label="Table Creator"]
+	44 [label="Java Snippet"]
+	36 [label="Table Creator"]
+	46 [label="Feature Table To List"]
+	40 [label="Table Row To Variable Loop Start"]
+	39 [label="Table Creator"]
+	37 [label="Table Creator"]
+	rankdir=LR
+}

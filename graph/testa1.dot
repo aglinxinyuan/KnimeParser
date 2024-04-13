@@ -1,0 +1,15 @@
+digraph {
+	5 -> 8
+	3 -> 4
+	1 -> 2
+	2 -> 3
+	5 -> 9
+	5 [label="DB Connector"]
+	1 [label="Database Connector _legacy_"]
+	9 [label="DB Query Reader"]
+	4 [label="Database Connection Table Reader _legacy_"]
+	8 [label="DB SQL Executor"]
+	3 [label="Database Table Selector _legacy_"]
+	2 [label="Database SQL Executor _legacy_"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	49 -> 50
+	31 -> 44
+	48 -> 50
+	47 -> 46
+	45 -> 46
+	28 -> 44
+	48 [label="Table Creator"]
+	50 [label="Profit Engine"]
+	44 [label="Profit Engine"]
+	49 [label="Table Creator"]
+	28 [label="Table Creator"]
+	31 [label="Table Creator"]
+	46 [label="Profit Engine"]
+	47 [label="Table Creator"]
+	45 [label="Table Creator"]
+	rankdir=LR
+}

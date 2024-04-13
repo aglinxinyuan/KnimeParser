@@ -1,0 +1,69 @@
+digraph {
+	41 -> 42
+	812 -> 806
+	784 -> 66
+	67 -> 50
+	806 -> 808
+	40 -> 29
+	42 -> 43
+	51 -> 65
+	59 -> 55
+	815 -> 819
+	817 -> 821
+	813 -> 784
+	815 -> 818
+	48 -> 51
+	30 -> 31
+	29 -> 30
+	50 -> 51
+	782 -> 41
+	48 -> 49
+	29 -> 31
+	66 -> 67
+	818 -> 819
+	29 -> 816
+	109 -> 59
+	44 -> 813
+	49 -> 50
+	43 -> 44
+	819 -> 817
+	816 -> 815
+	65 -> 109
+	808 -> 782
+	821 -> 814
+	55 -> 40
+	68 -> 48
+	784 [label="Stanford Lemmatizer"]
+	55 [label="Color Manager"]
+	816 [label="Counter Generation"]
+	819 [label=Concatenate]
+	782 [label="Markup Tag Filter"]
+	815 [label="Distance Matrix Pair Extractor"]
+	49 [label=GroupBy]
+	41 [label="Punctuation Erasure"]
+	31 [label="Hierarchical Cluster View"]
+	51 [label="Reference Row Filter"]
+	821 [label="Missing Value"]
+	109 [label="Document Vector"]
+	814 [label=k_Means]
+	59 [label="Category to class"]
+	48 [label="Term To String"]
+	50 [label="Row Filter"]
+	42 [label="N Chars Filter"]
+	68 [label="Bag Of Words Creator"]
+	67 [label="Java Edit Variable"]
+	806 [label="Strings To Document"]
+	817 [label=Pivoting]
+	808 [label="Column Filter"]
+	812 [label="Table Reader"]
+	818 [label="Column Rename"]
+	43 [label="Number Filter"]
+	44 [label="Case converter"]
+	66 [label="Extract Table Dimension"]
+	29 [label="Column Filter"]
+	813 [label="Stop Word Filter"]
+	65 [label=TF]
+	40 [label="Distance Matrix Calculate"]
+	30 [label="Hierarchical Clustering _DistMatrix_"]
+	rankdir=LR
+}

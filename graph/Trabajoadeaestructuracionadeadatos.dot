@@ -1,0 +1,131 @@
+digraph {
+	112 -> 127
+	107 -> 104
+	41 -> 42
+	83 -> 115
+	100 -> 79
+	91 -> 82
+	77 -> 100
+	81 -> 83
+	106 -> 107
+	104 -> 103
+	79 -> 82
+	39 -> 40
+	63 -> 117
+	81 -> 80
+	1 -> 105
+	51 -> 34
+	40 -> 41
+	82 -> 94
+	101 -> 51
+	115 -> 120
+	2 -> 121
+	128 -> 129
+	127 -> 114
+	35 -> 39
+	46 -> 35
+	129 -> 63
+	38 -> 34
+	64 -> 101
+	103 -> 108
+	35 -> 114
+	100 -> 80
+	108 -> 125
+	38 -> 128
+	39 -> 47
+	114 -> 115
+	38 -> 129
+	102 -> 64
+	48 -> 49
+	126 -> 35
+	100 -> 91
+	86 -> 85
+	34 -> 33
+	49 -> 144
+	113 -> 124
+	100 -> 81
+	124 -> 35
+	80 -> 86
+	47 -> 48
+	85 -> 83
+	45 -> 46
+	122 -> 121
+	80 -> 83
+	125 -> 37
+	42 -> 77
+	82 -> 80
+	33 -> 46
+	84 -> 85
+	49 -> 50
+	36 -> 35
+	117 -> 102
+	37 -> 33
+	105 -> 106
+	121 -> 126
+	77 -> 92
+	145 -> 144
+	94 -> 83
+	95 -> 94
+	115 -> 118
+	91 [label="Row Filter"]
+	103 [label="Column Filter"]
+	126 [label="Duplicate Row Filter"]
+	79 [label="Row Filter"]
+	128 [label=Pivoting]
+	108 [label="Column Rename"]
+	122 [label="Table Creator"]
+	145 [label="Table Creator"]
+	105 [label="Cell Splitter"]
+	121 [label="Reference Row Filter"]
+	80 [label="Row Filter"]
+	64 [label="String To Number"]
+	92 [label="Tagged Document Viewer"]
+	49 [label="Missing Value"]
+	84 [label="Table Creator"]
+	41 [label=TF]
+	51 [label="Strings To Document"]
+	114 [label=Joiner]
+	129 [label=Joiner]
+	85 [label="Rule Engine _Dictionary_"]
+	86 [label="Duplicate Row Filter"]
+	48 [label="Column Filter"]
+	144 [label="Reference Row Filter"]
+	50 [label="Excel Writer"]
+	1 [label="Excel Reader"]
+	42 [label="Tags To String"]
+	115 [label=Joiner]
+	125 [label="Column Filter"]
+	112 [label="Excel Reader"]
+	127 [label="Duplicate Row Filter"]
+	47 [label="Row Filter"]
+	101 [label="String Manipulation"]
+	63 [label="Number To String"]
+	77 [label="Term To String"]
+	37 [label="Table Creator"]
+	100 [label="String Manipulation"]
+	124 [label="Duplicate Row Filter"]
+	106 [label="Cell Splitter"]
+	117 [label="String Manipulation"]
+	83 [label=Concatenate]
+	38 [label="Table Creator"]
+	81 [label="Table Creator"]
+	94 [label="Rule Engine _Dictionary_"]
+	107 [label="Column Filter"]
+	113 [label="Excel Reader"]
+	120 [label="Duplicate Row Filter"]
+	35 [label="Dictionary Tagger"]
+	102 [label="Column Filter"]
+	34 [label="Dictionary Tagger"]
+	104 [label="Cell Splitter"]
+	82 [label="Duplicate Row Filter"]
+	118 [label="Excel Writer"]
+	36 [label="Table Creator"]
+	46 [label="Dictionary Tagger"]
+	40 [label="Bag Of Words Creator"]
+	95 [label="Table Creator"]
+	39 [label="Tag Filter"]
+	33 [label="Dictionary Tagger"]
+	2 [label="Excel Reader"]
+	45 [label="Table Creator"]
+	rankdir=LR
+}

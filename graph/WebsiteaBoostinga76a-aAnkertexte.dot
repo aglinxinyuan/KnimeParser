@@ -1,0 +1,26 @@
+digraph {
+	42 -> 21
+	21 -> 29
+	38 -> 39
+	2 -> 21
+	23 -> 2
+	30 -> 31
+	29 -> 30
+	1 -> 23
+	31 -> 33
+	39 -> 41
+	1 -> 38
+	1 [label="CSV Reader"]
+	42 [label="CSV Reader"]
+	29 [label="Column Rename"]
+	38 [label="Row Filter"]
+	31 [label=Sorter]
+	41 [label="Table View"]
+	23 [label="String Manipulation"]
+	21 [label=Joiner]
+	39 [label="Row Filter"]
+	33 [label="Color Manager"]
+	30 [label="Rule Engine"]
+	2 [label=GroupBy]
+	rankdir=LR
+}

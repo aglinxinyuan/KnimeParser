@@ -1,0 +1,141 @@
+digraph {
+	44 -> 112
+	158 -> 159
+	108 -> 111
+	7 -> 11
+	145 -> 177
+	17 -> 42
+	11 -> 17
+	173 -> 172
+	38 -> 44
+	17 -> 18
+	21 -> 108
+	55 -> 13
+	52 -> 48
+	44 -> 24
+	12 -> 11
+	199 -> 173
+	203 -> 169
+	44 -> 52
+	16 -> 17
+	45 -> 45
+	111 -> 197
+	153 -> 162
+	161 -> 167
+	44 -> 5
+	18 -> 19
+	159 -> 160
+	112 -> 53
+	165 -> 146
+	7 -> 10
+	10 -> 11
+	172 -> 203
+	5 -> 21
+	199 -> 50
+	6 -> 7
+	13 -> 12
+	47 -> 38
+	50 -> 21
+	13 -> 14
+	42 -> 43
+	160 -> 202
+	174 -> 195
+	176 -> 174
+	195 -> 191
+	200 -> 169
+	88 -> 199
+	45 -> 145
+	50 -> 50
+	5 -> 3
+	48 -> 47
+	203 -> 200
+	202 -> 82
+	43 -> 42
+	10 -> 53
+	10 -> 13
+	53 -> 54
+	14 -> 17
+	19 -> 56
+	24 -> 47
+	1 -> 165
+	56 -> 50
+	167 -> 153
+	54 -> 55
+	14 -> 15
+	203 -> 167
+	111 -> 165
+	13 -> 19
+	15 -> 16
+	173 -> 175
+	3 -> 6
+	111 -> 50
+	160 -> 161
+	162 -> 178
+	160 -> 172
+	146 -> 161
+	82 -> 203
+	169 -> 153
+	175 -> 176
+	50 -> 7
+	165 [label="Row Filter"]
+	203 [label="Catch Errors _Data Ports_"]
+	167 [label=Joiner]
+	55 [label="Bag Of Words Creator"]
+	7 [label="Column Splitter"]
+	169 [label="Multi Feature Inserter"]
+	18 [label="Row Filter"]
+	21 [label=Joiner]
+	153 [label="Object Inserter"]
+	162 [label="Network Viewer"]
+	108 [label="Column Filter"]
+	145 [label="R View _Table_"]
+	17 [label="Cell Replacer"]
+	200 [label="Object Inserter"]
+	3 [label="Extract Column Header"]
+	19 [label="Reference Row Filter"]
+	24 [label=Pivoting]
+	161 [label="Reference Row Filter"]
+	56 [label="Document Data Extractor"]
+	6 [label="Java Snippet"]
+	15 [label=Transpose]
+	54 [label="Tag Filter"]
+	177 [label="Image to Report"]
+	197 [label="Image to Report"]
+	146 [label=GroupBy]
+	10 [label="Column Filter"]
+	12 [label="Java Edit Variable"]
+	16 [label="Math Formula"]
+	48 [label=GroupBy]
+	50 [label="Term to String"]
+	1 [label="Twitter API Connector"]
+	112 [label="Strings To Document"]
+	42 [label="String Replacer"]
+	53 [label="Wildcard Tagger"]
+	173 [label="Table Reader"]
+	158 [label=GroupBy]
+	174 [label="Row Filter"]
+	11 [label="Recursive Loop End"]
+	47 [label="Cell Replacer"]
+	178 [label="Image to Report"]
+	176 [label=Sorter]
+	191 [label="Data to Report"]
+	159 [label=Sorter]
+	172 [label="Reference Row Filter"]
+	202 [label="Try _Data Ports_"]
+	14 [label="Extract Column Header"]
+	38 [label=RowID]
+	195 [label="Column to Grid"]
+	160 [label="Row Filter"]
+	5 [label="Recursive Loop Start"]
+	175 [label="Row Filter"]
+	199 [label="Database Reader"]
+	13 [label="Extract Table Dimension"]
+	43 [label=RowID]
+	44 [label="Column Resorter"]
+	82 [label="Twitter Users"]
+	88 [label="SQLite Connector"]
+	111 [label="Domain Calculator"]
+	52 [label="Modify Time"]
+	45 [label="Column Rename"]
+	rankdir=LR
+}

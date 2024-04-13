@@ -1,0 +1,28 @@
+digraph {
+	95 -> 93
+	67 -> 1
+	78 -> 94
+	78 -> 92
+	78 -> 20
+	81 -> 78
+	78 -> 95
+	75 -> 79
+	79 -> 78
+	77 -> 75
+	80 -> 81
+	20 -> 67
+	94 [label="Bar Chart"]
+	20 [label="Color Manager"]
+	92 [label="Bar Chart"]
+	1 [label="Bar Chart"]
+	79 [label="String to Date_Time"]
+	81 [label="Extract Date_Time Fields"]
+	67 [label=Pivoting]
+	77 [label="Excel Reader"]
+	95 [label=Pivoting]
+	93 [label="Bar Chart"]
+	80 [label="Excel Reader"]
+	75 [label="Number To String"]
+	78 [label=Joiner]
+	rankdir=LR
+}

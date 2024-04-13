@@ -1,0 +1,16 @@
+digraph {
+	176 -> 173
+	172 -> 173
+	2 -> 155
+	176 -> 2
+	173 -> 175
+	173 -> 174
+	175 [label="Molecule Writer"]
+	173 [label="Substructure Search"]
+	174 [label="Table Viewer"]
+	155 [label="Table Viewer"]
+	176 [label="Molecule Reader"]
+	172 [label=MarvinSketch]
+	2 [label="REOS Filter"]
+	rankdir=LR
+}

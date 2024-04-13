@@ -1,0 +1,57 @@
+digraph {
+	20 -> 21
+	7 -> 8
+	5 -> 16
+	4 -> 5
+	14 -> 17
+	16 -> 24
+	13 -> 14
+	2 -> 3
+	2 -> 4
+	24 -> 18
+	12 -> 13
+	1 -> 4
+	10 -> 6
+	18 -> 19
+	14 -> 15
+	11 -> 12
+	26 -> 23
+	5 -> 7
+	6 -> 26
+	15 -> 16
+	3 -> 5
+	8 -> 15
+	8 -> 10
+	17 -> 19
+	19 -> 20
+	5 -> 6
+	9 -> 10
+	23 -> 22
+	1 -> 3
+	7 [label="Column Rename"]
+	9 [label="Table Creator"]
+	26 [label="Round Double"]
+	18 [label=GroupBy]
+	21 [label=Sorter]
+	8 [label="Constant Value Column"]
+	17 [label=GroupBy]
+	3 [label="Differentiation Vertical"]
+	19 [label="Cross Joiner"]
+	24 [label="Row Filter"]
+	6 [label="Price Maximize"]
+	15 [label=Joiner]
+	12 [label="Chunk Loop Start"]
+	10 [label=Joiner]
+	16 [label="Simulate Market"]
+	1 [label="Table Creator"]
+	22 [label=GroupBy]
+	11 [label="Table Creator"]
+	4 [label="Differentiation Horizontal"]
+	23 [label="Row Filter"]
+	14 [label="Column Rename _Regex_"]
+	5 [label="Matrix Distributions"]
+	13 [label=Transpose]
+	20 [label="Loop End"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

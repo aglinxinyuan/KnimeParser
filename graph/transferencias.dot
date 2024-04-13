@@ -1,0 +1,98 @@
+digraph {
+	12 -> 10
+	44 -> 47
+	15 -> 14
+	7 -> 8
+	21 -> 23
+	32 -> 36
+	42 -> 43
+	39 -> 40
+	23 -> 34
+	40 -> 41
+	10 -> 31
+	2 -> 3
+	33 -> 36
+	40 -> 37
+	47 -> 45
+	16 -> 15
+	18 -> 19
+	19 -> 33
+	8 -> 6
+	48 -> 36
+	46 -> 44
+	25 -> 26
+	1 -> 2
+	17 -> 18
+	45 -> 48
+	4 -> 29
+	20 -> 17
+	37 -> 42
+	11 -> 12
+	5 -> 7
+	30 -> 36
+	9 -> 11
+	13 -> 16
+	35 -> 36
+	31 -> 36
+	28 -> 27
+	29 -> 36
+	14 -> 32
+	24 -> 22
+	38 -> 39
+	27 -> 25
+	3 -> 4
+	34 -> 36
+	36 -> 38
+	6 -> 30
+	26 -> 35
+	22 -> 21
+	27 [label="Missing Value"]
+	7 [label="Missing Value"]
+	9 [label="Excel Reader"]
+	45 [label=Sorter]
+	18 [label="Math Formula"]
+	21 [label="Math Formula"]
+	26 [label=Sorter]
+	8 [label="Math Formula"]
+	17 [label="Missing Value"]
+	3 [label="Math Formula"]
+	19 [label=Sorter]
+	24 [label="Excel Reader"]
+	41 [label="Row Filter"]
+	31 [label="Constant Value Column"]
+	6 [label=Sorter]
+	15 [label="Math Formula"]
+	25 [label="Math Formula"]
+	12 [label="Math Formula"]
+	10 [label=Sorter]
+	16 [label="Missing Value"]
+	48 [label="Constant Value Column"]
+	30 [label="Constant Value Column"]
+	1 [label="Excel Reader"]
+	42 [label=Ungroup]
+	22 [label="Missing Value"]
+	28 [label="Excel Reader"]
+	11 [label="Missing Value"]
+	4 [label=Sorter]
+	23 [label=Sorter]
+	47 [label="Math Formula"]
+	14 [label=Sorter]
+	38 [label="Column Renamer"]
+	5 [label="Excel Reader"]
+	13 [label="Excel Reader"]
+	20 [label="Excel Reader"]
+	35 [label="Constant Value Column"]
+	34 [label="Constant Value Column"]
+	43 [label="Excel Writer"]
+	29 [label="Constant Value Column"]
+	44 [label="Missing Value"]
+	36 [label=Concatenate]
+	46 [label="Excel Reader"]
+	40 [label="Column Expressions"]
+	39 [label="String Manipulation"]
+	33 [label="Constant Value Column"]
+	32 [label="Constant Value Column"]
+	2 [label="Missing Value"]
+	37 [label=GroupBy]
+	rankdir=LR
+}

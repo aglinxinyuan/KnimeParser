@@ -1,0 +1,17 @@
+digraph {
+	3 -> 6
+	4 -> 8
+	2 -> 9
+	6 -> 7
+	1 -> 5
+	5 [label="Row Filter"]
+	1 [label="CSV Reader"]
+	7 [label="Scatter Plot"]
+	9 [label="String Manipulation"]
+	4 [label="CSV Reader"]
+	6 [label="Color Manager"]
+	8 [label="Row Filter"]
+	3 [label="CSV Reader"]
+	2 [label="CSV Reader"]
+	rankdir=LR
+}

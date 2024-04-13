@@ -1,0 +1,29 @@
+digraph {
+	109 -> 127
+	125 -> 128
+	128 -> 104
+	104 -> 106
+	119 -> 120
+	126 -> 128
+	106 -> 117
+	106 -> 107
+	120 -> 123
+	108 -> 109
+	107 -> 108
+	117 -> 119
+	107 -> 109
+	107 [label=Partitioning]
+	123 [label="Stacked Area Chart"]
+	120 [label=Pivoting]
+	125 [label="CSV Reader"]
+	104 [label="Number To String"]
+	126 [label="Excel Reader"]
+	119 [label=Auto_Binner]
+	127 [label=Scorer]
+	109 [label="Decision Tree Predictor"]
+	108 [label="Decision Tree Learner"]
+	106 [label="Color Manager"]
+	117 [label="Math Formula"]
+	128 [label=Joiner]
+	rankdir=LR
+}

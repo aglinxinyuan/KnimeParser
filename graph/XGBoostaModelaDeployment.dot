@@ -1,0 +1,23 @@
+digraph {
+	24 -> 53
+	51 -> 52
+	53 -> 52
+	24 -> 48
+	48 -> 50
+	48 -> 49
+	54 -> 24
+	49 -> 46
+	46 -> 30
+	24 -> 49
+	24 [label=Partitioning]
+	48 [label="XGBoost Linear Model Learner _Regression_"]
+	50 [label="Model Writer"]
+	49 [label="XGBoost Predictor _Regression_"]
+	53 [label="Column Filter"]
+	51 [label="Model Reader"]
+	46 [label="Missing Value"]
+	54 [label="Table Reader"]
+	52 [label="XGBoost Predictor _Regression_"]
+	30 [label="Numeric Scorer"]
+	rankdir=LR
+}

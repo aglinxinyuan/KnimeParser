@@ -1,0 +1,37 @@
+digraph {
+	158 -> 163
+	156 -> 154
+	227 -> 233
+	229 -> 156
+	167 -> 168
+	199 -> 200
+	186 -> 198
+	154 -> 155
+	229 -> 157
+	163 -> 186
+	154 -> 153
+	208 -> 207
+	157 -> 158
+	170 -> 171
+	170 [label="CSV Reader"]
+	167 [label="Molfile Reader"]
+	227 [label="SDF Reader"]
+	153 [label="Rule_based Row Filter"]
+	200 [label="End IF"]
+	163 [label="Column Rename"]
+	233 [label="SDF Writer"]
+	168 [label="Mol2 Writer"]
+	208 [label="Table Reader"]
+	156 [label=Sorter]
+	154 [label="Row Filter"]
+	171 [label="CSV Writer"]
+	207 [label="Table Writer"]
+	158 [label="Column Filter"]
+	198 [label="Column Combiner"]
+	199 [label="IF Switch"]
+	229 [label="Table Creator"]
+	157 [label="Column Resorter"]
+	186 [label="Constant Value Column"]
+	155 [label="Row Splitter"]
+	rankdir=LR
+}

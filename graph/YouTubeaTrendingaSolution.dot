@@ -1,0 +1,27 @@
+digraph {
+	24 -> 22
+	20 -> 21
+	21 -> 23
+	22 -> 25
+	23 -> 24
+	15 -> 16
+	18 -> 20
+	25 -> 26
+	17 -> 18
+	27 -> 28
+	16 -> 17
+	16 [label="JSON to Table"]
+	24 [label="Cell Splitter"]
+	27 [label="CSV Reader"]
+	20 [label="Rule_based Row Filter"]
+	22 [label=Pivot]
+	28 [label=Pivot]
+	23 [label="Column Auto Type Cast"]
+	18 [label=RowID]
+	21 [label="Column Resorter"]
+	26 [label="Table Manipulator"]
+	15 [label="JSON Reader"]
+	25 [label="Column Filter"]
+	17 [label="Table Transposer"]
+	rankdir=LR
+}

@@ -1,0 +1,11 @@
+digraph {
+	26 -> 30
+	27 -> 26
+	28 -> 30
+	26 -> 28
+	26 [label="Empty Table Switch"]
+	27 [label="Table Creator"]
+	30 [label="End IF"]
+	28 [label="String Manipulation"]
+	rankdir=LR
+}

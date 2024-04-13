@@ -1,0 +1,34 @@
+digraph {
+	1869 -> 1870
+	2424 -> 2425
+	1885 -> 1905
+	2425 -> 1870
+	2 -> 1885
+	2426 -> 2427
+	2423 -> 2424
+	2425 -> 1869
+	2427 -> 2428
+	1905 -> 470
+	470 -> 2423
+	445 -> 1905
+	2420 -> 2422
+	1885 -> 2426
+	470 -> 2426
+	470 -> 2420
+	2420 [label="DB GroupBy"]
+	2423 [label="DB Query"]
+	2424 [label="DB Connection Table Writer"]
+	1905 [label="DB Table Creator"]
+	2425 [label="DB Connection Extractor"]
+	2428 [label="DB Reader"]
+	470 [label="DB Writer"]
+	445 [label="CSV Reader"]
+	2426 [label="DB SQL Executor"]
+	1869 [label="DB Query Reader"]
+	1870 [label="DB Query Reader"]
+	1885 [label="DB SQL Executor"]
+	2422 [label="DB Reader"]
+	2427 [label="DB Table Selector"]
+	2 [label="H2 Connector"]
+	rankdir=LR
+}

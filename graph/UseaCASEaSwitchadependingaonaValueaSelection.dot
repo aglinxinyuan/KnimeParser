@@ -1,0 +1,17 @@
+digraph {
+	153 -> 154
+	155 -> 157
+	153 -> 157
+	154 -> 155
+	157 -> 158
+	157 -> 160
+	157 -> 159
+	157 [label="CASE Switch Data _Start_"]
+	158 [label="R Snippet"]
+	153 [label="Table Creator"]
+	155 [label="Rule Engine Variable"]
+	154 [label="Value Selection Widget"]
+	159 [label="R Snippet"]
+	160 [label="R Snippet"]
+	rankdir=LR
+}

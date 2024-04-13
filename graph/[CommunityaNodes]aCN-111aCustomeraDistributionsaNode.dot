@@ -1,0 +1,52 @@
+digraph {
+	12 -> 10
+	24 -> 26
+	21 -> 23
+	7 -> 8
+	29 -> 28
+	13 -> 14
+	25 -> 24
+	18 -> 19
+	14 -> 15
+	6 -> 2
+	17 -> 30
+	15 -> 17
+	28 -> 27
+	7 -> 9
+	4 -> 7
+	19 -> 20
+	5 -> 6
+	22 -> 21
+	16 -> 17
+	1 -> 3
+	27 [label="Line Chart _JFreeChart_"]
+	7 [label="Customer Distributions"]
+	9 [label="Row Filter"]
+	18 [label="Table Creator"]
+	21 [label="Customer Distributions"]
+	26 [label="Line Chart _JFreeChart_"]
+	8 [label=Statistics]
+	17 [label="Customer Distributions"]
+	3 [label=Statistics]
+	19 [label="Customer Distributions"]
+	24 [label="Customer Distributions"]
+	6 [label="Row Filter"]
+	15 [label="Customer Distributions"]
+	25 [label="Table Creator"]
+	10 [label="Histogram Chart _JFreeChart_"]
+	12 [label="Customer Distributions"]
+	16 [label="Table Creator"]
+	1 [label="Customer Distributions"]
+	22 [label="Table Creator"]
+	28 [label="Customer Distributions"]
+	23 [label="Histogram Chart _JFreeChart_"]
+	4 [label="Table Creator"]
+	14 [label="Customer Distributions"]
+	5 [label="Customer Distributions"]
+	13 [label="Customer Distributions"]
+	20 [label="Line Chart _JFreeChart_"]
+	29 [label="Table Creator"]
+	30 [label="Histogram Chart _JFreeChart_"]
+	2 [label="Histogram Chart _JFreeChart_"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	7 -> 8
+	9 -> 5
+	8 -> 9
+	5 -> 10
+	6 -> 7
+	10 -> 11
+	4 -> 6
+	5 [label="Loop End"]
+	7 [label="UNIX Timestamp to Date_Time"]
+	9 [label=GroupBy]
+	11 [label="CSV Writer"]
+	4 [label="File Reader"]
+	6 [label="Column Rename"]
+	8 [label="Window Loop Start"]
+	10 [label="Column Rename"]
+	rankdir=LR
+}

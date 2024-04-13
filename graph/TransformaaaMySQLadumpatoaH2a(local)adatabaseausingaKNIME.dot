@@ -1,0 +1,82 @@
+digraph {
+	12 -> 10
+	24 -> 26
+	34 -> 37
+	23 -> 24
+	27 -> 28
+	63 -> 64
+	18 -> 19
+	38 -> 37
+	20 -> 23
+	57 -> 49
+	61 -> 31
+	24 -> 30
+	43 -> 45
+	31 -> 32
+	6 -> 12
+	39 -> 42
+	26 -> 27
+	24 -> 33
+	25 -> 35
+	44 -> 45
+	32 -> 38
+	10 -> 63
+	1 -> 62
+	42 -> 45
+	29 -> 31
+	35 -> 36
+	30 -> 61
+	33 -> 43
+	64 -> 65
+	45 -> 46
+	24 -> 25
+	1 -> 57
+	36 -> 34
+	46 -> 60
+	48 -> 57
+	37 -> 39
+	19 -> 20
+	60 -> 48
+	10 -> 18
+	26 -> 44
+	28 -> 29
+	27 [label="String Manipulation"]
+	57 [label="DB SQL Executor"]
+	45 [label=Concatenate]
+	18 [label="Java Snippet _simple_"]
+	26 [label="Rule_based Row Filter"]
+	32 [label="String Manipulation"]
+	19 [label="Missing Value"]
+	24 [label="Missing Value"]
+	64 [label="String Manipulation"]
+	49 [label="Variable Loop End"]
+	31 [label=Joiner]
+	6 [label="File Reader"]
+	25 [label="Rule_based Row Filter"]
+	10 [label="Rule Engine"]
+	12 [label="Column Rename"]
+	48 [label="Table Row To Variable Loop Start"]
+	1 [label="H2 Connector"]
+	42 [label=GroupBy]
+	28 [label="String Manipulation"]
+	23 [label="Rule Engine"]
+	63 [label="Rule_based Row Filter"]
+	61 [label=GroupBy]
+	38 [label="Column Filter"]
+	60 [label="String Manipulation"]
+	20 [label="Rule_based Row Filter"]
+	35 [label="String Manipulation"]
+	44 [label="Column Filter"]
+	62 [label="DB Table Selector"]
+	43 [label="Column Filter"]
+	29 [label="String Manipulation"]
+	34 [label="Column Filter"]
+	65 [label=Sorter]
+	36 [label="String Manipulation"]
+	46 [label=Sorter]
+	39 [label=Sorter]
+	33 [label="Rule_based Row Filter"]
+	30 [label="Rule_based Row Filter"]
+	37 [label=Concatenate]
+	rankdir=LR
+}

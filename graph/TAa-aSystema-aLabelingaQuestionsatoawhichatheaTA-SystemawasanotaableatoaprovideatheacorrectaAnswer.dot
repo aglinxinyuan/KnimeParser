@@ -1,0 +1,61 @@
+digraph {
+	860 -> 877
+	872 -> 888
+	1101 -> 889
+	888 -> 892
+	800 -> 797
+	863 -> 799
+	889 -> 888
+	1101 -> 884
+	799 -> 14
+	59 -> 798
+	885 -> 887
+	873 -> 875
+	776 -> 59
+	863 -> 888
+	863 -> 887
+	877 -> 873
+	862 -> 863
+	890 -> 874
+	797 -> 799
+	861 -> 862
+	1100 -> 1101
+	859 -> 776
+	59 -> 861
+	884 -> 888
+	887 -> 888
+	888 -> 882
+	885 -> 863
+	798 -> 800
+	892 -> 890
+	875 -> 872
+	877 -> 859
+	888 [label=Concatenate]
+	887 [label="Reference Row Filter"]
+	885 [label="WrappedNode Input"]
+	874 [label="WrappedNode Output"]
+	862 [label="Column Rename"]
+	800 [label="Column Rename"]
+	59 [label="String Manipulation"]
+	882 [label="Table Writer"]
+	875 [label="Column Rename"]
+	872 [label="Table Editor _JavaScript_"]
+	859 [label="Table Column to Variable"]
+	877 [label="Column Rename"]
+	889 [label="Table Reader"]
+	861 [label="Row Filter"]
+	884 [label="Table Reader"]
+	873 [label="Constant Value Column"]
+	14 [label="Text Output"]
+	890 [label="Column Filter"]
+	892 [label="Rule Engine"]
+	799 [label="Merge Variables"]
+	860 [label="WrappedNode Input"]
+	1101 [label="Table Row to Variable"]
+	776 [label="Table Creator"]
+	798 [label="Row Filter"]
+	863 [label="Table Row to Variable"]
+	1100 [label="Table Creator"]
+	797 [label="Table Row to Variable"]
+	rankdir=LR
+}

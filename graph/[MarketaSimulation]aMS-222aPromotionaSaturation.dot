@@ -1,0 +1,25 @@
+digraph {
+	12 -> 13
+	6 -> 9
+	8 -> 6
+	1 -> 2
+	11 -> 12
+	9 -> 10
+	7 -> 9
+	6 -> 7
+	10 -> 11
+	2 -> 8
+	3 -> 6
+	13 [label="Line Chart _JFreeChart_"]
+	1 [label="Table Creator"]
+	7 [label="Scale Demographic"]
+	9 [label="Recursive Loop End"]
+	11 [label="Lag Column"]
+	6 [label="Simulate Market"]
+	8 [label="Recursive Loop Start"]
+	12 [label="Math Formula"]
+	3 [label="Table Creator"]
+	2 [label="Customer Distributions"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

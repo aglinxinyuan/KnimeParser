@@ -1,0 +1,44 @@
+digraph {
+	8 -> 9
+	13 -> 14
+	19 -> 21
+	2 -> 3
+	6 -> 8
+	12 -> 13
+	1 -> 4
+	14 -> 15
+	11 -> 12
+	1 -> 2
+	16 -> 18
+	10 -> 11
+	5 -> 7
+	15 -> 16
+	3 -> 5
+	15 -> 17
+	18 -> 20
+	16 -> 19
+	5 -> 6
+	9 -> 10
+	7 [label="Table View"]
+	9 [label=RowID]
+	18 [label=GroupBy]
+	21 [label="Tag Cloud"]
+	8 [label="Table Manipulator"]
+	17 [label=Heatmap]
+	3 [label="Table Manipulator"]
+	19 [label="Color Manager"]
+	6 [label="Row Filter"]
+	15 [label="Topic Extractor _Parallel LDA_"]
+	12 [label="N Chars Filter"]
+	10 [label="Strings To Document"]
+	16 [label="Table Manipulator"]
+	1 [label="PDF Parser"]
+	11 [label="Punctuation Erasure"]
+	4 [label="Document Viewer"]
+	14 [label="Case Converter"]
+	5 [label="Row Filter"]
+	13 [label="Stop Word Filter"]
+	20 [label="Table View"]
+	2 [label="Sentence Extractor"]
+	rankdir=LR
+}

@@ -1,0 +1,51 @@
+digraph {
+	39 -> 17
+	21 -> 23
+	51 -> 50
+	55 -> 49
+	48 -> 55
+	48 -> 54
+	42 -> 53
+	23 -> 26
+	17 -> 28
+	52 -> 51
+	31 -> 32
+	54 -> 55
+	41 -> 27
+	56 -> 52
+	57 -> 42
+	29 -> 31
+	40 -> 21
+	27 -> 39
+	26 -> 17
+	53 -> 47
+	47 -> 48
+	28 -> 31
+	50 -> 47
+	28 -> 29
+	27 [label="Number To String"]
+	57 [label="CSV Reader"]
+	55 [label="Simple Regression Tree Predictor"]
+	52 [label="String Manipulation"]
+	21 [label="String Manipulation"]
+	26 [label="String Replacer"]
+	17 [label=Joiner]
+	49 [label="Numeric Scorer"]
+	41 [label="CSV Reader"]
+	31 [label="Regression Predictor"]
+	51 [label="Rule Engine"]
+	56 [label="CSV Reader"]
+	54 [label="Simple Regression Tree Learner"]
+	48 [label=Partitioning]
+	50 [label="String Replacer"]
+	42 [label="Number To String"]
+	53 [label="Missing Value"]
+	28 [label=Partitioning]
+	23 [label="Rule Engine"]
+	47 [label=Joiner]
+	29 [label="Linear Regression Learner"]
+	40 [label="CSV Reader"]
+	39 [label="Missing Value"]
+	32 [label="Numeric Scorer"]
+	rankdir=LR
+}

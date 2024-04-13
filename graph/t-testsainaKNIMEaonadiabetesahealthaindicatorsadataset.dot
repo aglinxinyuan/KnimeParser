@@ -1,0 +1,12 @@
+digraph {
+	15 -> 17
+	15 -> 14
+	18 -> 16
+	18 -> 15
+	16 [label="Independent groups t_test"]
+	18 [label="Table Reader"]
+	15 [label="Row Filter"]
+	14 [label="Single sample t_test"]
+	17 [label="Independent groups t_test"]
+	rankdir=LR
+}

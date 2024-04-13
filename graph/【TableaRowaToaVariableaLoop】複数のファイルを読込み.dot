@@ -1,0 +1,16 @@
+digraph {
+	4 -> 3
+	11 -> 9
+	12 -> 8
+	3 -> 12
+	9 -> 10
+	8 -> 11
+	9 [label="File Reader"]
+	11 [label="Java Edit Variable"]
+	4 [label="Create Temp Dir"]
+	10 [label="Loop End"]
+	8 [label="TableRow To Variable Loop Start"]
+	3 [label="Unzip Files"]
+	12 [label="List Files"]
+	rankdir=LR
+}

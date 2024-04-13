@@ -1,0 +1,33 @@
+digraph {
+	255 -> 256
+	261 -> 260
+	4 -> 2
+	259 -> 261
+	25 -> 7
+	256 -> 254
+	257 -> 255
+	25 -> 258
+	258 -> 257
+	260 -> 262
+	24 -> 2
+	2 -> 263
+	263 -> 259
+	7 -> 24
+	25 -> 263
+	260 [label="Table To Image"]
+	24 [label="Extract Color"]
+	263 [label="Python View"]
+	256 [label="Table To Image"]
+	262 [label="Image Writer _Port_"]
+	7 [label="Color Manager"]
+	258 [label="Python View"]
+	261 [label="Renderer to Image"]
+	255 [label="Renderer to Image"]
+	4 [label="Extract Context Properties"]
+	25 [label="CSV Reader"]
+	257 [label="Image To Table"]
+	259 [label="Image To Table"]
+	2 [label="Python Script _1_1_"]
+	254 [label="Image Writer _Port_"]
+	rankdir=LR
+}

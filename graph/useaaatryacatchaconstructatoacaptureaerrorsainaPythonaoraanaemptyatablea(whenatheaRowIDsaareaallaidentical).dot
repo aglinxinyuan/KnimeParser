@@ -1,0 +1,34 @@
+digraph {
+	48 -> 116
+	117 -> 108
+	112 -> 47
+	47 -> 105
+	61 -> 108
+	114 -> 48
+	108 -> 110
+	111 -> 112
+	42 -> 115
+	113 -> 114
+	110 -> 109
+	105 -> 113
+	115 -> 114
+	109 -> 111
+	105 -> 42
+	61 -> 47
+	114 [label="Catch Errors _Data Ports_"]
+	48 [label="Loop End _Column Append_"]
+	111 [label="Column Filter"]
+	113 [label="Table Reader"]
+	42 [label="Python Source"]
+	115 [label="Empty Table Switch"]
+	112 [label="Table Writer"]
+	47 [label="Table Row To Variable Loop Start"]
+	116 [label="Table Writer"]
+	117 [label="Conda Environment Propagation"]
+	61 [label="Table Creator"]
+	108 [label="Row Filter"]
+	109 [label="Python Source"]
+	105 [label="Try _Variable Ports_"]
+	110 [label="Table Row to Variable"]
+	rankdir=LR
+}

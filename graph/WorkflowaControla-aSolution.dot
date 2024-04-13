@@ -1,0 +1,35 @@
+digraph {
+	47 -> 32
+	30 -> 47
+	36 -> 30
+	46 -> 36
+	73 -> 41
+	70 -> 74
+	48 -> 46
+	37 -> 46
+	46 -> 35
+	71 -> 44
+	29 -> 47
+	41 -> 69
+	69 -> 49
+	74 -> 71
+	35 -> 29
+	48 [label="Single Selection Configuration"]
+	35 [label="JavaScript Scatter Plot"]
+	44 [label="Loop End"]
+	49 [label="Variable Loop End"]
+	29 [label="Image To Table"]
+	41 [label="Group Loop Start"]
+	69 [label="Excel Writer"]
+	36 [label="JavaScript Bar Chart"]
+	70 [label="Read Excel Sheet Names"]
+	46 [label="CASE Switch Data _Start_"]
+	47 [label="CASE Switch Data _End_"]
+	71 [label="Excel Reader"]
+	74 [label="Table Row To Variable Loop Start"]
+	32 [label="Table To Image"]
+	73 [label="Table Reader"]
+	30 [label="Image To Table"]
+	37 [label="Table Reader"]
+	rankdir=LR
+}

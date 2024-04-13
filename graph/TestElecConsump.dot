@@ -1,0 +1,27 @@
+digraph {
+	241 -> 243
+	1 -> 2
+	243 -> 244
+	8 -> 6
+	3 -> 4
+	224 -> 243
+	242 -> 241
+	4 -> 242
+	6 -> 223
+	223 -> 224
+	2 -> 8
+	2 -> 224
+	242 [label="Row Filter"]
+	223 [label="Extract Date_Time Fields"]
+	1 [label="File Reader"]
+	244 [label="Constant Value Column"]
+	241 [label="Table Row to Variable"]
+	243 [label="Constant Value Column"]
+	224 [label="Column Appender"]
+	4 [label=Transpose]
+	8 [label="Table Manipulator"]
+	6 [label="String to Date_Time"]
+	3 [label="File Reader"]
+	2 [label="Column Filter"]
+	rankdir=LR
+}

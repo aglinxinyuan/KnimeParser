@@ -1,0 +1,18 @@
+digraph {
+	383 -> 387
+	385 -> 386
+	23 -> 386
+	386 -> 384
+	383 -> 385
+	388 -> 385
+	387 -> 388
+	385 -> 23
+	386 [label="CASE Switch End"]
+	385 [label="CASE Switch Start"]
+	23 [label="Math Formula"]
+	388 [label="Rule Engine Variable"]
+	387 [label="Table Row to Variable"]
+	383 [label="Table Reader"]
+	384 [label="Bar Chart"]
+	rankdir=LR
+}

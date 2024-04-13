@@ -1,0 +1,109 @@
+digraph {
+	6 -> 5
+	38 -> 64
+	24 -> 26
+	24 -> 28
+	37 -> 58
+	61 -> 46
+	29 -> 62
+	23 -> 24
+	42 -> 43
+	38 -> 63
+	17 -> 20
+	23 -> 26
+	4 -> 6
+	52 -> 45
+	22 -> 23
+	38 -> 41
+	56 -> 37
+	18 -> 17
+	46 -> 52
+	26 -> 27
+	16 -> 14
+	29 -> 32
+	32 -> 35
+	45 -> 48
+	37 -> 42
+	20 -> 22
+	33 -> 34
+	5 -> 14
+	59 -> 40
+	26 -> 25
+	2 -> 15
+	15 -> 4
+	14 -> 18
+	1 -> 10
+	5 -> 13
+	39 -> 30
+	7 -> 13
+	53 -> 47
+	35 -> 36
+	30 -> 29
+	55 -> 54
+	54 -> 61
+	58 -> 60
+	32 -> 33
+	10 -> 7
+	43 -> 44
+	59 -> 38
+	57 -> 39
+	52 -> 53
+	3 -> 16
+	26 -> 28
+	60 -> 59
+	27 [label="Scatter Plot Matrix"]
+	57 [label="CSV Reader"]
+	55 [label="CSV Reader"]
+	7 [label="String Manipulation"]
+	45 [label=Sorter]
+	52 [label="Top k Row Filter"]
+	18 [label="Column Resorter"]
+	26 [label="Decision Tree Predictor"]
+	58 [label="String to Date_Time"]
+	17 [label="Missing Value"]
+	3 [label="CSV Reader"]
+	24 [label="Decision Tree Learner"]
+	64 [label="Scatter Plot"]
+	41 [label="Line Plot"]
+	56 [label="CSV Reader"]
+	6 [label="String Manipulation"]
+	15 [label="Duplicate Row Filter"]
+	25 [label=Scorer]
+	54 [label="Duplicate Row Filter"]
+	10 [label="Duplicate Row Filter"]
+	59 [label="String To Number"]
+	16 [label="Duplicate Row Filter"]
+	48 [label="Bar Chart"]
+	30 [label=Sorter]
+	1 [label="CSV Reader"]
+	42 [label=Sorter]
+	22 [label="One to Many"]
+	53 [label=Sorter]
+	28 [label="Decision Tree To Image"]
+	23 [label=Partitioning]
+	4 [label="String to Date_Time"]
+	47 [label="Bar Chart"]
+	63 [label="Bar Chart"]
+	61 [label="String Manipulation"]
+	14 [label=Joiner]
+	38 [label=GroupBy]
+	60 [label="String Manipulation"]
+	5 [label="String To Number"]
+	13 [label=Joiner]
+	20 [label="Column Filter"]
+	35 [label="Rule Engine"]
+	62 [label="Bar Chart"]
+	34 [label="Bar Chart"]
+	29 [label="Number To String"]
+	43 [label="Number To String"]
+	44 [label="Bar Chart"]
+	36 [label="Bar Chart"]
+	46 [label="Number To String"]
+	40 [label=Pivot]
+	39 [label="Duplicate Row Filter"]
+	33 [label="Rule Engine"]
+	32 [label="Column Filter"]
+	2 [label="CSV Reader"]
+	37 [label="Duplicate Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,34 @@
+digraph {
+	56 -> 57
+	41 -> 42
+	53 -> 52
+	51 -> 45
+	49 -> 41
+	52 -> 49
+	41 -> 43
+	51 -> 49
+	3 -> 49
+	3 -> 57
+	42 -> 51
+	57 -> 53
+	53 -> 51
+	43 -> 51
+	2 -> 3
+	51 -> 54
+	1 -> 3
+	57 [label="Reference Row Filter"]
+	43 [label="Column Rename _Regex_"]
+	1 [label="Table Creator"]
+	42 [label="Column Rename _Regex_"]
+	49 [label="Row Filter"]
+	41 [label="Row Splitter"]
+	53 [label="Row Splitter"]
+	51 [label="Column Rename _Regex_"]
+	56 [label="Table Creator"]
+	54 [label="GroupBy Bar Chart _JFreeChart_"]
+	52 [label="Column Rename _Regex_"]
+	3 [label="Price War"]
+	2 [label="Table Creator"]
+	45 [label="Line Chart _JFreeChart_"]
+	rankdir=LR
+}

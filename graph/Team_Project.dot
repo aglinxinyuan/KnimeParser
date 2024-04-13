@@ -1,0 +1,32 @@
+digraph {
+	7 -> 8
+	4 -> 5
+	8 -> 9
+	15 -> 16
+	11 -> 14
+	1 -> 5
+	2 -> 7
+	5 -> 6
+	14 -> 15
+	11 -> 12
+	9 -> 10
+	6 -> 7
+	10 -> 11
+	3 -> 6
+	5 [label=Joiner]
+	16 [label="Table Transposer"]
+	14 [label="Table Transposer"]
+	1 [label="SAS7BDAT Reader"]
+	7 [label=Joiner]
+	9 [label="Row Filter"]
+	11 [label="Numeric Binner"]
+	4 [label="SAS7BDAT Reader"]
+	6 [label=Joiner]
+	8 [label="Row Filter"]
+	15 [label="Duplicate Row Filter"]
+	12 [label="Data Explorer"]
+	3 [label="SAS7BDAT Reader"]
+	2 [label="SAS7BDAT Reader"]
+	10 [label="Row Filter"]
+	rankdir=LR
+}

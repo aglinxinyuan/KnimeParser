@@ -1,0 +1,26 @@
+digraph {
+	53 -> 54
+	55 -> 57
+	58 -> 60
+	4 -> 51
+	52 -> 53
+	52 -> 56
+	51 -> 53
+	54 -> 55
+	57 -> 58
+	51 -> 56
+	56 -> 59
+	59 -> 60
+	57 [label="Profit Engine"]
+	55 [label="Demand Shredder"]
+	53 [label="Demand Shredder"]
+	51 [label="Customer Distributions"]
+	4 [label="Table Creator"]
+	56 [label="Profit Engine"]
+	58 [label="Row Filter"]
+	54 [label="Demand Shredder"]
+	52 [label="Table Creator"]
+	60 [label=Concatenate]
+	59 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,12 @@
+digraph {
+	2 -> 7
+	6 -> 7
+	7 -> 8
+	1 -> 2
+	1 [label="Excel Reader _XLS_"]
+	7 [label="Insert Column Header"]
+	6 [label="Excel Reader _XLS_"]
+	8 [label="Nominal Value Row Filter"]
+	2 [label="Row Filter"]
+	rankdir=LR
+}

@@ -1,0 +1,36 @@
+digraph {
+	97 -> 98
+	98 -> 99
+	99 -> 95
+	60 -> 57
+	59 -> 52
+	53 -> 42
+	56 -> 60
+	60 -> 93
+	60 -> 97
+	52 -> 60
+	86 -> 94
+	95 -> 86
+	94 -> 91
+	60 -> 56
+	92 -> 94
+	93 -> 92
+	57 -> 59
+	86 [label="t_SNE _L_ Jonsson_"]
+	91 [label="Scatter Plot _Plotly_"]
+	94 [label="Column Appender"]
+	99 [label="Constant Value Column Filter"]
+	57 [label=Sorter]
+	92 [label="Color Manager"]
+	42 [label="Column Rename"]
+	53 [label="CSV Reader"]
+	98 [label="Split Collection Column"]
+	97 [label="Image to DataRow"]
+	56 [label="String Manipulation"]
+	95 [label=Normalizer]
+	93 [label="Number To String"]
+	52 [label="Image Reader _Table_"]
+	60 [label="String To Number"]
+	59 [label=RowID]
+	rankdir=LR
+}

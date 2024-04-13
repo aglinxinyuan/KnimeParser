@@ -1,0 +1,90 @@
+digraph {
+	5 -> 8
+	33 -> 296
+	3 -> 2
+	31 -> 42
+	296 -> 771
+	7 -> 4
+	67 -> 50
+	57 -> 97
+	8 -> 3
+	51 -> 65
+	55 -> 780
+	776 -> 770
+	770 -> 779
+	57 -> 96
+	14 -> 41
+	15 -> 3
+	48 -> 51
+	30 -> 31
+	29 -> 30
+	780 -> 57
+	50 -> 51
+	42 -> 33
+	781 -> 773
+	12 -> 55
+	774 -> 781
+	97 -> 777
+	769 -> 768
+	96 -> 97
+	48 -> 49
+	4 -> 66
+	65 -> 13
+	66 -> 67
+	2 -> 14
+	6 -> 7
+	13 -> 12
+	3 -> 6
+	35 -> 29
+	49 -> 50
+	14 -> 5
+	296 -> 769
+	773 -> 776
+	771 -> 774
+	773 -> 770
+	41 -> 35
+	68 -> 48
+	57 [label=Partitioning]
+	55 [label="Color Manager"]
+	774 [label="Color Manager"]
+	7 [label="POS Tagger"]
+	97 [label="Decision Tree Predictor"]
+	8 [label="Number Filter"]
+	3 [label="Number To String"]
+	781 [label="Column Filter"]
+	49 [label=GroupBy]
+	41 [label="Stanford Tagger"]
+	31 [label="N Chars Filter"]
+	51 [label="Reference Row Filter"]
+	6 [label="Stop Word Filter"]
+	15 [label="Excel Reader"]
+	773 [label=Partitioning]
+	12 [label="Category To Class"]
+	770 [label="Decision Tree Predictor"]
+	48 [label="Term To String"]
+	50 [label="Row Filter"]
+	42 [label="Stop Word Filter"]
+	768 [label="Tag Cloud"]
+	68 [label="Bag Of Words Creator"]
+	296 [label="Topic Extractor _Parallel LDA_"]
+	67 [label="Java Edit Variable"]
+	777 [label="Scorer _JavaScript_"]
+	4 [label="Porter Stemmer"]
+	771 [label="Category To Class"]
+	14 [label="Column Filter"]
+	779 [label="Scorer _JavaScript_"]
+	5 [label="Punctuation Erasure"]
+	776 [label="Decision Tree Learner"]
+	13 [label="Document Vector"]
+	35 [label="Stanford Lemmatizer"]
+	96 [label="Decision Tree Learner"]
+	66 [label="Extract Table Dimension"]
+	29 [label="Punctuation Erasure"]
+	769 [label="Color Manager"]
+	65 [label=TF]
+	33 [label="Case Converter"]
+	30 [label="Number Filter"]
+	2 [label="Strings To Document"]
+	780 [label="Column Filter"]
+	rankdir=LR
+}

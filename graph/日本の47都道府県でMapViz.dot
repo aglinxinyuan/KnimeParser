@@ -1,0 +1,25 @@
+digraph {
+	831 -> 828
+	830 -> 831
+	839 -> 830
+	837 -> 828
+	821 -> 838
+	837 -> 815
+	833 -> 830
+	838 -> 839
+	829 -> 833
+	811 -> 815
+	828 -> 811
+	837 [label="Shapefile Polygon Reader"]
+	829 [label="Excel Reader"]
+	833 [label="String Manipulation"]
+	839 [label=Ungroup]
+	811 [label="Color Manager"]
+	828 [label=Joiner]
+	831 [label="Math Formula"]
+	821 [label="JSON Reader"]
+	830 [label=Joiner]
+	815 [label="OSM Map to Image"]
+	838 [label="JSON Path"]
+	rankdir=LR
+}

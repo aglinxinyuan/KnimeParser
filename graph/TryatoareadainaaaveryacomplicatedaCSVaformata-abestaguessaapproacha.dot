@@ -1,0 +1,115 @@
+digraph {
+	42 -> 44
+	85 -> 16
+	7 -> 8
+	75 -> 88
+	8 -> 13
+	41 -> 43
+	16 -> 82
+	67 -> 49
+	71 -> 72
+	56 -> 63
+	35 -> 56
+	63 -> 75
+	15 -> 13
+	74 -> 79
+	63 -> 68
+	55 -> 57
+	80 -> 79
+	61 -> 69
+	87 -> 47
+	46 -> 48
+	69 -> 70
+	59 -> 58
+	14 -> 15
+	91 -> 93
+	44 -> 45
+	57 -> 59
+	48 -> 94
+	68 -> 69
+	13 -> 81
+	76 -> 77
+	77 -> 78
+	78 -> 80
+	36 -> 63
+	81 -> 85
+	79 -> 46
+	84 -> 87
+	86 -> 41
+	88 -> 91
+	82 -> 86
+	72 -> 74
+	35 -> 36
+	94 -> 84
+	6 -> 7
+	60 -> 61
+	70 -> 71
+	56 -> 55
+	89 -> 90
+	83 -> 87
+	15 -> 41
+	58 -> 60
+	43 -> 44
+	1 -> 67
+	43 -> 42
+	88 -> 89
+	49 -> 35
+	90 -> 93
+	94 -> 83
+	93 -> 76
+	45 -> 1
+	91 [label="String Manipulation"]
+	57 [label="String Manipulation"]
+	55 [label="Regex Split"]
+	7 [label="Path to URI"]
+	79 [label=Concatenate]
+	89 [label="String Manipulation"]
+	58 [label="String Manipulation"]
+	8 [label="URL to File Path"]
+	74 [label="Column Combiner"]
+	78 [label="Column Combiner"]
+	49 [label="Rule_based Row Filter"]
+	84 [label="Excel Writer"]
+	41 [label="Table Row To Variable Loop Start"]
+	56 [label="Rule_based Row Filter"]
+	6 [label="List Files_Folders"]
+	15 [label="Table Column to Variable"]
+	75 [label="Rule_based Row Filter"]
+	59 [label="Math Formula"]
+	85 [label="Java Snippet _simple_"]
+	16 [label="String to Path"]
+	48 [label="CSV Reader"]
+	86 [label="String to Path"]
+	1 [label="CSV Reader"]
+	42 [label="Delete Files_Folders"]
+	90 [label="String Manipulation"]
+	68 [label="Rule_based Row Filter"]
+	87 [label="Merge Variables"]
+	67 [label="Counter Generation"]
+	72 [label="Column Filter"]
+	47 [label="Variable Loop End"]
+	63 [label="Reference Row Filter"]
+	61 [label="String Manipulation"]
+	76 [label="Column Filter"]
+	77 [label=Transpose]
+	14 [label="Extract System Properties"]
+	93 [label=Concatenate]
+	83 [label="Table Writer"]
+	60 [label="String Manipulation"]
+	81 [label="Java Snippet _simple_"]
+	94 [label="Column Rename"]
+	13 [label="Java Snippet _simple_"]
+	35 [label="Rule Engine"]
+	43 [label="Try _Variable Ports_"]
+	44 [label="Catch Errors _Var Ports_"]
+	82 [label="String to Path"]
+	70 [label="Rule Engine"]
+	69 [label=Joiner]
+	36 [label="Missing Value"]
+	71 [label="Column Resorter"]
+	46 [label="CSV Writer"]
+	88 [label="Rule_based Row Splitter"]
+	80 [label="String Manipulation"]
+	45 [label="Merge Variables"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	6 -> 8
+	20 -> 7
+	18 -> 17
+	19 -> 18
+	17 -> 20
+	6 -> 19
+	7 -> 9
+	20 [label="String To Number"]
+	7 [label="Color Manager"]
+	9 [label="3D Scatter Plot _Plotly_"]
+	18 [label="Counter Generation"]
+	6 [label="File Reader"]
+	8 [label="Surface Plot _Plotly_"]
+	17 [label=Unpivoting]
+	19 [label="Column Rename _Regex_"]
+	rankdir=LR
+}

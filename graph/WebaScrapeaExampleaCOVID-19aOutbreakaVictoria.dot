@@ -1,0 +1,21 @@
+digraph {
+	15 -> 14
+	5 -> 17
+	4 -> 5
+	3 -> 4
+	12 -> 16
+	2 -> 3
+	14 -> 13
+	13 -> 12
+	5 [label=Ungroup]
+	16 [label="Excel Writer _XLS_"]
+	13 [label=Pivoting]
+	4 [label=Pivoting]
+	15 [label="Webpage Retriever"]
+	14 [label=XPath]
+	17 [label="Table View"]
+	3 [label=XPath]
+	2 [label="Webpage Retriever"]
+	12 [label=Ungroup]
+	rankdir=LR
+}

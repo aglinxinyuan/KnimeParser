@@ -1,0 +1,39 @@
+digraph {
+	7 -> 8
+	11 -> 12
+	25 -> 14
+	1 -> 2
+	23 -> 24
+	15 -> 16
+	3 -> 4
+	19 -> 20
+	5 -> 6
+	21 -> 22
+	17 -> 18
+	9 -> 10
+	7 [label="Excel Reader"]
+	9 [label="Excel Reader"]
+	18 [label=Statistics]
+	21 [label="Excel Reader"]
+	8 [label=Statistics]
+	17 [label="Excel Reader"]
+	3 [label="Excel Reader"]
+	19 [label="Excel Reader"]
+	24 [label=Statistics]
+	6 [label=Statistics]
+	15 [label="Excel Reader"]
+	25 [label="Excel Reader"]
+	12 [label=Statistics]
+	10 [label=Statistics]
+	16 [label=Statistics]
+	1 [label="Excel Reader"]
+	22 [label=Statistics]
+	11 [label="Excel Reader"]
+	4 [label=Statistics]
+	23 [label="Excel Reader"]
+	14 [label=Statistics]
+	5 [label="Excel Reader"]
+	20 [label=Statistics]
+	2 [label=Statistics]
+	rankdir=LR
+}

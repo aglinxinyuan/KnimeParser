@@ -1,0 +1,26 @@
+digraph {
+	11 -> 10
+	3 -> 7
+	1 -> 2
+	8 -> 9
+	4 -> 8
+	7 -> 4
+	9 -> 11
+	11 -> 12
+	2 -> 3
+	2 -> 5
+	4 -> 6
+	5 [label=Statistics]
+	1 [label="Table Creator"]
+	7 [label="Recursive Loop Start _2 ports_"]
+	9 [label="Recursive Loop End _2 ports_"]
+	11 [label=Pivoting]
+	4 [label="Scale Purchased"]
+	6 [label=Statistics]
+	8 [label="Simulate Market"]
+	12 [label="Line Chart _JFreeChart_"]
+	3 [label="Simulate Market"]
+	2 [label="Customer Distributions"]
+	10 [label="Stacked Area Chart"]
+	rankdir=LR
+}

@@ -1,0 +1,18 @@
+digraph {
+	5 -> 8
+	7 -> 8
+	3 -> 4
+	8 -> 3
+	2 -> 7
+	1 -> 2
+	2 -> 3
+	2 -> 4
+	5 [label="Create Temp Dir"]
+	1 [label="Table Creator"]
+	7 [label="Table Row to Variable"]
+	4 [label="Loop End"]
+	8 [label="Create File Name"]
+	3 [label="CSV Writer"]
+	2 [label="Chunk Loop Start"]
+	rankdir=LR
+}

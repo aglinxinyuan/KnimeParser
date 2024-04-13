@@ -1,0 +1,19 @@
+digraph {
+	38 -> 41
+	42 -> 44
+	41 -> 42
+	42 -> 43
+	27 -> 37
+	40 -> 42
+	38 -> 40
+	37 -> 38
+	27 [label="Excel Reader"]
+	43 [label="Bar Chart"]
+	44 [label="Line Plot"]
+	42 [label=Concatenate]
+	41 [label="Row Filter"]
+	40 [label="Row Filter"]
+	38 [label="Row Filter"]
+	37 [label="Column Filter"]
+	rankdir=LR
+}

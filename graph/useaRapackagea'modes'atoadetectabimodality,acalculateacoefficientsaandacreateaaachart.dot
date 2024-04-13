@@ -1,0 +1,28 @@
+digraph {
+	17 -> 15
+	1 -> 17
+	1 -> 20
+	20 -> 247
+	247 -> 248
+	249 -> 245
+	241 -> 242
+	242 -> 243
+	20 -> 250
+	243 -> 240
+	248 -> 249
+	15 -> 241
+	245 [label="Java Edit Variable _simple_"]
+	242 [label="Renderer to Image"]
+	247 [label="Math Formula _Multi Column_"]
+	248 [label="Number To String"]
+	20 [label="R Snippet"]
+	1 [label="R Source _Table_"]
+	241 [label="Image To Table"]
+	243 [label="Table To Image"]
+	250 [label="Excel Sheet Appender _XLS_"]
+	249 [label="Table Row to Variable"]
+	15 [label="R View _Workspace_"]
+	17 [label="Table to R"]
+	240 [label="Image Port Writer"]
+	rankdir=LR
+}

@@ -1,0 +1,13 @@
+digraph {
+	81 -> 80
+	79 -> 78
+	77 -> 81
+	77 -> 1
+	1 [label="Extract Table Spec"]
+	79 [label="Excel Reader"]
+	77 [label="Excel Reader"]
+	80 [label="Extract Table Spec"]
+	81 [label="Color Manager"]
+	78 [label="Extract Table Dimension"]
+	rankdir=LR
+}

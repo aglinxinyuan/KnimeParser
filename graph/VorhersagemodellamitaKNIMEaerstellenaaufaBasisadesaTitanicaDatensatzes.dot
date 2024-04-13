@@ -1,0 +1,32 @@
+digraph {
+	447 -> 4
+	4 -> 238
+	150 -> 446
+	454 -> 453
+	11 -> 451
+	12 -> 454
+	448 -> 177
+	150 -> 149
+	238 -> 11
+	154 -> 150
+	177 -> 154
+	452 -> 12
+	452 -> 177
+	451 -> 452
+	150 [label="Column Rename"]
+	446 [label="Binary Classification Inspector"]
+	11 [label="Decision Tree Learner"]
+	4 [label="Column Filter"]
+	454 [label=Sorter]
+	452 [label="PMML Reader"]
+	154 [label="Column Filter"]
+	447 [label="Table Reader"]
+	451 [label="PMML Writer"]
+	177 [label="Decision Tree Predictor"]
+	149 [label="ROC Curve _local_"]
+	238 [label="Domain Calculator"]
+	453 [label="Excel Writer"]
+	12 [label="Decision Tree to Ruleset"]
+	448 [label="Table Reader"]
+	rankdir=LR
+}

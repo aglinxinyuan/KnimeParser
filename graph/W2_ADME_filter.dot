@@ -1,0 +1,40 @@
+digraph {
+	55 -> 59
+	262 -> 263
+	59 -> 262
+	263 -> 283
+	7 -> 275
+	285 -> 282
+	7 -> 284
+	59 -> 7
+	258 -> 259
+	284 -> 274
+	257 -> 260
+	282 -> 12
+	275 -> 264
+	21 -> 257
+	259 -> 55
+	260 -> 258
+	12 -> 11
+	11 -> 21
+	263 [label="Math Formula"]
+	55 [label="Column Aggregator"]
+	275 [label="Constant Value Column"]
+	7 [label="Column Filter"]
+	284 [label="Workflow Service Output"]
+	21 [label="RDKit Descriptor Calculation"]
+	259 [label="Math Formula"]
+	283 [label="Workflow Service Output"]
+	282 [label="Workflow Service Input"]
+	12 [label="Molecule Type Cast"]
+	59 [label="Numeric Row Splitter"]
+	260 [label="Math Formula"]
+	274 [label="CSV Writer"]
+	262 [label="Math Formula"]
+	285 [label="CSV Reader"]
+	11 [label="RDKit From Molecule"]
+	257 [label="Math Formula"]
+	264 [label=GroupBy]
+	258 [label="Math Formula"]
+	rankdir=LR
+}

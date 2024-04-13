@@ -1,0 +1,10 @@
+digraph {
+	6 -> 5
+	5 -> 7
+	3 -> 5
+	5 [label="Random Forest Predictor"]
+	7 [label="Workflow Service Output"]
+	3 [label="PortObject Reference Reader"]
+	6 [label="Workflow Service Input"]
+	rankdir=LR
+}

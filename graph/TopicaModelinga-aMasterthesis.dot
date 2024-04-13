@@ -1,0 +1,47 @@
+digraph {
+	111 -> 781
+	111 -> 785
+	111 -> 112
+	22 -> 33
+	18 -> 105
+	783 -> 784
+	20 -> 23
+	22 -> 17
+	14 -> 15
+	17 -> 18
+	105 -> 774
+	778 -> 20
+	105 -> 111
+	33 -> 14
+	105 -> 105
+	109 -> 110
+	775 -> 780
+	775 -> 777
+	15 -> 20
+	110 -> 778
+	23 -> 22
+	774 -> 775
+	784 [label=Shuffle]
+	774 [label=GroupBy]
+	18 [label="Snowball Stemmer"]
+	105 [label="Tag Filter"]
+	17 [label="Case converter"]
+	781 [label=Shuffle]
+	778 [label="Row Filter"]
+	775 [label=Sorter]
+	15 [label="Punctuation Erasure"]
+	109 [label="CSV Reader"]
+	110 [label="Row Filter"]
+	785 [label="Bubble Chart _JFreeChart_"]
+	112 [label="Tag Cloud"]
+	22 [label="Column Filter"]
+	777 [label="Bar Chart"]
+	23 [label="Strings To Document"]
+	14 [label="Number Filter"]
+	783 [label="Table Creator"]
+	20 [label="Row Filter"]
+	111 [label="Color Manager"]
+	33 [label="POS Tagger"]
+	780 [label="GroupBy Bar Chart _JFreeChart_"]
+	rankdir=LR
+}

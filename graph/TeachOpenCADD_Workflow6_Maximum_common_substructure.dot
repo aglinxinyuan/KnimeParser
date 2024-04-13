@@ -1,0 +1,27 @@
+digraph {
+	54 -> 52
+	49 -> 100
+	272 -> 54
+	260 -> 259
+	51 -> 49
+	271 -> 272
+	54 -> 51
+	57 -> 260
+	273 -> 271
+	100 -> 57
+	261 -> 51
+	52 -> 261
+	260 [label="Column Filter"]
+	57 [label="Loop End"]
+	49 [label="RDKit Molecule Highlighting"]
+	261 [label="Table Row to Variable"]
+	51 [label="RDKit Substructure Filter"]
+	273 [label="CSV Reader"]
+	272 [label="RDKit From Molecule"]
+	100 [label="Constant Value Column"]
+	52 [label="RDKit MCS"]
+	54 [label="Group Loop Start"]
+	271 [label="Molecule Type Cast"]
+	259 [label="Table View"]
+	rankdir=LR
+}

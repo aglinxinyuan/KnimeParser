@@ -1,0 +1,128 @@
+digraph {
+	41 -> 42
+	10 -> 13
+	56 -> 58
+	12 -> 57
+	32 -> 8
+	63 -> 31
+	39 -> 40
+	65 -> 66
+	21 -> 22
+	52 -> 54
+	12 -> 18
+	23 -> 62
+	12 -> 46
+	27 -> 28
+	51 -> 59
+	38 -> 41
+	51 -> 52
+	12 -> 13
+	20 -> 23
+	55 -> 56
+	50 -> 51
+	31 -> 33
+	21 -> 20
+	14 -> 15
+	16 -> 47
+	12 -> 33
+	44 -> 45
+	11 -> 12
+	16 -> 18
+	24 -> 55
+	61 -> 64
+	58 -> 57
+	37 -> 38
+	19 -> 23
+	12 -> 27
+	46 -> 47
+	12 -> 54
+	48 -> 49
+	22 -> 24
+	12 -> 19
+	15 -> 17
+	66 -> 30
+	24 -> 64
+	45 -> 53
+	23 -> 55
+	31 -> 25
+	47 -> 48
+	64 -> 65
+	5 -> 32
+	10 -> 15
+	49 -> 50
+	19 -> 24
+	32 -> 9
+	61 -> 62
+	12 -> 61
+	40 -> 33
+	43 -> 44
+	38 -> 39
+	8 -> 10
+	30 -> 34
+	30 -> 26
+	62 -> 63
+	19 -> 28
+	17 -> 16
+	9 -> 10
+	42 -> 34
+	12 -> 34
+	28 -> 29
+	27 [label="Google Sheets Reader"]
+	57 [label="Google Sheets Appender"]
+	55 [label=Concatenate]
+	9 [label="Column Filter"]
+	45 [label="Row Filter"]
+	52 [label="Loop End"]
+	18 [label="Google Sheets Appender"]
+	21 [label="Amazon Redshift Connector"]
+	26 [label="CSV Writer"]
+	58 [label="Column Filter"]
+	8 [label="Column Filter"]
+	17 [label="Column Filter"]
+	19 [label="Google Sheets Reader"]
+	24 [label=Joiner]
+	64 [label=Joiner]
+	49 [label="Column Filter"]
+	41 [label="String Manipulation"]
+	31 [label="String Manipulation"]
+	51 [label="Rule Engine"]
+	56 [label="Row Filter"]
+	15 [label=Joiner]
+	54 [label="Google Sheets Appender"]
+	25 [label="CSV Writer"]
+	12 [label="Google Sheets Connection"]
+	10 [label=Joiner]
+	59 [label="Table Transposer"]
+	16 [label="Duplicate Row Filter"]
+	48 [label="Duplicate Row Filter"]
+	30 [label="String Manipulation"]
+	50 [label="Chunk Loop Start"]
+	42 [label="Table Row To Variable"]
+	22 [label="DB Query Reader"]
+	53 [label=Concatenate]
+	28 [label=Joiner]
+	11 [label="Google Authentication"]
+	47 [label=Joiner]
+	23 [label=Joiner]
+	61 [label="Google Sheets Reader"]
+	63 [label="Rule Engine"]
+	14 [label="CSV Reader"]
+	38 [label="Date_Time to String"]
+	5 [label="Amazon Redshift Connector"]
+	13 [label="Google Sheets Appender"]
+	20 [label="DB Query Reader"]
+	43 [label="CSV Reader"]
+	34 [label="Google Sheets Appender"]
+	62 [label=Joiner]
+	29 [label="CSV Writer"]
+	44 [label="Column Name Extractor"]
+	65 [label="Rule Engine"]
+	66 [label="String Manipulation"]
+	46 [label="Google Sheets Reader"]
+	40 [label="Table Row To Variable"]
+	39 [label="String Manipulation"]
+	33 [label="Google Sheets Appender"]
+	32 [label="DB Query Reader"]
+	37 [label="Create Date_Time Range"]
+	rankdir=LR
+}

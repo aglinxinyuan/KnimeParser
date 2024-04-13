@@ -1,0 +1,12 @@
+digraph {
+	2 -> 6
+	6 -> 4
+	5 -> 4
+	1 -> 5
+	5 [label="String Manipulation"]
+	1 [label="Table Creator"]
+	4 [label="Rule Engine _Dictionary_"]
+	6 [label="String Manipulation"]
+	2 [label="Table Creator"]
+	rankdir=LR
+}

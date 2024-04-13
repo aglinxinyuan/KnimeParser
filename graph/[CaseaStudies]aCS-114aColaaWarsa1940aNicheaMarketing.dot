@@ -1,0 +1,35 @@
+digraph {
+	11 -> 10
+	4 -> 5
+	7 -> 17
+	8 -> 9
+	12 -> 14
+	9 -> 11
+	3 -> 4
+	9 -> 13
+	9 -> 12
+	5 -> 6
+	12 -> 16
+	2 -> 3
+	6 -> 7
+	10 -> 12
+	1 -> 3
+	7 -> 9
+	5 [label="Gaussian Distributed Assigner"]
+	16 [label="Row Splitter"]
+	13 [label=GroupBy]
+	1 [label="Table Creator"]
+	7 [label="Column Filter"]
+	9 [label="Simulate Market"]
+	11 [label="Row Splitter"]
+	4 [label="Gaussian Distributed Assigner"]
+	10 [label="Scale Demographic"]
+	6 [label="Math Formula"]
+	8 [label="Table Creator"]
+	14 [label=GroupBy]
+	17 [label="Linear Correlation"]
+	3 [label="Random Label Assigner _Data_"]
+	2 [label="Empty Table Creator"]
+	12 [label="Simulate Market"]
+	rankdir=LR
+}

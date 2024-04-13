@@ -1,0 +1,19 @@
+digraph {
+	9 -> 7
+	11 -> 10
+	7 -> 14
+	13 -> 9
+	5 -> 11
+	13 -> 5
+	1 -> 13
+	5 -> 7
+	5 [label="Row Filter"]
+	13 [label=Splitter]
+	1 [label="File Reader"]
+	7 [label=Joiner]
+	9 [label="Nominal Value Row Filter"]
+	11 [label="Column Filter"]
+	14 [label=Statistics]
+	10 [label="Box Plot"]
+	rankdir=LR
+}

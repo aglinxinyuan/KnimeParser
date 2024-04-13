@@ -1,0 +1,24 @@
+digraph {
+	31 -> 35
+	33 -> 15
+	290 -> 291
+	30 -> 31
+	6 -> 29
+	29 -> 30
+	35 -> 33
+	291 -> 34
+	34 -> 6
+	15 -> 221
+	290 [label="CSV Reader"]
+	35 [label="Stop Word Filter"]
+	34 [label="Strings To Document"]
+	29 [label="Punctuation Erasure"]
+	31 [label="N Chars Filter"]
+	291 [label="Number To String"]
+	6 [label="Column Filter"]
+	15 [label="Topic Extractor _Parallel LDA_"]
+	33 [label="Case converter"]
+	30 [label="Number Filter"]
+	221 [label=GroupBy]
+	rankdir=LR
+}
