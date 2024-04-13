@@ -9,14 +9,14 @@ class Parser:
     def parse(self, zf, filename):
         meta_inputs = []
         meta_outputs = []
-
+        node_hash = str(hash(filename))+"_"
         with zf.open(filename) as file:
             root = ElementTree.parse(file).getroot()
             for child in root:
                 key = child.attrib["key"]
                 if key == "nodes":
                     for node in child:
-                        node_id = node.attrib["key"].split("_")[1]
+                        node_id = node_hash+node.attrib["key"].split("_")[1]
                         is_meta = False
                         for entry in reversed(node):
                             if entry.attrib["key"] == "node_is_meta" and entry.attrib["value"] == "true":
@@ -35,16 +35,16 @@ class Parser:
                     for connection in child:
                         for entry in connection:
                             if entry.attrib["key"] == "sourceID":
-                                source = entry.attrib["value"]
+                                source = node_hash+entry.attrib["value"]
                             if entry.attrib["key"] == "destID":
-                                dest = entry.attrib["value"]
+                                dest = node_hash+entry.attrib["value"]
                             if entry.attrib["key"] == "sourcePort":
                                 source_port = entry.attrib["value"]
                             if entry.attrib["key"] == "destPort":
                                 dest_port = entry.attrib["value"]
-                        if source == "-1":
+                        if source == node_hash+"-1":
                             meta_inputs.append((dest, dest_port))
-                        elif dest == "-1":
+                        elif dest == node_hash+"-1":
                             meta_outputs.append((source, source_port))
                         else:
                             self.edges.append(((source, source_port), (dest, dest_port)))
@@ -55,13 +55,12 @@ class Parser:
             self.blocking_op = set([line.strip() for line in file.readlines()])
         self.metanodes = dict()
         self.edges = []
-        self.graph = Digraph()
         self.blocking = 0
         self.nodes = {}
         with ZipFile(filename) as zf:
             for name in zf.namelist():
                 if name.count("/") == 1 and name.endswith("workflow.knime"):
-                    self.workflow_name = name[:name.rfind("/")]
+                    workflow_name = name[:name.rfind("/")]
                     self.parse(zf, name)
 
         self.counter = 0
@@ -79,7 +78,6 @@ class Parser:
 
         in_degree = Counter()
         out_degree = Counter()
-
         in_port = defaultdict(list)
         out_port = defaultdict(list)
 
@@ -91,25 +89,28 @@ class Parser:
             in_port[dest[0]].append(dest[1])
             out_port[source[0]].append(source[1])
         nx_graph = nx.Graph()
-        for source, dest in unique_edges:
-            nx_graph.add_edge(source, dest)
-            self.graph.edge(source, dest)
+
 
         mult_in = [len(in_port[node]) for node in in_port if len(in_port[node]) > 1]
         mult_out = [len(out_port[node]) for node in out_port if len(out_port[node]) > 1]
 
+        graph = Digraph()
         op_list = set([element[0] for tup in self.edges for element in tup])
         for id in op_list:
             name = self.nodes[id]
             if name in self.blocking_op:
                 self.blocking += 1
-            self.graph.node(name=id, label=name)
+            graph.node(name=id, label=name)
+
+        for source, dest in unique_edges:
+            nx_graph.add_edge(source, dest)
+            graph.edge(source, dest)
 
         output = "graph/" + filename.split("/")[-1].split(".")[0]
-        self.graph.attr(rankdir='LR')
-        self.graph.render(filename=output + ".dot", view=view)
+        graph.attr(rankdir='LR')
+        graph.render(filename=output + ".dot", view=view)
         cycles = nx.find_cycle(nx_graph)
-        content = (f"Workflow Name: {self.workflow_name}\n"
+        content = (f"Workflow Name: {workflow_name}\n"
                    f"Tree: {len(cycles) == 0}\n"
                    f"Operators: {len(op_list)}\n"
                    f"Edges: {len(self.edges)}\n"
@@ -124,11 +125,12 @@ class Parser:
                    f"MAX outdegree of an operator: {max(out_degree.values())}\n"
                    f"# edges in an undirected cycle: {len(cycles)}\n"
                    )
-        #print(content)
+        print(content)
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
 
 
 if __name__ == "__main__":
-    Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
+    #Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
+    Parser("workflows/(test) credit score model.knwf", True)
     #Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)
