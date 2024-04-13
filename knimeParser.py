@@ -111,7 +111,7 @@ class Parser:
         graph.render(filename=output + ".dot", view=view)
         cycles = nx.find_cycle(nx_graph)
         content = (f"Workflow Name: {workflow_name}\n"
-                   f"Tree: {len(cycles) == 0}\n"
+                   f"Tree: {len(cycles) != 0}\n"
                    f"Operators: {len(op_list)}\n"
                    f"Edges: {len(self.edges)}\n"
                    f"Blocking edges: {self.blocking}\n"
@@ -125,7 +125,7 @@ class Parser:
                    f"MAX outdegree of an operator: {max(out_degree.values())}\n"
                    f"# edges in an undirected cycle: {len(cycles)}\n"
                    )
-        print(content)
+        #print(content)
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
 

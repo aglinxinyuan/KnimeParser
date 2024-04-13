@@ -1,14 +1,14 @@
 digraph {
-	4 -> 5
-	3 -> 4
-	8 -> 2
-	2 -> 3
-	4 -> 6
-	5 [label=MeasurementToTable]
-	4 [label=PipelineExecutor]
-	6 [label="CellProfiler Measurements To Table"]
-	8 [label="Image Reader"]
-	3 [label="Column Rename"]
-	2 [label="Column to Grid"]
+	"4899014209228206224_2" [label="Column to Grid"]
+	"-3174073053558272492_6" [label="CellProfiler Measurements To Table"]
+	"-3174073053558272492_4" [label=PipelineExecutor]
+	"4899014209228206224_3" [label="Column Rename"]
+	"-3174073053558272492_8" [label="Image Reader"]
+	"-3174073053558272492_5" [label=MeasurementToTable]
+	"-3174073053558272492_8" -> "4899014209228206224_2"
+	"-3174073053558272492_4" -> "-3174073053558272492_6"
+	"-3174073053558272492_4" -> "-3174073053558272492_5"
+	"4899014209228206224_3" -> "-3174073053558272492_4"
+	"4899014209228206224_2" -> "4899014209228206224_3"
 	rankdir=LR
 }

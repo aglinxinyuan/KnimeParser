@@ -1,11 +1,11 @@
 digraph {
-	5 -> 7
-	2 -> 4
-	7 -> 6
-	5 [label="Excel Reader"]
-	7 [label="Table Editor"]
-	4 [label=Statistics]
-	6 [label="Excel Writer"]
-	2 [label="CSV Reader"]
+	"4592637815913754774_5" [label="Excel Reader"]
+	"4592637815913754774_4" [label=Statistics]
+	"4592637815913754774_6" [label="Excel Writer"]
+	"4592637815913754774_7" [label="Table Editor"]
+	"4592637815913754774_2" [label="CSV Reader"]
+	"4592637815913754774_2" -> "4592637815913754774_4"
+	"4592637815913754774_5" -> "4592637815913754774_7"
+	"4592637815913754774_7" -> "4592637815913754774_6"
 	rankdir=LR
 }

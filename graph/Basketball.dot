@@ -1,10 +1,10 @@
 digraph {
-	1 -> 6
-	1 -> 4
-	1 -> 3
-	1 [label="CSV Reader"]
-	4 [label="Row Filter"]
-	3 [label=Partitioning]
-	6 [label="Row Splitter"]
+	"7929192862138183345_4" [label="Row Filter"]
+	"7929192862138183345_3" [label=Partitioning]
+	"7929192862138183345_1" [label="CSV Reader"]
+	"7929192862138183345_6" [label="Row Splitter"]
+	"7929192862138183345_1" -> "7929192862138183345_3"
+	"7929192862138183345_1" -> "7929192862138183345_6"
+	"7929192862138183345_1" -> "7929192862138183345_4"
 	rankdir=LR
 }

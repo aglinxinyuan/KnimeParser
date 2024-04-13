@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Table Creator"]
-	2 [label="String Replacer"]
+	"130285810783475821_2" [label="String Replacer"]
+	"130285810783475821_1" [label="Table Creator"]
+	"130285810783475821_1" -> "130285810783475821_2"
 	rankdir=LR
 }

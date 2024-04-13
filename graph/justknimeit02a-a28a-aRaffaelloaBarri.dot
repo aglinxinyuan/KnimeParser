@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	3 -> 2
-	1 [label="Table Creator"]
-	3 [label=GroupBy]
-	2 [label="Python View"]
+	"-1718054700415239236_1" [label="Table Creator"]
+	"-1718054700415239236_2" [label="Python View"]
+	"-1718054700415239236_3" [label=GroupBy]
+	"-1718054700415239236_3" -> "-1718054700415239236_2"
+	"-1718054700415239236_1" -> "-1718054700415239236_3"
 	rankdir=LR
 }

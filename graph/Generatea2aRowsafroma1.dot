@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label="Column Expressions"]
-	3 [label="One Row to Many"]
-	2 [label="Rule Engine"]
+	"-5406700453213624225_2" [label="Rule Engine"]
+	"-5406700453213624225_4" [label="Column Expressions"]
+	"-5406700453213624225_3" [label="One Row to Many"]
+	"-5406700453213624225_1" [label="Table Creator"]
+	"-5406700453213624225_1" -> "-5406700453213624225_2"
+	"-5406700453213624225_3" -> "-5406700453213624225_4"
+	"-5406700453213624225_2" -> "-5406700453213624225_3"
 	rankdir=LR
 }

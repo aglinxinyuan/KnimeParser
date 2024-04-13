@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Fixed Width File Reader"]
-	3 [label="Column Expressions"]
-	2 [label="Column Expressions"]
+	"510711179108976333_2" [label="Column Expressions"]
+	"510711179108976333_1" [label="Fixed Width File Reader"]
+	"510711179108976333_3" [label="Column Expressions"]
+	"510711179108976333_2" -> "510711179108976333_3"
+	"510711179108976333_1" -> "510711179108976333_2"
 	rankdir=LR
 }

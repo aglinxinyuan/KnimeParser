@@ -1,8 +1,8 @@
 digraph {
-	3 -> 4
-	4 -> 2
-	4 [label="Color Manager"]
-	3 [label="Table Reader"]
-	2 [label="Plate Heatmap Viewer"]
+	"8105543923523978952_3" [label="Table Reader"]
+	"8105543923523978952_4" [label="Color Manager"]
+	"8105543923523978952_2" [label="Plate Heatmap Viewer"]
+	"8105543923523978952_3" -> "8105543923523978952_4"
+	"8105543923523978952_4" -> "8105543923523978952_2"
 	rankdir=LR
 }

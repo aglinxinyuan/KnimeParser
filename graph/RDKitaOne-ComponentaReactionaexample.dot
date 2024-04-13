@@ -1,10 +1,10 @@
 digraph {
-	3 -> 2
-	3 -> 5
-	4 -> 5
-	5 [label="RDKit Two Component Reaction"]
-	4 [label="Table Creator"]
-	3 [label="Table Creator"]
-	2 [label="RDKit One Component Reaction"]
+	"4336942274551310915_2" [label="RDKit One Component Reaction"]
+	"4336942274551310915_5" [label="RDKit Two Component Reaction"]
+	"4336942274551310915_4" [label="Table Creator"]
+	"4336942274551310915_3" [label="Table Creator"]
+	"4336942274551310915_4" -> "4336942274551310915_5"
+	"4336942274551310915_3" -> "4336942274551310915_5"
+	"4336942274551310915_3" -> "4336942274551310915_2"
 	rankdir=LR
 }

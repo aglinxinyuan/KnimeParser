@@ -1,8 +1,8 @@
 digraph {
-	2 -> 4
-	3 -> 2
-	4 [label="Image Writer _Port_"]
-	3 [label="File Reader"]
-	2 [label=Histogram]
+	"-1589985626040365292_3" [label="File Reader"]
+	"-1589985626040365292_2" [label=Histogram]
+	"-1589985626040365292_4" [label="Image Writer _Port_"]
+	"-1589985626040365292_3" -> "-1589985626040365292_2"
+	"-1589985626040365292_2" -> "-1589985626040365292_4"
 	rankdir=LR
 }

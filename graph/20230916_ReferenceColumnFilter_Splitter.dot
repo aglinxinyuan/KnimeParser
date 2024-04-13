@@ -1,12 +1,12 @@
 digraph {
-	2 -> 1
-	1 -> 4
-	3 -> 5
-	4 -> 5
-	5 [label="Reference Column Filter"]
-	1 [label=RowID]
-	4 [label=Transpose]
-	3 [label="Excel Reader"]
-	2 [label="Table Creator"]
+	"6018910473679483644_2" [label="Table Creator"]
+	"6018910473679483644_3" [label="Excel Reader"]
+	"6018910473679483644_1" [label=RowID]
+	"6018910473679483644_4" [label=Transpose]
+	"6018910473679483644_5" [label="Reference Column Filter"]
+	"6018910473679483644_2" -> "6018910473679483644_1"
+	"6018910473679483644_3" -> "6018910473679483644_5"
+	"6018910473679483644_4" -> "6018910473679483644_5"
+	"6018910473679483644_1" -> "6018910473679483644_4"
 	rankdir=LR
 }

@@ -1,9 +1,9 @@
 digraph {
-	1056 -> 1053
-	1054 -> 1055
-	1053 [label="Interactive Table _local_"]
-	1055 [label="Interactive Table _local_"]
-	1056 [label="SAS7BDAT Reader"]
-	1054 [label="Python Source"]
+	"4592774147603514293_1056" [label="SAS7BDAT Reader"]
+	"4592774147603514293_1055" [label="Interactive Table _local_"]
+	"4592774147603514293_1053" [label="Interactive Table _local_"]
+	"4592774147603514293_1054" [label="Python Source"]
+	"4592774147603514293_1054" -> "4592774147603514293_1055"
+	"4592774147603514293_1056" -> "4592774147603514293_1053"
 	rankdir=LR
 }

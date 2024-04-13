@@ -1,33 +1,33 @@
 digraph {
-	13 -> 10
-	22 -> 24
-	4 -> 2
-	4 -> 5
-	4 -> 25
-	6 -> 11
-	13 -> 22
-	6 -> 13
-	19 -> 20
-	5 -> 12
-	5 -> 6
-	1 -> 19
-	20 -> 4
-	20 -> 22
-	22 -> 23
-	5 [label="DFG Miner"]
-	24 [label="Alignment_Based Fitness Evaluator"]
-	13 [label="Process Tree to Petri Net Converter"]
-	20 [label=Sorter]
-	1 [label="CSV Reader"]
-	22 [label="Alignment_Based Replayer"]
-	11 [label="Process Tree Visualizer"]
-	4 [label="Filter Event Table By Frequency"]
-	23 [label="Alignment_Based Precision Evaluator"]
-	10 [label="Petri Net Visualizer"]
-	6 [label="Inductive Miner _DFG Table_"]
-	25 [label="Trace Variant Explorer"]
-	12 [label="DFG Visualizer"]
-	2 [label="Table to XLog Converter"]
-	19 [label="String to Date_Time"]
+	"-5490529744874427473_4" [label="Filter Event Table By Frequency"]
+	"-5490529744874427473_19" [label="String to Date_Time"]
+	"-5490529744874427473_22" [label="Alignment_Based Replayer"]
+	"-5490529744874427473_1" [label="CSV Reader"]
+	"-5490529744874427473_23" [label="Alignment_Based Precision Evaluator"]
+	"-5490529744874427473_6" [label="Inductive Miner _DFG Table_"]
+	"-5490529744874427473_12" [label="DFG Visualizer"]
+	"-5490529744874427473_25" [label="Trace Variant Explorer"]
+	"-5490529744874427473_20" [label=Sorter]
+	"-5490529744874427473_24" [label="Alignment_Based Fitness Evaluator"]
+	"-5490529744874427473_11" [label="Process Tree Visualizer"]
+	"-5490529744874427473_2" [label="Table to XLog Converter"]
+	"-5490529744874427473_10" [label="Petri Net Visualizer"]
+	"-5490529744874427473_5" [label="DFG Miner"]
+	"-5490529744874427473_13" [label="Process Tree to Petri Net Converter"]
+	"-5490529744874427473_22" -> "-5490529744874427473_23"
+	"-5490529744874427473_6" -> "-5490529744874427473_11"
+	"-5490529744874427473_19" -> "-5490529744874427473_20"
+	"-5490529744874427473_5" -> "-5490529744874427473_12"
+	"-5490529744874427473_4" -> "-5490529744874427473_2"
+	"-5490529744874427473_20" -> "-5490529744874427473_22"
+	"-5490529744874427473_4" -> "-5490529744874427473_25"
+	"-5490529744874427473_1" -> "-5490529744874427473_19"
+	"-5490529744874427473_5" -> "-5490529744874427473_6"
+	"-5490529744874427473_13" -> "-5490529744874427473_22"
+	"-5490529744874427473_4" -> "-5490529744874427473_5"
+	"-5490529744874427473_20" -> "-5490529744874427473_4"
+	"-5490529744874427473_13" -> "-5490529744874427473_10"
+	"-5490529744874427473_22" -> "-5490529744874427473_24"
+	"-5490529744874427473_6" -> "-5490529744874427473_13"
 	rankdir=LR
 }

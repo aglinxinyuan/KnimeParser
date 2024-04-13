@@ -1,12 +1,12 @@
 digraph {
-	3 -> 10
-	10 -> 11
-	5 -> 6
-	6 -> 11
-	5 [label="Table Creator"]
-	11 [label="XML Row Combine and Write"]
-	6 [label="Column To XML"]
-	3 [label="Table Creator"]
-	10 [label="Table Row to Variable"]
+	"-1927131676310486353_10" [label="Table Row to Variable"]
+	"-1927131676310486353_6" [label="Column To XML"]
+	"-1927131676310486353_5" [label="Table Creator"]
+	"-1927131676310486353_3" [label="Table Creator"]
+	"-1927131676310486353_11" [label="XML Row Combine and Write"]
+	"-1927131676310486353_3" -> "-1927131676310486353_10"
+	"-1927131676310486353_10" -> "-1927131676310486353_11"
+	"-1927131676310486353_5" -> "-1927131676310486353_6"
+	"-1927131676310486353_6" -> "-1927131676310486353_11"
 	rankdir=LR
 }

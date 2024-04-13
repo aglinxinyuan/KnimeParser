@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Table Creator"]
-	2 [label="Regex Split"]
+	"3500936615487190663_2" [label="Regex Split"]
+	"3500936615487190663_1" [label="Table Creator"]
+	"3500936615487190663_1" -> "3500936615487190663_2"
 	rankdir=LR
 }

@@ -1,17 +1,17 @@
 digraph {
-	14 -> 6
-	13 -> 14
-	2 -> 7
-	7 -> 13
-	5 -> 6
-	5 -> 2
-	1 -> 5
-	5 [label="Google Sheets Connector"]
-	13 [label="Column Resorter"]
-	1 [label="Google Authenticator"]
-	7 [label="Column Filter"]
-	6 [label="Google Sheets Updater"]
-	14 [label="Column Renamer"]
-	2 [label="Google Sheets Reader"]
+	"-295781281102157520_1" [label="Google Authenticator"]
+	"-295781281102157520_7" [label="Column Filter"]
+	"-295781281102157520_13" [label="Column Resorter"]
+	"-295781281102157520_6" [label="Google Sheets Updater"]
+	"-295781281102157520_5" [label="Google Sheets Connector"]
+	"-295781281102157520_14" [label="Column Renamer"]
+	"-295781281102157520_2" [label="Google Sheets Reader"]
+	"-295781281102157520_13" -> "-295781281102157520_14"
+	"-295781281102157520_2" -> "-295781281102157520_7"
+	"-295781281102157520_14" -> "-295781281102157520_6"
+	"-295781281102157520_7" -> "-295781281102157520_13"
+	"-295781281102157520_5" -> "-295781281102157520_2"
+	"-295781281102157520_5" -> "-295781281102157520_6"
+	"-295781281102157520_1" -> "-295781281102157520_5"
 	rankdir=LR
 }

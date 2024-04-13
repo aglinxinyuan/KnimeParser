@@ -1,13 +1,13 @@
 digraph {
-	1 -> 2
-	5 -> 4
-	3 -> 4
-	6 -> 4
-	5 [label="CSV Reader"]
-	1 [label="Excel Reader"]
-	4 [label=Concatenate]
-	6 [label="CSV Reader"]
-	3 [label="CSV Reader"]
-	2 [label="Column Filter"]
+	"-5796111941457107287_1" [label="Excel Reader"]
+	"-5796111941457107287_3" [label="CSV Reader"]
+	"-5796111941457107287_4" [label=Concatenate]
+	"-5796111941457107287_6" [label="CSV Reader"]
+	"-5796111941457107287_2" [label="Column Filter"]
+	"-5796111941457107287_5" [label="CSV Reader"]
+	"-5796111941457107287_5" -> "-5796111941457107287_4"
+	"-5796111941457107287_3" -> "-5796111941457107287_4"
+	"-5796111941457107287_1" -> "-5796111941457107287_2"
+	"-5796111941457107287_6" -> "-5796111941457107287_4"
 	rankdir=LR
 }

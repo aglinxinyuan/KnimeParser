@@ -1,25 +1,25 @@
 digraph {
-	9 -> 7
-	11 -> 10
-	12 -> 13
-	8 -> 10
-	9 -> 11
-	2 -> 6
-	8 -> 7
-	2 -> 3
-	2 -> 5
-	2 -> 4
-	5 [label="Duplicate Row Filter"]
-	13 [label="Rule_based Row Filter"]
-	7 [label="Reference Row Filter"]
-	9 [label="Excel Reader"]
-	11 [label=GroupBy]
-	4 [label="Nominal Value Row Filter"]
-	6 [label="Duplicate Row Filter"]
-	8 [label="Excel Reader"]
-	12 [label="Excel Reader"]
-	3 [label="Nominal Value Row Splitter"]
-	2 [label="Excel Reader"]
-	10 [label="Reference Row Filter"]
+	"-5720690559329674371_4" [label="Nominal Value Row Filter"]
+	"-5720690559329674371_13" [label="Rule_based Row Filter"]
+	"-5720690559329674371_8" [label="Excel Reader"]
+	"-5720690559329674371_11" [label=GroupBy]
+	"-5720690559329674371_7" [label="Reference Row Filter"]
+	"-5720690559329674371_10" [label="Reference Row Filter"]
+	"-5720690559329674371_3" [label="Nominal Value Row Splitter"]
+	"-5720690559329674371_9" [label="Excel Reader"]
+	"-5720690559329674371_12" [label="Excel Reader"]
+	"-5720690559329674371_6" [label="Duplicate Row Filter"]
+	"-5720690559329674371_5" [label="Duplicate Row Filter"]
+	"-5720690559329674371_2" [label="Excel Reader"]
+	"-5720690559329674371_8" -> "-5720690559329674371_7"
+	"-5720690559329674371_2" -> "-5720690559329674371_6"
+	"-5720690559329674371_11" -> "-5720690559329674371_10"
+	"-5720690559329674371_2" -> "-5720690559329674371_3"
+	"-5720690559329674371_2" -> "-5720690559329674371_5"
+	"-5720690559329674371_12" -> "-5720690559329674371_13"
+	"-5720690559329674371_9" -> "-5720690559329674371_7"
+	"-5720690559329674371_8" -> "-5720690559329674371_10"
+	"-5720690559329674371_9" -> "-5720690559329674371_11"
+	"-5720690559329674371_2" -> "-5720690559329674371_4"
 	rankdir=LR
 }

@@ -1,14 +1,14 @@
 digraph {
-	6 -> 5
-	3 -> 4
-	1 -> 2
-	2 -> 3
-	3 -> 6
-	5 [label="Pie_Donut Chart _JavaScript_"]
-	1 [label="File Reader"]
-	4 [label="Stacked Area Chart _JavaScript_"]
-	6 [label="Color Manager"]
-	3 [label="Row Filter"]
-	2 [label="Column Filter"]
+	"1596508172124026520_2" [label="Column Filter"]
+	"1596508172124026520_3" [label="Row Filter"]
+	"1596508172124026520_5" [label="Pie_Donut Chart _JavaScript_"]
+	"1596508172124026520_1" [label="File Reader"]
+	"1596508172124026520_4" [label="Stacked Area Chart _JavaScript_"]
+	"1596508172124026520_6" [label="Color Manager"]
+	"1596508172124026520_3" -> "1596508172124026520_6"
+	"1596508172124026520_2" -> "1596508172124026520_3"
+	"1596508172124026520_3" -> "1596508172124026520_4"
+	"1596508172124026520_6" -> "1596508172124026520_5"
+	"1596508172124026520_1" -> "1596508172124026520_2"
 	rankdir=LR
 }

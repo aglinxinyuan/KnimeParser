@@ -1,8 +1,8 @@
 digraph {
-	1 -> 177
-	179 -> 177
-	1 [label="Excel Reader"]
-	179 [label="Table Creator"]
-	177 [label="Insert Column Header"]
+	"-2315335973655951595_1" [label="Excel Reader"]
+	"-2315335973655951595_179" [label="Table Creator"]
+	"-2315335973655951595_177" [label="Insert Column Header"]
+	"-2315335973655951595_179" -> "-2315335973655951595_177"
+	"-2315335973655951595_1" -> "-2315335973655951595_177"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	2 -> 4
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label="Column Expressions"]
-	2 [label="String Manipulation _Multi Column_"]
+	"922426288062356410_1" [label="Table Creator"]
+	"922426288062356410_4" [label="Column Expressions"]
+	"922426288062356410_2" [label="String Manipulation _Multi Column_"]
+	"922426288062356410_1" -> "922426288062356410_2"
+	"922426288062356410_2" -> "922426288062356410_4"
 	rankdir=LR
 }

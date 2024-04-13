@@ -1,11 +1,11 @@
 digraph {
-	352 -> 361
-	355 -> 351
-	352 -> 355
-	361 -> 351
-	351 [label="Keras Concatenate Layer"]
-	361 [label="Keras LSTM Layer"]
-	352 [label="Keras Dropout Layer"]
-	355 [label="Keras LSTM Layer"]
+	"-885016510041787984_352" [label="Keras Dropout Layer"]
+	"-885016510041787984_351" [label="Keras Concatenate Layer"]
+	"-885016510041787984_361" [label="Keras LSTM Layer"]
+	"-885016510041787984_355" [label="Keras LSTM Layer"]
+	"-885016510041787984_352" -> "-885016510041787984_355"
+	"-885016510041787984_352" -> "-885016510041787984_361"
+	"-885016510041787984_361" -> "-885016510041787984_351"
+	"-885016510041787984_355" -> "-885016510041787984_351"
 	rankdir=LR
 }

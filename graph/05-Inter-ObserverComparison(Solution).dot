@@ -1,28 +1,28 @@
 digraph {
-	12 -> 10
-	10 -> 13
-	7 -> 8
-	4 -> 5
-	1 -> 2
-	8 -> 9
-	7 -> 11
-	3 -> 4
-	5 -> 6
-	11 -> 12
-	2 -> 3
-	6 -> 7
-	5 [label="Rule Engine"]
-	13 [label="Edit Numeric Domain"]
-	1 [label="Table Reader"]
-	7 [label="String To Number"]
-	9 [label="Scatter Plot _local_"]
-	11 [label=Pivoting]
-	4 [label=Auto_Binner]
-	6 [label=GroupBy]
-	8 [label="Size Manager"]
-	12 [label="Missing Value"]
-	3 [label="Row Filter"]
-	2 [label="Column Filter"]
-	10 [label="Linear Correlation"]
+	"8981629175693810_1" [label="Table Reader"]
+	"8981629175693810_7" [label="String To Number"]
+	"8981629175693810_8" [label="Size Manager"]
+	"8981629175693810_3" [label="Row Filter"]
+	"8981629175693810_13" [label="Edit Numeric Domain"]
+	"8981629175693810_9" [label="Scatter Plot _local_"]
+	"8981629175693810_2" [label="Column Filter"]
+	"8981629175693810_5" [label="Rule Engine"]
+	"8981629175693810_10" [label="Linear Correlation"]
+	"8981629175693810_6" [label=GroupBy]
+	"8981629175693810_12" [label="Missing Value"]
+	"8981629175693810_11" [label=Pivoting]
+	"8981629175693810_4" [label=Auto_Binner]
+	"8981629175693810_4" -> "8981629175693810_5"
+	"8981629175693810_7" -> "8981629175693810_8"
+	"8981629175693810_7" -> "8981629175693810_11"
+	"8981629175693810_2" -> "8981629175693810_3"
+	"8981629175693810_1" -> "8981629175693810_2"
+	"8981629175693810_12" -> "8981629175693810_10"
+	"8981629175693810_6" -> "8981629175693810_7"
+	"8981629175693810_8" -> "8981629175693810_9"
+	"8981629175693810_5" -> "8981629175693810_6"
+	"8981629175693810_3" -> "8981629175693810_4"
+	"8981629175693810_11" -> "8981629175693810_12"
+	"8981629175693810_10" -> "8981629175693810_13"
 	rankdir=LR
 }

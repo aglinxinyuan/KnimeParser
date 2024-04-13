@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 1
-	1 -> 11
-	1 [label="Python Script _Labs_"]
-	11 [label="Image Output Widget"]
-	3 [label="Column Filter"]
-	2 [label="CSV Reader"]
+	"-6754792827172198837_11" [label="Image Output Widget"]
+	"-6754792827172198837_1" [label="Python Script _Labs_"]
+	"-6754792827172198837_2" [label="CSV Reader"]
+	"-6754792827172198837_3" [label="Column Filter"]
+	"-6754792827172198837_3" -> "-6754792827172198837_1"
+	"-6754792827172198837_2" -> "-6754792827172198837_3"
+	"-6754792827172198837_1" -> "-6754792827172198837_11"
 	rankdir=LR
 }

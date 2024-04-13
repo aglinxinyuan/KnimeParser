@@ -1,15 +1,15 @@
 digraph {
-	6 -> 3
-	7 -> 8
-	3 -> 7
-	4 -> 8
-	3 -> 4
-	1 -> 6
-	1 [label="Data Generator"]
-	7 [label="Normalizer _PMML_"]
-	4 [label=Normalizer]
-	6 [label=Stresser]
-	8 [label="Table Difference Checker"]
-	3 [label="Numeric Outliers"]
+	"8175955107729558082_3" [label="Numeric Outliers"]
+	"8175955107729558082_7" [label="Normalizer _PMML_"]
+	"8175955107729558082_6" [label=Stresser]
+	"8175955107729558082_1" [label="Data Generator"]
+	"8175955107729558082_4" [label=Normalizer]
+	"8175955107729558082_8" [label="Table Difference Checker"]
+	"8175955107729558082_6" -> "8175955107729558082_3"
+	"8175955107729558082_7" -> "8175955107729558082_8"
+	"8175955107729558082_3" -> "8175955107729558082_7"
+	"8175955107729558082_4" -> "8175955107729558082_8"
+	"8175955107729558082_3" -> "8175955107729558082_4"
+	"8175955107729558082_1" -> "8175955107729558082_6"
 	rankdir=LR
 }

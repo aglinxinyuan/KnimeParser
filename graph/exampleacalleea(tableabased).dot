@@ -1,8 +1,8 @@
 digraph {
-	6 -> 20
-	17 -> 6
-	17 [label="Container Input _Table_"]
-	6 [label=Statistics]
-	20 [label="Container Output _Table_"]
+	"6231743511484603608_6" [label=Statistics]
+	"6231743511484603608_17" [label="Container Input _Table_"]
+	"6231743511484603608_20" [label="Container Output _Table_"]
+	"6231743511484603608_6" -> "6231743511484603608_20"
+	"6231743511484603608_17" -> "6231743511484603608_6"
 	rankdir=LR
 }

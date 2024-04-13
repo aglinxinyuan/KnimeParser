@@ -1,6 +1,6 @@
 digraph {
-	2 -> 1
-	1 [label="Line Plot"]
-	2 [label="CSV Reader"]
+	"-6489007632905946524_1" [label="Line Plot"]
+	"-6489007632905946524_2" [label="CSV Reader"]
+	"-6489007632905946524_2" -> "-6489007632905946524_1"
 	rankdir=LR
 }

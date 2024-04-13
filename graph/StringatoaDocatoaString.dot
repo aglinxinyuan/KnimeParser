@@ -1,16 +1,16 @@
 digraph {
-	7 -> 8
-	3 -> 6
-	9 -> 10
-	2 -> 3
-	6 -> 7
-	7 -> 9
-	7 [label="Stop Word Filter"]
-	9 [label="Sentence Extractor"]
-	6 [label="Strings To Document"]
-	8 [label="Document Viewer"]
-	3 [label=GroupBy]
-	2 [label="Random Data Generator"]
-	10 [label=GroupBy]
+	"-1535083805121270369_10" [label=GroupBy]
+	"-1535083805121270369_2" [label="Random Data Generator"]
+	"-1535083805121270369_9" [label="Sentence Extractor"]
+	"-1535083805121270369_8" [label="Document Viewer"]
+	"-1535083805121270369_7" [label="Stop Word Filter"]
+	"-1535083805121270369_3" [label=GroupBy]
+	"-1535083805121270369_6" [label="Strings To Document"]
+	"-1535083805121270369_7" -> "-1535083805121270369_8"
+	"-1535083805121270369_9" -> "-1535083805121270369_10"
+	"-1535083805121270369_3" -> "-1535083805121270369_6"
+	"-1535083805121270369_2" -> "-1535083805121270369_3"
+	"-1535083805121270369_6" -> "-1535083805121270369_7"
+	"-1535083805121270369_7" -> "-1535083805121270369_9"
 	rankdir=LR
 }

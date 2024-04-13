@@ -1,10 +1,10 @@
 digraph {
-	80 -> 41
-	77 -> 80
-	90 -> 77
-	80 [label="Color Manager"]
-	41 [label="Parallel Coordinates Plot"]
-	77 [label="Column Filter"]
-	90 [label="Table Reader"]
+	"1865134015647187773_77" [label="Column Filter"]
+	"1865134015647187773_41" [label="Parallel Coordinates Plot"]
+	"1865134015647187773_80" [label="Color Manager"]
+	"1865134015647187773_90" [label="Table Reader"]
+	"1865134015647187773_77" -> "1865134015647187773_80"
+	"1865134015647187773_80" -> "1865134015647187773_41"
+	"1865134015647187773_90" -> "1865134015647187773_77"
 	rankdir=LR
 }

@@ -1,9 +1,9 @@
 digraph {
-	6 -> 7
-	4 -> 5
-	5 [label="RDKit From Molecule"]
-	4 [label="SDF Reader"]
-	6 [label="Table Creator"]
-	7 [label="RDKit From Molecule"]
+	"3853876240761928611_4" [label="SDF Reader"]
+	"3853876240761928611_7" [label="RDKit From Molecule"]
+	"3853876240761928611_6" [label="Table Creator"]
+	"3853876240761928611_5" [label="RDKit From Molecule"]
+	"3853876240761928611_6" -> "3853876240761928611_7"
+	"3853876240761928611_4" -> "3853876240761928611_5"
 	rankdir=LR
 }

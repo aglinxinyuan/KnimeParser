@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="XML Reader"]
-	4 [label="Tagged Document Viewer"]
-	3 [label="Tag Filter"]
-	2 [label="Case Converter"]
+	"1474144678348886358_4" [label="Tagged Document Viewer"]
+	"1474144678348886358_3" [label="Tag Filter"]
+	"1474144678348886358_2" [label="Case Converter"]
+	"1474144678348886358_1" [label="XML Reader"]
+	"1474144678348886358_2" -> "1474144678348886358_3"
+	"1474144678348886358_1" -> "1474144678348886358_2"
+	"1474144678348886358_3" -> "1474144678348886358_4"
 	rankdir=LR
 }

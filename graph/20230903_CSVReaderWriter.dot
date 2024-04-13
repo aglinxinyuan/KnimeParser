@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="CSV Reader"]
-	2 [label="CSV Writer"]
+	"-4674283788478620939_2" [label="CSV Writer"]
+	"-4674283788478620939_1" [label="CSV Reader"]
+	"-4674283788478620939_1" -> "-4674283788478620939_2"
 	rankdir=LR
 }

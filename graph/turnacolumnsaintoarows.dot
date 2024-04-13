@@ -1,10 +1,10 @@
 digraph {
-	3 -> 4
-	1 -> 3
-	4 -> 5
-	1 [label="Table Creator"]
-	4 [label="Cell Splitter"]
-	3 [label=GroupBy]
-	5 [label="Column Rename _Regex_"]
+	"-2768631932482506460_3" [label=GroupBy]
+	"-2768631932482506460_1" [label="Table Creator"]
+	"-2768631932482506460_5" [label="Column Rename _Regex_"]
+	"-2768631932482506460_4" [label="Cell Splitter"]
+	"-2768631932482506460_4" -> "-2768631932482506460_5"
+	"-2768631932482506460_1" -> "-2768631932482506460_3"
+	"-2768631932482506460_3" -> "-2768631932482506460_4"
 	rankdir=LR
 }

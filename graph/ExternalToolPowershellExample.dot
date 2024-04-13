@@ -1,6 +1,6 @@
 digraph {
-	2 -> 1
-	1 [label="External Tool"]
-	2 [label="Empty Table Creator"]
+	"-397980986406175801_2" [label="Empty Table Creator"]
+	"-397980986406175801_1" [label="External Tool"]
+	"-397980986406175801_2" -> "-397980986406175801_1"
 	rankdir=LR
 }

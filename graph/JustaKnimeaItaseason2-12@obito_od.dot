@@ -1,10 +1,10 @@
 digraph {
-	6 -> 2
-	5 -> 6
-	3 -> 5
-	5 [label="Path to URI"]
-	2 [label="Gaussian Convolution"]
-	3 [label="List Files_Folders"]
-	6 [label="Image Reader _Table_"]
+	"8953263438808984356_5" [label="Path to URI"]
+	"8953263438808984356_6" [label="Image Reader _Table_"]
+	"8953263438808984356_2" [label="Gaussian Convolution"]
+	"8953263438808984356_3" [label="List Files_Folders"]
+	"8953263438808984356_5" -> "8953263438808984356_6"
+	"8953263438808984356_3" -> "8953263438808984356_5"
+	"8953263438808984356_6" -> "8953263438808984356_2"
 	rankdir=LR
 }

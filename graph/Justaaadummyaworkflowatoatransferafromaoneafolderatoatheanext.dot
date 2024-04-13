@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Data Generator"]
-	2 [label="Excel Writer"]
+	"7048736689344121459_1" [label="Data Generator"]
+	"7048736689344121459_2" [label="Excel Writer"]
+	"7048736689344121459_1" -> "7048736689344121459_2"
 	rankdir=LR
 }

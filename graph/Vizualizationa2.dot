@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="Bar Chart"]
-	2 [label="Column Filter"]
+	"-8436991413536953404_2" [label="Column Filter"]
+	"-8436991413536953404_1" [label="CSV Reader"]
+	"-8436991413536953404_3" [label="Bar Chart"]
+	"-8436991413536953404_1" -> "-8436991413536953404_2"
+	"-8436991413536953404_2" -> "-8436991413536953404_3"
 	rankdir=LR
 }

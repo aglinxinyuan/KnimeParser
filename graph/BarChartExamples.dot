@@ -1,23 +1,23 @@
 digraph {
-	20 -> 21
-	1 -> 18
-	18 -> 19
-	1 -> 27
-	1 -> 12
-	1 -> 21
-	19 -> 20
-	1 -> 24
-	27 -> 28
-	1 -> 25
-	24 [label="JavaScript Bar Chart"]
-	27 [label="Constant Value Column"]
-	20 [label="Color Manager"]
-	1 [label="Table Reader"]
-	28 [label="JavaScript Bar Chart"]
-	18 [label="Extract Column Header"]
-	21 [label="JavaScript Bar Chart"]
-	25 [label="JavaScript Bar Chart"]
-	12 [label="JavaScript Bar Chart"]
-	19 [label=Transpose]
+	"-4175942735123662802_27" [label="Constant Value Column"]
+	"-4175942735123662802_18" [label="Extract Column Header"]
+	"-4175942735123662802_12" [label="JavaScript Bar Chart"]
+	"-4175942735123662802_20" [label="Color Manager"]
+	"-4175942735123662802_1" [label="Table Reader"]
+	"-4175942735123662802_19" [label=Transpose]
+	"-4175942735123662802_25" [label="JavaScript Bar Chart"]
+	"-4175942735123662802_21" [label="JavaScript Bar Chart"]
+	"-4175942735123662802_24" [label="JavaScript Bar Chart"]
+	"-4175942735123662802_28" [label="JavaScript Bar Chart"]
+	"-4175942735123662802_27" -> "-4175942735123662802_28"
+	"-4175942735123662802_1" -> "-4175942735123662802_25"
+	"-4175942735123662802_20" -> "-4175942735123662802_21"
+	"-4175942735123662802_1" -> "-4175942735123662802_21"
+	"-4175942735123662802_1" -> "-4175942735123662802_27"
+	"-4175942735123662802_1" -> "-4175942735123662802_12"
+	"-4175942735123662802_1" -> "-4175942735123662802_18"
+	"-4175942735123662802_19" -> "-4175942735123662802_20"
+	"-4175942735123662802_18" -> "-4175942735123662802_19"
+	"-4175942735123662802_1" -> "-4175942735123662802_24"
 	rankdir=LR
 }

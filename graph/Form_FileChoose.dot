@@ -1,8 +1,8 @@
 digraph {
-	18 -> 20
-	21 -> 20
-	18 [label="Java Edit Variable"]
-	21 [label="Table Creator"]
-	20 [label="String Manipulation"]
+	"1378792624754851103_18" [label="Java Edit Variable"]
+	"1378792624754851103_21" [label="Table Creator"]
+	"1378792624754851103_20" [label="String Manipulation"]
+	"1378792624754851103_18" -> "1378792624754851103_20"
+	"1378792624754851103_21" -> "1378792624754851103_20"
 	rankdir=LR
 }

@@ -1,24 +1,24 @@
 digraph {
-	6 -> 11
-	8 -> 9
-	9 -> 1
-	3 -> 5
-	1 -> 10
-	5 -> 6
-	7 -> 10
-	2 -> 3
-	6 -> 7
-	1 -> 3
-	1 -> 5
-	5 [label="Database Table Selector"]
-	1 [label="SQLite Connector"]
-	7 [label="Database Connection Table Reader"]
-	9 [label="Java Edit Variable _simple_"]
-	11 [label="Database Connection Table Writer"]
-	6 [label="Database GroupBy"]
-	8 [label="Create Directory"]
-	3 [label="Database Writer"]
-	2 [label="Data Generator"]
-	10 [label="Database Writer"]
+	"-8761619937668548189_5" [label="Database Table Selector"]
+	"-8761619937668548189_9" [label="Java Edit Variable _simple_"]
+	"-8761619937668548189_7" [label="Database Connection Table Reader"]
+	"-8761619937668548189_1" [label="SQLite Connector"]
+	"-8761619937668548189_3" [label="Database Writer"]
+	"-8761619937668548189_10" [label="Database Writer"]
+	"-8761619937668548189_11" [label="Database Connection Table Writer"]
+	"-8761619937668548189_6" [label="Database GroupBy"]
+	"-8761619937668548189_8" [label="Create Directory"]
+	"-8761619937668548189_2" [label="Data Generator"]
+	"-8761619937668548189_8" -> "-8761619937668548189_9"
+	"-8761619937668548189_6" -> "-8761619937668548189_7"
+	"-8761619937668548189_5" -> "-8761619937668548189_6"
+	"-8761619937668548189_1" -> "-8761619937668548189_5"
+	"-8761619937668548189_9" -> "-8761619937668548189_1"
+	"-8761619937668548189_3" -> "-8761619937668548189_5"
+	"-8761619937668548189_1" -> "-8761619937668548189_10"
+	"-8761619937668548189_1" -> "-8761619937668548189_3"
+	"-8761619937668548189_2" -> "-8761619937668548189_3"
+	"-8761619937668548189_7" -> "-8761619937668548189_10"
+	"-8761619937668548189_6" -> "-8761619937668548189_11"
 	rankdir=LR
 }

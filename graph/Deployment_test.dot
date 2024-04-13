@@ -1,6 +1,6 @@
 digraph {
-	1 -> 4
-	1 [label="Excel Reader"]
-	4 [label="Call Workflow Service"]
+	"-6066900211492620906_4" [label="Call Workflow Service"]
+	"-6066900211492620906_1" [label="Excel Reader"]
+	"-6066900211492620906_1" -> "-6066900211492620906_4"
 	rankdir=LR
 }

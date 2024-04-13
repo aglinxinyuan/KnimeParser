@@ -1,11 +1,11 @@
 digraph {
-	3 -> 2
-	5 -> 4
-	1 -> 2
-	5 [label="Table Reader"]
-	1 [label="KNIME Server Connection"]
-	4 [label="Call Workflow _Table Based_"]
-	3 [label="Table Reader"]
-	2 [label="Call Workflow _Table Based_"]
+	"-3424783860203638307_5" [label="Table Reader"]
+	"-3424783860203638307_1" [label="KNIME Server Connection"]
+	"-3424783860203638307_2" [label="Call Workflow _Table Based_"]
+	"-3424783860203638307_4" [label="Call Workflow _Table Based_"]
+	"-3424783860203638307_3" [label="Table Reader"]
+	"-3424783860203638307_3" -> "-3424783860203638307_2"
+	"-3424783860203638307_5" -> "-3424783860203638307_4"
+	"-3424783860203638307_1" -> "-3424783860203638307_2"
 	rankdir=LR
 }

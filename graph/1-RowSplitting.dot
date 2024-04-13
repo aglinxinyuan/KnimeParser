@@ -1,10 +1,10 @@
 digraph {
-	5 -> 4
-	5 -> 3
-	5 -> 2
-	5 [label="Table Reader"]
-	4 [label=Partitioning]
-	3 [label="Rule_based Row Splitter"]
-	2 [label="Row Splitter"]
+	"5600071536753419147_5" [label="Table Reader"]
+	"5600071536753419147_4" [label=Partitioning]
+	"5600071536753419147_2" [label="Row Splitter"]
+	"5600071536753419147_3" [label="Rule_based Row Splitter"]
+	"5600071536753419147_5" -> "5600071536753419147_3"
+	"5600071536753419147_5" -> "5600071536753419147_2"
+	"5600071536753419147_5" -> "5600071536753419147_4"
 	rankdir=LR
 }

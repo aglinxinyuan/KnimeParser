@@ -1,8 +1,8 @@
 digraph {
-	13 -> 16
-	16 -> 15
-	15 [label="JSON to Table"]
-	16 [label="String to JSON"]
-	13 [label="Line Reader"]
+	"-3988123915089707153_15" [label="JSON to Table"]
+	"-3988123915089707153_16" [label="String to JSON"]
+	"-3988123915089707153_13" [label="Line Reader"]
+	"-3988123915089707153_16" -> "-3988123915089707153_15"
+	"-3988123915089707153_13" -> "-3988123915089707153_16"
 	rankdir=LR
 }

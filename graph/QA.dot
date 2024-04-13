@@ -1,8 +1,8 @@
 digraph {
-	57 -> 58
-	56 -> 58
-	56 [label="Excel Reader"]
-	58 [label="Table Difference Finder"]
-	57 [label="Excel Reader"]
+	"-8283953667335031083_58" [label="Table Difference Finder"]
+	"-8283953667335031083_56" [label="Excel Reader"]
+	"-8283953667335031083_57" [label="Excel Reader"]
+	"-8283953667335031083_57" -> "-8283953667335031083_58"
+	"-8283953667335031083_56" -> "-8283953667335031083_58"
 	rankdir=LR
 }

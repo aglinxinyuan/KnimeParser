@@ -1,26 +1,26 @@
 digraph {
-	7 -> 8
-	4 -> 5
-	8 -> 10
-	8 -> 9
-	2 -> 7
-	5 -> 6
-	1 -> 2
-	9 -> 10
-	2 -> 5
-	2 -> 3
-	10 -> 11
-	2 -> 4
-	5 [label="Logistic Regression Predictor"]
-	1 [label="CSV Reader"]
-	7 [label="Column Filter"]
-	9 [label="Decision Tree Learner"]
-	11 [label=Scorer]
-	4 [label="Logistic Regression Learner"]
-	6 [label="Crosstab _local_"]
-	8 [label=Partitioning]
-	3 [label="Linear Correlation"]
-	2 [label="Rule Engine"]
-	10 [label="Decision Tree Predictor"]
+	"6437584431439060880_4" [label="Logistic Regression Learner"]
+	"6437584431439060880_6" [label="Crosstab _local_"]
+	"6437584431439060880_7" [label="Column Filter"]
+	"6437584431439060880_8" [label=Partitioning]
+	"6437584431439060880_9" [label="Decision Tree Learner"]
+	"6437584431439060880_2" [label="Rule Engine"]
+	"6437584431439060880_11" [label=Scorer]
+	"6437584431439060880_10" [label="Decision Tree Predictor"]
+	"6437584431439060880_5" [label="Logistic Regression Predictor"]
+	"6437584431439060880_1" [label="CSV Reader"]
+	"6437584431439060880_3" [label="Linear Correlation"]
+	"6437584431439060880_2" -> "6437584431439060880_7"
+	"6437584431439060880_5" -> "6437584431439060880_6"
+	"6437584431439060880_10" -> "6437584431439060880_11"
+	"6437584431439060880_2" -> "6437584431439060880_3"
+	"6437584431439060880_7" -> "6437584431439060880_8"
+	"6437584431439060880_1" -> "6437584431439060880_2"
+	"6437584431439060880_9" -> "6437584431439060880_10"
+	"6437584431439060880_2" -> "6437584431439060880_5"
+	"6437584431439060880_2" -> "6437584431439060880_4"
+	"6437584431439060880_4" -> "6437584431439060880_5"
+	"6437584431439060880_8" -> "6437584431439060880_9"
+	"6437584431439060880_8" -> "6437584431439060880_10"
 	rankdir=LR
 }

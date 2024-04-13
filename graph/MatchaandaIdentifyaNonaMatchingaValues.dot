@@ -1,12 +1,12 @@
 digraph {
-	2 -> 4
-	3 -> 5
-	1 -> 3
-	4 -> 5
-	5 [label=Joiner]
-	1 [label="Excel Reader"]
-	4 [label="Row to Column Header"]
-	3 [label="Row to Column Header"]
-	2 [label="Excel Reader"]
+	"-8340560355966231833_4" [label="Row to Column Header"]
+	"-8340560355966231833_3" [label="Row to Column Header"]
+	"-8340560355966231833_1" [label="Excel Reader"]
+	"-8340560355966231833_5" [label=Joiner]
+	"-8340560355966231833_2" [label="Excel Reader"]
+	"-8340560355966231833_2" -> "-8340560355966231833_4"
+	"-8340560355966231833_4" -> "-8340560355966231833_5"
+	"-8340560355966231833_1" -> "-8340560355966231833_3"
+	"-8340560355966231833_3" -> "-8340560355966231833_5"
 	rankdir=LR
 }

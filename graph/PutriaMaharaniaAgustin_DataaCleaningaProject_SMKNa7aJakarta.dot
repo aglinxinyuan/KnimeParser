@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="Row Filter"]
-	2 [label="Column Renamer"]
+	"9120023913362556076_1" [label="CSV Reader"]
+	"9120023913362556076_3" [label="Row Filter"]
+	"9120023913362556076_2" [label="Column Renamer"]
+	"9120023913362556076_1" -> "9120023913362556076_2"
+	"9120023913362556076_2" -> "9120023913362556076_3"
 	rankdir=LR
 }

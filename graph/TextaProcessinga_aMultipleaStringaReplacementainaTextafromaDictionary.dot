@@ -1,15 +1,15 @@
 digraph {
-	1 -> 4
-	4 -> 5
-	3 -> 5
-	5 -> 6
-	6 -> 7
-	3 -> 6
-	5 [label="Dictionary Tagger"]
-	1 [label="Table Creator"]
-	7 [label="Document Data Extractor"]
-	4 [label="Strings To Document"]
-	6 [label="Dictionary Replacer"]
-	3 [label="Table Creator"]
+	"7734106821622627323_5" [label="Dictionary Tagger"]
+	"7734106821622627323_7" [label="Document Data Extractor"]
+	"7734106821622627323_1" [label="Table Creator"]
+	"7734106821622627323_6" [label="Dictionary Replacer"]
+	"7734106821622627323_4" [label="Strings To Document"]
+	"7734106821622627323_3" [label="Table Creator"]
+	"7734106821622627323_6" -> "7734106821622627323_7"
+	"7734106821622627323_3" -> "7734106821622627323_6"
+	"7734106821622627323_3" -> "7734106821622627323_5"
+	"7734106821622627323_4" -> "7734106821622627323_5"
+	"7734106821622627323_1" -> "7734106821622627323_4"
+	"7734106821622627323_5" -> "7734106821622627323_6"
 	rankdir=LR
 }

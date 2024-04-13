@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label=GroupBy]
-	2 [label="Column Expressions"]
+	"4517345187564694224_3" [label=GroupBy]
+	"4517345187564694224_1" [label="Table Creator"]
+	"4517345187564694224_2" [label="Column Expressions"]
+	"4517345187564694224_2" -> "4517345187564694224_3"
+	"4517345187564694224_1" -> "4517345187564694224_2"
 	rankdir=LR
 }

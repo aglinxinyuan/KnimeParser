@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Image Reader"]
-	3 [label="Image Viewer"]
-	2 [label="Global Thresholder"]
+	"771191126569007664_2" [label="Global Thresholder"]
+	"771191126569007664_1" [label="Image Reader"]
+	"771191126569007664_3" [label="Image Viewer"]
+	"771191126569007664_1" -> "771191126569007664_2"
+	"771191126569007664_2" -> "771191126569007664_3"
 	rankdir=LR
 }

@@ -1,16 +1,16 @@
 digraph {
-	23 -> 21
-	18 -> 19
-	23 -> 18
-	16 -> 18
-	20 -> 22
-	22 -> 23
-	16 [label="PostgreSQL Connector"]
-	20 [label="PostgreSQL Connector"]
-	22 [label="DB Query Reader"]
-	23 [label="Duplicate Row Filter"]
-	18 [label="DB Table Creator"]
-	21 [label="Table View"]
-	19 [label="DB Writer"]
+	"-7235785458608758243_21" [label="Table View"]
+	"-7235785458608758243_23" [label="Duplicate Row Filter"]
+	"-7235785458608758243_22" [label="DB Query Reader"]
+	"-7235785458608758243_20" [label="PostgreSQL Connector"]
+	"-7235785458608758243_19" [label="DB Writer"]
+	"-7235785458608758243_18" [label="DB Table Creator"]
+	"-7235785458608758243_16" [label="PostgreSQL Connector"]
+	"-7235785458608758243_16" -> "-7235785458608758243_18"
+	"-7235785458608758243_18" -> "-7235785458608758243_19"
+	"-7235785458608758243_23" -> "-7235785458608758243_18"
+	"-7235785458608758243_20" -> "-7235785458608758243_22"
+	"-7235785458608758243_22" -> "-7235785458608758243_23"
+	"-7235785458608758243_23" -> "-7235785458608758243_21"
 	rankdir=LR
 }

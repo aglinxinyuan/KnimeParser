@@ -1,20 +1,20 @@
 digraph {
-	12 -> 13
-	10 -> 9
-	15 -> 8
-	8 -> 7
-	9 -> 12
-	13 -> 8
-	5 -> 10
-	6 -> 7
-	5 [label="Table Reader"]
-	13 [label="Capture Workflow End"]
-	7 [label="Table Difference Finder"]
-	9 [label="Math Formula"]
-	8 [label="Workflow Executor"]
-	6 [label="Table Reader"]
-	15 [label="Table Reader"]
-	12 [label="Numeric Binner"]
-	10 [label="Capture Workflow Start"]
+	"-7504701988238624202_12" [label="Numeric Binner"]
+	"-7504701988238624202_15" [label="Table Reader"]
+	"-7504701988238624202_8" [label="Workflow Executor"]
+	"-7504701988238624202_9" [label="Math Formula"]
+	"-7504701988238624202_7" [label="Table Difference Finder"]
+	"-7504701988238624202_6" [label="Table Reader"]
+	"-7504701988238624202_5" [label="Table Reader"]
+	"-7504701988238624202_10" [label="Capture Workflow Start"]
+	"-7504701988238624202_13" [label="Capture Workflow End"]
+	"-7504701988238624202_13" -> "-7504701988238624202_8"
+	"-7504701988238624202_10" -> "-7504701988238624202_9"
+	"-7504701988238624202_6" -> "-7504701988238624202_7"
+	"-7504701988238624202_12" -> "-7504701988238624202_13"
+	"-7504701988238624202_15" -> "-7504701988238624202_8"
+	"-7504701988238624202_9" -> "-7504701988238624202_12"
+	"-7504701988238624202_8" -> "-7504701988238624202_7"
+	"-7504701988238624202_5" -> "-7504701988238624202_10"
 	rankdir=LR
 }

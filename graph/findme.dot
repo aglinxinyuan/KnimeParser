@@ -1,8 +1,8 @@
 digraph {
-	3 -> 19
-	19 -> 24
-	24 [label="RDKit Canon SMILES"]
-	3 [label="SDF Reader"]
-	19 [label="Molecule Type Cast"]
+	"-236244737297831594_24" [label="RDKit Canon SMILES"]
+	"-236244737297831594_3" [label="SDF Reader"]
+	"-236244737297831594_19" [label="Molecule Type Cast"]
+	"-236244737297831594_19" -> "-236244737297831594_24"
+	"-236244737297831594_3" -> "-236244737297831594_19"
 	rankdir=LR
 }

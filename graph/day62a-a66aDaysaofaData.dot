@@ -1,16 +1,16 @@
 digraph {
-	8 -> 9
-	4 -> 8
-	6 -> 10
-	1 -> 2
-	9 -> 10
-	2 -> 4
-	1 [label="CSV Reader"]
-	9 [label="Punctuation Erasure"]
-	4 [label="POS Tagger"]
-	6 [label="CSV Reader"]
-	8 [label="Number Filter"]
-	2 [label="Strings To Document"]
-	10 [label="Dictionary Tagger"]
+	"8091900914647624365_1" [label="CSV Reader"]
+	"8091900914647624365_2" [label="Strings To Document"]
+	"8091900914647624365_4" [label="POS Tagger"]
+	"8091900914647624365_6" [label="CSV Reader"]
+	"8091900914647624365_8" [label="Number Filter"]
+	"8091900914647624365_9" [label="Punctuation Erasure"]
+	"8091900914647624365_10" [label="Dictionary Tagger"]
+	"8091900914647624365_9" -> "8091900914647624365_10"
+	"8091900914647624365_1" -> "8091900914647624365_2"
+	"8091900914647624365_4" -> "8091900914647624365_8"
+	"8091900914647624365_8" -> "8091900914647624365_9"
+	"8091900914647624365_6" -> "8091900914647624365_10"
+	"8091900914647624365_2" -> "8091900914647624365_4"
 	rankdir=LR
 }

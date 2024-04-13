@@ -1,20 +1,20 @@
 digraph {
-	7 -> 8
-	8 -> 9
-	3 -> 4
-	1 -> 2
-	9 -> 10
-	2 -> 3
-	6 -> 7
-	4 -> 6
-	1 [label="Excel Reader"]
-	7 [label="Column Filter"]
-	9 [label="Python Script"]
-	4 [label="RDKit Fingerprint"]
-	6 [label="Fingerprint Similarity"]
-	8 [label="Split Collection Column"]
-	3 [label="RDKit From Molecule"]
-	2 [label="Molecule Type Cast"]
-	10 [label="Excel Writer"]
+	"-5046111852118974164_2" [label="Molecule Type Cast"]
+	"-5046111852118974164_3" [label="RDKit From Molecule"]
+	"-5046111852118974164_1" [label="Excel Reader"]
+	"-5046111852118974164_7" [label="Column Filter"]
+	"-5046111852118974164_4" [label="RDKit Fingerprint"]
+	"-5046111852118974164_10" [label="Excel Writer"]
+	"-5046111852118974164_9" [label="Python Script"]
+	"-5046111852118974164_8" [label="Split Collection Column"]
+	"-5046111852118974164_6" [label="Fingerprint Similarity"]
+	"-5046111852118974164_1" -> "-5046111852118974164_2"
+	"-5046111852118974164_8" -> "-5046111852118974164_9"
+	"-5046111852118974164_4" -> "-5046111852118974164_6"
+	"-5046111852118974164_3" -> "-5046111852118974164_4"
+	"-5046111852118974164_9" -> "-5046111852118974164_10"
+	"-5046111852118974164_6" -> "-5046111852118974164_7"
+	"-5046111852118974164_2" -> "-5046111852118974164_3"
+	"-5046111852118974164_7" -> "-5046111852118974164_8"
 	rankdir=LR
 }

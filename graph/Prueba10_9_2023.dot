@@ -1,14 +1,14 @@
 digraph {
-	3 -> 7
-	5 -> 6
-	1 -> 2
-	2 -> 3
-	7 -> 6
-	5 [label="Microsoft Authenticator"]
-	1 [label="DB Connector"]
-	7 [label=GroupBy]
-	6 [label="Send to Power BI"]
-	3 [label="DB Reader"]
-	2 [label="DB Table Selector"]
+	"1643258701537677389_5" [label="Microsoft Authenticator"]
+	"1643258701537677389_3" [label="DB Reader"]
+	"1643258701537677389_1" [label="DB Connector"]
+	"1643258701537677389_7" [label=GroupBy]
+	"1643258701537677389_6" [label="Send to Power BI"]
+	"1643258701537677389_2" [label="DB Table Selector"]
+	"1643258701537677389_5" -> "1643258701537677389_6"
+	"1643258701537677389_7" -> "1643258701537677389_6"
+	"1643258701537677389_2" -> "1643258701537677389_3"
+	"1643258701537677389_3" -> "1643258701537677389_7"
+	"1643258701537677389_1" -> "1643258701537677389_2"
 	rankdir=LR
 }

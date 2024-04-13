@@ -1,9 +1,9 @@
 digraph {
-	3 -> 4
-	1 -> 2
-	1 [label="Excel Reader"]
-	4 [label="Math Formula"]
-	3 [label="Excel Reader"]
-	2 [label="String Manipulation"]
+	"-3155649922023444149_3" [label="Excel Reader"]
+	"-3155649922023444149_2" [label="String Manipulation"]
+	"-3155649922023444149_4" [label="Math Formula"]
+	"-3155649922023444149_1" [label="Excel Reader"]
+	"-3155649922023444149_3" -> "-3155649922023444149_4"
+	"-3155649922023444149_1" -> "-3155649922023444149_2"
 	rankdir=LR
 }

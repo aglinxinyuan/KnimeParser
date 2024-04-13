@@ -1,13 +1,13 @@
 digraph {
-	7 -> 4
-	5 -> 6
-	6 -> 7
-	5 -> 7
-	1 -> 5
-	5 [label=Partitioning]
-	1 [label="Excel Reader"]
-	7 [label="Random Forest Predictor _Regression_"]
-	4 [label="Numeric Scorer"]
-	6 [label="Random Forest Learner _Regression_"]
+	"-7639736309589767596_4" [label="Numeric Scorer"]
+	"-7639736309589767596_7" [label="Random Forest Predictor _Regression_"]
+	"-7639736309589767596_1" [label="Excel Reader"]
+	"-7639736309589767596_6" [label="Random Forest Learner _Regression_"]
+	"-7639736309589767596_5" [label=Partitioning]
+	"-7639736309589767596_6" -> "-7639736309589767596_7"
+	"-7639736309589767596_5" -> "-7639736309589767596_7"
+	"-7639736309589767596_5" -> "-7639736309589767596_6"
+	"-7639736309589767596_7" -> "-7639736309589767596_4"
+	"-7639736309589767596_1" -> "-7639736309589767596_5"
 	rankdir=LR
 }

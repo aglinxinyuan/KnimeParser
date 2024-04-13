@@ -1,11 +1,11 @@
 digraph {
-	2 -> 3
-	1 -> 4
-	1 -> 5
-	5 [label="Conditional Box Plot _JavaScript_"]
-	1 [label="File Reader"]
-	4 [label="Scatter Plot _JavaScript_"]
-	3 [label="Data Explorer _JavaScript_"]
-	2 [label="File Reader"]
+	"-686293661305140305_5" [label="Conditional Box Plot _JavaScript_"]
+	"-686293661305140305_2" [label="File Reader"]
+	"-686293661305140305_4" [label="Scatter Plot _JavaScript_"]
+	"-686293661305140305_1" [label="File Reader"]
+	"-686293661305140305_3" [label="Data Explorer _JavaScript_"]
+	"-686293661305140305_1" -> "-686293661305140305_5"
+	"-686293661305140305_2" -> "-686293661305140305_3"
+	"-686293661305140305_1" -> "-686293661305140305_4"
 	rankdir=LR
 }

@@ -1,11 +1,11 @@
 digraph {
-	6 -> 7
-	5 -> 6
-	2 -> 4
-	5 [label="GET Request"]
-	7 [label="Column Filter"]
-	4 [label="DB Table Creator"]
-	6 [label="JSON to Table"]
-	2 [label="SQLite Connector"]
+	"-1818781797858922932_5" [label="GET Request"]
+	"-1818781797858922932_7" [label="Column Filter"]
+	"-1818781797858922932_2" [label="SQLite Connector"]
+	"-1818781797858922932_6" [label="JSON to Table"]
+	"-1818781797858922932_4" [label="DB Table Creator"]
+	"-1818781797858922932_2" -> "-1818781797858922932_4"
+	"-1818781797858922932_6" -> "-1818781797858922932_7"
+	"-1818781797858922932_5" -> "-1818781797858922932_6"
 	rankdir=LR
 }

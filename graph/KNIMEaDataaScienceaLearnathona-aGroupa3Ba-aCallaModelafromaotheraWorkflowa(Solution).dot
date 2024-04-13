@@ -1,15 +1,15 @@
 digraph {
-	188 -> 190
-	188 -> 189
-	188 -> 192
-	191 -> 192
-	188 -> 193
-	191 -> 193
-	190 [label="Call Workflow Service"]
-	192 [label="Call Workflow _Table Based_"]
-	189 [label="Call Workflow _Table Based_"]
-	188 [label="Table Reader"]
-	191 [label="KNIME Hub Authenticator"]
-	193 [label="Call Workflow Service"]
+	"-4356345072576321432_190" [label="Call Workflow Service"]
+	"-4356345072576321432_188" [label="Table Reader"]
+	"-4356345072576321432_192" [label="Call Workflow _Table Based_"]
+	"-4356345072576321432_191" [label="KNIME Hub Authenticator"]
+	"-4356345072576321432_193" [label="Call Workflow Service"]
+	"-4356345072576321432_189" [label="Call Workflow _Table Based_"]
+	"-4356345072576321432_188" -> "-4356345072576321432_193"
+	"-4356345072576321432_191" -> "-4356345072576321432_193"
+	"-4356345072576321432_188" -> "-4356345072576321432_190"
+	"-4356345072576321432_188" -> "-4356345072576321432_192"
+	"-4356345072576321432_188" -> "-4356345072576321432_189"
+	"-4356345072576321432_191" -> "-4356345072576321432_192"
 	rankdir=LR
 }

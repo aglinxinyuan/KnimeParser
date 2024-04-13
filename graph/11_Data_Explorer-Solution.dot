@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="File Reader"]
-	2 [label="Data Explorer"]
+	"4612042392116063810_2" [label="Data Explorer"]
+	"4612042392116063810_1" [label="File Reader"]
+	"4612042392116063810_1" -> "4612042392116063810_2"
 	rankdir=LR
 }

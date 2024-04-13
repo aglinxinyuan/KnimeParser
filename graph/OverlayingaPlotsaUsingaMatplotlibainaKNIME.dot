@@ -1,8 +1,8 @@
 digraph {
-	6 -> 5
-	5 -> 11
-	5 [label="Python Script _Labs_"]
-	11 [label="Image Output Widget"]
-	6 [label="Data Generator"]
+	"-472460076538379715_11" [label="Image Output Widget"]
+	"-472460076538379715_5" [label="Python Script _Labs_"]
+	"-472460076538379715_6" [label="Data Generator"]
+	"-472460076538379715_5" -> "-472460076538379715_11"
+	"-472460076538379715_6" -> "-472460076538379715_5"
 	rankdir=LR
 }

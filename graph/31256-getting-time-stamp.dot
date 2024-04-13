@@ -1,8 +1,8 @@
 digraph {
-	4 -> 3
-	3 -> 2
-	4 [label="Table Creator"]
-	3 [label="String to Path"]
-	2 [label="Files_Folders Meta Info"]
+	"8724699608230895058_2" [label="Files_Folders Meta Info"]
+	"8724699608230895058_3" [label="String to Path"]
+	"8724699608230895058_4" [label="Table Creator"]
+	"8724699608230895058_4" -> "8724699608230895058_3"
+	"8724699608230895058_3" -> "8724699608230895058_2"
 	rankdir=LR
 }

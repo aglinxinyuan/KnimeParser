@@ -1,11 +1,11 @@
 digraph {
-	6 -> 7
-	6 -> 1
-	8 -> 1
-	7 -> 8
-	1 [label="Table Difference Finder"]
-	7 [label="String Manipulation _Multi Column_"]
-	6 [label="File Reader"]
-	8 [label="Column Resorter"]
+	"1117825722114209821_8" [label="Column Resorter"]
+	"1117825722114209821_7" [label="String Manipulation _Multi Column_"]
+	"1117825722114209821_6" [label="File Reader"]
+	"1117825722114209821_1" [label="Table Difference Finder"]
+	"1117825722114209821_7" -> "1117825722114209821_8"
+	"1117825722114209821_8" -> "1117825722114209821_1"
+	"1117825722114209821_6" -> "1117825722114209821_7"
+	"1117825722114209821_6" -> "1117825722114209821_1"
 	rankdir=LR
 }

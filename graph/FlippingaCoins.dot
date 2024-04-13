@@ -1,16 +1,16 @@
 digraph {
-	10 -> 9
-	3 -> 5
-	6 -> 10
-	5 -> 6
-	1 -> 2
-	2 -> 3
-	5 [label="Collection to String"]
-	1 [label="Python Script"]
-	9 [label="Histogram _local_"]
-	6 [label="String Manipulation"]
-	3 [label="Create Collection Column"]
-	2 [label="Column Expressions"]
-	10 [label="Domain Calculator"]
+	"-5836759752404390487_3" [label="Create Collection Column"]
+	"-5836759752404390487_5" [label="Collection to String"]
+	"-5836759752404390487_1" [label="Python Script"]
+	"-5836759752404390487_6" [label="String Manipulation"]
+	"-5836759752404390487_10" [label="Domain Calculator"]
+	"-5836759752404390487_9" [label="Histogram _local_"]
+	"-5836759752404390487_2" [label="Column Expressions"]
+	"-5836759752404390487_2" -> "-5836759752404390487_3"
+	"-5836759752404390487_3" -> "-5836759752404390487_5"
+	"-5836759752404390487_10" -> "-5836759752404390487_9"
+	"-5836759752404390487_1" -> "-5836759752404390487_2"
+	"-5836759752404390487_5" -> "-5836759752404390487_6"
+	"-5836759752404390487_6" -> "-5836759752404390487_10"
 	rankdir=LR
 }

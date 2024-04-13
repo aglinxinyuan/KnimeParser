@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Tika Parser"]
-	4 [label="Duplicate Row Filter"]
-	3 [label=Unpivoting]
-	2 [label="Cell Splitter"]
+	"-4055204423771993642_4" [label="Duplicate Row Filter"]
+	"-4055204423771993642_2" [label="Cell Splitter"]
+	"-4055204423771993642_3" [label=Unpivoting]
+	"-4055204423771993642_1" [label="Tika Parser"]
+	"-4055204423771993642_1" -> "-4055204423771993642_2"
+	"-4055204423771993642_3" -> "-4055204423771993642_4"
+	"-4055204423771993642_2" -> "-4055204423771993642_3"
 	rankdir=LR
 }

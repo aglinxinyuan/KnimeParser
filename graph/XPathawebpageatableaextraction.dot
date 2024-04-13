@@ -1,8 +1,8 @@
 digraph {
-	8 -> 9
-	9 -> 11
-	11 [label=Ungroup]
-	8 [label="Webpage Retriever"]
-	9 [label=XPath]
+	"-7271695695095913669_9" [label=XPath]
+	"-7271695695095913669_8" [label="Webpage Retriever"]
+	"-7271695695095913669_11" [label=Ungroup]
+	"-7271695695095913669_9" -> "-7271695695095913669_11"
+	"-7271695695095913669_8" -> "-7271695695095913669_9"
 	rankdir=LR
 }

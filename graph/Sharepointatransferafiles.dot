@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Microsoft Authentication"]
-	3 [label="Transfer Files"]
-	2 [label="SharePoint Online Connector"]
+	"-1699942565912915175_2" [label="SharePoint Online Connector"]
+	"-1699942565912915175_1" [label="Microsoft Authentication"]
+	"-1699942565912915175_3" [label="Transfer Files"]
+	"-1699942565912915175_2" -> "-1699942565912915175_3"
+	"-1699942565912915175_1" -> "-1699942565912915175_2"
 	rankdir=LR
 }

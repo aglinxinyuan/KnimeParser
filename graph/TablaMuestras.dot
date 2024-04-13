@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="Duplicate Row Filter"]
-	2 [label="Missing Value"]
+	"-3438261745232455991_3" [label="Duplicate Row Filter"]
+	"-3438261745232455991_2" [label="Missing Value"]
+	"-3438261745232455991_1" [label="CSV Reader"]
+	"-3438261745232455991_2" -> "-3438261745232455991_3"
+	"-3438261745232455991_1" -> "-3438261745232455991_2"
 	rankdir=LR
 }

@@ -1,12 +1,12 @@
 digraph {
-	4 -> 7
-	1 -> 5
-	5 -> 4
-	6 -> 4
-	5 [label="DB Query Reader"]
-	1 [label="SQLite Connector"]
-	7 [label="DB Connection Closer"]
-	4 [label="DB Writer"]
-	6 [label="MySQL Connector"]
+	"7646353419797795914_6" [label="MySQL Connector"]
+	"7646353419797795914_7" [label="DB Connection Closer"]
+	"7646353419797795914_4" [label="DB Writer"]
+	"7646353419797795914_5" [label="DB Query Reader"]
+	"7646353419797795914_1" [label="SQLite Connector"]
+	"7646353419797795914_4" -> "7646353419797795914_7"
+	"7646353419797795914_5" -> "7646353419797795914_4"
+	"7646353419797795914_1" -> "7646353419797795914_5"
+	"7646353419797795914_6" -> "7646353419797795914_4"
 	rankdir=LR
 }

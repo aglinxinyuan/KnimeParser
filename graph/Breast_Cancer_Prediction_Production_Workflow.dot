@@ -1,10 +1,10 @@
 digraph {
-	2 -> 6
-	5 -> 6
-	7 -> 2
-	5 [label="PortObject Reference Reader"]
-	7 [label="Excel Reader _XLS_"]
-	6 [label="Decision Tree Predictor"]
-	2 [label=Normalizer]
+	"141580278964918230_6" [label="Decision Tree Predictor"]
+	"141580278964918230_7" [label="Excel Reader _XLS_"]
+	"141580278964918230_5" [label="PortObject Reference Reader"]
+	"141580278964918230_2" [label=Normalizer]
+	"141580278964918230_7" -> "141580278964918230_2"
+	"141580278964918230_2" -> "141580278964918230_6"
+	"141580278964918230_5" -> "141580278964918230_6"
 	rankdir=LR
 }

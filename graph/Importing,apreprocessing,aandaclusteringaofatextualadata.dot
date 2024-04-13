@@ -1,77 +1,77 @@
 digraph {
-	41 -> 42
-	24 -> 26
-	812 -> 806
-	784 -> 66
-	67 -> 50
-	806 -> 808
-	40 -> 29
-	42 -> 43
-	51 -> 65
-	59 -> 55
-	39 -> 24
-	813 -> 784
-	48 -> 51
-	30 -> 31
-	29 -> 30
-	50 -> 51
-	69 -> 70
-	782 -> 41
-	25 -> 26
-	48 -> 49
-	29 -> 31
-	66 -> 67
-	70 -> 73
-	70 -> 75
-	55 -> 39
-	24 -> 25
-	72 -> 75
-	55 -> 69
-	109 -> 59
-	70 -> 71
-	44 -> 813
-	49 -> 50
-	43 -> 44
-	72 -> 71
-	70 -> 72
-	65 -> 109
-	808 -> 782
-	55 -> 40
-	68 -> 48
-	784 [label="Stanford Lemmatizer"]
-	55 [label="Color Manager"]
-	26 [label="Hierarchical Cluster View"]
-	782 [label="Markup Tag Filter"]
-	24 [label="Column Filter"]
-	49 [label=GroupBy]
-	41 [label="Punctuation Erasure"]
-	31 [label="Hierarchical Cluster View"]
-	51 [label="Reference Row Filter"]
-	109 [label="Document Vector"]
-	25 [label="Hierarchical Clustering _DistMatrix_"]
-	75 [label="Hierarchical Cluster Assigner"]
-	59 [label="Category to class"]
-	48 [label="Term To String"]
-	50 [label="Row Filter"]
-	42 [label="N Chars Filter"]
-	68 [label="Bag Of Words Creator"]
-	67 [label="Java Edit Variable"]
-	72 [label="Hierarchical Clustering _DistMatrix_"]
-	806 [label="Strings To Document"]
-	808 [label="Column Filter"]
-	812 [label="Table Reader"]
-	43 [label="Number Filter"]
-	44 [label="Case converter"]
-	66 [label="Extract Table Dimension"]
-	29 [label="Column Filter"]
-	813 [label="Stop Word Filter"]
-	65 [label=TF]
-	69 [label="Distance Matrix Calculate"]
-	70 [label="Column Filter"]
-	71 [label="Hierarchical Cluster View"]
-	40 [label="Distance Matrix Calculate"]
-	39 [label="Distance Matrix Calculate"]
-	73 [label=k_Medoids]
-	30 [label="Hierarchical Clustering _DistMatrix_"]
+	"-6604378949858370_813" [label="Stop Word Filter"]
+	"1028609865772926732_65" [label=TF]
+	"1028609865772926732_68" [label="Bag Of Words Creator"]
+	"-6604378949858370_784" [label="Stanford Lemmatizer"]
+	"1028609865772926732_50" [label="Row Filter"]
+	"-6604378949858370_69" [label="Distance Matrix Calculate"]
+	"-6604378949858370_808" [label="Column Filter"]
+	"-6604378949858370_42" [label="N Chars Filter"]
+	"-6604378949858370_75" [label="Hierarchical Cluster Assigner"]
+	"-6604378949858370_73" [label=k_Medoids]
+	"-6604378949858370_72" [label="Hierarchical Clustering _DistMatrix_"]
+	"-6604378949858370_782" [label="Markup Tag Filter"]
+	"-6604378949858370_25" [label="Hierarchical Clustering _DistMatrix_"]
+	"-6604378949858370_26" [label="Hierarchical Cluster View"]
+	"1028609865772926732_66" [label="Extract Table Dimension"]
+	"1028609865772926732_67" [label="Java Edit Variable"]
+	"-6604378949858370_29" [label="Column Filter"]
+	"-6604378949858370_39" [label="Distance Matrix Calculate"]
+	"1028609865772926732_49" [label=GroupBy]
+	"-6604378949858370_40" [label="Distance Matrix Calculate"]
+	"-6604378949858370_43" [label="Number Filter"]
+	"-6604378949858370_44" [label="Case converter"]
+	"-6604378949858370_55" [label="Color Manager"]
+	"-6604378949858370_71" [label="Hierarchical Cluster View"]
+	"-6604378949858370_31" [label="Hierarchical Cluster View"]
+	"-6604378949858370_30" [label="Hierarchical Clustering _DistMatrix_"]
+	"-6604378949858370_812" [label="Table Reader"]
+	"-6604378949858370_109" [label="Document Vector"]
+	"-6604378949858370_70" [label="Column Filter"]
+	"1028609865772926732_48" [label="Term To String"]
+	"-6604378949858370_806" [label="Strings To Document"]
+	"-6604378949858370_24" [label="Column Filter"]
+	"-6604378949858370_59" [label="Category to class"]
+	"-6604378949858370_41" [label="Punctuation Erasure"]
+	"1028609865772926732_51" [label="Reference Row Filter"]
+	"-6604378949858370_55" -> "-6604378949858370_40"
+	"-6604378949858370_24" -> "-6604378949858370_25"
+	"-6604378949858370_40" -> "-6604378949858370_29"
+	"-6604378949858370_782" -> "-6604378949858370_41"
+	"1028609865772926732_48" -> "1028609865772926732_51"
+	"1028609865772926732_66" -> "1028609865772926732_67"
+	"-6604378949858370_24" -> "-6604378949858370_26"
+	"-6604378949858370_812" -> "-6604378949858370_806"
+	"-6604378949858370_72" -> "-6604378949858370_71"
+	"-6604378949858370_70" -> "-6604378949858370_71"
+	"-6604378949858370_784" -> "1028609865772926732_66"
+	"-6604378949858370_109" -> "-6604378949858370_59"
+	"-6604378949858370_30" -> "-6604378949858370_31"
+	"-6604378949858370_69" -> "-6604378949858370_70"
+	"1028609865772926732_65" -> "-6604378949858370_109"
+	"-6604378949858370_42" -> "-6604378949858370_43"
+	"-6604378949858370_55" -> "-6604378949858370_39"
+	"1028609865772926732_48" -> "1028609865772926732_49"
+	"-6604378949858370_808" -> "-6604378949858370_782"
+	"-6604378949858370_41" -> "-6604378949858370_42"
+	"-6604378949858370_70" -> "-6604378949858370_72"
+	"1028609865772926732_50" -> "1028609865772926732_51"
+	"-6604378949858370_29" -> "-6604378949858370_30"
+	"-6604378949858370_806" -> "-6604378949858370_808"
+	"-6604378949858370_43" -> "-6604378949858370_44"
+	"-6604378949858370_59" -> "-6604378949858370_55"
+	"-6604378949858370_39" -> "-6604378949858370_24"
+	"-6604378949858370_813" -> "-6604378949858370_784"
+	"1028609865772926732_51" -> "1028609865772926732_65"
+	"-6604378949858370_70" -> "-6604378949858370_73"
+	"-6604378949858370_29" -> "-6604378949858370_31"
+	"1028609865772926732_49" -> "1028609865772926732_50"
+	"-6604378949858370_70" -> "-6604378949858370_75"
+	"-6604378949858370_72" -> "-6604378949858370_75"
+	"-6604378949858370_55" -> "-6604378949858370_69"
+	"-6604378949858370_44" -> "-6604378949858370_813"
+	"-6604378949858370_25" -> "-6604378949858370_26"
+	"1028609865772926732_68" -> "1028609865772926732_48"
+	"1028609865772926732_67" -> "1028609865772926732_50"
 	rankdir=LR
 }

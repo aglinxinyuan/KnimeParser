@@ -1,17 +1,17 @@
 digraph {
-	4 -> 7
-	3 -> 4
-	3 -> 5
-	1 -> 2
-	2 -> 3
-	2 -> 4
-	3 -> 6
-	5 [label="Decision Tree View _JavaScript_"]
-	1 [label="Excel Reader"]
-	7 [label="Scorer _JavaScript_"]
-	4 [label="Decision Tree Predictor"]
-	6 [label="Decision Tree to Ruleset"]
-	3 [label="Decision Tree Learner"]
-	2 [label=Partitioning]
+	"-1507758784044994880_3" [label="Decision Tree Learner"]
+	"-1507758784044994880_2" [label=Partitioning]
+	"-1507758784044994880_4" [label="Decision Tree Predictor"]
+	"-1507758784044994880_5" [label="Decision Tree View _JavaScript_"]
+	"-1507758784044994880_1" [label="Excel Reader"]
+	"-1507758784044994880_7" [label="Scorer _JavaScript_"]
+	"-1507758784044994880_6" [label="Decision Tree to Ruleset"]
+	"-1507758784044994880_1" -> "-1507758784044994880_2"
+	"-1507758784044994880_2" -> "-1507758784044994880_3"
+	"-1507758784044994880_3" -> "-1507758784044994880_4"
+	"-1507758784044994880_3" -> "-1507758784044994880_6"
+	"-1507758784044994880_3" -> "-1507758784044994880_5"
+	"-1507758784044994880_2" -> "-1507758784044994880_4"
+	"-1507758784044994880_4" -> "-1507758784044994880_7"
 	rankdir=LR
 }

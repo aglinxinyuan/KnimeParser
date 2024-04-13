@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Excel Reader"]
-	4 [label="XLS Control Table Generator"]
-	3 [label="Rule Engine"]
-	2 [label="XLS Control Table Generator"]
+	"-3724784026404951106_2" [label="XLS Control Table Generator"]
+	"-3724784026404951106_4" [label="XLS Control Table Generator"]
+	"-3724784026404951106_1" [label="Excel Reader"]
+	"-3724784026404951106_3" [label="Rule Engine"]
+	"-3724784026404951106_1" -> "-3724784026404951106_2"
+	"-3724784026404951106_2" -> "-3724784026404951106_3"
+	"-3724784026404951106_3" -> "-3724784026404951106_4"
 	rankdir=LR
 }

@@ -1,16 +1,16 @@
 digraph {
-	4 -> 3
-	3 -> 5
-	5 -> 7
-	1 -> 2
-	7 -> 6
-	2 -> 4
-	5 [label="Date_Time Difference"]
-	1 [label="CSV Reader"]
-	7 [label="Extract Date_Time Fields"]
-	4 [label=Sorter]
-	6 [label="Excel Writer"]
-	3 [label="Lag Column"]
-	2 [label="String to Date_Time"]
+	"-851003636629687593_3" [label="Lag Column"]
+	"-851003636629687593_7" [label="Extract Date_Time Fields"]
+	"-851003636629687593_4" [label=Sorter]
+	"-851003636629687593_1" [label="CSV Reader"]
+	"-851003636629687593_6" [label="Excel Writer"]
+	"-851003636629687593_2" [label="String to Date_Time"]
+	"-851003636629687593_5" [label="Date_Time Difference"]
+	"-851003636629687593_2" -> "-851003636629687593_4"
+	"-851003636629687593_1" -> "-851003636629687593_2"
+	"-851003636629687593_4" -> "-851003636629687593_3"
+	"-851003636629687593_5" -> "-851003636629687593_7"
+	"-851003636629687593_3" -> "-851003636629687593_5"
+	"-851003636629687593_7" -> "-851003636629687593_6"
 	rankdir=LR
 }

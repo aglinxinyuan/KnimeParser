@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	3 -> 2
-	1 [label="Table Creator"]
-	3 [label="Table Row to Variable"]
-	2 [label="Java Edit Variable _simple_"]
+	"3223991404150731339_3" [label="Table Row to Variable"]
+	"3223991404150731339_2" [label="Java Edit Variable _simple_"]
+	"3223991404150731339_1" [label="Table Creator"]
+	"3223991404150731339_1" -> "3223991404150731339_3"
+	"3223991404150731339_3" -> "3223991404150731339_2"
 	rankdir=LR
 }

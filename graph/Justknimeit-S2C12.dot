@@ -1,12 +1,12 @@
 digraph {
-	4 -> 7
-	2 -> 6
-	7 -> 10
-	6 -> 4
-	7 [label=Inverter]
-	4 [label="Gaussian Convolution"]
-	6 [label="Image Converter"]
-	2 [label="Image Reader"]
-	10 [label="Image Viewer"]
+	"-1680356707471633300_2" [label="Image Reader"]
+	"-1680356707471633300_7" [label=Inverter]
+	"-1680356707471633300_4" [label="Gaussian Convolution"]
+	"-1680356707471633300_10" [label="Image Viewer"]
+	"-1680356707471633300_6" [label="Image Converter"]
+	"-1680356707471633300_4" -> "-1680356707471633300_7"
+	"-1680356707471633300_6" -> "-1680356707471633300_4"
+	"-1680356707471633300_2" -> "-1680356707471633300_6"
+	"-1680356707471633300_7" -> "-1680356707471633300_10"
 	rankdir=LR
 }

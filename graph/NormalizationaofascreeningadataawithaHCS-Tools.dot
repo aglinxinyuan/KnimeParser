@@ -1,28 +1,28 @@
 digraph {
-	11 -> 6
-	11 -> 24
-	25 -> 9
-	24 -> 23
-	1 -> 10
-	9 -> 27
-	11 -> 25
-	7 -> 29
-	26 -> 28
-	27 -> 26
-	6 -> 7
-	10 -> 11
-	24 [label="Nominal Value Row Filter"]
-	27 [label=GroupBy]
-	1 [label="Table Reader"]
-	7 [label="Normalize Plates _Z_Score_"]
-	29 [label="Range Splitter"]
-	28 [label=Sorter]
-	9 [label="Normalize Plates _NPI_"]
-	11 [label=GroupBy]
-	23 [label="Outlier Removal"]
-	26 [label="Split Columns by Header"]
-	6 [label="Normalize Plates _POC_"]
-	25 [label="Combine Columns by Header"]
-	10 [label="String Manipulation"]
+	"-3324928332632024257_24" [label="Nominal Value Row Filter"]
+	"-3324928332632024257_28" [label=Sorter]
+	"-3324928332632024257_1" [label="Table Reader"]
+	"-3324928332632024257_26" [label="Split Columns by Header"]
+	"-3324928332632024257_9" [label="Normalize Plates _NPI_"]
+	"-3324928332632024257_23" [label="Outlier Removal"]
+	"-3324928332632024257_10" [label="String Manipulation"]
+	"-3324928332632024257_29" [label="Range Splitter"]
+	"-3324928332632024257_11" [label=GroupBy]
+	"-3324928332632024257_25" [label="Combine Columns by Header"]
+	"-3324928332632024257_6" [label="Normalize Plates _POC_"]
+	"-3324928332632024257_27" [label=GroupBy]
+	"-3324928332632024257_7" [label="Normalize Plates _Z_Score_"]
+	"-3324928332632024257_11" -> "-3324928332632024257_24"
+	"-3324928332632024257_26" -> "-3324928332632024257_28"
+	"-3324928332632024257_11" -> "-3324928332632024257_25"
+	"-3324928332632024257_10" -> "-3324928332632024257_11"
+	"-3324928332632024257_1" -> "-3324928332632024257_10"
+	"-3324928332632024257_27" -> "-3324928332632024257_26"
+	"-3324928332632024257_6" -> "-3324928332632024257_7"
+	"-3324928332632024257_9" -> "-3324928332632024257_27"
+	"-3324928332632024257_11" -> "-3324928332632024257_6"
+	"-3324928332632024257_25" -> "-3324928332632024257_9"
+	"-3324928332632024257_24" -> "-3324928332632024257_23"
+	"-3324928332632024257_7" -> "-3324928332632024257_29"
 	rankdir=LR
 }

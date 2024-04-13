@@ -1,26 +1,26 @@
 digraph {
-	11 -> 6
-	13 -> 15
-	12 -> 7
-	11 -> 9
-	12 -> 14
-	3 -> 4
-	4 -> 11
-	13 -> 8
-	4 -> 12
-	2 -> 3
-	4 -> 13
-	13 [label="Color Manager"]
-	7 [label="Interactive Histogram _local_"]
-	9 [label="Interactive Pie chart _local_"]
-	11 [label="Color Manager"]
-	4 [label="Column Expressions"]
-	6 [label="Interactive Histogram _local_"]
-	15 [label="Interactive Pie chart _local_"]
-	8 [label="Interactive Histogram _local_"]
-	14 [label="Interactive Pie chart _local_"]
-	3 [label="Column Expressions"]
-	2 [label="CSV Reader"]
-	12 [label="Color Manager"]
+	"7341217999889015946_4" [label="Column Expressions"]
+	"7341217999889015946_11" [label="Color Manager"]
+	"7341217999889015946_15" [label="Interactive Pie chart _local_"]
+	"7341217999889015946_3" [label="Column Expressions"]
+	"7341217999889015946_9" [label="Interactive Pie chart _local_"]
+	"7341217999889015946_6" [label="Interactive Histogram _local_"]
+	"7341217999889015946_13" [label="Color Manager"]
+	"7341217999889015946_7" [label="Interactive Histogram _local_"]
+	"7341217999889015946_8" [label="Interactive Histogram _local_"]
+	"7341217999889015946_12" [label="Color Manager"]
+	"7341217999889015946_14" [label="Interactive Pie chart _local_"]
+	"7341217999889015946_2" [label="CSV Reader"]
+	"7341217999889015946_4" -> "7341217999889015946_11"
+	"7341217999889015946_12" -> "7341217999889015946_14"
+	"7341217999889015946_4" -> "7341217999889015946_12"
+	"7341217999889015946_2" -> "7341217999889015946_3"
+	"7341217999889015946_12" -> "7341217999889015946_7"
+	"7341217999889015946_4" -> "7341217999889015946_13"
+	"7341217999889015946_3" -> "7341217999889015946_4"
+	"7341217999889015946_11" -> "7341217999889015946_6"
+	"7341217999889015946_11" -> "7341217999889015946_9"
+	"7341217999889015946_13" -> "7341217999889015946_15"
+	"7341217999889015946_13" -> "7341217999889015946_8"
 	rankdir=LR
 }

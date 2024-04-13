@@ -1,14 +1,14 @@
 digraph {
-	1 -> 20
-	1 -> 22
-	1 -> 18
-	1 -> 21
-	1 -> 19
-	20 [label="Box Plot _JavaScript_"]
-	1 [label="Table Reader"]
-	22 [label="Box Plot _JavaScript_"]
-	18 [label="Box Plot _JavaScript_"]
-	21 [label="Conditional Box Plot _JavaScript_"]
-	19 [label="Conditional Box Plot _JavaScript_"]
+	"3960162062110709901_19" [label="Conditional Box Plot _JavaScript_"]
+	"3960162062110709901_20" [label="Box Plot _JavaScript_"]
+	"3960162062110709901_1" [label="Table Reader"]
+	"3960162062110709901_21" [label="Conditional Box Plot _JavaScript_"]
+	"3960162062110709901_22" [label="Box Plot _JavaScript_"]
+	"3960162062110709901_18" [label="Box Plot _JavaScript_"]
+	"3960162062110709901_1" -> "3960162062110709901_22"
+	"3960162062110709901_1" -> "3960162062110709901_21"
+	"3960162062110709901_1" -> "3960162062110709901_19"
+	"3960162062110709901_1" -> "3960162062110709901_20"
+	"3960162062110709901_1" -> "3960162062110709901_18"
 	rankdir=LR
 }

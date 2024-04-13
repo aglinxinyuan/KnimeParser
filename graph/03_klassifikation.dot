@@ -1,20 +1,20 @@
 digraph {
-	6 -> 3
-	4 -> 5
-	3 -> 7
-	6 -> 4
-	8 -> 9
-	3 -> 4
-	2 -> 6
-	1 -> 2
-	5 [label="Scorer _JavaScript_"]
-	1 [label="CSV Reader"]
-	7 [label="Decision Tree View _JavaScript_"]
-	9 [label="Number to String"]
-	4 [label="Decision Tree Predictor"]
-	6 [label=Partitioning]
-	8 [label="CSV Reader"]
-	3 [label="Decision Tree Learner"]
-	2 [label="Data Explorer"]
+	"5331287571444049389_3" [label="Decision Tree Learner"]
+	"5331287571444049389_6" [label=Partitioning]
+	"5331287571444049389_5" [label="Scorer _JavaScript_"]
+	"5331287571444049389_4" [label="Decision Tree Predictor"]
+	"5331287571444049389_9" [label="Number to String"]
+	"5331287571444049389_1" [label="CSV Reader"]
+	"5331287571444049389_7" [label="Decision Tree View _JavaScript_"]
+	"5331287571444049389_8" [label="CSV Reader"]
+	"5331287571444049389_2" [label="Data Explorer"]
+	"5331287571444049389_3" -> "5331287571444049389_4"
+	"5331287571444049389_6" -> "5331287571444049389_4"
+	"5331287571444049389_1" -> "5331287571444049389_2"
+	"5331287571444049389_2" -> "5331287571444049389_6"
+	"5331287571444049389_4" -> "5331287571444049389_5"
+	"5331287571444049389_8" -> "5331287571444049389_9"
+	"5331287571444049389_6" -> "5331287571444049389_3"
+	"5331287571444049389_3" -> "5331287571444049389_7"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	7 -> 4
-	4 -> 2
-	2 -> 11
-	11 [label="Image Output Widget"]
-	4 [label="Column Filter"]
-	2 [label="Python Script _Labs_"]
-	7 [label="CSV Reader"]
+	"392834449749689823_7" [label="CSV Reader"]
+	"392834449749689823_4" [label="Column Filter"]
+	"392834449749689823_2" [label="Python Script _Labs_"]
+	"392834449749689823_11" [label="Image Output Widget"]
+	"392834449749689823_4" -> "392834449749689823_2"
+	"392834449749689823_2" -> "392834449749689823_11"
+	"392834449749689823_7" -> "392834449749689823_4"
 	rankdir=LR
 }

@@ -1,12 +1,12 @@
 digraph {
-	4 -> 3
-	158 -> 1
-	2 -> 4
-	1 -> 2
-	1 [label="Workflow Service Input"]
-	158 [label="Table Creator"]
-	4 [label="Column Filter"]
-	3 [label="Workflow Service Output"]
-	2 [label="Tika Language Detector"]
+	"620264474322311510_4" [label="Column Filter"]
+	"620264474322311510_158" [label="Table Creator"]
+	"620264474322311510_2" [label="Tika Language Detector"]
+	"620264474322311510_3" [label="Workflow Service Output"]
+	"620264474322311510_1" [label="Workflow Service Input"]
+	"620264474322311510_158" -> "620264474322311510_1"
+	"620264474322311510_1" -> "620264474322311510_2"
+	"620264474322311510_4" -> "620264474322311510_3"
+	"620264474322311510_2" -> "620264474322311510_4"
 	rankdir=LR
 }

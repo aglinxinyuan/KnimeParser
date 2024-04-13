@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="String Manipulation"]
-	2 [label="String Manipulation"]
+	"-3352923202614452443_1" [label="Table Creator"]
+	"-3352923202614452443_3" [label="String Manipulation"]
+	"-3352923202614452443_2" [label="String Manipulation"]
+	"-3352923202614452443_1" -> "-3352923202614452443_3"
+	"-3352923202614452443_1" -> "-3352923202614452443_2"
 	rankdir=LR
 }

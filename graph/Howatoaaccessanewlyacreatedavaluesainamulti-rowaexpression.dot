@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Table Creator"]
-	2 [label="Moving Aggregation"]
+	"4576015122829460177_2" [label="Moving Aggregation"]
+	"4576015122829460177_1" [label="Table Creator"]
+	"4576015122829460177_1" -> "4576015122829460177_2"
 	rankdir=LR
 }

@@ -1,12 +1,12 @@
 digraph {
-	5 -> 6
-	4 -> 3
-	1 -> 2
-	5 [label="CSV Reader"]
-	1 [label="CSV Reader"]
-	4 [label="CSV Reader"]
-	6 [label="Number Formatter"]
-	3 [label="Missing Value"]
-	2 [label="Column Filter"]
+	"-2685533674756042150_5" [label="CSV Reader"]
+	"-2685533674756042150_3" [label="Missing Value"]
+	"-2685533674756042150_6" [label="Number Formatter"]
+	"-2685533674756042150_4" [label="CSV Reader"]
+	"-2685533674756042150_2" [label="Column Filter"]
+	"-2685533674756042150_1" [label="CSV Reader"]
+	"-2685533674756042150_1" -> "-2685533674756042150_2"
+	"-2685533674756042150_4" -> "-2685533674756042150_3"
+	"-2685533674756042150_5" -> "-2685533674756042150_6"
 	rankdir=LR
 }

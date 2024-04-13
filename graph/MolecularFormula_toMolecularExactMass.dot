@@ -1,8 +1,8 @@
 digraph {
-	51 -> 53
-	52 -> 51
-	52 [label="CSV Reader"]
-	53 [label="Excel Writer"]
-	51 [label="Mass Calculator"]
+	"-8973389163685120984_51" [label="Mass Calculator"]
+	"-8973389163685120984_52" [label="CSV Reader"]
+	"-8973389163685120984_53" [label="Excel Writer"]
+	"-8973389163685120984_52" -> "-8973389163685120984_51"
+	"-8973389163685120984_51" -> "-8973389163685120984_53"
 	rankdir=LR
 }

@@ -1,18 +1,18 @@
 digraph {
-	62 -> 13
-	6 -> 61
-	13 -> 4
-	20 -> 62
-	61 -> 64
-	4 -> 6
-	64 -> 63
-	64 [label="Column Filter"]
-	20 [label="Image Reader"]
-	13 [label="Gaussian Convolution"]
-	62 [label=Splitter]
-	4 [label="Global Thresholder"]
-	61 [label="Labeling Properties"]
-	6 [label="Connected Component Analysis"]
-	63 [label="Image Viewer"]
+	"5378893731738014493_4" [label="Global Thresholder"]
+	"5378893731738014493_63" [label="Image Viewer"]
+	"5378893731738014493_20" [label="Image Reader"]
+	"5378893731738014493_13" [label="Gaussian Convolution"]
+	"5378893731738014493_61" [label="Labeling Properties"]
+	"5378893731738014493_6" [label="Connected Component Analysis"]
+	"5378893731738014493_62" [label=Splitter]
+	"5378893731738014493_64" [label="Column Filter"]
+	"5378893731738014493_62" -> "5378893731738014493_13"
+	"5378893731738014493_13" -> "5378893731738014493_4"
+	"5378893731738014493_64" -> "5378893731738014493_63"
+	"5378893731738014493_61" -> "5378893731738014493_64"
+	"5378893731738014493_20" -> "5378893731738014493_62"
+	"5378893731738014493_4" -> "5378893731738014493_6"
+	"5378893731738014493_6" -> "5378893731738014493_61"
 	rankdir=LR
 }

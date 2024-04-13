@@ -1,10 +1,10 @@
 digraph {
-	31 -> 32
-	27 -> 28
-	28 -> 31
-	27 [label="CSV Reader"]
-	32 [label="Excel Writer"]
-	28 [label="Molecule Type Cast"]
-	31 [label="Renderer to Image"]
+	"-983466487524668453_27" [label="CSV Reader"]
+	"-983466487524668453_31" [label="Renderer to Image"]
+	"-983466487524668453_32" [label="Excel Writer"]
+	"-983466487524668453_28" [label="Molecule Type Cast"]
+	"-983466487524668453_31" -> "-983466487524668453_32"
+	"-983466487524668453_27" -> "-983466487524668453_28"
+	"-983466487524668453_28" -> "-983466487524668453_31"
 	rankdir=LR
 }

@@ -1,9 +1,9 @@
 digraph {
-	1 -> 7
-	4 -> 8
-	1 [label="Table Creator"]
-	7 [label="Python View"]
-	8 [label="Python View"]
-	4 [label="Table Creator"]
+	"6670820080069150309_8" [label="Python View"]
+	"6670820080069150309_7" [label="Python View"]
+	"6670820080069150309_1" [label="Table Creator"]
+	"6670820080069150309_4" [label="Table Creator"]
+	"6670820080069150309_1" -> "6670820080069150309_7"
+	"6670820080069150309_4" -> "6670820080069150309_8"
 	rankdir=LR
 }

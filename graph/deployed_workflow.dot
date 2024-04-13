@@ -1,14 +1,14 @@
 digraph {
-	158 -> 335
-	336 -> 324
-	157 -> 158
-	335 -> 337
-	324 -> 158
-	324 [label="RDKit Fingerprint"]
-	335 [label="Column Filter"]
-	157 [label="PortObject Reference Reader"]
-	158 [label="Random Forest Predictor"]
-	337 [label="Container Output _Table_"]
-	336 [label="Container Input _Table_"]
+	"5472391061151287416_158" [label="Random Forest Predictor"]
+	"5472391061151287416_157" [label="PortObject Reference Reader"]
+	"5472391061151287416_324" [label="RDKit Fingerprint"]
+	"5472391061151287416_335" [label="Column Filter"]
+	"5472391061151287416_337" [label="Container Output _Table_"]
+	"5472391061151287416_336" [label="Container Input _Table_"]
+	"5472391061151287416_335" -> "5472391061151287416_337"
+	"5472391061151287416_157" -> "5472391061151287416_158"
+	"5472391061151287416_158" -> "5472391061151287416_335"
+	"5472391061151287416_324" -> "5472391061151287416_158"
+	"5472391061151287416_336" -> "5472391061151287416_324"
 	rankdir=LR
 }

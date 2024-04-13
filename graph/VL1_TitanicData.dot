@@ -1,19 +1,19 @@
 digraph {
-	5 -> 3
-	7 -> 5
-	5 -> 4
-	4 -> 8
-	3 -> 4
-	1 -> 6
-	1 -> 2
-	1 -> 7
-	5 [label=Partitioning]
-	1 [label="CSV Reader"]
-	7 [label="Number To String"]
-	4 [label="Decision Tree Predictor"]
-	6 [label="Data Explorer"]
-	8 [label=Scorer]
-	3 [label="Decision Tree Learner"]
-	2 [label="Linear Correlation"]
+	"5035189320058488518_7" [label="Number To String"]
+	"5035189320058488518_3" [label="Decision Tree Learner"]
+	"5035189320058488518_5" [label=Partitioning]
+	"5035189320058488518_1" [label="CSV Reader"]
+	"5035189320058488518_6" [label="Data Explorer"]
+	"5035189320058488518_8" [label=Scorer]
+	"5035189320058488518_4" [label="Decision Tree Predictor"]
+	"5035189320058488518_2" [label="Linear Correlation"]
+	"5035189320058488518_5" -> "5035189320058488518_4"
+	"5035189320058488518_1" -> "5035189320058488518_6"
+	"5035189320058488518_3" -> "5035189320058488518_4"
+	"5035189320058488518_1" -> "5035189320058488518_2"
+	"5035189320058488518_4" -> "5035189320058488518_8"
+	"5035189320058488518_7" -> "5035189320058488518_5"
+	"5035189320058488518_1" -> "5035189320058488518_7"
+	"5035189320058488518_5" -> "5035189320058488518_3"
 	rankdir=LR
 }

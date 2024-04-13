@@ -1,8 +1,8 @@
 digraph {
-	2 -> 1
-	1 -> 3
-	1 [label="Java Snippet"]
-	3 [label="Java Snippet"]
-	2 [label="Table Creator"]
+	"-2715891736524529643_3" [label="Java Snippet"]
+	"-2715891736524529643_1" [label="Java Snippet"]
+	"-2715891736524529643_2" [label="Table Creator"]
+	"-2715891736524529643_1" -> "-2715891736524529643_3"
+	"-2715891736524529643_2" -> "-2715891736524529643_1"
 	rankdir=LR
 }

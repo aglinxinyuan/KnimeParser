@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="CSV Reader"]
-	2 [label="IF Switch"]
+	"6026141264173710876_1" [label="CSV Reader"]
+	"6026141264173710876_2" [label="IF Switch"]
+	"6026141264173710876_1" -> "6026141264173710876_2"
 	rankdir=LR
 }

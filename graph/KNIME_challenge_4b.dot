@@ -1,6 +1,6 @@
 digraph {
-	1 -> 7
-	1 [label="CSV Reader"]
-	7 [label="Python Script"]
+	"-5658553355526773083_7" [label="Python Script"]
+	"-5658553355526773083_1" [label="CSV Reader"]
+	"-5658553355526773083_1" -> "-5658553355526773083_7"
 	rankdir=LR
 }

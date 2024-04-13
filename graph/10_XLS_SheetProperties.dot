@@ -1,16 +1,16 @@
 digraph {
-	19 -> 20
-	22 -> 20
-	20 -> 16
-	18 -> 22
-	21 -> 22
-	17 -> 18
-	16 [label="XLS Formatter _apply_"]
-	20 [label="XLS Sheet Properties"]
-	22 [label="XLS Sheet Properties"]
-	18 [label="XLS Sheet Properties"]
-	21 [label="XLS Control Table from Cell Range"]
-	17 [label="XLS Control Table from Cell Range"]
-	19 [label="XLS Control Table from Cell Range"]
+	"-4708102210201162973_17" [label="XLS Control Table from Cell Range"]
+	"-4708102210201162973_20" [label="XLS Sheet Properties"]
+	"-4708102210201162973_18" [label="XLS Sheet Properties"]
+	"-4708102210201162973_21" [label="XLS Control Table from Cell Range"]
+	"-4708102210201162973_19" [label="XLS Control Table from Cell Range"]
+	"-4708102210201162973_22" [label="XLS Sheet Properties"]
+	"-4708102210201162973_16" [label="XLS Formatter _apply_"]
+	"-4708102210201162973_19" -> "-4708102210201162973_20"
+	"-4708102210201162973_21" -> "-4708102210201162973_22"
+	"-4708102210201162973_17" -> "-4708102210201162973_18"
+	"-4708102210201162973_22" -> "-4708102210201162973_20"
+	"-4708102210201162973_20" -> "-4708102210201162973_16"
+	"-4708102210201162973_18" -> "-4708102210201162973_22"
 	rankdir=LR
 }

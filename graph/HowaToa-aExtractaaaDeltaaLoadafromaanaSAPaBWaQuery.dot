@@ -1,14 +1,14 @@
 digraph {
-	10 -> 1
-	3 -> 4
-	9 -> 10
-	2 -> 3
-	4 -> 9
-	1 [label="KCS SAP Executor"]
-	9 [label="Column Expressions"]
-	4 [label="Row Sampling"]
-	3 [label=Sorter]
-	2 [label="KCS SAP Executor"]
-	10 [label="Table Manipulator"]
+	"-8692646081821763864_3" [label=Sorter]
+	"-8692646081821763864_9" [label="Column Expressions"]
+	"-8692646081821763864_1" [label="KCS SAP Executor"]
+	"-8692646081821763864_4" [label="Row Sampling"]
+	"-8692646081821763864_10" [label="Table Manipulator"]
+	"-8692646081821763864_2" [label="KCS SAP Executor"]
+	"-8692646081821763864_9" -> "-8692646081821763864_10"
+	"-8692646081821763864_2" -> "-8692646081821763864_3"
+	"-8692646081821763864_4" -> "-8692646081821763864_9"
+	"-8692646081821763864_10" -> "-8692646081821763864_1"
+	"-8692646081821763864_3" -> "-8692646081821763864_4"
 	rankdir=LR
 }

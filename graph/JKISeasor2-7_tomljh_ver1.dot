@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	3 -> 4
-	4 -> 5
-	5 [label="Scatter Plot"]
-	1 [label="CSV Reader"]
-	4 [label="Nominal Value Row Filter"]
-	3 [label="Nominal Value Row Filter"]
-	2 [label="Nominal Value Row Filter"]
+	"-1069449487272421027_2" [label="Nominal Value Row Filter"]
+	"-1069449487272421027_5" [label="Scatter Plot"]
+	"-1069449487272421027_4" [label="Nominal Value Row Filter"]
+	"-1069449487272421027_3" [label="Nominal Value Row Filter"]
+	"-1069449487272421027_1" [label="CSV Reader"]
+	"-1069449487272421027_1" -> "-1069449487272421027_2"
+	"-1069449487272421027_2" -> "-1069449487272421027_3"
+	"-1069449487272421027_3" -> "-1069449487272421027_4"
+	"-1069449487272421027_4" -> "-1069449487272421027_5"
 	rankdir=LR
 }

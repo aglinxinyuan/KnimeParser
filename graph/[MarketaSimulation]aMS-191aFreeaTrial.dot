@@ -1,20 +1,20 @@
 digraph {
-	1 -> 3
-	8 -> 9
-	3 -> 4
-	5 -> 6
-	2 -> 3
-	6 -> 7
-	4 -> 6
-	7 -> 9
-	5 [label="Table Creator"]
-	1 [label="Customer Distributions"]
-	7 [label="Scale Purchased"]
-	9 [label="Simulate Market"]
-	4 [label="Scale Purchased"]
-	6 [label="Simulate Market"]
-	8 [label="Table Creator"]
-	3 [label="Simulate Market"]
-	2 [label="Table Creator"]
+	"-2160961748282026655_4" [label="Scale Purchased"]
+	"-2160961748282026655_7" [label="Scale Purchased"]
+	"-2160961748282026655_6" [label="Simulate Market"]
+	"-2160961748282026655_3" [label="Simulate Market"]
+	"-2160961748282026655_9" [label="Simulate Market"]
+	"-2160961748282026655_1" [label="Customer Distributions"]
+	"-2160961748282026655_2" [label="Table Creator"]
+	"-2160961748282026655_8" [label="Table Creator"]
+	"-2160961748282026655_5" [label="Table Creator"]
+	"-2160961748282026655_8" -> "-2160961748282026655_9"
+	"-2160961748282026655_7" -> "-2160961748282026655_9"
+	"-2160961748282026655_5" -> "-2160961748282026655_6"
+	"-2160961748282026655_2" -> "-2160961748282026655_3"
+	"-2160961748282026655_3" -> "-2160961748282026655_4"
+	"-2160961748282026655_1" -> "-2160961748282026655_3"
+	"-2160961748282026655_4" -> "-2160961748282026655_6"
+	"-2160961748282026655_6" -> "-2160961748282026655_7"
 	rankdir=LR
 }

@@ -1,14 +1,14 @@
 digraph {
-	2 -> 6
-	2 -> 3
-	2 -> 5
-	2 -> 4
-	7 -> 2
-	5 [label="CSV Reader"]
-	7 [label="Amazon Authentication"]
-	4 [label="Excel Reader"]
-	6 [label="Table Reader"]
-	3 [label="File Reader"]
-	2 [label="Amazon S3 Connector"]
+	"3740300208733006420_7" [label="Amazon Authentication"]
+	"3740300208733006420_2" [label="Amazon S3 Connector"]
+	"3740300208733006420_3" [label="File Reader"]
+	"3740300208733006420_6" [label="Table Reader"]
+	"3740300208733006420_4" [label="Excel Reader"]
+	"3740300208733006420_5" [label="CSV Reader"]
+	"3740300208733006420_2" -> "3740300208733006420_5"
+	"3740300208733006420_2" -> "3740300208733006420_3"
+	"3740300208733006420_2" -> "3740300208733006420_4"
+	"3740300208733006420_2" -> "3740300208733006420_6"
+	"3740300208733006420_7" -> "3740300208733006420_2"
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	1 -> 3
-	1 [label="Excel Reader _XLS_"]
-	3 [label="Column Filter"]
+	"-3344744963522765329_3" [label="Column Filter"]
+	"-3344744963522765329_1" [label="Excel Reader _XLS_"]
+	"-3344744963522765329_1" -> "-3344744963522765329_3"
 	rankdir=LR
 }

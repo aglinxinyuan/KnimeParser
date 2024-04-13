@@ -1,12 +1,12 @@
 digraph {
-	4 -> 5
-	3 -> 4
-	2 -> 4
-	1 -> 5
-	5 [label="Row Filter"]
-	1 [label="Table Creator"]
-	4 [label="Merge Variables"]
-	3 [label="Integer Widget"]
-	2 [label="Integer Widget"]
+	"9175019217965782119_3" [label="Integer Widget"]
+	"9175019217965782119_1" [label="Table Creator"]
+	"9175019217965782119_4" [label="Merge Variables"]
+	"9175019217965782119_5" [label="Row Filter"]
+	"9175019217965782119_2" [label="Integer Widget"]
+	"9175019217965782119_1" -> "9175019217965782119_5"
+	"9175019217965782119_2" -> "9175019217965782119_4"
+	"9175019217965782119_3" -> "9175019217965782119_4"
+	"9175019217965782119_4" -> "9175019217965782119_5"
 	rankdir=LR
 }

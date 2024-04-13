@@ -1,9 +1,9 @@
 digraph {
-	30 -> 23
-	20 -> 31
-	23 [label="String to Date_Time"]
-	30 [label="CSV Reader"]
-	31 [label="Extract Date_Time Fields"]
-	20 [label="Excel Reader"]
+	"-2428117323657843108_30" [label="CSV Reader"]
+	"-2428117323657843108_31" [label="Extract Date_Time Fields"]
+	"-2428117323657843108_20" [label="Excel Reader"]
+	"-2428117323657843108_23" [label="String to Date_Time"]
+	"-2428117323657843108_30" -> "-2428117323657843108_23"
+	"-2428117323657843108_20" -> "-2428117323657843108_31"
 	rankdir=LR
 }

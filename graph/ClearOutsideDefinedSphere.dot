@@ -1,8 +1,8 @@
 digraph {
-	58 -> 59
-	1 -> 58
-	1 [label="Image Generator"]
-	58 [label="Java Snippet"]
-	59 [label="Image Viewer"]
+	"-8050453944696633900_59" [label="Image Viewer"]
+	"-8050453944696633900_1" [label="Image Generator"]
+	"-8050453944696633900_58" [label="Java Snippet"]
+	"-8050453944696633900_58" -> "-8050453944696633900_59"
+	"-8050453944696633900_1" -> "-8050453944696633900_58"
 	rankdir=LR
 }

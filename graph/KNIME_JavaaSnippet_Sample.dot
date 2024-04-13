@@ -1,12 +1,12 @@
 digraph {
-	3 -> 1
-	2 -> 1
-	1 -> 4
-	4 -> 5
-	5 [label="Table View"]
-	1 [label="Java Snippet _simple_"]
-	4 [label="Java Snippet _simple_"]
-	3 [label="Table Creator"]
-	2 [label="Double Configuration"]
+	"-6176964541995671575_2" [label="Double Configuration"]
+	"-6176964541995671575_3" [label="Table Creator"]
+	"-6176964541995671575_1" [label="Java Snippet _simple_"]
+	"-6176964541995671575_5" [label="Table View"]
+	"-6176964541995671575_4" [label="Java Snippet _simple_"]
+	"-6176964541995671575_4" -> "-6176964541995671575_5"
+	"-6176964541995671575_2" -> "-6176964541995671575_1"
+	"-6176964541995671575_3" -> "-6176964541995671575_1"
+	"-6176964541995671575_1" -> "-6176964541995671575_4"
 	rankdir=LR
 }

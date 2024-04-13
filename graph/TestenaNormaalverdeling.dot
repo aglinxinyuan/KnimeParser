@@ -1,28 +1,28 @@
 digraph {
-	19 -> 9
-	7 -> 8
-	1 -> 2
-	19 -> 5
-	13 -> 14
-	2 -> 6
-	19 -> 11
-	7 -> 13
-	11 -> 12
-	7 -> 10
-	6 -> 19
-	6 -> 7
-	5 [label=Histogram]
-	14 [label="Shapiro_Wilk Test"]
-	13 [label=Partitioning]
-	1 [label="Empty Table Creator"]
-	7 [label=Sorter]
-	9 [label="Shapiro_Wilk Test"]
-	11 [label=Partitioning]
-	10 [label="Shapiro_Wilk Test"]
-	6 [label="Random Number Assigner"]
-	8 [label=Histogram]
-	12 [label="Shapiro_Wilk Test"]
-	2 [label="Gaussian Distributed Assigner"]
-	19 [label=Sorter]
+	"471389779944142800_13" [label=Partitioning]
+	"471389779944142800_19" [label=Sorter]
+	"471389779944142800_11" [label=Partitioning]
+	"471389779944142800_7" [label=Sorter]
+	"471389779944142800_10" [label="Shapiro_Wilk Test"]
+	"471389779944142800_12" [label="Shapiro_Wilk Test"]
+	"471389779944142800_14" [label="Shapiro_Wilk Test"]
+	"471389779944142800_5" [label=Histogram]
+	"471389779944142800_9" [label="Shapiro_Wilk Test"]
+	"471389779944142800_6" [label="Random Number Assigner"]
+	"471389779944142800_8" [label=Histogram]
+	"471389779944142800_1" [label="Empty Table Creator"]
+	"471389779944142800_2" [label="Gaussian Distributed Assigner"]
+	"471389779944142800_7" -> "471389779944142800_13"
+	"471389779944142800_19" -> "471389779944142800_11"
+	"471389779944142800_1" -> "471389779944142800_2"
+	"471389779944142800_13" -> "471389779944142800_14"
+	"471389779944142800_7" -> "471389779944142800_10"
+	"471389779944142800_2" -> "471389779944142800_6"
+	"471389779944142800_19" -> "471389779944142800_5"
+	"471389779944142800_7" -> "471389779944142800_8"
+	"471389779944142800_19" -> "471389779944142800_9"
+	"471389779944142800_6" -> "471389779944142800_7"
+	"471389779944142800_11" -> "471389779944142800_12"
+	"471389779944142800_6" -> "471389779944142800_19"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	1 -> 4
-	4 -> 5
-	1 [label="Excel Reader"]
-	4 [label="Column Filter"]
-	5 [label="Decision Tree Predictor"]
+	"-2788095447536740446_1" [label="Excel Reader"]
+	"-2788095447536740446_4" [label="Column Filter"]
+	"-2788095447536740446_5" [label="Decision Tree Predictor"]
+	"-2788095447536740446_4" -> "-2788095447536740446_5"
+	"-2788095447536740446_1" -> "-2788095447536740446_4"
 	rankdir=LR
 }

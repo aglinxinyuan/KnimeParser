@@ -1,12 +1,12 @@
 digraph {
-	24 -> 22
-	22 -> 20
-	23 -> 24
-	21 -> 23
-	24 [label="String to Path"]
-	20 [label="Decompress Files"]
-	22 [label="Table Row to Variable"]
-	23 [label="String to Path"]
-	21 [label="Table Creator"]
+	"-4774248691189469719_23" [label="String to Path"]
+	"-4774248691189469719_24" [label="String to Path"]
+	"-4774248691189469719_20" [label="Decompress Files"]
+	"-4774248691189469719_22" [label="Table Row to Variable"]
+	"-4774248691189469719_21" [label="Table Creator"]
+	"-4774248691189469719_21" -> "-4774248691189469719_23"
+	"-4774248691189469719_22" -> "-4774248691189469719_20"
+	"-4774248691189469719_23" -> "-4774248691189469719_24"
+	"-4774248691189469719_24" -> "-4774248691189469719_22"
 	rankdir=LR
 }

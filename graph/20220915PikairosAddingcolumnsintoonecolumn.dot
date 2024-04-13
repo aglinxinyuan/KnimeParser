@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Excel Reader"]
-	3 [label=Ungroup]
-	2 [label="Column Aggregator"]
+	"9168219533905224890_2" [label="Column Aggregator"]
+	"9168219533905224890_1" [label="Excel Reader"]
+	"9168219533905224890_3" [label=Ungroup]
+	"9168219533905224890_1" -> "9168219533905224890_2"
+	"9168219533905224890_2" -> "9168219533905224890_3"
 	rankdir=LR
 }

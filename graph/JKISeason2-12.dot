@@ -1,12 +1,12 @@
 digraph {
-	3 -> 7
-	3 -> 4
-	5 -> 6
-	4 -> 5
-	5 [label="Image Normalizer"]
-	7 [label="Image Viewer"]
-	4 [label="Gaussian Convolution"]
-	6 [label="Image Viewer"]
-	3 [label="Image Reader"]
+	"6577344560828295655_7" [label="Image Viewer"]
+	"6577344560828295655_5" [label="Image Normalizer"]
+	"6577344560828295655_6" [label="Image Viewer"]
+	"6577344560828295655_4" [label="Gaussian Convolution"]
+	"6577344560828295655_3" [label="Image Reader"]
+	"6577344560828295655_3" -> "6577344560828295655_4"
+	"6577344560828295655_5" -> "6577344560828295655_6"
+	"6577344560828295655_3" -> "6577344560828295655_7"
+	"6577344560828295655_4" -> "6577344560828295655_5"
 	rankdir=LR
 }

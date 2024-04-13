@@ -1,8 +1,8 @@
 digraph {
-	2 -> 4
-	3 -> 2
-	4 [label="Column Filter"]
-	3 [label="GET Request"]
-	2 [label="JSON to Table"]
+	"-4338286435720204865_3" [label="GET Request"]
+	"-4338286435720204865_4" [label="Column Filter"]
+	"-4338286435720204865_2" [label="JSON to Table"]
+	"-4338286435720204865_2" -> "-4338286435720204865_4"
+	"-4338286435720204865_3" -> "-4338286435720204865_2"
 	rankdir=LR
 }

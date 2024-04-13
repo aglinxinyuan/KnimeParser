@@ -1,10 +1,10 @@
 digraph {
-	1020 -> 1021
-	1018 -> 1020
-	1 -> 1018
-	1 [label="Table Creator"]
-	1020 [label="String Manipulation"]
-	1018 [label="String Manipulation"]
-	1021 [label="Table View"]
+	"2788150615419019462_1021" [label="Table View"]
+	"2788150615419019462_1020" [label="String Manipulation"]
+	"2788150615419019462_1018" [label="String Manipulation"]
+	"2788150615419019462_1" [label="Table Creator"]
+	"2788150615419019462_1" -> "2788150615419019462_1018"
+	"2788150615419019462_1018" -> "2788150615419019462_1020"
+	"2788150615419019462_1020" -> "2788150615419019462_1021"
 	rankdir=LR
 }

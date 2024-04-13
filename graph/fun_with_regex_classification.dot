@@ -1,10 +1,10 @@
 digraph {
-	283 -> 284
-	286 -> 283
-	284 -> 285
-	283 [label="String Manipulation"]
-	286 [label="Table Creator"]
-	284 [label="String Manipulation"]
-	285 [label="Rule Engine"]
+	"-2218526907927390328_286" [label="Table Creator"]
+	"-2218526907927390328_285" [label="Rule Engine"]
+	"-2218526907927390328_284" [label="String Manipulation"]
+	"-2218526907927390328_283" [label="String Manipulation"]
+	"-2218526907927390328_283" -> "-2218526907927390328_284"
+	"-2218526907927390328_286" -> "-2218526907927390328_283"
+	"-2218526907927390328_284" -> "-2218526907927390328_285"
 	rankdir=LR
 }

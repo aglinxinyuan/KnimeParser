@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label=GroupBy]
-	3 [label="String Manipulation"]
-	2 [label=Unpivoting]
+	"8392233195048074035_3" [label="String Manipulation"]
+	"8392233195048074035_4" [label=GroupBy]
+	"8392233195048074035_2" [label=Unpivoting]
+	"8392233195048074035_1" [label="Table Creator"]
+	"8392233195048074035_3" -> "8392233195048074035_4"
+	"8392233195048074035_2" -> "8392233195048074035_3"
+	"8392233195048074035_1" -> "8392233195048074035_2"
 	rankdir=LR
 }

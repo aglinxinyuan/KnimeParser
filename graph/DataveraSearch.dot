@@ -1,8 +1,8 @@
 digraph {
-	1660 -> 19
-	19 -> 2
-	1660 [label="Testflow Configuration"]
-	2 [label="Table View"]
-	19 [label="Dataverse Search"]
+	"-824150619617537419_2" [label="Table View"]
+	"-824150619617537419_19" [label="Dataverse Search"]
+	"-824150619617537419_1660" [label="Testflow Configuration"]
+	"-824150619617537419_19" -> "-824150619617537419_2"
+	"-824150619617537419_1660" -> "-824150619617537419_19"
 	rankdir=LR
 }

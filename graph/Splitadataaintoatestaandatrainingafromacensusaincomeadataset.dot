@@ -1,10 +1,10 @@
 digraph {
-	1 -> 7
-	5 -> 1
-	1 -> 6
-	1 [label=Partitioning]
-	7 [label="Table Writer"]
-	5 [label="Parquet Reader"]
-	6 [label="Table Writer"]
+	"3859684236857340644_5" [label="Parquet Reader"]
+	"3859684236857340644_6" [label="Table Writer"]
+	"3859684236857340644_1" [label=Partitioning]
+	"3859684236857340644_7" [label="Table Writer"]
+	"3859684236857340644_1" -> "3859684236857340644_7"
+	"3859684236857340644_1" -> "3859684236857340644_6"
+	"3859684236857340644_5" -> "3859684236857340644_1"
 	rankdir=LR
 }

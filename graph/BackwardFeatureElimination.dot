@@ -1,21 +1,21 @@
 digraph {
-	778 -> 3
-	12 -> 13
-	6 -> 11
-	13 -> 2
-	8 -> 6
-	6 -> 12
-	11 -> 12
-	2 -> 3
-	779 -> 778
-	13 [label=Scorer]
-	778 [label=Partitioning]
-	11 [label="Decision Tree Learner"]
-	6 [label=Partitioning]
-	8 [label="Feature Selection Loop Start _1_1_"]
-	779 [label="CSV Reader"]
-	3 [label="Feature Selection Filter"]
-	2 [label="Feature Selection Loop End"]
-	12 [label="Decision Tree Predictor"]
+	"-7267566767979577918_12" [label="Decision Tree Predictor"]
+	"-7267566767979577918_13" [label=Scorer]
+	"-7267566767979577918_11" [label="Decision Tree Learner"]
+	"-7267566767979577918_2" [label="Feature Selection Loop End"]
+	"-7267566767979577918_6" [label=Partitioning]
+	"-7267566767979577918_8" [label="Feature Selection Loop Start _1_1_"]
+	"2428966702613222987_778" [label=Partitioning]
+	"2428966702613222987_779" [label="CSV Reader"]
+	"-7267566767979577918_3" [label="Feature Selection Filter"]
+	"2428966702613222987_778" -> "-7267566767979577918_3"
+	"-7267566767979577918_13" -> "-7267566767979577918_2"
+	"-7267566767979577918_12" -> "-7267566767979577918_13"
+	"-7267566767979577918_11" -> "-7267566767979577918_12"
+	"-7267566767979577918_2" -> "-7267566767979577918_3"
+	"-7267566767979577918_6" -> "-7267566767979577918_12"
+	"-7267566767979577918_8" -> "-7267566767979577918_6"
+	"2428966702613222987_779" -> "2428966702613222987_778"
+	"-7267566767979577918_6" -> "-7267566767979577918_11"
 	rankdir=LR
 }

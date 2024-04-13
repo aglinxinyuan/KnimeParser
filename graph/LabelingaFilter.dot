@@ -1,20 +1,20 @@
 digraph {
-	2 -> 12
-	8 -> 10
-	10 -> 14
-	8 -> 2
-	11 -> 13
-	12 -> 11
-	15 -> 6
-	6 -> 8
-	13 [label="Table Cell Viewer"]
-	11 [label=GroupBy]
-	10 [label="Labeling Filter"]
-	6 [label="Global Thresholder"]
-	8 [label="Connected Component Analysis"]
-	15 [label="Image Reader"]
-	14 [label="Table Cell Viewer"]
-	2 [label="Image Segment Features"]
-	12 [label="Row Filter"]
+	"-5631896841131136306_10" [label="Labeling Filter"]
+	"4935388545392118907_6" [label="Global Thresholder"]
+	"-5631896841131136306_13" [label="Table Cell Viewer"]
+	"-5631896841131136306_15" [label="Image Reader"]
+	"-5631896841131136306_12" [label="Row Filter"]
+	"-5631896841131136306_14" [label="Table Cell Viewer"]
+	"-5631896841131136306_11" [label=GroupBy]
+	"-5631896841131136306_2" [label="Image Segment Features"]
+	"4935388545392118907_8" [label="Connected Component Analysis"]
+	"4935388545392118907_8" -> "-5631896841131136306_2"
+	"-5631896841131136306_15" -> "4935388545392118907_6"
+	"-5631896841131136306_10" -> "-5631896841131136306_14"
+	"-5631896841131136306_11" -> "-5631896841131136306_13"
+	"-5631896841131136306_12" -> "-5631896841131136306_11"
+	"4935388545392118907_8" -> "-5631896841131136306_10"
+	"4935388545392118907_6" -> "4935388545392118907_8"
+	"-5631896841131136306_2" -> "-5631896841131136306_12"
 	rankdir=LR
 }

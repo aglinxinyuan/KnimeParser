@@ -1,10 +1,10 @@
 digraph {
-	6 -> 5
-	5 -> 7
-	1 -> 6
-	1 [label="File Reader"]
-	7 [label="Column Expressions"]
-	5 [label="Lag Column"]
-	6 [label=Sorter]
+	"4648685378022726010_5" [label="Lag Column"]
+	"4648685378022726010_1" [label="File Reader"]
+	"4648685378022726010_7" [label="Column Expressions"]
+	"4648685378022726010_6" [label=Sorter]
+	"4648685378022726010_6" -> "4648685378022726010_5"
+	"4648685378022726010_1" -> "4648685378022726010_6"
+	"4648685378022726010_5" -> "4648685378022726010_7"
 	rankdir=LR
 }

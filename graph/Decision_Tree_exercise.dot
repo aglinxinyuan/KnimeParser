@@ -1,8 +1,8 @@
 digraph {
-	23 -> 26
-	70 -> 23
-	23 [label="Rule Engine"]
-	26 [label="Column Filter"]
-	70 [label="CSV Reader"]
+	"6405211453299040730_26" [label="Column Filter"]
+	"612083960182645214_70" [label="CSV Reader"]
+	"6405211453299040730_23" [label="Rule Engine"]
+	"6405211453299040730_23" -> "6405211453299040730_26"
+	"612083960182645214_70" -> "6405211453299040730_23"
 	rankdir=LR
 }

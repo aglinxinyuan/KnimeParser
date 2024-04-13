@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label="Column Filter"]
-	3 [label="String Manipulation"]
-	2 [label="Cell Splitter"]
+	"-5922486688461519205_2" [label="Cell Splitter"]
+	"-5922486688461519205_3" [label="String Manipulation"]
+	"-5922486688461519205_4" [label="Column Filter"]
+	"-5922486688461519205_1" [label="Table Creator"]
+	"-5922486688461519205_1" -> "-5922486688461519205_2"
+	"-5922486688461519205_3" -> "-5922486688461519205_4"
+	"-5922486688461519205_2" -> "-5922486688461519205_3"
 	rankdir=LR
 }

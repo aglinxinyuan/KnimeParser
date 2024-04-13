@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Image Reader"]
-	3 [label="Interactive Segmentation View"]
-	2 [label="Connected Component Analysis"]
+	"-4034566252627991123_2" [label="Connected Component Analysis"]
+	"-4034566252627991123_3" [label="Interactive Segmentation View"]
+	"-4034566252627991123_1" [label="Image Reader"]
+	"-4034566252627991123_2" -> "-4034566252627991123_3"
+	"-4034566252627991123_1" -> "-4034566252627991123_2"
 	rankdir=LR
 }

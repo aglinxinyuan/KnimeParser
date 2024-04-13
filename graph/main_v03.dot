@@ -1,37 +1,38 @@
 digraph {
-	5 -> 8
-	6 -> 5
-	10 -> 11
-	46 -> 47
-	4 -> 5
-	5 -> 46
-	1 -> 7
-	30 -> 31
-	43 -> 45
-	31 -> 43
-	45 -> 4
-	47 -> 46
-	1 -> 2
-	9 -> 10
-	11 -> 30
-	1 -> 3
-	7 -> 9
-	5 [label="String Replacer _Dictionary_"]
-	43 [label="String Manipulation"]
-	1 [label="CSV Reader"]
-	7 [label="String Manipulation"]
-	31 [label="String Manipulation"]
-	9 [label="String Manipulation"]
-	45 [label="String Manipulation"]
-	46 [label="Python Script"]
-	47 [label="Python Script"]
-	11 [label="String Manipulation"]
-	4 [label="String To Number"]
-	8 [label=Histogram]
-	6 [label="Table Creator"]
-	30 [label="String Manipulation"]
-	3 [label=Statistics]
-	2 [label="Interactive Table _legacy_"]
-	10 [label="String Manipulation"]
+	"5249160068012467183_4" [label="String To Number"]
+	"6964736896589244379_9" [label="String Manipulation"]
+	"5249160068012467183_3" [label=Statistics]
+	"6964736896589244379_10" [label="String Manipulation"]
+	"6964736896589244379_31" [label="String Manipulation"]
+	"5249160068012467183_5" [label="String Replacer _Dictionary_"]
+	"-4825965070428289989_48" [label="Python Script"]
+	"6964736896589244379_7" [label="String Manipulation"]
+	"6964736896589244379_45" [label="String Manipulation"]
+	"5249160068012467183_1" [label="CSV Reader"]
+	"-4126826997466660055_8" [label=Histogram]
+	"5249160068012467183_6" [label="Table Creator"]
+	"6964736896589244379_11" [label="String Manipulation"]
+	"6964736896589244379_43" [label="String Manipulation"]
+	"5249160068012467183_2" [label="Interactive Table _legacy_"]
+	"-4825965070428289989_47" [label="Python Script"]
+	"-4825965070428289989_46" [label="Python Script"]
+	"6964736896589244379_30" [label="String Manipulation"]
+	"5249160068012467183_1" -> "5249160068012467183_3"
+	"6964736896589244379_10" -> "6964736896589244379_11"
+	"5249160068012467183_5" -> "-4825965070428289989_46"
+	"5249160068012467183_1" -> "6964736896589244379_7"
+	"6964736896589244379_9" -> "6964736896589244379_10"
+	"5249160068012467183_6" -> "5249160068012467183_5"
+	"6964736896589244379_45" -> "5249160068012467183_4"
+	"6964736896589244379_11" -> "6964736896589244379_30"
+	"5249160068012467183_1" -> "5249160068012467183_2"
+	"6964736896589244379_31" -> "6964736896589244379_43"
+	"6964736896589244379_7" -> "6964736896589244379_9"
+	"6964736896589244379_43" -> "6964736896589244379_45"
+	"5249160068012467183_4" -> "5249160068012467183_5"
+	"-4825965070428289989_46" -> "-4825965070428289989_47"
+	"6964736896589244379_30" -> "6964736896589244379_31"
+	"-4825965070428289989_47" -> "-4825965070428289989_48"
+	"5249160068012467183_5" -> "-4126826997466660055_8"
 	rankdir=LR
 }

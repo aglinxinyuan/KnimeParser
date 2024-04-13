@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label=Sorter]
-	3 [label="Table Editor"]
-	2 [label="Column Expressions"]
+	"-963936709149541264_2" [label="Column Expressions"]
+	"-963936709149541264_4" [label=Sorter]
+	"-963936709149541264_1" [label="Table Creator"]
+	"-963936709149541264_3" [label="Table Editor"]
+	"-963936709149541264_2" -> "-963936709149541264_3"
+	"-963936709149541264_1" -> "-963936709149541264_2"
+	"-963936709149541264_3" -> "-963936709149541264_4"
 	rankdir=LR
 }

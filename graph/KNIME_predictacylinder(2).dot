@@ -1,14 +1,14 @@
 digraph {
-	36 -> 29
-	28 -> 36
-	26 -> 27
-	38 -> 29
-	27 -> 28
-	27 [label="Keras Masking Layer"]
-	29 [label="Keras Network Learner"]
-	28 [label="Keras LSTM Layer"]
-	36 [label="Keras Dense Layer"]
-	26 [label="Keras Input Layer"]
-	38 [label="Table Reader"]
+	"3988211787047256256_38" [label="Table Reader"]
+	"3988211787047256256_29" [label="Keras Network Learner"]
+	"3988211787047256256_27" [label="Keras Masking Layer"]
+	"3988211787047256256_28" [label="Keras LSTM Layer"]
+	"3988211787047256256_36" [label="Keras Dense Layer"]
+	"3988211787047256256_26" [label="Keras Input Layer"]
+	"3988211787047256256_28" -> "3988211787047256256_36"
+	"3988211787047256256_27" -> "3988211787047256256_28"
+	"3988211787047256256_36" -> "3988211787047256256_29"
+	"3988211787047256256_38" -> "3988211787047256256_29"
+	"3988211787047256256_26" -> "3988211787047256256_27"
 	rankdir=LR
 }

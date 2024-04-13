@@ -1,18 +1,18 @@
 digraph {
-	13 -> 9
-	18 -> 14
-	12 -> 14
-	17 -> 18
-	9 -> 10
-	15 -> 13
-	10 -> 12
-	13 [label="Column Resorter"]
-	9 [label="Column To XML"]
-	18 [label="Java Edit Variable"]
-	10 [label="Column To XML"]
-	15 [label="Table Creator"]
-	14 [label="XML Row Combine and Write"]
-	17 [label="Extract Context Properties"]
-	12 [label="XML Column Combiner"]
+	"-1964553246530358349_12" [label="XML Column Combiner"]
+	"-1964553246530358349_15" [label="Table Creator"]
+	"-1964553246530358349_18" [label="Java Edit Variable"]
+	"-1964553246530358349_10" [label="Column To XML"]
+	"-1964553246530358349_9" [label="Column To XML"]
+	"-1964553246530358349_17" [label="Extract Context Properties"]
+	"-1964553246530358349_14" [label="XML Row Combine and Write"]
+	"-1964553246530358349_13" [label="Column Resorter"]
+	"-1964553246530358349_10" -> "-1964553246530358349_12"
+	"-1964553246530358349_9" -> "-1964553246530358349_10"
+	"-1964553246530358349_13" -> "-1964553246530358349_9"
+	"-1964553246530358349_12" -> "-1964553246530358349_14"
+	"-1964553246530358349_18" -> "-1964553246530358349_14"
+	"-1964553246530358349_15" -> "-1964553246530358349_13"
+	"-1964553246530358349_17" -> "-1964553246530358349_18"
 	rankdir=LR
 }

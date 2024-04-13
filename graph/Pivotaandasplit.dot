@@ -1,14 +1,14 @@
 digraph {
-	6 -> 5
-	1 -> 4
-	3 -> 2
-	4 -> 6
-	1 -> 3
-	5 [label=Pivoting]
-	1 [label="Table Creator"]
-	4 [label="Cell Splitter"]
-	6 [label=Unpivoting]
-	3 [label="Constant Value Column"]
-	2 [label=Pivoting]
+	"7995007622988343404_5" [label=Pivoting]
+	"7995007622988343404_1" [label="Table Creator"]
+	"7995007622988343404_3" [label="Constant Value Column"]
+	"7995007622988343404_6" [label=Unpivoting]
+	"7995007622988343404_4" [label="Cell Splitter"]
+	"7995007622988343404_2" [label=Pivoting]
+	"7995007622988343404_6" -> "7995007622988343404_5"
+	"7995007622988343404_1" -> "7995007622988343404_4"
+	"7995007622988343404_4" -> "7995007622988343404_6"
+	"7995007622988343404_3" -> "7995007622988343404_2"
+	"7995007622988343404_1" -> "7995007622988343404_3"
 	rankdir=LR
 }

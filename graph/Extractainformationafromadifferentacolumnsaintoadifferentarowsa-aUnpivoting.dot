@@ -1,8 +1,8 @@
 digraph {
-	5 -> 6
-	3 -> 5
-	5 [label=Unpivoting]
-	3 [label="Table Creator"]
-	6 [label="Row Filter"]
+	"-2383821538077192405_3" [label="Table Creator"]
+	"-2383821538077192405_5" [label=Unpivoting]
+	"-2383821538077192405_6" [label="Row Filter"]
+	"-2383821538077192405_3" -> "-2383821538077192405_5"
+	"-2383821538077192405_5" -> "-2383821538077192405_6"
 	rankdir=LR
 }

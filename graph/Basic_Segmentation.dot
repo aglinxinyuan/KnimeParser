@@ -1,12 +1,12 @@
 digraph {
-	11 -> 6
-	8 -> 10
-	6 -> 9
-	6 -> 8
-	9 [label="Table Cell Viewer"]
-	11 [label="Image Reader"]
-	6 [label="Global Thresholder"]
-	8 [label="Connected Component Analysis"]
-	10 [label="Interactive Segmentation View"]
+	"-1109905493477659495_10" [label="Interactive Segmentation View"]
+	"-1109905493477659495_11" [label="Image Reader"]
+	"-1109905493477659495_9" [label="Table Cell Viewer"]
+	"-1109905493477659495_6" [label="Global Thresholder"]
+	"-1109905493477659495_8" [label="Connected Component Analysis"]
+	"-1109905493477659495_11" -> "-1109905493477659495_6"
+	"-1109905493477659495_8" -> "-1109905493477659495_10"
+	"-1109905493477659495_6" -> "-1109905493477659495_9"
+	"-1109905493477659495_6" -> "-1109905493477659495_8"
 	rankdir=LR
 }

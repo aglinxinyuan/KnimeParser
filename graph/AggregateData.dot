@@ -1,9 +1,9 @@
 digraph {
-	5 -> 4
-	1 -> 2
-	1 [label="CSV Reader"]
-	4 [label=GroupBy]
-	5 [label="CSV Reader"]
-	2 [label=GroupBy]
+	"7089678771766945218_2" [label=GroupBy]
+	"7089678771766945218_4" [label=GroupBy]
+	"7089678771766945218_5" [label="CSV Reader"]
+	"7089678771766945218_1" [label="CSV Reader"]
+	"7089678771766945218_5" -> "7089678771766945218_4"
+	"7089678771766945218_1" -> "7089678771766945218_2"
 	rankdir=LR
 }

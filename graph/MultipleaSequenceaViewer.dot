@@ -1,13 +1,13 @@
 digraph {
-	8380 -> 8379
-	8384 -> 8382
-	8378 -> 8380
-	8379 -> 8381
-	8382 [label="Multiple Sequence Viewer"]
-	8378 [label="Get PDB"]
-	8384 [label="Get PDB"]
-	8381 [label="Alignment Writer"]
-	8380 [label=Molecule_to_MAE]
-	8379 [label="Multiple Sequence Viewer"]
+	"2367639673127826452_8380" [label=Molecule_to_MAE]
+	"2367639673127826452_8381" [label="Alignment Writer"]
+	"2367639673127826452_8378" [label="Get PDB"]
+	"2367639673127826452_8384" [label="Get PDB"]
+	"2367639673127826452_8379" [label="Multiple Sequence Viewer"]
+	"2367639673127826452_8382" [label="Multiple Sequence Viewer"]
+	"2367639673127826452_8378" -> "2367639673127826452_8380"
+	"2367639673127826452_8380" -> "2367639673127826452_8379"
+	"2367639673127826452_8379" -> "2367639673127826452_8381"
+	"2367639673127826452_8384" -> "2367639673127826452_8382"
 	rankdir=LR
 }

@@ -1,12 +1,12 @@
 digraph {
-	77 -> 86
-	87 -> 88
-	76 -> 84
-	86 [label="Excel Writer"]
-	84 [label="Excel Writer _XLS_ _deprecated_"]
-	87 [label="Excel Reader"]
-	88 [label="Excel Writer"]
-	76 [label="Excel Reader _XLS_ _deprecated_"]
-	77 [label="Excel Reader"]
+	"-1868370109504101568_87" [label="Excel Reader"]
+	"-1868370109504101568_77" [label="Excel Reader"]
+	"-1868370109504101568_76" [label="Excel Reader _XLS_ _deprecated_"]
+	"-1868370109504101568_84" [label="Excel Writer _XLS_ _deprecated_"]
+	"-1868370109504101568_88" [label="Excel Writer"]
+	"-1868370109504101568_86" [label="Excel Writer"]
+	"-1868370109504101568_87" -> "-1868370109504101568_88"
+	"-1868370109504101568_77" -> "-1868370109504101568_86"
+	"-1868370109504101568_76" -> "-1868370109504101568_84"
 	rankdir=LR
 }

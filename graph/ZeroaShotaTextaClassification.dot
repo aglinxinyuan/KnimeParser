@@ -1,10 +1,10 @@
 digraph {
-	11 -> 1
-	2 -> 1
-	1 -> 8
-	1 [label="Zero Shot Text Classifier"]
-	2 [label="BERT Model Selector"]
-	11 [label="Table Reader"]
-	8 [label=Scorer]
+	"1013708725224358022_2" [label="BERT Model Selector"]
+	"1013708725224358022_8" [label=Scorer]
+	"1013708725224358022_11" [label="Table Reader"]
+	"1013708725224358022_1" [label="Zero Shot Text Classifier"]
+	"1013708725224358022_1" -> "1013708725224358022_8"
+	"1013708725224358022_11" -> "1013708725224358022_1"
+	"1013708725224358022_2" -> "1013708725224358022_1"
 	rankdir=LR
 }

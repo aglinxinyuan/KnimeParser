@@ -1,6 +1,6 @@
 digraph {
-	1 -> 3
-	1 [label="File Reader"]
-	3 [label="Scatter Plot"]
+	"3020116331788264715_3" [label="Scatter Plot"]
+	"3020116331788264715_1" [label="File Reader"]
+	"3020116331788264715_1" -> "3020116331788264715_3"
 	rankdir=LR
 }

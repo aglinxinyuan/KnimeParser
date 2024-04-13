@@ -1,15 +1,15 @@
 digraph {
-	29 -> 112
-	111 -> 114
-	56 -> 111
-	112 -> 165
-	141 -> 29
-	165 [label="RDKit Generate Coords"]
-	112 [label="Duplicate Row Filter"]
-	29 [label="RDKit Canon SMILES"]
-	56 [label="Constant Value Column"]
-	111 [label=Concatenate]
-	114 [label="RDKit Descriptor Calculation"]
-	141 [label="RDKit Two Component Reaction"]
+	"-865414567646129032_112" [label="Duplicate Row Filter"]
+	"-4905543604383485311_141" [label="RDKit Two Component Reaction"]
+	"-865414567646129032_165" [label="RDKit Generate Coords"]
+	"-4905543604383485311_111" [label=Concatenate]
+	"-865414567646129032_29" [label="RDKit Canon SMILES"]
+	"-4905543604383485311_56" [label="Constant Value Column"]
+	"-4905543604383485311_114" [label="RDKit Descriptor Calculation"]
+	"-865414567646129032_29" -> "-865414567646129032_112"
+	"-4905543604383485311_141" -> "-865414567646129032_29"
+	"-4905543604383485311_56" -> "-4905543604383485311_111"
+	"-865414567646129032_112" -> "-865414567646129032_165"
+	"-4905543604383485311_111" -> "-4905543604383485311_114"
 	rankdir=LR
 }

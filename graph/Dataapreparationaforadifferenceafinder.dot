@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Excel Reader"]
-	3 [label=GroupBy]
-	2 [label="Column Expressions"]
+	"7276825088401753393_1" [label="Excel Reader"]
+	"7276825088401753393_2" [label="Column Expressions"]
+	"7276825088401753393_3" [label=GroupBy]
+	"7276825088401753393_2" -> "7276825088401753393_3"
+	"7276825088401753393_1" -> "7276825088401753393_2"
 	rankdir=LR
 }

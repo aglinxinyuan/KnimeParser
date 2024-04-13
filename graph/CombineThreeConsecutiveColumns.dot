@@ -1,10 +1,10 @@
 digraph {
-	6 -> 7
-	5 -> 6
-	3 -> 5
-	5 [label="Column Combiner"]
-	7 [label="Cell Splitter"]
-	3 [label="Table Creator"]
-	6 [label="String Replacer"]
+	"4916070995872545115_7" [label="Cell Splitter"]
+	"4916070995872545115_6" [label="String Replacer"]
+	"4916070995872545115_5" [label="Column Combiner"]
+	"4916070995872545115_3" [label="Table Creator"]
+	"4916070995872545115_3" -> "4916070995872545115_5"
+	"4916070995872545115_5" -> "4916070995872545115_6"
+	"4916070995872545115_6" -> "4916070995872545115_7"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	1 -> 353
-	353 -> 352
-	1 [label="Table Reader"]
-	353 [label="Call Workflow _Table Based_"]
-	352 [label="Table Writer"]
+	"8247553016165297589_353" [label="Call Workflow _Table Based_"]
+	"8247553016165297589_352" [label="Table Writer"]
+	"8247553016165297589_1" [label="Table Reader"]
+	"8247553016165297589_1" -> "8247553016165297589_353"
+	"8247553016165297589_353" -> "8247553016165297589_352"
 	rankdir=LR
 }

@@ -1,9 +1,9 @@
 digraph {
-	23 -> 22
-	15 -> 21
-	23 [label="List Files"]
-	21 [label="Image Reader _Table_"]
-	22 [label="Image Reader _Table_"]
-	15 [label="Table Creator"]
+	"-8688545455834201269_23" [label="List Files"]
+	"-8688545455834201269_21" [label="Image Reader _Table_"]
+	"-8688545455834201269_15" [label="Table Creator"]
+	"-8688545455834201269_22" [label="Image Reader _Table_"]
+	"-8688545455834201269_23" -> "-8688545455834201269_22"
+	"-8688545455834201269_15" -> "-8688545455834201269_21"
 	rankdir=LR
 }

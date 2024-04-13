@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="Geospatial View"]
-	2 [label=Geocoding]
+	"5671972228051531823_3" [label="Geospatial View"]
+	"5671972228051531823_2" [label=Geocoding]
+	"5671972228051531823_1" [label="Table Creator"]
+	"5671972228051531823_2" -> "5671972228051531823_3"
+	"5671972228051531823_1" -> "5671972228051531823_2"
 	rankdir=LR
 }

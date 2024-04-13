@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="Table Manipulator"]
-	2 [label=Unpivoting]
+	"7278622470702093996_1" [label="CSV Reader"]
+	"7278622470702093996_2" [label=Unpivoting]
+	"7278622470702093996_3" [label="Table Manipulator"]
+	"7278622470702093996_2" -> "7278622470702093996_3"
+	"7278622470702093996_1" -> "7278622470702093996_2"
 	rankdir=LR
 }

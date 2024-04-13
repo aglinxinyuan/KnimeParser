@@ -1,10 +1,10 @@
 digraph {
-	1 -> 10
-	10 -> 11
-	11 -> 12
-	1 [label="Table Creator"]
-	11 [label="Split Collection Column"]
-	12 [label="Column Rename _Regex_"]
-	10 [label=GroupBy]
+	"3475571787416164538_12" [label="Column Rename _Regex_"]
+	"3475571787416164538_1" [label="Table Creator"]
+	"3475571787416164538_10" [label=GroupBy]
+	"3475571787416164538_11" [label="Split Collection Column"]
+	"3475571787416164538_10" -> "3475571787416164538_11"
+	"3475571787416164538_1" -> "3475571787416164538_10"
+	"3475571787416164538_11" -> "3475571787416164538_12"
 	rankdir=LR
 }

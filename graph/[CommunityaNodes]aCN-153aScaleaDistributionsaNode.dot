@@ -1,10 +1,10 @@
 digraph {
-	28 -> 32
-	31 -> 32
-	32 -> 33
-	33 [label="Scale Distributions"]
-	32 [label="Simulate Market"]
-	28 [label="Table Creator"]
-	31 [label="Table Creator"]
+	"-8192919513088971511_28" [label="Table Creator"]
+	"-8192919513088971511_32" [label="Simulate Market"]
+	"-8192919513088971511_33" [label="Scale Distributions"]
+	"-8192919513088971511_31" [label="Table Creator"]
+	"-8192919513088971511_32" -> "-8192919513088971511_33"
+	"-8192919513088971511_31" -> "-8192919513088971511_32"
+	"-8192919513088971511_28" -> "-8192919513088971511_32"
 	rankdir=LR
 }

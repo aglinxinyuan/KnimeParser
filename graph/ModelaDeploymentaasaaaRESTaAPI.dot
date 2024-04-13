@@ -1,14 +1,14 @@
 digraph {
-	7 -> 5
-	3 -> 7
-	2 -> 7
-	5 -> 6
-	1 -> 2
-	5 [label="Table to JSON"]
-	1 [label="Container Input _JSON_"]
-	7 [label="Decision Tree Predictor"]
-	6 [label="Container Output _JSON_"]
-	3 [label="Model Reader"]
-	2 [label="JSON to Table"]
+	"-6582750285670045145_3" [label="Model Reader"]
+	"-6582750285670045145_2" [label="JSON to Table"]
+	"-6582750285670045145_5" [label="Table to JSON"]
+	"-6582750285670045145_6" [label="Container Output _JSON_"]
+	"-6582750285670045145_1" [label="Container Input _JSON_"]
+	"-6582750285670045145_7" [label="Decision Tree Predictor"]
+	"-6582750285670045145_1" -> "-6582750285670045145_2"
+	"-6582750285670045145_2" -> "-6582750285670045145_7"
+	"-6582750285670045145_5" -> "-6582750285670045145_6"
+	"-6582750285670045145_3" -> "-6582750285670045145_7"
+	"-6582750285670045145_7" -> "-6582750285670045145_5"
 	rankdir=LR
 }

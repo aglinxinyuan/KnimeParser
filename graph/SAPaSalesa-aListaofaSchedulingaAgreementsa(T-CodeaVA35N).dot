@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="KCS SAP Executor"]
-	2 [label="Excel Writer"]
+	"-1000937897154670740_2" [label="Excel Writer"]
+	"-1000937897154670740_1" [label="KCS SAP Executor"]
+	"-1000937897154670740_1" -> "-1000937897154670740_2"
 	rankdir=LR
 }

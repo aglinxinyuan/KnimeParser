@@ -1,8 +1,8 @@
 digraph {
-	5 -> 4
-	3 -> 5
-	5 [label="Path to String"]
-	4 [label="Image Reader _Table_"]
-	3 [label="List Files_Folders"]
+	"-2708228232382198684_3" [label="List Files_Folders"]
+	"-2708228232382198684_4" [label="Image Reader _Table_"]
+	"-2708228232382198684_5" [label="Path to String"]
+	"-2708228232382198684_5" -> "-2708228232382198684_4"
+	"-2708228232382198684_3" -> "-2708228232382198684_5"
 	rankdir=LR
 }

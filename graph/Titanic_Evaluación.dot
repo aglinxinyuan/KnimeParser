@@ -1,9 +1,9 @@
 digraph {
-	2 -> 3
-	1 -> 3
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="Simple Regression Tree Predictor"]
-	2 [label="Simple Regression Tree Learner"]
+	"-5015266217109605199_2" [label="Simple Regression Tree Learner"]
+	"-5015266217109605199_1" [label="CSV Reader"]
+	"-5015266217109605199_3" [label="Simple Regression Tree Predictor"]
+	"-5015266217109605199_1" -> "-5015266217109605199_3"
+	"-5015266217109605199_1" -> "-5015266217109605199_2"
+	"-5015266217109605199_2" -> "-5015266217109605199_3"
 	rankdir=LR
 }

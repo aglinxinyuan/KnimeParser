@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	3 -> 1
-	1 [label="Generic JavaScript View"]
-	3 [label="Table Row to Variable"]
-	2 [label="Table Creator"]
+	"5086334571912470167_3" [label="Table Row to Variable"]
+	"5086334571912470167_2" [label="Table Creator"]
+	"5086334571912470167_1" [label="Generic JavaScript View"]
+	"5086334571912470167_3" -> "5086334571912470167_1"
+	"5086334571912470167_2" -> "5086334571912470167_3"
 	rankdir=LR
 }

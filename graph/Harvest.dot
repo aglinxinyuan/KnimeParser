@@ -1,14 +1,14 @@
 digraph {
-	8 -> 6
-	8 -> 9
-	8 -> 7
-	8 -> 4
-	8 -> 5
-	5 [label="Metadata Harvest"]
-	7 [label="Metadata Harvest"]
-	9 [label="Metadata Harvest"]
-	4 [label="Metadata Harvest"]
-	8 [label="MdH Core Selection"]
-	6 [label="Metadata Harvest"]
+	"1873078908544243075_9" [label="Metadata Harvest"]
+	"1873078908544243075_8" [label="MdH Core Selection"]
+	"1873078908544243075_5" [label="Metadata Harvest"]
+	"1873078908544243075_4" [label="Metadata Harvest"]
+	"1873078908544243075_7" [label="Metadata Harvest"]
+	"1873078908544243075_6" [label="Metadata Harvest"]
+	"1873078908544243075_8" -> "1873078908544243075_7"
+	"1873078908544243075_8" -> "1873078908544243075_9"
+	"1873078908544243075_8" -> "1873078908544243075_4"
+	"1873078908544243075_8" -> "1873078908544243075_6"
+	"1873078908544243075_8" -> "1873078908544243075_5"
 	rankdir=LR
 }

@@ -1,11 +1,11 @@
 digraph {
-	157 -> 158
-	77 -> 157
-	159 -> 1
-	1 [label="Value Counter"]
-	157 [label="Constant Value Column"]
-	158 [label=GroupBy]
-	159 [label="Excel Reader"]
-	77 [label="Excel Reader"]
+	"6212427418933337929_1" [label="Value Counter"]
+	"6212427418933337929_157" [label="Constant Value Column"]
+	"6212427418933337929_159" [label="Excel Reader"]
+	"6212427418933337929_77" [label="Excel Reader"]
+	"6212427418933337929_158" [label=GroupBy]
+	"6212427418933337929_77" -> "6212427418933337929_157"
+	"6212427418933337929_157" -> "6212427418933337929_158"
+	"6212427418933337929_159" -> "6212427418933337929_1"
 	rankdir=LR
 }

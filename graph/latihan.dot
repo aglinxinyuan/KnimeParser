@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	2 -> 5
-	2 -> 4
-	1 -> 2
-	5 [label="Interactive Pie chart _local_"]
-	1 [label="File Reader"]
-	4 [label="Stacked Area Chart"]
-	3 [label="Pie_Donut Chart"]
-	2 [label="Column Filter"]
+	"5468625124188987227_4" [label="Stacked Area Chart"]
+	"5468625124188987227_2" [label="Column Filter"]
+	"5468625124188987227_5" [label="Interactive Pie chart _local_"]
+	"5468625124188987227_3" [label="Pie_Donut Chart"]
+	"5468625124188987227_1" [label="File Reader"]
+	"5468625124188987227_1" -> "5468625124188987227_2"
+	"5468625124188987227_2" -> "5468625124188987227_5"
+	"5468625124188987227_2" -> "5468625124188987227_4"
+	"5468625124188987227_2" -> "5468625124188987227_3"
 	rankdir=LR
 }

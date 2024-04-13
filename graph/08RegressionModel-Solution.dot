@@ -1,15 +1,15 @@
 digraph {
-	11 -> 6
-	7 -> 8
-	8 -> 9
-	6 -> 7
-	12 -> 11
-	6 -> 8
-	7 [label="Linear Regression Learner"]
-	9 [label="Numeric Scorer"]
-	11 [label="Missing Value"]
-	6 [label=Partitioning]
-	8 [label="Regression Predictor"]
-	12 [label="Table Reader"]
+	"-1055218051711094022_12" [label="Table Reader"]
+	"-1055218051711094022_6" [label=Partitioning]
+	"-1055218051711094022_7" [label="Linear Regression Learner"]
+	"-1055218051711094022_11" [label="Missing Value"]
+	"-1055218051711094022_8" [label="Regression Predictor"]
+	"-1055218051711094022_9" [label="Numeric Scorer"]
+	"-1055218051711094022_6" -> "-1055218051711094022_8"
+	"-1055218051711094022_6" -> "-1055218051711094022_7"
+	"-1055218051711094022_12" -> "-1055218051711094022_11"
+	"-1055218051711094022_7" -> "-1055218051711094022_8"
+	"-1055218051711094022_8" -> "-1055218051711094022_9"
+	"-1055218051711094022_11" -> "-1055218051711094022_6"
 	rankdir=LR
 }

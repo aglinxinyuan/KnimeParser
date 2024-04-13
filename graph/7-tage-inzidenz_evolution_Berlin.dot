@@ -1,14 +1,14 @@
 digraph {
-	12 -> 13
-	7 -> 8
-	13 -> 2
-	8 -> 9
-	2 -> 7
-	13 [label="CSV Reader"]
-	7 [label="Rule Engine"]
-	9 [label="Scatter Plot _Plotly_"]
-	8 [label="Color Manager"]
-	2 [label="String to Date_Time"]
-	12 [label="HTTP_S_ Connector"]
+	"4480416134724408044_7" [label="Rule Engine"]
+	"4480416134724408044_2" [label="String to Date_Time"]
+	"4480416134724408044_12" [label="HTTP_S_ Connector"]
+	"4480416134724408044_9" [label="Scatter Plot _Plotly_"]
+	"4480416134724408044_8" [label="Color Manager"]
+	"4480416134724408044_13" [label="CSV Reader"]
+	"4480416134724408044_2" -> "4480416134724408044_7"
+	"4480416134724408044_12" -> "4480416134724408044_13"
+	"4480416134724408044_7" -> "4480416134724408044_8"
+	"4480416134724408044_13" -> "4480416134724408044_2"
+	"4480416134724408044_8" -> "4480416134724408044_9"
 	rankdir=LR
 }

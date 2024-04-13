@@ -1,24 +1,24 @@
 digraph {
-	10 -> 12
-	3 -> 7
-	8 -> 9
-	3 -> 8
-	7 -> 11
-	2 -> 4
-	3 -> 5
-	7 -> 12
-	2 -> 3
-	10 -> 11
-	7 -> 10
-	5 [label=Denormalizer]
-	7 [label="Distance Matrix Calculate"]
-	9 [label="Value Counter"]
-	11 [label="Hierarchical Cluster View"]
-	4 [label=Histogram]
-	10 [label="Hierarchical Clustering _DistMatrix_"]
-	8 [label=k_Means]
-	3 [label=Normalizer]
-	2 [label="Excel Reader"]
-	12 [label="Hierarchical Cluster Assigner _local_"]
+	"4416172683542103061_2" [label="Excel Reader"]
+	"4416172683542103061_9" [label="Value Counter"]
+	"4416172683542103061_4" [label=Histogram]
+	"4416172683542103061_11" [label="Hierarchical Cluster View"]
+	"4416172683542103061_10" [label="Hierarchical Clustering _DistMatrix_"]
+	"4416172683542103061_8" [label=k_Means]
+	"4416172683542103061_12" [label="Hierarchical Cluster Assigner _local_"]
+	"4416172683542103061_5" [label=Denormalizer]
+	"4416172683542103061_7" [label="Distance Matrix Calculate"]
+	"4416172683542103061_3" [label=Normalizer]
+	"4416172683542103061_7" -> "4416172683542103061_12"
+	"4416172683542103061_10" -> "4416172683542103061_12"
+	"4416172683542103061_2" -> "4416172683542103061_3"
+	"4416172683542103061_7" -> "4416172683542103061_10"
+	"4416172683542103061_3" -> "4416172683542103061_5"
+	"4416172683542103061_3" -> "4416172683542103061_7"
+	"4416172683542103061_7" -> "4416172683542103061_11"
+	"4416172683542103061_10" -> "4416172683542103061_11"
+	"4416172683542103061_8" -> "4416172683542103061_9"
+	"4416172683542103061_3" -> "4416172683542103061_8"
+	"4416172683542103061_2" -> "4416172683542103061_4"
 	rankdir=LR
 }

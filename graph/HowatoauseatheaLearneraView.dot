@@ -1,12 +1,12 @@
 digraph {
-	29 -> 14
-	27 -> 26
-	26 -> 29
-	8 -> 14
-	27 [label="DL4J Model Initializer"]
-	29 [label="Dense Layer"]
-	26 [label="Dense Layer"]
-	8 [label="Data Generator"]
-	14 [label="DL4J Feedforward Learner _Classification_"]
+	"-2575094473062818630_14" [label="DL4J Feedforward Learner _Classification_"]
+	"-2575094473062818630_27" [label="DL4J Model Initializer"]
+	"-2575094473062818630_26" [label="Dense Layer"]
+	"-2575094473062818630_8" [label="Data Generator"]
+	"-2575094473062818630_29" [label="Dense Layer"]
+	"-2575094473062818630_27" -> "-2575094473062818630_26"
+	"-2575094473062818630_29" -> "-2575094473062818630_14"
+	"-2575094473062818630_8" -> "-2575094473062818630_14"
+	"-2575094473062818630_26" -> "-2575094473062818630_29"
 	rankdir=LR
 }

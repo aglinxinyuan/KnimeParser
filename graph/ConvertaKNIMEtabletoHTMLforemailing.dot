@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="Send Email"]
-	2 [label="Table To HTML"]
+	"-6191887078035812708_1" [label="Table Creator"]
+	"-6191887078035812708_2" [label="Table To HTML"]
+	"-6191887078035812708_3" [label="Send Email"]
+	"-6191887078035812708_1" -> "-6191887078035812708_2"
+	"-6191887078035812708_2" -> "-6191887078035812708_3"
 	rankdir=LR
 }

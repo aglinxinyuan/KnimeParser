@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	4 [label="Image Viewer"]
-	3 [label="Python Script"]
-	2 [label="Image Generator"]
+	"-3480380797453167039_2" [label="Image Generator"]
+	"-3480380797453167039_3" [label="Python Script"]
+	"-3480380797453167039_4" [label="Image Viewer"]
+	"-3480380797453167039_3" -> "-3480380797453167039_4"
+	"-3480380797453167039_2" -> "-3480380797453167039_3"
 	rankdir=LR
 }

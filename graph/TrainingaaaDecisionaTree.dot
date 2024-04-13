@@ -1,15 +1,15 @@
 digraph {
-	4 -> 5
-	3 -> 4
-	3 -> 16
-	1 -> 2
-	2 -> 3
-	2 -> 4
-	5 [label=Scorer]
-	16 [label="JavaScript Decision Tree View"]
-	1 [label="Table Reader"]
-	4 [label="Decision Tree Predictor"]
-	3 [label="Decision Tree Learner"]
-	2 [label=Partitioning]
+	"-2780348207458957604_2" [label=Partitioning]
+	"-2780348207458957604_3" [label="Decision Tree Learner"]
+	"-2780348207458957604_16" [label="JavaScript Decision Tree View"]
+	"-2780348207458957604_1" [label="Table Reader"]
+	"-2780348207458957604_5" [label=Scorer]
+	"-2780348207458957604_4" [label="Decision Tree Predictor"]
+	"-2780348207458957604_1" -> "-2780348207458957604_2"
+	"-2780348207458957604_2" -> "-2780348207458957604_4"
+	"-2780348207458957604_4" -> "-2780348207458957604_5"
+	"-2780348207458957604_2" -> "-2780348207458957604_3"
+	"-2780348207458957604_3" -> "-2780348207458957604_4"
+	"-2780348207458957604_3" -> "-2780348207458957604_16"
 	rankdir=LR
 }

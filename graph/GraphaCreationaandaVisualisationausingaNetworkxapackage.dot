@@ -1,14 +1,14 @@
 digraph {
-	1 -> 4
-	4 -> 2
-	3 -> 4
-	5 -> 2
-	2 -> 11
-	5 [label="Conda Environment Propagation"]
-	1 [label="Table Creator"]
-	11 [label="Image Output Widget"]
-	4 [label=Joiner]
-	3 [label="Table Creator"]
-	2 [label="Python Script _Labs_"]
+	"5846443893997544289_3" [label="Table Creator"]
+	"5846443893997544289_11" [label="Image Output Widget"]
+	"5846443893997544289_4" [label=Joiner]
+	"5846443893997544289_5" [label="Conda Environment Propagation"]
+	"5846443893997544289_2" [label="Python Script _Labs_"]
+	"5846443893997544289_1" [label="Table Creator"]
+	"5846443893997544289_2" -> "5846443893997544289_11"
+	"5846443893997544289_5" -> "5846443893997544289_2"
+	"5846443893997544289_4" -> "5846443893997544289_2"
+	"5846443893997544289_1" -> "5846443893997544289_4"
+	"5846443893997544289_3" -> "5846443893997544289_4"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 3
-	1 [label="Excel Reader"]
-	3 [label=Concatenate]
-	2 [label="Excel Reader"]
+	"-2905730898653640217_1" [label="Excel Reader"]
+	"-2905730898653640217_2" [label="Excel Reader"]
+	"-2905730898653640217_3" [label=Concatenate]
+	"-2905730898653640217_2" -> "-2905730898653640217_3"
+	"-2905730898653640217_1" -> "-2905730898653640217_3"
 	rankdir=LR
 }

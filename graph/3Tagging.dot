@@ -1,22 +1,22 @@
 digraph {
-	60 -> 6
-	60 -> 9
-	10 -> 13
-	11 -> 10
-	60 -> 10
-	53 -> 60
-	9 -> 12
-	42 -> 53
-	6 -> 7
-	13 [label="Tagged Document Viewer"]
-	7 [label="Tagged Document Viewer"]
-	42 [label="Table Creator"]
-	53 [label="RSS Feed Reader"]
-	9 [label="StanfordNLP NE Tagger"]
-	11 [label="Table Creator"]
-	10 [label="Wildcard Tagger"]
-	6 [label="POS Tagger"]
-	60 [label="Column Filter"]
-	12 [label="Tagged Document Viewer"]
+	"7737723944340327027_60" [label="Column Filter"]
+	"7737723944340327027_13" [label="Tagged Document Viewer"]
+	"7737723944340327027_42" [label="Table Creator"]
+	"7737723944340327027_12" [label="Tagged Document Viewer"]
+	"7737723944340327027_53" [label="RSS Feed Reader"]
+	"7737723944340327027_6" [label="POS Tagger"]
+	"7737723944340327027_11" [label="Table Creator"]
+	"7737723944340327027_10" [label="Wildcard Tagger"]
+	"7737723944340327027_9" [label="StanfordNLP NE Tagger"]
+	"7737723944340327027_7" [label="Tagged Document Viewer"]
+	"7737723944340327027_60" -> "7737723944340327027_10"
+	"7737723944340327027_6" -> "7737723944340327027_7"
+	"7737723944340327027_10" -> "7737723944340327027_13"
+	"7737723944340327027_11" -> "7737723944340327027_10"
+	"7737723944340327027_60" -> "7737723944340327027_6"
+	"7737723944340327027_9" -> "7737723944340327027_12"
+	"7737723944340327027_53" -> "7737723944340327027_60"
+	"7737723944340327027_60" -> "7737723944340327027_9"
+	"7737723944340327027_42" -> "7737723944340327027_53"
 	rankdir=LR
 }

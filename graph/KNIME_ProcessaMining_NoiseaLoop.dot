@@ -1,17 +1,17 @@
 digraph {
-	38 -> 41
-	37 -> 36
-	42 -> 7
-	36 -> 38
-	36 -> 7
-	38 -> 40
-	7 -> 41
-	7 [label="Inductive Miner"]
-	42 [label="Event Log Reader"]
-	41 [label="Process Tree Writer"]
-	36 [label="Table Row To Variable Loop Start"]
-	40 [label="Variable Loop End"]
-	38 [label="Create File Name _legacy_"]
-	37 [label="Excel Reader"]
+	"2823848318281755915_36" [label="Table Row To Variable Loop Start"]
+	"2823848318281755915_40" [label="Variable Loop End"]
+	"2823848318281755915_7" [label="Inductive Miner"]
+	"2823848318281755915_37" [label="Excel Reader"]
+	"2823848318281755915_41" [label="Process Tree Writer"]
+	"2823848318281755915_42" [label="Event Log Reader"]
+	"2823848318281755915_38" [label="Create File Name _legacy_"]
+	"2823848318281755915_37" -> "2823848318281755915_36"
+	"2823848318281755915_42" -> "2823848318281755915_7"
+	"2823848318281755915_7" -> "2823848318281755915_41"
+	"2823848318281755915_38" -> "2823848318281755915_41"
+	"2823848318281755915_36" -> "2823848318281755915_7"
+	"2823848318281755915_36" -> "2823848318281755915_38"
+	"2823848318281755915_38" -> "2823848318281755915_40"
 	rankdir=LR
 }

@@ -1,16 +1,16 @@
 digraph {
-	9 -> 14
-	7 -> 4
-	2 -> 7
-	1 -> 9
-	14 -> 13
-	4 -> 9
-	13 [label="Interactive Pie chart _local_"]
-	1 [label="Table Reader"]
-	7 [label="Cell Splitter"]
-	9 [label="Cell Replacer"]
-	4 [label=Ungroup]
-	14 [label="Color Manager"]
-	2 [label="CSV Reader"]
+	"-427725156074121958_4" [label=Ungroup]
+	"-427725156074121958_7" [label="Cell Splitter"]
+	"-427725156074121958_13" [label="Interactive Pie chart _local_"]
+	"-427725156074121958_2" [label="CSV Reader"]
+	"-427725156074121958_14" [label="Color Manager"]
+	"-427725156074121958_1" [label="Table Reader"]
+	"-427725156074121958_9" [label="Cell Replacer"]
+	"-427725156074121958_2" -> "-427725156074121958_7"
+	"-427725156074121958_7" -> "-427725156074121958_4"
+	"-427725156074121958_4" -> "-427725156074121958_9"
+	"-427725156074121958_1" -> "-427725156074121958_9"
+	"-427725156074121958_14" -> "-427725156074121958_13"
+	"-427725156074121958_9" -> "-427725156074121958_14"
 	rankdir=LR
 }

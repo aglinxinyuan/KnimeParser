@@ -1,10 +1,10 @@
 digraph {
-	47 -> 45
-	46 -> 42
-	42 -> 47
-	47 [label="Boolean Configuration"]
-	42 [label="Boolean Configuration"]
-	46 [label="Variable Creator"]
-	45 [label="List Files_Folders"]
+	"-4281444591041176267_47" [label="Boolean Configuration"]
+	"-4281444591041176267_45" [label="List Files_Folders"]
+	"-4281444591041176267_46" [label="Variable Creator"]
+	"-4281444591041176267_42" [label="Boolean Configuration"]
+	"-4281444591041176267_47" -> "-4281444591041176267_45"
+	"-4281444591041176267_46" -> "-4281444591041176267_42"
+	"-4281444591041176267_42" -> "-4281444591041176267_47"
 	rankdir=LR
 }

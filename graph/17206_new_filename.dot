@@ -1,10 +1,10 @@
 digraph {
-	2 -> 4
-	1 -> 3
-	3 -> 2
-	1 [label="Image Generator"]
-	4 [label="Image Writer"]
-	3 [label=Transpose]
-	2 [label=Merger]
+	"2650774508273826375_2" [label=Merger]
+	"2650774508273826375_4" [label="Image Writer"]
+	"2650774508273826375_1" [label="Image Generator"]
+	"2650774508273826375_3" [label=Transpose]
+	"2650774508273826375_2" -> "2650774508273826375_4"
+	"2650774508273826375_1" -> "2650774508273826375_3"
+	"2650774508273826375_3" -> "2650774508273826375_2"
 	rankdir=LR
 }

@@ -1,15 +1,15 @@
 digraph {
-	1 -> 4
-	4 -> 3
-	1 -> 3
-	5 -> 4
-	1 -> 6
-	4 -> 6
-	1 -> 5
-	5 [label="Numeric Distances"]
-	1 [label="Excel Reader"]
-	4 [label="Hierarchical Clustering _DistMatrix_"]
-	6 [label="Hierarchical Cluster Assigner"]
-	3 [label="Hierarchical Cluster View"]
+	"14883124171942429_1" [label="Excel Reader"]
+	"14883124171942429_5" [label="Numeric Distances"]
+	"14883124171942429_4" [label="Hierarchical Clustering _DistMatrix_"]
+	"14883124171942429_6" [label="Hierarchical Cluster Assigner"]
+	"14883124171942429_3" [label="Hierarchical Cluster View"]
+	"14883124171942429_4" -> "14883124171942429_3"
+	"14883124171942429_1" -> "14883124171942429_5"
+	"14883124171942429_4" -> "14883124171942429_6"
+	"14883124171942429_1" -> "14883124171942429_3"
+	"14883124171942429_1" -> "14883124171942429_4"
+	"14883124171942429_5" -> "14883124171942429_4"
+	"14883124171942429_1" -> "14883124171942429_6"
 	rankdir=LR
 }

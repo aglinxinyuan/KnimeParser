@@ -1,12 +1,12 @@
 digraph {
-	1 -> 6
-	1 -> 4
-	1 -> 3
-	1 -> 5
-	5 [label="MongoDB Aggregation"]
-	1 [label="MongoDB Connector"]
-	4 [label="MongoDB Aggregation"]
-	6 [label="MongoDB Aggregation"]
-	3 [label="MongoDB Aggregation"]
+	"-4172210463920653036_6" [label="MongoDB Aggregation"]
+	"-4172210463920653036_3" [label="MongoDB Aggregation"]
+	"-4172210463920653036_1" [label="MongoDB Connector"]
+	"-4172210463920653036_4" [label="MongoDB Aggregation"]
+	"-4172210463920653036_5" [label="MongoDB Aggregation"]
+	"-4172210463920653036_1" -> "-4172210463920653036_3"
+	"-4172210463920653036_1" -> "-4172210463920653036_5"
+	"-4172210463920653036_1" -> "-4172210463920653036_4"
+	"-4172210463920653036_1" -> "-4172210463920653036_6"
 	rankdir=LR
 }

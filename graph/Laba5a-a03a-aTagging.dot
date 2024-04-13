@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	5 -> 2
-	3 -> 4
-	5 [label="XML Reader"]
-	4 [label="Tagged Document Viewer"]
-	3 [label="POS Tagger"]
-	2 [label="Strings To Document"]
+	"8695404072258871658_3" [label="POS Tagger"]
+	"8695404072258871658_2" [label="Strings To Document"]
+	"8695404072258871658_4" [label="Tagged Document Viewer"]
+	"8695404072258871658_5" [label="XML Reader"]
+	"8695404072258871658_2" -> "8695404072258871658_3"
+	"8695404072258871658_5" -> "8695404072258871658_2"
+	"8695404072258871658_3" -> "8695404072258871658_4"
 	rankdir=LR
 }

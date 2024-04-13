@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	3 -> 4
-	4 -> 5
-	5 [label="Table Writer"]
-	1 [label="CSV Reader"]
-	4 [label="Column Rename"]
-	3 [label="Column Filter"]
-	2 [label="Cell Splitter"]
+	"772936018046188664_2" [label="Cell Splitter"]
+	"772936018046188664_4" [label="Column Rename"]
+	"-2982130163328995784_5" [label="Table Writer"]
+	"-2982130163328995784_1" [label="CSV Reader"]
+	"772936018046188664_3" [label="Column Filter"]
+	"772936018046188664_2" -> "772936018046188664_3"
+	"772936018046188664_4" -> "-2982130163328995784_5"
+	"-2982130163328995784_1" -> "772936018046188664_2"
+	"772936018046188664_3" -> "772936018046188664_4"
 	rankdir=LR
 }

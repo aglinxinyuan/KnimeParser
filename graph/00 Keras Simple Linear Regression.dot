@@ -1,12 +1,12 @@
 digraph {
-	91 -> 89
-	89 -> 94
-	93 -> 94
-	92 -> 89
-	91 [label="DL Python Network Creator"]
-	94 [label="Keras Network Executor"]
-	92 [label="Table Creator"]
-	89 [label="Keras Network Learner"]
-	93 [label="Table Creator"]
+	"3392009802794316274_89" [label="Keras Network Learner"]
+	"3392009802794316274_94" [label="Keras Network Executor"]
+	"3392009802794316274_91" [label="DL Python Network Creator"]
+	"3392009802794316274_93" [label="Table Creator"]
+	"3392009802794316274_92" [label="Table Creator"]
+	"3392009802794316274_93" -> "3392009802794316274_94"
+	"3392009802794316274_89" -> "3392009802794316274_94"
+	"3392009802794316274_92" -> "3392009802794316274_89"
+	"3392009802794316274_91" -> "3392009802794316274_89"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	33 -> 31
-	31 -> 32
-	31 -> 30
-	33 [label="Excel Reader"]
-	30 [label="Generic JavaScript View"]
-	31 [label="Column Filter"]
-	32 [label="Generic JavaScript View"]
+	"88310054121445138_30" [label="Generic JavaScript View"]
+	"88310054121445138_32" [label="Generic JavaScript View"]
+	"88310054121445138_31" [label="Column Filter"]
+	"88310054121445138_33" [label="Excel Reader"]
+	"88310054121445138_31" -> "88310054121445138_30"
+	"88310054121445138_33" -> "88310054121445138_31"
+	"88310054121445138_31" -> "88310054121445138_32"
 	rankdir=LR
 }

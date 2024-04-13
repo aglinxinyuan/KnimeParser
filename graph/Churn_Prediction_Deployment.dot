@@ -1,10 +1,10 @@
 digraph {
-	1 -> 4
-	2 -> 4
-	4 -> 5
-	1 [label="CSV Reader"]
-	4 [label="PMML Predictor"]
-	5 [label="Data to Report"]
-	2 [label="PMML Reader"]
+	"4631375233063745536_5" [label="Data to Report"]
+	"4631375233063745536_2" [label="PMML Reader"]
+	"4631375233063745536_1" [label="CSV Reader"]
+	"4631375233063745536_4" [label="PMML Predictor"]
+	"4631375233063745536_2" -> "4631375233063745536_4"
+	"4631375233063745536_4" -> "4631375233063745536_5"
+	"4631375233063745536_1" -> "4631375233063745536_4"
 	rankdir=LR
 }

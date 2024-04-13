@@ -1,6 +1,6 @@
 digraph {
-	2 -> 1
-	1 [label="Data Explorer"]
-	2 [label="Excel Reader"]
+	"-8893485968145667237_2" [label="Excel Reader"]
+	"-8893485968145667237_1" [label="Data Explorer"]
+	"-8893485968145667237_2" -> "-8893485968145667237_1"
 	rankdir=LR
 }

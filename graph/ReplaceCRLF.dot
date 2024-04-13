@@ -1,8 +1,8 @@
 digraph {
-	100 -> 97
-	98 -> 100
-	97 [label="String Replacer"]
-	98 [label="Table Creator"]
-	100 [label="String Manipulation"]
+	"-4819947193879740316_97" [label="String Replacer"]
+	"-4819947193879740316_100" [label="String Manipulation"]
+	"-4819947193879740316_98" [label="Table Creator"]
+	"-4819947193879740316_100" -> "-4819947193879740316_97"
+	"-4819947193879740316_98" -> "-4819947193879740316_100"
 	rankdir=LR
 }

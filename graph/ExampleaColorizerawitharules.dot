@@ -1,21 +1,21 @@
 digraph {
-	7 -> 8
-	4 -> 5
-	3 -> 2
-	2 -> 4
-	2 -> 6
-	5 -> 6
-	1 -> 7
-	2 -> 5
-	1 -> 3
-	6 -> 8
-	5 [label="XLS Background Colorizer"]
-	1 [label="Table Creator"]
-	7 [label="Excel Writer _XLS_"]
-	4 [label="XLS Background Colorizer"]
-	6 [label="XLS Background Colorizer"]
-	8 [label="XLS Formatter _apply_"]
-	3 [label="Rule Engine"]
-	2 [label="XLS Control Table Generator"]
+	"7062139167690559653_7" [label="Excel Writer _XLS_"]
+	"7062139167690559653_1" [label="Table Creator"]
+	"7062139167690559653_4" [label="XLS Background Colorizer"]
+	"7062139167690559653_8" [label="XLS Formatter _apply_"]
+	"7062139167690559653_5" [label="XLS Background Colorizer"]
+	"7062139167690559653_2" [label="XLS Control Table Generator"]
+	"7062139167690559653_3" [label="Rule Engine"]
+	"7062139167690559653_6" [label="XLS Background Colorizer"]
+	"7062139167690559653_1" -> "7062139167690559653_7"
+	"7062139167690559653_2" -> "7062139167690559653_5"
+	"7062139167690559653_2" -> "7062139167690559653_4"
+	"7062139167690559653_3" -> "7062139167690559653_2"
+	"7062139167690559653_7" -> "7062139167690559653_8"
+	"7062139167690559653_2" -> "7062139167690559653_6"
+	"7062139167690559653_6" -> "7062139167690559653_8"
+	"7062139167690559653_5" -> "7062139167690559653_6"
+	"7062139167690559653_4" -> "7062139167690559653_5"
+	"7062139167690559653_1" -> "7062139167690559653_3"
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	2 -> 1
-	1 [label="Output Folder"]
-	2 [label="Input Files"]
+	"-1502155834934562238_2" [label="Input Files"]
+	"-1502155834934562238_1" [label="Output Folder"]
+	"-1502155834934562238_2" -> "-1502155834934562238_1"
 	rankdir=LR
 }

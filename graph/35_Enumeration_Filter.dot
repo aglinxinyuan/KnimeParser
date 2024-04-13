@@ -1,32 +1,32 @@
 digraph {
-	3 -> 15
-	15 -> 14
-	7 -> 8
-	16 -> 13
-	6 -> 11
-	1 -> 2
-	8 -> 9
-	13 -> 14
-	12 -> 3
-	2 -> 4
-	11 -> 12
-	9 -> 10
-	10 -> 11
-	4 -> 6
-	16 [label="CSV Reader"]
-	13 [label="Molecule Type Cast"]
-	1 [label="SDF Reader"]
-	7 [label="Table Creator"]
-	12 [label="RDKit Generate Coords"]
-	9 [label="RDKit To Molecule"]
-	11 [label="RDKit Two Component Reaction"]
-	4 [label="RDKit One Component Reaction"]
-	6 [label="RDKit Generate Coords"]
-	15 [label="Rule_based Row Filter"]
-	8 [label="Molecule Type Cast"]
-	14 [label="RDKit Molecule Substructure Filter"]
-	3 [label="RDKit Descriptor Calculation"]
-	2 [label="RDKit Salt Stripper"]
-	10 [label="RDKit One Component Reaction"]
+	"-8634070466878932231_9" [label="RDKit To Molecule"]
+	"-3110663919367446290_14" [label="RDKit Molecule Substructure Filter"]
+	"-8634070466878932231_10" [label="RDKit One Component Reaction"]
+	"-8634070466878932231_7" [label="Table Creator"]
+	"-8634070466878932231_2" [label="RDKit Salt Stripper"]
+	"-3110663919367446290_3" [label="RDKit Descriptor Calculation"]
+	"-3110663919367446290_15" [label="Rule_based Row Filter"]
+	"-8634070466878932231_1" [label="SDF Reader"]
+	"-8634070466878932231_12" [label="RDKit Generate Coords"]
+	"-8634070466878932231_8" [label="Molecule Type Cast"]
+	"-8634070466878932231_4" [label="RDKit One Component Reaction"]
+	"-3110663919367446290_13" [label="Molecule Type Cast"]
+	"-8634070466878932231_11" [label="RDKit Two Component Reaction"]
+	"-8634070466878932231_6" [label="RDKit Generate Coords"]
+	"-3110663919367446290_16" [label="CSV Reader"]
+	"-8634070466878932231_8" -> "-8634070466878932231_9"
+	"-8634070466878932231_11" -> "-8634070466878932231_12"
+	"-8634070466878932231_9" -> "-8634070466878932231_10"
+	"-8634070466878932231_7" -> "-8634070466878932231_8"
+	"-8634070466878932231_4" -> "-8634070466878932231_6"
+	"-8634070466878932231_12" -> "-3110663919367446290_3"
+	"-8634070466878932231_6" -> "-8634070466878932231_11"
+	"-8634070466878932231_10" -> "-8634070466878932231_11"
+	"-3110663919367446290_3" -> "-3110663919367446290_15"
+	"-8634070466878932231_2" -> "-8634070466878932231_4"
+	"-8634070466878932231_1" -> "-8634070466878932231_2"
+	"-3110663919367446290_16" -> "-3110663919367446290_13"
+	"-3110663919367446290_13" -> "-3110663919367446290_14"
+	"-3110663919367446290_15" -> "-3110663919367446290_14"
 	rankdir=LR
 }

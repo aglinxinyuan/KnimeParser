@@ -1,13 +1,13 @@
 digraph {
-	4 -> 5
-	3 -> 4
-	1 -> 2
-	2 -> 3
-	2 -> 4
-	5 [label="Numeric Scorer"]
-	1 [label="Excel Reader"]
-	4 [label="Simple Regression Tree Predictor"]
-	3 [label="Simple Regression Tree Learner"]
-	2 [label=Partitioning]
+	"-2513464377815661571_5" [label="Numeric Scorer"]
+	"-2513464377815661571_2" [label=Partitioning]
+	"-2513464377815661571_1" [label="Excel Reader"]
+	"-2513464377815661571_3" [label="Simple Regression Tree Learner"]
+	"-2513464377815661571_4" [label="Simple Regression Tree Predictor"]
+	"-2513464377815661571_1" -> "-2513464377815661571_2"
+	"-2513464377815661571_4" -> "-2513464377815661571_5"
+	"-2513464377815661571_2" -> "-2513464377815661571_4"
+	"-2513464377815661571_3" -> "-2513464377815661571_4"
+	"-2513464377815661571_2" -> "-2513464377815661571_3"
 	rankdir=LR
 }

@@ -1,32 +1,32 @@
 digraph {
-	11 -> 15
-	1 -> 4
-	14 -> 16
-	4 -> 3
-	14 -> 17
-	12 -> 9
-	13 -> 9
-	11 -> 14
-	15 -> 18
-	4 -> 11
-	14 -> 15
-	1 -> 2
-	9 -> 10
-	11 -> 13
-	13 -> 12
-	16 [label="Decision Tree to Ruleset"]
-	13 [label="Domain Calculator"]
-	1 [label="CSV Reader"]
-	12 [label="Logistic Regression Learner"]
-	9 [label="Logistic Regression Predictor"]
-	11 [label=Partitioning]
-	4 [label="Missing Value"]
-	18 [label=Scorer]
-	15 [label="Decision Tree Predictor"]
-	14 [label="Decision Tree Learner"]
-	17 [label="Decision Tree View _JavaScript_"]
-	3 [label=Histogram]
-	2 [label=Histogram]
-	10 [label="Scorer _JavaScript_"]
+	"3810600348612252921_17" [label="Decision Tree View _JavaScript_"]
+	"3810600348612252921_3" [label=Histogram]
+	"3810600348612252921_18" [label=Scorer]
+	"3810600348612252921_16" [label="Decision Tree to Ruleset"]
+	"3810600348612252921_15" [label="Decision Tree Predictor"]
+	"3810600348612252921_12" [label="Logistic Regression Learner"]
+	"3810600348612252921_9" [label="Logistic Regression Predictor"]
+	"3810600348612252921_4" [label="Missing Value"]
+	"3810600348612252921_1" [label="CSV Reader"]
+	"3810600348612252921_14" [label="Decision Tree Learner"]
+	"3810600348612252921_2" [label=Histogram]
+	"3810600348612252921_13" [label="Domain Calculator"]
+	"3810600348612252921_11" [label=Partitioning]
+	"3810600348612252921_10" [label="Scorer _JavaScript_"]
+	"3810600348612252921_11" -> "3810600348612252921_14"
+	"3810600348612252921_14" -> "3810600348612252921_15"
+	"3810600348612252921_1" -> "3810600348612252921_2"
+	"3810600348612252921_12" -> "3810600348612252921_9"
+	"3810600348612252921_4" -> "3810600348612252921_11"
+	"3810600348612252921_14" -> "3810600348612252921_17"
+	"3810600348612252921_11" -> "3810600348612252921_13"
+	"3810600348612252921_9" -> "3810600348612252921_10"
+	"3810600348612252921_14" -> "3810600348612252921_16"
+	"3810600348612252921_13" -> "3810600348612252921_9"
+	"3810600348612252921_13" -> "3810600348612252921_12"
+	"3810600348612252921_11" -> "3810600348612252921_15"
+	"3810600348612252921_15" -> "3810600348612252921_18"
+	"3810600348612252921_4" -> "3810600348612252921_3"
+	"3810600348612252921_1" -> "3810600348612252921_4"
 	rankdir=LR
 }

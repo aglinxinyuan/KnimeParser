@@ -1,10 +1,10 @@
 digraph {
-	1 -> 144
-	145 -> 5
-	144 -> 145
-	1 [label="Excel Reader"]
-	145 [label="Column Filter Widget"]
-	5 [label="Row Filter"]
-	144 [label="Math Formula _Multi Column_"]
+	"-4998081303490323787_145" [label="Column Filter Widget"]
+	"-4998081303490323787_1" [label="Excel Reader"]
+	"-4998081303490323787_144" [label="Math Formula _Multi Column_"]
+	"-4998081303490323787_5" [label="Row Filter"]
+	"-4998081303490323787_145" -> "-4998081303490323787_5"
+	"-4998081303490323787_144" -> "-4998081303490323787_145"
+	"-4998081303490323787_1" -> "-4998081303490323787_144"
 	rankdir=LR
 }

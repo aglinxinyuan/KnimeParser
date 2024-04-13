@@ -1,25 +1,25 @@
 digraph {
-	10 -> 13
-	7 -> 3
-	8 -> 9
-	1 -> 7
-	1 -> 11
-	3 -> 5
-	5 -> 6
-	11 -> 12
-	9 -> 10
-	13 -> 11
-	6 -> 8
-	5 [label="Connected Component Analysis"]
-	13 [label="Labeling Properties"]
-	1 [label="Image Reader"]
-	7 [label="Quantile Filter"]
-	9 [label="Row Filter"]
-	11 [label=Joiner]
-	6 [label="Waehlby Cell Clump Splitter"]
-	8 [label="Segment Features"]
-	12 [label="Interactive Segmentation View"]
-	3 [label="Global Thresholder"]
-	10 [label=GroupBy]
+	"-724895387861592475_3" [label="Global Thresholder"]
+	"-724895387861592475_7" [label="Quantile Filter"]
+	"-724895387861592475_1" [label="Image Reader"]
+	"-724895387861592475_13" [label="Labeling Properties"]
+	"-724895387861592475_8" [label="Segment Features"]
+	"-724895387861592475_5" [label="Connected Component Analysis"]
+	"-724895387861592475_10" [label=GroupBy]
+	"-724895387861592475_11" [label=Joiner]
+	"-724895387861592475_6" [label="Waehlby Cell Clump Splitter"]
+	"-724895387861592475_9" [label="Row Filter"]
+	"-724895387861592475_12" [label="Interactive Segmentation View"]
+	"-724895387861592475_8" -> "-724895387861592475_9"
+	"-724895387861592475_10" -> "-724895387861592475_13"
+	"-724895387861592475_9" -> "-724895387861592475_10"
+	"-724895387861592475_7" -> "-724895387861592475_3"
+	"-724895387861592475_3" -> "-724895387861592475_5"
+	"-724895387861592475_13" -> "-724895387861592475_11"
+	"-724895387861592475_1" -> "-724895387861592475_7"
+	"-724895387861592475_6" -> "-724895387861592475_8"
+	"-724895387861592475_11" -> "-724895387861592475_12"
+	"-724895387861592475_5" -> "-724895387861592475_6"
+	"-724895387861592475_1" -> "-724895387861592475_11"
 	rankdir=LR
 }

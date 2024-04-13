@@ -1,38 +1,38 @@
 digraph {
-	11 -> 10
-	17 -> 13
-	7 -> 8
-	13 -> 23
-	9 -> 16
-	4 -> 5
-	1 -> 2
-	10 -> 14
-	23 -> 18
-	21 -> 20
-	7 -> 6
-	22 -> 21
-	23 -> 22
-	18 -> 11
-	16 -> 17
-	5 -> 7
-	7 [label="Color Manager"]
-	9 [label="Excel Reader _XLS_"]
-	18 [label="Nominal Value Row Filter"]
-	21 [label="Color Manager"]
-	8 [label="3D Scatter Plot _Plotly_"]
-	17 [label="Column Expressions"]
-	6 [label="Bubble Chart _Plotly_"]
-	10 [label="Color Manager"]
-	16 [label="Row Filter"]
-	1 [label="File Reader"]
-	22 [label="Nominal Value Row Filter"]
-	11 [label="Domain Calculator"]
-	4 [label="Excel Reader _XLS_"]
-	23 [label="Column Rename"]
-	14 [label="3D Scatter Plot _Plotly_"]
-	5 [label="Column Rename"]
-	13 [label=GroupBy]
-	20 [label="Bubble Chart _Plotly_"]
-	2 [label="Surface Plot _Plotly_"]
+	"5767505381589001475_11" [label="Domain Calculator"]
+	"5767505381589001475_5" [label="Column Rename"]
+	"5767505381589001475_22" [label="Nominal Value Row Filter"]
+	"5767505381589001475_16" [label="Row Filter"]
+	"5767505381589001475_21" [label="Color Manager"]
+	"5767505381589001475_6" [label="Bubble Chart _Plotly_"]
+	"5767505381589001475_14" [label="3D Scatter Plot _Plotly_"]
+	"5767505381589001475_7" [label="Color Manager"]
+	"5767505381589001475_13" [label=GroupBy]
+	"5767505381589001475_9" [label="Excel Reader _XLS_"]
+	"5767505381589001475_4" [label="Excel Reader _XLS_"]
+	"5767505381589001475_18" [label="Nominal Value Row Filter"]
+	"5767505381589001475_8" [label="3D Scatter Plot _Plotly_"]
+	"5767505381589001475_10" [label="Color Manager"]
+	"5767505381589001475_1" [label="File Reader"]
+	"5767505381589001475_17" [label="Column Expressions"]
+	"5767505381589001475_2" [label="Surface Plot _Plotly_"]
+	"5767505381589001475_20" [label="Bubble Chart _Plotly_"]
+	"5767505381589001475_23" [label="Column Rename"]
+	"5767505381589001475_21" -> "5767505381589001475_20"
+	"5767505381589001475_7" -> "5767505381589001475_6"
+	"5767505381589001475_18" -> "5767505381589001475_11"
+	"5767505381589001475_17" -> "5767505381589001475_13"
+	"5767505381589001475_1" -> "5767505381589001475_2"
+	"5767505381589001475_10" -> "5767505381589001475_14"
+	"5767505381589001475_7" -> "5767505381589001475_8"
+	"5767505381589001475_22" -> "5767505381589001475_21"
+	"5767505381589001475_23" -> "5767505381589001475_18"
+	"5767505381589001475_23" -> "5767505381589001475_22"
+	"5767505381589001475_4" -> "5767505381589001475_5"
+	"5767505381589001475_9" -> "5767505381589001475_16"
+	"5767505381589001475_13" -> "5767505381589001475_23"
+	"5767505381589001475_16" -> "5767505381589001475_17"
+	"5767505381589001475_5" -> "5767505381589001475_7"
+	"5767505381589001475_11" -> "5767505381589001475_10"
 	rankdir=LR
 }

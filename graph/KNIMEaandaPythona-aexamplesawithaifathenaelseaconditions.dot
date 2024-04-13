@@ -1,10 +1,10 @@
 digraph {
-	1 -> 4
-	1 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label="Python Script _1_1_"]
-	3 [label="Python Script _1_1_"]
-	2 [label="Python Script _1_1_"]
+	"3422840313645022675_4" [label="Python Script _1_1_"]
+	"3422840313645022675_2" [label="Python Script _1_1_"]
+	"3422840313645022675_3" [label="Python Script _1_1_"]
+	"3422840313645022675_1" [label="Table Creator"]
+	"3422840313645022675_1" -> "3422840313645022675_3"
+	"3422840313645022675_1" -> "3422840313645022675_2"
+	"3422840313645022675_1" -> "3422840313645022675_4"
 	rankdir=LR
 }

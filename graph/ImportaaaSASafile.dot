@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="SAS7BDAT Reader"]
-	2 [label="Table Writer"]
+	"6731804413465332984_1" [label="SAS7BDAT Reader"]
+	"6731804413465332984_2" [label="Table Writer"]
+	"6731804413465332984_1" -> "6731804413465332984_2"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	3 -> 4
-	1 -> 3
-	1 [label="Table Creator"]
-	4 [label="Row Filter"]
-	3 [label="Rule Engine"]
+	"2861467564700916722_4" [label="Row Filter"]
+	"2861467564700916722_3" [label="Rule Engine"]
+	"2861467564700916722_1" [label="Table Creator"]
+	"2861467564700916722_3" -> "2861467564700916722_4"
+	"2861467564700916722_1" -> "2861467564700916722_3"
 	rankdir=LR
 }

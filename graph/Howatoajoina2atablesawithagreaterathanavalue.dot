@@ -1,12 +1,12 @@
 digraph {
-	4 -> 7
-	2 -> 3
-	3 -> 4
-	1 -> 3
-	1 [label="Table Creator"]
-	7 [label="Duplicate Row Filter"]
-	4 [label="Rule_based Row Filter"]
-	3 [label="Cross Joiner"]
-	2 [label="Table Creator"]
+	"-1997176425251537378_1" [label="Table Creator"]
+	"-1997176425251537378_3" [label="Cross Joiner"]
+	"-1997176425251537378_4" [label="Rule_based Row Filter"]
+	"-1997176425251537378_7" [label="Duplicate Row Filter"]
+	"-1997176425251537378_2" [label="Table Creator"]
+	"-1997176425251537378_3" -> "-1997176425251537378_4"
+	"-1997176425251537378_1" -> "-1997176425251537378_3"
+	"-1997176425251537378_4" -> "-1997176425251537378_7"
+	"-1997176425251537378_2" -> "-1997176425251537378_3"
 	rankdir=LR
 }

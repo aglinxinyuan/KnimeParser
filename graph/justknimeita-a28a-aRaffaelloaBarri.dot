@@ -1,10 +1,10 @@
 digraph {
-	2 -> 5
-	5 -> 4
-	3 -> 2
-	5 [label="Column Expressions"]
-	4 [label="Column Expressions"]
-	3 [label="Variable Expressions"]
-	2 [label="Empty Table Creator"]
+	"6800234460939328031_4" [label="Column Expressions"]
+	"6800234460939328031_2" [label="Empty Table Creator"]
+	"6800234460939328031_3" [label="Variable Expressions"]
+	"6800234460939328031_5" [label="Column Expressions"]
+	"6800234460939328031_3" -> "6800234460939328031_2"
+	"6800234460939328031_5" -> "6800234460939328031_4"
+	"6800234460939328031_2" -> "6800234460939328031_5"
 	rankdir=LR
 }

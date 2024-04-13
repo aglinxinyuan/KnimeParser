@@ -1,18 +1,18 @@
 digraph {
-	6 -> 8
-	20 -> 7
-	18 -> 17
-	19 -> 18
-	17 -> 20
-	6 -> 19
-	7 -> 9
-	20 [label="String To Number"]
-	7 [label="Color Manager"]
-	9 [label="3D Scatter Plot _Plotly_"]
-	18 [label="Counter Generation"]
-	6 [label="File Reader"]
-	8 [label="Surface Plot _Plotly_"]
-	17 [label=Unpivoting]
-	19 [label="Column Rename _Regex_"]
+	"6694017145058081586_19" [label="Column Rename _Regex_"]
+	"6694017145058081586_18" [label="Counter Generation"]
+	"1359368460949574130_9" [label="3D Scatter Plot _Plotly_"]
+	"1359368460949574130_6" [label="File Reader"]
+	"1359368460949574130_8" [label="Surface Plot _Plotly_"]
+	"6694017145058081586_7" [label="Color Manager"]
+	"6694017145058081586_17" [label=Unpivoting]
+	"6694017145058081586_20" [label="String To Number"]
+	"1359368460949574130_6" -> "1359368460949574130_8"
+	"6694017145058081586_7" -> "1359368460949574130_9"
+	"6694017145058081586_18" -> "6694017145058081586_17"
+	"1359368460949574130_6" -> "6694017145058081586_19"
+	"6694017145058081586_20" -> "6694017145058081586_7"
+	"6694017145058081586_19" -> "6694017145058081586_18"
+	"6694017145058081586_17" -> "6694017145058081586_20"
 	rankdir=LR
 }

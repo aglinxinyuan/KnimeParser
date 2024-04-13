@@ -1,9 +1,9 @@
 digraph {
-	1050 -> 1051
-	1049 -> 1048
-	1048 [label="Interactive Table _local_"]
-	1049 [label="CSV Reader"]
-	1050 [label="Excel Reader"]
-	1051 [label="Interactive Table _local_"]
+	"7275907779182638039_1051" [label="Interactive Table _local_"]
+	"7275907779182638039_1049" [label="CSV Reader"]
+	"7275907779182638039_1050" [label="Excel Reader"]
+	"7275907779182638039_1048" [label="Interactive Table _local_"]
+	"7275907779182638039_1049" -> "7275907779182638039_1048"
+	"7275907779182638039_1050" -> "7275907779182638039_1051"
 	rankdir=LR
 }

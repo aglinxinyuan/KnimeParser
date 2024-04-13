@@ -1,8 +1,8 @@
 digraph {
-	6 -> 7
-	5 -> 7
-	5 [label="Variable Creator"]
-	7 [label="Python Script _Labs_"]
-	6 [label="Table Creator"]
+	"4008852182400228176_5" [label="Variable Creator"]
+	"4008852182400228176_6" [label="Table Creator"]
+	"4008852182400228176_7" [label="Python Script _Labs_"]
+	"4008852182400228176_6" -> "4008852182400228176_7"
+	"4008852182400228176_5" -> "4008852182400228176_7"
 	rankdir=LR
 }

@@ -1,16 +1,16 @@
 digraph {
-	7 -> 8
-	8 -> 10
-	1 -> 6
-	11 -> 12
-	6 -> 7
-	10 -> 11
-	1 [label="Excel Reader"]
-	7 [label="Math Formula"]
-	11 [label="String Manipulation"]
-	6 [label=Rank]
-	8 [label="Number To String"]
-	12 [label="Table Manipulator"]
-	10 [label="Column Expressions"]
+	"-570044223698960506_11" [label="String Manipulation"]
+	"-570044223698960506_8" [label="Number To String"]
+	"-570044223698960506_1" [label="Excel Reader"]
+	"-570044223698960506_7" [label="Math Formula"]
+	"-570044223698960506_12" [label="Table Manipulator"]
+	"-570044223698960506_10" [label="Column Expressions"]
+	"-570044223698960506_6" [label=Rank]
+	"-570044223698960506_10" -> "-570044223698960506_11"
+	"-570044223698960506_1" -> "-570044223698960506_6"
+	"-570044223698960506_7" -> "-570044223698960506_8"
+	"-570044223698960506_11" -> "-570044223698960506_12"
+	"-570044223698960506_8" -> "-570044223698960506_10"
+	"-570044223698960506_6" -> "-570044223698960506_7"
 	rankdir=LR
 }

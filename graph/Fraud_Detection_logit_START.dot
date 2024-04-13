@@ -1,9 +1,9 @@
 digraph {
-	1 -> 75
-	74 -> 19
-	1 [label="File Reader"]
-	74 [label="File Reader"]
-	75 [label="Number To String"]
-	19 [label="Number To String _deprecated_"]
+	"3755077406561957300_75" [label="Number To String"]
+	"3755077406561957300_74" [label="File Reader"]
+	"3755077406561957300_19" [label="Number To String _deprecated_"]
+	"3755077406561957300_1" [label="File Reader"]
+	"3755077406561957300_74" -> "3755077406561957300_19"
+	"3755077406561957300_1" -> "3755077406561957300_75"
 	rankdir=LR
 }

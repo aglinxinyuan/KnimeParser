@@ -1,6 +1,6 @@
 digraph {
-	3 -> 2
-	3 [label="XML Reader"]
-	2 [label="Document Viewer"]
+	"9051854408173212358_2" [label="Document Viewer"]
+	"9051854408173212358_3" [label="XML Reader"]
+	"9051854408173212358_3" -> "9051854408173212358_2"
 	rankdir=LR
 }

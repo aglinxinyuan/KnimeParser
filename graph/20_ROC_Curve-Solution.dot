@@ -1,6 +1,6 @@
 digraph {
-	3 -> 4
-	4 [label="ROC Curve"]
-	3 [label="File Reader"]
+	"-6443647391596848610_4" [label="ROC Curve"]
+	"-6443647391596848610_3" [label="File Reader"]
+	"-6443647391596848610_3" -> "-6443647391596848610_4"
 	rankdir=LR
 }

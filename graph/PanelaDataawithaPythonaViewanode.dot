@@ -1,10 +1,10 @@
 digraph {
-	6 -> 18
-	12 -> 10
-	18 -> 12
-	18 [label="Rule_based Row Filter"]
-	10 [label="Python View"]
-	6 [label="Python Script"]
-	12 [label="Nominal Value Row Filter"]
+	"-7600131864508455599_6" [label="Python Script"]
+	"-7600131864508455599_10" [label="Python View"]
+	"-7600131864508455599_12" [label="Nominal Value Row Filter"]
+	"-7600131864508455599_18" [label="Rule_based Row Filter"]
+	"-7600131864508455599_18" -> "-7600131864508455599_12"
+	"-7600131864508455599_6" -> "-7600131864508455599_18"
+	"-7600131864508455599_12" -> "-7600131864508455599_10"
 	rankdir=LR
 }

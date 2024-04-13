@@ -1,8 +1,8 @@
 digraph {
-	1 -> 4
-	4 -> 2
-	1 [label="String Widget"]
-	4 [label="Variable to Table Row"]
-	2 [label="String Manipulation"]
+	"-2858685631125996066_1" [label="String Widget"]
+	"-2858685631125996066_4" [label="Variable to Table Row"]
+	"-2858685631125996066_2" [label="String Manipulation"]
+	"-2858685631125996066_1" -> "-2858685631125996066_4"
+	"-2858685631125996066_4" -> "-2858685631125996066_2"
 	rankdir=LR
 }

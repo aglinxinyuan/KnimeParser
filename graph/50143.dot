@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Data Generator"]
-	2 [label=GroupBy]
+	"-3208993045308613930_2" [label=GroupBy]
+	"-3208993045308613930_1" [label="Data Generator"]
+	"-3208993045308613930_1" -> "-3208993045308613930_2"
 	rankdir=LR
 }

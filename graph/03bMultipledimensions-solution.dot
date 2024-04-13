@@ -1,11 +1,11 @@
 digraph {
-	12 -> 10
-	16 -> 7
-	17 -> 12
-	16 [label="Excel Reader"]
-	7 [label="Sunburst Chart"]
-	12 [label="Color Manager"]
-	17 [label="CSV Reader"]
-	10 [label="Parallel Coordinates Plot"]
+	"6719605238787216817_16" [label="Excel Reader"]
+	"6719605238787216817_12" [label="Color Manager"]
+	"6719605238787216817_17" [label="CSV Reader"]
+	"6719605238787216817_7" [label="Sunburst Chart"]
+	"6719605238787216817_10" [label="Parallel Coordinates Plot"]
+	"6719605238787216817_17" -> "6719605238787216817_12"
+	"6719605238787216817_12" -> "6719605238787216817_10"
+	"6719605238787216817_16" -> "6719605238787216817_7"
 	rankdir=LR
 }

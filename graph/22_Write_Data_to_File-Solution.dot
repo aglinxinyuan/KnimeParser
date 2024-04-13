@@ -1,10 +1,10 @@
 digraph {
-	2 -> 10
-	9 -> 2
-	1 -> 9
-	1 [label="File Reader"]
-	10 [label="CSV Writer"]
-	2 [label=GroupBy]
-	9 [label="Rule_based Row Filter"]
+	"5436893808438788772_10" [label="CSV Writer"]
+	"5436893808438788772_9" [label="Rule_based Row Filter"]
+	"5436893808438788772_1" [label="File Reader"]
+	"5436893808438788772_2" [label=GroupBy]
+	"5436893808438788772_9" -> "5436893808438788772_2"
+	"5436893808438788772_2" -> "5436893808438788772_10"
+	"5436893808438788772_1" -> "5436893808438788772_9"
 	rankdir=LR
 }

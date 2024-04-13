@@ -1,8 +1,8 @@
 digraph {
-	2 -> 4
-	3 -> 2
-	4 [label=Ungroup]
-	3 [label="Table Creator"]
-	2 [label="Java Snippet"]
+	"-9023458872039197257_2" [label="Java Snippet"]
+	"-9023458872039197257_3" [label="Table Creator"]
+	"-9023458872039197257_4" [label=Ungroup]
+	"-9023458872039197257_3" -> "-9023458872039197257_2"
+	"-9023458872039197257_2" -> "-9023458872039197257_4"
 	rankdir=LR
 }

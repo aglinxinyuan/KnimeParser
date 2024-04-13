@@ -1,10 +1,10 @@
 digraph {
-	14 -> 13
-	1 -> 14
-	14 -> 15
-	1 [label="CSV Reader"]
-	13 [label="Association Rule Learner _Borgelt_"]
-	14 [label=GroupBy]
-	15 [label="Item Set Finder _Borgelt_"]
+	"2577198646781959109_15" [label="Item Set Finder _Borgelt_"]
+	"2577198646781959109_14" [label=GroupBy]
+	"2577198646781959109_1" [label="CSV Reader"]
+	"2577198646781959109_13" [label="Association Rule Learner _Borgelt_"]
+	"2577198646781959109_14" -> "2577198646781959109_15"
+	"2577198646781959109_1" -> "2577198646781959109_14"
+	"2577198646781959109_14" -> "2577198646781959109_13"
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="CSV Reader"]
-	2 [label=GroupBy]
+	"5324933747679982467_2" [label=GroupBy]
+	"5324933747679982467_1" [label="CSV Reader"]
+	"5324933747679982467_1" -> "5324933747679982467_2"
 	rankdir=LR
 }

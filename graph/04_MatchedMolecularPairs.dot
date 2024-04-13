@@ -1,11 +1,11 @@
 digraph {
-	119 -> 120
-	118 -> 119
-	80 -> 56
-	120 [label="Rule_based Row Filter"]
-	119 [label="Column Filter"]
-	118 [label="Table Reader"]
-	56 [label="Column Rename"]
-	80 [label="Column Resorter"]
+	"-1864978144199421503_120" [label="Rule_based Row Filter"]
+	"-1864978144199421503_80" [label="Column Resorter"]
+	"-1864978144199421503_118" [label="Table Reader"]
+	"-1864978144199421503_56" [label="Column Rename"]
+	"-1864978144199421503_119" [label="Column Filter"]
+	"-1864978144199421503_80" -> "-1864978144199421503_56"
+	"-1864978144199421503_118" -> "-1864978144199421503_119"
+	"-1864978144199421503_119" -> "-1864978144199421503_120"
 	rankdir=LR
 }

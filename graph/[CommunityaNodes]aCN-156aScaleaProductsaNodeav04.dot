@@ -1,8 +1,8 @@
 digraph {
-	2 -> 4
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label="Scale Products"]
-	2 [label="Customer Distributions"]
+	"1180747434600027477_1" [label="Table Creator"]
+	"1180747434600027477_4" [label="Scale Products"]
+	"1180747434600027477_2" [label="Customer Distributions"]
+	"1180747434600027477_1" -> "1180747434600027477_2"
+	"1180747434600027477_2" -> "1180747434600027477_4"
 	rankdir=LR
 }

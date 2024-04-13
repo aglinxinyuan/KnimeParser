@@ -1,6 +1,6 @@
 digraph {
-	2 -> 1
-	1 [label="Python View"]
-	2 [label="Table Creator"]
+	"-7609116015975193134_2" [label="Table Creator"]
+	"-7609116015975193134_1" [label="Python View"]
+	"-7609116015975193134_2" -> "-7609116015975193134_1"
 	rankdir=LR
 }

@@ -1,21 +1,21 @@
 digraph {
-	28 -> 32
-	29 -> 30
-	30 -> 28
-	25 -> 26
-	28 -> 31
-	26 -> 27
-	30 -> 24
-	27 -> 29
-	26 -> 28
-	24 [label="Petri Net Visualizer"]
-	27 [label="Filter Event Table by Frequency"]
-	30 [label="Process Tree to Petri Net"]
-	29 [label="Inductive Miner _Table_"]
-	28 [label="Alignment_Based Replayer"]
-	31 [label="Alignment_Based Precision Evaluator"]
-	26 [label="Event Log to Table"]
-	25 [label="XES Reader"]
-	32 [label="Alignment_Based Fitness Evaluator"]
+	"-6551306333227228776_24" [label="Petri Net Visualizer"]
+	"-6551306333227228776_31" [label="Alignment_Based Precision Evaluator"]
+	"-6551306333227228776_25" [label="XES Reader"]
+	"-6551306333227228776_26" [label="Event Log to Table"]
+	"-6551306333227228776_28" [label="Alignment_Based Replayer"]
+	"-6551306333227228776_29" [label="Inductive Miner _Table_"]
+	"-6551306333227228776_30" [label="Process Tree to Petri Net"]
+	"-6551306333227228776_27" [label="Filter Event Table by Frequency"]
+	"-6551306333227228776_32" [label="Alignment_Based Fitness Evaluator"]
+	"-6551306333227228776_30" -> "-6551306333227228776_24"
+	"-6551306333227228776_25" -> "-6551306333227228776_26"
+	"-6551306333227228776_28" -> "-6551306333227228776_31"
+	"-6551306333227228776_29" -> "-6551306333227228776_30"
+	"-6551306333227228776_26" -> "-6551306333227228776_28"
+	"-6551306333227228776_30" -> "-6551306333227228776_28"
+	"-6551306333227228776_26" -> "-6551306333227228776_27"
+	"-6551306333227228776_28" -> "-6551306333227228776_32"
+	"-6551306333227228776_27" -> "-6551306333227228776_29"
 	rankdir=LR
 }

@@ -1,15 +1,15 @@
 digraph {
-	6 -> 8
-	10 -> 2
-	2 -> 6
-	2 -> 3
-	6 -> 9
-	3 -> 6
-	9 [label=Scorer]
-	6 [label="Decision Tree Predictor"]
-	8 [label="Interactive Table _legacy_"]
-	3 [label="Decision Tree Learner"]
-	2 [label=Partitioning]
-	10 [label="CSV Reader"]
+	"8059539240147644611_10" [label="CSV Reader"]
+	"8059539240147644611_8" [label="Interactive Table _legacy_"]
+	"8059539240147644611_6" [label="Decision Tree Predictor"]
+	"8059539240147644611_2" [label=Partitioning]
+	"8059539240147644611_3" [label="Decision Tree Learner"]
+	"8059539240147644611_9" [label=Scorer]
+	"8059539240147644611_3" -> "8059539240147644611_6"
+	"8059539240147644611_6" -> "8059539240147644611_9"
+	"8059539240147644611_10" -> "8059539240147644611_2"
+	"8059539240147644611_6" -> "8059539240147644611_8"
+	"8059539240147644611_2" -> "8059539240147644611_3"
+	"8059539240147644611_2" -> "8059539240147644611_6"
 	rankdir=LR
 }

@@ -1,23 +1,23 @@
 digraph {
-	12 -> 10
-	6 -> 5
-	9 -> 8
-	11 -> 12
-	2 -> 3
-	3 -> 1
-	4 -> 6
-	7 -> 9
-	5 [label="RDKit R_Group Decomposition"]
-	1 [label="RDKit R_Group Decomposition"]
-	7 [label="File Reader"]
-	9 [label=Pivoting]
-	11 [label="File Reader"]
-	4 [label="File Reader"]
-	10 [label="RDKit R_Group Decomposition"]
-	6 [label=Pivoting]
-	8 [label="RDKit R_Group Decomposition"]
-	3 [label=Pivoting]
-	2 [label="File Reader"]
-	12 [label=Pivoting]
+	"-8805205742550802569_8" [label="RDKit R_Group Decomposition"]
+	"-8805205742550802569_3" [label=Pivoting]
+	"-8805205742550802569_2" [label="File Reader"]
+	"-8805205742550802569_12" [label=Pivoting]
+	"-8805205742550802569_10" [label="RDKit R_Group Decomposition"]
+	"-8805205742550802569_9" [label=Pivoting]
+	"-8805205742550802569_5" [label="RDKit R_Group Decomposition"]
+	"-8805205742550802569_7" [label="File Reader"]
+	"-8805205742550802569_1" [label="RDKit R_Group Decomposition"]
+	"-8805205742550802569_11" [label="File Reader"]
+	"-8805205742550802569_6" [label=Pivoting]
+	"-8805205742550802569_4" [label="File Reader"]
+	"-8805205742550802569_3" -> "-8805205742550802569_1"
+	"-8805205742550802569_2" -> "-8805205742550802569_3"
+	"-8805205742550802569_9" -> "-8805205742550802569_8"
+	"-8805205742550802569_6" -> "-8805205742550802569_5"
+	"-8805205742550802569_11" -> "-8805205742550802569_12"
+	"-8805205742550802569_4" -> "-8805205742550802569_6"
+	"-8805205742550802569_7" -> "-8805205742550802569_9"
+	"-8805205742550802569_12" -> "-8805205742550802569_10"
 	rankdir=LR
 }

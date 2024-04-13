@@ -1,8 +1,8 @@
 digraph {
-	5 -> 6
-	1 -> 5
-	1 [label="Excel Reader"]
-	5 [label="Column Expressions"]
-	6 [label="Column Filter"]
+	"-8120761182173786077_5" [label="Column Expressions"]
+	"-8120761182173786077_6" [label="Column Filter"]
+	"-8120761182173786077_1" [label="Excel Reader"]
+	"-8120761182173786077_5" -> "-8120761182173786077_6"
+	"-8120761182173786077_1" -> "-8120761182173786077_5"
 	rankdir=LR
 }

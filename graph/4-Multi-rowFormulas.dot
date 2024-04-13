@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	7 -> 2
-	3 -> 4
-	3 -> 5
-	5 [label="Column Expressions"]
-	7 [label="Table Reader"]
-	4 [label="Column Expressions"]
-	3 [label="Column Filter"]
-	2 [label=Sorter]
+	"7933364308313810839_5" [label="Column Expressions"]
+	"7933364308313810839_3" [label="Column Filter"]
+	"7933364308313810839_4" [label="Column Expressions"]
+	"7933364308313810839_7" [label="Table Reader"]
+	"7933364308313810839_2" [label=Sorter]
+	"7933364308313810839_3" -> "7933364308313810839_4"
+	"7933364308313810839_2" -> "7933364308313810839_3"
+	"7933364308313810839_3" -> "7933364308313810839_5"
+	"7933364308313810839_7" -> "7933364308313810839_2"
 	rankdir=LR
 }

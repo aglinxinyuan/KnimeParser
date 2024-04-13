@@ -1,10 +1,10 @@
 digraph {
-	1 -> 4
-	1 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label="Column Filter"]
-	3 [label="Column Filter"]
-	2 [label="Column Filter"]
+	"8744938005111629220_3" [label="Column Filter"]
+	"8744938005111629220_1" [label="Table Creator"]
+	"8744938005111629220_4" [label="Column Filter"]
+	"8744938005111629220_2" [label="Column Filter"]
+	"8744938005111629220_1" -> "8744938005111629220_2"
+	"8744938005111629220_1" -> "8744938005111629220_4"
+	"8744938005111629220_1" -> "8744938005111629220_3"
 	rankdir=LR
 }

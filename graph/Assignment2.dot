@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	1 -> 2
-	1 [label="File Reader"]
-	3 [label=Histogram]
-	2 [label="Scatter Plot"]
+	"-1897980394551961828_1" [label="File Reader"]
+	"-1897980394551961828_2" [label="Scatter Plot"]
+	"-1897980394551961828_3" [label=Histogram]
+	"-1897980394551961828_1" -> "-1897980394551961828_2"
+	"-1897980394551961828_1" -> "-1897980394551961828_3"
 	rankdir=LR
 }

@@ -1,18 +1,18 @@
 digraph {
-	3 -> 9
-	7 -> 8
-	1 -> 4
-	4 -> 3
-	8 -> 5
-	6 -> 7
-	9 -> 6
-	5 [label="2D_3D Scatterplot"]
-	1 [label="File Reader"]
-	7 [label="Math Formula"]
-	9 [label="Math Formula"]
-	4 [label="Molecule Type Cast"]
-	6 [label="Math Formula"]
-	8 [label="Math Formula"]
-	3 [label="RDKit Descriptor Calculation"]
+	"-4886807414670759843_7" [label="Math Formula"]
+	"-4886807414670759843_5" [label="2D_3D Scatterplot"]
+	"-4886807414670759843_8" [label="Math Formula"]
+	"-4886807414670759843_3" [label="RDKit Descriptor Calculation"]
+	"-4886807414670759843_6" [label="Math Formula"]
+	"-4886807414670759843_9" [label="Math Formula"]
+	"-4886807414670759843_1" [label="File Reader"]
+	"-4886807414670759843_4" [label="Molecule Type Cast"]
+	"-4886807414670759843_9" -> "-4886807414670759843_6"
+	"-4886807414670759843_8" -> "-4886807414670759843_5"
+	"-4886807414670759843_7" -> "-4886807414670759843_8"
+	"-4886807414670759843_6" -> "-4886807414670759843_7"
+	"-4886807414670759843_1" -> "-4886807414670759843_4"
+	"-4886807414670759843_3" -> "-4886807414670759843_9"
+	"-4886807414670759843_4" -> "-4886807414670759843_3"
 	rankdir=LR
 }

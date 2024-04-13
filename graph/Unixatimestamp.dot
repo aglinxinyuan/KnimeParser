@@ -1,8 +1,8 @@
 digraph {
-	14 -> 22
-	22 -> 23
-	14 [label="File Reader"]
-	22 [label="Python Script"]
-	23 [label="Python Script"]
+	"14333747475153493_14" [label="File Reader"]
+	"14333747475153493_22" [label="Python Script"]
+	"14333747475153493_23" [label="Python Script"]
+	"14333747475153493_22" -> "14333747475153493_23"
+	"14333747475153493_14" -> "14333747475153493_22"
 	rankdir=LR
 }

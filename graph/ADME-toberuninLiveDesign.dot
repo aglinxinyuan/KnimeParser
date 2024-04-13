@@ -1,12 +1,12 @@
 digraph {
-	33 -> 34
-	33 -> 35
-	36 -> 32
-	32 -> 33
-	35 [label="CSV Writer"]
-	34 [label="Molecule Writer _from MAE_"]
-	36 [label="Molecule Reader _to MAE_"]
-	33 [label=QikProp]
-	32 [label=LigPrep]
+	"4607296713884045520_33" [label=QikProp]
+	"4607296713884045520_32" [label=LigPrep]
+	"4607296713884045520_34" [label="Molecule Writer _from MAE_"]
+	"4607296713884045520_36" [label="Molecule Reader _to MAE_"]
+	"4607296713884045520_35" [label="CSV Writer"]
+	"4607296713884045520_32" -> "4607296713884045520_33"
+	"4607296713884045520_36" -> "4607296713884045520_32"
+	"4607296713884045520_33" -> "4607296713884045520_35"
+	"4607296713884045520_33" -> "4607296713884045520_34"
 	rankdir=LR
 }

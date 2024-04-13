@@ -1,8 +1,8 @@
 digraph {
-	3 -> 1
-	1 -> 4
-	1 [label="HTML Parser"]
-	4 [label=XPath]
-	3 [label="Table Creator"]
+	"8453223691744479252_1" [label="HTML Parser"]
+	"8453223691744479252_3" [label="Table Creator"]
+	"8453223691744479252_4" [label=XPath]
+	"8453223691744479252_3" -> "8453223691744479252_1"
+	"8453223691744479252_1" -> "8453223691744479252_4"
 	rankdir=LR
 }

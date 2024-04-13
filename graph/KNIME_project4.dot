@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="CSV Reader"]
-	4 [label="Decision Tree Learner"]
-	3 [label=Partitioning]
-	2 [label="Column Filter"]
+	"-1967918719478446469_3" [label=Partitioning]
+	"-1967918719478446469_2" [label="Column Filter"]
+	"-1967918719478446469_4" [label="Decision Tree Learner"]
+	"-1967918719478446469_1" [label="CSV Reader"]
+	"-1967918719478446469_3" -> "-1967918719478446469_4"
+	"-1967918719478446469_2" -> "-1967918719478446469_3"
+	"-1967918719478446469_1" -> "-1967918719478446469_2"
 	rankdir=LR
 }

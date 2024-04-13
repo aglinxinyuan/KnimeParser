@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label=GroupBy]
-	2 [label=Unpivoting]
+	"8627822075610192925_1" [label="Table Creator"]
+	"8627822075610192925_3" [label=GroupBy]
+	"8627822075610192925_2" [label=Unpivoting]
+	"8627822075610192925_1" -> "8627822075610192925_2"
+	"8627822075610192925_2" -> "8627822075610192925_3"
 	rankdir=LR
 }

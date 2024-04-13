@@ -1,9 +1,9 @@
 digraph {
-	2 -> 1
-	4 -> 6
-	1 [label="Zip Files"]
-	4 [label="List Files_Folders"]
-	6 [label="Compress Files_Folder _Table_"]
-	2 [label="List Files"]
+	"4865219816565488517_2" [label="List Files"]
+	"4865219816565488517_6" [label="Compress Files_Folder _Table_"]
+	"4865219816565488517_1" [label="Zip Files"]
+	"4865219816565488517_4" [label="List Files_Folders"]
+	"4865219816565488517_2" -> "4865219816565488517_1"
+	"4865219816565488517_4" -> "4865219816565488517_6"
 	rankdir=LR
 }

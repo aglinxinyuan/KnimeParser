@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 3
-	1 [label="Excel Reader"]
-	3 [label=Joiner]
-	2 [label="Excel Reader"]
+	"-4341359577201148222_1" [label="Excel Reader"]
+	"-4341359577201148222_3" [label=Joiner]
+	"-4341359577201148222_2" [label="Excel Reader"]
+	"-4341359577201148222_2" -> "-4341359577201148222_3"
+	"-4341359577201148222_1" -> "-4341359577201148222_3"
 	rankdir=LR
 }

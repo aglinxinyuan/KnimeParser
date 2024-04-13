@@ -1,14 +1,14 @@
 digraph {
-	1 -> 4
-	4 -> 5
-	5 -> 6
-	3 -> 1
-	6 -> 2
-	5 [label="Column Rename"]
-	1 [label="TimeDelay Loop Start"]
-	4 [label="Math Formula"]
-	6 [label="Column Resorter"]
-	3 [label="Table Creator"]
-	2 [label="TimeDelay Loop End"]
+	"-8970669680066023399_4" [label="Math Formula"]
+	"-8970669680066023399_2" [label="TimeDelay Loop End"]
+	"-8970669680066023399_3" [label="Table Creator"]
+	"-8970669680066023399_6" [label="Column Resorter"]
+	"-8970669680066023399_5" [label="Column Rename"]
+	"-8970669680066023399_1" [label="TimeDelay Loop Start"]
+	"-8970669680066023399_5" -> "-8970669680066023399_6"
+	"-8970669680066023399_1" -> "-8970669680066023399_4"
+	"-8970669680066023399_4" -> "-8970669680066023399_5"
+	"-8970669680066023399_6" -> "-8970669680066023399_2"
+	"-8970669680066023399_3" -> "-8970669680066023399_1"
 	rankdir=LR
 }

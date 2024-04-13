@@ -1,8 +1,8 @@
 digraph {
-	3 -> 1
-	2 -> 1
-	1 [label="Table View"]
-	3 [label="CSS Editor"]
-	2 [label="Data Generator"]
+	"-5106676642916289743_2" [label="Data Generator"]
+	"-5106676642916289743_3" [label="CSS Editor"]
+	"-5106676642916289743_1" [label="Table View"]
+	"-5106676642916289743_3" -> "-5106676642916289743_1"
+	"-5106676642916289743_2" -> "-5106676642916289743_1"
 	rankdir=LR
 }

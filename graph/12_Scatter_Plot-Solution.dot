@@ -1,8 +1,8 @@
 digraph {
-	3 -> 4
-	4 -> 5
-	5 [label="Scatter Plot"]
-	4 [label="Color Manager"]
-	3 [label="File Reader"]
+	"-6069320669778261946_5" [label="Scatter Plot"]
+	"-6069320669778261946_3" [label="File Reader"]
+	"-6069320669778261946_4" [label="Color Manager"]
+	"-6069320669778261946_4" -> "-6069320669778261946_5"
+	"-6069320669778261946_3" -> "-6069320669778261946_4"
 	rankdir=LR
 }

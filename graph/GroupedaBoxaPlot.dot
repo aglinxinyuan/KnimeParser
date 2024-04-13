@@ -1,8 +1,8 @@
 digraph {
-	15 -> 17
-	17 -> 16
-	16 [label="Generic JavaScript View"]
-	17 [label="Column Resorter"]
-	15 [label="Data Generator"]
+	"-1096902633430771817_16" [label="Generic JavaScript View"]
+	"-1096902633430771817_15" [label="Data Generator"]
+	"-1096902633430771817_17" [label="Column Resorter"]
+	"-1096902633430771817_15" -> "-1096902633430771817_17"
+	"-1096902633430771817_17" -> "-1096902633430771817_16"
 	rankdir=LR
 }

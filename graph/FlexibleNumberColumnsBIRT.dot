@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Data Generator"]
-	3 [label="Data to Report"]
-	2 [label=Unpivoting]
+	"-6359266012462495788_3" [label="Data to Report"]
+	"-6359266012462495788_2" [label=Unpivoting]
+	"-6359266012462495788_1" [label="Data Generator"]
+	"-6359266012462495788_2" -> "-6359266012462495788_3"
+	"-6359266012462495788_1" -> "-6359266012462495788_2"
 	rankdir=LR
 }

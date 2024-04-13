@@ -1,27 +1,27 @@
 digraph {
-	43 -> 62
-	44 -> 43
-	62 -> 46
-	61 -> 67
-	43 -> 61
-	60 -> 61
-	43 -> 59
-	43 -> 63
-	65 -> 63
-	63 -> 54
-	59 -> 62
-	43 -> 60
-	43 -> 65
-	43 [label=Partitioning]
-	44 [label="Python Script"]
-	62 [label="Sklearn Regression Predictor"]
-	65 [label="Gaussian Process Classification Learner _sklearn_"]
-	67 [label="Python View"]
-	46 [label="Python View"]
-	63 [label="Sklearn Classification Predictor"]
-	61 [label="Sklearn Regression Predictor"]
-	54 [label="Python View"]
-	60 [label="Lasso Regression Learner _sklearn_"]
-	59 [label="Gaussian Process Regression Learner _sklearn_"]
+	"6477159270655259952_67" [label="Python View"]
+	"6477159270655259952_61" [label="Sklearn Regression Predictor"]
+	"6477159270655259952_44" [label="Python Script"]
+	"6477159270655259952_59" [label="Gaussian Process Regression Learner _sklearn_"]
+	"6477159270655259952_65" [label="Gaussian Process Classification Learner _sklearn_"]
+	"6477159270655259952_46" [label="Python View"]
+	"6477159270655259952_43" [label=Partitioning]
+	"6477159270655259952_60" [label="Lasso Regression Learner _sklearn_"]
+	"6477159270655259952_62" [label="Sklearn Regression Predictor"]
+	"6477159270655259952_54" [label="Python View"]
+	"6477159270655259952_63" [label="Sklearn Classification Predictor"]
+	"6477159270655259952_63" -> "6477159270655259952_54"
+	"6477159270655259952_43" -> "6477159270655259952_59"
+	"6477159270655259952_43" -> "6477159270655259952_65"
+	"6477159270655259952_44" -> "6477159270655259952_43"
+	"6477159270655259952_43" -> "6477159270655259952_61"
+	"6477159270655259952_62" -> "6477159270655259952_46"
+	"6477159270655259952_43" -> "6477159270655259952_63"
+	"6477159270655259952_43" -> "6477159270655259952_62"
+	"6477159270655259952_61" -> "6477159270655259952_67"
+	"6477159270655259952_60" -> "6477159270655259952_61"
+	"6477159270655259952_65" -> "6477159270655259952_63"
+	"6477159270655259952_59" -> "6477159270655259952_62"
+	"6477159270655259952_43" -> "6477159270655259952_60"
 	rankdir=LR
 }

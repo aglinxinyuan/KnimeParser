@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Workflow Service Input"]
-	2 [label="Workflow Service Output"]
+	"2151514195472709690_2" [label="Workflow Service Output"]
+	"2151514195472709690_1" [label="Workflow Service Input"]
+	"2151514195472709690_1" -> "2151514195472709690_2"
 	rankdir=LR
 }

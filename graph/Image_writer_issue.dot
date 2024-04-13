@@ -1,13 +1,13 @@
 digraph {
-	6 -> 5
-	3 -> 4
-	4 -> 6
-	1 -> 2
-	5 [label="Image Writer"]
-	1 [label="Image Reader"]
-	4 [label=GroupBy]
-	6 [label="Set Image Metadata"]
-	3 [label="Image Reader"]
-	2 [label="Image Writer"]
+	"122359919443642320_5" [label="Image Writer"]
+	"122359919443642320_2" [label="Image Writer"]
+	"122359919443642320_1" [label="Image Reader"]
+	"122359919443642320_6" [label="Set Image Metadata"]
+	"122359919443642320_3" [label="Image Reader"]
+	"122359919443642320_4" [label=GroupBy]
+	"122359919443642320_6" -> "122359919443642320_5"
+	"122359919443642320_4" -> "122359919443642320_6"
+	"122359919443642320_1" -> "122359919443642320_2"
+	"122359919443642320_3" -> "122359919443642320_4"
 	rankdir=LR
 }

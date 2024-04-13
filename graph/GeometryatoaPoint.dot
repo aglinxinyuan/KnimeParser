@@ -1,12 +1,12 @@
 digraph {
-	3 -> 7
-	2 -> 3
-	3 -> 4
-	4 -> 6
-	7 [label="Geospatial View"]
-	4 [label="Geometry To Point"]
-	6 [label="Geospatial View"]
-	3 [label="WKT to Geometry"]
-	2 [label="CSV Reader"]
+	"9133546384994430871_3" [label="WKT to Geometry"]
+	"9133546384994430871_2" [label="CSV Reader"]
+	"9133546384994430871_6" [label="Geospatial View"]
+	"9133546384994430871_4" [label="Geometry To Point"]
+	"9133546384994430871_7" [label="Geospatial View"]
+	"9133546384994430871_3" -> "9133546384994430871_4"
+	"9133546384994430871_4" -> "9133546384994430871_6"
+	"9133546384994430871_3" -> "9133546384994430871_7"
+	"9133546384994430871_2" -> "9133546384994430871_3"
 	rankdir=LR
 }

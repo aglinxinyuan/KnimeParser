@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Example Data"]
-	4 [label="Dose Response _R_"]
-	3 [label="String Manipulation"]
-	2 [label="Number Formatter"]
+	"-3078197063347629954_3" [label="String Manipulation"]
+	"-3078197063347629954_1" [label="Example Data"]
+	"-3078197063347629954_4" [label="Dose Response _R_"]
+	"-3078197063347629954_2" [label="Number Formatter"]
+	"-3078197063347629954_1" -> "-3078197063347629954_2"
+	"-3078197063347629954_3" -> "-3078197063347629954_4"
+	"-3078197063347629954_2" -> "-3078197063347629954_3"
 	rankdir=LR
 }

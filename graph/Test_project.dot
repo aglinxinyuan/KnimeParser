@@ -1,14 +1,14 @@
 digraph {
-	1 -> 4
-	2 -> 1
-	3 -> 5
-	1 -> 3
-	3 -> 6
-	5 [label="Bar Chart"]
-	1 [label="SharePoint Online Connector"]
-	4 [label="List Files_Folders"]
-	6 [label="Send to Power BI"]
-	3 [label="Excel Reader"]
-	2 [label="Microsoft Authentication"]
+	"3423296440289285958_1" [label="SharePoint Online Connector"]
+	"3423296440289285958_5" [label="Bar Chart"]
+	"3423296440289285958_6" [label="Send to Power BI"]
+	"3423296440289285958_4" [label="List Files_Folders"]
+	"3423296440289285958_2" [label="Microsoft Authentication"]
+	"3423296440289285958_3" [label="Excel Reader"]
+	"3423296440289285958_3" -> "3423296440289285958_5"
+	"3423296440289285958_1" -> "3423296440289285958_3"
+	"3423296440289285958_1" -> "3423296440289285958_4"
+	"3423296440289285958_2" -> "3423296440289285958_1"
+	"3423296440289285958_3" -> "3423296440289285958_6"
 	rankdir=LR
 }

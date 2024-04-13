@@ -1,11 +1,11 @@
 digraph {
-	2 -> 5
-	3 -> 4
-	1 -> 2
-	5 [label="Table Writer"]
-	1 [label="CSV Reader"]
-	4 [label="Row Filter"]
-	3 [label="CSV Reader"]
-	2 [label="Row Filter"]
+	"8567411239914483466_2" [label="Row Filter"]
+	"8567411239914483466_5" [label="Table Writer"]
+	"8567411239914483466_1" [label="CSV Reader"]
+	"8567411239914483466_3" [label="CSV Reader"]
+	"8567411239914483466_4" [label="Row Filter"]
+	"8567411239914483466_3" -> "8567411239914483466_4"
+	"8567411239914483466_1" -> "8567411239914483466_2"
+	"8567411239914483466_2" -> "8567411239914483466_5"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	1 -> 2
-	1 -> 9
-	1 -> 5
-	1 [label="CSV Reader"]
-	5 [label="Column Filter"]
-	2 [label=Statistics]
-	9 [label="Box Plot _local_"]
+	"7948998431391280049_1" [label="CSV Reader"]
+	"2092232429588021476_5" [label="Column Filter"]
+	"7948998431391280049_9" [label="Box Plot _local_"]
+	"7948998431391280049_2" [label=Statistics]
+	"7948998431391280049_1" -> "7948998431391280049_9"
+	"7948998431391280049_1" -> "7948998431391280049_2"
+	"7948998431391280049_1" -> "2092232429588021476_5"
 	rankdir=LR
 }

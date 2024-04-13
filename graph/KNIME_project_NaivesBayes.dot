@@ -1,14 +1,14 @@
 digraph {
-	1 -> 4
-	4 -> 5
-	3 -> 5
-	5 -> 6
-	5 -> 7
-	5 [label="Naive Bayes Predictor"]
-	1 [label="CSV Reader"]
-	7 [label=Scorer]
-	4 [label="Naive Bayes Learner"]
-	6 [label="Interactive Table _legacy_"]
-	3 [label="CSV Reader"]
+	"5065986026440682749_6" [label="Interactive Table _legacy_"]
+	"5065986026440682749_5" [label="Naive Bayes Predictor"]
+	"5065986026440682749_1" [label="CSV Reader"]
+	"5065986026440682749_7" [label=Scorer]
+	"5065986026440682749_3" [label="CSV Reader"]
+	"5065986026440682749_4" [label="Naive Bayes Learner"]
+	"5065986026440682749_4" -> "5065986026440682749_5"
+	"5065986026440682749_3" -> "5065986026440682749_5"
+	"5065986026440682749_5" -> "5065986026440682749_7"
+	"5065986026440682749_5" -> "5065986026440682749_6"
+	"5065986026440682749_1" -> "5065986026440682749_4"
 	rankdir=LR
 }

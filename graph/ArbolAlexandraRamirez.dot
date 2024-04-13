@@ -1,19 +1,19 @@
 digraph {
-	4 -> 7
-	7 -> 8
-	3 -> 4
-	5 -> 6
-	1 -> 2
-	6 -> 7
-	1 -> 3
-	3 -> 6
-	5 [label="Excel Reader"]
-	1 [label="Excel Reader"]
-	7 [label="Decision Tree Predictor"]
-	4 [label="Decision Tree Learner"]
-	6 [label="Color Appender"]
-	8 [label=Scorer]
-	3 [label="Color Manager"]
-	2 [label="Decision Tree Learner"]
+	"6617668097597045366_6" [label="Color Appender"]
+	"6617668097597045366_3" [label="Color Manager"]
+	"6617668097597045366_4" [label="Decision Tree Learner"]
+	"6617668097597045366_5" [label="Excel Reader"]
+	"6617668097597045366_7" [label="Decision Tree Predictor"]
+	"6617668097597045366_1" [label="Excel Reader"]
+	"6617668097597045366_8" [label=Scorer]
+	"6617668097597045366_2" [label="Decision Tree Learner"]
+	"6617668097597045366_6" -> "6617668097597045366_7"
+	"6617668097597045366_1" -> "6617668097597045366_2"
+	"6617668097597045366_3" -> "6617668097597045366_4"
+	"6617668097597045366_4" -> "6617668097597045366_7"
+	"6617668097597045366_1" -> "6617668097597045366_3"
+	"6617668097597045366_5" -> "6617668097597045366_6"
+	"6617668097597045366_3" -> "6617668097597045366_6"
+	"6617668097597045366_7" -> "6617668097597045366_8"
 	rankdir=LR
 }

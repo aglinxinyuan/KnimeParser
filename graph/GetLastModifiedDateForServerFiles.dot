@@ -1,14 +1,14 @@
 digraph {
-	18 -> 25
-	27 -> 17
-	25 -> 26
-	17 -> 18
-	26 -> 24
-	24 [label="GET Request"]
-	27 [label="Credentials Configuration"]
-	18 [label="List Files_Folders"]
-	26 [label="String Manipulation"]
-	25 [label="Path to String"]
-	17 [label="KNIME Server Connector"]
+	"1360679833515972059_17" [label="KNIME Server Connector"]
+	"1360679833515972059_26" [label="String Manipulation"]
+	"1360679833515972059_18" [label="List Files_Folders"]
+	"1360679833515972059_25" [label="Path to String"]
+	"1360679833515972059_24" [label="GET Request"]
+	"1360679833515972059_27" [label="Credentials Configuration"]
+	"1360679833515972059_26" -> "1360679833515972059_24"
+	"1360679833515972059_17" -> "1360679833515972059_18"
+	"1360679833515972059_25" -> "1360679833515972059_26"
+	"1360679833515972059_18" -> "1360679833515972059_25"
+	"1360679833515972059_27" -> "1360679833515972059_17"
 	rankdir=LR
 }

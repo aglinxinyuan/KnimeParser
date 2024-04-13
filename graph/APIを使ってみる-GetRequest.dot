@@ -1,12 +1,12 @@
 digraph {
-	40 -> 41
-	41 -> 39
-	38 -> 40
-	35 -> 38
-	35 [label="Table Creator"]
-	41 [label="String to JSON"]
-	40 [label="GET Request"]
-	39 [label="JSON to Table"]
-	38 [label="String Manipulation"]
+	"8788618144726292383_35" [label="Table Creator"]
+	"8788618144726292383_38" [label="String Manipulation"]
+	"8788618144726292383_40" [label="GET Request"]
+	"8788618144726292383_41" [label="String to JSON"]
+	"8788618144726292383_39" [label="JSON to Table"]
+	"8788618144726292383_41" -> "8788618144726292383_39"
+	"8788618144726292383_40" -> "8788618144726292383_41"
+	"8788618144726292383_35" -> "8788618144726292383_38"
+	"8788618144726292383_38" -> "8788618144726292383_40"
 	rankdir=LR
 }

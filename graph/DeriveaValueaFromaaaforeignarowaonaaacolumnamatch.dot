@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Excel Reader"]
-	4 [label="Column Filter"]
-	3 [label="Rule Engine"]
-	2 [label=Joiner]
+	"936739256959131214_3" [label="Rule Engine"]
+	"936739256959131214_2" [label=Joiner]
+	"936739256959131214_1" [label="Excel Reader"]
+	"936739256959131214_4" [label="Column Filter"]
+	"936739256959131214_1" -> "936739256959131214_2"
+	"936739256959131214_2" -> "936739256959131214_3"
+	"936739256959131214_3" -> "936739256959131214_4"
 	rankdir=LR
 }

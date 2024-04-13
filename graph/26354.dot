@@ -1,21 +1,21 @@
 digraph {
-	7 -> 8
-	9 -> 3
-	10 -> 6
-	6 -> 11
-	8 -> 10
-	3 -> 5
-	2 -> 9
-	8 -> 2
-	5 -> 10
-	5 [label="Labeling Arithmetic"]
-	7 [label="Image Reader"]
-	9 [label="Rotation 2D"]
-	11 [label=Ungroup]
-	6 [label="Labeling to PNG Images"]
-	8 [label="Gaussian Convolution"]
-	3 [label="Connected Component Analysis"]
-	2 [label="Global Thresholder"]
-	10 [label=Joiner]
+	"8116394271919108626_9" [label="Rotation 2D"]
+	"8116394271919108626_2" [label="Global Thresholder"]
+	"8116394271919108626_11" [label=Ungroup]
+	"8116394271919108626_5" [label="Labeling Arithmetic"]
+	"8116394271919108626_7" [label="Image Reader"]
+	"8116394271919108626_8" [label="Gaussian Convolution"]
+	"8116394271919108626_6" [label="Labeling to PNG Images"]
+	"8116394271919108626_3" [label="Connected Component Analysis"]
+	"8116394271919108626_10" [label=Joiner]
+	"8116394271919108626_6" -> "8116394271919108626_11"
+	"8116394271919108626_9" -> "8116394271919108626_3"
+	"8116394271919108626_3" -> "8116394271919108626_5"
+	"8116394271919108626_5" -> "8116394271919108626_10"
+	"8116394271919108626_8" -> "8116394271919108626_10"
+	"8116394271919108626_7" -> "8116394271919108626_8"
+	"8116394271919108626_2" -> "8116394271919108626_9"
+	"8116394271919108626_10" -> "8116394271919108626_6"
+	"8116394271919108626_8" -> "8116394271919108626_2"
 	rankdir=LR
 }

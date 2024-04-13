@@ -1,14 +1,14 @@
 digraph {
-	5 -> 3
-	1 -> 4
-	4 -> 3
-	2 -> 5
-	3 -> 6
-	5 [label="Java Snippet _simple_"]
-	1 [label="Excel Reader _XLS_"]
-	4 [label="Extract Column Header"]
-	6 [label="Excel Sheet Appender _XLS_"]
-	3 [label="Insert Column Header"]
-	2 [label="Excel Reader _XLS_"]
+	"-7196419519262227913_4" [label="Extract Column Header"]
+	"-7196419519262227913_3" [label="Insert Column Header"]
+	"-7196419519262227913_6" [label="Excel Sheet Appender _XLS_"]
+	"-7196419519262227913_1" [label="Excel Reader _XLS_"]
+	"-7196419519262227913_5" [label="Java Snippet _simple_"]
+	"-7196419519262227913_2" [label="Excel Reader _XLS_"]
+	"-7196419519262227913_1" -> "-7196419519262227913_4"
+	"-7196419519262227913_3" -> "-7196419519262227913_6"
+	"-7196419519262227913_2" -> "-7196419519262227913_5"
+	"-7196419519262227913_4" -> "-7196419519262227913_3"
+	"-7196419519262227913_5" -> "-7196419519262227913_3"
 	rankdir=LR
 }

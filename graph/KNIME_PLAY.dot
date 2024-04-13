@@ -1,6 +1,6 @@
 digraph {
-	4 -> 5
-	5 [label="DB Query Reader"]
-	4 [label="Oracle Connector"]
+	"3844032175889137622_4" [label="Oracle Connector"]
+	"3844032175889137622_5" [label="DB Query Reader"]
+	"3844032175889137622_4" -> "3844032175889137622_5"
 	rankdir=LR
 }

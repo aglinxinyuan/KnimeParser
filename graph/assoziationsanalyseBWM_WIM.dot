@@ -1,12 +1,12 @@
 digraph {
-	3 -> 2
-	3 -> 4
-	1 -> 3
-	3 -> 5
-	5 [label="Association Rule Learner"]
-	1 [label="File Reader"]
-	4 [label="Association Rule Learner"]
-	3 [label="Create Bit Vector"]
-	2 [label="Association Rule Learner"]
+	"5786024430553089823_4" [label="Association Rule Learner"]
+	"5786024430553089823_2" [label="Association Rule Learner"]
+	"5786024430553089823_3" [label="Create Bit Vector"]
+	"5786024430553089823_5" [label="Association Rule Learner"]
+	"5786024430553089823_1" [label="File Reader"]
+	"5786024430553089823_3" -> "5786024430553089823_5"
+	"5786024430553089823_3" -> "5786024430553089823_2"
+	"5786024430553089823_1" -> "5786024430553089823_3"
+	"5786024430553089823_3" -> "5786024430553089823_4"
 	rankdir=LR
 }

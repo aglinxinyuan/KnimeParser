@@ -1,16 +1,16 @@
 digraph {
-	484 -> 486
-	486 -> 479
-	488 -> 477
-	477 -> 484
-	479 -> 483
-	483 -> 480
-	483 [label="Renderer to Image"]
-	479 [label="RDKit Descriptor Calculation"]
-	477 [label="RDKit Canon SMILES"]
-	488 [label="Table Reader"]
-	480 [label="Tile View"]
-	484 [label="RDKit Substructure Filter"]
-	486 [label="RDKit Molecule Highlighting"]
+	"978651223259831291_486" [label="RDKit Molecule Highlighting"]
+	"978651223259831291_483" [label="Renderer to Image"]
+	"978651223259831291_484" [label="RDKit Substructure Filter"]
+	"978651223259831291_488" [label="Table Reader"]
+	"978651223259831291_479" [label="RDKit Descriptor Calculation"]
+	"978651223259831291_480" [label="Tile View"]
+	"978651223259831291_477" [label="RDKit Canon SMILES"]
+	"978651223259831291_484" -> "978651223259831291_486"
+	"978651223259831291_488" -> "978651223259831291_477"
+	"978651223259831291_486" -> "978651223259831291_479"
+	"978651223259831291_483" -> "978651223259831291_480"
+	"978651223259831291_479" -> "978651223259831291_483"
+	"978651223259831291_477" -> "978651223259831291_484"
 	rankdir=LR
 }

@@ -1,21 +1,21 @@
 digraph {
-	4 -> 8
-	9 -> 6
-	3 -> 4
-	2 -> 4
-	6 -> 10
-	1 -> 2
-	10 -> 11
-	1 -> 3
-	4 -> 9
-	1 [label="PostgreSQL Connector"]
-	9 [label="Column Filter"]
-	11 [label="Nominal Value Row Filter"]
-	4 [label=Joiner]
-	8 [label="String Manipulation"]
-	6 [label="Column Expressions"]
-	3 [label="DB Query Reader"]
-	2 [label="DB Query Reader"]
-	10 [label="Domain Calculator"]
+	"4070969177181831539_1" [label="PostgreSQL Connector"]
+	"4070969177181831539_4" [label=Joiner]
+	"4070969177181831539_6" [label="Column Expressions"]
+	"4070969177181831539_10" [label="Domain Calculator"]
+	"4070969177181831539_9" [label="Column Filter"]
+	"4070969177181831539_11" [label="Nominal Value Row Filter"]
+	"4070969177181831539_2" [label="DB Query Reader"]
+	"4070969177181831539_8" [label="String Manipulation"]
+	"4070969177181831539_3" [label="DB Query Reader"]
+	"4070969177181831539_6" -> "4070969177181831539_10"
+	"4070969177181831539_1" -> "4070969177181831539_2"
+	"4070969177181831539_2" -> "4070969177181831539_4"
+	"4070969177181831539_1" -> "4070969177181831539_3"
+	"4070969177181831539_4" -> "4070969177181831539_9"
+	"4070969177181831539_9" -> "4070969177181831539_6"
+	"4070969177181831539_4" -> "4070969177181831539_8"
+	"4070969177181831539_10" -> "4070969177181831539_11"
+	"4070969177181831539_3" -> "4070969177181831539_4"
 	rankdir=LR
 }

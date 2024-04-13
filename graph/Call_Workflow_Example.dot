@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="Rule_based Row Filter"]
-	2 [label="Call Workflow _Table Based_"]
+	"-5998823771245474478_1" [label="Table Creator"]
+	"-5998823771245474478_2" [label="Call Workflow _Table Based_"]
+	"-5998823771245474478_3" [label="Rule_based Row Filter"]
+	"-5998823771245474478_1" -> "-5998823771245474478_2"
+	"-5998823771245474478_2" -> "-5998823771245474478_3"
 	rankdir=LR
 }

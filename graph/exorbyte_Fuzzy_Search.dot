@@ -1,12 +1,12 @@
 digraph {
-	1 -> 7
-	5 -> 6
-	3 -> 2
-	5 [label="Table Creator"]
-	1 [label="Table Creator"]
-	7 [label="Matcher MM7_x"]
-	6 [label="Matcher MM7_x"]
-	3 [label="Table Creator"]
-	2 [label="Matcher MM7_x"]
+	"-5360577167016318231_6" [label="Matcher MM7_x"]
+	"-5360577167016318231_5" [label="Table Creator"]
+	"-5360577167016318231_1" [label="Table Creator"]
+	"-5360577167016318231_7" [label="Matcher MM7_x"]
+	"-5360577167016318231_2" [label="Matcher MM7_x"]
+	"-5360577167016318231_3" [label="Table Creator"]
+	"-5360577167016318231_1" -> "-5360577167016318231_7"
+	"-5360577167016318231_3" -> "-5360577167016318231_2"
+	"-5360577167016318231_5" -> "-5360577167016318231_6"
 	rankdir=LR
 }

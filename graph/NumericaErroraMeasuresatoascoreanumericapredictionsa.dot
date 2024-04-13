@@ -1,13 +1,13 @@
 digraph {
-	12 -> 13
-	2 -> 12
-	2 -> 13
-	13 -> 14
-	17 -> 2
-	13 [label="Regression Predictor"]
-	14 [label="Numeric Scorer"]
-	17 [label="Table Reader"]
-	2 [label=Partitioning]
-	12 [label="Linear Regression Learner"]
+	"-498404969043159829_2" [label=Partitioning]
+	"-498404969043159829_12" [label="Linear Regression Learner"]
+	"-498404969043159829_17" [label="Table Reader"]
+	"-498404969043159829_14" [label="Numeric Scorer"]
+	"-498404969043159829_13" [label="Regression Predictor"]
+	"-498404969043159829_12" -> "-498404969043159829_13"
+	"-498404969043159829_13" -> "-498404969043159829_14"
+	"-498404969043159829_17" -> "-498404969043159829_2"
+	"-498404969043159829_2" -> "-498404969043159829_13"
+	"-498404969043159829_2" -> "-498404969043159829_12"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	19 -> 20
-	20 -> 18
-	18 -> 16
-	16 [label="XLS Formatter _apply_"]
-	18 [label="XLS Cell Commenter"]
-	20 [label="XLS Control Table Generator"]
-	19 [label="Table Creator"]
+	"-1593733981916915604_18" [label="XLS Cell Commenter"]
+	"-1593733981916915604_19" [label="Table Creator"]
+	"-1593733981916915604_20" [label="XLS Control Table Generator"]
+	"-1593733981916915604_16" [label="XLS Formatter _apply_"]
+	"-1593733981916915604_18" -> "-1593733981916915604_16"
+	"-1593733981916915604_19" -> "-1593733981916915604_20"
+	"-1593733981916915604_20" -> "-1593733981916915604_18"
 	rankdir=LR
 }

@@ -1,9 +1,9 @@
 digraph {
-	2 -> 1
-	4 -> 5
-	1 [label="Tika Parser URL Input"]
-	4 [label="Table Creator"]
-	5 [label="Tika Parser URL Input"]
-	2 [label="Table Creator"]
+	"5295940739577851444_1" [label="Tika Parser URL Input"]
+	"5295940739577851444_2" [label="Table Creator"]
+	"5295940739577851444_5" [label="Tika Parser URL Input"]
+	"5295940739577851444_4" [label="Table Creator"]
+	"5295940739577851444_4" -> "5295940739577851444_5"
+	"5295940739577851444_2" -> "5295940739577851444_1"
 	rankdir=LR
 }

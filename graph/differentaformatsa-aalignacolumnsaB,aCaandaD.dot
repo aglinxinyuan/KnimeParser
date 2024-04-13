@@ -1,17 +1,17 @@
 digraph {
-	5 -> 8
-	4 -> 5
-	8 -> 6
-	4 -> 8
-	3 -> 4
-	2 -> 3
-	7 -> 2
-	5 [label="XLS Cell Formatter"]
-	7 [label="Excel Reader"]
-	4 [label="XLS Control Table Generator"]
-	8 [label="XLS Cell Formatter"]
-	6 [label="XLS Formatter _apply_"]
-	3 [label="Rule Engine"]
-	2 [label="XLS Control Table Generator"]
+	"899152553101243231_2" [label="XLS Control Table Generator"]
+	"899152553101243231_7" [label="Excel Reader"]
+	"899152553101243231_6" [label="XLS Formatter _apply_"]
+	"899152553101243231_3" [label="Rule Engine"]
+	"899152553101243231_8" [label="XLS Cell Formatter"]
+	"899152553101243231_5" [label="XLS Cell Formatter"]
+	"899152553101243231_4" [label="XLS Control Table Generator"]
+	"899152553101243231_2" -> "899152553101243231_3"
+	"899152553101243231_4" -> "899152553101243231_5"
+	"899152553101243231_5" -> "899152553101243231_8"
+	"899152553101243231_4" -> "899152553101243231_8"
+	"899152553101243231_3" -> "899152553101243231_4"
+	"899152553101243231_8" -> "899152553101243231_6"
+	"899152553101243231_7" -> "899152553101243231_2"
 	rankdir=LR
 }

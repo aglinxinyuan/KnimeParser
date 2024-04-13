@@ -1,26 +1,26 @@
 digraph {
-	11 -> 10
-	3 -> 7
-	1 -> 2
-	8 -> 9
-	4 -> 8
-	7 -> 4
-	9 -> 11
-	11 -> 12
-	2 -> 3
-	2 -> 5
-	4 -> 6
-	5 [label=Statistics]
-	1 [label="Table Creator"]
-	7 [label="Recursive Loop Start _2 ports_"]
-	9 [label="Recursive Loop End _2 ports_"]
-	11 [label=Pivoting]
-	4 [label="Scale Purchased"]
-	6 [label=Statistics]
-	8 [label="Simulate Market"]
-	12 [label="Line Chart _JFreeChart_"]
-	3 [label="Simulate Market"]
-	2 [label="Customer Distributions"]
-	10 [label="Stacked Area Chart"]
+	"1354624661324553255_3" [label="Simulate Market"]
+	"1354624661324553255_9" [label="Recursive Loop End _2 ports_"]
+	"1354624661324553255_4" [label="Scale Purchased"]
+	"1354624661324553255_8" [label="Simulate Market"]
+	"1354624661324553255_11" [label=Pivoting]
+	"1354624661324553255_2" [label="Customer Distributions"]
+	"1354624661324553255_6" [label=Statistics]
+	"1354624661324553255_1" [label="Table Creator"]
+	"1354624661324553255_7" [label="Recursive Loop Start _2 ports_"]
+	"1354624661324553255_10" [label="Stacked Area Chart"]
+	"1354624661324553255_12" [label="Line Chart _JFreeChart_"]
+	"1354624661324553255_5" [label=Statistics]
+	"1354624661324553255_8" -> "1354624661324553255_9"
+	"1354624661324553255_9" -> "1354624661324553255_11"
+	"1354624661324553255_11" -> "1354624661324553255_12"
+	"1354624661324553255_4" -> "1354624661324553255_8"
+	"1354624661324553255_4" -> "1354624661324553255_6"
+	"1354624661324553255_3" -> "1354624661324553255_7"
+	"1354624661324553255_7" -> "1354624661324553255_4"
+	"1354624661324553255_2" -> "1354624661324553255_3"
+	"1354624661324553255_11" -> "1354624661324553255_10"
+	"1354624661324553255_2" -> "1354624661324553255_5"
+	"1354624661324553255_1" -> "1354624661324553255_2"
 	rankdir=LR
 }

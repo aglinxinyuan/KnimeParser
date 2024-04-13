@@ -1,12 +1,12 @@
 digraph {
-	2 -> 6
-	6 -> 4
-	3 -> 4
-	1 -> 2
-	1 [label="POST Request"]
-	4 [label="Send to Tableau Server"]
-	6 [label="Table Row to Variable"]
-	3 [label="Data Generator"]
-	2 [label=XPath]
+	"-3820135573927331310_4" [label="Send to Tableau Server"]
+	"-3820135573927331310_6" [label="Table Row to Variable"]
+	"-3820135573927331310_1" [label="POST Request"]
+	"-3820135573927331310_3" [label="Data Generator"]
+	"-3820135573927331310_2" [label=XPath]
+	"-3820135573927331310_3" -> "-3820135573927331310_4"
+	"-3820135573927331310_2" -> "-3820135573927331310_6"
+	"-3820135573927331310_6" -> "-3820135573927331310_4"
+	"-3820135573927331310_1" -> "-3820135573927331310_2"
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	6 -> 5
-	5 [label="CSV Writer"]
-	6 [label="Workflow Service Input"]
+	"3715598541982991127_5" [label="CSV Writer"]
+	"3715598541982991127_6" [label="Workflow Service Input"]
+	"3715598541982991127_6" -> "3715598541982991127_5"
 	rankdir=LR
 }

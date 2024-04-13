@@ -1,10 +1,10 @@
 digraph {
-	1 -> 2
-	1 -> 4
-	4 -> 5
-	1 [label="CSV Reader"]
-	4 [label="Color Manager"]
-	5 [label="Scatter Plot"]
-	2 [label="Data Explorer"]
+	"4733712691010266266_5" [label="Scatter Plot"]
+	"4733712691010266266_1" [label="CSV Reader"]
+	"4733712691010266266_4" [label="Color Manager"]
+	"4733712691010266266_2" [label="Data Explorer"]
+	"4733712691010266266_4" -> "4733712691010266266_5"
+	"4733712691010266266_1" -> "4733712691010266266_4"
+	"4733712691010266266_1" -> "4733712691010266266_2"
 	rankdir=LR
 }

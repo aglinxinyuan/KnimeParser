@@ -1,11 +1,11 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 3
-	1 -> 2
-	1 [label="Excel Reader"]
-	4 [label="Scorer _JavaScript_"]
-	3 [label="Decision Tree Predictor"]
-	2 [label="Decision Tree Learner"]
+	"-1156881550070499537_4" [label="Scorer _JavaScript_"]
+	"-1156881550070499537_2" [label="Decision Tree Learner"]
+	"-1156881550070499537_3" [label="Decision Tree Predictor"]
+	"-1156881550070499537_1" [label="Excel Reader"]
+	"-1156881550070499537_1" -> "-1156881550070499537_3"
+	"-1156881550070499537_2" -> "-1156881550070499537_3"
+	"-1156881550070499537_3" -> "-1156881550070499537_4"
+	"-1156881550070499537_1" -> "-1156881550070499537_2"
 	rankdir=LR
 }

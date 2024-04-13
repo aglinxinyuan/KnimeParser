@@ -1,19 +1,19 @@
 digraph {
-	6 -> 8
-	15 -> 7
-	12 -> 14
-	15 -> 11
-	15 -> 10
-	13 -> 12
-	8 -> 12
-	13 [label="PMML Reader"]
-	7 [label="Interactive Table _local_"]
-	11 [label="Value Selection Widget"]
-	10 [label="Interactive Value Filter Widget"]
-	6 [label="Table Creator"]
-	8 [label="Interactive HiLite Collector"]
-	15 [label="Table Creator"]
-	14 [label="Bar Chart"]
-	12 [label="PMML Predictor"]
+	"8124612450612821754_13" [label="PMML Reader"]
+	"8124612450612821754_12" [label="PMML Predictor"]
+	"8124612450612821754_14" [label="Bar Chart"]
+	"8124612450612821754_15" [label="Table Creator"]
+	"8124612450612821754_6" [label="Table Creator"]
+	"8124612450612821754_7" [label="Interactive Table _local_"]
+	"8124612450612821754_11" [label="Value Selection Widget"]
+	"8124612450612821754_10" [label="Interactive Value Filter Widget"]
+	"8124612450612821754_8" [label="Interactive HiLite Collector"]
+	"8124612450612821754_13" -> "8124612450612821754_12"
+	"8124612450612821754_15" -> "8124612450612821754_7"
+	"8124612450612821754_6" -> "8124612450612821754_8"
+	"8124612450612821754_8" -> "8124612450612821754_12"
+	"8124612450612821754_15" -> "8124612450612821754_11"
+	"8124612450612821754_15" -> "8124612450612821754_10"
+	"8124612450612821754_12" -> "8124612450612821754_14"
 	rankdir=LR
 }

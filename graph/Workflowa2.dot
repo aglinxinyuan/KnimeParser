@@ -1,18 +1,18 @@
 digraph {
-	28 -> 25
-	29 -> 24
-	26 -> 28
-	25 -> 29
-	27 -> 26
-	23 -> 27
-	22 -> 23
-	24 [label="Table View"]
-	27 [label="GET Request"]
-	22 [label="Table Creator"]
-	29 [label="RDKit Descriptor Calculation"]
-	28 [label="Column Filter"]
-	23 [label="String Manipulation"]
-	26 [label="JSON to Table"]
-	25 [label="Molecule Type Cast"]
+	"-5299221909788869994_23" [label="String Manipulation"]
+	"-5299221909788869994_28" [label="Column Filter"]
+	"-5299221909788869994_27" [label="GET Request"]
+	"-5299221909788869994_24" [label="Table View"]
+	"-5299221909788869994_25" [label="Molecule Type Cast"]
+	"-5299221909788869994_29" [label="RDKit Descriptor Calculation"]
+	"-5299221909788869994_22" [label="Table Creator"]
+	"-5299221909788869994_26" [label="JSON to Table"]
+	"-5299221909788869994_23" -> "-5299221909788869994_27"
+	"-5299221909788869994_29" -> "-5299221909788869994_24"
+	"-5299221909788869994_22" -> "-5299221909788869994_23"
+	"-5299221909788869994_25" -> "-5299221909788869994_29"
+	"-5299221909788869994_27" -> "-5299221909788869994_26"
+	"-5299221909788869994_28" -> "-5299221909788869994_25"
+	"-5299221909788869994_26" -> "-5299221909788869994_28"
 	rankdir=LR
 }

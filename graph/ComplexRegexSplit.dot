@@ -1,9 +1,9 @@
 digraph {
-	349 -> 350
-	343 -> 344
-	349 [label="Table Creator"]
-	350 [label="Regex Split"]
-	343 [label="Table Creator"]
-	344 [label="Regex Split"]
+	"3648453599232173748_350" [label="Regex Split"]
+	"3648453599232173748_343" [label="Table Creator"]
+	"3648453599232173748_349" [label="Table Creator"]
+	"3648453599232173748_344" [label="Regex Split"]
+	"3648453599232173748_343" -> "3648453599232173748_344"
+	"3648453599232173748_349" -> "3648453599232173748_350"
 	rankdir=LR
 }

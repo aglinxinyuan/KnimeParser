@@ -1,8 +1,8 @@
 digraph {
-	8 -> 9
-	1 -> 8
-	1 [label="File Reader"]
-	8 [label="Numeric Binner"]
-	9 [label=Statistics]
+	"8791334673311062156_8" [label="Numeric Binner"]
+	"8791334673311062156_9" [label=Statistics]
+	"8791334673311062156_1" [label="File Reader"]
+	"8791334673311062156_1" -> "8791334673311062156_8"
+	"8791334673311062156_8" -> "8791334673311062156_9"
 	rankdir=LR
 }

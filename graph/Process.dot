@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Shapefile Point Reader"]
-	4 [label="Python Script"]
-	3 [label="Python Script"]
-	2 [label="Python Script"]
+	"-5685911561643924017_1" [label="Shapefile Point Reader"]
+	"-5685911561643924017_3" [label="Python Script"]
+	"-5685911561643924017_2" [label="Python Script"]
+	"-5685911561643924017_4" [label="Python Script"]
+	"-5685911561643924017_3" -> "-5685911561643924017_4"
+	"-5685911561643924017_1" -> "-5685911561643924017_2"
+	"-5685911561643924017_2" -> "-5685911561643924017_3"
 	rankdir=LR
 }

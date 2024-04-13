@@ -1,19 +1,19 @@
 digraph {
-	6 -> 9
-	10 -> 7
-	8 -> 6
-	6 -> 10
-	9 -> 10
-	2 -> 3
-	1 -> 3
-	7 -> 2
-	1 [label="Table Reader"]
-	7 [label=Scorer]
-	9 [label="Naive Bayes Learner"]
-	6 [label=Partitioning]
-	8 [label="Feature Selection Loop Start"]
-	3 [label="Feature Selection Filter"]
-	2 [label="Feature Selection Loop End"]
-	10 [label="Naive Bayes Predictor"]
+	"7048438293067217965_7" [label=Scorer]
+	"7048438293067217965_3" [label="Feature Selection Filter"]
+	"7048438293067217965_10" [label="Naive Bayes Predictor"]
+	"7048438293067217965_9" [label="Naive Bayes Learner"]
+	"7048438293067217965_8" [label="Feature Selection Loop Start"]
+	"7048438293067217965_6" [label=Partitioning]
+	"399866668382520211_1" [label="Table Reader"]
+	"7048438293067217965_2" [label="Feature Selection Loop End"]
+	"7048438293067217965_8" -> "7048438293067217965_6"
+	"7048438293067217965_9" -> "7048438293067217965_10"
+	"399866668382520211_1" -> "7048438293067217965_3"
+	"7048438293067217965_7" -> "7048438293067217965_2"
+	"7048438293067217965_2" -> "7048438293067217965_3"
+	"7048438293067217965_6" -> "7048438293067217965_10"
+	"7048438293067217965_6" -> "7048438293067217965_9"
+	"7048438293067217965_10" -> "7048438293067217965_7"
 	rankdir=LR
 }

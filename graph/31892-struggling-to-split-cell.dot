@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="Regex Extractor"]
-	2 [label="Regex Split"]
+	"-5782922814003054343_2" [label="Regex Split"]
+	"-5782922814003054343_1" [label="Table Creator"]
+	"-5782922814003054343_3" [label="Regex Extractor"]
+	"-5782922814003054343_1" -> "-5782922814003054343_2"
+	"-5782922814003054343_1" -> "-5782922814003054343_3"
 	rankdir=LR
 }

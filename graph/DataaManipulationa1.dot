@@ -1,8 +1,8 @@
 digraph {
-	3 -> 2
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="CSV Reader"]
-	2 [label=Concatenate]
+	"-5475643839416810368_2" [label=Concatenate]
+	"-5475643839416810368_1" [label="CSV Reader"]
+	"-5475643839416810368_3" [label="CSV Reader"]
+	"-5475643839416810368_1" -> "-5475643839416810368_2"
+	"-5475643839416810368_3" -> "-5475643839416810368_2"
 	rankdir=LR
 }

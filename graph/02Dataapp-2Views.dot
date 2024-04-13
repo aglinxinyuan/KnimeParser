@@ -1,19 +1,19 @@
 digraph {
-	1 -> 55
-	295 -> 445
-	346 -> 87
-	59 -> 346
-	56 -> 297
-	55 -> 87
-	87 -> 56
-	55 [label="RDKit From Molecule"]
-	1 [label="Table Reader"]
-	87 [label="RDKit Descriptor Calculation"]
-	346 [label="Table Row to Variable"]
-	56 [label="Renderer to Image"]
-	445 [label="Filter Apply"]
-	295 [label="Tile View"]
-	297 [label="Color Manager"]
-	59 [label=GroupBy]
+	"-3506797704928482038_346" [label="Table Row to Variable"]
+	"-3506797704928482038_56" [label="Renderer to Image"]
+	"-3506797704928482038_1" [label="Table Reader"]
+	"-3506797704928482038_295" [label="Tile View"]
+	"-3506797704928482038_297" [label="Color Manager"]
+	"-3506797704928482038_59" [label=GroupBy]
+	"-3506797704928482038_445" [label="Filter Apply"]
+	"-3506797704928482038_87" [label="RDKit Descriptor Calculation"]
+	"-3506797704928482038_55" [label="RDKit From Molecule"]
+	"-3506797704928482038_295" -> "-3506797704928482038_445"
+	"-3506797704928482038_87" -> "-3506797704928482038_56"
+	"-3506797704928482038_56" -> "-3506797704928482038_297"
+	"-3506797704928482038_55" -> "-3506797704928482038_87"
+	"-3506797704928482038_1" -> "-3506797704928482038_55"
+	"-3506797704928482038_346" -> "-3506797704928482038_87"
+	"-3506797704928482038_59" -> "-3506797704928482038_346"
 	rankdir=LR
 }

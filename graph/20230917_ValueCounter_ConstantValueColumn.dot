@@ -1,14 +1,14 @@
 digraph {
-	6 -> 4
-	7 -> 6
-	5 -> 3
-	1 -> 2
-	5 [label="Excel Reader"]
-	1 [label="Excel Reader"]
-	7 [label="Excel Reader"]
-	4 [label=GroupBy]
-	6 [label="Constant Value Column"]
-	3 [label="Constant Value Column"]
-	2 [label="Value Counter"]
+	"-2093545699668498591_3" [label="Constant Value Column"]
+	"-2093545699668498591_5" [label="Excel Reader"]
+	"-2093545699668498591_1" [label="Excel Reader"]
+	"-2093545699668498591_2" [label="Value Counter"]
+	"-2093545699668498591_6" [label="Constant Value Column"]
+	"-2093545699668498591_7" [label="Excel Reader"]
+	"-2093545699668498591_4" [label=GroupBy]
+	"-2093545699668498591_6" -> "-2093545699668498591_4"
+	"-2093545699668498591_7" -> "-2093545699668498591_6"
+	"-2093545699668498591_1" -> "-2093545699668498591_2"
+	"-2093545699668498591_5" -> "-2093545699668498591_3"
 	rankdir=LR
 }

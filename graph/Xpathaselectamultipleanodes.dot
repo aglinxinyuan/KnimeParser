@@ -1,19 +1,19 @@
 digraph {
-	20 -> 21
-	1 -> 20
-	18 -> 19
-	20 -> 3
-	3 -> 22
-	17 -> 18
-	16 -> 17
-	16 [label="Table Creator"]
-	20 [label="String To XML"]
-	1 [label="Table Creator"]
-	22 [label="XML Column Combiner"]
-	18 [label="HTTP Result Data Extractor"]
-	21 [label=XPath]
-	17 [label="HTTP Retriever"]
-	3 [label=XPath]
-	19 [label="HTML Parser"]
+	"355524882537237347_16" [label="Table Creator"]
+	"355524882537237347_17" [label="HTTP Retriever"]
+	"355524882537237347_20" [label="String To XML"]
+	"355524882537237347_21" [label=XPath]
+	"355524882537237347_3" [label=XPath]
+	"355524882537237347_18" [label="HTTP Result Data Extractor"]
+	"355524882537237347_22" [label="XML Column Combiner"]
+	"355524882537237347_19" [label="HTML Parser"]
+	"355524882537237347_1" [label="Table Creator"]
+	"355524882537237347_3" -> "355524882537237347_22"
+	"355524882537237347_16" -> "355524882537237347_17"
+	"355524882537237347_1" -> "355524882537237347_20"
+	"355524882537237347_18" -> "355524882537237347_19"
+	"355524882537237347_20" -> "355524882537237347_21"
+	"355524882537237347_17" -> "355524882537237347_18"
+	"355524882537237347_20" -> "355524882537237347_3"
 	rankdir=LR
 }

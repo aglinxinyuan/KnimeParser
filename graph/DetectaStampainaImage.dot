@@ -1,24 +1,24 @@
 digraph {
-	11 -> 10
-	4 -> 5
-	15 -> 16
-	3 -> 4
-	10 -> 3
-	2 -> 7
-	5 -> 2
-	9 -> 15
-	12 -> 11
-	7 -> 9
-	5 [label=Inverter]
-	16 [label="Column Rename"]
-	7 [label="Connected Component Analysis"]
-	9 [label="Labeling Filter"]
-	11 [label="Image Reader _Table_"]
-	4 [label="Morphological Image Operations"]
-	10 [label=Projector]
-	15 [label="Labeling Properties"]
-	3 [label="Global Thresholder"]
-	2 [label="Fill Holes"]
-	12 [label="List Files"]
+	"-7404187418659009967_15" [label="Labeling Properties"]
+	"-7404187418659009967_5" [label=Inverter]
+	"-7404187418659009967_7" [label="Connected Component Analysis"]
+	"-1885960078444271610_12" [label="List Files"]
+	"-7404187418659009967_4" [label="Morphological Image Operations"]
+	"-7404187418659009967_16" [label="Column Rename"]
+	"-7404187418659009967_10" [label=Projector]
+	"-1885960078444271610_11" [label="Image Reader _Table_"]
+	"-7404187418659009967_2" [label="Fill Holes"]
+	"-7404187418659009967_3" [label="Global Thresholder"]
+	"-7404187418659009967_9" [label="Labeling Filter"]
+	"-7404187418659009967_10" -> "-7404187418659009967_3"
+	"-7404187418659009967_7" -> "-7404187418659009967_9"
+	"-7404187418659009967_3" -> "-7404187418659009967_4"
+	"-7404187418659009967_9" -> "-7404187418659009967_15"
+	"-1885960078444271610_11" -> "-7404187418659009967_10"
+	"-7404187418659009967_15" -> "-7404187418659009967_16"
+	"-1885960078444271610_12" -> "-1885960078444271610_11"
+	"-7404187418659009967_2" -> "-7404187418659009967_7"
+	"-7404187418659009967_5" -> "-7404187418659009967_2"
+	"-7404187418659009967_4" -> "-7404187418659009967_5"
 	rankdir=LR
 }

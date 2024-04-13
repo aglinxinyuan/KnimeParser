@@ -1,14 +1,14 @@
 digraph {
-	3 -> 4
-	4 -> 6
-	4 -> 9
-	2 -> 4
-	4 -> 10
-	9 [label="SPARQL Select Query"]
-	4 [label="SPARQL Insert"]
-	6 [label="SPARQL Select Query"]
-	3 [label="Table Creator"]
-	2 [label="In_Memory Endpoint"]
-	10 [label="SPARQL List Named Graphs"]
+	"-1385228163643969291_2" [label="In_Memory Endpoint"]
+	"-1385228163643969291_4" [label="SPARQL Insert"]
+	"-1385228163643969291_3" [label="Table Creator"]
+	"-1385228163643969291_6" [label="SPARQL Select Query"]
+	"-1385228163643969291_10" [label="SPARQL List Named Graphs"]
+	"-1385228163643969291_9" [label="SPARQL Select Query"]
+	"-1385228163643969291_4" -> "-1385228163643969291_6"
+	"-1385228163643969291_4" -> "-1385228163643969291_9"
+	"-1385228163643969291_4" -> "-1385228163643969291_10"
+	"-1385228163643969291_2" -> "-1385228163643969291_4"
+	"-1385228163643969291_3" -> "-1385228163643969291_4"
 	rankdir=LR
 }

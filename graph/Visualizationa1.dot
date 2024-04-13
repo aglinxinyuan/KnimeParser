@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="Pie_Donut Chart"]
-	2 [label="Column Filter"]
+	"711319479772416479_3" [label="Pie_Donut Chart"]
+	"711319479772416479_2" [label="Column Filter"]
+	"711319479772416479_1" [label="CSV Reader"]
+	"711319479772416479_2" -> "711319479772416479_3"
+	"711319479772416479_1" -> "711319479772416479_2"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	5 -> 2
-	4 -> 5
-	5 [label="Column Rename"]
-	4 [label="Table Creator"]
-	3 [label="String Manipulation"]
-	2 [label="String Manipulation"]
+	"-5131019796540876209_4" [label="Table Creator"]
+	"-5131019796540876209_2" [label="String Manipulation"]
+	"-5131019796540876209_5" [label="Column Rename"]
+	"-5131019796540876209_3" [label="String Manipulation"]
+	"-5131019796540876209_2" -> "-5131019796540876209_3"
+	"-5131019796540876209_5" -> "-5131019796540876209_2"
+	"-5131019796540876209_4" -> "-5131019796540876209_5"
 	rankdir=LR
 }

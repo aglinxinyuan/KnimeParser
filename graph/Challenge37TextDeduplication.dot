@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	4 -> 10
-	3 -> 4
-	1 -> 2
-	1 [label="Tika Parser"]
-	4 [label="Duplicate Row Filter"]
-	3 [label=Transpose]
-	2 [label="Cell Splitter"]
-	10 [label="Excel Writer"]
+	"1136649618498473781_3" [label=Transpose]
+	"1136649618498473781_1" [label="Tika Parser"]
+	"1136649618498473781_10" [label="Excel Writer"]
+	"1136649618498473781_4" [label="Duplicate Row Filter"]
+	"1136649618498473781_2" [label="Cell Splitter"]
+	"1136649618498473781_4" -> "1136649618498473781_10"
+	"1136649618498473781_2" -> "1136649618498473781_3"
+	"1136649618498473781_3" -> "1136649618498473781_4"
+	"1136649618498473781_1" -> "1136649618498473781_2"
 	rankdir=LR
 }

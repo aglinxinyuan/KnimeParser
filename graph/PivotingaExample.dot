@@ -1,8 +1,8 @@
 digraph {
-	8 -> 3
-	8 -> 4
-	4 [label=Pivoting]
-	3 [label=Pivoting]
-	8 [label="Table Reader"]
+	"-7517906410716756882_8" [label="Table Reader"]
+	"-7517906410716756882_4" [label=Pivoting]
+	"-7517906410716756882_3" [label=Pivoting]
+	"-7517906410716756882_8" -> "-7517906410716756882_4"
+	"-7517906410716756882_8" -> "-7517906410716756882_3"
 	rankdir=LR
 }

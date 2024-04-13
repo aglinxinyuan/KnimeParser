@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	2 -> 4
-	1 -> 2
-	1 [label="Table Creator"]
-	4 [label="Pie Chart"]
-	3 [label="Bar Chart"]
-	2 [label="Color Manager"]
+	"86493255609004983_1" [label="Table Creator"]
+	"86493255609004983_4" [label="Pie Chart"]
+	"86493255609004983_2" [label="Color Manager"]
+	"86493255609004983_3" [label="Bar Chart"]
+	"86493255609004983_2" -> "86493255609004983_4"
+	"86493255609004983_2" -> "86493255609004983_3"
+	"86493255609004983_1" -> "86493255609004983_2"
 	rankdir=LR
 }

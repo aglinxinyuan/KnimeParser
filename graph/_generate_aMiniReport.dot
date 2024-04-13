@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Data Generator"]
-	2 [label="Data to Report"]
+	"-4914873731807543517_1" [label="Data Generator"]
+	"-4914873731807543517_2" [label="Data to Report"]
+	"-4914873731807543517_1" -> "-4914873731807543517_2"
 	rankdir=LR
 }

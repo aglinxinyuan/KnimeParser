@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Excel Reader"]
-	3 [label=GroupBy]
-	2 [label="Rule Engine"]
+	"-8557039112774737582_1" [label="Excel Reader"]
+	"-8557039112774737582_3" [label=GroupBy]
+	"-8557039112774737582_2" [label="Rule Engine"]
+	"-8557039112774737582_1" -> "-8557039112774737582_2"
+	"-8557039112774737582_2" -> "-8557039112774737582_3"
 	rankdir=LR
 }

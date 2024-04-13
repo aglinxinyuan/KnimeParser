@@ -1,12 +1,12 @@
 digraph {
-	8 -> 20
-	22 -> 20
-	9 -> 8
-	21 -> 22
-	20 [label="GET Request"]
-	22 [label="String Manipulation"]
-	9 [label="Credentials Configuration"]
-	21 [label="Table Creator"]
-	8 [label="OAuth2 Authenticator"]
+	"5707977775944215563_20" [label="GET Request"]
+	"5707977775944215563_9" [label="Credentials Configuration"]
+	"5707977775944215563_8" [label="OAuth2 Authenticator"]
+	"5707977775944215563_22" [label="String Manipulation"]
+	"5707977775944215563_21" [label="Table Creator"]
+	"5707977775944215563_9" -> "5707977775944215563_8"
+	"5707977775944215563_21" -> "5707977775944215563_22"
+	"5707977775944215563_22" -> "5707977775944215563_20"
+	"5707977775944215563_8" -> "5707977775944215563_20"
 	rankdir=LR
 }

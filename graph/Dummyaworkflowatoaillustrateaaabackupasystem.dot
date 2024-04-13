@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Data Generator"]
-	2 [label="Column Filter"]
+	"-5025547033436009229_1" [label="Data Generator"]
+	"-5025547033436009229_2" [label="Column Filter"]
+	"-5025547033436009229_1" -> "-5025547033436009229_2"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	6 -> 5
-	3 -> 6
-	5 [label="KCS SAP Executor"]
-	6 [label="Column Filter"]
-	3 [label="KCS SAP Executor"]
-	2 [label="Excel Reader"]
+	"-216007176052532102_3" [label="KCS SAP Executor"]
+	"-216007176052532102_2" [label="Excel Reader"]
+	"-216007176052532102_6" [label="Column Filter"]
+	"-216007176052532102_5" [label="KCS SAP Executor"]
+	"-216007176052532102_3" -> "-216007176052532102_6"
+	"-216007176052532102_6" -> "-216007176052532102_5"
+	"-216007176052532102_2" -> "-216007176052532102_3"
 	rankdir=LR
 }

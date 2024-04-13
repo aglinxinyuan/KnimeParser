@@ -1,6 +1,6 @@
 digraph {
-	1 -> 393
-	1 [label="MongoDB Connector"]
-	393 [label="MongoDB Run Command"]
+	"-450880482767456381_393" [label="MongoDB Run Command"]
+	"-450880482767456381_1" [label="MongoDB Connector"]
+	"-450880482767456381_1" -> "-450880482767456381_393"
 	rankdir=LR
 }

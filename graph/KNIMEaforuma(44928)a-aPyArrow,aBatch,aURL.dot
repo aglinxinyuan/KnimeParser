@@ -1,8 +1,8 @@
 digraph {
-	3793 -> 3792
-	3794 -> 3792
-	3794 [label="Conda Environment Propagation"]
-	3792 [label="Python Script _Labs_"]
-	3793 [label="Table Creator"]
+	"-4704494386026581009_3794" [label="Conda Environment Propagation"]
+	"-4704494386026581009_3793" [label="Table Creator"]
+	"-4704494386026581009_3792" [label="Python Script _Labs_"]
+	"-4704494386026581009_3793" -> "-4704494386026581009_3792"
+	"-4704494386026581009_3794" -> "-4704494386026581009_3792"
 	rankdir=LR
 }

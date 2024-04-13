@@ -1,13 +1,13 @@
 digraph {
-	1 -> 4
-	4 -> 5
-	2 -> 1
-	3 -> 4
-	1 -> 3
-	5 [label="ROC Curve"]
-	1 [label=Partitioning]
-	4 [label="Decision Tree Predictor"]
-	3 [label="Decision Tree Learner"]
-	2 [label="CSV Reader"]
+	"452811588857862906_5" [label="ROC Curve"]
+	"452811588857862906_1" [label=Partitioning]
+	"452811588857862906_4" [label="Decision Tree Predictor"]
+	"452811588857862906_3" [label="Decision Tree Learner"]
+	"452811588857862906_2" [label="CSV Reader"]
+	"452811588857862906_4" -> "452811588857862906_5"
+	"452811588857862906_1" -> "452811588857862906_4"
+	"452811588857862906_3" -> "452811588857862906_4"
+	"452811588857862906_2" -> "452811588857862906_1"
+	"452811588857862906_1" -> "452811588857862906_3"
 	rankdir=LR
 }

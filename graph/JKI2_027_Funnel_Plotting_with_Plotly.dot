@@ -1,8 +1,8 @@
 digraph {
-	2 -> 7
-	2 -> 4
-	4 [label="Python View"]
-	7 [label="Python View"]
-	2 [label="Table Creator"]
+	"-7200074909691599369_7" [label="Python View"]
+	"-7200074909691599369_4" [label="Python View"]
+	"-7200074909691599369_2" [label="Table Creator"]
+	"-7200074909691599369_2" -> "-7200074909691599369_4"
+	"-7200074909691599369_2" -> "-7200074909691599369_7"
 	rankdir=LR
 }

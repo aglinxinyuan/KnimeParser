@@ -1,19 +1,19 @@
 digraph {
-	9 -> 8
-	4 -> 5
-	12 -> 9
-	8 -> 6
-	4 -> 12
-	5 -> 6
-	1 -> 2
-	2 -> 4
-	5 [label="Credentials Configuration"]
-	1 [label="Extract Context Properties"]
-	9 [label="Space Connector"]
-	4 [label="CASE Switch Start"]
-	6 [label="CASE Switch End"]
-	8 [label="Call Workflow Service"]
-	2 [label="Rule Engine Variable"]
-	12 [label="KNIME Hub Authenticator"]
+	"8060044945789394511_5" [label="Credentials Configuration"]
+	"8060044945789394511_9" [label="Space Connector"]
+	"8060044945789394511_2" [label="Rule Engine Variable"]
+	"8060044945789394511_1" [label="Extract Context Properties"]
+	"8060044945789394511_6" [label="CASE Switch End"]
+	"8060044945789394511_8" [label="Call Workflow Service"]
+	"8060044945789394511_4" [label="CASE Switch Start"]
+	"8060044945789394511_12" [label="KNIME Hub Authenticator"]
+	"8060044945789394511_9" -> "8060044945789394511_8"
+	"8060044945789394511_4" -> "8060044945789394511_12"
+	"8060044945789394511_2" -> "8060044945789394511_4"
+	"8060044945789394511_1" -> "8060044945789394511_2"
+	"8060044945789394511_12" -> "8060044945789394511_9"
+	"8060044945789394511_5" -> "8060044945789394511_6"
+	"8060044945789394511_4" -> "8060044945789394511_5"
+	"8060044945789394511_8" -> "8060044945789394511_6"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	6 -> 7
-	7 -> 8
-	5 -> 6
-	5 [label="Amazon Redshift Connector"]
-	7 [label="Regex Split"]
-	6 [label="DB Query Reader"]
-	8 [label="Row Splitter"]
+	"-9019827362784603590_5" [label="Amazon Redshift Connector"]
+	"-9019827362784603590_8" [label="Row Splitter"]
+	"-9019827362784603590_7" [label="Regex Split"]
+	"-9019827362784603590_6" [label="DB Query Reader"]
+	"-9019827362784603590_7" -> "-9019827362784603590_8"
+	"-9019827362784603590_5" -> "-9019827362784603590_6"
+	"-9019827362784603590_6" -> "-9019827362784603590_7"
 	rankdir=LR
 }

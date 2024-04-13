@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 3
-	1 [label="Table Creator"]
-	3 [label=Joiner]
-	2 [label="Table Creator"]
+	"-5475932728220735600_2" [label="Table Creator"]
+	"-5475932728220735600_3" [label=Joiner]
+	"-5475932728220735600_1" [label="Table Creator"]
+	"-5475932728220735600_2" -> "-5475932728220735600_3"
+	"-5475932728220735600_1" -> "-5475932728220735600_3"
 	rankdir=LR
 }

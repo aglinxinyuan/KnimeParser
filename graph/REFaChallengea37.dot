@@ -1,14 +1,14 @@
 digraph {
-	3 -> 8
-	7 -> 4
-	8 -> 7
-	1 -> 2
-	2 -> 3
-	1 [label="Tika Parser"]
-	7 [label="Rule_based Row Filter"]
-	4 [label="Duplicate Row Filter"]
-	8 [label="String Manipulation"]
-	3 [label=Transpose]
-	2 [label="Cell Splitter"]
+	"-732568919152498520_2" [label="Cell Splitter"]
+	"-732568919152498520_8" [label="String Manipulation"]
+	"-732568919152498520_4" [label="Duplicate Row Filter"]
+	"-732568919152498520_7" [label="Rule_based Row Filter"]
+	"-732568919152498520_3" [label=Transpose]
+	"-732568919152498520_1" [label="Tika Parser"]
+	"-732568919152498520_7" -> "-732568919152498520_4"
+	"-732568919152498520_2" -> "-732568919152498520_3"
+	"-732568919152498520_3" -> "-732568919152498520_8"
+	"-732568919152498520_1" -> "-732568919152498520_2"
+	"-732568919152498520_8" -> "-732568919152498520_7"
 	rankdir=LR
 }

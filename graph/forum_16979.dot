@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	3 -> 2
-	1 [label="Table Creator"]
-	3 [label="Constant Value Column"]
-	2 [label=Rank]
+	"944527656866763250_3" [label="Constant Value Column"]
+	"944527656866763250_1" [label="Table Creator"]
+	"944527656866763250_2" [label=Rank]
+	"944527656866763250_3" -> "944527656866763250_2"
+	"944527656866763250_1" -> "944527656866763250_3"
 	rankdir=LR
 }

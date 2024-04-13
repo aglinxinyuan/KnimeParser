@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label=GroupBy]
-	2 [label="Rule Engine"]
+	"3725317130567683056_2" [label="Rule Engine"]
+	"3725317130567683056_3" [label=GroupBy]
+	"3725317130567683056_1" [label="Table Creator"]
+	"3725317130567683056_2" -> "3725317130567683056_3"
+	"3725317130567683056_1" -> "3725317130567683056_2"
 	rankdir=LR
 }

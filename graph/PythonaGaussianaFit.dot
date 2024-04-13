@@ -1,10 +1,10 @@
 digraph {
-	7 -> 4
-	5 -> 6
-	7 -> 5
-	5 [label="Python View"]
-	7 [label="Excel Reader"]
-	6 [label="Image Writer _Port_"]
-	4 [label="Python Script"]
+	"3018288959403832370_7" [label="Excel Reader"]
+	"3018288959403832370_6" [label="Image Writer _Port_"]
+	"3018288959403832370_4" [label="Python Script"]
+	"3018288959403832370_5" [label="Python View"]
+	"3018288959403832370_7" -> "3018288959403832370_4"
+	"3018288959403832370_7" -> "3018288959403832370_5"
+	"3018288959403832370_5" -> "3018288959403832370_6"
 	rankdir=LR
 }

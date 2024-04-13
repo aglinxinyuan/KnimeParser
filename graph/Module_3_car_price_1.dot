@@ -1,21 +1,21 @@
 digraph {
-	11 -> 10
-	1 -> 4
-	11 -> 9
-	1 -> 11
-	12 -> 14
-	10 -> 8
-	9 -> 10
-	10 -> 12
-	1 -> 3
-	14 [label="Scatter Plot _Plotly_"]
-	1 [label="CSV Reader"]
-	9 [label="Simple Regression Tree Learner"]
-	11 [label=Partitioning]
-	4 [label=Statistics]
-	8 [label="Numeric Scorer _deprecated_"]
-	12 [label="Column Filter"]
-	3 [label="Data Explorer"]
-	10 [label="Simple Regression Tree Predictor"]
+	"642328378595724108_9" [label="Simple Regression Tree Learner"]
+	"642328378595724108_12" [label="Column Filter"]
+	"642328378595724108_3" [label="Data Explorer"]
+	"642328378595724108_8" [label="Numeric Scorer _deprecated_"]
+	"642328378595724108_14" [label="Scatter Plot _Plotly_"]
+	"642328378595724108_10" [label="Simple Regression Tree Predictor"]
+	"642328378595724108_11" [label=Partitioning]
+	"642328378595724108_1" [label="CSV Reader"]
+	"642328378595724108_4" [label=Statistics]
+	"642328378595724108_9" -> "642328378595724108_10"
+	"642328378595724108_11" -> "642328378595724108_9"
+	"642328378595724108_11" -> "642328378595724108_10"
+	"642328378595724108_10" -> "642328378595724108_12"
+	"642328378595724108_1" -> "642328378595724108_11"
+	"642328378595724108_12" -> "642328378595724108_14"
+	"642328378595724108_1" -> "642328378595724108_4"
+	"642328378595724108_10" -> "642328378595724108_8"
+	"642328378595724108_1" -> "642328378595724108_3"
 	rankdir=LR
 }

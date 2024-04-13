@@ -1,9 +1,9 @@
 digraph {
-	18 -> 17
-	9 -> 16
-	16 [label="Python Script"]
-	18 [label="Table Creator"]
-	9 [label="Table Creator"]
-	17 [label="Python Script"]
+	"-9080897289366473516_17" [label="Python Script"]
+	"-9080897289366473516_18" [label="Table Creator"]
+	"-9080897289366473516_16" [label="Python Script"]
+	"-9080897289366473516_9" [label="Table Creator"]
+	"-9080897289366473516_18" -> "-9080897289366473516_17"
+	"-9080897289366473516_9" -> "-9080897289366473516_16"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	35 -> 5
-	5 -> 36
-	1 -> 35
-	1 [label="CSV Reader"]
-	5 [label="Table Manipulator"]
-	36 [label="Generic JavaScript View"]
-	35 [label="Rule Engine"]
+	"4038454904224779359_36" [label="Generic JavaScript View"]
+	"4038454904224779359_1" [label="CSV Reader"]
+	"4038454904224779359_5" [label="Table Manipulator"]
+	"4038454904224779359_35" [label="Rule Engine"]
+	"4038454904224779359_1" -> "4038454904224779359_35"
+	"4038454904224779359_35" -> "4038454904224779359_5"
+	"4038454904224779359_5" -> "4038454904224779359_36"
 	rankdir=LR
 }

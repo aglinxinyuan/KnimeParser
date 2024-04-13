@@ -1,8 +1,8 @@
 digraph {
-	5 -> 3
-	3 -> 6
-	5 [label="Random Numbers Generator"]
-	3 [label="Python Script"]
-	6 [label="Excel Writer"]
+	"-583628090478308562_6" [label="Excel Writer"]
+	"-583628090478308562_3" [label="Python Script"]
+	"-583628090478308562_5" [label="Random Numbers Generator"]
+	"-583628090478308562_5" -> "-583628090478308562_3"
+	"-583628090478308562_3" -> "-583628090478308562_6"
 	rankdir=LR
 }

@@ -1,12 +1,12 @@
 digraph {
-	2 -> 5
-	1 -> 4
-	5 -> 6
-	4 -> 5
-	5 [label="Insert Column Header"]
-	1 [label="Table Creator"]
-	4 [label="String Manipulation"]
-	6 [label="Table View"]
-	2 [label="Data Generator"]
+	"2950136258063694964_1" [label="Table Creator"]
+	"2950136258063694964_6" [label="Table View"]
+	"2950136258063694964_4" [label="String Manipulation"]
+	"2950136258063694964_5" [label="Insert Column Header"]
+	"2950136258063694964_2" [label="Data Generator"]
+	"2950136258063694964_1" -> "2950136258063694964_4"
+	"2950136258063694964_4" -> "2950136258063694964_5"
+	"2950136258063694964_2" -> "2950136258063694964_5"
+	"2950136258063694964_5" -> "2950136258063694964_6"
 	rankdir=LR
 }

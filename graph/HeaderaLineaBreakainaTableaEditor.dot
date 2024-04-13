@@ -1,8 +1,8 @@
 digraph {
-	11 -> 10
-	13 -> 11
-	11 [label="Column Rename"]
-	13 [label="Table Creator"]
-	10 [label="Table Editor"]
+	"-549465423237754447_13" [label="Table Creator"]
+	"-549465423237754447_11" [label="Column Rename"]
+	"-549465423237754447_10" [label="Table Editor"]
+	"-549465423237754447_13" -> "-549465423237754447_11"
+	"-549465423237754447_11" -> "-549465423237754447_10"
 	rankdir=LR
 }

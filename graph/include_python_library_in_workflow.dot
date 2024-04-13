@@ -1,10 +1,10 @@
 digraph {
-	248 -> 247
-	6 -> 5
-	247 -> 5
-	5 [label="Python Script"]
-	247 [label="Extract Context Properties"]
-	248 [label="Conda Environment Propagation"]
-	6 [label="Table Creator"]
+	"-1598382175972817420_6" [label="Table Creator"]
+	"-1598382175972817420_5" [label="Python Script"]
+	"-1598382175972817420_247" [label="Extract Context Properties"]
+	"-1598382175972817420_248" [label="Conda Environment Propagation"]
+	"-1598382175972817420_248" -> "-1598382175972817420_247"
+	"-1598382175972817420_247" -> "-1598382175972817420_5"
+	"-1598382175972817420_6" -> "-1598382175972817420_5"
 	rankdir=LR
 }

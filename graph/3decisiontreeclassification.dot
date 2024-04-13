@@ -1,15 +1,15 @@
 digraph {
-	4 -> 5
-	4 -> 8
-	3 -> 4
-	1 -> 2
-	2 -> 3
-	2 -> 4
-	5 [label=Scorer]
-	1 [label="File Reader"]
-	4 [label="Decision Tree Predictor"]
-	8 [label="ROC Curve _local_"]
-	3 [label="Decision Tree Learner"]
-	2 [label=Partitioning]
+	"6152955667626702136_1" [label="File Reader"]
+	"6152955667626702136_2" [label=Partitioning]
+	"6152955667626702136_3" [label="Decision Tree Learner"]
+	"6152955667626702136_4" [label="Decision Tree Predictor"]
+	"6152955667626702136_5" [label=Scorer]
+	"6152955667626702136_8" [label="ROC Curve _local_"]
+	"6152955667626702136_2" -> "6152955667626702136_3"
+	"6152955667626702136_4" -> "6152955667626702136_8"
+	"6152955667626702136_4" -> "6152955667626702136_5"
+	"6152955667626702136_1" -> "6152955667626702136_2"
+	"6152955667626702136_3" -> "6152955667626702136_4"
+	"6152955667626702136_2" -> "6152955667626702136_4"
 	rankdir=LR
 }

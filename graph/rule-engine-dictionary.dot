@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 3
-	1 [label="Table Reader"]
-	3 [label="Rule Engine _Dictionary_"]
-	2 [label="Table Creator"]
+	"1476893140504642882_2" [label="Table Creator"]
+	"1476893140504642882_1" [label="Table Reader"]
+	"1476893140504642882_3" [label="Rule Engine _Dictionary_"]
+	"1476893140504642882_1" -> "1476893140504642882_3"
+	"1476893140504642882_2" -> "1476893140504642882_3"
 	rankdir=LR
 }

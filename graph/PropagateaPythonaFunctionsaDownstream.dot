@@ -1,8 +1,8 @@
 digraph {
-	1 -> 2
-	3 -> 2
-	1 [label="Python Source"]
-	3 [label="Table Creator"]
-	2 [label="Python Script _1_1_"]
+	"135975996270723630_1" [label="Python Source"]
+	"135975996270723630_3" [label="Table Creator"]
+	"135975996270723630_2" [label="Python Script _1_1_"]
+	"135975996270723630_1" -> "135975996270723630_2"
+	"135975996270723630_3" -> "135975996270723630_2"
 	rankdir=LR
 }

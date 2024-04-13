@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="MongoDB Connector"]
-	4 [label=Histogram]
-	3 [label="JSON to Table"]
-	2 [label="MongoDB Reader"]
+	"1214881157556255462_3" [label="JSON to Table"]
+	"1214881157556255462_2" [label="MongoDB Reader"]
+	"1214881157556255462_4" [label=Histogram]
+	"1214881157556255462_1" [label="MongoDB Connector"]
+	"1214881157556255462_2" -> "1214881157556255462_3"
+	"1214881157556255462_1" -> "1214881157556255462_2"
+	"1214881157556255462_3" -> "1214881157556255462_4"
 	rankdir=LR
 }

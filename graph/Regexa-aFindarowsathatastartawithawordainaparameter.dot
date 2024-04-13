@@ -1,11 +1,11 @@
 digraph {
-	2 -> 3
-	1 -> 4
-	4 -> 2
-	1 -> 3
-	1 [label="Table Creator"]
-	4 [label="Value Selection Widget"]
-	3 [label="Rule_based Row Filter"]
-	2 [label="Variable Expressions"]
+	"4800082595310849163_2" [label="Variable Expressions"]
+	"4800082595310849163_1" [label="Table Creator"]
+	"4800082595310849163_3" [label="Rule_based Row Filter"]
+	"4800082595310849163_4" [label="Value Selection Widget"]
+	"4800082595310849163_4" -> "4800082595310849163_2"
+	"4800082595310849163_1" -> "4800082595310849163_3"
+	"4800082595310849163_2" -> "4800082595310849163_3"
+	"4800082595310849163_1" -> "4800082595310849163_4"
 	rankdir=LR
 }

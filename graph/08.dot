@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="CSV Reader"]
-	3 [label="Decision Tree Learner"]
-	2 [label=Partitioning]
+	"6300662280311881334_1" [label="CSV Reader"]
+	"6300662280311881334_2" [label=Partitioning]
+	"6300662280311881334_3" [label="Decision Tree Learner"]
+	"6300662280311881334_1" -> "6300662280311881334_2"
+	"6300662280311881334_2" -> "6300662280311881334_3"
 	rankdir=LR
 }

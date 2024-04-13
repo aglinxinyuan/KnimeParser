@@ -1,8 +1,8 @@
 digraph {
-	23 -> 16
-	24 -> 23
-	23 [label="XLS Cell Formatter"]
-	16 [label="XLS Formatter _apply_"]
-	24 [label="XLS Control Table from Cell Range"]
+	"-7689331987511653445_24" [label="XLS Control Table from Cell Range"]
+	"-7689331987511653445_16" [label="XLS Formatter _apply_"]
+	"-7689331987511653445_23" [label="XLS Cell Formatter"]
+	"-7689331987511653445_24" -> "-7689331987511653445_23"
+	"-7689331987511653445_23" -> "-7689331987511653445_16"
 	rankdir=LR
 }

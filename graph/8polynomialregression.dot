@@ -1,15 +1,15 @@
 digraph {
-	2 -> 18
-	2 -> 22
-	22 -> 9
-	22 -> 37
-	18 -> 22
-	1 -> 2
-	1 [label="File Reader"]
-	22 [label="Regression Predictor"]
-	9 [label="Interactive Table _local_"]
-	18 [label="Polynomial Regression Learner"]
-	2 [label=Partitioning]
-	37 [label="Numeric Scorer"]
+	"-4974447454418854231_9" [label="Interactive Table _local_"]
+	"-4974447454418854231_37" [label="Numeric Scorer"]
+	"-4974447454418854231_1" [label="File Reader"]
+	"-4974447454418854231_2" [label=Partitioning]
+	"-4974447454418854231_18" [label="Polynomial Regression Learner"]
+	"-4974447454418854231_22" [label="Regression Predictor"]
+	"-4974447454418854231_18" -> "-4974447454418854231_22"
+	"-4974447454418854231_22" -> "-4974447454418854231_9"
+	"-4974447454418854231_2" -> "-4974447454418854231_22"
+	"-4974447454418854231_22" -> "-4974447454418854231_37"
+	"-4974447454418854231_1" -> "-4974447454418854231_2"
+	"-4974447454418854231_2" -> "-4974447454418854231_18"
 	rankdir=LR
 }

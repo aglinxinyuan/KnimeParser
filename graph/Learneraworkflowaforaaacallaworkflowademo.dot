@@ -1,8 +1,8 @@
 digraph {
-	5 -> 4
-	3 -> 5
-	5 [label="Tree Ensemble Learner"]
-	4 [label="Model Writer"]
-	3 [label="File Reader"]
+	"-1694129704044254463_4" [label="Model Writer"]
+	"-1694129704044254463_3" [label="File Reader"]
+	"-1694129704044254463_5" [label="Tree Ensemble Learner"]
+	"-1694129704044254463_5" -> "-1694129704044254463_4"
+	"-1694129704044254463_3" -> "-1694129704044254463_5"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	4 -> 3
-	2 -> 4
-	1 -> 2
-	1 [label="Excel Reader"]
-	4 [label="String Manipulation"]
-	3 [label="Excel Writer"]
-	2 [label="String Cleaner"]
+	"-4368510670421074549_1" [label="Excel Reader"]
+	"-4368510670421074549_2" [label="String Cleaner"]
+	"-4368510670421074549_4" [label="String Manipulation"]
+	"-4368510670421074549_3" [label="Excel Writer"]
+	"-4368510670421074549_1" -> "-4368510670421074549_2"
+	"-4368510670421074549_4" -> "-4368510670421074549_3"
+	"-4368510670421074549_2" -> "-4368510670421074549_4"
 	rankdir=LR
 }

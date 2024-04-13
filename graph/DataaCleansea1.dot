@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="CSV Reader"]
-	2 [label="Column Filter"]
+	"-7515598763417915382_2" [label="Column Filter"]
+	"-7515598763417915382_1" [label="CSV Reader"]
+	"-7515598763417915382_1" -> "-7515598763417915382_2"
 	rankdir=LR
 }

@@ -1,16 +1,16 @@
 digraph {
-	101 -> 99
-	94 -> 99
-	99 -> 96
-	95 -> 101
-	57 -> 101
-	106 -> 57
-	94 [label="BufferedDataTable Reference Reader"]
-	99 [label="Conformal Classification"]
-	57 [label="Number To String"]
-	96 [label="Conformal Scorer"]
-	101 [label="Random Forest Predictor"]
-	95 [label="PortObject Reference Reader"]
-	106 [label="Workflow Service Input"]
+	"1789078094063183856_57" [label="Number To String"]
+	"-2042956123061799335_106" [label="Workflow Service Input"]
+	"-2042956123061799335_99" [label="Conformal Classification"]
+	"-2042956123061799335_101" [label="Random Forest Predictor"]
+	"-2042956123061799335_95" [label="PortObject Reference Reader"]
+	"-2042956123061799335_96" [label="Conformal Scorer"]
+	"-2042956123061799335_94" [label="BufferedDataTable Reference Reader"]
+	"-2042956123061799335_106" -> "1789078094063183856_57"
+	"-2042956123061799335_101" -> "-2042956123061799335_99"
+	"-2042956123061799335_94" -> "-2042956123061799335_99"
+	"-2042956123061799335_99" -> "-2042956123061799335_96"
+	"-2042956123061799335_95" -> "-2042956123061799335_101"
+	"1789078094063183856_57" -> "-2042956123061799335_101"
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	11 -> 12
-	11 [label="CSV Reader"]
-	12 [label="R View _Table_"]
+	"9169751145578229173_12" [label="R View _Table_"]
+	"9169751145578229173_11" [label="CSV Reader"]
+	"9169751145578229173_11" -> "9169751145578229173_12"
 	rankdir=LR
 }

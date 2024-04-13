@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	1 -> 2
-	1 [label="Data Generator"]
-	3 [label="Python Script _1_1_"]
-	2 [label="Python Script _1_1_"]
+	"6792963176536134079_2" [label="Python Script _1_1_"]
+	"6792963176536134079_3" [label="Python Script _1_1_"]
+	"6792963176536134079_1" [label="Data Generator"]
+	"6792963176536134079_1" -> "6792963176536134079_3"
+	"6792963176536134079_1" -> "6792963176536134079_2"
 	rankdir=LR
 }

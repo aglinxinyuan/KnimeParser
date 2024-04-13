@@ -1,18 +1,18 @@
 digraph {
-	15 -> 7
-	3 -> 15
-	7 -> 8
-	8 -> 9
-	9 -> 11
-	2 -> 3
-	8 -> 12
-	7 [label="Labeling to Image"]
-	9 [label="Global Thresholder"]
-	11 [label="Image Features"]
-	8 [label=Projector]
-	15 [label="Interactive Labeling Editor"]
-	3 [label="Interactive Annotator"]
-	2 [label="Image Generator"]
-	12 [label="Image Viewer"]
+	"1189560295783327721_12" [label="Image Viewer"]
+	"1189560295783327721_11" [label="Image Features"]
+	"1189560295783327721_2" [label="Image Generator"]
+	"1189560295783327721_15" [label="Interactive Labeling Editor"]
+	"1189560295783327721_7" [label="Labeling to Image"]
+	"1189560295783327721_9" [label="Global Thresholder"]
+	"1189560295783327721_8" [label=Projector]
+	"1189560295783327721_3" [label="Interactive Annotator"]
+	"1189560295783327721_7" -> "1189560295783327721_8"
+	"1189560295783327721_8" -> "1189560295783327721_9"
+	"1189560295783327721_8" -> "1189560295783327721_12"
+	"1189560295783327721_9" -> "1189560295783327721_11"
+	"1189560295783327721_15" -> "1189560295783327721_7"
+	"1189560295783327721_2" -> "1189560295783327721_3"
+	"1189560295783327721_3" -> "1189560295783327721_15"
 	rankdir=LR
 }

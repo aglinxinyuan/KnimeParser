@@ -1,8 +1,8 @@
 digraph {
-	77 -> 87
-	77 -> 88
-	88 [label="Nominal Value Row Filter"]
-	87 [label="Nominal Value Row Splitter"]
-	77 [label="Excel Reader"]
+	"-7152588301377406868_87" [label="Nominal Value Row Splitter"]
+	"-7152588301377406868_88" [label="Nominal Value Row Filter"]
+	"-7152588301377406868_77" [label="Excel Reader"]
+	"-7152588301377406868_77" -> "-7152588301377406868_88"
+	"-7152588301377406868_77" -> "-7152588301377406868_87"
 	rankdir=LR
 }

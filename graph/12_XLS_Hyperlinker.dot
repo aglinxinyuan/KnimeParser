@@ -1,19 +1,19 @@
 digraph {
-	20 -> 21
-	21 -> 23
-	20 -> 24
-	19 -> 20
-	23 -> 16
-	25 -> 26
-	24 -> 25
-	26 -> 23
-	24 [label="XLS Control Table Generator"]
-	16 [label="XLS Formatter _apply_"]
-	20 [label="XLS Control Table Generator"]
-	23 [label="XLS Font Formatter"]
-	21 [label="XLS Hyperlinker"]
-	26 [label="XLS Control Table Generator"]
-	25 [label="Rule Engine"]
-	19 [label="Table Creator"]
+	"-2703083916992367650_21" [label="XLS Hyperlinker"]
+	"-2703083916992367650_24" [label="XLS Control Table Generator"]
+	"-2703083916992367650_26" [label="XLS Control Table Generator"]
+	"-2703083916992367650_19" [label="Table Creator"]
+	"-2703083916992367650_25" [label="Rule Engine"]
+	"-2703083916992367650_23" [label="XLS Font Formatter"]
+	"-2703083916992367650_20" [label="XLS Control Table Generator"]
+	"-2703083916992367650_16" [label="XLS Formatter _apply_"]
+	"-2703083916992367650_20" -> "-2703083916992367650_24"
+	"-2703083916992367650_23" -> "-2703083916992367650_16"
+	"-2703083916992367650_24" -> "-2703083916992367650_25"
+	"-2703083916992367650_26" -> "-2703083916992367650_23"
+	"-2703083916992367650_19" -> "-2703083916992367650_20"
+	"-2703083916992367650_25" -> "-2703083916992367650_26"
+	"-2703083916992367650_21" -> "-2703083916992367650_23"
+	"-2703083916992367650_20" -> "-2703083916992367650_21"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	77 -> 95
-	77 -> 90
-	77 -> 91
-	90 [label="Duplicate Row Filter"]
-	91 [label=GroupBy]
-	77 [label="Excel Reader"]
-	95 [label="Duplicate Row Filter"]
+	"-5549675177677659564_95" [label="Duplicate Row Filter"]
+	"-5549675177677659564_91" [label=GroupBy]
+	"-5549675177677659564_77" [label="Excel Reader"]
+	"-5549675177677659564_90" [label="Duplicate Row Filter"]
+	"-5549675177677659564_77" -> "-5549675177677659564_95"
+	"-5549675177677659564_77" -> "-5549675177677659564_90"
+	"-5549675177677659564_77" -> "-5549675177677659564_91"
 	rankdir=LR
 }

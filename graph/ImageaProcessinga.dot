@@ -1,20 +1,20 @@
 digraph {
-	11 -> 10
-	7 -> 8
-	4 -> 5
-	10 -> 4
-	3 -> 12
-	5 -> 6
-	6 -> 7
-	12 -> 11
-	5 [label="Connected Component Analysis"]
-	7 [label="Labeling Filter"]
-	11 [label="Image Reader _Table_"]
-	4 [label="Global Thresholder"]
-	10 [label="Gaussian Convolution"]
-	6 [label="Waehlby Cell Clump Splitter"]
-	8 [label="Image Segment Features"]
-	3 [label="List Files_Folders"]
-	12 [label="Path to String"]
+	"4917931190786135423_8" [label="Image Segment Features"]
+	"4917931190786135423_6" [label="Waehlby Cell Clump Splitter"]
+	"4917931190786135423_7" [label="Labeling Filter"]
+	"4917931190786135423_10" [label="Gaussian Convolution"]
+	"4917931190786135423_11" [label="Image Reader _Table_"]
+	"4917931190786135423_3" [label="List Files_Folders"]
+	"4917931190786135423_4" [label="Global Thresholder"]
+	"4917931190786135423_12" [label="Path to String"]
+	"4917931190786135423_5" [label="Connected Component Analysis"]
+	"4917931190786135423_7" -> "4917931190786135423_8"
+	"4917931190786135423_5" -> "4917931190786135423_6"
+	"4917931190786135423_11" -> "4917931190786135423_10"
+	"4917931190786135423_3" -> "4917931190786135423_12"
+	"4917931190786135423_10" -> "4917931190786135423_4"
+	"4917931190786135423_6" -> "4917931190786135423_7"
+	"4917931190786135423_4" -> "4917931190786135423_5"
+	"4917931190786135423_12" -> "4917931190786135423_11"
 	rankdir=LR
 }

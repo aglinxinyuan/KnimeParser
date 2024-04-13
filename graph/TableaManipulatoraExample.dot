@@ -1,6 +1,6 @@
 digraph {
-	8 -> 2
-	2 [label="Table Manipulator"]
-	8 [label="Table Reader"]
+	"2808338438176694636_8" [label="Table Reader"]
+	"2808338438176694636_2" [label="Table Manipulator"]
+	"2808338438176694636_8" -> "2808338438176694636_2"
 	rankdir=LR
 }

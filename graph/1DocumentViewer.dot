@@ -1,10 +1,10 @@
 digraph {
-	42 -> 53
-	53 -> 60
-	60 -> 61
-	42 [label="Table Creator"]
-	53 [label="RSS Feed Reader"]
-	61 [label="Document Viewer"]
-	60 [label="Column Filter"]
+	"-3486441712498869083_53" [label="RSS Feed Reader"]
+	"-3486441712498869083_60" [label="Column Filter"]
+	"-3486441712498869083_61" [label="Document Viewer"]
+	"-3486441712498869083_42" [label="Table Creator"]
+	"-3486441712498869083_60" -> "-3486441712498869083_61"
+	"-3486441712498869083_42" -> "-3486441712498869083_53"
+	"-3486441712498869083_53" -> "-3486441712498869083_60"
 	rankdir=LR
 }

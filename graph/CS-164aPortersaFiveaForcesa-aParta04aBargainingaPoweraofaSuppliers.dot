@@ -1,24 +1,24 @@
 digraph {
-	15 -> 19
-	12 -> 13
-	5 -> 16
-	6 -> 14
-	4 -> 5
-	3 -> 4
-	13 -> 14
-	19 -> 48
-	14 -> 15
-	4 -> 6
-	5 [label="Price War"]
-	16 [label="Column Filter"]
-	48 [label="Pie chart _local_"]
-	13 [label="Feature Table To List"]
-	4 [label="Matrix Distributions"]
-	6 [label="Customer Distributions"]
-	15 [label="Price War"]
-	14 [label="Product Generator"]
-	3 [label="Table Creator"]
-	12 [label="Table Creator"]
-	19 [label="Column Filter"]
+	"6141730171692689251_6" [label="Customer Distributions"]
+	"6141730171692689251_19" [label="Column Filter"]
+	"6141730171692689251_14" [label="Product Generator"]
+	"6141730171692689251_3" [label="Table Creator"]
+	"6141730171692689251_4" [label="Matrix Distributions"]
+	"6141730171692689251_15" [label="Price War"]
+	"6141730171692689251_16" [label="Column Filter"]
+	"6141730171692689251_12" [label="Table Creator"]
+	"6141730171692689251_48" [label="Pie chart _local_"]
+	"6141730171692689251_13" [label="Feature Table To List"]
+	"6141730171692689251_5" [label="Price War"]
+	"6141730171692689251_6" -> "6141730171692689251_14"
+	"6141730171692689251_15" -> "6141730171692689251_19"
+	"6141730171692689251_14" -> "6141730171692689251_15"
+	"6141730171692689251_13" -> "6141730171692689251_14"
+	"6141730171692689251_4" -> "6141730171692689251_5"
+	"6141730171692689251_5" -> "6141730171692689251_16"
+	"6141730171692689251_19" -> "6141730171692689251_48"
+	"6141730171692689251_3" -> "6141730171692689251_4"
+	"6141730171692689251_12" -> "6141730171692689251_13"
+	"6141730171692689251_4" -> "6141730171692689251_6"
 	rankdir=LR
 }

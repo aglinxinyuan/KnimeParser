@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="MySQL Connector"]
-	2 [label="DB SQL Executor"]
+	"-892534125053449424_1" [label="MySQL Connector"]
+	"-892534125053449424_2" [label="DB SQL Executor"]
+	"-892534125053449424_1" -> "-892534125053449424_2"
 	rankdir=LR
 }

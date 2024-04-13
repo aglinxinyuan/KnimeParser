@@ -1,8 +1,8 @@
 digraph {
-	18 -> 16
-	17 -> 18
-	16 [label="Generic JavaScript View"]
-	18 [label="Constant Value Column"]
-	17 [label="Table Creator"]
+	"-6243273208059847084_16" [label="Generic JavaScript View"]
+	"-6243273208059847084_17" [label="Table Creator"]
+	"-6243273208059847084_18" [label="Constant Value Column"]
+	"-6243273208059847084_17" -> "-6243273208059847084_18"
+	"-6243273208059847084_18" -> "-6243273208059847084_16"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	1 -> 12
-	3 -> 12
-	1 [label="Table Creator"]
-	3 [label="Double Input"]
-	12 [label="Java Snippet _simple_"]
+	"2730458017861519957_1" [label="Table Creator"]
+	"2730458017861519957_3" [label="Double Input"]
+	"2730458017861519957_12" [label="Java Snippet _simple_"]
+	"2730458017861519957_3" -> "2730458017861519957_12"
+	"2730458017861519957_1" -> "2730458017861519957_12"
 	rankdir=LR
 }

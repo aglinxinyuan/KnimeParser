@@ -1,8 +1,8 @@
 digraph {
-	279 -> 280
-	280 -> 278
-	280 [label="Google Sheets Connection"]
-	279 [label="Google Authentication"]
-	278 [label="Google Sheets Reader"]
+	"-632677205867928875_280" [label="Google Sheets Connection"]
+	"-632677205867928875_279" [label="Google Authentication"]
+	"-632677205867928875_278" [label="Google Sheets Reader"]
+	"-632677205867928875_279" -> "-632677205867928875_280"
+	"-632677205867928875_280" -> "-632677205867928875_278"
 	rankdir=LR
 }

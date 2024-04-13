@@ -1,10 +1,10 @@
 digraph {
-	2 -> 1
-	1 -> 4
-	3 -> 4
-	1 [label="Google Drive Connector"]
-	4 [label="CSV Writer"]
-	3 [label="Data Generator"]
-	2 [label="Google Authentication"]
+	"3697716489276118788_1" [label="Google Drive Connector"]
+	"3697716489276118788_4" [label="CSV Writer"]
+	"3697716489276118788_3" [label="Data Generator"]
+	"3697716489276118788_2" [label="Google Authentication"]
+	"3697716489276118788_2" -> "3697716489276118788_1"
+	"3697716489276118788_3" -> "3697716489276118788_4"
+	"3697716489276118788_1" -> "3697716489276118788_4"
 	rankdir=LR
 }

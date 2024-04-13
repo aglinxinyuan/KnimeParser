@@ -1,12 +1,12 @@
 digraph {
-	21 -> 10
-	13 -> 9
-	21 -> 8
-	21 -> 9
-	13 [label="Table Creator"]
-	9 [label="Reference Row Filter"]
-	21 [label="File Reader"]
-	8 [label="Nominal Value Row Filter"]
-	10 [label="Rule_based Row Filter"]
+	"-2704736725474824798_13" [label="Table Creator"]
+	"-2704736725474824798_8" [label="Nominal Value Row Filter"]
+	"-2704736725474824798_10" [label="Rule_based Row Filter"]
+	"-2704736725474824798_21" [label="File Reader"]
+	"-2704736725474824798_9" [label="Reference Row Filter"]
+	"-2704736725474824798_21" -> "-2704736725474824798_8"
+	"-2704736725474824798_21" -> "-2704736725474824798_10"
+	"-2704736725474824798_13" -> "-2704736725474824798_9"
+	"-2704736725474824798_21" -> "-2704736725474824798_9"
 	rankdir=LR
 }

@@ -1,14 +1,14 @@
 digraph {
-	2 -> 10
-	2 -> 1
-	2 -> 3
-	2 -> 5
-	2 -> 11
-	5 [label="Generic ECharts View"]
-	1 [label="Generic ECharts View"]
-	11 [label="Generic ECharts View"]
-	3 [label="Generic ECharts View"]
-	2 [label="Table Creator"]
-	10 [label="Generic ECharts View"]
+	"5837648602503532176_3" [label="Generic ECharts View"]
+	"5837648602503532176_5" [label="Generic ECharts View"]
+	"5837648602503532176_1" [label="Generic ECharts View"]
+	"5837648602503532176_11" [label="Generic ECharts View"]
+	"5837648602503532176_10" [label="Generic ECharts View"]
+	"5837648602503532176_2" [label="Table Creator"]
+	"5837648602503532176_2" -> "5837648602503532176_10"
+	"5837648602503532176_2" -> "5837648602503532176_1"
+	"5837648602503532176_2" -> "5837648602503532176_11"
+	"5837648602503532176_2" -> "5837648602503532176_3"
+	"5837648602503532176_2" -> "5837648602503532176_5"
 	rankdir=LR
 }

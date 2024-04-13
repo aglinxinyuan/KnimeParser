@@ -1,8 +1,8 @@
 digraph {
-	6 -> 10
-	10 -> 1330
-	1330 [label="Row Sampling"]
-	6 [label="Excel Reader"]
-	10 [label="String Manipulation"]
+	"1824570298948307001_1330" [label="Row Sampling"]
+	"1824570298948307001_6" [label="Excel Reader"]
+	"1824570298948307001_10" [label="String Manipulation"]
+	"1824570298948307001_10" -> "1824570298948307001_1330"
+	"1824570298948307001_6" -> "1824570298948307001_10"
 	rankdir=LR
 }

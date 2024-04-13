@@ -1,17 +1,17 @@
 digraph {
-	4 -> 7
-	4 -> 5
-	3 -> 4
-	5 -> 6
-	1 -> 2
-	2 -> 3
-	2 -> 4
-	5 [label="Column Filter"]
-	1 [label="CSV Reader"]
-	7 [label="Numeric Scorer"]
-	4 [label="Simple Regression Tree Predictor"]
-	6 [label="Line Plot"]
-	3 [label="Simple Regression Tree Learner"]
-	2 [label=Partitioning]
+	"-8725980493342153641_5" [label="Column Filter"]
+	"-8725980493342153641_4" [label="Simple Regression Tree Predictor"]
+	"-8725980493342153641_2" [label=Partitioning]
+	"-8725980493342153641_7" [label="Numeric Scorer"]
+	"-8725980493342153641_1" [label="CSV Reader"]
+	"-8725980493342153641_3" [label="Simple Regression Tree Learner"]
+	"-8725980493342153641_6" [label="Line Plot"]
+	"-8725980493342153641_3" -> "-8725980493342153641_4"
+	"-8725980493342153641_4" -> "-8725980493342153641_5"
+	"-8725980493342153641_2" -> "-8725980493342153641_4"
+	"-8725980493342153641_4" -> "-8725980493342153641_7"
+	"-8725980493342153641_1" -> "-8725980493342153641_2"
+	"-8725980493342153641_5" -> "-8725980493342153641_6"
+	"-8725980493342153641_2" -> "-8725980493342153641_3"
 	rankdir=LR
 }

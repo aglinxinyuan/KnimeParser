@@ -1,8 +1,8 @@
 digraph {
-	7 -> 4
-	4 -> 6
-	4 [label="CellProfiler Pipeline Executor"]
-	6 [label="CellProfiler Measurements To Table"]
-	7 [label="Image Reader"]
+	"-4046440505363433351_4" [label="CellProfiler Pipeline Executor"]
+	"-4046440505363433351_7" [label="Image Reader"]
+	"-4046440505363433351_6" [label="CellProfiler Measurements To Table"]
+	"-4046440505363433351_7" -> "-4046440505363433351_4"
+	"-4046440505363433351_4" -> "-4046440505363433351_6"
 	rankdir=LR
 }

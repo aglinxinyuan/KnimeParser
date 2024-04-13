@@ -1,14 +1,14 @@
 digraph {
-	77 -> 78
-	96 -> 55
-	55 -> 98
-	97 -> 77
-	78 -> 55
-	96 [label="PortObject Reference Reader"]
-	55 [label="Random Forest Predictor"]
-	98 [label="Workflow Service Output"]
-	97 [label="Workflow Service Input"]
-	77 [label="String Manipulation _Multi Column_"]
-	78 [label="Rule Engine"]
+	"-7667841981817166431_96" [label="PortObject Reference Reader"]
+	"-7667841981817166431_55" [label="Random Forest Predictor"]
+	"-7667841981817166431_77" [label="String Manipulation _Multi Column_"]
+	"-7667841981817166431_97" [label="Workflow Service Input"]
+	"-7667841981817166431_98" [label="Workflow Service Output"]
+	"-7667841981817166431_78" [label="Rule Engine"]
+	"-7667841981817166431_96" -> "-7667841981817166431_55"
+	"-7667841981817166431_97" -> "-7667841981817166431_77"
+	"-7667841981817166431_78" -> "-7667841981817166431_55"
+	"-7667841981817166431_55" -> "-7667841981817166431_98"
+	"-7667841981817166431_77" -> "-7667841981817166431_78"
 	rankdir=LR
 }

@@ -1,12 +1,12 @@
 digraph {
-	1 -> 3
-	2 -> 5
-	3 -> 4
-	4 -> 2
-	5 [label="Image Writer"]
-	1 [label="Data Generator"]
-	4 [label="Image To Table"]
-	3 [label="R View _Table_"]
-	2 [label="PNG Image to ImgPlus"]
+	"-7925952461327605923_4" [label="Image To Table"]
+	"-7925952461327605923_5" [label="Image Writer"]
+	"-7925952461327605923_3" [label="R View _Table_"]
+	"-7925952461327605923_1" [label="Data Generator"]
+	"-7925952461327605923_2" [label="PNG Image to ImgPlus"]
+	"-7925952461327605923_1" -> "-7925952461327605923_3"
+	"-7925952461327605923_3" -> "-7925952461327605923_4"
+	"-7925952461327605923_2" -> "-7925952461327605923_5"
+	"-7925952461327605923_4" -> "-7925952461327605923_2"
 	rankdir=LR
 }

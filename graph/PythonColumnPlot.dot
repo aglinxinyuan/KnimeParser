@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Python Source"]
-	3 [label="Image Column Writer"]
-	2 [label="String To SVG"]
+	"2329946360466067059_2" [label="String To SVG"]
+	"2329946360466067059_3" [label="Image Column Writer"]
+	"2329946360466067059_1" [label="Python Source"]
+	"2329946360466067059_2" -> "2329946360466067059_3"
+	"2329946360466067059_1" -> "2329946360466067059_2"
 	rankdir=LR
 }

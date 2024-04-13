@@ -1,20 +1,20 @@
 digraph {
-	7 -> 8
-	4 -> 5
-	8 -> 9
-	3 -> 4
-	5 -> 6
-	1 -> 2
-	2 -> 3
-	6 -> 7
-	5 [label="Connected Component Analysis"]
-	1 [label="Table Creator"]
-	7 [label="Rule Engine"]
-	9 [label="Image Viewer"]
-	4 [label="Global Thresholder"]
-	6 [label="Segment Features"]
-	8 [label=GroupBy]
-	3 [label=Inverter]
-	2 [label="Image Reader _Table_"]
+	"2805090829211596126_4" [label="Global Thresholder"]
+	"2805090829211596126_5" [label="Connected Component Analysis"]
+	"2805090829211596126_6" [label="Segment Features"]
+	"2805090829211596126_2" [label="Image Reader _Table_"]
+	"2805090829211596126_3" [label=Inverter]
+	"2805090829211596126_7" [label="Rule Engine"]
+	"2805090829211596126_1" [label="Table Creator"]
+	"2805090829211596126_8" [label=GroupBy]
+	"2805090829211596126_9" [label="Image Viewer"]
+	"2805090829211596126_2" -> "2805090829211596126_3"
+	"2805090829211596126_8" -> "2805090829211596126_9"
+	"2805090829211596126_5" -> "2805090829211596126_6"
+	"2805090829211596126_7" -> "2805090829211596126_8"
+	"2805090829211596126_1" -> "2805090829211596126_2"
+	"2805090829211596126_4" -> "2805090829211596126_5"
+	"2805090829211596126_3" -> "2805090829211596126_4"
+	"2805090829211596126_6" -> "2805090829211596126_7"
 	rankdir=LR
 }

@@ -1,23 +1,23 @@
 digraph {
-	9 -> 7
-	5 -> 8
-	4 -> 5
-	8 -> 9
-	4 -> 8
-	3 -> 4
-	1 -> 6
-	1 -> 2
-	2 -> 3
-	6 -> 7
-	4 -> 9
-	5 [label="XLS Background Colorizer"]
-	1 [label="Table Creator"]
-	7 [label="XLS Formatter _apply_"]
-	9 [label="XLS Row and Column Sizer"]
-	4 [label="XLS Control Table Generator"]
-	8 [label="XLS Row and Column Sizer"]
-	6 [label="Excel Writer _XLS_"]
-	3 [label="Rule Engine"]
-	2 [label="XLS Control Table Generator"]
+	"6907099616649007430_9" [label="XLS Row and Column Sizer"]
+	"-4987719061756467289_1" [label="Table Creator"]
+	"6907099616649007430_8" [label="XLS Row and Column Sizer"]
+	"6907099616649007430_4" [label="XLS Control Table Generator"]
+	"-4987719061756467289_7" [label="XLS Formatter _apply_"]
+	"-4987719061756467289_6" [label="Excel Writer _XLS_"]
+	"6907099616649007430_5" [label="XLS Background Colorizer"]
+	"6907099616649007430_2" [label="XLS Control Table Generator"]
+	"6907099616649007430_3" [label="Rule Engine"]
+	"6907099616649007430_4" -> "6907099616649007430_8"
+	"-4987719061756467289_1" -> "-4987719061756467289_6"
+	"6907099616649007430_5" -> "6907099616649007430_8"
+	"6907099616649007430_4" -> "6907099616649007430_9"
+	"6907099616649007430_4" -> "6907099616649007430_5"
+	"-4987719061756467289_1" -> "6907099616649007430_2"
+	"6907099616649007430_8" -> "6907099616649007430_9"
+	"-4987719061756467289_6" -> "-4987719061756467289_7"
+	"6907099616649007430_9" -> "-4987719061756467289_7"
+	"6907099616649007430_2" -> "6907099616649007430_3"
+	"6907099616649007430_3" -> "6907099616649007430_4"
 	rankdir=LR
 }

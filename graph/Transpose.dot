@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Table Creator"]
-	2 [label=Transpose]
+	"-7442119605196040693_2" [label=Transpose]
+	"-7442119605196040693_1" [label="Table Creator"]
+	"-7442119605196040693_1" -> "-7442119605196040693_2"
 	rankdir=LR
 }

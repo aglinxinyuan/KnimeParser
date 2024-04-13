@@ -1,10 +1,10 @@
 digraph {
-	35 -> 124
-	124 -> 42
-	42 -> 39
-	39 [label="Image Writer _Table_"]
-	42 [label="Binary Objects to PNGs"]
-	124 [label="Java Snippet"]
-	35 [label="Table Reader"]
+	"301976813019807091_35" [label="Table Reader"]
+	"301976813019807091_124" [label="Java Snippet"]
+	"301976813019807091_42" [label="Binary Objects to PNGs"]
+	"301976813019807091_39" [label="Image Writer _Table_"]
+	"301976813019807091_42" -> "301976813019807091_39"
+	"301976813019807091_124" -> "301976813019807091_42"
+	"301976813019807091_35" -> "301976813019807091_124"
 	rankdir=LR
 }

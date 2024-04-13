@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	1 -> 4
-	3 -> 4
-	4 -> 5
-	5 [label=Scorer]
-	1 [label="CSV Reader"]
-	4 [label="Gradient Boosted Trees Predictor"]
-	3 [label="Gradient Boosted Trees Learner"]
-	2 [label="CSV Reader"]
+	"-1353945560102943564_4" [label="Gradient Boosted Trees Predictor"]
+	"-1353945560102943564_2" [label="CSV Reader"]
+	"-1353945560102943564_5" [label=Scorer]
+	"-1353945560102943564_3" [label="Gradient Boosted Trees Learner"]
+	"-1353945560102943564_1" [label="CSV Reader"]
+	"-1353945560102943564_1" -> "-1353945560102943564_4"
+	"-1353945560102943564_2" -> "-1353945560102943564_3"
+	"-1353945560102943564_4" -> "-1353945560102943564_5"
+	"-1353945560102943564_3" -> "-1353945560102943564_4"
 	rankdir=LR
 }

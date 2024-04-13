@@ -1,8 +1,8 @@
 digraph {
-	1 -> 2
-	1 -> 5
-	1 [label="CSV Reader"]
-	5 [label="Conditional Box Plot"]
-	2 [label="Data Explorer"]
+	"-4117889477668216316_2" [label="Data Explorer"]
+	"-2735127561837955993_1" [label="CSV Reader"]
+	"-2735127561837955993_5" [label="Conditional Box Plot"]
+	"-2735127561837955993_1" -> "-2735127561837955993_5"
+	"-2735127561837955993_1" -> "-4117889477668216316_2"
 	rankdir=LR
 }

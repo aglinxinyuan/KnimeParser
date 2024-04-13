@@ -1,12 +1,12 @@
 digraph {
-	1 -> 2
-	4 -> 3
-	2 -> 4
-	3 -> 5
-	5 [label="Duplicate Row Filter"]
-	1 [label="Tika Parser"]
-	4 [label="Column Filter"]
-	3 [label=Transpose]
-	2 [label="Cell Splitter"]
+	"-7611531217719606590_2" [label="Cell Splitter"]
+	"-7611531217719606590_3" [label=Transpose]
+	"-7611531217719606590_1" [label="Tika Parser"]
+	"-7611531217719606590_4" [label="Column Filter"]
+	"-7611531217719606590_5" [label="Duplicate Row Filter"]
+	"-7611531217719606590_2" -> "-7611531217719606590_4"
+	"-7611531217719606590_3" -> "-7611531217719606590_5"
+	"-7611531217719606590_4" -> "-7611531217719606590_3"
+	"-7611531217719606590_1" -> "-7611531217719606590_2"
 	rankdir=LR
 }

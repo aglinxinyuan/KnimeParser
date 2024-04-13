@@ -1,6 +1,6 @@
 digraph {
-	1 -> 5
-	1 [label="File Reader"]
-	5 [label=Histogram]
+	"-28272401067851182_5" [label=Histogram]
+	"-28272401067851182_1" [label="File Reader"]
+	"-28272401067851182_1" -> "-28272401067851182_5"
 	rankdir=LR
 }

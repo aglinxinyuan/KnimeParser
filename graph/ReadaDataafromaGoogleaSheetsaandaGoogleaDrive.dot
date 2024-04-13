@@ -1,16 +1,16 @@
 digraph {
-	5 -> 8
-	1 -> 4
-	4 -> 2
-	5 -> 6
-	5 -> 7
-	1 -> 5
-	5 [label="Google Drive Connector"]
-	1 [label="Google Authentication"]
-	7 [label="Excel Reader"]
-	4 [label="Google Sheets Connection"]
-	6 [label="File Reader"]
-	8 [label="CSV Reader"]
-	2 [label="Google Sheets Reader"]
+	"7346147571942384413_7" [label="Excel Reader"]
+	"7346147571942384413_1" [label="Google Authentication"]
+	"7346147571942384413_4" [label="Google Sheets Connection"]
+	"7346147571942384413_8" [label="CSV Reader"]
+	"7346147571942384413_6" [label="File Reader"]
+	"7346147571942384413_5" [label="Google Drive Connector"]
+	"7346147571942384413_2" [label="Google Sheets Reader"]
+	"7346147571942384413_4" -> "7346147571942384413_2"
+	"7346147571942384413_5" -> "7346147571942384413_7"
+	"7346147571942384413_1" -> "7346147571942384413_5"
+	"7346147571942384413_1" -> "7346147571942384413_4"
+	"7346147571942384413_5" -> "7346147571942384413_8"
+	"7346147571942384413_5" -> "7346147571942384413_6"
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Table Creator"]
-	2 [label="Extract Table Spec"]
+	"3293786826937124415_2" [label="Extract Table Spec"]
+	"3293786826937124415_1" [label="Table Creator"]
+	"3293786826937124415_1" -> "3293786826937124415_2"
 	rankdir=LR
 }

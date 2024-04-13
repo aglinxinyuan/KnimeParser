@@ -1,8 +1,8 @@
 digraph {
-	1 -> 4
-	4 -> 2
-	1 [label="CSV Reader"]
-	4 [label="Missing Value"]
-	2 [label=Statistics]
+	"-2597469754388509728_4" [label="Missing Value"]
+	"-2597469754388509728_2" [label=Statistics]
+	"-2597469754388509728_1" [label="CSV Reader"]
+	"-2597469754388509728_1" -> "-2597469754388509728_4"
+	"-2597469754388509728_4" -> "-2597469754388509728_2"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	36 -> 37
-	35 -> 36
-	37 [label="Table Manipulator"]
-	36 [label="Molecule Type Cast"]
-	35 [label="Excel Reader"]
+	"-5352026981657953895_37" [label="Table Manipulator"]
+	"-5352026981657953895_35" [label="Excel Reader"]
+	"-5352026981657953895_36" [label="Molecule Type Cast"]
+	"-5352026981657953895_36" -> "-5352026981657953895_37"
+	"-5352026981657953895_35" -> "-5352026981657953895_36"
 	rankdir=LR
 }

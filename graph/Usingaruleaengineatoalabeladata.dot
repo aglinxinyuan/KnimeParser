@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Table Creator"]
-	2 [label="Rule Engine"]
+	"-2776197181839936240_2" [label="Rule Engine"]
+	"-2776197181839936240_1" [label="Table Creator"]
+	"-2776197181839936240_1" -> "-2776197181839936240_2"
 	rankdir=LR
 }

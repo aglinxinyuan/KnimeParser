@@ -1,23 +1,23 @@
 digraph {
-	12 -> 15
-	15 -> 14
-	9 -> 8
-	4 -> 15
-	4 -> 9
-	4 -> 8
-	3 -> 4
-	4 -> 12
-	1 -> 2
-	2 -> 3
-	8 -> 12
-	1 [label="CSV Reader"]
-	9 [label="XLS Font Formatter"]
-	4 [label="XLS Control Table Generator"]
-	8 [label="XLS Sheet Properties"]
-	15 [label="XLS Row and Column Sizer"]
-	14 [label="XLS Formatter _apply_"]
-	3 [label="Rule Engine"]
-	2 [label="XLS Control Table Generator"]
-	12 [label="XLS Background Colorizer"]
+	"222281261297284668_2" [label="XLS Control Table Generator"]
+	"222281261297284668_8" [label="XLS Sheet Properties"]
+	"222281261297284668_9" [label="XLS Font Formatter"]
+	"222281261297284668_3" [label="Rule Engine"]
+	"222281261297284668_14" [label="XLS Formatter _apply_"]
+	"222281261297284668_1" [label="CSV Reader"]
+	"222281261297284668_12" [label="XLS Background Colorizer"]
+	"222281261297284668_15" [label="XLS Row and Column Sizer"]
+	"222281261297284668_4" [label="XLS Control Table Generator"]
+	"222281261297284668_1" -> "222281261297284668_2"
+	"222281261297284668_15" -> "222281261297284668_14"
+	"222281261297284668_8" -> "222281261297284668_12"
+	"222281261297284668_4" -> "222281261297284668_15"
+	"222281261297284668_2" -> "222281261297284668_3"
+	"222281261297284668_4" -> "222281261297284668_12"
+	"222281261297284668_4" -> "222281261297284668_9"
+	"222281261297284668_12" -> "222281261297284668_15"
+	"222281261297284668_3" -> "222281261297284668_4"
+	"222281261297284668_4" -> "222281261297284668_8"
+	"222281261297284668_9" -> "222281261297284668_8"
 	rankdir=LR
 }

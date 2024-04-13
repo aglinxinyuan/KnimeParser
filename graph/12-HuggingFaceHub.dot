@@ -1,12 +1,12 @@
 digraph {
-	82 -> 89
-	127 -> 83
-	90 -> 83
-	89 -> 90
-	90 [label="HF Hub LLM Connector"]
-	82 [label="Credentials Configuration"]
-	89 [label="HF Hub Authenticator"]
-	127 [label="Table Creator"]
-	83 [label="LLM Prompter"]
+	"-2317658260154643609_83" [label="LLM Prompter"]
+	"-2317658260154643609_89" [label="HF Hub Authenticator"]
+	"-2317658260154643609_90" [label="HF Hub LLM Connector"]
+	"-2317658260154643609_127" [label="Table Creator"]
+	"-2317658260154643609_82" [label="Credentials Configuration"]
+	"-2317658260154643609_89" -> "-2317658260154643609_90"
+	"-2317658260154643609_82" -> "-2317658260154643609_89"
+	"-2317658260154643609_127" -> "-2317658260154643609_83"
+	"-2317658260154643609_90" -> "-2317658260154643609_83"
 	rankdir=LR
 }

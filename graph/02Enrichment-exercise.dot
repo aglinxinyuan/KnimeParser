@@ -1,10 +1,10 @@
 digraph {
-	38 -> 20
-	20 -> 33
-	33 -> 22
-	33 [label="Strings To Document"]
-	22 [label="Column Filter"]
-	38 [label="Table Reader"]
-	20 [label="Row Filter"]
+	"2020525859337807990_20" [label="Row Filter"]
+	"2020525859337807990_33" [label="Strings To Document"]
+	"2020525859337807990_22" [label="Column Filter"]
+	"2020525859337807990_38" [label="Table Reader"]
+	"2020525859337807990_38" -> "2020525859337807990_20"
+	"2020525859337807990_33" -> "2020525859337807990_22"
+	"2020525859337807990_20" -> "2020525859337807990_33"
 	rankdir=LR
 }

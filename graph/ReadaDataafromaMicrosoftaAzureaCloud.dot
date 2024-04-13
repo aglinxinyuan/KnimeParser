@@ -1,14 +1,14 @@
 digraph {
-	2 -> 6
-	1 -> 2
-	2 -> 3
-	2 -> 5
-	2 -> 4
-	5 [label="CSV Reader"]
-	1 [label="Microsoft Authentication"]
-	4 [label="Excel Reader"]
-	6 [label="Table Reader"]
-	3 [label="File Reader"]
-	2 [label="Azure Blob Storage Connector"]
+	"3710917524574865996_1" [label="Microsoft Authentication"]
+	"3710917524574865996_3" [label="File Reader"]
+	"3710917524574865996_6" [label="Table Reader"]
+	"3710917524574865996_5" [label="CSV Reader"]
+	"3710917524574865996_4" [label="Excel Reader"]
+	"3710917524574865996_2" [label="Azure Blob Storage Connector"]
+	"3710917524574865996_2" -> "3710917524574865996_5"
+	"3710917524574865996_1" -> "3710917524574865996_2"
+	"3710917524574865996_2" -> "3710917524574865996_3"
+	"3710917524574865996_2" -> "3710917524574865996_6"
+	"3710917524574865996_2" -> "3710917524574865996_4"
 	rankdir=LR
 }

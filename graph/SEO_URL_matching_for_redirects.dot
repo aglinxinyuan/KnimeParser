@@ -1,10 +1,10 @@
 digraph {
-	3 -> 1
-	2 -> 1
-	1 -> 4
-	1 [label="String Matcher"]
-	4 [label="Excel Writer"]
-	3 [label="Table Creator"]
-	2 [label="Table Creator"]
+	"6225358146117840099_1" [label="String Matcher"]
+	"6225358146117840099_2" [label="Table Creator"]
+	"6225358146117840099_4" [label="Excel Writer"]
+	"6225358146117840099_3" [label="Table Creator"]
+	"6225358146117840099_3" -> "6225358146117840099_1"
+	"6225358146117840099_1" -> "6225358146117840099_4"
+	"6225358146117840099_2" -> "6225358146117840099_1"
 	rankdir=LR
 }

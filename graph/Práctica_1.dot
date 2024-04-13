@@ -1,15 +1,15 @@
 digraph {
-	4 -> 5
-	3 -> 4
-	4 -> 6
-	1 -> 2
-	2 -> 3
-	2 -> 4
-	5 [label=Scorer]
-	1 [label="CSV Reader"]
-	4 [label="Decision Tree Predictor"]
-	6 [label="ROC Curve _JavaScript_"]
-	3 [label="Decision Tree Learner"]
-	2 [label=Partitioning]
+	"-6334305654802571967_2" [label=Partitioning]
+	"-6334305654802571967_5" [label=Scorer]
+	"-6334305654802571967_3" [label="Decision Tree Learner"]
+	"-6334305654802571967_6" [label="ROC Curve _JavaScript_"]
+	"-6334305654802571967_4" [label="Decision Tree Predictor"]
+	"-6334305654802571967_1" [label="CSV Reader"]
+	"-6334305654802571967_3" -> "-6334305654802571967_4"
+	"-6334305654802571967_4" -> "-6334305654802571967_6"
+	"-6334305654802571967_1" -> "-6334305654802571967_2"
+	"-6334305654802571967_4" -> "-6334305654802571967_5"
+	"-6334305654802571967_2" -> "-6334305654802571967_4"
+	"-6334305654802571967_2" -> "-6334305654802571967_3"
 	rankdir=LR
 }

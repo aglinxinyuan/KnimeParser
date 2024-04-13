@@ -1,8 +1,8 @@
 digraph {
-	3 -> 1
-	2 -> 1
-	1 [label="Python View"]
-	3 [label="Conda Environment Propagation"]
-	2 [label="Table Creator"]
+	"-4059036392491024302_2" [label="Table Creator"]
+	"-4059036392491024302_1" [label="Python View"]
+	"-4059036392491024302_3" [label="Conda Environment Propagation"]
+	"-4059036392491024302_2" -> "-4059036392491024302_1"
+	"-4059036392491024302_3" -> "-4059036392491024302_1"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	1 -> 2
-	4 -> 5
-	1 -> 5
-	1 [label="Table Reader"]
-	4 [label="H2 Connector"]
-	5 [label="Database Writer"]
-	2 [label="Excel Writer _XLS_"]
+	"6880673495368778662_4" [label="H2 Connector"]
+	"6880673495368778662_5" [label="Database Writer"]
+	"6880673495368778662_1" [label="Table Reader"]
+	"6880673495368778662_2" [label="Excel Writer _XLS_"]
+	"6880673495368778662_1" -> "6880673495368778662_2"
+	"6880673495368778662_1" -> "6880673495368778662_5"
+	"6880673495368778662_4" -> "6880673495368778662_5"
 	rankdir=LR
 }

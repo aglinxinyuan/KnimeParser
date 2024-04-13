@@ -1,10 +1,10 @@
 digraph {
-	6 -> 5
-	5 -> 7
-	4 -> 6
-	5 [label="Math Formula"]
-	4 [label="Table Creator"]
-	6 [label="Group Loop Start"]
-	7 [label="Loop End"]
+	"-5869857679803657727_4" [label="Table Creator"]
+	"-5869857679803657727_6" [label="Group Loop Start"]
+	"-5869857679803657727_7" [label="Loop End"]
+	"-5869857679803657727_5" [label="Math Formula"]
+	"-5869857679803657727_4" -> "-5869857679803657727_6"
+	"-5869857679803657727_5" -> "-5869857679803657727_7"
+	"-5869857679803657727_6" -> "-5869857679803657727_5"
 	rankdir=LR
 }

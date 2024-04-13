@@ -1,14 +1,14 @@
 digraph {
-	4 -> 8
-	2 -> 6
-	1 -> 2
-	8 -> 5
-	2 -> 4
-	5 [label="Column Aggregator"]
-	1 [label="Empty Table Creator"]
-	4 [label="Window Slider"]
-	6 [label="Line Plot"]
-	8 [label="String Manipulation"]
-	2 [label="Time Series Generator"]
+	"8346566982801269123_2" [label="Time Series Generator"]
+	"8346566982801269123_1" [label="Empty Table Creator"]
+	"8346566982801269123_8" [label="String Manipulation"]
+	"8346566982801269123_6" [label="Line Plot"]
+	"8346566982801269123_4" [label="Window Slider"]
+	"8346566982801269123_5" [label="Column Aggregator"]
+	"8346566982801269123_2" -> "8346566982801269123_4"
+	"8346566982801269123_4" -> "8346566982801269123_8"
+	"8346566982801269123_2" -> "8346566982801269123_6"
+	"8346566982801269123_8" -> "8346566982801269123_5"
+	"8346566982801269123_1" -> "8346566982801269123_2"
 	rankdir=LR
 }

@@ -1,14 +1,14 @@
 digraph {
-	18 -> 17
-	23 -> 24
-	24 -> 25
-	21 -> 20
-	24 [label="SPARQL File Inserter"]
-	20 [label="SPARQL Select Query"]
-	23 [label="In_Memory Endpoint"]
-	18 [label="Virtuoso Endpoint"]
-	21 [label="SPARQL Endpoint"]
-	25 [label="SPARQL Select Query"]
-	17 [label="SPARQL Select Query"]
+	"-5876996208690087226_17" [label="SPARQL Select Query"]
+	"-5876996208690087226_20" [label="SPARQL Select Query"]
+	"-5876996208690087226_23" [label="In_Memory Endpoint"]
+	"-5876996208690087226_25" [label="SPARQL Select Query"]
+	"-5876996208690087226_24" [label="SPARQL File Inserter"]
+	"-5876996208690087226_18" [label="Virtuoso Endpoint"]
+	"-5876996208690087226_21" [label="SPARQL Endpoint"]
+	"-5876996208690087226_24" -> "-5876996208690087226_25"
+	"-5876996208690087226_23" -> "-5876996208690087226_24"
+	"-5876996208690087226_18" -> "-5876996208690087226_17"
+	"-5876996208690087226_21" -> "-5876996208690087226_20"
 	rankdir=LR
 }

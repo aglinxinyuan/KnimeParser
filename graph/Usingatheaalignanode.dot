@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	4 -> 2
-	3 -> 5
-	5 [label="Image Writer"]
-	4 [label="Image Reader"]
-	3 [label="Align image"]
-	2 [label="Align image"]
+	"8290911505067825169_5" [label="Image Writer"]
+	"8290911505067825169_4" [label="Image Reader"]
+	"8290911505067825169_3" [label="Align image"]
+	"8290911505067825169_2" [label="Align image"]
+	"8290911505067825169_3" -> "8290911505067825169_5"
+	"8290911505067825169_2" -> "8290911505067825169_3"
+	"8290911505067825169_4" -> "8290911505067825169_2"
 	rankdir=LR
 }

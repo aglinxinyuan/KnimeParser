@@ -1,12 +1,12 @@
 digraph {
-	4 -> 6
-	3 -> 4
-	1 -> 3
-	4 -> 5
-	5 [label="Container Output _Table_"]
-	1 [label="Data Generator"]
-	4 [label="Row Filter"]
-	6 [label="Excel Writer"]
-	3 [label="Container Input _Table_"]
+	"-7938345986922963844_3" [label="Container Input _Table_"]
+	"-7938345986922963844_4" [label="Row Filter"]
+	"-7938345986922963844_5" [label="Container Output _Table_"]
+	"-7938345986922963844_6" [label="Excel Writer"]
+	"-7938345986922963844_1" [label="Data Generator"]
+	"-7938345986922963844_1" -> "-7938345986922963844_3"
+	"-7938345986922963844_3" -> "-7938345986922963844_4"
+	"-7938345986922963844_4" -> "-7938345986922963844_5"
+	"-7938345986922963844_4" -> "-7938345986922963844_6"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	6 -> 7
-	5 -> 6
-	4 -> 5
-	5 [label="Path to String"]
-	4 [label="List Files_Folders"]
-	6 [label="String Manipulation"]
-	7 [label="Table View"]
+	"-6090308600683995899_4" [label="List Files_Folders"]
+	"-6090308600683995899_6" [label="String Manipulation"]
+	"-6090308600683995899_5" [label="Path to String"]
+	"-6090308600683995899_7" [label="Table View"]
+	"-6090308600683995899_4" -> "-6090308600683995899_5"
+	"-6090308600683995899_6" -> "-6090308600683995899_7"
+	"-6090308600683995899_5" -> "-6090308600683995899_6"
 	rankdir=LR
 }

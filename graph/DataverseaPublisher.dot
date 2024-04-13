@@ -1,10 +1,10 @@
 digraph {
-	26 -> 27
-	25 -> 26
-	1660 -> 25
-	26 [label="Dataverse Data File Replacer"]
-	27 [label="Dataverse Publisher"]
-	1660 [label="Testflow Configuration"]
-	25 [label="Dataverse Get Dataset Contents _Source_"]
+	"248862288566120614_25" [label="Dataverse Get Dataset Contents _Source_"]
+	"248862288566120614_1660" [label="Testflow Configuration"]
+	"248862288566120614_27" [label="Dataverse Publisher"]
+	"248862288566120614_26" [label="Dataverse Data File Replacer"]
+	"248862288566120614_26" -> "248862288566120614_27"
+	"248862288566120614_1660" -> "248862288566120614_25"
+	"248862288566120614_25" -> "248862288566120614_26"
 	rankdir=LR
 }

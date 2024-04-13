@@ -1,12 +1,12 @@
 digraph {
-	1 -> 2
-	4 -> 3
-	2 -> 4
-	3 -> 6
-	1 [label="Table Creator"]
-	4 [label="Bag Of Words Creator"]
-	6 [label="Distance Matrix Calculate"]
-	3 [label="Document Vector"]
-	2 [label="Strings To Document"]
+	"-4094277312537068218_6" [label="Distance Matrix Calculate"]
+	"-4094277312537068218_4" [label="Bag Of Words Creator"]
+	"-4094277312537068218_3" [label="Document Vector"]
+	"-4094277312537068218_1" [label="Table Creator"]
+	"-4094277312537068218_2" [label="Strings To Document"]
+	"-4094277312537068218_2" -> "-4094277312537068218_4"
+	"-4094277312537068218_3" -> "-4094277312537068218_6"
+	"-4094277312537068218_4" -> "-4094277312537068218_3"
+	"-4094277312537068218_1" -> "-4094277312537068218_2"
 	rankdir=LR
 }

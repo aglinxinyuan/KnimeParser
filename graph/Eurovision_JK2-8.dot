@@ -1,19 +1,19 @@
 digraph {
-	5 -> 3
-	7 -> 8
-	8 -> 13
-	3 -> 8
-	5 -> 6
-	8 -> 12
-	6 -> 7
-	1 -> 5
-	5 [label="Row Filter"]
-	13 [label="Network Viewer"]
-	1 [label="CSV Reader"]
-	7 [label="Visualization Property Extractor"]
-	6 [label="Color Manager"]
-	8 [label="Multi Feature Inserter"]
-	3 [label="Object Inserter"]
-	12 [label="Network Viewer _local_"]
+	"-7404399752797579190_12" [label="Network Viewer _local_"]
+	"-7404399752797579190_13" [label="Network Viewer"]
+	"-7404399752797579190_7" [label="Visualization Property Extractor"]
+	"-7404399752797579190_8" [label="Multi Feature Inserter"]
+	"-7404399752797579190_3" [label="Object Inserter"]
+	"-7404399752797579190_5" [label="Row Filter"]
+	"-7404399752797579190_6" [label="Color Manager"]
+	"-7404399752797579190_1" [label="CSV Reader"]
+	"-7404399752797579190_3" -> "-7404399752797579190_8"
+	"-7404399752797579190_6" -> "-7404399752797579190_7"
+	"-7404399752797579190_7" -> "-7404399752797579190_8"
+	"-7404399752797579190_5" -> "-7404399752797579190_6"
+	"-7404399752797579190_8" -> "-7404399752797579190_12"
+	"-7404399752797579190_1" -> "-7404399752797579190_5"
+	"-7404399752797579190_5" -> "-7404399752797579190_3"
+	"-7404399752797579190_8" -> "-7404399752797579190_13"
 	rankdir=LR
 }

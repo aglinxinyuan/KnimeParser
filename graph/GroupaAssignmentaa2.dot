@@ -1,24 +1,24 @@
 digraph {
-	23 -> 24
-	13 -> 14
-	4 -> 6
-	19 -> 20
-	21 -> 22
-	5 -> 2
-	1 -> 3
-	5 [label="File Reader"]
-	24 [label="Scatter Plot"]
-	13 [label="File Reader"]
-	20 [label=Histogram]
-	1 [label="CSV Reader"]
-	22 [label="Pie_Donut Chart"]
-	23 [label="File Reader"]
-	4 [label="File Reader"]
-	21 [label="File Reader"]
-	6 [label="Bar Chart"]
-	14 [label="Conditional Box Plot"]
-	3 [label="Bar Chart"]
-	2 [label="Pie_Donut Chart"]
-	19 [label="File Reader"]
+	"-772189121021356144_22" [label="Pie_Donut Chart"]
+	"-772189121021356144_19" [label="File Reader"]
+	"-772189121021356144_23" [label="File Reader"]
+	"-772189121021356144_1" [label="CSV Reader"]
+	"-772189121021356144_24" [label="Scatter Plot"]
+	"-772189121021356144_4" [label="File Reader"]
+	"-772189121021356144_20" [label=Histogram]
+	"-772189121021356144_14" [label="Conditional Box Plot"]
+	"-772189121021356144_21" [label="File Reader"]
+	"-772189121021356144_13" [label="File Reader"]
+	"-772189121021356144_5" [label="File Reader"]
+	"-772189121021356144_3" [label="Bar Chart"]
+	"-772189121021356144_2" [label="Pie_Donut Chart"]
+	"-772189121021356144_6" [label="Bar Chart"]
+	"-772189121021356144_13" -> "-772189121021356144_14"
+	"-772189121021356144_21" -> "-772189121021356144_22"
+	"-772189121021356144_1" -> "-772189121021356144_3"
+	"-772189121021356144_5" -> "-772189121021356144_2"
+	"-772189121021356144_23" -> "-772189121021356144_24"
+	"-772189121021356144_19" -> "-772189121021356144_20"
+	"-772189121021356144_4" -> "-772189121021356144_6"
 	rankdir=LR
 }

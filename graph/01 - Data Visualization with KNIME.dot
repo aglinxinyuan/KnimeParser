@@ -1,11 +1,11 @@
 digraph {
-	1 -> 2
-	3 -> 4
-	3 -> 5
-	5 [label="Color Manager"]
-	1 [label="Table Creator"]
-	4 [label="Pie_Donut Chart"]
-	3 [label="Table Creator"]
-	2 [label="Bar Chart"]
+	"-6347025321508719112_5" [label="Color Manager"]
+	"-6347025321508719112_3" [label="Table Creator"]
+	"-6347025321508719112_1" [label="Table Creator"]
+	"-6347025321508719112_2" [label="Bar Chart"]
+	"-6347025321508719112_4" [label="Pie_Donut Chart"]
+	"-6347025321508719112_3" -> "-6347025321508719112_4"
+	"-6347025321508719112_1" -> "-6347025321508719112_2"
+	"-6347025321508719112_3" -> "-6347025321508719112_5"
 	rankdir=LR
 }

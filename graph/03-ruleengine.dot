@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Excel Reader"]
-	3 [label="Rule Engine"]
-	2 [label="XLS Control Table Generator"]
+	"7979724725257834008_1" [label="Excel Reader"]
+	"7979724725257834008_2" [label="XLS Control Table Generator"]
+	"7979724725257834008_3" [label="Rule Engine"]
+	"7979724725257834008_1" -> "7979724725257834008_2"
+	"7979724725257834008_2" -> "7979724725257834008_3"
 	rankdir=LR
 }

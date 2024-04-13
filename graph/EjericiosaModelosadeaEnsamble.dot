@@ -1,6 +1,6 @@
 digraph {
-	73 -> 23
-	23 [label="Rule Engine"]
-	73 [label="CSV Reader"]
+	"4447539847454411679_23" [label="Rule Engine"]
+	"4447539847454411679_73" [label="CSV Reader"]
+	"4447539847454411679_73" -> "4447539847454411679_23"
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	2 -> 3
-	3 [label="Rule_based Row Filter"]
-	2 [label="CSV Reader"]
+	"2404094208359678670_2" [label="CSV Reader"]
+	"2404094208359678670_3" [label="Rule_based Row Filter"]
+	"2404094208359678670_2" -> "2404094208359678670_3"
 	rankdir=LR
 }

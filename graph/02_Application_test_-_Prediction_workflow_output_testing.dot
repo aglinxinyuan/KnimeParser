@@ -1,10 +1,10 @@
 digraph {
-	24 -> 25
-	8 -> 24
-	23 -> 24
-	23 [label="Workflow Reader"]
-	24 [label="Workflow Executor"]
-	8 [label="Table Reader"]
-	25 [label="Table Validator"]
+	"6032407116406040529_24" [label="Workflow Executor"]
+	"6032407116406040529_8" [label="Table Reader"]
+	"6032407116406040529_25" [label="Table Validator"]
+	"6032407116406040529_23" [label="Workflow Reader"]
+	"6032407116406040529_8" -> "6032407116406040529_24"
+	"6032407116406040529_24" -> "6032407116406040529_25"
+	"6032407116406040529_23" -> "6032407116406040529_24"
 	rankdir=LR
 }

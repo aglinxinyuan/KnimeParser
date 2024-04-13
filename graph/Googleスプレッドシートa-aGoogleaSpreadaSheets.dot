@@ -1,16 +1,16 @@
 digraph {
-	5 -> 4
-	1 -> 10
-	6 -> 10
-	4 -> 11
-	4 -> 1
-	10 -> 11
-	4 -> 6
-	5 [label="Google Authentication"]
-	1 [label="Google Sheets Reader"]
-	11 [label="Google Sheets Writer"]
-	4 [label="Google Sheets Connection"]
-	6 [label="Google Sheets Reader"]
-	10 [label=Joiner]
+	"5074092766695977959_11" [label="Google Sheets Writer"]
+	"5074092766695977959_10" [label=Joiner]
+	"5074092766695977959_6" [label="Google Sheets Reader"]
+	"5074092766695977959_4" [label="Google Sheets Connection"]
+	"5074092766695977959_5" [label="Google Authentication"]
+	"5074092766695977959_1" [label="Google Sheets Reader"]
+	"5074092766695977959_4" -> "5074092766695977959_1"
+	"5074092766695977959_4" -> "5074092766695977959_6"
+	"5074092766695977959_1" -> "5074092766695977959_10"
+	"5074092766695977959_5" -> "5074092766695977959_4"
+	"5074092766695977959_6" -> "5074092766695977959_10"
+	"5074092766695977959_4" -> "5074092766695977959_11"
+	"5074092766695977959_10" -> "5074092766695977959_11"
 	rankdir=LR
 }

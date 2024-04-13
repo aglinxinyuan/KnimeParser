@@ -1,11 +1,11 @@
 digraph {
-	7 -> 8
-	9 -> 6
-	9 -> 5
-	5 [label="Cell Splitter"]
-	7 [label="Table Creator"]
-	9 [label="Table Reader"]
-	6 [label="Cell Splitter"]
-	8 [label="Cell Splitter By Position"]
+	"-2337990869298062520_6" [label="Cell Splitter"]
+	"-2337990869298062520_5" [label="Cell Splitter"]
+	"-2337990869298062520_9" [label="Table Reader"]
+	"-2337990869298062520_8" [label="Cell Splitter By Position"]
+	"-2337990869298062520_7" [label="Table Creator"]
+	"-2337990869298062520_9" -> "-2337990869298062520_6"
+	"-2337990869298062520_7" -> "-2337990869298062520_8"
+	"-2337990869298062520_9" -> "-2337990869298062520_5"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Local File System Connector"]
-	3 [label="Workflow Executor"]
-	2 [label="Workflow Reader"]
+	"7263867549362281243_1" [label="Local File System Connector"]
+	"7263867549362281243_2" [label="Workflow Reader"]
+	"7263867549362281243_3" [label="Workflow Executor"]
+	"7263867549362281243_1" -> "7263867549362281243_2"
+	"7263867549362281243_2" -> "7263867549362281243_3"
 	rankdir=LR
 }

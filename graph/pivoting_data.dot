@@ -1,10 +1,10 @@
 digraph {
-	10 -> 7
-	8 -> 10
-	6 -> 8
-	7 [label=Pivoting]
-	10 [label="Moving Aggregation"]
-	6 [label="Table Creator"]
-	8 [label="Column Expressions"]
+	"-6467482533015250293_8" [label="Column Expressions"]
+	"-6467482533015250293_6" [label="Table Creator"]
+	"-6467482533015250293_7" [label=Pivoting]
+	"-6467482533015250293_10" [label="Moving Aggregation"]
+	"-6467482533015250293_10" -> "-6467482533015250293_7"
+	"-6467482533015250293_6" -> "-6467482533015250293_8"
+	"-6467482533015250293_8" -> "-6467482533015250293_10"
 	rankdir=LR
 }

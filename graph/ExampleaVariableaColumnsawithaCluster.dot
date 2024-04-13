@@ -1,9 +1,9 @@
 digraph {
-	2 -> 3
-	1 -> 3
-	1 -> 2
-	1 [label="Data Generator"]
-	3 [label="Hierarchical Clustering"]
-	2 [label="Column Filter Widget"]
+	"-245960704595557272_3" [label="Hierarchical Clustering"]
+	"-245960704595557272_1" [label="Data Generator"]
+	"-245960704595557272_2" [label="Column Filter Widget"]
+	"-245960704595557272_1" -> "-245960704595557272_2"
+	"-245960704595557272_1" -> "-245960704595557272_3"
+	"-245960704595557272_2" -> "-245960704595557272_3"
 	rankdir=LR
 }

@@ -1,21 +1,21 @@
 digraph {
-	4 -> 5
-	3 -> 1
-	11 -> 9
-	1 -> 2
-	9 -> 10
-	2 -> 5
-	7 -> 6
-	5 -> 7
-	5 [label="DB Merge"]
-	1 [label="Webpage Retriever"]
-	7 [label="DB Connection Extractor"]
-	9 [label="DB Table Selector"]
-	11 [label="SQLite Connector"]
-	4 [label="SQLite Connector"]
-	6 [label="DB Connection Closer"]
-	3 [label="Table Creator"]
-	2 [label=XPath]
-	10 [label="DB Reader"]
+	"5865904032406036743_6" [label="DB Connection Closer"]
+	"5865904032406036743_5" [label="DB Merge"]
+	"5865904032406036743_3" [label="Table Creator"]
+	"5865904032406036743_2" [label=XPath]
+	"5865904032406036743_11" [label="SQLite Connector"]
+	"5865904032406036743_7" [label="DB Connection Extractor"]
+	"5865904032406036743_1" [label="Webpage Retriever"]
+	"5865904032406036743_10" [label="DB Reader"]
+	"5865904032406036743_4" [label="SQLite Connector"]
+	"5865904032406036743_9" [label="DB Table Selector"]
+	"5865904032406036743_9" -> "5865904032406036743_10"
+	"5865904032406036743_4" -> "5865904032406036743_5"
+	"5865904032406036743_1" -> "5865904032406036743_2"
+	"5865904032406036743_5" -> "5865904032406036743_7"
+	"5865904032406036743_2" -> "5865904032406036743_5"
+	"5865904032406036743_7" -> "5865904032406036743_6"
+	"5865904032406036743_11" -> "5865904032406036743_9"
+	"5865904032406036743_3" -> "5865904032406036743_1"
 	rankdir=LR
 }

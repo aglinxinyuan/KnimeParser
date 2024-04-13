@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Excel Reader"]
-	2 [label=GroupBy]
+	"-2058916906357005452_2" [label=GroupBy]
+	"-2058916906357005452_1" [label="Excel Reader"]
+	"-2058916906357005452_1" -> "-2058916906357005452_2"
 	rankdir=LR
 }

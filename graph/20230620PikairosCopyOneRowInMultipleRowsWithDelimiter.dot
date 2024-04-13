@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label=Ungroup]
-	2 [label="Cell Splitter"]
+	"-5006920830019372881_3" [label=Ungroup]
+	"-5006920830019372881_1" [label="Table Creator"]
+	"-5006920830019372881_2" [label="Cell Splitter"]
+	"-5006920830019372881_1" -> "-5006920830019372881_2"
+	"-5006920830019372881_2" -> "-5006920830019372881_3"
 	rankdir=LR
 }

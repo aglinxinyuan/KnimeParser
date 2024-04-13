@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	4 -> 2
-	4 [label="CSV Reader"]
-	3 [label="Math Formula"]
-	2 [label="Lag Column"]
+	"-6979435857490973062_4" [label="CSV Reader"]
+	"-6979435857490973062_3" [label="Math Formula"]
+	"-6979435857490973062_2" [label="Lag Column"]
+	"-6979435857490973062_4" -> "-6979435857490973062_2"
+	"-6979435857490973062_2" -> "-6979435857490973062_3"
 	rankdir=LR
 }

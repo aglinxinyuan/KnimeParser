@@ -1,8 +1,8 @@
 digraph {
-	189 -> 190
-	189 -> 191
-	189 [label="SQLite Connector"]
-	190 [label="DB Table Selector"]
-	191 [label="DB Table Selector"]
+	"-1984202633605873283_189" [label="SQLite Connector"]
+	"-1984202633605873283_190" [label="DB Table Selector"]
+	"-1984202633605873283_191" [label="DB Table Selector"]
+	"-1984202633605873283_189" -> "-1984202633605873283_191"
+	"-1984202633605873283_189" -> "-1984202633605873283_190"
 	rankdir=LR
 }

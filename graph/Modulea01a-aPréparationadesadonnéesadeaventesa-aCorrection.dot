@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 3
-	1 [label="Excel Reader _XLS_"]
-	4 [label="Excel Writer _XLS_"]
-	3 [label="Insert Column Header"]
-	2 [label="Excel Reader _XLS_"]
+	"9024457482640258336_4" [label="Excel Writer _XLS_"]
+	"9024457482640258336_3" [label="Insert Column Header"]
+	"9024457482640258336_2" [label="Excel Reader _XLS_"]
+	"9024457482640258336_1" [label="Excel Reader _XLS_"]
+	"9024457482640258336_2" -> "9024457482640258336_3"
+	"9024457482640258336_1" -> "9024457482640258336_3"
+	"9024457482640258336_3" -> "9024457482640258336_4"
 	rankdir=LR
 }

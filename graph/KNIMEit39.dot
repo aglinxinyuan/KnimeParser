@@ -1,19 +1,19 @@
 digraph {
-	3 -> 2
-	8 -> 7
-	5 -> 6
-	2 -> 5
-	6 -> 9
-	6 -> 7
-	1 -> 3
-	6 -> 8
-	5 [label="Column Filter"]
-	1 [label="Google Authentication"]
-	7 [label="Bar Chart"]
-	9 [label="Histogram _local_"]
-	6 [label=GroupBy]
-	8 [label="Color Manager"]
-	3 [label="Google Sheets Connection"]
-	2 [label="Google Sheets Reader"]
+	"3888955289533604261_6" [label=GroupBy]
+	"3888955289533604261_1" [label="Google Authentication"]
+	"3888955289533604261_2" [label="Google Sheets Reader"]
+	"3888955289533604261_9" [label="Histogram _local_"]
+	"3888955289533604261_5" [label="Column Filter"]
+	"3888955289533604261_3" [label="Google Sheets Connection"]
+	"3888955289533604261_8" [label="Color Manager"]
+	"3888955289533604261_7" [label="Bar Chart"]
+	"3888955289533604261_5" -> "3888955289533604261_6"
+	"3888955289533604261_6" -> "3888955289533604261_7"
+	"3888955289533604261_8" -> "3888955289533604261_7"
+	"3888955289533604261_6" -> "3888955289533604261_9"
+	"3888955289533604261_1" -> "3888955289533604261_3"
+	"3888955289533604261_3" -> "3888955289533604261_2"
+	"3888955289533604261_2" -> "3888955289533604261_5"
+	"3888955289533604261_6" -> "3888955289533604261_8"
 	rankdir=LR
 }

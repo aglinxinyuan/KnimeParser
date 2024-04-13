@@ -1,20 +1,20 @@
 digraph {
-	10 -> 13
-	11 -> 10
-	7 -> 8
-	4 -> 5
-	9 -> 12
-	5 -> 10
-	5 -> 9
-	5 -> 7
-	5 [label="Strings To Document"]
-	13 [label="Tagged Document Viewer"]
-	7 [label="POS Tagger"]
-	9 [label="StanfordNLP NE Tagger"]
-	11 [label="Table Creator"]
-	4 [label="Tika Parser"]
-	8 [label="Tagged Document Viewer"]
-	12 [label="Tagged Document Viewer"]
-	10 [label="Wildcard Tagger"]
+	"8822093552550078408_4" [label="Tika Parser"]
+	"8822093552550078408_7" [label="POS Tagger"]
+	"8822093552550078408_8" [label="Tagged Document Viewer"]
+	"8822093552550078408_9" [label="StanfordNLP NE Tagger"]
+	"8822093552550078408_12" [label="Tagged Document Viewer"]
+	"8822093552550078408_13" [label="Tagged Document Viewer"]
+	"8822093552550078408_10" [label="Wildcard Tagger"]
+	"8822093552550078408_11" [label="Table Creator"]
+	"8822093552550078408_5" [label="Strings To Document"]
+	"8822093552550078408_5" -> "8822093552550078408_9"
+	"8822093552550078408_5" -> "8822093552550078408_7"
+	"8822093552550078408_4" -> "8822093552550078408_5"
+	"8822093552550078408_7" -> "8822093552550078408_8"
+	"8822093552550078408_10" -> "8822093552550078408_13"
+	"8822093552550078408_5" -> "8822093552550078408_10"
+	"8822093552550078408_9" -> "8822093552550078408_12"
+	"8822093552550078408_11" -> "8822093552550078408_10"
 	rankdir=LR
 }

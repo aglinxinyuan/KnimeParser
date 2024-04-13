@@ -1,6 +1,6 @@
 digraph {
-	15 -> 5
-	5 [label="External Tool"]
-	15 [label="Table Creator"]
+	"8481314737222341726_15" [label="Table Creator"]
+	"8481314737222341726_5" [label="External Tool"]
+	"8481314737222341726_15" -> "8481314737222341726_5"
 	rankdir=LR
 }

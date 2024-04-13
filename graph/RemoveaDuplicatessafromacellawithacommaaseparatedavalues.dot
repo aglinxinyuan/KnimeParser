@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	3 -> 6
-	1 [label="Table Creator"]
-	3 [label="Cell Splitter"]
-	6 [label="Column Aggregator"]
+	"-8658183436620869838_3" [label="Cell Splitter"]
+	"-8658183436620869838_6" [label="Column Aggregator"]
+	"-8658183436620869838_1" [label="Table Creator"]
+	"-8658183436620869838_1" -> "-8658183436620869838_3"
+	"-8658183436620869838_3" -> "-8658183436620869838_6"
 	rankdir=LR
 }

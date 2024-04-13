@@ -1,10 +1,10 @@
 digraph {
-	3 -> 6
-	1 -> 3
-	6 -> 4
-	1 [label="Excel Reader"]
-	4 [label="Variable Loop End"]
-	3 [label="Group Loop Start"]
-	6 [label="Excel Writer"]
+	"3811332280618849487_4" [label="Variable Loop End"]
+	"3811332280618849487_6" [label="Excel Writer"]
+	"3811332280618849487_3" [label="Group Loop Start"]
+	"3811332280618849487_1" [label="Excel Reader"]
+	"3811332280618849487_6" -> "3811332280618849487_4"
+	"3811332280618849487_3" -> "3811332280618849487_6"
+	"3811332280618849487_1" -> "3811332280618849487_3"
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	5 -> 3
-	3 -> 6
-	5 [label="Conda Environment Propagation"]
-	6 [label="Table Writer"]
-	3 [label="Python Script"]
-	2 [label="CSV Reader"]
+	"-6162495217517896734_2" [label="CSV Reader"]
+	"-6162495217517896734_3" [label="Python Script"]
+	"-6162495217517896734_6" [label="Table Writer"]
+	"-6162495217517896734_5" [label="Conda Environment Propagation"]
+	"-6162495217517896734_5" -> "-6162495217517896734_3"
+	"-6162495217517896734_3" -> "-6162495217517896734_6"
+	"-6162495217517896734_2" -> "-6162495217517896734_3"
 	rankdir=LR
 }

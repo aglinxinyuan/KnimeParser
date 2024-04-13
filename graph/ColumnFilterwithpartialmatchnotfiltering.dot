@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	2 -> 1
-	1 [label="Column Filter"]
-	3 [label="Column Filter"]
-	2 [label="Table Creator"]
+	"-9221693991140578445_3" [label="Column Filter"]
+	"-9221693991140578445_1" [label="Column Filter"]
+	"-9221693991140578445_2" [label="Table Creator"]
+	"-9221693991140578445_2" -> "-9221693991140578445_3"
+	"-9221693991140578445_2" -> "-9221693991140578445_1"
 	rankdir=LR
 }

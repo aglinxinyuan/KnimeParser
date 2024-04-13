@@ -1,8 +1,8 @@
 digraph {
-	2 -> 5
-	1 -> 5
-	1 [label="Table Creator"]
-	5 [label="Binner _Dictionary_"]
-	2 [label="Table Creator"]
+	"-4872359815226383407_1" [label="Table Creator"]
+	"-4872359815226383407_2" [label="Table Creator"]
+	"-4872359815226383407_5" [label="Binner _Dictionary_"]
+	"-4872359815226383407_2" -> "-4872359815226383407_5"
+	"-4872359815226383407_1" -> "-4872359815226383407_5"
 	rankdir=LR
 }

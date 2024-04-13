@@ -1,6 +1,6 @@
 digraph {
-	2 -> 3
-	3 [label="Regex Extractor"]
-	2 [label="Table Creator"]
+	"-7376764044575949822_2" [label="Table Creator"]
+	"-7376764044575949822_3" [label="Regex Extractor"]
+	"-7376764044575949822_2" -> "-7376764044575949822_3"
 	rankdir=LR
 }

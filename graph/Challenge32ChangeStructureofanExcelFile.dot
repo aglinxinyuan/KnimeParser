@@ -1,12 +1,12 @@
 digraph {
-	64 -> 65
-	65 -> 66
-	59 -> 63
-	63 -> 64
-	64 [label=Pivoting]
-	66 [label="Excel Writer"]
-	65 [label="Column Rename _Regex_"]
-	63 [label="Create Collection Column"]
-	59 [label="Excel Reader"]
+	"-731986177482327692_59" [label="Excel Reader"]
+	"-731986177482327692_64" [label=Pivoting]
+	"-731986177482327692_63" [label="Create Collection Column"]
+	"-731986177482327692_66" [label="Excel Writer"]
+	"-731986177482327692_65" [label="Column Rename _Regex_"]
+	"-731986177482327692_59" -> "-731986177482327692_63"
+	"-731986177482327692_65" -> "-731986177482327692_66"
+	"-731986177482327692_64" -> "-731986177482327692_65"
+	"-731986177482327692_63" -> "-731986177482327692_64"
 	rankdir=LR
 }

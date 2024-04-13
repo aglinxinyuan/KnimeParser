@@ -1,10 +1,10 @@
 digraph {
-	279 -> 283
-	278 -> 279
-	278 -> 280
-	280 [label="DB Table Selector"]
-	279 [label="DB Table Selector"]
-	278 [label="SQLite Connector"]
-	283 [label="DB Reader"]
+	"-525262661944794311_278" [label="SQLite Connector"]
+	"-525262661944794311_283" [label="DB Reader"]
+	"-525262661944794311_280" [label="DB Table Selector"]
+	"-525262661944794311_279" [label="DB Table Selector"]
+	"-525262661944794311_279" -> "-525262661944794311_283"
+	"-525262661944794311_278" -> "-525262661944794311_279"
+	"-525262661944794311_278" -> "-525262661944794311_280"
 	rankdir=LR
 }

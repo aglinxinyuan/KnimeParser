@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="Row to Column Header"]
-	2 [label="Row to Column Header"]
+	"-8829731442836548336_2" [label="Row to Column Header"]
+	"-8829731442836548336_1" [label="Table Creator"]
+	"-8829731442836548336_3" [label="Row to Column Header"]
+	"-8829731442836548336_1" -> "-8829731442836548336_3"
+	"-8829731442836548336_1" -> "-8829731442836548336_2"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	8 -> 10
-	10 -> 3
-	3 [label="RDKit Molecule Highlighting"]
-	8 [label="Table Reader"]
-	10 [label="RDKit Molecule Catalog Filter"]
+	"-1426571125597013131_8" [label="Table Reader"]
+	"-1426571125597013131_3" [label="RDKit Molecule Highlighting"]
+	"-1426571125597013131_10" [label="RDKit Molecule Catalog Filter"]
+	"-1426571125597013131_10" -> "-1426571125597013131_3"
+	"-1426571125597013131_8" -> "-1426571125597013131_10"
 	rankdir=LR
 }

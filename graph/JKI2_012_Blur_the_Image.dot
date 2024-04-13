@@ -1,8 +1,8 @@
 digraph {
-	18 -> 16
-	1 -> 18
-	1 [label="Image Reader"]
-	18 [label="Gaussian Convolution"]
-	16 [label="Image Viewer"]
+	"2236745372872381904_1" [label="Image Reader"]
+	"2236745372872381904_16" [label="Image Viewer"]
+	"2236745372872381904_18" [label="Gaussian Convolution"]
+	"2236745372872381904_1" -> "2236745372872381904_18"
+	"2236745372872381904_18" -> "2236745372872381904_16"
 	rankdir=LR
 }

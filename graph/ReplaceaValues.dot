@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="CSV Reader"]
-	2 [label="String Replacer"]
+	"-1466148935737043608_2" [label="String Replacer"]
+	"-1466148935737043608_1" [label="CSV Reader"]
+	"-1466148935737043608_1" -> "-1466148935737043608_2"
 	rankdir=LR
 }

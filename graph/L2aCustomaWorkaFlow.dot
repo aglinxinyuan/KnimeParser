@@ -1,20 +1,20 @@
 digraph {
-	32 -> 2
-	8 -> 15
-	15 -> 14
-	9 -> 8
-	4 -> 8
-	3 -> 4
-	4 -> 15
-	2 -> 3
-	4 -> 9
-	9 [label="XLS Font Formatter"]
-	4 [label="XLS Control Table Generator"]
-	8 [label="XLS Sheet Properties"]
-	15 [label="XLS Row and Column Sizer"]
-	14 [label="XLS Formatter _apply_"]
-	32 [label="Excel Reader"]
-	3 [label="Rule Engine"]
-	2 [label="XLS Control Table Generator"]
+	"-8724529467544643112_15" [label="XLS Row and Column Sizer"]
+	"-8724529467544643112_9" [label="XLS Font Formatter"]
+	"-8724529467544643112_14" [label="XLS Formatter _apply_"]
+	"-8724529467544643112_8" [label="XLS Sheet Properties"]
+	"-8724529467544643112_2" [label="XLS Control Table Generator"]
+	"-8724529467544643112_3" [label="Rule Engine"]
+	"-8724529467544643112_32" [label="Excel Reader"]
+	"-8724529467544643112_4" [label="XLS Control Table Generator"]
+	"-8724529467544643112_3" -> "-8724529467544643112_4"
+	"-8724529467544643112_4" -> "-8724529467544643112_8"
+	"-8724529467544643112_2" -> "-8724529467544643112_3"
+	"-8724529467544643112_15" -> "-8724529467544643112_14"
+	"-8724529467544643112_32" -> "-8724529467544643112_2"
+	"-8724529467544643112_8" -> "-8724529467544643112_15"
+	"-8724529467544643112_9" -> "-8724529467544643112_8"
+	"-8724529467544643112_4" -> "-8724529467544643112_15"
+	"-8724529467544643112_4" -> "-8724529467544643112_9"
 	rankdir=LR
 }

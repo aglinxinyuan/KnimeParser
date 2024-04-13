@@ -1,25 +1,25 @@
 digraph {
-	50 -> 52
-	47 -> 49
-	14 -> 27
-	7 -> 26
-	50 -> 51
-	49 -> 48
-	45 -> 25
-	44 -> 24
-	24 [label="Table Writer"]
-	27 [label="Table Writer"]
-	48 [label="Delete Files"]
-	50 [label="Empty Table Creator"]
-	44 [label="Table Creator"]
-	7 [label="Table Creator"]
-	49 [label="String to URI"]
-	51 [label="Call Local Workflow"]
-	52 [label="Call Local Workflow"]
-	26 [label="Table Writer"]
-	47 [label="List Files"]
-	25 [label="Table Writer"]
-	14 [label="Table Creator"]
-	45 [label="Table Creator"]
+	"-4952345792434862178_50" [label="Empty Table Creator"]
+	"-4952345792434862178_14" [label="Table Creator"]
+	"-4952345792434862178_52" [label="Call Local Workflow"]
+	"-4952345792434862178_49" [label="String to URI"]
+	"-4952345792434862178_26" [label="Table Writer"]
+	"-4952345792434862178_25" [label="Table Writer"]
+	"-4952345792434862178_27" [label="Table Writer"]
+	"-4952345792434862178_44" [label="Table Creator"]
+	"-4952345792434862178_7" [label="Table Creator"]
+	"-4952345792434862178_47" [label="List Files"]
+	"-4952345792434862178_48" [label="Delete Files"]
+	"-4952345792434862178_51" [label="Call Local Workflow"]
+	"-4952345792434862178_24" [label="Table Writer"]
+	"-4952345792434862178_45" [label="Table Creator"]
+	"-4952345792434862178_7" -> "-4952345792434862178_26"
+	"-4952345792434862178_47" -> "-4952345792434862178_49"
+	"-4952345792434862178_49" -> "-4952345792434862178_48"
+	"-4952345792434862178_44" -> "-4952345792434862178_24"
+	"-4952345792434862178_50" -> "-4952345792434862178_52"
+	"-4952345792434862178_45" -> "-4952345792434862178_25"
+	"-4952345792434862178_14" -> "-4952345792434862178_27"
+	"-4952345792434862178_50" -> "-4952345792434862178_51"
 	rankdir=LR
 }

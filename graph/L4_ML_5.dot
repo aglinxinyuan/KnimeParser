@@ -1,30 +1,30 @@
 digraph {
-	12 -> 13
-	7 -> 8
-	7 -> 10
-	8 -> 10
-	1 -> 5
-	9 -> 12
-	7 -> 12
-	1 -> 6
-	1 -> 2
-	1 -> 7
-	2 -> 3
-	10 -> 11
-	2 -> 4
-	7 -> 9
-	5 [label="Decision Tree Learner"]
-	13 [label=Scorer]
-	1 [label="Table Reader"]
-	7 [label=Partitioning]
-	9 [label="Decision Tree Learner"]
-	11 [label=Scorer]
-	4 [label="Scatter Plot _JavaScript_"]
-	6 [label="Decision Tree Learner"]
-	8 [label="Decision Tree Learner"]
-	12 [label="Decision Tree Predictor"]
-	3 [label="Scatter Plot _JavaScript_"]
-	2 [label="Color Manager"]
-	10 [label="Decision Tree Predictor"]
+	"2932549043462120182_3" [label="Scatter Plot _JavaScript_"]
+	"2932549043462120182_2" [label="Color Manager"]
+	"2932549043462120182_10" [label="Decision Tree Predictor"]
+	"2932549043462120182_11" [label=Scorer]
+	"2932549043462120182_13" [label=Scorer]
+	"2932549043462120182_6" [label="Decision Tree Learner"]
+	"2932549043462120182_8" [label="Decision Tree Learner"]
+	"2932549043462120182_1" [label="Table Reader"]
+	"2932549043462120182_9" [label="Decision Tree Learner"]
+	"2932549043462120182_12" [label="Decision Tree Predictor"]
+	"2932549043462120182_4" [label="Scatter Plot _JavaScript_"]
+	"2932549043462120182_7" [label=Partitioning]
+	"2932549043462120182_5" [label="Decision Tree Learner"]
+	"2932549043462120182_7" -> "2932549043462120182_10"
+	"2932549043462120182_2" -> "2932549043462120182_3"
+	"2932549043462120182_7" -> "2932549043462120182_8"
+	"2932549043462120182_1" -> "2932549043462120182_5"
+	"2932549043462120182_1" -> "2932549043462120182_2"
+	"2932549043462120182_2" -> "2932549043462120182_4"
+	"2932549043462120182_7" -> "2932549043462120182_12"
+	"2932549043462120182_12" -> "2932549043462120182_13"
+	"2932549043462120182_9" -> "2932549043462120182_12"
+	"2932549043462120182_10" -> "2932549043462120182_11"
+	"2932549043462120182_1" -> "2932549043462120182_7"
+	"2932549043462120182_1" -> "2932549043462120182_6"
+	"2932549043462120182_8" -> "2932549043462120182_10"
+	"2932549043462120182_7" -> "2932549043462120182_9"
 	rankdir=LR
 }

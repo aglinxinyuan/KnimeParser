@@ -1,10 +1,10 @@
 digraph {
-	71 -> 74
-	56 -> 71
-	45 -> 56
-	74 [label="RDKit Functional Group Filter"]
-	56 [label="RDKit From Molecule"]
-	71 [label="RDKit Salt Stripper"]
-	45 [label="Table Creator"]
+	"-6997047570205403561_45" [label="Table Creator"]
+	"-6997047570205403561_74" [label="RDKit Functional Group Filter"]
+	"-6997047570205403561_71" [label="RDKit Salt Stripper"]
+	"-6997047570205403561_56" [label="RDKit From Molecule"]
+	"-6997047570205403561_45" -> "-6997047570205403561_56"
+	"-6997047570205403561_56" -> "-6997047570205403561_71"
+	"-6997047570205403561_71" -> "-6997047570205403561_74"
 	rankdir=LR
 }

@@ -1,16 +1,16 @@
 digraph {
-	82 -> 143
-	143 -> 144
-	147 -> 141
-	140 -> 147
-	146 -> 147
-	144 -> 146
-	144 [label="OpenAI Embeddings Connector"]
-	140 [label="Table Creator"]
-	82 [label="Credentials Configuration"]
-	143 [label="OpenAI Authenticator"]
-	147 [label="Vector Store Retriever"]
-	146 [label="FAISS Vector Store Reader"]
-	141 [label=Ungroup]
+	"3575609577174266699_143" [label="OpenAI Authenticator"]
+	"3575609577174266699_147" [label="Vector Store Retriever"]
+	"3575609577174266699_144" [label="OpenAI Embeddings Connector"]
+	"3575609577174266699_141" [label=Ungroup]
+	"3575609577174266699_82" [label="Credentials Configuration"]
+	"3575609577174266699_146" [label="FAISS Vector Store Reader"]
+	"3575609577174266699_140" [label="Table Creator"]
+	"3575609577174266699_144" -> "3575609577174266699_146"
+	"3575609577174266699_82" -> "3575609577174266699_143"
+	"3575609577174266699_140" -> "3575609577174266699_147"
+	"3575609577174266699_147" -> "3575609577174266699_141"
+	"3575609577174266699_146" -> "3575609577174266699_147"
+	"3575609577174266699_143" -> "3575609577174266699_144"
 	rankdir=LR
 }

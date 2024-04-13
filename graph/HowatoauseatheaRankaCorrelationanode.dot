@@ -1,6 +1,6 @@
 digraph {
-	9 -> 1
-	1 [label="Rank Correlation"]
-	9 [label="File Reader"]
+	"1379177693609458297_1" [label="Rank Correlation"]
+	"1379177693609458297_9" [label="File Reader"]
+	"1379177693609458297_9" -> "1379177693609458297_1"
 	rankdir=LR
 }

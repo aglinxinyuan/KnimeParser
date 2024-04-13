@@ -1,12 +1,12 @@
 digraph {
-	11 -> 10
-	1 -> 11
-	11 -> 4
-	1 -> 10
-	10 -> 4
-	1 [label="Boosting Learner Loop Start"]
-	4 [label="Boosting Learner Loop End"]
-	11 [label="Naive Bayes Learner"]
-	10 [label="Naive Bayes Predictor"]
+	"-5324281869964507924_10" [label="Naive Bayes Predictor"]
+	"-5324281869964507924_1" [label="Boosting Learner Loop Start"]
+	"-5324281869964507924_11" [label="Naive Bayes Learner"]
+	"-5324281869964507924_4" [label="Boosting Learner Loop End"]
+	"-5324281869964507924_11" -> "-5324281869964507924_10"
+	"-5324281869964507924_11" -> "-5324281869964507924_4"
+	"-5324281869964507924_1" -> "-5324281869964507924_10"
+	"-5324281869964507924_10" -> "-5324281869964507924_4"
+	"-5324281869964507924_1" -> "-5324281869964507924_11"
 	rankdir=LR
 }

@@ -1,28 +1,28 @@
 digraph {
-	48 -> 139
-	141 -> 134
-	55 -> 142
-	50 -> 142
-	140 -> 141
-	2 -> 1
-	142 -> 140
-	136 -> 142
-	139 -> 142
-	138 -> 139
-	1 -> 142
-	137 -> 48
-	48 [label="Merge Variables"]
-	55 [label="String Widget"]
-	50 [label="String Widget"]
-	1 [label="Amazon S3 Connector"]
-	137 [label="String to Path _Variable_"]
-	139 [label="Merge Variables"]
-	140 [label="Table Column to Variable"]
-	136 [label="String Widget"]
-	142 [label="Transfer Files"]
-	138 [label="String to Path _Variable_"]
-	134 [label="Parquet Reader"]
-	2 [label="Amazon Authentication"]
-	141 [label="String to Path _Variable_"]
+	"-2923865202178798781_2" [label="Amazon Authentication"]
+	"3580104366489954980_48" [label="Merge Variables"]
+	"3580104366489954980_140" [label="Table Column to Variable"]
+	"-5124274012503656487_134" [label="Parquet Reader"]
+	"3580104366489954980_137" [label="String to Path _Variable_"]
+	"3580104366489954980_142" [label="Transfer Files"]
+	"3580104366489954980_138" [label="String to Path _Variable_"]
+	"-5124274012503656487_55" [label="String Widget"]
+	"-5124274012503656487_136" [label="String Widget"]
+	"-5124274012503656487_50" [label="String Widget"]
+	"-2923865202178798781_1" [label="Amazon S3 Connector"]
+	"3580104366489954980_141" [label="String to Path _Variable_"]
+	"3580104366489954980_139" [label="Merge Variables"]
+	"3580104366489954980_142" -> "3580104366489954980_140"
+	"-5124274012503656487_55" -> "3580104366489954980_142"
+	"-2923865202178798781_2" -> "-2923865202178798781_1"
+	"-5124274012503656487_136" -> "3580104366489954980_142"
+	"-2923865202178798781_1" -> "3580104366489954980_142"
+	"3580104366489954980_48" -> "3580104366489954980_139"
+	"-5124274012503656487_50" -> "3580104366489954980_142"
+	"3580104366489954980_137" -> "3580104366489954980_48"
+	"3580104366489954980_140" -> "3580104366489954980_141"
+	"3580104366489954980_138" -> "3580104366489954980_139"
+	"3580104366489954980_139" -> "3580104366489954980_142"
+	"3580104366489954980_141" -> "-5124274012503656487_134"
 	rankdir=LR
 }

@@ -1,8 +1,8 @@
 digraph {
-	1 -> 3
-	1 -> 2
-	1 [label="Excel Reader"]
-	3 [label="Column Filter"]
-	2 [label="Row Filter"]
+	"385418485076025267_2" [label="Row Filter"]
+	"385418485076025267_1" [label="Excel Reader"]
+	"385418485076025267_3" [label="Column Filter"]
+	"385418485076025267_1" -> "385418485076025267_2"
+	"385418485076025267_1" -> "385418485076025267_3"
 	rankdir=LR
 }

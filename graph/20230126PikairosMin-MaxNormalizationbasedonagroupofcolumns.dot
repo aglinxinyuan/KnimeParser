@@ -1,13 +1,13 @@
 digraph {
-	10 -> 9
-	8 -> 9
-	8 -> 2
-	5 -> 10
-	2 -> 5
-	5 [label="Column Aggregator"]
-	9 [label="Math Formula _Multi Column_"]
-	8 [label="CSV Reader"]
-	2 [label=GroupBy]
-	10 [label="Table Row to Variable"]
+	"-7587121953964118795_8" [label="CSV Reader"]
+	"-7587121953964118795_9" [label="Math Formula _Multi Column_"]
+	"-7587121953964118795_5" [label="Column Aggregator"]
+	"-7587121953964118795_2" [label=GroupBy]
+	"-7587121953964118795_10" [label="Table Row to Variable"]
+	"-7587121953964118795_8" -> "-7587121953964118795_9"
+	"-7587121953964118795_10" -> "-7587121953964118795_9"
+	"-7587121953964118795_5" -> "-7587121953964118795_10"
+	"-7587121953964118795_8" -> "-7587121953964118795_2"
+	"-7587121953964118795_2" -> "-7587121953964118795_5"
 	rankdir=LR
 }

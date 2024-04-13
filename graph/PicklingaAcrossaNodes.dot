@@ -1,9 +1,9 @@
 digraph {
-	3 -> 4
-	1 -> 2
-	1 [label="Python Source"]
-	4 [label="Python Script _1_1_"]
-	3 [label="Python Source"]
-	2 [label="Python Script _1_1_"]
+	"-80778916148730560_4" [label="Python Script _1_1_"]
+	"-80778916148730560_3" [label="Python Source"]
+	"-80778916148730560_2" [label="Python Script _1_1_"]
+	"-80778916148730560_1" [label="Python Source"]
+	"-80778916148730560_1" -> "-80778916148730560_2"
+	"-80778916148730560_3" -> "-80778916148730560_4"
 	rankdir=LR
 }

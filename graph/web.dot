@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="Column Filter"]
-	2 [label="Java Snippet"]
+	"300092825512826099_3" [label="Column Filter"]
+	"300092825512826099_2" [label="Java Snippet"]
+	"300092825512826099_1" [label="Table Creator"]
+	"300092825512826099_1" -> "300092825512826099_2"
+	"300092825512826099_2" -> "300092825512826099_3"
 	rankdir=LR
 }

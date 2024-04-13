@@ -1,12 +1,12 @@
 digraph {
-	9 -> 10
-	6 -> 9
-	10 -> 11
-	12 -> 6
-	9 [label="Column Expressions"]
-	11 [label="Column Expressions"]
-	10 [label="Column Expressions"]
-	6 [label="Column Expressions"]
-	12 [label="Table Creator"]
+	"-6126094671615796538_12" [label="Table Creator"]
+	"-6126094671615796538_10" [label="Column Expressions"]
+	"-6126094671615796538_6" [label="Column Expressions"]
+	"-6126094671615796538_11" [label="Column Expressions"]
+	"-6126094671615796538_9" [label="Column Expressions"]
+	"-6126094671615796538_10" -> "-6126094671615796538_11"
+	"-6126094671615796538_6" -> "-6126094671615796538_9"
+	"-6126094671615796538_12" -> "-6126094671615796538_6"
+	"-6126094671615796538_9" -> "-6126094671615796538_10"
 	rankdir=LR
 }

@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	1 -> 4
-	4 -> 2
-	3 -> 6
-	1 [label="Table Creator"]
-	4 [label="Duplicate Row Filter"]
-	6 [label="Missing Value"]
-	3 [label=Pivoting]
-	2 [label="Column Expressions"]
+	"5914623705890547636_4" [label="Duplicate Row Filter"]
+	"5914623705890547636_2" [label="Column Expressions"]
+	"5914623705890547636_6" [label="Missing Value"]
+	"5914623705890547636_3" [label=Pivoting]
+	"5914623705890547636_1" [label="Table Creator"]
+	"5914623705890547636_2" -> "5914623705890547636_3"
+	"5914623705890547636_3" -> "5914623705890547636_6"
+	"5914623705890547636_4" -> "5914623705890547636_2"
+	"5914623705890547636_1" -> "5914623705890547636_4"
 	rankdir=LR
 }

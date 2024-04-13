@@ -1,10 +1,10 @@
 digraph {
-	25 -> 26
-	27 -> 28
-	26 -> 27
-	26 [label="Moving Aggregation"]
-	27 [label="Math Formula"]
-	28 [label="Rule Engine"]
-	25 [label="Excel Reader _XLS_"]
+	"7414965483514306031_26" [label="Moving Aggregation"]
+	"7414965483514306031_28" [label="Rule Engine"]
+	"7414965483514306031_27" [label="Math Formula"]
+	"7414965483514306031_25" [label="Excel Reader _XLS_"]
+	"7414965483514306031_27" -> "7414965483514306031_28"
+	"7414965483514306031_26" -> "7414965483514306031_27"
+	"7414965483514306031_25" -> "7414965483514306031_26"
 	rankdir=LR
 }

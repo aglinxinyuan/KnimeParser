@@ -1,16 +1,16 @@
 digraph {
-	234 -> 235
-	235 -> 233
-	3 -> 5
-	234 -> 233
-	1 -> 3
-	3 -> 6
-	5 [label="Transfer Files"]
-	233 [label="Files_Folders Meta Info"]
-	1 [label="Amazon Authentication"]
-	235 [label="List Files_Folders"]
-	6 [label="Transfer Files"]
-	234 [label="Local File System Connector"]
-	3 [label="Amazon S3 Connector"]
+	"8499418969756687033_3" [label="Amazon S3 Connector"]
+	"8499418969756687033_233" [label="Files_Folders Meta Info"]
+	"8499418969756687033_235" [label="List Files_Folders"]
+	"8499418969756687033_234" [label="Local File System Connector"]
+	"8499418969756687033_5" [label="Transfer Files"]
+	"8499418969756687033_1" [label="Amazon Authentication"]
+	"8499418969756687033_6" [label="Transfer Files"]
+	"8499418969756687033_3" -> "8499418969756687033_5"
+	"8499418969756687033_1" -> "8499418969756687033_3"
+	"8499418969756687033_235" -> "8499418969756687033_233"
+	"8499418969756687033_3" -> "8499418969756687033_6"
+	"8499418969756687033_234" -> "8499418969756687033_235"
+	"8499418969756687033_234" -> "8499418969756687033_233"
 	rankdir=LR
 }

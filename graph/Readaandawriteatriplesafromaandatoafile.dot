@@ -1,13 +1,13 @@
 digraph {
-	1 -> 2
-	5 -> 6
-	3 -> 5
-	4 -> 5
-	5 [label="SPARQL Insert"]
-	1 [label="Table Reader"]
-	4 [label="Semantic Web File Reader"]
-	6 [label="SPARQL Endpoint File Writer"]
-	3 [label="In_Memory Endpoint"]
-	2 [label="Semantic Web File Writer"]
+	"4825681738542387273_6" [label="SPARQL Endpoint File Writer"]
+	"4825681738542387273_1" [label="Table Reader"]
+	"4825681738542387273_2" [label="Semantic Web File Writer"]
+	"4825681738542387273_4" [label="Semantic Web File Reader"]
+	"4825681738542387273_5" [label="SPARQL Insert"]
+	"4825681738542387273_3" [label="In_Memory Endpoint"]
+	"4825681738542387273_5" -> "4825681738542387273_6"
+	"4825681738542387273_1" -> "4825681738542387273_2"
+	"4825681738542387273_3" -> "4825681738542387273_5"
+	"4825681738542387273_4" -> "4825681738542387273_5"
 	rankdir=LR
 }

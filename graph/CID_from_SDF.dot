@@ -1,22 +1,22 @@
 digraph {
-	65 -> 72
-	76 -> 73
-	36 -> 35
-	37 -> 36
-	7 -> 37
-	74 -> 76
-	34 -> 65
-	72 -> 74
-	35 -> 34
-	35 [label="RDKit Canon SMILES"]
-	7 [label="SDF Reader"]
-	34 [label="Column Filter"]
-	65 [label="Row Splitter"]
-	36 [label="RDKit Salt Stripper"]
-	72 [label="String Manipulation"]
-	76 [label="Row Splitter"]
-	74 [label="String Manipulation"]
-	73 [label="GET Request"]
-	37 [label="RDKit From Molecule"]
+	"6312304640047016583_37" [label="RDKit From Molecule"]
+	"6312304640047016583_35" [label="RDKit Canon SMILES"]
+	"6312304640047016583_36" [label="RDKit Salt Stripper"]
+	"3253904415806104563_72" [label="String Manipulation"]
+	"3253904415806104563_65" [label="Row Splitter"]
+	"3253904415806104563_7" [label="SDF Reader"]
+	"3253904415806104563_34" [label="Column Filter"]
+	"3253904415806104563_73" [label="GET Request"]
+	"3253904415806104563_74" [label="String Manipulation"]
+	"3253904415806104563_76" [label="Row Splitter"]
+	"3253904415806104563_74" -> "3253904415806104563_76"
+	"3253904415806104563_65" -> "3253904415806104563_72"
+	"3253904415806104563_34" -> "3253904415806104563_65"
+	"6312304640047016583_37" -> "6312304640047016583_36"
+	"3253904415806104563_76" -> "3253904415806104563_73"
+	"6312304640047016583_35" -> "3253904415806104563_34"
+	"6312304640047016583_36" -> "6312304640047016583_35"
+	"3253904415806104563_7" -> "6312304640047016583_37"
+	"3253904415806104563_72" -> "3253904415806104563_74"
 	rankdir=LR
 }

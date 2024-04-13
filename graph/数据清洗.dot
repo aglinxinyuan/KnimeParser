@@ -1,12 +1,12 @@
 digraph {
-	2 -> 7
-	6 -> 7
-	7 -> 8
-	1 -> 2
-	1 [label="Excel Reader _XLS_"]
-	7 [label="Insert Column Header"]
-	6 [label="Excel Reader _XLS_"]
-	8 [label="Nominal Value Row Filter"]
-	2 [label="Row Filter"]
+	"6531907082710981317_8" [label="Nominal Value Row Filter"]
+	"6531907082710981317_7" [label="Insert Column Header"]
+	"6531907082710981317_6" [label="Excel Reader _XLS_"]
+	"6531907082710981317_2" [label="Row Filter"]
+	"6531907082710981317_1" [label="Excel Reader _XLS_"]
+	"6531907082710981317_7" -> "6531907082710981317_8"
+	"6531907082710981317_6" -> "6531907082710981317_7"
+	"6531907082710981317_2" -> "6531907082710981317_7"
+	"6531907082710981317_1" -> "6531907082710981317_2"
 	rankdir=LR
 }

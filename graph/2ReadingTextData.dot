@@ -1,15 +1,15 @@
 digraph {
-	62 -> 63
-	53 -> 60
-	63 -> 64
-	42 -> 53
-	60 -> 61
-	64 [label="Document Viewer"]
-	42 [label="Table Creator"]
-	62 [label="Tika Parser"]
-	53 [label="RSS Feed Reader"]
-	61 [label="Strings To Document"]
-	63 [label="Strings To Document"]
-	60 [label="Column Filter"]
+	"-5982037362028509286_60" [label="Column Filter"]
+	"-5982037362028509286_61" [label="Strings To Document"]
+	"-5982037362028509286_53" [label="RSS Feed Reader"]
+	"-5982037362028509286_42" [label="Table Creator"]
+	"-5982037362028509286_62" [label="Tika Parser"]
+	"-5982037362028509286_64" [label="Document Viewer"]
+	"-5982037362028509286_63" [label="Strings To Document"]
+	"-5982037362028509286_62" -> "-5982037362028509286_63"
+	"-5982037362028509286_42" -> "-5982037362028509286_53"
+	"-5982037362028509286_60" -> "-5982037362028509286_61"
+	"-5982037362028509286_63" -> "-5982037362028509286_64"
+	"-5982037362028509286_53" -> "-5982037362028509286_60"
 	rankdir=LR
 }

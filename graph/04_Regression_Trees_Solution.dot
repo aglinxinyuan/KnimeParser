@@ -1,15 +1,15 @@
 digraph {
-	47 -> 24
-	24 -> 44
-	24 -> 45
-	46 -> 30
-	45 -> 46
-	44 -> 45
-	24 [label=Partitioning]
-	44 [label="Simple Regression Tree Learner"]
-	46 [label="Missing Value"]
-	47 [label="CSV Reader"]
-	30 [label="Numeric Scorer"]
-	45 [label="Simple Regression Tree Predictor"]
+	"-399087160994704798_30" [label="Numeric Scorer"]
+	"-399087160994704798_46" [label="Missing Value"]
+	"-399087160994704798_47" [label="CSV Reader"]
+	"-399087160994704798_44" [label="Simple Regression Tree Learner"]
+	"-399087160994704798_24" [label=Partitioning]
+	"-399087160994704798_45" [label="Simple Regression Tree Predictor"]
+	"-399087160994704798_44" -> "-399087160994704798_45"
+	"-399087160994704798_46" -> "-399087160994704798_30"
+	"-399087160994704798_24" -> "-399087160994704798_45"
+	"-399087160994704798_47" -> "-399087160994704798_24"
+	"-399087160994704798_24" -> "-399087160994704798_44"
+	"-399087160994704798_45" -> "-399087160994704798_46"
 	rankdir=LR
 }

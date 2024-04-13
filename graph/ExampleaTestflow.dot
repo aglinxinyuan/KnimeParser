@@ -1,9 +1,9 @@
 digraph {
-	6 -> 5
-	4 -> 3
-	5 [label="Table Validator"]
-	4 [label="Data Generator"]
-	3 [label="Table Validator"]
-	6 [label="Table Creator"]
+	"7697763717135337009_6" [label="Table Creator"]
+	"7697763717135337009_4" [label="Data Generator"]
+	"7697763717135337009_3" [label="Table Validator"]
+	"7697763717135337009_5" [label="Table Validator"]
+	"7697763717135337009_4" -> "7697763717135337009_3"
+	"7697763717135337009_6" -> "7697763717135337009_5"
 	rankdir=LR
 }

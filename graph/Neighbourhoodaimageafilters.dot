@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Image Reader"]
-	4 [label="Image Viewer"]
-	3 [label="Global Thresholder"]
-	2 [label="Average Filter"]
+	"4235262061890650320_3" [label="Global Thresholder"]
+	"4235262061890650320_1" [label="Image Reader"]
+	"4235262061890650320_2" [label="Average Filter"]
+	"4235262061890650320_4" [label="Image Viewer"]
+	"4235262061890650320_1" -> "4235262061890650320_2"
+	"4235262061890650320_3" -> "4235262061890650320_4"
+	"4235262061890650320_2" -> "4235262061890650320_3"
 	rankdir=LR
 }

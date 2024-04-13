@@ -1,10 +1,10 @@
 digraph {
-	1 -> 10
-	1 -> 11
-	1 -> 9
-	1 [label="Table Creator"]
-	11 [label="Java Snippet"]
-	10 [label="Java Snippet"]
-	9 [label="Java Snippet"]
+	"7244176713989439589_11" [label="Java Snippet"]
+	"7244176713989439589_9" [label="Java Snippet"]
+	"7244176713989439589_10" [label="Java Snippet"]
+	"7244176713989439589_1" [label="Table Creator"]
+	"7244176713989439589_1" -> "7244176713989439589_10"
+	"7244176713989439589_1" -> "7244176713989439589_11"
+	"7244176713989439589_1" -> "7244176713989439589_9"
 	rankdir=LR
 }

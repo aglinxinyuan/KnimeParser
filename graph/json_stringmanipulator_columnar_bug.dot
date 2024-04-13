@@ -1,8 +1,8 @@
 digraph {
-	2 -> 1
-	3 -> 2
-	1 [label="String Manipulation"]
-	3 [label="Table Creator"]
-	2 [label="String to JSON"]
+	"-8063866625446253555_1" [label="String Manipulation"]
+	"-8063866625446253555_3" [label="Table Creator"]
+	"-8063866625446253555_2" [label="String to JSON"]
+	"-8063866625446253555_2" -> "-8063866625446253555_1"
+	"-8063866625446253555_3" -> "-8063866625446253555_2"
 	rankdir=LR
 }

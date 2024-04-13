@@ -1,10 +1,10 @@
 digraph {
-	1 -> 4
-	4 -> 3
-	1 -> 2
-	1 [label="Excel Reader"]
-	4 [label="Bar Chart"]
-	3 [label="Image to Report"]
-	2 [label="Data to Report"]
+	"6224833870849129577_1" [label="Excel Reader"]
+	"6224833870849129577_2" [label="Data to Report"]
+	"6224833870849129577_3" [label="Image to Report"]
+	"6224833870849129577_4" [label="Bar Chart"]
+	"6224833870849129577_4" -> "6224833870849129577_3"
+	"6224833870849129577_1" -> "6224833870849129577_2"
+	"6224833870849129577_1" -> "6224833870849129577_4"
 	rankdir=LR
 }

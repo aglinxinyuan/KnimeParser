@@ -1,6 +1,6 @@
 digraph {
-	77 -> 102
-	102 [label="Extract Column Header"]
-	77 [label="Excel Reader"]
+	"6509177445053409221_102" [label="Extract Column Header"]
+	"6509177445053409221_77" [label="Excel Reader"]
+	"6509177445053409221_77" -> "6509177445053409221_102"
 	rankdir=LR
 }

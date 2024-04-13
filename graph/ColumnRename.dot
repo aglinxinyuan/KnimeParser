@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Table Creator"]
-	2 [label="Column Rename"]
+	"8584641665250455567_2" [label="Column Rename"]
+	"8584641665250455567_1" [label="Table Creator"]
+	"8584641665250455567_1" -> "8584641665250455567_2"
 	rankdir=LR
 }

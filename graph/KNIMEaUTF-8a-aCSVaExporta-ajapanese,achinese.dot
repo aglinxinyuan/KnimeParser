@@ -1,8 +1,8 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	1 [label="Table Creator"]
-	3 [label="CSV Reader"]
-	2 [label="CSV Writer"]
+	"4126147401228775772_3" [label="CSV Reader"]
+	"4126147401228775772_2" [label="CSV Writer"]
+	"4126147401228775772_1" [label="Table Creator"]
+	"4126147401228775772_1" -> "4126147401228775772_2"
+	"4126147401228775772_2" -> "4126147401228775772_3"
 	rankdir=LR
 }

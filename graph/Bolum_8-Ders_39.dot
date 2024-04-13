@@ -1,15 +1,15 @@
 digraph {
-	3 -> 4
-	1 -> 5
-	1 -> 2
-	2 -> 3
-	4 -> 6
-	3 -> 6
-	5 [label="Scatter Plot"]
-	1 [label="Excel Reader"]
-	4 [label="Linear Regression Learner"]
-	6 [label="Regression Predictor"]
-	3 [label=Partitioning]
-	2 [label="Column Filter"]
+	"2443980315436941883_2" [label="Column Filter"]
+	"2443980315436941883_6" [label="Regression Predictor"]
+	"2443980315436941883_1" [label="Excel Reader"]
+	"2443980315436941883_4" [label="Linear Regression Learner"]
+	"2443980315436941883_5" [label="Scatter Plot"]
+	"2443980315436941883_3" [label=Partitioning]
+	"2443980315436941883_2" -> "2443980315436941883_3"
+	"2443980315436941883_3" -> "2443980315436941883_6"
+	"2443980315436941883_4" -> "2443980315436941883_6"
+	"2443980315436941883_1" -> "2443980315436941883_5"
+	"2443980315436941883_3" -> "2443980315436941883_4"
+	"2443980315436941883_1" -> "2443980315436941883_2"
 	rankdir=LR
 }

@@ -1,13 +1,13 @@
 digraph {
-	3 -> 4
-	3 -> 5
-	1 -> 2
-	2 -> 5
-	2 -> 4
-	5 [label="Keras Network Learner"]
-	1 [label="DL Python Network Creator"]
-	4 [label="Keras Network Executor"]
-	3 [label="Data Generator"]
-	2 [label="DL Python Network Editor"]
+	"3301854363111308240_3" [label="Data Generator"]
+	"3301854363111308240_2" [label="DL Python Network Editor"]
+	"3301854363111308240_1" [label="DL Python Network Creator"]
+	"3301854363111308240_5" [label="Keras Network Learner"]
+	"3301854363111308240_4" [label="Keras Network Executor"]
+	"3301854363111308240_3" -> "3301854363111308240_4"
+	"3301854363111308240_2" -> "3301854363111308240_4"
+	"3301854363111308240_2" -> "3301854363111308240_5"
+	"3301854363111308240_3" -> "3301854363111308240_5"
+	"3301854363111308240_1" -> "3301854363111308240_2"
 	rankdir=LR
 }

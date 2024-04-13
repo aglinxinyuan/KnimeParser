@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	1 -> 2
-	3 -> 4
-	4 -> 5
-	5 [label="String Manipulation"]
-	1 [label="File Reader"]
-	4 [label="Math Formula"]
-	3 [label="Rule Engine"]
-	2 [label="Rule Engine"]
+	"-8739748032915387596_4" [label="Math Formula"]
+	"-8739748032915387596_5" [label="String Manipulation"]
+	"-8739748032915387596_2" [label="Rule Engine"]
+	"-8739748032915387596_3" [label="Rule Engine"]
+	"-8739748032915387596_1" [label="File Reader"]
+	"-8739748032915387596_2" -> "-8739748032915387596_3"
+	"-8739748032915387596_3" -> "-8739748032915387596_4"
+	"-8739748032915387596_1" -> "-8739748032915387596_2"
+	"-8739748032915387596_4" -> "-8739748032915387596_5"
 	rankdir=LR
 }

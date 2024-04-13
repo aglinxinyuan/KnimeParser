@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	1 -> 2
-	1 [label="Table Reader"]
-	4 [label=Heatmap]
-	3 [label="Linear Correlation"]
-	2 [label="Missing Value"]
+	"-5707705977633914348_1" [label="Table Reader"]
+	"-5707705977633914348_2" [label="Missing Value"]
+	"-5707705977633914348_4" [label=Heatmap]
+	"-5707705977633914348_3" [label="Linear Correlation"]
+	"-5707705977633914348_3" -> "-5707705977633914348_4"
+	"-5707705977633914348_2" -> "-5707705977633914348_3"
+	"-5707705977633914348_1" -> "-5707705977633914348_2"
 	rankdir=LR
 }

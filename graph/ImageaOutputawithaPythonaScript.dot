@@ -1,14 +1,14 @@
 digraph {
-	5 -> 1
-	6 -> 7
-	1 -> 3
-	2 -> 4
-	5 [label="CSV Reader"]
-	1 [label="Python Script _Labs_"]
-	7 [label="Image Output Widget"]
-	4 [label="Image Output Widget"]
-	6 [label="Python Script _Labs_"]
-	3 [label="Image Output Widget"]
-	2 [label="Python Script _Labs_"]
+	"3138652712954851687_1" [label="Python Script _Labs_"]
+	"3138652712954851687_5" [label="CSV Reader"]
+	"3138652712954851687_7" [label="Image Output Widget"]
+	"3138652712954851687_2" [label="Python Script _Labs_"]
+	"3138652712954851687_6" [label="Python Script _Labs_"]
+	"3138652712954851687_4" [label="Image Output Widget"]
+	"3138652712954851687_3" [label="Image Output Widget"]
+	"3138652712954851687_1" -> "3138652712954851687_3"
+	"3138652712954851687_5" -> "3138652712954851687_1"
+	"3138652712954851687_2" -> "3138652712954851687_4"
+	"3138652712954851687_6" -> "3138652712954851687_7"
 	rankdir=LR
 }

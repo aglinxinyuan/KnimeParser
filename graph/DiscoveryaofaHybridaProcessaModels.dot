@@ -1,20 +1,20 @@
 digraph {
-	20 -> 26
-	21 -> 24
-	22 -> 25
-	19 -> 20
-	26 -> 21
-	26 -> 27
-	21 -> 22
-	1 -> 19
-	24 [label="Causal Graph Visualizer"]
-	27 [label="Trace Variant Explorer"]
-	20 [label=Sorter]
-	1 [label="CSV Reader"]
-	22 [label="Hybrid Petri Net Miner"]
-	26 [label="Filter Event Table By Frequency"]
-	21 [label="Causal Graph Miner"]
-	25 [label="Hybrid Petri Net Visualizer"]
-	19 [label="String to Date_Time"]
+	"2231915679146338952_27" [label="Trace Variant Explorer"]
+	"2231915679146338952_25" [label="Hybrid Petri Net Visualizer"]
+	"2231915679146338952_26" [label="Filter Event Table By Frequency"]
+	"2231915679146338952_1" [label="CSV Reader"]
+	"2231915679146338952_19" [label="String to Date_Time"]
+	"2231915679146338952_24" [label="Causal Graph Visualizer"]
+	"2231915679146338952_21" [label="Causal Graph Miner"]
+	"2231915679146338952_20" [label=Sorter]
+	"2231915679146338952_22" [label="Hybrid Petri Net Miner"]
+	"2231915679146338952_22" -> "2231915679146338952_25"
+	"2231915679146338952_21" -> "2231915679146338952_24"
+	"2231915679146338952_26" -> "2231915679146338952_21"
+	"2231915679146338952_1" -> "2231915679146338952_19"
+	"2231915679146338952_20" -> "2231915679146338952_26"
+	"2231915679146338952_26" -> "2231915679146338952_27"
+	"2231915679146338952_19" -> "2231915679146338952_20"
+	"2231915679146338952_21" -> "2231915679146338952_22"
 	rankdir=LR
 }

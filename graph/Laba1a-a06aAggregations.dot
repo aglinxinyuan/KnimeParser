@@ -1,13 +1,13 @@
 digraph {
-	4 -> 3
-	5 -> 7
-	2 -> 4
-	7 -> 6
-	5 [label="CSV Reader"]
-	7 [label="Rule Engine"]
-	4 [label="Column Expressions"]
-	6 [label=Pivoting]
-	3 [label=GroupBy]
-	2 [label="CSV Reader"]
+	"6330676798498720916_6" [label=Pivoting]
+	"6330676798498720916_3" [label=GroupBy]
+	"6330676798498720916_2" [label="CSV Reader"]
+	"6330676798498720916_7" [label="Rule Engine"]
+	"6330676798498720916_4" [label="Column Expressions"]
+	"6330676798498720916_5" [label="CSV Reader"]
+	"6330676798498720916_2" -> "6330676798498720916_4"
+	"6330676798498720916_5" -> "6330676798498720916_7"
+	"6330676798498720916_4" -> "6330676798498720916_3"
+	"6330676798498720916_7" -> "6330676798498720916_6"
 	rankdir=LR
 }

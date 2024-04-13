@@ -1,6 +1,6 @@
 digraph {
-	1 -> 2
-	1 [label="Excel Reader"]
-	2 [label="Table Splitter"]
+	"2430889243951640181_2" [label="Table Splitter"]
+	"2430889243951640181_1" [label="Excel Reader"]
+	"2430889243951640181_1" -> "2430889243951640181_2"
 	rankdir=LR
 }

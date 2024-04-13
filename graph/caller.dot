@@ -1,8 +1,8 @@
 digraph {
-	1 -> 2
-	3 -> 2
-	1 [label="Table Creator"]
-	3 [label="Mountpoint Connector"]
-	2 [label="Call Workflow Service"]
+	"-1304516523489662330_1" [label="Table Creator"]
+	"-1304516523489662330_2" [label="Call Workflow Service"]
+	"-1304516523489662330_3" [label="Mountpoint Connector"]
+	"-1304516523489662330_1" -> "-1304516523489662330_2"
+	"-1304516523489662330_3" -> "-1304516523489662330_2"
 	rankdir=LR
 }

@@ -1,15 +1,15 @@
 digraph {
-	5 -> 8
-	6 -> 5
-	7 -> 8
-	8 -> 10
-	5 -> 7
-	3 -> 6
-	5 [label=Partitioning]
-	7 [label="Python Learner"]
-	6 [label="Category To Number"]
-	8 [label="Python Predictor"]
-	3 [label="File Reader _deprecated_"]
-	10 [label="Scorer _deprecated_"]
+	"4413772514372297662_10" [label="Scorer _deprecated_"]
+	"4413772514372297662_6" [label="Category To Number"]
+	"4413772514372297662_8" [label="Python Predictor"]
+	"4413772514372297662_3" [label="File Reader _deprecated_"]
+	"4413772514372297662_5" [label=Partitioning]
+	"4413772514372297662_7" [label="Python Learner"]
+	"4413772514372297662_7" -> "4413772514372297662_8"
+	"4413772514372297662_8" -> "4413772514372297662_10"
+	"4413772514372297662_6" -> "4413772514372297662_5"
+	"4413772514372297662_3" -> "4413772514372297662_6"
+	"4413772514372297662_5" -> "4413772514372297662_8"
+	"4413772514372297662_5" -> "4413772514372297662_7"
 	rankdir=LR
 }

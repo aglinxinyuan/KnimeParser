@@ -1,12 +1,12 @@
 digraph {
-	1 -> 3
-	3 -> 4
-	2 -> 4
-	4 -> 5
-	5 [label=Scorer]
-	1 [label="CSV Reader"]
-	4 [label="Decision Tree Predictor"]
-	3 [label="Decision Tree Learner"]
-	2 [label="CSV Reader"]
+	"2746018623330955840_3" [label="Decision Tree Learner"]
+	"2746018623330955840_1" [label="CSV Reader"]
+	"2746018623330955840_4" [label="Decision Tree Predictor"]
+	"2746018623330955840_5" [label=Scorer]
+	"2746018623330955840_2" [label="CSV Reader"]
+	"2746018623330955840_1" -> "2746018623330955840_3"
+	"2746018623330955840_4" -> "2746018623330955840_5"
+	"2746018623330955840_2" -> "2746018623330955840_4"
+	"2746018623330955840_3" -> "2746018623330955840_4"
 	rankdir=LR
 }

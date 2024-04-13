@@ -1,6 +1,6 @@
 digraph {
-	1 -> 3
-	1 [label="CSV Reader"]
-	3 [label="Interactive Table"]
+	"3292799428576736840_3" [label="Interactive Table"]
+	"3292799428576736840_1" [label="CSV Reader"]
+	"3292799428576736840_1" -> "3292799428576736840_3"
 	rankdir=LR
 }

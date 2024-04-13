@@ -1,22 +1,22 @@
 digraph {
-	7 -> 8
-	4 -> 5
-	3 -> 7
-	8 -> 10
-	3 -> 8
-	3 -> 4
-	3 -> 5
-	5 -> 6
-	1 -> 2
-	1 -> 3
-	5 [label="Regression Predictor"]
-	1 [label="Table Reader"]
-	7 [label="Simple Regression Tree Learner"]
-	4 [label="Linear Regression Learner"]
-	8 [label="Simple Regression Tree Predictor"]
-	6 [label="Numeric Scorer"]
-	3 [label=Partitioning]
-	2 [label="Scatter Plot _JavaScript_"]
-	10 [label="Numeric Scorer"]
+	"6481837888302619416_1" [label="Table Reader"]
+	"6481837888302619416_4" [label="Linear Regression Learner"]
+	"6481837888302619416_10" [label="Numeric Scorer"]
+	"6481837888302619416_7" [label="Simple Regression Tree Learner"]
+	"6481837888302619416_8" [label="Simple Regression Tree Predictor"]
+	"6481837888302619416_6" [label="Numeric Scorer"]
+	"6481837888302619416_3" [label=Partitioning]
+	"6481837888302619416_2" [label="Scatter Plot _JavaScript_"]
+	"6481837888302619416_5" [label="Regression Predictor"]
+	"6481837888302619416_8" -> "6481837888302619416_10"
+	"6481837888302619416_4" -> "6481837888302619416_5"
+	"6481837888302619416_1" -> "6481837888302619416_2"
+	"6481837888302619416_1" -> "6481837888302619416_3"
+	"6481837888302619416_3" -> "6481837888302619416_4"
+	"6481837888302619416_3" -> "6481837888302619416_8"
+	"6481837888302619416_7" -> "6481837888302619416_8"
+	"6481837888302619416_3" -> "6481837888302619416_5"
+	"6481837888302619416_3" -> "6481837888302619416_7"
+	"6481837888302619416_5" -> "6481837888302619416_6"
 	rankdir=LR
 }

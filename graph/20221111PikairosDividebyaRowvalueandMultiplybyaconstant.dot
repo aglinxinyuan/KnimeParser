@@ -1,8 +1,8 @@
 digraph {
-	6 -> 7
-	5 -> 6
-	5 [label="Table Creator"]
-	7 [label="Interactive Table _local_"]
-	6 [label="Math Formula _Multi Column_"]
+	"1098508686917065625_5" [label="Table Creator"]
+	"1098508686917065625_7" [label="Interactive Table _local_"]
+	"1098508686917065625_6" [label="Math Formula _Multi Column_"]
+	"1098508686917065625_5" -> "1098508686917065625_6"
+	"1098508686917065625_6" -> "1098508686917065625_7"
 	rankdir=LR
 }

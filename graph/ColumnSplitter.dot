@@ -1,6 +1,6 @@
 digraph {
-	4 -> 11
-	11 [label="Column Splitter"]
-	4 [label="Table Creator"]
+	"7980703747027792814_4" [label="Table Creator"]
+	"7980703747027792814_11" [label="Column Splitter"]
+	"7980703747027792814_4" -> "7980703747027792814_11"
 	rankdir=LR
 }

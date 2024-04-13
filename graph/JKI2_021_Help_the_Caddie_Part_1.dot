@@ -1,14 +1,14 @@
 digraph {
-	7 -> 8
-	1 -> 4
-	8 -> 10
-	6 -> 7
-	4 -> 6
-	1 [label="Image Reader"]
-	7 [label="Connected Component Analysis"]
-	4 [label="Image Normalizer"]
-	8 [label="Labeling Filter"]
-	6 [label="Global Thresholder"]
-	10 [label="Interactive Segmentation View"]
+	"2744195524612324351_6" [label="Global Thresholder"]
+	"2744195524612324351_8" [label="Labeling Filter"]
+	"2744195524612324351_1" [label="Image Reader"]
+	"2744195524612324351_4" [label="Image Normalizer"]
+	"2744195524612324351_7" [label="Connected Component Analysis"]
+	"2744195524612324351_10" [label="Interactive Segmentation View"]
+	"2744195524612324351_1" -> "2744195524612324351_4"
+	"2744195524612324351_8" -> "2744195524612324351_10"
+	"2744195524612324351_7" -> "2744195524612324351_8"
+	"2744195524612324351_4" -> "2744195524612324351_6"
+	"2744195524612324351_6" -> "2744195524612324351_7"
 	rankdir=LR
 }

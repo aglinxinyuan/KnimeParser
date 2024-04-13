@@ -1,11 +1,11 @@
 digraph {
-	1 -> 12
-	10 -> 6
-	10 -> 5
-	5 [label="Table View"]
-	1 [label="Data Generator"]
-	6 [label="Table View"]
-	12 [label="Python Script"]
-	10 [label="Python Script"]
+	"1662114847701657759_10" [label="Python Script"]
+	"1662114847701657759_6" [label="Table View"]
+	"1662114847701657759_1" [label="Data Generator"]
+	"1662114847701657759_12" [label="Python Script"]
+	"1662114847701657759_5" [label="Table View"]
+	"1662114847701657759_1" -> "1662114847701657759_12"
+	"1662114847701657759_10" -> "1662114847701657759_5"
+	"1662114847701657759_10" -> "1662114847701657759_6"
 	rankdir=LR
 }

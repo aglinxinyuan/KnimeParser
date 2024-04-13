@@ -1,8 +1,8 @@
 digraph {
-	3 -> 4
-	4 -> 5
-	5 [label="Math Formula"]
-	4 [label="Math Formula"]
-	3 [label="Table Creator"]
+	"6651016257092207759_3" [label="Table Creator"]
+	"6651016257092207759_4" [label="Math Formula"]
+	"6651016257092207759_5" [label="Math Formula"]
+	"6651016257092207759_3" -> "6651016257092207759_4"
+	"6651016257092207759_4" -> "6651016257092207759_5"
 	rankdir=LR
 }

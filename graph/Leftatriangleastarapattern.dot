@@ -1,10 +1,10 @@
 digraph {
-	8 -> 9
-	6 -> 7
-	7 -> 8
-	7 [label="Counting Loop Start"]
-	9 [label="Loop End"]
-	6 [label="Table Creator"]
-	8 [label="String Manipulation"]
+	"-7231823096760406219_8" [label="String Manipulation"]
+	"-7231823096760406219_7" [label="Counting Loop Start"]
+	"-7231823096760406219_6" [label="Table Creator"]
+	"-7231823096760406219_9" [label="Loop End"]
+	"-7231823096760406219_7" -> "-7231823096760406219_8"
+	"-7231823096760406219_6" -> "-7231823096760406219_7"
+	"-7231823096760406219_8" -> "-7231823096760406219_9"
 	rankdir=LR
 }

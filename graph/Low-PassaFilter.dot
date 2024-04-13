@@ -1,10 +1,10 @@
 digraph {
-	2 -> 3
-	3 -> 4
-	7 -> 2
-	4 [label="Image Viewer"]
-	3 [label="Image Converter"]
-	2 [label="Low_pass Filter___"]
-	7 [label="Image Reader"]
+	"-4613511530914974652_2" [label="Low_pass Filter___"]
+	"-4613511530914974652_4" [label="Image Viewer"]
+	"-4613511530914974652_7" [label="Image Reader"]
+	"-4613511530914974652_3" [label="Image Converter"]
+	"-4613511530914974652_3" -> "-4613511530914974652_4"
+	"-4613511530914974652_7" -> "-4613511530914974652_2"
+	"-4613511530914974652_2" -> "-4613511530914974652_3"
 	rankdir=LR
 }

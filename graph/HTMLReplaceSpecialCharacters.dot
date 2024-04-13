@@ -1,8 +1,8 @@
 digraph {
-	54 -> 51
-	55 -> 54
-	51 [label="String Manipulation"]
-	55 [label="Table Creator"]
-	54 [label="String Manipulation"]
+	"-1878052736705131245_51" [label="String Manipulation"]
+	"-1878052736705131245_55" [label="Table Creator"]
+	"-1878052736705131245_54" [label="String Manipulation"]
+	"-1878052736705131245_55" -> "-1878052736705131245_54"
+	"-1878052736705131245_54" -> "-1878052736705131245_51"
 	rankdir=LR
 }

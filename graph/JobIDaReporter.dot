@@ -1,12 +1,12 @@
 digraph {
-	2 -> 3
-	5 -> 4
-	2 -> 1
-	3 -> 4
-	5 [label="KNIME Hub Authenticator"]
-	1 [label=Wait___]
-	4 [label="Call Workflow Service"]
-	3 [label="Variable to Table Row"]
-	2 [label="Extract Context Properties"]
+	"-8449032823301481986_4" [label="Call Workflow Service"]
+	"-8449032823301481986_5" [label="KNIME Hub Authenticator"]
+	"-8449032823301481986_1" [label=Wait___]
+	"-8449032823301481986_2" [label="Extract Context Properties"]
+	"-8449032823301481986_3" [label="Variable to Table Row"]
+	"-8449032823301481986_2" -> "-8449032823301481986_1"
+	"-8449032823301481986_5" -> "-8449032823301481986_4"
+	"-8449032823301481986_3" -> "-8449032823301481986_4"
+	"-8449032823301481986_2" -> "-8449032823301481986_3"
 	rankdir=LR
 }
