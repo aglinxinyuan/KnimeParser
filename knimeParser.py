@@ -113,8 +113,13 @@ class Parser:
         op_list = set([element[0] for tup in self.edges for element in tup])
         for id in op_list:
             name = self.nodes[id][0]
+            output = self.nodes[id][1]
             if name in self.blocking_op:
-                self.blocking += 1
+                self.blocking += len(output)
+            else:
+                for port in output.values():
+                    if port[0]=="object: ":
+                        self.blocking += 1
             graph.node(name=id, label=name)
 
         for source, dest in unique_edges:
@@ -127,7 +132,7 @@ class Parser:
         graph.render(filename=output + ".dot", view=view)
         cycles = nx.find_cycle(nx_graph)
         content = (f"Workflow Name: {workflow_name}\n"
-                   f"Tree: {len(cycles) != 0}\n"
+                   f"Tree: {len(cycles) == 0}\n"
                    f"Operators: {len(op_list)}\n"
                    f"Edges: {len(unique_edges)}\n"
                    f"Blocking edges: {self.blocking}\n"
@@ -143,9 +148,11 @@ class Parser:
                    )
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
+        #print(content)
 
 
 if __name__ == "__main__":
+    Parser("examples/02.knwf", True)
     #Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
-    Parser("workflows/(test) credit score model.knwf", True)
+    #Parser("workflows/(test) credit score model.knwf", True)
     #Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)

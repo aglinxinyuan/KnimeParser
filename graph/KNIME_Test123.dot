@@ -1,12 +1,12 @@
 digraph {
-	"4779185488901023693_5" [label="List Files_Folders"]
-	"4779185488901023693_3" [label="Microsoft Authenticator"]
-	"4779185488901023693_2" [label="SharePoint Online Connector"]
-	"4779185488901023693_6" [label="SharePoint Online Connector"]
-	"4779185488901023693_4" [label="Excel Reader"]
-	"4779185488901023693_3" -> "4779185488901023693_2" [label="object: : 1291"]
-	"4779185488901023693_6" -> "4779185488901023693_4" [label="object: : 1156"]
-	"4779185488901023693_2" -> "4779185488901023693_5" [label="object: : 1156"]
-	"4779185488901023693_3" -> "4779185488901023693_6" [label="object: : 1291"]
+	"-5197680395049343038_4" [label="Excel Reader"]
+	"-5197680395049343038_6" [label="SharePoint Online Connector"]
+	"-5197680395049343038_3" [label="Microsoft Authenticator"]
+	"-5197680395049343038_5" [label="List Files_Folders"]
+	"-5197680395049343038_2" [label="SharePoint Online Connector"]
+	"-5197680395049343038_6" -> "-5197680395049343038_4" [label="object: : 1156"]
+	"-5197680395049343038_3" -> "-5197680395049343038_2" [label="object: : 1291"]
+	"-5197680395049343038_3" -> "-5197680395049343038_6" [label="object: : 1291"]
+	"-5197680395049343038_2" -> "-5197680395049343038_5" [label="object: : 1156"]
 	rankdir=LR
 }
