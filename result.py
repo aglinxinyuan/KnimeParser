@@ -1,6 +1,6 @@
 from os import listdir, path
 
-result = []
+result = {}
 for filename in listdir("graph"):
     if filename.endswith(".txt"):
         with open(path.join("graph", filename), "r", encoding="utf-8") as file:
@@ -18,8 +18,25 @@ for filename in listdir("graph"):
             l = int(file.readline().split()[-1])
             m = int(file.readline().split()[-1])
             n = int(file.readline().split()[-1])
-            result.append(f"{name}\t{b}\t{c}\t{d}\t{e}\t{f}\t{g}\t{h}\t{i}\t{j}\t{k}\t{l}\t{m}\t{n}")
+            result[filename] = f"{name}\t{b}\t{c}\t{d}\t{e}\t{f}\t{g}\t{h}\t{i}\t{j}\t{k}\t{l}\t{m}\t{n}"
+
+
+su = {}
+with open("schedulability_results.csv", mode ='r', encoding="utf-8") as file:
+  lines = file.readlines()
+  for line in lines[1:]:
+      line = line.strip()
+      line = line.split(".dot    ")
+      su[line[0]] = line[1]
+
+
 
 with open("result.txt", "w", encoding="utf-8") as file:
-    for line in result:
-        file.writelines(line + "\n")
+    for filename in result:
+        key = filename[:-4]
+        if key in su:
+            s = su[key]
+        else:
+            s = ""
+        print(s)
+        file.writelines(result[filename] + f"\t{s}\n")
