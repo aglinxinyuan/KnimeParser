@@ -1,8 +1,8 @@
 digraph {
-	"7555384166170131607_2" [label="Bar Chart"]
-	"7555384166170131607_3" [label="Color Manager"]
-	"7555384166170131607_1" [label="Table Creator"]
-	"7555384166170131607_1" -> "7555384166170131607_3" [label="data: 6628; is_blocking: True"]
-	"7555384166170131607_1" -> "7555384166170131607_2" [label="data: 6628; is_blocking: True"]
+	"3239764591078322401_3" [label="Color Manager"]
+	"3239764591078322401_1" [label="Table Creator"]
+	"3239764591078322401_2" [label="Bar Chart"]
+	"3239764591078322401_1" -> "3239764591078322401_2" [label="data: 6628; is_blocking: True"]
+	"3239764591078322401_1" -> "3239764591078322401_3" [label="data: 6628; is_blocking: True"]
 	rankdir=LR
 }

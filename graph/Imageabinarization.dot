@@ -1,8 +1,8 @@
 digraph {
-	"-3087969467271299575_1" [label="Image Reader"]
-	"-3087969467271299575_3" [label="Image Viewer"]
-	"-3087969467271299575_2" [label="Global Thresholder"]
-	"-3087969467271299575_2" -> "-3087969467271299575_3" [label="data: 3048; is_blocking: False"]
-	"-3087969467271299575_1" -> "-3087969467271299575_2" [label="data: 2131; is_blocking: False"]
+	"-2189021269681909403_1" [label="Image Reader"]
+	"-2189021269681909403_2" [label="Global Thresholder"]
+	"-2189021269681909403_3" [label="Image Viewer"]
+	"-2189021269681909403_1" -> "-2189021269681909403_2" [label="data: 2131; is_blocking: False"]
+	"-2189021269681909403_2" -> "-2189021269681909403_3" [label="data: 3048; is_blocking: False"]
 	rankdir=LR
 }

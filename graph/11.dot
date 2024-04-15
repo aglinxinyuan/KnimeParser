@@ -1,12 +1,12 @@
 digraph {
-	"9103961379724842785_1" [label="CSV Reader"]
-	"9103961379724842785_4" [label="Bar Chart"]
-	"9103961379724842785_5" [label="Color Manager"]
-	"9103961379724842785_2" [label=Pivoting]
-	"9103961379724842785_3" [label="Data to Report"]
-	"9103961379724842785_2" -> "9103961379724842785_3" [label="data: 5183; is_blocking: True"]
-	"9103961379724842785_1" -> "9103961379724842785_2" [label="data: 435833; is_blocking: False"]
-	"9103961379724842785_2" -> "9103961379724842785_5" [label="data: 5006; is_blocking: True"]
-	"9103961379724842785_5" -> "9103961379724842785_4" [label="data: 5941; is_blocking: False"]
+	"-3965835874849379071_5" [label="Color Manager"]
+	"-3965835874849379071_2" [label=Pivoting]
+	"-3965835874849379071_1" [label="CSV Reader"]
+	"-3965835874849379071_4" [label="Bar Chart"]
+	"-3965835874849379071_3" [label="Data to Report"]
+	"-3965835874849379071_5" -> "-3965835874849379071_4" [label="data: 5941; is_blocking: False"]
+	"-3965835874849379071_2" -> "-3965835874849379071_3" [label="data: 5183; is_blocking: True"]
+	"-3965835874849379071_1" -> "-3965835874849379071_2" [label="data: 435833; is_blocking: False"]
+	"-3965835874849379071_2" -> "-3965835874849379071_5" [label="data: 5006; is_blocking: True"]
 	rankdir=LR
 }

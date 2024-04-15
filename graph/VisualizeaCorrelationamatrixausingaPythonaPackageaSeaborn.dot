@@ -1,10 +1,10 @@
 digraph {
-	"-7703198896373795932_7" [label="CSV Reader"]
-	"-7703198896373795932_2" [label="Python Script _Labs_"]
-	"-7703198896373795932_11" [label="Image Output Widget"]
-	"-7703198896373795932_4" [label="Column Filter"]
-	"-7703198896373795932_2" -> "-7703198896373795932_11" [label="object: 20207; is_blocking: True"]
-	"-7703198896373795932_7" -> "-7703198896373795932_4" [label="data: 10256; is_blocking: False"]
-	"-7703198896373795932_4" -> "-7703198896373795932_2" [label="data: 6547; is_blocking: False"]
+	"-3464246282299346078_2" [label="Python Script _Labs_"]
+	"-3464246282299346078_7" [label="CSV Reader"]
+	"-3464246282299346078_4" [label="Column Filter"]
+	"-3464246282299346078_11" [label="Image Output Widget"]
+	"-3464246282299346078_7" -> "-3464246282299346078_4" [label="data: 10256; is_blocking: False"]
+	"-3464246282299346078_2" -> "-3464246282299346078_11" [label="object: 20207; is_blocking: True"]
+	"-3464246282299346078_4" -> "-3464246282299346078_2" [label="data: 6547; is_blocking: False"]
 	rankdir=LR
 }

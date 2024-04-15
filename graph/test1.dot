@@ -1,8 +1,8 @@
 digraph {
-	"-4292607479689933487_2" [label="Color Manager"]
-	"-4292607479689933487_3" [label="Pie_Donut Chart"]
-	"-4292607479689933487_1" [label="Excel Reader _XLS_"]
-	"-4292607479689933487_2" -> "-4292607479689933487_3" [label="data: 34237; is_blocking: False"]
-	"-4292607479689933487_1" -> "-4292607479689933487_2" [label="data: 29687; is_blocking: False"]
+	"4390716462542898588_1" [label="Excel Reader _XLS_"]
+	"4390716462542898588_3" [label="Pie_Donut Chart"]
+	"4390716462542898588_2" [label="Color Manager"]
+	"4390716462542898588_1" -> "4390716462542898588_2" [label="data: 29687; is_blocking: False"]
+	"4390716462542898588_2" -> "4390716462542898588_3" [label="data: 34237; is_blocking: False"]
 	rankdir=LR
 }

@@ -1,13 +1,13 @@
 digraph {
-	"-627725539471336680_8378" [label="Get PDB"]
-	"-627725539471336680_8379" [label="Multiple Sequence Viewer"]
-	"-627725539471336680_8382" [label="Multiple Sequence Viewer"]
-	"-627725539471336680_8380" [label=Molecule_to_MAE]
-	"-627725539471336680_8384" [label="Get PDB"]
-	"-627725539471336680_8381" [label="Alignment Writer"]
-	"-627725539471336680_8384" -> "-627725539471336680_8382" [label="data: 69468; is_blocking: False"]
-	"-627725539471336680_8378" -> "-627725539471336680_8380" [label="data: 191003; is_blocking: False"]
-	"-627725539471336680_8380" -> "-627725539471336680_8379" [label="data: 255545; is_blocking: False"]
-	"-627725539471336680_8379" -> "-627725539471336680_8381" [label="data: 7231; is_blocking: False"]
+	"4827377402125400394_8379" [label="Multiple Sequence Viewer"]
+	"4827377402125400394_8378" [label="Get PDB"]
+	"4827377402125400394_8382" [label="Multiple Sequence Viewer"]
+	"4827377402125400394_8381" [label="Alignment Writer"]
+	"4827377402125400394_8380" [label=Molecule_to_MAE]
+	"4827377402125400394_8384" [label="Get PDB"]
+	"4827377402125400394_8378" -> "4827377402125400394_8380" [label="data: 191003; is_blocking: False"]
+	"4827377402125400394_8379" -> "4827377402125400394_8381" [label="data: 7231; is_blocking: False"]
+	"4827377402125400394_8380" -> "4827377402125400394_8379" [label="data: 255545; is_blocking: False"]
+	"4827377402125400394_8384" -> "4827377402125400394_8382" [label="data: 69468; is_blocking: False"]
 	rankdir=LR
 }

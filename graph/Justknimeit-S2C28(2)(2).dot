@@ -1,10 +1,10 @@
 digraph {
-	"-1369018484337839679_10" [label="Math Formula"]
-	"-1369018484337839679_9" [label=Sorter]
-	"-1369018484337839679_3" [label="Table Creator"]
-	"-1369018484337839679_11" [label="Python View"]
-	"-1369018484337839679_3" -> "-1369018484337839679_10" [label="data: 6509; is_blocking: True"]
-	"-1369018484337839679_9" -> "-1369018484337839679_11" [label="data: 7709; is_blocking: True"]
-	"-1369018484337839679_10" -> "-1369018484337839679_9" [label="data: 8585; is_blocking: False"]
+	"8406559579202399405_11" [label="Python View"]
+	"8406559579202399405_3" [label="Table Creator"]
+	"8406559579202399405_9" [label=Sorter]
+	"8406559579202399405_10" [label="Math Formula"]
+	"8406559579202399405_10" -> "8406559579202399405_9" [label="data: 8585; is_blocking: False"]
+	"8406559579202399405_9" -> "8406559579202399405_11" [label="data: 7709; is_blocking: True"]
+	"8406559579202399405_3" -> "8406559579202399405_10" [label="data: 6509; is_blocking: True"]
 	rankdir=LR
 }

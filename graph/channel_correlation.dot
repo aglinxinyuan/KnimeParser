@@ -1,8 +1,8 @@
 digraph {
-	"-6531741149935412404_4" [label="Image Viewer"]
-	"-6531741149935412404_2" [label="Image Generator"]
-	"-6531741149935412404_3" [label="Python Script"]
-	"-6531741149935412404_2" -> "-6531741149935412404_3" [label="data: 2367; is_blocking: False"]
-	"-6531741149935412404_3" -> "-6531741149935412404_4" [label="data: 6455; is_blocking: False"]
+	"5342138706562072968_3" [label="Python Script"]
+	"5342138706562072968_4" [label="Image Viewer"]
+	"5342138706562072968_2" [label="Image Generator"]
+	"5342138706562072968_2" -> "5342138706562072968_3" [label="data: 2367; is_blocking: False"]
+	"5342138706562072968_3" -> "5342138706562072968_4" [label="data: 6455; is_blocking: False"]
 	rankdir=LR
 }

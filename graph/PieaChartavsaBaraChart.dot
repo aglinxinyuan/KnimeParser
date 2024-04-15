@@ -1,10 +1,10 @@
 digraph {
-	"8046140085586666894_3" [label="Bar Chart"]
-	"8046140085586666894_4" [label="Pie Chart"]
-	"8046140085586666894_1" [label="Table Creator"]
-	"8046140085586666894_2" [label="Color Manager"]
-	"8046140085586666894_2" -> "8046140085586666894_3" [label="data: 6492; is_blocking: False"]
-	"8046140085586666894_1" -> "8046140085586666894_2" [label="data: 4613; is_blocking: True"]
-	"8046140085586666894_2" -> "8046140085586666894_4" [label="data: 6492; is_blocking: False"]
+	"99085809373097936_3" [label="Bar Chart"]
+	"99085809373097936_4" [label="Pie Chart"]
+	"99085809373097936_2" [label="Color Manager"]
+	"99085809373097936_1" [label="Table Creator"]
+	"99085809373097936_2" -> "99085809373097936_3" [label="data: 6492; is_blocking: False"]
+	"99085809373097936_1" -> "99085809373097936_2" [label="data: 4613; is_blocking: True"]
+	"99085809373097936_2" -> "99085809373097936_4" [label="data: 6492; is_blocking: False"]
 	rankdir=LR
 }

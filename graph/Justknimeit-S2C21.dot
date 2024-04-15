@@ -1,10 +1,10 @@
 digraph {
-	"8748600919472457199_4" [label="Image Reader"]
-	"8748600919472457199_8" [label="Connected Component Analysis"]
-	"8748600919472457199_10" [label="Interactive Segmentation View"]
-	"8748600919472457199_17" [label="Global Thresholder"]
-	"8748600919472457199_17" -> "8748600919472457199_8" [label="data: 3582; is_blocking: False"]
-	"8748600919472457199_8" -> "8748600919472457199_10" [label="data: 3600; is_blocking: False"]
-	"8748600919472457199_4" -> "8748600919472457199_17" [label="data: 2318; is_blocking: False"]
+	"5128070022854728456_8" [label="Connected Component Analysis"]
+	"5128070022854728456_17" [label="Global Thresholder"]
+	"5128070022854728456_10" [label="Interactive Segmentation View"]
+	"5128070022854728456_4" [label="Image Reader"]
+	"5128070022854728456_4" -> "5128070022854728456_17" [label="data: 2318; is_blocking: False"]
+	"5128070022854728456_8" -> "5128070022854728456_10" [label="data: 3600; is_blocking: False"]
+	"5128070022854728456_17" -> "5128070022854728456_8" [label="data: 3582; is_blocking: False"]
 	rankdir=LR
 }

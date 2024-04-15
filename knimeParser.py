@@ -30,6 +30,7 @@ class Parser:
                                         self.metanodes[node_id] = [meta_source, meta_dest]
                                 else:
                                     name = metafile[:metafile.rfind(" ")]
+                                    print(name)
                                     ports = {}
                                     base_split_len = len(basepath.split("/"))
                                     for f1 in zf.namelist():
@@ -127,7 +128,9 @@ class Parser:
         for source, dest in unique_edges:
             nx_graph.add_edge(source[0], dest[0])
             a = self.nodes[source[0]][1]
+            print(a)
             lab = a[source[1]]
+
             graph.edge(source[0], dest[0], label=lab[0] + str(lab[1])+"; is_blocking: "+str(lab[2]))
 
         output = "graph/" + filename.split("/")[-1].split(".")[0]
@@ -138,7 +141,7 @@ class Parser:
         except nx.NetworkXNoCycle:
             cycles = []
         content = (f"Workflow Name: {workflow_name}\n"
-                   f"Tree: FALSE"
+                   f"Tree: {len(cycles) == 0}\n"
                    f"Operators: {len(op_list)}\n"
                    f"Edges: {len(unique_edges)}\n"
                    f"Blocking edges: {self.blocking}\n"
@@ -154,13 +157,13 @@ class Parser:
                    )
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
-        #print(content)
+        print(content)
 
 
 if __name__ == "__main__":
     #Parser("workflows/1_Telve.knwf", True)
 
-    #Parser("workflows/00 Keras Simple Linear Regression.knwf", True)
+    Parser("workflows/00 Keras Simple Linear Regression.knwf", True)
     #Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
-    Parser("workflows/(test) credit score model.knwf", True)
+    #Parser("workflows/(test) credit score model.knwf", True)
     #Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)

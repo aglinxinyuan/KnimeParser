@@ -1,11 +1,11 @@
 digraph {
-	"-7166268568250957158_2" [label="List Files_Folders"]
-	"-7166268568250957158_7" [label="Image Viewer"]
-	"-7166268568250957158_3" [label="Path to URI"]
-	"-7166268568250957158_6" [label=" Multilevel Thresholding"]
-	"-7166268568250957158_4" [label="Image Reader"]
-	"-7166268568250957158_2" -> "-7166268568250957158_3" [label="data: 2650; is_blocking: False"]
-	"-7166268568250957158_4" -> "-7166268568250957158_6" [label="data: 2448; is_blocking: False"]
-	"-7166268568250957158_6" -> "-7166268568250957158_7" [label="data: 2436; is_blocking: False"]
+	"547504839492532824_6" [label=" Multilevel Thresholding"]
+	"547504839492532824_3" [label="Path to URI"]
+	"547504839492532824_2" [label="List Files_Folders"]
+	"547504839492532824_7" [label="Image Viewer"]
+	"547504839492532824_4" [label="Image Reader"]
+	"547504839492532824_4" -> "547504839492532824_6" [label="data: 2448; is_blocking: False"]
+	"547504839492532824_2" -> "547504839492532824_3" [label="data: 2650; is_blocking: False"]
+	"547504839492532824_6" -> "547504839492532824_7" [label="data: 2436; is_blocking: False"]
 	rankdir=LR
 }

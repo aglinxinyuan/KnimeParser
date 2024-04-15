@@ -1,10 +1,10 @@
 digraph {
-	"5842246083314826356_1" [label="CSV Reader"]
-	"5842246083314826356_2" [label="Color Manager"]
-	"5842246083314826356_4" [label="Box Plot"]
-	"5842246083314826356_3" [label="Scatter Plot"]
-	"5842246083314826356_1" -> "5842246083314826356_2" [label="data: 10196; is_blocking: False"]
-	"5842246083314826356_2" -> "5842246083314826356_3" [label="data: 9195; is_blocking: False"]
-	"5842246083314826356_2" -> "5842246083314826356_4" [label="data: 9195; is_blocking: False"]
+	"-3493087103303380810_3" [label="Scatter Plot"]
+	"-3493087103303380810_1" [label="CSV Reader"]
+	"-3493087103303380810_4" [label="Box Plot"]
+	"-3493087103303380810_2" [label="Color Manager"]
+	"-3493087103303380810_2" -> "-3493087103303380810_4" [label="data: 9195; is_blocking: False"]
+	"-3493087103303380810_2" -> "-3493087103303380810_3" [label="data: 9195; is_blocking: False"]
+	"-3493087103303380810_1" -> "-3493087103303380810_2" [label="data: 10196; is_blocking: False"]
 	rankdir=LR
 }

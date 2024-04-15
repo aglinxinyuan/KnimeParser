@@ -1,12 +1,12 @@
 digraph {
-	"4639552719101436815_35" [label="Table Creator"]
-	"4639552719101436815_38" [label="String Manipulation"]
-	"4639552719101436815_39" [label="JSON to Table"]
-	"4639552719101436815_41" [label="String to JSON"]
-	"4639552719101436815_40" [label="GET Request"]
-	"4639552719101436815_35" -> "4639552719101436815_38" [label="data: 3314; is_blocking: True"]
-	"4639552719101436815_41" -> "4639552719101436815_39" [label="data: 8595; is_blocking: False"]
-	"4639552719101436815_38" -> "4639552719101436815_40" [label="data: 5818; is_blocking: False"]
-	"4639552719101436815_40" -> "4639552719101436815_41" [label="data: 14113; is_blocking: False"]
+	"-4384905233275724103_40" [label="GET Request"]
+	"-4384905233275724103_35" [label="Table Creator"]
+	"-4384905233275724103_41" [label="String to JSON"]
+	"-4384905233275724103_38" [label="String Manipulation"]
+	"-4384905233275724103_39" [label="JSON to Table"]
+	"-4384905233275724103_38" -> "-4384905233275724103_40" [label="data: 5818; is_blocking: False"]
+	"-4384905233275724103_35" -> "-4384905233275724103_38" [label="data: 3314; is_blocking: True"]
+	"-4384905233275724103_41" -> "-4384905233275724103_39" [label="data: 8595; is_blocking: False"]
+	"-4384905233275724103_40" -> "-4384905233275724103_41" [label="data: 14113; is_blocking: False"]
 	rankdir=LR
 }

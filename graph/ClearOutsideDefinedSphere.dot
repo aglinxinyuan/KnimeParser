@@ -1,8 +1,8 @@
 digraph {
-	"-225968869093532227_59" [label="Image Viewer"]
-	"-225968869093532227_1" [label="Image Generator"]
-	"-225968869093532227_58" [label="Java Snippet"]
-	"-225968869093532227_1" -> "-225968869093532227_58" [label="data: 2441; is_blocking: False"]
-	"-225968869093532227_58" -> "-225968869093532227_59" [label="data: 3243; is_blocking: False"]
+	"8118476650106088798_58" [label="Java Snippet"]
+	"8118476650106088798_1" [label="Image Generator"]
+	"8118476650106088798_59" [label="Image Viewer"]
+	"8118476650106088798_58" -> "8118476650106088798_59" [label="data: 3243; is_blocking: False"]
+	"8118476650106088798_1" -> "8118476650106088798_58" [label="data: 2441; is_blocking: False"]
 	rankdir=LR
 }
