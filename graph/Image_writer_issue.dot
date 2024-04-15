@@ -1,13 +1,13 @@
 digraph {
-	"-5223641553506505629_5" [label="Image Writer"]
-	"-5223641553506505629_2" [label="Image Writer"]
-	"-5223641553506505629_6" [label="Set Image Metadata"]
-	"-5223641553506505629_3" [label="Image Reader"]
-	"-5223641553506505629_1" [label="Image Reader"]
-	"-5223641553506505629_4" [label=GroupBy]
-	"-5223641553506505629_1" -> "-5223641553506505629_2" [label="data: 2155; is_blocking: False"]
-	"-5223641553506505629_4" -> "-5223641553506505629_6" [label="data: 2166; is_blocking: True"]
-	"-5223641553506505629_3" -> "-5223641553506505629_4" [label="data: 2232; is_blocking: False"]
-	"-5223641553506505629_6" -> "-5223641553506505629_5" [label="data: 2696; is_blocking: False"]
+	"-8137227759540375228_3" [label="Image Reader"]
+	"-8137227759540375228_2" [label="Image Writer"]
+	"-8137227759540375228_5" [label="Image Writer"]
+	"-8137227759540375228_4" [label=GroupBy]
+	"-8137227759540375228_1" [label="Image Reader"]
+	"-8137227759540375228_6" [label="Set Image Metadata"]
+	"-8137227759540375228_4" -> "-8137227759540375228_6" [label="data: 2166; is_blocking: True"]
+	"-8137227759540375228_6" -> "-8137227759540375228_5" [label="data: 2696; is_blocking: False"]
+	"-8137227759540375228_1" -> "-8137227759540375228_2" [label="data: 2155; is_blocking: False"]
+	"-8137227759540375228_3" -> "-8137227759540375228_4" [label="data: 2232; is_blocking: False"]
 	rankdir=LR
 }

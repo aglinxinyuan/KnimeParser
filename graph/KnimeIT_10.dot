@@ -1,10 +1,10 @@
 digraph {
-	"-8259965902630381333_3" [label="Math Formula _Variable_"]
-	"-8259965902630381333_4" [label="Text Output Widget"]
-	"-8259965902630381333_1" [label="Integer Input"]
-	"-8259965902630381333_2" [label="Integer Input"]
-	"-8259965902630381333_2" -> "-8259965902630381333_3" [label="object: 288; is_blocking: True"]
-	"-8259965902630381333_1" -> "-8259965902630381333_3" [label="object: 288; is_blocking: True"]
-	"-8259965902630381333_3" -> "-8259965902630381333_4" [label="object: 288; is_blocking: True"]
+	"-2162352535306485876_2" [label="Integer Input"]
+	"-2162352535306485876_3" [label="Math Formula _Variable_"]
+	"-2162352535306485876_4" [label="Text Output Widget"]
+	"-2162352535306485876_1" [label="Integer Input"]
+	"-2162352535306485876_3" -> "-2162352535306485876_4" [label="object: 288; is_blocking: True"]
+	"-2162352535306485876_1" -> "-2162352535306485876_3" [label="object: 288; is_blocking: True"]
+	"-2162352535306485876_2" -> "-2162352535306485876_3" [label="object: 288; is_blocking: True"]
 	rankdir=LR
 }

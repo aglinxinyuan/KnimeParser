@@ -1,8 +1,8 @@
 digraph {
-	"-894420255466500034_5" [label="DB Reader"]
-	"-894420255466500034_8" [label="SQLite Connector"]
-	"-894420255466500034_7" [label="DB Table Selector"]
-	"-894420255466500034_7" -> "-894420255466500034_5" [label="object: 4403; is_blocking: True"]
-	"-894420255466500034_8" -> "-894420255466500034_7" [label="object: 4001; is_blocking: True"]
+	"-931078874142292_7" [label="DB Table Selector"]
+	"-931078874142292_8" [label="SQLite Connector"]
+	"-931078874142292_5" [label="DB Reader"]
+	"-931078874142292_7" -> "-931078874142292_5" [label="object: 4403; is_blocking: True"]
+	"-931078874142292_8" -> "-931078874142292_7" [label="object: 4001; is_blocking: True"]
 	rankdir=LR
 }

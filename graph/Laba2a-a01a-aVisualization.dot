@@ -1,12 +1,12 @@
 digraph {
-	"-7355136494713977172_3" [label="Color Manager"]
-	"-7355136494713977172_6" [label="Excel Reader"]
-	"-7355136494713977172_4" [label="Scatter Plot"]
-	"-7355136494713977172_5" [label="Table View"]
-	"-7355136494713977172_2" [label="Data Explorer"]
-	"-7355136494713977172_3" -> "-7355136494713977172_4" [label="data: 35286; is_blocking: False"]
-	"-7355136494713977172_6" -> "-7355136494713977172_2" [label="data: 6224462; is_blocking: False"]
-	"-7355136494713977172_6" -> "-7355136494713977172_3" [label="data: 6224462; is_blocking: False"]
-	"-7355136494713977172_4" -> "-7355136494713977172_5" [label="data: 59361; is_blocking: False"]
+	"9005025448366863126_6" [label="Excel Reader"]
+	"9005025448366863126_4" [label="Scatter Plot"]
+	"9005025448366863126_3" [label="Color Manager"]
+	"9005025448366863126_2" [label="Data Explorer"]
+	"9005025448366863126_5" [label="Table View"]
+	"9005025448366863126_6" -> "9005025448366863126_3" [label="data: 6224462; is_blocking: False"]
+	"9005025448366863126_4" -> "9005025448366863126_5" [label="data: 59361; is_blocking: False"]
+	"9005025448366863126_3" -> "9005025448366863126_4" [label="data: 35286; is_blocking: False"]
+	"9005025448366863126_6" -> "9005025448366863126_2" [label="data: 6224462; is_blocking: False"]
 	rankdir=LR
 }

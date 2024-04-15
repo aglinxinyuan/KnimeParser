@@ -1,12 +1,12 @@
 digraph {
-	"-5875421108562992602_3" [label="Color Manager"]
-	"-5875421108562992602_29" [label="Table Reader"]
-	"-5875421108562992602_10" [label="Scatter Plot"]
-	"-5875421108562992602_14" [label="Scatter Plot"]
-	"-5875421108562992602_9" [label="Scatter Plot"]
-	"-5875421108562992602_29" -> "-5875421108562992602_10" [label="data: 10258; is_blocking: False"]
-	"-5875421108562992602_3" -> "-5875421108562992602_9" [label="data: 9254; is_blocking: False"]
-	"-5875421108562992602_29" -> "-5875421108562992602_14" [label="data: 10258; is_blocking: False"]
-	"-5875421108562992602_29" -> "-5875421108562992602_3" [label="data: 10258; is_blocking: False"]
+	"2061947588501701444_9" [label="Scatter Plot"]
+	"2061947588501701444_3" [label="Color Manager"]
+	"2061947588501701444_10" [label="Scatter Plot"]
+	"2061947588501701444_14" [label="Scatter Plot"]
+	"2061947588501701444_29" [label="Table Reader"]
+	"2061947588501701444_29" -> "2061947588501701444_14" [label="data: 10258; is_blocking: False"]
+	"2061947588501701444_3" -> "2061947588501701444_9" [label="data: 9254; is_blocking: False"]
+	"2061947588501701444_29" -> "2061947588501701444_3" [label="data: 10258; is_blocking: False"]
+	"2061947588501701444_29" -> "2061947588501701444_10" [label="data: 10258; is_blocking: False"]
 	rankdir=LR
 }

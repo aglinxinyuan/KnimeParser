@@ -1,11 +1,11 @@
 digraph {
-	"2303514193907772410_8" [label="Excel Reader _XLS_"]
-	"2303514193907772410_9" [label="Color Manager"]
-	"2303514193907772410_4" [label="Parallel Coordinates Plot"]
-	"2303514193907772410_5" [label="Sunburst Chart"]
-	"2303514193907772410_1" [label="File Reader"]
-	"2303514193907772410_8" -> "2303514193907772410_9" [label="data: 8651; is_blocking: False"]
-	"2303514193907772410_1" -> "2303514193907772410_5" [label="data: 1158898; is_blocking: False"]
-	"2303514193907772410_9" -> "2303514193907772410_4" [label="data: 7007; is_blocking: False"]
+	"-8733987979932500968_5" [label="Sunburst Chart"]
+	"-8733987979932500968_8" [label="Excel Reader _XLS_"]
+	"-8733987979932500968_1" [label="File Reader"]
+	"-8733987979932500968_9" [label="Color Manager"]
+	"-8733987979932500968_4" [label="Parallel Coordinates Plot"]
+	"-8733987979932500968_1" -> "-8733987979932500968_5" [label="data: 1158898; is_blocking: False"]
+	"-8733987979932500968_8" -> "-8733987979932500968_9" [label="data: 8651; is_blocking: False"]
+	"-8733987979932500968_9" -> "-8733987979932500968_4" [label="data: 7007; is_blocking: False"]
 	rankdir=LR
 }

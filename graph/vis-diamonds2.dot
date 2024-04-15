@@ -1,8 +1,8 @@
 digraph {
-	"-8700992002740568271_3" [label="File Reader"]
-	"-8700992002740568271_4" [label="Image Writer _Port_"]
-	"-8700992002740568271_2" [label=Histogram]
-	"-8700992002740568271_2" -> "-8700992002740568271_4" [label="object: 3355; is_blocking: True"]
-	"-8700992002740568271_3" -> "-8700992002740568271_2" [label="data: 1577641; is_blocking: False"]
+	"-4134007348001618360_2" [label=Histogram]
+	"-4134007348001618360_3" [label="File Reader"]
+	"-4134007348001618360_4" [label="Image Writer _Port_"]
+	"-4134007348001618360_2" -> "-4134007348001618360_4" [label="object: 3355; is_blocking: True"]
+	"-4134007348001618360_3" -> "-4134007348001618360_2" [label="data: 1577641; is_blocking: False"]
 	rankdir=LR
 }

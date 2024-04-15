@@ -66,7 +66,7 @@ class Parser:
         return meta_inputs, meta_outputs
 
     def __init__(self, filename, view=False):
-        print(filename)
+        #(filename)
         with open("blocking.txt") as file:
             self.blocking_op = set([line.strip() for line in file.readlines()])
         self.metanodes = dict()
@@ -109,6 +109,9 @@ class Parser:
         mult_in = [len(in_port[node]) for node in in_port if len(in_port[node]) > 1]
         mult_out = [len(out_port[node]) for node in out_port if len(out_port[node]) > 1]
 
+        max_in = max(mult_in) if mult_in else 1
+        max_out = max(mult_out) if mult_out else 1
+
         graph = Digraph()
         op_list = set([element[0] for tup in self.edges for element in tup])
         for id in op_list:
@@ -130,7 +133,10 @@ class Parser:
         output = "graph/" + filename.split("/")[-1].split(".")[0]
         graph.attr(rankdir='LR')
         graph.render(filename=output + ".dot", view=view)
-        cycles = nx.find_cycle(nx_graph)
+        try:
+            cycles = nx.find_cycle(nx_graph)
+        except nx.NetworkXNoCycle:
+            cycles = []
         content = (f"Workflow Name: {workflow_name}\n"
                    f"Tree: FALSE"
                    f"Operators: {len(op_list)}\n"
@@ -138,8 +144,8 @@ class Parser:
                    f"Blocking edges: {self.blocking}\n"
                    f"Operators with multiple input ports: {len(mult_in)}\n"
                    f"Operators with multiple output ports: {len(mult_out)}\n"
-                   f"Maximum # of input ports in an operator: {max(mult_in)}\n"
-                   f"Maximum # of output ports in an operator: {max(mult_out)}\n"
+                   f"Maximum # of input ports in an operator: {max_in}\n"
+                   f"Maximum # of output ports in an operator: {max_out}\n"
                    f"AVG indegree of operators: {sum(in_degree.values()) / len(in_degree.values())}\n"
                    f"AVG outdegree of operators: {sum(out_degree.values()) / len(in_degree.values())}\n"
                    f"MAX indegree of an operator: {max(in_degree.values())}\n"
@@ -148,13 +154,13 @@ class Parser:
                    )
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
-        print(content)
+        #print(content)
 
 
 if __name__ == "__main__":
-    Parser("examples/02.knwf", True)
+    #Parser("workflows/1_Telve.knwf", True)
 
     #Parser("workflows/00 Keras Simple Linear Regression.knwf", True)
     #Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
-    #Parser("workflows/(test) credit score model.knwf", True)
+    Parser("workflows/(test) credit score model.knwf", True)
     #Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)

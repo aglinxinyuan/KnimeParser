@@ -1,12 +1,12 @@
 digraph {
-	"1647869725124310184_1" [label="Java Snippet _simple_"]
-	"1647869725124310184_3" [label="Table Creator"]
-	"1647869725124310184_5" [label="Table View"]
-	"1647869725124310184_4" [label="Java Snippet _simple_"]
-	"1647869725124310184_2" [label="Double Configuration"]
-	"1647869725124310184_3" -> "1647869725124310184_1" [label="data: 2929; is_blocking: True"]
-	"1647869725124310184_4" -> "1647869725124310184_5" [label="data: 7795; is_blocking: False"]
-	"1647869725124310184_1" -> "1647869725124310184_4" [label="data: 4887; is_blocking: False"]
-	"1647869725124310184_2" -> "1647869725124310184_1" [label="object: 288; is_blocking: True"]
+	"6398452959698419297_1" [label="Java Snippet _simple_"]
+	"6398452959698419297_2" [label="Double Configuration"]
+	"6398452959698419297_3" [label="Table Creator"]
+	"6398452959698419297_4" [label="Java Snippet _simple_"]
+	"6398452959698419297_5" [label="Table View"]
+	"6398452959698419297_1" -> "6398452959698419297_4" [label="data: 4887; is_blocking: False"]
+	"6398452959698419297_3" -> "6398452959698419297_1" [label="data: 2929; is_blocking: True"]
+	"6398452959698419297_2" -> "6398452959698419297_1" [label="object: 288; is_blocking: True"]
+	"6398452959698419297_4" -> "6398452959698419297_5" [label="data: 7795; is_blocking: False"]
 	rankdir=LR
 }
