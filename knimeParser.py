@@ -32,16 +32,17 @@ class Parser:
                                 else:
                                     name = metafile[:metafile.rfind(" ")]
                                     ports = {}
+                                    base_split_len = len(basepath.split("/"))
                                     for f1 in zf.namelist():
                                         if f1.startswith(basepath + "/port_"):
-                                            port = f1.split("/")[len(basepath.split("/"))].split("_")[-1]
+                                            port = f1.split("/")[base_split_len].split("_")[-1]
                                             if f1.endswith("/data.xml"):
                                                 ports[port] = ["data: ", 0]
                                             if f1.endswith("/object/portobject.zip"):
                                                 ports[port] = ["object: ", 0]
                                     for f1 in zf.namelist():
                                         if f1.startswith(basepath + "/port_"):
-                                            port = f1.split("/")[len(basepath.split("/"))].split("_")[-1]
+                                            port = f1.split("/")[base_split_len].split("_")[-1]
                                             ports[port][1] += zf.getinfo(f1).file_size
                                     self.nodes[node_id] = (name, ports)
                 if key == "connections":
