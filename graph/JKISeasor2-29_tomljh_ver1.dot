@@ -1,11 +1,11 @@
 digraph {
-	"-5174887764238823278_4" [label="Hierarchical Cluster View"]
-	"-5174887764238823278_2" [label="Distance Matrix Calculate"]
-	"-5174887764238823278_1" [label="CSV Reader"]
-	"-5174887764238823278_3" [label="Hierarchical Clustering _DistMatrix_"]
-	"-5174887764238823278_1" -> "-5174887764238823278_2" [label="data: : 55255"]
-	"-5174887764238823278_2" -> "-5174887764238823278_3" [label="data: : 22907"]
-	"-5174887764238823278_3" -> "-5174887764238823278_4" [label="object: : 1640"]
-	"-5174887764238823278_2" -> "-5174887764238823278_4" [label="data: : 22907"]
+	"3519685031265644689_3" [label="Hierarchical Clustering _DistMatrix_"]
+	"3519685031265644689_1" [label="CSV Reader"]
+	"3519685031265644689_4" [label="Hierarchical Cluster View"]
+	"3519685031265644689_2" [label="Distance Matrix Calculate"]
+	"3519685031265644689_3" -> "3519685031265644689_4" [label="object: 1640; is_blocking: True"]
+	"3519685031265644689_2" -> "3519685031265644689_4" [label="data: 22907; is_blocking: False"]
+	"3519685031265644689_1" -> "3519685031265644689_2" [label="data: 55255; is_blocking: False"]
+	"3519685031265644689_2" -> "3519685031265644689_3" [label="data: 22907; is_blocking: False"]
 	rankdir=LR
 }

@@ -1,6 +1,6 @@
 digraph {
-	"-1562279707611704755_2" [label="Conda Environment Propagation"]
-	"-1562279707611704755_1" [label="Python Script"]
-	"-1562279707611704755_2" -> "-1562279707611704755_1" [label="object: : 288"]
+	"-1439947827614164033_1" [label="Python Script"]
+	"-1439947827614164033_2" [label="Conda Environment Propagation"]
+	"-1439947827614164033_2" -> "-1439947827614164033_1" [label="object: 288; is_blocking: True"]
 	rankdir=LR
 }

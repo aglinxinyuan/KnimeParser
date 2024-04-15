@@ -1,8 +1,8 @@
 digraph {
-	"5383632315552846789_3" [label="Interactive Segmentation View"]
-	"5383632315552846789_1" [label="Image Reader"]
-	"5383632315552846789_2" [label="Connected Component Analysis"]
-	"5383632315552846789_1" -> "5383632315552846789_2" [label="data: : 2136"]
-	"5383632315552846789_2" -> "5383632315552846789_3" [label="data: : 2139"]
+	"-3986290360229118932_1" [label="Image Reader"]
+	"-3986290360229118932_2" [label="Connected Component Analysis"]
+	"-3986290360229118932_3" [label="Interactive Segmentation View"]
+	"-3986290360229118932_2" -> "-3986290360229118932_3" [label="data: 2139; is_blocking: False"]
+	"-3986290360229118932_1" -> "-3986290360229118932_2" [label="data: 2136; is_blocking: False"]
 	rankdir=LR
 }

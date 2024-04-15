@@ -3,7 +3,6 @@ from xml.etree import ElementTree
 from zipfile import ZipFile
 from graphviz import Digraph
 import networkx as nx
-import os
 
 
 class Parser:
@@ -37,9 +36,9 @@ class Parser:
                                         if f1.startswith(basepath + "/port_"):
                                             port = f1.split("/")[base_split_len].split("_")[-1]
                                             if f1.endswith("/data.xml"):
-                                                ports[port] = ["data: ", 0]
+                                                ports[port] = ["data: ", 0, False]
                                             if f1.endswith("/object/portobject.zip"):
-                                                ports[port] = ["object: ", 0]
+                                                ports[port] = ["object: ", 0, False]
                                     for f1 in zf.namelist():
                                         if f1.startswith(basepath + "/port_"):
                                             port = f1.split("/")[base_split_len].split("_")[-1]
@@ -67,6 +66,7 @@ class Parser:
         return meta_inputs, meta_outputs
 
     def __init__(self, filename, view=False):
+        print(filename)
         with open("blocking.txt") as file:
             self.blocking_op = set([line.strip() for line in file.readlines()])
         self.metanodes = dict()
@@ -114,25 +114,25 @@ class Parser:
         for id in op_list:
             name = self.nodes[id][0]
             output = self.nodes[id][1]
-            if name in self.blocking_op:
-                self.blocking += len(output)
-            else:
-                for port in output.values():
-                    if port[0]=="object: ":
-                        self.blocking += 1
+
+            for key, value in output.items():
+                if name in self.blocking_op or value[0] == "object: ":
+                    self.blocking += 1
+                    self.nodes[id][1][key][2] = True
             graph.node(name=id, label=name)
 
         for source, dest in unique_edges:
             nx_graph.add_edge(source[0], dest[0])
-            lab = self.nodes[source[0]][1][source[1]]
-            graph.edge(source[0], dest[0], label=lab[0] + ": " + str(lab[1]))
+            a = self.nodes[source[0]][1]
+            lab = a[source[1]]
+            graph.edge(source[0], dest[0], label=lab[0] + str(lab[1])+"; is_blocking: "+str(lab[2]))
 
         output = "graph/" + filename.split("/")[-1].split(".")[0]
         graph.attr(rankdir='LR')
         graph.render(filename=output + ".dot", view=view)
         cycles = nx.find_cycle(nx_graph)
         content = (f"Workflow Name: {workflow_name}\n"
-                   f"Tree: {len(cycles) == 0}\n"
+                   f"Tree: FALSE"
                    f"Operators: {len(op_list)}\n"
                    f"Edges: {len(unique_edges)}\n"
                    f"Blocking edges: {self.blocking}\n"
@@ -148,11 +148,13 @@ class Parser:
                    )
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
-        #print(content)
+        print(content)
 
 
 if __name__ == "__main__":
     Parser("examples/02.knwf", True)
+
+    #Parser("workflows/00 Keras Simple Linear Regression.knwf", True)
     #Parser("KNIME_textanalysis_group_project_PA_final.knwf", True)
     #Parser("workflows/(test) credit score model.knwf", True)
     #Parser("workflows/フロー変数の接続によるノード実行順序の制御.knwf", False)

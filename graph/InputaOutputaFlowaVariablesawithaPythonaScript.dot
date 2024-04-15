@@ -1,8 +1,8 @@
 digraph {
-	"-8354811318644230862_7" [label="Python Script _Labs_"]
-	"-8354811318644230862_5" [label="Variable Creator"]
-	"-8354811318644230862_6" [label="Table Creator"]
-	"-8354811318644230862_5" -> "-8354811318644230862_7" [label="object: : 288"]
-	"-8354811318644230862_6" -> "-8354811318644230862_7" [label="data: : 2908"]
+	"6884969822186164950_7" [label="Python Script _Labs_"]
+	"6884969822186164950_6" [label="Table Creator"]
+	"6884969822186164950_5" [label="Variable Creator"]
+	"6884969822186164950_6" -> "6884969822186164950_7" [label="data: 2908; is_blocking: True"]
+	"6884969822186164950_5" -> "6884969822186164950_7" [label="object: 288; is_blocking: True"]
 	rankdir=LR
 }

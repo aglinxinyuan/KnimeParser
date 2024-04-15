@@ -1,8 +1,8 @@
 digraph {
-	"6115327471032678167_2" [label="Data to Report"]
-	"6115327471032678167_1" [label="Data Generator"]
-	"6115327471032678167_3" [label="Radar Plot Appender"]
-	"6115327471032678167_3" -> "6115327471032678167_2" [label="data: : 18359"]
-	"6115327471032678167_1" -> "6115327471032678167_3" [label="data: : 10236"]
+	"9037478543214303277_1" [label="Data Generator"]
+	"9037478543214303277_2" [label="Data to Report"]
+	"9037478543214303277_3" [label="Radar Plot Appender"]
+	"9037478543214303277_3" -> "9037478543214303277_2" [label="data: 18359; is_blocking: False"]
+	"9037478543214303277_1" -> "9037478543214303277_3" [label="data: 10236; is_blocking: False"]
 	rankdir=LR
 }

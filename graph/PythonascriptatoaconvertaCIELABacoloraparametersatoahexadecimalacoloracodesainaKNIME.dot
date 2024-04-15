@@ -1,10 +1,10 @@
 digraph {
-	"6610148854077261242_5" [label="Conda Environment Propagation"]
-	"6610148854077261242_3" [label="Python Script"]
-	"6610148854077261242_6" [label="Table Writer"]
-	"6610148854077261242_2" [label="CSV Reader"]
-	"6610148854077261242_5" -> "6610148854077261242_3" [label="object: : 288"]
-	"6610148854077261242_3" -> "6610148854077261242_6" [label="data: : 10020"]
-	"6610148854077261242_2" -> "6610148854077261242_3" [label="data: : 7971"]
+	"-3167721985078254454_6" [label="Table Writer"]
+	"-3167721985078254454_5" [label="Conda Environment Propagation"]
+	"-3167721985078254454_2" [label="CSV Reader"]
+	"-3167721985078254454_3" [label="Python Script"]
+	"-3167721985078254454_3" -> "-3167721985078254454_6" [label="data: 10020; is_blocking: False"]
+	"-3167721985078254454_2" -> "-3167721985078254454_3" [label="data: 7971; is_blocking: False"]
+	"-3167721985078254454_5" -> "-3167721985078254454_3" [label="object: 288; is_blocking: True"]
 	rankdir=LR
 }

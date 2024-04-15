@@ -1,6 +1,6 @@
 digraph {
-	"1456712520474257208_1" [label="Table Creator"]
-	"1456712520474257208_2" [label="JSON Column Combiner"]
-	"1456712520474257208_1" -> "1456712520474257208_2" [label="data: : 2730"]
+	"1413131943275148345_2" [label="JSON Column Combiner"]
+	"1413131943275148345_1" [label="Table Creator"]
+	"1413131943275148345_1" -> "1413131943275148345_2" [label="data: 2730; is_blocking: True"]
 	rankdir=LR
 }

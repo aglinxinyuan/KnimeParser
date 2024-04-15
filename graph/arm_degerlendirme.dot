@@ -1,10 +1,10 @@
 digraph {
-	"-2139611709501613526_3" [label="Create Collection Column"]
-	"-2139611709501613526_1" [label="Table Reader"]
-	"-2139611709501613526_4" [label="Association Rule Learner"]
-	"-2139611709501613526_2" [label="Cell Splitter"]
-	"-2139611709501613526_2" -> "-2139611709501613526_3" [label="data: : 201799"]
-	"-2139611709501613526_1" -> "-2139611709501613526_2" [label="data: : 127868"]
-	"-2139611709501613526_3" -> "-2139611709501613526_4" [label="data: : 179189"]
+	"-788526991482041108_3" [label="Create Collection Column"]
+	"-788526991482041108_1" [label="Table Reader"]
+	"-788526991482041108_2" [label="Cell Splitter"]
+	"-788526991482041108_4" [label="Association Rule Learner"]
+	"-788526991482041108_3" -> "-788526991482041108_4" [label="data: 179189; is_blocking: False"]
+	"-788526991482041108_1" -> "-788526991482041108_2" [label="data: 127868; is_blocking: False"]
+	"-788526991482041108_2" -> "-788526991482041108_3" [label="data: 201799; is_blocking: False"]
 	rankdir=LR
 }

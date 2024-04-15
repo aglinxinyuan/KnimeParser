@@ -1,12 +1,12 @@
 digraph {
-	"7745659925226079492_5" [label="DB Query Reader"]
-	"7745659925226079492_4" [label="DB Writer"]
-	"7745659925226079492_1" [label="SQLite Connector"]
-	"7745659925226079492_6" [label="MySQL Connector"]
-	"7745659925226079492_7" [label="DB Connection Closer"]
-	"7745659925226079492_5" -> "7745659925226079492_4" [label="data: : 53100"]
-	"7745659925226079492_1" -> "7745659925226079492_5" [label="object: : 4001"]
-	"7745659925226079492_6" -> "7745659925226079492_4" [label="object: : 3945"]
-	"7745659925226079492_4" -> "7745659925226079492_7" [label="object: : 4330"]
+	"8724494263414690429_1" [label="SQLite Connector"]
+	"8724494263414690429_6" [label="MySQL Connector"]
+	"8724494263414690429_7" [label="DB Connection Closer"]
+	"8724494263414690429_4" [label="DB Writer"]
+	"8724494263414690429_5" [label="DB Query Reader"]
+	"8724494263414690429_4" -> "8724494263414690429_7" [label="object: 4330; is_blocking: True"]
+	"8724494263414690429_1" -> "8724494263414690429_5" [label="object: 4001; is_blocking: True"]
+	"8724494263414690429_6" -> "8724494263414690429_4" [label="object: 3945; is_blocking: True"]
+	"8724494263414690429_5" -> "8724494263414690429_4" [label="data: 53100; is_blocking: False"]
 	rankdir=LR
 }

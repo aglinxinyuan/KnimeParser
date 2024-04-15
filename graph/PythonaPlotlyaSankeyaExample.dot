@@ -1,8 +1,8 @@
 digraph {
-	"-6538412407674006246_1" [label="Python View"]
-	"-6538412407674006246_3" [label="Conda Environment Propagation"]
-	"-6538412407674006246_2" [label="Table Creator"]
-	"-6538412407674006246_3" -> "-6538412407674006246_1" [label="object: : 288"]
-	"-6538412407674006246_2" -> "-6538412407674006246_1" [label="data: : 7976"]
+	"-576932629212358438_3" [label="Conda Environment Propagation"]
+	"-576932629212358438_2" [label="Table Creator"]
+	"-576932629212358438_1" [label="Python View"]
+	"-576932629212358438_2" -> "-576932629212358438_1" [label="data: 7976; is_blocking: True"]
+	"-576932629212358438_3" -> "-576932629212358438_1" [label="object: 288; is_blocking: True"]
 	rankdir=LR
 }

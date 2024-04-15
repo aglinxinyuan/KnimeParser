@@ -1,10 +1,10 @@
 digraph {
-	"2578556725309155480_1" [label="Snowflake Connector"]
-	"2578556725309155480_2" [label="DB Table Selector"]
-	"2578556725309155480_4" [label="DB Row Filter"]
-	"2578556725309155480_3" [label="DB Reader"]
-	"2578556725309155480_1" -> "2578556725309155480_2" [label="object: : 4035"]
-	"2578556725309155480_2" -> "2578556725309155480_4" [label="object: : 5422"]
-	"2578556725309155480_4" -> "2578556725309155480_3" [label="object: : 5650"]
+	"1440310941384813976_4" [label="DB Row Filter"]
+	"1440310941384813976_3" [label="DB Reader"]
+	"1440310941384813976_2" [label="DB Table Selector"]
+	"1440310941384813976_1" [label="Snowflake Connector"]
+	"1440310941384813976_4" -> "1440310941384813976_3" [label="object: 5650; is_blocking: True"]
+	"1440310941384813976_2" -> "1440310941384813976_4" [label="object: 5422; is_blocking: True"]
+	"1440310941384813976_1" -> "1440310941384813976_2" [label="object: 4035; is_blocking: True"]
 	rankdir=LR
 }

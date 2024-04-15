@@ -1,10 +1,10 @@
 digraph {
-	"-3250794259564034441_2" [label=Normalizer]
-	"-3250794259564034441_5" [label="PortObject Reference Reader"]
-	"-3250794259564034441_6" [label="Decision Tree Predictor"]
-	"-3250794259564034441_7" [label="Excel Reader _XLS_"]
-	"-3250794259564034441_5" -> "-3250794259564034441_6" [label="object: : 3547"]
-	"-3250794259564034441_2" -> "-3250794259564034441_6" [label="data: : 30855"]
-	"-3250794259564034441_7" -> "-3250794259564034441_2" [label="data: : 31454"]
+	"-5153885444243578603_2" [label=Normalizer]
+	"-5153885444243578603_7" [label="Excel Reader _XLS_"]
+	"-5153885444243578603_5" [label="PortObject Reference Reader"]
+	"-5153885444243578603_6" [label="Decision Tree Predictor"]
+	"-5153885444243578603_7" -> "-5153885444243578603_2" [label="data: 31454; is_blocking: False"]
+	"-5153885444243578603_5" -> "-5153885444243578603_6" [label="object: 3547; is_blocking: True"]
+	"-5153885444243578603_2" -> "-5153885444243578603_6" [label="data: 30855; is_blocking: True"]
 	rankdir=LR
 }

@@ -1,10 +1,10 @@
 digraph {
-	"-8069918739855042339_1" [label="Microsoft SQL Server Connector"]
-	"-8069918739855042339_2" [label="Microsoft SQL Server Connector"]
-	"-8069918739855042339_5" [label="DB Merge"]
-	"-8069918739855042339_3" [label="DB Query Reader"]
-	"-8069918739855042339_1" -> "-8069918739855042339_3" [label="object: : 4032"]
-	"-8069918739855042339_2" -> "-8069918739855042339_5" [label="object: : 4032"]
-	"-8069918739855042339_3" -> "-8069918739855042339_5" [label="data: : 62354"]
+	"5089536098609176137_2" [label="Microsoft SQL Server Connector"]
+	"5089536098609176137_3" [label="DB Query Reader"]
+	"5089536098609176137_1" [label="Microsoft SQL Server Connector"]
+	"5089536098609176137_5" [label="DB Merge"]
+	"5089536098609176137_3" -> "5089536098609176137_5" [label="data: 62354; is_blocking: False"]
+	"5089536098609176137_1" -> "5089536098609176137_3" [label="object: 4032; is_blocking: True"]
+	"5089536098609176137_2" -> "5089536098609176137_5" [label="object: 4032; is_blocking: True"]
 	rankdir=LR
 }

@@ -8,3 +8,6 @@ with tqdm(total=len(workflows)) as pbar:
     with ThreadPoolExecutor() as executor:
         for future in as_completed([executor.submit(Parser, "workflows/" + filename) for filename in workflows]):
             pbar.update(1)
+
+#for filename in workflows:
+#    Parser("workflows/" + filename)

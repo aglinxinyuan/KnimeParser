@@ -1,8 +1,8 @@
 digraph {
-	"6183081784457232152_1" [label="CSV Reader"]
-	"6183081784457232152_2" [label=Partitioning]
-	"6183081784457232152_3" [label="Decision Tree Learner"]
-	"6183081784457232152_1" -> "6183081784457232152_2" [label="data: : 6215570"]
-	"6183081784457232152_2" -> "6183081784457232152_3" [label="data: : 31271"]
+	"1963505996949488917_1" [label="CSV Reader"]
+	"1963505996949488917_2" [label=Partitioning]
+	"1963505996949488917_3" [label="Decision Tree Learner"]
+	"1963505996949488917_2" -> "1963505996949488917_3" [label="data: 31271; is_blocking: True"]
+	"1963505996949488917_1" -> "1963505996949488917_2" [label="data: 6215570; is_blocking: False"]
 	rankdir=LR
 }
