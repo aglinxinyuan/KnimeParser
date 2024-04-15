@@ -127,11 +127,8 @@ class Parser:
 
         for source, dest in unique_edges:
             nx_graph.add_edge(source[0], dest[0])
-            a = self.nodes[source[0]][1]
-            print(a)
-            lab = a[source[1]]
-
-            graph.edge(source[0], dest[0], label=lab[0] + str(lab[1])+"; is_blocking: "+str(lab[2]))
+            data = self.nodes[source[0]][1][source[1]]
+            graph.edge(source[0], dest[0], label=data[0] + str(data[1])+"; is_blocking: "+str(data[2]))
 
         output = "graph/" + filename.split("/")[-1].split(".")[0]
         graph.attr(rankdir='LR')
