@@ -30,7 +30,6 @@ class Parser:
                                         self.metanodes[node_id] = [meta_source, meta_dest]
                                 else:
                                     name = metafile[:metafile.rfind(" ")]
-                                    print(name)
                                     ports = {}
                                     base_split_len = len(basepath.split("/"))
                                     for f1 in zf.namelist():
@@ -154,7 +153,8 @@ class Parser:
                    )
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
-        print(content)
+        if view:
+            print(content)
 
 
 if __name__ == "__main__":
