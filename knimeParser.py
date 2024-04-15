@@ -3,51 +3,66 @@ from xml.etree import ElementTree
 from zipfile import ZipFile
 from graphviz import Digraph
 import networkx as nx
+import os
 
 
 class Parser:
     def parse(self, zf, filename):
         meta_inputs = []
         meta_outputs = []
-        node_hash = str(hash(filename))+"_"
+        node_hash = str(hash(filename)) + "_"
         with zf.open(filename) as file:
             root = ElementTree.parse(file).getroot()
             for child in root:
                 key = child.attrib["key"]
                 if key == "nodes":
                     for node in child:
-                        node_id = node_hash+node.attrib["key"].split("_")[1]
+                        node_id = node_hash + node.attrib["key"].split("_")[1]
                         is_meta = False
                         for entry in reversed(node):
                             if entry.attrib["key"] == "node_is_meta" and entry.attrib["value"] == "true":
                                 is_meta = True
                             elif entry.attrib["key"] == "node_settings_file":
                                 metafile = entry.attrib["value"].split("/")[0]
+                                basepath = filename[:-14] + metafile
                                 if is_meta:
-                                    meta_source, meta_dest = self.parse(zf,
-                                                                        filename[:-14] + metafile + "/workflow.knime")
+                                    meta_source, meta_dest = self.parse(zf, basepath + "/workflow.knime")
                                     if meta_source or meta_dest:
                                         self.metanodes[node_id] = [meta_source, meta_dest]
                                 else:
                                     name = metafile[:metafile.rfind(" ")]
-                                    self.nodes[node_id] = name
+                                    ports = {}
+                                    for f1 in zf.namelist():
+                                        if f1.startswith(basepath + "/port_"):
+                                            port = f1.split("/")[len(basepath.split("/"))].split("_")[-1]
+                                            if f1.endswith("/data.xml"):
+                                                ports[port] = ["data: ", 0]
+                                            if f1.endswith("/object/portobject.zip"):
+                                                ports[port] = ["object: ", 0]
+                                    for f1 in zf.namelist():
+                                        if f1.startswith(basepath + "/port_"):
+                                            port = f1.split("/")[len(basepath.split("/"))].split("_")[-1]
+                                            ports[port][1] += zf.getinfo(f1).file_size
+                                    self.nodes[node_id] = (name, ports)
                 if key == "connections":
                     for connection in child:
                         for entry in connection:
                             if entry.attrib["key"] == "sourceID":
-                                source = node_hash+entry.attrib["value"]
+                                source = node_hash + entry.attrib["value"]
                             if entry.attrib["key"] == "destID":
-                                dest = node_hash+entry.attrib["value"]
+                                dest = node_hash + entry.attrib["value"]
                             if entry.attrib["key"] == "sourcePort":
                                 source_port = entry.attrib["value"]
                             if entry.attrib["key"] == "destPort":
                                 dest_port = entry.attrib["value"]
-                        if source == node_hash+"-1":
-                            meta_inputs.append((dest, dest_port))
-                        elif dest == node_hash+"-1":
-                            meta_outputs.append((source, source_port))
+                        source_tuple = (source, source_port)
+                        dest_tuple = (dest, dest_port)
+                        if source == node_hash + "-1":
+                            meta_inputs.append(dest_tuple)
+                        elif dest == node_hash + "-1":
+                            meta_outputs.append(source_tuple)
                         else:
-                            self.edges.append(((source, source_port), (dest, dest_port)))
+                            self.edges.append((source_tuple, dest_tuple))
         return meta_inputs, meta_outputs
 
     def __init__(self, filename, view=False):
@@ -83,13 +98,12 @@ class Parser:
 
         unique_edges = set()
         for source, dest in set(self.edges):
-            unique_edges.add((source[0], dest[0]))
+            unique_edges.add((source, dest))
             out_degree[source[0]] += 1
             in_degree[dest[0]] += 1
             in_port[dest[0]].append(dest[1])
             out_port[source[0]].append(source[1])
         nx_graph = nx.Graph()
-
 
         mult_in = [len(in_port[node]) for node in in_port if len(in_port[node]) > 1]
         mult_out = [len(out_port[node]) for node in out_port if len(out_port[node]) > 1]
@@ -97,14 +111,15 @@ class Parser:
         graph = Digraph()
         op_list = set([element[0] for tup in self.edges for element in tup])
         for id in op_list:
-            name = self.nodes[id]
+            name = self.nodes[id][0]
             if name in self.blocking_op:
                 self.blocking += 1
             graph.node(name=id, label=name)
 
         for source, dest in unique_edges:
-            nx_graph.add_edge(source, dest)
-            graph.edge(source, dest)
+            nx_graph.add_edge(source[0], dest[0])
+            lab = self.nodes[source[0]][1][source[1]]
+            graph.edge(source[0], dest[0], label=lab[0] + ": " + str(lab[1]))
 
         output = "graph/" + filename.split("/")[-1].split(".")[0]
         graph.attr(rankdir='LR')
@@ -113,7 +128,7 @@ class Parser:
         content = (f"Workflow Name: {workflow_name}\n"
                    f"Tree: {len(cycles) != 0}\n"
                    f"Operators: {len(op_list)}\n"
-                   f"Edges: {len(self.edges)}\n"
+                   f"Edges: {len(unique_edges)}\n"
                    f"Blocking edges: {self.blocking}\n"
                    f"Operators with multiple input ports: {len(mult_in)}\n"
                    f"Operators with multiple output ports: {len(mult_out)}\n"
@@ -125,7 +140,6 @@ class Parser:
                    f"MAX outdegree of an operator: {max(out_degree.values())}\n"
                    f"# edges in an undirected cycle: {len(cycles)}\n"
                    )
-        #print(content)
         with open(output + ".txt", "w", encoding="utf-8") as file:
             file.write(content)
 
