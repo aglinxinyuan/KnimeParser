@@ -1,0 +1,25 @@
+
+{
+    "type":"object",
+    "properties":{
+        "Input-355":{
+            "type":"object",
+            "properties":{
+                "content":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"What a crappy flight, I hated it! It was the worst experience ever"
+                    }
+                }
+            },
+            "description":"",
+            "example":{
+                "content":[
+                    "What a crappy flight, I hated it! It was the worst experience ever",
+                    "What a lovely flight! I had the best time!!!"
+                ]
+            }
+        }
+    }
+}
